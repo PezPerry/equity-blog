@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jet2 (JET2) — Buy: The Market Is Missing the Opportunity</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css"/>
+<style>
+  :root {
+    --vanquis-deep: #1B2A4A;
+    --vanquis-mid: #2D4A7A;
+    --vanquis-accent: #E8453C;
+    --vanquis-light: #F0F4F8;
+    --vanquis-gold: #D4A853;
+    --text-primary: #1a1a2e;
+    --text-secondary: #4a5568;
+    --text-muted: #718096;
+    --bg-white: #ffffff;
+    --border-light: #e2e8f0;
+    --positive: #16A34A;
+    --negative: #DC2626;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'DM Sans', sans-serif; color: var(--text-primary); background: #f5f5f0; line-height: 1.7; }
+
+  .hero-banner { background: linear-gradient(135deg, var(--vanquis-deep) 0%, var(--vanquis-mid) 60%, #3A5C8A 100%); padding: 2.5rem 2rem 1.8rem; position: relative; overflow: hidden; }
+  .hero-banner::before { content: ''; position: absolute; top: -40%; right: -10%; width: 500px; height: 500px; background: radial-gradient(circle, rgba(212,168,83,0.12) 0%, transparent 70%); border-radius: 50%; }
+  .hero-banner::after { content: ''; position: absolute; bottom: 0; left: 0; right: 0; height: 4px; background: linear-gradient(90deg, var(--vanquis-accent), var(--vanquis-gold), var(--vanquis-accent)); }
+  .hero-inner { max-width: 900px; margin: 0 auto; position: relative; z-index: 1; }
+
+  .stat-row { display: grid; grid-template-columns: 2fr 1fr 1fr 1.3fr; gap: 0; }
+  .stat-box { background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.15); padding: 0.9rem 1.2rem; backdrop-filter: blur(4px); animation: fadeUp 0.5s ease-out both; }
+  .stat-box:first-child { border-radius: 8px 0 0 8px; }
+  .stat-box:last-child { border-radius: 0 8px 8px 0; }
+  .stat-box:not(:last-child) { border-right: none; }
+  .stat-box:nth-child(1) { animation-delay: 0.1s; }
+  .stat-box:nth-child(2) { animation-delay: 0.2s; }
+  .stat-box:nth-child(3) { animation-delay: 0.3s; }
+  .stat-box:nth-child(4) { animation-delay: 0.4s; }
+  .stat-label { font-size: 0.7rem; color: rgba(255,255,255,0.5); text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 0.25rem; font-weight: 500; }
+  .stat-value { font-family: 'Playfair Display', serif; font-size: 1.15rem; color: white; font-weight: 700; }
+  .stat-value.positive { color: #81C995; }
+  .stat-value.negative { color: #FF8A80; }
+
+  .article-container { max-width: 900px; margin: 0 auto; padding: 0 2rem 4rem; background: var(--bg-white); border-radius: 0 0 12px 12px; box-shadow: 0 4px 24px rgba(0,0,0,0.06); }
+  .meta-bar { display: flex; align-items: center; justify-content: space-between; padding: 1.2rem 0; border-bottom: 1px solid var(--border-light); margin-bottom: 2rem; }
+  .meta-date { font-size: 0.85rem; color: var(--text-muted); }
+  .meta-grade { display: flex; align-items: center; gap: 0.5rem; }
+  .grade-badge { background: var(--vanquis-deep); color: white; font-size: 0.75rem; font-weight: 700; padding: 0.25rem 0.65rem; border-radius: 4px; letter-spacing: 0.5px; }
+  .grade-label { font-size: 0.8rem; color: var(--text-muted); }
+
+  .article-title { font-family: 'Playfair Display', serif; font-size: 2.1rem; font-weight: 800; color: var(--text-primary); line-height: 1.25; margin-bottom: 1.8rem; letter-spacing: -0.5px; }
+  h2 { font-family: 'DM Sans', sans-serif; font-size: 1.3rem; font-weight: 700; color: var(--vanquis-deep); margin: 2.5rem 0 1rem; padding-bottom: 0.4rem; border-bottom: 2px solid var(--vanquis-accent); display: inline-block; }
+  .h2-wrapper { margin: 2.5rem 0 1rem; }
+
+  p { margin-bottom: 1rem; font-size: 1rem; color: var(--text-secondary); }
+  strong, b { color: var(--text-primary); font-weight: 600; }
+
+  ul { margin: 0.8rem 0 1.2rem 1.5rem; list-style: none; }
+  ul li { position: relative; padding-left: 1rem; margin-bottom: 0.7rem; font-size: 0.95rem; color: var(--text-secondary); }
+  ul li::before { content: ''; position: absolute; left: 0; top: 0.6rem; width: 6px; height: 6px; background: var(--vanquis-accent); border-radius: 50%; }
+
+  .summary-box { background: var(--vanquis-light); border-left: 4px solid var(--vanquis-deep); border-radius: 0 8px 8px 0; padding: 1.4rem 1.6rem; margin-bottom: 2rem; }
+  .summary-box ul li::before { background: var(--vanquis-deep); }
+
+  .table-label { font-size: 0.85rem; font-weight: 700; color: var(--vanquis-deep); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 0.5rem; }
+  table { width: 100%; border-collapse: collapse; margin-bottom: 1.5rem; font-size: 0.9rem; }
+  thead th { background: var(--vanquis-deep); color: white; padding: 0.65rem 0.9rem; text-align: left; font-weight: 600; font-size: 0.8rem; letter-spacing: 0.3px; }
+  thead th:first-child { border-radius: 6px 0 0 0; }
+  thead th:last-child { border-radius: 0 6px 0 0; }
+  tbody td { padding: 0.55rem 0.9rem; border-bottom: 1px solid var(--border-light); }
+  tbody tr:nth-child(even) { background: #f8fafc; }
+  tbody tr:last-child td:first-child { border-radius: 0 0 0 6px; }
+  tbody tr:last-child td:last-child { border-radius: 0 0 6px 0; }
+  td.positive { color: var(--positive); font-weight: 600; }
+  td.negative { color: var(--negative); font-weight: 600; }
+  td.bold { font-weight: 700; color: var(--text-primary); }
+
+  .callout { border-left: 4px solid; border-radius: 0 8px 8px 0; padding: 1rem 1.3rem; margin: 1.5rem 0; font-size: 0.9rem; font-style: italic; }
+  .callout-beginner { background: #EFF6FF; border-color: #3B82F6; color: #1E40AF; }
+  .callout-title { font-weight: 700; font-style: normal; display: block; margin-bottom: 0.3rem; font-size: 0.8rem; letter-spacing: 0.5px; text-transform: uppercase; }
+
+  .verdict-box { background: linear-gradient(135deg, var(--vanquis-deep), var(--vanquis-mid)); color: white; border-radius: 10px; padding: 1.8rem 2rem; margin: 2rem 0; }
+  .verdict-box h3 { font-family: 'Playfair Display', serif; font-size: 1.4rem; margin-bottom: 0.8rem; color: var(--vanquis-gold); }
+  .verdict-box p { color: rgba(255,255,255,0.9); margin-bottom: 0.7rem; }
+  .verdict-box strong { color: white; }
+
+  .disclaimer { margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--border-light); font-size: 0.78rem; color: var(--text-muted); line-height: 1.6; }
+
+  @media (max-width: 700px) {
+    .stat-row { grid-template-columns: 1fr 1fr; }
+    .stat-box:first-child { border-radius: 8px 0 0 0; }
+    .stat-box:nth-child(2) { border-radius: 0 8px 0 0; border-right: 1px solid rgba(255,255,255,0.15); }
+    .stat-box:nth-child(3) { border-radius: 0; border-top: none; }
+    .stat-box:last-child { border-radius: 0 0 8px 0; border-top: none; }
+    .article-title { font-size: 1.6rem; }
+    .hero-banner { padding: 1.5rem 1.2rem; }
+    .article-container { padding: 0 1.2rem 3rem; }
+    table { font-size: 0.8rem; }
+  }
+  @keyframes fadeUp { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
+</style>
+</head>
+<body>
+
+<!-- ═══════════ HERO BANNER ═══════════ -->
+<header class="hero-banner">
+  <div class="hero-inner">
+    <div class="stat-row">
+      <div class="stat-box">
+        <div class="stat-label">Company</div>
+        <div class="stat-value">Jet2</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-label">Ticker</div>
+        <div class="stat-value">JET2</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-label">Probability</div>
+        <div class="stat-value">60%</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-label">Value Opportunity</div>
+        <div class="stat-value positive">+145.8%</div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ═══════════ ARTICLE ═══════════ -->
+<main class="article-container">
+
+  <div class="meta-bar">
+    <span class="meta-date">February 2026 · Trading Update &amp; H1 FY2026 Results</span>
+    <div class="meta-grade">
+      <span class="grade-label">Research Grade</span>
+      <span class="grade-badge">B</span>
+    </div>
+  </div>
+
+  <h1 class="article-title">The Market Is Missing the Opportunity</h1>
+
+  <!-- ── BRIEFING ── -->
+  <div class="summary-box">
+    <p style="font-weight:600;color:var(--vanquis-deep);margin-bottom:0.6rem;">Briefing</p>
+    <ul>
+      <li><strong>Thesis:</strong> Jet2 is a well-run leisure travel business with a strategy that is clearly working — package holidays now account for over 80% of revenue and 66.5% of passengers, up 17 percentage points since 2019. The Gatwick launch on 26 March 2026 puts 90% of the UK population within a 90-minute drive of a Jet2 base.</li>
+      <li><strong>Valuation view:</strong> On my numbers, the value opportunity is +145.8%. Expected earnings per share of 203p on a growth rate of 10% and a valuation multiple of 8 produces a formula valuation of 2,923p versus a current share price of 1,189p.</li>
+      <li><strong>Key risk:</strong> Negative airline sentiment has pushed the share price down 32% since June last year. Short interest is approximately 1% and rising. Near-term headwinds from new base start-up costs.</li>
+      <li><strong>Key catalyst:</strong> Gatwick launch, continued capacity growth (+8.9% summer 2026 seats), and the buyback programme should drive earnings momentum once base consolidation is complete.</li>
+      <li><strong>Overall stance:</strong> Buy, but acknowledge near-term sentiment headwinds.</li>
+    </ul>
+  </div>
+
+  <!-- ── BUSINESS MODEL ── -->
+  <div class="h2-wrapper"><h2>Business Model</h2></div>
+  <p>Jet2 is a United Kingdom-based leisure travel company. It operates through two closely linked offerings: <strong>Jet2.com</strong>, the airline which flies scheduled holiday flights to leisure destinations across the Mediterranean, the Canary Islands, and European cities, and <strong>Jet2holidays</strong>, the UK's largest tour operator by customer numbers, which packages those flights with hotel accommodation and other services.</p>
+  <p>The key to the model is the <strong>integration between airline and package holidays</strong>. All Jet2holidays customers fly on Jet2.com flights, meaning the two businesses are inextricably linked. Package holidays now account for 66.5% of passengers (up 17 percentage points since 2019) and over 80% of revenue. This is significant because package holiday customers tend to book earlier, spend more, and provide more predictable revenue than flight-only passengers.</p>
+  <p>The company also operates the brands Jet2CityBreaks, Jet2Villas, Indulgent Escapes, and VIBE by Jet2holidays. As of February 2026, Jet2 flies from 13 UK airport bases, with a 14th — London Gatwick — launching on 26 March 2026.</p>
+
+  <!-- European destination map -->
+  <div style="background:#f8fafc;border-radius:10px;padding:1.5rem;margin:1.5rem 0;">
+    <p class="table-label">Where Jet2 flies — European and North African destinations</p>
+    <div id="euroMap" style="width:100%;height:450px;border-radius:8px;border:1px solid #e2e8f0;"></div>
+    <p style="font-size:0.78rem;color:var(--text-muted);margin-top:0.6rem;">Jet2 flies to over 75 destinations across the Mediterranean, Canary Islands, European cities, North Africa, and Iceland. Source: Jet2.com, FlightConnections (March 2026).</p>
+  </div>
+
+  <!-- ── WHAT MATTERS ── -->
+  <div class="h2-wrapper"><h2>What Matters for This Company</h2></div>
+  <ul>
+    <li><strong>Package holiday mix:</strong> The higher the proportion of passengers booking package holidays, the better the revenue quality. At 66.5% of passengers and over 80% of revenue, this mix is at a record high and still climbing.</li>
+    <li><strong>Capacity growth:</strong> Summer 2026 capacity is set at 20.1 million seats, up 8.9% year-on-year. Winter 2025/26 capacity was 5.5 million seats, up 7.7%. More seats generally means more revenue — but only if they can be filled at sensible prices.</li>
+    <li><strong>Base expansion and consolidation:</strong> Jet2 has opened several new bases recently (Bournemouth, Luton, and now Gatwick). New bases do not immediately reach full profit contribution — they need time to bed in, and there are start-up costs. The Gatwick base is expected to reach profitability in FY 2029, with start-up costs of £10–15 million.</li>
+    <li><strong>Fleet modernisation:</strong> The company is adding Airbus A321neo aircraft to its fleet (31 by summer 2026). These are more fuel-efficient and have higher seat capacity than older models, which should support margins over time.</li>
+    <li><strong>Balance sheet strength:</strong> The company holds £3.4 billion in cash. This is unusually strong and gives significant financial flexibility for investment, buybacks, and weathering any downturn.</li>
+    <li><strong>Share buybacks:</strong> Jet2 completed a £250 million buyback programme and has announced a new £100 million programme. Buybacks reduce the number of shares in issue, which increases earnings per share even if total profit stays flat.</li>
+  </ul>
+
+  <div class="callout callout-beginner">
+    <span class="callout-title">🎓 Clarity</span>
+    <strong>Why does the package holiday mix matter so much?</strong> A flight-only customer books a seat and that is the end of the relationship. A package holiday customer books a flight, hotel, transfers, and often extras — all through Jet2. This means higher revenue per customer, earlier booking (which helps cash flow and planning), and stronger customer loyalty. A rising package mix is a sign that the business model is deepening its relationship with customers.
+  </div>
+
+  <!-- ── GATWICK LAUNCH ── -->
+  <div class="h2-wrapper"><h2>Gatwick Launch</h2></div>
+  <p><strong>Jet2 is launching at London Gatwick on 26 March 2026</strong> — it is one month away at the time of writing. After the Gatwick launch, 90% of the UK population will be within a 90-minute drive of one of Jet2's bases. This takes the total number of UK bases to 14.</p>
+
+  <!-- UK bases map -->
+  <div style="background:#f8fafc;border-radius:10px;padding:1.5rem;margin:1.5rem 0;">
+    <p class="table-label">Jet2's 14 UK airport bases</p>
+    <div id="ukMap" style="width:100%;height:500px;border-radius:8px;border:1px solid #e2e8f0;"></div>
+    <p style="font-size:0.78rem;color:var(--text-muted);margin-top:0.6rem;">After the Gatwick launch, 90% of the UK population will be within a 90-minute drive of a Jet2 base. Source: Jet2 FY2026 results presentation.</p>
+  </div>
+  <p>The Gatwick operation is expected to reach profitability in <strong>FY 2029</strong>, with meaningful profit growth thereafter. Start-up costs are expected to be £10–15 million. This is strategically important because it further opens up the London and South East market, which is the largest addressable market for leisure travel in the UK.</p>
+
+  <div class="callout callout-beginner">
+    <span class="callout-title">🎓 Clarity</span>
+    <strong>Why does it take three years for a new base to become profitable?</strong> When an airline opens a new base, it needs to build brand awareness in the local area, recruit staff, negotiate airport slot agreements, and gradually increase the number of routes it operates. In the early years, planes may not fly full and marketing spend is high. Over time, as the base matures and fills its routes, it moves from loss-making to profitable. This is a normal pattern for airline base expansion.
+  </div>
+
+  <!-- ── PROFIT GUIDANCE ── -->
+  <div class="h2-wrapper"><h2>Recent Performance and Financials</h2></div>
+  <p>Operating profit is expected to be £439 million, which is down from £446.5 million the year before. This may not be the end of the world since there will be additional costs relating to the London Gatwick base launch, including promotional and resourcing start-up costs. I'm expecting operating profit for the current/past year to be slightly lower, heavily due to expansion.</p>
+
+  <p class="table-label">Capacity and trading</p>
+  <table>
+    <thead><tr><th>Metric</th><th>Guidance</th></tr></thead>
+    <tbody>
+      <tr><td>Summer 2026 capacity</td><td class="bold">20.1m seats (+8.9% year-on-year)</td></tr>
+      <tr><td>Winter 2025/26 capacity</td><td>5.5m seats (+7.7% year-on-year)</td></tr>
+      <tr><td>Operating profit (expected)</td><td>£439m (FY 2024: £446.5m)</td></tr>
+    </tbody>
+  </table>
+
+  <p class="table-label">Strategic indicators</p>
+  <table>
+    <thead><tr><th>Metric</th><th>Figure</th></tr></thead>
+    <tbody>
+      <tr><td>Package holidays as % of passengers</td><td class="bold">66.5% (up 17ppts since 2019)</td></tr>
+      <tr><td>Package holidays as % of revenue</td><td class="bold">Over 80%</td></tr>
+      <tr><td>Cash on balance sheet</td><td>£3.4bn</td></tr>
+      <tr><td>Buyback completed</td><td>£250m</td></tr>
+      <tr><td>New buyback announced</td><td>£100m</td></tr>
+      <tr><td>A321neo aircraft by summer 2026</td><td>31</td></tr>
+      <tr><td>UK bases (post-Gatwick launch)</td><td>14</td></tr>
+      <tr><td>UK population within 90-min drive</td><td>90%</td></tr>
+    </tbody>
+  </table>
+
+  <!-- ── SHARE PRICE ── -->
+  <div class="h2-wrapper"><h2>Share Price Dynamics</h2></div>
+  <p>The share price is <strong>down 32% since June last year</strong>. Over the past month it has been trading sideways. Short interest is approximately 1% — not exactly high, but it rose at the end of January and was added to during February.</p>
+  <p>I don't like how airlines have been trending recently. I can see this negative sentiment continuing for a bit. The shorters are present, even if not in large numbers.</p>
+
+  <!-- ── CHART: Share price ── -->
+  <div style="background:#f8fafc;border-radius:10px;padding:1.5rem;margin:1.5rem 0;">
+    <p class="table-label">Jet2 (JET2) — share price (last 12 months)</p>
+    <canvas id="priceChart" style="width:100%;max-height:340px;"></canvas>
+    <p style="font-size:0.78rem;color:var(--text-muted);margin-top:0.6rem;">Source: London Stock Exchange data, approximate monthly closing prices. 52-week range: 1,088p–1,963p. Price as at article date: 1,189p.</p>
+  </div>
+
+  <!-- ── VALUATION ── -->
+  <div class="h2-wrapper"><h2>Valuation</h2></div>
+  <p>The market doesn't value the opportunities of Jet2 in the way I would. The +145.8% value opportunity seems high but is what the numbers produce.</p>
+
+  <p class="table-label">Valuation drivers</p>
+  <table>
+    <thead><tr><th>Metric</th><th>Figure</th></tr></thead>
+    <tbody>
+      <tr><td>Expected earnings per share</td><td class="bold">203p</td></tr>
+      <tr><td>Growth rate</td><td>10%</td></tr>
+      <tr><td>Valuation multiple</td><td>8</td></tr>
+      <tr><td class="bold">Value opportunity</td><td class="positive">+145.8%</td></tr>
+    </tbody>
+  </table>
+
+  <p>The 10% growth rate reflects: capacity increasing 8%, share buyback adding approximately 5%, but kept conservative due to the base consolidation phase. The growth rate could arguably be higher given the expansion trajectory.</p>
+
+  <p class="table-label">VALUATION SNAPSHOT</p>
+  <table>
+    <thead><tr><th>Metric</th><th>Figure</th></tr></thead>
+    <tbody>
+      <tr><td>Current share price</td><td>1,189.00p</td></tr>
+      <tr><td>Shares in issue</td><td>185.491m</td></tr>
+      <tr><td>Market capitalisation</td><td>£2,205m</td></tr>
+      <tr><td>Earnings per share (expected)</td><td>203p</td></tr>
+      <tr><td>Price-to-earnings ratio</td><td>6.3x</td></tr>
+      <tr><td>Growth rate</td><td>10%</td></tr>
+      <tr><td>Dividend yield</td><td>1.3%</td></tr>
+      <tr><td>Formula valuation</td><td class="bold">2,923.20p</td></tr>
+      <tr><td>Valued capitalisation</td><td>£5,422.34m</td></tr>
+      <tr><td>Value opportunity</td><td class="positive">+145.8%</td></tr>
+      <tr><td>Risk factor</td><td>20%</td></tr>
+      <tr><td>Research grade</td><td>B</td></tr>
+      <tr><td class="bold">Proposed action</td><td class="bold">Buy</td></tr>
+    </tbody>
+  </table>
+
+  <!-- ── RISKS ── -->
+  <div class="h2-wrapper"><h2>Risks and What Could Go Wrong</h2></div>
+  <ul>
+    <li><strong>Airline sector sentiment:</strong> The broader airline sector has been trending negatively. This sentiment headwind could persist regardless of Jet2's own operational performance, keeping the share price suppressed.</li>
+    <li><strong>Short interest rising:</strong> While only approximately 1%, the fact that short positions increased through January and February is worth watching. A further increase could signal growing bearish conviction.</li>
+    <li><strong>New base start-up costs:</strong> Bournemouth, Luton, and Gatwick are all relatively new bases that will take time to reach full profit contribution. Start-up costs (£10–15 million for Gatwick alone) will weigh on near-term profitability.</li>
+    <li><strong>Operating profit declining:</strong> Expected operating profit of £439 million is down from £446.5 million the prior year. While largely explained by expansion costs, a declining headline profit number in an environment of negative airline sentiment is unhelpful.</li>
+    <li><strong>Fuel and foreign exchange risk:</strong> As an airline, Jet2 is exposed to fuel costs (priced in US dollars) and currency fluctuations. A sharp rise in oil prices or a weakening pound could squeeze margins.</li>
+    <li><strong>Consumer confidence:</strong> Leisure travel is discretionary spending. A deterioration in UK consumer confidence — from rising mortgage rates, economic weakness, or geopolitical events — could slow booking rates.</li>
+  </ul>
+
+  <!-- ── WHAT WOULD CHANGE MY MIND ── -->
+  <div class="h2-wrapper"><h2>What Would Change My Mind</h2></div>
+  <ul>
+    <li><strong>Sustained deterioration in sales rates:</strong> If forward booking trends weakened materially beyond normal seasonal patterns, it would signal a demand problem rather than a sentiment problem.</li>
+    <li><strong>Package mix reversal:</strong> If the package holiday mix began to decline, it would suggest the strategy is losing momentum — this would be a significant negative signal.</li>
+    <li><strong>Short interest rising above 3%:</strong> A meaningful increase in short positions would warrant closer attention to whether the bears are seeing something in the data that I am missing.</li>
+    <li><strong>Gatwick costs significantly above £15 million:</strong> If the start-up costs materially exceeded guidance, it would raise questions about cost discipline and planning accuracy.</li>
+    <li><strong>Cash balance declining sharply:</strong> The £3.4 billion cash position is a key strength. Any material reduction without a corresponding investment return would be concerning.</li>
+  </ul>
+
+  <!-- ── CONCLUSION ── -->
+  <div class="verdict-box">
+    <h3>Conclusion — Buy</h3>
+    <p><strong>The market doesn't value the opportunities of Jet2 in the way I would.</strong> The +145.8% value opportunity seems high but is what the numbers produce.</p>
+    <p>The Gatwick launch is strategically important and expands the addressable market significantly. The company strategy is working — package holidays, customer retention, fleet modernisation, strong balance sheet.</p>
+    <p>However, the general trend in airline sentiment is a negative. Short-term caution warranted; long-term thesis remains intact.</p>
+    <p><strong>Rating: Buy (but acknowledge near-term sentiment headwinds)</strong></p>
+    <p><strong>Value opportunity: +145.8%</strong></p>
+  </div>
+
+  <!-- ── DISCLAIMER ── -->
+  <div class="disclaimer">
+    <strong>Disclaimer:</strong> This article is for information and education only and is not financial advice. I am not a financial adviser. Investing involves risk, including loss of capital. Do your own research and consider seeking independent advice. See full disclaimer: <a href="#">[INSERT LINK TO DISCLAIMER PAGE]</a>.
+  </div>
+
+</main>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script>
+// ─── European Destination Map ───
+var euroMap = L.map('euroMap', {scrollWheelZoom: false}).setView([42, 5], 4);
+L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+  attribution: '&copy; OpenStreetMap &copy; CARTO', maxZoom: 10
+}).addTo(euroMap);
+
+var ukCenter = [53.5, -1.5];
+var baseIcon = L.divIcon({className:'',html:'<div style="width:14px;height:14px;background:#1B2A4A;border:2px solid white;border-radius:50%;box-shadow:0 2px 6px rgba(0,0,0,0.3);"></div>',iconSize:[14,14],iconAnchor:[7,7]});
+var destIcon = L.divIcon({className:'',html:'<div style="width:10px;height:10px;background:#E8453C;border:2px solid white;border-radius:50%;box-shadow:0 1px 4px rgba(0,0,0,0.3);"></div>',iconSize:[10,10],iconAnchor:[5,5]});
+
+L.marker(ukCenter, {icon: baseIcon}).addTo(euroMap).bindPopup('<b>UK — 14 Jet2 bases</b>');
+
+var destinations = [
+  {n:'Alicante',c:[38.28,-0.56]},{n:'Málaga',c:[36.68,-4.50]},{n:'Barcelona',c:[41.30,2.08]},{n:'Palma de Mallorca',c:[39.55,2.74]},{n:'Menorca',c:[39.86,4.22]},{n:'Ibiza',c:[38.87,1.37]},
+  {n:'Tenerife',c:[28.04,-16.57]},{n:'Lanzarote',c:[28.95,-13.61]},{n:'Gran Canaria',c:[27.93,-15.39]},{n:'Fuerteventura',c:[28.45,-13.86]},{n:'La Palma',c:[28.63,-17.76]},
+  {n:'Faro',c:[37.02,-7.97]},{n:'Funchal (Madeira)',c:[32.69,-16.77]},
+  {n:'Nice',c:[43.66,7.22]},{n:'Chambéry',c:[45.64,5.88]},{n:'Grenoble',c:[45.36,5.33]},
+  {n:'Rome',c:[41.80,12.24]},{n:'Naples',c:[40.88,14.29]},{n:'Venice',c:[45.50,12.35]},{n:'Pisa',c:[43.68,10.40]},{n:'Catania',c:[37.47,15.07]},{n:'Olbia',c:[40.90,9.52]},{n:'Verona',c:[45.40,10.89]},{n:'Palermo',c:[38.18,13.10]},{n:'Turin',c:[45.20,7.65]},
+  {n:'Dubrovnik',c:[42.56,18.27]},{n:'Split',c:[43.54,16.30]},
+  {n:'Athens',c:[37.94,23.94]},{n:'Heraklion (Crete)',c:[35.34,25.18]},{n:'Corfu',c:[39.60,19.91]},{n:'Rhodes',c:[36.41,28.09]},{n:'Kos',c:[36.79,27.09]},{n:'Zakynthos',c:[37.75,20.88]},{n:'Santorini',c:[36.39,25.48]},{n:'Kefalonia',c:[38.12,20.50]},{n:'Skiathos',c:[39.18,23.50]},{n:'Thessaloniki',c:[40.52,22.97]},{n:'Preveza',c:[38.95,20.77]},{n:'Kalamata',c:[37.07,22.03]},
+  {n:'Dalaman',c:[36.71,28.79]},{n:'Antalya',c:[36.90,30.80]},{n:'Bodrum',c:[37.25,27.67]},{n:'İzmir',c:[38.29,27.16]},
+  {n:'Paphos',c:[34.72,32.49]},{n:'Larnaca',c:[34.88,33.63]},
+  {n:'Malta',c:[35.86,14.48]},
+  {n:'Marrakech',c:[31.61,-8.04]},{n:'Agadir',c:[30.33,-9.41]},
+  {n:'Reykjavik',c:[63.99,-22.62]},
+  {n:'Geneva',c:[46.24,6.11]},{n:'Innsbruck',c:[47.26,11.34]},{n:'Salzburg',c:[47.79,13.00]},
+  {n:'Prague',c:[50.10,14.26]},{n:'Budapest',c:[47.44,19.26]},{n:'Krakow',c:[50.08,19.79]},
+  {n:'Tallinn',c:[59.42,24.83]},
+  {n:'Jerez',c:[36.74,-6.06]},{n:'Almería',c:[36.84,-2.37]},{n:'Girona',c:[41.90,2.76]},{n:'Reus',c:[41.15,1.17]}
+];
+
+destinations.forEach(function(d) {
+  L.marker(d.c, {icon: destIcon}).addTo(euroMap).bindPopup(d.n);
+  L.polyline([ukCenter, d.c], {color:'#E8453C', weight:1, opacity:0.2, dashArray:'4 4'}).addTo(euroMap);
+});
+
+var euroLegend = L.control({position:'bottomright'});
+euroLegend.onAdd = function() {
+  var div = L.DomUtil.create('div');
+  div.style.cssText = 'background:white;padding:10px 14px;border-radius:8px;font-family:DM Sans;font-size:12px;box-shadow:0 2px 8px rgba(0,0,0,0.15);line-height:1.8;';
+  div.innerHTML = '<span style="display:inline-block;width:10px;height:10px;background:#1B2A4A;border-radius:50%;margin-right:6px;vertical-align:middle;"></span>UK base<br><span style="display:inline-block;width:10px;height:10px;background:#E8453C;border-radius:50%;margin-right:6px;vertical-align:middle;"></span>Destination (75+)';
+  return div;
+};
+euroLegend.addTo(euroMap);
+
+// ─── UK Bases Map ───
+var ukMap = L.map('ukMap', {scrollWheelZoom: false}).setView([54.0, -2.5], 6);
+L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+  attribution: '&copy; OpenStreetMap &copy; CARTO', maxZoom: 12
+}).addTo(ukMap);
+
+var estIcon = L.divIcon({className:'',html:'<div style="width:14px;height:14px;background:#E8453C;border:2.5px solid white;border-radius:50%;box-shadow:0 2px 6px rgba(0,0,0,0.35);"></div>',iconSize:[14,14],iconAnchor:[7,7]});
+var hqIcon = L.divIcon({className:'',html:'<div style="width:18px;height:18px;background:#1B2A4A;border:3px solid #D4A853;border-radius:50%;box-shadow:0 2px 8px rgba(0,0,0,0.4);"></div>',iconSize:[18,18],iconAnchor:[9,9]});
+var newIcon = L.divIcon({className:'',html:'<div style="width:16px;height:16px;background:#D4A853;border:2.5px solid white;border-radius:50%;box-shadow:0 2px 8px rgba(0,0,0,0.4);"></div>',iconSize:[16,16],iconAnchor:[8,8]});
+
+var ukBases = [
+  {n:'Belfast International',c:[54.66,-6.22],t:'est'},
+  {n:'Glasgow',c:[55.87,-4.43],t:'est'},
+  {n:'Edinburgh',c:[55.95,-3.37],t:'est'},
+  {n:'Newcastle',c:[55.04,-1.69],t:'est'},
+  {n:'Leeds Bradford (HQ)',c:[53.87,-1.66],t:'hq'},
+  {n:'Manchester',c:[53.35,-2.28],t:'est'},
+  {n:'Liverpool',c:[53.33,-2.85],t:'est'},
+  {n:'East Midlands',c:[52.83,-1.33],t:'est'},
+  {n:'Birmingham',c:[52.45,-1.75],t:'est'},
+  {n:'London Stansted',c:[51.89,0.26],t:'est'},
+  {n:'London Luton',c:[51.87,-0.37],t:'est'},
+  {n:'London Gatwick (NEW — Mar 2026)',c:[51.15,-0.18],t:'new'},
+  {n:'Bristol',c:[51.38,-2.72],t:'est'},
+  {n:'Bournemouth',c:[50.78,-1.84],t:'est'}
+];
+
+ukBases.forEach(function(b) {
+  var icon = b.t === 'hq' ? hqIcon : b.t === 'new' ? newIcon : estIcon;
+  L.marker(b.c, {icon: icon}).addTo(ukMap).bindPopup('<b>' + b.n + '</b>' + (b.t === 'hq' ? '<br>Jet2 Headquarters' : b.t === 'new' ? '<br>Launching 26 March 2026' : ''));
+});
+
+// Legend
+var ukLegend = L.control({position:'bottomright'});
+ukLegend.onAdd = function() {
+  var div = L.DomUtil.create('div');
+  div.style.cssText = 'background:white;padding:10px 14px;border-radius:8px;font-family:DM Sans;font-size:11px;box-shadow:0 2px 8px rgba(0,0,0,0.15);line-height:2;';
+  div.innerHTML = '<span style="display:inline-block;width:12px;height:12px;background:#E8453C;border:2px solid white;border-radius:50%;margin-right:6px;vertical-align:middle;box-shadow:0 1px 3px rgba(0,0,0,0.2);"></span>Established base (13)<br><span style="display:inline-block;width:12px;height:12px;background:#D4A853;border:2px solid white;border-radius:50%;margin-right:6px;vertical-align:middle;box-shadow:0 1px 3px rgba(0,0,0,0.2);"></span>New — Gatwick (Mar 2026)<br><span style="display:inline-block;width:12px;height:12px;background:#1B2A4A;border:2px solid #D4A853;border-radius:50%;margin-right:6px;vertical-align:middle;box-shadow:0 1px 3px rgba(0,0,0,0.2);"></span>Headquarters (Leeds Bradford)';
+  return div;
+};
+ukLegend.addTo(ukMap);
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<script>
+// ─── Share Price Chart (last 12 months) ───
+const ctx = document.getElementById('priceChart').getContext('2d');
+// Approximate monthly close data: peaked ~1,963p June 2025, declined ~32% to ~1,189p
+const priceLabels = ['Mar 25','Apr 25','May 25','Jun 25','Jul 25','Aug 25','Sep 25','Oct 25','Nov 25','Dec 25','Jan 26','Feb 26'];
+const priceData = [1680, 1780, 1900, 1963, 1850, 1750, 1650, 1500, 1350, 1330, 1310, 1189];
+const valuationLine = priceLabels.map(() => 2923.20);
+
+new Chart(ctx, {
+  type: 'line',
+  data: {
+    labels: priceLabels,
+    datasets: [
+      {
+        label: 'Share price (p)',
+        data: priceData,
+        borderColor: '#1B2A4A',
+        backgroundColor: function(context) {
+          const chart = context.chart;
+          const {ctx, chartArea} = chart;
+          if (!chartArea) return 'rgba(27,42,74,0.1)';
+          const gradient = ctx.createLinearGradient(0, chartArea.top, 0, chartArea.bottom);
+          gradient.addColorStop(0, 'rgba(27,42,74,0.18)');
+          gradient.addColorStop(1, 'rgba(27,42,74,0.02)');
+          return gradient;
+        },
+        borderWidth: 3,
+        pointBackgroundColor: function(context) {
+          const i = context.dataIndex;
+          if (i === priceData.length - 1) return '#E8453C';
+          if (priceData[i] === Math.max(...priceData)) return '#D4A853';
+          return '#1B2A4A';
+        },
+        pointRadius: function(context) {
+          const i = context.dataIndex;
+          if (i === 0 || i === priceData.length - 1 || priceData[i] === Math.max(...priceData)) return 6;
+          return 3;
+        },
+        pointHoverRadius: 8,
+        fill: true,
+        tension: 0.35
+      },
+      {
+        label: 'My valuation (2,923p)',
+        data: valuationLine,
+        borderColor: '#D4A853',
+        borderWidth: 2,
+        borderDash: [8, 4],
+        pointRadius: 0,
+        pointHoverRadius: 0,
+        fill: false
+      }
+    ]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: true,
+    interaction: { mode: 'index', intersect: false },
+    plugins: {
+      legend: { position: 'bottom', labels: { font: { family: 'DM Sans', size: 12 }, padding: 20, usePointStyle: true } },
+      tooltip: {
+        backgroundColor: '#1B2A4A', titleFont: { family: 'DM Sans', weight: '600' }, bodyFont: { family: 'DM Sans' }, padding: 12, cornerRadius: 8,
+        callbacks: { label: function(ctx) { return ctx.dataset.label + ': ' + ctx.parsed.y.toFixed(0) + 'p'; } }
+      }
+    },
+    scales: {
+      y: { title: { display: true, text: 'Share price (pence)', font: { family: 'DM Sans', size: 11 }, color: '#718096' }, min: 800, max: 3200, grid: { color: 'rgba(0,0,0,0.06)' }, ticks: { font: { family: 'DM Sans', size: 11 }, color: '#718096', callback: v => v + 'p' } },
+      x: { grid: { display: false }, ticks: { font: { family: 'DM Sans', size: 11, weight: '500' }, color: '#4a5568' } }
+    }
+  }
+});
+</script>
+</body>
+</html>
