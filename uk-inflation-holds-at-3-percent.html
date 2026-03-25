@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="UK headline CPI held at 3.0% in February 2026, but core inflation ticked up to 3.2%. With markets pricing multiple Bank of England rate hikes and economists pushing back, the gap creates potential opportunity in housebuilders and airlines.">
+<title>UK Inflation Holds at 3% — Markets May Be Pricing a Bank of England Response That Never Comes</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --vanquis-deep: #1B2A4A;
+    --vanquis-mid: #2D4A7A;
+    --vanquis-accent: #E8453C;
+    --vanquis-light: #F0F4F8;
+    --vanquis-gold: #D4A853;
+    --text-primary: #1a1a2e;
+    --text-secondary: #4a5568;
+    --text-muted: #718096;
+    --bg-white: #ffffff;
+    --border-light: #e2e8f0;
+    --positive: #16A34A;
+    --negative: #DC2626;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'DM Sans', sans-serif; color: var(--text-primary); background: #f5f5f0; line-height: 1.7; }
+
+  .hero-banner { background: linear-gradient(135deg, var(--vanquis-deep) 0%, var(--vanquis-mid) 60%, #3A5C8A 100%); padding: 2.5rem 2rem 1.8rem; position: relative; overflow: hidden; }
+  .hero-banner::before { content: ''; position: absolute; top: -40%; right: -10%; width: 500px; height: 500px; background: radial-gradient(circle, rgba(212,168,83,0.12) 0%, transparent 70%); border-radius: 50%; }
+  .hero-banner::after { content: ''; position: absolute; bottom: 0; left: 0; right: 0; height: 4px; background: linear-gradient(90deg, var(--vanquis-accent), var(--vanquis-gold), var(--vanquis-accent)); }
+  .hero-inner { max-width: 900px; margin: 0 auto; position: relative; z-index: 1; }
+
+  .stat-row { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 0; }
+  .stat-box { background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.15); padding: 0.9rem 1.2rem; backdrop-filter: blur(4px); animation: fadeUp 0.5s ease-out both; }
+  .stat-box:first-child { border-radius: 8px 0 0 8px; }
+  .stat-box:last-child { border-radius: 0 8px 8px 0; }
+  .stat-box:not(:last-child) { border-right: none; }
+  .stat-box:nth-child(1) { animation-delay: 0.1s; }
+  .stat-box:nth-child(2) { animation-delay: 0.2s; }
+  .stat-box:nth-child(3) { animation-delay: 0.3s; }
+  .stat-box:nth-child(4) { animation-delay: 0.4s; }
+  .stat-label { font-size: 0.7rem; color: rgba(255,255,255,0.5); text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 0.25rem; font-weight: 500; }
+  .stat-value { font-family: 'Playfair Display', serif; font-size: 1.15rem; color: white; font-weight: 700; }
+  .stat-value.positive { color: #81C995; }
+  .stat-value.negative { color: #FF8A80; }
+
+  .article-container { max-width: 900px; margin: 0 auto; padding: 0 2rem 4rem; background: var(--bg-white); border-radius: 0 0 12px 12px; box-shadow: 0 4px 24px rgba(0,0,0,0.06); }
+  .meta-bar { display: flex; align-items: center; justify-content: space-between; padding: 1.2rem 0; border-bottom: 1px solid var(--border-light); margin-bottom: 2rem; }
+  .meta-date { font-size: 0.85rem; color: var(--text-muted); }
+  .meta-grade { display: flex; align-items: center; gap: 0.5rem; }
+  .grade-badge { background: var(--vanquis-deep); color: white; font-size: 0.75rem; font-weight: 700; padding: 0.25rem 0.65rem; border-radius: 4px; letter-spacing: 0.5px; }
+  .grade-label { font-size: 0.8rem; color: var(--text-muted); }
+
+  .article-title { font-family: 'Playfair Display', serif; font-size: 2.1rem; font-weight: 800; color: var(--text-primary); line-height: 1.25; margin-bottom: 1.8rem; letter-spacing: -0.5px; }
+  h2 { font-family: 'DM Sans', sans-serif; font-size: 1.3rem; font-weight: 700; color: var(--vanquis-deep); margin: 2.5rem 0 1rem; padding-bottom: 0.4rem; border-bottom: 2px solid var(--vanquis-accent); display: inline-block; }
+  .h2-wrapper { margin: 2.5rem 0 1rem; }
+
+  p { margin-bottom: 1rem; font-size: 1rem; color: var(--text-secondary); }
+  strong, b { color: var(--text-primary); font-weight: 600; }
+
+  ul { margin: 0.8rem 0 1.2rem 1.5rem; list-style: none; }
+  ul li { position: relative; padding-left: 1rem; margin-bottom: 0.7rem; font-size: 0.95rem; color: var(--text-secondary); }
+  ul li::before { content: ''; position: absolute; left: 0; top: 0.6rem; width: 6px; height: 6px; background: var(--vanquis-accent); border-radius: 50%; }
+
+  .summary-box { background: var(--vanquis-light); border-left: 4px solid var(--vanquis-deep); border-radius: 0 8px 8px 0; padding: 1.4rem 1.6rem; margin-bottom: 2rem; }
+  .summary-box ul li::before { background: var(--vanquis-deep); }
+
+  .table-label { font-size: 0.85rem; font-weight: 700; color: var(--vanquis-deep); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 0.5rem; }
+  table { width: 100%; border-collapse: collapse; margin-bottom: 1.5rem; font-size: 0.9rem; }
+  thead th { background: var(--vanquis-deep); color: white; padding: 0.65rem 0.9rem; text-align: left; font-weight: 600; font-size: 0.8rem; letter-spacing: 0.3px; }
+  thead th:first-child { border-radius: 6px 0 0 0; }
+  thead th:last-child { border-radius: 0 6px 0 0; }
+  tbody td { padding: 0.55rem 0.9rem; border-bottom: 1px solid var(--border-light); }
+  tbody tr:nth-child(even) { background: #f8fafc; }
+  tbody tr:last-child td:first-child { border-radius: 0 0 0 6px; }
+  tbody tr:last-child td:last-child { border-radius: 0 0 6px 0; }
+  td.positive { color: var(--positive); font-weight: 600; }
+  td.negative { color: var(--negative); font-weight: 600; }
+  td.bold { font-weight: 700; color: var(--text-primary); }
+
+  .callout { border-left: 4px solid; border-radius: 0 8px 8px 0; padding: 1rem 1.3rem; margin: 1.5rem 0; font-size: 0.9rem; font-style: italic; }
+  .callout-beginner { background: #EFF6FF; border-color: #3B82F6; color: #1E40AF; }
+  .callout-title { font-weight: 700; font-style: normal; display: block; margin-bottom: 0.3rem; font-size: 0.8rem; letter-spacing: 0.5px; text-transform: uppercase; }
+
+  .verdict-box { background: linear-gradient(135deg, var(--vanquis-deep), var(--vanquis-mid)); color: white; border-radius: 10px; padding: 1.8rem 2rem; margin: 2rem 0; }
+  .verdict-box h3 { font-family: 'Playfair Display', serif; font-size: 1.4rem; margin-bottom: 0.8rem; color: var(--vanquis-gold); }
+  .verdict-box p { color: rgba(255,255,255,0.9); margin-bottom: 0.7rem; }
+  .verdict-box strong { color: white; }
+
+  .chart-container { background: #f8fafc; border-radius: 10px; padding: 1.5rem; margin: 1.5rem 0; }
+  .chart-legend { display: flex; flex-wrap: wrap; gap: 16px; margin-bottom: 12px; font-size: 0.78rem; color: var(--text-muted); }
+  .chart-legend span { display: flex; align-items: center; gap: 5px; }
+  .legend-dot { width: 10px; height: 10px; border-radius: 2px; }
+  .legend-dash { width: 16px; height: 0; border-top: 2px dashed #16A34A; }
+
+  .disclaimer { margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--border-light); font-size: 0.78rem; color: var(--text-muted); line-height: 1.6; }
+
+  @media (max-width: 700px) {
+    .stat-row { grid-template-columns: 1fr 1fr; }
+    .stat-box:first-child { border-radius: 8px 0 0 0; }
+    .stat-box:nth-child(2) { border-radius: 0 8px 0 0; border-right: 1px solid rgba(255,255,255,0.15); }
+    .stat-box:nth-child(3) { border-radius: 0 0 8px 8px; border-top: none; grid-column: 1 / -1; }
+    .article-title { font-size: 1.6rem; }
+    .hero-banner { padding: 1.5rem 1.2rem; }
+    .article-container { padding: 0 1.2rem 3rem; }
+    table { font-size: 0.8rem; }
+  }
+  @keyframes fadeUp { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
+</style>
+</head>
+<body>
+
+<!-- ═══════════ HERO BANNER ═══════════ -->
+<header class="hero-banner">
+  <div class="hero-inner">
+    <div class="stat-row">
+      <div class="stat-box">
+        <div class="stat-label">Topic</div>
+        <div class="stat-value">UK Inflation</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-label">Headline CPI</div>
+        <div class="stat-value">3.0%</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-label">Core CPI</div>
+        <div class="stat-value negative">3.2% ▲</div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ═══════════ ARTICLE ═══════════ -->
+<main class="article-container">
+
+  <div class="meta-bar">
+    <span class="meta-date">25 March 2026 · ONS Consumer Price Inflation Release — February 2026</span>
+    <div class="meta-grade">
+      <span class="grade-label">Macro Analysis</span>
+      <span class="grade-badge">MACRO</span>
+    </div>
+  </div>
+
+  <h1 class="article-title">Markets May Be Pricing a Bank of England Response That Never Comes</h1>
+
+  <p style="font-size:1.05rem;color:var(--text-secondary);margin-bottom:2rem;">Today's UK inflation landed exactly on the consensus: 3.0% in the year to February, unchanged from January. No drama in the headline. But underneath the surface, this was a mixed report — and the real story is not the number itself. It is the growing gulf between what the bond market expects the Bank of England to do and what most economists think will actually happen. That gap may be creating one of the more interesting risk-reward set-ups in UK equities right now.</p>
+
+  <!-- ── BRIEFING ── -->
+  <div class="summary-box">
+    <p style="font-weight:600;color:var(--vanquis-deep);margin-bottom:0.6rem;">Briefing</p>
+    <ul>
+      <li><strong>Headline:</strong> UK CPI held at 3.0% in February 2026, unchanged from January and exactly in line with expectations. CPIH also held steady at 3.2%.</li>
+      <li><strong>Under the surface:</strong> Core CPI ticked up to 3.2% from 3.1%, but services inflation — the Bank of England's preferred gauge of domestic price persistence — eased to 4.3%, its lowest since March 2022.</li>
+      <li><strong>Critical context:</strong> All February fuel prices were collected before the outbreak of war in the Middle East on 28 February. This release tells us what inflation looked like before the latest energy shock.</li>
+      <li><strong>The gap that matters:</strong> Markets have been pricing at least four rate hikes by December. Most economists disagree. That gap may be creating opportunity in rate-sensitive UK equities — particularly housebuilders and airlines.</li>
+    </ul>
+  </div>
+
+  <!-- ── WHAT THE NUMBERS SHOW ── -->
+  <div class="h2-wrapper"><h2>What the February Numbers Actually Show</h2></div>
+  <p>Standard inflation, or headline CPI, includes everything households buy. Core inflation strips out the more volatile categories — energy, food, alcohol and tobacco — to give a better read on underlying price pressure. In February, headline CPI stayed at 3.0%, bang on expectations. CPIH, the broader measure including owner-occupiers' housing costs, also held steady at 3.2%. That leaves inflation above the Bank's 2% target, but still at its lowest headline level since March 2025. (<strong>Office for National Statistics, Consumer price inflation bulletin, February 2026</strong>)</p>
+  <p>The detail, though, was not a clean "inflation is falling" story. Core CPI actually ticked <em>up</em> to 3.2% from 3.1%. But services inflation — which the Bank watches especially closely as a gauge of domestic price persistence — eased to 4.3% from 4.4%, its lowest since March 2022. Clothing was the biggest upward driver in the month, while motor fuels were the biggest downward offset. Food inflation eased to 3.3%, and alcohol prices were softer because of discounting. (<strong>ONS</strong>)</p>
+  <p>It's worth noting that the ONS confirmed all February fuel prices were collected <em>before</em> the outbreak of war in the Middle East on 28 February. This release tells us what inflation looked like just before the latest energy shock — not what it is about to become.</p>
+
+  <p class="table-label">February 2026 — Key inflation measures</p>
+  <table>
+    <thead><tr><th>Measure</th><th>February 2026</th><th>January 2026</th><th>Direction</th></tr></thead>
+    <tbody>
+      <tr><td>Headline CPI</td><td class="bold">3.0%</td><td>3.0%</td><td>Unchanged</td></tr>
+      <tr><td>CPIH</td><td>3.2%</td><td>3.2%</td><td>Unchanged</td></tr>
+      <tr><td>Core CPI</td><td class="bold">3.2%</td><td>3.1%</td><td class="negative">▲ Up</td></tr>
+      <tr><td>Services CPI</td><td>4.3%</td><td>4.4%</td><td class="positive">▼ Down</td></tr>
+      <tr><td>Food CPI</td><td>3.3%</td><td>3.6%</td><td class="positive">▼ Down</td></tr>
+    </tbody>
+  </table>
+
+  <!-- ── INTERACTIVE INFLATION CHART ── -->
+  <div class="chart-container">
+    <p class="table-label">UK CPI vs Core CPI — 3-year trend (March 2023 to February 2026)</p>
+    <div class="chart-legend">
+      <span><span class="legend-dot" style="background:#1B2A4A;"></span> Headline CPI</span>
+      <span><span class="legend-dot" style="background:#E8453C;"></span> Core CPI</span>
+      <span><span class="legend-dash"></span> BoE 2% target</span>
+    </div>
+    <div style="position:relative;width:100%;height:360px;">
+      <canvas id="inflationChart"></canvas>
+    </div>
+    <p style="font-size:0.78rem;color:var(--text-muted);margin-top:0.6rem;margin-bottom:0;">Source: ONS series D7G7 (CPI) and DKO8 (core CPI). Hover for monthly detail. February 2026 is the latest release.</p>
+  </div>
+
+  <div class="callout callout-beginner">
+    <span class="callout-title">🎓 Clarity</span>
+    <strong>What's the difference between headline and core inflation?</strong> Headline CPI measures the price change of everything households buy — including food, energy, and alcohol. Core CPI strips those volatile categories out to reveal the underlying trend in domestic prices. When headline and core diverge, it often means an external shock (like energy prices) is temporarily distorting the picture. That is exactly what we are seeing here.
+  </div>
+
+  <!-- ── BANK OF ENGLAND'S DILEMMA ── -->
+  <div class="h2-wrapper"><h2>The Bank of England's Dilemma</h2></div>
+  <p>The MPC voted unanimously on 18 March to keep Bank Rate at 3.75%. At the same time, it warned that the Middle East conflict had lifted global energy and commodity prices and that it stood ready to act if second-round inflation effects started taking hold. Reuters reported that the Bank has shifted its near-term inflation view higher, now expecting CPI to rise towards 3.5% by mid-year rather than falling back close to target. (<strong>Bank of England, Monetary Policy Summary, March 2026; Reuters, 24 March 2026</strong>)</p>
+  <p>That leaves the Bank caught between two very different risks. On one side is the inflation problem: higher oil, higher gas, and the danger that households and businesses start assuming higher prices are here to stay. On the other side is the growth problem: weaker confidence, weaker spending, softer labour demand and a more fragile economy overall. Fresh business surveys have shown the UK economy losing momentum, with March growth slowing to its weakest pace in six months, employment still falling, and manufacturers suffering their sharpest input-cost jump since 1992.</p>
+
+  <!-- ── MARKETS VS. ECONOMISTS ── -->
+  <div class="h2-wrapper"><h2>Markets vs. Economists — A Gap That Matters</h2></div>
+  <p>This is where the split becomes so important. The FT reported this week that economists broadly do not expect the Bank to raise rates this year, even as markets have lurched towards a far more hawkish view. Traders were, at one stage, pricing at least four Bank of England rate rises by December. That is an enormous gap between market pricing and the economist consensus. (<strong>Financial Times, "Markets wrong on UK interest rate rises, say economists"</strong>)</p>
+  <p>My own view is much closer to the economists. Yes, the Iran crisis can create a sharp, short-term lift in inflation and very likely a push higher in core inflation as energy, freight and imported cost pressures ripple through the system. But that is not the same thing as a sustained domestic inflation problem. Before this shock, the Bank itself said there had been continued disinflation in domestic prices and wages. A supply-side shock can lift prices and hurt confidence at the same time — and that combination argues for caution, not aggression.</p>
+  <p>Huw Pill has been clear that the Bank cannot ignore inflation risks, but Andrew Bailey has also warned against making firm bets on rate rises. I think they still have quite a long way to go before they would actually raise. My reading is that unless this crisis becomes materially more prolonged and pushes energy prices significantly higher again, the Bank is unlikely to move rates up from 3.75% any time soon.</p>
+
+  <!-- ── WHAT THIS MEANS FOR EQUITIES ── -->
+  <div class="h2-wrapper"><h2>What This Means for UK Equities</h2></div>
+  <p>For equity owners, this dynamic is potentially good news. Higher interest rates would be a clear negative for housebuilders and for consumer spending more broadly. But if the market has overreacted — and the Bank ultimately stays on hold — then some of the most depressed areas of the market may be pricing in too much bad news.</p>
+  <p>That is why I think there may be opportunity here, particularly in airlines and housebuilders. Both have been hit by macro fear and rate anxiety. If the inflation shock proves sharp but temporary, and if rates do not move higher from 3.75%, those sectors could look materially better over the long term than current valuations suggest. I'm not really seeing at this stage a compelling enough reason for the Bank to hike — and if that view proves correct, the market will have to reprice.</p>
+
+  <!-- ── VERDICT ── -->
+  <div class="verdict-box">
+    <h3>Key Takeaways</h3>
+    <p><strong>Headline CPI held at 3.0%</strong> in February, exactly as expected. Core CPI ticked up to 3.2%, but services inflation eased to its lowest since March 2022.</p>
+    <p><strong>All February fuel data was collected before the Middle East conflict.</strong> The next few prints will tell the real story.</p>
+    <p><strong>Markets are pricing multiple rate hikes this year; most economists disagree.</strong> The gap between market pricing and the economist consensus is striking — and it may be creating mispriced opportunities in rate-sensitive sectors.</p>
+    <p><strong>Unless the crisis escalates materially,</strong> the Bank is more likely to hold at 3.75% than hike. That makes housebuilders and airlines potentially mispriced.</p>
+    <p><strong>Watch for:</strong> how core and services inflation respond over the next two to three prints as the energy shock feeds through the system.</p>
+  </div>
+
+  <!-- ── SOURCES ── -->
+  <div style="margin-top:2rem;padding-top:1rem;border-top:1px solid var(--border-light);">
+    <p class="table-label">Sources</p>
+    <p style="font-size:0.82rem;color:var(--text-muted);margin-bottom:0.3rem;">1. Office for National Statistics — Consumer price inflation, UK: February 2026</p>
+    <p style="font-size:0.82rem;color:var(--text-muted);margin-bottom:0.3rem;">2. Bank of England — Monetary Policy Summary and Minutes, March 2026</p>
+    <p style="font-size:0.82rem;color:var(--text-muted);margin-bottom:0.3rem;">3. Financial Times — "Markets wrong on UK interest rate rises, say economists"</p>
+    <p style="font-size:0.82rem;color:var(--text-muted);margin-bottom:0.3rem;">4. Reuters — "Bank of England's Pill says uncertainty is no excuse for inaction on inflation risks", 24 March 2026</p>
+  </div>
+
+  <!-- ── DISCLAIMER ── -->
+  <div class="disclaimer">
+    <strong>Disclaimer:</strong> This article is for informational and educational purposes only and does not constitute financial advice. All views expressed are personal opinion. You should carry out your own research and/or seek professional advice before making any investment decision. Past performance is not a reliable indicator of future results. The author may hold positions in securities mentioned in this article.
+  </div>
+
+</main>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<script>
+var labels = [
+  'Mar 23','Apr 23','May 23','Jun 23','Jul 23','Aug 23','Sep 23','Oct 23','Nov 23','Dec 23',
+  'Jan 24','Feb 24','Mar 24','Apr 24','May 24','Jun 24','Jul 24','Aug 24','Sep 24','Oct 24','Nov 24','Dec 24',
+  'Jan 25','Feb 25','Mar 25','Apr 25','May 25','Jun 25','Jul 25','Aug 25','Sep 25','Oct 25','Nov 25','Dec 25',
+  'Jan 26','Feb 26'
+];
+var cpi = [
+  10.1, 8.7, 8.7, 7.9, 6.8, 6.7, 6.7, 4.6, 3.9, 4.0,
+  4.0, 3.4, 3.2, 2.3, 2.0, 2.0, 2.2, 2.2, 1.7, 2.3, 2.6, 2.5,
+  3.0, 2.8, 2.6, 3.5, 3.3, 3.5, 3.8, 3.5, 3.6, 3.6, 3.2, 3.4,
+  3.0, 3.0
+];
+var core = [
+  5.8, 6.8, 7.1, 6.9, 6.9, 6.2, 6.1, 5.7, 5.1, 5.1,
+  5.1, 4.5, 4.2, 3.9, 3.5, 3.5, 3.3, 3.6, 3.2, 3.3, 3.3, 3.2,
+  3.6, 3.7, 3.4, 3.8, 3.5, 3.5, 3.3, 3.1, 3.4, 3.4, 3.2, 3.2,
+  3.1, 3.2
+];
+
+var ctx = document.getElementById('inflationChart').getContext('2d');
+new Chart(ctx, {
+  type: 'line',
+  data: {
+    labels: labels,
+    datasets: [
+      {
+        label: 'Headline CPI',
+        data: cpi,
+        borderColor: '#1B2A4A',
+        backgroundColor: function(context) {
+          var chart = context.chart;
+          var area = chart.chartArea;
+          if (!area) return 'rgba(27,42,74,0.1)';
+          var gradient = chart.ctx.createLinearGradient(0, area.top, 0, area.bottom);
+          gradient.addColorStop(0, 'rgba(27,42,74,0.15)');
+          gradient.addColorStop(1, 'rgba(27,42,74,0.02)');
+          return gradient;
+        },
+        borderWidth: 2.5,
+        pointRadius: function(context) {
+          var i = context.dataIndex;
+          if (i === 0 || i === cpi.length - 1) return 5;
+          return 0;
+        },
+        pointBackgroundColor: function(context) {
+          var i = context.dataIndex;
+          if (i === cpi.length - 1) return '#E8453C';
+          return '#1B2A4A';
+        },
+        pointHoverRadius: 6,
+        pointHoverBackgroundColor: '#1B2A4A',
+        tension: 0.35,
+        fill: true
+      },
+      {
+        label: 'Core CPI',
+        data: core,
+        borderColor: '#E8453C',
+        backgroundColor: 'transparent',
+        borderWidth: 2.5,
+        pointRadius: function(context) {
+          var i = context.dataIndex;
+          if (i === 0 || i === core.length - 1) return 5;
+          return 0;
+        },
+        pointBackgroundColor: function(context) {
+          var i = context.dataIndex;
+          if (i === core.length - 1) return '#E8453C';
+          return '#E8453C';
+        },
+        pointHoverRadius: 6,
+        pointHoverBackgroundColor: '#E8453C',
+        tension: 0.35,
+        fill: false,
+        borderDash: []
+      }
+    ]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    interaction: { mode: 'index', intersect: false },
+    plugins: {
+      legend: { display: false },
+      tooltip: {
+        backgroundColor: '#1B2A4A',
+        titleFont: { family: 'DM Sans', weight: '600', size: 13 },
+        bodyFont: { family: 'DM Sans', size: 12 },
+        padding: 12,
+        cornerRadius: 8,
+        displayColors: true,
+        callbacks: {
+          label: function(ctx) { return ctx.dataset.label + ': ' + ctx.parsed.y.toFixed(1) + '%'; }
+        }
+      }
+    },
+    scales: {
+      x: {
+        grid: { display: false },
+        ticks: {
+          font: { family: 'DM Sans', size: 11, weight: '500' },
+          color: '#4a5568',
+          maxRotation: 45,
+          autoSkip: true,
+          maxTicksLimit: 12
+        }
+      },
+      y: {
+        min: 0,
+        max: 12,
+        title: {
+          display: true,
+          text: 'Annual % change (YoY)',
+          font: { family: 'DM Sans', size: 11 },
+          color: '#718096'
+        },
+        grid: { color: 'rgba(0,0,0,0.06)' },
+        ticks: {
+          font: { family: 'DM Sans', size: 11 },
+          color: '#718096',
+          callback: function(v) { return v + '%'; },
+          stepSize: 2
+        }
+      }
+    }
+  },
+  plugins: [{
+    id: 'targetLine',
+    afterDraw: function(chart) {
+      var ctx2 = chart.ctx;
+      var y = chart.scales.y;
+      var x = chart.scales.x;
+      var yPos = y.getPixelForValue(2);
+      ctx2.save();
+      ctx2.setLineDash([6, 4]);
+      ctx2.strokeStyle = '#16A34A';
+      ctx2.lineWidth = 1.5;
+      ctx2.beginPath();
+      ctx2.moveTo(x.left, yPos);
+      ctx2.lineTo(x.right, yPos);
+      ctx2.stroke();
+      ctx2.restore();
+      ctx2.save();
+      ctx2.font = '500 11px DM Sans, sans-serif';
+      ctx2.fillStyle = '#16A34A';
+      ctx2.fillText('2% target', x.right - 58, yPos - 6);
+      ctx2.restore();
+    }
+  }]
+});
+</script>
+</body>
+</html>
