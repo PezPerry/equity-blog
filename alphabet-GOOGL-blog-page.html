@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Alphabet (GOOGL) — Fair Value: Executing Well, But the Market Knows It</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+<style>
+  :root{--vanquis-deep:#1B2A4A;--vanquis-mid:#2D4A7A;--vanquis-accent:#E8453C;--vanquis-light:#F0F4F8;--vanquis-gold:#D4A853;--text-primary:#1a1a2e;--text-secondary:#4a5568;--text-muted:#718096;--bg-white:#fff;--border-light:#e2e8f0;--positive:#16A34A;--negative:#DC2626}
+  *{margin:0;padding:0;box-sizing:border-box}body{font-family:'DM Sans',sans-serif;color:var(--text-primary);background:#f5f5f0;line-height:1.7}
+  .hero-banner{background:linear-gradient(135deg,var(--vanquis-deep) 0%,var(--vanquis-mid) 60%,#3A5C8A 100%);padding:2.5rem 2rem 1.8rem;position:relative;overflow:hidden}.hero-banner::before{content:'';position:absolute;top:-40%;right:-10%;width:500px;height:500px;background:radial-gradient(circle,rgba(212,168,83,.12) 0%,transparent 70%);border-radius:50%}.hero-banner::after{content:'';position:absolute;bottom:0;left:0;right:0;height:4px;background:linear-gradient(90deg,var(--vanquis-accent),var(--vanquis-gold),var(--vanquis-accent))}.hero-inner{max-width:900px;margin:0 auto;position:relative;z-index:1}
+  .stat-row{display:grid;grid-template-columns:2fr 1fr 1fr 1.3fr;gap:0}.stat-box{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.15);padding:.9rem 1.2rem;backdrop-filter:blur(4px);animation:fadeUp .5s ease-out both}.stat-box:first-child{border-radius:8px 0 0 8px}.stat-box:last-child{border-radius:0 8px 8px 0}.stat-box:not(:last-child){border-right:none}.stat-box:nth-child(1){animation-delay:.1s}.stat-box:nth-child(2){animation-delay:.2s}.stat-box:nth-child(3){animation-delay:.3s}.stat-box:nth-child(4){animation-delay:.4s}.stat-label{font-size:.7rem;color:rgba(255,255,255,.5);text-transform:uppercase;letter-spacing:1.5px;margin-bottom:.25rem;font-weight:500}.stat-value{font-family:'Playfair Display',serif;font-size:1.15rem;color:#fff;font-weight:700}.stat-value.neutral{color:var(--vanquis-gold)}
+  .article-container{max-width:900px;margin:0 auto;padding:0 2rem 4rem;background:var(--bg-white);border-radius:0 0 12px 12px;box-shadow:0 4px 24px rgba(0,0,0,.06)}.meta-bar{display:flex;align-items:center;justify-content:space-between;padding:1.2rem 0;border-bottom:1px solid var(--border-light);margin-bottom:2rem}.meta-date{font-size:.85rem;color:var(--text-muted)}.meta-grade{display:flex;align-items:center;gap:.5rem}.grade-badge{background:var(--vanquis-deep);color:#fff;font-size:.75rem;font-weight:700;padding:.25rem .65rem;border-radius:4px;letter-spacing:.5px}.grade-label{font-size:.8rem;color:var(--text-muted)}
+  .article-title{font-family:'Playfair Display',serif;font-size:2.1rem;font-weight:800;color:var(--text-primary);line-height:1.25;margin-bottom:1.8rem;letter-spacing:-.5px}h2{font-family:'DM Sans',sans-serif;font-size:1.3rem;font-weight:700;color:var(--vanquis-deep);margin:2.5rem 0 1rem;padding-bottom:.4rem;border-bottom:2px solid var(--vanquis-accent);display:inline-block}.h2-wrapper{margin:2.5rem 0 1rem}
+  p{margin-bottom:1rem;font-size:1rem;color:var(--text-secondary)}strong,b{color:var(--text-primary);font-weight:600}
+  ul{margin:.8rem 0 1.2rem 1.5rem;list-style:none}ul li{position:relative;padding-left:1rem;margin-bottom:.7rem;font-size:.95rem;color:var(--text-secondary)}ul li::before{content:'';position:absolute;left:0;top:.6rem;width:6px;height:6px;background:var(--vanquis-accent);border-radius:50%}
+  .summary-box{background:var(--vanquis-light);border-left:4px solid var(--vanquis-deep);border-radius:0 8px 8px 0;padding:1.4rem 1.6rem;margin-bottom:2rem}.summary-box ul li::before{background:var(--vanquis-deep)}
+  .table-label{font-size:.85rem;font-weight:700;color:var(--vanquis-deep);text-transform:uppercase;letter-spacing:1px;margin-bottom:.5rem}table{width:100%;border-collapse:collapse;margin-bottom:1.5rem;font-size:.9rem}thead th{background:var(--vanquis-deep);color:#fff;padding:.65rem .9rem;text-align:left;font-weight:600;font-size:.8rem;letter-spacing:.3px}thead th:first-child{border-radius:6px 0 0 0}thead th:last-child{border-radius:0 6px 0 0}tbody td{padding:.55rem .9rem;border-bottom:1px solid var(--border-light)}tbody tr:nth-child(even){background:#f8fafc}tbody tr:last-child td:first-child{border-radius:0 0 0 6px}tbody tr:last-child td:last-child{border-radius:0 0 6px 0}td.positive{color:var(--positive);font-weight:600}td.negative{color:var(--negative);font-weight:600}td.bold{font-weight:700;color:var(--text-primary)}
+  .callout{border-left:4px solid;border-radius:0 8px 8px 0;padding:1rem 1.3rem;margin:1.5rem 0;font-size:.9rem;font-style:italic}.callout-beginner{background:#EFF6FF;border-color:#3B82F6;color:#1E40AF}.callout-title{font-weight:700;font-style:normal;display:block;margin-bottom:.3rem;font-size:.8rem;letter-spacing:.5px;text-transform:uppercase}
+  .verdict-box{background:linear-gradient(135deg,var(--vanquis-deep),var(--vanquis-mid));color:#fff;border-radius:10px;padding:1.8rem 2rem;margin:2rem 0}.verdict-box h3{font-family:'Playfair Display',serif;font-size:1.4rem;margin-bottom:.8rem;color:var(--vanquis-gold)}.verdict-box p{color:rgba(255,255,255,.9);margin-bottom:.7rem}.verdict-box strong{color:#fff}
+  .disclaimer{margin-top:3rem;padding-top:1.5rem;border-top:1px solid var(--border-light);font-size:.78rem;color:var(--text-muted);line-height:1.6}
+  @media(max-width:700px){.stat-row{grid-template-columns:1fr 1fr}.stat-box:first-child{border-radius:8px 0 0 0}.stat-box:nth-child(2){border-radius:0 8px 0 0;border-right:1px solid rgba(255,255,255,.15)}.stat-box:nth-child(3){border-radius:0;border-top:none}.stat-box:last-child{border-radius:0 0 8px 0;border-top:none}.article-title{font-size:1.6rem}.hero-banner{padding:1.5rem 1.2rem}.article-container{padding:0 1.2rem 3rem}table{font-size:.8rem}}
+  @keyframes fadeUp{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
+</style>
+</head>
+<body>
+
+<header class="hero-banner">
+  <div class="hero-inner">
+    <div class="stat-row">
+      <div class="stat-box"><div class="stat-label">Company</div><div class="stat-value">Alphabet</div></div>
+      <div class="stat-box"><div class="stat-label">Ticker</div><div class="stat-value">GOOGL</div></div>
+      <div class="stat-box"><div class="stat-label">Growth Rate</div><div class="stat-value">25%</div></div>
+      <div class="stat-box"><div class="stat-label">Value Opportunity</div><div class="stat-value neutral">+4.4%</div></div>
+    </div>
+  </div>
+</header>
+
+<main class="article-container">
+
+  <div class="meta-bar">
+    <span class="meta-date">13 February 2026 · FY 2025 Full Year Results</span>
+    <div class="meta-grade"><span class="grade-label">Rating</span><span class="grade-badge">FAIR VALUE</span></div>
+  </div>
+
+  <h1 class="article-title">Executing Well, But the Market Knows It</h1>
+
+  <!-- ── BRIEFING ── -->
+  <div class="summary-box">
+    <p style="font-weight:600;color:var(--vanquis-deep);margin-bottom:0.6rem;">Briefing</p>
+    <ul>
+      <li><strong>Thesis:</strong> Alphabet delivered exceptional FY 2025 results — revenue exceeded $400 billion for the first time, net income rose 32% to $132.2 billion, and diluted earnings per share grew 34% to $10.81. AI is being monetised across Search, YouTube, and enterprise. The balance sheet remains strong despite increased borrowing.</li>
+      <li><strong>Valuation view:</strong> At a +4.4% value opportunity, this is essentially fair value. Using a 25% growth rate and earnings per share of $10.81 (1,081 US cents), the numbers suggest the market is pricing Alphabet about right.</li>
+      <li><strong>Key risk:</strong> Capital expenditure is extraordinary — $91.4 billion in FY 2025 (up 74%) with guidance of $175–185 billion for FY 2026 (a near-doubling). Depreciation is already up 38% and will "meaningfully increase" in 2026. This will compress margins and free cash flow.</li>
+      <li><strong>Key catalyst:</strong> AI integration into advertising, Google Cloud momentum (fourth-quarter revenue up 48%), and the Gemini platform reaching 750 million monthly active users.</li>
+      <li><strong>Overall stance:</strong> Fair value / hold.</li>
+    </ul>
+  </div>
+
+  <!-- ── BUSINESS MODEL ── -->
+  <div class="h2-wrapper"><h2>Business Model</h2></div>
+  <p>Alphabet is the parent company of Google and one of the world's largest companies by market capitalisation ($3.4 trillion as at March 2026). The business generates the vast majority of its revenue — roughly 90% — from <strong>Google Services</strong>, which includes Google Search advertising, YouTube advertising, the Google Play app store, and hardware products like Pixel phones and Chromebooks.</p>
+  <p><strong>Google Cloud</strong> is the fast-growing second pillar, providing cloud computing, data analytics, and AI infrastructure services to businesses. Fourth-quarter Cloud revenue was up 48% to $17.7 billion, putting the annual run rate above $70 billion.</p>
+  <p>The third segment, <strong>Other Bets</strong>, houses earlier-stage investments including Waymo (self-driving cars), Verily (healthcare technology), and Google Fiber (internet access). These are loss-making but represent potential future growth options.</p>
+  <p>What gives Alphabet a structural advantage is its <strong>extraordinary data position</strong>: Android powers the majority of the world's smartphones, Google Search indexes the world's information, Gmail and YouTube serve billions of users, and all of these products are now receiving Gemini AI integration.</p>
+
+  <!-- ── WHAT MATTERS ── -->
+  <div class="h2-wrapper"><h2>What Matters for This Company</h2></div>
+  <ul>
+    <li><strong>Earnings per share growth:</strong> Diluted earnings per share grew 34% in FY 2025, from $8.04 to $10.81. Over the past five years, earnings per share has grown at an average annual rate of approximately 30%. This is exceptional for a company of Alphabet's size.</li>
+    <li><strong>Capital expenditure:</strong> This is the big story. Capital expenditure was $91.4 billion in FY 2025, up 74% from $52.5 billion in FY 2024. Guidance for FY 2026 is $175–185 billion — a near-doubling. This is being spent on AI infrastructure (data centres, custom chips, networking).</li>
+    <li><strong>Revenue growth:</strong> Revenue grew 15% to $402.8 billion. Passenger revenue rose 2.5%, while "other" revenue (including Cloud and subscriptions) grew 16%.</li>
+    <li><strong>Operating margin:</strong> The operating margin dipped slightly from 32.0% to 31.6% (down 40 basis points). Separately, the gross margin improved from 58.2% to 59.7%. The risk is that the scale of AI infrastructure investment will compress margins further as depreciation charges flow through.</li>
+    <li><strong>Depreciation headwinds:</strong> Depreciation was already up 38% in FY 2025 to $21.1 billion. Management has flagged that this will "meaningfully increase" in FY 2026. This is an inevitable consequence of the capital expenditure programme and will weigh on reported profits.</li>
+    <li><strong>Share buybacks:</strong> Alphabet has reduced its share count by approximately 10% over the past five years through buybacks, directly boosting earnings per share.</li>
+    <li><strong>Google Cloud momentum:</strong> Fourth-quarter Cloud revenue of $17.7 billion was up 48% year-on-year. The annual run rate now exceeds $70 billion. This is becoming a materially important profit driver.</li>
+  </ul>
+
+  <div class="callout callout-beginner">
+    <span class="callout-title">🎓 Clarity</span>
+    <strong>Why does capital expenditure matter so much here?</strong> Capital expenditure (the money spent building long-term assets like data centres) doesn't hit the profit and loss account immediately — it shows up gradually over many years as depreciation. So the $91.4 billion spent in FY 2025 will create depreciation charges that weigh on profits for the next 5–15 years. When a company is doubling its capital expenditure year after year, the future depreciation burden can become very large, even if the underlying business is performing well.
+  </div>
+
+  <!-- ── HISTORICAL PERFORMANCE ── -->
+  <div class="h2-wrapper"><h2>Historical Performance (2020–2025)</h2></div>
+  <p class="table-label">Five-year overview</p>
+  <table>
+    <thead><tr><th>Metric</th><th>Observation</th></tr></thead>
+    <tbody>
+      <tr><td>Earnings per share growth</td><td class="positive">30% annually (average)</td></tr>
+      <tr><td>Share count</td><td class="positive">Reduced ~10% (buybacks)</td></tr>
+      <tr><td>Net borrowing</td><td>$0 → ~$28bn</td></tr>
+      <tr><td>Net asset value</td><td class="positive">$222bn → $415bn</td></tr>
+      <tr><td>Revenue growth (last 2 years)</td><td>14–15%</td></tr>
+      <tr><td>Earnings per share growth (FY 2025)</td><td class="positive">+34% ($8.04 → $10.81)</td></tr>
+      <tr><td>Margin</td><td class="positive">58.2% → 59.7% (improved)</td></tr>
+    </tbody>
+  </table>
+
+  <!-- ── FY2025 RESULTS ── -->
+  <div class="h2-wrapper"><h2>Recent Performance and Financials</h2></div>
+  <p class="table-label">Key financials</p>
+  <table>
+    <thead><tr><th>Metric</th><th>FY 2025</th><th>FY 2024</th><th>Change</th></tr></thead>
+    <tbody>
+      <tr><td>Revenue</td><td class="bold">$402.8bn</td><td>$350.0bn</td><td class="positive">+15%</td></tr>
+      <tr><td>Net income</td><td class="bold">$132.2bn</td><td>$100.1bn</td><td class="positive">+32%</td></tr>
+      <tr><td>Diluted earnings per share</td><td class="bold">$10.81</td><td>$8.04</td><td class="positive">+34%</td></tr>
+      <tr><td>Operating income</td><td>$129.0bn</td><td>$112.4bn</td><td class="positive">+15%</td></tr>
+      <tr><td>Operating margin</td><td>31.6%</td><td>32.0%</td><td class="negative">−40bps</td></tr>
+    </tbody>
+  </table>
+
+  <p>The headline issue is this: <strong>earnings growth is outperforming revenue growth</strong>. Earnings per share grew 34% while revenue grew only 15%. For companies like Alphabet (and Amazon, Apple), this raises the question: how can they continue this into the future? Perhaps it's different earning streams. We can also see that the gross margin improved from 58.2% to 59.7% last year. But the scale of AI infrastructure investment will inevitably create depreciation headwinds.</p>
+
+  <!-- ── CAPEX ── -->
+  <div class="h2-wrapper"><h2>Capital Expenditure: The Big Story</h2></div>
+  <p class="table-label">Capital expenditure trajectory</p>
+  <table>
+    <thead><tr><th>Year</th><th>Capital expenditure</th><th>Change</th></tr></thead>
+    <tbody>
+      <tr><td>FY 2024</td><td>$52.5bn</td><td>—</td></tr>
+      <tr><td>FY 2025</td><td class="bold">$91.4bn</td><td class="negative">+74%</td></tr>
+      <tr><td>FY 2026 (guidance)</td><td class="bold">$175–185bn</td><td class="negative">+91–102%</td></tr>
+    </tbody>
+  </table>
+
+  <p>The capital expenditure on this company is massive. The FY 2026 guidance of $175–185 billion represents nearly a doubling from the already elevated FY 2025 spend — and the FY 2025 spend was itself up 74% on FY 2024.</p>
+  <p><strong>But they can afford it.</strong> Post-tax profit was $132 billion. The company generates sufficient cash to fund even this extraordinary level of investment, though free cash flow will be under pressure.</p>
+
+  <div class="callout callout-beginner">
+    <span class="callout-title">🎓 Clarity</span>
+    <strong>How can a company spending $175 billion a year still be profitable?</strong> Alphabet earns $132 billion in net profit annually. Capital expenditure is spent on long-lived assets (data centres, servers, networking equipment) that are depreciated over many years. So the cash goes out in one year, but the profit impact is spread over 5–15 years. The near-term risk is that free cash flow (profit minus capital expenditure) is squeezed, and the longer-term risk is that depreciation charges build up and compress future reported profits.
+  </div>
+
+  <!-- ── CHART: Capex vs Net Income ── -->
+  <div style="background:#f8fafc;border-radius:10px;padding:1.5rem;margin:1.5rem 0;">
+    <p class="table-label">Capital expenditure vs. net income (FY 2022–2026E)</p>
+    <canvas id="capexChart" style="width:100%;max-height:340px;"></canvas>
+    <p style="font-size:0.78rem;color:var(--text-muted);margin-top:0.6rem;">Source: Alphabet earnings releases (2022–2025), FY 2026 guidance. Capital expenditure is expected to exceed net income for the first time in FY 2026.</p>
+  </div>
+
+  <!-- ── BULL CASE ── -->
+  <div class="h2-wrapper"><h2>The Bull Case</h2></div>
+  <p>I expect the growth rate to be <strong>25%</strong> going forward. Why?</p>
+  <ul>
+    <li><strong>AI integration into advertising:</strong> Likely to improve advertising effectiveness and return on investment for clients over the coming years.</li>
+    <li><strong>Google Cloud momentum:</strong> Fourth-quarter Cloud revenue up 48% to $17.7 billion; annual run rate now exceeds $70 billion.</li>
+    <li><strong>Enterprise AI adoption:</strong> General pick-up in usability of integrated Google tools into businesses.</li>
+    <li><strong>Data advantage:</strong> Alphabet has a massive advantage over other AI companies through Android mobile systems (rich database of user behaviour), Google Search indexing (the world's information), heavy usage of Google data systems and servers, and Gmail, YouTube, and other products now getting Gemini integration.</li>
+    <li><strong>Gemini positioning:</strong> Currently one of the four front-running AI systems. The Gemini App has reached 750 million monthly active users.</li>
+  </ul>
+
+  <!-- ── VALUATION ── -->
+  <div class="h2-wrapper"><h2>Valuation</h2></div>
+
+  <p class="table-label">Valuation drivers</p>
+  <table>
+    <thead><tr><th>Metric</th><th>Figure</th></tr></thead>
+    <tbody>
+      <tr><td>Earnings per share (FY 2025)</td><td class="bold">$10.81 (1,081 US cents)</td></tr>
+      <tr><td>Growth rate</td><td>25%</td></tr>
+      <tr><td class="bold">Value opportunity</td><td class="bold">+4.4%</td></tr>
+    </tbody>
+  </table>
+
+  <p>I'm using 25% growth. Actual profitability growth was 34% in FY 2025, but the scale of capital expenditure and coming depreciation headwinds make it prudent to use a lower forward number. The 25% growth rate could arguably be higher given the Cloud trajectory and AI monetisation potential — but could equally be lower if depreciation compresses margins more than expected.</p>
+
+  <!-- ── CHART: Share price ── -->
+  <div style="background:#f8fafc;border-radius:10px;padding:1.5rem;margin:1.5rem 0;">
+    <p class="table-label">Alphabet (GOOGL) — share price (last 12 months, US dollars)</p>
+    <canvas id="priceChart" style="width:100%;max-height:340px;"></canvas>
+    <p style="font-size:0.78rem;color:var(--text-muted);margin-top:0.6rem;">Source: NASDAQ data, approximate monthly closing prices. 52-week range: $140.53–$349.00. The share price has declined since the late-January/early-February peak.</p>
+  </div>
+
+  <p>The share price has been on a <strong>general downward slope since the end of January</strong> — nearly a month of decline at the time of writing. This very much ties in with general sentiment and concerns about spending on AI-based products.</p>
+  <p>The market is wrestling with a paradox: every major metric beat expectations, yet investors are nervous about the sheer scale of capital expenditure.</p>
+
+  <!-- ── RISKS ── -->
+  <div class="h2-wrapper"><h2>Risks and What Could Go Wrong</h2></div>
+  <ul>
+    <li><strong>Capital expenditure intensity:</strong> The FY 2026 guidance of $175–185 billion is staggering. If the return on this investment fails to materialise within a reasonable timeframe, it will weigh heavily on returns and sentiment.</li>
+    <li><strong>Depreciation headwinds:</strong> Depreciation was up 38% in FY 2025 to $21.1 billion and management has flagged it will "meaningfully increase" in FY 2026. This will compress reported margins even if the underlying business continues to perform well.</li>
+    <li><strong>Earnings growth outpacing revenue growth:</strong> Earnings per share grew 34% on 15% revenue growth. This gap cannot persist indefinitely — at some point, earnings growth must converge with revenue growth unless margins expand further, which seems unlikely given the capital expenditure trajectory.</li>
+    <li><strong>AI competitive dynamics:</strong> Alphabet is one of four front-running AI systems, but the competitive landscape is uncertain. Disruption from a competitor (or a shift in the underlying technology) could undermine the return on Alphabet's massive AI investment.</li>
+    <li><strong>Net borrowing has increased:</strong> Net borrowing has gone from $0 to approximately $28 billion over five years. While easily manageable for a company earning $132 billion, the direction of travel is worth monitoring.</li>
+    <li><strong>Regulatory and antitrust risk:</strong> Alphabet faces ongoing antitrust scrutiny around its Search dominance. An adverse ruling could force structural changes to the business.</li>
+  </ul>
+
+  <!-- ── WHAT WOULD CHANGE MY MIND ── -->
+  <div class="h2-wrapper"><h2>What Would Change My Mind</h2></div>
+  <ul>
+    <li><strong>Capital expenditure guidance cut:</strong> If management signalled a reduction in planned capital expenditure, free cash flow expectations would improve significantly and the valuation would look more attractive.</li>
+    <li><strong>Cloud revenue growth decelerating below 30%:</strong> A sustained slowdown in Cloud growth would undermine the AI monetisation thesis.</li>
+    <li><strong>Margin compression beyond expectations:</strong> If the operating margin fell below 28%, it would suggest the depreciation burden is overwhelming the revenue growth.</li>
+    <li><strong>Share price pullback to below $250:</strong> At lower prices, the value opportunity would widen meaningfully, potentially creating a buy signal.</li>
+    <li><strong>A clear monetisation proof point for AI:</strong> If Alphabet demonstrated concrete evidence that AI integration was driving measurably higher advertising revenue per user, it would support a higher growth rate assumption.</li>
+  </ul>
+
+  <!-- ── CONCLUSION ── -->
+  <div class="verdict-box">
+    <h3>Conclusion — Fair Value / Hold</h3>
+    <p><strong>Alphabet is executing well.</strong> Revenue exceeded $400 billion for the first time. AI is being monetised across Search, YouTube, and enterprise. The balance sheet remains strong despite increased borrowing.</p>
+    <p>The concerns are real but manageable: capital expenditure intensity will compress margins and free cash flow in the near term; depreciation headwinds are coming; and the competitive dynamics of AI remain uncertain.</p>
+    <p><strong>At +4.4% value opportunity, this is essentially fair value.</strong></p>
+    <p><strong>Rating: Fair Value / Hold</strong></p>
+  </div>
+
+  <div class="disclaimer">
+    <strong>Disclaimer:</strong> This article is for information and education only and is not financial advice. I am not a financial adviser. Investing involves risk, including loss of capital. Do your own research and consider seeking independent advice.
+  </div>
+
+</main>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<script>
+// ─── Chart 1: Capex vs Net Income ───
+var ctx1 = document.getElementById('capexChart').getContext('2d');
+new Chart(ctx1, {
+  type:'bar',
+  data:{
+    labels:['FY 2022','FY 2023','FY 2024','FY 2025','FY 2026E'],
+    datasets:[
+      {label:'Capital expenditure ($bn)',data:[31.5,32.3,52.5,91.4,180],backgroundColor:'rgba(232,69,60,0.65)',borderColor:'#E8453C',borderWidth:1,borderRadius:4,order:2},
+      {label:'Net income ($bn)',data:[59.9,73.8,100.1,132.2,140],type:'line',borderColor:'#1B2A4A',backgroundColor:'rgba(27,42,74,0.1)',borderWidth:3,pointBackgroundColor:'#1B2A4A',pointRadius:5,pointHoverRadius:7,fill:true,tension:0.3,order:1}
+    ]
+  },
+  options:{
+    responsive:true,maintainAspectRatio:true,interaction:{mode:'index',intersect:false},
+    plugins:{legend:{position:'bottom',labels:{font:{family:'DM Sans',size:12},padding:20,usePointStyle:true}},tooltip:{backgroundColor:'#1B2A4A',titleFont:{family:'DM Sans',weight:'600'},bodyFont:{family:'DM Sans'},padding:12,cornerRadius:8,callbacks:{label:function(c){return c.dataset.label+': $'+c.parsed.y.toFixed(1)+'bn';}}}},
+    scales:{y:{title:{display:true,text:'US$ billions',font:{family:'DM Sans',size:11},color:'#718096'},min:0,max:200,grid:{color:'rgba(0,0,0,0.06)'},ticks:{font:{family:'DM Sans',size:11},color:'#718096',callback:function(v){return '$'+v+'bn';}}},x:{grid:{display:false},ticks:{font:{family:'DM Sans',size:12,weight:'600'},color:'#4a5568'}}}
+  }
+});
+
+// ─── Chart 2: Share Price ───
+var ctx2 = document.getElementById('priceChart').getContext('2d');
+var priceLabels = ['Mar 25','Apr 25','May 25','Jun 25','Jul 25','Aug 25','Sep 25','Oct 25','Nov 25','Dec 25','Jan 26','Feb 26'];
+var priceData = [165, 141, 175, 195, 220, 245, 265, 280, 310, 330, 349, 305];
+
+new Chart(ctx2, {
+  type:'line',
+  data:{
+    labels:priceLabels,
+    datasets:[{
+      label:'Share price (USD)',data:priceData,borderColor:'#1B2A4A',
+      backgroundColor:function(context){var chart=context.chart;var ctx=chart.ctx;var chartArea=chart.chartArea;if(!chartArea)return'rgba(27,42,74,0.1)';var gradient=ctx.createLinearGradient(0,chartArea.top,0,chartArea.bottom);gradient.addColorStop(0,'rgba(27,42,74,0.18)');gradient.addColorStop(1,'rgba(27,42,74,0.02)');return gradient;},
+      borderWidth:3,pointBackgroundColor:function(context){var i=context.dataIndex;if(i===priceData.length-1)return'#E8453C';if(priceData[i]===Math.max(...priceData))return'#D4A853';if(priceData[i]===Math.min(...priceData))return'#E8453C';return'#1B2A4A';},pointRadius:function(context){var i=context.dataIndex;if(i===0||i===priceData.length-1||priceData[i]===Math.max(...priceData)||priceData[i]===Math.min(...priceData))return 6;return 3;},pointHoverRadius:8,fill:true,tension:0.35
+    }]
+  },
+  options:{
+    responsive:true,maintainAspectRatio:true,interaction:{mode:'index',intersect:false},
+    plugins:{legend:{position:'bottom',labels:{font:{family:'DM Sans',size:12},padding:20,usePointStyle:true}},tooltip:{backgroundColor:'#1B2A4A',titleFont:{family:'DM Sans',weight:'600'},bodyFont:{family:'DM Sans'},padding:12,cornerRadius:8,callbacks:{label:function(c){return c.dataset.label+': $'+c.parsed.y.toFixed(2);}}}},
+    scales:{y:{title:{display:true,text:'Share price (USD)',font:{family:'DM Sans',size:11},color:'#718096'},min:100,max:380,grid:{color:'rgba(0,0,0,0.06)'},ticks:{font:{family:'DM Sans',size:11},color:'#718096',callback:function(v){return'$'+v;}}},x:{grid:{display:false},ticks:{font:{family:'DM Sans',size:11,weight:'500'},color:'#4a5568'}}}
+  }
+});
+</script>
+</body>
+</html>
