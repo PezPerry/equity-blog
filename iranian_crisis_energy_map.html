@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Iranian Crisis — Energy Assets That Have Been Affected</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    /* Blog-consistent palette: navy / red / gold on light background */
+    --bg: #F0F4F8; --panel: #ffffff; --panel2: #F7F9FC;
+    --panel-border: rgba(27,42,74,0.10); --panel-shadow: rgba(27,42,74,0.06);
+    --navy: #1B2A4A; --navy-mid: #2D4A7A; --navy-light: #3A5C8A;
+    --red: #E8453C; --gold: #D4A853; --gold-light: #F5E6C8;
+    --text: #2D3748; --text-strong: #1A202C; --muted: #718096; --muted-light: #A0AEC0;
+    --hit: #E8453C; --hit-glow: rgba(232,69,60,0.30); --hit-bg: rgba(232,69,60,0.08);
+    --strategic: #D4A853; --strategic-glow: rgba(212,168,83,0.35); --strategic-bg: rgba(212,168,83,0.10);
+    --claimed: #2D4A7A; --claimed-glow: rgba(45,74,122,0.30); --claimed-bg: rgba(45,74,122,0.10);
+    --font: 'DM Sans', -apple-system, sans-serif;
+    --mono: 'IBM Plex Mono', monospace;
+    --radius: 14px; --radius-sm: 8px;
+  }
+  * { box-sizing: border-box; margin: 0; }
+  body {
+    font-family: var(--font); color: var(--text); line-height: 1.6;
+    background: var(--bg); min-height: 100vh;
+  }
+
+  /* ── Header ── */
+  .wrap { max-width: 1560px; margin: 0 auto; padding: 22px 24px 32px; }
+
+  .header { margin-bottom: 20px; }
+  .header-banner {
+    background: linear-gradient(135deg, var(--navy) 0%, var(--navy-mid) 100%);
+    border-radius: var(--radius); padding: 28px 32px 24px; margin-bottom: 16px;
+    border-bottom: 4px solid var(--red);
+    box-shadow: 0 4px 20px rgba(27,42,74,0.15);
+  }
+  .header-banner h1 {
+    font-size: 28px; font-weight: 700; color: #ffffff;
+    letter-spacing: -0.3px; margin-bottom: 8px; line-height: 1.25;
+  }
+  .header-banner .sub {
+    color: rgba(255,255,255,0.7); font-size: 14px; max-width: 900px; line-height: 1.55;
+  }
+  .header-banner .sub b { color: rgba(255,255,255,0.95); font-weight: 600; }
+  .header-row { display: flex; align-items: baseline; gap: 14px; flex-wrap: wrap; margin-top: 8px; }
+  .about-toggle {
+    background: rgba(255,255,255,0.12); border: 1px solid rgba(255,255,255,0.2); color: rgba(255,255,255,0.7);
+    font-family: var(--font); font-size: 12px; padding: 4px 10px;
+    border-radius: 999px; cursor: pointer; white-space: nowrap; transition: all 0.2s;
+  }
+  .about-toggle:hover { color: #fff; border-color: rgba(255,255,255,0.4); background: rgba(255,255,255,0.18); }
+  .about-body {
+    display: none; margin-top: 10px; padding: 12px 16px; font-size: 13px;
+    color: rgba(255,255,255,0.65); background: rgba(0,0,0,0.15); border: 1px solid rgba(255,255,255,0.1);
+    border-radius: var(--radius-sm); line-height: 1.6; max-width: 900px;
+  }
+  .about-body.open { display: block; }
+
+  /* ── Grid ── */
+  .grid { display: grid; grid-template-columns: 1.28fr 0.72fr; gap: 16px; }
+
+  /* ── Cards ── */
+  .card {
+    background: var(--panel); border: 1px solid var(--panel-border);
+    border-radius: var(--radius); overflow: hidden;
+    box-shadow: 0 2px 12px var(--panel-shadow);
+  }
+
+  /* ── Map card ── */
+  .map-card { padding: 14px 14px 10px; }
+  .panel-head {
+    display: flex; justify-content: space-between; align-items: center;
+    gap: 12px; margin-bottom: 10px; flex-wrap: wrap;
+  }
+  .panel-head b { font-size: 14px; font-weight: 600; color: var(--navy); }
+
+  /* ── Legend ── */
+  .legend { display: flex; gap: 14px; flex-wrap: wrap; font-size: 12px; color: var(--muted); }
+  .legend span { display: flex; align-items: center; gap: 5px; }
+  .legend span::before { content: ""; width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+  .legend .hit::before { background: var(--hit); box-shadow: 0 0 6px var(--hit-glow); }
+  .legend .strategic::before { background: var(--strategic); box-shadow: 0 0 4px var(--strategic-glow); }
+  .legend .claimed::before { background: var(--claimed); box-shadow: 0 0 4px var(--claimed-glow); }
+
+  /* ── Filter buttons ── */
+  .filter-row { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 10px; }
+  button.filter {
+    display: flex; align-items: center; gap: 6px;
+    background: var(--panel2); color: var(--muted);
+    border: 1px solid var(--panel-border); border-radius: 999px;
+    padding: 6px 12px; font-family: var(--font); font-size: 12px;
+    cursor: pointer; transition: all 0.2s;
+  }
+  button.filter:hover { background: #EDF2F7; color: var(--text); }
+  button.filter .fdot {
+    width: 7px; height: 7px; border-radius: 50%; flex-shrink: 0; opacity: 0.4; transition: opacity 0.2s;
+  }
+  button.filter.active { color: var(--text-strong); border-color: rgba(27,42,74,0.2); background: #EDF2F7; }
+  button.filter.active .fdot { opacity: 1; }
+  button.filter[data-filter="Direct hit"] .fdot { background: var(--hit); }
+  button.filter[data-filter="Strategic disruption"] .fdot { background: var(--strategic); }
+  button.filter[data-filter="Claimed / unconfirmed"] .fdot { background: var(--claimed); }
+
+  /* ── Map ── */
+  #map { height: 660px; border-radius: 10px; border: 1px solid var(--panel-border); overflow: hidden; }
+  .map-foot { padding: 8px 4px 2px; font-size: 11px; color: var(--muted-light); line-height: 1.5; }
+
+  /* ── Markers ── */
+  .marker-dot {
+    width: 14px; height: 14px; border-radius: 50%;
+    border: 2px solid #ffffff;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.25);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .marker-dot.selected {
+    transform: scale(1.45);
+    box-shadow: 0 0 0 3px rgba(27,42,74,0.2), 0 0 12px 3px var(--ring-glow);
+  }
+  .marker-hit { background: var(--hit); --ring-glow: var(--hit-glow); }
+  .marker-strategic { background: var(--strategic); --ring-glow: var(--strategic-glow); }
+  .marker-claimed { background: var(--claimed); --ring-glow: var(--claimed-glow); }
+
+  .pulse-ring {
+    position: absolute; top: 50%; left: 50%;
+    width: 28px; height: 28px; margin: -14px 0 0 -14px;
+    border-radius: 50%; border: 1.5px solid var(--hit);
+    animation: pulseOut 2.4s ease-out infinite; pointer-events: none;
+  }
+  @keyframes pulseOut {
+    0%   { transform: scale(0.5); opacity: 0.7; }
+    100% { transform: scale(2.2); opacity: 0; }
+  }
+
+  .city-label, .port-label {
+    background: rgba(255,255,255,0.88); color: var(--muted);
+    border: 1px solid rgba(27,42,74,0.1); border-radius: 999px;
+    padding: 1px 7px; font-size: 10px; font-family: var(--font);
+    white-space: nowrap; letter-spacing: 0.2px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+  }
+  .port-label { background: rgba(240,244,248,0.92); color: var(--navy-light); }
+
+  /* Leaflet overrides — light theme */
+  .leaflet-popup-content-wrapper {
+    background: var(--panel) !important; color: var(--text) !important;
+    border: 1px solid var(--panel-border) !important; border-radius: var(--radius-sm) !important;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.12) !important; font-family: var(--font) !important;
+  }
+  .leaflet-popup-tip { background: var(--panel) !important; }
+  .leaflet-popup-content a { color: var(--navy-mid) !important; }
+  .leaflet-control-layers {
+    background: rgba(255,255,255,0.96) !important; color: var(--text) !important;
+    border: 1px solid var(--panel-border) !important; border-radius: var(--radius-sm) !important;
+    font-family: var(--font) !important; font-size: 12px !important;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08) !important;
+  }
+  .leaflet-control-layers label { color: var(--text) !important; }
+  .leaflet-control-zoom a {
+    background: var(--panel) !important; color: var(--navy) !important;
+    border-color: var(--panel-border) !important;
+  }
+  .leaflet-control-zoom a:hover { background: var(--panel2) !important; }
+
+  /* ── Info panel ── */
+  .info-panel { padding: 20px 22px 22px; display: flex; flex-direction: column; }
+  .info-content { opacity: 1; transition: opacity 0.25s ease; }
+  .info-content.fading { opacity: 0; }
+
+  .badge-row { display: flex; align-items: center; gap: 8px; margin-bottom: 10px; flex-wrap: wrap; }
+  .badge {
+    display: inline-flex; align-items: center; gap: 5px;
+    border-radius: 999px; padding: 4px 10px; font-size: 11px; font-weight: 600;
+    letter-spacing: 0.3px; text-transform: uppercase;
+  }
+  .badge.hit { background: var(--hit-bg); color: var(--hit); }
+  .badge.strategic { background: var(--strategic-bg); color: #9E7B30; }
+  .badge.claimed { background: var(--claimed-bg); color: var(--claimed); }
+  .date-chip {
+    font-family: var(--mono); font-size: 11px; font-weight: 500;
+    color: var(--muted); background: var(--panel2);
+    border: 1px solid var(--panel-border); border-radius: 999px; padding: 3px 10px;
+  }
+
+  .info-title {
+    font-size: 21px; font-weight: 700; color: var(--navy);
+    margin: 0 0 4px; letter-spacing: -0.2px; line-height: 1.3;
+  }
+  .info-meta {
+    display: flex; align-items: center; gap: 6px;
+    color: var(--muted); font-size: 13px; margin-bottom: 16px;
+  }
+  .info-meta .flag { font-size: 15px; line-height: 1; }
+
+  .info-section { margin-bottom: 14px; }
+  .info-section .label {
+    font-size: 11px; font-weight: 600; text-transform: uppercase;
+    letter-spacing: 0.6px; color: var(--muted); margin-bottom: 4px;
+  }
+  .info-section p { margin: 0; font-size: 14px; line-height: 1.65; color: var(--text); }
+
+  .info-links { margin-top: auto; padding-top: 12px; }
+  .info-links a {
+    display: inline-block; margin-right: 14px; margin-bottom: 6px;
+    color: var(--navy-mid); text-decoration: none; font-size: 13px; transition: color 0.15s;
+  }
+  .info-links a:hover { color: var(--red); text-decoration: underline; }
+  .info-foot { margin-top: 10px; font-size: 11px; color: var(--muted-light); line-height: 1.5; }
+
+  /* ── Timeline scrubber — DOUBLED HEIGHT ── */
+  .timeline-card { margin-top: 16px; padding: 14px 18px 16px; }
+  .timeline-head { font-size: 14px; font-weight: 600; color: var(--navy); margin-bottom: 12px; }
+  .timeline-track { position: relative; height: 110px; margin: 0 0 4px; }
+  .timeline-axis {
+    position: absolute; top: 54px; left: 0; right: 0; height: 2px;
+    background: linear-gradient(90deg, var(--panel-border) 0%, rgba(27,42,74,0.18) 50%, var(--panel-border) 100%);
+  }
+  .timeline-tick {
+    position: absolute; top: 62px; font-size: 10px; color: var(--muted-light);
+    font-family: var(--mono); transform: translateX(-50%); white-space: nowrap;
+  }
+  .timeline-dot {
+    position: absolute; top: 49px; width: 10px; height: 10px;
+    border-radius: 50%; border: 2px solid #ffffff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.15);
+    transform: translateX(-50%); cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s; z-index: 2;
+  }
+  .timeline-dot:hover, .timeline-dot.active {
+    transform: translateX(-50%) scale(1.5);
+    box-shadow: 0 0 0 3px rgba(27,42,74,0.12), 0 0 8px 2px var(--ring-glow);
+  }
+  .timeline-dot.t-hit { background: var(--hit); --ring-glow: var(--hit-glow); }
+  .timeline-dot.t-strategic { background: var(--strategic); --ring-glow: var(--strategic-glow); }
+  .timeline-dot.t-claimed { background: var(--claimed); --ring-glow: var(--claimed-glow); }
+  .timeline-tooltip {
+    position: absolute; bottom: calc(100% + 6px); left: 50%; transform: translateX(-50%);
+    background: var(--navy); border: none; border-radius: 6px;
+    padding: 5px 10px; font-size: 11px; color: #fff; white-space: nowrap;
+    pointer-events: none; opacity: 0; transition: opacity 0.15s;
+    box-shadow: 0 4px 12px rgba(27,42,74,0.3); max-width: 240px;
+  }
+  .timeline-dot:hover .timeline-tooltip { opacity: 1; }
+
+  /* ── Table ── */
+  .table-card { margin-top: 16px; padding: 14px 16px 18px; }
+  .table-head { font-size: 14px; font-weight: 600; color: var(--navy); margin-bottom: 10px; }
+  .table-scroll { max-height: 500px; overflow-y: auto; border-radius: var(--radius-sm); border: 1px solid var(--panel-border); }
+  .table-scroll::-webkit-scrollbar { width: 6px; }
+  .table-scroll::-webkit-scrollbar-track { background: transparent; }
+  .table-scroll::-webkit-scrollbar-thumb { background: rgba(27,42,74,0.15); border-radius: 3px; }
+
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  thead { position: sticky; top: 0; z-index: 2; }
+  th {
+    text-align: left; padding: 10px 12px; font-weight: 600; font-size: 11px;
+    text-transform: uppercase; letter-spacing: 0.5px;
+    color: var(--muted); background: var(--panel2);
+    border-bottom: 1px solid var(--panel-border);
+  }
+  td {
+    padding: 10px 12px; vertical-align: top;
+    border-bottom: 1px solid rgba(27,42,74,0.05); color: var(--text);
+  }
+  tr.table-row { cursor: pointer; transition: background 0.15s; border-left: 4px solid transparent; }
+  tr.table-row:hover { background: rgba(27,42,74,0.03); }
+  tr.table-row.active-row { background: rgba(27,42,74,0.05); }
+  tr.table-row.cat-hit { border-left-color: var(--hit); }
+  tr.table-row.cat-strategic { border-left-color: var(--strategic); }
+  tr.table-row.cat-claimed { border-left-color: var(--claimed); }
+  td b { color: var(--text-strong); font-weight: 600; }
+  td .small { color: var(--muted); font-size: 11px; }
+
+  @media (max-width: 1040px) {
+    .grid { grid-template-columns: 1fr; }
+    #map { height: 500px; }
+    .info-panel { min-height: auto; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="header">
+    <div class="header-banner">
+      <h1>The Iranian Crisis — Energy Assets That Have Been Affected</h1>
+      <div class="sub">
+        Updated through <b>31 March 2026</b>. Incident markers are grouped into
+        <b>direct hits</b>, <b>strategic disruptions</b> and <b>claimed / unconfirmed</b> items.
+        Click any marker, timeline dot or table row to explore.
+      </div>
+      <div class="header-row">
+        <button class="about-toggle" onclick="document.getElementById('aboutBox').classList.toggle('open')">ℹ About this map</button>
+      </div>
+      <div class="about-body" id="aboutBox">
+        Tiles load from public web map servers (CARTO / OpenStreetMap) when opened in a browser with internet access.
+        This version adds a proper geographic basemap with borders, city labels and a separate overlay for major ports and terminals.
+        Pan, zoom and layer controls are in the top-right corner of the map.
+      </div>
+    </div>
+  </div>
+
+  <div class="grid">
+    <div class="card map-card">
+      <div class="panel-head">
+        <b>Interactive regional map</b>
+        <div class="legend">
+          <span class="hit">Direct hit</span>
+          <span class="strategic">Strategic disruption</span>
+          <span class="claimed">Claimed / unconfirmed</span>
+        </div>
+      </div>
+      <div class="filter-row">
+        <button class="filter active" data-filter="all">Show all</button>
+        <button class="filter active" data-filter="Direct hit"><span class="fdot"></span>Direct hits</button>
+        <button class="filter active" data-filter="Strategic disruption"><span class="fdot"></span>Strategic disruptions</button>
+        <button class="filter active" data-filter="Claimed / unconfirmed"><span class="fdot"></span>Claimed / unconfirmed</button>
+      </div>
+      <div id="map" aria-label="Interactive geographic map of Middle East energy assets and disruptions"></div>
+      <div class="map-foot">Use the layer control (top-right) to switch basemap style or toggle city / port overlays. Click markers for details.</div>
+    </div>
+
+    <div class="card info-panel" id="infoPanel">
+      <div class="info-content" id="infoContent">
+        <div class="badge-row">
+          <div class="badge hit" id="badge">Direct hit</div>
+          <div class="date-chip" id="dateChip">2026-03-31</div>
+        </div>
+        <h2 class="info-title" id="title">Al-Salmi crude tanker off Dubai</h2>
+        <div class="info-meta">
+          <span class="flag" id="flag">🇦🇪</span>
+          <span id="meta">UAE waters · approximate location</span>
+        </div>
+        <div class="info-section">
+          <div class="label">What happened</div>
+          <p id="what"></p>
+        </div>
+        <div class="info-section">
+          <div class="label">Why it matters</div>
+          <p id="impact"></p>
+        </div>
+        <div class="info-links">
+          <a id="sourceLink" href="#" target="_blank" rel="noopener">Open source page</a>
+          <a id="imageLink" href="#" target="_blank" rel="noopener">Open image / scene page</a>
+        </div>
+        <div class="info-foot" id="footnote">Where Reuters image or gallery pages were available, they are linked here so you can pull visual references for article treatment.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card timeline-card">
+    <div class="timeline-head">Escalation timeline — March 2026</div>
+    <div class="timeline-track" id="timelineTrack">
+      <div class="timeline-axis"></div>
+    </div>
+  </div>
+
+  <div class="card table-card">
+    <div class="table-head">Incident register</div>
+    <div class="table-scroll">
+      <table>
+        <thead>
+          <tr><th>Location</th><th>What was hit or disrupted</th><th>Energy-market relevance</th><th>Category</th></tr>
+        </thead>
+        <tbody id="tableBody"></tbody>
+      </table>
+    </div>
+  </div>
+
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script>
+/* ══════════════════════════════════════════════
+   DATA — original + all new incidents
+   ══════════════════════════════════════════════ */
+
+const incidents = [
+  // ── ORIGINAL INCIDENTS ──
+  {"name":"South Pars gas field & Asaluyeh hub","country":"Iran","lat":27.58,"lon":52.61,"category":"Direct hit","date":"2026-03-18","what":"Israeli strike on South Pars and nearby Asaluyeh processing and petrochemical facilities.","impact":"South Pars supplies roughly 70–75% of Iran's gas output, so hits there matter directly for Iranian gas balance and regional trade flows.","source_url":"https://www.reuters.com/business/energy/irans-giant-south-pars-gas-field-centre-gulf-war-escalation-2026-03-19/","source_label":"Reuters report","image_url":"https://www.reuters.com/pictures/pictures-one-month-war-with-iran-2026-03-28/FVO6B5WJRJKMFG7PPA777V2BOM/"},
+  {"name":"Shahran fuel tanks, Tehran","country":"Iran","lat":35.79,"lon":51.42,"category":"Direct hit","date":"2026-03-08","what":"Reuters picture reporting showed smoke rising after a reported strike on the Shahran fuel tanks in Tehran.","impact":"Fuel-storage hits deepen domestic supply strain and underline that strikes spread beyond upstream gas into refined-product storage.","source_url":"https://www.reuters.com/pictures/pictures-one-month-war-with-iran-2026-03-28/FVO6B5WJRJKMFG7PPA777V2BOM/","source_label":"Reuters picture gallery","image_url":"https://www.reuters.com/pictures/pictures-one-month-war-with-iran-2026-03-28/FVO6B5WJRJKMFG7PPA777V2BOM/"},
+  {"name":"Karaj and other Iranian fuel depots","country":"Iran","lat":35.83,"lon":50.97,"category":"Direct hit","date":"2026-03-08","what":"Reuters, citing local agencies and an Iranian Oil Ministry source, reported fuel depots were hit in three areas including Karaj, west of Tehran.","impact":"Broadens the picture of refined-product infrastructure being targeted across Iran; lower-confidence detail on exact sites beyond Shahran and Karaj.","source_url":"https://www.reuters.com/pictures/pictures-one-month-war-with-iran-2026-03-28/FVO6B5WJRJKMFG7PPA777V2BOM/","source_label":"Reuters report","image_url":""},
+  {"name":"Ras Laffan Industrial City LNG complex","country":"Qatar","lat":25.92,"lon":51.55,"category":"Direct hit","date":"2026-03-19","what":"Iranian strike on Ras Laffan LNG facilities.","impact":"Reuters reported major damage to LNG infrastructure there; the site is central to Qatar's export machine and global LNG balances.","source_url":"https://www.reuters.com/business/energy/wrapup1-iran-targets-energy-facilities-across-gulf-after-israel-struck-its-key-2026-03-19/","source_label":"Reuters report","image_url":""},
+  {"name":"Mesaieed industrial zone","country":"Qatar","lat":25.28,"lon":51.55,"category":"Direct hit","date":"2026-03-02","what":"Reuters reported drones hit the Mesaieed industrial area, home to petrochemical and manufacturing facilities.","impact":"Not the core LNG complex like Ras Laffan, but Mesaieed hosts significant petrochemical capacity and broadens the geographic spread of Qatar-targeted attacks.","source_url":"https://www.reuters.com/business/energy/three-tankers-damaged-gulf-us-iran-conflict-escalates-2026-03-01/","source_label":"Reuters report","image_url":""},
+  {"name":"Mina Al-Ahmadi refinery","country":"Kuwait","lat":29.08,"lon":48.13,"category":"Direct hit","date":"2026-03-18","what":"Iranian drone attacks sparked fires and shutdowns at Kuwait's refining system, including Mina Al-Ahmadi.","impact":"Major refining and export node in Kuwait; outages tighten refined-product availability.","source_url":"https://www.reuters.com/world/middle-east/qatarenergy-reports-extensive-damage-after-missile-attacks-ras-laffan-industrial-2026-03-18/","source_label":"Reuters report","image_url":""},
+  {"name":"Mina Abdullah refinery","country":"Kuwait","lat":29.03,"lon":48.16,"category":"Direct hit","date":"2026-03-18","what":"Drone attack started fires at the refinery.","impact":"Further tightened regional refined-product supply alongside Ahmadi disruptions.","source_url":"https://www.reuters.com/world/middle-east/qatarenergy-reports-extensive-damage-after-missile-attacks-ras-laffan-industrial-2026-03-18/","source_label":"Reuters report","image_url":""},
+  {"name":"Kuwait International Airport fuel tanks","country":"Kuwait","lat":29.23,"lon":47.97,"category":"Direct hit","date":"2026-03-25","what":"A drone strike hit a fuel-storage tank at Kuwait International Airport; further drone attacks on 28 March damaged the airport radar system while firefighters were still dealing with the earlier fuel-tank fire.","impact":"More fuel-logistics than classic oil infrastructure, but fits the broader pattern of energy-supply disruption and adds to Kuwait's operational strain.","source_url":"https://www.reuters.com/world/middle-east/qatarenergy-reports-extensive-damage-after-missile-attacks-ras-laffan-industrial-2026-03-18/","source_label":"Reuters report","image_url":""},
+  {"name":"Kuwait power and water desalination plant","country":"Kuwait","lat":29.34,"lon":47.95,"category":"Strategic disruption","date":"2026-03-29","what":"An Iranian attack damaged a service building and killed an Indian worker at a Kuwaiti power and water desalination facility.","impact":"Utility infrastructure rather than a hydrocarbon asset, but strategically relevant as an escalation into essential civilian services.","source_url":"https://www.reuters.com/world/middle-east/qatarenergy-reports-extensive-damage-after-missile-attacks-ras-laffan-industrial-2026-03-18/","source_label":"Reuters report","image_url":""},
+  {"name":"Sitra refinery (Bapco)","country":"Bahrain","lat":26.15,"lon":50.63,"category":"Direct hit","date":"2026-03-09","what":"Bapco declared force majeure after an attack on its refinery complex on Sitra Island.","impact":"The 380,000-bpd refinery is Bahrain's core oil asset and also an outlet for Saudi crude via pipeline, so disruption matters beyond Bahrain alone.","source_url":"https://www.reuters.com/business/energy/bahrains-bapco-announces-force-majeure-operations-2026-03-09/","source_label":"Reuters report","image_url":"https://www.reuters.com/investigations/patriot-missile-involved-bahrain-blast-likely-us-operated-analysis-finds-2026-03-22/"},
+  {"name":"Fujairah oil terminal / industrial zone","country":"UAE","lat":25.13,"lon":56.34,"category":"Direct hit","date":"2026-03-14 to 2026-03-19","what":"Drone interception debris caused fires and repeated incidents around Fujairah; loading was disrupted.","impact":"Critical outlet for Murban crude and a major bunkering hub outside Hormuz, so even partial disruption is price-sensitive.","source_url":"https://www.reuters.com/world/middle-east/fire-occurred-uaes-fujairah-after-debris-fell-during-interception-drone-no-2026-03-14/","source_label":"Reuters report","image_url":"https://www.reuters.com/pictures/pictures-one-month-war-with-iran-2026-03-28/FVO6B5WJRJKMFG7PPA777V2BOM/"},
+  {"name":"Ruwais refinery complex","country":"UAE","lat":24.12,"lon":52.73,"category":"Direct hit","date":"2026-03-11 to 2026-03-14","what":"ADNOC shut the refinery after a drone-strike-related fire within the complex.","impact":"Reduced UAE refining capacity and added to product-market stress.","source_url":"https://www.reuters.com/world/middle-east/fire-occurred-uaes-fujairah-after-debris-fell-during-interception-drone-no-2026-03-14/","source_label":"Reuters report","image_url":""},
+  {"name":"Musaffah fuel tank terminal, Abu Dhabi","country":"UAE","lat":24.37,"lon":54.50,"category":"Direct hit","date":"2026-03-02","what":"A drone strike caused a fire at the Musaffah fuel tank terminal in Abu Dhabi.","impact":"ADNOC uses Musaffah to distribute fuel by truck and via a 1,600-km products pipeline network, so it matters as a fuels-logistics node even though operations were said not to be materially disrupted.","source_url":"https://www.reuters.com/business/energy/three-tankers-damaged-gulf-us-iran-conflict-escalates-2026-03-01/","source_label":"Reuters report","image_url":""},
+  {"name":"Habshan gas facilities","country":"UAE","lat":23.73,"lon":53.75,"category":"Strategic disruption","date":"2026-03-19","what":"Authorities said they were responding to incidents at Habshan caused by falling debris from intercepted missiles; the gas facilities were shut down.","impact":"Habshan is one of Abu Dhabi's major gas-processing nodes, so even a temporary shutdown feeds supply and sentiment concerns.","source_url":"https://www.reuters.com/world/middle-east/qatarenergy-reports-extensive-damage-after-missile-attacks-ras-laffan-industrial-2026-03-18/","source_label":"Reuters report","image_url":""},
+  {"name":"Bab oil field","country":"UAE","lat":23.97,"lon":53.1,"category":"Strategic disruption","date":"2026-03-19","what":"Authorities reported incidents at the Bab oil field caused by falling debris from intercepted missiles.","impact":"Even without confirmed major plant damage, interference at a producing field raises outage risk and reinforces market anxiety around UAE supply resilience.","source_url":"https://www.reuters.com/world/middle-east/qatarenergy-reports-extensive-damage-after-missile-attacks-ras-laffan-industrial-2026-03-18/","source_label":"Reuters report","image_url":""},
+  {"name":"Jebel Ali Port berth fire","country":"UAE","lat":24.99,"lon":55.06,"category":"Strategic disruption","date":"2026-03-01","what":"A berth at Jebel Ali caught fire following an aerial interception and port operations were paused as a precaution.","impact":"Jebel Ali is primarily a container port rather than an oil terminal, but interruptions there matter for regional trade, fuels logistics and shipping risk premia.","source_url":"https://www.reuters.com/business/energy/three-tankers-damaged-gulf-us-iran-conflict-escalates-2026-03-01/","source_label":"Reuters report","image_url":"https://www.reuters.com/world/middle-east/how-dubais-safe-haven-status-is-being-put-test-2026-03-02/"},
+  {"name":"Ras Tanura refinery","country":"Saudi Arabia","lat":26.64,"lon":50.16,"category":"Direct hit","date":"2026-03-02","what":"Reuters reported a drone attack and shutdown at Ras Tanura; later reporting said Aramco restarted the refinery on March 13.","impact":"Ras Tanura is Saudi Arabia's largest refinery at about 550,000 bpd, so even a temporary outage is globally relevant.","source_url":"https://www.reuters.com/business/energy/saudi-aramco-restarted-ras-tanura-oil-refinery-march-13-iir-says-2026-03-18/","source_label":"Reuters report","image_url":"https://www.reuters.com/pictures/photos-show-aftermath-irans-waves-retaliatory-strikes-2026-03-30/UQXB4RG5X5N4FPUU4EALGC5D2U"},
+  {"name":"SAMREF / Yanbu export corridor","country":"Saudi Arabia","lat":24.09,"lon":38.06,"category":"Direct hit","date":"2026-03-19","what":"A drone fell inside the SAMREF refinery and a missile toward Yanbu was intercepted.","impact":"Immediate physical impact was reported as limited, but Yanbu is Saudi Arabia's main Red Sea reroute away from Hormuz, so attacks there carry outsized price significance.","source_url":"https://www.reuters.com/business/energy/saudi-red-sea-port-yanbu-targeted-aerial-attack-minimal-impact-source-says-2026-03-19/","source_label":"Reuters report","image_url":""},
+  {"name":"Haifa refinery complex","country":"Israel","lat":32.82,"lon":35.03,"category":"Direct hit","date":"2026-03-19 to 2026-03-30","what":"An earlier strike damaged electrical infrastructure, and on March 30 debris from an intercepted missile hit a gasoline storage tank and industrial building at the refinery grounds.","impact":"The March 30 incident did not hit production units, but repeated strikes keep Israeli fuels infrastructure on the risk list.","source_url":"https://www.reuters.com/world/middle-east/missile-hits-fuel-tanker-israels-oil-refineries-2026-03-30/","source_label":"Reuters report","image_url":""},
+  {"name":"Ashdod refinery (claimed target)","country":"Israel","lat":31.82,"lon":34.64,"category":"Claimed / unconfirmed","date":"2026-03-19","what":"IRGC claimed it targeted Ashdod refinery along with Haifa.","impact":"No immediate confirmation Ashdod was actually hit; included as a watchlist item only.","source_url":"https://www.reuters.com/world/middle-east/iranian-attack-hits-israeli-oil-refinery-haifa-some-damage-reported-2026-03-19/","source_label":"Reuters report","image_url":""},
+  {"name":"Southern Iraqi oilfields / Basra output cut","country":"Iraq","lat":30.5,"lon":47.81,"category":"Strategic disruption","date":"By 2026-03-19","what":"Iraq sharply cut output from its main southern oilfields despite avoiding direct strikes.","impact":"Reuters said production fell about 70% to roughly 1.3 million bpd from 4.3 million, making this one of the biggest indirect supply hits in the region.","source_url":"https://www.reuters.com/business/energy/us-israeli-war-iran-causes-major-oil-gas-disruptions-2026-03-18/","source_label":"Reuters roundup","image_url":""},
+  {"name":"Fuel tanker attack near Basra","country":"Iraq","lat":29.97,"lon":48.47,"category":"Direct hit","date":"2026-03-12","what":"Reuters imagery showed a foreign tanker carrying Iraqi fuel oil damaged after catching fire following an attack near Basra.","impact":"A tanker strike does not remove production capacity by itself, but it intensifies shipping risk and raises freight and insurance costs for regional oil products.","source_url":"https://www.reuters.com/pictures/pictures-one-month-war-with-iran-2026-03-28/FVO6B5WJRJKMFG7PPA777V2BOM/","source_label":"Reuters picture gallery","image_url":"https://www.reuters.com/pictures/pictures-one-month-war-with-iran-2026-03-28/FVO6B5WJRJKMFG7PPA777V2BOM/"},
+  {"name":"Safesea Vishnu and Zefyros tankers near Iraq","country":"Iraq","lat":29.80,"lon":48.60,"category":"Direct hit","date":"2026-03-11","what":"Two fuel tankers — the Safesea Vishnu and Zefyros — were attacked near Iraq, prompting Iraqi oil ports to halt operations.","impact":"The port shutdown following these attacks amplified the supply disruption beyond the individual vessel damage, effectively halting Iraqi seaborne exports temporarily.","source_url":"https://www.reuters.com/business/energy/three-tankers-damaged-gulf-us-iran-conflict-escalates-2026-03-01/","source_label":"Reuters report","image_url":""},
+  {"name":"Sonangol Namibe tanker near Khor al Zubair","country":"Iraq","lat":30.00,"lon":47.95,"category":"Direct hit","date":"2026-03-05","what":"The Bahamas-flagged crude tanker Sonangol Namibe was damaged by a blast near Khor al Zubair, Iraq.","impact":"Another Iraqi-waterway tanker incident reinforcing the pattern of shipping risk that compounds the impact of onshore production cuts.","source_url":"https://www.reuters.com/business/energy/three-tankers-damaged-gulf-us-iran-conflict-escalates-2026-03-01/","source_label":"Reuters report","image_url":""},
+  // ── OMAN ──
+  {"name":"Duqm commercial port fuel tank area","country":"Oman","lat":19.67,"lon":57.70,"category":"Direct hit","date":"2026-03-01 to 2026-03-03","what":"Reuters reported a fuel tank at Duqm was hit on 3 March, and also reported earlier drone strikes at the port on 1 March, with debris falling near fuel tanks and one worker injured.","impact":"Duqm is a growing Omani industrial and logistics hub outside the Strait of Hormuz; attacks there extend the conflict geography beyond the Gulf itself.","source_url":"https://www.reuters.com/business/energy/three-tankers-damaged-gulf-us-iran-conflict-escalates-2026-03-01/","source_label":"Reuters report","image_url":""},
+  {"name":"Salalah port oil-storage / fuel-tank facilities","country":"Oman","lat":17.01,"lon":54.09,"category":"Direct hit","date":"2026-03-11","what":"Drones struck oil-storage facilities and fuel tanks at Salalah, causing a fire and a temporary pause in port operations.","impact":"Salalah is Oman's second-largest port and a significant container and fuel hub on the Arabian Sea coast, well south of the main Gulf theatre.","source_url":"https://www.reuters.com/business/energy/three-tankers-damaged-gulf-us-iran-conflict-escalates-2026-03-01/","source_label":"Reuters report","image_url":""},
+  // ── STRAIT & TANKERS ──
+  {"name":"Strait of Hormuz chokepoint","country":"Iran / Oman","lat":26.57,"lon":56.25,"category":"Strategic disruption","date":"From 2026-02-28 onward","what":"Iran severely restricted tanker passage, later saying only 'non-hostile' vessels coordinating with Iranian authorities could benefit from safe passage.","impact":"The strait normally carries about one-fifth of global oil and LNG; Barclays estimated a prolonged disruption could remove 13–14 million bpd from supply.","source_url":"https://www.reuters.com/world/middle-east/iran-says-non-hostile-ships-can-transit-strait-hormuz-ft-reports-2026-03-24/","source_label":"Reuters report","image_url":""},
+  {"name":"Al-Salmi crude tanker off Dubai","country":"UAE waters","lat":25.22,"lon":55.18,"category":"Direct hit","date":"2026-03-31","what":"A drone strike set ablaze the Kuwait-flagged Al-Salmi tanker off Dubai; the hull was damaged but no oil leak or injuries were reported.","impact":"The ship can carry about 2 million barrels; tanker hits directly raise freight, insurance and prompt-price risk even when cargo is not lost.","source_url":"https://www.reuters.com/business/energy/giant-oil-tanker-off-dubai-hit-by-iranian-strike-trump-threatens-obliterate-iran-2026-03-31/","source_label":"Reuters report","image_url":"https://www.reuters.com/business/energy/giant-oil-tanker-off-dubai-hit-by-iranian-strike-trump-threatens-obliterate-iran-2026-03-31/"},
+  {"name":"MKD VYOM product tanker off Oman","country":"Oman waters","lat":25.85,"lon":56.45,"category":"Direct hit","date":"2026-03-01","what":"A projectile struck the Marshall Islands-flagged product tanker MKD VYOM off Oman, causing an explosion and fire and killing one crew member.","impact":"This was an early sign that collateral or misdirected attacks on shipping could choke oil-product flows even beyond fixed energy assets.","source_url":"https://www.reuters.com/business/energy/three-tankers-damaged-gulf-us-iran-conflict-escalates-2026-03-01/","source_label":"Reuters report","image_url":""},
+  {"name":"Skylight oil tanker off Musandam","country":"Oman waters","lat":26.20,"lon":56.40,"category":"Direct hit","date":"2026-03-01","what":"The Palau-flagged oil tanker Skylight, under U.S. sanctions, was hit off Oman's Musandam peninsula.","impact":"Adds to the Day-1 shipping toll and demonstrates that sanctioned and non-sanctioned vessels were both targeted indiscriminately.","source_url":"https://www.reuters.com/business/energy/three-tankers-damaged-gulf-us-iran-conflict-escalates-2026-03-01/","source_label":"Reuters report","image_url":""},
+  {"name":"Hercules Star bunkering tanker, Ras Al Khaimah","country":"UAE waters","lat":25.82,"lon":56.10,"category":"Direct hit","date":"2026-03-01","what":"The Gibraltar-flagged oil bunkering tanker Hercules Star was struck near Mina Saqr / Ras Al Khaimah.","impact":"A bunkering vessel hit underlines the risk to fuel-supply logistics for ships transiting the region, not just cargo-carrying tankers.","source_url":"https://www.reuters.com/business/energy/three-tankers-damaged-gulf-us-iran-conflict-escalates-2026-03-01/","source_label":"Reuters report","image_url":""},
+  {"name":"Stena Imperative products tanker, Bahrain","country":"Bahrain","lat":26.22,"lon":50.60,"category":"Direct hit","date":"2026-03-02","what":"The U.S.-flagged products tanker Stena Imperative was hit in Bahrain port.","impact":"A U.S.-flagged vessel struck in a Gulf state port raises the stakes for American military and diplomatic involvement in protecting shipping.","source_url":"https://www.reuters.com/business/energy/three-tankers-damaged-gulf-us-iran-conflict-escalates-2026-03-01/","source_label":"Reuters report","image_url":""},
+  {"name":"Gas Al Ahmadiah LPG tanker off Fujairah","country":"UAE waters","lat":25.30,"lon":56.50,"category":"Direct hit","date":"2026-03-17","what":"The Kuwait-flagged LPG tanker Gas Al Ahmadiah sustained structural damage east of Fujairah.","impact":"An LPG carrier hit broadens the threat beyond crude and products into the gas-shipping segment, adding another dimension to regional energy-supply risk.","source_url":"https://www.reuters.com/business/energy/three-tankers-damaged-gulf-us-iran-conflict-escalates-2026-03-01/","source_label":"Reuters report","image_url":""},
+];
+
+const cities = [{"name":"Tehran","lat":35.6892,"lon":51.389},{"name":"Baghdad","lat":33.3152,"lon":44.3661},{"name":"Basra","lat":30.5085,"lon":47.7804},{"name":"Kuwait City","lat":29.3759,"lon":47.9774},{"name":"Manama","lat":26.2235,"lon":50.5876},{"name":"Doha","lat":25.2854,"lon":51.531},{"name":"Abu Dhabi","lat":24.4539,"lon":54.3773},{"name":"Dubai","lat":25.2048,"lon":55.2708},{"name":"Muscat","lat":23.588,"lon":58.3829},{"name":"Riyadh","lat":24.7136,"lon":46.6753},{"name":"Jeddah","lat":21.4858,"lon":39.1925},{"name":"Yanbu","lat":24.0889,"lon":38.0618},{"name":"Haifa","lat":32.794,"lon":34.9896},{"name":"Ashdod","lat":31.8044,"lon":34.6553},{"name":"Asaluyeh","lat":27.4768,"lon":52.615},{"name":"Fujairah","lat":25.1288,"lon":56.3265},{"name":"Salalah","lat":17.02,"lon":54.09},{"name":"Duqm","lat":19.67,"lon":57.71}];
+
+const ports = [{"name":"Ras Laffan","lat":25.92,"lon":51.55},{"name":"Mina Al-Ahmadi","lat":29.08,"lon":48.13},{"name":"Mina Abdullah","lat":29.03,"lon":48.16},{"name":"Sitra","lat":26.15,"lon":50.63},{"name":"Fujairah Port","lat":25.14,"lon":56.35},{"name":"Jebel Ali","lat":25.01,"lon":55.06},{"name":"Ruwais","lat":24.12,"lon":52.73},{"name":"Ras Tanura","lat":26.65,"lon":50.16},{"name":"Hormuz Strait","lat":26.57,"lon":56.25},{"name":"Basra Offshore","lat":29.97,"lon":48.47},{"name":"Duqm Port","lat":19.67,"lon":57.70},{"name":"Salalah Port","lat":17.01,"lon":54.09},{"name":"Mesaieed","lat":25.28,"lon":51.55}];
+
+const countryFlags = {
+  "Iran":"🇮🇷","Iraq":"🇮🇶","Israel":"🇮🇱","Qatar":"🇶🇦","Kuwait":"🇰🇼",
+  "Bahrain":"🇧🇭","UAE":"🇦🇪","Saudi Arabia":"🇸🇦","UAE waters":"🇦🇪",
+  "Oman waters":"🇴🇲","Iran / Oman":"🇮🇷","Oman":"🇴🇲",
+};
+
+const highImpact = new Set([
+  "South Pars gas field & Asaluyeh hub","Ras Laffan Industrial City LNG complex",
+  "Ras Tanura refinery","Strait of Hormuz chokepoint",
+  "Southern Iraqi oilfields / Basra output cut","Sitra refinery (Bapco)",
+]);
+
+/* ══════════════════════════════════════════════
+   MAP SETUP — light basemap
+   ══════════════════════════════════════════════ */
+
+let activeFilters = new Set(["Direct hit","Strategic disruption","Claimed / unconfirmed"]);
+let selectedMarker = null;
+let selectedName = "Al-Salmi crude tanker off Dubai";
+
+const map = L.map('map',{zoomControl:true,worldCopyJump:false}).setView([25.5,51.5],5);
+
+/* Light basemap by default to match blog */
+const positron = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',{
+  attribution:'&copy; OpenStreetMap &copy; CARTO',maxZoom:19
+}).addTo(map);
+
+const voyager = L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png',{
+  attribution:'&copy; OpenStreetMap &copy; CARTO',maxZoom:19
+});
+
+const darkMatter = L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',{
+  attribution:'&copy; OpenStreetMap &copy; CARTO',maxZoom:19
+});
+
+const incidentLayer = L.layerGroup().addTo(map);
+const cityLayer = L.layerGroup().addTo(map);
+const portLayer = L.layerGroup().addTo(map);
+const markerRefs = [];
+
+function cssClass(cat){
+  if(cat==="Direct hit")return"hit";
+  if(cat==="Strategic disruption")return"strategic";
+  return"claimed";
+}
+
+function incidentIcon(cat,name){
+  const big=highImpact.has(name);
+  const size=big?18:14;
+  const pulse=cat==="Direct hit"?'<div class="pulse-ring"></div>':'';
+  return L.divIcon({
+    className:'',
+    html:`<div style="position:relative;width:${size}px;height:${size}px">${pulse}<div class="marker-dot marker-${cssClass(cat)}" style="width:${size}px;height:${size}px"></div></div>`,
+    iconSize:[size,size],iconAnchor:[size/2,size/2],popupAnchor:[0,-size/2-4]
+  });
+}
+
+function setInfo(item){
+  const content=document.getElementById("infoContent");
+  content.classList.add("fading");
+  setTimeout(()=>{
+    document.getElementById("title").textContent=item.name;
+    document.getElementById("meta").textContent=`${item.country} · approximate location`;
+    document.getElementById("flag").textContent=countryFlags[item.country]||"📍";
+    document.getElementById("dateChip").textContent=item.date;
+    document.getElementById("what").textContent=item.what;
+    document.getElementById("impact").textContent=item.impact;
+    document.getElementById("sourceLink").href=item.source_url;
+    document.getElementById("sourceLink").textContent=item.source_label||"Open source page";
+    const imageLink=document.getElementById("imageLink");
+    if(item.image_url){imageLink.href=item.image_url;imageLink.style.display="inline-block";}
+    else{imageLink.removeAttribute("href");imageLink.style.display="none";}
+    const badge=document.getElementById("badge");
+    badge.textContent=item.category;
+    badge.className="badge "+cssClass(item.category);
+    content.classList.remove("fading");
+  },180);
+
+  if(selectedMarker){const dot=selectedMarker.getElement()?.querySelector('.marker-dot');if(dot)dot.classList.remove('selected');}
+  const ref=markerRefs.find(r=>r.item.name===item.name);
+  if(ref){selectedMarker=ref.marker;const dot=ref.marker.getElement()?.querySelector('.marker-dot');if(dot)dot.classList.add('selected');}
+  document.querySelectorAll('tr.table-row').forEach(r=>r.classList.remove('active-row'));
+  const row=document.querySelector(`tr.table-row[data-name="${CSS.escape(item.name)}"]`);
+  if(row)row.classList.add('active-row');
+  document.querySelectorAll('.timeline-dot').forEach(d=>d.classList.remove('active'));
+  const tdot=document.querySelector(`.timeline-dot[data-name="${CSS.escape(item.name)}"]`);
+  if(tdot)tdot.classList.add('active');
+  selectedName=item.name;
+}
+
+function renderIncidents(){
+  incidentLayer.clearLayers();
+  markerRefs.length=0;
+  incidents.forEach((item,idx)=>{
+    if(!activeFilters.has(item.category))return;
+    const marker=L.marker([item.lat,item.lon],{icon:incidentIcon(item.category,item.name)});
+    marker.bindTooltip(`<b>${item.name}</b><br><span style="font-size:11px;color:#718096">${item.date}</span>`,{
+      direction:'top',offset:[0,-12],className:'light-tooltip'
+    });
+    marker.on('click',()=>{
+      setInfo(item);
+      map.flyTo([item.lat,item.lon],Math.max(map.getZoom(),6),{duration:0.8});
+    });
+    marker.addTo(incidentLayer);
+    markerRefs.push({idx,marker,item});
+  });
+}
+
+function addLabel(layer,lat,lon,text,cls){
+  return L.marker([lat,lon],{interactive:false,icon:L.divIcon({className:'',html:`<div class="${cls}">${text}</div>`,iconSize:null})}).addTo(layer);
+}
+cities.forEach(c=>addLabel(cityLayer,c.lat,c.lon,c.name,'city-label'));
+ports.forEach(p=>addLabel(portLayer,p.lat,p.lon,p.name,'port-label'));
+
+L.control.layers(
+  {"Positron (light)":positron,"CARTO Voyager":voyager,"Dark Matter":darkMatter},
+  {"Incident markers":incidentLayer,"Major cities":cityLayer,"Major ports / terminals":portLayer},
+  {collapsed:false}
+).addTo(map);
+
+function activateByName(name){
+  const found=markerRefs.find(x=>x.item.name===name);
+  if(found)setInfo(found.item);
+  else if(markerRefs.length)setInfo(markerRefs[0].item);
+}
+
+function refreshFilters(){renderIncidents();activateByName(selectedName);}
+
+function toggleFilter(btn){
+  const val=btn.dataset.filter;
+  if(val==="all"){
+    const allOn=activeFilters.size===3;
+    activeFilters=allOn?new Set():new Set(["Direct hit","Strategic disruption","Claimed / unconfirmed"]);
+    document.querySelectorAll('button.filter[data-filter!="all"]').forEach(b=>{b.classList.toggle("active",activeFilters.has(b.dataset.filter));});
+    btn.classList.toggle("active",activeFilters.size===3);
+  }else{
+    if(activeFilters.has(val))activeFilters.delete(val);else activeFilters.add(val);
+    btn.classList.toggle("active",activeFilters.has(val));
+    document.querySelector('button.filter[data-filter="all"]').classList.toggle("active",activeFilters.size===3);
+  }
+  refreshFilters();
+}
+document.querySelectorAll("button.filter").forEach(btn=>btn.addEventListener("click",()=>toggleFilter(btn)));
+
+/* ── TABLE ── */
+const tbody=document.getElementById("tableBody");
+incidents.forEach(item=>{
+  const tr=document.createElement("tr");
+  tr.className=`table-row cat-${cssClass(item.category)}`;
+  tr.dataset.name=item.name;
+  tr.innerHTML=`<td><b>${item.name}</b><br><span class="small">${item.country}</span></td><td>${item.what}</td><td>${item.impact}</td><td>${item.category}</td>`;
+  tr.addEventListener("click",()=>{setInfo(item);map.flyTo([item.lat,item.lon],Math.max(map.getZoom(),6),{duration:0.8});});
+  tbody.appendChild(tr);
+});
+
+/* ── TIMELINE ── */
+(function buildTimeline(){
+  const track=document.getElementById("timelineTrack");
+  const startDate=new Date("2026-02-28");
+  const endDate=new Date("2026-03-31");
+  const span=endDate-startDate;
+
+  const ticks=[
+    {d:"2026-03-01",label:"1 Mar"},{d:"2026-03-08",label:"8 Mar"},
+    {d:"2026-03-15",label:"15 Mar"},{d:"2026-03-22",label:"22 Mar"},
+    {d:"2026-03-29",label:"29 Mar"},
+  ];
+  ticks.forEach(t=>{
+    const pct=((new Date(t.d)-startDate)/span)*100;
+    const tick=document.createElement("div");
+    tick.className="timeline-tick";tick.style.left=pct+"%";tick.textContent=t.label;
+    track.appendChild(tick);
+  });
+
+  function parseFirstDate(str){const m=str.match(/\d{4}-\d{2}-\d{2}/);return m?new Date(m[0]):null;}
+
+  const usedSlots={};
+  incidents.forEach(item=>{
+    const d=parseFirstDate(item.date);
+    if(!d)return;
+    const pct=Math.max(0,Math.min(100,((d-startDate)/span)*100));
+    const slotKey=Math.round(pct*10);
+    usedSlots[slotKey]=(usedSlots[slotKey]||0)+1;
+    const stackOffset=(usedSlots[slotKey]-1)*(-14);
+
+    const dot=document.createElement("div");
+    dot.className=`timeline-dot t-${cssClass(item.category)}`;
+    dot.style.left=pct+"%";
+    if(stackOffset)dot.style.top=(49+stackOffset)+"px";
+    dot.dataset.name=item.name;
+    dot.innerHTML=`<div class="timeline-tooltip">${item.name}</div>`;
+    dot.addEventListener("click",()=>{setInfo(item);map.flyTo([item.lat,item.lon],Math.max(map.getZoom(),6),{duration:0.8});});
+    track.appendChild(dot);
+  });
+})();
+
+/* ── Tooltip style ── */
+const style=document.createElement("style");
+style.textContent=`
+  .light-tooltip{background:rgba(255,255,255,0.96)!important;color:#2D3748!important;border:1px solid rgba(27,42,74,0.12)!important;border-radius:8px!important;font-family:var(--font)!important;font-size:12px!important;box-shadow:0 4px 16px rgba(0,0,0,0.1)!important;padding:6px 10px!important;}
+  .leaflet-tooltip-top::before{border-top-color:rgba(255,255,255,0.96)!important;}
+`;
+document.head.appendChild(style);
+
+refreshFilters();
+</script>
+</body>
+</html>
