@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RNS News Feed — Equity & Markets Insight</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --vanquis-deep: #1B2A4A;
+    --vanquis-mid: #2D4A7A;
+    --vanquis-accent: #E8453C;
+    --vanquis-light: #F0F4F8;
+    --vanquis-gold: #D4A853;
+    --text-primary: #1a1a2e;
+    --text-secondary: #4a5568;
+    --text-muted: #718096;
+    --bg-white: #ffffff;
+    --border-light: #e2e8f0;
+    --positive: #16A34A;
+    --negative: #DC2626;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'DM Sans', sans-serif; color: var(--text-primary); background: #f5f5f0; line-height: 1.7; }
+
+  /* Hero Banner */
+  .hero-banner { background: linear-gradient(135deg, var(--vanquis-deep) 0%, var(--vanquis-mid) 60%, #3A5C8A 100%); padding: 2.5rem 2rem 1.8rem; position: relative; overflow: hidden; }
+  .hero-banner::before { content: ''; position: absolute; top: -40%; right: -10%; width: 500px; height: 500px; background: radial-gradient(circle, rgba(212,168,83,0.12) 0%, transparent 70%); border-radius: 50%; }
+  .hero-banner::after { content: ''; position: absolute; bottom: 0; left: 0; right: 0; height: 4px; background: linear-gradient(90deg, var(--vanquis-accent), var(--vanquis-gold), var(--vanquis-accent)); }
+  .hero-inner { max-width: 1100px; margin: 0 auto; position: relative; z-index: 1; }
+  .hero-banner h1 { font-family: 'Playfair Display', serif; font-size: 2.2rem; font-weight: 800; color: #fff; margin-bottom: 0.3rem; }
+  .hero-subtitle { color: rgba(255,255,255,0.8); font-size: 1.05rem; font-weight: 400; }
+  .hero-badge { display: inline-block; background: var(--vanquis-accent); color: #fff; font-size: 0.7rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; padding: 0.25rem 0.7rem; border-radius: 3px; margin-bottom: 0.8rem; }
+
+  /* Filter Bar */
+  .filter-bar { max-width: 1100px; margin: 0 auto; padding: 1.2rem 2rem; display: flex; gap: 1rem; flex-wrap: wrap; align-items: center; }
+  .filter-bar label { font-size: 0.8rem; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.08em; }
+  .filter-group { display: flex; flex-direction: column; gap: 0.3rem; }
+  .filter-bar select, .filter-bar input[type="date"] {
+    padding: 0.5rem 0.8rem; border: 1px solid var(--border-light); border-radius: 6px;
+    font-family: 'DM Sans', sans-serif; font-size: 0.9rem; color: var(--text-primary);
+    background: var(--bg-white); min-width: 200px; cursor: pointer;
+  }
+  .filter-bar select:focus, .filter-bar input[type="date"]:focus { outline: none; border-color: var(--vanquis-mid); box-shadow: 0 0 0 3px rgba(45,74,122,0.1); }
+  .filter-reset { background: none; border: 1px solid var(--border-light); padding: 0.5rem 1rem; border-radius: 6px; font-family: 'DM Sans', sans-serif; font-size: 0.85rem; color: var(--text-muted); cursor: pointer; align-self: flex-end; transition: all 0.2s; }
+  .filter-reset:hover { border-color: var(--vanquis-accent); color: var(--vanquis-accent); }
+  .result-count { align-self: flex-end; font-size: 0.85rem; color: var(--text-muted); margin-left: auto; }
+
+  /* Content */
+  .content-wrap { max-width: 1100px; margin: 0 auto; padding: 0 2rem 3rem; }
+
+  /* Article Cards */
+  .article-card {
+    background: var(--bg-white); border-radius: 8px; margin-bottom: 1rem;
+    border: 1px solid var(--border-light); overflow: hidden;
+    transition: box-shadow 0.2s, border-color 0.2s;
+  }
+  .article-card:hover { box-shadow: 0 4px 20px rgba(27,42,74,0.08); border-color: rgba(45,74,122,0.2); }
+
+  .card-header {
+    display: flex; align-items: center; justify-content: space-between; gap: 1rem;
+    padding: 1rem 1.4rem; cursor: pointer; user-select: none;
+  }
+  .card-header:hover { background: rgba(240,244,248,0.5); }
+  .company-name { font-family: 'Playfair Display', serif; font-size: 1.15rem; font-weight: 700; color: var(--vanquis-deep); }
+  .card-meta { display: flex; gap: 1rem; align-items: center; flex-shrink: 0; }
+  .date-badge { background: var(--vanquis-light); color: var(--vanquis-mid); font-size: 0.78rem; font-weight: 600; padding: 0.25rem 0.65rem; border-radius: 4px; white-space: nowrap; }
+  .expand-icon { width: 20px; height: 20px; transition: transform 0.25s ease; color: var(--text-muted); flex-shrink: 0; }
+  .article-card.open .expand-icon { transform: rotate(180deg); }
+
+  .card-period { padding: 0 1.4rem; font-size: 0.85rem; color: var(--vanquis-gold); font-weight: 600; margin-top: -0.3rem; }
+
+  .card-body { padding: 0 1.4rem 1.2rem; display: none; }
+  .article-card.open .card-body { display: block; }
+
+  .card-body ul { list-style: none; padding: 0.8rem 0 0 0; }
+  .card-body li {
+    position: relative; padding: 0.35rem 0 0.35rem 1.2rem; font-size: 0.9rem;
+    color: var(--text-secondary); line-height: 1.65; border-bottom: 1px solid rgba(226,232,240,0.5);
+  }
+  .card-body li:last-child { border-bottom: none; }
+  .card-body li::before {
+    content: ''; position: absolute; left: 0; top: 0.75rem;
+    width: 6px; height: 6px; border-radius: 50%; background: var(--vanquis-gold);
+  }
+
+  /* Loading / empty states */
+  .loading { text-align: center; padding: 3rem; color: var(--text-muted); font-size: 1rem; }
+  .no-results { text-align: center; padding: 3rem; color: var(--text-muted); }
+  .no-results h3 { font-family: 'Playfair Display', serif; color: var(--vanquis-deep); margin-bottom: 0.5rem; }
+
+  /* Disclaimer */
+  .disclaimer { max-width: 1100px; margin: 0 auto 2rem; padding: 1rem 2rem; font-size: 0.75rem; color: var(--text-muted); line-height: 1.6; border-top: 1px solid var(--border-light); }
+
+  @media (max-width: 700px) {
+    .hero-banner h1 { font-size: 1.6rem; }
+    .filter-bar { flex-direction: column; align-items: stretch; }
+    .filter-bar select, .filter-bar input[type="date"] { min-width: auto; width: 100%; }
+    .card-header { flex-direction: column; align-items: flex-start; }
+    .card-meta { width: 100%; justify-content: space-between; }
+    .result-count { margin-left: 0; }
+  }
+</style>
+</head>
+<body>
+
+<div class="hero-banner">
+  <div class="hero-inner">
+    <div class="hero-badge">Live Feed</div>
+    <h1>RNS News</h1>
+    <div class="hero-subtitle">Regulatory news, director dealings &amp; broker notes — filterable by company and date</div>
+  </div>
+</div>
+
+<div class="filter-bar" id="filterBar">
+  <div class="filter-group">
+    <label for="companyFilter">Company</label>
+    <select id="companyFilter"><option value="">All Companies</option></select>
+  </div>
+  <div class="filter-group">
+    <label for="dateFrom">From</label>
+    <input type="date" id="dateFrom">
+  </div>
+  <div class="filter-group">
+    <label for="dateTo">To</label>
+    <input type="date" id="dateTo">
+  </div>
+  <button class="filter-reset" onclick="resetFilters()">Reset</button>
+  <div class="result-count" id="resultCount"></div>
+</div>
+
+<div class="content-wrap" id="articleList">
+  <div class="loading">Loading RNS articles…</div>
+</div>
+
+<div class="disclaimer">
+  This information is sourced from publicly available regulatory announcements and broker research. It does not constitute financial advice. Always conduct your own research before making investment decisions.
+</div>
+
+<script>
+let allArticles = [];
+
+function parseDate(str) {
+  if (!str || str.toLowerCase().includes('not provided')) return null;
+  const d = new Date(str);
+  return isNaN(d) ? null : d;
+}
+
+function formatDate(str) {
+  const d = parseDate(str);
+  if (!d) return str || 'Not dated';
+  return d.toLocaleDateString('en-GB', { day: '2-digit', month: 'short', year: 'numeric' });
+}
+
+function toISOish(str) {
+  const d = parseDate(str);
+  return d ? d.toISOString().split('T')[0] : '';
+}
+
+function loadArticles() {
+  // Load from the co-located JSON file
+  fetch('rns-data/rns-articles.json?' + Date.now())
+    .then(r => r.json())
+    .then(data => {
+      allArticles = data;
+      populateCompanyFilter();
+      renderArticles();
+    })
+    .catch(err => {
+      document.getElementById('articleList').innerHTML =
+        '<div class="no-results"><h3>Could not load data</h3><p>' + err.message + '</p></div>';
+    });
+}
+
+function populateCompanyFilter() {
+  const sel = document.getElementById('companyFilter');
+  const companies = [...new Set(allArticles.map(a => a.company))].sort();
+  companies.forEach(c => {
+    const opt = document.createElement('option');
+    opt.value = c; opt.textContent = c;
+    sel.appendChild(opt);
+  });
+}
+
+function getFilteredArticles() {
+  const company = document.getElementById('companyFilter').value;
+  const from = document.getElementById('dateFrom').value;
+  const to = document.getElementById('dateTo').value;
+
+  return allArticles.filter(a => {
+    if (company && a.company !== company) return false;
+    const iso = toISOish(a.publish_date);
+    if (from && iso && iso < from) return false;
+    if (to && iso && iso > to) return false;
+    return true;
+  });
+}
+
+function renderArticles() {
+  const filtered = getFilteredArticles();
+  const container = document.getElementById('articleList');
+  document.getElementById('resultCount').textContent = filtered.length + ' article' + (filtered.length !== 1 ? 's' : '');
+
+  if (filtered.length === 0) {
+    container.innerHTML = '<div class="no-results"><h3>No articles found</h3><p>Try adjusting your filters.</p></div>';
+    return;
+  }
+
+  container.innerHTML = filtered.map((a, i) => `
+    <div class="article-card" id="card-${i}">
+      <div class="card-header" onclick="toggleCard(${i})">
+        <span class="company-name">${a.company}</span>
+        <div class="card-meta">
+          <span class="date-badge">${formatDate(a.publish_date)}</span>
+          <svg class="expand-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+        </div>
+      </div>
+      <div class="card-period">${a.time_period}</div>
+      <div class="card-body">
+        <ul>${a.details.map(d => `<li>${d}</li>`).join('')}</ul>
+      </div>
+    </div>
+  `).join('');
+}
+
+function toggleCard(i) {
+  document.getElementById('card-' + i).classList.toggle('open');
+}
+
+function resetFilters() {
+  document.getElementById('companyFilter').value = '';
+  document.getElementById('dateFrom').value = '';
+  document.getElementById('dateTo').value = '';
+  renderArticles();
+}
+
+document.getElementById('companyFilter').addEventListener('change', renderArticles);
+document.getElementById('dateFrom').addEventListener('change', renderArticles);
+document.getElementById('dateTo').addEventListener('change', renderArticles);
+
+loadArticles();
+</script>
+</body>
+</html>
