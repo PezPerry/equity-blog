@@ -159,7 +159,7 @@ function toISOish(str) {
 
 function loadArticles() {
   // Load from the co-located JSON file
-  fetch('rns-data/rns-articles.json?' + Date.now())
+  fetch('rns-articles.json?' + Date.now())
     .then(r => r.json())
     .then(data => {
       allArticles = data;
