@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Why markets shrugged off the Hormuz blockade, why I closed my NASDAQ position, and what the Trump administration's escalation means for short-term trading opportunities.">
+    <meta name="keywords" content="Strait of Hormuz, NASDAQ, Iran blockade, Trump Iran, UK airlines, easyJet, Jet2, IAG, stock market, swing trade, geopolitical risk, oil prices">
+    <title>Markets Defy the Blockade — But I'm Stepping Aside for Now | Equity & Markets Insight</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800;900&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --vanquis-deep: #1B2A4A;
+            --vanquis-accent: #E8453C;
+            --vanquis-gold: #D4A853;
+            --vanquis-light: #F5F1EB;
+            --vanquis-dark-text: #2C2C2C;
+            --vanquis-mid-text: #555;
+            --vanquis-border: #E0D8CC;
+            --vanquis-blue-bg: rgba(27, 42, 74, 0.06);
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'DM Sans', sans-serif;
+            color: var(--vanquis-dark-text);
+            background: #FAFAF7;
+            line-height: 1.75;
+            font-size: 17px;
+        }
+
+        /* Hero Banner */
+        .hero {
+            background: linear-gradient(135deg, var(--vanquis-deep) 0%, #0F1B33 60%, #162544 100%);
+            padding: 60px 24px 50px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: radial-gradient(ellipse at 30% 50%, rgba(232,69,60,0.08) 0%, transparent 60%),
+                        radial-gradient(ellipse at 70% 30%, rgba(212,168,83,0.06) 0%, transparent 50%);
+        }
+        .hero-content { position: relative; max-width: 820px; margin: 0 auto; }
+        .hero-tag {
+            display: inline-block;
+            background: var(--vanquis-accent);
+            color: #fff;
+            font-size: 11px;
+            font-weight: 700;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            padding: 5px 14px;
+            border-radius: 3px;
+            margin-bottom: 20px;
+        }
+        .hero h1 {
+            font-family: 'Playfair Display', serif;
+            color: #fff;
+            font-size: clamp(28px, 5vw, 44px);
+            font-weight: 800;
+            line-height: 1.2;
+            margin-bottom: 16px;
+        }
+        .hero-subtitle {
+            color: rgba(255,255,255,0.7);
+            font-size: 16px;
+            max-width: 600px;
+            margin: 0 auto 28px;
+        }
+
+        /* Stat Boxes */
+        .hero-stats {
+            display: flex;
+            gap: 16px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 10px;
+        }
+        .stat-box {
+            background: rgba(255,255,255,0.08);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255,255,255,0.12);
+            border-radius: 10px;
+            padding: 16px 22px;
+            min-width: 150px;
+            text-align: center;
+        }
+        .stat-box .stat-value {
+            font-family: 'Playfair Display', serif;
+            font-size: 24px;
+            font-weight: 700;
+            color: var(--vanquis-gold);
+        }
+        .stat-box .stat-value.red { color: var(--vanquis-accent); }
+        .stat-box .stat-value.green { color: #4CAF50; }
+        .stat-box .stat-label {
+            font-size: 11px;
+            color: rgba(255,255,255,0.55);
+            text-transform: uppercase;
+            letter-spacing: 1.2px;
+            margin-top: 4px;
+        }
+
+        /* Article Container */
+        .article-container {
+            max-width: 780px;
+            margin: 0 auto;
+            padding: 40px 24px 60px;
+        }
+        .article-meta {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            margin-bottom: 32px;
+            font-size: 14px;
+            color: var(--vanquis-mid-text);
+        }
+        .article-meta .date { font-weight: 500; }
+        .article-meta .reading-time {
+            background: var(--vanquis-blue-bg);
+            padding: 3px 10px;
+            border-radius: 4px;
+            font-size: 12px;
+        }
+
+        /* Headings */
+        h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 26px;
+            font-weight: 700;
+            color: var(--vanquis-deep);
+            margin: 38px 0 16px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid var(--vanquis-accent);
+            display: inline-block;
+        }
+
+        p { margin-bottom: 18px; }
+
+        /* Summary Box */
+        .summary-box {
+            background: linear-gradient(135deg, rgba(27,42,74,0.05) 0%, rgba(27,42,74,0.02) 100%);
+            border-left: 4px solid var(--vanquis-deep);
+            border-radius: 0 8px 8px 0;
+            padding: 22px 26px;
+            margin: 28px 0;
+        }
+        .summary-box p { margin-bottom: 8px; }
+        .summary-box p:last-child { margin-bottom: 0; }
+        .summary-box strong { color: var(--vanquis-deep); }
+
+        /* Data Table */
+        .data-table-wrapper {
+            margin: 28px 0;
+            border-radius: 8px;
+            overflow: hidden;
+            border: 1px solid var(--vanquis-border);
+        }
+        .data-table-wrapper table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .data-table-wrapper thead {
+            background: var(--vanquis-deep);
+            color: #fff;
+        }
+        .data-table-wrapper th {
+            font-family: 'DM Sans', sans-serif;
+            font-size: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            padding: 12px 16px;
+            text-align: left;
+        }
+        .data-table-wrapper td {
+            padding: 11px 16px;
+            font-size: 14px;
+            border-bottom: 1px solid var(--vanquis-border);
+        }
+        .data-table-wrapper tr:nth-child(even) { background: rgba(27,42,74,0.03); }
+        .data-table-wrapper .positive { color: #2E7D32; font-weight: 600; }
+        .data-table-wrapper .negative { color: var(--vanquis-accent); font-weight: 600; }
+
+        /* Callout Box */
+        .callout-box {
+            background: #FFFDF5;
+            border: 1px solid var(--vanquis-gold);
+            border-radius: 8px;
+            padding: 20px 24px;
+            margin: 28px 0;
+            position: relative;
+        }
+        .callout-box::before {
+            content: '⚡';
+            position: absolute;
+            top: -12px;
+            left: 20px;
+            background: #FFFDF5;
+            padding: 0 6px;
+            font-size: 18px;
+        }
+        .callout-box .callout-title {
+            font-family: 'Playfair Display', serif;
+            font-weight: 700;
+            color: var(--vanquis-deep);
+            font-size: 15px;
+            margin-bottom: 8px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .callout-box p { font-size: 15px; margin-bottom: 6px; }
+
+        /* Image Placeholder */
+        .image-placeholder {
+            background: linear-gradient(135deg, var(--vanquis-blue-bg) 0%, rgba(212,168,83,0.08) 100%);
+            border: 2px dashed var(--vanquis-border);
+            border-radius: 8px;
+            padding: 30px 24px;
+            text-align: center;
+            margin: 28px 0;
+            font-size: 13px;
+            color: var(--vanquis-mid-text);
+        }
+        .image-placeholder .img-icon { font-size: 28px; margin-bottom: 8px; }
+        .image-placeholder .img-caption {
+            font-weight: 600;
+            color: var(--vanquis-deep);
+            font-size: 14px;
+        }
+
+        /* Verdict Box */
+        .verdict-box {
+            background: linear-gradient(135deg, var(--vanquis-deep) 0%, #0F1B33 100%);
+            color: #fff;
+            border-radius: 10px;
+            padding: 30px 28px;
+            margin: 36px 0;
+        }
+        .verdict-box h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 22px;
+            font-weight: 700;
+            margin-bottom: 14px;
+            color: var(--vanquis-gold);
+        }
+        .verdict-box p {
+            color: rgba(255,255,255,0.85);
+            font-size: 15px;
+            margin-bottom: 10px;
+        }
+        .verdict-box ul {
+            list-style: none;
+            padding: 0;
+            margin-top: 14px;
+        }
+        .verdict-box ul li {
+            padding: 8px 0 8px 24px;
+            position: relative;
+            color: rgba(255,255,255,0.85);
+            font-size: 15px;
+        }
+        .verdict-box ul li::before {
+            content: '▸';
+            position: absolute;
+            left: 0;
+            color: var(--vanquis-gold);
+            font-weight: 700;
+        }
+
+        /* Takeaways */
+        .takeaways {
+            background: var(--vanquis-light);
+            border-radius: 10px;
+            padding: 28px;
+            margin: 32px 0;
+        }
+        .takeaways h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 20px;
+            font-weight: 700;
+            color: var(--vanquis-deep);
+            margin-bottom: 16px;
+        }
+        .takeaways ul {
+            list-style: none;
+            padding: 0;
+        }
+        .takeaways ul li {
+            padding: 10px 0 10px 28px;
+            position: relative;
+            border-bottom: 1px solid var(--vanquis-border);
+            font-size: 15px;
+        }
+        .takeaways ul li:last-child { border-bottom: none; }
+        .takeaways ul li::before {
+            content: '✦';
+            position: absolute;
+            left: 0;
+            color: var(--vanquis-accent);
+            font-size: 14px;
+        }
+
+        /* Disclaimer & CTA */
+        .cta-section {
+            text-align: center;
+            padding: 36px 24px;
+            margin-top: 20px;
+        }
+        .cta-section p {
+            font-size: 16px;
+            color: var(--vanquis-mid-text);
+            margin-bottom: 14px;
+        }
+        .cta-section .cta-btn {
+            display: inline-block;
+            background: var(--vanquis-accent);
+            color: #fff;
+            text-decoration: none;
+            padding: 12px 32px;
+            border-radius: 6px;
+            font-weight: 600;
+            font-size: 14px;
+            letter-spacing: 0.5px;
+            transition: background 0.2s;
+        }
+        .cta-section .cta-btn:hover { background: #C93A32; }
+
+        .disclaimer {
+            background: rgba(27,42,74,0.04);
+            border-top: 1px solid var(--vanquis-border);
+            padding: 24px;
+            margin-top: 20px;
+            font-size: 12px;
+            color: #888;
+            line-height: 1.6;
+            text-align: center;
+            max-width: 780px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .citation {
+            font-weight: 600;
+            color: var(--vanquis-deep);
+        }
+
+        @media (max-width: 600px) {
+            .hero { padding: 40px 16px 36px; }
+            .hero-stats { flex-direction: column; align-items: center; }
+            .stat-box { min-width: 200px; }
+            .article-container { padding: 28px 16px 40px; }
+            h2 { font-size: 22px; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Hero Banner -->
+    <div class="hero">
+        <div class="hero-content">
+            <div class="hero-tag">Geopolitics & Trading</div>
+            <h1>Markets Defy the Hormuz Blockade — But I'm Stepping Aside for Now</h1>
+            <p class="hero-subtitle">The NASDAQ keeps climbing, UK airlines bounce back, and I've closed my position. Here's why the calm doesn't convince me.</p>
+            <div class="hero-stats">
+                <div class="stat-box">
+                    <div class="stat-value green">+1.23%</div>
+                    <div class="stat-label">NASDAQ (Mon Close)</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-value red">$102</div>
+                    <div class="stat-label">Brent Crude / Barrel</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-value">9</div>
+                    <div class="stat-label">NASDAQ Win Streak (Days)</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Article Body -->
+    <div class="article-container">
+        <div class="article-meta">
+            <span class="date">14 April 2026</span>
+            <span class="reading-time">5 min read</span>
+        </div>
+
+        <p>Surprisingly, the NASDAQ has not suffered too badly since negotiations fell apart between the United States and Iran. In fact, it has actually risen. After VP JD Vance walked away from 21 hours of talks in Islamabad on Saturday without a deal, President Trump announced a naval blockade of the Strait of Hormuz, effective Monday morning. The US Navy is now actively blocking all ships entering or leaving Iranian ports — and markets have barely flinched.</p>
+
+        <div class="summary-box">
+            <p><strong>What happened:</strong> The Islamabad peace talks collapsed on 12 April after Iran refused to commit to abandoning its nuclear programme. Trump immediately declared a US naval blockade of all traffic to and from Iranian ports in the Strait of Hormuz. <span class="citation">CENTCOM clarified the blockade would not impede vessels transiting to non-Iranian ports</span>, a narrower scope than Trump's initial rhetoric suggested. The two-week ceasefire, agreed on 8 April, is now hanging by a thread — and <span class="citation">The Wall Street Journal reported that the administration is considering resuming limited military strikes</span> to break the stalemate.</p>
+        </div>
+
+        <h2>The Market Reaction: Remarkably Calm</h2>
+
+        <p>The markets didn't react too badly to this news. The NASDAQ Composite closed up 1.23% on Monday at 23,183 — its ninth consecutive daily gain and its longest winning streak since 2023. The S&P 500 gained 1.02% to close at 6,886, wiping out its losses from the entire Iran war period. And indeed, this morning as of the 14th of April, the UK markets are up. Specifically airlines — easyJet is actually up 2.87%, Jet2 is up 3%, and IAG is up 1.81%.</p>
+
+        <div style="background: #fff; border-radius: 10px; padding: 24px; margin: 28px 0; border: 1px solid var(--vanquis-border);">
+            <canvas id="nasdaqChart" style="width: 100%; max-height: 340px;"></canvas>
+            <p style="font-size: 12px; color: var(--vanquis-mid-text); margin-top: 10px; margin-bottom: 0; text-align: center;">Source: NASDAQ Composite daily closes. Event annotations shown as vertical markers.</p>
+        </div>
+
+        <p>Since the blockade was announced on Sunday, the NASDAQ has actually risen slightly — it finished Monday up 1.37% from where it had been trading when the news broke. <span class="citation">Fundstrat's Tom Lee told CNBC that the market "has a really good way of discounting outcomes"</span> and is pricing in a favourable resolution, drawing parallels with World War II when the stock market bottomed in May 1942, months before the tide of the war had actually turned.</p>
+
+        <div class="data-table-wrapper">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Index / Stock</th>
+                        <th>Mon 13 Apr Close</th>
+                        <th>Change</th>
+                        <th>Note</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>NASDAQ Composite</td>
+                        <td>23,183</td>
+                        <td class="positive">+1.23%</td>
+                        <td>9th straight gain</td>
+                    </tr>
+                    <tr>
+                        <td>S&P 500</td>
+                        <td>6,886</td>
+                        <td class="positive">+1.02%</td>
+                        <td>Iran war losses erased</td>
+                    </tr>
+                    <tr>
+                        <td>FTSE 100</td>
+                        <td>10,582</td>
+                        <td class="negative">-0.16%</td>
+                        <td>Down 17pts; oil majors up</td>
+                    </tr>
+                    <tr>
+                        <td>Brent Crude</td>
+                        <td>~$102/bbl</td>
+                        <td class="negative">+7.3%</td>
+                        <td>Back above $100</td>
+                    </tr>
+                    <tr>
+                        <td>easyJet (Tue AM)</td>
+                        <td>—</td>
+                        <td class="positive">+2.87%</td>
+                        <td>Bouncing on deal hopes</td>
+                    </tr>
+                    <tr>
+                        <td>Jet2 (Tue AM)</td>
+                        <td>—</td>
+                        <td class="positive">+3.00%</td>
+                        <td>Bouncing on deal hopes</td>
+                    </tr>
+                    <tr>
+                        <td>IAG (Tue AM)</td>
+                        <td>—</td>
+                        <td class="positive">+1.81%</td>
+                        <td>Bouncing on deal hopes</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <p>Late on Monday, Trump gave a hint as to why markets rallied into the close. He told reporters outside the Oval Office that "we've been called by the other side," suggesting Iran had reached out to restart negotiations. That one sentence was enough to send the S&P 500 rallying from its session lows. Today's UK bounce — particularly in airlines — looks like a continuation of that optimism.</p>
+
+        <h2>Why I've Sold Out of the NASDAQ</h2>
+
+        <p>I have sold out of my NASDAQ trade. I was holding the position in place because of expectations that the Iranian-US situation would resolve. I do still believe that they will find some answers relatively soon — but I am fearful of some short-term weakness on the markets, on the NASDAQ especially, for this trade.</p>
+
+        <p>Here's my problem: I don't really foresee how they're going to come up with a deal together. The American stance on negotiating is a bit confusing. I do think they could more easily come up with an agreement, but the current US administration is too pushy and too bullying in nature to allow the regime to go along with any agreement at this point in time.</p>
+
+        <div class="callout-box">
+            <div class="callout-title">The Nuclear Sticking Point</div>
+            <p>The key impasse at Islamabad was Iran's nuclear programme. VP Vance stated the US needs a "conclusive commitment" that Iran will not develop nuclear weapons — and not just a pledge, but agreement not to pursue the <em>capability</em> to do so. Iran's negotiators reportedly lacked the authority to make that concession. This echoes the years-long negotiation that eventually produced the 2015 JCPOA — which Trump himself walked away from in 2018.</p>
+        </div>
+
+        <h2>Escalation Is the Default Setting</h2>
+
+        <p>They could have just as easily said that the negotiations hadn't been resolved and not blocked the Strait. They could have said they're going to go into further negotiations. They could even have gone down the route of not bombing Iran further at this point in time and seeing what Iran did next. But instead, they decided to escalate — as the Trump administration has a tendency to do.</p>
+
+        <p>I saw that as a particularly bad indicator of what the next step is. I find Trump — even for him — to be very volatile at this point in time. I don't really have a very clear understanding of what he might do next in order to resolve the conflict.</p>
+
+
+
+        <p>If there isn't a deal announced, I can't imagine there won't be an escalation of further bombing by the US into Iran in the coming week or two. The two-week ceasefire expires on 22 April — barely a week away. And under that scenario, I would anticipate there to be significant pressure on markets downwards.</p>
+
+        <h2>Why the Calm, Then?</h2>
+
+        <p>I very much understand why the markets haven't moved downwards since the Iranian deal failed. The blockade was narrower than Trump's rhetoric implied — it targets Iranian ports only, not all Strait traffic. Markets are pricing in a deal eventually happening. And Trump's comment about being "called by the other side" has fuelled fresh optimism that talks could resume quickly, possibly back in Islamabad.</p>
+
+        <p>But I think that the upside is a bit weak right now. For a short-term play on the NASDAQ, I don't want to trade on it when I don't have enough of an understanding of what could come next. It's worth noting that oil at $102 a barrel is a very different environment to oil at $70 before the war — and <span class="citation">US Energy Secretary Chris Wright acknowledged that energy prices will keep rising until "meaningful ship traffic" gets through the Strait</span>, which he estimated could take weeks.</p>
+
+        <p>If the ceasefire collapses and bombing resumes, there will almost certainly be a selloff — and that's when we may see further opportunities for investing long on the markets.</p>
+
+        <div style="background: #fff; border-radius: 10px; padding: 24px; margin: 28px 0; border: 1px solid var(--vanquis-border);">
+            <canvas id="oilChart" style="width: 100%; max-height: 340px;"></canvas>
+            <p style="font-size: 12px; color: var(--vanquis-mid-text); margin-top: 10px; margin-bottom: 0; text-align: center;">Source: Brent Crude front-month futures. Key conflict events annotated.</p>
+        </div>
+
+        <!-- Takeaways -->
+        <div class="takeaways">
+            <h3>Key Takeaways</h3>
+            <ul>
+                <li>The NASDAQ has posted nine consecutive daily gains and erased its Iran war losses despite the blockade announcement — markets are clearly pricing in a deal.</li>
+                <li>UK airlines bounced sharply this morning on hopes that Iran has called to restart talks, with Jet2 up 3% and easyJet up 2.87%.</li>
+                <li>I've closed my NASDAQ position. The upside feels limited while the downside risk — further bombing, ceasefire collapse — is very real within the next 7–10 days.</li>
+                <li>The Trump administration's default setting is escalation, and I find their negotiating posture too aggressive to produce a quick resolution.</li>
+                <li>Better entry points are likely coming. If the ceasefire expires without a deal on 22 April, expect a meaningful pullback — and that's when I'll be looking to re-enter.</li>
+            </ul>
+        </div>
+
+        <!-- Verdict Box -->
+        <div class="verdict-box">
+            <h3>My Position</h3>
+            <p>I'm out of the NASDAQ for now. Not because I'm bearish on the index long-term, but because the short-term picture is too murky. The Trump administration's volatility, the approaching ceasefire deadline, and oil above $100 all point to potential turbulence ahead.</p>
+            <ul>
+                <li>I still believe a deal gets done — but probably not before things get worse first.</li>
+                <li>Watching for a selloff as the ceasefire deadline approaches on 22 April.</li>
+                <li>UK airlines and consumer stocks remain on my watchlist for crisis-driven dip buying.</li>
+            </ul>
+        </div>
+
+        <!-- CTA -->
+        <div class="cta-section">
+            <p>What's your read on the Hormuz situation? Are you trading the dips or sitting on your hands? Drop your thoughts in the comments below.</p>
+            <a href="#" class="cta-btn">Join the Conversation</a>
+        </div>
+    </div>
+
+    <!-- Disclaimer -->
+    <div class="disclaimer">
+        <strong>Disclaimer:</strong> The content on this page is for informational and educational purposes only and does not constitute financial advice. All views expressed are personal opinions of the author. Trading and investing in financial markets carries risk — you could lose some or all of your capital. Always do your own research and consider seeking independent financial advice before making investment decisions. Past performance is not indicative of future results.
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+    <script>
+    // --- NASDAQ 9-Day Win Streak Chart ---
+    const nasdaqCtx = document.getElementById('nasdaqChart').getContext('2d');
+    const nasdaqLabels = ['27 Mar','28 Mar','31 Mar','1 Apr','2 Apr','3 Apr','4 Apr','7 Apr','8 Apr','9 Apr','10 Apr','13 Apr'];
+    const nasdaqData = [20862, 20690, 21143, 21505, 21703, 21899, 22060, 22384, 22822, 22903, 22903, 23184];
+    const nasdaqEvents = {
+        7: {label: 'Ceasefire agreed', color: '#2E7D32'},
+        11: {label: 'Talks fail / Blockade', color: '#E8453C'}
+    };
+
+    new Chart(nasdaqCtx, {
+        type: 'line',
+        data: {
+            labels: nasdaqLabels,
+            datasets: [{
+                label: 'NASDAQ Composite',
+                data: nasdaqData,
+                borderColor: '#1B2A4A',
+                backgroundColor: 'rgba(27,42,74,0.08)',
+                borderWidth: 2.5,
+                pointRadius: nasdaqData.map((_, i) => nasdaqEvents[i] ? 7 : 4),
+                pointBackgroundColor: nasdaqData.map((_, i) => nasdaqEvents[i] ? nasdaqEvents[i].color : '#1B2A4A'),
+                pointBorderColor: nasdaqData.map((_, i) => nasdaqEvents[i] ? '#fff' : '#1B2A4A'),
+                pointBorderWidth: nasdaqData.map((_, i) => nasdaqEvents[i] ? 2 : 0),
+                fill: true,
+                tension: 0.3
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: true,
+            plugins: {
+                title: {
+                    display: true,
+                    text: 'NASDAQ Composite: 9-Day Win Streak (1–13 April 2026)',
+                    font: { family: "'Playfair Display', serif", size: 16, weight: '700' },
+                    color: '#1B2A4A',
+                    padding: { bottom: 16 }
+                },
+                legend: { display: false },
+                tooltip: {
+                    callbacks: {
+                        afterLabel: function(ctx) {
+                            const evt = nasdaqEvents[ctx.dataIndex];
+                            return evt ? '⚡ ' + evt.label : '';
+                        }
+                    }
+                }
+            },
+            scales: {
+                y: {
+                    min: 20400,
+                    max: 23500,
+                    ticks: { 
+                        callback: v => v.toLocaleString(),
+                        font: { family: "'DM Sans', sans-serif", size: 11 },
+                        color: '#888'
+                    },
+                    grid: { color: 'rgba(0,0,0,0.06)' }
+                },
+                x: {
+                    ticks: { 
+                        font: { family: "'DM Sans', sans-serif", size: 11 },
+                        color: '#888'
+                    },
+                    grid: { display: false }
+                }
+            }
+        },
+        plugins: [{
+            id: 'eventAnnotations',
+            afterDraw: function(chart) {
+                const ctx = chart.ctx;
+                const xAxis = chart.scales.x;
+                const yAxis = chart.scales.y;
+                Object.entries(nasdaqEvents).forEach(([idx, evt]) => {
+                    const x = xAxis.getPixelForValue(parseInt(idx));
+                    ctx.save();
+                    ctx.strokeStyle = evt.color;
+                    ctx.lineWidth = 1.5;
+                    ctx.setLineDash([4, 3]);
+                    ctx.beginPath();
+                    ctx.moveTo(x, yAxis.top);
+                    ctx.lineTo(x, yAxis.bottom);
+                    ctx.stroke();
+                    ctx.setLineDash([]);
+                    ctx.fillStyle = evt.color;
+                    ctx.font = "bold 10px 'DM Sans', sans-serif";
+                    ctx.textAlign = 'center';
+                    ctx.fillText(evt.label, x, yAxis.top - 6);
+                    ctx.restore();
+                });
+            }
+        }]
+    });
+
+    // --- Brent Crude Oil Price Chart ---
+    const oilCtx = document.getElementById('oilChart').getContext('2d');
+    const oilLabels = ['27 Feb','28 Feb','5 Mar','9 Mar','12 Mar','19 Mar','27 Mar','31 Mar','4 Apr','8 Apr','9 Apr','10 Apr','13 Apr'];
+    const oilData = [72, 74, 82, 119, 112, 105, 113, 108, 110, 110, 96, 96, 103];
+    const oilEvents = {
+        1: {label: 'War begins', color: '#E8453C'},
+        3: {label: 'Hormuz closes', color: '#E8453C'},
+        7: {label: 'WTI hits $100', color: '#D4A853'},
+        9: {label: 'Ceasefire', color: '#2E7D32'},
+        12: {label: 'Blockade', color: '#E8453C'}
+    };
+
+    new Chart(oilCtx, {
+        type: 'line',
+        data: {
+            labels: oilLabels,
+            datasets: [{
+                label: 'Brent Crude ($/bbl)',
+                data: oilData,
+                borderColor: '#E8453C',
+                backgroundColor: 'rgba(232,69,60,0.08)',
+                borderWidth: 2.5,
+                pointRadius: oilData.map((_, i) => oilEvents[i] ? 7 : 4),
+                pointBackgroundColor: oilData.map((_, i) => oilEvents[i] ? oilEvents[i].color : '#E8453C'),
+                pointBorderColor: oilData.map((_, i) => oilEvents[i] ? '#fff' : '#E8453C'),
+                pointBorderWidth: oilData.map((_, i) => oilEvents[i] ? 2 : 0),
+                fill: true,
+                tension: 0.3
+            },{
+                label: 'Pre-war level ($72)',
+                data: Array(oilLabels.length).fill(72),
+                borderColor: '#2E7D32',
+                borderWidth: 1.5,
+                borderDash: [6, 4],
+                pointRadius: 0,
+                fill: false
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: true,
+            plugins: {
+                title: {
+                    display: true,
+                    text: 'Brent Crude Oil: From $72 to $103 Since the War Began',
+                    font: { family: "'Playfair Display', serif", size: 16, weight: '700' },
+                    color: '#1B2A4A',
+                    padding: { bottom: 16 }
+                },
+                legend: {
+                    labels: {
+                        font: { family: "'DM Sans', sans-serif", size: 11 },
+                        usePointStyle: true,
+                        pointStyleWidth: 16
+                    }
+                },
+                tooltip: {
+                    callbacks: {
+                        afterLabel: function(ctx) {
+                            if (ctx.datasetIndex === 0) {
+                                const evt = oilEvents[ctx.dataIndex];
+                                return evt ? '⚡ ' + evt.label : '';
+                            }
+                            return '';
+                        }
+                    }
+                }
+            },
+            scales: {
+                y: {
+                    min: 60,
+                    max: 130,
+                    ticks: { 
+                        callback: v => '$' + v,
+                        font: { family: "'DM Sans', sans-serif", size: 11 },
+                        color: '#888'
+                    },
+                    grid: { color: 'rgba(0,0,0,0.06)' }
+                },
+                x: {
+                    ticks: { 
+                        font: { family: "'DM Sans', sans-serif", size: 11 },
+                        color: '#888'
+                    },
+                    grid: { display: false }
+                }
+            }
+        },
+        plugins: [{
+            id: 'oilEventAnnotations',
+            afterDraw: function(chart) {
+                const ctx = chart.ctx;
+                const xAxis = chart.scales.x;
+                const yAxis = chart.scales.y;
+                Object.entries(oilEvents).forEach(([idx, evt]) => {
+                    const x = xAxis.getPixelForValue(parseInt(idx));
+                    ctx.save();
+                    ctx.strokeStyle = evt.color;
+                    ctx.lineWidth = 1;
+                    ctx.setLineDash([3, 3]);
+                    ctx.beginPath();
+                    ctx.moveTo(x, yAxis.top);
+                    ctx.lineTo(x, yAxis.bottom);
+                    ctx.stroke();
+                    ctx.setLineDash([]);
+                    ctx.fillStyle = evt.color;
+                    ctx.font = "bold 9px 'DM Sans', sans-serif";
+                    ctx.textAlign = 'center';
+                    ctx.fillText(evt.label, x, yAxis.top - 6);
+                    ctx.restore();
+                });
+            }
+        }]
+    });
+    </script>
+</body>
+</html>
