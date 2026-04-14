@@ -20,7 +20,6 @@ jobs:
         env:
           BASE44_API_KEY: ${{ secrets.BASE44_API_KEY }}
         run: |
-          # Get newly added HTML files only (not modified/deleted)
           NEW_FILES=$(git diff --name-only --diff-filter=A HEAD~1 HEAD -- '*.html' | grep -v 'rns-news.html' || true)
           
           if [ -z "$NEW_FILES" ]; then
@@ -33,92 +32,78 @@ jobs:
             echo "========================================="
             echo "Processing: $FILE"
             
-            FILENAME=$(basename "$FILE" .html)
-            SLUG="$FILENAME"
-            PUBLISH_DATE=$(date +%Y-%m-%d)
-            GITHUB_PAGES_URL="https://pezperry.github.io/equity-blog/${FILE}"
+            export FILE
             
-            # Extract metadata from HTML
-            python3 << 'PYEOF'
-          import json, re, sys, os, subprocess
+            python3 -c "
+          import json, re, os
 
-          filename = os.environ.get("FILE", "")
+          filename = os.environ['FILE']
           slug = os.path.splitext(os.path.basename(filename))[0]
-          publish_date = subprocess.check_output(["date", "+%Y-%m-%d"]).decode().strip()
-          github_url = f"https://pezperry.github.io/equity-blog/{filename}"
+          github_url = f'https://pezperry.github.io/equity-blog/{filename}'
 
-          with open(filename, "r") as f:
+          with open(filename, 'r') as f:
               html = f.read()
 
-          # Extract title
           title_match = re.search(r'<title>([^|<]+)', html)
           title = title_match.group(1).strip() if title_match else slug
 
-          # Extract excerpt from meta description
-          excerpt_match = re.search(r'meta name="description" content="([^"]+)"', html)
-          excerpt = excerpt_match.group(1) if excerpt_match else ""
+          excerpt_match = re.search(r'meta name=\"description\" content=\"([^\"]+)\"', html)
+          excerpt = excerpt_match.group(1) if excerpt_match else ''
 
-          # Extract keywords
-          kw_match = re.search(r'meta name="keywords" content="([^"]+)"', html)
-          keywords = kw_match.group(1).lower() if kw_match else ""
+          kw_match = re.search(r'meta name=\"keywords\" content=\"([^\"]+)\"', html)
+          keywords = kw_match.group(1).lower() if kw_match else ''
 
-          # Strip HTML tags for word count
           text_only = re.sub(r'<[^>]+>', ' ', html)
           word_count = len(text_only.split())
           read_time = max(1, word_count // 200)
 
-          # Combined text for category detection
-          all_text = f"{keywords} {title} {slug}".lower()
+          all_text = f'{keywords} {title} {slug}'.lower()
 
-          # Category detection - priority order
           if re.search(r'(company.*(analysis|research)|earnings|results|rns|trading.update|annual.report|half.year|interim)', all_text):
-              category = "company_analysis"
+              category = 'company_analysis'
           elif re.search(r'(trade.*(log|diary|journal)|day.trade|swing.trade|position.*(open|close|sold|bought)|entry.price|stop.loss)', all_text):
-              category = "day_trades"
+              category = 'day_trades'
           elif re.search(r'(oil|crude|brent|wti|gold|silver|copper|commodit|energy.*(price|market)|opec|strait.*hormuz)', all_text):
-              category = "commodities"
+              category = 'commodities'
           elif re.search(r'(nasdaq|ftse|s.p.500|dow.jones|index|indices|market.+(react|move|rebound|crash|rally))', all_text):
-              category = "indices"
+              category = 'indices'
           elif re.search(r'(market.*(movement|reaction|update|today)|sector|geopolit|tariff|sanction|blockade|war|conflict|defence)', all_text):
-              category = "market_movements"
+              category = 'market_movements'
           elif re.search(r'(hous(e|ing)|property|mortgage|homebuilder|construction|persimmon|barratt|bellway|taylor.wimpey|vistry)', all_text):
-              category = "housing"
+              category = 'housing'
           elif re.search(r'(inflation|cpi|consumer.price|cost.of.living|stagflation)', all_text):
-              category = "inflation"
+              category = 'inflation'
           elif re.search(r'(interest.rate|base.rate|bank.of.england|federal.reserve|boe|fed.rate|monetary.policy)', all_text):
-              category = "interest_rates"
+              category = 'interest_rates'
           elif re.search(r'(currency|forex|gbp|usd|eur|dollar|pound|exchange.rate)', all_text):
-              category = "currencies"
+              category = 'currencies'
           else:
-              category = "market_movements"
+              category = 'market_movements'
 
-          # Build iframe content
-          iframe = f'<div style="width:100%;margin:0;padding:0;"><iframe src="{github_url}" style="width:100%;height:4000px;border:none;display:block;" scrolling="no"></iframe></div>'
+          iframe = f'<div style=\"width:100%;margin:0;padding:0;\"><iframe src=\"{github_url}\" style=\"width:100%;height:4000px;border:none;display:block;\" scrolling=\"no\"></iframe></div>'
 
-          # Build API payload
+          from datetime import date
           post = {
-              "title": title,
-              "slug": slug,
-              "category": category,
-              "content": iframe,
-              "excerpt": excerpt,
-              "author": "Mickey Perry",
-              "publish_date": publish_date,
-              "read_time": read_time,
-              "is_published": True
+              'title': title,
+              'slug': slug,
+              'category': category,
+              'content': iframe,
+              'excerpt': excerpt,
+              'author': 'Mickey Perry',
+              'publish_date': date.today().isoformat(),
+              'read_time': read_time,
+              'is_published': True
           }
 
-          print(f"  Title:    {title}")
-          print(f"  Category: {category}")
-          print(f"  Slug:     {slug}")
-          print(f"  Read:     {read_time} min")
+          print(f'  Title:    {title}')
+          print(f'  Category: {category}')
+          print(f'  Slug:     {slug}')
+          print(f'  Read:     {read_time} min')
 
-          # Write payload to temp file
-          with open("/tmp/base44_payload.json", "w") as f:
+          with open('/tmp/base44_payload.json', 'w') as f:
               json.dump(post, f)
-          PYEOF
-
-            # Call Base44 API
+          "
+            
             HTTP_CODE=$(curl -s -o /tmp/base44_response.json -w "%{http_code}" \
               -X POST \
               -H "api_key: ${BASE44_API_KEY}" \
