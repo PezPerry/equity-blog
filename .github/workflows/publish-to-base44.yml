@@ -80,7 +80,7 @@ jobs:
           else:
               category = 'market_movements'
 
-          iframe = f'<div style=\"width:100%;margin:0;padding:0;\"><iframe src=\"{github_url}\" style=\"width:100%;height:4000px;border:none;display:block;\" scrolling=\"no\"></iframe></div>'
+          iframe = f'<div style=\"width:100%;margin:0;padding:0;\"><iframe src=\"{github_url}\" style=\"width:100%;height:85vh;border:none;display:block;\" scrolling=\"yes\"></iframe></div>'
 
           from datetime import date
           post = {
