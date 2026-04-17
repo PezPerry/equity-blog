@@ -22,17 +22,6 @@
     "added_at": "2026-04-17T07:42:34.952715"
   },
   {
-    "company": "IP Group PLC",
-    "ticker": "IPO",
-    "publish_date": "17 April 2026",
-    "date_iso": "2026-04-17",
-    "time_period": null,
-    "summary": "Test entry confirming ONS Article Watcher successfully processes files and pushes to GitHub",
-    "body": "<p>17 April 2026</p>\n<p>This is a test entry to confirm the ONS Article Watcher successfully processes a file, commits it locally, and pushes to GitHub. You can delete this test entry from the database after confirming it appears on the live site.</p>",
-    "source_format": "html",
-    "added_at": "2026-04-17T08:06:17.890197"
-  },
-  {
     "company": "Morgan Sindall PLC",
     "ticker": "MGNS",
     "publish_date": "16 April 2026",
