@@ -357,5 +357,21 @@ new Chart(ctx2, {
   }
 });
 </script>
+<script>
+(function(){
+  function sendH(){
+    try{
+      var h=Math.max(document.documentElement.scrollHeight,document.body?document.body.scrollHeight:0,document.documentElement.offsetHeight,document.body?document.body.offsetHeight:0);
+      if(window.parent&&window.parent!==window){
+        window.parent.postMessage({type:'crst-iframe-height',slug:'crest-nicholson-CRST-blog-page',height:h},'*');
+      }
+    }catch(e){}
+  }
+  if(document.readyState==='complete'){sendH();}
+  window.addEventListener('load',function(){setTimeout(sendH,50);setTimeout(sendH,500);setTimeout(sendH,1500);setTimeout(sendH,3500);});
+  window.addEventListener('resize',sendH);
+  if(window.ResizeObserver){var ro=new ResizeObserver(sendH);window.addEventListener('load',function(){ro.observe(document.documentElement);});}
+})();
+</script>
 </body>
 </html>
