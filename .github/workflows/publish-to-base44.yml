@@ -6,6 +6,7 @@ on:
     paths:
       - '*.html'
       - '!rns-news.html'
+      - '!longreads/**'
 
 jobs:
   publish:
@@ -20,20 +21,20 @@ jobs:
         env:
           BASE44_API_KEY: ${{ secrets.BASE44_API_KEY }}
         run: |
-          NEW_FILES=$(git diff --name-only --diff-filter=A HEAD~1 HEAD -- '*.html' | grep -v 'rns-news.html' || true)
-          
+          NEW_FILES=$(git diff --name-only --diff-filter=A HEAD~1 HEAD -- '*.html' ':!longreads/' | grep -v 'rns-news.html' || true)
+
           if [ -z "$NEW_FILES" ]; then
             echo "No new HTML articles detected. Skipping."
             exit 0
           fi
-          
+
           echo "$NEW_FILES" | while IFS= read -r FILE; do
             [ -z "$FILE" ] && continue
             echo "========================================="
             echo "Processing: $FILE"
-            
+
             export FILE
-            
+
             python3 -c "
           import json, re, os
 
@@ -103,14 +104,14 @@ jobs:
           with open('/tmp/base44_payload.json', 'w') as f:
               json.dump(post, f)
           "
-            
+
             HTTP_CODE=$(curl -s -o /tmp/base44_response.json -w "%{http_code}" \
               -X POST \
               -H "api_key: ${BASE44_API_KEY}" \
               -H "Content-Type: application/json" \
               -d @/tmp/base44_payload.json \
               "https://perky-equity-insight-hub.base44.app/api/entities/BlogPost")
-            
+
             if [ "$HTTP_CODE" = "200" ]; then
               POST_ID=$(python3 -c "import json; print(json.load(open('/tmp/base44_response.json')).get('id','?'))")
               CATEGORY=$(python3 -c "import json; print(json.load(open('/tmp/base44_response.json')).get('category','?'))")
