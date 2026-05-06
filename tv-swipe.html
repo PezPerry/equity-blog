@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+<meta name="theme-color" content="#0b0b10">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<title>Swipe — UK TV & Film Discovery</title>
+<style>
+  :root {
+    --bg: #0b0b10;
+    --bg-2: #14141d;
+    --fg: #f4f4f6;
+    --muted: #9a9aa8;
+    --accent: #ff3b6b;
+    --like: #2dd4bf;
+    --dislike: #ef4444;
+    --watched: #f59e0b;
+    --card-radius: 22px;
+    --safe-top: env(safe-area-inset-top, 0px);
+    --safe-bot: env(safe-area-inset-bottom, 0px);
+  }
+  * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+  html, body { height: 100%; margin: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background: var(--bg);
+    color: var(--fg);
+    overflow: hidden;
+    overscroll-behavior: none;
+    touch-action: none;
+  }
+  header {
+    position: fixed; top: 0; left: 0; right: 0;
+    padding: calc(var(--safe-top) + 10px) 14px 10px;
+    display: flex; align-items: center; justify-content: space-between;
+    z-index: 30;
+    pointer-events: none;
+  }
+  header > * { pointer-events: auto; }
+  .brand {
+    font-weight: 700; font-size: 16px; letter-spacing: 0.4px;
+    color: var(--fg);
+    text-shadow: 0 1px 6px rgba(0,0,0,0.6);
+  }
+  .brand .dot { color: var(--accent); }
+  .icon-btn {
+    background: rgba(20,20,29,0.7);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.08);
+    color: var(--fg);
+    width: 38px; height: 38px; border-radius: 50%;
+    display: inline-flex; align-items: center; justify-content: center;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  .icon-btn:active { transform: scale(0.94); }
+
+  main {
+    height: 100%;
+    display: flex; align-items: center; justify-content: center;
+    padding: calc(var(--safe-top) + 60px) 12px calc(var(--safe-bot) + 130px);
+  }
+  .stack {
+    position: relative;
+    width: 100%;
+    max-width: 420px;
+    aspect-ratio: 2 / 3;
+    max-height: calc(100vh - var(--safe-top) - var(--safe-bot) - 200px);
+  }
+
+  .card {
+    position: absolute; inset: 0;
+    border-radius: var(--card-radius);
+    overflow: hidden;
+    background: var(--bg-2);
+    box-shadow: 0 20px 50px rgba(0,0,0,0.55), 0 4px 12px rgba(0,0,0,0.35);
+    will-change: transform, opacity;
+    user-select: none;
+    -webkit-user-drag: none;
+  }
+  .card .poster {
+    position: absolute; inset: 0;
+    background-size: cover; background-position: center;
+    background-color: #222;
+  }
+  .card .scrim {
+    position: absolute; left: 0; right: 0; bottom: 0; top: 50%;
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.55) 50%, rgba(0,0,0,0.92) 100%);
+  }
+  .card .meta {
+    position: absolute; left: 16px; right: 16px; bottom: 16px;
+    display: flex; flex-direction: column; gap: 8px;
+  }
+  .card .title {
+    font-size: 24px; line-height: 1.15; font-weight: 700;
+    text-shadow: 0 2px 8px rgba(0,0,0,0.6);
+  }
+  .card .sub {
+    display: flex; flex-wrap: wrap; gap: 6px; align-items: center;
+    font-size: 12px; color: #ddd;
+  }
+  .chip {
+    background: rgba(255,255,255,0.14);
+    border: 1px solid rgba(255,255,255,0.18);
+    padding: 3px 8px; border-radius: 999px;
+    font-size: 11px; line-height: 1; font-weight: 600;
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    white-space: nowrap;
+  }
+  .chip.kind { background: rgba(255, 59, 107, 0.25); border-color: rgba(255,59,107,0.5); }
+  .chip.year { background: rgba(255,255,255,0.08); }
+  .providers { display: flex; gap: 6px; flex-wrap: wrap; }
+  .provider-badge {
+    font-size: 10px; font-weight: 700; letter-spacing: 0.3px;
+    padding: 3px 7px; border-radius: 6px;
+    color: #fff;
+  }
+  .pb-netflix  { background: #e50914; }
+  .pb-disney   { background: #113ccf; }
+  .pb-apple    { background: #1d1d1f; border: 1px solid #444; }
+  .pb-prime    { background: #00a8e1; }
+  .pb-iplayer  { background: #ff4c98; }
+
+  .overview {
+    font-size: 13px; line-height: 1.4; color: #e6e6ea;
+    max-height: 4.2em; overflow: hidden;
+    text-shadow: 0 1px 4px rgba(0,0,0,0.7);
+  }
+
+  /* Swipe direction labels */
+  .label {
+    position: absolute; top: 22px;
+    padding: 6px 14px;
+    font-size: 22px; font-weight: 800; letter-spacing: 1px;
+    border-radius: 8px;
+    border: 3px solid currentColor;
+    opacity: 0;
+    transition: opacity 0.05s linear;
+    pointer-events: none;
+  }
+  .label.like     { right: 22px; color: var(--like);    transform: rotate(12deg); }
+  .label.dislike  { left:  22px; color: var(--dislike); transform: rotate(-12deg); }
+  .label.watched  { left: 50%; top: auto; bottom: 30%; transform: translateX(-50%); color: var(--watched); }
+
+  /* Action bar */
+  .actions {
+    position: fixed; left: 0; right: 0; bottom: calc(var(--safe-bot) + 16px);
+    display: flex; align-items: center; justify-content: center; gap: 18px;
+    z-index: 20;
+  }
+  .action-btn {
+    width: 60px; height: 60px; border-radius: 50%;
+    background: var(--bg-2);
+    border: 1px solid rgba(255,255,255,0.08);
+    color: #fff;
+    display: inline-flex; align-items: center; justify-content: center;
+    font-size: 26px; cursor: pointer;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+  }
+  .action-btn.dislike { color: var(--dislike); }
+  .action-btn.watched { color: var(--watched); width: 52px; height: 52px; font-size: 22px; }
+  .action-btn.like    { color: var(--like); }
+  .action-btn:active { transform: scale(0.92); }
+  .action-btn:disabled { opacity: 0.4; }
+
+  /* Empty / loading state */
+  .empty {
+    position: absolute; inset: 0;
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    text-align: center; padding: 24px;
+    color: var(--muted);
+  }
+  .empty h2 { color: var(--fg); margin: 0 0 8px; font-size: 20px; }
+  .spinner {
+    width: 36px; height: 36px; border-radius: 50%;
+    border: 3px solid rgba(255,255,255,0.15);
+    border-top-color: var(--accent);
+    animation: spin 0.8s linear infinite;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  /* Settings modal */
+  .modal-backdrop {
+    position: fixed; inset: 0;
+    background: rgba(0,0,0,0.6);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    z-index: 50;
+    display: none; align-items: flex-end; justify-content: center;
+  }
+  .modal-backdrop.open { display: flex; }
+  .modal {
+    background: var(--bg-2);
+    width: 100%; max-width: 520px;
+    border-radius: 22px 22px 0 0;
+    padding: 18px 18px calc(var(--safe-bot) + 24px);
+    max-height: 92vh; overflow-y: auto;
+    border-top: 1px solid rgba(255,255,255,0.06);
+  }
+  .modal h2 { margin: 4px 0 14px; font-size: 18px; }
+  .modal label { display: block; font-size: 13px; margin: 12px 0 6px; color: var(--muted); }
+  .modal input[type="text"], .modal input[type="password"] {
+    width: 100%; padding: 12px 14px;
+    background: #1d1d28; color: var(--fg);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 12px; font-size: 15px;
+    outline: none;
+  }
+  .modal input:focus { border-color: var(--accent); }
+  .help {
+    font-size: 12px; color: var(--muted); margin-top: 6px; line-height: 1.45;
+  }
+  .help a { color: var(--accent); }
+  .providers-grid {
+    display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin-top: 6px;
+  }
+  .provider-toggle {
+    display: flex; align-items: center; gap: 10px;
+    padding: 12px; background: #1d1d28;
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 12px; cursor: pointer;
+    font-size: 14px; font-weight: 600;
+  }
+  .provider-toggle.on { border-color: var(--accent); background: rgba(255,59,107,0.1); }
+  .provider-toggle input { accent-color: var(--accent); width: 18px; height: 18px; }
+  .actions-row {
+    display: flex; gap: 10px; margin-top: 18px;
+  }
+  .btn {
+    flex: 1;
+    padding: 14px; border-radius: 12px;
+    border: none; cursor: pointer;
+    font-size: 15px; font-weight: 700;
+  }
+  .btn-primary { background: var(--accent); color: #fff; }
+  .btn-secondary { background: #1d1d28; color: var(--fg); border: 1px solid rgba(255,255,255,0.08); }
+  .btn-danger { background: rgba(239,68,68,0.15); color: #fca5a5; border: 1px solid rgba(239,68,68,0.3); }
+  .stat-row {
+    display: flex; gap: 8px; margin-top: 14px;
+    font-size: 12px; color: var(--muted);
+  }
+  .stat { background: #1d1d28; padding: 8px 10px; border-radius: 8px; flex: 1; text-align: center; }
+  .stat b { color: var(--fg); font-size: 14px; display: block; }
+
+  .hint {
+    position: fixed; left: 50%; transform: translateX(-50%);
+    bottom: calc(var(--safe-bot) + 92px);
+    font-size: 11px; color: var(--muted); text-align: center; line-height: 1.4;
+    z-index: 10; pointer-events: none;
+    text-shadow: 0 1px 4px rgba(0,0,0,0.6);
+  }
+
+  .toast {
+    position: fixed; left: 50%; top: calc(var(--safe-top) + 60px);
+    transform: translateX(-50%);
+    background: rgba(20,20,29,0.95);
+    border: 1px solid rgba(255,255,255,0.1);
+    padding: 10px 16px; border-radius: 999px;
+    font-size: 13px; color: var(--fg);
+    z-index: 60; opacity: 0;
+    transition: opacity 0.2s ease;
+    pointer-events: none;
+    white-space: nowrap;
+  }
+  .toast.show { opacity: 1; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="brand">Swipe<span class="dot">.</span></div>
+  <button class="icon-btn" id="settings-btn" aria-label="Settings">⚙</button>
+</header>
+
+<main>
+  <div class="stack" id="stack">
+    <div class="empty" id="empty-state">
+      <div class="spinner"></div>
+      <p style="margin-top:14px">Loading your shows…</p>
+    </div>
+  </div>
+</main>
+
+<div class="hint" id="hint">← Not interested · ↓ Already watched · Interested →</div>
+
+<div class="actions" id="actions" style="display:none">
+  <button class="action-btn dislike" id="btn-dislike" aria-label="Not interested">✕</button>
+  <button class="action-btn watched" id="btn-watched" aria-label="Already watched">✓✓</button>
+  <button class="action-btn like" id="btn-like" aria-label="Interested">♥</button>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<!-- Settings modal -->
+<div class="modal-backdrop" id="modal">
+  <div class="modal">
+    <h2>Settings</h2>
+
+    <label for="api-key">TMDB API Read Access Token (or v3 API key)</label>
+    <input type="password" id="api-key" placeholder="Paste your TMDB key here" autocomplete="off">
+    <div class="help">
+      Free from <a href="https://www.themoviedb.org/settings/api" target="_blank" rel="noopener">themoviedb.org/settings/api</a>.
+      Either the v3 API key or v4 read token works. Stored only on this device.
+    </div>
+
+    <label>Your UK subscriptions</label>
+    <div class="providers-grid" id="providers-grid"></div>
+
+    <div class="stat-row" id="stats">
+      <div class="stat"><b id="stat-like">0</b>Liked</div>
+      <div class="stat"><b id="stat-dislike">0</b>Skipped</div>
+      <div class="stat"><b id="stat-watched">0</b>Watched</div>
+    </div>
+
+    <div class="actions-row">
+      <button class="btn btn-secondary" id="btn-close">Done</button>
+      <button class="btn btn-danger" id="btn-reset">Reset history</button>
+    </div>
+    <div class="actions-row" style="margin-top:8px">
+      <button class="btn btn-secondary" id="btn-export">Export liked list</button>
+    </div>
+  </div>
+</div>
+
+<script>
+"use strict";
+
+/* ---------------- Provider catalogue (TMDB UK provider IDs) ---------------- */
+const PROVIDERS = [
+  { id: 8,   key: "netflix", name: "Netflix",         badge: "pb-netflix",  short: "Netflix" },
+  { id: 337, key: "disney",  name: "Disney+",         badge: "pb-disney",   short: "Disney+" },
+  { id: 350, key: "apple",   name: "Apple TV+",       badge: "pb-apple",    short: "Apple TV+" },
+  { id: 119, key: "prime",   name: "Amazon Prime",    badge: "pb-prime",    short: "Prime" },
+  { id: 38,  key: "iplayer", name: "BBC iPlayer",     badge: "pb-iplayer",  short: "iPlayer" },
+];
+
+/* TMDB genre id → name (TV + movie) */
+const GENRES = {
+  28: "Action", 12: "Adventure", 16: "Animation", 35: "Comedy", 80: "Crime",
+  99: "Documentary", 18: "Drama", 10751: "Family", 14: "Fantasy", 36: "History",
+  27: "Horror", 10402: "Music", 9648: "Mystery", 10749: "Romance",
+  878: "Sci-Fi", 10770: "TV Movie", 53: "Thriller", 10752: "War", 37: "Western",
+  10759: "Action", 10762: "Kids", 10763: "News", 10764: "Reality",
+  10765: "Sci-Fi", 10766: "Soap", 10767: "Talk", 10768: "War & Politics",
+};
+
+const TMDB = "https://api.themoviedb.org/3";
+const IMG = "https://image.tmdb.org/t/p/w780";
+
+/* ------------------------------- State ------------------------------------ */
+const LS_KEYS = {
+  apiKey: "swipe.apiKey",
+  providers: "swipe.providers",
+  decisions: "swipe.decisions",
+  pageState: "swipe.pageState",
+};
+
+const state = {
+  apiKey: localStorage.getItem(LS_KEYS.apiKey) || "",
+  providers: JSON.parse(localStorage.getItem(LS_KEYS.providers) || "null") ||
+             { netflix: true, disney: true, apple: true, prime: true, iplayer: true },
+  decisions: JSON.parse(localStorage.getItem(LS_KEYS.decisions) || "{}"), // id → { d: 'like'|'dislike'|'watched', t, m, title }
+  queue: [],
+  boost: [],         // priority items from "watched" recommendations
+  cursor: { tv: 1, movie: 1 },
+  loading: false,
+  exhausted: { tv: false, movie: false },
+};
+
+/* --------------------------- Persistence helpers -------------------------- */
+function saveDecisions() { localStorage.setItem(LS_KEYS.decisions, JSON.stringify(state.decisions)); }
+function saveProviders() { localStorage.setItem(LS_KEYS.providers, JSON.stringify(state.providers)); }
+function saveApiKey()    { localStorage.setItem(LS_KEYS.apiKey, state.apiKey); }
+
+function decisionKey(item) { return `${item.media_type}:${item.id}`; }
+function isSeen(item)      { return decisionKey(item) in state.decisions; }
+
+/* ------------------------------- TMDB calls ------------------------------- */
+async function tmdb(path, params = {}) {
+  const url = new URL(TMDB + path);
+  Object.entries(params).forEach(([k, v]) => v != null && url.searchParams.set(k, v));
+
+  const headers = { "accept": "application/json" };
+  // v4 read token starts with "eyJ" (JWT). v3 key is a 32-char hex.
+  if (state.apiKey.startsWith("eyJ")) {
+    headers["Authorization"] = `Bearer ${state.apiKey}`;
+  } else {
+    url.searchParams.set("api_key", state.apiKey);
+  }
+
+  const res = await fetch(url.toString(), { headers });
+  if (!res.ok) {
+    const txt = await res.text().catch(() => "");
+    throw new Error(`TMDB ${res.status}: ${txt.slice(0, 140)}`);
+  }
+  return res.json();
+}
+
+function selectedProviderIds() {
+  return PROVIDERS.filter(p => state.providers[p.key]).map(p => p.id);
+}
+
+function tagProviders(item) {
+  // Discover with `with_watch_providers` already filters to user's providers.
+  // We render badges for all enabled ones (best-effort without a per-item call).
+  return PROVIDERS.filter(p => state.providers[p.key]);
+}
+
+async function fetchDiscoverPage(mediaType, page) {
+  const ids = selectedProviderIds();
+  if (!ids.length) return [];
+  const data = await tmdb(`/discover/${mediaType}`, {
+    watch_region: "GB",
+    with_watch_providers: ids.join("|"),
+    sort_by: "popularity.desc",
+    "vote_count.gte": mediaType === "movie" ? 200 : 50,
+    include_adult: false,
+    page,
+  });
+  state.exhausted[mediaType] = page >= (data.total_pages || 1);
+  return (data.results || []).map(r => ({ ...r, media_type: mediaType }));
+}
+
+async function fetchRecommendations(item) {
+  try {
+    const data = await tmdb(`/${item.media_type}/${item.id}/recommendations`, { page: 1 });
+    return (data.results || []).map(r => ({ ...r, media_type: item.media_type }));
+  } catch (e) { return []; }
+}
+
+/* -------------------------------- Queue ----------------------------------- */
+function isUsable(item) {
+  return item && item.poster_path && item.id && (item.title || item.name) && !isSeen(item);
+}
+
+async function ensureQueue(min = 6) {
+  if (state.loading) return;
+  state.loading = true;
+  try {
+    while (state.queue.length + state.boost.length < min) {
+      // Pull a page from whichever media type isn't exhausted
+      const mt = (state.cursor.tv <= state.cursor.movie && !state.exhausted.tv) || state.exhausted.movie
+        ? "tv" : "movie";
+      if (state.exhausted.tv && state.exhausted.movie) break;
+      const page = state.cursor[mt];
+      const got = await fetchDiscoverPage(mt, page);
+      state.cursor[mt] = page + 1;
+      const fresh = got.filter(isUsable);
+      // Dedupe against current queue
+      const existing = new Set(state.queue.map(decisionKey));
+      for (const it of fresh) if (!existing.has(decisionKey(it))) state.queue.push(it);
+      if (got.length === 0) break;
+    }
+  } catch (e) {
+    showToast(`Error: ${e.message}`);
+    console.error(e);
+  } finally {
+    state.loading = false;
+  }
+}
+
+function nextItem() {
+  // Prefer boost (similar-to-watched) first
+  while (state.boost.length) {
+    const cand = state.boost.shift();
+    if (isUsable(cand)) return cand;
+  }
+  while (state.queue.length) {
+    const cand = state.queue.shift();
+    if (isUsable(cand)) return cand;
+  }
+  return null;
+}
+
+/* --------------------------------- UI ------------------------------------- */
+const stack = document.getElementById("stack");
+const emptyState = document.getElementById("empty-state");
+const actions = document.getElementById("actions");
+const hintEl = document.getElementById("hint");
+
+function showToast(msg) {
+  const t = document.getElementById("toast");
+  t.textContent = msg;
+  t.classList.add("show");
+  clearTimeout(showToast._tid);
+  showToast._tid = setTimeout(() => t.classList.remove("show"), 2200);
+}
+
+function genreNames(item) {
+  const ids = item.genre_ids || [];
+  return ids.map(id => GENRES[id]).filter(Boolean).slice(0, 2);
+}
+
+function buildCard(item) {
+  const card = document.createElement("div");
+  card.className = "card";
+  card.dataset.id = decisionKey(item);
+
+  const title = item.title || item.name || "Untitled";
+  const date = item.release_date || item.first_air_date || "";
+  const year = date ? date.slice(0, 4) : "";
+  const kind = item.media_type === "tv" ? "TV" : "Film";
+  const genres = genreNames(item);
+  const overview = item.overview || "";
+
+  const providerHtml = tagProviders(item)
+    .map(p => `<span class="provider-badge ${p.badge}">${p.short}</span>`).join("");
+  const genreHtml = genres.map(g => `<span class="chip">${g}</span>`).join("");
+
+  card.innerHTML = `
+    <div class="poster" style="background-image:url('${IMG}${item.poster_path}')"></div>
+    <div class="scrim"></div>
+    <div class="label like">INTERESTED</div>
+    <div class="label dislike">SKIP</div>
+    <div class="label watched">SEEN IT</div>
+    <div class="meta">
+      <div class="providers">${providerHtml}</div>
+      <div class="title">${escapeHtml(title)}</div>
+      <div class="sub">
+        <span class="chip kind">${kind}</span>
+        ${year ? `<span class="chip year">${year}</span>` : ""}
+        ${genreHtml}
+      </div>
+      ${overview ? `<div class="overview">${escapeHtml(overview)}</div>` : ""}
+    </div>
+  `;
+  return card;
+}
+
+function escapeHtml(s) {
+  return String(s).replace(/[&<>"']/g, c => ({
+    "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
+  }[c]));
+}
+
+function render() {
+  // Clean up stale finished cards
+  [...stack.querySelectorAll(".card")].forEach(c => {
+    if (c.classList.contains("flying")) return;
+    c.remove();
+  });
+  emptyState.style.display = "none";
+  actions.style.display = "flex";
+
+  // Render up to two cards (top + next preview)
+  const items = [];
+  if (currentItem) items.push(currentItem);
+  if (peekItem) items.push(peekItem);
+
+  // Render in reverse so the top card sits last in DOM (z-order)
+  for (let i = items.length - 1; i >= 0; i--) {
+    const card = buildCard(items[i]);
+    if (i === 1) {
+      card.style.transform = "scale(0.96) translateY(10px)";
+      card.style.filter = "brightness(0.85)";
+    }
+    stack.appendChild(card);
+  }
+
+  if (items.length === 0) {
+    if (state.loading) {
+      stack.innerHTML = `<div class="empty"><div class="spinner"></div><p style="margin-top:14px">Loading…</p></div>`;
+    } else if (!state.apiKey) {
+      stack.innerHTML = `<div class="empty"><h2>Welcome</h2><p>Add your TMDB key in settings to start.</p></div>`;
+    } else if (!selectedProviderIds().length) {
+      stack.innerHTML = `<div class="empty"><h2>Pick services</h2><p>Enable at least one streaming service in settings.</p></div>`;
+    } else {
+      stack.innerHTML = `<div class="empty"><h2>That's everything</h2><p>You've reached the end of the catalogue. Come back later for new releases.</p></div>`;
+    }
+    actions.style.display = "none";
+  }
+
+  attachGestures();
+  updateStats();
+}
+
+let currentItem = null;
+let peekItem = null;
+
+async function advance() {
+  currentItem = peekItem || nextItem();
+  peekItem = nextItem();
+  if (state.queue.length + state.boost.length < 4) ensureQueue(8);
+  render();
+}
+
+/* --------------------------- Swipe gestures ------------------------------- */
+function attachGestures() {
+  const top = stack.querySelector(".card:last-child");
+  if (!top || top.dataset.bound) return;
+  if (!currentItem) return;
+  top.dataset.bound = "1";
+
+  let startX = 0, startY = 0, dx = 0, dy = 0, active = false;
+  let axis = null;
+
+  const labelLike = top.querySelector(".label.like");
+  const labelDislike = top.querySelector(".label.dislike");
+  const labelWatched = top.querySelector(".label.watched");
+
+  const onDown = (e) => {
+    if (e.button != null && e.button !== 0) return;
+    active = true;
+    axis = null;
+    const p = pointFromEvent(e);
+    startX = p.x; startY = p.y; dx = 0; dy = 0;
+    top.style.transition = "none";
+    top.setPointerCapture && e.pointerId != null && top.setPointerCapture(e.pointerId);
+  };
+  const onMove = (e) => {
+    if (!active) return;
+    const p = pointFromEvent(e);
+    dx = p.x - startX;
+    dy = p.y - startY;
+    if (!axis) {
+      if (Math.abs(dx) > 6 || Math.abs(dy) > 6) {
+        axis = Math.abs(dy) > Math.abs(dx) * 1.2 ? "y" : "x";
+      } else return;
+    }
+    if (axis === "x") {
+      const rot = dx / 18;
+      top.style.transform = `translate(${dx}px, ${dy * 0.2}px) rotate(${rot}deg)`;
+      labelLike.style.opacity     = clamp(dx / 110, 0, 1);
+      labelDislike.style.opacity  = clamp(-dx / 110, 0, 1);
+      labelWatched.style.opacity  = 0;
+    } else {
+      const dyClamp = Math.max(0, dy); // only downward shows label
+      top.style.transform = `translate(${dx * 0.2}px, ${dy}px) rotate(${dx/40}deg)`;
+      labelWatched.style.opacity = clamp(dyClamp / 130, 0, 1);
+      labelLike.style.opacity = 0;
+      labelDislike.style.opacity = 0;
+    }
+  };
+  const onUp = (e) => {
+    if (!active) return;
+    active = false;
+    const wThreshold = Math.min(140, top.offsetWidth * 0.32);
+    const hThreshold = Math.min(160, top.offsetHeight * 0.28);
+    if (axis === "x" && Math.abs(dx) > wThreshold) {
+      flyAway(top, dx > 0 ? "right" : "left");
+    } else if (axis === "y" && dy > hThreshold) {
+      flyAway(top, "down");
+    } else {
+      top.style.transition = "transform 0.25s cubic-bezier(.2,.8,.2,1)";
+      top.style.transform = "";
+      labelLike.style.opacity = 0;
+      labelDislike.style.opacity = 0;
+      labelWatched.style.opacity = 0;
+    }
+  };
+
+  top.addEventListener("pointerdown", onDown);
+  top.addEventListener("pointermove", onMove);
+  top.addEventListener("pointerup", onUp);
+  top.addEventListener("pointercancel", onUp);
+}
+
+function pointFromEvent(e) {
+  if (e.touches && e.touches[0]) return { x: e.touches[0].clientX, y: e.touches[0].clientY };
+  return { x: e.clientX, y: e.clientY };
+}
+function clamp(n, lo, hi) { return Math.max(lo, Math.min(hi, n)); }
+
+function flyAway(card, dir) {
+  card.classList.add("flying");
+  const w = window.innerWidth, h = window.innerHeight;
+  let tx = 0, ty = 0, rot = 0;
+  if (dir === "right") { tx = w + 200; rot = 25; }
+  else if (dir === "left") { tx = -(w + 200); rot = -25; }
+  else if (dir === "down") { ty = h + 200; rot = 0; }
+  card.style.transition = "transform 0.32s ease-out, opacity 0.32s ease-out";
+  card.style.transform = `translate(${tx}px, ${ty}px) rotate(${rot}deg)`;
+  card.style.opacity = "0";
+  setTimeout(() => card.remove(), 320);
+
+  recordDecision(currentItem, dir === "right" ? "like" : dir === "left" ? "dislike" : "watched");
+}
+
+async function recordDecision(item, decision) {
+  if (!item) return;
+  state.decisions[decisionKey(item)] = {
+    d: decision, t: Date.now(), m: item.media_type,
+    title: item.title || item.name,
+  };
+  saveDecisions();
+
+  if (decision === "watched") {
+    showToast("Marked as watched — finding similar");
+    const recs = await fetchRecommendations(item);
+    const fresh = recs.filter(isUsable);
+    // De-dupe against existing boost/queue
+    const seen = new Set([...state.boost, ...state.queue].map(decisionKey));
+    for (const r of fresh) if (!seen.has(decisionKey(r))) state.boost.push(r);
+  } else if (decision === "like") {
+    showToast("Saved to your list");
+  }
+  advance();
+}
+
+/* ----------------------------- Buttons ------------------------------------ */
+function programmaticSwipe(dir) {
+  const top = stack.querySelector(".card:last-child");
+  if (!top || !currentItem) return;
+  flyAway(top, dir);
+}
+document.getElementById("btn-like").addEventListener("click", () => programmaticSwipe("right"));
+document.getElementById("btn-dislike").addEventListener("click", () => programmaticSwipe("left"));
+document.getElementById("btn-watched").addEventListener("click", () => programmaticSwipe("down"));
+
+window.addEventListener("keydown", (e) => {
+  if (e.target.tagName === "INPUT") return;
+  if (e.key === "ArrowLeft")  programmaticSwipe("left");
+  if (e.key === "ArrowRight") programmaticSwipe("right");
+  if (e.key === "ArrowDown")  programmaticSwipe("down");
+});
+
+/* ----------------------------- Settings ----------------------------------- */
+const modal = document.getElementById("modal");
+const apiKeyInput = document.getElementById("api-key");
+const providersGrid = document.getElementById("providers-grid");
+
+function buildProvidersGrid() {
+  providersGrid.innerHTML = "";
+  for (const p of PROVIDERS) {
+    const lbl = document.createElement("label");
+    lbl.className = "provider-toggle" + (state.providers[p.key] ? " on" : "");
+    lbl.innerHTML = `
+      <input type="checkbox" ${state.providers[p.key] ? "checked" : ""} data-key="${p.key}">
+      <span>${p.name}</span>
+    `;
+    lbl.querySelector("input").addEventListener("change", (e) => {
+      state.providers[p.key] = e.target.checked;
+      saveProviders();
+      lbl.classList.toggle("on", e.target.checked);
+      // Reset cursors so we re-pull the catalogue with new filter
+      state.queue = []; state.cursor = { tv: 1, movie: 1 };
+      state.exhausted = { tv: false, movie: false };
+    });
+    providersGrid.appendChild(lbl);
+  }
+}
+
+function openSettings() {
+  apiKeyInput.value = state.apiKey;
+  buildProvidersGrid();
+  updateStats();
+  modal.classList.add("open");
+}
+function closeSettings() {
+  const newKey = apiKeyInput.value.trim();
+  const keyChanged = newKey !== state.apiKey;
+  state.apiKey = newKey;
+  saveApiKey();
+  modal.classList.remove("open");
+  if (keyChanged) {
+    state.queue = []; state.boost = [];
+    state.cursor = { tv: 1, movie: 1 };
+    state.exhausted = { tv: false, movie: false };
+    boot();
+  } else if (!currentItem) {
+    boot();
+  } else {
+    // providers may have changed, just kick the queue
+    ensureQueue(6);
+  }
+}
+
+document.getElementById("settings-btn").addEventListener("click", openSettings);
+document.getElementById("btn-close").addEventListener("click", closeSettings);
+document.getElementById("btn-reset").addEventListener("click", () => {
+  if (!confirm("Reset all swipe history? This can't be undone.")) return;
+  state.decisions = {}; saveDecisions();
+  state.queue = []; state.boost = [];
+  state.cursor = { tv: 1, movie: 1 };
+  state.exhausted = { tv: false, movie: false };
+  updateStats();
+  showToast("History cleared");
+  boot();
+});
+document.getElementById("btn-export").addEventListener("click", () => {
+  const liked = Object.entries(state.decisions)
+    .filter(([, v]) => v.d === "like")
+    .map(([k, v]) => `${v.title} (${v.m === "tv" ? "TV" : "Film"})`)
+    .sort();
+  const text = liked.length ? liked.join("\n") : "(no liked items yet)";
+  navigator.clipboard?.writeText(text).then(
+    () => showToast(`Copied ${liked.length} to clipboard`),
+    () => alert(text)
+  );
+});
+
+function updateStats() {
+  const counts = { like: 0, dislike: 0, watched: 0 };
+  for (const v of Object.values(state.decisions)) counts[v.d] = (counts[v.d] || 0) + 1;
+  const ids = ["stat-like", "stat-dislike", "stat-watched"];
+  const keys = ["like", "dislike", "watched"];
+  ids.forEach((id, i) => { const el = document.getElementById(id); if (el) el.textContent = counts[keys[i]]; });
+}
+
+/* ------------------------------- Boot ------------------------------------- */
+async function boot() {
+  if (!state.apiKey) {
+    openSettings();
+    stack.innerHTML = `<div class="empty"><h2>Add a TMDB key</h2><p>Get a free key at themoviedb.org and paste it in settings.</p></div>`;
+    actions.style.display = "none";
+    return;
+  }
+  stack.innerHTML = `<div class="empty"><div class="spinner"></div><p style="margin-top:14px">Loading…</p></div>`;
+  await ensureQueue(8);
+  advance();
+}
+
+boot();
+</script>
+</body>
+</html>
