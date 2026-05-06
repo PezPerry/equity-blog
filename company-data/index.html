@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Equity and Markets Insight — Company Data</title>
+<link rel="stylesheet" href="styles.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+</head>
+<body>
+<div class="app">
+
+  <aside class="sidebar">
+    <div class="brand">
+      <div class="brand-logo">E</div>
+      <div>
+        <div class="brand-title">Equity and Markets Insight</div>
+        <div class="brand-sub">Company Data</div>
+      </div>
+    </div>
+
+    <div class="search-box">
+      <input type="text" id="search" placeholder="Search company or ticker…" autocomplete="off" />
+      <div class="search-count" id="searchCount"></div>
+    </div>
+
+    <div class="filters">
+      <select id="sectorFilter">
+        <option value="">All sectors</option>
+      </select>
+    </div>
+
+    <div class="company-list" id="companyList"></div>
+  </aside>
+
+  <main class="main">
+    <header class="page-header">
+      <div>
+        <div class="company-tidm" id="companyTidm">—</div>
+        <h1 class="company-name" id="companyName">Select a company</h1>
+        <div class="company-meta" id="companyMeta"></div>
+      </div>
+      <div class="header-right"></div>
+    </header>
+
+    <section class="kpi-row">
+      <div class="kpi">
+        <div class="kpi-label">Share Price</div>
+        <div class="kpi-value" id="kpiPrice">—</div>
+        <div class="kpi-delta" id="kpiChange">—</div>
+      </div>
+      <div class="kpi">
+        <div class="kpi-label">Market Cap</div>
+        <div class="kpi-value" id="kpiMcap">—</div>
+        <div class="kpi-sub" id="kpiMcapSub">—</div>
+      </div>
+      <div class="kpi">
+        <div class="kpi-label">P/E</div>
+        <div class="kpi-value" id="kpiPE">—</div>
+        <div class="kpi-sub" id="kpiPEG">—</div>
+      </div>
+      <div class="kpi">
+        <div class="kpi-label">EPS</div>
+        <div class="kpi-value" id="kpiEPS">—</div>
+        <div class="kpi-sub" id="kpiEPS3y">—</div>
+      </div>
+      <div class="kpi">
+        <div class="kpi-label">Yield</div>
+        <div class="kpi-value" id="kpiYield">—</div>
+        <div class="kpi-sub">Dividend</div>
+      </div>
+      <div class="kpi">
+        <div class="kpi-label">Shares (m)</div>
+        <div class="kpi-value" id="kpiShares">—</div>
+        <div class="kpi-sub" id="kpiCurrency">—</div>
+      </div>
+    </section>
+
+    <section class="dashboard">
+
+      <div class="panel panel-inputs">
+        <div class="panel-title">Valuation Inputs</div>
+        <div class="input-grid">
+          <div class="input-row">
+            <label>EPS Override</label>
+            <div class="eps-wrap">
+              <input type="number" id="inEPS" step="0.01" class="eps-input" />
+              <button type="button" class="mini-btn" id="resetEPSBtn" title="Reset to reported EPS">↺</button>
+            </div>
+            <div class="input-hint" id="epsHint"></div>
+          </div>
+          <div class="input-row">
+            <label>Asset Value (total, m)</label>
+            <div class="eps-wrap">
+              <input type="number" id="inAssetValue" step="0.01" class="eps-input" placeholder="leave blank to use EPS" />
+              <button type="button" class="mini-btn" id="clearAssetBtn" title="Clear">✕</button>
+            </div>
+            <div class="input-hint" id="assetHint">When set, valuation = Asset Value / Shares (× 100). Growth & Multiple are ignored.</div>
+          </div>
+          <div class="input-row">
+            <label>Valuation Multiple</label>
+            <div class="slider-wrap">
+              <input type="range" id="inMultiple" min="1" max="20" step="0.5" />
+              <div class="slider-val-wrap">
+                <input type="number" id="outMultiple" class="slider-num" step="0.01" min="0" />
+                <span class="slider-unit">x</span>
+              </div>
+            </div>
+          </div>
+          <div class="input-row">
+            <label>Growth Rate (%)</label>
+            <div class="slider-wrap">
+              <input type="range" id="inGrowth" min="-50" max="100" step="0.5" />
+              <div class="slider-val-wrap">
+                <input type="number" id="outGrowth" class="slider-num" step="0.01" />
+                <span class="slider-unit">%</span>
+              </div>
+            </div>
+            <div class="input-hint" id="growthHint"></div>
+          </div>
+          <div class="input-row">
+            <label>Uplift / Reduction (%)</label>
+            <div class="slider-wrap">
+              <input type="range" id="inUplift" min="-50" max="100" step="1" />
+              <div class="slider-val-wrap">
+                <input type="number" id="outUplift" class="slider-num" step="0.01" />
+                <span class="slider-unit">%</span>
+              </div>
+            </div>
+          </div>
+          <div class="input-row">
+            <label>Risk Factor (%)</label>
+            <div class="slider-wrap">
+              <input type="range" id="inRisk" min="0" max="100" step="1" />
+              <div class="slider-val-wrap">
+                <input type="number" id="outRisk" class="slider-num" step="0.01" min="0" max="100" />
+                <span class="slider-unit">%</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="input-divider"></div>
+
+          <div class="input-row">
+            <label>Proposed Action</label>
+            <select id="inProposedAction" class="period-select">
+              <option value="">—</option>
+              <option value="Strong Buy">Strong Buy</option>
+              <option value="Buy">Buy</option>
+              <option value="Watch">Watch</option>
+              <option value="Hold">Hold</option>
+              <option value="Reduce">Reduce</option>
+              <option value="Sell">Sell</option>
+              <option value="Avoid">Avoid</option>
+            </select>
+          </div>
+          <div class="input-row">
+            <label>Research Grade</label>
+            <select id="inResearchGrade" class="period-select">
+              <option value="">—</option>
+              <option value="A+">A+</option>
+              <option value="A">A</option>
+              <option value="B">B</option>
+              <option value="C">C</option>
+              <option value="D">D</option>
+              <option value="E">E</option>
+            </select>
+          </div>
+          <div class="input-row">
+            <label>Probability (%)</label>
+            <div class="slider-wrap">
+              <input type="range" id="inProbability" min="0" max="100" step="1" value="50" />
+              <div class="slider-val-wrap">
+                <input type="number" id="outProbability" class="slider-num" step="1" min="0" max="100" />
+                <span class="slider-unit">%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="reset-btn" id="resetBtn">Reset to defaults</button>
+      </div>
+
+      <div class="panel panel-result">
+        <div class="panel-title">Formula Valuation</div>
+        <div class="result-grid">
+          <div class="result-item">
+            <div class="result-label">Formula Valuation</div>
+            <div class="result-value" id="rFormula">—</div>
+          </div>
+          <div class="result-item">
+            <div class="result-label">Actual Valuation</div>
+            <div class="result-value" id="rActual">—</div>
+          </div>
+          <div class="result-item">
+            <div class="result-label">Valued Capitalisation</div>
+            <div class="result-value" id="rValuedCap">—</div>
+          </div>
+          <div class="result-item highlight" id="rOppItem">
+            <div class="result-label">Value Opportunity</div>
+            <div class="result-value" id="rOpp">—</div>
+          </div>
+        </div>
+        <div class="formula-hint" id="formulaHint">
+          Formula: <code>((EPS × (Growth/100) × Multiple) + EPS) × Multiple</code>
+        </div>
+      </div>
+
+      <div class="panel panel-chart">
+        <div class="panel-title">Price vs Target Valuation</div>
+        <div class="chart-wrap"><canvas id="chartPriceVsTarget"></canvas></div>
+      </div>
+
+      <div class="panel panel-chart">
+        <div class="panel-title">Value Opportunity</div>
+        <div class="chart-wrap"><canvas id="chartGauge"></canvas></div>
+        <div class="gauge-caption" id="gaugeCaption">—</div>
+      </div>
+
+      <div class="panel panel-chart">
+        <div class="panel-title">
+          <span id="epsChartTitle">EPS — 3-Year Trajectory</span>
+          <button class="expand-btn" data-chart="eps" title="Expand">⛶</button>
+        </div>
+        <div class="chart-wrap"><canvas id="chartEPS"></canvas></div>
+      </div>
+
+      <div class="panel panel-chart panel-wide">
+        <div class="panel-title">Subsector Peers — P/E vs Yield</div>
+        <div class="chart-wrap"><canvas id="chartPeers"></canvas></div>
+      </div>
+
+      <div class="panel panel-chart panel-wide">
+        <div class="panel-title">
+          <span>Valuation Sensitivity — Multiple</span>
+          <button class="expand-btn" data-chart="sensitivity" title="Expand">⛶</button>
+        </div>
+        <div class="chart-wrap"><canvas id="chartSensitivity"></canvas></div>
+      </div>
+
+    </section>
+
+    <section class="tearsheet-section" id="tearsheetSection">
+      <div class="tearsheet-header">
+        <div>
+          <div class="tearsheet-eyebrow">Tear Sheet</div>
+          <h2 class="tearsheet-title" id="tearsheetTitle">Financial History</h2>
+          <div class="tearsheet-sub" id="tearsheetSub">—</div>
+        </div>
+        <div class="tearsheet-header-right" id="tearsheetBadges"></div>
+      </div>
+
+      <div class="tearsheet-empty" id="tearsheetEmpty" style="display:none;">
+        <div class="empty-title">Tear sheet not available</div>
+        <div class="empty-sub">Detailed historical financials haven't been loaded for this company yet.</div>
+      </div>
+
+      <div class="tearsheet-body" id="tearsheetBody">
+
+        <div class="ts-kpi-row">
+          <div class="ts-kpi"><div class="ts-kpi-label">Period Covered</div><div class="ts-kpi-value" id="tsPeriod">—</div></div>
+          <div class="ts-kpi"><div class="ts-kpi-label">Turnover CAGR</div><div class="ts-kpi-value" id="tsTurnoverCagr">—</div><div class="ts-kpi-sub" id="tsTurnoverCagrSub">full period</div></div>
+          <div class="ts-kpi"><div class="ts-kpi-label">Post-tax Profit CAGR</div><div class="ts-kpi-value" id="tsProfitCagr">—</div><div class="ts-kpi-sub" id="tsProfitCagrSub">full period</div></div>
+          <div class="ts-kpi"><div class="ts-kpi-label">Latest Post-tax Profit</div><div class="ts-kpi-value" id="tsLatestProfit">—</div><div class="ts-kpi-sub" id="tsLatestProfitSub">—</div></div>
+        </div>
+
+        <div class="ts-eps-row">
+          <div class="ts-eps-title">Reported EPS — Average Annual Growth (CAGR)</div>
+          <div class="ts-eps-grid" id="tsEpsCagrGrid"></div>
+        </div>
+
+        <div class="ts-charts">
+          <div class="panel panel-chart ts-chart-wide">
+            <div class="panel-title">
+              <span>Turnover — Full History</span>
+              <button class="expand-btn" data-chart="chartTurnover" title="Expand">⛶</button>
+            </div>
+            <div class="chart-wrap"><canvas id="chartTurnover"></canvas></div>
+          </div>
+          <div class="panel panel-chart ts-chart-wide">
+            <div class="panel-title">
+              <span>Turnover — Year-on-Year Growth (%)</span>
+              <button class="expand-btn" data-chart="chartTurnoverGrowth" title="Expand">⛶</button>
+            </div>
+            <div class="chart-wrap"><canvas id="chartTurnoverGrowth"></canvas></div>
+          </div>
+          <div class="panel panel-chart ts-chart-wide">
+            <div class="panel-title">
+              <span>Reported Post-tax Profit + 3-Year Moving Average</span>
+              <button class="expand-btn" data-chart="chartPostTax" title="Expand">⛶</button>
+            </div>
+            <div class="chart-wrap"><canvas id="chartPostTax"></canvas></div>
+          </div>
+          <div class="panel panel-chart ts-chart-wide">
+            <div class="panel-title">
+              <span>Reported EPS — Year-on-Year Growth (%)</span>
+              <button class="expand-btn" data-chart="chartEPSGrowth" title="Expand">⛶</button>
+            </div>
+            <div class="chart-wrap"><canvas id="chartEPSGrowth"></canvas></div>
+          </div>
+        </div>
+
+        <div class="panel ts-table-panel">
+          <div class="panel-title">Full Dataset</div>
+          <div class="ts-table-wrap">
+            <table class="ts-table" id="tsTable"></table>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="download-section">
+      <button class="download-btn" id="downloadBtn" type="button">
+        <span class="download-btn-icon">⤓</span>
+        <span class="download-btn-label">Download Word Tear Sheet</span>
+        <span class="download-btn-sub" id="downloadBtnSub">Includes all KPIs, valuation, charts and full dataset</span>
+      </button>
+    </section>
+
+  </main>
+</div>
+
+<div class="chart-modal" id="chartModal" aria-hidden="true">
+  <div class="chart-modal-backdrop" data-close="1"></div>
+  <div class="chart-modal-inner">
+    <div class="chart-modal-header">
+      <div class="chart-modal-title" id="chartModalTitle">Chart</div>
+      <button class="chart-modal-close" data-close="1" title="Close">×</button>
+    </div>
+    <div class="chart-modal-body">
+      <canvas id="chartModalCanvas"></canvas>
+    </div>
+  </div>
+</div>
+
+<script src="data.js"></script>
+<script src="tearsheets.js"></script>
+<script src="app.js"></script>
+
+<script>
+// Iframe-friendly: post height to parent (e.g. Base44) for auto-resize.
+// No-op when not embedded.
+(function () {
+  if (window.parent === window) return;
+  const post = () => {
+    const h = Math.max(
+      document.documentElement.scrollHeight,
+      document.body.scrollHeight,
+      900
+    );
+    window.parent.postMessage({ type: 'company-data-iframe-height', slug: 'company-data', height: h }, '*');
+  };
+  window.addEventListener('load', post);
+  window.addEventListener('resize', post);
+  // Re-post when content changes (sliders, company select, etc.)
+  const obs = new MutationObserver(() => requestAnimationFrame(post));
+  obs.observe(document.body, { childList: true, subtree: true, attributes: true });
+})();
+</script>
+</body>
+</html>
