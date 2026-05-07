@@ -6,6 +6,7 @@ on:
     paths:
       - '*.html'
       - '!rns-news.html'
+      - '!tv-swipe.html'
       - '!longreads/**'
 
 jobs:
@@ -21,7 +22,7 @@ jobs:
         env:
           BASE44_API_KEY: ${{ secrets.BASE44_API_KEY }}
         run: |
-          NEW_FILES=$(git diff --name-only --diff-filter=A HEAD~1 HEAD -- '*.html' ':!longreads/' | grep -v 'rns-news.html' || true)
+          NEW_FILES=$(git diff --name-only --diff-filter=A HEAD~1 HEAD -- '*.html' ':!longreads/' | grep -vE '^(rns-news|tv-swipe)\.html$' || true)
 
           if [ -z "$NEW_FILES" ]; then
             echo "No new HTML articles detected. Skipping."
