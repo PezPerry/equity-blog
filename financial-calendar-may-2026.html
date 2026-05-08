@@ -1,0 +1,985 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financial Calendar - May 2026</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz@144&family=Inter+Tight:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root{--navy:#0f1419;--navy-2:#1a2028;--cream:#f5f1ea;--cream-2:#eae3d6;--cream-3:#d9d0be;--accent:#a5321c;--gold:#b8923a;--muted:#5a6370;--rule:rgba(15,20,25,0.14);--rule-strong:rgba(15,20,25,0.28)}
+        *{margin:0;padding:0;box-sizing:border-box}html{scroll-behavior:smooth}
+        body{font-family:'Inter Tight',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background-color:var(--cream);color:var(--navy);-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+        ::selection{background:var(--accent);color:var(--cream)}
+        .masthead{position:fixed;top:0;left:0;right:0;height:48px;display:flex;justify-content:space-between;align-items:center;padding:0 32px;font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:0.14em;text-transform:uppercase;color:var(--cream);mix-blend-mode:difference;background:transparent;z-index:1000;pointer-events:none}
+        .masthead-left,.masthead-right{display:flex;align-items:center;gap:8px}
+        .dot{width:7px;height:7px;border-radius:50%;background:var(--accent);display:inline-block}
+        .header{background-color:var(--navy);color:white;padding:120px 32px 64px;position:relative;margin-top:48px}
+        .header-content{max-width:1200px;margin:0 auto}
+        .header h1{font-family:'Fraunces',serif;font-size:64px;font-weight:400;font-variation-settings:"opsz" 144;line-height:1.1;margin-bottom:24px}
+        .header-meta{display:flex;align-items:center;gap:8px;font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:0.22em;text-transform:uppercase;color:var(--cream-3)}
+        .italic-gold{font-style:italic;color:var(--gold)}
+        .controls-section{background-color:var(--cream);border-top:1px solid var(--rule);padding:24px 32px;position:sticky;top:48px;z-index:50}
+        .control-group{display:flex;gap:16px;flex-wrap:wrap;align-items:center;margin-bottom:16px}
+        .control-group:last-child{margin-bottom:0}
+        .control-group label{font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:0.14em;text-transform:uppercase;color:var(--muted);font-weight:500}
+        .date-buttons,.nav-arrows{display:flex;gap:8px}
+        .btn{padding:10px 16px;border:none;background:var(--cream);color:var(--navy);cursor:pointer;font-size:13px;font-weight:500;font-family:'Inter Tight',sans-serif;transition:all 0.2s;border-bottom:2px solid transparent}
+        .btn:hover{border-bottom-color:var(--muted)}.btn.active{color:var(--accent);border-bottom-color:var(--accent)}
+        .nav-arrows button{padding:8px 12px;font-size:14px;width:auto;height:auto;border:none;background:transparent}
+        input[type="date"],input[type="text"]{padding:10px 12px;border:none;border-bottom:1px solid var(--rule);background:transparent;font-size:13px;font-family:'Inter Tight',sans-serif;color:var(--navy);transition:border-color 0.2s}
+        input[type="date"]:focus,input[type="text"]:focus{outline:none;border-bottom-color:var(--accent)}
+        input[type="text"]::placeholder{color:var(--muted)}
+        .category-filters{display:flex;gap:8px;flex-wrap:wrap}
+        .chip{padding:8px 14px;border:none;border-left:3px solid transparent;background:var(--cream);color:var(--muted);cursor:pointer;font-size:11px;font-weight:500;font-family:'JetBrains Mono',monospace;text-transform:uppercase;letter-spacing:0.14em;transition:all 0.2s;white-space:nowrap}
+        .chip:hover{color:var(--navy)}.chip.active{color:var(--navy)}
+        .chip[data-category="AGM"],.chip[data-category="EGM"],.chip[data-category="GM"]{border-left-color:var(--navy-2)}
+        .chip[data-category="AGM"].active,.chip[data-category="EGM"].active,.chip[data-category="GM"].active{background:rgba(26,32,40,0.06)}
+        .chip[data-category="Final Results"],.chip[data-category="Interim Results"],.chip[data-category="Q1 Results"],.chip[data-category="Q4 Results"]{border-left-color:var(--accent)}
+        .chip[data-category="Final Results"].active,.chip[data-category="Interim Results"].active,.chip[data-category="Q1 Results"].active,.chip[data-category="Q4 Results"].active{background:rgba(165,50,28,0.06)}
+        .chip[data-category*="Dividend Payment"]{border-left-color:var(--gold)}.chip[data-category*="Dividend Payment"].active{background:rgba(184,146,58,0.06)}
+        .chip[data-category*="Ex-Dividend"]{border-left-color:var(--cream-3)}.chip[data-category*="Ex-Dividend"].active{background:rgba(217,208,190,0.08)}
+        .chip[data-category="Trading Announcement"]{border-left-color:var(--muted)}.chip[data-category="Trading Announcement"].active{background:rgba(90,99,112,0.06)}
+        .chip[data-category="Annual Report"],.chip[data-category="Drilling Report"]{border-left-color:var(--cream-2)}
+        .chip[data-category="Annual Report"].active,.chip[data-category="Drilling Report"].active{background:rgba(234,227,214,0.08)}
+        .toggle-switch{display:flex;align-items:center;gap:8px}
+        .toggle-switch label{cursor:pointer;font-family:'Inter Tight',sans-serif;font-size:13px;text-transform:none;letter-spacing:normal}
+        .calendar-buttons{display:flex;gap:8px}
+        .cal-btn{padding:8px 14px;border:1px solid var(--rule-strong)!important;background:var(--cream)!important;font-family:'JetBrains Mono',monospace!important;font-size:11px!important;letter-spacing:0.08em;text-transform:uppercase;color:var(--navy);cursor:pointer;transition:all 0.2s}
+        .cal-btn:hover{background:var(--navy)!important;color:var(--cream);border-color:var(--navy)!important}
+        .content-section{max-width:1200px;margin:0 auto;padding:40px 32px}
+        .stats-bar{display:flex;align-items:baseline;gap:12px;margin-bottom:48px}
+        .stats-number{font-family:'Fraunces',serif;font-size:56px;font-weight:400;font-variation-settings:"opsz" 144;color:var(--navy)}
+        .stats-label{font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:0.14em;text-transform:uppercase;color:var(--muted)}
+        .table-container{background:var(--cream);border-top:1px solid var(--rule-strong);overflow:hidden}
+        .table-wrapper{overflow-x:auto}table{width:100%;border-collapse:collapse}
+        thead{background:var(--cream);position:sticky;top:0;z-index:10}
+        th{padding:16px 0;text-align:left;font-family:'JetBrains Mono',monospace;font-size:10px;font-weight:500;text-transform:uppercase;letter-spacing:0.18em;color:var(--muted);border-bottom:1px solid var(--rule-strong);cursor:pointer;user-select:none;transition:color 0.2s}
+        th:hover{color:var(--navy)}th.sortable::after{content:' ⇅';opacity:0.4}th.sort-asc::after{content:' ↑';opacity:1}th.sort-desc::after{content:' ↓';opacity:1}
+        td{padding:16px 0;border-bottom:1px solid var(--rule);font-size:15px;font-family:'Inter Tight',sans-serif}
+        tbody tr{background-color:transparent;transition:background-color 0.15s}tbody tr:hover{background-color:rgba(165,50,28,0.02)}
+        .ticker{font-weight:600;font-family:'JetBrains Mono',monospace;color:var(--accent);font-size:13px}.company-name{color:var(--navy)}
+        .category-tag{display:inline-block;padding:6px 10px;border-left:3px solid transparent;background:transparent;font-size:11px;font-weight:600;font-family:'JetBrains Mono',monospace;text-transform:uppercase;letter-spacing:0.14em;color:var(--navy)}
+        .tag-agm{border-left-color:var(--navy-2);background:rgba(26,32,40,0.06)}
+        .tag-results{border-left-color:var(--accent);background:rgba(165,50,28,0.06)}
+        .tag-dividend{border-left-color:var(--gold);background:rgba(184,146,58,0.06)}
+        .tag-ex-dividend{border-left-color:var(--cream-3);background:rgba(217,208,190,0.08)}
+        .tag-trading{border-left-color:var(--muted);background:rgba(90,99,112,0.06)}
+        .tag-report{border-left-color:var(--cream-2);background:rgba(234,227,214,0.08)}
+        .tag-special{border-left-color:var(--accent);background:rgba(165,50,28,0.06)}
+        .category-group-header{display:flex;align-items:baseline;gap:12px;margin-top:48px;margin-bottom:24px}
+        .category-group-header .number{font-family:'JetBrains Mono',monospace;font-size:13px;color:var(--accent);text-transform:uppercase;letter-spacing:0.14em}
+        .category-group-header h2{font-family:'Fraunces',serif;font-size:42px;font-weight:400;font-variation-settings:"opsz" 144;color:var(--navy)}
+        .empty-state{padding:48px 0;text-align:center;color:var(--muted)}.empty-state p{font-size:15px}
+        @media(max-width:768px){.masthead{padding:0 16px;flex-direction:column;height:auto;gap:8px}.masthead-left,.masthead-right{width:100%;justify-content:space-between}.header{padding:80px 16px 48px}.header h1{font-size:40px}.controls-section{padding:16px;top:auto}.control-group{gap:12px}.content-section{padding:24px 16px}th,td{padding:12px 0;font-size:13px}.category-filters{gap:6px}.chip{padding:6px 10px;font-size:10px}.stats-number{font-size:40px}.category-group-header h2{font-size:28px}}
+    </style>
+</head>
+<body>
+    <div class="masthead"><div class="masthead-left"><span class="dot"></span><span>FINANCIAL CALENDAR / 08.05.26</span></div><div class="masthead-right">MAY 2026 — MARKET CALENDAR</div></div>
+    <div class="header"><div class="header-content"><h1>Financial <span class="italic-gold">Calendar</span></h1><div class="header-meta"><span class="dot"></span>May 2026 Market Events & Corporate Calendar</div></div></div>
+    <div class="controls-section">
+        <div class="control-group"><label>View:</label><div class="date-buttons"><button class="btn active" data-view="today">Today</button><button class="btn" data-view="week">This Week</button><button class="btn" data-view="month">Full Month</button></div><div class="nav-arrows"><button class="btn" id="prevDay" title="Previous day">&laquo;</button><button class="btn" id="nextDay" title="Next day">&raquo;</button></div></div>
+        <div class="control-group"><label>From:</label><input type="date" id="dateFrom" value="2026-05-08"><label>To:</label><input type="date" id="dateTo" value="2026-05-08"></div>
+        <div class="control-group"><label>Search:</label><input type="text" id="searchBox" placeholder="Company name or ticker..."></div>
+        <div class="control-group"><label>Categories:</label><div class="category-filters" id="categoryFilters"></div></div>
+        <div class="control-group"><div class="toggle-switch"><input type="checkbox" id="groupByCategory"><label for="groupByCategory">Group by Category</label></div></div>
+        <div class="control-group"><label>Add to Calendar:</label><div class="calendar-buttons"><button class="btn cal-btn" id="exportICS" title="Download .ics file for Apple Calendar / iOS">iOS Calendar</button><button class="btn cal-btn" id="exportGoogle" title="Download .csv for Google Calendar import">Gmail Calendar</button><button class="btn cal-btn" id="exportOutlook" title="Download .ics file for Outlook">Outlook Calendar</button></div></div>
+    </div>
+    <div class="content-section"><div class="stats-bar"><div class="stats-number" id="eventCount">0</div><div class="stats-label">Events</div></div><div class="table-container"><div class="table-wrapper"><table id="eventsTable"><thead><tr><th class="sortable" data-column="date">Date</th><th class="sortable" data-column="ticker">Ticker</th><th class="sortable" data-column="company">Company</th><th class="sortable" data-column="category">Event Category</th></tr></thead><tbody id="tableBody"></tbody></table></div><div class="empty-state" id="emptyState" style="display:none;"><p>No events match your filters.</p></div></div></div>
+    <script>
+        const rawData = `AGM|01-May-2026|Pearson|PSON
+AGM|01-May-2026|Skillcast|SKL
+AGM|01-May-2026|Pollen Street|POLN
+AGM|01-May-2026|Smurfit West|SWR
+AGM|01-May-2026|Rotork|ROR
+AGM|04-May-2026|Faron Pharmaceuticals|FARN
+AGM|05-May-2026|Avi Japan Oppo.|AJOT
+AGM|05-May-2026|Plus500|PLUS
+AGM|05-May-2026|Rentguarantor|RGG
+AGM|05-May-2026|Caledonia Min|CMCL
+AGM|05-May-2026|Amala Foods Plc|DISH
+AGM|05-May-2026|Dauch Corp|DCH
+AGM|06-May-2026|Hostelworld|HSW
+AGM|06-May-2026|Aston Martin Lagonda|AML
+AGM|06-May-2026|Rio Tinto|RIO
+AGM|06-May-2026|Vanquis Banking|VANQ
+AGM|06-May-2026|Reach Plc|RCH
+AGM|06-May-2026|AIREA|AIEA
+AGM|06-May-2026|Aviva|AV.
+AGM|06-May-2026|Selkirk Group|SELK
+AGM|06-May-2026|Pennpetro Energy|PPP
+AGM|06-May-2026|Sundae Bar|SBAR
+AGM|06-May-2026|Seraphim Space|SSIT
+AGM|06-May-2026|Glaxosmithkline|GSK
+AGM|06-May-2026|Smith & Nephew|SN.
+AGM|07-May-2026|InterContinental Hotels|IHG
+AGM|07-May-2026|Barclays|BARC
+AGM|07-May-2026|Rathbone|RAT
+AGM|07-May-2026|Harbour Energy|HBR
+AGM|07-May-2026|Antofagasta|ANTO
+AGM|07-May-2026|Helios Towers|HTWS
+AGM|07-May-2026|Ashmore|ASHM
+AGM|07-May-2026|Nichols|NICL
+AGM|07-May-2026|Smart Metering|SMSN
+AGM|07-May-2026|Currys|CURY
+AGM|07-May-2026|M&G|MNG
+AGM|07-May-2026|Victoria|VCP
+AGM|07-May-2026|Spectral Md|SMH
+AGM|07-May-2026|Big Yellow|BYG
+AGM|07-May-2026|CMC Markets|CMCX
+AGM|07-May-2026|Tatton Asst Man.|TAM
+AGM|07-May-2026|Investec|INVP
+AGM|08-May-2026|WH Smith|SMWH
+AGM|08-May-2026|Future|FUTR
+AGM|08-May-2026|Bellway|BWY
+AGM|08-May-2026|Marston's|MARS
+AGM|08-May-2026|Cls Holdings|CLI
+AGM|08-May-2026|Pets At Home|PETS
+AGM|08-May-2026|Tesco|TSCO
+AGM|08-May-2026|Clarkson|CKN
+AGM|08-May-2026|Minster. Of Fi|MFG
+AGM|08-May-2026|Kape Technolog.|KAPE
+AGM|08-May-2026|Rolls-royce|RR.
+AGM|08-May-2026|IG Group|IGG
+AGM|08-May-2026|Greencore|GNC
+AGM|08-May-2026|Gp Clinical|GPC
+AGM|11-May-2026|TyraTech|TYR
+AGM|12-May-2026|Card Factory|CARD
+AGM|12-May-2026|Safestore|SAFE
+AGM|12-May-2026|British Land|BLND
+AGM|12-May-2026|Helical|HLCL
+AGM|12-May-2026|Hammerson|HMSO
+AGM|12-May-2026|Severn Trent|SVT
+AGM|12-May-2026|Devolver Digital|DEVO
+AGM|12-May-2026|Speedy Hire|SDY
+AGM|12-May-2026|Petershill|PHLL
+AGM|12-May-2026|Lloyds Banking Group|LLOY
+AGM|12-May-2026|Renew Holdings|RNWH
+AGM|12-May-2026|CMC Crypto|CMCE
+AGM|13-May-2026|Paragon Banking|PAG
+AGM|13-May-2026|Ashtead Group|AHT
+AGM|13-May-2026|Shell|SHEL
+AGM|13-May-2026|Ceres Power|CWR
+AGM|13-May-2026|Hipgnosis Songs|SONG
+AGM|13-May-2026|Redde Northgate|REDD
+AGM|13-May-2026|Trustpilot|TRST
+AGM|13-May-2026|Schroders|SDR
+AGM|13-May-2026|SEGRO|SGRO
+AGM|14-May-2026|DFS Furniture|DFS
+AGM|14-May-2026|BHP Group|BHP
+AGM|14-May-2026|Quilter|QLT
+AGM|14-May-2026|Rensburg Aim|RGA
+AGM|14-May-2026|Trainline|TRN
+AGM|14-May-2026|Intermediate Capital|ICG
+AGM|14-May-2026|Dunelm Group|DNLM
+AGM|14-May-2026|Great Portland|GPE
+AGM|14-May-2026|Prudential|PRU
+AGM|14-May-2026|Spirax Group|SPX
+AGM|14-May-2026|Hilton Food Group|HFG
+AGM|14-May-2026|Lancashire Holdings|LRE
+AGM|14-May-2026|Dowlais|DWL
+AGM|14-May-2026|NatWest Group|NWG
+AGM|14-May-2026|Anglo American|AAL
+AGM|14-May-2026|Watkin Jones|WJG
+AGM|14-May-2026|Gore Street Energy|GSF
+AGM|14-May-2026|John Wood|WG.
+AGM|14-May-2026|Fintel|FNTL
+AGM|15-May-2026|Costain|COST
+AGM|15-May-2026|Diploma|DPLM
+AGM|15-May-2026|Londonmetric|LMP
+AGM|15-May-2026|National Grid|NG.
+AGM|15-May-2026|Moonpig|MOON
+AGM|15-May-2026|Jas. Halstead|JHD
+AGM|15-May-2026|Energean|ENOG
+AGM|15-May-2026|Kingfisher|KGF
+AGM|15-May-2026|Sse|SSE
+AGM|15-May-2026|Glanbia|GLB
+AGM|15-May-2026|Derwent London|DLN
+AGM|15-May-2026|Reliance Global|RGG1
+AGM|18-May-2026|Jubilee Metals|JLP
+AGM|18-May-2026|Gattaca|GATC
+AGM|19-May-2026|Balfour Beatty|BBY
+AGM|19-May-2026|Harworth Group|HWG
+AGM|19-May-2026|Halfords|HFD
+AGM|19-May-2026|Custodian Prop|CREI
+AGM|19-May-2026|Hiscox|HSX
+AGM|19-May-2026|Wickes|WIX
+AGM|19-May-2026|Croda International|CRDA
+AGM|19-May-2026|Johnson Matthey|JMAT
+AGM|19-May-2026|Beazley|BEZ
+AGM|19-May-2026|Keller Group|KLR
+AGM|19-May-2026|Marshalls|MSLH
+AGM|19-May-2026|Close Brothers|CBG
+AGM|19-May-2026|Melrose Industries|MRO
+AGM|19-May-2026|Primary Health|PHP
+AGM|19-May-2026|FirstGroup|FGP
+AGM|19-May-2026|Zigup|ZIG
+AGM|19-May-2026|Ninety One|N91
+AGM|19-May-2026|Playtech|PTEC
+AGM|19-May-2026|IntegraFin|IHP
+AGM|20-May-2026|Coca-cola Hbc|CCH
+AGM|20-May-2026|Wpp|WPP
+AGM|20-May-2026|Pphe Hotel|PPH
+AGM|20-May-2026|Grainger|GRI
+AGM|20-May-2026|Hill & Smith|HILS
+AGM|20-May-2026|Essentra|ESNT
+AGM|20-May-2026|Glenveagh Prp|GLV
+AGM|20-May-2026|Kainos Group|KNOS
+AGM|20-May-2026|Johnson Service|JSG
+AGM|20-May-2026|Safestore|SAFE
+AGM|20-May-2026|Hochschild Mining|HOC
+AGM|20-May-2026|Superdry|SDRY
+AGM|20-May-2026|UNITE Group|UTG
+AGM|20-May-2026|Wizz Air|WIZZ
+AGM|20-May-2026|Land Securities|LAND
+AGM|20-May-2026|Sirius Real Estate|SRE
+AGM|20-May-2026|Genuit Group|GEN
+AGM|21-May-2026|Hunting|HTG
+AGM|21-May-2026|Distrib. Fin.|DFCH
+AGM|21-May-2026|Serica Energy|SQZ
+AGM|21-May-2026|Pharos Energy|PHAR
+AGM|21-May-2026|Everplay Group|EVPL
+AGM|21-May-2026|Beacon Rise|BRS
+AGM|21-May-2026|ConvaTec|CTEC
+AGM|21-May-2026|Comptoir Grp|COM
+AGM|21-May-2026|Next|NXT
+AGM|21-May-2026|Travis Perkins|TPK
+AGM|21-May-2026|Legal & General|LGEN
+AGM|21-May-2026|Regional Reit|RGL
+AGM|21-May-2026|Metlen Energy|MTLN
+AGM|21-May-2026|Ibstock|IBST
+AGM|21-May-2026|Riverstone Cred|RCOI
+AGM|21-May-2026|Robinson|RBN
+AGM|22-May-2026|Checkit|CKT
+AGM|22-May-2026|Barr (A.G.)|BAG
+AGM|22-May-2026|Dar Global|DAR
+AGM|22-May-2026|Burberry|BRBY
+AGM|22-May-2026|SSP Group|SSPG
+AGM|22-May-2026|Kier Group|KIE
+AGM|22-May-2026|Morgan Sindall|MGNS
+AGM|22-May-2026|Experian|EXPN
+AGM|22-May-2026|Rentokil Initial|RTO
+AGM|22-May-2026|Berkeley|BKG
+AGM|22-May-2026|Babcock International|BAB
+AGM|22-May-2026|Savills|SVS
+AGM|22-May-2026|Compass Group|CPG
+AGM|22-May-2026|Standard Chartered|STAN
+AGM|22-May-2026|Just Group|JUST
+AGM|22-May-2026|Empiric Studnt|ESP
+AGM|22-May-2026|Ascential|ASCL
+AGM|22-May-2026|Apax Global Alpha|APAX
+AGM|22-May-2026|Interquest Group|ITQ
+AGM|26-May-2026|Tharisa|THS
+AGM|26-May-2026|Hollywood Bowl|BOWL
+AGM|26-May-2026|Mpac Group|MPAC
+AGM|26-May-2026|Yellowcake|YCA
+AGM|26-May-2026|Target Healthcare|THRL
+AGM|26-May-2026|Mobico|MCG
+AGM|26-May-2026|Gresham House En.|GHE
+AGM|26-May-2026|Victorian Plumbing|VIC
+AGM|26-May-2026|Bridgepoint Group|BPT
+AGM|26-May-2026|Howden Joinery|HWDN
+AGM|26-May-2026|Jupiter Fund Management|JUP
+AGM|26-May-2026|Shaftesbury Capital|SHC
+AGM|26-May-2026|Ricardo|RCDO
+AGM|27-May-2026|888 Holdings|888
+AGM|27-May-2026|Workspace|WKP
+AGM|27-May-2026|Admiral|ADM
+AGM|27-May-2026|Baillie Gif. Ch|BGCG
+AGM|27-May-2026|GreenRoc Strategic Materials|GROC
+AGM|28-May-2026|Coca-cola Euro.|CCEP
+AGM|28-May-2026|Air Astana S|AIRA
+AGM|28-May-2026|Pulsar Group|PULS
+AGM|28-May-2026|Arecor Therape|AREC
+AGM|28-May-2026|Irish Residenti|0QT8
+AGM|28-May-2026|Propty Franchis|TPFG
+AGM|28-May-2026|Air China|AIRC
+AGM|28-May-2026|Ct Priv. Ord|CTPE
+AGM|28-May-2026|Vesuvius|VSVS
+AGM|28-May-2026|PageGroup|PAGE
+AGM|28-May-2026|Glencore|GLEN
+AGM|28-May-2026|Ebiquity|EBQ
+AGM|28-May-2026|Roebuck Food|RFG
+AGM|28-May-2026|Alba Mineral Resources|ALBA
+AGM|28-May-2026|Petro Matad|MATD
+AGM|29-May-2026|Churchill China|CHH
+AGM|29-May-2026|Ariana|AAU
+AGM|29-May-2026|Blackrock Lat A|BRLA
+AGM|29-May-2026|Canal+|CAN
+AGM|29-May-2026|Flutter Entertainment|FLTR
+AGM|29-May-2026|Totalenergies|TTE
+AGM|29-May-2026|European Metals Holdings|EMH
+Annual Report|01-May-2026|Ingenta|ING
+Annual Report|01-May-2026|Pacific Assets Trust|PAC
+Annual Report|01-May-2026|Bluebird Mining Ventures|BMV
+Annual Report|08-May-2026|Audioboom|BOOM
+Annual Report|18-May-2026|Ct Priv. Ord|CTPE
+Drilling Report|06-May-2026|Pensana|PRE
+Drilling Report|13-May-2026|Pensana|PRE
+Drilling Report|20-May-2026|Pensana|PRE
+Drilling Report|27-May-2026|Pensana|PRE
+EGM|12-May-2026|Darktrace|DARK
+EGM|26-May-2026|Cordiant|CORD
+Final Dividend Payment Date|01-May-2026|TBC Bank Group|TBCG
+Final Dividend Payment Date|01-May-2026|IP Group|IPO
+Final Dividend Payment Date|01-May-2026|Playtech|PTEC
+Final Dividend Payment Date|01-May-2026|Henderson Eur Focus|HEFT
+Final Dividend Payment Date|01-May-2026|Hunting|HTG
+Final Dividend Payment Date|01-May-2026|Aberforth Sml C|ASL
+Final Dividend Payment Date|01-May-2026|Essentra|ESNT
+Final Dividend Payment Date|01-May-2026|F&C Investment Trust|FCIT
+Final Dividend Payment Date|04-May-2026|Ultra Electronic|ULE
+Final Dividend Payment Date|05-May-2026|BlackRock World Mining Trust|BRWM
+Final Dividend Payment Date|05-May-2026|Plus500|PLUS
+Final Dividend Payment Date|05-May-2026|Experian|EXPN
+Final Dividend Payment Date|06-May-2026|Grainger|GRI
+Final Dividend Payment Date|07-May-2026|IntegraFin|IHP
+Final Dividend Payment Date|07-May-2026|Barclays|BARC
+Final Dividend Payment Date|07-May-2026|Senior|SNR
+Final Dividend Payment Date|07-May-2026|Tatton Asst Man.|TAM
+Final Dividend Payment Date|07-May-2026|IG Group|IGG
+Final Dividend Payment Date|07-May-2026|Gresham Hse Str|GHS
+Final Dividend Payment Date|07-May-2026|Apax Global Alpha|APAX
+Final Dividend Payment Date|08-May-2026|Burberry|BRBY
+Final Dividend Payment Date|08-May-2026|Severfield|SFR
+Final Dividend Payment Date|08-May-2026|Halfords|HFD
+Final Dividend Payment Date|08-May-2026|Foxtons|FOXT
+Final Dividend Payment Date|08-May-2026|AJ Bell|AJB
+Final Dividend Payment Date|08-May-2026|Scottish Mort.|SMT
+Final Dividend Payment Date|08-May-2026|3i Infrastructure|3IN
+Final Dividend Payment Date|11-May-2026|Mony Group|MONY
+Final Dividend Payment Date|12-May-2026|Tate & Lyle|TATE
+Final Dividend Payment Date|12-May-2026|On The Beach|OTB
+Final Dividend Payment Date|13-May-2026|Keller Group|KLR
+Final Dividend Payment Date|13-May-2026|Bridgepoint Group|BPT
+Final Dividend Payment Date|13-May-2026|WH Smith|SMWH
+Final Dividend Payment Date|14-May-2026|Admiral|ADM
+Final Dividend Payment Date|14-May-2026|Beazley|BEZ
+Final Dividend Payment Date|14-May-2026|Moonpig|MOON
+Final Dividend Payment Date|14-May-2026|Pets At Home|PETS
+Final Dividend Payment Date|14-May-2026|Spectral Md|SMH
+Final Dividend Payment Date|14-May-2026|NatWest Group|NWG
+Final Dividend Payment Date|14-May-2026|Hammerson|HMSO
+Final Dividend Payment Date|14-May-2026|Workspace|WKP
+Final Dividend Payment Date|14-May-2026|Energean|ENOG
+Final Dividend Payment Date|15-May-2026|Helical|HLCL
+Final Dividend Payment Date|15-May-2026|Jet2|JET2
+Final Dividend Payment Date|15-May-2026|Trainline|TRN
+Final Dividend Payment Date|15-May-2026|Croda International|CRDA
+Final Dividend Payment Date|15-May-2026|Segro|SGRO
+Final Dividend Payment Date|15-May-2026|Compass Group|CPG
+Final Dividend Payment Date|15-May-2026|British Land|BLND
+Final Dividend Payment Date|15-May-2026|Hill & Smith|HILS
+Final Dividend Payment Date|15-May-2026|CMC Markets|CMCX
+Final Dividend Payment Date|18-May-2026|Harworth Group|HWG
+Final Dividend Payment Date|18-May-2026|Oxford Inst.|OXIG
+Final Dividend Payment Date|18-May-2026|St James Place|STJ
+Final Dividend Payment Date|19-May-2026|Grafton Group|GFTU
+Final Dividend Payment Date|19-May-2026|Forterra|FORT
+Final Dividend Payment Date|19-May-2026|Renew Holdings|RNWH
+Final Dividend Payment Date|19-May-2026|Morgan Sindall|MGNS
+Final Dividend Payment Date|19-May-2026|Ricardo|RCDO
+Final Dividend Payment Date|19-May-2026|Redde Northgate|REDD
+Final Dividend Payment Date|20-May-2026|Big Yellow|BYG
+Final Dividend Payment Date|20-May-2026|Great Portland|GPE
+Final Dividend Payment Date|20-May-2026|Whitbread|WTB
+Final Dividend Payment Date|20-May-2026|Costain|COST
+Final Dividend Payment Date|20-May-2026|Nichols|NICL
+Final Dividend Payment Date|21-May-2026|Hilton Food Group|HFG
+Final Dividend Payment Date|21-May-2026|Grainger|GRI
+Final Dividend Payment Date|21-May-2026|Bellway|BWY
+Final Dividend Payment Date|21-May-2026|Peel Hotels|PEL
+Final Dividend Payment Date|21-May-2026|Hiscox|HSX
+Final Dividend Payment Date|21-May-2026|JD Sports|JD.
+Final Dividend Payment Date|21-May-2026|Personal Group|PGHL
+Final Dividend Payment Date|21-May-2026|Rolls-royce|RR.
+Final Dividend Payment Date|21-May-2026|Marshalls|MSLH
+Final Dividend Payment Date|21-May-2026|Babcock International|BAB
+Final Dividend Payment Date|21-May-2026|Clarkson|CKN
+Final Dividend Payment Date|21-May-2026|Berkeley|BKG
+Final Dividend Payment Date|21-May-2026|Cls Holdings|CLI
+Final Dividend Payment Date|21-May-2026|Rathbone|RAT
+Final Dividend Payment Date|22-May-2026|Lancashire Holdings|LRE
+Final Dividend Payment Date|22-May-2026|Kier Group|KIE
+Final Dividend Payment Date|22-May-2026|Land Securities|LAND
+Final Dividend Payment Date|22-May-2026|Hochschild Mining|HOC
+Final Dividend Payment Date|22-May-2026|DFS Furniture|DFS
+Final Dividend Payment Date|22-May-2026|Londonmetric|LMP
+Final Dividend Payment Date|22-May-2026|Ashtead Group|AHT
+Final Dividend Payment Date|22-May-2026|Just Group|JUST
+Final Dividend Payment Date|22-May-2026|BHP Group|BHP
+Final Dividend Payment Date|26-May-2026|SSP Group|SSPG
+Final Dividend Payment Date|26-May-2026|Diageo|DGE
+Final Dividend Payment Date|27-May-2026|Safestore|SAFE
+Final Dividend Payment Date|27-May-2026|Man Group|EMG
+Final Dividend Payment Date|27-May-2026|Dunelm Group|DNLM
+Final Dividend Payment Date|27-May-2026|Hollywood Bowl|BOWL
+Final Dividend Payment Date|27-May-2026|Savills|SVS
+Final Dividend Payment Date|28-May-2026|Schroders|SDR
+Final Dividend Payment Date|28-May-2026|Shell|SHEL
+Final Dividend Payment Date|28-May-2026|Johnson Matthey|JMAT
+Final Dividend Payment Date|28-May-2026|Kingfisher|KGF
+Final Dividend Payment Date|28-May-2026|Tesco|TSCO
+Final Dividend Payment Date|28-May-2026|Prudential|PRU
+Final Dividend Payment Date|28-May-2026|Paragon Banking|PAG
+Final Dividend Payment Date|28-May-2026|Investec|INVP
+Final Dividend Payment Date|28-May-2026|Standard Chartered|STAN
+Final Dividend Payment Date|28-May-2026|Close Brothers|CBG
+Final Dividend Payment Date|28-May-2026|Ct Healthcare|CTHT
+Final Dividend Payment Date|29-May-2026|Henry Boot|BOOT
+Final Dividend Payment Date|29-May-2026|Synectics|SNX
+Final Dividend Payment Date|29-May-2026|International Workplace Group|IWG
+Final Dividend Payment Date|29-May-2026|Fresnillo|FRES
+Final Dividend Payment Date|29-May-2026|Senior|SNR
+Final Dividend Payment Date|29-May-2026|Derwent London|DLN
+Final Dividend Payment Date|29-May-2026|Seplat Energy|SEPL
+Final Dividend Payment Date|29-May-2026|Gotech Group|GOT
+Final Dividend Payment Date|29-May-2026|ME Group|MEGP
+Final Dividend Payment Date|29-May-2026|Greggs|GRG
+Final Dividend Payment Date|29-May-2026|Cairn Homes|CRN
+Final Dividend Payment Date|29-May-2026|Weir Group|WEIR
+Final Dividend Payment Date|29-May-2026|Octopus Aim 2|OSEC
+Final Dividend Payment Date|29-May-2026|Nexteq|NXQ
+Final Dividend Payment Date|29-May-2026|Elementis|ELM
+Final Dividend Payment Date|29-May-2026|Ibstock|IBST
+Final Dividend Payment Date|29-May-2026|Power Probe|PWR
+Final Dividend Payment Date|29-May-2026|Pphe Hotel|PPH
+Final Dividend Payment Date|29-May-2026|Unite|UTG
+Final Dividend Payment Date|30-May-2026|Nexteq|NXQ
+Final Results|01-May-2026|Bluebird Mining Ventures|BMV
+Final Results|06-May-2026|Mcbride|MCB
+Final Results|07-May-2026|Rio Tinto|RIO
+Final Results|07-May-2026|Franchise Brands|FRAN
+Final Results|12-May-2026|Moonpig|MOON
+Final Results|12-May-2026|Fevertree Drinks|FEVR
+Final Results|13-May-2026|Premier Foods|PFD
+Final Results|13-May-2026|SSP Group|SSPG
+Final Results|13-May-2026|Marks & Spencer|MKS
+Final Results|13-May-2026|Renew Holdings|RNWH
+Final Results|14-May-2026|Imperial Brands|IMB
+Final Results|14-May-2026|BT Group|BT.A
+Final Results|14-May-2026|Burberry|BRBY
+Final Results|14-May-2026|DFS Furniture|DFS
+Final Results|14-May-2026|Vodafone|VOD
+Final Results|15-May-2026|National Grid|NG.
+Final Results|18-May-2026|Energean|ENOG
+Final Results|19-May-2026|Berkeley|BKG
+Final Results|19-May-2026|Taylor Wimpey|TW.
+Final Results|19-May-2026|Savills|SVS
+Final Results|20-May-2026|S&U|SUS
+Final Results|20-May-2026|Sirius Real Estate|SRE
+Final Results|21-May-2026|Auction Technology|ATG
+Final Results|21-May-2026|Babcock International|BAB
+Final Results|26-May-2026|Bridgepoint Group|BPT
+Final Ex-Dividend Date|01-May-2026|Mony Group|MONY
+Final Ex-Dividend Date|01-May-2026|Grafton Group|GFTU
+Final Ex-Dividend Date|01-May-2026|Forterra|FORT
+Final Ex-Dividend Date|01-May-2026|Renew Holdings|RNWH
+Final Ex-Dividend Date|01-May-2026|Morgan Sindall|MGNS
+Final Ex-Dividend Date|01-May-2026|Ricardo|RCDO
+Final Ex-Dividend Date|01-May-2026|Redde Northgate|REDD
+Final Ex-Dividend Date|01-May-2026|Oxford Inst.|OXIG
+Final Ex-Dividend Date|01-May-2026|Harworth Group|HWG
+Final Ex-Dividend Date|01-May-2026|St James Place|STJ
+Final Ex-Dividend Date|07-May-2026|Big Yellow|BYG
+Final Ex-Dividend Date|07-May-2026|Great Portland|GPE
+Final Ex-Dividend Date|07-May-2026|Whitbread|WTB
+Final Ex-Dividend Date|07-May-2026|Costain|COST
+Final Ex-Dividend Date|07-May-2026|Nichols|NICL
+Final Ex-Dividend Date|08-May-2026|Hilton Food Group|HFG
+Final Ex-Dividend Date|08-May-2026|Grainger|GRI
+Final Ex-Dividend Date|08-May-2026|Bellway|BWY
+Final Ex-Dividend Date|08-May-2026|Peel Hotels|PEL
+Final Ex-Dividend Date|08-May-2026|Hiscox|HSX
+Final Ex-Dividend Date|08-May-2026|JD Sports|JD.
+Final Ex-Dividend Date|08-May-2026|Personal Group|PGHL
+Final Ex-Dividend Date|08-May-2026|Rolls-royce|RR.
+Final Ex-Dividend Date|08-May-2026|Marshalls|MSLH
+Final Ex-Dividend Date|08-May-2026|Babcock International|BAB
+Final Ex-Dividend Date|08-May-2026|Clarkson|CKN
+Final Ex-Dividend Date|08-May-2026|Berkeley|BKG
+Final Ex-Dividend Date|08-May-2026|Cls Holdings|CLI
+Final Ex-Dividend Date|08-May-2026|Rathbone|RAT
+Final Ex-Dividend Date|08-May-2026|Lancashire Holdings|LRE
+Final Ex-Dividend Date|08-May-2026|Kier Group|KIE
+Final Ex-Dividend Date|08-May-2026|Land Securities|LAND
+Final Ex-Dividend Date|08-May-2026|Hochschild Mining|HOC
+Final Ex-Dividend Date|08-May-2026|DFS Furniture|DFS
+Final Ex-Dividend Date|08-May-2026|Londonmetric|LMP
+Final Ex-Dividend Date|08-May-2026|Ashtead Group|AHT
+Final Ex-Dividend Date|08-May-2026|Just Group|JUST
+Final Ex-Dividend Date|08-May-2026|BHP Group|BHP
+Final Ex-Dividend Date|12-May-2026|SSP Group|SSPG
+Final Ex-Dividend Date|12-May-2026|Diageo|DGE
+Final Ex-Dividend Date|14-May-2026|Safestore|SAFE
+Final Ex-Dividend Date|14-May-2026|Man Group|EMG
+Final Ex-Dividend Date|14-May-2026|Dunelm Group|DNLM
+Final Ex-Dividend Date|14-May-2026|Hollywood Bowl|BOWL
+Final Ex-Dividend Date|14-May-2026|Savills|SVS
+Final Ex-Dividend Date|15-May-2026|Schroders|SDR
+Final Ex-Dividend Date|15-May-2026|Shell|SHEL
+Final Ex-Dividend Date|15-May-2026|Johnson Matthey|JMAT
+Final Ex-Dividend Date|15-May-2026|Kingfisher|KGF
+Final Ex-Dividend Date|15-May-2026|Tesco|TSCO
+Final Ex-Dividend Date|15-May-2026|Prudential|PRU
+Final Ex-Dividend Date|15-May-2026|Paragon Banking|PAG
+Final Ex-Dividend Date|15-May-2026|Investec|INVP
+Final Ex-Dividend Date|15-May-2026|Standard Chartered|STAN
+Final Ex-Dividend Date|15-May-2026|Close Brothers|CBG
+Final Ex-Dividend Date|15-May-2026|Ct Healthcare|CTHT
+Final Ex-Dividend Date|19-May-2026|Henry Boot|BOOT
+Final Ex-Dividend Date|19-May-2026|Synectics|SNX
+Final Ex-Dividend Date|19-May-2026|International Workplace Group|IWG
+Final Ex-Dividend Date|19-May-2026|Fresnillo|FRES
+Final Ex-Dividend Date|19-May-2026|Senior|SNR
+Final Ex-Dividend Date|19-May-2026|Derwent London|DLN
+Final Ex-Dividend Date|19-May-2026|Seplat Energy|SEPL
+Final Ex-Dividend Date|19-May-2026|Gotech Group|GOT
+Final Ex-Dividend Date|19-May-2026|ME Group|MEGP
+Final Ex-Dividend Date|19-May-2026|Greggs|GRG
+Final Ex-Dividend Date|19-May-2026|Cairn Homes|CRN
+Final Ex-Dividend Date|19-May-2026|Weir Group|WEIR
+Final Ex-Dividend Date|19-May-2026|Octopus Aim 2|OSEC
+Final Ex-Dividend Date|19-May-2026|Nexteq|NXQ
+Final Ex-Dividend Date|19-May-2026|Elementis|ELM
+Final Ex-Dividend Date|19-May-2026|Ibstock|IBST
+Final Ex-Dividend Date|19-May-2026|Power Probe|PWR
+Final Ex-Dividend Date|19-May-2026|Pphe Hotel|PPH
+Final Ex-Dividend Date|19-May-2026|Unite|UTG
+Final Ex-Dividend Date|26-May-2026|Nexteq|NXQ
+GM|12-May-2026|Darktrace|DARK
+Interim Dividend Payment Date|01-May-2026|Tritax Big Box|BBOX
+Interim Dividend Payment Date|01-May-2026|JD Sports|JD.
+Interim Dividend Payment Date|01-May-2026|Domino's Pizza|DOM
+Interim Dividend Payment Date|01-May-2026|Unilever|ULVR
+Interim Dividend Payment Date|01-May-2026|Target Healthcare|THRL
+Interim Dividend Payment Date|01-May-2026|Gore Street Energy|GSF
+Interim Dividend Payment Date|01-May-2026|Blackfinch Spr.|BFSP
+Interim Dividend Payment Date|01-May-2026|Empiric Studnt|ESP
+Interim Dividend Payment Date|01-May-2026|BHP Group|BHP
+Interim Dividend Payment Date|01-May-2026|Baillie Gif. US|BGUS
+Interim Dividend Payment Date|01-May-2026|Jpmorgan Elect|JPE
+Interim Dividend Payment Date|01-May-2026|3i Group|III
+Interim Dividend Payment Date|01-May-2026|BP|BP.
+Interim Dividend Payment Date|01-May-2026|AstraZeneca|AZN
+Interim Dividend Payment Date|01-May-2026|Warehouse Reit|WHR
+Interim Dividend Payment Date|01-May-2026|Shaftesbury Capital|SHC
+Interim Dividend Payment Date|01-May-2026|Lloyds Banking Group|LLOY
+Interim Dividend Payment Date|01-May-2026|NatWest Group|NWG
+Interim Dividend Payment Date|04-May-2026|Dowlais|DWL
+Interim Dividend Payment Date|04-May-2026|Rathbone|RAT
+Interim Dividend Payment Date|06-May-2026|Jpmorgan Emerg|JMG
+Interim Dividend Payment Date|07-May-2026|Baillie Gifford|BGSC
+Interim Dividend Payment Date|07-May-2026|Diageo|DGE
+Interim Dividend Payment Date|07-May-2026|Hochschild Mining|HOC
+Interim Dividend Payment Date|07-May-2026|Impax Envi. Mkts|IEM
+Interim Dividend Payment Date|08-May-2026|Londonmetric|LMP
+Interim Dividend Payment Date|08-May-2026|F&C Investment Trust|FCIT
+Interim Dividend Payment Date|08-May-2026|Manchester&lon.|MNL
+Interim Dividend Payment Date|08-May-2026|Blackrock Engy|BERI
+Interim Dividend Payment Date|08-May-2026|BTG|BTG
+Interim Dividend Payment Date|12-May-2026|Schroders|SOI
+Interim Dividend Payment Date|13-May-2026|Prudential|PRU
+Interim Dividend Payment Date|13-May-2026|Sdcl Ef. Inc Tr|SEIT
+Interim Dividend Payment Date|13-May-2026|Smiths Group|SMIN
+Interim Dividend Payment Date|13-May-2026|Montanaro Uk|MTU
+Interim Dividend Payment Date|15-May-2026|Maven Grwth 3|MIG3
+Interim Dividend Payment Date|15-May-2026|Barratt Redrow|BTRW
+Interim Dividend Payment Date|15-May-2026|Blackfinch Spr.|BFSP
+Interim Dividend Payment Date|15-May-2026|Schroder Eur.r|SERE
+Interim Dividend Payment Date|15-May-2026|Gattaca|GATC
+Interim Dividend Payment Date|15-May-2026|Invesco Gl Eq|IGET
+Interim Dividend Payment Date|15-May-2026|Finsbury Growth|FGT
+Interim Dividend Payment Date|15-May-2026|Jpmorgan Emerg|JMGI
+Interim Dividend Payment Date|18-May-2026|Cls Holdings|CLI
+Interim Dividend Payment Date|18-May-2026|Tritax Big Box|BBOX
+Interim Dividend Payment Date|21-May-2026|HSBC Holdings|HSBA
+Interim Dividend Payment Date|22-May-2026|Land Securities|LAND
+Interim Dividend Payment Date|22-May-2026|Energean|ENOG
+Interim Dividend Payment Date|22-May-2026|Oxford Inst.|OXIG
+Interim Dividend Payment Date|22-May-2026|Dunedin Income|DIG
+Interim Dividend Payment Date|22-May-2026|Foresight Spec.|FSF
+Interim Dividend Payment Date|22-May-2026|Jpm.us Eq Gr.|JUGI
+Interim Dividend Payment Date|26-May-2026|Costain|COST
+Interim Dividend Payment Date|26-May-2026|Just Group|JUST
+Interim Dividend Payment Date|27-May-2026|Paragon Banking|PAG
+Interim Dividend Payment Date|28-May-2026|Tesco|TSCO
+Interim Dividend Payment Date|28-May-2026|Close Brothers|CBG
+Interim Dividend Payment Date|28-May-2026|Marks & Spencer|MKS
+Interim Dividend Payment Date|28-May-2026|Lloyds Banking Group|LLOY
+Interim Dividend Payment Date|28-May-2026|Next|NXT
+Interim Dividend Payment Date|28-May-2026|Hiscox|HSX
+Interim Dividend Payment Date|28-May-2026|Greggs|GRG
+Interim Dividend Payment Date|29-May-2026|Natwest Grp5h%|90ID
+Interim Dividend Payment Date|29-May-2026|Natwest Grp11%|91ID
+Interim Dividend Payment Date|29-May-2026|The European Smaller Companies Trust|ESCT
+Interim Dividend Payment Date|29-May-2026|Cqs New C.h.y.f|NCYF
+Interim Dividend Payment Date|29-May-2026|Biopharma Cred.|BPCR
+Interim Dividend Payment Date|29-May-2026|Ecofin Global|EGL
+Interim Dividend Payment Date|29-May-2026|Greencoat UK Wind|UKW
+Interim Dividend Payment Date|29-May-2026|Cvc Ig Eur|CVCE
+Interim Dividend Payment Date|29-May-2026|Cvc Ig Gbp|CVCG
+Interim Dividend Payment Date|29-May-2026|Sherborne Inv C|SIGC
+Interim Dividend Payment Date|29-May-2026|Marwyn Val.|MVI
+Interim Management Statement|12-May-2026|Cls Holdings|CLI
+Interim Management Statement|21-May-2026|Pets At Home|PETS
+Interim Results|01-May-2026|Taseko Mines Limited|TKO
+Interim Results|06-May-2026|Aston Martin Lagonda|AML
+Interim Results|06-May-2026|Compass Group|CPG
+Interim Results|07-May-2026|Close Brothers|CBG
+Interim Results|07-May-2026|InterContinental Hotels|IHG
+Interim Results|07-May-2026|Hiscox|HSX
+Interim Results|07-May-2026|Harbour Energy|HBR
+Interim Results|08-May-2026|Rolls-royce|RR.
+Interim Results|08-May-2026|Tesco|TSCO
+Interim Results|08-May-2026|IG Group|IGG
+Interim Results|12-May-2026|Grainger|GRI
+Interim Results|12-May-2026|Hammerson|HMSO
+Interim Results|12-May-2026|British Land|BLND
+Interim Results|12-May-2026|Lloyds Banking Group|LLOY
+Interim Results|12-May-2026|Card Factory|CARD
+Interim Results|13-May-2026|Hollywood Bowl|BOWL
+Interim Results|13-May-2026|Trustpilot|TRST
+Interim Results|13-May-2026|Shell|SHEL
+Interim Results|14-May-2026|Great Portland|GPE
+Interim Results|14-May-2026|Dunelm Group|DNLM
+Interim Results|14-May-2026|BHP Group|BHP
+Interim Results|14-May-2026|Intermediate Capital|ICG
+Interim Results|14-May-2026|NatWest Group|NWG
+Interim Results|14-May-2026|Anglo American|AAL
+Interim Results|15-May-2026|Londonmetric|LMP
+Interim Results|15-May-2026|Costain|COST
+Interim Results|19-May-2026|Johnson Matthey|JMAT
+Interim Results|19-May-2026|Hiscox|HSX
+Interim Results|19-May-2026|IntegraFin|IHP
+Interim Results|19-May-2026|Croda International|CRDA
+Interim Results|19-May-2026|Kingfisher|KGF
+Interim Results|19-May-2026|Close Brothers|CBG
+Interim Results|20-May-2026|Land Securities|LAND
+Interim Results|20-May-2026|Safestore|SAFE
+Interim Results|20-May-2026|Hochschild Mining|HOC
+Interim Results|20-May-2026|Hill & Smith|HILS
+Interim Results|21-May-2026|Legal & General|LGEN
+Interim Results|21-May-2026|Ibstock|IBST
+Interim Results|21-May-2026|Travis Perkins|TPK
+Interim Results|22-May-2026|Experian|EXPN
+Interim Results|22-May-2026|Kier Group|KIE
+Interim Results|26-May-2026|Halfords|HFD
+Interim Results|26-May-2026|Shaftesbury Capital|SHC
+Interim Results|27-May-2026|Workspace|WKP
+Interim Results|28-May-2026|Glencore|GLEN
+Interim Results|29-May-2026|Darktrace|DARK
+Interim Ex-Dividend Date|01-May-2026|Jpmorgan Emerg|JMG
+Interim Ex-Dividend Date|01-May-2026|Baillie Gifford|BGSC
+Interim Ex-Dividend Date|01-May-2026|Diageo|DGE
+Interim Ex-Dividend Date|01-May-2026|Hochschild Mining|HOC
+Interim Ex-Dividend Date|01-May-2026|Impax Envi. Mkts|IEM
+Interim Ex-Dividend Date|01-May-2026|Londonmetric|LMP
+Interim Ex-Dividend Date|01-May-2026|F&C Investment Trust|FCIT
+Interim Ex-Dividend Date|04-May-2026|Blackrock Engy|BERI
+Interim Ex-Dividend Date|04-May-2026|BTG|BTG
+Interim Ex-Dividend Date|04-May-2026|Manchester&lon.|MNL
+Interim Ex-Dividend Date|07-May-2026|Schroders|SOI
+Interim Ex-Dividend Date|08-May-2026|Prudential|PRU
+Interim Ex-Dividend Date|08-May-2026|Sdcl Ef. Inc Tr|SEIT
+Interim Ex-Dividend Date|08-May-2026|Smiths Group|SMIN
+Interim Ex-Dividend Date|08-May-2026|Montanaro Uk|MTU
+Interim Ex-Dividend Date|08-May-2026|Maven Grwth 3|MIG3
+Interim Ex-Dividend Date|08-May-2026|Barratt Redrow|BTRW
+Interim Ex-Dividend Date|08-May-2026|Blackfinch Spr.|BFSP
+Interim Ex-Dividend Date|08-May-2026|Schroder Eur.r|SERE
+Interim Ex-Dividend Date|08-May-2026|Gattaca|GATC
+Interim Ex-Dividend Date|08-May-2026|Invesco Gl Eq|IGET
+Interim Ex-Dividend Date|08-May-2026|Finsbury Growth|FGT
+Interim Ex-Dividend Date|08-May-2026|Jpmorgan Emerg|JMGI
+Interim Ex-Dividend Date|12-May-2026|Cls Holdings|CLI
+Interim Ex-Dividend Date|12-May-2026|Tritax Big Box|BBOX
+Interim Ex-Dividend Date|15-May-2026|HSBC Holdings|HSBA
+Interim Ex-Dividend Date|18-May-2026|Land Securities|LAND
+Interim Ex-Dividend Date|18-May-2026|Energean|ENOG
+Interim Ex-Dividend Date|18-May-2026|Oxford Inst.|OXIG
+Interim Ex-Dividend Date|18-May-2026|Dunedin Income|DIG
+Interim Ex-Dividend Date|18-May-2026|Foresight Spec.|FSF
+Interim Ex-Dividend Date|18-May-2026|Jpm.us Eq Gr.|JUGI
+Interim Ex-Dividend Date|20-May-2026|Costain|COST
+Interim Ex-Dividend Date|20-May-2026|Just Group|JUST
+Interim Ex-Dividend Date|21-May-2026|Paragon Banking|PAG
+Interim Ex-Dividend Date|22-May-2026|Tesco|TSCO
+Interim Ex-Dividend Date|22-May-2026|Close Brothers|CBG
+Interim Ex-Dividend Date|22-May-2026|Marks & Spencer|MKS
+Interim Ex-Dividend Date|22-May-2026|Lloyds Banking Group|LLOY
+Interim Ex-Dividend Date|22-May-2026|Next|NXT
+Interim Ex-Dividend Date|22-May-2026|Hiscox|HSX
+Interim Ex-Dividend Date|22-May-2026|Greggs|GRG
+Interim Ex-Dividend Date|26-May-2026|Natwest Grp5h%|90ID
+Interim Ex-Dividend Date|26-May-2026|Natwest Grp11%|91ID
+Interim Ex-Dividend Date|26-May-2026|The European Smaller Companies Trust|ESCT
+Interim Ex-Dividend Date|26-May-2026|Cqs New C.h.y.f|NCYF
+Interim Ex-Dividend Date|26-May-2026|Biopharma Cred.|BPCR
+Interim Ex-Dividend Date|26-May-2026|Ecofin Global|EGL
+Interim Ex-Dividend Date|26-May-2026|Greencoat UK Wind|UKW
+Interim Ex-Dividend Date|26-May-2026|Cvc Ig Eur|CVCE
+Interim Ex-Dividend Date|26-May-2026|Cvc Ig Gbp|CVCG
+Interim Ex-Dividend Date|26-May-2026|Sherborne Inv C|SIGC
+Interim Ex-Dividend Date|26-May-2026|Marwyn Val.|MVI
+Interim Ex-Dividend Date|26-May-2026|Tufton Assets.|SHIP
+Q4 Results|06-May-2026|HSBC Holdings|HSBA
+Quarterly Dividend Payment Date|01-May-2026|Warehouse Reit|WHR
+Quarterly Dividend Payment Date|01-May-2026|Custodian Prop|CREI
+Quarterly Dividend Payment Date|01-May-2026|Empiric Studnt|ESP
+Quarterly Dividend Payment Date|01-May-2026|Target Healthcare|THRL
+Quarterly Dividend Payment Date|01-May-2026|BP|BP.
+Quarterly Dividend Payment Date|01-May-2026|NatWest Group|NWG
+Quarterly Dividend Payment Date|15-May-2026|Supermarket Income|SUPR
+Quarterly Dividend Payment Date|15-May-2026|Primary Health|PHP
+Quarterly Dividend Payment Date|18-May-2026|Tufton Assets.|SHIP
+Quarterly Dividend Payment Date|22-May-2026|Jp Morg.as|JAGI
+Quarterly Dividend Payment Date|27-May-2026|Games Workshop|GAW
+Quarterly Dividend Payment Date|28-May-2026|Tetragon Fin|TFG
+Quarterly Dividend Payment Date|29-May-2026|Octopus Energy|ORIT
+Quarterly Dividend Payment Date|29-May-2026|Picton Prop|PCTN
+Quarterly Dividend Payment Date|29-May-2026|Cust Prop Inc|CREI
+Quarterly Dividend Payment Date|29-May-2026|Supermarket Income|SUPR
+Quarterly Dividend Payment Date|29-May-2026|City Of London Investment|CTY
+Q1 Results|01-May-2026|Taseko Mines Limited|TKO
+Q1 Results|01-May-2026|Natwest|NWG
+Q1 Results|05-May-2026|Kosmos Energy|KOS
+Q1 Results|05-May-2026|Ferguson|FERG
+Q1 Results|05-May-2026|Air Astana S|AIRA
+Q1 Results|06-May-2026|Kosmos Energy|KOS
+Q1 Results|06-May-2026|TBC Bank Group|TBCG
+Q1 Results|06-May-2026|Diversified Energy|DEC
+Q1 Results|06-May-2026|Flutter Entertainment|FLTR
+Q1 Results|06-May-2026|Taseko Mines Limited|TKO
+Q1 Results|06-May-2026|Jyske Bank|JYSK
+Q1 Results|07-May-2026|BHP Group|BHP
+Q1 Results|07-May-2026|Rolls-royce|RR.
+Q1 Results|07-May-2026|IAG|IAG
+Q1 Results|07-May-2026|Wizz Air|WIZZ
+Q1 Results|07-May-2026|Ninety One|N91
+Q1 Results|07-May-2026|Abrdn|ABDN
+Q1 Results|08-May-2026|Shell|SHEL
+Q1 Results|08-May-2026|BT Group|BT.A
+Q1 Results|08-May-2026|Antofagasta|ANTO
+Q1 Results|12-May-2026|Diageo|DGE
+Q1 Results|12-May-2026|Glencore|GLEN
+Q1 Results|13-May-2026|Compass Group|CPG
+Q1 Results|13-May-2026|Melrose Industries|MRO
+Q1 Results|14-May-2026|Investec|INVP
+Q1 Results|14-May-2026|Anglo American|AAL
+Q1 Results|19-May-2026|Rio Tinto|RIO
+Q1 Results|20-May-2026|Vodafone|VOD
+Q1 Results|20-May-2026|Land Securities|LAND
+Q1 Results|21-May-2026|Johnson Matthey|JMAT
+Q1 Results|28-May-2026|Glencore|GLEN
+Quarterly Ex-Dividend Date|01-May-2026|Supermarket Income|SUPR
+Quarterly Ex-Dividend Date|01-May-2026|Primary Health|PHP
+Quarterly Ex-Dividend Date|08-May-2026|Tufton Assets.|SHIP
+Quarterly Ex-Dividend Date|14-May-2026|Jp Morg.as|JAGI
+Quarterly Ex-Dividend Date|21-May-2026|Games Workshop|GAW
+Quarterly Ex-Dividend Date|22-May-2026|Tetragon Fin|TFG
+Quarterly Ex-Dividend Date|26-May-2026|Octopus Energy|ORIT
+Quarterly Ex-Dividend Date|26-May-2026|Picton Prop|PCTN
+Quarterly Ex-Dividend Date|26-May-2026|Cust Prop Inc|CREI
+Quarterly Ex-Dividend Date|26-May-2026|Supermarket Income|SUPR
+Quarterly Ex-Dividend Date|26-May-2026|City Of London Investment|CTY
+Special Dividend Payment Date|01-May-2026|Standard Chartered|STAN
+Special Dividend Payment Date|22-May-2026|Londonmetric|LMP
+Special Ex-Dividend Date|08-May-2026|Londonmetric|LMP
+Trading Announcement|07-May-2026|Man Group|EMG
+Trading Announcement|12-May-2026|Admiral|ADM
+Trading Announcement|12-May-2026|Schroders|SDR
+Trading Announcement|12-May-2026|IntegraFin|IHP
+Trading Announcement|13-May-2026|Ashtead Group|AHT
+Trading Announcement|13-May-2026|Intermediate Capital|ICG
+Trading Announcement|14-May-2026|Prudential|PRU
+Trading Announcement|14-May-2026|Antofagasta|ANTO
+Trading Announcement|14-May-2026|Lancashire Holdings|LRE
+Trading Announcement|15-May-2026|Segro|SGRO
+Trading Announcement|15-May-2026|Derwent London|DLN
+Trading Announcement|18-May-2026|Investec|INVP
+Trading Announcement|19-May-2026|Ninety One|N91
+Trading Announcement|19-May-2026|Moonpig|MOON
+Trading Announcement|20-May-2026|Babcock International|BAB
+Trading Announcement|20-May-2026|Pets At Home|PETS
+Trading Announcement|21-May-2026|Kier Group|KIE
+Trading Announcement|22-May-2026|Standard Chartered|STAN
+Trading Announcement|26-May-2026|Grainger|GRI
+Trading Announcement|26-May-2026|Safestore|SAFE
+Trading Announcement|27-May-2026|Just Group|JUST`;
+        const events = rawData.split('\n').filter(line => line.trim()).map(line => {
+            const [category, date, company, ticker] = line.split('|');
+            const dateObj = new Date(date);
+            return { category, date, dateObj, company, ticker };
+        });
+        const allCategories = [...new Set(events.map(e => e.category))].sort();
+        let activeCategories = new Set(allCategories);
+        let sortColumn = 'date';
+        let sortDir = 'asc';
+        let currentView = 'today';
+        let currentDate = new Date('2026-05-08');
+        function getCategoryTag(category) {
+            if (['AGM', 'EGM', 'GM'].includes(category)) return 'tag-agm';
+            if (['Final Results', 'Interim Results', 'Q1 Results', 'Q4 Results'].includes(category)) return 'tag-results';
+            if (['Final Dividend Payment Date', 'Interim Dividend Payment Date', 'Quarterly Dividend Payment Date', 'Special Dividend Payment Date'].includes(category)) return 'tag-dividend';
+            if (category.includes('Ex-Dividend')) return 'tag-ex-dividend';
+            if (category === 'Trading Announcement') return 'tag-trading';
+            if (['Annual Report', 'Drilling Report'].includes(category)) return 'tag-report';
+            if (category === 'Special Dividend Payment Date' || category === 'Special Ex-Dividend Date') return 'tag-special';
+            return 'tag-report';
+        }
+        function parseDate(dateStr) {
+            const parts = dateStr.split('-');
+            return new Date(2026, new Date(parts[1]+' 1, 2026').getMonth(), parseInt(parts[0]));
+        }
+        function getFilteredEvents() {
+            let filtered = events.filter(e => {
+                if (!activeCategories.has(e.category)) return false;
+                const search = document.getElementById('searchBox').value.toLowerCase();
+                if (search && !e.company.toLowerCase().includes(search) && !e.ticker.toLowerCase().includes(search)) return false;
+                const dateFrom = new Date(document.getElementById('dateFrom').value);
+                const dateTo = new Date(document.getElementById('dateTo').value);
+                if (e.dateObj < dateFrom || e.dateObj > dateTo) return false;
+                return true;
+            });
+            filtered.sort((a, b) => {
+                let aVal, bVal;
+                if (sortColumn === 'date') { aVal = a.dateObj; bVal = b.dateObj; }
+                else if (sortColumn === 'company') { aVal = a.company.toLowerCase(); bVal = b.company.toLowerCase(); }
+                else if (sortColumn === 'ticker') { aVal = a.ticker.toLowerCase(); bVal = b.ticker.toLowerCase(); }
+                else { aVal = a.category.toLowerCase(); bVal = b.category.toLowerCase(); }
+                if (aVal < bVal) return sortDir === 'asc' ? -1 : 1;
+                if (aVal > bVal) return sortDir === 'asc' ? 1 : -1;
+                return 0;
+            });
+            return filtered;
+        }
+        function renderTable() {
+            const tbody = document.getElementById('tableBody');
+            const emptyState = document.getElementById('emptyState');
+            const countEl = document.getElementById('eventCount');
+            const filtered = getFilteredEvents();
+            countEl.textContent = filtered.length;
+            if (filtered.length === 0) { tbody.innerHTML = ''; emptyState.style.display = 'block'; return; }
+            emptyState.style.display = 'none';
+            const groupByCategory = document.getElementById('groupByCategory').checked;
+            if (groupByCategory) {
+                const grouped = {};
+                filtered.forEach(e => { if (!grouped[e.category]) grouped[e.category] = []; grouped[e.category].push(e); });
+                tbody.innerHTML = '';
+                let groupIndex = 0;
+                Object.keys(grouped).sort().forEach(cat => {
+                    groupIndex++;
+                    const headerRow = document.createElement('tr');
+                    headerRow.innerHTML = '<td colspan="4" style="padding:32px 0 16px 0;border:none;"><div class="category-group-header"><span class="number">0'+groupIndex+'</span><h2>'+cat+'</h2></div></td>';
+                    tbody.appendChild(headerRow);
+                    grouped[cat].forEach(e => {
+                        const row = document.createElement('tr');
+                        row.innerHTML = '<td>'+e.date+'</td><td class="ticker">'+e.ticker+'</td><td class="company-name">'+e.company+'</td><td><span class="category-tag '+getCategoryTag(e.category)+'">'+e.category+'</span></td>';
+                        tbody.appendChild(row);
+                    });
+                });
+            } else {
+                tbody.innerHTML = filtered.map(e => '<tr><td>'+e.date+'</td><td class="ticker">'+e.ticker+'</td><td class="company-name">'+e.company+'</td><td><span class="category-tag '+getCategoryTag(e.category)+'">'+e.category+'</span></td></tr>').join('');
+            }
+        }
+        function renderCategories() {
+            const container = document.getElementById('categoryFilters');
+            container.innerHTML = allCategories.map(cat => '<div class="chip active" data-category="'+cat+'">'+cat+'</div>').join('');
+            container.querySelectorAll('.chip').forEach(chip => {
+                chip.addEventListener('click', () => {
+                    const cat = chip.dataset.category;
+                    if (activeCategories.has(cat)) { activeCategories.delete(cat); chip.classList.remove('active'); }
+                    else { activeCategories.add(cat); chip.classList.add('active'); }
+                    renderTable();
+                });
+            });
+        }
+        function updateDateRange() {
+            const dateFrom = document.getElementById('dateFrom');
+            const dateTo = document.getElementById('dateTo');
+            if (currentView === 'today') {
+                const y = currentDate.getFullYear(); const m = String(currentDate.getMonth()+1).padStart(2,'0'); const d = String(currentDate.getDate()).padStart(2,'0');
+                const dateStr = y+'-'+m+'-'+d; dateFrom.value = dateStr; dateTo.value = dateStr;
+            } else if (currentView === 'week') {
+                const start = new Date(currentDate); start.setDate(start.getDate()-start.getDay());
+                const end = new Date(start); end.setDate(end.getDate()+6);
+                dateFrom.value = start.toISOString().split('T')[0]; dateTo.value = end.toISOString().split('T')[0];
+            } else if (currentView === 'month') { dateFrom.value = '2026-05-01'; dateTo.value = '2026-05-31'; }
+            renderTable();
+        }
+        document.querySelectorAll('[data-view]').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('[data-view]').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active'); currentView = btn.dataset.view; updateDateRange();
+            });
+        });
+        document.getElementById('prevDay').addEventListener('click', () => { currentDate.setDate(currentDate.getDate()-1); updateDateRange(); });
+        document.getElementById('nextDay').addEventListener('click', () => { currentDate.setDate(currentDate.getDate()+1); updateDateRange(); });
+        document.getElementById('dateFrom').addEventListener('change', renderTable);
+        document.getElementById('dateTo').addEventListener('change', renderTable);
+        document.getElementById('searchBox').addEventListener('input', renderTable);
+        document.getElementById('groupByCategory').addEventListener('change', renderTable);
+        document.querySelectorAll('th.sortable').forEach(th => {
+            th.addEventListener('click', () => {
+                const col = th.dataset.column;
+                if (sortColumn === col) { sortDir = sortDir === 'asc' ? 'desc' : 'asc'; }
+                else { sortColumn = col; sortDir = 'asc'; }
+                document.querySelectorAll('th.sortable').forEach(h => { h.classList.remove('sort-asc','sort-desc'); });
+                th.classList.add(sortDir === 'asc' ? 'sort-asc' : 'sort-desc');
+                renderTable();
+            });
+        });
+        function parseDateForCal(dateStr) {
+            const parts = dateStr.split('-');
+            const months = {Jan:'01',Feb:'02',Mar:'03',Apr:'04',May:'05',Jun:'06',Jul:'07',Aug:'08',Sep:'09',Oct:'10',Nov:'11',Dec:'12'};
+            return {y: parts[2], m: months[parts[1]], d: parts[0].padStart(2,'0')};
+        }
+        function generateICS(filtered, filename) {
+            let ics = 'BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:-//Financial Calendar//EN\r\nCALSCALE:GREGORIAN\r\n';
+            filtered.forEach(e => {
+                const dt = parseDateForCal(e.date); const dateVal = dt.y+dt.m+dt.d;
+                const uid = dateVal+'-'+e.ticker+'-'+e.category.replace(/\s/g,'')+'@financialcalendar';
+                ics += 'BEGIN:VEVENT\r\n'; ics += 'DTSTART;VALUE=DATE:'+dateVal+'\r\n'; ics += 'DTEND;VALUE=DATE:'+dateVal+'\r\n';
+                ics += 'SUMMARY:'+e.ticker+' \u2014 '+e.category+'\r\n';
+                ics += 'DESCRIPTION:'+e.company+' ('+e.ticker+') \u2014 '+e.category+'\\nDate: '+e.date+'\r\n';
+                ics += 'UID:'+uid+'\r\n'; ics += 'END:VEVENT\r\n';
+            });
+            ics += 'END:VCALENDAR';
+            const blob = new Blob([ics], {type:'text/calendar;charset=utf-8'});
+            const url = URL.createObjectURL(blob); const a = document.createElement('a');
+            a.href = url; a.download = filename; document.body.appendChild(a); a.click();
+            document.body.removeChild(a); URL.revokeObjectURL(url);
+        }
+        function generateGoogleCSV(filtered) {
+            let csv = 'Subject,Start Date,All Day Event,Description\r\n';
+            filtered.forEach(e => {
+                const dt = parseDateForCal(e.date); const startDate = dt.m+'/'+dt.d+'/'+dt.y;
+                const subject = (e.ticker+' \u2014 '+e.category).replace(/"/g,'""');
+                const desc = (e.company+' ('+e.ticker+') \u2014 '+e.category).replace(/"/g,'""');
+                csv += '"'+subject+'","'+startDate+'","True","'+desc+'"\r\n';
+            });
+            const blob = new Blob([csv], {type:'text/csv;charset=utf-8'});
+            const url = URL.createObjectURL(blob); const a = document.createElement('a');
+            a.href = url; a.download = 'Financial_Calendar_Google_Calendar.csv'; document.body.appendChild(a); a.click();
+            document.body.removeChild(a); URL.revokeObjectURL(url);
+        }
+        document.getElementById('exportICS').addEventListener('click', () => {
+            const filtered = getFilteredEvents();
+            if (filtered.length === 0) { alert('No events to export. Adjust your filters.'); return; }
+            generateICS(filtered, 'Financial_Calendar_iOS.ics');
+        });
+        document.getElementById('exportGoogle').addEventListener('click', () => {
+            const filtered = getFilteredEvents();
+            if (filtered.length === 0) { alert('No events to export. Adjust your filters.'); return; }
+            generateGoogleCSV(filtered);
+        });
+        document.getElementById('exportOutlook').addEventListener('click', () => {
+            const filtered = getFilteredEvents();
+            if (filtered.length === 0) { alert('No events to export. Adjust your filters.'); return; }
+            generateICS(filtered, 'Financial_Calendar_Outlook.ics');
+        });
+        renderCategories();
+        updateDateRange();
+    </script>
+</body>
+</html>
