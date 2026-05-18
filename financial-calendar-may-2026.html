@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Financial Calendar - May 2026</title>
+    <title>Financial Calendar - May 2026</title>h
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz@144&family=Inter+Tight:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
     <style>
         :root{--navy:#0f1419;--navy-2:#1a2028;--cream:#f5f1ea;--cream-2:#eae3d6;--cream-3:#d9d0be;--accent:#a5321c;--gold:#b8923a;--muted:#5a6370;--rule:rgba(15,20,25,0.14);--rule-strong:rgba(15,20,25,0.28)}
@@ -19,7 +19,7 @@
         .header-meta{display:flex;align-items:center;gap:8px;font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:0.22em;text-transform:uppercase;color:var(--cream-3)}
         .italic-gold{font-style:italic;color:var(--gold)}
         .controls-section{background-color:var(--cream);border-top:1px solid var(--rule);padding:24px 32px;position:sticky;top:48px;z-index:50}
-        .control-group{display:flex;gap:16px;flex-wrap:wrap;align-items:center;margin-bottom:16px}
+        .control-group{display:flex;gap:16px;flex-wrap:wrap;align-items:center;margin-bottom:16px}h
         .control-group:last-child{margin-bottom:0}
         .control-group label{font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:0.14em;text-transform:uppercase;color:var(--muted);font-weight:500}
         .date-buttons,.nav-arrows{display:flex;gap:8px}
@@ -74,11 +74,11 @@
     </style>
 </head>
 <body>
-    <div class="masthead"><div class="masthead-left"><span class="dot"></span><span>FINANCIAL CALENDAR / 08.05.26</span></div><div class="masthead-right">MAY 2026 — MARKET CALENDAR</div></div>
+    <div class="masthead"><div class="masthead-left"><span class="dot"></span><span id="mastheadDate">FINANCIAL CALENDAR / --.--.--</span></div><div class="masthead-right">MAY 2026 — MARKET CALENDAR</div></div>
     <div class="header"><div class="header-content"><h1>Financial <span class="italic-gold">Calendar</span></h1><div class="header-meta"><span class="dot"></span>May 2026 Market Events & Corporate Calendar</div></div></div>
     <div class="controls-section">
         <div class="control-group"><label>View:</label><div class="date-buttons"><button class="btn active" data-view="today">Today</button><button class="btn" data-view="week">This Week</button><button class="btn" data-view="month">Full Month</button></div><div class="nav-arrows"><button class="btn" id="prevDay" title="Previous day">&laquo;</button><button class="btn" id="nextDay" title="Next day">&raquo;</button></div></div>
-        <div class="control-group"><label>From:</label><input type="date" id="dateFrom" value="2026-05-08"><label>To:</label><input type="date" id="dateTo" value="2026-05-08"></div>
+        <div class="control-group"><label>From:</label><input type="date" id="dateFrom"><label>To:</label><input type="date" id="dateTo"></div>
         <div class="control-group"><label>Search:</label><input type="text" id="searchBox" placeholder="Company name or ticker..."></div>
         <div class="control-group"><label>Categories:</label><div class="category-filters" id="categoryFilters"></div></div>
         <div class="control-group"><div class="toggle-switch"><input type="checkbox" id="groupByCategory"><label for="groupByCategory">Group by Category</label></div></div>
@@ -816,7 +816,8 @@ Trading Announcement|27-May-2026|Just Group|JUST`;
         let sortColumn = 'date';
         let sortDir = 'asc';
         let currentView = 'today';
-        let currentDate = new Date('2026-05-08');
+        let currentDate = new Date();
+        (function(){var now=new Date();var dd=String(now.getDate()).padStart(2,'0');var mm=String(now.getMonth()+1).padStart(2,'0');var yy=String(now.getFullYear()).slice(-2);document.getElementById('mastheadDate').textContent='FINANCIAL CALENDAR / '+dd+'.'+mm+'.'+yy;})();
         function getCategoryTag(category) {
             if (['AGM', 'EGM', 'GM'].includes(category)) return 'tag-agm';
             if (['Final Results', 'Interim Results', 'Q1 Results', 'Q4 Results'].includes(category)) return 'tag-results';
