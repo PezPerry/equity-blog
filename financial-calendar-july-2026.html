@@ -1392,9 +1392,11 @@ Trading Announcement|30-Jul-2026|Asa Int|ASAI
 Trading Announcement|30-Jul-2026|Oakley|OCI
 Trading Announcement|30-Jul-2026|Pets at home|PETS`;
 
+        const monthMap = {Jan:0,Feb:1,Mar:2,Apr:3,May:4,Jun:5,Jul:6,Aug:7,Sep:8,Oct:9,Nov:10,Dec:11};
         const events = rawData.split('\n').filter(line => line.trim()).map(line => {
             const [category, date, company, ticker] = line.split('|');
-            const dateObj = new Date(date);
+            const parts = date.split('-');
+            const dateObj = new Date(parseInt(parts[2]), monthMap[parts[1]], parseInt(parts[0]));
             return { category, date, dateObj, company, ticker };
         });
 
@@ -1419,7 +1421,7 @@ Trading Announcement|30-Jul-2026|Pets at home|PETS`;
 
         function getCategoryTag(category) {
             if (['AGM', 'EGM', 'GM'].includes(category)) return 'tag-agm';
-            if (['Final Results', 'Interim Results', 'Q1 Results', 'Q3 Results', 'Q4 Results'].includes(category)) return 'tag-results';
+            if (['Final Results', 'Interim Results', 'Q1 Results', 'Q2 Results', 'Q3 Results', 'Q4 Results'].includes(category)) return 'tag-results';
             if (['Final Dividend Payment Date', 'Interim Dividend Payment Date', 'Quarterly Dividend Payment Date', 'Special Dividend Payment Date'].includes(category)) return 'tag-dividend';
             if (category.includes('Ex-Dividend')) return 'tag-ex-dividend';
             if (category === 'Trading Announcement') return 'tag-trading';
@@ -1430,7 +1432,7 @@ Trading Announcement|30-Jul-2026|Pets at home|PETS`;
 
         function parseDate(dateStr) {
             const parts = dateStr.split('-');
-            return new Date(2026, new Date(`${parts[1]} 1, 2026`).getMonth(), parseInt(parts[0]));
+            return new Date(parseInt(parts[2]), monthMap[parts[1]], parseInt(parts[0]));
         }
 
         function getFilteredEvents() {
