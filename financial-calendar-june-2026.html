@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Financial Calendar - June 2026</title>
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz@144&family=Inter+Tight:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
     <style>
         :root {
             --navy: #0f1419;
@@ -666,6 +667,13 @@
                 <button class="btn cal-btn" id="exportICS" title="Download .ics file for Apple Calendar / iOS">iOS Calendar</button>
                 <button class="btn cal-btn" id="exportGoogle" title="Download .csv for Google Calendar import">Gmail Calendar</button>
                 <button class="btn cal-btn" id="exportOutlook" title="Download .ics file for Outlook">Outlook Calendar</button>
+            </div>
+        </div>
+
+        <div class="control-group">
+            <label>Download Spreadsheet:</label>
+            <div class="calendar-buttons">
+                <button class="btn cal-btn" id="exportExcel" title="Download Excel spreadsheet of watchlist events" style="background:var(--accent);color:var(--cream);border-color:var(--accent);">Download Excel (.xlsx)</button>
             </div>
         </div>
     </div>
@@ -1520,6 +1528,41 @@ Trading Announcement|25-Jun-2026|Time Finance|TIME`;
             const filtered = getFilteredEvents();
             if (filtered.length === 0) { alert('No events to export. Adjust your filters.'); return; }
             generateICS(filtered, 'Financial_Calendar_Outlook.ics');
+        });
+
+        // Watchlist tickers for filtered Excel download
+        const watchlistTickers = new Set(['WTB','OSB','CRN','JDW','PLUS','HFG','JHD','SVS','SDR','STJ','ESNT','PAY','RWA','SHI','SNWS','SDY','RESI','SERE','SREI','AT.','ENOG','ENQ','GMS','HBR','PHAR','SHEL','TLW','FRAS','HEAD','MOTR','PETS','PINE','TPT','ECEL','GFRD','NXR','SFR','FAN','CAPD','ECOR','FXPO','GLEN','KMR','RHIM','RIO','GRG','MCB','PZC','RKT','TSCO','TBTG','ULVR','BOOT','HWG','HLCL','LSL','PSDL','RMV','FOXT','EVOK','FSTA','HSW','GYM','MARS','MCG','OTB','PRV','ROR','STAN','STB','TET','GAMA','HTWS','TEP','BRAI']);
+
+        document.getElementById('exportExcel').addEventListener('click', () => {
+            if (typeof XLSX === 'undefined') { alert('Excel library still loading, please try again in a moment.'); return; }
+            const watchlistEvents = events.filter(e => watchlistTickers.has(e.ticker));
+            if (watchlistEvents.length === 0) { alert('No watchlist events found.'); return; }
+            const dayNames = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+            const matchedTickers = [...new Set(watchlistEvents.map(e => e.ticker))].sort();
+
+            const evData = [
+                ['LSE Financial Calendar - June 2026 (My Watchlist)'],
+                [watchlistEvents.length + ' Events from ' + matchedTickers.length + ' tracked companies | Generated ' + new Date().toLocaleDateString('en-GB', {day:'2-digit',month:'short',year:'numeric'})],
+                [],
+                ['Date', 'Day', 'Company', 'Ticker', 'Category']
+            ];
+            watchlistEvents.forEach(ev => evData.push([ev.date, dayNames[ev.dateObj.getDay()], ev.company, ev.ticker, ev.category]));
+
+            const catCounts = {};
+            watchlistEvents.forEach(ev => { catCounts[ev.category] = (catCounts[ev.category] || 0) + 1; });
+            const sorted = Object.entries(catCounts).sort((a,b) => b[1] - a[1]);
+            const sumData = [['June 2026 - My Watchlist Summary'],[],['Category','Count','% of Total']];
+            sorted.forEach(([cat,count]) => sumData.push([cat, count, (count/watchlistEvents.length*100).toFixed(1)+'%']));
+            sumData.push(['TOTAL', watchlistEvents.length, '100.0%']);
+
+            const wb = XLSX.utils.book_new();
+            const ws1 = XLSX.utils.aoa_to_sheet(evData);
+            ws1['!cols'] = [{wch:15},{wch:12},{wch:42},{wch:10},{wch:36}];
+            XLSX.utils.book_append_sheet(wb, ws1, 'My Watchlist');
+            const ws2 = XLSX.utils.aoa_to_sheet(sumData);
+            ws2['!cols'] = [{wch:38},{wch:12},{wch:14}];
+            XLSX.utils.book_append_sheet(wb, ws2, 'Summary');
+            XLSX.writeFile(wb, 'Financial_Calendar_June_2026.xlsx');
         });
 
         renderCategories();
