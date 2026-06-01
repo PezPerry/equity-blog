@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -708,517 +708,566 @@
 
     <script>
         const rawData = `AGM|01-Jun-2026|Abrdn Euro Log|ASLI
-AGM|01-Jun-2026|Kavango Resources|KAV
-AGM|01-Jun-2026|Oakley|OCI
-AGM|01-Jun-2026|Savannah Energy|SAVE
-AGM|01-Jun-2026|Zinc Media|ZIN
-AGM|02-Jun-2026|Billington|BILN
-AGM|02-Jun-2026|Metro Bank|MTRO
-AGM|02-Jun-2026|Schroders Capital Global Innovation Trust|INOV
-AGM|02-Jun-2026|Artemis Uk Fut|AFL
-AGM|02-Jun-2026|Portmeirion|PMP
-AGM|02-Jun-2026|Getech Grp|GTC
-AGM|03-Jun-2026|Foresight Solar Fund|FSFL
-AGM|03-Jun-2026|Parvus En|AEET
-AGM|03-Jun-2026|Mti Wireless|MWE
-AGM|03-Jun-2026|International Public Partnerships|INPP
-AGM|03-Jun-2026|Mears|MER
-AGM|03-Jun-2026|Asa Int|ASAI
-AGM|03-Jun-2026|Elecosoft|ELCO
-AGM|03-Jun-2026|First Class Metals PLC|FCM
-AGM|03-Jun-2026|Critical Mineral Resources PLC|CMRS
-AGM|03-Jun-2026|Atlas Metals Group PLC|AMG
-AGM|03-Jun-2026|Imaging Bio|IBAI
-AGM|03-Jun-2026|Gem Diamonds Di|GEMD
-AGM|04-Jun-2026|Oxford Nanopore Technologies|ONT
-AGM|04-Jun-2026|Nippon Active Value|NAVF
-AGM|04-Jun-2026|Cornish Metals|TIN
-AGM|04-Jun-2026|Foresight Technology|FTV
-AGM|04-Jun-2026|Blackfinch Spr.|BFSP
-AGM|04-Jun-2026|Raspberry Pi|RPI
-AGM|04-Jun-2026|Rm Infra Inc|RMII
-AGM|04-Jun-2026|Seneca Growth|HYG
-AGM|04-Jun-2026|Camellia|CAM
-AGM|05-Jun-2026|Stvg|STVG
-AGM|05-Jun-2026|Golden Pros|GPM
-AGM|05-Jun-2026|Cloudbreak|CDL
-AGM|05-Jun-2026|Thungela Resources|TGA
-AGM|08-Jun-2026|Evoke Plc|EVOK
-AGM|09-Jun-2026|Albion. Tch Vct|AATG
-AGM|09-Jun-2026|Afarak Group Plc|AFRK
-AGM|09-Jun-2026|Jersey Oil & Gas plc|JOG
-AGM|09-Jun-2026|Georgia Capital|CGEO
-AGM|09-Jun-2026|Poolbeg Pharma|POLB
-AGM|09-Jun-2026|Invinity Energy|IES
-AGM|09-Jun-2026|Octopus Fut Gen|OFG
-AGM|09-Jun-2026|Br.small Co.2|BSC
-AGM|09-Jun-2026|Fevertree|FEVR
-AGM|09-Jun-2026|Hochschild|HOC
-AGM|10-Jun-2026|Concurrent Technologies|CNC
-AGM|10-Jun-2026|R.e.a.hldgs.|RE.
-AGM|10-Jun-2026|Barclays|BARC
-AGM|10-Jun-2026|China Pacific|CPIC
-AGM|10-Jun-2026|Zinnwald Lithium|ZNWD
-AGM|10-Jun-2026|Power Probe|PWR
-AGM|10-Jun-2026|Tullow Oil|TLW
-AGM|10-Jun-2026|PureTech|PRTC
-AGM|10-Jun-2026|Xeros Tech|XSG
-AGM|11-Jun-2026|North Atl.smlr|NAS
-AGM|11-Jun-2026|Jadestone Energy|JSE
-AGM|11-Jun-2026|BH Macro GBP|BHMG
-AGM|11-Jun-2026|T42 Iot Track.|TRAC
-AGM|11-Jun-2026|Oriole Resources|ORR
-AGM|11-Jun-2026|M&C Saatchi|SAA
-AGM|11-Jun-2026|Foresight Ent|FTF
-AGM|11-Jun-2026|India Cap|IGC
-AGM|11-Jun-2026|Trufin Plc|TRU
-AGM|11-Jun-2026|Rtw Biotech|RTW
-AGM|12-Jun-2026|Octopus Energy|ORIT
-AGM|12-Jun-2026|M P Evans|MPE
-AGM|15-Jun-2026|East Star Reso|EST
-AGM|15-Jun-2026|Sdic Power.|SDIC
-AGM|15-Jun-2026|Jpmorg.us|JUSC
-AGM|15-Jun-2026|Ceps|CEPS
-AGM|15-Jun-2026|Anglo-Eastern Plantations|AEP
-AGM|15-Jun-2026|Nova Ljublj. S|NLB
-AGM|15-Jun-2026|Metals Exploration|MTL
-AGM|15-Jun-2026|The Mission Group|TMG
-AGM|16-Jun-2026|Strip Tinning|STG
-AGM|16-Jun-2026|Cizzle Biotech|CIZ
-AGM|16-Jun-2026|SpaceandPeople|SAL
-AGM|16-Jun-2026|Andrew Sykes|ASY
-AGM|16-Jun-2026|Christie|CTG
-AGM|16-Jun-2026|Warpaint London|W7L
-AGM|17-Jun-2026|Panther Securities|PNS
-AGM|17-Jun-2026|SpaceandPeople|SAL
-AGM|17-Jun-2026|Brave Bison|BBSN
-AGM|17-Jun-2026|Advanced Medical Solutions Group|AMS
-AGM|17-Jun-2026|Anemoi Interna.|AMOI
-AGM|17-Jun-2026|Alina Hldg|ALNA
-AGM|17-Jun-2026|Thalassa (di)|THAL
-AGM|17-Jun-2026|Aquila Euro.|AERS
-AGM|17-Jun-2026|Biopharma Cred.|BPCR
-AGM|17-Jun-2026|Ecofin U.s. $|RNEW
-AGM|17-Jun-2026|Likewise Group|LIKE
-AGM|17-Jun-2026|North American|NAIT
-AGM|17-Jun-2026|Boku|BOKU
-AGM|17-Jun-2026|Chapel Down Grp|CDGP
-AGM|17-Jun-2026|Emv Capital|EMVC
-AGM|17-Jun-2026|Invesco Bd In|BIPS
-AGM|17-Jun-2026|Tandem Group|TND
-AGM|17-Jun-2026|Somero|SOM
-AGM|18-Jun-2026|Octopus T.vct|OTV2
-AGM|18-Jun-2026|Cobra Resources|COBR
-AGM|18-Jun-2026|Informa|INF
-AGM|18-Jun-2026|Braime Group Plc|BMTO
-AGM|18-Jun-2026|Tinybuild Inc|TBLD
-AGM|18-Jun-2026|Keystone Law G.|KEYS
-AGM|18-Jun-2026|Manx Financial|MFX
-AGM|18-Jun-2026|Whitbread|WTB
-AGM|18-Jun-2026|Chesterfield Resources PLC|CHF
-AGM|18-Jun-2026|Pantheon Infrastructure|PINT
-AGM|18-Jun-2026|Mhp Reg S|MHPC
-AGM|18-Jun-2026|Tesco|TSCO
-AGM|18-Jun-2026|Logistics Dev|LDG
-AGM|18-Jun-2026|Iforex Fin Trad|IFRX
-AGM|18-Jun-2026|Aura Renew Acq|ARA
-AGM|18-Jun-2026|Ashington Innov|ASHI
-AGM|18-Jun-2026|Angling Direct|ANG
-AGM|18-Jun-2026|Trainline|TRN
-AGM|18-Jun-2026|Serabi|SRB
-AGM|18-Jun-2026|Icg-longbow|LBOW
-AGM|18-Jun-2026|Gulf Marine Services|GMS
-AGM|18-Jun-2026|Partners Grp E|PEY
-AGM|18-Jun-2026|Lords Grp Tr|LORD
-AGM|18-Jun-2026|Mpac Group Plc|MPAC
-AGM|18-Jun-2026|Shield Thera|STX
-AGM|18-Jun-2026|Ip Group|IPO
-AGM|18-Jun-2026|Anpario|ANP
-AGM|19-Jun-2026|Flowtech Fluid.|FLO
-AGM|19-Jun-2026|Beauty Tech Grp|TBTG
-AGM|19-Jun-2026|Maruwa|MAW
-AGM|19-Jun-2026|Gulf Keystone Petroleum|GKP
-AGM|19-Jun-2026|Solvonis Therap|SVNS
-AGM|19-Jun-2026|Kendrick Resources|KEN
-AGM|22-Jun-2026|Synthomer|SYNT
-AGM|22-Jun-2026|Helios Underw|HUW
-AGM|22-Jun-2026|Tialis Essen It|TIA
-AGM|22-Jun-2026|Globalworth|GWI
-AGM|23-Jun-2026|Gemfields Grou.|GEM
-AGM|23-Jun-2026|Afentra Plc.|AET
-AGM|23-Jun-2026|Skillcast|SKL
-AGM|23-Jun-2026|Beowulf Mining PLC|BEM
-AGM|23-Jun-2026|Kooth Plc|KOO
-AGM|23-Jun-2026|PetroTal|PTAL
-AGM|23-Jun-2026|Earnz Plc|EARN
-AGM|23-Jun-2026|ADF Facilities|ADF
-AGM|23-Jun-2026|Big Technologies|BIG
-AGM|23-Jun-2026|Kelso Grp Hldg|KLSO
-AGM|23-Jun-2026|OptiBiotix Health|OPTI
-AGM|23-Jun-2026|Prospex Eng|PXEN
-AGM|24-Jun-2026|Microlise Grp|SAAS
-AGM|24-Jun-2026|Ceiba Investme.|CBA
-AGM|24-Jun-2026|Coiled Thera|COIL
-AGM|24-Jun-2026|Vulcan Two|VUL
-AGM|24-Jun-2026|Taseko Mines Limited|TKO
-AGM|24-Jun-2026|Vertu|VTU
-AGM|24-Jun-2026|Maven Renovar|MRV
-AGM|24-Jun-2026|Anglo Asian Mining PLC|AAZ
-AGM|24-Jun-2026|Thg|THG
-AGM|24-Jun-2026|S & U|SUS
-AGM|24-Jun-2026|Cora Gold|CORA
-AGM|25-Jun-2026|Vietnam Enterprise Investments|VEIL
-AGM|25-Jun-2026|Seascape Energy|SEA
-AGM|25-Jun-2026|Bango|BGO
-AGM|25-Jun-2026|Lon.sec|LSC
-AGM|25-Jun-2026|ICG Enterprise Trust|ICGT
-AGM|25-Jun-2026|Ingenta|ING
-AGM|25-Jun-2026|Atalaya Mining|ATYM
-AGM|25-Jun-2026|Everyman Media|EMAN
-AGM|25-Jun-2026|Card Factory|CARD
-AGM|26-Jun-2026|Kingfisher|KGF
-AGM|26-Jun-2026|Steppe Cement|STCM
-AGM|26-Jun-2026|Union Jack|UJO
-AGM|26-Jun-2026|Africa Opp.|AOF
-AGM|26-Jun-2026|Diverse Income Trust|DIVI
-AGM|26-Jun-2026|Br.amer.inv.tst|BAF
-AGM|29-Jun-2026|Empresaria Group|EMR
-AGM|29-Jun-2026|80 Mile|80M
-AGM|29-Jun-2026|Amcomri|AMCO
-AGM|29-Jun-2026|International Airlines|IAG
-AGM|30-Jun-2026|Renewables Infrastructure Group|TRIG
-AGM|30-Jun-2026|Oberon Aim|OVCT
-AGM|30-Jun-2026|4basebio Plc|4BB
-AGM|30-Jun-2026|Novacyt|NCYT
-AGM|30-Jun-2026|Dar Global|DAR
-Annual Report|22-Jun-2026|Defi Dev Corp|DFDV
-Annual Report|26-Jun-2026|Auto Trader|AUTO
-Annual Report|26-Jun-2026|Cranswick|CWK
-EGM|22-Jun-2026|Kazatomprom S|KAP
-Final Dividend Payment Date|01-Jun-2026|Propty Franchis|TPFG
-Final Dividend Payment Date|01-Jun-2026|Investec 3h%pf|46HA
-Final Dividend Payment Date|01-Jun-2026|Zotefoams Plc|ZTF
-Final Dividend Payment Date|02-Jun-2026|Rotork|ROR
-Final Dividend Payment Date|03-Jun-2026|Genuit Group|GEN
-Final Dividend Payment Date|03-Jun-2026|4Imprint|FOUR
-Final Dividend Payment Date|03-Jun-2026|Rolls-Royce|RR.
-Final Dividend Payment Date|03-Jun-2026|Zotefoams Plc|ZTF
-Final Dividend Payment Date|04-Jun-2026|Churchill China|CHH
-Final Dividend Payment Date|04-Jun-2026|Legal & General|LGEN
-Final Dividend Payment Date|04-Jun-2026|BAE Systems|BA.
-Final Dividend Payment Date|04-Jun-2026|Morgan Sindall Group|MGNS
-Final Dividend Payment Date|05-Jun-2026|Barr (A.G.)|BAG
-Final Dividend Payment Date|05-Jun-2026|Enquest|ENQ
-Final Dividend Payment Date|05-Jun-2026|Wickes Group P.|WIX
-Final Dividend Payment Date|05-Jun-2026|Sabre Insurance Group|SBRE
-Final Dividend Payment Date|05-Jun-2026|Admiral|ADM
-Final Dividend Payment Date|05-Jun-2026|Irish Cont.|ICGC
-Final Dividend Payment Date|08-Jun-2026|Hiscox|HSX
-Final Dividend Payment Date|08-Jun-2026|Asa Int|ASAI
-Final Dividend Payment Date|08-Jun-2026|Porvair|PRV
-Final Dividend Payment Date|08-Jun-2026|IG|IGG
-Final Dividend Payment Date|09-Jun-2026|Coca-Cola HBC|CCH
-Final Dividend Payment Date|09-Jun-2026|Bank Of Ireland|BIRG
-Final Dividend Payment Date|11-Jun-2026|Winking Studios|WKS
-Final Dividend Payment Date|11-Jun-2026|Artemis Uk Fut|AFL
-Final Dividend Payment Date|11-Jun-2026|Bodycote|BOY
-Final Dividend Payment Date|11-Jun-2026|RHI Magnesita|RHIM
-Final Dividend Payment Date|12-Jun-2026|Macfarlane Grp.|MACF
-Final Dividend Payment Date|12-Jun-2026|Reckitt|RKT
-Final Dividend Payment Date|12-Jun-2026|Burford Capital|BUR
-Final Dividend Payment Date|12-Jun-2026|SThree|STEM
-Final Dividend Payment Date|12-Jun-2026|Lancashire Holdings|LRE
-Final Dividend Payment Date|12-Jun-2026|Aptitude|APTD
-Final Dividend Payment Date|12-Jun-2026|Iforex Fin Trad|IFRX
-Final Dividend Payment Date|12-Jun-2026|Mincon Grp|MCON
-Final Dividend Payment Date|15-Jun-2026|Canal+|CAN
-Final Dividend Payment Date|15-Jun-2026|Inchcape|INCH
-Final Dividend Payment Date|16-Jun-2026|Lsl Prop|LSL
-Final Dividend Payment Date|16-Jun-2026|Hochschild|HOC
-Final Dividend Payment Date|17-Jun-2026|PageGroup|PAGE
-Final Dividend Payment Date|18-Jun-2026|M P Evans|MPE
-Final Dividend Payment Date|18-Jun-2026|Gamma Communications|GAMA
-Final Dividend Payment Date|18-Jun-2026|Fintel|FNTL
-Final Dividend Payment Date|18-Jun-2026|Yu Energy|YU.
-Final Dividend Payment Date|18-Jun-2026|Relx|REL
-Final Dividend Payment Date|19-Jun-2026|Robinson|RBN
-Final Dividend Payment Date|19-Jun-2026|Andrew Sykes|ASY
-Final Dividend Payment Date|19-Jun-2026|Spire Healthcare|SPI
-Final Dividend Payment Date|19-Jun-2026|Everplay Group|EVPL
-Final Dividend Payment Date|22-Jun-2026|TBC Bank Group|TBCG
-Final Dividend Payment Date|22-Jun-2026|Int Diag Hld|IDHC
-Final Dividend Payment Date|22-Jun-2026|Niox Group|NIOX
-Final Dividend Payment Date|23-Jun-2026|Keystone Law G.|KEYS
-Final Dividend Payment Date|24-Jun-2026|Intertek Group|ITRK
-Final Dividend Payment Date|26-Jun-2026|Fevertree|FEVR
-Final Dividend Payment Date|26-Jun-2026|Hilton Foods|HFG
-Final Dividend Payment Date|26-Jun-2026|Foresight Technology|FTV
-Final Dividend Payment Date|26-Jun-2026|Rtc Grp.|RTC
-Final Dividend Payment Date|26-Jun-2026|Alfa Fin|ALFA
-Final Dividend Payment Date|26-Jun-2026|Tesco|TSCO
-Final Dividend Payment Date|26-Jun-2026|Brave Bison|BBSN
-Final Dividend Payment Date|26-Jun-2026|Advanced Medical Solutions Group|AMS
-Final Dividend Payment Date|26-Jun-2026|Keller|KLR
-Final Dividend Payment Date|26-Jun-2026|FDM Group|FDM
-Final Dividend Payment Date|29-Jun-2026|Central Asia Metals|CAML
-Final Dividend Payment Date|29-Jun-2026|International Airlines|IAG
-Final Dividend Payment Date|30-Jun-2026|Ingenta|ING
-Final Dividend Payment Date|30-Jun-2026|James Hal.5.5%|JHDA
-Final Dividend Payment Date|30-Jun-2026|Billington|BILN
-Final Results|01-Jun-2026|Sirius Real Estate|SRE
-Final Results|02-Jun-2026|NewRiver|NRR
-Final Results|02-Jun-2026|Gb Group|GBG
-Final Results|02-Jun-2026|Pennon|PNN
-Final Results|02-Jun-2026|Big Yellow|BYG
-Final Results|03-Jun-2026|DiscoverIE|DSCV
-Final Results|03-Jun-2026|Ninety One|N91
-Final Results|04-Jun-2026|Mitie|MTO
-Final Results|04-Jun-2026|CMC Markets|CMCX
-Final Results|04-Jun-2026|Ondine Biomed|OBI
-Final Results|04-Jun-2026|Capital Gearing Trust|CGT
-Final Results|08-Jun-2026|Genincode|GENI
-Final Results|09-Jun-2026|Oxford Instruments|OXIG
-Final Results|09-Jun-2026|Vianet Grp|VNET
-Final Results|09-Jun-2026|Molten Ventures|GROW
-Final Results|10-Jun-2026|Pennon|PNN
-Final Results|10-Jun-2026|Workspace|WKP
-Final Results|10-Jun-2026|Motorpoint|MOTR
-Final Results|10-Jun-2026|Fuller Smith & Turner|FSTA
-Final Results|11-Jun-2026|Paypoint|PAY
-Final Results|11-Jun-2026|Halma|HLMA
-Final Results|11-Jun-2026|Bodycote|BOY
-Final Results|11-Jun-2026|Norcros|NXR
-Final Results|11-Jun-2026|Wizz Air|WIZZ
-Final Results|15-Jun-2026|Peel Hunt|PEEL
-Final Results|16-Jun-2026|Accsys Tech|AXS
-Final Results|16-Jun-2026|Tpximpact Hldg|TPX
-Final Results|16-Jun-2026|Tatton Asset Management|TAM
-Final Results|16-Jun-2026|CML Microcircuits|CML
-Final Results|17-Jun-2026|Speedy Hire|SDY
-Final Results|17-Jun-2026|Ao World|AO.
-Final Results|17-Jun-2026|CML Microcircuits|CML
-Final Results|18-Jun-2026|Firstgroup|FGP
-Final Results|18-Jun-2026|Foresight Envr|FGEN
-Final Results|18-Jun-2026|Xps Pensions|XPS
-Final Results|18-Jun-2026|Duke Capital|DUKE
-Final Results|19-Jun-2026|Record|REC
-Final Results|22-Jun-2026|Defi Dev Corp|DFDV
-Final Results|23-Jun-2026|Gear4music|G4M
-Final Results|23-Jun-2026|Severfield|SFR
-Final Results|23-Jun-2026|Intercede|IGP
-Final Results|24-Jun-2026|Liontrust Asset Management|LIO
-Final Results|25-Jun-2026|Halfords|HFD
-Final Results|25-Jun-2026|First Property|FPO
-Final Results|25-Jun-2026|Moonpig Gr|MOON
-Final Results|25-Jun-2026|Volex|VLX
-Final Results|29-Jun-2026|Foresight Group Holdings|FSG
-Final Results|29-Jun-2026|Focusrite|TUNE
-Final Ex-Dividend Date|04-Jun-2026|Marshalls|MSLH
-Final Ex-Dividend Date|04-Jun-2026|GPE|GPE
-Final Ex-Dividend Date|04-Jun-2026|Computacenter|CCC
-Final Ex-Dividend Date|04-Jun-2026|FDM Group|FDM
-Final Ex-Dividend Date|04-Jun-2026|Central Asia Metals|CAML
-Final Ex-Dividend Date|04-Jun-2026|Young & Co's Brewery|YNGN
-Final Ex-Dividend Date|04-Jun-2026|Pets at home|PETS
-Final Ex-Dividend Date|04-Jun-2026|Johnson Matthey|JMAT
-Final Ex-Dividend Date|04-Jun-2026|Tandem Group|TND
-Final Ex-Dividend Date|04-Jun-2026|S4 Cap.|SFOR
-Final Ex-Dividend Date|04-Jun-2026|Young & Co's Brewery|YNGA
-Final Ex-Dividend Date|04-Jun-2026|Michelmersh Brick Holdings|MBH
-Final Ex-Dividend Date|04-Jun-2026|Edinburgh Investment Trust PLC|EDIN
-Final Ex-Dividend Date|04-Jun-2026|WPP|WPP
-Final Ex-Dividend Date|04-Jun-2026|Robinson|RBN
-Final Ex-Dividend Date|04-Jun-2026|Sainsbury's|SBRY
-Final Ex-Dividend Date|04-Jun-2026|Keystone Law G.|KEYS
-Final Ex-Dividend Date|04-Jun-2026|Vodafone|VOD
-Final Ex-Dividend Date|04-Jun-2026|Winvia Ent|WVIA
-Final Ex-Dividend Date|04-Jun-2026|Marks & Spencer|MKS
-Final Ex-Dividend Date|04-Jun-2026|Billington|BILN
-Final Ex-Dividend Date|11-Jun-2026|Icg Plc|ICG
-Final Ex-Dividend Date|11-Jun-2026|RS Group|RS1
-Final Ex-Dividend Date|11-Jun-2026|Pharos Energy|PHAR
-Final Ex-Dividend Date|11-Jun-2026|Judges Scientific|JDG
-Final Ex-Dividend Date|11-Jun-2026|Warpaint London|W7L
-Final Ex-Dividend Date|11-Jun-2026|Pacific Assets Trust|PAC
-Final Ex-Dividend Date|11-Jun-2026|Lon.sec|LSC
-Final Ex-Dividend Date|11-Jun-2026|3i Infrastructure|3IN
-Final Ex-Dividend Date|11-Jun-2026|C&C Group|CCR
-Final Ex-Dividend Date|11-Jun-2026|Christie|CTG
-Final Ex-Dividend Date|11-Jun-2026|Jpmorg.us|JUSC
-Final Ex-Dividend Date|11-Jun-2026|Foresight Technology|FTV
-Final Ex-Dividend Date|11-Jun-2026|Restore|RST
-Final Ex-Dividend Date|11-Jun-2026|Canal+|CAN
-Final Ex-Dividend Date|11-Jun-2026|Forterra|FORT
-Final Ex-Dividend Date|11-Jun-2026|Scottish Mortgage|SMT
-Final Ex-Dividend Date|18-Jun-2026|Aeorema Comm.|AEO
-Final Ex-Dividend Date|18-Jun-2026|Tate & Lyle|TATE
-Final Ex-Dividend Date|18-Jun-2026|British Land|BLND
-Final Ex-Dividend Date|18-Jun-2026|Land Securities|LAND
-Final Ex-Dividend Date|18-Jun-2026|3i Group|III
-Final Ex-Dividend Date|18-Jun-2026|Airtel Africa|AAF
-Final Ex-Dividend Date|18-Jun-2026|Elecosoft|ELCO
-Final Ex-Dividend Date|18-Jun-2026|Concurrent Technologies|CNC
-Final Ex-Dividend Date|18-Jun-2026|Nippon Active Value|NAVF
-Final Ex-Dividend Date|18-Jun-2026|Baillie Gif. Ch|BGCG
-Final Ex-Dividend Date|18-Jun-2026|Mears|MER
-Final Ex-Dividend Date|18-Jun-2026|Persimmon|PSN
-Final Ex-Dividend Date|18-Jun-2026|Anglo-Eastern Plantations|AEP
-Final Ex-Dividend Date|25-Jun-2026|Serabi|SRB
-Final Ex-Dividend Date|25-Jun-2026|Helical Bar|HLCL
-Final Ex-Dividend Date|25-Jun-2026|Panther Securities|PNS
-Final Ex-Dividend Date|25-Jun-2026|Premier Foods|PFD
-Final Ex-Dividend Date|25-Jun-2026|Vertu|VTU
-Final Ex-Dividend Date|25-Jun-2026|United Utilities|UU.
-Final Ex-Dividend Date|25-Jun-2026|Serica Energy|SQZ
-Final Ex-Dividend Date|25-Jun-2026|International Airlines|IAG
-GM|01-Jun-2026|Essensys|ESYS
-GM|02-Jun-2026|Headlam|HEAD
-GM|05-Jun-2026|Tirupati Graphite|TGR
-GM|09-Jun-2026|Adalan Ventures|ZAIM
-GM|15-Jun-2026|Crism Thera|CRTX
-GM|15-Jun-2026|Galantas Gold|GAL
-GM|24-Jun-2026|Ecclesiastl.8fe|ELLA
-Interim Dividend Payment Date|01-Jun-2026|Smart (J) & Co|SMJ
-Interim Dividend Payment Date|03-Jun-2026|Glencore|GLEN
-Interim Dividend Payment Date|04-Jun-2026|Wetherspoon (J.D)|JDW
-Interim Dividend Payment Date|04-Jun-2026|Diageo|DGE
-Interim Dividend Payment Date|05-Jun-2026|Gabelli Merch|GMP
-Interim Dividend Payment Date|05-Jun-2026|Caledonia Min|CMCL
-Interim Dividend Payment Date|05-Jun-2026|Majedie Inv.|MAJE
-Interim Dividend Payment Date|05-Jun-2026|Jpmorgan Euro.|JEGI
-Interim Dividend Payment Date|05-Jun-2026|James Halstead|JHD
-Interim Dividend Payment Date|08-Jun-2026|International Public Partnerships|INPP
-Interim Dividend Payment Date|08-Jun-2026|GCP Infrastructure Investments|GCP
-Interim Dividend Payment Date|10-Jun-2026|Smurfit West|SWR
-Interim Dividend Payment Date|11-Jun-2026|Abrdn Euro Log|ASLI
-Interim Dividend Payment Date|12-Jun-2026|Intl Paper Co|IPC
-Interim Dividend Payment Date|12-Jun-2026|GoldPlat|GDP
-Interim Dividend Payment Date|12-Jun-2026|Diploma|DPLM
-Interim Dividend Payment Date|12-Jun-2026|Tritax Big Box|BBOX
-Interim Dividend Payment Date|12-Jun-2026|Frp Advisory Group|FRP
-Interim Dividend Payment Date|12-Jun-2026|Town Centre|TOWN
-Interim Dividend Payment Date|12-Jun-2026|Albion. Tch Vct|AATG
-Interim Dividend Payment Date|15-Jun-2026|Aeci 5 1/2% Prf|87FZ
-Interim Dividend Payment Date|15-Jun-2026|Bluefield Solar|BSIF
-Interim Dividend Payment Date|15-Jun-2026|Notts.b/s.7 7/8|NOTP
-Interim Dividend Payment Date|18-Jun-2026|Scot.amer.inv.|SAIN
-Interim Dividend Payment Date|18-Jun-2026|Murray Income Trust|MUT
-Interim Dividend Payment Date|19-Jun-2026|Origin|OGN
-Interim Dividend Payment Date|19-Jun-2026|Octopus Ap|OAP3
-Interim Dividend Payment Date|19-Jun-2026|Diverse Income Trust|DIVI
-Interim Dividend Payment Date|19-Jun-2026|Nexus Infrastr.|NEXS
-Interim Dividend Payment Date|19-Jun-2026|Partners Grp E|PEY
-Interim Dividend Payment Date|19-Jun-2026|Fevara|FVA
-Interim Dividend Payment Date|22-Jun-2026|Br.small Co.2|BSC
-Interim Dividend Payment Date|22-Jun-2026|Fidelity|FSV
-Interim Dividend Payment Date|23-Jun-2026|Aberdeen Asia|AAS
-Interim Dividend Payment Date|24-Jun-2026|Tharisa PLC|THS
-Interim Dividend Payment Date|24-Jun-2026|BlackRock Greater Europe Investment Trust|BRGE
-Interim Dividend Payment Date|25-Jun-2026|Aurora Uk Alpha|ARR
-Interim Dividend Payment Date|25-Jun-2026|Cardiff Property|CDFF
-Interim Dividend Payment Date|25-Jun-2026|JPMorgan Global Growth & Income|JGGI
-Interim Dividend Payment Date|26-Jun-2026|SSP Group|SSPG
-Interim Dividend Payment Date|26-Jun-2026|Ultimate Products|ULTP
-Interim Dividend Payment Date|26-Jun-2026|Riverstone Cred|RCOI
-Interim Dividend Payment Date|26-Jun-2026|Avingtrans|AVG
-Interim Dividend Payment Date|26-Jun-2026|Utilico Emerging Markets|UEM
-Interim Dividend Payment Date|26-Jun-2026|Foresight Envr|FGEN
-Interim Dividend Payment Date|26-Jun-2026|Blackrock Frontiers Investment Trust|BRFI
-Interim Dividend Payment Date|26-Jun-2026|AJ Bell|AJB
-Interim Dividend Payment Date|26-Jun-2026|IntegraFin Holdings|IHP
-Interim Dividend Payment Date|26-Jun-2026|Aberdeen Eq.inc|AEI
-Interim Dividend Payment Date|26-Jun-2026|Maven Income 1|MIG1
-Interim Dividend Payment Date|26-Jun-2026|HSBC Holdings|HSBA
-Interim Dividend Payment Date|26-Jun-2026|Fair Oaks Inc R|FA17
-Interim Dividend Payment Date|26-Jun-2026|Fair Oaks Inc|FAIR
-Interim Dividend Payment Date|26-Jun-2026|Temple Bar Investment Trust|TMPL
-Interim Dividend Payment Date|26-Jun-2026|Victrex|VCT
-Interim Dividend Payment Date|26-Jun-2026|On The Beach|OTB
-Interim Dividend Payment Date|29-Jun-2026|Shell|SHEL
-Interim Dividend Payment Date|30-Jun-2026|Imperial Brands|IMB
-Interim Dividend Payment Date|30-Jun-2026|Antofagasta Plc 5% Cum Prf #1|70GD
-Interim Dividend Payment Date|30-Jun-2026|Croda Int.6.6pf|49GP
-Interim Dividend Payment Date|30-Jun-2026|Croda Int.5.9pf|50GP
-Interim Dividend Payment Date|30-Jun-2026|Brunner Iv.5%pf|44GL
-Interim Dividend Payment Date|30-Jun-2026|Ecclesiastl.8fe|ELLA
-Interim Dividend Payment Date|30-Jun-2026|Rotork 9h%pf|76ID
-Interim Dividend Payment Date|30-Jun-2026|Alliance Witan|ALW
-Interim Dividend Payment Date|30-Jun-2026|Ct Uk Cap & Inc|CTUK
+Final Results|01-Jun-2026|Amicorp Fs Uk|AMIF
+Final Results|01-Jun-2026|Block Energy P.|BLOE
 Interim Results|01-Jun-2026|Cerillion|CER
-Interim Results|01-Jun-2026|Lpa|LPA
-Interim Results|02-Jun-2026|Gooch & Housego|GHH
-Interim Results|02-Jun-2026|Paragon Group|PAG
-Interim Results|04-Jun-2026|Premier Miton|PMI
-Interim Results|09-Jun-2026|LBG Media|LBG
-Interim Results|10-Jun-2026|H-power|HPOW
-Interim Results|11-Jun-2026|Safestore|SAFE
-Interim Results|11-Jun-2026|Crest Nicholson|CRST
-Interim Results|17-Jun-2026|Oxford Metrics|OMG
-Interim Results|24-Jun-2026|Coppa Collect|COPC
-Interim Results|24-Jun-2026|Patria Private|PPET
-Interim Ex-Dividend Date|04-Jun-2026|Sage Group|SGE
-Interim Ex-Dividend Date|04-Jun-2026|Blackrock Frontiers Investment Trust|BRFI
-Interim Ex-Dividend Date|04-Jun-2026|AJ Bell|AJB
-Interim Ex-Dividend Date|04-Jun-2026|Topps Tiles|TPT
-Interim Ex-Dividend Date|04-Jun-2026|Sts Global Inc|STS
-Interim Ex-Dividend Date|04-Jun-2026|Renew Holdings|RNWH
-Interim Ex-Dividend Date|04-Jun-2026|Smiths News|SNWS
-Interim Ex-Dividend Date|04-Jun-2026|Antofagasta Plc 5% Cum Prf #1|70GD
-Interim Ex-Dividend Date|04-Jun-2026|LondonMetric|LMP
-Interim Ex-Dividend Date|04-Jun-2026|Fair Oaks Inc|FAIR
-Interim Ex-Dividend Date|04-Jun-2026|Fair Oaks Inc R|FA17
-Interim Ex-Dividend Date|04-Jun-2026|Foresight Envr|FGEN
-Interim Ex-Dividend Date|04-Jun-2026|Vh Global Ener.|ENRG
-Interim Ex-Dividend Date|04-Jun-2026|Riverstone Cred|RCOI
-Interim Ex-Dividend Date|04-Jun-2026|Utilico Emerging Markets|UEM
-Interim Ex-Dividend Date|11-Jun-2026|Aeci 5 1/2% Prf|87FZ
-Interim Ex-Dividend Date|11-Jun-2026|Henderson High Income Trust|HHI
-Interim Ex-Dividend Date|11-Jun-2026|Impax Asset Management|IPX
-Interim Ex-Dividend Date|11-Jun-2026|Tharisa PLC|THS
-Interim Ex-Dividend Date|11-Jun-2026|Ct Uk Cap & Inc|CTUK
-Interim Ex-Dividend Date|18-Jun-2026|Compass Group|CPG
-Interim Ex-Dividend Date|25-Jun-2026|Lowland Inv.|LWI
-Interim Ex-Dividend Date|25-Jun-2026|Hollywood Bwl|BOWL
-Interim Ex-Dividend Date|25-Jun-2026|Bank Of Georgia Group|BGEO
-Interim Ex-Dividend Date|25-Jun-2026|Bp 9% 2nd Prf|BP.B
-Interim Ex-Dividend Date|25-Jun-2026|Experian|EXPN
-Interim Ex-Dividend Date|25-Jun-2026|Bp 8%pf|BP.A
-Q3 Results|30-Jun-2026|Seraphim Space|SSIT
+Annual Report|01-Jun-2026|Corero Network|CNS
+Annual Report|01-Jun-2026|Digitalbox|DBOX
+GM|01-Jun-2026|Essensys|ESYS
+Final Dividend Payment Date|01-Jun-2026|Investec 3h%pf|46HA
+Final Results|01-Jun-2026|Invinity Energy|IES
+Interim Results|01-Jun-2026|JPMorgan Japanese|JFJ
+Quarterly Dividend Payment Date|01-Jun-2026|Jp Morg.chin|JCGI
 Quarterly Dividend Payment Date|01-Jun-2026|Jpmor India G&i|JIGI
 Quarterly Dividend Payment Date|01-Jun-2026|Jpmorgan Clav|JCH
-Quarterly Dividend Payment Date|01-Jun-2026|Jp Morg.chin|JCGI
+AGM|01-Jun-2026|Kavango Resources|KAV
+Interim Results|01-Jun-2026|Lpa|LPA
+Trading Announcement|01-Jun-2026|ME Group|MEGP
+Annual Report|01-Jun-2026|Marks & Spencer|MKS
+Final Results|01-Jun-2026|Nativo Resources|NTVO
+Annual Report|01-Jun-2026|Nostrum Oil&gas|NOG
+AGM|01-Jun-2026|Oakley|OCI
+Final Dividend Payment Date|01-Jun-2026|Propty Franchis|TPFG
+Trading Announcement|01-Jun-2026|Redcentric|RCN
+Trading Announcement|01-Jun-2026|Rentguarantor|RGG
+AGM|01-Jun-2026|Savannah Energy|SAVE
+Annual Report|01-Jun-2026|Sirius Real Estate|SRE
+Final Results|01-Jun-2026|Sirius Real Estate|SRE
+Interim Dividend Payment Date|01-Jun-2026|Smart (J) & Co|SMJ
+Final Results|01-Jun-2026|Sunda Energy|SNDA
+Final Results|01-Jun-2026|Zenith Energy|ZEN
+AGM|01-Jun-2026|Zinc Media|ZIN
+Final Dividend Payment Date|01-Jun-2026|Zotefoams Plc|ZTF
+Annual Report|01-Jun-2026|eEnergy Group|EAAS
+AGM|02-Jun-2026|Artemis Uk Fut|AFL
+Final Results|02-Jun-2026|Big Yellow|BYG
+AGM|02-Jun-2026|Billington|BILN
+Final Results|02-Jun-2026|Gb Group|GBG
+AGM|02-Jun-2026|Getech Grp|GTC
+Interim Results|02-Jun-2026|Gooch & Housego|GHH
+GM|02-Jun-2026|Headlam|HEAD
+AGM|02-Jun-2026|Metro Bank|MTRO
+Final Results|02-Jun-2026|NewRiver|NRR
+Interim Results|02-Jun-2026|Paragon Group|PAG
+Final Results|02-Jun-2026|Pennon|PNN
+AGM|02-Jun-2026|Portmeirion|PMP
+Final Dividend Payment Date|02-Jun-2026|Rotork|ROR
+AGM|02-Jun-2026|Schroders Capital Global Innovation Trust|INOV
+Final Dividend Payment Date|03-Jun-2026|4Imprint|FOUR
+AGM|03-Jun-2026|Asa Int|ASAI
+AGM|03-Jun-2026|Atlas Metals Group PLC|AMG
+AGM|03-Jun-2026|Critical Mineral Resources PLC|CMRS
+Final Results|03-Jun-2026|DiscoverIE|DSCV
+AGM|03-Jun-2026|Elecosoft|ELCO
+AGM|03-Jun-2026|First Class Metals PLC|FCM
+AGM|03-Jun-2026|Foresight Solar Fund|FSFL
+AGM|03-Jun-2026|Gem Diamonds Di|GEMD
+Final Dividend Payment Date|03-Jun-2026|Genuit Group|GEN
+Interim Dividend Payment Date|03-Jun-2026|Glencore|GLEN
+AGM|03-Jun-2026|Imaging Bio|IBAI
+AGM|03-Jun-2026|International Public Partnerships|INPP
+AGM|03-Jun-2026|Mears|MER
+AGM|03-Jun-2026|Mti Wireless|MWE
+Final Results|03-Jun-2026|Ninety One|N91
+AGM|03-Jun-2026|Parvus En|AEET
+Final Dividend Payment Date|03-Jun-2026|Rolls-Royce|RR.
+Final Dividend Payment Date|03-Jun-2026|Zotefoams Plc|ZTF
+Interim Ex-Dividend Date|04-Jun-2026|AJ Bell|AJB
+Interim Ex-Dividend Date|04-Jun-2026|Antofagasta Plc 5% Cum Prf #1|70GD
+Final Dividend Payment Date|04-Jun-2026|BAE Systems|BA.
+Final Ex-Dividend Date|04-Jun-2026|Billington|BILN
+AGM|04-Jun-2026|Blackfinch Spr.|BFSP
+Interim Ex-Dividend Date|04-Jun-2026|Blackrock Frontiers Investment Trust|BRFI
+Final Results|04-Jun-2026|CMC Markets|CMCX
+AGM|04-Jun-2026|Camellia|CAM
+Final Results|04-Jun-2026|Capital Gearing Trust|CGT
+Final Ex-Dividend Date|04-Jun-2026|Central Asia Metals|CAML
+Final Dividend Payment Date|04-Jun-2026|Churchill China|CHH
+Final Ex-Dividend Date|04-Jun-2026|Computacenter|CCC
+AGM|04-Jun-2026|Cornish Metals|TIN
+Interim Dividend Payment Date|04-Jun-2026|Diageo|DGE
+Final Ex-Dividend Date|04-Jun-2026|Edinburgh Investment Trust PLC|EDIN
+Quarterly Ex-Dividend Date|04-Jun-2026|Energean Oil & Gas|ENOG
+Final Ex-Dividend Date|04-Jun-2026|FDM Group|FDM
+Interim Ex-Dividend Date|04-Jun-2026|Fair Oaks Inc|FAIR
+Interim Ex-Dividend Date|04-Jun-2026|Fair Oaks Inc R|FA17
+Special Ex-Dividend Date|04-Jun-2026|Fih Group|FIH
+Interim Ex-Dividend Date|04-Jun-2026|Foresight Envr|FGEN
+AGM|04-Jun-2026|Foresight Technology|FTV
+Final Ex-Dividend Date|04-Jun-2026|GPE|GPE
+Final Ex-Dividend Date|04-Jun-2026|Johnson Matthey|JMAT
+Final Ex-Dividend Date|04-Jun-2026|Keystone Law G.|KEYS
+Quarterly Ex-Dividend Date|04-Jun-2026|Law Debenture|LWDB
+Final Dividend Payment Date|04-Jun-2026|Legal & General|LGEN
+Interim Ex-Dividend Date|04-Jun-2026|LondonMetric|LMP
+Final Ex-Dividend Date|04-Jun-2026|Marks & Spencer|MKS
+Final Ex-Dividend Date|04-Jun-2026|Marshalls|MSLH
+Final Ex-Dividend Date|04-Jun-2026|Michelmersh Brick Holdings|MBH
+Final Results|04-Jun-2026|Mitie|MTO
+Final Dividend Payment Date|04-Jun-2026|Morgan Sindall Group|MGNS
+AGM|04-Jun-2026|Nippon Active Value|NAVF
+Final Results|04-Jun-2026|Ondine Biomed|OBI
+AGM|04-Jun-2026|Oxford Nanopore Technologies|ONT
+Final Ex-Dividend Date|04-Jun-2026|Pets at home|PETS
+Interim Results|04-Jun-2026|Premier Miton|PMI
+AGM|04-Jun-2026|Raspberry Pi|RPI
+Interim Ex-Dividend Date|04-Jun-2026|Renew Holdings|RNWH
+Interim Ex-Dividend Date|04-Jun-2026|Riverstone Cred|RCOI
+AGM|04-Jun-2026|Rm Infra Inc|RMII
+Final Ex-Dividend Date|04-Jun-2026|Robinson|RBN
+Final Ex-Dividend Date|04-Jun-2026|S4 Cap.|SFOR
+Interim Ex-Dividend Date|04-Jun-2026|Sage Group|SGE
+Final Ex-Dividend Date|04-Jun-2026|Sainsbury's|SBRY
+AGM|04-Jun-2026|Seneca Growth|HYG
+Quarterly Ex-Dividend Date|04-Jun-2026|Seplat Energy|SEPL
+Special Ex-Dividend Date|04-Jun-2026|Seplat Energy|SEPL
+Interim Ex-Dividend Date|04-Jun-2026|Smiths News|SNWS
+Interim Ex-Dividend Date|04-Jun-2026|Sts Global Inc|STS
+Final Ex-Dividend Date|04-Jun-2026|Tandem Group|TND
+Interim Ex-Dividend Date|04-Jun-2026|Topps Tiles|TPT
+Interim Ex-Dividend Date|04-Jun-2026|Utilico Emerging Markets|UEM
+Interim Ex-Dividend Date|04-Jun-2026|Vh Global Ener.|ENRG
+Final Ex-Dividend Date|04-Jun-2026|Vodafone|VOD
+Final Ex-Dividend Date|04-Jun-2026|WPP|WPP
+Interim Dividend Payment Date|04-Jun-2026|Wetherspoon (J.D)|JDW
+Final Ex-Dividend Date|04-Jun-2026|Winvia Ent|WVIA
+Final Ex-Dividend Date|04-Jun-2026|Young & Co's Brewery|YNGA
+Final Ex-Dividend Date|04-Jun-2026|Young & Co's Brewery|YNGN
+Final Dividend Payment Date|05-Jun-2026|Admiral|ADM
+Special Dividend Payment Date|05-Jun-2026|Admiral|ADM
+Final Dividend Payment Date|05-Jun-2026|Barr (A.G.)|BAG
+Interim Dividend Payment Date|05-Jun-2026|Caledonia Min|CMCL
 Quarterly Dividend Payment Date|05-Jun-2026|Chenavari Toro|TORO
-Quarterly Dividend Payment Date|08-Jun-2026|Twentyfour Sel|SMIF
+AGM|05-Jun-2026|Cloudbreak|CDL
+Final Dividend Payment Date|05-Jun-2026|Enquest|ENQ
+Interim Dividend Payment Date|05-Jun-2026|Gabelli Merch|GMP
+AGM|05-Jun-2026|Golden Pros|GPM
+Final Dividend Payment Date|05-Jun-2026|Irish Cont.|ICGC
+Interim Dividend Payment Date|05-Jun-2026|James Halstead|JHD
+Interim Dividend Payment Date|05-Jun-2026|Jpmorgan Euro.|JEGI
+Interim Dividend Payment Date|05-Jun-2026|Majedie Inv.|MAJE
+Final Dividend Payment Date|05-Jun-2026|Sabre Insurance Group|SBRE
+Special Dividend Payment Date|05-Jun-2026|Sabre Insurance Group|SBRE
+AGM|05-Jun-2026|Stvg|STVG
+AGM|05-Jun-2026|Thungela Resources|TGA
+GM|05-Jun-2026|Tirupati Graphite|TGR
+Final Dividend Payment Date|05-Jun-2026|Wickes Group P.|WIX
+Final Dividend Payment Date|08-Jun-2026|Asa Int|ASAI
+AGM|08-Jun-2026|Evoke Plc|EVOK
+Interim Dividend Payment Date|08-Jun-2026|GCP Infrastructure Investments|GCP
 Quarterly Dividend Payment Date|08-Jun-2026|Gcp Asset Bckd|GABI
-Quarterly Dividend Payment Date|09-Jun-2026|Wheaton Precious Metals Corp.|WPM
+Final Results|08-Jun-2026|Genincode|GENI
+Final Dividend Payment Date|08-Jun-2026|Hiscox|HSX
+Final Dividend Payment Date|08-Jun-2026|IG|IGG
+Interim Dividend Payment Date|08-Jun-2026|International Public Partnerships|INPP
+Final Dividend Payment Date|08-Jun-2026|Porvair|PRV
+Quarterly Dividend Payment Date|08-Jun-2026|Twentyfour Sel|SMIF
+GM|09-Jun-2026|Adalan Ventures|ZAIM
+AGM|09-Jun-2026|Afarak Group Plc|AFRK
+AGM|09-Jun-2026|Albion. Tch Vct|AATG
+Final Dividend Payment Date|09-Jun-2026|Bank Of Ireland|BIRG
+Trading Announcement|09-Jun-2026|Bellway|BWY
 Quarterly Dividend Payment Date|09-Jun-2026|Blackrock Ait|BRAI
+AGM|09-Jun-2026|Br.small Co.2|BSC
+Final Dividend Payment Date|09-Jun-2026|Coca-Cola HBC|CCH
+AGM|09-Jun-2026|Fevertree|FEVR
+AGM|09-Jun-2026|Georgia Capital|CGEO
+AGM|09-Jun-2026|Hochschild|HOC
+AGM|09-Jun-2026|Invinity Energy|IES
+AGM|09-Jun-2026|Jersey Oil & Gas plc|JOG
+Interim Results|09-Jun-2026|LBG Media|LBG
+Final Results|09-Jun-2026|Molten Ventures|GROW
+AGM|09-Jun-2026|Octopus Fut Gen|OFG
+Final Results|09-Jun-2026|Oxford Instruments|OXIG
+AGM|09-Jun-2026|Poolbeg Pharma|POLB
+Final Results|09-Jun-2026|Vianet Grp|VNET
+Quarterly Dividend Payment Date|09-Jun-2026|Wheaton Precious Metals Corp.|WPM
+AGM|10-Jun-2026|Barclays|BARC
+AGM|10-Jun-2026|China Pacific|CPIC
+AGM|10-Jun-2026|Concurrent Technologies|CNC
+Trading Announcement|10-Jun-2026|Frontier Dev|FDEV
+Final Results|10-Jun-2026|Fuller Smith & Turner|FSTA
+Interim Results|10-Jun-2026|H-power|HPOW
+Final Results|10-Jun-2026|Motorpoint|MOTR
+Final Results|10-Jun-2026|Pennon|PNN
+AGM|10-Jun-2026|Power Probe|PWR
+AGM|10-Jun-2026|PureTech|PRTC
+AGM|10-Jun-2026|R.e.a.hldgs.|RE.
+Interim Dividend Payment Date|10-Jun-2026|Smurfit West|SWR
+AGM|10-Jun-2026|Tullow Oil|TLW
+Final Results|10-Jun-2026|Vp|VP.
+Final Results|10-Jun-2026|Workspace|WKP
+AGM|10-Jun-2026|Xeros Tech|XSG
+AGM|10-Jun-2026|Zinnwald Lithium|ZNWD
+Final Ex-Dividend Date|11-Jun-2026|3i Infrastructure|3IN
+Interim Dividend Payment Date|11-Jun-2026|Abrdn Euro Log|ASLI
+Interim Ex-Dividend Date|11-Jun-2026|Aeci 5 1/2% Prf|87FZ
+Final Dividend Payment Date|11-Jun-2026|Artemis Uk Fut|AFL
+AGM|11-Jun-2026|BH Macro GBP|BHMG
+Final Dividend Payment Date|11-Jun-2026|Bodycote|BOY
+Final Results|11-Jun-2026|Bodycote|BOY
+Final Ex-Dividend Date|11-Jun-2026|C&C Group|CCR
+Final Ex-Dividend Date|11-Jun-2026|Canal+|CAN
+Interim Ex-Dividend Date|11-Jun-2026|Cerillion|CER
+Final Ex-Dividend Date|11-Jun-2026|Christie|CTG
+Interim Results|11-Jun-2026|Crest Nicholson|CRST
+Interim Ex-Dividend Date|11-Jun-2026|Ct Uk Cap & Inc|CTUK
+AGM|11-Jun-2026|Foresight Ent|FTF
+Final Ex-Dividend Date|11-Jun-2026|Foresight Technology|FTV
+Final Ex-Dividend Date|11-Jun-2026|Forterra|FORT
+Final Results|11-Jun-2026|Halma|HLMA
+Interim Ex-Dividend Date|11-Jun-2026|Henderson High Income Trust|HHI
+Final Ex-Dividend Date|11-Jun-2026|Icg Plc|ICG
+Interim Ex-Dividend Date|11-Jun-2026|Impax Asset Management|IPX
+AGM|11-Jun-2026|India Cap|IGC
+AGM|11-Jun-2026|Jadestone Energy|JSE
+Final Ex-Dividend Date|11-Jun-2026|Jpmorg.us|JUSC
+Final Ex-Dividend Date|11-Jun-2026|Judges Scientific|JDG
+Final Ex-Dividend Date|11-Jun-2026|Lon.sec|LSC
+AGM|11-Jun-2026|M&C Saatchi|SAA
+Quarterly Ex-Dividend Date|11-Jun-2026|Mercantile Investment Trust PLC|MRC
+Final Results|11-Jun-2026|Norcros|NXR
+AGM|11-Jun-2026|North Atl.smlr|NAS
+AGM|11-Jun-2026|Oriole Resources|ORR
+Final Ex-Dividend Date|11-Jun-2026|Pacific Assets Trust|PAC
+Final Results|11-Jun-2026|Paypoint|PAY
+Final Ex-Dividend Date|11-Jun-2026|Pharos Energy|PHAR
+Final Dividend Payment Date|11-Jun-2026|RHI Magnesita|RHIM
+Final Ex-Dividend Date|11-Jun-2026|RS Group|RS1
+Final Ex-Dividend Date|11-Jun-2026|Restore|RST
+AGM|11-Jun-2026|Rtw Biotech|RTW
+Interim Results|11-Jun-2026|Safestore|SAFE
+Final Ex-Dividend Date|11-Jun-2026|Scottish Mortgage|SMT
+AGM|11-Jun-2026|T42 Iot Track.|TRAC
+Interim Ex-Dividend Date|11-Jun-2026|Tharisa PLC|THS
+AGM|11-Jun-2026|Trufin Plc|TRU
+Final Ex-Dividend Date|11-Jun-2026|Warpaint London|W7L
+Final Dividend Payment Date|11-Jun-2026|Winking Studios|WKS
+Final Results|11-Jun-2026|Wizz Air|WIZZ
+Interim Dividend Payment Date|12-Jun-2026|Albion. Tch Vct|AATG
+Final Dividend Payment Date|12-Jun-2026|Aptitude|APTD
+Final Dividend Payment Date|12-Jun-2026|Burford Capital|BUR
+Interim Dividend Payment Date|12-Jun-2026|Diploma|DPLM
+Interim Dividend Payment Date|12-Jun-2026|Frp Advisory Group|FRP
+Interim Dividend Payment Date|12-Jun-2026|GoldPlat|GDP
+Final Dividend Payment Date|12-Jun-2026|Iforex Fin Trad|IFRX
+Interim Dividend Payment Date|12-Jun-2026|Intl Paper Co|IPC
+Final Dividend Payment Date|12-Jun-2026|Lancashire Holdings|LRE
+AGM|12-Jun-2026|M P Evans|MPE
+Final Dividend Payment Date|12-Jun-2026|Macfarlane Grp.|MACF
+Final Dividend Payment Date|12-Jun-2026|Mincon Grp|MCON
+AGM|12-Jun-2026|Octopus Energy|ORIT
+Final Dividend Payment Date|12-Jun-2026|Reckitt|RKT
+Final Dividend Payment Date|12-Jun-2026|SThree|STEM
+Interim Dividend Payment Date|12-Jun-2026|Town Centre|TOWN
+Interim Dividend Payment Date|12-Jun-2026|Tritax Big Box|BBOX
+Interim Dividend Payment Date|15-Jun-2026|Aeci 5 1/2% Prf|87FZ
+AGM|15-Jun-2026|Anglo-Eastern Plantations|AEP
+Interim Dividend Payment Date|15-Jun-2026|Bluefield Solar|BSIF
 Quarterly Dividend Payment Date|15-Jun-2026|Canadian Gen.|CGI
+Final Dividend Payment Date|15-Jun-2026|Canal+|CAN
+AGM|15-Jun-2026|Ceps|CEPS
+GM|15-Jun-2026|Crism Thera|CRTX
+AGM|15-Jun-2026|East Star Reso|EST
+GM|15-Jun-2026|Galantas Gold|GAL
+Final Dividend Payment Date|15-Jun-2026|Inchcape|INCH
+AGM|15-Jun-2026|Jpmorg.us|JUSC
+GM|15-Jun-2026|Jubilee Metals|JLP
+AGM|15-Jun-2026|Metals Exploration|MTL
+Interim Dividend Payment Date|15-Jun-2026|Notts.b/s.7 7/8|NOTP
+AGM|15-Jun-2026|Nova Ljublj. S|NLB
+Final Results|15-Jun-2026|Peel Hunt|PEEL
+AGM|15-Jun-2026|Sdic Power.|SDIC
+Annual Report|15-Jun-2026|Team Internet|TIG
+Final Results|15-Jun-2026|Team Internet|TIG
+AGM|15-Jun-2026|The Mission Group|TMG
+Final Results|16-Jun-2026|Accsys Tech|AXS
+AGM|16-Jun-2026|Andrew Sykes|ASY
+Final Results|16-Jun-2026|CML Microcircuits|CML
+AGM|16-Jun-2026|Christie|CTG
+AGM|16-Jun-2026|Cizzle Biotech|CIZ
+Final Dividend Payment Date|16-Jun-2026|Hochschild|HOC
+Final Dividend Payment Date|16-Jun-2026|Lsl Prop|LSL
+GM|16-Jun-2026|Sound Energy|SOU
+AGM|16-Jun-2026|SpaceandPeople|SAL
+AGM|16-Jun-2026|Strip Tinning|STG
+Final Results|16-Jun-2026|Tatton Asset Management|TAM
+Final Results|16-Jun-2026|Tpximpact Hldg|TPX
+AGM|16-Jun-2026|Warpaint London|W7L
+AGM|17-Jun-2026|Acceler8|AC8
+AGM|17-Jun-2026|Advanced Medical Solutions Group|AMS
+AGM|17-Jun-2026|Alina Hldg|ALNA
+AGM|17-Jun-2026|Anemoi Interna.|AMOI
+Final Results|17-Jun-2026|Ao World|AO.
+AGM|17-Jun-2026|Aquila Euro.|AERS
+AGM|17-Jun-2026|Bay Capital|BAY
+AGM|17-Jun-2026|Biopharma Cred.|BPCR
+AGM|17-Jun-2026|Boku|BOKU
+AGM|17-Jun-2026|Brave Bison|BBSN
+Final Results|17-Jun-2026|CML Microcircuits|CML
+AGM|17-Jun-2026|Chapel Down Grp|CDGP
+AGM|17-Jun-2026|Corero Network|CNS
+AGM|17-Jun-2026|Ecofin U.s. $|RNEW
+AGM|17-Jun-2026|Emv Capital|EMVC
+AGM|17-Jun-2026|Invesco Bd In|BIPS
+AGM|17-Jun-2026|Likewise Group|LIKE
+AGM|17-Jun-2026|North American|NAIT
+Interim Results|17-Jun-2026|Oxford Metrics|OMG
+Final Dividend Payment Date|17-Jun-2026|PageGroup|PAGE
+AGM|17-Jun-2026|Panther Securities|PNS
+AGM|17-Jun-2026|Somero|SOM
+AGM|17-Jun-2026|SpaceandPeople|SAL
+Final Results|17-Jun-2026|Speedy Hire|SDY
+AGM|17-Jun-2026|Tandem Group|TND
+AGM|17-Jun-2026|Thalassa (di)|THAL
+Final Ex-Dividend Date|18-Jun-2026|3i Group|III
+Final Ex-Dividend Date|18-Jun-2026|Aeorema Comm.|AEO
+Final Ex-Dividend Date|18-Jun-2026|Airtel Africa|AAF
+AGM|18-Jun-2026|Angling Direct|ANG
+Final Ex-Dividend Date|18-Jun-2026|Anglo-Eastern Plantations|AEP
+AGM|18-Jun-2026|Anpario|ANP
+AGM|18-Jun-2026|Ashington Innov|ASHI
+AGM|18-Jun-2026|Aura Renew Acq|ARA
+Final Ex-Dividend Date|18-Jun-2026|Baillie Gif. Ch|BGCG
+Quarterly Ex-Dividend Date|18-Jun-2026|BlackRock World Mining Trust plc|BRWM
+AGM|18-Jun-2026|Braime Group Plc|BMTO
+Final Ex-Dividend Date|18-Jun-2026|British Land|BLND
+AGM|18-Jun-2026|Chesterfield Resources PLC|CHF
+AGM|18-Jun-2026|Cobra Resources|COBR
+Interim Ex-Dividend Date|18-Jun-2026|Compass Group|CPG
+Final Ex-Dividend Date|18-Jun-2026|Concurrent Technologies|CNC
+Final Results|18-Jun-2026|Duke Capital|DUKE
+Final Ex-Dividend Date|18-Jun-2026|Elecosoft|ELCO
+Final Dividend Payment Date|18-Jun-2026|Fintel|FNTL
+Final Results|18-Jun-2026|Firstgroup|FGP
+Final Results|18-Jun-2026|Foresight Envr|FGEN
+Final Dividend Payment Date|18-Jun-2026|Gamma Communications|GAMA
+AGM|18-Jun-2026|Gulf Marine Services|GMS
+AGM|18-Jun-2026|Icg-longbow|LBOW
+AGM|18-Jun-2026|Iforex Fin Trad|IFRX
+AGM|18-Jun-2026|Informa|INF
+AGM|18-Jun-2026|Ip Group|IPO
+AGM|18-Jun-2026|Keystone Law G.|KEYS
+Final Ex-Dividend Date|18-Jun-2026|Land Securities|LAND
+AGM|18-Jun-2026|Logistics Dev|LDG
+AGM|18-Jun-2026|Lords Grp Tr|LORD
+Final Dividend Payment Date|18-Jun-2026|M P Evans|MPE
+AGM|18-Jun-2026|Manx Financial|MFX
+Final Ex-Dividend Date|18-Jun-2026|Mears|MER
+AGM|18-Jun-2026|Mhp Reg S|MHPC
+AGM|18-Jun-2026|Mpac Group Plc|MPAC
+Interim Dividend Payment Date|18-Jun-2026|Murray Income Trust|MUT
+Final Ex-Dividend Date|18-Jun-2026|Nippon Active Value|NAVF
+AGM|18-Jun-2026|Octopus T.vct|OTV2
+AGM|18-Jun-2026|Pantheon Infrastructure|PINT
+AGM|18-Jun-2026|Partners Grp E|PEY
+Final Ex-Dividend Date|18-Jun-2026|Persimmon|PSN
+Final Dividend Payment Date|18-Jun-2026|Relx|REL
+Interim Dividend Payment Date|18-Jun-2026|Scot.amer.inv.|SAIN
+AGM|18-Jun-2026|Serabi|SRB
+AGM|18-Jun-2026|Shield Thera|STX
+Final Ex-Dividend Date|18-Jun-2026|Tate & Lyle|TATE
+AGM|18-Jun-2026|Tesco|TSCO
+Trading Announcement|18-Jun-2026|Tesco|TSCO
+AGM|18-Jun-2026|Tinybuild Inc|TBLD
+AGM|18-Jun-2026|Trainline|TRN
+AGM|18-Jun-2026|Whitbread|WTB
+Final Results|18-Jun-2026|Xps Pensions|XPS
+Final Dividend Payment Date|18-Jun-2026|Yu Energy|YU.
+Final Dividend Payment Date|19-Jun-2026|Andrew Sykes|ASY
+AGM|19-Jun-2026|Beauty Tech Grp|TBTG
+Interim Dividend Payment Date|19-Jun-2026|Diverse Income Trust|DIVI
+Final Dividend Payment Date|19-Jun-2026|Everplay Group|EVPL
+Interim Dividend Payment Date|19-Jun-2026|Fevara|FVA
+AGM|19-Jun-2026|Flowtech Fluid.|FLO
+AGM|19-Jun-2026|Gulf Keystone Petroleum|GKP
+AGM|19-Jun-2026|Kendrick Resources|KEN
+AGM|19-Jun-2026|Maruwa|MAW
+Interim Dividend Payment Date|19-Jun-2026|Nexus Infrastr.|NEXS
+Interim Dividend Payment Date|19-Jun-2026|Octopus Ap|OAP3
+Interim Dividend Payment Date|19-Jun-2026|Origin|OGN
+Interim Dividend Payment Date|19-Jun-2026|Partners Grp E|PEY
+Final Results|19-Jun-2026|Record|REC
+Final Dividend Payment Date|19-Jun-2026|Robinson|RBN
 Quarterly Dividend Payment Date|19-Jun-2026|Seplat Energy|SEPL
+Special Dividend Payment Date|19-Jun-2026|Seplat Energy|SEPL
+AGM|19-Jun-2026|Solvonis Therap|SVNS
+Final Dividend Payment Date|19-Jun-2026|Spire Healthcare|SPI
+AGM|22-Jun-2026|Avacta Group|AVCT
+Interim Dividend Payment Date|22-Jun-2026|Br.small Co.2|BSC
+Annual Report|22-Jun-2026|Defi Dev Corp|DFDV
+Final Results|22-Jun-2026|Defi Dev Corp|DFDV
+Interim Dividend Payment Date|22-Jun-2026|Fidelity|FSV
+AGM|22-Jun-2026|Globalworth|GWI
 Quarterly Dividend Payment Date|22-Jun-2026|Greencoat Renewables|GRP
+AGM|22-Jun-2026|Helios Underw|HUW
+Final Dividend Payment Date|22-Jun-2026|Int Diag Hld|IDHC
+Final Dividend Payment Date|22-Jun-2026|Niox Group|NIOX
 Quarterly Dividend Payment Date|22-Jun-2026|Pershing Sq. $|PSHD
 Quarterly Dividend Payment Date|22-Jun-2026|Pershing Square Holdings|PSH
-Quarterly Dividend Payment Date|26-Jun-2026|Unilever|ULVR
+AGM|22-Jun-2026|Synthomer|SYNT
+Final Dividend Payment Date|22-Jun-2026|TBC Bank Group|TBCG
+GM|22-Jun-2026|Talon Resources|TAR
+AGM|22-Jun-2026|Tialis Essen It|TIA
+AGM|23-Jun-2026|ADF Facilities|ADF
+Interim Dividend Payment Date|23-Jun-2026|Aberdeen Asia|AAS
+AGM|23-Jun-2026|Afentra Plc.|AET
+AGM|23-Jun-2026|Beowulf Mining PLC|BEM
+AGM|23-Jun-2026|Big Technologies|BIG
+AGM|23-Jun-2026|Earnz Plc|EARN
+Final Results|23-Jun-2026|Gear4music|G4M
+AGM|23-Jun-2026|Gem Resources PLC|GEMR
+AGM|23-Jun-2026|Gemfields Grou.|GEM
+Final Results|23-Jun-2026|Intercede|IGP
+AGM|23-Jun-2026|Kelso Grp Hldg|KLSO
+Final Dividend Payment Date|23-Jun-2026|Keystone Law G.|KEYS
+AGM|23-Jun-2026|Kooth Plc|KOO
+GM|23-Jun-2026|Monks Investment Trust|MNKS
+AGM|23-Jun-2026|OptiBiotix Health|OPTI
+AGM|23-Jun-2026|PetroTal|PTAL
+AGM|23-Jun-2026|Phoenix Spree D|PSDL
+AGM|23-Jun-2026|Prospex Eng|PXEN
+Final Results|23-Jun-2026|Severfield|SFR
+AGM|23-Jun-2026|Skillcast|SKL
+Final Results|23-Jun-2026|Telecom Plus|TEP
+AGM|24-Jun-2026|Anglo Asian Mining PLC|AAZ
+Interim Dividend Payment Date|24-Jun-2026|BlackRock Greater Europe Investment Trust|BRGE
+AGM|24-Jun-2026|Ceiba Investme.|CBA
+AGM|24-Jun-2026|Coiled Thera|COIL
+Interim Results|24-Jun-2026|Coppa Collect|COPC
+AGM|24-Jun-2026|Cora Gold|CORA
+AGM|24-Jun-2026|Dp Poland|DPP
+GM|24-Jun-2026|Ecclesiastl.8fe|ELLA
+Final Dividend Payment Date|24-Jun-2026|Intertek Group|ITRK
+AGM|24-Jun-2026|Kodal Minerals|KOD
+Final Results|24-Jun-2026|Liontrust Asset Management|LIO
+AGM|24-Jun-2026|Maven Renovar|MRV
+AGM|24-Jun-2026|Microlise Grp|SAAS
+Interim Results|24-Jun-2026|Patria Private|PPET
+AGM|24-Jun-2026|Pebble Beach|PEB
+AGM|24-Jun-2026|S & U|SUS
+AGM|24-Jun-2026|Serval Resour.|SRVL
+AGM|24-Jun-2026|Strategic Minerals|SML
+AGM|24-Jun-2026|Taseko Mines Limited|TKO
+Interim Dividend Payment Date|24-Jun-2026|Tharisa PLC|THS
+AGM|24-Jun-2026|Thg|THG
+AGM|24-Jun-2026|Vertu|VTU
+AGM|24-Jun-2026|Vulcan Two|VUL
+AGM|25-Jun-2026|Atalaya Mining|ATYM
+Interim Dividend Payment Date|25-Jun-2026|Aurora Uk Alpha|ARR
+AGM|25-Jun-2026|Bango|BGO
+Interim Ex-Dividend Date|25-Jun-2026|Bank Of Georgia Group|BGEO
+Interim Ex-Dividend Date|25-Jun-2026|Bp 8%pf|BP.A
+Interim Ex-Dividend Date|25-Jun-2026|Bp 9% 2nd Prf|BP.B
+AGM|25-Jun-2026|Card Factory|CARD
+Interim Dividend Payment Date|25-Jun-2026|Cardiff Property|CDFF
+AGM|25-Jun-2026|Diaceutics|DXRX
+Special Ex-Dividend Date|25-Jun-2026|EW Group|EWG
+AGM|25-Jun-2026|Everyman Media|EMAN
+Interim Ex-Dividend Date|25-Jun-2026|Experian|EXPN
+Final Results|25-Jun-2026|First Property|FPO
+AGM|25-Jun-2026|Great Western Mining Corporation PLC|GWMO
+AGM|25-Jun-2026|Gresham House|GRID
+Final Results|25-Jun-2026|Halfords|HFD
+AGM|25-Jun-2026|Hamak Strategy|HAMA
+Final Ex-Dividend Date|25-Jun-2026|Helical Bar|HLCL
+Interim Ex-Dividend Date|25-Jun-2026|Hollywood Bwl|BOWL
+AGM|25-Jun-2026|ICG Enterprise Trust|ICGT
+AGM|25-Jun-2026|Ingenta|ING
+Final Ex-Dividend Date|25-Jun-2026|International Airlines|IAG
+Interim Dividend Payment Date|25-Jun-2026|JPMorgan Global Growth & Income|JGGI
+AGM|25-Jun-2026|Lon.sec|LSC
+Interim Ex-Dividend Date|25-Jun-2026|Lowland Inv.|LWI
+Final Results|25-Jun-2026|Moonpig Gr|MOON
+AGM|25-Jun-2026|Nostrum Oil&gas|NOG
+Final Ex-Dividend Date|25-Jun-2026|Panther Securities|PNS
+Final Ex-Dividend Date|25-Jun-2026|Premier Foods|PFD
+AGM|25-Jun-2026|Seascape Energy|SEA
+Final Ex-Dividend Date|25-Jun-2026|Serabi|SRB
+Final Ex-Dividend Date|25-Jun-2026|Serica Energy|SQZ
+Trading Announcement|25-Jun-2026|Time Finance|TIME
+Final Ex-Dividend Date|25-Jun-2026|United Utilities|UU.
+Final Ex-Dividend Date|25-Jun-2026|Vertu|VTU
+AGM|25-Jun-2026|Vietnam Enterprise Investments|VEIL
+Final Results|25-Jun-2026|Volex|VLX
+AGM|25-Jun-2026|eEnergy Group|EAAS
+Interim Dividend Payment Date|26-Jun-2026|AJ Bell|AJB
+Interim Dividend Payment Date|26-Jun-2026|Aberdeen Eq.inc|AEI
+Final Dividend Payment Date|26-Jun-2026|Advanced Medical Solutions Group|AMS
+AGM|26-Jun-2026|Africa Opp.|AOF
+Final Dividend Payment Date|26-Jun-2026|Alfa Fin|ALFA
+Annual Report|26-Jun-2026|Auto Trader|AUTO
+Interim Dividend Payment Date|26-Jun-2026|Avingtrans|AVG
 Quarterly Dividend Payment Date|26-Jun-2026|BP|BP.
+Interim Dividend Payment Date|26-Jun-2026|Blackrock Frontiers Investment Trust|BRFI
+AGM|26-Jun-2026|Br.amer.inv.tst|BAF
+Final Dividend Payment Date|26-Jun-2026|Brave Bison|BBSN
+Interim Dividend Payment Date|26-Jun-2026|Cerillion|CER
+Annual Report|26-Jun-2026|Cranswick|CWK
+AGM|26-Jun-2026|Diverse Income Trust|DIVI
+Final Dividend Payment Date|26-Jun-2026|FDM Group|FDM
+Interim Dividend Payment Date|26-Jun-2026|Fair Oaks Inc|FAIR
+Interim Dividend Payment Date|26-Jun-2026|Fair Oaks Inc R|FA17
+Final Dividend Payment Date|26-Jun-2026|Fevertree|FEVR
+Interim Dividend Payment Date|26-Jun-2026|Foresight Envr|FGEN
+Final Dividend Payment Date|26-Jun-2026|Foresight Technology|FTV
+Interim Dividend Payment Date|26-Jun-2026|HSBC Holdings|HSBA
+Final Dividend Payment Date|26-Jun-2026|Hilton Foods|HFG
+Interim Dividend Payment Date|26-Jun-2026|IntegraFin Holdings|IHP
+Final Dividend Payment Date|26-Jun-2026|Keller|KLR
+AGM|26-Jun-2026|Kingfisher|KGF
+Interim Dividend Payment Date|26-Jun-2026|Maven Income 1|MIG1
+Interim Dividend Payment Date|26-Jun-2026|On The Beach|OTB
+Interim Dividend Payment Date|26-Jun-2026|Riverstone Cred|RCOI
+Final Dividend Payment Date|26-Jun-2026|Rtc Grp.|RTC
+Interim Dividend Payment Date|26-Jun-2026|SSP Group|SSPG
+Interim Dividend Payment Date|26-Jun-2026|Schroder Real Estate Investment Trust|SREI
+AGM|26-Jun-2026|Steppe Cement|STCM
+AGM|26-Jun-2026|Sunda Energy|SNDA
+Interim Dividend Payment Date|26-Jun-2026|Temple Bar Investment Trust|TMPL
+Final Dividend Payment Date|26-Jun-2026|Tesco|TSCO
+Interim Dividend Payment Date|26-Jun-2026|Ultimate Products|ULTP
+Quarterly Dividend Payment Date|26-Jun-2026|Unilever|ULVR
+AGM|26-Jun-2026|Union Jack|UJO
+Interim Dividend Payment Date|26-Jun-2026|Utilico Emerging Markets|UEM
 Quarterly Dividend Payment Date|26-Jun-2026|Vaalco Energy|EGY
-Quarterly Dividend Payment Date|30-Jun-2026|HICL Infrastructure|HICL
-Quarterly Dividend Payment Date|30-Jun-2026|Energean Oil & Gas|ENOG
-Quarterly Dividend Payment Date|30-Jun-2026|Renewables Infrastructure Group|TRIG
-Quarterly Dividend Payment Date|30-Jun-2026|NextEnergy Solar|NESF
+Interim Dividend Payment Date|26-Jun-2026|Victrex|VCT
+AGM|29-Jun-2026|80 Mile|80M
+AGM|29-Jun-2026|Amcomri|AMCO
+AGM|29-Jun-2026|Cadogan|CAD
+Final Dividend Payment Date|29-Jun-2026|Central Asia Metals|CAML
+AGM|29-Jun-2026|Empresaria Group|EMR
+AGM|29-Jun-2026|Ferrexpo|FXPO
+Final Results|29-Jun-2026|Focusrite|TUNE
+Final Results|29-Jun-2026|Foresight Group Holdings|FSG
+AGM|29-Jun-2026|International Airlines|IAG
+Final Dividend Payment Date|29-Jun-2026|International Airlines|IAG
+AGM|29-Jun-2026|Praetura|PGV
+Interim Dividend Payment Date|29-Jun-2026|Shell|SHEL
+AGM|30-Jun-2026|4basebio Plc|4BB
+Interim Dividend Payment Date|30-Jun-2026|Alliance Witan|ALW
+Interim Dividend Payment Date|30-Jun-2026|Antofagasta Plc 5% Cum Prf #1|70GD
+Final Dividend Payment Date|30-Jun-2026|Billington|BILN
+Interim Dividend Payment Date|30-Jun-2026|Brunner Iv.5%pf|44GL
+AGM|30-Jun-2026|Buccaneer Ergy|BUCE
+Interim Dividend Payment Date|30-Jun-2026|Croda Int.5.9pf|50GP
+Interim Dividend Payment Date|30-Jun-2026|Croda Int.6.6pf|49GP
+Interim Dividend Payment Date|30-Jun-2026|Ct Uk Cap & Inc|CTUK
+AGM|30-Jun-2026|Dar Global|DAR
+AGM|30-Jun-2026|Digitalbox|DBOX
 Quarterly Dividend Payment Date|30-Jun-2026|Diversified Energy|DEC
-Quarterly Ex-Dividend Date|04-Jun-2026|Seplat Energy|SEPL
-Quarterly Ex-Dividend Date|04-Jun-2026|Law Debenture|LWDB
-Quarterly Ex-Dividend Date|04-Jun-2026|Energean Oil & Gas|ENOG
-Quarterly Ex-Dividend Date|11-Jun-2026|Mercantile Investment Trust PLC|MRC
-Quarterly Ex-Dividend Date|18-Jun-2026|BlackRock World Mining Trust plc|BRWM
-Special Dividend Payment Date|05-Jun-2026|Sabre Insurance Group|SBRE
-Special Dividend Payment Date|05-Jun-2026|Admiral|ADM
-Special Dividend Payment Date|19-Jun-2026|Seplat Energy|SEPL
-Special Ex-Dividend Date|04-Jun-2026|Seplat Energy|SEPL
-Special Ex-Dividend Date|04-Jun-2026|Fih Group|FIH
-Trading Announcement|09-Jun-2026|Bellway|BWY
-Trading Announcement|10-Jun-2026|Frontier Dev|FDEV
-Trading Announcement|18-Jun-2026|Tesco|TSCO
-Trading Announcement|25-Jun-2026|Time Finance|TIME`;
+Interim Dividend Payment Date|30-Jun-2026|Ecclesiastl.8fe|ELLA
+Quarterly Dividend Payment Date|30-Jun-2026|Energean Oil & Gas|ENOG
+Quarterly Dividend Payment Date|30-Jun-2026|HICL Infrastructure|HICL
+Interim Dividend Payment Date|30-Jun-2026|Imperial Brands|IMB
+Final Dividend Payment Date|30-Jun-2026|Ingenta|ING
+Final Dividend Payment Date|30-Jun-2026|James Hal.5.5%|JHDA
+Quarterly Dividend Payment Date|30-Jun-2026|NextEnergy Solar|NESF
+AGM|30-Jun-2026|Novacyt|NCYT
+AGM|30-Jun-2026|Oberon Aim|OVCT
+AGM|30-Jun-2026|Renewables Infrastructure Group|TRIG
+Quarterly Dividend Payment Date|30-Jun-2026|Renewables Infrastructure Group|TRIG
+Interim Dividend Payment Date|30-Jun-2026|Rotork 9h%pf|76ID`;
 
         const monthMap = {Jan:0,Feb:1,Mar:2,Apr:3,May:4,Jun:5,Jul:6,Aug:7,Sep:8,Oct:9,Nov:10,Dec:11};
         const events = rawData.split('\n').filter(line => line.trim()).map(line => {
