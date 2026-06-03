@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Why Does the Nasdaq Keep Rising?</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+:root{
+  --navy:#1B2A4A; --red:#E8453C; --gold:#D4A853; --cream:#FBFAF7;
+  --ink:#1B2A4A; --muted:#6E7689; --line:#E6E1D6; --card:#fff;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'DM Sans',sans-serif;background:var(--cream);color:var(--ink);
+  -webkit-font-smoothing:antialiased;line-height:1.62;padding:40px 20px 80px}
+.wrap{max-width:760px;margin:0 auto}
+.eyebrow{font-family:'DM Mono',monospace;font-size:12px;letter-spacing:.18em;
+  text-transform:uppercase;color:var(--red);font-weight:500;margin-bottom:14px}
+h1{font-family:'Playfair Display',serif;font-weight:800;font-size:clamp(30px,5vw,50px);
+  line-height:1.05;letter-spacing:-.01em;margin-bottom:18px}
+.lede{font-size:18px;color:#3a4258;margin-bottom:10px;line-height:1.55}
+.byline{font-family:'DM Mono',monospace;font-size:12.5px;color:var(--muted);
+  margin:18px 0 0;padding-bottom:26px;border-bottom:2px solid var(--line)}
+h2{font-family:'Playfair Display',serif;font-weight:700;font-size:26px;
+  margin:38px 0 14px;letter-spacing:-.005em;line-height:1.15}
+p{font-size:17px;margin-bottom:18px;color:#26304a}
+p .em{font-weight:600}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:30px 0}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px 16px;
+  box-shadow:0 1px 0 rgba(27,42,74,.03)}
+.stat .k{font-family:'DM Mono',monospace;font-size:10.5px;letter-spacing:.08em;
+  text-transform:uppercase;color:var(--muted);line-height:1.3}
+.stat .v{font-family:'Playfair Display',serif;font-weight:700;font-size:27px;margin-top:8px;line-height:1;color:var(--navy)}
+.stat .s{font-size:11.5px;color:var(--muted);margin-top:6px;line-height:1.35}
+.stat .up{color:#1f8a52;font-weight:600}
+.pull{border-left:4px solid var(--gold);background:#fff;padding:18px 22px;margin:28px 0;
+  border-radius:0 12px 12px 0;box-shadow:0 6px 28px -22px rgba(27,42,74,.5)}
+.pull p{font-family:'Playfair Display',serif;font-style:italic;font-size:20px;
+  line-height:1.4;color:var(--navy);margin:0}
+.eq{background:var(--navy);color:#fff;border-radius:12px;padding:18px 22px;margin:26px 0;
+  font-family:'DM Mono',monospace;font-size:15px;text-align:center;letter-spacing:.02em}
+.eq .small{display:block;font-size:12px;color:#A9B4CC;margin-top:8px;letter-spacing:.04em}
+table{width:100%;border-collapse:collapse;margin:24px 0;font-size:14.5px;
+  background:#fff;border:1px solid var(--line);border-radius:12px;overflow:hidden}
+th{background:var(--navy);color:#fff;font-weight:600;text-align:left;padding:11px 14px;
+  font-size:13px;letter-spacing:.02em}
+td{padding:10px 14px;border-top:1px solid var(--line);font-variant-numeric:tabular-nums}
+tr:nth-child(even) td{background:#FAF8F2}
+td.num{text-align:right;font-family:'DM Mono',monospace;font-size:13.5px}
+.up{color:#1f8a52}.dn{color:var(--red)}
+.callout{background:#FFF8E8;border:1px solid #EBD9A8;border-radius:12px;padding:18px 22px;margin:26px 0}
+.callout h3{font-family:'Playfair Display',serif;font-size:18px;margin-bottom:8px;color:var(--navy)}
+.callout p{font-size:15px;margin-bottom:0;color:#4a4326}
+.foot{font-size:13px;color:var(--muted);margin-top:40px;padding-top:22px;
+  border-top:1px solid var(--line);line-height:1.6}
+.foot b{color:var(--ink)}
+a{color:var(--red);text-decoration:none}a:hover{text-decoration:underline}
+
+/* ---- embedded NASDAQ composition chart (scoped to #ndx-embed) ---- */
+#ndx-embed{margin:26px 0 30px}
+#ndx-embed .ndx-src{font-family:'DM Mono',monospace;font-size:11.5px;color:var(--muted);margin:0 0 14px}
+#ndx-embed .ndx-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:0 0 18px}
+#ndx-embed .ndx-stat{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 15px;
+  box-shadow:0 1px 0 rgba(27,42,74,.03)}
+#ndx-embed .ndx-stat .k{font-family:'DM Mono',monospace;font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);line-height:1.3}
+#ndx-embed .ndx-stat .v{font-family:'Playfair Display',serif;font-weight:700;font-size:24px;margin-top:6px;line-height:1;color:var(--navy)}
+#ndx-embed .ndx-stat .s{font-size:11px;color:var(--muted);margin-top:5px;line-height:1.3}
+#ndx-embed .ndx-stat .up{color:#1f8a52;font-weight:600}#ndx-embed .ndx-stat .dn{color:var(--red);font-weight:600}
+#ndx-embed .ndx-panel{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:20px 20px 14px;box-shadow:0 10px 40px -28px rgba(27,42,74,.45)}
+#ndx-embed .ndx-bar{display:flex;align-items:center;justify-content:space-between;gap:14px;margin-bottom:14px;flex-wrap:wrap}
+#ndx-embed .ndx-bar h3{font-family:'Playfair Display',serif;font-weight:700;font-size:18px;margin:0}
+#ndx-embed .ndx-toggle{display:inline-flex;background:#F1ECE1;border-radius:10px;padding:3px}
+#ndx-embed .ndx-toggle button{font-family:'DM Sans';font-weight:600;font-size:12.5px;border:0;background:transparent;color:var(--muted);padding:6px 13px;border-radius:8px;cursor:pointer;transition:.15s}
+#ndx-embed .ndx-toggle button.on{background:var(--navy);color:#fff}
+#ndx-embed .ndx-chartbox{position:relative;height:440px}
+#ndx-embed .ndx-legend{display:grid;grid-template-columns:repeat(auto-fill,minmax(164px,1fr));gap:6px 16px;margin-top:18px;padding-top:16px;border-top:1px solid var(--line)}
+#ndx-embed .ndx-li{display:flex;align-items:center;gap:8px;font-size:12.5px;cursor:pointer;user-select:none;padding:3px 2px;border-radius:6px;transition:.12s}
+#ndx-embed .ndx-li:hover{background:#F6F2E9}#ndx-embed .ndx-li.off{opacity:.34}
+#ndx-embed .ndx-sw{width:11px;height:11px;border-radius:3px;flex:0 0 auto}
+#ndx-embed .ndx-li .nm{font-weight:600;flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#ndx-embed .ndx-li .mc{font-family:'DM Mono',monospace;font-size:11px;color:var(--muted)}
+#ndx-embed .ndx-li .ch{font-family:'DM Mono',monospace;font-size:10.5px;margin-left:5px}
+#ndx-embed .ndx-foot{font-size:12px;color:var(--muted);margin-top:18px;line-height:1.55}
+#ndx-embed .ndx-foot b{color:var(--ink)}
+@media(max-width:680px){#ndx-embed .ndx-stats{grid-template-columns:repeat(2,1fr)}#ndx-embed .ndx-chartbox{height:360px}}
+
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="eyebrow">Equity &amp; Markets Insight · Market Structure</div>
+  <h1>Why does the Nasdaq keep rising?</h1>
+  <p class="lede">The headline index is up over 20% this year while the world frets about inflation, oil and the Iranian crisis. The answer isn't that "tech is up" — it's that the Nasdaq has quietly stopped behaving like a broad market index at all.</p>
+  <p class="byline">2 June 2026 · 6 min read</p>
+
+  <div class="stats">
+    <div class="stat"><div class="k">Nasdaq-100 YTD</div><div class="v">+21.4%</div><div class="s">to 2 June 2026 close</div></div>
+    <div class="stat"><div class="k">Top 15 share</div><div class="v">74.8%</div><div class="s">of Nasdaq-100 by market cap</div></div>
+    <div class="stat"><div class="k">Top 10 share</div><div class="v">66.1%</div><div class="s">of Nasdaq-100</div></div>
+    <div class="stat"><div class="k">Strip out megacaps</div><div class="v">10%</div><div class="s">rest of index, my estimate</div></div>
+  </div>
+
+  <p>I've been doing a lot of valuation work recently on the giants — Apple, Microsoft, Amazon, Alphabet — and the thing that strikes me is: while they carry colossal valuations, these are based on their most recent profit figures/potential for the future! I am finding them to be roughly speaking &ldquo;fairly valued&rdquo;.</p>
+
+  <p>That is not what I expected to find.</p>
+
+  <p>These companies are progressing at significant pace, and the earnings are doing a lot of the heavy lifting that sentiment usually gets blamed for.</p>
+
+  <p>So why is the Nasdaq still rising? It is because it is no longer really moving like a broad market index. It is moving like a <span class="em">concentrated basket of global, cash-generative, AI-exposed mega-cap companies</span>!</p>
+
+  <h2>The index is a handful of companies</h2>
+
+  <p>The Nasdaq-100 includes the 100 largest non-financial companies listed on Nasdaq. But its actual behaviour is dominated by a tiny number of constituents. As of the 2 June 2026 close, the top 15 names accounted for roughly <span class="em">74.8%</span> of the index's value, with the top 10 alone at about 66%. So the central point is: what happens to the biggest 15 companies <span class="em">is</span>, in practice, what happens to the Nasdaq-100.</p>
+
+  <div id="ndx-embed">
+    <p class="ndx-src" id="ndx-src"></p>
+    <div class="ndx-stats" id="ndx-stats"></div>
+    <div class="ndx-panel">
+      <div class="ndx-bar">
+        <h3>Market-cap composition, daily &mdash; last 6 months</h3>
+        <div class="ndx-toggle">
+          <button id="ndx-bAbs" class="on" onclick="ndxSetMode('abs')">Absolute ($tn)</button>
+          <button id="ndx-bPct" onclick="ndxSetMode('pct')">Share of total (%)</button>
+        </div>
+      </div>
+      <div class="ndx-chartbox"><canvas id="ndx-c"></canvas></div>
+      <div class="ndx-legend" id="ndx-legend"></div>
+    </div>
+    <p class="ndx-foot" id="ndx-foot"></p>
+  </div>
+
+
+  <h2>It's not just the four horsemen</h2>
+
+  <p>The rally is not just Apple, Microsoft, Amazon and Alphabet. A great deal of 2026's movement has come from the AI-infrastructure and semiconductor names sitting right alongside them. Looking at the last six months of market-cap moves across the top 15:</p>
+
+  <table>
+    <thead><tr><th>Company</th><th style="text-align:right">Market cap</th><th style="text-align:right">6-month move</th></tr></thead>
+    <tbody>
+      <tr><td>NVIDIA</td><td class="num">$5.40tn</td><td class="num up">+24%</td></tr>
+      <tr><td>Apple</td><td class="num">$4.63tn</td><td class="num up">+11%</td></tr>
+      <tr><td>Alphabet</td><td class="num">$4.34tn</td><td class="num up">+12%</td></tr>
+      <tr><td>Microsoft</td><td class="num">$3.28tn</td><td class="num dn">&minus;7%</td></tr>
+      <tr><td>Amazon</td><td class="num">$2.76tn</td><td class="num up">+10%</td></tr>
+      <tr><td>Broadcom</td><td class="num">$2.28tn</td><td class="num up">+27%</td></tr>
+      <tr><td>Tesla</td><td class="num">$1.59tn</td><td class="num dn">&minus;5%</td></tr>
+      <tr><td>Meta</td><td class="num">$1.52tn</td><td class="num dn">&minus;6%</td></tr>
+      <tr><td>Micron</td><td class="num">$1.20tn</td><td class="num up">+355%</td></tr>
+      <tr><td>AMD</td><td class="num">$0.85tn</td><td class="num up">+140%</td></tr>
+      <tr><td>Arm Holdings</td><td class="num">$0.43tn</td><td class="num up">+189%</td></tr>
+    </tbody>
+  </table>
+
+  <p>Look at the bottom of that table. Micron up 355%, Arm up 189%, AMD up 140% — the <span class="em">memory and AI-silicon complex</span> has been the real driving force, not the household names at the top.</p>
+
+  <p>Interestingly, three of the four giants I value most closely (Microsoft, Meta, Tesla) have actually gone <span class="em">backwards</span> over six months. The index is rising despite some of its most famous members, because the semiconductor and AI-infrastructure suppliers are carrying it.</p>
+
+  <p>Reuters has noted that AI-related investment has lifted profit estimates across semiconductors and the wider technology complex, and that the recent rally has been led by exactly these AI-exposed businesses. This isn't pure sentiment. Many of these companies are still producing substantial profits, free cash flow and revenue growth. Their valuations are colossal in absolute terms, but — as my own valuation work keeps showing — they generally don't look <span class="em">irrational</span>.</p>
+
+  <h2>Why inflation and Iran haven't bitten — yet</h2>
+
+  <p>Energy disruption and inflation risk can hurt markets generally — but the direct earnings impact is <span class="em">not equal across the economy</span>.</p>
+
+  <p>Airlines (easyJet, IAG, Jet2), housebuilders (Persimmon, Taylor Wimpey, Crest Nicholson), banks, retailers, industrial cyclicals — these are the businesses exposed to fuel costs, consumer confidence, funding costs and real-economy demand. I've watched the UK housebuilders take a 30+% hit over three months on precisely these fears.</p>
+
+  <p>The Nasdaq leaders are a different animal. They are typically more global, more asset-light — though I'd caveat that AI infrastructure is becoming capital-intensive — and they have far stronger pricing power. The market is judging that Apple, Microsoft, Amazon, Alphabet and the AI/semiconductor companies are simply <span class="em">not where the economic pain shows up first</span>. So far, it's been right: the tech rally has continued despite higher energy prices and Iran-related inflation worries.</p>
+
+  <h2>The thesis — and the risk baked inside it</h2>
+
+  <p>The Nasdaq keeps rising because the market believes the largest Nasdaq companies can keep <span class="em">compounding earnings faster than the macro headwinds can damage them</span>. Inflation, oil and geopolitical risk all matter, but investors are currently judging that the giants can absorb those shocks better than the average company. And on recent numbers, that judgement isn't wrong — the earnings really are there.</p>
+
+  <p>But the very thing that explains why the Nasdaq keeps rising also explains how it could fall sharply. Concentration cuts both ways. Reuters put it bluntly: if the small number of tech stocks leading the market roll over, the indices themselves roll over. The whole edifice rests on the durability of those earnings, the returns on enormous AI capex, the weight of that capital-expenditure burden, and the valuation assumptions investors are prepared to extend to a dozen-odd names.</p>
+
+  <div class="pull"><p>The Nasdaq is rising because its giants are rising — and because, for now, investors believe those giants can absorb inflation, oil shocks and geopolitical disruption better than the average company.</p></div>
+
+  <p>Strip those companies out and the rest of the Nasdaq looks far less spectacular: up perhaps 10% rather than 21%. The headline number is a story about fifteen companies. That's not a reason to be bearish — I remain comfortable that the megacaps are roughly fairly valued on current earnings. But it <span class="em">is</span> a reason to know exactly what you own when you buy "the Nasdaq." You are not buying a diversified slice of American technology. You are buying a concentrated bet on a handful of extraordinary businesses continuing to be extraordinary.</p>
+
+  <p class="foot"><b>Sources &amp; method.</b> Nasdaq-100 year-to-date return and concentration weights to the 2 June 2026 close. Company market caps and six-month moves derived from daily closes (Yahoo Finance) anchored to current shares outstanding; "the rest of the Nasdaq" is the total of all 3,900-odd Nasdaq-listed companies minus the top 15. Macro and rally commentary draws on Reuters and Fidelity. Figures are an analytical approximation for illustration, not an official index series. This article reflects my personal opinions and is not investment advice — always do your own research.</p>
+</div>
+
+<script>
+const D = {"dates":["2025-12-03","2025-12-04","2025-12-05","2025-12-08","2025-12-09","2025-12-10","2025-12-11","2025-12-12","2025-12-15","2025-12-16","2025-12-17","2025-12-18","2025-12-19","2025-12-22","2025-12-23","2025-12-24","2025-12-26","2025-12-29","2025-12-30","2025-12-31","2026-01-02","2026-01-05","2026-01-06","2026-01-07","2026-01-08","2026-01-09","2026-01-12","2026-01-13","2026-01-14","2026-01-15","2026-01-16","2026-01-20","2026-01-21","2026-01-22","2026-01-23","2026-01-26","2026-01-27","2026-01-28","2026-01-29","2026-01-30","2026-02-02","2026-02-03","2026-02-04","2026-02-05","2026-02-06","2026-02-09","2026-02-10","2026-02-11","2026-02-12","2026-02-13","2026-02-17","2026-02-18","2026-02-19","2026-02-20","2026-02-23","2026-02-24","2026-02-25","2026-02-26","2026-02-27","2026-03-02","2026-03-03","2026-03-04","2026-03-05","2026-03-06","2026-03-09","2026-03-10","2026-03-11","2026-03-12","2026-03-13","2026-03-16","2026-03-17","2026-03-18","2026-03-19","2026-03-20","2026-03-23","2026-03-24","2026-03-25","2026-03-26","2026-03-27","2026-03-30","2026-03-31","2026-04-01","2026-04-02","2026-04-06","2026-04-07","2026-04-08","2026-04-09","2026-04-10","2026-04-13","2026-04-14","2026-04-15","2026-04-16","2026-04-17","2026-04-20","2026-04-21","2026-04-22","2026-04-23","2026-04-24","2026-04-27","2026-04-28","2026-04-29","2026-04-30","2026-05-01","2026-05-04","2026-05-05","2026-05-06","2026-05-07","2026-05-08","2026-05-11","2026-05-12","2026-05-13","2026-05-14","2026-05-15","2026-05-18","2026-05-19","2026-05-20","2026-05-21","2026-05-22","2026-05-26","2026-05-27","2026-05-28","2026-05-29","2026-06-01","2026-06-02"],"tickers":["NVDA","AAPL","GOOG","MSFT","AMZN","AVGO","TSLA","META","MU","AMD","CSCO","ARM","COST","LRCX","AMAT"],"names":{"NVDA":"NVIDIA","AAPL":"Apple","GOOG":"Alphabet","MSFT":"Microsoft","AMZN":"Amazon","AVGO":"Broadcom","TSLA":"Tesla","META":"Meta","MU":"Micron","AMD":"AMD","CSCO":"Cisco","ARM":"Arm Holdings","COST":"Costco","LRCX":"Lam Research","AMAT":"Applied Materials","OTHER":"Everything else"},"series":{"NVDA":[4349.4,4441.4,4417.9,4494.0,4479.9,4451.1,4382.1,4238.9,4269.7,4304.3,4140.1,4217.6,4383.5,4448.9,4582.6,4568.1,4614.6,4558.6,4542.2,4517.0,4573.9,4556.2,4534.9,4580.2,4481.6,4477.3,4479.2,4500.3,4435.6,4530.3,4510.4,4312.8,4440.0,4476.8,4545.3,4516.2,4565.9,4638.6,4662.5,4629.1,4495.4,4367.8,4218.8,4162.9,4490.6,4602.7,4566.4,4603.0,4527.6,4427.6,4479.9,4552.8,4550.9,4597.4,4639.3,4670.8,4736.4,4478.0,4291.5,4419.6,4360.8,4433.2,4440.4,4306.7,4423.7,4475.1,4505.8,4435.8,4365.8,4437.8,4406.5,4369.5,4324.9,4183.0,4254.2,4243.5,4327.8,4147.6,4057.5,4000.6,4224.1,4256.8,4296.6,4302.6,4313.8,4410.2,4454.5,4568.8,4585.3,4759.7,4816.8,4804.2,4884.9,4894.1,4841.3,4904.8,4835.5,5044.5,5246.5,5163.2,5068.2,4833.8,4806.7,4807.4,4759.4,5033.9,5122.7,5212.4,5315.1,5347.5,5469.8,5709.9,5457.5,5384.8,5343.4,5412.7,5316.8,5215.5,5204.1,5149.4,5189.3,5114.0,5434.2,5396.9],"AAPL":[4165.7,4115.1,4086.9,4073.9,4063.5,4086.9,4076.0,4079.6,4018.5,4025.8,3985.2,3990.3,4012.0,3972.5,3992.8,4014.1,4008.1,4013.4,4003.4,3985.5,3973.0,3918.1,3846.2,3816.5,3797.6,3802.4,3815.3,3827.0,3811.0,3785.4,3746.1,3616.7,3630.6,3640.8,3636.3,3744.3,3786.3,3759.4,3786.4,3804.0,3958.4,3950.6,4053.4,4044.9,4077.3,4029.7,4015.9,4042.6,3840.6,3753.3,3872.1,3879.0,3823.7,3882.4,3905.9,3993.3,4024.0,4005.2,3876.5,3884.5,3870.2,3852.2,3819.5,3777.9,3813.4,3827.4,3827.1,3753.0,3670.2,3709.8,3730.5,3667.6,3653.2,3639.0,3690.3,3692.5,3706.9,3710.9,3650.9,3619.0,3724.1,3751.1,3755.3,3798.5,3719.8,3799.1,3822.4,3822.2,3803.5,3798.0,3909.6,3865.1,3965.3,4006.7,3905.7,4008.5,4012.3,3977.5,3926.9,3972.4,3964.4,3981.7,4110.7,4062.2,4170.0,4218.9,4217.8,4304.1,4298.7,4329.8,4389.6,4379.9,4409.6,4374.5,4391.1,4439.3,4479.5,4535.7,4528.6,4565.6,4589.9,4583.3,4498.9,4629.5],"GOOG":[3879.2,3852.2,3897.0,3807.0,3847.0,3886.3,3797.9,3759.4,3744.9,3725.7,3608.6,3677.5,3736.3,3769.2,3821.9,3821.8,3813.2,3806.3,3808.2,3799.1,3817.6,3841.8,3808.2,3903.6,3947.0,3984.9,4028.3,4073.1,4071.7,4033.5,3999.4,3900.4,3975.7,4005.5,3976.3,4038.7,4055.8,4071.3,4100.1,4098.6,4175.7,4124.8,4035.7,4011.4,3911.7,3927.5,3857.6,3769.2,3745.5,3705.0,3666.2,3679.8,3675.2,3812.5,3773.6,3764.3,3789.8,3718.6,3770.5,3709.1,3675.2,3673.8,3643.1,3611.5,3707.4,3718.6,3736.6,3673.5,3652.3,3688.2,3748.6,3711.0,3704.1,3620.0,3622.8,3503.8,3508.5,3401.3,3316.7,3309.2,3475.4,3572.8,3567.5,3606.3,3682.2,3813.2,3833.0,3825.1,3867.4,4005.1,4052.3,4031.7,4112.0,4063.5,4003.8,4091.7,4092.0,4147.4,4222.5,4210.1,4207.8,4627.4,4642.9,4599.5,4655.6,4787.3,4789.2,4810.4,4685.9,4650.1,4834.5,4811.9,4765.2,4762.7,4663.2,4663.2,4645.9,4596.4,4662.5,4662.4,4678.0,4560.6,4514.0,4342.1],"MSFT":[3533.1,3556.1,3573.2,3631.3,3638.7,3539.2,3575.5,3539.0,3511.5,3523.1,3521.1,3579.3,3593.6,3586.2,3600.5,3609.2,3606.9,3602.3,3605.2,3576.6,3497.6,3497.0,3538.8,3575.5,3535.9,3544.5,3529.0,3480.8,3397.3,3377.2,3400.9,3361.4,3284.4,3336.4,3445.9,3478.0,3554.1,3561.9,3205.9,3182.2,3131.0,3041.1,3063.1,2911.4,2966.6,3058.8,3056.3,2990.5,2971.8,2968.0,2935.0,2955.2,2953.5,2944.4,2849.8,2883.4,2969.4,2977.7,2911.1,2954.2,2994.1,3003.5,3044.1,3031.4,3034.7,3007.6,3001.1,2978.7,2932.0,2964.6,2960.6,2904.1,2883.6,2830.6,2838.9,2762.9,2750.3,2712.7,2644.5,2660.7,2743.8,2737.9,2768.2,2763.9,2759.6,2774.7,2765.3,2749.0,2849.1,2913.9,3048.1,3115.1,3133.9,3098.9,3144.0,3209.0,3081.7,3147.4,3148.9,3181.8,3146.3,3022.6,3072.0,3065.9,3049.3,3068.4,3118.9,3077.0,3058.8,3022.5,3003.6,3034.9,3127.4,3139.4,3094.1,3121.1,3113.2,3109.3,3090.5,3065.5,3171.9,3344.6,3420.9,3278.2],"AMZN":[2499.7,2464.6,2469.1,2440.7,2451.8,2493.3,2477.1,2433.2,2393.9,2394.1,2380.2,2439.3,2445.6,2457.2,2497.2,2499.7,2501.2,2496.4,2501.4,2483.0,2436.5,2507.1,2591.7,2598.5,2649.4,2661.1,2651.3,2609.7,2545.7,2562.1,2572.2,2484.9,2488.2,2520.8,2572.7,2564.7,2632.0,2614.1,2600.3,2574.2,2613.5,2566.9,2506.3,2395.5,2262.4,2245.2,2226.3,2195.3,2147.1,2138.4,2163.8,2202.9,2203.7,2260.2,2208.1,2243.5,2265.9,2236.6,2259.0,2241.7,2245.3,2332.4,2355.2,2293.5,2296.5,2305.6,2287.5,2253.9,2233.9,2277.7,2314.9,2257.6,2245.7,2209.2,2260.5,2229.3,2277.4,2232.5,2144.3,2161.6,2240.4,2265.1,2256.5,2289.0,2299.5,2380.0,2513.4,2564.3,2580.5,2678.7,2673.1,2686.1,2695.3,2670.8,2688.3,2746.9,2743.9,2839.8,2808.9,2793.6,2829.6,2851.3,2885.7,2926.5,2942.6,2958.1,2917.0,2933.2,2893.6,2859.5,2905.8,2874.5,2841.4,2849.1,2789.7,2850.7,2887.9,2864.8,2853.8,2924.3,2947.4,2911.3,2810.4,2759.4],"AVGO":[1794.9,1796.8,1840.3,1891.5,1916.0,1947.5,1916.3,1697.3,1602.5,1609.5,1537.4,1555.6,1605.0,1613.3,1650.5,1654.7,1663.7,1650.8,1653.0,1635.2,1642.4,1622.6,1624.2,1623.0,1570.9,1629.9,1664.1,1675.4,1605.9,1620.7,1661.7,1571.5,1553.5,1537.9,1512.2,1534.8,1572.4,1574.5,1562.6,1565.3,1564.4,1513.5,1455.5,1467.1,1573.0,1625.0,1608.5,1619.5,1564.7,1536.3,1571.2,1575.8,1578.0,1571.7,1560.8,1537.9,1570.1,1520.0,1509.8,1506.3,1482.8,1500.3,1572.3,1561.4,1633.6,1618.6,1613.8,1587.4,1522.1,1535.2,1518.1,1492.7,1511.2,1467.1,1527.0,1507.0,1509.5,1465.0,1423.6,1389.2,1465.4,1484.3,1489.3,1488.7,1581.2,1660.1,1680.4,1759.2,1798.0,1802.9,1878.3,1886.6,1924.8,1892.1,1904.1,2001.1,1988.3,2001.6,1980.0,1893.1,1919.7,1976.4,1994.6,1972.0,2023.4,2014.3,1953.3,2035.9,2028.5,1985.2,1973.4,2082.3,2013.1,1991.9,1946.3,1978.0,1962.9,1960.8,1998.1,1997.4,2019.7,2115.3,2177.8,2280.1],"TSLA":[1677.8,1707.1,1708.9,1650.9,1671.9,1695.5,1678.4,1723.7,1785.1,1839.9,1754.9,1815.4,1807.3,1835.5,1823.6,1823.0,1784.7,1726.3,1706.7,1689.0,1645.3,1696.3,1626.1,1620.3,1636.7,1671.3,1686.2,1679.6,1649.5,1647.1,1643.1,1574.6,1620.4,1687.7,1686.5,1634.5,1618.3,1620.4,1564.5,1616.5,1584.2,1584.8,1524.9,1491.8,1544.0,1567.3,1597.0,1608.5,1566.4,1567.8,1542.2,1544.8,1546.3,1546.7,1501.7,1537.5,1567.6,1534.5,1511.7,1514.8,1473.9,1524.6,1523.1,1490.0,1497.3,1499.4,1531.7,1483.5,1469.2,1485.6,1499.5,1475.2,1428.3,1382.0,1430.4,1438.6,1449.5,1397.5,1358.9,1334.3,1396.2,1431.9,1354.3,1325.1,1301.9,1289.2,1298.1,1310.6,1323.6,1367.8,1472.1,1460.6,1504.6,1474.1,1451.3,1455.4,1403.6,1413.3,1422.2,1412.2,1400.1,1433.3,1467.8,1474.2,1462.4,1497.5,1546.6,1608.8,1671.3,1627.9,1672.3,1664.9,1585.8,1539.8,1517.7,1567.1,1569.3,1600.0,1628.4,1653.9,1660.4,1636.7,1561.9,1591.5],"META":[1620.9,1676.4,1706.6,1689.8,1664.9,1647.5,1654.1,1632.6,1642.2,1666.7,1647.3,1685.2,1670.8,1677.7,1686.5,1693.1,1682.3,1670.6,1689.0,1674.2,1649.6,1670.9,1675.5,1645.2,1638.6,1656.3,1628.2,1600.6,1561.1,1574.5,1573.1,1532.2,1554.6,1642.6,1670.8,1705.3,1706.8,1696.1,1872.5,1817.2,1791.6,1754.3,1696.7,1699.8,1677.6,1717.6,1701.1,1696.0,1648.1,1622.6,1621.4,1631.4,1635.3,1662.9,1616.2,1621.4,1657.9,1666.3,1643.9,1657.6,1661.4,1693.5,1675.4,1635.5,1641.9,1658.9,1660.9,1618.6,1556.5,1592.7,1580.6,1562.9,1540.1,1507.0,1533.4,1505.1,1510.1,1389.9,1334.5,1361.6,1452.3,1470.3,1458.2,1454.6,1459.7,1554.6,1595.1,1598.9,1610.7,1681.7,1704.8,1718.2,1747.8,1703.1,1697.8,1712.7,1673.2,1713.5,1722.6,1704.1,1698.5,1553.3,1545.3,1549.5,1535.6,1555.7,1565.7,1547.5,1520.2,1530.7,1565.3,1569.8,1559.2,1551.5,1529.7,1535.9,1541.8,1549.1,1554.4,1612.6,1612.6,1605.6,1524.2,1517.0],"MU":[263.9,255.4,267.3,278.2,284.4,297.1,291.2,271.7,267.6,262.0,254.1,280.1,299.6,311.7,311.3,323.0,320.9,331.8,329.9,321.7,355.6,351.9,387.1,382.8,368.6,389.0,389.9,381.2,375.8,379.5,408.9,411.5,438.6,448.2,450.5,438.6,462.4,490.7,491.2,467.7,493.5,472.8,427.7,431.6,444.9,432.3,420.7,462.6,466.7,464.0,450.7,474.5,470.5,482.7,474.5,471.2,483.6,468.4,464.8,465.2,428.0,451.8,447.6,417.4,438.9,454.4,472.0,456.9,480.4,498.0,520.4,520.5,500.8,476.7,455.8,445.9,430.7,400.7,402.7,362.9,381.0,414.8,413.0,426.0,425.8,458.7,475.4,474.3,481.0,525.1,514.5,515.6,513.2,505.7,506.8,549.7,543.3,560.2,591.6,568.7,584.7,583.2,611.5,650.1,722.0,751.7,729.2,842.2,896.9,864.5,906.3,875.1,817.2,768.6,788.0,825.5,859.4,846.9,1010.3,1047.0,1041.5,1095.0,1167.8,1200.0],"AMD":[354.8,352.2,355.4,360.5,361.4,361.0,361.1,343.7,338.5,341.1,323.0,327.8,348.0,350.5,350.4,350.6,350.6,351.6,351.1,349.2,364.4,360.5,349.5,342.5,333.8,331.3,338.7,360.3,364.6,371.6,378.0,378.2,407.3,413.7,423.4,409.8,411.0,412.1,411.2,386.0,401.6,394.8,326.4,313.9,339.9,352.2,348.2,348.3,335.8,338.1,331.1,326.3,331.6,326.4,320.6,348.7,343.8,332.1,326.5,323.9,311.4,329.5,325.2,313.8,330.5,331.4,334.0,322.4,315.3,320.5,320.1,325.2,334.7,328.3,330.5,334.9,359.2,332.3,329.4,319.7,331.7,342.8,354.7,359.0,361.2,378.0,385.9,399.6,402.5,415.9,420.9,453.7,453.9,448.3,463.9,494.8,497.9,567.1,545.6,527.0,549.7,578.0,587.9,556.9,579.3,687.1,666.0,742.2,748.1,731.0,726.4,733.3,691.5,686.5,675.2,729.8,733.1,762.3,821.6,808.0,844.8,841.6,831.8,850.4],"CSCO":[303.2,303.2,304.0,307.5,310.0,312.9,309.1,303.4,305.1,302.4,296.3,300.1,305.8,304.6,304.2,304.2,304.8,303.3,301.8,300.4,298.1,296.3,294.9,292.9,289.9,289.6,290.1,295.9,291.7,295.0,294.8,287.5,288.9,291.4,292.4,301.9,308.4,309.5,307.5,307.0,316.1,325.8,318.2,322.9,332.5,340.2,338.3,335.3,294.0,301.3,301.3,306.5,308.0,310.5,304.8,306.3,310.2,306.2,311.5,311.3,309.5,317.0,313.7,308.3,298.8,304.6,306.2,304.8,307.1,309.3,310.8,304.2,307.8,304.4,309.0,317.0,320.8,322.1,313.3,302.0,304.2,305.5,311.5,317.0,318.0,329.9,327.8,324.1,324.6,325.6,324.6,333.1,339.9,345.7,353.5,353.9,349.2,350.8,347.9,342.4,353.0,360.6,362.0,365.1,371.7,361.2,363.2,380.6,389.1,391.3,401.5,455.4,465.9,468.6,454.8,450.7,465.9,474.6,466.4,471.7,467.6,474.6,478.2,504.5],"ARM":[148.1,149.5,150.4,148.7,151.0,150.6,144.9,139.3,132.3,128.9,121.9,120.8,121.3,120.5,119.2,118.7,117.3,117.6,118.0,116.3,122.1,123.5,122.9,123.1,120.3,119.0,118.3,114.7,111.7,111.8,112.6,114.0,121.2,126.8,123.5,122.1,122.2,117.0,115.4,112.1,113.8,111.2,111.6,118.0,131.6,132.6,134.0,133.3,130.0,133.3,135.0,135.4,135.1,133.6,131.7,136.3,140.2,137.5,135.6,132.3,129.5,132.1,128.3,121.7,125.2,128.3,127.8,122.5,123.2,129.5,135.5,136.6,138.1,140.8,145.7,143.6,167.1,164.7,153.4,145.7,161.0,165.0,158.7,158.3,153.1,158.4,159.4,158.5,167.7,171.5,169.5,172.7,177.4,186.3,186.7,209.2,217.7,249.9,229.7,211.4,214.6,223.8,224.7,216.3,222.2,252.5,227.0,226.9,226.3,221.2,235.4,243.1,222.6,228.9,237.4,273.2,317.3,326.1,341.8,322.1,356.7,375.9,435.0,428.5],"COST":[407.9,396.2,395.7,392.5,392.9,386.7,391.2,391.2,380.6,380.5,381.5,379.3,378.4,375.9,378.0,385.6,386.3,383.8,382.8,381.4,377.9,387.3,393.2,390.3,404.8,409.0,417.1,416.6,420.6,423.1,426.2,426.5,434.7,431.7,434.9,432.4,429.1,424.9,421.4,416.4,428.9,433.1,433.3,438.1,443.4,441.8,430.1,433.2,442.4,451.1,448.2,441.1,437.5,436.3,436.7,442.2,440.6,437.0,447.6,444.1,446.3,445.9,435.2,442.0,445.2,441.7,439.4,444.3,446.6,443.6,441.2,434.0,431.7,430.6,427.7,431.3,431.7,433.9,435.7,441.4,441.3,441.3,449.5,451.1,448.7,456.3,457.1,442.2,434.4,431.7,436.1,437.2,442.8,441.9,445.4,444.5,449.2,447.8,442.0,440.2,442.3,449.3,448.7,449.2,450.8,441.6,448.9,447.4,443.3,453.2,458.2,461.8,465.2,477.4,485.3,476.3,465.9,456.0,444.8,445.2,441.4,424.1,419.6,423.2],"LRCX":[199.5,196.2,198.2,203.3,207.1,210.2,210.7,200.5,205.2,203.9,193.6,205.7,215.2,218.9,218.8,221.5,222.4,219.7,217.1,213.8,231.1,243.3,258.5,253.7,251.0,272.7,275.3,267.8,260.8,271.6,278.5,277.8,285.3,275.7,272.2,278.4,297.8,299.2,310.0,291.6,296.6,287.4,262.0,266.4,288.5,286.4,283.0,293.7,288.9,294.2,294.2,299.9,296.5,305.9,302.6,305.1,311.6,298.6,292.1,288.5,271.4,278.9,268.5,249.3,264.1,269.2,273.7,262.0,265.4,274.4,283.2,281.0,292.6,285.6,291.8,298.7,291.9,264.6,264.4,250.0,267.2,277.6,273.2,275.9,280.6,308.2,323.6,329.7,334.3,340.7,331.6,326.3,334.6,329.1,323.1,332.1,323.3,334.9,324.5,314.2,311.1,322.5,321.0,323.4,344.9,371.6,358.3,367.7,370.2,361.7,369.5,374.1,356.1,347.6,341.9,365.3,378.0,381.9,403.5,398.8,397.7,397.9,396.6,418.2],"AMAT":[212.8,213.4,212.3,212.4,211.6,217.9,213.9,205.3,206.9,205.0,196.6,200.8,203.1,205.1,206.1,206.5,207.4,208.3,205.9,203.5,212.9,225.2,234.4,231.4,223.1,238.5,243.3,241.5,239.1,252.7,259.0,252.0,257.6,252.5,255.3,253.0,263.5,266.7,270.3,255.3,260.1,252.4,235.7,240.8,255.4,261.8,260.6,269.2,260.1,281.1,284.4,292.5,293.3,297.7,296.2,299.7,313.2,297.9,295.2,295.1,278.6,283.7,274.8,257.5,268.8,274.3,278.4,267.4,270.8,274.5,279.5,277.1,283.3,283.1,286.9,296.6,292.9,268.5,267.4,256.2,271.0,280.6,276.3,279.6,281.0,305.9,315.5,316.8,313.8,313.7,312.6,309.2,314.8,310.5,312.7,319.9,320.3,330.7,321.0,302.2,303.4,312.8,308.5,310.4,325.8,339.9,325.6,345.3,351.8,341.9,346.2,349.4,346.2,328.0,322.7,338.5,339.3,343.1,361.2,355.9,357.0,357.3,363.8,389.1],"OTHER":[12565.8,12583.4,12594.2,12542.8,12522.6,12616.5,12723.3,12598.5,12529.6,12508.9,12402.6,12476.8,12613.6,12687.7,12607.3,12640.4,12617.3,12568.4,12504.2,12387.1,12424.7,12584.3,12840.8,12807.9,12769.4,12851.4,12875.3,12866.2,12863.0,12863.1,12810.8,12665.4,12824.3,12858.8,12754.6,12762.2,12778.0,12773.1,12668.5,12465.8,12575.1,12473.1,12417.4,12180.9,12552.2,12606.5,12562.9,12548.8,12359.3,12525.2,12461.8,12544.4,12488.5,12485.6,12315.2,12458.9,12563.2,12629.5,12656.5,12686.4,12520.3,12677.3,12568.6,12431.7,12528.9,12435.8,12385.6,12162.3,12181.7,12286.4,12348.4,12149.8,12189.0,11964.2,12131.1,12086.0,12174.1,12019.5,11822.1,11756.1,12080.0,12166.6,12243.7,12320.4,12264.8,12573.8,12547.0,12440.9,12662.5,12743.9,12821.4,12911.3,13073.6,13144.3,13052.8,13090.9,13039.1,13088.7,13016.0,12898.7,12957.1,13195.2,13274.9,13261.1,13392.7,13498.2,13435.3,13617.1,13645.0,13523.3,13492.4,13507.1,13339.3,13346.4,13309.0,13509.3,13497.3,13633.1,13791.3,13711.7,13808.2,13835.7,13823.3,13861.4]},"total":[37976.5,38059.1,38177.3,38125.1,38174.7,38300.4,38202.8,37557.2,37334.2,37421.7,36744.7,37251.5,37739.3,37935.6,38150.9,38234.3,38201.6,38009.3,37919.8,37633.1,37622.8,37882.1,38127.2,38187.3,38018.5,38328.3,38429.5,38390.6,38005.1,38099.4,38075.7,37167.3,37605.2,37947.2,38052.8,38214.9,38564.3,38629.6,38350.6,37989.0,38200.0,37654.4,37086.7,36497.4,37291.8,37627.7,37407.1,37348.9,36588.9,36507.2,36558.5,36842.3,36727.5,37056.8,36637.7,37020.5,37487.5,37044.3,36704.0,36834.6,36458.7,36929.5,36834.8,36249.8,36748.9,36750.8,36781.6,36127.2,35792.6,36227.9,36398.5,35868.8,35768.9,35051.5,35535.8,35236.5,35508.4,34663.6,33919.2,33670.3,34959.2,35364.5,35426.4,35616.1,35650.9,36650.2,36953.7,37084.0,37538.7,38276.0,38886.3,39026.7,39619.0,39515.2,39281.3,39925.1,39570.4,40215.0,40296.8,39935.2,39950.5,40305.2,40664.9,40589.4,41007.7,41838.0,41785.0,42498.8,42542.6,42241.6,42750.2,43127.3,42463.3,42245.7,41889.4,42536.5,42573.4,42655.7,43161.2,43191.3,43584.3,43673.6,43858.5,43870.0],"current_mcap":{"NVDA":5396.9,"AAPL":4629.5,"GOOG":4342.1,"MSFT":3278.2,"AMZN":2759.4,"AVGO":2280.1,"TSLA":1591.5,"META":1517.0,"MU":1200.0,"AMD":850.4,"CSCO":504.5,"ARM":428.5,"COST":423.2,"LRCX":418.2,"AMAT":389.1}};
+const COLORS = {
+  NVDA:'#1B2A4A', AAPL:'#33508A', GOOG:'#4E7FB8', MSFT:'#74A2C8', AMZN:'#9CC0D8',
+  AVGO:'#D4A853', TSLA:'#C68A38', META:'#B26A2E', MU:'#E8453C', AMD:'#E87A5C',
+  CSCO:'#8C9A5B', ARM:'#5E8A77', COST:'#A8806B', LRCX:'#9A7BA6', AMAT:'#C2A878',
+  OTHER:'#D9D1C1'
+};
+const order = ['OTHER','AMAT','LRCX','COST','ARM','CSCO','AMD','MU','META','TSLA','AVGO','AMZN','MSFT','GOOG','AAPL','NVDA'];
+// stacking: array[0] = bottom. OTHER base, then smallest->largest named going up (NVDA on top)
+
+const labels = D.dates;
+function fmtDate(s){const m=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+  const p=s.split('-');return p[2]+' '+m[+p[1]-1]+' '+p[0].slice(2);}
+
+const datasets = order.map(t=>({
+  label: D.names[t], _t:t,
+  data: D.series[t].slice(),
+  backgroundColor: COLORS[t],
+  borderColor: COLORS[t],
+  borderWidth: t==='OTHER'?0:0.5,
+  fill:true, pointRadius:0, pointHoverRadius:0, tension:.18,
+  stack:'s'
+}));
+
+const pctData = {};
+order.forEach(t=>{ pctData[t]=D.series[t].map((v,i)=>+(v/D.total[i]*100).toFixed(3)); });
+let mode='abs';
+
+const ctx=document.getElementById('ndx-c');
+const chart=new Chart(ctx,{
+  type:'line',
+  data:{labels,datasets},
+  options:{
+    responsive:true, maintainAspectRatio:false,
+    interaction:{mode:'index',intersect:false},
+    animation:{duration:500},
+    layout:{padding:{top:6}},
+    scales:{
+      x:{stacked:true,grid:{display:false},
+        ticks:{maxRotation:0,autoSkip:true,maxTicksLimit:7,color:'#6E7689',
+          font:{family:'DM Mono',size:11},callback:function(v){return fmtDate(labels[v]);}}},
+      y:{stacked:true,position:'right',grid:{color:'#EFEAE0'},
+        beginAtZero:true,min:0,
+        border:{display:false},
+        ticks:{color:'#6E7689',font:{family:'DM Mono',size:11},
+          callback:function(v){return mode==='abs' ? '$'+(v/1000).toFixed(0)+'tn' : v+'%';}}}
+    },
+    plugins:{
+      legend:{display:false},
+      tooltip:{
+        backgroundColor:'#1B2A4A',padding:12,cornerRadius:10,
+        titleFont:{family:'DM Sans',weight:'700',size:13},
+        bodyFont:{family:'DM Mono',size:11.5},
+        bodySpacing:4, boxWidth:9, boxHeight:9, boxPadding:4, usePointStyle:true,
+        itemSort:(a,b)=>b.raw-a.raw,
+        callbacks:{
+          title:(it)=>fmtDate(labels[it[0].dataIndex]),
+          beforeBody:(it)=>{const i=it[0].dataIndex;return 'Total NASDAQ  $'+(D.total[i]/1000).toFixed(2)+'tn\n';},
+          label:(it)=>{const i=it.dataIndex;const v=D.series[it.dataset._t][i];
+            const pct=(v/D.total[i]*100).toFixed(1);
+            const val = mode==='abs' ? '$'+(v/1000).toFixed(2)+'tn' : (v/D.total[i]*100).toFixed(2)+'%';
+            return ' '+it.dataset.label+'  '+val+'  ('+pct+'%)';}
+        }
+      }
+    }
+  }
+});
+
+function ndxSetMode(m){
+  mode=m;
+  document.getElementById('ndx-bAbs').classList.toggle('on',m==='abs');
+  document.getElementById('ndx-bPct').classList.toggle('on',m==='pct');
+  chart.data.datasets.forEach(ds=>{ ds.data = m==='abs'? D.series[ds._t].slice() : pctData[ds._t].slice(); });
+  chart.options.scales.y.max = m==='pct'?100:undefined;
+  chart.update();
+}
+
+// stat cards
+function pctChg(t){const a=D.series[t][0],b=D.series[t][D.series[t].length-1];return (b/a-1)*100;}
+const totChg=(D.total[D.total.length-1]/D.total[0]-1)*100;
+const top15Now=order.filter(t=>t!=='OTHER').reduce((s,t)=>s+D.current_mcap[t],0);
+const sharpest = order.filter(t=>t!=='OTHER').map(t=>[t,pctChg(t)]).sort((a,b)=>b[1]-a[1])[0];
+const stats=[
+  ['Total NASDAQ value','$'+(D.total[D.total.length-1]/1000).toFixed(1)+'tn',
+    '<span class="'+(totChg>=0?'up':'dn')+'">'+(totChg>=0?'+':'')+totChg.toFixed(1)+'%</span> over 6 months'],
+  ['Top 15 share',(top15Now/D.total[D.total.length-1]*100).toFixed(1)+'%','of the whole index by market cap'],
+  ['Largest single name','NVIDIA','$'+(D.current_mcap.NVDA/1000).toFixed(2)+'tn · '+(D.current_mcap.NVDA/D.total[D.total.length-1]*100).toFixed(1)+'% of NASDAQ'],
+  ['Sharpest 6-mo mover',D.names[sharpest[0]],'<span class="up">+'+sharpest[1].toFixed(0)+'%</span> · AI-memory surge']
+];
+document.getElementById('ndx-stats').innerHTML=stats.map(s=>
+  '<div class="ndx-stat"><div class="k">'+s[0]+'</div><div class="v">'+s[1]+'</div><div class="s">'+s[2]+'</div></div>').join('');
+
+// legend (ranked by current mcap, named first then OTHER)
+const legOrder=order.filter(t=>t!=='OTHER').sort((a,b)=>D.current_mcap[b]-D.current_mcap[a]).concat(['OTHER']);
+document.getElementById('ndx-legend').innerHTML=legOrder.map(t=>{
+  const mc = t==='OTHER' ? D.series.OTHER[D.series.OTHER.length-1] : D.current_mcap[t];
+  const mcS = mc>=1000?'$'+(mc/1000).toFixed(2)+'tn':'$'+mc.toFixed(0)+'bn';
+  let chg='';
+  if(t!=='OTHER'){const c=pctChg(t);chg='<span class="ch" style="color:'+(c>=0?'#1f8a52':'#E8453C')+'">'+(c>=0?'+':'')+c.toFixed(0)+'%</span>';}
+  return '<div class="ndx-li" data-t="'+t+'" onclick="ndxToggleSeries(this)"><span class="ndx-sw" style="background:'+COLORS[t]+'"></span>'+
+    '<span class="nm">'+D.names[t]+'</span><span class="mc">'+mcS+'</span>'+chg+'</div>';
+}).join('');
+
+function ndxToggleSeries(el){
+  const t=el.dataset.t;const di=chart.data.datasets.findIndex(d=>d._t===t);
+  const vis=chart.isDatasetVisible(di);chart.setDatasetVisibility(di,!vis);
+  el.classList.toggle('off',vis);chart.update();
+}
+
+document.getElementById('ndx-src').textContent='Source: Yahoo Finance daily closes · '+fmtDate(D.dates[0])+' – '+fmtDate(D.dates[D.dates.length-1])+' · '+D.dates.length+' trading days';
+document.getElementById('ndx-foot').innerHTML='<b>Method.</b> Each company\'s market cap is its daily close × current shares outstanding. The total NASDAQ value is anchored to the current ~$43.9tn of all NASDAQ-listed stock and scaled day-by-day by the NASDAQ Composite (^IXIC); <b>"Everything else"</b> is that total minus the top 15, i.e. the other ~3,900 listed companies. Click a legend entry to hide/show a band; toggle between absolute dollars and share of total above. Figures are an analytical approximation, not an official index series.';
+</script>
+</body>
+</html>
