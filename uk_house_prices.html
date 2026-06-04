@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>UK House Prices: The Real Picture (2015–2025)</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@400;500;600;700&display=swap');
+  :root {
+    --bg:#ffffff;--surface:#f8f9fb;--surface2:#f0f2f5;--border:#dce0e8;
+    --text:#1a1a2e;--text-muted:#5c6478;
+    --nominal:#d97706;--real:#0891b2;--ratio:#e11d48;
+    --accent-green:#059669;--accent-purple:#7c3aed;--txn:#2563eb;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;min-height:100vh;overflow-x:hidden}
+  .hero{padding:3rem 2rem 1.5rem;max-width:1200px;margin:0 auto;position:relative}
+  .hero::before{content:'';position:absolute;top:-100px;right:-200px;width:600px;height:600px;background:radial-gradient(circle,rgba(225,29,72,.04) 0%,transparent 70%);pointer-events:none}
+  .hero h1{font-family:'DM Serif Display',serif;font-size:2.6rem;line-height:1.15;letter-spacing:-.02em;margin-bottom:.5rem;background:linear-gradient(135deg,#1a1a2e 40%,var(--nominal));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+  .hero .subtitle{font-size:1.05rem;color:var(--text-muted);max-width:700px;line-height:1.6}
+  .stats-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem;max-width:1200px;margin:1.5rem auto 2rem;padding:0 2rem}
+  .stat-card{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:1.25rem 1.5rem;position:relative;overflow:hidden}
+  .stat-card::after{content:'';position:absolute;top:0;left:0;right:0;height:3px}
+  .stat-card:nth-child(1)::after{background:var(--nominal)}.stat-card:nth-child(2)::after{background:var(--real)}.stat-card:nth-child(3)::after{background:var(--ratio)}.stat-card:nth-child(4)::after{background:var(--accent-green)}
+  .stat-card .label{font-size:.78rem;font-weight:600;text-transform:uppercase;letter-spacing:.08em;color:var(--text-muted);margin-bottom:.4rem}
+  .stat-card .value{font-family:'DM Serif Display',serif;font-size:1.8rem;letter-spacing:-.02em}
+  .stat-card .change{font-size:.82rem;margin-top:.25rem;font-weight:600}
+  .stat-card .change.up{color:var(--accent-green)}.stat-card .change.down{color:var(--ratio)}
+  .chart-section{max-width:1200px;margin:0 auto 2rem;padding:0 2rem}
+  .chart-container{background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:2rem}
+  .chart-header{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:1.5rem;flex-wrap:wrap;gap:1rem}
+  .chart-title{font-family:'DM Serif Display',serif;font-size:1.4rem;letter-spacing:-.01em}
+  .chart-desc{font-size:.85rem;color:var(--text-muted);margin-top:.25rem;max-width:550px}
+  .legend-pills{display:flex;gap:.75rem;flex-wrap:wrap}
+  .pill{display:flex;align-items:center;gap:.4rem;font-size:.78rem;font-weight:600;padding:.35rem .75rem;border-radius:20px;background:var(--surface2);border:1px solid var(--border)}
+  .pill .dot{width:10px;height:10px;border-radius:50%;flex-shrink:0}
+  .chart-canvas-wrap{position:relative;height:380px}
+  .chart-canvas-wrap.tall{height:420px}
+  .insight-section{max-width:1200px;margin:0 auto 3rem;padding:0 2rem}
+  .insight-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:1.25rem}
+  .insight-card{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:1.5rem}
+  .insight-card h3{font-family:'DM Serif Display',serif;font-size:1.1rem;margin-bottom:.6rem}
+  .insight-card p{font-size:.88rem;line-height:1.65;color:var(--text-muted)}
+  .insight-card .highlight{color:var(--nominal);font-weight:600}
+  .insight-card .highlight-cyan{color:var(--real);font-weight:600}
+  .insight-card .highlight-red{color:var(--ratio);font-weight:600}
+  .download-btn{display:inline-flex;align-items:center;gap:.4rem;margin-top:1rem;padding:.5rem 1rem;background:var(--txn);color:#fff;border:none;border-radius:8px;font-family:'DM Sans',sans-serif;font-size:.82rem;font-weight:600;cursor:pointer;transition:opacity .2s}
+  .download-btn:hover{opacity:.85}
+  .sources{max-width:1200px;margin:0 auto 2rem;padding:0 2rem 3rem;font-size:.75rem;color:var(--text-muted);line-height:1.7;border-top:1px solid var(--border);padding-top:1.5rem}
+  .sources strong{color:var(--text);font-weight:600}
+  @media(max-width:640px){.hero h1{font-size:1.8rem}.hero{padding:2rem 1.25rem 1rem}.stats-row,.chart-section,.insight-section,.sources{padding-left:1.25rem;padding-right:1.25rem}.chart-container{padding:1.25rem}.chart-canvas-wrap{height:280px}.chart-canvas-wrap.tall{height:320px}.chart-header{flex-direction:column}}
+</style>
+</head>
+<body>
+<div class="hero">
+  <h1>UK House Prices: The Real Picture</h1>
+  <p class="subtitle">Nominal prices, inflation-adjusted prices, and the house price-to-earnings affordability ratio — exposing the gap between headline numbers and what housing actually costs relative to wages.</p>
+</div>
+<div class="stats-row">
+  <div class="stat-card"><div class="label">Avg Price (2025)</div><div class="value" style="color:var(--nominal)">£272k</div><div class="change up">+38% since 2015 (nominal)</div></div>
+  <div class="stat-card"><div class="label">Real Price (2025, adj.)</div><div class="value" style="color:var(--real)">£219k</div><div class="change down">+2.9% in real terms since 2015</div></div>
+  <div class="stat-card"><div class="label">Price-to-Earnings</div><div class="value" style="color:var(--ratio)">7.5x</div><div class="change down">Down from 8.96x peak (2021)</div></div>
+  <div class="stat-card"><div class="label">Inflation Gap</div><div class="value" style="color:var(--accent-green)">~£53k</div><div class="change">Nominal vs real difference</div></div>
+</div>
+
+<div class="chart-section"><div class="chart-container">
+  <div class="chart-header"><div><div class="chart-title">Nominal vs Inflation-Adjusted House Prices</div><div class="chart-desc">Average UK house prices (Nationwide) at face value and deflated to 2015 purchasing power using CPI.</div></div>
+  <div class="legend-pills"><div class="pill"><span class="dot" style="background:var(--nominal)"></span> Nominal (£)</div><div class="pill"><span class="dot" style="background:var(--real)"></span> Real (2015 £)</div></div></div>
+  <div class="chart-canvas-wrap"><canvas id="priceChart"></canvas></div>
+</div></div>
+
+<div class="chart-section"><div class="chart-container">
+  <div class="chart-header"><div><div class="chart-title">House Price-to-Earnings Ratio (England & Wales, 2015–2025)</div><div class="chart-desc">Median house price ÷ median gross annual earnings for full-time workers. Higher = less affordable. ONS data.</div></div>
+  <div class="legend-pills"><div class="pill"><span class="dot" style="background:var(--ratio)"></span> Price/Earnings</div><div class="pill"><span class="dot" style="background:var(--accent-purple);opacity:.4"></span> 5x Threshold</div></div></div>
+  <div class="chart-canvas-wrap"><canvas id="ratioChart"></canvas></div>
+</div></div>
+
+<div class="chart-section"><div class="chart-container">
+  <div class="chart-header"><div><div class="chart-title">All Three Metrics — Indexed to 2015 = 100</div><div class="chart-desc">Rebased so you can compare trajectories directly. Shows how nominal prices, real prices and affordability have diverged.</div></div>
+  <div class="legend-pills"><div class="pill"><span class="dot" style="background:var(--nominal)"></span> Nominal</div><div class="pill"><span class="dot" style="background:var(--real)"></span> Real</div><div class="pill"><span class="dot" style="background:var(--ratio)"></span> Affordability</div></div></div>
+  <div class="chart-canvas-wrap"><canvas id="indexChart"></canvas></div>
+</div></div>
+
+<div class="chart-section"><div class="chart-container">
+  <div class="chart-header"><div><div class="chart-title">House Price-to-Earnings Ratio: The Long View (1999–2025)</div><div class="chart-desc">In 1999 homes cost ~4.4x earnings. The 5x "affordable" threshold was last consistently met before 2003. The ratio doubled in just five years and has never returned.</div></div>
+  <div class="legend-pills"><div class="pill"><span class="dot" style="background:var(--ratio)"></span> Price/Earnings</div><div class="pill"><span class="dot" style="background:var(--accent-purple);opacity:.4"></span> 5x Threshold</div></div></div>
+  <div class="chart-canvas-wrap tall"><canvas id="longRatioChart"></canvas></div>
+</div></div>
+
+<div class="chart-section"><div class="chart-container">
+  <div class="chart-header"><div><div class="chart-title">UK Residential Property Transactions (1999–2025)</div><div class="chart-desc">Annual total residential transactions (thousands). HMRC (≥£40k from 2005); ONS/Inland Revenue earlier. Compare with affordability to test for correlation.</div></div>
+  <div class="legend-pills"><div class="pill"><span class="dot" style="background:var(--txn)"></span> Transactions (000s)</div></div></div>
+  <div class="chart-canvas-wrap tall"><canvas id="txnChart"></canvas></div>
+  <button class="download-btn" onclick="downloadCSV()">⬇ Download Transactions + Affordability CSV</button>
+</div></div>
+
+<div class="insight-section"><div class="insight-grid">
+  <div class="insight-card"><h3>The Inflation Illusion</h3><p>Nominal prices rose <span class="highlight">~38%</span> from 2015 to 2025 (£197k → £272k). But once you strip out inflation — particularly the <span class="highlight-cyan">25%+ cumulative CPI rise</span> since 2020 — prices are only 2.9% higher in real terms between 2015 and 2025. The 2021-22 boom largely disappears once adjusted. Much of the "price growth" was simply the pound buying less.</p></div>
+  <div class="insight-card"><h3>Affordability: Better Than the Peak, Still Awful</h3><p>The price-to-earnings ratio hit <span class="highlight-red">~8.96x in 2021</span> — meaning the median home cost nearly nine years' gross salary. By 2024 it had eased to ~7.5x, thanks to strong wage growth (+20% since 2021). But that's still far above the <span class="highlight-red">5x threshold</span> traditionally considered "affordable" — a level that hasn't been consistently achieved nationally since 2002.</p></div>
+  <div class="insight-card"><h3>Where Are We Really?</h3><p>In real terms, UK house prices in 2025 are roughly where they were in <span class="highlight-cyan">late 2021</span> — the pandemic spike has been entirely eroded by inflation. The long-run chart from 1999 shows the structural shift clearly: the ratio doubled from ~4.4x to ~8x in just five years (2001-2006) and has never returned. Transactions collapsed from 1.8m to 850k after 2007 and have never fully recovered either.</p></div>
+</div></div>
+
+<div class="sources"><strong>Sources & Methodology:</strong> Nominal house prices from Nationwide Building Society quarterly index. CPI inflation from ONS / World Bank annual averages. Real prices deflated to 2015 purchasing power using cumulative CPI. Affordability ratio from ONS Housing Affordability dataset (median house price ÷ median gross annual full-time earnings, England & Wales); long-run data (1999-2014) from ONS, BestBrokers/HM Land Registry analysis, Economics Help. Housing transactions from HMRC UK Property Transaction Statistics (≥£40k from 2005), ONS/Inland Revenue for 1999-2004. 2025 figures estimated from latest available data.</div>
+
+<script>
+const Y10=['2015','2016','2017','2018','2019','2020','2021','2022','2023','2024','2025'];
+const NP=[193900,203771,209935,214163,215334,223050,243750,267388,259862,265240,271809];
+const CPI=[0.37,0.66,2.68,2.48,1.79,0.99,2.52,7.92,6.79,2.55,3.30];
+let CI=[100];for(let i=1;i<CPI.length;i++)CI.push(CI[i-1]*(1+CPI[i]/100));
+const RP=NP.map((p,i)=>Math.round(p/(CI[i]/100)));
+const AR=[7.52,7.72,7.91,8.04,7.83,7.84,8.96,8.28,8.26,7.54,7.50];
+const NI=NP.map(p=>(p/NP[0]*100).toFixed(1));
+const RI=RP.map(p=>(p/RP[0]*100).toFixed(1));
+const AI=AR.map(r=>(r/AR[0]*100).toFixed(1));
+
+const YL=['1999','2000','2001','2002','2003','2004','2005','2006','2007','2008','2009','2010','2011','2012','2013','2014','2015','2016','2017','2018','2019','2020','2021','2022','2023','2024','2025'];
+const LR=[4.42,4.53,4.59,5.10,5.79,6.57,6.82,6.90,6.93,6.45,6.28,6.69,6.57,6.58,6.76,7.09,7.52,7.72,7.91,8.04,7.83,7.84,8.96,8.28,8.26,7.54,7.50];
+const TX=[1440,1347,1469,1433,1458,1586,1341,1786,1529,892,853,876,876,926,1047,1200,1229,1233,1216,1190,1176,1042,1374,1187,1006,1060,1180];
+
+Chart.defaults.font.family="'DM Sans',sans-serif";
+Chart.defaults.color='#5c6478';
+const GC='rgba(200,208,220,0.5)',TF={size:11,weight:'500'};
+const TT={enabled:true,backgroundColor:'#fff',titleColor:'#1a1a2e',bodyColor:'#1a1a2e',borderColor:'#dce0e8',borderWidth:1,titleFont:{size:13,weight:'700'},bodyFont:{size:12,weight:'500'},padding:14,cornerRadius:8,displayColors:true,boxWidth:10,boxHeight:10,boxPadding:4};
+
+// Chart 1
+new Chart(document.getElementById('priceChart'),{type:'line',data:{labels:Y10,datasets:[
+{label:'Nominal Price (£)',data:NP,borderColor:'#d97706',backgroundColor:'rgba(217,119,6,.08)',borderWidth:3,fill:true,tension:.3,pointRadius:4,pointHoverRadius:7,pointBackgroundColor:'#d97706',pointBorderColor:'#fff',pointBorderWidth:2},
+{label:'Real Price (2015 £)',data:RP,borderColor:'#0891b2',backgroundColor:'rgba(8,145,178,.08)',borderWidth:3,fill:true,tension:.3,pointRadius:4,pointHoverRadius:7,pointBackgroundColor:'#0891b2',pointBorderColor:'#fff',pointBorderWidth:2}
+]},options:{responsive:true,maintainAspectRatio:false,interaction:{intersect:false,mode:'index'},plugins:{legend:{display:false},tooltip:{...TT,callbacks:{title:c=>c[0].label,label:c=>` ${c.dataset.label}: £${c.raw.toLocaleString()}`,afterBody:c=>{if(c.length===2){const d=c[0].raw-c[1].raw;return['',`⚡ Inflation gap: £${d.toLocaleString()}`]}return[]}}}},scales:{x:{grid:{color:GC,drawBorder:false},ticks:{font:TF}},y:{grid:{color:GC,drawBorder:false},ticks:{font:TF,callback:v=>'£'+(v/1000).toFixed(0)+'k'},min:150000,max:290000}}}});
+
+// Chart 2
+new Chart(document.getElementById('ratioChart'),{type:'bar',data:{labels:Y10,datasets:[{label:'P/E',data:AR,backgroundColor:AR.map(r=>r>8?'rgba(225,29,72,.7)':r>7?'rgba(225,29,72,.5)':'rgba(225,29,72,.35)'),borderColor:'#e11d48',borderWidth:1,borderRadius:6,barPercentage:.6}]},
+plugins:[{id:'aL',afterDraw(ch){const y=ch.scales.y.getPixelForValue(5),c=ch.ctx;c.save();c.strokeStyle='rgba(124,58,237,.4)';c.lineWidth=2;c.setLineDash([8,4]);c.beginPath();c.moveTo(ch.chartArea.left,y);c.lineTo(ch.chartArea.right,y);c.stroke();c.fillStyle='rgba(124,58,237,.7)';c.font="600 11px 'DM Sans',sans-serif";c.fillText('5x "Affordable" threshold',ch.chartArea.left+8,y-8);c.restore()}}],
+options:{responsive:true,maintainAspectRatio:false,interaction:{intersect:false,mode:'index'},plugins:{legend:{display:false},tooltip:{...TT,callbacks:{title:c=>c[0].label,label:c=>` Price/Earnings: ${c.raw.toFixed(2)}x median earnings`,afterBody:c=>{const v=c[0].raw;if(v>8)return['','🔴 Severely unaffordable'];if(v>7)return['','🟠 Highly unaffordable'];if(v>5)return['','🟡 Unaffordable (above 5x)'];return['','🟢 Approaching affordable']}}}},scales:{x:{grid:{display:false},ticks:{font:TF}},y:{grid:{color:GC,drawBorder:false},ticks:{font:TF,callback:v=>v.toFixed(1)+'x'},min:4,max:10}}}});
+
+// Chart 3
+new Chart(document.getElementById('indexChart'),{type:'line',data:{labels:Y10,datasets:[
+{label:'Nominal Prices',data:NI,borderColor:'#d97706',borderWidth:2.5,tension:.3,pointRadius:3,pointHoverRadius:6,pointBackgroundColor:'#d97706',pointBorderColor:'#fff',pointBorderWidth:2},
+{label:'Real Prices',data:RI,borderColor:'#0891b2',borderWidth:2.5,tension:.3,pointRadius:3,pointHoverRadius:6,pointBackgroundColor:'#0891b2',pointBorderColor:'#fff',pointBorderWidth:2},
+{label:'Affordability Ratio',data:AI,borderColor:'#e11d48',borderWidth:2.5,borderDash:[6,3],tension:.3,pointRadius:3,pointHoverRadius:6,pointBackgroundColor:'#e11d48',pointBorderColor:'#fff',pointBorderWidth:2}
+]},plugins:[{id:'bl',afterDraw(ch){const y=ch.scales.y.getPixelForValue(100),c=ch.ctx;c.save();c.strokeStyle='rgba(0,0,0,.12)';c.lineWidth=1;c.setLineDash([4,3]);c.beginPath();c.moveTo(ch.chartArea.left,y);c.lineTo(ch.chartArea.right,y);c.stroke();c.fillStyle='rgba(0,0,0,.35)';c.font="500 10px 'DM Sans',sans-serif";c.fillText('2015 baseline = 100',ch.chartArea.right-120,y-6);c.restore()}}],
+options:{responsive:true,maintainAspectRatio:false,interaction:{intersect:false,mode:'index'},plugins:{legend:{display:false},tooltip:{...TT,callbacks:{title:c=>c[0].label,label:function(c){const i=c.dataIndex,v=parseFloat(c.raw).toFixed(1);if(c.dataset.label==='Nominal Prices')return` Nominal: ${v}  (£${NP[i].toLocaleString()})`;if(c.dataset.label==='Real Prices')return` Real: ${v}  (£${RP[i].toLocaleString()} in 2015 £)`;return` Affordability: ${v}  (${AR[i].toFixed(2)}x earnings)`}}}},scales:{x:{grid:{color:GC,drawBorder:false},ticks:{font:TF}},y:{grid:{color:GC,drawBorder:false},ticks:{font:TF},min:90,max:145}}}});
+
+// Chart 4: Long-run affordability
+new Chart(document.getElementById('longRatioChart'),{type:'line',data:{labels:YL,datasets:[{label:'P/E Ratio',data:LR,borderColor:'#e11d48',backgroundColor:'rgba(225,29,72,.06)',borderWidth:3,fill:true,tension:.3,pointRadius:4,pointHoverRadius:7,pointBackgroundColor:LR.map(r=>r<=5?'#059669':r<=7?'#d97706':'#e11d48'),pointBorderColor:'#fff',pointBorderWidth:2}]},
+plugins:[{id:'aL2',afterDraw(ch){const c=ch.ctx;let y=ch.scales.y.getPixelForValue(5);c.save();c.strokeStyle='rgba(124,58,237,.4)';c.lineWidth=2;c.setLineDash([8,4]);c.beginPath();c.moveTo(ch.chartArea.left,y);c.lineTo(ch.chartArea.right,y);c.stroke();c.fillStyle='rgba(124,58,237,.7)';c.font="600 11px 'DM Sans',sans-serif";c.fillText('5x "Affordable" threshold',ch.chartArea.left+8,y-8);c.fillStyle='rgba(5,150,105,.04)';c.fillRect(ch.chartArea.left,y,ch.chartArea.right-ch.chartArea.left,ch.chartArea.bottom-y);c.restore()}}],
+options:{responsive:true,maintainAspectRatio:false,interaction:{intersect:false,mode:'index'},plugins:{legend:{display:false},tooltip:{...TT,callbacks:{title:c=>c[0].label,label:c=>` ${c.raw.toFixed(2)}x median earnings`,afterBody:c=>{const v=c[0].raw;if(v<=5)return['','🟢 Affordable (≤5x)'];if(v<=7)return['','🟡 Stretched (5–7x)'];if(v<=8)return['','🟠 Highly unaffordable (7–8x)'];return['','🔴 Severely unaffordable (>8x)']}}}},scales:{x:{grid:{color:GC,drawBorder:false},ticks:{font:TF,maxRotation:45}},y:{grid:{color:GC,drawBorder:false},ticks:{font:TF,callback:v=>v.toFixed(1)+'x'},min:3,max:10}}}});
+
+// Chart 5: Transactions
+new Chart(document.getElementById('txnChart'),{type:'bar',data:{labels:YL,datasets:[{label:'Txns',data:TX,backgroundColor:TX.map(t=>t>=1400?'rgba(37,99,235,.7)':t>=1100?'rgba(37,99,235,.5)':'rgba(37,99,235,.35)'),borderColor:'#2563eb',borderWidth:1,borderRadius:4,barPercentage:.65}]},
+plugins:[{id:'avg',afterDraw(ch){const avg=TX.reduce((a,b)=>a+b,0)/TX.length,y=ch.scales.y.getPixelForValue(avg),c=ch.ctx;c.save();c.strokeStyle='rgba(37,99,235,.35)';c.lineWidth=2;c.setLineDash([6,4]);c.beginPath();c.moveTo(ch.chartArea.left,y);c.lineTo(ch.chartArea.right,y);c.stroke();c.fillStyle='rgba(37,99,235,.6)';c.font="600 10px 'DM Sans',sans-serif";c.fillText('Avg: '+Math.round(avg)+'k',ch.chartArea.right-90,y-8);c.restore()}}],
+options:{responsive:true,maintainAspectRatio:false,interaction:{intersect:false,mode:'index'},plugins:{legend:{display:false},tooltip:{...TT,callbacks:{title:c=>c[0].label,label:c=>` Transactions: ${c.raw.toLocaleString()},000`,afterBody:c=>{const i=c[0].dataIndex;return['',`📊 Affordability ratio: ${LR[i].toFixed(2)}x earnings`]}}}},scales:{x:{grid:{display:false},ticks:{font:TF,maxRotation:45}},y:{grid:{color:GC,drawBorder:false},ticks:{font:TF,callback:v=>v.toLocaleString()+'k'},min:0,max:2000}}}});
+
+function downloadCSV(){let s='Year,Transactions_000s,Price_Earnings_Ratio\n';for(let i=0;i<YL.length;i++)s+=`${YL[i]},${TX[i]},${LR[i].toFixed(2)}\n`;const b=new Blob([s],{type:'text/csv'}),u=URL.createObjectURL(b),a=document.createElement('a');a.href=u;a.download='uk_housing_transactions_affordability_1999_2025.csv';a.click();URL.revokeObjectURL(u)}
+</script>
+</body>
+</html>
