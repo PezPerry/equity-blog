@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Persimmon: Back from the Dead? | Equity &amp; Markets Insight</title>
+  <meta name="description" content="Persimmon Homes has seen its share price collapse from 2,800p to around 1,050p. We assess whether the sell-off has gone too far and whether PSN offers genuine recovery value using the MAEP method.">
+  <meta name="keywords" content="PSN, Persimmon, Persimmon Homes, housebuilder, UK housing, Taylor Wimpey, Barratt, equity research, MAEP valuation, mortgage rates, Help to Buy, cladding scandal, housebuilding sector, first-time buyers, UK equities">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300;1,9..40,400&family=Playfair+Display:ital,wght@0,700;0,800;1,700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --vanquis-deep: #1B2A4A;
+      --vanquis-mid: #2D4A7A;
+      --vanquis-accent: #E8453C;
+      --vanquis-gold: #D4A853;
+      --bg-cream: #FBFAF7;
+      --text-body: #2C2C2C;
+      --text-muted: #6B6B6B;
+      --border-light: #E4E0D8;
+    }
+
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      font-size: 17px;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background-color: var(--bg-cream);
+      color: var(--text-body);
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 400;
+      line-height: 1.75;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* ── Site Header ── */
+    .site-header {
+      background-color: var(--vanquis-deep);
+      padding: 18px 24px;
+      text-align: center;
+    }
+
+    .site-header .brand {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: #FFFFFF;
+      letter-spacing: 0.04em;
+      text-decoration: none;
+    }
+
+    .site-header .brand span {
+      color: var(--vanquis-gold);
+    }
+
+    /* ── Article Wrapper ── */
+    .article-outer {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 0 20px 80px;
+    }
+
+    /* ── Cover Image ── */
+    .cover-image-wrap {
+      margin: 0 -20px;
+    }
+
+    .cover-image {
+      width: 100%;
+      height: 420px;
+      object-fit: cover;
+      display: block;
+    }
+
+    /* ── Article Header ── */
+    .article-header {
+      border-bottom: 3px solid var(--vanquis-gold);
+      padding: 44px 0 32px;
+      margin-bottom: 48px;
+    }
+
+    .article-label {
+      display: inline-block;
+      background-color: var(--vanquis-accent);
+      color: #FFFFFF;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      padding: 4px 10px;
+      border-radius: 2px;
+      margin-bottom: 18px;
+    }
+
+    .article-title {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(2rem, 5vw, 2.85rem);
+      font-weight: 800;
+      line-height: 1.2;
+      color: var(--vanquis-deep);
+      margin-bottom: 20px;
+    }
+
+    .article-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      align-items: center;
+      font-size: 0.82rem;
+      color: var(--text-muted);
+    }
+
+    .ticker-badge {
+      background-color: var(--vanquis-deep);
+      color: var(--vanquis-gold);
+      font-weight: 600;
+      font-size: 0.78rem;
+      letter-spacing: 0.08em;
+      padding: 4px 10px;
+      border-radius: 3px;
+    }
+
+    .meta-divider {
+      width: 1px;
+      height: 14px;
+      background: var(--border-light);
+    }
+
+    /* ── Lead Paragraph ── */
+    .article-lead {
+      font-size: 1.08rem;
+      font-weight: 400;
+      line-height: 1.8;
+      color: var(--text-body);
+      border-left: 4px solid var(--vanquis-gold);
+      padding-left: 20px;
+      margin-bottom: 48px;
+      font-style: italic;
+    }
+
+    /* ── Section Headings ── */
+    h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--vanquis-deep);
+      margin-top: 52px;
+      margin-bottom: 20px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid var(--border-light);
+      position: relative;
+    }
+
+    h2::before {
+      content: '';
+      display: block;
+      width: 36px;
+      height: 3px;
+      background-color: var(--vanquis-accent);
+      margin-bottom: 12px;
+    }
+
+    /* ── Body Text ── */
+    p {
+      margin-bottom: 1.4em;
+      font-size: 1rem;
+      line-height: 1.8;
+      color: var(--text-body);
+    }
+
+    /* ── Key Callout Box ── */
+    .callout {
+      background-color: #F0EDE6;
+      border-left: 4px solid var(--vanquis-mid);
+      padding: 20px 24px;
+      margin: 32px 0;
+      border-radius: 0 4px 4px 0;
+    }
+
+    .callout p {
+      margin: 0;
+      font-size: 0.95rem;
+      color: var(--vanquis-deep);
+      font-weight: 500;
+    }
+
+    /* ── Rating Badge ── */
+    .rating-block {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      background-color: var(--vanquis-deep);
+      color: #FFFFFF;
+      padding: 20px 28px;
+      border-radius: 6px;
+      margin: 36px 0 0;
+    }
+
+    .rating-label {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--vanquis-gold);
+      font-weight: 600;
+    }
+
+    .rating-value {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.5rem;
+      font-weight: 700;
+      line-height: 1.1;
+    }
+
+    .rating-divider {
+      width: 1px;
+      height: 40px;
+      background: rgba(255,255,255,0.2);
+    }
+
+    /* ── Valuation Table ── */
+    .valuation-table-wrap {
+      overflow-x: auto;
+      margin: 32px 0;
+      border-radius: 6px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.07);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.9rem;
+      background: #FFFFFF;
+    }
+
+    thead {
+      background-color: var(--vanquis-deep);
+      color: #FFFFFF;
+    }
+
+    thead th {
+      padding: 13px 18px;
+      text-align: left;
+      font-weight: 600;
+      font-size: 0.8rem;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+
+    tbody tr {
+      border-bottom: 1px solid var(--border-light);
+    }
+
+    tbody tr:last-child {
+      border-bottom: none;
+    }
+
+    tbody tr:nth-child(even) {
+      background-color: #F7F5F0;
+    }
+
+    tbody td {
+      padding: 12px 18px;
+      color: var(--text-body);
+      vertical-align: top;
+    }
+
+    tbody td:first-child {
+      font-weight: 500;
+      color: var(--vanquis-deep);
+    }
+
+    .table-highlight td {
+      background-color: #FFF8EC !important;
+      font-weight: 600;
+      color: var(--vanquis-deep) !important;
+      border-top: 2px solid var(--vanquis-gold);
+    }
+
+    /* ── Key Facts Strip ── */
+    .key-facts {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 1px;
+      background-color: var(--border-light);
+      border: 1px solid var(--border-light);
+      border-radius: 6px;
+      overflow: hidden;
+      margin: 36px 0;
+    }
+
+    .fact-item {
+      background-color: #FFFFFF;
+      padding: 18px 20px;
+    }
+
+    .fact-label {
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 0.09em;
+      color: var(--text-muted);
+      font-weight: 600;
+      margin-bottom: 6px;
+    }
+
+    .fact-value {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.35rem;
+      font-weight: 700;
+      color: var(--vanquis-deep);
+      line-height: 1.1;
+    }
+
+    .fact-value.positive {
+      color: #2A7A2A;
+    }
+
+    .fact-value.caution {
+      color: var(--vanquis-accent);
+    }
+
+    /* ── Risk List ── */
+    .risk-list {
+      list-style: none;
+      padding: 0;
+      margin: 20px 0 32px;
+    }
+
+    .risk-list li {
+      display: flex;
+      gap: 12px;
+      align-items: flex-start;
+      padding: 12px 0;
+      border-bottom: 1px solid var(--border-light);
+      font-size: 0.95rem;
+      line-height: 1.6;
+    }
+
+    .risk-list li:last-child {
+      border-bottom: none;
+    }
+
+    .risk-icon {
+      flex-shrink: 0;
+      width: 22px;
+      height: 22px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.7rem;
+      font-weight: 700;
+      margin-top: 2px;
+    }
+
+    .risk-icon.bull {
+      background-color: #D4EDDA;
+      color: #155724;
+    }
+
+    .risk-icon.bear {
+      background-color: #F8D7DA;
+      color: #721C24;
+    }
+
+    /* ── Footer ── */
+    .article-footer {
+      margin-top: 64px;
+      padding-top: 32px;
+      border-top: 1px solid var(--border-light);
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      line-height: 1.65;
+    }
+
+    .article-footer strong {
+      color: var(--text-body);
+    }
+
+    .site-footer {
+      background-color: var(--vanquis-deep);
+      color: rgba(255,255,255,0.55);
+      text-align: center;
+      padding: 28px 20px;
+      font-size: 0.78rem;
+    }
+
+    .site-footer a {
+      color: var(--vanquis-gold);
+      text-decoration: none;
+    }
+
+    /* ── Print Styles ── */
+    @media print {
+      .site-header,
+      .site-footer {
+        display: none;
+      }
+
+      body {
+        background: #FFFFFF;
+        font-size: 12pt;
+      }
+
+      .article-outer {
+        max-width: 100%;
+        padding: 0;
+      }
+
+      .cover-image {
+        height: 260px;
+      }
+
+      h2 {
+        page-break-after: avoid;
+      }
+
+      p {
+        orphans: 3;
+        widows: 3;
+      }
+
+      .callout,
+      .rating-block,
+      .key-facts {
+        page-break-inside: avoid;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+    }
+
+    /* ── Responsive ── */
+    @media (max-width: 600px) {
+      .cover-image {
+        height: 240px;
+      }
+
+      .article-header {
+        padding: 32px 0 24px;
+      }
+
+      .rating-block {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+      }
+
+      .rating-divider {
+        width: 40px;
+        height: 1px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Site Header -->
+  <header class="site-header">
+    <a href="/" class="brand">Equity <span>&amp;</span> Markets Insight</a>
+  </header>
+
+  <!-- Cover Image -->
+  <div class="cover-image-wrap">
+    <img
+      src="persimmon-back-from-the-dead.png"
+      alt="Persimmon Homes development site — rows of new-build houses under construction"
+      class="cover-image"
+    >
+  </div>
+
+  <!-- Article Content -->
+  <main class="article-outer">
+
+    <!-- Article Header -->
+    <header class="article-header">
+      <div class="article-label">Equity Research</div>
+      <h1 class="article-title">Persimmon: Back from the Dead?</h1>
+      <div class="article-meta">
+        <span class="ticker-badge">LON: PSN</span>
+        <span class="meta-divider"></span>
+        <span>UK Housebuilders</span>
+        <span class="meta-divider"></span>
+        <span>Equity &amp; Markets Insight</span>
+        <span class="meta-divider"></span>
+        <span>2025</span>
+      </div>
+    </header>
+
+    <!-- Lead -->
+    <p class="article-lead">
+      Persimmon's share price has collapsed from 2,800p to roughly 1,050p. The market has punished the entire sector — but has it gone too far for PSN specifically? We apply the MAEP framework to find out.
+    </p>
+
+    <!-- Key Facts Strip -->
+    <div class="key-facts">
+      <div class="fact-item">
+        <div class="fact-label">Current Price</div>
+        <div class="fact-value">~1,050p</div>
+      </div>
+      <div class="fact-item">
+        <div class="fact-label">MAEP Target</div>
+        <div class="fact-value positive">~1,232p</div>
+      </div>
+      <div class="fact-item">
+        <div class="fact-label">Upside</div>
+        <div class="fact-value positive">~17%</div>
+      </div>
+      <div class="fact-item">
+        <div class="fact-label">Completions (LFY)</div>
+        <div class="fact-value">10,500</div>
+      </div>
+      <div class="fact-item">
+        <div class="fact-label">Revenue (LFY)</div>
+        <div class="fact-value">£2.8bn</div>
+      </div>
+      <div class="fact-item">
+        <div class="fact-label">Rating</div>
+        <div class="fact-value caution">Accumulate</div>
+      </div>
+    </div>
+
+    <!-- Section 1: Briefing -->
+    <h2>Briefing</h2>
+    <p>
+      Persimmon Homes (PSN) is one of the UK's largest housebuilders by volume. The share price has been hammered over the past couple of years, dropping from highs around 2,800p to roughly 1,050p today. The market has punished the entire sector on the back of higher mortgage rates, the cladding scandal, and general demand uncertainty.
+    </p>
+    <p>
+      But I think the sell-off has gone too far for Persimmon specifically, and the current price offers a genuinely attractive entry point. This is not a blind sectoral call — it is a company-specific thesis built on remediation progress, land bank optionality, and a credible volume recovery path if rates cooperate.
+    </p>
+
+    <!-- Section 2: Business Model -->
+    <h2>Business Model</h2>
+    <p>
+      Persimmon is a volume housebuilder — they build and sell new homes, predominantly to first-time buyers and families. Their model is straightforward: acquire land, obtain planning permission, build houses, sell them. They have a large strategic land bank, which is a key competitive advantage in a planning-constrained market.
+    </p>
+    <p>
+      Uniquely among large-cap peers, Persimmon owns Brickworks Ltd and operates a timber frame manufacturing operation, giving them a degree of vertical integration that Taylor Wimpey and Barratt largely lack. This provides some insulation from supply chain disruption and, in theory, margin support when input costs spike.
+    </p>
+
+    <div class="valuation-table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Metric</th>
+            <th>Last Full Year</th>
+            <th>Note</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Revenue</td>
+            <td>~£2.8bn</td>
+            <td>Down from peak years</td>
+          </tr>
+          <tr>
+            <td>Completions</td>
+            <td>~10,500</td>
+            <td>Volume constrained by demand</td>
+          </tr>
+          <tr>
+            <td>Avg. Selling Price</td>
+            <td>~£268,000</td>
+            <td>Predominantly FTB segment</td>
+          </tr>
+          <tr>
+            <td>Operating Margin</td>
+            <td>~14%</td>
+            <td>Down from ~28% at peak</td>
+          </tr>
+          <tr>
+            <td>Strategic Land Bank</td>
+            <td>~80,000 plots</td>
+            <td>Key long-term optionality</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p>
+      Operating margins have compressed sharply — from a peak of around 28 per cent down to roughly 14 per cent today. This reflects both cost inflation and a slower sales rate environment. The recovery of even half that margin compression would be highly meaningful for earnings.
+    </p>
+
+    <!-- Section 3: What Matters -->
+    <h2>What Matters for This Company</h2>
+
+    <ul class="risk-list">
+      <li>
+        <span class="risk-icon bull">▲</span>
+        <span><strong>Mortgage rates &amp; affordability.</strong> If the Bank of England cuts rates through 2026 and into 2027 as currently expected, affordability improves and transaction volumes should recover. Persimmon's heavy exposure to the first-time buyer segment makes any government support scheme — such as a Help to Buy replacement — a direct and leveraged tailwind.</span>
+      </li>
+      <li>
+        <span class="risk-icon bull">▲</span>
+        <span><strong>Build quality remediation progress.</strong> Persimmon suffered serious reputational damage from widely reported build quality failures. The company has spent heavily to fix legacy issues and has overhauled construction processes and oversight. The market still applies a discount for this history, but I believe the worst is behind them — meaning the discount should narrow over time.</span>
+      </li>
+      <li>
+        <span class="risk-icon bull">▲</span>
+        <span><strong>Land bank conversion &amp; planning reform.</strong> The strategic land bank of roughly 80,000 plots is enormous, but its value depends on planning approvals and market conditions. The new planning reform legislation, if effective, should accelerate consents and bring more of this optionality into the money.</span>
+      </li>
+    </ul>
+
+    <div class="callout">
+      <p>The intersection of rate cuts, reduced remediation drag, and planning reform represents a three-factor recovery thesis. Each factor independently improves the outlook; together, they could drive a meaningful re-rating.</p>
+    </div>
+
+    <!-- Section 4: Clarity -->
+    <h2>Clarity</h2>
+    <p>
+      The key uncertainty is around the pace of volume recovery. Management guided for around 10,800 completions this year — modest growth. There is genuine upside to this number if mortgage rates fall faster than expected, but equally there could be downside if the housing market stalls again. Rate sensitivity is the single biggest variable in the near-term model.
+    </p>
+    <p>
+      The dividend picture adds a further layer of nuance. Persimmon cut its special dividend and has reduced the regular dividend. While cash generation remains solid, the balance sheet needs to fund ongoing remediation work and continued land investment. I would not approach this as an income position — this is a capital appreciation story, and investors expecting a chunky yield are likely to be disappointed in the near term.
+    </p>
+
+    <ul class="risk-list">
+      <li>
+        <span class="risk-icon bear">▼</span>
+        <span><strong>Bear case:</strong> Rates stay higher for longer, transaction volumes stagnate, and remediation costs come in above guidance. Margins stay suppressed and the land bank remains underutilised. Share price could revisit lows.</span>
+      </li>
+      <li>
+        <span class="risk-icon bull">▲</span>
+        <span><strong>Bull case:</strong> Rate cuts accelerate, government introduces meaningful FTB support, planning reform unlocks land, and margins recover toward 20 per cent. Significant earnings upgrades follow and the stock re-rates substantially above our MAEP target.</span>
+      </li>
+      <li>
+        <span class="risk-icon bear">▼</span>
+        <span><strong>Structural risk:</strong> Any resurgence of cladding-related legal exposure or wider building safety legislation changes could create material, hard-to-quantify liabilities. This remains a tail risk worth monitoring.</span>
+      </li>
+    </ul>
+
+    <!-- Section 5: Valuation -->
+    <h2>Valuation</h2>
+    <p>
+      We apply the MAEP (Multiple-Adjusted Earnings Projection) method. The inputs and the derivation of our target price are set out below.
+    </p>
+
+    <div class="valuation-table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>MAEP Input</th>
+            <th>Value</th>
+            <th>Rationale</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Base EPS (current year est.)</td>
+            <td>85p</td>
+            <td>Consensus estimate for current year</td>
+          </tr>
+          <tr>
+            <td>Growth Factor</td>
+            <td>× 1.15</td>
+            <td>Volume &amp; margin recovery over ~2 years</td>
+          </tr>
+          <tr>
+            <td>Base Multiple</td>
+            <td>× 12</td>
+            <td>Appropriate for large-cap housebuilder</td>
+          </tr>
+          <tr>
+            <td>Uplift Factor</td>
+            <td>× 1.10</td>
+            <td>Vertical integration vs. peers</td>
+          </tr>
+          <tr>
+            <td>Risk Factor</td>
+            <td>× 0.85</td>
+            <td>Remediation overhang &amp; housing market uncertainty</td>
+          </tr>
+          <tr class="table-highlight">
+            <td>MAEP Target Price</td>
+            <td>~1,232p</td>
+            <td>85 × 1.15 × 12 × 1.10 × 0.85</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p>
+      Against the current price of approximately 1,050p, the MAEP target of ~1,232p implies roughly <strong>17 per cent upside</strong>. This is not a screaming buy — there is no margin of safety so large that we can be cavalier about the risks outlined above. But 17 per cent upside, combined with a credible and multi-factor recovery trajectory, is sufficient to warrant accumulation at current levels.
+    </p>
+
+    <p>
+      The risk/reward is asymmetric in a way that favours patient investors. The downside is bounded by a large and relatively liquid land bank; the upside, if the three-factor thesis plays out, could comfortably exceed our MAEP target. We are not modelling that bull case — we are pricing only a measured, reasonable recovery.
+    </p>
+
+    <!-- Rating Block -->
+    <div class="rating-block">
+      <div>
+        <div class="rating-label">Analyst Rating</div>
+        <div class="rating-value">Cautious Accumulate</div>
+      </div>
+      <div class="rating-divider"></div>
+      <div>
+        <div class="rating-label">MAEP Target</div>
+        <div class="rating-value">1,232p</div>
+      </div>
+      <div class="rating-divider"></div>
+      <div>
+        <div class="rating-label">Implied Upside</div>
+        <div class="rating-value">~17%</div>
+      </div>
+    </div>
+
+    <!-- Disclaimer -->
+    <footer class="article-footer">
+      <p><strong>Disclaimer:</strong> This article is published by Equity &amp; Markets Insight for informational and educational purposes only. It does not constitute financial advice, a solicitation, or a recommendation to buy or sell any security. The MAEP valuation method is a proprietary analytical framework and should not be relied upon as the sole basis for any investment decision. All figures are estimates and may differ from reported financials. Past performance is not indicative of future results. Always conduct your own due diligence and consult a qualified financial adviser before making investment decisions. The author may hold positions in securities discussed.</p>
+    </footer>
+
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <p>&copy; 2025 <a href="/">Equity &amp; Markets Insight</a> &mdash; equityandmarketsinsight.com &mdash; For informational purposes only. Not financial advice.</p>
+  </footer>
+
+</body>
+</html>
