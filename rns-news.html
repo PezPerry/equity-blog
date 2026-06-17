@@ -153,6 +153,30 @@
     width: 6px; height: 6px; border-radius: 50%; background: var(--gold);
   }
 
+  /* Signal badges */
+  .signal-badge {
+    display: inline-block; font-size: 0.6rem; font-weight: 700;
+    text-transform: uppercase; letter-spacing: 0.08em;
+    padding: 0.2rem 0.6rem; border-radius: 3px; white-space: nowrap;
+  }
+  .signal-high { background: var(--red); color: white; }
+  .signal-medium { background: var(--navy); color: white; }
+  .signal-low { background: var(--border); color: var(--text-muted); }
+
+  /* Quick filter buttons */
+  .quick-filters {
+    max-width: 1100px; margin: 1rem auto 0; padding: 0 1rem;
+    display: flex; gap: 0.5rem; flex-wrap: wrap;
+  }
+  .quick-btn {
+    padding: 0.4rem 1rem; border: 1.5px solid var(--navy); border-radius: 20px;
+    font-family: 'DM Sans', sans-serif; font-size: 0.8rem; font-weight: 600;
+    color: var(--navy); background: var(--bg-white); cursor: pointer;
+    transition: all 0.2s;
+  }
+  .quick-btn:hover { background: var(--navy); color: white; }
+  .quick-btn.active { background: var(--navy); color: white; }
+
   /* States */
   .loading { text-align: center; padding: 3rem; color: var(--text-muted); }
   .no-results { text-align: center; padding: 3rem; color: var(--text-muted); }
@@ -204,6 +228,11 @@
   </div>
 </div>
 
+<div class="quick-filters">
+  <button class="quick-btn" id="btnToday" onclick="toggleQuickFilter('today')">Today's News</button>
+  <button class="quick-btn" id="btnHigh" onclick="toggleQuickFilter('high')">High Signal</button>
+</div>
+
 <div class="content" id="articleList">
   <div class="loading">Loading articles…</div>
 </div>
@@ -214,6 +243,68 @@
 
 <script>
 let allArticles = [];
+let activeQuickFilter = null;
+
+/* ── Signal classification ── */
+function classifySignal(article) {
+  const text = ((article.body || '') + ' ' + (article.time_period || '') + ' ' + ((article.details || []).join(' '))).toLowerCase();
+  const highPatterns = [
+    /\b(full year|half year|interim results|final results|fy\d{2}|h[12] \d{4}|h[12] results)\b/,
+    /\b(trading update|trading statement)\b/,
+    /\b(profit warning|guidance|revenue.{0,20}(up|down|grew|fell|rose|declined))\b/,
+    /\b(pbt|pre-tax profit|operating (profit|income|loss)|net income|ebitda|eps)\b.*\b(up|down|\+|-|grew|fell|rose|declined|\d+%)\b/,
+    /\b(acquisition|takeover|merger|offer for|bid for|recommended offer)\b/,
+    /\b(rights issue|fundrais|placing.*\£\d|raised.*\£\d)\b/,
+    /\bprofit warning\b/
+  ];
+  const lowPatterns = [
+    /\b(director.*deal|pdmr|share (purchase|sale|dealing)|bought.*shares|sold.*shares)\b/,
+    /\b(block listing|block admission)\b/,
+    /\b(total voting rights|tvr)\b/,
+    /\b(holding.*disclosure|form 8\.3|tr-1)\b/,
+    /\b(dividend.*(declared|payable|payment date|ex-dividend))\b/,
+    /\b(buyback|buy-back|share repurchase)\b/
+  ];
+  for (const p of highPatterns) { if (p.test(text)) return 'high'; }
+  for (const p of lowPatterns) { if (p.test(text)) return 'low'; }
+  return 'medium';
+}
+
+/* ── Auto-generate announcement type ── */
+function getAnnouncementType(article) {
+  if (article.time_period) return article.time_period;
+  const text = ((article.body || '') + ' ' + ((article.details || []).join(' '))).toLowerCase();
+  if (/\b(full year|fy\d{2}|annual results|final results)\b/.test(text)) return 'Annual results';
+  if (/\b(half year|h[12] (results|\d{4})|interim results|six month)\b/.test(text)) return 'Interim results';
+  if (/\b(trading update|trading statement)\b/.test(text)) return 'Trading update';
+  if (/\b(director.*deal|pdmr|bought.*shares|sold.*shares)\b/.test(text)) return 'Director dealing';
+  if (/\b(dividend.*(declared|payable|payment))\b/.test(text)) return 'Dividend declaration';
+  if (/\b(block listing|block admission)\b/.test(text)) return 'Block listing';
+  if (/\b(total voting rights|tvr)\b/.test(text)) return 'Total voting rights';
+  if (/\b(buyback|buy-back|share repurchase)\b/.test(text)) return 'Share buyback';
+  if (/\b(acquisition|acquir|takeover|merger|bid for)\b/.test(text)) return 'Acquisition / deal';
+  if (/\b(placing|fundrais|rights issue|raised.*\£)\b/.test(text)) return 'Fundraising';
+  if (/\b(appoint|step down|resign|non-executive|board change)\b/.test(text)) return 'Board / management change';
+  if (/\b(agm|annual general meeting)\b/.test(text)) return 'AGM notice';
+  if (/\b(contract|award|win|partner|agreement|deal)\b/.test(text)) return 'Corporate update';
+  if (/\b(letting|lease|tenant|sq ft|rent)\b/.test(text)) return 'Letting / property deal';
+  if (/\b(operat|production|output|update)\b/.test(text)) return 'Operational update';
+  return 'Regulatory announcement';
+}
+
+/* ── Quick filter toggle ── */
+function toggleQuickFilter(type) {
+  if (activeQuickFilter === type) {
+    activeQuickFilter = null;
+    document.getElementById('btnToday').classList.remove('active');
+    document.getElementById('btnHigh').classList.remove('active');
+  } else {
+    activeQuickFilter = type;
+    document.getElementById('btnToday').classList.toggle('active', type === 'today');
+    document.getElementById('btnHigh').classList.toggle('active', type === 'high');
+  }
+  renderArticles();
+}
 
 /* ── Date helpers ── */
 function parseDate(str) {
@@ -282,6 +373,8 @@ function getFiltered() {
   const from = document.getElementById('dateFrom').value;
   const to = document.getElementById('dateTo').value;
 
+  const today = new Date().toISOString().split('T')[0];
+
   return allArticles.filter(a => {
     if (company && a.company !== company) return false;
     const iso = toISO(a);
@@ -295,6 +388,8 @@ function getFiltered() {
       ].join(' ').toLowerCase();
       if (!haystack.includes(search)) return false;
     }
+    if (activeQuickFilter === 'today' && iso !== today) return false;
+    if (activeQuickFilter === 'high' && classifySignal(a) !== 'high') return false;
     return true;
   });
 }
@@ -313,7 +408,11 @@ function renderArticles() {
 
   container.innerHTML = filtered.map((a, i) => {
     const tickerBadge = a.ticker ? `<span class="ticker-badge">${a.ticker}</span>` : '';
-    const period = a.time_period ? `<div class="card-period">${a.time_period}</div>` : '';
+    const announcementType = getAnnouncementType(a);
+    const period = `<div class="card-period">${announcementType}</div>`;
+    const signal = classifySignal(a);
+    const signalLabels = { high: 'High Signal', medium: 'Medium', low: 'Low' };
+    const signalBadge = `<span class="signal-badge signal-${signal}">${signalLabels[signal]}</span>`;
     return `
       <div class="card" id="card-${i}">
         <div class="card-header" onclick="toggleCard(${i})">
@@ -322,6 +421,7 @@ function renderArticles() {
             ${period}
           </div>
           <div class="card-meta">
+            ${signalBadge}
             <span class="card-date">${formatDate(a)}</span>
             ${chevronSVG}
           </div>
@@ -358,7 +458,11 @@ fetch('rns-articles.json?' + Date.now())
     return r.json();
   })
   .then(data => {
-    allArticles = data;
+    allArticles = data.filter(a => {
+      const hasBody = a.body && a.body.trim().length > 0 && !/cannot summarise/i.test(a.body);
+      const hasDetails = a.details && Array.isArray(a.details) && a.details.length > 0;
+      return hasBody || hasDetails;
+    });
     populateCompanyFilter();
     renderArticles();
   })
