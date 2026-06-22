@@ -230,7 +230,7 @@
 
 <div class="quick-filters">
   <button class="quick-btn" id="btnToday" onclick="toggleQuickFilter('today')">Today's News</button>
-  <button class="quick-btn" id="btnHigh" onclick="toggleQuickFilter('high')">High Signal</button>
+  <button class="quick-btn" id="btnHigh" onclick="toggleQuickFilter('high')">High</button>
 </div>
 
 <div class="content" id="articleList">
@@ -411,7 +411,7 @@ function renderArticles() {
     const announcementType = getAnnouncementType(a);
     const period = `<div class="card-period">${announcementType}</div>`;
     const signal = classifySignal(a);
-    const signalLabels = { high: 'High Signal', medium: 'Medium', low: 'Low' };
+    const signalLabels = { high: 'High', medium: 'Medium', low: 'Low' };
     const signalBadge = `<span class="signal-badge signal-${signal}">${signalLabels[signal]}</span>`;
     return `
       <div class="card" id="card-${i}">
