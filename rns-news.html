@@ -229,6 +229,7 @@
 </div>
 
 <div class="quick-filters">
+  <button class="quick-btn active" id="btnRecent" onclick="toggleQuickFilter('recent')">Last 3 Days</button>
   <button class="quick-btn" id="btnToday" onclick="toggleQuickFilter('today')">Today's News</button>
   <button class="quick-btn" id="btnHigh" onclick="toggleQuickFilter('high')">High</button>
 </div>
@@ -243,7 +244,7 @@
 
 <script>
 let allArticles = [];
-let activeQuickFilter = null;
+let activeQuickFilter = 'recent';
 
 /* ── Signal classification ── */
 function classifySignal(article) {
@@ -296,13 +297,12 @@ function getAnnouncementType(article) {
 function toggleQuickFilter(type) {
   if (activeQuickFilter === type) {
     activeQuickFilter = null;
-    document.getElementById('btnToday').classList.remove('active');
-    document.getElementById('btnHigh').classList.remove('active');
   } else {
     activeQuickFilter = type;
-    document.getElementById('btnToday').classList.toggle('active', type === 'today');
-    document.getElementById('btnHigh').classList.toggle('active', type === 'high');
   }
+  document.getElementById('btnRecent').classList.toggle('active', activeQuickFilter === 'recent');
+  document.getElementById('btnToday').classList.toggle('active', activeQuickFilter === 'today');
+  document.getElementById('btnHigh').classList.toggle('active', activeQuickFilter === 'high');
   renderArticles();
 }
 
@@ -388,6 +388,12 @@ function getFiltered() {
       ].join(' ').toLowerCase();
       if (!haystack.includes(search)) return false;
     }
+    if (activeQuickFilter === 'recent') {
+      const cutoff = new Date();
+      cutoff.setDate(cutoff.getDate() - 3);
+      const cutoffISO = cutoff.toISOString().split('T')[0];
+      if (iso && iso < cutoffISO) return false;
+    }
     if (activeQuickFilter === 'today' && iso !== today) return false;
     if (activeQuickFilter === 'high' && classifySignal(a) !== 'high') return false;
     return true;
@@ -399,10 +405,18 @@ function renderArticles() {
   const filtered = getFiltered();
   const container = document.getElementById('articleList');
   const countEl = document.getElementById('resultCount');
-  countEl.textContent = `${filtered.length} of ${allArticles.length} articles`;
+  if (activeQuickFilter === 'recent') {
+    countEl.innerHTML = `${filtered.length} articles (last 3 days) · <a href="#" onclick="toggleQuickFilter('recent'); return false;" style="color:var(--navy-mid);">Show all ${allArticles.length}</a>`;
+  } else {
+    countEl.textContent = `${filtered.length} of ${allArticles.length} articles`;
+  }
 
   if (!filtered.length) {
-    container.innerHTML = '<div class="no-results"><h3>No articles match</h3><p>Try adjusting your filters.</p></div>';
+    if (activeQuickFilter === 'recent') {
+      container.innerHTML = '<div class="no-results"><h3>No recent articles</h3><p>No articles in the last 3 days. <a href="#" onclick="toggleQuickFilter(\'recent\'); return false;">Show all articles</a></p></div>';
+    } else {
+      container.innerHTML = '<div class="no-results"><h3>No articles match</h3><p>Try adjusting your filters.</p></div>';
+    }
     return;
   }
 
@@ -440,6 +454,10 @@ function resetFilters() {
   document.getElementById('searchFilter').value = '';
   document.getElementById('dateFrom').value = '';
   document.getElementById('dateTo').value = '';
+  activeQuickFilter = 'recent';
+  document.getElementById('btnRecent').classList.add('active');
+  document.getElementById('btnToday').classList.remove('active');
+  document.getElementById('btnHigh').classList.remove('active');
   renderArticles();
 }
 
