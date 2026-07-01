@@ -189,11 +189,41 @@
     border-top: 1px solid var(--border);
   }
 
+  /* Mobile: hide full labels, show short labels */
+  .signal-short { display: none; }
+  .date-short { display: none; }
+  .date-full { display: inline; }
+
   @media (max-width: 700px) {
+    .hero { padding: 1.5rem 1rem 1.5rem; }
     .hero h1 { font-size: 1.6rem; }
+    .hero-sub { font-size: 0.82rem; }
     .filter-card { flex-direction: column; }
-    .card-header { flex-direction: column; align-items: flex-start; }
-    .card-meta { width: 100%; justify-content: space-between; }
+    .filter-group { min-width: 0 !important; }
+    .filters { padding: 0 0.6rem; }
+    .content { padding: 0 0.6rem; }
+    .quick-filters { padding: 0.75rem 0.6rem 0; }
+    .disclaimer { padding: 1rem 0.6rem; }
+    .card-header { padding: 0.75rem 1rem; gap: 0.5rem; }
+    .card-body { padding: 0 1rem 1rem; }
+    .card-company { font-size: 0.9rem; }
+    .card-period { font-size: 0.72rem; }
+    .card-date { font-size: 0.75rem; }
+
+    /* Signal badges: show single letter, hide full text */
+    .signal-badge { display: none; }
+    .signal-short {
+      display: inline-flex; align-items: center; justify-content: center;
+      width: 22px; height: 22px; font-size: 0.7rem; font-weight: 700;
+      border-radius: 4px; flex-shrink: 0;
+    }
+    .signal-short-high { background: var(--red); color: white; }
+    .signal-short-medium { background: var(--navy); color: white; }
+    .signal-short-low { background: var(--border); color: var(--text-muted); }
+
+    /* Dates: show short (no year), hide full */
+    .date-full { display: none; }
+    .date-short { display: inline; }
   }
 </style>
 </head>
@@ -319,11 +349,17 @@ function parseDate(str) {
 }
 
 function formatDate(article) {
-  // Prefer date_iso if available
   const src = article.date_iso || article.publish_date;
   const d = parseDate(src);
   if (!d) return article.publish_date || 'Not dated';
   return d.toLocaleDateString('en-GB', { day: '2-digit', month: 'short', year: 'numeric' });
+}
+
+function formatDateShort(article) {
+  const src = article.date_iso || article.publish_date;
+  const d = parseDate(src);
+  if (!d) return article.publish_date || '';
+  return d.toLocaleDateString('en-GB', { day: '2-digit', month: 'short' });
 }
 
 function toISO(article) {
@@ -431,7 +467,8 @@ function renderArticles() {
     const period = `<div class="card-period">${announcementType}</div>`;
     const signal = classifySignal(a);
     const signalLabels = { high: 'High', medium: 'Medium', low: 'Low' };
-    const signalBadge = `<span class="signal-badge signal-${signal}">${signalLabels[signal]}</span>`;
+    const signalShortLabels = { high: 'H', medium: 'M', low: 'L' };
+    const signalBadge = `<span class="signal-badge signal-${signal}">${signalLabels[signal]}</span><span class="signal-short signal-short-${signal}">${signalShortLabels[signal]}</span>`;
     return `
       <div class="card" id="card-${i}">
         <div class="card-header" onclick="toggleCard(${i})">
@@ -441,7 +478,7 @@ function renderArticles() {
           </div>
           <div class="card-meta">
             ${signalBadge}
-            <span class="card-date">${formatDate(a)}</span>
+            <span class="card-date"><span class="date-full">${formatDate(a)}</span><span class="date-short">${formatDateShort(a)}</span></span>
             ${chevronSVG}
           </div>
         </div>
