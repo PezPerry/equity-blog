@@ -26,14 +26,14 @@
     "added_at": "2026-07-03T09:32:40.222090"
   },
   {
-    "company": "Barclays PLC",
-    "ticker": "BARC",
+    "company": "Harbour Energy PLC",
+    "ticker": "HBR",
     "publish_date": "03 July 2026",
     "date_iso": "2026-07-03",
     "time_period": "",
-    "announcement_type": "Fundraising",
+    "announcement_type": "Secondary share placing",
     "period_detail": "",
-    "type_workings": "Rule 'fundraising': opening bullets say 'placing'",
+    "type_workings": "Rule 'placing': opening bullets say 'secondary placing' — existing shares sold, not new capital",
     "body": "<ul>\n<li><strong>Secondary placing of 54,775,572 Harbour ordinary shares (~3.5% of issued share capital) completed</strong> by Potomac View Investments, L.P. (managed by EIG) via accelerated bookbuild.</li>\n<li>Placed at <strong>205 pence per share</strong> — a discount to the 217.20p prior close.</li>\n<li><strong>Gross proceeds ~£112 million.</strong></li>\n<li><strong>Seller now holds no shares in Harbour</strong> following settlement — a full exit of EIG's residual stake.</li>\n<li>Barclays Bank PLC acted as Sole Global Co-ordinator and Sole Bookrunner.</li>\n</ul>",
     "source_format": "html",
     "added_at": "2026-07-03T09:32:39.864578"
@@ -206,26 +206,6 @@
     "announcement_type": "Corporate update",
     "period_detail": "",
     "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement"
-  },
-  {
-    "company": "Savannah Energy PLC",
-    "ticker": "SAVE",
-    "publish_date": "01 July 2026",
-    "date_iso": "2026-07-01",
-    "time_period": "",
-    "body": "<ul>\n<li><strong>Trading in ordinary shares temporarily suspended on AIM from 7:30am, 01/07/2026</strong>, at the Company's own request.</li>\n<li><strong>Suspension pending publication of the Company's annual audited accounts</strong> — i.e. accounts remain overdue/unpublished.</li>\n<li>Suspension applies to the ordinary shares of GBP0.001 each (ISIN GB00BP41S218).</li>\n<li>Queries directed to the Company's nominated adviser (+44 (0) 20 7409 3494); no timeline given for resumption of trading or accounts publication.</li>\n</ul>",
-    "source_format": "html",
-    "added_at": "2026-07-02T08:10:37.918669"
-  },
-  {
-    "company": "Frasers Group PLC",
-    "ticker": "FRAS",
-    "publish_date": "01 July 2026",
-    "date_iso": "2026-07-01",
-    "time_period": "",
-    "body": "<ul>\n<li>Agreed to sell <strong>100% of its interest in Sports Direct Malaysia</strong> to strategic partner MAP Active (PT MAP Aktif Adiperkasa Tbk).</li>\n<li>Frasers to receive <strong>c. US$150 million</strong> for the sale, subject to final completion adjustments.</li>\n<li>Enters a <strong>long-term agreement</strong> under which MAP Active will further grow and develop Sports Direct in Malaysia, with a <strong>continuing income stream payable to Frasers</strong>.</li>\n<li>Builds on existing MAP Active partnership across Indonesia, Philippines, Thailand, Vietnam and Cambodia — streamlining Southeast Asian operations.</li>\n<li>Shared ambition to open <strong>over 350 stores long-term</strong>, reaching over 600 million consumers in the region.</li>\n<li>CEO Michael Murray: \"MAP Active is a valued strategic partner, and this transaction further deepens our relationship as we accelerate Sports Direct's growth across Southeast Asia. Together, we are creating a strong platform to deliver our ambitious growth plans. I look forward to continuing to work with the MAP Active team to unlock further value.\"</li>\n<li>V.P. Sharma, Group CEO of PT Mitra Adiperkasa Tbk: \"We are delighted to be strengthening our relationships with Frasers Group through this transaction. Leveraging on our local expertise and regional retail network, we look forward to offering more of Sports Direct's world-class offerings to our customers across the region - and unlocking new opportunities that create long-term value for both companies.\"</li>\n</ul>",
-    "source_format": "html",
-    "added_at": "2026-07-02T08:10:37.907749"
   },
   {
     "company": "Segro PLC",
@@ -2433,9 +2413,9 @@
     "body": "<ul>\n<li>Announced a <strong>conditional retail offer of new Ordinary Shares via RetailBook</strong>, running alongside an institutional <strong>Placing</strong> (accelerated bookbuild) and a <strong>Subscription</strong> by certain directors/management (collectively, the \"Capital Raise\").</li>\n<li>Issue price to be set at close of the bookbuild; same price across Retail Offer, Placing and Subscription.</li>\n<li>Retail Offer is <strong>conditional on completion of the Placing</strong>; Admission expected <strong>08:00 on 12 June 2026</strong>.</li>\n<li>Minimum subscription <strong>£250 per investor</strong>; no commission charged by RetailBook; accessible via ISAs, SIPPs and GIAs through partner platforms.</li>\n<li>Retail Offer open to UK-resident new and existing shareholders; expected to close same time as the Placing on 10 June 2026 (may close earlier).</li>\n<li>Board rationale: Capital Raise will <strong>\"strengthen the balance sheet, enable continued execution of the Group's growth and transformation agenda, provide greater confidence around the Group's leverage position, and reduce the Group's reliance on debt funding\"</strong>.</li>\n<li>New shares will rank pari passu with existing Ordinary Shares, including dividend rights.</li>\n<li>Released <strong>alongside a separate trading update</strong> to be read in conjunction — context for the share price reaction (stock indicated <strong>-18.5% at 401p</strong> on the day).</li>\n<li>Company reserves the right to scale back or reject applications; investors warned market price may fall below the issue price during the offer.</li>\n</ul>",
     "source_format": "html",
     "added_at": "2026-06-10T09:07:50.866340",
-    "announcement_type": "Fundraising",
+    "announcement_type": "Secondary share placing",
     "period_detail": "",
-    "type_workings": "Rule 'fundraising': opening bullets say 'placing'"
+    "type_workings": "Rule 'placing': opening bullets say 'accelerated bookbuild' — existing shares sold, not new capital"
   },
   {
     "company": "Tullow Oil plc",
@@ -8608,9 +8588,9 @@
     "body": "<ul>\n<li>Teleios Global Opportunities Master Fund to sell <strong>16.6% stake</strong> (12 million shares) in Glenveagh via accelerated bookbuild to institutional investors.</li>\n<li>At Thursday's close of <strong>EUR2.27</strong>, the placing is worth approximately <strong>EUR27.2 million</strong>.</li>\n<li>Glenveagh to participate by <strong>buying ~EUR10 million of shares</strong> as part of its ongoing buyback programme.</li>\n<li><strong>J&E Davy appointed sole bookrunner</strong> for the placing.</li>\n</ul>",
     "source_format": "html",
     "added_at": "2026-05-07T21:32:07.281385",
-    "announcement_type": "Fundraising",
+    "announcement_type": "Secondary share placing",
     "period_detail": "",
-    "type_workings": "Rule 'fundraising': opening bullets say 'placing'"
+    "type_workings": "Rule 'placing': opening bullets say 'accelerated bookbuild' — existing shares sold, not new capital"
   },
   {
     "company": "DropBox Inc",
@@ -12422,9 +12402,9 @@
     "body": "<p>Time Period Transaction announced 16 April 2026 (stake held since Applied Nutrition IPO in October 2024)</p>\n<ul><li>Sold entire stake in Applied Nutrition via secondary placing (placing represented ~9.1% of Applied Nutrition share capital).</li><li>Sold ~22.8 million shares at 215p per share.</li><li>Total proceeds ~GBP48.9 million.</li><li>Bookrunner: Peel Hunt (sole bookrunner).</li><li>Note: this followed a prior indication the stake would be reduced, but the final outcome was a full exit.</li></ul>",
     "source_format": "html",
     "added_at": "2026-04-16T21:57:06.324489",
-    "announcement_type": "Fundraising",
+    "announcement_type": "Secondary share placing",
     "period_detail": "",
-    "type_workings": "Rule 'fundraising': opening bullets say 'placing'"
+    "type_workings": "Rule 'placing': opening bullets say 'secondary placing' — existing shares sold, not new capital"
   },
   {
     "company": "Rentokil Initial PLC",
@@ -12520,9 +12500,9 @@
     "body": "<p>Time Period Transaction announcement (accelerated bookbuild; April 2026)</p>\n<ul><li>Intends to <strong>roughly halve</strong> its stake in <strong>Applied Nutrition PLC</strong> via an <strong>11.0m share</strong> sale through an accelerated bookbuild.</li><li>Implied gross proceeds at Applied Nutrition’s Wednesday close (<strong>226.50p</strong>): <strong>~£24.9m</strong> (11.0m × 226.50p).</li><li>Holding <strong>before</strong> placing: <strong>22.8m shares (~9.1%)</strong> of Applied Nutrition.</li><li>Post-sale (if 11.0m shares sold, no other changes): retain <strong>~11.8m shares</strong>, implying <strong>~4.7%</strong> ownership (about half of 9.1%).</li><li>Historical stake: JD Sports held <strong>~32%</strong> of Applied Nutrition prior to its <strong>IPO (October 2024)</strong>.</li><li>Pricing via accelerated bookbuild to institutional investors; <strong>Peel Hunt LLP</strong> appointed <strong>sole bookrunner</strong>.</li></ul>",
     "source_format": "html",
     "added_at": "2026-04-16T07:20:01.392575",
-    "announcement_type": "Corporate update",
+    "announcement_type": "Secondary share placing",
     "period_detail": "",
-    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement"
+    "type_workings": "Rule 'placing': opening bullets say 'accelerated bookbuild' — existing shares sold, not new capital"
   },
   {
     "company": "Ninety One PLC",
