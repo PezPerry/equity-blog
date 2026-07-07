@@ -1,5 +1,18 @@
 [
   {
+    "company": "Shell PLC",
+    "ticker": "SHEL",
+    "publish_date": "07 July 2026",
+    "date_iso": "2026-07-07",
+    "time_period": "Q2 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "Q2 2026",
+    "type_workings": "Type stated explicitly in the source document.",
+    "body": "<ul>\n<li><strong>Shell plc</strong> issued its <strong>second quarter 2026</strong> update note, giving an overview of current expectations ahead of results due on <strong>30 July 2026</strong>.</li>\n<li>Note flags <strong>market dislocations</strong>: realised refining and chemicals margins are running <strong>lower</strong> than the calculated Indicative Refining Margin / Indicative Chemicals Margin and have been adjusted accordingly.</li>\n<li>Full-year price and margin sensitivities may not reflect realised movements in an individual quarter given the <strong>ongoing situation in the Middle East</strong>.</li>\n<li>Company-compiled consensus (managed by <strong>Vara Research</strong>) is expected to be published on <strong>22 July 2026</strong>.</li>\n<li>Note: the scraped text contains only the accompanying definitions and disclaimers — the actual segmental outlook figures (production, margins, opex, cash flow) did not capture, so specific guidance numbers are unavailable here.</li>\n</ul>",
+    "source_format": "html",
+    "added_at": "2026-07-07T09:09:49.929619"
+  },
+  {
     "company": "Victrex PLC",
     "ticker": "VCT",
     "publish_date": "07 July 2026",
