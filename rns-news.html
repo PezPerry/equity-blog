@@ -372,6 +372,16 @@
       font-size: 16px; /* prevents iOS auto-zoom on focus */
       padding: 0.65rem 0.75rem;
     }
+    /* iOS Safari: date inputs keep an intrinsic width and overflow their flex
+       track unless the native appearance is stripped */
+    .filter-group input[type="date"] {
+      -webkit-appearance: none;
+      appearance: none;
+      min-height: 2.6rem; /* keep tap-target height once native chrome is gone */
+    }
+    input[type="date"]::-webkit-date-and-time-value { text-align: left; margin: 0; }
+    /* belt and braces: nothing may spill outside the white card */
+    .filter-card { overflow-x: hidden; }
     /* From/To side by side */
     .filter-dates { display: flex; gap: 0.75rem; min-width: 0; width: 100%; }
     .filter-dates .filter-group { flex: 1; }
