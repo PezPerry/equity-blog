@@ -1,0 +1,49 @@
+name: Gmail Triage Summary
+
+# Emails a digest of starred / non-starred headlines to the general inbox.
+#
+# The triage itself (starring the important emails) runs elsewhere; this job
+# only handles the delivery step that was previously failing — the Gmail MCP
+# connector can create drafts but cannot send, so no summary ever arrived.
+# Here we send through Gmail's own SMTP endpoint so it actually lands.
+#
+# Required repository secrets (Settings → Secrets and variables → Actions):
+#   GMAIL_ADDRESS       the triaged Gmail account, e.g. you@gmail.com
+#   GMAIL_APP_PASSWORD  a Google App Password for that account (needs 2SV +
+#                       IMAP enabled in Gmail settings) — NOT the login password
+# Optional repository variables:
+#   SUMMARY_TO          where to send the digest (defaults to GMAIL_ADDRESS)
+#   LOOKBACK_HOURS      how far back to scan (defaults to 24)
+#   SUMMARY_MAILBOX     mailbox/label to scan (defaults to INBOX)
+
+on:
+  schedule:
+    # 07:07 UTC daily (off the :00 mark to avoid the scheduler stampede)
+    - cron: "7 7 * * *"
+  workflow_dispatch:
+    inputs:
+      lookback_hours:
+        description: "How many hours back to scan"
+        required: false
+        default: "24"
+
+jobs:
+  send-summary:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v5
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Send triage summary email
+        env:
+          GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          SUMMARY_TO: ${{ vars.SUMMARY_TO }}
+          SUMMARY_MAILBOX: ${{ vars.SUMMARY_MAILBOX }}
+          LOOKBACK_HOURS: ${{ github.event.inputs.lookback_hours || vars.LOOKBACK_HOURS }}
+        run: python scripts/gmail_triage_summary.py
