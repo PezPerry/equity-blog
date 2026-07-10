@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="The weekend schedule for the Christening — Friday, Saturday and Sunday the 12th.">
+<title>Schedule · The Christening</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter+Tight:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#2b2a28;
+    --paper:#fbf8f3;
+    --paper-2:#f4eee3;
+    --sage:#6f7d68;
+    --sage-deep:#4f5c49;
+    --gold:#b08d57;
+    --blush:#c98b7a;
+    --muted:#8a827a;
+    --rule:rgba(43,42,40,0.12);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{
+    background:var(--paper);
+    color:var(--ink);
+    font-family:'Inter Tight',-apple-system,BlinkMacSystemFont,sans-serif;
+    font-size:18px;
+    line-height:1.65;
+    -webkit-font-smoothing:antialiased;
+    text-rendering:optimizeLegibility;
+  }
+  a{color:inherit}
+  ::selection{background:var(--sage);color:var(--paper)}
+
+  /* ---- top nav ---- */
+  header.site{
+    border-bottom:1px solid var(--rule);
+    background:rgba(251,248,243,0.9);
+    backdrop-filter:blur(6px);
+    position:sticky;top:0;z-index:10;
+  }
+  .site-inner{
+    max-width:820px;margin:0 auto;padding:18px 24px;
+    display:flex;align-items:center;justify-content:space-between;gap:16px;
+  }
+  .brand{
+    font-family:'Cormorant Garamond',serif;
+    font-size:1.35rem;font-weight:600;letter-spacing:0.02em;
+    text-decoration:none;
+  }
+  nav.site a{
+    text-decoration:none;color:var(--muted);
+    font-size:0.82rem;letter-spacing:0.14em;text-transform:uppercase;
+    margin-left:22px;transition:color .2s;
+  }
+  nav.site a:hover{color:var(--ink)}
+  nav.site a.active{color:var(--sage-deep);font-weight:500}
+
+  /* ---- hero ---- */
+  .hero{
+    max-width:820px;margin:0 auto;padding:64px 24px 24px;text-align:center;
+  }
+  .kicker{
+    font-size:0.78rem;letter-spacing:0.28em;text-transform:uppercase;
+    color:var(--gold);margin-bottom:18px;
+  }
+  .hero h1{
+    font-family:'Cormorant Garamond',serif;
+    font-weight:500;font-size:clamp(2.6rem,7vw,4.2rem);
+    line-height:1.02;letter-spacing:0.01em;
+  }
+  .hero .deck{
+    color:var(--muted);font-size:1.05rem;margin-top:16px;font-weight:300;
+  }
+  .flourish{
+    width:64px;height:1px;background:var(--gold);
+    margin:28px auto 0;position:relative;
+  }
+  .flourish::before{
+    content:"❧";position:absolute;top:-13px;left:50%;transform:translateX(-50%);
+    background:var(--paper);padding:0 10px;color:var(--gold);font-size:1rem;
+  }
+
+  /* ---- schedule ---- */
+  main{max-width:820px;margin:0 auto;padding:20px 24px 40px}
+
+  .day{
+    margin-top:44px;
+    background:var(--paper-2);
+    border:1px solid var(--rule);
+    border-radius:14px;
+    padding:30px 30px 8px;
+  }
+  .day-head{
+    display:flex;align-items:baseline;gap:14px;
+    padding-bottom:6px;flex-wrap:wrap;
+  }
+  .day-head h2{
+    font-family:'Cormorant Garamond',serif;
+    font-weight:600;font-size:2rem;line-height:1;
+    color:var(--sage-deep);
+  }
+  .day-head .sub{
+    color:var(--muted);font-size:0.86rem;
+    letter-spacing:0.06em;font-style:italic;
+  }
+
+  .timeline{list-style:none;margin:18px 0 0;position:relative}
+  .timeline::before{
+    content:"";position:absolute;left:7px;top:6px;bottom:26px;
+    width:1px;background:var(--rule);
+  }
+  .event{
+    position:relative;padding:0 0 22px 34px;
+  }
+  .event::before{
+    content:"";position:absolute;left:0;top:6px;
+    width:15px;height:15px;border-radius:50%;
+    background:var(--paper-2);border:2px solid var(--sage);
+  }
+  .event .time{
+    display:inline-block;
+    font-variant-numeric:tabular-nums;
+    font-weight:600;font-size:0.9rem;color:var(--gold);
+    letter-spacing:0.04em;margin-bottom:2px;
+  }
+  .event .what{font-size:1.06rem}
+  .event .note{
+    color:var(--muted);font-size:0.92rem;margin-top:3px;font-weight:300;
+  }
+
+  /* ---- reminder card ---- */
+  .reminder{
+    margin-top:44px;text-align:center;
+    border:1px dashed var(--blush);border-radius:14px;
+    padding:30px 26px;background:rgba(201,139,122,0.06);
+  }
+  .reminder .label{
+    font-size:0.78rem;letter-spacing:0.24em;text-transform:uppercase;
+    color:var(--blush);margin-bottom:12px;
+  }
+  .reminder .items{
+    font-family:'Cormorant Garamond',serif;
+    font-size:1.7rem;font-weight:500;
+  }
+  .reminder .items span{color:var(--muted)}
+
+  footer{
+    text-align:center;padding:40px 24px 60px;color:var(--muted);
+    font-size:0.85rem;
+  }
+  footer .flourish{margin-bottom:18px}
+</style>
+</head>
+<body>
+
+<header class="site">
+  <div class="site-inner">
+    <a class="brand" href="index.html">The Christening</a>
+    <nav class="site">
+      <a href="index.html">Home</a>
+      <a href="schedule.html" class="active">Schedule</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="kicker">The Weekend</div>
+  <h1>Schedule</h1>
+  <p class="deck">Everything happening across the weekend, hour by hour.</p>
+  <div class="flourish"></div>
+</section>
+
+<main>
+
+  <!-- FRIDAY -->
+  <section class="day">
+    <div class="day-head">
+      <h2>Friday</h2>
+      <span class="sub">Beforehand</span>
+    </div>
+    <ul class="timeline">
+      <li class="event">
+        <div class="time">1:45 pm</div>
+        <div class="what">Mickey sets off driving</div>
+        <div class="note">Arriving at around 6:00 pm.</div>
+      </li>
+      <li class="event">
+        <div class="time">7:30 pm</div>
+        <div class="what">Kids' bedtime</div>
+      </li>
+      <li class="event">
+        <div class="time">7:45 pm</div>
+        <div class="what">Fish and chips</div>
+      </li>
+    </ul>
+  </section>
+
+  <!-- SATURDAY -->
+  <section class="day">
+    <div class="day-head">
+      <h2>Saturday</h2>
+    </div>
+    <ul class="timeline">
+      <li class="event">
+        <div class="time">10:05 am</div>
+        <div class="what">Drive to Slimbridge</div>
+        <div class="note">Visiting the Slimbridge Wetland Centre.</div>
+      </li>
+      <li class="event">
+        <div class="time">3:00 pm</div>
+        <div class="what">Mickey picks up Emilie</div>
+        <div class="note">From Stroud train station.</div>
+      </li>
+      <li class="event">
+        <div class="time">4:30 pm</div>
+        <div class="what">Barbecue at Weaver's Cottage</div>
+      </li>
+    </ul>
+  </section>
+
+  <!-- SUNDAY -->
+  <section class="day">
+    <div class="day-head">
+      <h2>Sunday</h2>
+      <span class="sub">The 12th</span>
+    </div>
+    <ul class="timeline">
+      <li class="event">
+        <div class="time">10:10 am</div>
+        <div class="what">Arrive at Berkeley Castle car park</div>
+        <div class="note">Go past the cafe and round the back of the church.</div>
+      </li>
+      <li class="event">
+        <div class="time">11:00 am</div>
+        <div class="what">The Christening service begins</div>
+      </li>
+      <li class="event">
+        <div class="time">2:00 pm</div>
+        <div class="what">The Little Perrys drive home</div>
+      </li>
+    </ul>
+  </section>
+
+  <!-- REMINDER -->
+  <section class="reminder">
+    <div class="label">Don't forget</div>
+    <div class="items">Books <span>·</span> Cards <span>·</span> Games for the kids</div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="flourish"></div>
+  With love, for a very special day.
+</footer>
+
+</body>
+</html>
