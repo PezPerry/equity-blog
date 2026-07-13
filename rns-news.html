@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>RNS News Feed — Equity & Markets Insight</title>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+<link rel="alternate" type="application/rss+xml" title="RNS News — Equity &amp; Markets Insight" href="rns-feed.xml">
 <style>
   :root {
     --navy: #1B2A4A;
@@ -305,6 +306,33 @@
     margin: 1.25rem 0 0.5rem; padding-bottom: 0.25rem; border-bottom: 2px solid var(--gold);
   }
 
+  /* Phase 4: watchlist stars, previous-announcements timeline, sector labels */
+  .watch-star {
+    cursor: pointer; font-size: 1rem; color: var(--gold); user-select: none;
+    padding: 0 0.2rem; flex-shrink: 0;
+  }
+  .watch-star.off { color: var(--border); }
+  .watch-star:hover { transform: scale(1.2); }
+  .company-sector {
+    font-size: 0.68rem; color: var(--text-muted); background: var(--bg-light);
+    padding: 0.15rem 0.5rem; border-radius: 3px; white-space: nowrap;
+  }
+  .tl-section { margin-top: 1rem; border-top: 1px dashed var(--border); padding-top: 0.75rem; }
+  .tl-title {
+    font-size: 0.68rem; font-weight: 700; text-transform: uppercase;
+    letter-spacing: 0.08em; color: var(--text-muted); margin-bottom: 0.4rem;
+  }
+  .tl-row {
+    display: flex; gap: 0.6rem; font-size: 0.78rem; padding: 0.25rem 0;
+    color: var(--text-secondary); align-items: baseline;
+  }
+  .tl-date { color: var(--text-muted); white-space: nowrap; font-size: 0.72rem; min-width: 82px; }
+  .tl-all {
+    display: inline-block; margin-top: 0.35rem; font-size: 0.75rem; font-weight: 600;
+    color: var(--navy-mid); cursor: pointer;
+  }
+  .tl-all:hover { text-decoration: underline; }
+
   /* States */
   .loading { text-align: center; padding: 3rem; color: var(--text-muted); }
   .no-results { text-align: center; padding: 3rem; color: var(--text-muted); }
@@ -435,6 +463,8 @@
     <button class="quick-btn active" id="btnRecent" onclick="toggleDateFilter('recent')">Last 3 Days</button>
     <button class="quick-btn" id="btnToday" onclick="toggleDateFilter('today')">Today's News</button>
     <button class="quick-btn" id="btnImportant" onclick="toggleSignalFilter()">High priority</button>
+    <button class="quick-btn" id="btnGuidance" onclick="toggleGuidanceFilter()">Guidance changes</button>
+    <button class="quick-btn" id="btnWatch" onclick="toggleWatchFilter()">My companies &#9733;</button>
   </div>
 </div>
 
@@ -453,10 +483,36 @@
 
 <script>
 let allArticles = [];
-let registry = {};   // ticker -> {name, website, ir_url, announcements_url, sector}
+let registry = {};        // ticker -> {name, website, ir_url, announcements_url, sector}
+let analysisIndex = {};   // ticker -> {url} — our own analysis articles
+let companyHistory = new Map(); // company -> [articles, newest first]
 let activeDateFilter = 'recent';
 let signalFilterActive = false;
+let guidanceFilterActive = false;
+let watchFilterActive = false;
 let currentView = 'feed';
+
+/* Feed tickers sometimes differ from analysis-page tickers (trailing dots,
+   boohoo's rename to DEBS) — normalise before the join. */
+const TICKER_ALIASES = { 'BOO': 'DEBS' };
+function analysisFor(ticker) {
+  if (!ticker) return null;
+  const t = String(ticker).replace(/\.$/, '');
+  return analysisIndex[t] || analysisIndex[TICKER_ALIASES[t]] || null;
+}
+
+/* Watchlist (localStorage, by company name) */
+function getWatchlist() {
+  try { return JSON.parse(localStorage.getItem('rns_watchlist')) || []; } catch (e) { return []; }
+}
+function toggleWatch(company) {
+  let list = getWatchlist();
+  if (list.includes(company)) list = list.filter(c => c !== company);
+  else list.push(company);
+  try { localStorage.setItem('rns_watchlist', JSON.stringify(list)); } catch (e) {}
+  if (currentView === 'companies') renderCompanies();
+  renderArticles();
+}
 
 function esc(s) {
   return String(s == null ? '' : s)
@@ -563,6 +619,25 @@ function toggleSignalFilter() {
   renderArticles();
 }
 
+function toggleGuidanceFilter() {
+  guidanceFilterActive = !guidanceFilterActive;
+  if (guidanceFilterActive) { activeDateFilter = null; } // guidance changes are rare — search all history
+  document.getElementById('btnGuidance').classList.toggle('active', guidanceFilterActive);
+  document.getElementById('btnRecent').classList.toggle('active', activeDateFilter === 'recent');
+  renderArticles();
+}
+
+function hasGuidanceChange(a) {
+  const s = a.guidance && a.guidance.status;
+  return s === 'raised' || s === 'lowered' || s === 'new' || s === 'withdrawn';
+}
+
+function toggleWatchFilter() {
+  watchFilterActive = !watchFilterActive;
+  document.getElementById('btnWatch').classList.toggle('active', watchFilterActive);
+  renderArticles();
+}
+
 /* ── Date helpers ── */
 function parseDate(str) {
   if (!str) return null;
@@ -655,11 +730,29 @@ function renderNumbers(a) {
 function renderLinks(a) {
   const reg = (a.ticker && registry[a.ticker]) ? registry[a.ticker] : {};
   const links = [];
+  const analysis = analysisFor(a.ticker);
+  if (analysis) links.push(`<a class="link-pill" href="${esc(analysis.url)}" target="_blank" rel="noopener">Our analysis &#8599;</a>`);
   if (a.source_url) links.push(`<a class="link-pill" href="${esc(a.source_url)}" target="_blank" rel="noopener">Original RNS &#8599;</a>`);
   if (reg.announcements_url) links.push(`<a class="link-pill" href="${esc(reg.announcements_url)}" target="_blank" rel="noopener">Company announcements &#8599;</a>`);
   if (reg.ir_url) links.push(`<a class="link-pill" href="${esc(reg.ir_url)}" target="_blank" rel="noopener">Investor relations &#8599;</a>`);
   if (a.related_news_url) links.push(`<a class="link-pill" href="${esc(a.related_news_url)}" target="_blank" rel="noopener">Related coverage &#8599;</a>`);
   return links.length ? `<div class="link-row">${links.join('')}</div>` : '';
+}
+
+/* ── Previous announcements timeline (uses allArticles order: newest first) ── */
+function renderTimeline(a) {
+  const hist = (companyHistory.get(a.company) || []).filter(x => x._idx > a._idx).slice(0, 5);
+  if (!hist.length) return '';
+  const rows = hist.map(x => {
+    const what = plain(x.headline) || x.announcement_type || getAnnouncementType(x);
+    return `<div class="tl-row"><span class="tl-date">${formatDate(x)}</span>`
+      + `<span>${esc(String(what).length > 80 ? String(what).slice(0, 77) + '…' : what)}</span></div>`;
+  }).join('');
+  const total = (companyHistory.get(a.company) || []).length;
+  const all = total > 1
+    ? `<span class="tl-all" onclick="openCompanyInFeed('${esc(a.company).replace(/'/g, "\\'")}')">View all ${total} ${esc(a.company)} announcements &#8594;</span>`
+    : '';
+  return `<div class="tl-section"><div class="tl-title">Previous announcements</div>${rows}${all}</div>`;
 }
 
 /* ── Populate company filter ── */
@@ -713,6 +806,8 @@ function getFiltered() {
     }
     if (activeDateFilter === 'today' && iso !== today) return false;
     if (signalFilterActive && effectivePriority(a) !== 'high') return false;
+    if (guidanceFilterActive && !hasGuidanceChange(a)) return false;
+    if (watchFilterActive && !getWatchlist().includes(a.company)) return false;
     return true;
   });
 }
@@ -787,20 +882,28 @@ function renderCompanies() {
     }
     const reg = (rec.ticker && registry[rec.ticker]) ? registry[rec.ticker] : {};
     const tickerBadge = rec.ticker ? ` <span class="ticker-badge">${esc(rec.ticker)}</span>` : '';
+    const sector = reg.sector ? ` <span class="company-sector">${esc(reg.sector)}</span>` : '';
+    const watched = getWatchlist().includes(company);
+    const star = `<span class="watch-star ${watched ? '' : 'off'}" data-company="${esc(company)}" title="${watched ? 'Remove from' : 'Add to'} My companies">&#9733;</span>`;
     const latest = rec.latest
       ? new Date(rec.latest).toLocaleDateString('en-GB', { day: '2-digit', month: 'short', year: 'numeric' })
       : '';
     const links = [];
+    const analysis = analysisFor(rec.ticker);
+    if (analysis) links.push(`<a class="link-pill" href="${esc(analysis.url)}" target="_blank" rel="noopener">Our analysis &#8599;</a>`);
     if (reg.ir_url) links.push(`<a class="link-pill" href="${esc(reg.ir_url)}" target="_blank" rel="noopener">Investor relations &#8599;</a>`);
     if (reg.announcements_url) links.push(`<a class="link-pill" href="${esc(reg.announcements_url)}" target="_blank" rel="noopener">Announcements &#8599;</a>`);
     if (reg.website) links.push(`<a class="link-pill" href="${esc(reg.website)}" target="_blank" rel="noopener">Website &#8599;</a>`);
     html += `<div class="company-row">`
-      + `<div class="company-row-name" onclick="openCompanyInFeed('${esc(company).replace(/'/g, "\\'")}')">${esc(company)}${tickerBadge}</div>`
+      + star
+      + `<div class="company-row-name" onclick="openCompanyInFeed('${esc(company).replace(/'/g, "\\'")}')">${esc(company)}${tickerBadge}${sector}</div>`
       + `<div class="company-row-meta">${rec.count} announcement${rec.count === 1 ? '' : 's'}${latest ? ' · latest ' + latest : ''}</div>`
       + `<div class="company-row-links">${links.join('')}</div>`
       + `</div>`;
   }
   container.innerHTML = html;
+  container.querySelectorAll('.watch-star').forEach(el =>
+    el.addEventListener('click', e => { e.stopPropagation(); toggleWatch(el.dataset.company); }));
 }
 
 /* ── Render cards ── */
@@ -855,7 +958,7 @@ function renderArticles() {
             ${chevronSVG}
           </div>
         </div>
-        <div class="card-body">${renderBody(a)}${renderNumbers(a)}${renderLinks(a)}</div>
+        <div class="card-body">${renderBody(a)}${renderNumbers(a)}${renderLinks(a)}${renderTimeline(a)}</div>
       </div>`;
   }).join('');
 }
@@ -871,9 +974,13 @@ function resetFilters() {
   document.getElementById('dateTo').value = '';
   activeDateFilter = 'recent';
   signalFilterActive = false;
+  guidanceFilterActive = false;
+  watchFilterActive = false;
   document.getElementById('btnRecent').classList.add('active');
   document.getElementById('btnToday').classList.remove('active');
   document.getElementById('btnImportant').classList.remove('active');
+  document.getElementById('btnGuidance').classList.remove('active');
+  document.getElementById('btnWatch').classList.remove('active');
   renderArticles();
 }
 
@@ -886,23 +993,46 @@ function resetFilters() {
 });
 
 /* ── Load data ── */
+/* Deep links: rns-feed.xml and shares point at #item=<encoded added_at>. */
+function handleDeepLink() {
+  const m = location.hash.match(/^#item=(.+)$/);
+  if (!m) return;
+  let target;
+  try { target = decodeURIComponent(m[1]); } catch (e) { return; }
+  const article = allArticles.find(a => a.added_at === target);
+  if (!article) return;
+  activeDateFilter = null; // the item may be older than the default 3-day view
+  document.getElementById('btnRecent').classList.remove('active');
+  renderArticles();
+  const idx = getFiltered().indexOf(article);
+  if (idx >= 0) setTimeout(() => jumpToCard(idx), 100);
+}
+
 Promise.all([
   fetch('rns-articles.json?' + Date.now()).then(r => {
     if (!r.ok) throw new Error('HTTP ' + r.status);
     return r.json();
   }),
-  // The company registry is optional: links simply don't render without it.
-  fetch('companies.json?' + Date.now()).then(r => r.ok ? r.json() : {}).catch(() => ({}))
+  // Registry + analysis index are optional: links simply don't render without them.
+  fetch('companies.json?' + Date.now()).then(r => r.ok ? r.json() : {}).catch(() => ({})),
+  fetch('analysis-index.json?' + Date.now()).then(r => r.ok ? r.json() : {}).catch(() => ({}))
 ])
-  .then(([data, reg]) => {
+  .then(([data, reg, analysis]) => {
     registry = reg || {};
+    analysisIndex = analysis || {};
     allArticles = data.filter(a => {
       const hasBody = a.body && a.body.trim().length > 0 && !/cannot summarise/i.test(a.body);
       const hasDetails = a.details && Array.isArray(a.details) && a.details.length > 0;
       return hasBody || hasDetails;
     });
+    allArticles.forEach((a, i) => {
+      a._idx = i;
+      if (!companyHistory.has(a.company)) companyHistory.set(a.company, []);
+      companyHistory.get(a.company).push(a);
+    });
     populateCompanyFilter();
     renderArticles();
+    handleDeepLink();
   })
   .catch(err => {
     document.getElementById('articleList').innerHTML =
