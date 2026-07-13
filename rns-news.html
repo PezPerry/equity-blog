@@ -43,9 +43,22 @@
     margin: 0 auto; line-height: 1.5;
   }
 
+  /* View tabs */
+  .view-tabs {
+    max-width: 1100px; margin: 1.25rem auto 0; padding: 0 1rem;
+    display: flex; gap: 0.5rem;
+  }
+  .view-tab {
+    padding: 0.5rem 1.4rem; border: 1.5px solid var(--navy); border-radius: 20px;
+    font-family: 'DM Sans', sans-serif; font-size: 0.85rem; font-weight: 600;
+    color: var(--navy); background: var(--bg-white); cursor: pointer;
+    transition: all 0.2s;
+  }
+  .view-tab.active, .view-tab:hover { background: var(--navy); color: white; }
+
   /* Filters */
   .filters {
-    max-width: 1100px; margin: -1.5rem auto 0; padding: 0 1rem;
+    max-width: 1100px; margin: 1rem auto 0; padding: 0 1rem;
     position: relative; z-index: 10;
   }
   .filter-card {
@@ -78,8 +91,42 @@
     font-size: 0.8rem; color: var(--text-muted); padding: 0.55rem 0; white-space: nowrap; align-self: flex-end;
   }
 
-  /* Content */
-  .content { max-width: 1100px; margin: 1.5rem auto 2rem; padding: 0 1rem; }
+  /* Two-column layout: feed + right-hand priority rail */
+  .layout {
+    max-width: 1100px; margin: 1.5rem auto 2rem; padding: 0 1rem;
+    display: flex; gap: 1.25rem; align-items: flex-start;
+  }
+  .feed-main { flex: 1; min-width: 0; }
+  .rail { width: 300px; flex-shrink: 0; display: none; position: sticky; top: 1rem; }
+  @media (min-width: 1024px) { .rail { display: block; } }
+  .rail-card {
+    background: var(--bg-white); border-radius: 8px; border: 1px solid var(--border);
+    box-shadow: 0 1px 4px rgba(0,0,0,0.06); padding: 1rem 1.1rem; margin-bottom: 1rem;
+  }
+  .rail-title {
+    font-family: 'Playfair Display', serif; font-size: 1rem; color: var(--navy);
+    margin-bottom: 0.6rem;
+  }
+  .rail-group-label {
+    font-size: 0.62rem; font-weight: 700; text-transform: uppercase;
+    letter-spacing: 0.1em; color: var(--text-muted); margin: 0.6rem 0 0.3rem;
+  }
+  .glance-item {
+    display: flex; gap: 0.5rem; align-items: baseline;
+    padding: 0.35rem 0; font-size: 0.8rem; line-height: 1.4;
+    cursor: pointer; border-bottom: 1px solid rgba(226,232,240,0.5);
+  }
+  .glance-item:last-child { border-bottom: none; }
+  .glance-item:hover .glance-company { text-decoration: underline; }
+  .prio-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; position: relative; top: -1px; }
+  .prio-dot-high { background: var(--red); }
+  .prio-dot-medium { background: var(--navy); }
+  .prio-dot-low { background: var(--border); }
+  .glance-company { font-weight: 600; color: var(--navy); }
+  .glance-what { color: var(--text-secondary); }
+  .rail-legend { font-size: 0.72rem; color: var(--text-muted); line-height: 1.6; }
+  .rail-legend .prio-dot { display: inline-block; margin-right: 0.35rem; }
+  .rail-empty { font-size: 0.78rem; color: var(--text-muted); }
 
   /* Article Cards */
   .card {
@@ -104,6 +151,9 @@
     font-size: 0.65rem; font-weight: 700; padding: 0.15rem 0.45rem;
     border-radius: 3px; letter-spacing: 0.05em; font-family: monospace;
     white-space: nowrap;
+  }
+  .card-headline {
+    font-size: 0.84rem; color: var(--text-secondary); margin-top: 0.3rem; line-height: 1.45;
   }
   .card-meta {
     display: flex; align-items: center; gap: 1rem; flex-shrink: 0;
@@ -144,6 +194,60 @@
   .card-body-inner th, .card-body-inner td { padding: 0.4rem 0.6rem; border: 1px solid var(--border); text-align: left; }
   .card-body-inner th { background: var(--bg-light); font-weight: 600; color: var(--navy); }
 
+  /* "What the numbers mean" section */
+  .numbers-section {
+    margin-top: 1rem; padding: 1rem 1.1rem;
+    background: var(--bg-light); border-radius: 8px;
+    border-left: 3px solid var(--gold);
+  }
+  .numbers-title {
+    font-family: 'Playfair Display', serif; font-size: 1rem; color: var(--navy);
+    margin-bottom: 0.6rem;
+  }
+  .figures-wrap { overflow-x: auto; }
+  .figures-table {
+    width: 100%; border-collapse: collapse; font-size: 0.8rem; margin: 0.25rem 0 0.75rem;
+    background: var(--bg-white);
+  }
+  .figures-table th, .figures-table td {
+    padding: 0.4rem 0.55rem; border: 1px solid var(--border); text-align: left;
+    vertical-align: top;
+  }
+  .figures-table th {
+    background: var(--navy); color: white; font-weight: 600;
+    font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.05em;
+  }
+  .figures-table td:first-child { font-weight: 600; color: var(--navy); white-space: nowrap; }
+  .guidance-panel {
+    border-radius: 6px; padding: 0.7rem 0.9rem; margin: 0.5rem 0 0.75rem;
+    font-size: 0.82rem; line-height: 1.55; background: var(--bg-white);
+    border: 1px solid var(--border); border-left-width: 4px;
+  }
+  .guid-raised { border-left-color: var(--positive); }
+  .guid-lowered, .guid-withdrawn { border-left-color: var(--negative); }
+  .guid-maintained { border-left-color: var(--text-muted); }
+  .guid-new { border-left-color: var(--navy-mid); }
+  .guidance-status {
+    display: inline-block; font-size: 0.62rem; font-weight: 700;
+    text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 0.35rem;
+    padding: 0.15rem 0.5rem; border-radius: 3px; background: var(--bg-light); color: var(--navy);
+  }
+  .guidance-line { margin-top: 0.25rem; color: var(--text-secondary); }
+  .guidance-line span { font-weight: 600; color: var(--text-primary); }
+  .explainer-p { font-size: 0.84rem; line-height: 1.65; color: var(--text-secondary); margin-top: 0.6rem; }
+
+  /* Source / IR / related links */
+  .link-row {
+    margin-top: 0.9rem; display: flex; gap: 0.5rem; flex-wrap: wrap;
+  }
+  .link-pill {
+    display: inline-block; padding: 0.3rem 0.8rem; border-radius: 15px;
+    font-size: 0.72rem; font-weight: 600; text-decoration: none;
+    border: 1px solid var(--border); color: var(--navy-mid); background: var(--bg-white);
+    transition: all 0.2s; white-space: nowrap;
+  }
+  .link-pill:hover { border-color: var(--navy); background: var(--navy); color: white; }
+
   /* Legacy format support (details array as bullet list) */
   .legacy-details { list-style: none; padding: 0; margin: 0; }
   .legacy-details li {
@@ -181,6 +285,26 @@
   .quick-btn:hover { background: var(--navy); color: white; }
   .quick-btn.active { background: var(--navy); color: white; }
 
+  /* Companies index view */
+  .companies-view { max-width: 1100px; margin: 1.5rem auto 2rem; padding: 0 1rem; }
+  .companies-intro { font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1rem; }
+  .company-row {
+    background: var(--bg-white); border: 1px solid var(--border); border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.06); margin-bottom: 0.5rem;
+    padding: 0.75rem 1.1rem; display: flex; align-items: center; gap: 0.9rem; flex-wrap: wrap;
+  }
+  .company-row-name {
+    font-weight: 700; color: var(--navy); cursor: pointer; font-size: 0.92rem;
+    display: flex; align-items: center; gap: 0.5rem; flex: 1; min-width: 220px;
+  }
+  .company-row-name:hover { text-decoration: underline; }
+  .company-row-meta { font-size: 0.75rem; color: var(--text-muted); white-space: nowrap; }
+  .company-row-links { display: flex; gap: 0.4rem; flex-wrap: wrap; }
+  .company-letter {
+    font-family: 'Playfair Display', serif; font-size: 1.1rem; color: var(--navy);
+    margin: 1.25rem 0 0.5rem; padding-bottom: 0.25rem; border-bottom: 2px solid var(--gold);
+  }
+
   /* States */
   .loading { text-align: center; padding: 3rem; color: var(--text-muted); }
   .no-results { text-align: center; padding: 3rem; color: var(--text-muted); }
@@ -202,6 +326,7 @@
     .hero { padding: 1.5rem 1rem 1.5rem; }
     .hero h1 { font-size: 1.6rem; }
     .hero-sub { font-size: 0.82rem; }
+    .view-tabs { padding: 0 0.6rem; }
     /* Filter card: stack full-width controls (align-items must be stretch,
        not flex-end, or controls hug the right edge at natural width) */
     .filter-card {
@@ -226,7 +351,8 @@
     .filter-reset { align-self: auto; padding: 0.6rem 1.5rem; }
     .result-count { align-self: auto; padding: 0; white-space: normal; text-align: right; flex: 1; }
     .filters { padding: 0 0.6rem; }
-    .content { padding: 0 0.6rem; }
+    .layout { padding: 0 0.6rem; }
+    .companies-view { padding: 0 0.6rem; }
     /* Quick filter buttons: single row, swipe horizontally if they overflow */
     .quick-filters {
       padding: 0.75rem 0.6rem 0;
@@ -240,9 +366,12 @@
     .card-header { padding: 0.75rem 1rem; gap: 0.5rem; }
     .card-body { padding: 0 1rem 1rem; }
     .card-company { font-size: 0.9rem; }
+    .card-headline { font-size: 0.78rem; }
     .card-period { font-size: 0.72rem; }
     .period-detail { display: none; } /* type label only on small screens */
     .card-date { font-size: 0.75rem; }
+    .figures-table { font-size: 0.72rem; }
+    .figures-table th, .figures-table td { padding: 0.3rem 0.4rem; }
 
     /* Signal badges: show single letter, hide full text */
     .signal-badge { display: none; }
@@ -269,53 +398,80 @@
   <div class="hero-sub">Summarised company, regulatory and broker news from across the markets on a daily basis.</div>
 </div>
 
-<div class="filters">
-  <div class="filter-card">
-    <div class="filter-group">
-      <label for="companyFilter">Company</label>
-      <select id="companyFilter"><option value="">All Companies</option></select>
-    </div>
-    <div class="filter-group">
-      <label for="searchFilter">Search</label>
-      <input type="text" id="searchFilter" placeholder="Search articles...">
-    </div>
-    <div class="filter-dates">
-      <div class="filter-group" style="min-width:130px;">
-        <label for="dateFrom">From</label>
-        <input type="date" id="dateFrom">
+<div class="view-tabs">
+  <button class="view-tab active" id="tabFeed" onclick="switchView('feed')">News Feed</button>
+  <button class="view-tab" id="tabCompanies" onclick="switchView('companies')">Companies</button>
+</div>
+
+<div id="feedControls">
+  <div class="filters">
+    <div class="filter-card">
+      <div class="filter-group">
+        <label for="companyFilter">Company</label>
+        <select id="companyFilter"><option value="">All Companies</option></select>
       </div>
-      <div class="filter-group" style="min-width:130px;">
-        <label for="dateTo">To</label>
-        <input type="date" id="dateTo">
+      <div class="filter-group">
+        <label for="searchFilter">Search</label>
+        <input type="text" id="searchFilter" placeholder="Search articles...">
+      </div>
+      <div class="filter-dates">
+        <div class="filter-group" style="min-width:130px;">
+          <label for="dateFrom">From</label>
+          <input type="date" id="dateFrom">
+        </div>
+        <div class="filter-group" style="min-width:130px;">
+          <label for="dateTo">To</label>
+          <input type="date" id="dateTo">
+        </div>
+      </div>
+      <div class="filter-actions">
+        <button class="filter-reset" onclick="resetFilters()">Reset</button>
+        <div class="result-count" id="resultCount"></div>
       </div>
     </div>
-    <div class="filter-actions">
-      <button class="filter-reset" onclick="resetFilters()">Reset</button>
-      <div class="result-count" id="resultCount"></div>
-    </div>
+  </div>
+
+  <div class="quick-filters">
+    <button class="quick-btn active" id="btnRecent" onclick="toggleDateFilter('recent')">Last 3 Days</button>
+    <button class="quick-btn" id="btnToday" onclick="toggleDateFilter('today')">Today's News</button>
+    <button class="quick-btn" id="btnImportant" onclick="toggleSignalFilter()">High priority</button>
   </div>
 </div>
 
-<div class="quick-filters">
-  <button class="quick-btn active" id="btnRecent" onclick="toggleDateFilter('recent')">Last 3 Days</button>
-  <button class="quick-btn" id="btnToday" onclick="toggleDateFilter('today')">Today's News</button>
-  <button class="quick-btn" id="btnImportant" onclick="toggleSignalFilter()">Important</button>
+<div class="layout" id="feedLayout">
+  <div class="feed-main" id="articleList">
+    <div class="loading">Loading articles…</div>
+  </div>
+  <aside class="rail" id="railView"></aside>
 </div>
 
-<div class="content" id="articleList">
-  <div class="loading">Loading articles…</div>
-</div>
+<div class="companies-view" id="companiesView" style="display:none;"></div>
 
 <div class="disclaimer">
-  This information is sourced from publicly available regulatory announcements, broker research and company reports. It does not constitute financial advice. Always conduct your own research before making investment decisions.
+  This information is sourced from publicly available regulatory announcements, broker research and company reports. It does not constitute financial advice. Always conduct your own research before making investment decisions. Links to external sites (company investor-relations pages, original announcements and related coverage) open in a new tab and are provided for convenience.
 </div>
 
 <script>
 let allArticles = [];
+let registry = {};   // ticker -> {name, website, ir_url, announcements_url, sector}
 let activeDateFilter = 'recent';
 let signalFilterActive = false;
+let currentView = 'feed';
+
+function esc(s) {
+  return String(s == null ? '' : s)
+    .replace(/&/g, '&amp;').replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+}
+
+/* Headlines are plain text; strip any stray markdown bold the summariser adds. */
+function plain(s) {
+  return String(s == null ? '' : s).replace(/\*\*/g, '');
+}
 
 /* ── Signal classification ── */
+/* New records carry a priority assigned by the summariser that actually read
+   the announcement; classifySignal remains the fallback for older records. */
 function classifySignal(article) {
   const text = ((article.body || '') + ' ' + (article.time_period || '') + ' ' + ((article.details || []).join(' '))).toLowerCase();
   const highPatterns = [
@@ -338,6 +494,13 @@ function classifySignal(article) {
   for (const p of highPatterns) { if (p.test(text)) return 'high'; }
   for (const p of lowPatterns) { if (p.test(text)) return 'low'; }
   return 'medium';
+}
+
+function effectivePriority(article) {
+  if (article.priority === 'high' || article.priority === 'medium' || article.priority === 'low') {
+    return article.priority;
+  }
+  return classifySignal(article);
 }
 
 /* ── Auto-generate announcement type ── */
@@ -363,6 +526,27 @@ function getAnnouncementType(article) {
   if (/\b(letting|lease|tenant|sq ft|rent)\b/.test(text)) return 'Letting / property deal';
   if (/\b(operat|production|output|update)\b/.test(text)) return 'Operational update';
   return 'Regulatory announcement';
+}
+
+/* ── View switching ── */
+function switchView(v) {
+  currentView = v;
+  document.getElementById('tabFeed').classList.toggle('active', v === 'feed');
+  document.getElementById('tabCompanies').classList.toggle('active', v === 'companies');
+  document.getElementById('feedControls').style.display = v === 'feed' ? '' : 'none';
+  document.getElementById('feedLayout').style.display = v === 'feed' ? '' : 'none';
+  document.getElementById('companiesView').style.display = v === 'companies' ? '' : 'none';
+  if (v === 'companies') renderCompanies();
+}
+
+function openCompanyInFeed(company) {
+  document.getElementById('companyFilter').value = company;
+  activeDateFilter = null; // show the company's full history
+  document.getElementById('btnRecent').classList.remove('active');
+  document.getElementById('btnToday').classList.remove('active');
+  switchView('feed');
+  renderArticles();
+  window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
 /* ── Quick filter toggles ── */
@@ -426,6 +610,58 @@ function renderBody(article) {
   return '<p class="card-body-inner">No content available.</p>';
 }
 
+/* ── "What the numbers mean" (rich records only) ── */
+function renderNumbers(a) {
+  const hasFigures = Array.isArray(a.figures) && a.figures.length > 0;
+  const g = (a.guidance && typeof a.guidance === 'object') ? a.guidance : {};
+  const hasGuidance = g.status && g.status !== 'none';
+  const hasExplainer = a.explainer && String(a.explainer).trim().length > 0;
+  if (!hasFigures && !hasGuidance && !hasExplainer) return '';
+
+  let html = '<div class="numbers-section"><div class="numbers-title">What the numbers mean</div>';
+
+  if (hasFigures) {
+    html += '<div class="figures-wrap"><table class="figures-table"><thead><tr>'
+          + '<th>Metric</th><th>Current</th><th>Prior</th><th>Change</th><th>Notes</th>'
+          + '</tr></thead><tbody>';
+    for (const f of a.figures) {
+      const notes = [f.basis, f.note]
+        .filter(x => x && x !== 'reported' && x !== 'not stated').join(' · ');
+      html += `<tr><td>${esc(f.metric)}</td><td>${esc(f.current)}</td>`
+            + `<td>${esc(f.prior)}</td><td>${esc(f.change)}</td><td>${esc(notes)}</td></tr>`;
+    }
+    html += '</tbody></table></div>';
+  }
+
+  if (hasGuidance) {
+    const cls = { raised: 'guid-raised', lowered: 'guid-lowered', withdrawn: 'guid-withdrawn',
+                  maintained: 'guid-maintained', 'new': 'guid-new' }[g.status] || 'guid-maintained';
+    html += `<div class="guidance-panel ${cls}"><span class="guidance-status">Guidance ${esc(g.status)}</span>`;
+    if (g.previous) html += `<div class="guidance-line"><span>Previously:</span> ${esc(g.previous)}</div>`;
+    if (g.current) html += `<div class="guidance-line"><span>Now:</span> ${esc(g.current)}</div>`;
+    if (g.commentary) html += `<div class="guidance-line">${esc(g.commentary)}</div>`;
+    html += '</div>';
+  }
+
+  if (hasExplainer) {
+    html += String(a.explainer).trim().split(/\n\s*\n/)
+      .map(p => `<p class="explainer-p">${esc(p)}</p>`).join('');
+  }
+
+  return html + '</div>';
+}
+
+/* ── Source / IR / related-coverage links (rendered only when present) ── */
+function renderLinks(a) {
+  const reg = (a.ticker && registry[a.ticker]) ? registry[a.ticker] : {};
+  const links = [];
+  if (a.source_url) links.push(`<a class="link-pill" href="${esc(a.source_url)}" target="_blank" rel="noopener">Original RNS &#8599;</a>`);
+  if (reg.announcements_url) links.push(`<a class="link-pill" href="${esc(reg.announcements_url)}" target="_blank" rel="noopener">Company announcements &#8599;</a>`);
+  if (reg.ir_url) links.push(`<a class="link-pill" href="${esc(reg.ir_url)}" target="_blank" rel="noopener">Investor relations &#8599;</a>`);
+  if (a.related_news_url) links.push(`<a class="link-pill" href="${esc(a.related_news_url)}" target="_blank" rel="noopener">Related coverage &#8599;</a>`);
+  return links.length ? `<div class="link-row">${links.join('')}</div>` : '';
+}
+
 /* ── Populate company filter ── */
 function populateCompanyFilter() {
   const sel = document.getElementById('companyFilter');
@@ -441,7 +677,7 @@ function populateCompanyFilter() {
   sel.innerHTML = '<option value="">All Companies</option>';
   sorted.forEach(([company, ticker]) => {
     const label = ticker ? `${company} [${ticker}]` : company;
-    sel.innerHTML += `<option value="${company}">${label}</option>`;
+    sel.innerHTML += `<option value="${esc(company)}">${esc(label)}</option>`;
   });
 }
 
@@ -463,6 +699,7 @@ function getFiltered() {
       const haystack = [
         a.company, a.ticker, a.time_period,
         a.announcement_type || '',
+        a.headline || '', a.explainer || '',
         a.body || '', (a.details || []).join(' '),
         a.publish_date
       ].join(' ').toLowerCase();
@@ -475,9 +712,95 @@ function getFiltered() {
       if (iso && iso < cutoffISO) return false;
     }
     if (activeDateFilter === 'today' && iso !== today) return false;
-    if (signalFilterActive && classifySignal(a) !== 'high') return false;
+    if (signalFilterActive && effectivePriority(a) !== 'high') return false;
     return true;
   });
+}
+
+/* ── Right-hand rail: at a glance ── */
+function renderRail(filtered) {
+  const rail = document.getElementById('railView');
+  const high = [];
+  const medium = [];
+  filtered.forEach((a, i) => {
+    const p = effectivePriority(a);
+    if (p === 'high' && high.length < 8) high.push([a, i]);
+    else if (p === 'medium' && medium.length < 6) medium.push([a, i]);
+  });
+
+  const item = ([a, i]) => {
+    const what = plain(a.headline) || a.announcement_type || getAnnouncementType(a);
+    const p = effectivePriority(a);
+    return `<div class="glance-item" onclick="jumpToCard(${i})">`
+      + `<span class="prio-dot prio-dot-${p}"></span>`
+      + `<span><span class="glance-company">${esc(a.company)}</span> `
+      + `<span class="glance-what">— ${esc(String(what).length > 90 ? String(what).slice(0, 87) + '…' : what)}</span></span></div>`;
+  };
+
+  let html = '<div class="rail-card"><div class="rail-title">At a glance</div>';
+  if (!high.length && !medium.length) {
+    html += '<div class="rail-empty">No high or medium priority items in the current view.</div>';
+  } else {
+    if (high.length) html += '<div class="rail-group-label">High priority</div>' + high.map(item).join('');
+    if (medium.length) html += '<div class="rail-group-label">Medium priority</div>' + medium.map(item).join('');
+  }
+  html += '</div>';
+
+  html += '<div class="rail-card"><div class="rail-title">Priority levels</div><div class="rail-legend">'
+    + '<div><span class="prio-dot prio-dot-high"></span><strong>High</strong> — results, trading updates, guidance changes, M&amp;A, fundraisings</div>'
+    + '<div><span class="prio-dot prio-dot-medium"></span><strong>Medium</strong> — board changes, AGM statements, dividends, buyback launches, disposals</div>'
+    + '<div><span class="prio-dot prio-dot-low"></span><strong>Low</strong> — routine regulatory notifications</div>'
+    + '</div></div>';
+
+  rail.innerHTML = html;
+}
+
+function jumpToCard(i) {
+  const card = document.getElementById('card-' + i);
+  if (!card) return;
+  card.classList.add('open');
+  card.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+/* ── Companies index view ── */
+function renderCompanies() {
+  const container = document.getElementById('companiesView');
+  const byCompany = new Map();
+  allArticles.forEach(a => {
+    const key = a.company;
+    if (!byCompany.has(key)) byCompany.set(key, { ticker: a.ticker || '', count: 0, latest: '' });
+    const rec = byCompany.get(key);
+    rec.count += 1;
+    const iso = toISO(a);
+    if (iso > rec.latest) rec.latest = iso;
+  });
+
+  const sorted = [...byCompany.entries()].sort((a, b) => a[0].localeCompare(b[0]));
+  let html = `<div class="companies-intro">${sorted.length} companies covered in the feed. `
+    + `Click a company for its announcement history; external links open the company's own site.</div>`;
+  let letter = '';
+  for (const [company, rec] of sorted) {
+    const first = company.charAt(0).toUpperCase();
+    if (first !== letter) {
+      letter = first;
+      html += `<div class="company-letter">${esc(letter)}</div>`;
+    }
+    const reg = (rec.ticker && registry[rec.ticker]) ? registry[rec.ticker] : {};
+    const tickerBadge = rec.ticker ? ` <span class="ticker-badge">${esc(rec.ticker)}</span>` : '';
+    const latest = rec.latest
+      ? new Date(rec.latest).toLocaleDateString('en-GB', { day: '2-digit', month: 'short', year: 'numeric' })
+      : '';
+    const links = [];
+    if (reg.ir_url) links.push(`<a class="link-pill" href="${esc(reg.ir_url)}" target="_blank" rel="noopener">Investor relations &#8599;</a>`);
+    if (reg.announcements_url) links.push(`<a class="link-pill" href="${esc(reg.announcements_url)}" target="_blank" rel="noopener">Announcements &#8599;</a>`);
+    if (reg.website) links.push(`<a class="link-pill" href="${esc(reg.website)}" target="_blank" rel="noopener">Website &#8599;</a>`);
+    html += `<div class="company-row">`
+      + `<div class="company-row-name" onclick="openCompanyInFeed('${esc(company).replace(/'/g, "\\'")}')">${esc(company)}${tickerBadge}</div>`
+      + `<div class="company-row-meta">${rec.count} announcement${rec.count === 1 ? '' : 's'}${latest ? ' · latest ' + latest : ''}</div>`
+      + `<div class="company-row-links">${links.join('')}</div>`
+      + `</div>`;
+  }
+  container.innerHTML = html;
 }
 
 /* ── Render cards ── */
@@ -486,13 +809,15 @@ function renderArticles() {
   const container = document.getElementById('articleList');
   const countEl = document.getElementById('resultCount');
   const scopeLabel = activeDateFilter === 'recent' ? 'last 3 days' : activeDateFilter === 'today' ? 'today' : '';
-  const signalLabel = signalFilterActive ? 'important only' : '';
+  const signalLabel = signalFilterActive ? 'high priority only' : '';
   const tags = [scopeLabel, signalLabel].filter(Boolean).join(', ');
   if (activeDateFilter === 'recent') {
     countEl.innerHTML = `${filtered.length} articles` + (tags ? ` (${tags})` : '') + ` · <a href="#" onclick="toggleDateFilter('recent'); return false;" style="color:var(--navy-mid);">Show all ${allArticles.length}</a>`;
   } else {
     countEl.textContent = `${filtered.length} of ${allArticles.length} articles` + (tags ? ` (${tags})` : '');
   }
+
+  renderRail(filtered);
 
   if (!filtered.length) {
     if (activeDateFilter === 'recent') {
@@ -504,23 +829,25 @@ function renderArticles() {
   }
 
   container.innerHTML = filtered.map((a, i) => {
-    const tickerBadge = a.ticker ? `<span class="ticker-badge">${a.ticker}</span>` : '';
+    const tickerBadge = a.ticker ? `<span class="ticker-badge">${esc(a.ticker)}</span>` : '';
     // Prefer the type classified at processing time (with workings stored in
     // the database); fall back to keyword matching for older records.
     const announcementType = a.announcement_type || getAnnouncementType(a);
     const detail = (a.announcement_type && a.period_detail && a.period_detail !== announcementType)
-      ? ` <span class="period-detail">&middot; ${a.period_detail}</span>` : '';
-    const period = `<div class="card-period">${announcementType}${detail}</div>`;
-    const signal = classifySignal(a);
+      ? ` <span class="period-detail">&middot; ${esc(a.period_detail)}</span>` : '';
+    const period = `<div class="card-period">${esc(announcementType)}${detail}</div>`;
+    const headline = a.headline ? `<div class="card-headline">${esc(plain(a.headline))}</div>` : '';
+    const signal = effectivePriority(a);
     const signalLabels = { high: 'High', medium: 'Medium', low: 'Low' };
     const signalShortLabels = { high: 'H', medium: 'M', low: 'L' };
-    const signalBadge = `<span class="signal-badge signal-${signal}">${signalLabels[signal]}</span><span class="signal-short signal-short-${signal}">${signalShortLabels[signal]}</span>`;
+    const signalBadge = `<span class="signal-badge signal-${signal}" title="${a.priority_reason ? esc(a.priority_reason) : ''}">${signalLabels[signal]}</span><span class="signal-short signal-short-${signal}">${signalShortLabels[signal]}</span>`;
     return `
       <div class="card" id="card-${i}">
         <div class="card-header" onclick="toggleCard(${i})">
           <div class="card-title-area">
-            <div class="card-company">${a.company} ${tickerBadge}</div>
+            <div class="card-company">${esc(a.company)} ${tickerBadge}</div>
             ${period}
+            ${headline}
           </div>
           <div class="card-meta">
             ${signalBadge}
@@ -528,7 +855,7 @@ function renderArticles() {
             ${chevronSVG}
           </div>
         </div>
-        <div class="card-body">${renderBody(a)}</div>
+        <div class="card-body">${renderBody(a)}${renderNumbers(a)}${renderLinks(a)}</div>
       </div>`;
   }).join('');
 }
@@ -559,12 +886,16 @@ function resetFilters() {
 });
 
 /* ── Load data ── */
-fetch('rns-articles.json?' + Date.now())
-  .then(r => {
+Promise.all([
+  fetch('rns-articles.json?' + Date.now()).then(r => {
     if (!r.ok) throw new Error('HTTP ' + r.status);
     return r.json();
-  })
-  .then(data => {
+  }),
+  // The company registry is optional: links simply don't render without it.
+  fetch('companies.json?' + Date.now()).then(r => r.ok ? r.json() : {}).catch(() => ({}))
+])
+  .then(([data, reg]) => {
+    registry = reg || {};
     allArticles = data.filter(a => {
       const hasBody = a.body && a.body.trim().length > 0 && !/cannot summarise/i.test(a.body);
       const hasDetails = a.details && Array.isArray(a.details) && a.details.length > 0;
