@@ -1,5 +1,31 @@
 [
   {
+    "company": "boohoo Group PLC",
+    "ticker": "BOO",
+    "publish_date": "14 July 2026",
+    "date_iso": "2026-07-14",
+    "time_period": "Trading through June and July 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "Trading through June and July 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Debenhams Group</strong> (formerly <strong>Boohoo Group</strong>) reports <strong>continued positive trading</strong> through <strong>June and July</strong>, ahead of today's AGM, per CEO <strong>Dan Finley</strong>.</li><li><strong>GMV</strong> continues to grow <strong>year on year</strong>, <strong>margins are up</strong> and <strong>returns are down</strong>; hot weather especially benefited the <strong>Debenhams</strong> brand.</li><li>Cites <strong>two upgrades to guidance in nine months</strong>; <strong>PLT</strong> (Young Fashion) returned to <strong>growth and profitability</strong>.</li><li>Expects <strong>net debt materially lower</strong> this year via improved trading and sale of remaining non-core property assets; committed to reducing it <strong>below 1x Adjusted EBITDA</strong> by <strong>year ending Feb-27</strong>.</li><li>Flags <strong>much better conversion of Adjusted EBITDA to reported EBITDA and operating profit</strong> as transformation costs pass — a feature of <strong>H1 results</strong>.</li><li>Medium-term ambition for <strong>Debenhams</strong> to be a <strong>£multi-billion GMV</strong> business with <strong>£100m+ EBITDA</strong>; <strong>H1 update due September</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Debenhams Group reports continued positive trading through June and July, with GMV growing year on year, margins up and returns down.",
+    "priority": "high",
+    "priority_reason": "Pre-AGM trading update with continued GMV growth, margin gains and a firm net-debt reduction commitment.",
+    "figures": [],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Two upgrades to guidance over the prior nine months",
+      "current": "Net debt expected materially lower this year; committed to below 1x Adjusted EBITDA by the year ending Feb-27, with potential to eliminate debt via brand licensing and disposals",
+      "commentary": "No new numeric upgrade in this statement; it reaffirms the positive trajectory after two recent upgrades and sets a clear net-debt reduction commitment. The group signals better earnings conversion as transformation costs recede, to be evident in H1 results."
+    },
+    "explainer": "This is a pre-AGM trading statement rather than a full results release, so it contains directional commentary but no hard numbers to compare against last year. GMV (gross merchandise value — the total value of goods sold across the platform) is said to be growing year on year, with higher margins and lower returns, but the company does not print the actual figures, so none can be quoted here.\n\nThe group, recently renamed from Boohoo to Debenhams Group, is mid-turnaround. It references two guidance upgrades in the past nine months but does not issue a fresh upgrade today; instead it reaffirms momentum and sets a net-debt target of below 1x Adjusted EBITDA by the financial year ending February 2027, aided by property disposals and possible brand licensing or business sales.\n\nManagement also flags that reported EBITDA and operating profit should convert much better from Adjusted EBITDA this year as the one-off transformation costs fall away — a point to watch in the H1 results due in September. Adjusted EBITDA strips out such exceptional items, so the gap between the two measures narrowing indicates the cost of the restructuring is largely behind the business.",
+    "source_url": "https://uk.advfn.com/stock-market/london/boohoo-DEBS/share-news/Boohoo-Group-Plc-Continued-Positive-Trading/98912446",
+    "related_news_url": "https://news.google.com/search?q=%22Debenhams%20Group%20plc%20(formerly%20Boohoo%20Group%20Plc)%22",
+    "added_at": "2026-07-14T07:27:13.691639"
+  },
+  {
     "company": "Workspace Group PLC",
     "ticker": "WKP",
     "publish_date": "13 July 2026",
