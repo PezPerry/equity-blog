@@ -1,5 +1,31 @@
 [
   {
+    "company": "Babcock International Group PLC",
+    "ticker": "BAB",
+    "publish_date": "14 July 2026",
+    "date_iso": "2026-07-14",
+    "time_period": "",
+    "announcement_type": "Financing / refinancing",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Babcock International Group PLC</strong> admitted <strong>£250,000,000 5.125% Notes due 2031</strong> to trading on the <strong>London Stock Exchange</strong> main market on <strong>14 July 2026</strong>.</li><li>Notes issued under the group's <strong>£3,000,000,000 Euro Medium Term Note Programme</strong> (ISIN: XS3437585022), per final terms dated <strong>10 July 2026</strong>.</li><li>Routine admission-to-trading notice tied to a debt issuance; <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Babcock admits £250m 5.125% notes due 2031 to trading on the London Stock Exchange main market under its £3bn EMTN programme.",
+    "priority": "medium",
+    "priority_reason": "Debt financing event: a new £250m bond admitted to trading, relevant to the group's funding profile but routine in mechanics.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/babcock-international-group--bab/admission-to-trading/9668348",
+    "related_news_url": "https://news.google.com/search?q=%22Babcock%20International%20Group%20PLC%22",
+    "added_at": "2026-07-14T13:55:40.686005"
+  },
+  {
     "company": "Londonmetric Property PLC",
     "ticker": "LMP",
     "publish_date": "14 July 2026",
