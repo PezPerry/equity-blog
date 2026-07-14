@@ -1,5 +1,90 @@
 [
   {
+    "company": "Great Portland Estates PLC",
+    "ticker": "GPE",
+    "publish_date": "14 July 2026",
+    "date_iso": "2026-07-14",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>GPE</strong> hosted its inaugural 'Seeing is Believing' event at <strong>30 Duke Street, St James's</strong>, showcasing circular building practices under the <strong>'Circularity in Practice'</strong> initiative — a sustainability/PR update with <strong>no impact</strong> on trading or guidance.</li><li>Claimed industry firsts at 30 Duke Street: <strong>450 tonnes</strong> of reused structural steel (plus <strong>400+ tonnes</strong> returned to market), recycled aluminium window frames, recycled glass facade and <strong>21 tonnes</strong> of reused Portland stone.</li><li>The building is <strong>fully pre-let</strong> ahead of practical completion following a new headlease with <strong>The Crown Estate</strong>.</li><li>Across three schemes (2 Aldermanbury Square, 30 Duke Street, The Delft), GPE cites over <strong>500 tonnes</strong> of steel reused and <strong>45 tonnes</strong> of recycled aluminium used.</li></ul>",
+    "source_format": "html",
+    "headline": "GPE showcases circular-economy 'industry firsts' at its 30 Duke Street development, which is fully pre-let to The Crown Estate ahead of completion.",
+    "priority": "low",
+    "priority_reason": "Sustainability/PR announcement on circular-economy building practices with no financial or trading impact.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/great-portland-estates--gpe/gpe-sets-standard-for-materials-reuse/9666682",
+    "related_news_url": "https://news.google.com/search?q=%22Great%20Portland%20Estates%20plc%22",
+    "added_at": "2026-07-14T07:30:41.731079"
+  },
+  {
+    "company": "Ashmore Group PLC",
+    "ticker": "ASHM",
+    "publish_date": "14 July 2026",
+    "date_iso": "2026-07-14",
+    "time_period": "Q4 FY26 (quarter ending 30 June 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "Q4 FY26 (quarter ending 30 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Ashmore Group plc</strong> reported <strong>AuM up US$3.3bn (7%)</strong> over the quarter to <strong>30 June 2026</strong>, comprising <strong>positive investment performance of US$2.0bn</strong> and <strong>net inflows of US$1.3bn</strong>.</li><li>Net inflows spread across <strong>local currency, equities, blended and corporate debt</strong>; redemptions fell sharply versus the prior quarter, though a <strong>net outflow in external debt</strong> persisted on a few institutional redemptions.</li><li>EM fixed income indices rose <strong>2%–5%</strong> and the large-cap equity index gained a notable <strong>24%</strong>; proportion of AuM outperforming benchmarks broadly consistent with 31 December.</li><li>CEO <strong>Mark Coombs</strong> cited EM resilience after the <strong>Strait of Hormuz</strong> closure and oil-price spike, and a supportive forward macro backdrop for emerging markets.</li><li>Local currency AuM includes <strong>US$9.8bn</strong> in overlay/liquidity strategies (<strong>31 March 2026: US$8.9bn</strong>).</li><li>Full-year results for the year to <strong>30 June 2026</strong> due on <strong>7 September 2026</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Ashmore's AuM rose US$3.3bn (7%) in Q4 to reflect positive investment performance of US$2.0bn and net inflows of US$1.3bn.",
+    "priority": "high",
+    "priority_reason": "Quarterly AuM trading statement with fund-flow and performance data ahead of full-year results.",
+    "figures": [
+      {
+        "metric": "Total AuM change",
+        "current": "+US$3.3bn (+7%)",
+        "prior": "not stated",
+        "change": "+7%",
+        "basis": "quarter ending 30 June 2026",
+        "note": "US$2.0bn performance + US$1.3bn net inflows"
+      },
+      {
+        "metric": "Investment performance",
+        "current": "+US$2.0bn",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "Q4 FY26",
+        "note": ""
+      },
+      {
+        "metric": "Net inflows",
+        "current": "+US$1.3bn",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "Q4 FY26",
+        "note": "net outflow in external debt theme"
+      },
+      {
+        "metric": "Overlay/liquidity AuM (within local currency)",
+        "current": "US$9.8bn",
+        "prior": "US$8.9bn",
+        "change": "not stated",
+        "basis": "31 Mar 2026 comparative",
+        "note": ""
+      }
+    ],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "This is Ashmore's fourth-quarter assets under management (AuM) statement — a routine flows-and-performance update rather than full results. AuM is the pool of client money Ashmore manages and earns fees on, so growth here signals higher future revenue. The US$3.3bn rise splits into two parts: US$2.0bn of investment performance (markets going up) and US$1.3bn of net inflows (new client money in, minus withdrawals). Net inflows are the more telling figure because they reflect client demand rather than market moves.\n\nThe announcement notes flows were positive across most strategies but that the external debt theme still saw a net outflow due to a small number of institutional redemptions — a mixed but improving picture, as overall redemptions fell sharply versus the prior quarter.\n\nAshmore reports in US dollars because it is an emerging-markets manager, but as a UK-listed firm its accounts translate into sterling; the statement flags the GBP:USD rates used (1.3273 spot at 30 June, 1.3419 average for the year), which affect reported revenue and balance-sheet values. No profit or revenue figures are given here — those come with full-year results on 7 September 2026. The company issued no formal earnings guidance.",
+    "source_url": "https://uk.advfn.com/stock-market/london/ashmore-ASHM/share-news/Ashmore-Group-PLC-Trading-Statement/98912420",
+    "related_news_url": "https://news.google.com/search?q=%22Ashmore%20Group%20plc%22",
+    "added_at": "2026-07-14T07:30:41.711199"
+  },
+  {
     "company": "The British Land Company PLC",
     "ticker": "BLND",
     "publish_date": "14 July 2026",
