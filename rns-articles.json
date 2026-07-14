@@ -1,5 +1,31 @@
 [
   {
+    "company": "Investec PLC",
+    "ticker": "INVP",
+    "publish_date": "14 July 2026",
+    "date_iso": "2026-07-14",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>Investec plc</strong> and <strong>Investec Limited</strong> Share Incentive Plans 2021 acquired ordinary shares on-market to satisfy plan obligations to participants — a routine disclosure with <strong>no impact</strong> on trading or guidance.</li><li><strong>Investec plc</strong> shares: <strong>100,000</strong> at <strong>GBP 6.1040</strong> (8 July), <strong>100,000</strong> at <strong>GBP 6.0921</strong> (9 July) and <strong>317,020</strong> at <strong>GBP 6.0903</strong> (10 July).</li><li><strong>Investec Limited</strong> shares acquired on <strong>9-10 July</strong> at prices between <strong>ZAR 88.57</strong> and <strong>ZAR 131.67</strong>; prior clearance to deal was obtained.</li></ul>",
+    "source_format": "html",
+    "headline": "Investec's Share Incentive Plans made routine on-market purchases of Investec plc and Investec Limited shares between 8 and 10 July 2026.",
+    "priority": "low",
+    "priority_reason": "Routine on-market share purchases to satisfy employee share incentive plans, with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/investec--invp/share-scheme-purchases/9668632",
+    "related_news_url": "https://news.google.com/search?q=%22Investec%20plc%22",
+    "added_at": "2026-07-14T15:55:41.443112"
+  },
+  {
     "company": "Compass Group PLC",
     "ticker": "CPG",
     "publish_date": "14 July 2026",
