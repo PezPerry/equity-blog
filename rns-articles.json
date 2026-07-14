@@ -1,5 +1,31 @@
 [
   {
+    "company": "Next PLC",
+    "ticker": "NXT",
+    "publish_date": "14 July 2026",
+    "date_iso": "2026-07-14",
+    "time_period": "",
+    "announcement_type": "Additional listing",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Next 15 Group plc</strong> has applied to admit <strong>424,414 new ordinary shares</strong> (2.5p each) to <strong>AIM</strong>, with admission expected by <strong>16 July 2026</strong>.</li><li>Shares issued as consideration for the vesting of long-term incentives relating to <strong>M. Booth & Associates LLC</strong>; they will rank pari passu with existing shares.</li><li>Total shares in issue will rise to <strong>101,860,099</strong>, with no shares held in treasury — a routine disclosure with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Next 15 seeks AIM admission for 424,414 new ordinary shares issued for long-term incentive vesting, lifting the share count to 101,860,099.",
+    "priority": "low",
+    "priority_reason": "Routine AIM admission of a small tranche of shares issued for incentive vesting, with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/bzw/next-15-group--nfg/additional-listing/9667976",
+    "related_news_url": "https://news.google.com/search?q=%22Next%2015%20Group%20plc%22",
+    "added_at": "2026-07-14T11:35:34.870340"
+  },
+  {
     "company": "Old Mutual Ltd",
     "ticker": "OMU",
     "publish_date": "14 July 2026",
