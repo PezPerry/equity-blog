@@ -248,6 +248,10 @@
     transition: all 0.2s; white-space: nowrap;
   }
   .link-pill:hover { border-color: var(--navy); background: var(--navy); color: white; }
+  .next-chip {
+    border-color: var(--gold); color: var(--text-secondary); cursor: default;
+  }
+  .next-chip:hover { background: var(--bg-white); color: var(--text-secondary); border-color: var(--gold); }
 
   /* Legacy format support (details array as bullet list) */
   .legacy-details { list-style: none; padding: 0; margin: 0; }
@@ -429,6 +433,7 @@
 <div class="view-tabs">
   <button class="view-tab active" id="tabFeed" onclick="switchView('feed')">News Feed</button>
   <button class="view-tab" id="tabCompanies" onclick="switchView('companies')">Companies</button>
+  <a class="view-tab" href="guidance-tracker.html" style="text-decoration:none; display:inline-block;">Guidance Tracker &#8599;</a>
 </div>
 
 <div id="feedControls">
@@ -437,6 +442,10 @@
       <div class="filter-group">
         <label for="companyFilter">Company</label>
         <select id="companyFilter"><option value="">All Companies</option></select>
+      </div>
+      <div class="filter-group">
+        <label for="sectorFilter">Sector</label>
+        <select id="sectorFilter"><option value="">All Sectors</option></select>
       </div>
       <div class="filter-group">
         <label for="searchFilter">Search</label>
@@ -482,9 +491,22 @@
 </div>
 
 <script>
+/* Privacy-light analytics (GoatCounter). Off until a site code is set —
+   create the free account at goatcounter.com, then put the site code here
+   (e.g. 'equityinsight') and the counter script loads; no cookies, GDPR-safe. */
+const GOATCOUNTER_SITE = '';
+if (GOATCOUNTER_SITE) {
+  const gc = document.createElement('script');
+  gc.async = true;
+  gc.dataset.goatcounter = 'https://' + GOATCOUNTER_SITE + '.goatcounter.com/count';
+  gc.src = '//gc.zgo.at/count.js';
+  document.head.appendChild(gc);
+}
+
 let allArticles = [];
-let registry = {};        // ticker -> {name, website, ir_url, announcements_url, sector}
+let registry = {};        // ticker -> {name, website, ir_url, announcements_url, sector, sector_group}
 let analysisIndex = {};   // ticker -> {url} — our own analysis articles
+let calendarIndex = {};   // ticker -> {date, event} — next upcoming calendar event
 let companyHistory = new Map(); // company -> [articles, newest first]
 let activeDateFilter = 'recent';
 let signalFilterActive = false;
@@ -499,6 +521,15 @@ function analysisFor(ticker) {
   if (!ticker) return null;
   const t = String(ticker).replace(/\.$/, '');
   return analysisIndex[t] || analysisIndex[TICKER_ALIASES[t]] || null;
+}
+
+/* Next upcoming calendar event for a ticker (calendar-index.json, Phase 4) */
+function nextEventFor(ticker) {
+  const ev = ticker && calendarIndex[ticker];
+  if (!ev || !ev.date) return null;
+  const d = parseDate(ev.date);
+  if (!d) return null;
+  return `${ev.event} · ${d.toLocaleDateString('en-GB', { day: '2-digit', month: 'short' })}`;
 }
 
 /* Watchlist (localStorage, by company name) */
@@ -736,6 +767,8 @@ function renderLinks(a) {
   if (reg.announcements_url) links.push(`<a class="link-pill" href="${esc(reg.announcements_url)}" target="_blank" rel="noopener">Company announcements &#8599;</a>`);
   if (reg.ir_url) links.push(`<a class="link-pill" href="${esc(reg.ir_url)}" target="_blank" rel="noopener">Investor relations &#8599;</a>`);
   if (a.related_news_url) links.push(`<a class="link-pill" href="${esc(a.related_news_url)}" target="_blank" rel="noopener">Related coverage &#8599;</a>`);
+  const next = nextEventFor(a.ticker);
+  if (next) links.push(`<span class="link-pill next-chip">Next: ${esc(next)}</span>`);
   return links.length ? `<div class="link-row">${links.join('')}</div>` : '';
 }
 
@@ -774,9 +807,24 @@ function populateCompanyFilter() {
   });
 }
 
+/* ── Sector filter (12 groups applied to the registry, Phase 4) ── */
+function sectorGroupOf(a) {
+  const t = a.ticker && String(a.ticker);
+  return (t && registry[t] && registry[t].sector_group) || '';
+}
+
+function populateSectorFilter() {
+  const sel = document.getElementById('sectorFilter');
+  const groups = new Set();
+  allArticles.forEach(a => { const g = sectorGroupOf(a); if (g) groups.add(g); });
+  sel.innerHTML = '<option value="">All Sectors</option>';
+  [...groups].sort().forEach(g => { sel.innerHTML += `<option value="${esc(g)}">${esc(g)}</option>`; });
+}
+
 /* ── Filter logic ── */
 function getFiltered() {
   const company = document.getElementById('companyFilter').value;
+  const sector = document.getElementById('sectorFilter').value;
   const search = document.getElementById('searchFilter').value.toLowerCase().trim();
   const from = document.getElementById('dateFrom').value;
   const to = document.getElementById('dateTo').value;
@@ -785,6 +833,7 @@ function getFiltered() {
 
   return allArticles.filter(a => {
     if (company && a.company !== company) return false;
+    if (sector && sectorGroupOf(a) !== sector) return false;
     const iso = toISO(a);
     if (from && iso && iso < from) return false;
     if (to && iso && iso > to) return false;
@@ -897,7 +946,7 @@ function renderCompanies() {
     html += `<div class="company-row">`
       + star
       + `<div class="company-row-name" onclick="openCompanyInFeed('${esc(company).replace(/'/g, "\\'")}')">${esc(company)}${tickerBadge}${sector}</div>`
-      + `<div class="company-row-meta">${rec.count} announcement${rec.count === 1 ? '' : 's'}${latest ? ' · latest ' + latest : ''}</div>`
+      + `<div class="company-row-meta">${rec.count} announcement${rec.count === 1 ? '' : 's'}${latest ? ' · latest ' + latest : ''}${nextEventFor(rec.ticker) ? ' · <strong>next: ' + esc(nextEventFor(rec.ticker)) + '</strong>' : ''}</div>`
       + `<div class="company-row-links">${links.join('')}</div>`
       + `</div>`;
   }
@@ -969,6 +1018,7 @@ function toggleCard(i) {
 
 function resetFilters() {
   document.getElementById('companyFilter').value = '';
+  document.getElementById('sectorFilter').value = '';
   document.getElementById('searchFilter').value = '';
   document.getElementById('dateFrom').value = '';
   document.getElementById('dateTo').value = '';
@@ -985,7 +1035,7 @@ function resetFilters() {
 }
 
 /* ── Event listeners ── */
-['companyFilter', 'searchFilter', 'dateFrom', 'dateTo'].forEach(id => {
+['companyFilter', 'sectorFilter', 'searchFilter', 'dateFrom', 'dateTo'].forEach(id => {
   document.getElementById(id).addEventListener(
     id === 'searchFilter' ? 'input' : 'change',
     renderArticles
@@ -1015,11 +1065,13 @@ Promise.all([
   }),
   // Registry + analysis index are optional: links simply don't render without them.
   fetch('companies.json?' + Date.now()).then(r => r.ok ? r.json() : {}).catch(() => ({})),
-  fetch('analysis-index.json?' + Date.now()).then(r => r.ok ? r.json() : {}).catch(() => ({}))
+  fetch('analysis-index.json?' + Date.now()).then(r => r.ok ? r.json() : {}).catch(() => ({})),
+  fetch('calendar-index.json?' + Date.now()).then(r => r.ok ? r.json() : {}).catch(() => ({}))
 ])
-  .then(([data, reg, analysis]) => {
+  .then(([data, reg, analysis, cal]) => {
     registry = reg || {};
     analysisIndex = analysis || {};
+    calendarIndex = (cal && cal.by_ticker) || {};
     allArticles = data.filter(a => {
       const hasBody = a.body && a.body.trim().length > 0 && !/cannot summarise/i.test(a.body);
       const hasDetails = a.details && Array.isArray(a.details) && a.details.length > 0;
@@ -1031,6 +1083,7 @@ Promise.all([
       companyHistory.get(a.company).push(a);
     });
     populateCompanyFilter();
+    populateSectorFilter();
     renderArticles();
     handleDeepLink();
   })

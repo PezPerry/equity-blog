@@ -3,1522 +3,1749 @@
   "name": "Anglo American PLC",
   "website": "https://www.angloamerican.com/",
   "ir_url": "https://www.angloamerican.com/investors",
-  "sector": "Mining"
+  "sector": "Mining",
+  "sector_group": "Energy & Mining"
  },
  "AAPL": {
   "name": "Apple Inc",
   "website": "https://www.apple.com",
   "ir_url": "https://investor.apple.com",
-  "sector": "Consumer technology"
+  "sector": "Consumer technology",
+  "sector_group": "Technology & Media"
  },
  "ABDN": {
   "name": "Aberdeen Group PLC",
   "website": "https://www.aberdeenplc.com/en-gb",
   "ir_url": "https://www.aberdeenplc.com/en-gb/investors",
   "announcements_url": "https://www.aberdeenplc.com/en-gb/investors/regulatory-news-and-company-insights",
-  "sector": "Asset management"
+  "sector": "Asset management",
+  "sector_group": "Financials"
  },
  "ABF": {
   "name": "Associated British Foods PLC",
   "website": "https://www.abf.co.uk/",
   "ir_url": "https://www.abf.co.uk/investors",
   "announcements_url": "https://www.abf.co.uk/investors/regulatory-news",
-  "sector": "Food & retail conglomerate"
+  "sector": "Food & retail conglomerate",
+  "sector_group": "Food & Beverages"
  },
  "ADBE": {
   "name": "Adobe Inc",
   "website": "https://www.adobe.com/",
   "ir_url": "https://www.adobe.com/investor-relations.html",
-  "sector": "Software"
+  "sector": "Software",
+  "sector_group": "Technology & Media"
  },
  "ADM": {
   "name": "Admiral Group PLC",
   "website": "https://admiralgroup.co.uk/",
   "ir_url": "https://admiralgroup.co.uk/investor-relations/overview",
   "announcements_url": "https://admiralgroup.co.uk/investor-relations/regulatory-news-feed",
-  "sector": "Insurance"
+  "sector": "Insurance",
+  "sector_group": "Insurance"
  },
  "AJB": {
   "name": "AJ Bell PLC",
   "website": "https://www.ajbell.co.uk/",
   "ir_url": "https://www.ajbell.co.uk/group/investor-relations",
   "announcements_url": "https://www.ajbell.co.uk/group/investor-relations/market-announcements",
-  "sector": "Investment platform"
+  "sector": "Investment platform",
+  "sector_group": "Financials"
  },
  "AML": {
   "name": "Aston Martin Lagonda Global Holdings PLC",
   "website": "https://www.astonmartin.com/en/corporate/",
   "ir_url": "https://www.astonmartin.com/en/corporate/investors",
   "announcements_url": "https://www.astonmartin.com/en/corporate/investors/regulatory-news",
-  "sector": "Luxury automotive"
+  "sector": "Luxury automotive",
+  "sector_group": "Consumer & Retail"
  },
  "ANTO": {
   "name": "Antofagasta PLC",
   "website": "https://www.antofagasta.co.uk",
   "ir_url": "https://www.antofagasta.co.uk/investors/",
   "announcements_url": "https://www.antofagasta.co.uk/investors/news/",
-  "sector": "Copper mining"
+  "sector": "Copper mining",
+  "sector_group": "Energy & Mining"
  },
  "AO.": {
   "name": "AO World PLC",
   "website": "https://www.ao-world.com",
   "ir_url": "https://www.ao-world.com/investor-centre/",
   "announcements_url": "https://www.ao-world.com/investor-centre/regulatory-announcements/",
-  "sector": "Online retail"
+  "sector": "Online retail",
+  "sector_group": "Consumer & Retail"
  },
  "API": {
   "name": "Abrdn Property Income Trust Ltd",
   "website": "https://www.aberdeeninvestments.com/en-gb/apit",
   "ir_url": "https://www.aberdeeninvestments.com/en-gb/apit",
   "announcements_url": "https://www.aberdeeninvestments.com/en-gb/apit/news-and-insights/news",
-  "sector": "Commercial property REIT"
+  "sector": "Commercial property REIT",
+  "sector_group": "Property & REITs"
  },
  "ASC": {
   "name": "ASOS PLC",
   "website": "https://www.asosplc.com/",
   "ir_url": "https://www.asosplc.com/investors/",
   "announcements_url": "https://www.asosplc.com/investors/regulatory-news/",
-  "sector": "Online Retail"
+  "sector": "Online Retail",
+  "sector_group": "Consumer & Retail"
  },
  "ASHM": {
   "name": "Ashmore Group PLC",
   "website": "https://www.ashmoregroup.com",
   "ir_url": "https://ir.ashmoregroup.com/",
   "announcements_url": "https://ir.ashmoregroup.com/regulatory-news",
-  "sector": "Emerging markets asset management"
+  "sector": "Emerging markets asset management",
+  "sector_group": "Financials"
  },
  "ATG": {
   "name": "Auction Technology Group PLC",
   "website": "https://www.auctiontechnologygroup.com",
   "ir_url": "https://www.auctiontechnologygroup.com/investors/",
   "announcements_url": "https://www.auctiontechnologygroup.com/investors/regulatory-news/",
-  "sector": "Online marketplaces"
+  "sector": "Online marketplaces",
+  "sector_group": "Consumer & Retail"
  },
  "BAB": {
   "name": "Babcock International Group PLC",
   "website": "https://www.babcockinternational.com",
   "ir_url": "https://www.babcockinternational.com/investors/",
   "announcements_url": "https://www.babcockinternational.com/investors/regulatory-news/",
-  "sector": "Defence & engineering"
+  "sector": "Defence & engineering",
+  "sector_group": "Industrials & Engineering"
  },
  "BARC": {
   "name": "Barclays PLC",
   "website": "https://home.barclays/",
   "ir_url": "https://home.barclays/investor-relations/",
-  "sector": "Banks"
+  "sector": "Banks",
+  "sector_group": "Financials"
  },
  "BBCP": {
   "name": "Concrete Pumping Holdings Inc",
   "website": "https://www.concretepumpingholdings.com",
   "ir_url": "https://ir.concretepumpingholdings.com/",
   "announcements_url": "https://ir.concretepumpingholdings.com/press-releases",
-  "sector": "Concrete pumping services"
+  "sector": "Concrete pumping services",
+  "sector_group": "Housebuilding & Construction"
  },
  "BBOX": {
   "name": "Tritax Big Box REIT PLC",
   "website": "https://www.tritaxbigbox.co.uk/",
   "ir_url": "https://www.tritaxbigbox.co.uk/investors/",
   "announcements_url": "https://www.tritaxbigbox.co.uk/investors/regulatory-news/",
-  "sector": "Logistics REIT"
+  "sector": "Logistics REIT",
+  "sector_group": "Property & REITs"
  },
  "BBY": {
   "name": "Balfour Beatty PLC",
   "website": "https://www.balfourbeatty.com/",
   "ir_url": "https://www.balfourbeatty.com/investors/",
   "announcements_url": "https://www.balfourbeatty.com/media-centre/rns/",
-  "sector": "Infrastructure & construction"
+  "sector": "Infrastructure & construction",
+  "sector_group": "Housebuilding & Construction"
  },
  "BEZ": {
   "name": "Beazley PLC",
   "website": "https://www.beazley.com/",
   "ir_url": "https://www.beazley.com/en/investor-relations/",
-  "sector": "Specialty insurance"
+  "sector": "Specialty insurance",
+  "sector_group": "Insurance"
  },
  "BGEO": {
   "name": "Lion Finance Group PLC",
   "website": "https://lionfinancegroup.uk",
   "ir_url": "https://lionfinancegroup.uk/investor-information/",
   "announcements_url": "https://lionfinancegroup.uk/news/regulatory-announcements/",
-  "sector": "Banking"
+  "sector": "Banking",
+  "sector_group": "Financials"
  },
  "BHP": {
   "name": "BHP Group Ltd",
   "website": "https://www.bhp.com",
   "ir_url": "https://www.bhp.com/investor-hub",
   "announcements_url": "https://www.bhp.com/investor-hub/market-announcements",
-  "sector": "Mining"
+  "sector": "Mining",
+  "sector_group": "Energy & Mining"
  },
  "BKG": {
   "name": "Berkeley Group Holdings PLC",
   "website": "https://www.berkeleygroup.co.uk/",
   "ir_url": "https://www.berkeleygroup.co.uk/investors",
   "announcements_url": "https://www.berkeleygroup.co.uk/investors/regulatory-news",
-  "sector": "Housebuilding"
+  "sector": "Housebuilding",
+  "sector_group": "Housebuilding & Construction"
  },
  "BLND": {
   "name": "British Land Co PLC",
   "website": "https://www.britishland.com/",
   "ir_url": "https://www.britishland.com/investors",
   "announcements_url": "https://www.britishland.com/investors/regulatory-news",
-  "sector": "Commercial property REIT"
+  "sector": "Commercial property REIT",
+  "sector_group": "Property & REITs"
  },
  "BOO": {
   "name": "boohoo Group PLC (trading as Debenhams Group)",
   "website": "https://www.debenhamsgroup.com/",
   "ir_url": "https://www.debenhamsgroup.com/investors",
   "announcements_url": "https://www.debenhamsgroup.com/investors/regulatory-news",
-  "sector": "Online fashion retail"
+  "sector": "Online fashion retail",
+  "sector_group": "Consumer & Retail"
  },
  "BOWL": {
   "name": "Hollywood Bowl Group PLC",
   "website": "https://www.hollywoodbowlgroup.com/",
   "ir_url": "https://www.hollywoodbowlgroup.com/investors/",
   "announcements_url": "https://www.hollywoodbowlgroup.com/investors/regulatory-news/",
-  "sector": "Leisure (ten-pin bowling)"
+  "sector": "Leisure (ten-pin bowling)",
+  "sector_group": "Travel & Leisure"
  },
  "BP.": {
   "name": "BP PLC",
   "website": "https://www.bp.com/",
   "ir_url": "https://www.bp.com/en/global/corporate/investors.html",
-  "sector": "Oil & Gas"
+  "sector": "Oil & Gas",
+  "sector_group": "Energy & Mining"
  },
  "BPT": {
   "name": "Bridgepoint Group PLC",
   "website": "https://www.bridgepointgroup.com/",
   "ir_url": "https://www.bridgepointgroup.com/shareholders",
   "announcements_url": "https://www.bridgepointgroup.com/shareholders/shareholder-centre/regulatory-news",
-  "sector": "Private markets asset management"
+  "sector": "Private markets asset management",
+  "sector_group": "Financials"
  },
  "BRBY": {
   "name": "Burberry Group PLC",
   "website": "https://www.burberryplc.com/",
   "ir_url": "https://www.burberryplc.com/investors",
   "announcements_url": "https://www.burberryplc.com/investors/regulatory-news",
-  "sector": "Luxury goods"
+  "sector": "Luxury goods",
+  "sector_group": "Consumer & Retail"
  },
  "BT.A": {
   "name": "BT Group PLC",
   "website": "https://www.bt.com/about",
   "ir_url": "https://www.bt.com/about/investors",
   "announcements_url": "https://www.bt.com/about/investors/financial-reporting-and-news",
-  "sector": "Telecommunications"
+  "sector": "Telecommunications",
+  "sector_group": "Technology & Media"
  },
  "BTRW": {
   "name": "Barratt Redrow PLC",
   "website": "https://www.barrattredrow.co.uk",
   "ir_url": "https://www.barrattredrow.co.uk/investors",
   "announcements_url": "https://www.barrattredrow.co.uk/investors/regulatory-news-service-feed",
-  "sector": "Housebuilding"
+  "sector": "Housebuilding",
+  "sector_group": "Housebuilding & Construction"
  },
  "BWY": {
   "name": "Bellway PLC",
   "website": "https://www.bellwayplc.co.uk/",
   "ir_url": "https://www.bellwayplc.co.uk/investor-centre",
   "announcements_url": "https://www.bellwayplc.co.uk/investor-centre/regulatory-news",
-  "sector": "Housebuilding"
+  "sector": "Housebuilding",
+  "sector_group": "Housebuilding & Construction"
  },
  "BYG": {
   "name": "Big Yellow Group PLC",
   "website": "https://corporate.bigyellow.co.uk/",
   "ir_url": "https://corporate.bigyellow.co.uk/investors",
   "announcements_url": "https://corporate.bigyellow.co.uk/investors/regulatory-news",
-  "sector": "Self-storage REIT"
+  "sector": "Self-storage REIT",
+  "sector_group": "Property & REITs"
  },
  "CACC": {
   "name": "Credit Acceptance Corp",
   "website": "https://www.creditacceptance.com",
   "ir_url": "https://www.ir.creditacceptance.com",
-  "sector": "Auto finance"
+  "sector": "Auto finance",
+  "sector_group": "Financials"
  },
  "CARD": {
   "name": "Card Factory PLC",
   "website": "https://www.cardfactory.co.uk",
   "ir_url": "https://www.cardfactoryinvestors.com/investors/",
   "announcements_url": "https://www.cardfactoryinvestors.com/investors/regulatory-news/",
-  "sector": "Greeting cards retail"
+  "sector": "Greeting cards retail",
+  "sector_group": "Consumer & Retail"
  },
  "CBG": {
   "name": "Close Brothers Group PLC",
   "website": "https://www.closebrothers.com/",
   "ir_url": "https://www.closebrothers.com/investor-relations",
   "announcements_url": "https://www.closebrothers.com/investor-relations/company-information/regulatory-news",
-  "sector": "Specialist banking"
+  "sector": "Specialist banking",
+  "sector_group": "Financials"
  },
  "CCL": {
   "name": "Carnival PLC",
   "website": "https://www.carnivalcorp.com/",
   "ir_url": "https://www.carnivalcorp.com/investors/",
-  "sector": "Cruise / leisure travel"
+  "sector": "Cruise / leisure travel",
+  "sector_group": "Travel & Leisure"
  },
  "CKN": {
   "name": "Clarkson PLC",
   "website": "https://www.clarksons.com",
   "ir_url": "https://www.clarksons.com/home/investors/",
   "announcements_url": "https://www.clarksons.com/home/investors/regulatory-news/",
-  "sector": "Shipping services"
+  "sector": "Shipping services",
+  "sector_group": "Industrials & Engineering"
  },
  "CLI": {
   "name": "CLS Holdings PLC",
   "website": "https://clsholdings.com/",
   "ir_url": "https://clsholdings.com/investors/",
   "announcements_url": "https://clsholdings.com/investors/regulatory-news",
-  "sector": "Commercial property"
+  "sector": "Commercial property",
+  "sector_group": "Property & REITs"
  },
  "CMCL": {
   "name": "Caledonia Mining Corporation Plc",
   "website": "https://www.caledoniamining.com",
   "ir_url": "https://www.caledoniamining.com/investors/",
   "announcements_url": "https://www.caledoniamining.com/investors/regulatory-news-alerts/",
-  "sector": "Gold mining"
+  "sector": "Gold mining",
+  "sector_group": "Energy & Mining"
  },
  "CMCX": {
   "name": "CMC Markets PLC",
   "website": "https://www.cmcmarkets.com/group/",
   "ir_url": "https://www.cmcmarkets.com/group/investors",
   "announcements_url": "https://www.cmcmarkets.com/group/investors/regulatory-news",
-  "sector": "Online trading platform"
+  "sector": "Online trading platform",
+  "sector_group": "Financials"
  },
  "CME": {
   "name": "CME Group Inc",
   "website": "https://www.cmegroup.com/",
   "ir_url": "https://investor.cmegroup.com/",
-  "sector": "Exchanges & clearing"
+  "sector": "Exchanges & clearing",
+  "sector_group": "Financials"
  },
  "CNE": {
   "name": "Capricorn Energy PLC",
   "website": "https://www.capricornenergy.com/",
   "ir_url": "https://www.capricornenergy.com/investors/",
   "announcements_url": "https://www.capricornenergy.com/investors/regulatory-news/",
-  "sector": "Oil & Gas"
+  "sector": "Oil & Gas",
+  "sector_group": "Energy & Mining"
  },
  "COST": {
   "name": "Costain Group PLC",
   "website": "https://costain.com/",
   "ir_url": "https://costain.com/investors/",
   "announcements_url": "https://costain.com/investors/regulatory-news/",
-  "sector": "Infrastructure construction & engineering"
+  "sector": "Infrastructure construction & engineering",
+  "sector_group": "Housebuilding & Construction"
  },
  "CPG": {
   "name": "Compass Group PLC",
   "website": "https://www.compass-group.com/",
   "ir_url": "https://www.compass-group.com/en/investors.html",
-  "sector": "Contract catering"
+  "sector": "Contract catering",
+  "sector_group": "Food & Beverages"
  },
  "CRDA": {
   "name": "Croda International PLC",
   "website": "https://www.croda.com/",
   "ir_url": "https://www.croda.com/en-gb/investors",
   "announcements_url": "https://www.croda.com/en-gb/investors/regulatory-news",
-  "sector": "Speciality chemicals"
+  "sector": "Speciality chemicals",
+  "sector_group": "Industrials & Engineering"
  },
  "CRN": {
   "name": "Cairn Homes PLC",
   "website": "https://www.cairnhomes.com/",
   "ir_url": "https://www.cairnhomes.com/investors/",
-  "sector": "Housebuilding (Ireland)"
+  "sector": "Housebuilding (Ireland)",
+  "sector_group": "Housebuilding & Construction"
  },
  "CRST": {
   "name": "Crest Nicholson Holdings Ltd",
   "website": "https://www.crestnicholson.com",
   "ir_url": "https://corporate.crestnicholson.com/investors",
   "announcements_url": "https://corporate.crestnicholson.com/investors/regulatory-news/",
-  "sector": "Housebuilding"
+  "sector": "Housebuilding",
+  "sector_group": "Housebuilding & Construction"
  },
  "CURY": {
   "name": "Currys PLC",
   "website": "https://www.currysplc.com",
   "ir_url": "https://www.currysplc.com/investors/",
   "announcements_url": "https://www.currysplc.com/investors/regulatory-news/",
-  "sector": "Electricals retail"
+  "sector": "Electricals retail",
+  "sector_group": "Consumer & Retail"
  },
  "DAR": {
   "name": "Dar Global PLC",
   "website": "https://darglobal.co.uk/",
   "ir_url": "https://darglobal.co.uk/investor",
-  "sector": "Real estate development"
+  "sector": "Real estate development",
+  "sector_group": "Property & REITs"
  },
  "DBX": {
   "name": "DropBox Inc",
   "website": "https://www.dropbox.com/",
   "ir_url": "https://investors.dropbox.com/",
-  "sector": "Cloud software"
+  "sector": "Cloud software",
+  "sector_group": "Technology & Media"
  },
  "DFS": {
   "name": "DFS Furniture PLC",
   "website": "https://www.dfscorporate.co.uk/",
   "ir_url": "https://www.dfscorporate.co.uk/investors/",
   "announcements_url": "https://www.dfscorporate.co.uk/investors/regulatory-news/",
-  "sector": "Furniture retail"
+  "sector": "Furniture retail",
+  "sector_group": "Consumer & Retail"
  },
  "DGE": {
   "name": "Diageo PLC",
   "website": "https://www.diageo.com/",
   "ir_url": "https://www.diageo.com/en/investors",
   "announcements_url": "https://www.diageo.com/en/investors/regulatory-filings/rns",
-  "sector": "Beverages (spirits & beer)"
+  "sector": "Beverages (spirits & beer)",
+  "sector_group": "Food & Beverages"
  },
  "DGICA": {
   "name": "Donegal Group Inc",
   "website": "https://www.donegalgroup.com/",
   "ir_url": "https://investors.donegalgroup.com/",
-  "sector": "Property & casualty insurance"
+  "sector": "Property & casualty insurance",
+  "sector_group": "Insurance"
  },
  "DLN": {
   "name": "Derwent London PLC",
   "website": "https://www.derwentlondon.com",
   "ir_url": "https://www.derwentlondon.com/investors",
   "announcements_url": "https://www.derwentlondon.com/investors/news/regulatory-news",
-  "sector": "Real estate (London office REIT)"
+  "sector": "Real estate (London office REIT)",
+  "sector_group": "Property & REITs"
  },
  "DMLP": {
   "name": "Dorchester Minerals LP",
   "website": "https://www.dmlp.net/",
   "ir_url": "https://www.dmlp.net/",
   "announcements_url": "https://www.dmlp.net/news-events/news-releases",
-  "sector": "Oil & gas royalties"
+  "sector": "Oil & gas royalties",
+  "sector_group": "Energy & Mining"
  },
  "DNLM": {
   "name": "Dunelm Group PLC",
   "website": "https://www.dunelm.com",
   "ir_url": "https://corporate.dunelm.com/investors/",
   "announcements_url": "https://corporate.dunelm.com/investors/regulatory-news/",
-  "sector": "Homewares retail"
+  "sector": "Homewares retail",
+  "sector_group": "Consumer & Retail"
  },
  "DOM": {
   "name": "Domino's Pizza Group PLC",
   "website": "https://corporate.dominos.co.uk",
   "ir_url": "https://investors.dominos.co.uk/investors/overview",
   "announcements_url": "https://investors.dominos.co.uk/investors/news/regulatory-news",
-  "sector": "Quick-service food"
+  "sector": "Quick-service food",
+  "sector_group": "Food & Beverages"
  },
  "EBAY": {
   "name": "eBay Inc",
   "website": "https://www.ebayinc.com/",
   "ir_url": "https://investors.ebayinc.com/",
-  "sector": "E-commerce marketplace"
+  "sector": "E-commerce marketplace",
+  "sector_group": "Consumer & Retail"
  },
  "EMG": {
   "name": "Man Group PLC",
   "website": "https://www.man.com/",
   "ir_url": "https://www.man.com/shareholder-relations",
-  "sector": "Asset management"
+  "sector": "Asset management",
+  "sector_group": "Financials"
  },
  "EXPN": {
   "name": "Experian PLC",
   "website": "https://www.experianplc.com/",
   "ir_url": "https://www.experianplc.com/investors",
   "announcements_url": "https://www.experianplc.com/investors/investor-news-alerts/regulatory-news",
-  "sector": "Data & Analytics"
+  "sector": "Data & Analytics",
+  "sector_group": "Technology & Media"
  },
  "EZJ": {
   "name": "easyJet PLC",
   "website": "https://corporate.easyjet.com/",
   "ir_url": "https://corporate.easyjet.com/investors",
   "announcements_url": "https://corporate.easyjet.com/investors/regulatory-news/default.aspx",
-  "sector": "Airlines"
+  "sector": "Airlines",
+  "sector_group": "Travel & Leisure"
  },
  "FCFS": {
   "name": "FirstCash Inc",
   "website": "https://www.firstcash.com",
-  "sector": "Pawnbroking & consumer finance"
+  "sector": "Pawnbroking & consumer finance",
+  "sector_group": "Financials"
  },
  "FEVR": {
   "name": "Fevertree Drinks PLC",
   "website": "https://fever-tree.com",
   "ir_url": "https://investors.fever-tree.com/",
   "announcements_url": "https://investors.fever-tree.com/regulatory-news",
-  "sector": "Beverages (drinks mixers)"
+  "sector": "Beverages (drinks mixers)",
+  "sector_group": "Food & Beverages"
  },
  "FGP": {
   "name": "FirstGroup PLC",
   "website": "https://www.firstgroupplc.com/",
   "ir_url": "https://www.firstgroupplc.com/investors.aspx",
   "announcements_url": "https://www.firstgroupplc.com/investors/regulatory-announcements.aspx",
-  "sector": "Public transport"
+  "sector": "Public transport",
+  "sector_group": "Travel & Leisure"
  },
  "FORT": {
   "name": "Forterra PLC",
   "website": "https://www.forterra.co.uk",
   "ir_url": "https://www.forterra.co.uk/investors/",
   "announcements_url": "https://www.forterra.co.uk/investors/regulatory-news/",
-  "sector": "Building products"
+  "sector": "Building products",
+  "sector_group": "Housebuilding & Construction"
  },
  "FOXT": {
   "name": "Foxtons Group PLC",
   "website": "https://www.foxtonsgroup.co.uk/",
   "ir_url": "https://www.foxtonsgroup.co.uk/investor-relations",
   "announcements_url": "https://www.foxtonsgroup.co.uk/investor-relations/regulatory-news",
-  "sector": "Real estate agency"
+  "sector": "Real estate agency",
+  "sector_group": "Property & REITs"
  },
  "FRAN": {
   "name": "Franchise Brands PLC",
   "website": "https://franchisebrands.co.uk/",
   "ir_url": "https://franchisebrands.co.uk/investors/",
   "announcements_url": "https://franchisebrands.co.uk/investor-information/regulatory-announcements/",
-  "sector": "Franchising (B2B services)"
+  "sector": "Franchising (B2B services)",
+  "sector_group": "Industrials & Engineering"
  },
  "FRAS": {
   "name": "Frasers Group PLC",
   "website": "https://frasers.group",
   "ir_url": "https://frasers.group/financials",
   "announcements_url": "https://frasers.group/financials/regulatory-news",
-  "sector": "Retail"
+  "sector": "Retail",
+  "sector_group": "Consumer & Retail"
  },
  "FXPO": {
   "name": "Ferrexpo PLC",
   "website": "https://www.ferrexpo.com/",
   "ir_url": "https://www.ferrexpo.com/investors/",
   "announcements_url": "https://www.ferrexpo.com/investors/regulatory-news-service-rns/",
-  "sector": "Iron ore mining"
+  "sector": "Iron ore mining",
+  "sector_group": "Energy & Mining"
  },
  "GFRD": {
   "name": "Galliford Try Holdings PLC",
   "website": "https://www.gallifordtry.co.uk",
   "ir_url": "https://www.gallifordtry.co.uk/investors/",
   "announcements_url": "https://www.gallifordtry.co.uk/investors/regulatory-news/",
-  "sector": "Construction"
+  "sector": "Construction",
+  "sector_group": "Housebuilding & Construction"
  },
  "GLDD#1": {
   "name": "Great Lakes Dredge & Dock Corp",
   "website": "https://www.gldd.com",
-  "sector": "Dredging & marine construction"
+  "sector": "Dredging & marine construction",
+  "sector_group": "Housebuilding & Construction"
  },
  "GLE": {
   "name": "MJ Gleeson PLC",
   "website": "https://www.mjgleesonplc.com",
   "ir_url": "https://www.mjgleesonplc.com/investors/investors",
   "announcements_url": "https://www.mjgleesonplc.com/investors/regulatory-news",
-  "sector": "Housebuilding"
+  "sector": "Housebuilding",
+  "sector_group": "Housebuilding & Construction"
  },
  "GLEN": {
   "name": "Glencore PLC",
   "website": "https://www.glencore.com",
   "ir_url": "https://www.glencore.com/investors",
   "announcements_url": "https://www.glencore.com/investors/regulatory-announcements",
-  "sector": "Mining & commodities trading"
+  "sector": "Mining & commodities trading",
+  "sector_group": "Energy & Mining"
  },
  "GLNG": {
   "name": "Golar LNG Ltd",
   "website": "https://www.golarlng.com",
   "ir_url": "https://www.golarlng.com/investors.aspx",
   "announcements_url": "https://www.golarlng.com/investors/press-releases.aspx",
-  "sector": "LNG shipping & infrastructure"
+  "sector": "LNG shipping & infrastructure",
+  "sector_group": "Energy & Mining"
  },
  "GLPI": {
   "name": "Gaming and Leisure Properties Inc",
   "website": "https://www.glpropinc.com",
-  "sector": "Gaming REIT"
+  "sector": "Gaming REIT",
+  "sector_group": "Property & REITs"
  },
  "GLV": {
   "name": "Glenveagh Properties PLC",
   "website": "https://www.glenveagh.ie/",
   "ir_url": "https://www.glenveagh.ie/corporate/investors",
-  "sector": "Housebuilding (Ireland)"
+  "sector": "Housebuilding (Ireland)",
+  "sector_group": "Housebuilding & Construction"
  },
  "GPE": {
   "name": "Great Portland Estates PLC",
   "website": "https://www.gpe.co.uk/",
   "ir_url": "https://www.gpe.co.uk/investors",
   "announcements_url": "https://www.gpe.co.uk/news-media/regulatory-news/",
-  "sector": "REIT"
+  "sector": "REIT",
+  "sector_group": "Property & REITs"
  },
  "GRG": {
   "name": "Greggs PLC",
   "website": "https://corporate.greggs.co.uk/",
   "ir_url": "https://corporate.greggs.co.uk/investors",
   "announcements_url": "https://corporate.greggs.co.uk/investors/results-and-regulatory-news",
-  "sector": "Food-on-the-go retail"
+  "sector": "Food-on-the-go retail",
+  "sector_group": "Food & Beverages"
  },
  "GRI": {
   "name": "Grainger PLC",
   "website": "https://www.graingerplc.co.uk",
   "ir_url": "https://corporate.graingerplc.co.uk/investors",
   "announcements_url": "https://corporate.graingerplc.co.uk/investors/rns",
-  "sector": "Residential landlord (build-to-rent)"
+  "sector": "Residential landlord (build-to-rent)",
+  "sector_group": "Property & REITs"
  },
  "GRR": {
   "name": "Greatland Resources Ltd",
   "website": "https://www.greatland.com.au/",
   "ir_url": "https://www.greatland.com.au/investors/",
   "announcements_url": "https://www.greatland.com.au/investors/announcements/",
-  "sector": "Gold Mining"
+  "sector": "Gold Mining",
+  "sector_group": "Energy & Mining"
  },
  "GSF": {
   "name": "Gore Street Energy Storage Fund PLC",
   "website": "https://www.gsenergystoragefund.com",
   "ir_url": "https://www.gsenergystoragefund.com/content/investors/share-price.asp",
   "announcements_url": "https://www.gsenergystoragefund.com/content/news/corporate-news.asp",
-  "sector": "Energy storage fund"
+  "sector": "Energy storage fund",
+  "sector_group": "Energy & Mining"
  },
  "GSHD": {
   "name": "Goosehead Insurance Inc",
   "website": "https://www.goosehead.com/",
   "ir_url": "https://ir.gooseheadinsurance.com/",
-  "sector": "Insurance brokerage"
+  "sector": "Insurance brokerage",
+  "sector_group": "Insurance"
  },
  "GYM": {
   "name": "The Gym Group PLC",
   "website": "https://www.tggplc.com",
   "ir_url": "https://www.tggplc.com/investors/",
   "announcements_url": "https://www.tggplc.com/investors/regulatory-news/",
-  "sector": "Health & fitness"
+  "sector": "Health & fitness",
+  "sector_group": "Travel & Leisure"
  },
  "HBR": {
   "name": "Harbour Energy PLC",
   "website": "https://www.harbourenergy.com/",
   "ir_url": "https://www.harbourenergy.com/investors/",
   "announcements_url": "https://www.harbourenergy.com/investors/regulatory-news/",
-  "sector": "Oil & Gas"
+  "sector": "Oil & Gas",
+  "sector_group": "Energy & Mining"
  },
  "HFD": {
   "name": "Halfords Group PLC",
   "website": "https://www.halfordscompany.com",
   "ir_url": "https://www.halfordscompany.com/investors/",
   "announcements_url": "https://www.halfordscompany.com/investors/rns/",
-  "sector": "Automotive & cycling retail"
+  "sector": "Automotive & cycling retail",
+  "sector_group": "Consumer & Retail"
  },
  "HFG": {
   "name": "Hilton Food Group PLC",
   "website": "https://www.hiltonfoods.com/",
   "ir_url": "https://www.hiltonfoods.com/investors/",
   "announcements_url": "https://www.hiltonfoods.com/investors/regulatory-news/",
-  "sector": "Food packing & protein supply"
+  "sector": "Food packing & protein supply",
+  "sector_group": "Food & Beverages"
  },
  "HILS": {
   "name": "Hill & Smith PLC",
   "website": "https://hsgroup.com/",
   "ir_url": "https://hsgroup.com/investors/reports-and-presentations/",
   "announcements_url": "https://hsgroup.com/investors/regulatory-news/",
-  "sector": "Infrastructure products & galvanizing"
+  "sector": "Infrastructure products & galvanizing",
+  "sector_group": "Housebuilding & Construction"
  },
  "HLCL": {
   "name": "Helical PLC",
   "website": "https://www.helical.co.uk/",
   "ir_url": "https://www.helical.co.uk/investors/",
-  "sector": "London office property"
+  "sector": "London office property",
+  "sector_group": "Property & REITs"
  },
  "HMSO": {
   "name": "Hammerson PLC",
   "website": "https://www.hammerson.com/",
   "ir_url": "https://www.hammerson.com/investors",
   "announcements_url": "https://www.hammerson.com/investors/regulatory-news",
-  "sector": "Retail property REIT"
+  "sector": "Retail property REIT",
+  "sector_group": "Property & REITs"
  },
  "HOC": {
   "name": "Hochschild Mining PLC",
   "website": "https://www.hochschildmining.com",
   "ir_url": "https://www.hochschildmining.com/investors/",
   "announcements_url": "https://www.hochschildmining.com/investors/regulatory-news/",
-  "sector": "Precious metals mining"
+  "sector": "Precious metals mining",
+  "sector_group": "Energy & Mining"
  },
  "HPK": {
   "name": "HighPeak Energy Inc",
   "website": "https://www.highpeakenergy.com/",
   "ir_url": "https://ir.highpeakenergy.com/",
-  "sector": "Oil & gas exploration"
+  "sector": "Oil & gas exploration",
+  "sector_group": "Energy & Mining"
  },
  "HSBA": {
   "name": "HSBC Holdings PLC",
   "website": "https://www.hsbc.com",
   "ir_url": "https://www.hsbc.com/investors",
   "announcements_url": "https://www.hsbc.com/investors/results-and-announcements/stock-exchange-announcements",
-  "sector": "Banking"
+  "sector": "Banking",
+  "sector_group": "Financials"
  },
  "HSX": {
   "name": "Hiscox Ltd",
   "website": "https://www.hiscoxgroup.com",
   "ir_url": "https://www.hiscoxgroup.com/investors",
   "announcements_url": "https://www.hiscoxgroup.com/investors/regulatory-news",
-  "sector": "Insurance"
+  "sector": "Insurance",
+  "sector_group": "Insurance"
  },
  "HTG": {
   "name": "Hunting PLC",
   "website": "https://www.huntingplc.com/",
   "ir_url": "https://huntingplc.com/investors",
   "announcements_url": "https://huntingplc.com/investors/news-and-filings",
-  "sector": "Energy services & equipment"
+  "sector": "Energy services & equipment",
+  "sector_group": "Energy & Mining"
  },
  "HWDN": {
   "name": "Howden Joinery Group PLC",
   "website": "https://www.howdenjoinerygroupplc.com/",
   "ir_url": "https://www.howdenjoinerygroupplc.com/investors",
   "announcements_url": "https://www.howdenjoinerygroupplc.com/investors/regulatory-news.asp",
-  "sector": "Kitchens & joinery supply"
+  "sector": "Kitchens & joinery supply",
+  "sector_group": "Housebuilding & Construction"
  },
  "HWG": {
   "name": "Harworth Group PLC",
   "website": "https://harworthgroup.com/",
   "ir_url": "https://harworthgroup.com/investors/",
   "announcements_url": "https://harworthgroup.com/investors/regulatory-news/",
-  "sector": "Land regeneration & property"
+  "sector": "Land regeneration & property",
+  "sector_group": "Property & REITs"
  },
  "IAG": {
   "name": "International Consolidated Airlines Group SA",
   "website": "https://www.iairgroup.com/",
   "ir_url": "https://www.iairgroup.com/investors-and-shareholders/",
   "announcements_url": "https://www.iairgroup.com/investors-and-shareholders/regulatory-announcements/",
-  "sector": "Airlines"
+  "sector": "Airlines",
+  "sector_group": "Travel & Leisure"
  },
  "IBKR": {
   "name": "Interactive Brokers Group Inc",
   "ir_url": "https://investors.interactivebrokers.com/",
-  "sector": "Electronic brokerage"
+  "sector": "Electronic brokerage",
+  "sector_group": "Financials"
  },
  "IBST": {
   "name": "Ibstock PLC",
   "website": "https://www.ibstock.co.uk/",
   "ir_url": "https://www.ibstock.co.uk/investors",
   "announcements_url": "https://www.ibstock.co.uk/investors/regulatory-news",
-  "sector": "Building products (bricks)"
+  "sector": "Building products (bricks)",
+  "sector_group": "Housebuilding & Construction"
  },
  "ICG": {
   "name": "ICG PLC",
   "website": "https://www.icgam.com/",
   "ir_url": "https://www.icgam.com/shareholders-and-debtholders/",
   "announcements_url": "https://www.icgam.com/shareholders-and-debtholders/regulatory-news/",
-  "sector": "Alternative asset management"
+  "sector": "Alternative asset management",
+  "sector_group": "Financials"
  },
  "IGG": {
   "name": "IG Group Holdings PLC",
   "website": "https://www.iggroup.com",
   "ir_url": "https://www.iggroup.com/investor-relations",
   "announcements_url": "https://www.iggroup.com/investor-relations/regulatory-news",
-  "sector": "Trading platforms"
+  "sector": "Trading platforms",
+  "sector_group": "Financials"
  },
  "IHG": {
   "name": "InterContinental Hotels Group PLC",
   "website": "https://www.ihgplc.com",
   "ir_url": "https://www.ihgplc.com/en/investors",
   "announcements_url": "https://www.ihgplc.com/en/news-and-media/news-releases?tab=rns",
-  "sector": "Hotels & resorts"
+  "sector": "Hotels & resorts",
+  "sector_group": "Travel & Leisure"
  },
  "IHP": {
   "name": "IntegraFin Holdings PLC",
   "website": "https://www.integrafin.co.uk/",
   "ir_url": "https://www.integrafin.co.uk/investors/",
   "announcements_url": "https://www.integrafin.co.uk/investors/regulatory-news/",
-  "sector": "Investment platform"
+  "sector": "Investment platform",
+  "sector_group": "Financials"
  },
  "INTC": {
   "name": "Intel Corp",
   "website": "https://www.intel.com/",
   "ir_url": "https://www.intc.com/",
-  "sector": "Semiconductors"
+  "sector": "Semiconductors",
+  "sector_group": "Technology & Media"
  },
  "INVP": {
   "name": "Investec PLC",
   "website": "https://www.investec.com/en_gb.html",
   "ir_url": "https://www.investec.com/en_gb/welcome-to-investec/investor-relations.html",
   "announcements_url": "https://www.investec.com/en_gb/welcome-to-investec/about-us/investor-relations/presentations-and-announcements/announcements.html",
-  "sector": "Banking & wealth management"
+  "sector": "Banking & wealth management",
+  "sector_group": "Financials"
  },
  "IPO": {
   "name": "IP Group PLC",
   "website": "https://www.ipgroupplc.com",
   "ir_url": "https://www.ipgroupplc.com/investors",
   "announcements_url": "https://www.ipgroupplc.com/investors/regulatory-news",
-  "sector": "Science & technology investment"
+  "sector": "Science & technology investment",
+  "sector_group": "Financials"
  },
  "ISRG": {
   "name": "Intuitive Surgical Inc",
   "website": "https://www.intuitive.com/",
   "ir_url": "https://isrg.intuitive.com/",
-  "sector": "Medical devices (robotic surgery)"
+  "sector": "Medical devices (robotic surgery)",
+  "sector_group": "Healthcare"
  },
  "IWG": {
   "name": "International Workplace Group PLC",
   "website": "https://www.iwgplc.com/",
   "ir_url": "https://www.iwgplc.com/en-gb/investor-relations",
   "announcements_url": "https://investors.iwgplc.com/regulatory-news",
-  "sector": "Flexible workspace"
+  "sector": "Flexible workspace",
+  "sector_group": "Property & REITs"
  },
  "JD": {
   "name": "JD.com Inc",
   "website": "https://corporate.jd.com/",
   "ir_url": "https://ir.jd.com/",
-  "sector": "E-commerce"
+  "sector": "E-commerce",
+  "sector_group": "Consumer & Retail"
  },
  "JD.": {
   "name": "JD Sports Fashion PLC",
   "website": "https://www.jdplc.com",
   "ir_url": "https://www.jdplc.com/investor-relations/ir-overview/default.aspx",
   "announcements_url": "https://www.jdplc.com/investor-relations/regulatory-news/default.aspx",
-  "sector": "Sportswear retail"
+  "sector": "Sportswear retail",
+  "sector_group": "Consumer & Retail"
  },
  "JDW": {
   "name": "Wetherspoon (JD) PLC",
   "website": "https://www.jdwetherspoon.com/",
   "ir_url": "https://www.investors.jdwetherspoon.com/",
   "announcements_url": "https://www.investors.jdwetherspoon.com/regulatory-news",
-  "sector": "Pubs & hospitality"
+  "sector": "Pubs & hospitality",
+  "sector_group": "Travel & Leisure"
  },
  "JET2": {
   "name": "Jet2 PLC",
   "website": "https://www.jet2plc.com/",
   "ir_url": "https://www.jet2plc.com/en/investor-centre",
   "announcements_url": "https://www.jet2plc.com/en/regulatory-news",
-  "sector": "Airline & package holidays"
+  "sector": "Airline & package holidays",
+  "sector_group": "Travel & Leisure"
  },
  "JLP": {
   "name": "Jubilee Metals Group PLC",
   "website": "https://jubileemetalsgroup.com",
   "ir_url": "https://jubileemetalsgroup.com/shareholder-information/",
   "announcements_url": "https://jubileemetalsgroup.com/rns-news/",
-  "sector": "Metals recovery & processing"
+  "sector": "Metals recovery & processing",
+  "sector_group": "Energy & Mining"
  },
  "JMAT": {
   "name": "Johnson Matthey PLC",
   "website": "https://matthey.com",
   "ir_url": "https://matthey.com/investors",
   "announcements_url": "https://matthey.com/investors/regulatory-news",
-  "sector": "Speciality chemicals"
+  "sector": "Speciality chemicals",
+  "sector_group": "Industrials & Engineering"
  },
  "JSG": {
   "name": "Johnson Service Group PLC",
   "website": "https://www.jsg.com/",
   "ir_url": "https://www.jsg.com/investor-relations/",
   "announcements_url": "https://www.jsg.com/investor-relations/regulatory-news/",
-  "sector": "Textile rental services"
+  "sector": "Textile rental services",
+  "sector_group": "Industrials & Engineering"
  },
  "JUST": {
   "name": "Just Group PLC",
   "website": "https://www.justgroupplc.co.uk/",
   "ir_url": "https://www.justgroupplc.co.uk/financial-information",
   "announcements_url": "https://www.justgroupplc.co.uk/financial-information/rns-announcements",
-  "sector": "Retirement financial services"
+  "sector": "Retirement financial services",
+  "sector_group": "Financials"
  },
  "KGF": {
   "name": "Kingfisher PLC",
   "website": "https://www.kingfisher.com/",
   "ir_url": "https://www.kingfisher.com/investors",
   "announcements_url": "https://www.kingfisher.com/investors/regulatory-news/regulatory-news",
-  "sector": "Home improvement retail"
+  "sector": "Home improvement retail",
+  "sector_group": "Consumer & Retail"
  },
  "KIE": {
   "name": "Kier Group PLC",
   "website": "https://www.kier.co.uk",
   "ir_url": "https://www.kier.co.uk/investors/",
   "announcements_url": "https://www.kier.co.uk/investors/regulatory-news/",
-  "sector": "Construction & infrastructure"
+  "sector": "Construction & infrastructure",
+  "sector_group": "Housebuilding & Construction"
  },
  "KLR": {
   "name": "Keller Group PLC",
   "website": "https://www.keller.com/",
   "ir_url": "https://investors.keller.com/",
   "announcements_url": "https://investors.keller.com/regulatory-news",
-  "sector": "Geotechnical engineering"
+  "sector": "Geotechnical engineering",
+  "sector_group": "Housebuilding & Construction"
  },
  "KMR": {
   "name": "Kenmare Resources PLC",
   "website": "https://www.kenmareresources.com/",
   "ir_url": "https://www.kenmareresources.com/investors/",
   "announcements_url": "https://www.kenmareresources.com/investors/regulatory-news-and-alerts/",
-  "sector": "Titanium minerals mining"
+  "sector": "Titanium minerals mining",
+  "sector_group": "Energy & Mining"
  },
  "LAND": {
   "name": "Land Securities Group PLC",
   "website": "https://landsec.com",
   "ir_url": "https://landsec.com/investors",
   "announcements_url": "https://landsec.com/en/investors/regulatory-news",
-  "sector": "Commercial property REIT"
+  "sector": "Commercial property REIT",
+  "sector_group": "Property & REITs"
  },
  "LEGH": {
   "name": "Legacy Housing Corp",
   "website": "https://legacyhousing.com/",
   "ir_url": "https://investors.legacyhousingcorp.com/",
-  "sector": "Manufactured housing"
+  "sector": "Manufactured housing",
+  "sector_group": "Property & REITs"
  },
  "LGEN": {
   "name": "Legal & General Group PLC",
   "website": "https://group.legalandgeneral.com/",
   "ir_url": "https://group.legalandgeneral.com/investors/",
   "announcements_url": "https://group.legalandgeneral.com/investors/equity-investors-and-analyst-centre/rns-announcements/",
-  "sector": "Insurance & asset management"
+  "sector": "Insurance & asset management",
+  "sector_group": "Insurance"
  },
  "LGIH": {
   "name": "LGI Homes, Inc.",
   "website": "https://www.lgihomes.com/",
-  "sector": "Homebuilders"
+  "sector": "Homebuilders",
+  "sector_group": "Housebuilding & Construction"
  },
  "LLOY": {
   "name": "Lloyds Banking Group PLC",
   "website": "https://www.lloydsbankinggroup.com",
   "ir_url": "https://www.lloydsbankinggroup.com/investors.html",
   "announcements_url": "https://www.lloydsbankinggroup.com/investors/investor-news/regulatory-news.html",
-  "sector": "Banking"
+  "sector": "Banking",
+  "sector_group": "Financials"
  },
  "LMP": {
   "name": "Londonmetric Property PLC",
   "website": "https://www.londonmetric.com/",
   "ir_url": "https://www.londonmetric.com/investors",
   "announcements_url": "https://www.londonmetric.com/investors/regulatory-news",
-  "sector": "REIT"
+  "sector": "REIT",
+  "sector_group": "Property & REITs"
  },
  "LPRO": {
   "name": "Open Lending Corp",
   "website": "https://www.openlending.com",
   "ir_url": "https://investors.openlending.com",
-  "sector": "Auto-lending technology"
+  "sector": "Auto-lending technology",
+  "sector_group": "Financials"
  },
  "LQDT": {
   "name": "Liquidity Services Inc",
   "website": "https://www.liquidityservices.com/",
   "ir_url": "https://investors.liquidityservices.com/",
   "announcements_url": "https://investors.liquidityservices.com/news-releases",
-  "sector": "Online surplus-asset marketplaces"
+  "sector": "Online surplus-asset marketplaces",
+  "sector_group": "Consumer & Retail"
  },
  "LRE": {
   "name": "Lancashire Holdings Ltd",
   "website": "https://www.lancashiregroup.com/",
   "ir_url": "https://www.lancashiregroup.com/en/investors.html",
-  "sector": "Specialty insurance"
+  "sector": "Specialty insurance",
+  "sector_group": "Insurance"
  },
  "LSL": {
   "name": "LSL Property Services PLC",
   "website": "https://www.lslps.co.uk",
   "ir_url": "https://www.lslps.co.uk/investor-information",
   "announcements_url": "https://www.lslps.co.uk/investor-information/regulatory-news",
-  "sector": "Property services"
+  "sector": "Property services",
+  "sector_group": "Property & REITs"
  },
  "MAB": {
   "name": "Mitchells & Butlers PLC",
   "website": "https://www.mbplc.com/",
   "ir_url": "https://www.mbplc.com/investors/",
   "announcements_url": "https://www.mbplc.com/investors/company-news/",
-  "sector": "Pubs & restaurants"
+  "sector": "Pubs & restaurants",
+  "sector_group": "Travel & Leisure"
  },
  "MAB1": {
   "name": "Mortgage Advice Bureau (Holdings) PLC",
   "website": "https://www.mortgageadvicebureau.com/",
   "ir_url": "https://www.mortgageadvicebureau.com/investor-relations/",
   "announcements_url": "https://www.mortgageadvicebureau.com/investor-relations/regulatory-news/",
-  "sector": "Mortgage intermediary"
+  "sector": "Mortgage intermediary",
+  "sector_group": "Financials"
  },
  "MCG": {
   "name": "Mobico Group PLC",
   "website": "https://www.mobicogroup.com",
   "ir_url": "https://www.mobicogroup.com/investors/",
   "announcements_url": "https://www.mobicogroup.com/investors/regulatory-news/",
-  "sector": "Public transport"
+  "sector": "Public transport",
+  "sector_group": "Travel & Leisure"
  },
  "MEGP": {
   "name": "ME Group International PLC",
   "website": "https://me-group.com/",
   "ir_url": "https://me-group.com/results-and-reports/",
   "announcements_url": "https://me-group.com/rns-announcements-and-alert-sign-up/",
-  "sector": "Self-service vending equipment"
+  "sector": "Self-service vending equipment",
+  "sector_group": "Industrials & Engineering"
  },
  "META": {
   "name": "Meta Platforms Inc",
   "website": "https://www.meta.com/about/",
   "ir_url": "https://investor.atmeta.com/",
-  "sector": "Social media & technology"
+  "sector": "Social media & technology",
+  "sector_group": "Technology & Media"
  },
  "MGNS": {
   "name": "Morgan Sindall Group PLC",
   "website": "https://www.morgansindall.com/",
   "ir_url": "https://www.morgansindall.com/investors",
   "announcements_url": "https://www.morgansindall.com/investors/regulatory-news",
-  "sector": "Construction"
+  "sector": "Construction",
+  "sector_group": "Housebuilding & Construction"
  },
  "MHK": {
   "name": "Mohawk Industries Inc",
   "website": "https://www.mohawkind.com",
-  "sector": "Flooring manufacturing"
+  "sector": "Flooring manufacturing",
+  "sector_group": "Industrials & Engineering"
  },
  "MNG": {
   "name": "M&G PLC",
   "website": "https://group.mandg.com",
   "ir_url": "https://group.mandg.com/investors",
   "announcements_url": "https://group.mandg.com/investors/results-and-announcements/regulatory-news",
-  "sector": "Asset management"
+  "sector": "Asset management",
+  "sector_group": "Financials"
  },
  "MONY": {
   "name": "Mony Group PLC",
   "website": "https://www.monygroup.com/",
   "ir_url": "https://www.monygroup.com/investors/",
   "announcements_url": "https://www.monygroup.com/investors/regulatory-news/",
-  "sector": "Price comparison platforms"
+  "sector": "Price comparison platforms",
+  "sector_group": "Technology & Media"
  },
  "MOON": {
   "name": "Moonpig Group PLC",
   "website": "https://www.moonpig.group/",
   "ir_url": "https://www.moonpig.group/investors/",
   "announcements_url": "https://www.moonpig.group/investors/regulatory-news/",
-  "sector": "Online greeting cards & gifting"
+  "sector": "Online greeting cards & gifting",
+  "sector_group": "Consumer & Retail"
  },
  "MPGT": {
   "name": "Motorpoint Group PLC",
   "website": "https://www.motorpoint.co.uk/plc",
   "ir_url": "https://www.motorpoint.co.uk/plc/investor-relations",
   "announcements_url": "https://www.motorpoint.co.uk/plc/investor-relations/announcements",
-  "sector": "Automotive retail"
+  "sector": "Automotive retail",
+  "sector_group": "Consumer & Retail"
  },
  "MRO": {
   "name": "Melrose Industries PLC",
   "website": "https://www.melroseplc.net/",
   "ir_url": "https://www.melroseplc.net/investors/",
   "announcements_url": "https://www.melroseplc.net/investors/regulatory-news/",
-  "sector": "Aerospace technology"
+  "sector": "Aerospace technology",
+  "sector_group": "Industrials & Engineering"
  },
  "MSFT": {
   "name": "Microsoft Corp",
   "website": "https://www.microsoft.com/",
   "ir_url": "https://www.microsoft.com/en-us/investor",
-  "sector": "Software & cloud"
+  "sector": "Software & cloud",
+  "sector_group": "Technology & Media"
  },
  "MSLH": {
   "name": "Marshalls PLC",
   "website": "https://www.marshalls.co.uk",
   "ir_url": "https://www.marshalls.co.uk/investor",
   "announcements_url": "https://www.marshalls.co.uk/investor/regulatory-news",
-  "sector": "Building materials"
+  "sector": "Building materials",
+  "sector_group": "Housebuilding & Construction"
  },
  "MTLS": {
   "name": "Materialise NV",
   "website": "https://www.materialise.com/",
   "ir_url": "https://investors.materialise.com/",
-  "sector": "3D printing software & services"
+  "sector": "3D printing software & services",
+  "sector_group": "Technology & Media"
  },
  "MTVW": {
   "name": "Mountview Estates PLC",
   "website": "https://www.mountviewplc.co.uk",
   "ir_url": "https://www.mountviewplc.co.uk/investor.html",
   "announcements_url": "https://www.mountviewplc.co.uk/investor.html#announcements",
-  "sector": "Residential property"
+  "sector": "Residential property",
+  "sector_group": "Property & REITs"
  },
  "MYRG": {
   "name": "MYR Group Inc",
   "website": "https://www.myrgroup.com/",
   "ir_url": "https://investor.myrgroup.com/",
-  "sector": "Electrical infrastructure construction"
+  "sector": "Electrical infrastructure construction",
+  "sector_group": "Housebuilding & Construction"
  },
  "N91": {
   "name": "Ninety One PLC",
   "website": "https://ninetyone.com/",
   "ir_url": "https://ninetyone.com/en/united-kingdom/investor-relations",
-  "sector": "Asset management"
+  "sector": "Asset management",
+  "sector_group": "Financials"
  },
  "NVDA": {
   "name": "NVIDIA Corp",
   "website": "https://www.nvidia.com/en-us/",
   "ir_url": "https://investor.nvidia.com/",
-  "sector": "Semiconductors"
+  "sector": "Semiconductors",
+  "sector_group": "Technology & Media"
  },
  "NWG": {
   "name": "NatWest Group PLC",
   "website": "https://www.natwestgroup.com/",
   "ir_url": "https://investors.natwestgroup.com/",
   "announcements_url": "https://investors.natwestgroup.com/regulatory-news",
-  "sector": "Banks"
+  "sector": "Banks",
+  "sector_group": "Financials"
  },
  "NXT": {
   "name": "Next PLC",
   "website": "https://www.nextplc.co.uk/",
   "ir_url": "https://www.nextplc.co.uk/investors",
   "announcements_url": "https://www.nextplc.co.uk/investors/regulatory-news-and-alerts",
-  "sector": "Clothing & homeware retail"
+  "sector": "Clothing & homeware retail",
+  "sector_group": "Consumer & Retail"
  },
  "OCDO": {
   "name": "Ocado Group PLC",
   "website": "https://www.ocadogroup.com",
   "ir_url": "https://www.ocadogroup.com/investors",
   "announcements_url": "https://www.ocadogroup.com/investors/regulatory-news",
-  "sector": "Grocery technology & e-commerce"
+  "sector": "Grocery technology & e-commerce",
+  "sector_group": "Technology & Media"
  },
  "OMU": {
   "name": "Old Mutual Ltd",
   "website": "https://www.oldmutual.com",
   "ir_url": "https://www.oldmutual.com/investor-relations",
-  "sector": "Financial services"
+  "sector": "Financial services",
+  "sector_group": "Financials"
  },
  "ORGN": {
   "name": "Origin Materials Inc",
   "website": "https://www.originmaterials.com/",
   "ir_url": "https://investors.originmaterials.com/",
-  "sector": "Sustainable materials"
+  "sector": "Sustainable materials",
+  "sector_group": "Industrials & Engineering"
  },
  "OSB": {
   "name": "OSB Group PLC",
   "website": "https://www.osb.co.uk/",
   "ir_url": "https://www.osb.co.uk/investors/",
   "announcements_url": "https://www.osb.co.uk/investors/regulatory-news/",
-  "sector": "Specialist banking"
+  "sector": "Specialist banking",
+  "sector_group": "Financials"
  },
  "OTB": {
   "name": "On The Beach Group PLC",
   "website": "https://www.onthebeachgroupplc.com",
   "ir_url": "https://www.onthebeachgroupplc.com/investor-centre",
   "announcements_url": "https://www.onthebeachgroupplc.com/investor-centre/rns",
-  "sector": "Online travel retail"
+  "sector": "Online travel retail",
+  "sector_group": "Travel & Leisure"
  },
  "PAF": {
   "name": "Pan African Resources PLC",
   "website": "https://www.panafricanresources.com/",
   "ir_url": "https://www.panafricanresources.com/investors/",
-  "sector": "Gold Mining"
+  "sector": "Gold Mining",
+  "sector_group": "Energy & Mining"
  },
  "PAG": {
   "name": "Paragon Banking Group PLC",
   "website": "https://www.paragonbankinggroup.co.uk/",
   "ir_url": "https://www.paragonbankinggroup.co.uk/investors/overview",
   "announcements_url": "https://www.paragonbankinggroup.co.uk/investors/regulatory-news/announcements",
-  "sector": "Specialist banking"
+  "sector": "Specialist banking",
+  "sector_group": "Financials"
  },
  "PAY": {
   "name": "PayPoint PLC",
   "website": "https://www.paypointbusiness.com/",
   "ir_url": "https://www.paypointbusiness.com/corporate/investor-centre",
   "announcements_url": "https://www.paypointbusiness.com/corporate/investor-centre/regulatory-announcements",
-  "sector": "Payments"
+  "sector": "Payments",
+  "sector_group": "Financials"
  },
  "PETS": {
   "name": "Pets at Home Group PLC",
   "website": "https://www.petsathomeplc.com",
   "ir_url": "https://www.petsathomeplc.com/investors/",
   "announcements_url": "https://www.petsathomeplc.com/investors/regulatory-news/",
-  "sector": "Pet care retail"
+  "sector": "Pet care retail",
+  "sector_group": "Consumer & Retail"
  },
  "PFD": {
   "name": "Premier Foods PLC",
   "website": "https://www.premierfoods.co.uk",
   "ir_url": "https://www.premierfoods.co.uk/investors/",
   "announcements_url": "https://www.premierfoods.co.uk/investors/regulatory-news/",
-  "sector": "Food producer"
+  "sector": "Food producer",
+  "sector_group": "Food & Beverages"
  },
  "PHP": {
   "name": "Primary Health Properties PLC",
   "website": "https://www.phpgroup.co.uk",
   "ir_url": "https://www.phpgroup.co.uk/investors",
   "announcements_url": "https://www.phpgroup.co.uk/news-and-media/regulatory-news",
-  "sector": "Healthcare REIT"
+  "sector": "Healthcare REIT",
+  "sector_group": "Property & REITs"
  },
  "PLUS": {
   "name": "Plus500 Ltd",
   "website": "https://www.plus500.com/",
   "ir_url": "https://investors.plus500.com/",
   "announcements_url": "https://investors.plus500.com/Shareholder/RegulatoryNews",
-  "sector": "Online trading / fintech"
+  "sector": "Online trading / fintech",
+  "sector_group": "Financials"
  },
  "PPH": {
   "name": "PPHE Hotel Group Ltd",
   "website": "https://www.pphe.com/",
   "ir_url": "https://www.pphe.com/investors",
   "announcements_url": "https://www.pphe.com/investors/regulatory-news-and-alerts/regulatory-announcements",
-  "sector": "Hotels"
+  "sector": "Hotels",
+  "sector_group": "Travel & Leisure"
  },
  "PRU": {
   "name": "Prudential PLC",
   "website": "https://www.prudentialplc.com/",
   "ir_url": "https://www.prudentialplc.com/en/investors/overview/",
   "announcements_url": "https://www.prudentialplc.com/en/investors/latest-stock-exchange-announcements/",
-  "sector": "Insurance"
+  "sector": "Insurance",
+  "sector_group": "Insurance"
  },
  "PSN": {
   "name": "Persimmon PLC",
   "website": "https://www.persimmonhomes.com",
   "ir_url": "https://www.persimmonhomes.com/corporate/investors/",
   "announcements_url": "https://www.persimmonhomes.com/corporate/investors/regulatory-news/",
-  "sector": "Housebuilding"
+  "sector": "Housebuilding",
+  "sector_group": "Housebuilding & Construction"
  },
  "PTEC": {
   "name": "Playtech PLC",
   "website": "https://www.playtech.com",
   "ir_url": "https://www.investors.playtech.com",
   "announcements_url": "https://www.investors.playtech.com/regulatory-news",
-  "sector": "Gambling technology"
+  "sector": "Gambling technology",
+  "sector_group": "Technology & Media"
  },
  "PYPL": {
   "name": "PayPal Holdings Inc",
   "website": "https://www.paypal.com/",
   "ir_url": "https://investor.pypl.com/",
-  "sector": "Payments"
+  "sector": "Payments",
+  "sector_group": "Financials"
  },
  "RHIM": {
   "name": "RHI Magnesita NV",
   "website": "https://www.rhimagnesita.com",
   "ir_url": "https://ir.rhimagnesita.com/",
   "announcements_url": "https://www.rhimagnesita.com/media/news-archive/",
-  "sector": "Refractories"
+  "sector": "Refractories",
+  "sector_group": "Industrials & Engineering"
  },
  "RIO": {
   "name": "Rio Tinto PLC",
   "website": "https://www.riotinto.com/",
   "ir_url": "https://www.riotinto.com/en/invest",
-  "sector": "Mining"
+  "sector": "Mining",
+  "sector_group": "Energy & Mining"
  },
  "RNWH": {
   "name": "Renew Holdings PLC",
   "website": "https://www.renewholdings.com/",
   "ir_url": "https://www.renewholdings.com/investors/",
   "announcements_url": "https://www.renewholdings.com/investors/rns-announcements/",
-  "sector": "Infrastructure engineering services"
+  "sector": "Infrastructure engineering services",
+  "sector_group": "Housebuilding & Construction"
  },
  "ROAD": {
   "name": "Construction Partners Inc",
   "ir_url": "https://ir.constructionpartners.net/",
-  "sector": "Civil infrastructure construction"
+  "sector": "Civil infrastructure construction",
+  "sector_group": "Housebuilding & Construction"
  },
  "RR.": {
   "name": "Rolls-Royce Group PLC",
   "website": "https://www.rolls-royce.com",
   "ir_url": "https://www.rolls-royce.com/investors.aspx",
   "announcements_url": "https://www.rolls-royce.com/investors/regulatory-news.aspx",
-  "sector": "Aerospace & defence"
+  "sector": "Aerospace & defence",
+  "sector_group": "Industrials & Engineering"
  },
  "RTO": {
   "name": "Rentokil Initial PLC",
   "website": "https://www.rentokil-initial.com",
   "ir_url": "https://www.rentokil-initial.com/investors.aspx",
   "announcements_url": "https://www.rentokil-initial.com/investors/regulatory-news.aspx",
-  "sector": "Business services (pest control & hygiene)"
+  "sector": "Business services (pest control & hygiene)",
+  "sector_group": "Industrials & Engineering"
  },
  "RYA": {
   "name": "Ryanair Holdings PLC",
   "website": "https://corporate.ryanair.com",
   "ir_url": "https://investor.ryanair.com/",
   "announcements_url": "https://investor.ryanair.com/regulatory-news/",
-  "sector": "Airline"
+  "sector": "Airline",
+  "sector_group": "Travel & Leisure"
  },
  "SAF": {
   "name": "Safestore Holdings PLC",
   "website": "https://corporate.safestore.com/",
   "ir_url": "https://corporate.safestore.com/investors/overview/",
   "announcements_url": "https://corporate.safestore.com/media-centre/rns-announcements/",
-  "sector": "Self-storage"
+  "sector": "Self-storage",
+  "sector_group": "Property & REITs"
  },
  "SAVE": {
   "name": "Savannah Energy PLC",
   "website": "https://www.savannah-energy.com/",
   "ir_url": "https://www.savannah-energy.com/investors/",
   "announcements_url": "https://www.savannah-energy.com/investors/regulatory-news/",
-  "sector": "Oil & gas (Africa)"
+  "sector": "Oil & gas (Africa)",
+  "sector_group": "Energy & Mining"
  },
  "SBUX": {
   "name": "Starbucks Corp",
   "website": "https://www.starbucks.com/",
   "ir_url": "https://investor.starbucks.com/",
-  "sector": "Coffeehouse retail"
+  "sector": "Coffeehouse retail",
+  "sector_group": "Food & Beverages"
  },
  "SDR": {
   "name": "Schroders PLC",
   "website": "https://www.schroders.com",
   "ir_url": "https://www.schroders.com/en/global/individual/investors/",
   "announcements_url": "https://www.schroders.com/en/global/individual/investors/shareholders-information/regulatory-newsfeed/",
-  "sector": "Asset management"
+  "sector": "Asset management",
+  "sector_group": "Financials"
  },
  "SERE": {
   "name": "Schroder European Real Estate Investment Trust PLC",
   "website": "https://www.schroders.com/en-gb/uk/individual/funds-and-strategies/investment-trusts/schroder-european-real-estate-investment-trust/",
   "ir_url": "https://www.schroders.com/en-gb/uk/individual/funds-and-strategies/investment-trusts/schroder-european-real-estate-investment-trust/",
-  "sector": "European commercial property trust"
+  "sector": "European commercial property trust",
+  "sector_group": "Property & REITs"
  },
  "SGRO": {
   "name": "Segro PLC",
   "website": "https://www.segro.com/",
   "ir_url": "https://www.segro.com/investors",
   "announcements_url": "https://www.segro.com/investors/regulatory-news",
-  "sector": "REIT"
+  "sector": "REIT",
+  "sector_group": "Property & REITs"
  },
  "SHC": {
   "name": "Shaftesbury Capital PLC",
   "website": "https://www.shaftesburycapital.com/",
   "ir_url": "https://www.shaftesburycapital.com/en/investors.html",
   "announcements_url": "https://www.shaftesburycapital.com/en/investors/regulatory-announcements.html",
-  "sector": "West End London REIT"
+  "sector": "West End London REIT",
+  "sector_group": "Property & REITs"
  },
  "SHEL": {
   "name": "Shell PLC",
   "website": "https://www.shell.com/",
   "ir_url": "https://www.shell.com/investors.html",
-  "sector": "Oil & Gas"
+  "sector": "Oil & Gas",
+  "sector_group": "Energy & Mining"
  },
  "SLM": {
   "name": "SLM Corporation",
   "website": "https://www.salliemae.com",
   "ir_url": "https://www.salliemae.com/investors/",
-  "sector": "Consumer finance (student lending)"
+  "sector": "Consumer finance (student lending)",
+  "sector_group": "Financials"
  },
  "SLP": {
   "name": "Sylvania Platinum Limited",
   "website": "https://www.sylvaniaplatinum.com/",
   "ir_url": "https://www.sylvaniaplatinum.com/investors-and-media",
-  "sector": "PGM mining"
+  "sector": "PGM mining",
+  "sector_group": "Energy & Mining"
  },
  "SMWH": {
   "name": "WH Smith PLC",
   "website": "https://www.whsmithplc.co.uk",
   "ir_url": "https://www.whsmithplc.co.uk/investors",
   "announcements_url": "https://www.whsmithplc.co.uk/investors/regulatory-news-service",
-  "sector": "Travel retail"
+  "sector": "Travel retail",
+  "sector_group": "Travel & Leisure"
  },
  "SRE": {
   "name": "Sirius Real Estate Ltd",
   "website": "https://www.sirius-real-estate.com/",
   "ir_url": "https://www.sirius-real-estate.com/investors/",
   "announcements_url": "https://www.sirius-real-estate.com/news-views/regulatory-news/",
-  "sector": "REIT"
+  "sector": "REIT",
+  "sector_group": "Property & REITs"
  },
  "SRP": {
   "name": "Serco Group PLC",
   "website": "https://www.serco.com",
   "ir_url": "https://www.serco.com/investors",
   "announcements_url": "https://www.serco.com/investors/regulatory-news",
-  "sector": "Outsourced services"
+  "sector": "Outsourced services",
+  "sector_group": "Industrials & Engineering"
  },
  "SSPG": {
   "name": "SSP Group PLC",
   "website": "https://www.foodtravelexperts.com/",
   "ir_url": "https://www.foodtravelexperts.com/investors/",
   "announcements_url": "https://www.foodtravelexperts.com/investors/regulatory-news/",
-  "sector": "Travel food & beverage"
+  "sector": "Travel food & beverage",
+  "sector_group": "Travel & Leisure"
  },
  "STAN": {
   "name": "Standard Chartered PLC",
   "website": "https://www.sc.com/",
   "ir_url": "https://www.sc.com/en/investors/",
   "announcements_url": "https://www.sc.com/en/investors/stock-exchange-announcements/",
-  "sector": "Banks"
+  "sector": "Banks",
+  "sector_group": "Financials"
  },
  "STLD": {
   "name": "Steel Dynamics Inc",
   "website": "https://www.steeldynamics.com",
   "ir_url": "https://ir.steeldynamics.com",
-  "sector": "Steel"
+  "sector": "Steel",
+  "sector_group": "Energy & Mining"
  },
  "SUPR": {
   "name": "Supermarket Income REIT PLC",
   "website": "https://supermarketincomereit.com/",
   "ir_url": "https://supermarketincomereit.com/investor-centre/",
   "announcements_url": "https://supermarketincomereit.com/investor-centre/regulatory-news/",
-  "sector": "REIT (supermarket property)"
+  "sector": "REIT (supermarket property)",
+  "sector_group": "Property & REITs"
  },
  "SUS": {
   "name": "S & U PLC",
   "website": "https://www.suplc.co.uk/",
   "ir_url": "https://www.suplc.co.uk/investor.html",
-  "sector": "Specialist finance"
+  "sector": "Specialist finance",
+  "sector_group": "Financials"
  },
  "SVS": {
   "name": "Savills PLC",
   "ir_url": "https://ir.savills.com/",
   "announcements_url": "https://ir.savills.com/regulatory-news",
-  "sector": "Real estate services"
+  "sector": "Real estate services",
+  "sector_group": "Property & REITs"
  },
  "TATE": {
   "name": "Tate & Lyle PLC",
   "website": "https://www.tateandlyle.com/",
   "ir_url": "https://www.tateandlyle.com/investors-hub",
   "announcements_url": "https://www.tateandlyle.com/investors/regulatory-news",
-  "sector": "Food Ingredients"
+  "sector": "Food Ingredients",
+  "sector_group": "Food & Beverages"
  },
  "TBCG": {
   "name": "TBC Bank Group PLC",
   "website": "https://tbcbankgroup.com/",
   "ir_url": "https://tbcbankgroup.com/for-investors",
   "announcements_url": "https://tbcbankgroup.com/news-media/regulatory-news",
-  "sector": "Banking (Georgia & Uzbekistan)"
+  "sector": "Banking (Georgia & Uzbekistan)",
+  "sector_group": "Financials"
  },
  "THG": {
   "name": "THG PLC",
   "website": "https://www.thg.com/",
   "ir_url": "https://www.thg.com/investor-relations",
   "announcements_url": "https://www.thg.com/investor-relations/regulatory-news",
-  "sector": "E-commerce (beauty & nutrition)"
+  "sector": "E-commerce (beauty & nutrition)",
+  "sector_group": "Consumer & Retail"
  },
  "THRL": {
   "name": "Target Healthcare REIT Ltd",
   "website": "https://www.targethealthcarereit.co.uk/",
   "ir_url": "https://www.targethealthcarereit.co.uk/investor-relations/",
   "announcements_url": "https://www.targethealthcarereit.co.uk/investor-relations/regulatory-news/",
-  "sector": "Healthcare REIT"
+  "sector": "Healthcare REIT",
+  "sector_group": "Property & REITs"
  },
  "TKO": {
   "name": "Trekor Metals Ltd (formerly Taseko Mines Ltd)",
   "website": "https://www.trekormetals.com/",
   "ir_url": "https://www.trekormetals.com/investors/overview/",
   "announcements_url": "https://www.trekormetals.com/investors/news/",
-  "sector": "Copper mining"
+  "sector": "Copper mining",
+  "sector_group": "Energy & Mining"
  },
  "TLW": {
   "name": "Tullow Oil plc",
   "website": "https://www.tullowoil.com/",
   "ir_url": "https://www.tullowoil.com/investors/",
-  "sector": "Oil & Gas (Africa)"
+  "sector": "Oil & Gas (Africa)",
+  "sector_group": "Energy & Mining"
  },
  "TPK": {
   "name": "Travis Perkins PLC",
   "website": "https://www.travisperkinsplc.co.uk/",
   "ir_url": "https://www.travisperkinsplc.co.uk/investors/",
   "announcements_url": "https://www.travisperkinsplc.co.uk/investors/regulatory-news/",
-  "sector": "Building materials distribution"
+  "sector": "Building materials distribution",
+  "sector_group": "Housebuilding & Construction"
  },
  "TPT": {
   "name": "Topps Tiles PLC",
   "website": "https://www.toppsgroup.com/",
   "ir_url": "https://www.toppsgroup.com/investors/",
   "announcements_url": "https://www.toppsgroup.com/investors/rns-feed/",
-  "sector": "Tile & flooring retail"
+  "sector": "Tile & flooring retail",
+  "sector_group": "Consumer & Retail"
  },
  "TRN": {
   "name": "Trainline PLC",
   "website": "https://www.trainlinegroup.com/",
   "ir_url": "https://www.trainlinegroup.com/investors/",
   "announcements_url": "https://www.trainlinegroup.com/investors/regulatory-news/",
-  "sector": "Rail travel platform"
+  "sector": "Rail travel platform",
+  "sector_group": "Travel & Leisure"
  },
  "TRST": {
   "name": "Trustpilot Group PLC",
   "website": "https://corporate.trustpilot.com/",
   "ir_url": "https://corporate.trustpilot.com/investors",
   "announcements_url": "https://corporate.trustpilot.com/investors/regulatory-news",
-  "sector": "Online reviews platform"
+  "sector": "Online reviews platform",
+  "sector_group": "Technology & Media"
  },
  "TSCO": {
   "name": "Tesco PLC",
   "website": "https://www.tescoplc.com/",
   "ir_url": "https://www.tescoplc.com/investors/",
-  "sector": "Food Retail"
+  "sector": "Food Retail",
+  "sector_group": "Food & Beverages"
  },
  "TW.": {
   "name": "Taylor Wimpey PLC",
   "website": "https://www.taylorwimpey.co.uk/",
   "ir_url": "https://www.taylorwimpey.co.uk/corporate/investors",
   "announcements_url": "https://www.taylorwimpey.co.uk/corporate/investors/rns-announcements",
-  "sector": "Housebuilding"
+  "sector": "Housebuilding",
+  "sector_group": "Housebuilding & Construction"
  },
  "TXP": {
   "name": "Touchstone Exploration Inc",
   "website": "https://www.touchstoneexploration.com",
   "ir_url": "https://www.touchstoneexploration.com/investors/",
   "announcements_url": "https://www.touchstoneexploration.com/investors/news-releases/",
-  "sector": "Oil & gas"
+  "sector": "Oil & gas",
+  "sector_group": "Energy & Mining"
  },
  "ULH": {
   "name": "Universal Logistics Holdings Inc",
   "website": "https://www.universallogistics.com/",
   "ir_url": "https://www.universallogistics.com/en-US/investor-relations",
-  "sector": "Logistics & trucking"
+  "sector": "Logistics & trucking",
+  "sector_group": "Industrials & Engineering"
  },
  "ULVR": {
   "name": "Unilever PLC",
   "website": "https://www.unilever.com/",
   "ir_url": "https://www.unilever.com/investors/",
   "announcements_url": "https://www.unilever.com/investors/regulatory-announcements/",
-  "sector": "Consumer goods"
+  "sector": "Consumer goods",
+  "sector_group": "Consumer & Retail"
  },
  "URI": {
   "name": "United Rentals Inc",
   "website": "https://www.unitedrentals.com",
   "ir_url": "https://investors.unitedrentals.com",
-  "sector": "Equipment rental"
+  "sector": "Equipment rental",
+  "sector_group": "Industrials & Engineering"
  },
  "UTG": {
   "name": "UNITE Group PLC",
   "website": "https://www.unitegroup.com/",
   "ir_url": "https://www.unitegroup.com/investors",
   "announcements_url": "https://www.unitegroup.com/investors/regulatory-news",
-  "sector": "Student accommodation REIT"
+  "sector": "Student accommodation REIT",
+  "sector_group": "Property & REITs"
  },
  "VCT": {
   "name": "Victrex PLC",
   "website": "https://www.victrexplc.com",
   "ir_url": "https://www.victrexplc.com/investors/",
   "announcements_url": "https://www.victrexplc.com/investors/rns-and-alerts/",
-  "sector": "Speciality chemicals"
+  "sector": "Speciality chemicals",
+  "sector_group": "Industrials & Engineering"
  },
  "VIC": {
   "name": "Victorian Plumbing Group PLC",
   "website": "https://victorianplumbingplc.com",
   "ir_url": "https://victorianplumbingplc.com/investors/",
   "announcements_url": "https://victorianplumbingplc.com/investors/rns-announcements/",
-  "sector": "Online bathroom retail"
+  "sector": "Online bathroom retail",
+  "sector_group": "Consumer & Retail"
  },
  "VOD": {
   "name": "Vodafone Group PLC",
   "website": "https://www.vodafone.com/",
   "ir_url": "https://www.vodafone.com/investors",
-  "sector": "Telecoms"
+  "sector": "Telecoms",
+  "sector_group": "Technology & Media"
  },
  "VTU": {
   "name": "Vertu Motors PLC",
   "website": "https://www.vertumotors.com",
   "ir_url": "https://investors.vertumotors.com",
   "announcements_url": "https://investors.vertumotors.com/announcements/",
-  "sector": "Automotive retail"
+  "sector": "Automotive retail",
+  "sector_group": "Consumer & Retail"
  },
  "VTY": {
   "name": "Vistry Group PLC",
   "website": "https://www.vistry.co.uk/",
   "ir_url": "https://www.vistry.co.uk/investors",
   "announcements_url": "https://www.vistry.co.uk/investors/regulatory-news",
-  "sector": "Housebuilding"
+  "sector": "Housebuilding",
+  "sector_group": "Housebuilding & Construction"
  },
  "WIKS": {
   "name": "Wickes Group PLC",
   "website": "https://www.wickesplc.co.uk/",
   "ir_url": "https://www.wickesplc.co.uk/investors/investors-overview/",
   "announcements_url": "https://www.wickesplc.co.uk/investors/investors-overview/regulatory-news/",
-  "sector": "Home improvement retail"
+  "sector": "Home improvement retail",
+  "sector_group": "Consumer & Retail"
  },
  "WINE": {
   "name": "Naked Wines PLC",
   "website": "https://www.nakedwinesplc.co.uk",
   "ir_url": "https://www.nakedwinesplc.co.uk/investors/default.aspx",
   "announcements_url": "https://www.nakedwinesplc.co.uk/investors/regulatory-news/default.aspx",
-  "sector": "Online wine retail"
+  "sector": "Online wine retail",
+  "sector_group": "Food & Beverages"
  },
  "WIX": {
   "name": "Wix.com Ltd",
   "website": "https://www.wix.com/",
   "ir_url": "https://investors.wix.com/",
-  "sector": "SaaS website platform"
+  "sector": "SaaS website platform",
+  "sector_group": "Technology & Media"
  },
  "WIZZ": {
   "name": "Wizz Air Holdings PLC",
   "website": "https://corporate.wizzair.com/",
   "ir_url": "https://corporate.wizzair.com/en/investors",
-  "sector": "Airlines"
+  "sector": "Airlines",
+  "sector_group": "Travel & Leisure"
  },
  "WKP": {
   "name": "Workspace Group PLC",
   "website": "https://www.workspace.co.uk/",
   "ir_url": "https://www.workspace.co.uk/investors",
   "announcements_url": "https://www.workspace.co.uk/investors/investor-centre/regulatory-news",
-  "sector": "REIT"
+  "sector": "REIT",
+  "sector_group": "Property & REITs"
  },
  "WMG": {
   "name": "Warner Music Group Corp",
   "website": "https://www.wmg.com/",
   "ir_url": "https://investors.wmg.com/",
-  "sector": "Music & entertainment"
+  "sector": "Music & entertainment",
+  "sector_group": "Technology & Media"
  },
  "WOSG": {
   "name": "Watches Of Switzerland Group PLC",
   "website": "https://www.thewosgroupplc.com",
   "ir_url": "https://www.thewosgroupplc.com/investors",
   "announcements_url": "https://www.thewosgroupplc.com/investors/rns",
-  "sector": "Luxury retail"
+  "sector": "Luxury retail",
+  "sector_group": "Consumer & Retail"
  },
  "WTB": {
   "name": "Whitbread PLC",
   "website": "https://www.whitbread.co.uk",
   "ir_url": "https://www.whitbread.co.uk/investors",
   "announcements_url": "https://www.whitbread.co.uk/investors/news-events-and-alerts/rns/",
-  "sector": "Hospitality (hotels)"
+  "sector": "Hospitality (hotels)",
+  "sector_group": "Travel & Leisure"
  },
  "YCA": {
   "name": "Yellow Cake PLC",
   "website": "https://www.yellowcakeplc.com",
   "ir_url": "https://www.yellowcakeplc.com/investment-case/",
   "announcements_url": "https://www.yellowcakeplc.com/news/",
-  "sector": "Uranium investment"
+  "sector": "Uranium investment",
+  "sector_group": "Energy & Mining"
  },
  "ZIG": {
   "name": "Zigup PLC",
   "website": "https://zigup.com",
   "ir_url": "https://zigup.com/investors/",
   "announcements_url": "https://zigup.com/investors/rns-and-alerts/",
-  "sector": "Vehicle rental & mobility"
+  "sector": "Vehicle rental & mobility",
+  "sector_group": "Travel & Leisure"
  }
 }
