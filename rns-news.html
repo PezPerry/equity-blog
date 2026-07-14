@@ -763,7 +763,6 @@ function renderLinks(a) {
   const links = [];
   const analysis = analysisFor(a.ticker);
   if (analysis) links.push(`<a class="link-pill" href="${esc(analysis.url)}" target="_blank" rel="noopener">Our analysis &#8599;</a>`);
-  if (a.source_url) links.push(`<a class="link-pill" href="${esc(a.source_url)}" target="_blank" rel="noopener">Original RNS &#8599;</a>`);
   if (reg.announcements_url) links.push(`<a class="link-pill" href="${esc(reg.announcements_url)}" target="_blank" rel="noopener">Company announcements &#8599;</a>`);
   if (reg.ir_url) links.push(`<a class="link-pill" href="${esc(reg.ir_url)}" target="_blank" rel="noopener">Investor relations &#8599;</a>`);
   if (a.related_news_url) links.push(`<a class="link-pill" href="${esc(a.related_news_url)}" target="_blank" rel="noopener">Related coverage &#8599;</a>`);
