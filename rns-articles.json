@@ -1,5 +1,31 @@
 [
   {
+    "company": "The British Land Company PLC",
+    "ticker": "BLND",
+    "publish_date": "14 July 2026",
+    "date_iso": "2026-07-14",
+    "time_period": "Q1 FY27 (three months to 30 June 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "Q1 FY27 (three months to 30 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>AGM trading update</strong> for the <strong>three months to 30 June 2026</strong>: British Land reiterates guidance for <strong>Underlying EPS of at least 30.5p for FY27</strong>, underpinned by like-for-like net rental growth at the <strong>top end of its 3-5% target range</strong>.</li><li><strong>567,000 sq ft</strong> of leasing completed in Q1, <strong>4.8% ahead of ERV</strong> and <strong>8.7% ahead of previous passing rent</strong>; a further <strong>1.1m sq ft under offer</strong>, <strong>6.8% ahead of ERV</strong> and <strong>15.9% ahead of previous passing rent</strong>.</li><li>Retail parks: <strong>303,000 sq ft</strong> of leasing (incl. <strong>157,000 sq ft</strong> on retail parks) <strong>4.8% ahead of ERV</strong>, with <strong>721,000 sq ft under offer</strong>; completed and under-offer deals <strong>13.7% ahead of previous passing rent</strong>.</li><li>Development letting progressing: <strong>Broadgate Tower</strong> now <strong>63% let or under offer</strong>; <strong>One Triton Square</strong> occupancy at <strong>99%</strong> post period end; <strong>Life Science REIT</strong> portfolio integrated with <strong>82,000 sq ft</strong> of deals completed.</li><li>Capital recycling: <strong>£83m</strong> of assets sold or exchanged at a <strong>3.2% NIY</strong> (further <strong>£223m under offer</strong>); purchased <strong>Telford Bridge retail park</strong> for <strong>£30m</strong> at an <strong>8.3% topped-up NIY</strong>.</li><li>CEO <strong>Simon Carter</strong> to hand over to <strong>Joanne McNamara</strong> in September; <strong>3-5% ERV growth</strong> expected across the portfolio.</li><li>Note: figures are operational leasing metrics (% ahead of ERV / passing rent); the update does not print P&L comparatives, so no revenue/profit figures are stated.</li></ul>",
+    "source_format": "html",
+    "headline": "British Land reiterates FY27 underlying EPS guidance of at least 30.5p as leasing momentum continues across London campuses and retail parks.",
+    "priority": "high",
+    "priority_reason": "Quarterly operational trading update that reiterates full-year FY27 EPS guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Underlying EPS of at least 30.5p for FY27",
+      "current": "Underlying EPS of at least 30.5p for FY27, underpinned by like-for-like net rental growth at the top end of its 3-5% target range; 3-5% ERV growth expected across the portfolio",
+      "commentary": "Guidance is reiterated (unchanged), with management citing continued leasing momentum and demand outstripping supply across campuses and retail parks as supporting the outlook."
+    },
+    "explainer": "This is an operational update ahead of British Land's AGM, covering the first quarter of its financial year (the three months to 30 June 2026). It is not a full financial results statement, so it does not give revenue, profit or EPS figures for the period — the numbers quoted are leasing metrics. 'Ahead of ERV' means rents agreed on new lettings are above the estimated rental value (the market rent the property owner's valuers expect), while 'ahead of previous passing rent' means the new rent beats what the previous tenant was paying — both signals of a strong rental market and rising income.\n\nOn guidance, nothing has changed: British Land has reiterated its target of Underlying EPS of at least 30.5p for FY27 (the year to March 2027). 'Underlying' EPS strips out revaluation movements and one-off items to show recurring earnings from rent. Management says this is underpinned by like-for-like net rental growth running at the top end of its 3-5% range, plus expected 3-5% growth in ERV across the portfolio.\n\nFor a trader, the read is steady-as-she-goes: momentum from the prior year has carried into Q1, with high occupancy on retail parks and continued campus demand, and the guidance reaffirmation removes near-term earnings uncertainty. The CEO succession (Simon Carter to Joanne McNamara in September) is flagged but framed as an orderly handover.",
+    "source_url": "https://uk.advfn.com/stock-market/london/british-land-BLND/share-news/British-Land-Co-PLC-AGM-Trading-Update/98912414",
+    "related_news_url": "https://news.google.com/search?q=%22The%20British%20Land%20Company%20PLC%22",
+    "added_at": "2026-07-14T07:30:10.243933"
+  },
+  {
     "company": "Watches Of Switzerland Group PLC",
     "ticker": "WOSG",
     "publish_date": "14 July 2026",
