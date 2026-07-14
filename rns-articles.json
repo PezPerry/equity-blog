@@ -1,5 +1,98 @@
 [
   {
+    "company": "Mony Group PLC",
+    "ticker": "MONY",
+    "publish_date": "14 July 2026",
+    "date_iso": "2026-07-14",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Sarah Warby</strong>, a non-executive director of <strong>Mony Group PLC</strong>, will be appointed a non-executive director of <strong>Taylor Wimpey plc</strong> with effect from <strong>2 October 2026</strong>.</li><li>Routine external-directorship disclosure under <strong>UKLR 6.4.9(2)</strong> with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Mony Group non-executive director Sarah Warby to join Taylor Wimpey plc board as a non-executive director from 2 October 2026.",
+    "priority": "low",
+    "priority_reason": "Routine external-directorship disclosure under UKLR 6.4.9 with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/mony-MONY/share-news/Mony-Group-PLC-Director-Declaration/98912470",
+    "related_news_url": "https://news.google.com/search?q=%22Mony%20Group%20PLC%22",
+    "added_at": "2026-07-14T07:28:00.361877"
+  },
+  {
+    "company": "IntegraFin Holdings PLC",
+    "ticker": "IHP",
+    "publish_date": "14 July 2026",
+    "date_iso": "2026-07-14",
+    "time_period": "Q3 FY26 (three months ended 30 June 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "Q3 FY26 (three months ended 30 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Transact funds under direction (FUD)</strong> reached <strong>£85.5bn</strong> at quarter end, <strong>up 23%</strong> year-on-year (Q3 FY25: <strong>£69.5bn</strong>), on strong global equity markets and continued net inflows.</li><li><strong>Net inflows of £1.0bn</strong> in Q3 FY26 (Q3 FY25: <strong>£1.2bn</strong>), a <strong>6th consecutive quarter</strong> above £1bn, equal to 5.2% of opening FUD annualised.</li><li><strong>Gross inflows of £2.6bn</strong>, <strong>5% ahead</strong> of prior year (Q3 FY25: £2.5bn); over <strong>2,000 net new clients</strong> added in the period.</li><li><strong>Record average daily FUD of £82.8bn</strong>, <strong>up 24%</strong> year-on-year (Q3 FY25: £66.8bn), directly benefiting revenue.</li><li>Cost guidance from <strong>December 2025 reiterated</strong>: total underlying admin expense growth to slow to <strong>c.3%</strong> in each of <strong>FY26 and FY27</strong>, savings weighted to H2 FY26.</li><li>CEO <strong>Alex Scott</strong> cites distinctive onshore/offshore bond wrappers and new <strong>Flexible Reversionary Trust</strong> ahead of pensions entering Inheritance Tax scope from <strong>April 2027</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "IntegraFin's Transact platform funds under direction hit £85.5bn, up 23% year-on-year, with a sixth consecutive quarter of net inflows above £1bn.",
+    "priority": "high",
+    "priority_reason": "Quarterly trading update with platform flow and funds data plus reiterated cost guidance, directly relevant to valuation.",
+    "figures": [
+      {
+        "metric": "Funds under direction (quarter end)",
+        "current": "£85.5bn",
+        "prior": "£69.5bn",
+        "change": "+23%",
+        "basis": "reported",
+        "note": "Q3 FY26 vs Q3 FY25"
+      },
+      {
+        "metric": "Net inflows",
+        "current": "£1.0bn",
+        "prior": "£1.2bn",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "Q3 FY26 vs Q3 FY25; 5.2% of opening FUD annualised"
+      },
+      {
+        "metric": "Gross inflows",
+        "current": "£2.6bn",
+        "prior": "£2.5bn",
+        "change": "+5%",
+        "basis": "reported",
+        "note": "Q3 FY26 vs Q3 FY25"
+      },
+      {
+        "metric": "Average daily FUD",
+        "current": "£82.8bn",
+        "prior": "£66.8bn",
+        "change": "+24%",
+        "basis": "reported",
+        "note": "Q3 FY26 vs Q3 FY25; record"
+      },
+      {
+        "metric": "Net new clients",
+        "current": "over 2,000",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "Q3 FY26"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Total underlying administrative expense growth expected to slow to c.3% in each of FY26 and FY27 (guidance issued December 2025)",
+      "current": "Cost guidance reiterated: total underlying administrative expense growth of c.3% in each of FY26 and FY27, with savings more meaningfully realised in H2 FY26",
+      "commentary": "Cost guidance is unchanged from December 2025. Management reaffirms that cost-management initiatives and operational efficiencies will hold admin expense growth to c.3%, with the benefit skewed to the second half of FY26 as initiatives phase in."
+    },
+    "explainer": "This is a quarterly trading update covering the three months to 30 June 2026, focused on platform flows rather than profit. Funds under direction (FUD) is the total client money on the Transact platform; the 23% year-on-year rise to £85.5bn reflects both market gains and continued net inflows. Because IntegraFin earns fees on assets held, the record average daily FUD of £82.8bn (up 24%) is the figure most directly tied to revenue over the quarter.\n\nNet inflows of £1.0bn were slightly below the £1.2bn a year earlier. Management attributes this to the pre-tax-year-end period falling in the prior quarter, and stresses it is the sixth straight quarter above £1bn. Gross inflows (new money in, before withdrawals) were actually up 5%, so the softer net figure reflects timing and outflows rather than weakening demand.\n\nOn guidance, nothing has changed: the December 2025 cost outlook is reiterated, with underlying admin expense growth held to about 3% in both FY26 and FY27. The key nuance is timing — those savings will show up more clearly in the second half of FY26 as efficiency initiatives take effect, supporting margin expansion later in the year.",
+    "source_url": "https://uk.advfn.com/stock-market/london/integrafin-IHP/share-news/IntegraFin-Holdings-plc-Q3-Trading-Update/98912409",
+    "related_news_url": "https://news.google.com/search?q=%22IntegraFin%20Holdings%20plc%22",
+    "added_at": "2026-07-14T07:28:00.346391"
+  },
+  {
     "company": "boohoo Group PLC",
     "ticker": "BOO",
     "publish_date": "14 July 2026",
@@ -24,6 +117,32 @@
     "source_url": "https://uk.advfn.com/stock-market/london/boohoo-DEBS/share-news/Boohoo-Group-Plc-Continued-Positive-Trading/98912446",
     "related_news_url": "https://news.google.com/search?q=%22Debenhams%20Group%20plc%20(formerly%20Boohoo%20Group%20Plc)%22",
     "added_at": "2026-07-14T07:27:13.691639"
+  },
+  {
+    "company": "Construction Partners Inc",
+    "ticker": "ROAD",
+    "publish_date": "13 July 2026",
+    "date_iso": "2026-07-13",
+    "time_period": "",
+    "announcement_type": "Acquisition / deal",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Construction Partners, Inc.</strong> (NASDAQ: ROAD) has acquired <strong>Ellsworth Construction, LLC</strong>, a Tulsa-headquartered asphalt manufacturing and construction business, expanding its <strong>Oklahoma</strong> platform into the <strong>Tulsa and Oklahoma City</strong> metro markets.</li><li>Ellsworth operates a hot-mix asphalt plant in <strong>Broken Arrow</strong> plus a permitted plant site in <strong>Greater Oklahoma City</strong>, providing paving, sitework and utility services, including <strong>multiple significant data centre projects</strong>.</li><li>Operations will continue as a branded division of CPI's Oklahoma platform company <strong>Overland Corporation</strong>, with <strong>Nathan Ellsworth</strong> continuing to lead the business.</li><li><strong>Deal value, financial terms and any earnings impact were not disclosed</strong> in the announcement.</li><li>Note: ROAD is a US Sunbelt-focused, NASDAQ-listed company; this is a US press release, not a UK RNS filing.</li></ul>",
+    "source_format": "html",
+    "headline": "Construction Partners has completed its acquisition of Tulsa-based asphalt and construction business Ellsworth Construction, expanding into the Tulsa and Oklahoma City markets.",
+    "priority": "high",
+    "priority_reason": "Completed acquisition expanding the company into two new Oklahoma metro markets, which is material M&A news.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/ROAD/share-news/Construction-Partners-Inc-Completes-Oklahoma-Acq/98911047",
+    "related_news_url": "https://news.google.com/search?q=%22Construction%20Partners%2C%20Inc.%22",
+    "added_at": "2026-07-14T07:28:00.303417"
   },
   {
     "company": "Workspace Group PLC",
