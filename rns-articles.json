@@ -1,5 +1,154 @@
 [
   {
+    "company": "BP p.l.c.",
+    "ticker": null,
+    "publish_date": "14 July 2026",
+    "date_iso": "2026-07-14",
+    "time_period": "Q2 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "Q2 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>BP</strong> Q2 2026 trading statement ahead of full results on <strong>4 August 2026</strong>; contains inside information covering estimates vs <strong>1Q 2026</strong>.</li><li><strong>Reported upstream production 2,170-2,220mboe/d</strong> (1Q: <strong>2,339mboe/d</strong>), down on seasonal maintenance in the <strong>Gulf of America</strong> and Middle East disruption; oil 1,420-1,450mboe/d, gas & low carbon 750-770mboe/d.</li><li>Realisations to lift earnings vs 1Q: oil <strong>+$1.8 to 2.1bn</strong>, refining margins <strong>+$1.2 to 1.4bn</strong>, gas <strong>+$0.5 to 0.7bn</strong>; <strong>Brent</strong> averaged <strong>$103.85/bbl</strong> (1Q: $81.13), bp RIM <strong>$29.6/bbl</strong> (1Q: $16.9).</li><li><strong>Net debt</strong> expected at <strong>$22-23bn</strong> (1Q: <strong>$25.3bn</strong>), after $2.9bn to redeem €2.5bn perpetual hybrids and $1.1bn Gulf of America settlement; total of net debt, hybrids and settlement liabilities down ~$6.3-7.3bn.</li><li><strong>Exploration write-offs</strong> ~<strong>$(0.5)bn</strong> (Bay du Nord sale, Canada) and post-tax impairment adjusting items of ~<strong>$1.0bn</strong> in gas & low carbon transition businesses; underlying effective tax rate 33-37%.</li><li>Refining throughput 1,445-1,475mb/d (1Q: 1,527mb/d) on higher turnarounds and lower <strong>Whiting</strong> volumes after the April third-party event, now resolved.</li></ul>",
+    "source_format": "html",
+    "headline": "BP flags lower Q2 upstream production of 2,170-2,220mboe/d but sharply higher oil, gas and refining realisations, with net debt falling to $22-23bn.",
+    "priority": "high",
+    "priority_reason": "Pre-results trading statement flagging quarter-on-quarter earnings drivers, net debt reduction and impairments ahead of Q2 results on 4 August 2026.",
+    "figures": [
+      {
+        "metric": "Reported upstream production",
+        "current": "2,170-2,220mboe/d",
+        "prior": "2,339mboe/d",
+        "change": "not stated",
+        "basis": "",
+        "note": "Q2 2026 vs 1Q 2026"
+      },
+      {
+        "metric": "Gas & low carbon energy production",
+        "current": "750-770mboe/d",
+        "prior": "798mboe/d",
+        "change": "not stated",
+        "basis": "",
+        "note": "Q2 2026 vs 1Q 2026"
+      },
+      {
+        "metric": "Oil production & operations production",
+        "current": "1,420-1,450mboe/d",
+        "prior": "1,541mboe/d",
+        "change": "not stated",
+        "basis": "",
+        "note": "Q2 2026 vs 1Q 2026"
+      },
+      {
+        "metric": "Refining throughput",
+        "current": "1,445-1,475mb/d",
+        "prior": "1,527mb/d",
+        "change": "not stated",
+        "basis": "",
+        "note": "Q2 2026 vs 1Q 2026"
+      },
+      {
+        "metric": "Net debt",
+        "current": "$22-23bn",
+        "prior": "$25.3bn",
+        "change": "not stated",
+        "basis": "non-IFRS",
+        "note": "end Q2 2026 vs 1Q 2026"
+      },
+      {
+        "metric": "Remaining hybrid bonds",
+        "current": "~$13bn",
+        "prior": "$16.0bn",
+        "change": "not stated",
+        "basis": "",
+        "note": "2Q26 vs 1Q 2026"
+      },
+      {
+        "metric": "Underlying effective tax rate",
+        "current": "33-37%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "non-IFRS",
+        "note": "Q2 2026"
+      },
+      {
+        "metric": "Brent",
+        "current": "$103.85/bbl",
+        "prior": "$81.13/bbl",
+        "change": "not stated",
+        "basis": "quarterly average marker",
+        "note": "Q2 2026 vs 1Q 2026"
+      },
+      {
+        "metric": "Henry Hub gas (first of month index)",
+        "current": "$2.90/mmBtu",
+        "prior": "$5.05/mmBtu",
+        "change": "not stated",
+        "basis": "quarterly average marker",
+        "note": "Q2 2026 vs 1Q 2026"
+      },
+      {
+        "metric": "bp Refining Indicator Margin (RIM)",
+        "current": "$29.6/bbl",
+        "prior": "$16.9/bbl",
+        "change": "not stated",
+        "basis": "quarterly average marker",
+        "note": "Q2 2026 vs 1Q 2026"
+      },
+      {
+        "metric": "Exploration write-offs",
+        "current": "~$(0.5)bn",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "Q2 2026, primarily Bay du Nord sale"
+      },
+      {
+        "metric": "Impairment adjusting items (post-tax)",
+        "current": "~$1.0bn",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "excluded from underlying RC profit",
+        "note": "Q2 2026, gas & low carbon transition businesses"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "1Q 2026 group results (28 April 2026) guidance for Q2 and full-year 2026",
+      "current": "1Q26 guidance items continue to apply unless explicitly stated; hybrid reduction of $4.3bn by end 2027, divestment proceeds $9-10bn including ~$6bn from Castrol",
+      "commentary": "BP reiterates that its full-year and Q2 guidance from the 1Q 2026 results still applies. It confirms progress on cutting hybrid debt (€2.5bn perpetual hybrids redeemed in June) and on the Castrol divestment, alongside expected lower turnaround and structural cost reductions."
+    },
+    "explainer": "This is a pre-results trading statement, not the actual numbers. BP gives directional guidance on how underlying replacement cost (RC) profit — its preferred earnings measure that strips out inventory holding gains and losses — is likely to move from the first quarter to the second, but does not print a profit figure. Full Q2 results follow on 4 August 2026.\n\nThe key swing factors are prices and volumes. Production is seasonally lower because of maintenance in the Gulf of America and Middle East disruption, but this is more than offset by much stronger price 'realisations': Brent averaged $103.85 a barrel versus $81.13 in Q1, and refining margins (the bp RIM) nearly doubled. BP quantifies these as positive quarter-on-quarter earnings impacts of roughly $1.8-2.1bn in oil, $1.2-1.4bn in refining and $0.5-0.7bn in gas.\n\nOn the balance sheet, net debt is expected to fall to $22-23bn from $25.3bn, even after paying $2.9bn to redeem €2.5bn of perpetual hybrid bonds and $1.1bn towards Gulf of America (Deepwater Horizon) settlement liabilities. BP prefers investors to watch the combined total of net debt, hybrids and settlement liabilities, which it expects to drop by around $6.3-7.3bn.\n\nTwo one-off items sit outside underlying profit: ~$0.5bn of exploration write-offs tied to the sale of Bay du Nord in Canada, and ~$1.0bn of post-tax impairment charges on low-carbon 'transition' businesses. Guidance from the April results is reaffirmed rather than changed, including the plan to cut hybrids by $4.3bn by end-2027 and to raise $9-10bn from divestments (about $6bn from Castrol).",
+    "source_url": "https://uk.advfn.com/stock-market/london/bp-BP./share-news/BP-PLC-2Q26-bp-Trading-Statement-Part-1-of-1/98912425",
+    "related_news_url": "https://news.google.com/search?q=%22BP%20p.l.c.%22",
+    "added_at": "2026-07-14T07:29:03.413710"
+  },
+  {
+    "company": "Taylor Wimpey PLC",
+    "ticker": "TW.",
+    "publish_date": "14 July 2026",
+    "date_iso": "2026-07-14",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Sarah Warby</strong> appointed independent Non-Executive Director with effect from <strong>2 October 2026</strong>, joining the Nomination and Governance Committee and Remuneration Committee.</li><li>Warby is currently Chief Customer Officer at <strong>Nando's UK&I</strong> and a NED at <strong>MONY Group plc</strong>, with over 30 years in customer and brand, previously CMO at <strong>J Sainsbury plc</strong> and CEO of <strong>Lovehoney Ltd</strong>.</li><li><strong>Clodagh Moriarty</strong> to step down from the Board on <strong>31 August 2026</strong>, per the earlier <strong>9 June 2026</strong> announcement.</li><li><strong>Martyn Coffey</strong> joins the Remuneration Committee on an interim basis pending Warby's appointment.</li><li>Routine Board disclosure — nothing to disclose under UK Listing Rule 6.4.8(2) to (6); <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Taylor Wimpey appoints Sarah Warby as an independent Non-Executive Director from 2 October 2026, as Clodagh Moriarty steps down on 31 August 2026.",
+    "priority": "medium",
+    "priority_reason": "Board composition change with a new independent Non-Executive Director appointment and a departure, but no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/taylor-wimpey-TW./share-news/Taylor-Wimpey-PLC-Directorate-change/98912451",
+    "related_news_url": "https://news.google.com/search?q=%22Taylor%20Wimpey%20plc%22",
+    "added_at": "2026-07-14T07:29:03.298263"
+  },
+  {
     "company": "Mony Group PLC",
     "ticker": "MONY",
     "publish_date": "14 July 2026",
