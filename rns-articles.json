@@ -1,5 +1,31 @@
 [
   {
+    "company": "Compass Group PLC",
+    "ticker": "CPG",
+    "publish_date": "14 July 2026",
+    "date_iso": "2026-07-14",
+    "time_period": "FY to 30 September 2026",
+    "announcement_type": "Dividend declaration",
+    "period_detail": "FY to 30 September 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Compass Group PLC</strong> has set the Sterling equivalent of its interim dividend at <strong>19.0 pence per ordinary share</strong>.</li><li>Converts the <strong>25.5 US cents</strong> per share interim dividend (declared <strong>11 May 2026</strong>) at an exchange rate of <strong>US$1=£0.747</strong>, payable <strong>30 July 2026</strong>.</li><li>Routine FX-conversion disclosure with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Compass Group confirms the Sterling equivalent of its previously declared interim dividend is 19.0 pence per share.",
+    "priority": "low",
+    "priority_reason": "Routine Sterling-equivalent conversion of an already-declared interim dividend, with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/compass-group--cpg/sterling-equivalent-of-interim-dividend/9668456",
+    "related_news_url": "https://news.google.com/search?q=%22Compass%20Group%20PLC%22",
+    "added_at": "2026-07-14T14:55:37.631763"
+  },
+  {
     "company": "Babcock International Group PLC",
     "ticker": "BAB",
     "publish_date": "14 July 2026",
