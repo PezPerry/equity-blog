@@ -1,5 +1,57 @@
 [
   {
+    "company": "Wizz Air Holdings PLC",
+    "ticker": "WIZZ",
+    "publish_date": "14 July 2026",
+    "date_iso": "2026-07-14",
+    "time_period": "Q1 F27 (three months ended 30 June 2026)",
+    "announcement_type": "Notice of results date",
+    "period_detail": "Q1 F27 (three months ended 30 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Wizz Air Holdings Plc</strong> will publish unaudited <strong>F27 first-quarter results</strong> (three months ended <strong>30 June 2026</strong>) on <strong>Thursday, 6 August 2026</strong> at <strong>07:00 BST</strong>.</li><li>Analyst and institutional <strong>webcast</strong> hosted the same day at <strong>09:30 BST</strong>; a recording will follow on the company website.</li><li>Routine diary notice with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Wizz Air will report unaudited Q1 F27 results for the three months to 30 June 2026 on Thursday 6 August 2026 at 07:00 BST.",
+    "priority": "low",
+    "priority_reason": "Routine scheduling notice with no financial content; flags a diary date for Q1 F27 results.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/wizz-air-holdings--wizz/notice-of-f27-first-quarter-results-date/9666681",
+    "related_news_url": "https://news.google.com/search?q=%22Wizz%20Air%20Holdings%20Plc%22",
+    "added_at": "2026-07-14T07:31:15.108101"
+  },
+  {
+    "company": "Big Yellow Group PLC",
+    "ticker": "BYG",
+    "publish_date": "14 July 2026",
+    "date_iso": "2026-07-14",
+    "time_period": "Q1 to 30 June 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "Q1 to 30 June 2026",
+    "type_workings": "Rule 'trading update': 'trading update' named in opening bullets [rns.json record]",
+    "body": "<ul><li><strong>Big Yellow Group PLC</strong> will provide a trading update for the <strong>first quarter ended 30 June 2026</strong> on <strong>Monday, 20 July 2026</strong>.</li><li>Routine scheduling notice only — <strong>no financial figures</strong> or guidance disclosed, and <strong>no impact</strong> on trading or guidance at this stage.</li></ul>",
+    "source_format": "html",
+    "headline": "Big Yellow Group will publish its Q1 trading update for the quarter ended 30 June 2026 on Monday 20 July 2026.",
+    "priority": "low",
+    "priority_reason": "Routine advance notice of a scheduled trading statement date, containing no financial data.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/big-yellow-group--byg/notification-of-q1-statement/9666680",
+    "related_news_url": "https://news.google.com/search?q=%22Big%20Yellow%20Group%20PLC%22",
+    "added_at": "2026-07-14T07:31:15.088467"
+  },
+  {
     "company": "Great Portland Estates PLC",
     "ticker": "GPE",
     "publish_date": "14 July 2026",
