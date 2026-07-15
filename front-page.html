@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en-GB" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Equity &amp; Markets Insight — Front Page</title>
+<meta name="robots" content="index,follow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;0,900;1,400;1,600&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#0E1626;--ink-2:#131F35;--navy:#1B2A4A;--navy-mid:#2D4A7A;
+  --gold:#D4A853;--gold-soft:#E4C583;--gold-deep:#A9812E;
+  --red:#E8453C;--green:#3FA66A;
+  --paper:#FBF9F4;--paper-2:#F4F0E7;--stone:#8C8375;
+  --bg:var(--paper);--bg-panel:#FDFCF9;--bg-card:#FFFFFF;
+  --text:#141C2B;--text-dim:#4E5567;--text-faint:#8A8574;
+  --line:rgba(27,42,74,.15);--line-strong:rgba(27,42,74,.28);--hair:rgba(27,42,74,.07);
+  --accent:var(--gold-deep);--spot:rgba(169,129,46,.12);--shadow:0 26px 50px -30px rgba(27,42,74,.40);
+}
+@media (prefers-color-scheme: dark){:root{
+  --bg:var(--ink);--bg-panel:var(--ink-2);--bg-card:#16223A;
+  --text:#F3ECDD;--text-dim:#A9B0BF;--text-faint:#6C7488;
+  --line:rgba(212,168,83,.16);--line-strong:rgba(212,168,83,.34);--hair:rgba(255,255,255,.07);
+  --accent:var(--gold);--spot:rgba(212,168,83,.14);--shadow:0 30px 60px -25px rgba(0,0,0,.7);}}
+:root[data-theme="light"]{
+  --bg:var(--paper);--bg-panel:#FDFCF9;--bg-card:#FFFFFF;
+  --text:#141C2B;--text-dim:#4E5567;--text-faint:#8A8574;
+  --line:rgba(27,42,74,.15);--line-strong:rgba(27,42,74,.28);--hair:rgba(27,42,74,.07);
+  --accent:var(--gold-deep);--spot:rgba(169,129,46,.12);--shadow:0 26px 50px -30px rgba(27,42,74,.40);}
+:root[data-theme="dark"]{
+  --bg:var(--ink);--bg-panel:var(--ink-2);--bg-card:#16223A;
+  --text:#F3ECDD;--text-dim:#A9B0BF;--text-faint:#6C7488;
+  --line:rgba(212,168,83,.16);--line-strong:rgba(212,168,83,.34);--hair:rgba(255,255,255,.07);
+  --accent:var(--gold);--spot:rgba(212,168,83,.14);--shadow:0 30px 60px -25px rgba(0,0,0,.7);}
+
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%}
+body{background:var(--bg);color:var(--text);font-family:"DM Sans",system-ui,sans-serif;line-height:1.5;overflow-x:hidden;transition:background .5s ease,color .5s ease}
+::selection{background:var(--gold);color:var(--ink)}
+a{color:inherit;text-decoration:none}
+img{display:block;max-width:100%}
+.wrap{max-width:1280px;margin:0 auto;padding:0 clamp(16px,4vw,44px)}
+.mono{font-family:"DM Mono",ui-monospace,monospace}
+.kicker{font-family:"DM Mono",monospace;font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--accent)}
+
+/* nav */
+.nav{border-bottom:1px solid var(--hair);background:color-mix(in srgb,var(--bg) 84%,transparent);backdrop-filter:blur(10px);position:sticky;top:0;z-index:60}
+.nav-inner{display:flex;align-items:center;gap:26px;height:60px}
+.brand{display:flex;align-items:center;gap:12px;flex-shrink:0}
+.brand-logo{height:34px;width:auto;display:block}
+:root[data-theme="dark"] .brand-logo{filter:invert(1)}
+@media (prefers-color-scheme:dark){:root:not([data-theme]) .brand-logo{filter:invert(1)}}
+.brand-name{font-family:"Playfair Display",serif;font-weight:800;font-size:18px;letter-spacing:-.01em;line-height:1;color:var(--text);white-space:nowrap}
+.brand-name b{font-style:italic;font-weight:600;color:var(--accent)}
+.nav-links{display:flex;gap:26px;margin-left:auto;align-items:center}
+.nav-links a{font-family:"DM Sans";font-size:14px;font-weight:500;color:var(--text-dim);letter-spacing:.01em;position:relative;padding:4px 0;transition:color .2s;white-space:nowrap}
+.nav-links a::after{content:"";position:absolute;left:0;right:100%;bottom:-2px;height:2px;background:var(--accent);transition:right .25s ease}
+.nav-links a:hover{color:var(--text)}
+.nav-links a:hover::after{right:0}
+.theme-btn{border:1px solid var(--line);background:transparent;color:var(--text-dim);font-family:"DM Mono",monospace;font-size:13px;padding:6px 11px;border-radius:999px;cursor:pointer;transition:.2s;line-height:1}
+.theme-btn:hover{border-color:var(--accent);color:var(--accent)}
+
+/* hero */
+.hero{position:relative;overflow:hidden;border-bottom:1px solid var(--line);
+  background:radial-gradient(120% 100% at 92% -20%, rgba(169,129,46,.12), transparent 55%)}
+:root[data-theme="dark"] .hero{background:radial-gradient(120% 100% at 92% -20%, rgba(212,168,83,.13), transparent 55%),radial-gradient(90% 80% at 0% 120%, rgba(45,74,122,.34), transparent 60%)}
+#field{position:absolute;inset:0;width:100%;height:100%;display:block;z-index:0}
+.hero-grid{position:relative;z-index:2;display:grid;grid-template-columns:1.05fr .95fr;gap:clamp(24px,4vw,56px);align-items:center;padding:clamp(38px,5.5vw,74px) 0 clamp(34px,4.5vw,58px)}
+.masthead .eyebrow{display:flex;align-items:center;gap:14px;margin-bottom:18px}
+.masthead .eyebrow .rule{height:1px;flex:1;background:var(--line-strong);max-width:70px}
+.wordmark{font-family:"Playfair Display",serif;font-weight:800;font-size:clamp(38px,6vw,82px);line-height:.9;letter-spacing:-.015em;text-wrap:balance;color:var(--text)}
+.wordmark .amp{font-style:italic;font-weight:600;color:var(--accent)}
+.wordmark .l2{display:block}
+.tagline{margin-top:20px;max-width:46ch;color:var(--text-dim);font-size:clamp(14px,1.35vw,16px);line-height:1.6}
+.tagline b{color:var(--text);font-weight:500}
+
+/* latest card */
+.latest{position:relative;background:var(--bg-card);border:1px solid var(--line);border-radius:7px;overflow:hidden;box-shadow:var(--shadow);
+  transform-style:preserve-3d;transition:transform .3s cubic-bezier(.2,.7,.2,1),box-shadow .3s;display:block}
+.latest:hover{box-shadow:0 34px 60px -28px rgba(27,42,74,.5)}
+.latest-media{position:relative;aspect-ratio:16/9;overflow:hidden}
+.latest-media img{width:100%;height:100%;object-fit:cover;transition:transform .6s cubic-bezier(.2,.7,.2,1)}
+.latest:hover .latest-media img{transform:scale(1.045)}
+.latest-ribbon{position:absolute;top:12px;left:12px;z-index:2;display:inline-flex;align-items:center;gap:7px;background:var(--red);color:#fff;font-family:"DM Mono",monospace;font-size:10px;letter-spacing:.16em;text-transform:uppercase;padding:5px 10px;border-radius:3px}
+.latest-ribbon .dot{width:6px;height:6px;border-radius:50%;background:#fff;animation:pulse 2s infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
+.latest-body{padding:17px 20px 20px}
+.latest-tag{font-family:"DM Mono",monospace;font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--accent)}
+.latest h2{font-family:"Playfair Display",serif;font-weight:700;font-size:clamp(19px,2vw,24px);line-height:1.16;letter-spacing:-.01em;margin:10px 0 10px;text-wrap:balance}
+.latest-meta{font-family:"DM Mono",monospace;font-size:11px;color:var(--text-faint);display:flex;gap:10px;align-items:center}
+
+/* section buttons */
+.cat-nav{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:clamp(32px,4vw,50px) 0 24px;padding-bottom:18px;border-bottom:2px solid var(--line)}
+.cat-label{font-family:"DM Mono",monospace;font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--text-faint);margin-right:8px}
+.cat-btn{font-family:"DM Sans";font-weight:500;font-size:13.5px;padding:9px 17px;border-radius:999px;border:1px solid var(--line);background:color-mix(in srgb,var(--bg-card) 55%,transparent);color:var(--text-dim);transition:.2s}
+.cat-btn:hover{border-color:var(--accent);color:var(--accent);transform:translateY(-1px)}
+
+/* bento */
+.bento{display:grid;grid-template-columns:repeat(6,1fr);grid-auto-rows:194px;gap:clamp(12px,1.4vw,16px);
+  grid-template-areas:
+    "mega mega mega mega burn burn"
+    "mega mega mega mega burn burn"
+    "bp   bp   cna  cna  burn burn"
+    "hse  hse  hse  ejt  ejt  ejt"
+    "hse  hse  hse  ejt  ejt  ejt"
+    "tpk  tpk  zig  zig  ndx  ndx";}
+.a-mega{grid-area:mega}.a-burn{grid-area:burn}.a-bp{grid-area:bp}.a-cna{grid-area:cna}
+.a-hse{grid-area:hse}.a-ejt{grid-area:ejt}.a-tpk{grid-area:tpk}.a-zig{grid-area:zig}.a-ndx{grid-area:ndx}
+
+.block{position:relative;border:1px solid var(--line);border-radius:6px;overflow:hidden;cursor:pointer;
+  background:linear-gradient(160deg,#1c2c4d,#0e1626);
+  transform-style:preserve-3d;transition:transform .3s cubic-bezier(.2,.7,.2,1),border-color .3s,box-shadow .3s;will-change:transform}
+.block:hover{border-color:var(--line-strong);box-shadow:var(--shadow);z-index:5}
+.block .photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;z-index:1;transition:transform .55s cubic-bezier(.2,.7,.2,1)}
+.block:hover .photo{transform:scale(1.06)}
+.block.a-burn .photo{object-position:72% 42%}
+.block.a-mega .photo{object-position:center 38%}
+.block .overlay{position:absolute;inset:0;z-index:2;background:linear-gradient(180deg,rgba(8,12,20,0) 0%,rgba(8,12,20,0) 46%,rgba(8,12,20,.55) 72%,rgba(8,12,20,.92) 100%)}
+.block .spotlight{position:absolute;inset:0;z-index:3;opacity:0;transition:opacity .3s;background:radial-gradient(260px 260px at var(--mx,50%) var(--my,50%),rgba(212,168,83,.22),transparent 60%)}
+.block:hover .spotlight{opacity:1}
+.block .content{position:absolute;inset:0;z-index:4;display:flex;flex-direction:column;justify-content:flex-end;padding:16px 17px;transform:translateZ(26px)}
+.block .cat{font-family:"DM Mono",monospace;font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--gold-soft);margin-bottom:9px;display:flex;align-items:center;gap:8px;text-shadow:0 1px 8px rgba(0,0,0,.6)}
+.block .cat .swatch{width:16px;height:2px;background:currentColor;display:inline-block}
+.block h4{font-family:"Playfair Display",serif;color:#fff;font-weight:700;line-height:1.14;font-size:clamp(15px,1.5vw,19px);letter-spacing:-.005em;text-wrap:balance;text-shadow:0 1px 16px rgba(0,0,0,.6)}
+.block.a-mega h4,.block.a-burn h4{font-size:clamp(18px,2.1vw,25px)}
+.block.a-mega .content,.block.a-burn .content{padding:22px}
+.block .meta{margin-top:9px;font-family:"DM Mono",monospace;font-size:10.5px;color:rgba(255,255,255,.78);display:flex;gap:10px;align-items:center;text-shadow:0 1px 8px rgba(0,0,0,.6)}
+.block .pill{font-family:"DM Mono",monospace;font-size:10px;letter-spacing:.08em;padding:2px 7px;border-radius:3px;text-transform:uppercase}
+.pill.buy{background:rgba(63,166,106,.94);color:#04140b}
+.pill.sell{background:rgba(232,69,60,.94);color:#fff}
+.pill.hold{background:rgba(212,168,83,.94);color:#1a1206}
+.pill.watch{background:rgba(255,255,255,.20);color:#fff;border:1px solid rgba(255,255,255,.34)}
+.pill.oval{background:rgba(27,42,74,.94);color:#FF8A80;border:1px solid rgba(255,138,128,.4)}
+.pill.noact{background:rgba(212,168,83,.20);color:#E4C583;border:1px solid rgba(212,168,83,.45)}
+
+/* verdict strip */
+.strip{margin-top:clamp(34px,4vw,54px);border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:22px 0}
+.strip-inner{display:grid;grid-template-columns:auto 1fr;gap:clamp(20px,4vw,48px);align-items:start}
+.strip h5{font-family:"Playfair Display",serif;font-weight:700;font-size:20px;line-height:1.1;margin-top:4px}
+.strip h5 span{display:block;font-family:"DM Mono",monospace;font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--text-faint);margin-top:6px}
+.verdicts{display:flex;flex-wrap:wrap;gap:10px 14px}
+.vd{display:flex;align-items:center;gap:10px;border:1px solid var(--line);border-radius:4px;padding:9px 13px;background:color-mix(in srgb,var(--bg-card) 70%,transparent);transition:.25s;cursor:pointer}
+.vd:hover{border-color:var(--accent);transform:translateY(-2px);box-shadow:0 10px 22px -14px rgba(27,42,74,.4)}
+.vd .tk{font-family:"DM Mono",monospace;font-weight:500;font-size:13px;color:var(--text)}
+.vd .op{font-family:"DM Mono",monospace;font-size:12px}
+
+/* newsletter */
+.signup{margin:clamp(38px,4vw,64px) 0 0;background:radial-gradient(90% 140% at 100% 0%, rgba(212,168,83,.18), transparent 55%), var(--navy);border:1px solid var(--line-strong);border-radius:6px;padding:clamp(28px,4vw,48px);display:grid;grid-template-columns:1.3fr 1fr;gap:32px;align-items:center;color:#F3ECDD}
+.signup h3{font-family:"Playfair Display",serif;font-weight:700;font-size:clamp(24px,3vw,34px);line-height:1.08;letter-spacing:-.01em;text-wrap:balance}
+.signup h3 em{font-style:italic;color:var(--gold-soft)}
+.signup p{margin-top:12px;color:#B9C0CE;font-size:14.5px;max-width:46ch;line-height:1.6}
+.signup .form{display:flex;gap:10px;flex-wrap:wrap}
+.signup input{flex:1;min-width:180px;background:rgba(0,0,0,.25);border:1px solid rgba(212,168,83,.3);border-radius:4px;padding:13px 15px;color:#fff;font-family:"DM Mono",monospace;font-size:13px}
+.signup input::placeholder{color:#8189A0}
+.signup input:focus{outline:2px solid var(--gold);outline-offset:1px}
+.signup button{background:var(--gold);color:#161009;border:none;border-radius:4px;padding:13px 22px;font-family:"DM Sans";font-weight:700;font-size:14px;cursor:pointer;transition:.2s}
+.signup button:hover{background:var(--gold-soft)}
+.signup .fineprint{margin-top:12px;font-family:"DM Mono",monospace;font-size:10.5px;color:#8189A0}
+
+/* footer */
+footer{margin-top:clamp(40px,4vw,68px);border-top:1px solid var(--line);padding:40px 0 60px}
+.foot-grid{display:flex;justify-content:space-between;gap:30px;flex-wrap:wrap;align-items:flex-start}
+.foot-brand{display:flex;align-items:center;gap:11px}
+.foot-brand img{height:30px}
+:root[data-theme="dark"] .foot-brand img{filter:invert(1)}
+@media (prefers-color-scheme:dark){:root:not([data-theme]) .foot-brand img{filter:invert(1)}}
+.foot-brand span{font-family:"Playfair Display",serif;font-weight:800;font-size:20px}
+.foot-brand span b{font-style:italic;color:var(--accent)}
+.foot-cols{display:flex;gap:clamp(28px,5vw,64px);flex-wrap:wrap}
+.foot-col h6{font-family:"DM Mono",monospace;font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--text-faint);margin-bottom:12px}
+.foot-col a{display:block;color:var(--text-dim);font-size:13.5px;padding:4px 0;transition:color .2s}
+.foot-col a:hover{color:var(--accent)}
+.foot-note{margin-top:30px;padding-top:20px;border-top:1px solid var(--hair);font-family:"DM Mono",monospace;font-size:11px;color:var(--text-faint);line-height:1.7;max-width:92ch}
+
+/* responsive */
+@media (max-width:920px){
+  .hero-grid{grid-template-columns:1fr;align-items:start}
+  .latest{max-width:560px}
+  .nav-links{display:none}
+}
+@media (max-width:980px){
+  .bento{grid-template-columns:1fr 1fr;grid-auto-rows:158px;
+    grid-template-areas:
+      "mega mega"
+      "mega mega"
+      "burn burn"
+      "burn burn"
+      "bp   cna"
+      "hse  hse"
+      "hse  hse"
+      "ejt  ejt"
+      "ejt  ejt"
+      "tpk  zig"
+      "ndx  ndx";}
+  .block.a-burn .photo{object-position:center}
+  .signup{grid-template-columns:1fr}
+  .strip-inner{grid-template-columns:1fr}
+}
+@media (max-width:600px){
+  .bento{grid-template-columns:1fr;grid-auto-rows:auto;grid-template-areas:none}
+  .block{grid-area:auto !important;aspect-ratio:16/10}
+  .block.a-burn .photo{object-position:center 30%}
+}
+@media (prefers-reduced-motion:reduce){*{transition-duration:.001ms !important}.latest-ribbon .dot{animation:none}}
+</style>
+</head>
+<body>
+
+<div class="nav">
+  <div class="wrap nav-inner">
+    <a class="brand" href="front-page.html">
+      <img class="brand-logo" src="emi-logo.png" alt="Equity &amp; Markets Insight logo">
+      <span class="brand-name">Equity <b>&amp;</b> Markets Insight</span>
+    </a>
+    <nav class="nav-links">
+      <a href="#company-analysis">Company Analysis</a>
+      <a href="#macro">Macro</a>
+      <a href="#rates">Rates</a>
+      <a href="#investor-tools">Investor Tools</a>
+    </nav>
+    <button class="theme-btn" id="themeBtn" aria-label="Toggle theme">◑</button>
+  </div>
+</div>
+
+<header class="hero">
+  <canvas id="field"></canvas>
+  <div class="wrap hero-grid">
+    <div class="masthead">
+      <div class="eyebrow">
+        <span class="kicker">Insight for UK investors</span>
+        <span class="rule"></span>
+        <span class="mono" style="font-size:11px;color:var(--text-faint)" id="dateStamp"></span>
+      </div>
+      <h1 class="wordmark">Equity <span class="amp">&amp;</span> Markets<span class="l2">Insight.</span></h1>
+      <p class="tagline"><b>Clearer thinking on UK markets and equities.</b> Independent company valuations, macro and rates — figures dated, sourced and reconciled, so you can make better-informed decisions.</p>
+    </div>
+
+    <a class="latest" data-tilt href="watches-of-switzerland-WOSG-blog-page.html">
+      <div class="latest-media">
+        <span class="latest-ribbon"><span class="dot"></span>Latest</span>
+        <img src="watches-of-switzerland-WOSG-cover.png" alt="Watches of Switzerland">
+      </div>
+      <div class="latest-body">
+        <span class="latest-tag">Company Analysis · Luxury Retail</span>
+        <h2>Watches of Switzerland: Strong Results, with a Takeover in the Price</h2>
+        <div class="latest-meta"><span>WOSG</span><span>·</span><span style="color:var(--accent)">Hold</span></div>
+      </div>
+    </a>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <nav class="cat-nav" aria-label="Sections">
+    <span class="cat-label">Browse</span>
+    <a class="cat-btn" href="#companies">Companies</a>
+    <a class="cat-btn" href="#analysis">Analysis</a>
+    <a class="cat-btn" href="#currencies">Currencies</a>
+    <a class="cat-btn" href="#commodities">Commodities</a>
+    <a class="cat-btn" href="#indices">Indices</a>
+    <a class="cat-btn" href="#interest-rates">Interest Rates</a>
+    <a class="cat-btn" href="#consumer-confidence">Consumer Confidence</a>
+  </nav>
+
+  <section class="bento" id="bento">
+
+    <a class="block a-mega" data-tilt href="mega-ipo-trap.html">
+      <img class="photo" alt="The Mega IPO Trap" src="mega-ipo-trap-cover.png">
+      <div class="overlay"></div><div class="spotlight"></div>
+      <div class="content">
+        <span class="cat"><i class="swatch"></i>Market Insight · IPOs</span>
+        <h4>The Mega IPO Trap</h4>
+        <div class="meta"><span class="pill watch">Analysis</span><span>SpaceX · OpenAI · Anthropic</span></div>
+      </div>
+    </a>
+
+    <a class="block a-burn" data-tilt href="burnham-uk-markets.html">
+      <img class="photo" alt="A Burnham premiership and UK markets" src="burnham-uk-markets-cover.png">
+      <div class="overlay"></div><div class="spotlight"></div>
+      <div class="content">
+        <span class="cat"><i class="swatch"></i>Macro · UK Politics</span>
+        <h4>A Change at the Top: What a Burnham Premiership Means for UK Markets</h4>
+        <div class="meta"><span class="pill watch">Analysis</span></div>
+      </div>
+    </a>
+
+    <a class="block a-bp" data-tilt href="bp-BP-blog-page.html">
+      <img class="photo" alt="BP" src="bp-BP-cover.png">
+      <div class="overlay"></div><div class="spotlight"></div>
+      <div class="content">
+        <span class="cat"><i class="swatch"></i>Oil &amp; Gas</span>
+        <h4>BP: The Bill for the Renewables Retreat</h4>
+        <div class="meta"><span class="pill oval">Overvalued</span></div>
+      </div>
+    </a>
+
+    <a class="block a-cna" data-tilt href="centrica-CNA-blog-page.html">
+      <img class="photo" alt="Centrica" src="centrica-CNA-cover.png">
+      <div class="overlay"></div><div class="spotlight"></div>
+      <div class="content">
+        <span class="cat"><i class="swatch"></i>Utilities</span>
+        <h4>Centrica: Fair Value After the Fall</h4>
+        <div class="meta"><span class="pill hold">Hold</span></div>
+      </div>
+    </a>
+
+    <a class="block a-hse" data-tilt href="uk-house-prices-may-2026.html">
+      <img class="photo" alt="UK house prices, May 2026" src="uk-house-prices-may-2026-cover.png">
+      <div class="overlay"></div><div class="spotlight"></div>
+      <div class="content">
+        <span class="cat"><i class="swatch"></i>Macro &amp; Rates · House Prices</span>
+        <h4>UK House Prices Slip in May — And What It Means for the Housebuilders</h4>
+        <div class="meta"><span class="pill watch">Analysis</span><span>Nationwide HPI</span></div>
+      </div>
+    </a>
+
+    <a class="block a-ejt" data-tilt href="easyjet-EZJ-H1-FY2026-blog-page.html">
+      <img class="photo" alt="easyJet" src="easyjet-EZJ-H1-FY2026-cover.png">
+      <div class="overlay"></div><div class="spotlight"></div>
+      <div class="content">
+        <span class="cat"><i class="swatch"></i>Airlines</span>
+        <h4>Despite the Headwinds, easyJet Are Getting By</h4>
+        <div class="meta"><span class="pill buy">Buy</span><span>H1 FY2026</span></div>
+      </div>
+    </a>
+
+    <a class="block a-tpk" data-tilt href="travis-perkins-TPK-blog-page.html">
+      <img class="photo" alt="Travis Perkins" src="travis-perkins-TPK-cover.png">
+      <div class="overlay"></div><div class="spotlight"></div>
+      <div class="content">
+        <span class="cat"><i class="swatch"></i>Building Materials</span>
+        <h4>Travis Perkins: Significantly Overvalued</h4>
+        <div class="meta"><span class="pill sell">Sell</span></div>
+      </div>
+    </a>
+
+    <a class="block a-zig" data-tilt href="zigup-ZIG-blog-page.html">
+      <img class="photo" alt="Zigup" src="zigup-ZIG-cover.png">
+      <div class="overlay"></div><div class="spotlight"></div>
+      <div class="content">
+        <span class="cat"><i class="swatch"></i>Support Services</span>
+        <h4>Zigup: Marginally Overvalued, But a Solid Dividend</h4>
+        <div class="meta"><span class="pill noact">No Action</span></div>
+      </div>
+    </a>
+
+    <a class="block a-ndx" data-tilt href="why-nasdaq-keeps-rising.html">
+      <img class="photo" alt="Nasdaq 100" src="why-nasdaq-keeps-rising-cover.png">
+      <div class="overlay"></div><div class="spotlight"></div>
+      <div class="content">
+        <span class="cat"><i class="swatch"></i>Markets · Nasdaq</span>
+        <h4>Why Does the Nasdaq Keep Rising?</h4>
+        <div class="meta"><span class="pill watch">Analysis</span></div>
+      </div>
+    </a>
+
+  </section>
+
+  <div class="strip">
+    <div class="strip-inner">
+      <h5>The Verdict Board<span>Every open call, one line</span></h5>
+      <div class="verdicts" id="verdicts"></div>
+    </div>
+  </div>
+
+  <section class="signup">
+    <div>
+      <h3>Stay <em>in touch</em>.</h3>
+      <p>The most up-to-date equity and market research — and opinions on what's moving markets today.</p>
+    </div>
+    <div>
+      <form class="form" onsubmit="return false">
+        <input type="email" placeholder="you@example.co.uk" aria-label="Email address">
+        <button type="submit">Subscribe</button>
+      </form>
+      <div class="fineprint">Free · UK markets focus · unsubscribe any time</div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <div class="foot-brand"><img src="emi-logo.png" alt=""><span>Equity <b>&amp;</b> Markets Insight</span></div>
+        <p style="margin-top:14px;max-width:34ch;color:var(--text-dim);font-size:13.5px">Independent UK equity &amp; macro research. Facts dated and sourced; opinion kept honestly apart.</p>
+      </div>
+      <div class="foot-cols">
+        <div class="foot-col"><h6>Sections</h6>
+          <a href="#company-analysis">Company Analysis</a><a href="#macro">Macro</a><a href="#rates">Rates</a><a href="#investor-tools">Investor Tools</a></div>
+        <div class="foot-col"><h6>Browse</h6>
+          <a href="#companies">Companies</a><a href="#currencies">Currencies</a><a href="#commodities">Commodities</a><a href="#indices">Indices</a><a href="#interest-rates">Interest Rates</a><a href="#consumer-confidence">Consumer Confidence</a></div>
+        <div class="foot-col"><h6>Site</h6>
+          <a href="rns-news.html">RNS News</a><a href="financial-calendar.html">Financial Calendar</a><a href="guidance-tracker.html">Guidance Tracker</a></div>
+      </div>
+    </div>
+    <p class="foot-note">© Markets &amp; Equities Research. This page is for information and education only and is not financial advice. I am not a financial adviser. Investing involves risk, including loss of capital. Do your own research and consider seeking independent advice.</p>
+  </div>
+</footer>
+
+<script>
+const root=document.documentElement, tb=document.getElementById('themeBtn');
+tb.addEventListener('click',()=>{const cur=root.getAttribute('data-theme')||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');root.setAttribute('data-theme',cur==='dark'?'light':'dark');});
+
+(()=>{const d=new Date();const opt={weekday:'long',day:'numeric',month:'long',year:'numeric'};document.getElementById('dateStamp').textContent=d.toLocaleDateString('en-GB',opt).toUpperCase();})();
+
+/* The Verdict Board — one chip per open call, linking to the latest analysis.
+   Regenerate this list whenever a new company analysis is published. */
+const verdicts=[
+  ['GOOGL','Hold','alphabet-GOOGL-Q1-FY2026-blog-page.html'],
+  ['AMZN','Hold','amazon-AMZN-blog-page.html'],
+  ['AO.','Sell','ao-world-AO-blog-page.html'],
+  ['AAPL','Overvalued','apple-AAPL-blog-page.html'],
+  ['DEBS','Sell','boohoo-DEBS-FY2026-blog-page.html'],
+  ['BP.','Overvalued','bp-BP-blog-page.html'],
+  ['AVGO','Sell','broadcom-AVGO-blog-page.html'],
+  ['CNA','Hold','centrica-CNA-blog-page.html'],
+  ['CCC','Sell','computacenter-CCC-blog-page.html'],
+  ['CRST','Buy','crest-nicholson-CRST-blog-page.html'],
+  ['EZJ','Buy','easyjet-EZJ-H1-FY2026-blog-page.html'],
+  ['FXPO','Short','ferrexpo-FXPO-blog-page.html'],
+  ['HFD','Hold','halfords-HFD-blog-page.html'],
+  ['IAG','Buy','iag-IAG-Q1-FY2026-blog-page.html'],
+  ['JHD','Sell','james-halstead-JHD-blog-page.html'],
+  ['JD.','Hold','jd-sports-JD-blog-page.html'],
+  ['JET2','Buy','jet2-JET2-FY2026-blog-page.html'],
+  ['MAB1','Pass','mab-MAB1-blog-page.html'],
+  ['META','Fair Value','meta-META-blog-page.html'],
+  ['MSFT','Overvalued','microsoft-MSFT-blog-page.html'],
+  ['NG.','Sell','national-grid-NG-blog-page.html'],
+  ['SVS','Avoid','savills-SVS-blog-page.html'],
+  ['TW.','Fair Value','taylor-wimpey-TW-blog-page.html'],
+  ['TPK','Sell','travis-perkins-TPK-blog-page.html'],
+  ['WOSG','Hold','watches-of-switzerland-WOSG-blog-page.html'],
+  ['WTB','Sell','whitbread-WTB-blog-page.html'],
+  ['ZIG','No Action','zigup-ZIG-blog-page.html']
+];
+const opColour=o=>{
+  if(o==='Buy')return 'var(--green)';
+  if(o==='Sell'||o==='Short'||o==='Avoid'||o==='Overvalued')return 'var(--red)';
+  return 'var(--accent)'; /* Hold, Fair Value, No Action, Pass */
+};
+document.getElementById('verdicts').innerHTML=verdicts.map(([t,o,href])=>
+  `<a class="vd" href="${href}" title="Open the latest ${t} analysis"><span class="tk">${t}</span><span class="op" style="color:${opColour(o)}">${o}</span></a>`
+).join('');
+
+const RM=matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+/* ============================================================
+   HERO — "Confluence": strands of evidence converging into one
+   view. Reactive to the cursor; no emphasised centre line.
+   ============================================================ */
+(()=>{
+  const cv=document.getElementById('field'), ctx=cv.getContext('2d');
+  const hero=document.querySelector('.hero');
+  let W=0,H=0,DPR=1,t=0,strands=[];
+  const mouse={x:.66,y:.5,ex:.66,ey:.5};
+
+  const dark=()=> (root.getAttribute('data-theme')||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'))==='dark';
+  const pal=()=> dark()
+    ? {ink:'rgba(150,170,205,', gold:'rgba(212,168,83,'}
+    : {ink:'rgba(27,42,74,',    gold:'rgba(169,129,46,'};
+  const smooth=x=>x*x*(3-2*x);
+
+  function build(){strands=[];const N=Math.max(13,Math.round(W/56));
+    for(let i=0;i<N;i++){const f=(i+0.5)/N;
+      strands.push({spread:f-0.5,amp:20+Math.random()*46,freq:0.8+Math.random()*1.4,
+        phase:Math.random()*Math.PI*2,speed:0.10+Math.random()*0.22,
+        gold:Math.random()<0.16,w:0.7+Math.random()*0.95});}}
+
+  function pathY(s,fx,my){const conv=smooth(fx);
+    const centre=0.5+(my-0.5)*0.55*conv;
+    let y=(centre+s.spread*(1-conv)*0.92)*H;
+    y+=Math.sin(fx*Math.PI*2*s.freq+s.phase+t*s.speed)*s.amp*(1-conv*0.82);
+    const dx=fx-mouse.ex, sig=0.26, g=Math.exp(-(dx*dx)/(2*sig*sig));
+    y+=(mouse.ey*H-y)*g*0.36; return y;}
+
+  function draw(){const C=pal(), my=mouse.ey;
+    ctx.lineCap='round';ctx.lineJoin='round';
+    for(const s of strands){ctx.beginPath();
+      for(let px=0;px<=W;px+=7){const y=pathY(s,px/W,my);px===0?ctx.moveTo(px,y):ctx.lineTo(px,y);}
+      ctx.strokeStyle=(s.gold?C.gold:C.ink)+(s.gold?0.38:0.19)+')';ctx.lineWidth=s.w;ctx.stroke();}}
+
+  function size(){DPR=Math.min(devicePixelRatio||1,2);
+    const r=hero.getBoundingClientRect();W=r.width;H=r.height;
+    cv.width=W*DPR;cv.height=H*DPR;cv.style.width=W+'px';cv.style.height=H+'px';
+    ctx.setTransform(DPR,0,0,DPR,0,0);build();}
+
+  function frame(){ctx.clearRect(0,0,W,H);
+    mouse.ex+=(mouse.x-mouse.ex)*0.06;mouse.ey+=(mouse.y-mouse.ey)*0.06;draw();}
+  function loop(){t+=RM?0:0.016;frame();if(!RM)requestAnimationFrame(loop);}
+
+  addEventListener('resize',size,{passive:true});
+  hero.addEventListener('pointermove',e=>{const r=hero.getBoundingClientRect();
+    mouse.x=(e.clientX-r.left)/r.width;mouse.y=(e.clientY-r.top)/r.height;});
+  hero.addEventListener('pointerleave',()=>{mouse.x=.66;mouse.y=.5;});
+
+  size();frame();loop();
+})();
+
+/* tile + card tilt / spotlight */
+document.querySelectorAll('[data-tilt]').forEach(el=>{
+  const strength=el.classList.contains('latest')?4:(el.classList.contains('a-mega')||el.classList.contains('a-burn')?6:9);
+  el.addEventListener('pointermove',e=>{const r=el.getBoundingClientRect();const px=(e.clientX-r.left)/r.width,py=(e.clientY-r.top)/r.height;
+    el.style.setProperty('--mx',(px*100)+'%');el.style.setProperty('--my',(py*100)+'%');
+    if(RM)return;const rx=(0.5-py)*strength,ry=(px-0.5)*strength;
+    el.style.transform=`perspective(1000px) rotateX(${rx}deg) rotateY(${ry}deg) translateY(-4px)`;});
+  el.addEventListener('pointerleave',()=>{el.style.transform='';});
+});
+</script>
+</body>
+</html>
