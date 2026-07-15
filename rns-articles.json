@@ -1,5 +1,114 @@
 [
   {
+    "company": "Topps Tiles PLC",
+    "ticker": "TPT",
+    "publish_date": "15 July 2026",
+    "date_iso": "2026-07-15",
+    "time_period": "",
+    "announcement_type": "AGM notice",
+    "period_detail": "",
+    "type_workings": "Rule 'routine': opening bullets reference the AGM [rns.json record]",
+    "body": "<ul><li><strong>Topps Tiles Plc</strong> issues a statement under <strong>provision 4 of Section 1</strong> of the UK Corporate Governance Code after its AGM on <strong>15 January 2026</strong>.</li><li>More than <strong>20%</strong> of votes were cast against <strong>resolution 13</strong>, which passed with <strong>53.16%</strong> in favour.</li><li>Board says it has engaged with shareholders to understand the opposition and will <strong>continue to consult</strong> on the matter.</li><li>Routine governance disclosure with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Topps Tiles confirms it is consulting shareholders after resolution 13 passed with only **53.16%** in favour at its January AGM.",
+    "priority": "low",
+    "priority_reason": "Routine UK Corporate Governance Code disclosure on shareholder engagement following a contested AGM vote; no trading or guidance impact.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/topps-tiles-TPT/share-news/Topps-Tiles-PLC-Statement-Regarding-Shareholder-Co/98920614",
+    "related_news_url": "https://news.google.com/search?q=%22Topps%20Tiles%20Plc%22",
+    "added_at": "2026-07-15T07:23:06.475076"
+  },
+  {
+    "company": "Barratt Redrow PLC",
+    "ticker": "BTRW",
+    "publish_date": "15 July 2026",
+    "date_iso": "2026-07-15",
+    "time_period": "FY26 (52 weeks ended 28 June 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "FY26 (52 weeks ended 28 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Barratt Redrow plc</strong> FY26 trading update: <strong>adjusted profit before tax</strong> (before PPA adjustments) <strong>in line with market expectations</strong>; annual results due <strong>16 September 2026</strong>.</li><li>Total home completions up <strong>5%</strong> to <strong>17,667</strong> (FY25: 16,826A/16,565R), at the upper end of guidance, including <strong>566</strong> JV and <strong>3,774</strong> affordable homes.</li><li>Net private reservation rate <strong>0.64</strong> (FY25: 0.63A/0.64R); Q4 total private rate <strong>0.75</strong> (Q4 FY25: 0.72); part-exchange rose to <strong>21%</strong> of private reservations (FY25: 14%).</li><li>Strong balance sheet with year-end <strong>net cash of c. £772m</strong> (FY25: £772.6m); total ASP c. <strong>£352k</strong> (FY25: £344.2kA), private ASP up <strong>3.8%</strong> to c. <strong>£396k</strong>.</li><li>Capital policy changed: <strong>FY26 final and FY27 interim ordinary dividends replaced by buybacks</strong>; a new <strong>c. £386m share buyback</strong> launches today, completing by 2 July 2027, plus c. <strong>£14m</strong> nominal 1p dividend — <strong>£400m</strong> total return in FY27.</li><li>FY27 guidance revised: completions of <strong>17,700–18,200</strong>, average sales outlets cut to <strong>c. 415</strong> (from 425–435), build cost inflation of <strong>c. 3%–4%</strong> and minimal house price inflation.</li></ul>",
+    "source_format": "html",
+    "headline": "Barratt Redrow delivered a solid FY26 with 17,667 completions and profit in line with expectations, and will return £400m to shareholders in FY27, mainly via buybacks.",
+    "priority": "high",
+    "priority_reason": "Full-year trading update with profit in line with expectations, a new capital allocation policy replacing dividends with a £386m buyback, and revised FY27 guidance.",
+    "figures": [
+      {
+        "metric": "Total home completions",
+        "current": "17,667",
+        "prior": "16,826 (FY25A)",
+        "change": "+5%",
+        "basis": "including JVs",
+        "note": "FY26, 52 weeks to 28 June 2026"
+      },
+      {
+        "metric": "Net private reservation rate",
+        "current": "0.64",
+        "prior": "0.63 (FY25A)",
+        "change": "not stated",
+        "basis": "including PRS/MUS contribution of 0.08",
+        "note": "FY26"
+      },
+      {
+        "metric": "Year-end net cash",
+        "current": "c. £772m",
+        "prior": "£772.6m",
+        "change": "broadly flat",
+        "basis": "reported",
+        "note": "at 28 June 2026"
+      },
+      {
+        "metric": "Total average selling price",
+        "current": "c. £352k",
+        "prior": "£344.2k (FY25A)",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "private ASP up 3.8% to c. £396k"
+      },
+      {
+        "metric": "Adjusted item charges",
+        "current": "c. £159m",
+        "prior": "£275.9m (FY25A)",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "PPA-related charges c. £37m (FY25: £95.3m)"
+      },
+      {
+        "metric": "Total forward sales (incl. JVs)",
+        "current": "£2,818.0m",
+        "prior": "£2,921.6m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "9,728 homes at 28 June 2026, 63% exchanged"
+      },
+      {
+        "metric": "Cost synergies delivered",
+        "current": "c. £53m in FY26 (c. £73m cumulative)",
+        "prior": "not stated",
+        "change": "c. £3m ahead of guidance",
+        "basis": "reported",
+        "note": "of £100m cumulative target"
+      }
+    ],
+    "guidance": {
+      "status": "lowered",
+      "previous": "FY27 average sales outlets of between 425 and 435; ordinary dividends payable at 50% of adjusted net income; FY26 final and FY27 interim ordinary dividends expected.",
+      "current": "FY27 average sales outlets of around 415; total completions of 17,700–18,200 (incl. c. 600 JVs); minimal house price inflation and build cost inflation of c. 3%–4%; £400m total shareholder return in FY27, primarily via a c. £386m buyback plus a c. £14m (1p) nominal dividend.",
+      "commentary": "FY27 sales outlet guidance was cut from 425–435 to around 415 due to accelerated outlet closures and slow planning. The Board has replaced most ordinary dividends with share buybacks, citing a 36% share price discount to tangible NAV (up from c. 9% at interims) as the reason for prioritising buybacks."
+    },
+    "explainer": "This is a full-year trading update ahead of Barratt Redrow's annual results on 16 September 2026. The figures compare FY26 (52 weeks to 28 June 2026) against FY25. The group prints two FY25 comparatives — 'A' (as previously reported by Barratt on its own) and 'R' (restated to reflect the combined Barratt Redrow group after the merger) — so the more meaningful like-for-like comparison generally uses the 'R' numbers. Adjusted profit before tax is quoted before PPA (purchase price allocation) adjustments, which are non-cash accounting charges arising from the Redrow acquisition.\n\nCompletions rose 5% to 17,667, at the upper end of guidance, and profit came in line with market expectations — a 'solid' outcome in a weak market where cautious consumer sentiment, higher mortgage rates and elevated incentives have pressured margins. The higher total ASP of c. £352k is largely mix-driven (more higher-priced regions and larger homes); underlying price movement was under 1%, so the headline ASP rise overstates genuine pricing power.\n\nThe key news is the capital allocation change. With the shares trading at a 36% discount to tangible net asset value of 433.4p (versus c. 9% at the February interims), the Board is scrapping most ordinary dividends and returning capital via buybacks instead. It still targets returning 50% of adjusted net income, but this — plus additional capital — makes up a c. £400m FY27 return, of which c. £386m is a buyback starting today (completing by 2 July 2027) and just c. £14m is a nominal 1p dividend to satisfy income mandates.\n\nFY27 guidance is mixed: completions are guided at 17,700–18,200 (slight growth), but average sales outlets have been cut from 425–435 to around 415 owing to faster outlet closures and slow planning. Management expects minimal house price inflation, build cost inflation of 3–4%, and incentives to stay elevated unless sentiment improves. Note year-end net cash of c. £772m is seasonally flattering — average daily net cash across FY26 was only c. £122m, and land-creditor and building-safety commitments imply cash outflows of c. £630m in FY27.",
+    "source_url": "https://uk.advfn.com/stock-market/london/barratt-redrow-BTRW/share-news/Barratt-Redrow-PLC-FY26-July-Trading-Update/98920611",
+    "related_news_url": "https://news.google.com/search?q=%22Barratt%20Redrow%20plc%22",
+    "added_at": "2026-07-15T07:23:06.449884"
+  },
+  {
     "company": "Wizz Air Holdings PLC",
     "ticker": "WIZZ",
     "publish_date": "15 July 2026",
