@@ -1,5 +1,72 @@
 [
   {
+    "company": "Hunting PLC",
+    "ticker": "HTG",
+    "publish_date": "15 July 2026",
+    "date_iso": "2026-07-15",
+    "time_period": "H1 2026 (six months to 30 June 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "H1 2026 (six months to 30 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Hunting PLC</strong> H1 2026 trading update: <strong>Perforating Systems</strong> and <strong>Subsea</strong> traded ahead of expectations; full-year expectations <strong>unchanged</strong>.</li><li>Period-end sales order book of <strong>c.$387m</strong>, up from the <strong>$358m</strong> 2025 year-end position; tender pipeline robust at <strong>c.$1.0bn</strong>.</li><li>Full-year <strong>EBITDA guidance of c.$145-$155m</strong> maintained, in line with market expectations; year-end total cash/(borrowings) expected at <strong>c.$60-$65m</strong>.</li><li><strong>OCTG</strong>, Advanced Manufacturing and Other Manufacturing saw lower H1 activity on order phasing, with recovery projected in <strong>H2 2026</strong>.</li><li>OOR technology now has <strong>more than 30 active clients</strong>; commercial deployments with <strong>Buccaneer Energy</strong>, <strong>PDO</strong> (Oman) and <strong>UEPL/OGDCL</strong> (Pakistan); 2026 revenue seen at <strong>c.$10-$15m</strong>, targeting a <strong>$100m per annum</strong> business by <strong>2030</strong>.</li><li>Board has appointed an international search firm for a new <strong>Chief Executive</strong> (following 1 June 2026); <strong>KPMG LLP</strong> proposed to replace <strong>Deloitte LLP</strong> as auditor from FY ending 31 December 2027. Half-year results due <strong>Friday 21 August 2026</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Hunting reports strong H1 momentum in Subsea and Perforating Systems, order book up to c.$387m, and reaffirms full-year EBITDA guidance of c.$145-$155m.",
+    "priority": "high",
+    "priority_reason": "H1 trading update from an LSE-listed oil services group with order book, cash and full-year EBITDA guidance — market-moving.",
+    "figures": [
+      {
+        "metric": "Sales order book (period-end)",
+        "current": "c.$387m",
+        "prior": "$358m (2025 year-end)",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "H1 2026 vs 2025 year-end"
+      },
+      {
+        "metric": "Tender pipeline",
+        "current": "c.$1.0bn",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "period-end"
+      },
+      {
+        "metric": "Full-year EBITDA guidance",
+        "current": "c.$145-$155m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "in line with market expectations",
+        "note": "FY 2026"
+      },
+      {
+        "metric": "Year-end total cash/(borrowings)",
+        "current": "c.$60-$65m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "expected FY 2026 year-end"
+      },
+      {
+        "metric": "OOR business unit revenue",
+        "current": "c.$10-$15m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "2026 expectation"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Full-year expectations; EBITDA of c.$145-$155m in line with market expectations",
+      "current": "Full-year EBITDA guidance of c.$145-$155m remains in line with market expectations; unchanged full-year expectations",
+      "commentary": "Guidance is reaffirmed rather than changed: strength in Subsea and Perforating Systems offsets weaker OCTG, Advanced Manufacturing and Other Manufacturing, where recovery is expected in H2 2026."
+    },
+    "explainer": "This is a pre-close trading update, not full results — Hunting's actual H1 numbers land on 21 August 2026. The company reports in US dollars, so all figures are in $. The key reference point is the order book: c.$387m at period-end versus $358m at the 2025 year-end shows work in hand has grown, and a c.$1.0bn tender pipeline signals potential future orders still being bid for.\n\nOn earnings, management has held its full-year EBITDA guidance at c.$145-$155m and describes it as in line with market expectations — i.e. no upgrade or downgrade, and no surprise versus consensus. The shape of the year is second-half weighted for some divisions: OCTG, Advanced Manufacturing and Other Manufacturing were softer in H1 due to order timing, with recovery expected in H2, while Subsea and Perforating Systems (Hunting Titan) ran ahead.\n\nThe expected year-end cash position of c.$60-$65m indicates a net cash balance sheet, giving scope for the bolt-on acquisitions and shareholder returns management references. Note two governance items with no guidance impact: an external CEO search is underway following the 1 June 2026 announcement, and KPMG is proposed to take over as auditor from Deloitte for FY2027, subject to shareholder approval at the 2027 AGM.",
+    "source_url": "https://uk.advfn.com/stock-market/london/hunting-HTG/share-news/Hunting-PLC-Hunting-or-the-Company-or-th/98920501",
+    "related_news_url": "https://news.google.com/search?q=%22Hunting%20PLC%22",
+    "added_at": "2026-07-15T07:24:56.374723"
+  },
+  {
     "company": "Galliford Try Holdings PLC",
     "ticker": "GFRD",
     "publish_date": "15 July 2026",
