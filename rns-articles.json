@@ -1,5 +1,31 @@
 [
   {
+    "company": "Wizz Air Holdings PLC",
+    "ticker": "WIZZ",
+    "publish_date": "15 July 2026",
+    "date_iso": "2026-07-15",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Wizz Air Holdings PLC</strong> appoints <strong>Jingyuan Sun</strong> as <strong>Chief Technical Officer</strong>, effective <strong>1 October 2026</strong>, reporting to Group Managing Director <strong>Michael Delehant</strong>.</li><li>Role consolidates Technical Services, Engineering, Base Maintenance & Transitions and Technical Contracts & Supplier Management under a dedicated leadership structure; Sun joins the senior management team and is classed as a <strong>PDMR</strong>.</li><li>Joins from <strong>SR Technics Switzerland</strong> (Senior Vice President); over <strong>18 years</strong> in international aviation, previously at <strong>SIA Engineering Company</strong> in Singapore.</li><li>Routine senior management appointment with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Wizz Air appoints Jingyuan Sun as Chief Technical Officer, effective 1 October 2026, reporting to Group Managing Director Michael Delehant.",
+    "priority": "medium",
+    "priority_reason": "Senior management appointment (PDMR) with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/wizz-air-WIZZ/share-news/Wizz-Air-Holdings-PLC-Appointment-of-Chief-Technic/98916677",
+    "related_news_url": "https://news.google.com/search?q=%22Wizz%20Air%20Holdings%20PLC%22",
+    "added_at": "2026-07-15T07:22:25.190266"
+  },
+  {
     "company": "Old Mutual Ltd",
     "ticker": "OMU",
     "publish_date": "15 July 2026",
@@ -24,6 +50,49 @@
     "source_url": "https://uk.advfn.com/stock-market/london/old-mutual-OMU/share-news/Old-Mutual-Limited-Engagement-with-dissenting-shar/98913283",
     "related_news_url": "https://news.google.com/search?q=%22Old%20Mutual%20Limited%22",
     "added_at": "2026-07-15T07:15:58.601635"
+  },
+  {
+    "company": "Rio Tinto PLC",
+    "ticker": "RIO",
+    "publish_date": "14 July 2026",
+    "date_iso": "2026-07-14",
+    "time_period": "Q2 2026 / H1 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "Q2 2026 / H1 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Rio Tinto</strong> Q2/H1 2026 production update: group <strong>copper equivalent (CuEq) production up 3% year-on-year</strong> in the first half.</li><li><strong>Highest first-half Pilbara iron ore production since the 2018 record</strong>, driven by its productivity improvement programme.</li><li>Copper: <strong>Oyu Tolgoi</strong> ramp-up on schedule, delivering <strong>more than 30% growth</strong> in the first half; aluminium business sustained strong performance.</li><li><strong>Simandou</strong>: SimFer mine construction and port infrastructure both <strong>more than three-quarters complete</strong>, with <strong>full rail commissioning achieved in Q1</strong>.</li><li>Lithium: <strong>first production achieved ahead of plan at Sal de Vida and Fénix 1B</strong>; growth options advancing at Resolution and Winu.</li><li>Note: the scraped page lists the production data tables (copper, iron ore, LCE) as headers only — <strong>the actual quarterly volume figures did not render</strong>, so specific tonnages cannot be quoted here.</li></ul>",
+    "source_format": "html",
+    "headline": "Rio Tinto reports copper equivalent production up 3% in H1 2026, with its highest first-half Pilbara iron ore output since the 2018 record.",
+    "priority": "high",
+    "priority_reason": "Quarterly production update from a major FTSE 100 miner, market-moving for the stock and the wider mining sector.",
+    "figures": [
+      {
+        "metric": "Copper equivalent (CuEq) production",
+        "current": "not stated (volume)",
+        "prior": "not stated",
+        "change": "+3% YoY",
+        "basis": "Rio Tinto share, long-term consensus prices",
+        "note": "First half 2026"
+      },
+      {
+        "metric": "Oyu Tolgoi copper production",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": ">+30%",
+        "basis": "ramp-up",
+        "note": "First half 2026"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "2026 sales guidance (100% basis): Simandou 5-10 Mt; IOC 15-18 Mt",
+      "current": "2026 sales guidance (100% basis): Simandou 5-10 Mt; IOC 15-18 Mt",
+      "commentary": "Guidance is reiterated in the notes rather than changed. Pilbara iron ore guidance remains subject to the timing of approvals for planned mining areas and heritage clearances."
+    },
+    "explainer": "This is a production (operational) update, not financial results — it reports how much metal and ore Rio Tinto dug up and shipped, not revenue or profit. The headline measure, copper equivalent (CuEq), rolls all of Rio's different products into a single number by converting each into its copper-price equivalent, so a '3% rise' means total output grew 3% once weighted by long-term consensus prices.\n\nThe iron ore comparison is against Rio's own history: this was the strongest first-half Pilbara output since it set a record in 2018, credited to productivity improvements rather than new mines. Growth elsewhere comes from the Oyu Tolgoi copper mine in Mongolia continuing its planned ramp-up (over 30% more copper), and from new lithium operations (Sal de Vida, Fénix 1B) starting production earlier than scheduled following the Arcadium acquisition.\n\nOn guidance, nothing has changed: the note simply restates existing 2026 sales targets of 5-10 Mt for the new Simandou iron ore project in Guinea and 15-18 Mt for the Iron Ore Company of Canada, with the usual caveat that Pilbara volumes depend on approvals and heritage clearances.\n\nOne caveat on this summary: the scraped article contained the production tables as headings only, with no numbers attached, so the specific quarterly tonnages could not be captured. The percentage moves above come from the CEO's commentary, which is the only place figures were legible.",
+    "source_url": "https://uk.advfn.com/stock-market/london/rio-tinto-RIO/share-news/Rio-Tinto-releases-second-quarter-2026-production/98919965",
+    "related_news_url": "https://news.google.com/search?q=%22Rio%20Tinto%20plc%22",
+    "added_at": "2026-07-15T07:22:25.177539"
   },
   {
     "company": "Investec PLC",
