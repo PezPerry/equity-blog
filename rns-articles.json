@@ -1,5 +1,106 @@
 [
   {
+    "company": "Supermarket Income Reit PLC",
+    "ticker": "SUPR",
+    "publish_date": "15 July 2026",
+    "date_iso": "2026-07-15",
+    "time_period": "",
+    "announcement_type": "Acquisition / deal",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Supermarket Income REIT plc</strong> intends to raise approximately <strong>£100 million</strong> of gross proceeds via new ordinary shares to fund an advanced pipeline of <strong>nine grocery assets</strong> costing <strong>£216 million</strong>.</li><li>Structure: an institutional <strong>accelerated bookbuild placing</strong>, a <strong>South African placing</strong>, and a <strong>UK retail offer</strong> via Retail Book; <strong>Goldman Sachs</strong>, <strong>Peel Hunt</strong> and <strong>Stifel</strong> are joint bookrunners, <strong>PSG Capital</strong> sole bookrunner for the SA placing.</li><li><strong>Acquisition Portfolio</strong> of three supermarkets (Sainsbury's Manchester, Tesco Edinburgh, Tesco Halifax) for <strong>£118m</strong> at a <strong>6.9% NIY</strong>, completing September 2026; plus six <strong>Pipeline Assets</strong> for <strong>£98m</strong> completing within three months.</li><li>Deal and issue expected to be <strong>accretive to EPS</strong> from the first full financial year with minimal NTA dilution and a lower EPRA cost ratio; max <strong>LTV of 45%</strong> and net debt/EBITDA of <strong>7-8x</strong> maintained.</li><li>Issue conditional on a shareholder vote at a general meeting expected on or around <strong>3 August 2026</strong>.</li><li>Trading update embedded: results for the year ended <strong>30 June 2026</strong> due September 2026, with Group performance <strong>in line with expectations</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Supermarket Income REIT launches a £100m equity raise to fund a £216m advanced pipeline of nine UK grocery assets.",
+    "priority": "high",
+    "priority_reason": "A £100m equity placing to fund £216m of acquisitions is a material fundraising and dilutive event for shareholders.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/supermarket-income-reit-SUPR/share-news/Supermarket-Income-REIT-PLC-Proposed-equity-issue/98920629",
+    "related_news_url": "https://news.google.com/search?q=%22Supermarket%20Income%20REIT%20plc%22",
+    "added_at": "2026-07-15T07:25:40.681300"
+  },
+  {
+    "company": "Rio Tinto PLC",
+    "ticker": "RIO",
+    "publish_date": "15 July 2026",
+    "date_iso": "2026-07-15",
+    "time_period": "Q2 2026 / H1 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "Q2 2026 / H1 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Rio Tinto PLC</strong> reported <strong>3% YoY</strong> growth in copper equivalent (CuEq) production for the first half of 2026, with overall production/sales guidance <strong>unchanged</strong>.</li><li><strong>Copper:</strong> <strong>Oyu Tolgoi</strong> ramp-up on track, delivering <strong>31% YoY</strong> H1 growth; C1 net unit cost guidance cut to <strong>US 30-50c/lb</strong> (from <strong>US 65-75c/lb</strong>) on higher gold prices and productivity gains.</li><li><strong>Iron ore:</strong> Q2 global iron ore sales <strong>89Mt</strong>, up <strong>5% YoY</strong>; Q2 Pilbara sales up <strong>7% YoY</strong>; highest H1 Pilbara production since the 2018 record. <strong>Simandou</strong> mine and port infrastructure both over three-quarters complete.</li><li><strong>Lithium:</strong> Q2 production up <strong>20% YoY</strong> on the <strong>Rincon</strong> ramp-up and first tonnes at <strong>Sal de Vida</strong> and <strong>Fénix 1B</strong>, ahead of plan.</li><li><strong>Oyu Tolgoi</strong> received Mongolian tax assessments of <strong>MNT 1.6 trillion ($443 million)</strong> for FY2021-22, paid in full in March 2026 with rights reserved to dispute; H1 also saw a <strong>~$1.2bn</strong> working-capital cash outflow.</li><li>CEO <strong>Simon Trott</strong> cited scale and geographical diversification underpinning resilience amid geopolitical uncertainty and volatility in the <strong>Strait of Hormuz</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Rio Tinto delivered 3% YoY copper equivalent production growth in H1 2026 and cut copper C1 net unit cost guidance to US 30-50c/lb.",
+    "priority": "high",
+    "priority_reason": "Quarterly production report from a major miner, including a copper unit-cost guidance cut and detailed operational and market commentary.",
+    "figures": [
+      {
+        "metric": "Copper equivalent production (H1)",
+        "current": "+3% YoY",
+        "prior": "not stated",
+        "change": "+3%",
+        "basis": "reported",
+        "note": "H1 2026"
+      },
+      {
+        "metric": "Oyu Tolgoi copper production (H1)",
+        "current": "+31% YoY",
+        "prior": "not stated",
+        "change": "+31%",
+        "basis": "reported",
+        "note": "H1 2026"
+      },
+      {
+        "metric": "Global iron ore sales (Q2)",
+        "current": "89Mt",
+        "prior": "not stated",
+        "change": "+5% YoY",
+        "basis": "100% basis",
+        "note": "Q2 2026"
+      },
+      {
+        "metric": "Pilbara iron ore sales (Q2)",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+7% YoY",
+        "basis": "reported",
+        "note": "Q2 2026"
+      },
+      {
+        "metric": "Lithium production (Q2)",
+        "current": "+20% YoY",
+        "prior": "not stated",
+        "change": "+20%",
+        "basis": "reported",
+        "note": "Q2 2026"
+      },
+      {
+        "metric": "Exploration and evaluation spend (YTD, pre-tax)",
+        "current": "$480m",
+        "prior": "$334m",
+        "change": "not stated",
+        "basis": "pre-tax and pre-divestment",
+        "note": "Year to date vs 2025"
+      }
+    ],
+    "guidance": {
+      "status": "lowered",
+      "previous": "Copper C1 net unit cost guidance US 65 - 75c/lb",
+      "current": "Copper C1 net unit cost guidance US 30 - 50c/lb; production/sales guidance and Pilbara iron ore unit cash costs unchanged",
+      "commentary": "Copper C1 net unit cost guidance was cut due to higher-than-expected gold prices (a by-product credit) and productivity improvements. Overall production and sales guidance is unchanged; Pilbara unit costs unchanged despite a diesel-price headwind."
+    },
+    "explainer": "This is a production report, so most of the headline numbers are volumes and unit costs rather than revenue or profit; full financial results come with the H1 report. Copper equivalent (CuEq) production converts each metal into a copper-price-equivalent volume using long-term consensus prices, giving a single group-wide growth figure — here up 3% year on year in the first half.\n\nThe main change is a large cut to copper C1 net unit cost guidance, to US 30-50c/lb from US 65-75c/lb. C1 costs are net of by-product credits, so a big driver is higher gold prices (Rio earns gold alongside copper at Kennecott and Oyu Tolgoi), plus productivity gains. Lower per-pound costs are positive for copper margins, though they partly reflect the elevated gold price rather than only operational improvement.\n\nPilbara iron ore unit cash costs are held unchanged even though diesel roughly rose from ~$85/bbl to ~$140/bbl during H1, adding about $0.8/t to unit costs; Rio flags that each US$10/bbl move shifts full-year Pilbara unit costs by ~$0.15/t.\n\nTwo cash items are worth noting: Oyu Tolgoi paid a disputed MNT 1.6 trillion ($443m) Mongolian tax assessment in March 2026, and H1 saw a ~$1.2bn working-capital outflow driven mainly by higher iron ore inventories after Q1 cyclones and the Simandou ramp-up. Rio has also refined its free cash flow definition to include its share of capital investment from the H1 results.",
+    "source_url": "https://uk.advfn.com/stock-market/london/rio-tinto-RIO/share-news/Rio-Tinto-PLC-Second-quarter-production-results/98920610",
+    "related_news_url": "https://news.google.com/search?q=%22Rio%20Tinto%20PLC%22",
+    "added_at": "2026-07-15T07:25:40.665051"
+  },
+  {
     "company": "Hunting PLC",
     "ticker": "HTG",
     "publish_date": "15 July 2026",
