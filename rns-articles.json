@@ -1,5 +1,31 @@
 [
   {
+    "company": "Segro PLC",
+    "ticker": "SGRO",
+    "publish_date": "15 July 2026",
+    "date_iso": "2026-07-15",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>SEGRO plc</strong> has signed three new leases over <strong>c.540,000 sq ft</strong> at <strong>SEGRO Park Coventry</strong>, taking the site to almost <strong>1.7m sq ft</strong> leased of a planned 3.7m sq ft.</li><li>Deals comprise pre-lets to <strong>Volvo Group UK</strong> (91,000 sq ft build-to-suit) and <strong>DIRKS Consumer Logistics</strong> (306,000 sq ft), plus a speculative unit let to <strong>GigaCloud Technology</strong> (140,500 sq ft).</li><li>Leases add <strong>£6m</strong> of new rent — already included in the <strong>£53m</strong> of new headline rent reported in the <strong>8 July 2026</strong> trading update, so <strong>no impact</strong> on previously announced figures or guidance.</li><li>Volvo facility due operational <strong>early 2027</strong>; DIRKS relocation completes <strong>H1 2027</strong>. Site targets BREEAM 'Excellent' and could employ up to <strong>5,000</strong> people once fully occupied.</li></ul>",
+    "source_format": "html",
+    "headline": "SEGRO signs three new leases across c.540,000 sq ft at SEGRO Park Coventry, adding £6m of rent already booked in its H1 trading update.",
+    "priority": "low",
+    "priority_reason": "Routine leasing news whose rent is already captured in the 8 July trading update, so no new impact on guidance or figures.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/segro--sgro/segro-capitalises-on-strong-leasing-momentum-/9669776",
+    "related_news_url": "https://news.google.com/search?q=%22SEGRO%20plc%22",
+    "added_at": "2026-07-15T07:55:42.872248"
+  },
+  {
     "company": "Londonmetric Property PLC",
     "ticker": "LMP",
     "publish_date": "15 July 2026",
