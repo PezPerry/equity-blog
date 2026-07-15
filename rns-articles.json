@@ -1,5 +1,136 @@
 [
   {
+    "company": "Workspace Group PLC",
+    "ticker": "WKP",
+    "publish_date": "15 July 2026",
+    "date_iso": "2026-07-15",
+    "time_period": "Q1 to 30 June 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "Q1 to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Q1 to 30 June 2026</strong> trading update: total portfolio rent roll up <strong>1.8% (£2.3m)</strong> excluding disposals to <strong>£128.0m</strong>; total occupancy up <strong>0.3pp to 79.8%</strong> and rent per sq. ft. up <strong>1.2% to £42.73</strong>.</li><li>Stabilised Portfolio occupancy up <strong>0.6pp to 82.3%</strong>, rent per sq. ft. up <strong>0.9% to £46.87</strong>, lifting rent roll <strong>1.9% (£2.1m) to £110.2m</strong>.</li><li><strong>264 lettings</strong> and <strong>111 renewals</strong> completed with total rental value of <strong>£11.9m</strong> (Q1 25/26: 278 lettings, 112 renewals, £10.7m); enquiry-to-letting conversion <strong>14%</strong> (vs 15%).</li><li>Sold <strong>£12.6m</strong> of assets in Q1 at an average <strong>22.3%</strong> discount to book value, taking total disposals exchanged or completed to <strong>£138.4m</strong> versus original <strong>£200m</strong> target by end of <strong>FY27</strong>; considering <strong>£100m+</strong> additional disposals with over <strong>£200m</strong> currently being marketed.</li><li>Net debt down <strong>£18m to £740m</strong>; <strong>£260m</strong> cash and undrawn facilities (Mar 26: £242m); proforma LTV <strong>35%</strong> on March 2026 valuation.</li><li>AGM on <strong>23 July 2026</strong>; Board urges shareholders to vote FOR Workspace resolutions and AGAINST all <strong>Saba Capital Management</strong> resolutions (21-26).</li></ul>",
+    "source_format": "html",
+    "headline": "Workspace reports modest Q1 rent roll and occupancy gains, £12.6m of asset sales, and £138.4m of disposals against its £200m FY27 target.",
+    "priority": "high",
+    "priority_reason": "First-quarter business update from a FTSE 250 REIT, including occupancy, rent roll, disposals and balance-sheet metrics.",
+    "figures": [
+      {
+        "metric": "Total portfolio rent roll",
+        "current": "£128.0m",
+        "prior": "not stated",
+        "change": "+1.8% (£2.3m) excluding disposals",
+        "basis": "reported",
+        "note": "Q1 to 30 June 2026"
+      },
+      {
+        "metric": "Total portfolio occupancy",
+        "current": "79.8%",
+        "prior": "not stated",
+        "change": "+0.3pp",
+        "basis": "reported",
+        "note": "Q1 to 30 June 2026"
+      },
+      {
+        "metric": "Total portfolio rent per sq. ft.",
+        "current": "£42.73",
+        "prior": "not stated",
+        "change": "+1.2%",
+        "basis": "reported",
+        "note": "Q1 to 30 June 2026"
+      },
+      {
+        "metric": "Stabilised Portfolio occupancy",
+        "current": "82.3%",
+        "prior": "not stated",
+        "change": "+0.6pp",
+        "basis": "reported",
+        "note": "Q1 to 30 June 2026"
+      },
+      {
+        "metric": "Stabilised Portfolio rent per sq. ft.",
+        "current": "£46.87",
+        "prior": "not stated",
+        "change": "+0.9%",
+        "basis": "reported",
+        "note": "Q1 to 30 June 2026"
+      },
+      {
+        "metric": "Stabilised Portfolio rent roll",
+        "current": "£110.2m",
+        "prior": "not stated",
+        "change": "+1.9% (£2.1m)",
+        "basis": "reported",
+        "note": "Q1 to 30 June 2026"
+      },
+      {
+        "metric": "Lettings",
+        "current": "264",
+        "prior": "278",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "Q1 25/26 comparative"
+      },
+      {
+        "metric": "Renewals",
+        "current": "111",
+        "prior": "112",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "Q1 25/26 comparative"
+      },
+      {
+        "metric": "Total rental value of lettings/renewals",
+        "current": "£11.9m",
+        "prior": "£10.7m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "Q1 25/26 comparative"
+      },
+      {
+        "metric": "Enquiry to letting conversion rate",
+        "current": "14%",
+        "prior": "15%",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "Q1 25/26 comparative"
+      },
+      {
+        "metric": "Net debt",
+        "current": "£740m",
+        "prior": "£758m",
+        "change": "-£18m",
+        "basis": "reported",
+        "note": "vs 31 March 2026"
+      },
+      {
+        "metric": "Cash and undrawn facilities",
+        "current": "£260m",
+        "prior": "£242m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "vs Mar 26"
+      },
+      {
+        "metric": "Proforma LTV",
+        "current": "35%",
+        "prior": "35%",
+        "change": "unchanged",
+        "basis": "based on March 2026 valuation",
+        "note": "as at 30 June 2026"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "£200m disposals target by end of FY27",
+      "current": "£138.4m of disposals exchanged or completed to date against the £200m target; considering an additional £100m+ of disposals above the original target, with over £200m of assets currently being marketed",
+      "commentary": "The £200m disposal target to end-FY27 is maintained, with the company signalling it may exceed it by more than £100m. No earnings or dividend guidance figures were provided in this update."
+    },
+    "explainer": "This is a first-quarter operational update from Workspace, a London-focused flexible-office REIT, covering the three months to 30 June 2026. The figures show steady rather than spectacular progress: occupancy and rent per square foot both edged up, lifting the rent roll (the annualised rent from current lettings). Comparatives are given against the same quarter a year earlier (Q1 25/26) and against 31 March 2026 for balance-sheet items. Several metrics are restated for asset sales and reporting changes, so the base is not always like-for-like.\n\nThe 'Stabilised Portfolio' (formerly like-for-like) strips out recently refurbished or acquired sites to show underlying performance; it grew faster than the total portfolio, which is dragged by disposals and weaker South East offices. Disposals are being sold at a notable discount — an average 22.3% below March 2026 book value — which raises cash but confirms values below carrying levels.\n\nOn guidance, the £200m disposal programme to end-FY27 is maintained, and management now flags it could sell over £100m more on top, using proceeds to reinvest in the portfolio and cut debt. Net debt fell £18m to £740m. No profit, EPS or dividend guidance figures were included in this update.\n\nNote the governance backdrop: the AGM on 23 July 2026 features contested resolutions from activist investor Saba Capital, which the board opposes.",
+    "source_url": "https://uk.advfn.com/stock-market/london/workspace-WKP/share-news/Workspace-Group-PLC-FIRST-QUARTER-BUSINESS-UPDATE/98920569",
+    "related_news_url": "https://news.google.com/search?q=%22Workspace%20Group%20PLC%22",
+    "added_at": "2026-07-15T07:23:48.455962"
+  },
+  {
     "company": "Topps Tiles PLC",
     "ticker": "TPT",
     "publish_date": "15 July 2026",
