@@ -1,5 +1,112 @@
 [
   {
+    "company": "Antofagasta PLC",
+    "ticker": "ANTO",
+    "publish_date": "15 July 2026",
+    "date_iso": "2026-07-15",
+    "time_period": "Q2 2026 / H1 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "Q2 2026 / H1 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Q2 2026 copper production 142,000 tonnes</strong>, <strong>1% lower</strong> quarter-on-quarter on reduced output at <strong>Antucoya</strong>; ~<strong>7,000 tonnes</strong> processed at <strong>Los Pelambres</strong> deferred into H2 filtered production after concentrate pipeline maintenance.</li><li><strong>Year-to-date copper production 285,000 tonnes</strong>, <strong>9% lower</strong> year-on-year on weaker output at <strong>Los Pelambres</strong> and <strong>Centinela</strong>; quarterly output expected to rise sequentially through the rest of the year.</li><li><strong>Cash costs before by-product credits $2.94/lb in Q2</strong> (<strong>+6% QoQ</strong>) and <strong>$2.85/lb in H1</strong> (<strong>+23% YoY</strong>), reflecting higher diesel, sulphuric acid and consumable prices plus a one-off Centinela labour settlement.</li><li><strong>Net cash costs $1.36/lb in Q2</strong> (<strong>+26% QoQ</strong>); <strong>H1 net cash costs $1.22/lb</strong>, <strong>8% lower</strong> year-on-year as higher by-product credits ($1.63/lb, +64%) offset cost inflation.</li><li><strong>Full-year guidance unchanged</strong>: copper <strong>650,000-700,000 tonnes</strong>, cash cost after by-products <strong>$1.15-1.35/lb</strong>, capex <strong>$3.4bn</strong>; cash cost before by-product credits now guided to <strong>$2.40-2.60/lb</strong>.</li><li>Approved ~<strong>$0.9bn</strong> investment in <strong>Zaldívar</strong> long-term water supply, enabling potential mine-life extension to <strong>2051</strong>; major growth projects on track to complete commissioning next year.</li></ul>",
+    "source_format": "html",
+    "headline": "Antofagasta's Q2 copper output of 142,000 tonnes was 1% lower quarter-on-quarter but full-year production and cost guidance are unchanged.",
+    "priority": "high",
+    "priority_reason": "Quarterly production report from a FTSE 100 copper miner with cost and full-year guidance detail.",
+    "figures": [
+      {
+        "metric": "Copper production (Q2)",
+        "current": "142,000 t",
+        "prior": "not stated",
+        "change": "-1%",
+        "basis": "quarter-on-quarter",
+        "note": "Q2 2026"
+      },
+      {
+        "metric": "Copper production (YTD)",
+        "current": "285,000 t",
+        "prior": "not stated",
+        "change": "-9%",
+        "basis": "year-on-year",
+        "note": "H1 2026"
+      },
+      {
+        "metric": "Gold production (Q2)",
+        "current": "46,300 oz",
+        "prior": "not stated",
+        "change": "in line",
+        "basis": "quarter-on-quarter",
+        "note": "Q2 2026"
+      },
+      {
+        "metric": "Gold production (YTD)",
+        "current": "92,800 oz",
+        "prior": "not stated",
+        "change": "in line",
+        "basis": "year-on-year",
+        "note": "H1 2026"
+      },
+      {
+        "metric": "Molybdenum production (YTD)",
+        "current": "6,100 t",
+        "prior": "not stated",
+        "change": "-18%",
+        "basis": "year-on-year",
+        "note": "H1 2026"
+      },
+      {
+        "metric": "Cash costs before by-product credits (Q2)",
+        "current": "$2.94/lb",
+        "prior": "not stated",
+        "change": "+6%",
+        "basis": "quarter-on-quarter",
+        "note": "Q2 2026"
+      },
+      {
+        "metric": "Cash costs before by-product credits (H1)",
+        "current": "$2.85/lb",
+        "prior": "not stated",
+        "change": "+23%",
+        "basis": "year-on-year",
+        "note": "H1 2026"
+      },
+      {
+        "metric": "By-product credits (H1)",
+        "current": "$1.63/lb",
+        "prior": "not stated",
+        "change": "+64%",
+        "basis": "year-on-year",
+        "note": "H1 2026"
+      },
+      {
+        "metric": "Net cash costs (Q2)",
+        "current": "$1.36/lb",
+        "prior": "not stated",
+        "change": "+26%",
+        "basis": "quarter-on-quarter",
+        "note": "Q2 2026"
+      },
+      {
+        "metric": "Net cash costs (H1)",
+        "current": "$1.22/lb",
+        "prior": "not stated",
+        "change": "-8%",
+        "basis": "year-on-year",
+        "note": "H1 2026"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Full-year copper production 650,000-700,000 tonnes; cash cost after by-product credits $1.15-1.35/lb; capital expenditure $3.4bn",
+      "current": "Full-year copper production 650,000-700,000 tonnes; cash cost after by-product credits $1.15-1.35/lb; capital expenditure $3.4bn; cash cost before by-product credits now expected $2.40-2.60/lb",
+      "commentary": "Headline production, net cash cost and capex guidance are all held unchanged, with output expected to rise sequentially in H2 on higher throughput and grades. The one moving part is the newly stated before-by-product cash cost range of $2.40-2.60/lb, reflecting fuel and consumable prices remaining above January 2026 levels; the after-credit range is preserved because higher by-product credits offset that inflation."
+    },
+    "explainer": "This is a production report, not full financial results, so the key numbers are tonnes of metal and unit cash costs in US dollars per pound of copper, rather than revenue or profit. Antofagasta reports both quarter-on-quarter (Q2 versus Q1) and year-to-date year-on-year (H1 2026 versus H1 2025) comparisons; the year-on-year figures are weaker mainly because of lower grades and throughput at Los Pelambres and Centinela earlier in the mine plan.\n\nCash costs come in three layers. 'Before by-product credits' is the raw cost of producing copper; 'by-product credits' are the value of gold and molybdenum sold alongside the copper, which is netted off; and 'net cash costs' is the result after those credits. In H1, gross cash costs rose 23% year-on-year on diesel, sulphuric acid and a one-off Centinela labour settlement, but because by-product credits jumped 64% on higher gold and moly prices, net cash costs actually fell 8%. A roughly 7,000-tonne slug of copper processed at Los Pelambres in Q2 is being held in inventory and will only be booked as production in H2, flattering the second half.\n\nOn guidance, the practical message is 'no change' where it matters most: full-year copper of 650,000-700,000 tonnes, net cash cost of $1.15-1.35/lb and capex of $3.4bn are all reaffirmed, with management expecting a stronger H2 as grades and throughput improve. The only new number is a before-credit cash cost range of $2.40-2.60/lb, an acknowledgement that input-cost inflation is running above start-of-year assumptions, even though richer by-product credits keep the all-in net figure within the original range.",
+    "source_url": "https://uk.advfn.com/stock-market/london/antofagasta-ANTO/share-news/Antofagasta-PLC-Q2-2026-PRODUCTION-REPORT/98920578",
+    "related_news_url": "https://news.google.com/search?q=%22Antofagasta%20plc%22",
+    "added_at": "2026-07-15T07:26:26.510286"
+  },
+  {
     "company": "Supermarket Income Reit PLC",
     "ticker": "SUPR",
     "publish_date": "15 July 2026",
