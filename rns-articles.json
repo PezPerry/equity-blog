@@ -1,5 +1,80 @@
 [
   {
+    "company": "Ferrexpo PLC",
+    "ticker": "FXPO",
+    "publish_date": "15 July 2026",
+    "date_iso": "2026-07-15",
+    "time_period": "Q2 2026 (three months to 30 June 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "Q2 2026 (three months to 30 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Ferrexpo</strong> warns it has sufficient net accessible cash to operate only until <strong>early Q4 2026</strong>, and remains in a \"precarious financial position\" reliant on a planned equity raise.</li><li>Total Q2 2026 production of <strong>963 thousand tonnes</strong> — <strong>860kt</strong> of premium iron ore pellets and <strong>103kt</strong> of Fe 67% concentrate — with only <strong>one pellet line</strong> in operation.</li><li>Net cash less lease obligations of approximately <strong>US$21m</strong> at <strong>30 June 2026</strong>, down from <strong>US$25m</strong> at 31 March 2026, <strong>US$47m</strong> at 31 December 2025 and <strong>US$101m</strong> at end-2024; accessible cash balance approximately <strong>US$27m</strong>.</li><li>Ukrainian VAT refunds suspended since <strong>March 2025</strong>; VAT receivable of <strong>US$90.4m</strong>, of which <strong>US$80.8m</strong> of claims (Jan 2025–Apr 2026) have been refused by the tax authorities.</li><li>Board still sees a conditional placing to raise a minimum of <strong>US$100m</strong> as the most viable solution; discussions ongoing with largest shareholder <strong>Fevamotinico</strong>, but no certainty of completion — failure could force insolvency and total loss for shareholders.</li><li>FY25 audited results still unpublished pending the fundraise; <strong>listing remains suspended</strong> and a lifting of the suspension will only be sought once FY25 results are released. Legal fights with <strong>Maxi Capital</strong> continue (UAH4,727m / US$105.4m claim; FPM bankruptcy appeal hearing 27 July 2026).</li></ul>",
+    "source_format": "html",
+    "headline": "Ferrexpo produced 963kt in Q2 with only one pellet line running and warns cash lasts only until early Q4 2026 absent a minimum US$100m equity raise.",
+    "priority": "high",
+    "priority_reason": "Production update paired with severe going-concern warning, dependence on a US$100m fundraise, blocked VAT refunds and a listing suspension — highly material to holders.",
+    "figures": [
+      {
+        "metric": "Total production",
+        "current": "963kt",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "pellets + concentrate",
+        "note": "Q2 2026 (three months to 30 June 2026)"
+      },
+      {
+        "metric": "Iron ore pellets",
+        "current": "860kt",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "Q2 2026"
+      },
+      {
+        "metric": "Fe 67% concentrate",
+        "current": "103kt",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "Q2 2026"
+      },
+      {
+        "metric": "Net cash less lease obligations",
+        "current": "approx US$21m (30 Jun 2026)",
+        "prior": "approx US$25m (31 Mar 2026)",
+        "change": "-US$4m QoQ",
+        "basis": "",
+        "note": "vs US$47m at 31 Dec 2025, US$50m at 30 Jun 2025, US$101m at 31 Dec 2024"
+      },
+      {
+        "metric": "Accessible cash balance",
+        "current": "approx US$27m (30 Jun 2026)",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "net of funds held at MBaer",
+        "note": ""
+      },
+      {
+        "metric": "Ukraine VAT receivable (net of allowances)",
+        "current": "US$90.4m (30 Jun 2026)",
+        "prior": "US$90.3m (31 Mar 2026)",
+        "change": "broadly flat",
+        "basis": "US$80.8m of refunds refused by tax authorities",
+        "note": ""
+      }
+    ],
+    "guidance": {
+      "status": "new",
+      "previous": "",
+      "current": "Based on current production rates, forecast energy prices and an optimised sales mix, the Group forecasts sufficient net accessible cash less lease obligations and blocked MBaer funds to operate in the current constrained environment until early Q4 2026.",
+      "commentary": "Rather than earnings guidance, Ferrexpo gives a cash-runway estimate — funds last only until early Q4 2026, contingent on iron ore prices, energy costs and no adverse legal or insolvency-manager actions. Survival hinges on completing the minimum US$100m Intended Fundraise and resolving the VAT refund freeze."
+    },
+    "explainer": "This is a production and trading update rather than a full set of results — Ferrexpo cannot yet publish its audited 2025 accounts because they can only be signed off on a going-concern basis if the planned equity raise succeeds. Its shares remain suspended from trading on the London Stock Exchange, and the suspension will only be lifted after the FY25 results are released.\n\nThe production figures (963kt total, from a single working pellet line) show output continuing at a reduced level under wartime constraints in Ukraine. More important is the cash position: net cash less lease obligations has fallen steeply, from about US$101m at end-2024 to roughly US$21m at 30 June 2026. The company says this, plus blocked funds at MBaer, only funds operations until early Q4 2026.\n\nA major cash drain is the Ukrainian tax authorities' suspension of VAT refunds since March 2025 — Ferrexpo is owed about US$90.4m, most of which has been formally refused, and recovery is uncertain. To bridge the gap the Board wants a conditional placing of at least US$100m to new and existing institutions, including its largest shareholder Fevamotinico, to fund working capital and restart deferred stripping and capex over roughly 18 months.\n\nThe key risk stated plainly: if the VAT and funding issues are not resolved in time, group members may have no option but to file for insolvency and shareholders could lose all or most of their investment. Ongoing litigation with Maxi Capital and FPM's bankruptcy proceedings add further uncertainty.",
+    "source_url": "https://uk.advfn.com/stock-market/london/ferrexpo-FXPO/share-news/Ferrexpo-PLC-Production-Report-for-2Q-2026-Tradi/98920584",
+    "related_news_url": "https://news.google.com/search?q=%22Ferrexpo%20plc%22",
+    "added_at": "2026-07-15T07:28:42.190335"
+  },
+  {
     "company": "Yellow Cake PLC",
     "ticker": "YCA",
     "publish_date": "15 July 2026",
