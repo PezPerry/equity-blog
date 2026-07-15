@@ -1,5 +1,114 @@
 [
   {
+    "company": "Galliford Try Holdings PLC",
+    "ticker": "GFRD",
+    "publish_date": "15 July 2026",
+    "date_iso": "2026-07-15",
+    "time_period": "FY to 30 June 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "FY to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Galliford Try Holdings plc</strong> expects <strong>adjusted profit before tax at the top end</strong> of the <strong>£51.4m to £53.4m</strong> analysts' forecast range for the year ended <strong>30 June 2026</strong>.</li><li><strong>Sixth consecutive year</strong> of revenue, profit and cash growth expected; <strong>full-year revenue up circa 3%</strong>, with year-on-year margin progression towards the <strong>2030 margin target of 4.0%</strong>.</li><li><strong>Year-end cash £258.8m</strong> (2025: £237.6m) and average month-end cash <strong>up 21.0% at £216.2m</strong>; <strong>no bank debt</strong>, no pension liabilities, undrawn RCF, plus a <strong>£37.2m</strong> portfolio of marketable PPP assets.</li><li><strong>Order book £4.3bn</strong> at 30 June 2026 (2025: £4.1bn), with <strong>c90% of new-year revenue secured</strong>.</li><li>Completed third buyback (<strong>1,957,703 shares cancelled at ~£5.11</strong>, total <strong>£10m</strong>); <strong>£38.4m</strong> capital allocations and <strong>c£20.3m</strong> dividends funded from operating profits; acquired <strong>Nene Valley Fire and Acoustic</strong> in February 2026.</li><li>Framework/project wins since January 2026 include the <strong>£15.4bn DfE CF25</strong>, the <strong>£1.5bn YORbuild Major Works 2</strong>, a <strong>£750m Sovereign Network Group</strong> affordable homes framework and a <strong>£60m</strong> RAF Lakenheath facility; audited results due <strong>17 September 2026</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Galliford Try expects a sixth consecutive year of revenue, profit and cash growth, with FY26 adjusted PBT at the top end of forecasts.",
+    "priority": "high",
+    "priority_reason": "Full-year trading update confirming profit at the top end of market forecasts, with cash, order book and framework wins detailed.",
+    "figures": [
+      {
+        "metric": "Revenue",
+        "current": "up circa 3%",
+        "prior": "not stated",
+        "change": "+3%",
+        "basis": "reported",
+        "note": "FY to 30 June 2026"
+      },
+      {
+        "metric": "Adjusted profit before tax",
+        "current": "top end of £51.4m–£53.4m forecast range",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "adjusted",
+        "note": "analysts' forecasts compiled by the group at 1 July 2026"
+      },
+      {
+        "metric": "Average month-end cash",
+        "current": "£216.2m",
+        "prior": "£178.7m",
+        "change": "+21.0%",
+        "basis": "reported",
+        "note": "FY to 30 June 2026"
+      },
+      {
+        "metric": "Year-end cash",
+        "current": "£258.8m",
+        "prior": "£237.6m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "at 30 June 2026"
+      },
+      {
+        "metric": "Order book",
+        "current": "£4.3bn",
+        "prior": "£4.1bn",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "at 30 June 2026"
+      },
+      {
+        "metric": "PPP asset portfolio",
+        "current": "£37.2m",
+        "prior": "£38.6m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "marketable Public Private Partnership assets"
+      },
+      {
+        "metric": "Dividends",
+        "current": "c£20.3m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "1.8x cover progressive policy",
+        "note": "FY to 30 June 2026"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Analysts' forecast range of £51.4m to £53.4m for FY26 adjusted profit before tax (based on forecasts at 1 July 2026)",
+      "current": "Adjusted profit before tax expected at the top end of the £51.4m to £53.4m range",
+      "commentary": "The group is pointing profit to the top end of the existing analyst range rather than changing a formal target, alongside continued margin progression towards its 2030 goal of 4.0%."
+    },
+    "explainer": "This is a pre-close trading update ahead of audited full-year results due on 17 September 2026, so the figures are the company's own expectations rather than final audited numbers. Galliford Try is guiding profit to the top end of the analyst-compiled forecast range of £51.4m to £53.4m for adjusted profit before tax — 'adjusted' meaning before one-off or exceptional items — which is effectively a reassuring signal rather than a formal guidance upgrade.\n\nRevenue growth of circa 3% is reported (not organic-adjusted), and the company stresses margin progression towards a 2030 target of 4.0%, indicating profit is growing faster than revenue as the mix shifts towards higher-margin work such as the newly acquired passive fire prevention business.\n\nThe cash figures are notably strong: average month-end cash (a better measure of underlying liquidity than a single year-end snapshot) rose 21.0% to £216.2m, while year-end cash was £258.8m. With no bank debt and no pension liabilities, the balance sheet gives the group flexibility to fund dividends, buybacks and bolt-on acquisitions from operating profits.\n\nThe £4.3bn order book with c90% of next year's revenue already secured provides visibility on future workload, and the listed framework wins (DfE CF25, YORbuild, Sovereign Network Group) underpin the confident outlook.",
+    "source_url": "https://uk.advfn.com/stock-market/london/galliford-try-GFRD/share-news/Galliford-Try-Holdings-PLC-Trading-Statement/98920547",
+    "related_news_url": "https://news.google.com/search?q=%22Galliford%20Try%20Holdings%20plc%22",
+    "added_at": "2026-07-15T07:24:19.474702"
+  },
+  {
+    "company": "Costain Group PLC",
+    "ticker": "COST",
+    "publish_date": "15 July 2026",
+    "date_iso": "2026-07-15",
+    "time_period": "",
+    "announcement_type": "Contract win",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Costain</strong> awarded a <strong>three-year extension</strong> to its Managed Service Provider (MSP) contract with <strong>United Utilities</strong>, taking the partnership to <strong>ten years</strong> and through the remainder of the AMP8 regulatory cycle.</li><li>Costain supports delivery of the <strong>AMP8 capital maintenance programme</strong> in the north west of England, with <strong>more than 120 professionals</strong> on the framework.</li><li>United Utilities is investing <strong>£13.5bn</strong> in the region's water and wastewater infrastructure during AMP8 (<strong>AMP7: £3.8bn</strong>), with an option to extend the relationship to the end of <strong>AMP9 in 2035</strong>.</li><li>To date Costain has delivered <strong>more than 900 capital maintenance projects</strong> and approximately <strong>9,000 responsive maintenance activities</strong> under the framework.</li><li>No contract value or margin terms disclosed in the announcement.</li></ul>",
+    "source_format": "html",
+    "headline": "Costain wins three-year extension to its United Utilities Managed Service Provider contract, taking the partnership to ten years through the AMP8 cycle.",
+    "priority": "high",
+    "priority_reason": "Three-year contract extension with United Utilities securing revenue through the AMP8 cycle counts as a major contract win.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/costain-COST/share-news/Costain-Group-PLC-Costain-extends-contract-with-Un/98920561",
+    "related_news_url": "https://news.google.com/search?q=%22Costain%20Group%20PLC%22",
+    "added_at": "2026-07-15T07:24:19.382485"
+  },
+  {
     "company": "Workspace Group PLC",
     "ticker": "WKP",
     "publish_date": "15 July 2026",
