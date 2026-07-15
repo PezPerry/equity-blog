@@ -1,5 +1,104 @@
 [
   {
+    "company": "Gore Street Energy Storage Fund PLC",
+    "ticker": "GSF",
+    "publish_date": "15 July 2026",
+    "date_iso": "2026-07-15",
+    "time_period": "FY to 31 March 2026",
+    "announcement_type": "Annual results",
+    "period_detail": "FY to 31 March 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>NAV</strong> dropped to <strong>74.9pps</strong> (<strong>£378.3m</strong>) at 31 March 2026, from <strong>102.8pps</strong> (<strong>£519.3m</strong>) a year earlier, with c.<strong>68%</strong> of the decline attributed to lower independent merchant-revenue curves (-17.2p) plus a <strong>-1.8p</strong> Audit Committee adjustment.</li><li><strong>Revenue</strong> rose to <strong>£36.27m</strong> (FY25: <strong>£32.84m</strong>) on a larger fleet, but average revenue fell to <strong>£7.32/MW/hr</strong> (FY25: <strong>£9.56/MW/hr</strong>); <strong>operational EBITDA</strong> was broadly flat at <strong>£18.0m</strong> (FY25: <strong>£18.5m</strong>).</li><li><strong>Dividends</strong> declared for the year totalled <strong>7.19pps</strong> (FY25: <strong>4.00pps</strong>), including <strong>3.00pps</strong> of specials; a <strong>1.75pps</strong> Q4 dividend was approved on <strong>14 July 2026</strong>, payable around <strong>1 September 2026</strong>.</li><li>New Board's revised <strong>March 2026 strategy</strong> sets a fixed <strong>7p per share</strong> annual distribution, selective asset sales, augmentation growth and cost cuts, with the continuation vote brought forward from <strong>2028</strong> if KPIs are missed.</li><li>Asset sales underway: <strong>Cremzow</strong> (Germany, 22MW) in late-stage negotiations, plus processes for pre-construction Republic of Ireland and <strong>Middelton</strong> (200MW) assets; further updates expected summer 2026.</li><li>Operational capacity grew to <strong>643.11 MW / 840.9 MWh</strong> (FY25: 417.11 MW / 386.75 MWh); GAV gearing rose to <strong>21.9%</strong> (FY25: 17.8%), with <strong>£51.6m</strong> cash and <strong>£37.8m</strong> undrawn debt.</li></ul>",
+    "source_format": "html",
+    "headline": "Gore Street NAV fell to **74.9p** per share from **102.8p**, driven mainly by lower third-party merchant revenue forecasts, as revenue rose to **£36.27m**.",
+    "priority": "high",
+    "priority_reason": "Audited full-year results with a sharp NAV decline, a new fixed distribution policy and an active asset-sale programme.",
+    "figures": [
+      {
+        "metric": "NAV per share",
+        "current": "74.9p",
+        "prior": "102.8p",
+        "change": "-27.1%",
+        "basis": "reported",
+        "note": "at 31 March 2026 vs 31 March 2025"
+      },
+      {
+        "metric": "NAV total",
+        "current": "£378.3m",
+        "prior": "£519.3m",
+        "change": "-27.2%",
+        "basis": "reported",
+        "note": "at 31 March 2026 vs 31 March 2025"
+      },
+      {
+        "metric": "Revenue",
+        "current": "£36.27m",
+        "prior": "£32.84m",
+        "change": "+10.4%",
+        "basis": "prior year restated for ownership adjustments (APM 6)",
+        "note": "FY to 31 March 2026"
+      },
+      {
+        "metric": "Average revenue per MW/hr",
+        "current": "£7.32",
+        "prior": "£9.56",
+        "change": "-23.4%",
+        "basis": "reported",
+        "note": "FY to 31 March 2026"
+      },
+      {
+        "metric": "Operational EBITDA",
+        "current": "£18.0m",
+        "prior": "£18.5m",
+        "change": "-2.7%",
+        "basis": "reported",
+        "note": "FY to 31 March 2026"
+      },
+      {
+        "metric": "Dividends declared",
+        "current": "7.19pps",
+        "prior": "4.00pps",
+        "change": "+79.8%",
+        "basis": "includes 3.00pps special dividends",
+        "note": "in respect of FY to 31 March 2026"
+      },
+      {
+        "metric": "Operational capacity",
+        "current": "643.11 MW / 840.9 MWh",
+        "prior": "417.11 MW / 386.75 MWh",
+        "change": "not stated",
+        "basis": "period-end",
+        "note": "at 31 March 2026 vs 31 March 2025"
+      },
+      {
+        "metric": "GAV gearing",
+        "current": "21.9%",
+        "prior": "17.8%",
+        "change": "+4.1pp",
+        "basis": "total Group debt drawn £105.8m",
+        "note": "at 31 March 2026"
+      },
+      {
+        "metric": "Weighted average discount rate",
+        "current": "10.25%",
+        "prior": "10.22%",
+        "change": "+0.03pp",
+        "basis": "reported",
+        "note": "FY24/25 comparative"
+      }
+    ],
+    "guidance": {
+      "status": "new",
+      "previous": "Prior dividends declared of 4.00pps in respect of FY25; earlier policy not framed as a fixed distribution.",
+      "current": "Fixed distribution of 7 pence per share per annum, paid quarterly, under the March 2026 revised strategy; KPI-linked with the continuation vote brought forward from 2028 if targets are missed.",
+      "commentary": "The new Board has replaced the previous distribution approach with a higher, fixed 7p annual dividend funded by capital release from asset sales and augmentation, alongside cost cuts. The period under review predates the new strategy, which is expected to yield tangible shareholder results in the near term."
+    },
+    "explainer": "The headline story is valuation, not trading. Gore Street's NAV per share fell from 102.8p to 74.9p over the year — a fund of this type marks its batteries to model, discounting projected future revenues. When independent forecasters cut their expected 'merchant' revenue curves (the prices batteries earn in wholesale and balancing markets), the value of those future cash flows falls. About two-thirds of the NAV decline came from these lower third-party curves (-17.2p), with a further -1.8p adjustment directed by the new Audit Committee to bring near-term projections closer to actual recent revenue.\n\nOperationally the fund actually grew: revenue rose to £36.27m from £32.84m because far more capacity was online (643MW at year-end versus 417MW). But average revenue per MW/hr fell sharply to £7.32 from £9.56, as GB and Texas markets became oversupplied with battery capacity, suppressing prices. Because costs are largely fixed per MW, EBITDA was roughly flat despite the bigger fleet. Note the prior-year revenue and EBITDA figures were restated to reflect ownership percentages, so the year-on-year comparison is on a like-for-like basis per the company.\n\nOn distributions, the 7.19p declared for the year is flattered by 3.00p of special dividends and is not the new run-rate. The forward policy is a fixed 7p per share per annum paid quarterly — this is the 'new' guidance element, tied to the March 2026 strategy of selling selected assets (Cremzow, Irish and Middelton pre-construction sites) and reinvesting in augmentation (extending two GB assets from 1-hour to 2-hour duration). The Board has attached KPIs and warned it will pull the continuation vote forward from 2028 to 2026 if progress disappoints, so execution over the coming year is the key watch item.",
+    "source_url": "https://uk.advfn.com/stock-market/london/gore-street-energy-storage-GSF/share-news/Gore-Street-Energy-Storage-Fund-PLC-Final-Results/98920587",
+    "related_news_url": "https://news.google.com/search?q=%22Gore%20Street%20Energy%20Storage%20Fund%20plc%22",
+    "added_at": "2026-07-15T07:27:06.255268"
+  },
+  {
     "company": "Antofagasta PLC",
     "ticker": "ANTO",
     "publish_date": "15 July 2026",
