@@ -9,6 +9,8 @@ on:
       - '!guidance-tracker.html'
       - '!tv-swipe.html'
       - '!financial-calendar*.html'
+      - '!front-page.html'
+      - '!index.html'
       - '!longreads/**'
 
 jobs:
@@ -24,7 +26,7 @@ jobs:
         env:
           BASE44_API_KEY: ${{ secrets.BASE44_API_KEY }}
         run: |
-          NEW_FILES=$(git diff --name-only --diff-filter=A HEAD~1 HEAD -- '*.html' ':!longreads/' | grep -vE '^(rns-news|guidance-tracker|tv-swipe|financial-calendar[^/]*)\.html$' || true)
+          NEW_FILES=$(git diff --name-only --diff-filter=A HEAD~1 HEAD -- '*.html' ':!longreads/' | grep -vE '^(rns-news|guidance-tracker|tv-swipe|financial-calendar[^/]*|front-page|index)\.html$' || true)
 
           if [ -z "$NEW_FILES" ]; then
             echo "No new HTML articles detected. Skipping."
