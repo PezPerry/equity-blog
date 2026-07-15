@@ -1,5 +1,57 @@
 [
   {
+    "company": "Standard Chartered PLC",
+    "ticker": "STAN",
+    "publish_date": "15 July 2026",
+    "date_iso": "2026-07-15",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Manus Costello</strong> appointed <strong>Group Chief Financial Officer</strong> and Executive Director of <strong>Standard Chartered PLC</strong>, with immediate effect after regulatory approvals were received.</li><li>Confirms the appointment first announced on <strong>17 May 2026</strong>.</li><li>Routine board completion — <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Standard Chartered confirms **Manus Costello** as Group Chief Financial Officer and Executive Director following regulatory approval, effective immediately.",
+    "priority": "medium",
+    "priority_reason": "Confirmation of a new Group CFO and Executive Director is a material board change, though it was pre-announced in May.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/standard-chartered--stan/directorate-change/9670160",
+    "related_news_url": "https://news.google.com/search?q=%22Standard%20Chartered%20PLC%22",
+    "added_at": "2026-07-15T09:55:32.813723"
+  },
+  {
+    "company": "Aberdeen Group PLC",
+    "ticker": "ABDN",
+    "publish_date": "15 July 2026",
+    "date_iso": "2026-07-15",
+    "time_period": "Year ended 31 December 2026",
+    "announcement_type": "Dividend declaration",
+    "period_detail": "Year ended 31 December 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Second quarterly interim dividend of 5.55p per share</strong> declared for the year ended <strong>31 December 2026</strong>.</li><li>Equates to an <strong>annualised dividend yield of 6.30%</strong>, based on a share price of <strong>335p</strong> on <strong>30 June 2026</strong>.</li><li>Payable on <strong>21 August 2026</strong> to shareholders on the register at <strong>24 July 2026</strong>; ex-dividend date <strong>23 July 2026</strong>.</li><li>Dividend set at <strong>1.5625% per quarter of NAV</strong> (approx <strong>6.25% per annum</strong>), based on NAV of <strong>355.08p</strong> at 30 June 2026; DRIP election deadline <strong>31 July 2026</strong>.</li><li>Routine dividend declaration by a closed-end fund with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Aberdeen Asian Income Fund declares second quarterly interim dividend of 5.55p per share, an annualised yield of 6.30%.",
+    "priority": "medium",
+    "priority_reason": "Routine quarterly dividend declaration by an investment trust with no impact on wider trading.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/aberdeen-asian-income-fund-limited--aaif/dividend-declaration/9670068",
+    "related_news_url": "https://news.google.com/search?q=%22Aberdeen%20Asian%20Income%20Fund%20Limited%22",
+    "added_at": "2026-07-15T09:55:32.796131"
+  },
+  {
     "company": "Segro PLC",
     "ticker": "SGRO",
     "publish_date": "15 July 2026",
