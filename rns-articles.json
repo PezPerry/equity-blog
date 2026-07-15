@@ -1,5 +1,31 @@
 [
   {
+    "company": "ICG PLC",
+    "ticker": "ICG",
+    "publish_date": "15 July 2026",
+    "date_iso": "2026-07-15",
+    "time_period": "",
+    "announcement_type": "AGM statement",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>All 22 resolutions</strong> put to ICG's 2026 AGM on <strong>15 July 2026</strong> were passed by the requisite majority.</li><li>Highest dissent on the <strong>remuneration policy</strong> (10.23% against) and <strong>disapplication of pre-emption rights</strong> (11.53% against); <strong>W Rucker</strong> re-appointment drew 7.78% against.</li><li><strong>Stephen Welton</strong> and <strong>Rosemary Leith</strong> retired as Non-Executive Directors following the meeting; Leith had chaired the Risk Committee.</li><li>Routine AGM disclosure with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "All 22 resolutions passed at ICG's 2026 AGM; Stephen Welton and Rosemary Leith retired as Non-Executive Directors.",
+    "priority": "low",
+    "priority_reason": "Routine AGM voting results with all resolutions passed; no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/gnw/icg-plc--icg/results-of-2026-annual-general-meeting/9670569",
+    "related_news_url": "https://news.google.com/search?q=%22ICG%20plc%22",
+    "added_at": "2026-07-15T12:55:35.719235"
+  },
+  {
     "company": "Paragon Banking Group PLC",
     "ticker": "PAG",
     "publish_date": "15 July 2026",
