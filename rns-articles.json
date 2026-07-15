@@ -1,5 +1,31 @@
 [
   {
+    "company": "Paragon Banking Group PLC",
+    "ticker": "PAG",
+    "publish_date": "15 July 2026",
+    "date_iso": "2026-07-15",
+    "time_period": "",
+    "announcement_type": "Financing / refinancing",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Paragon Bank PLC</strong>, subsidiary of <strong>Paragon Banking Group PLC</strong>, issued <strong>£500,000,000</strong> Series 2026-1 Floating Rate Covered Bonds due <strong>September 2029</strong> under its <strong>£5 billion Covered Bond Programme</strong>.</li><li>Priced at <strong>SONIA plus 0.50%</strong> and <strong>1.7x subscribed</strong> by bank treasury and asset fund investors; secured against prime buy-to-let mortgages.</li><li>Margin of <strong>0.50%</strong> improves on the <strong>0.60%</strong> paid at the inaugural <strong>March 2025</strong> issuance, which CEO <strong>Nigel Terrington</strong> cites as evidence of a stronger corporate credit profile.</li><li>Routine wholesale funding execution with <strong>no impact</strong> on trading or guidance; Final Terms dated <strong>13 July 2026</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Paragon Bank issues **£500m** of floating-rate covered bonds due September 2029 under its **£5bn** programme, priced at **SONIA plus 0.50%**.",
+    "priority": "medium",
+    "priority_reason": "A £500m covered bond issuance is a material wholesale funding event, though routine debt-programme execution rather than trading news.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/paragon-banking-group--pag/publication-of-final-terms/9670488",
+    "related_news_url": "https://news.google.com/search?q=%22Paragon%20Banking%20Group%20PLC%22",
+    "added_at": "2026-07-15T12:15:43.090304"
+  },
+  {
     "company": "Standard Chartered PLC",
     "ticker": "STAN",
     "publish_date": "15 July 2026",
