@@ -1,5 +1,57 @@
 [
   {
+    "company": "Londonmetric Property PLC",
+    "ticker": "LMP",
+    "publish_date": "15 July 2026",
+    "date_iso": "2026-07-15",
+    "time_period": "H1 to 30 September 2026",
+    "announcement_type": "Notice of results",
+    "period_detail": "H1 to 30 September 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>LondonMetric Property Plc</strong> will announce <strong>half year results</strong> for the six months ending <strong>30 September 2026</strong> on <strong>Tuesday 24 November 2026</strong>.</li><li>In-person analyst presentation at <strong>08.30am</strong> on the day, with a live webcast at www.londonmetric.com/investors and an on-demand recording afterwards.</li><li>Routine diary notice with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "LondonMetric will report its half-year results for the six months to 30 September 2026 on Tuesday 24 November 2026.",
+    "priority": "low",
+    "priority_reason": "Routine scheduling notice confirming the half-year results date, with no financial content.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/londonmetric-property--lmp/notice-of-results/9669010",
+    "related_news_url": "https://news.google.com/search?q=%22LondonMetric%20Property%20Plc%22",
+    "added_at": "2026-07-15T07:29:51.348780"
+  },
+  {
+    "company": "Franchise Brands PLC",
+    "ticker": "FRAN",
+    "publish_date": "15 July 2026",
+    "date_iso": "2026-07-15",
+    "time_period": "",
+    "announcement_type": "Interim results",
+    "period_detail": "",
+    "type_workings": "Rule 'results headline': opening bullets say 'interim results' [rns.json record]",
+    "body": "<ul><li><strong>Franchise Brands plc</strong> (AIM: FRAN) will hold a live presentation on its <strong>Interim Results</strong> via <strong>Investor Meet Company</strong> on <strong>3 August 2026, 11:30 BST</strong>, led by <strong>Peter Molloy</strong> (CEO) and <strong>Neil Miller</strong> (CFO).</li><li>Open to all existing and potential shareholders; questions can be submitted pre-event until <strong>2 August 2026, 09:00 BST</strong>.</li><li>Routine investor-engagement notice with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Franchise Brands to host live investor presentation on its Interim Results via Investor Meet Company on 3 August 2026.",
+    "priority": "low",
+    "priority_reason": "Routine investor presentation notice with no financial figures or trading news.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/franchise-brands--fran/investor-presentation-via-investor-meet-company/9669022",
+    "related_news_url": "https://news.google.com/search?q=%22Franchise%20Brands%20plc%22",
+    "added_at": "2026-07-15T07:29:51.324050"
+  },
+  {
     "company": "Intermediate Capital Group plc",
     "ticker": "ICP",
     "publish_date": "15 July 2026",
