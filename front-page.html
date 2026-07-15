@@ -215,10 +215,10 @@ footer{margin-top:clamp(40px,4vw,68px);border-top:1px solid var(--line);padding:
       <span class="brand-name">Equity <b>&amp;</b> Markets Insight</span>
     </a>
     <nav class="nav-links">
-      <a href="#company-analysis">Company Analysis</a>
-      <a href="#macro">Macro</a>
-      <a href="#rates">Rates</a>
-      <a href="#investor-tools">Investor Tools</a>
+      <a target="_top" href="https://equityandmarketsinsight.com/Companies">Company Analysis</a>
+      <a target="_top" href="https://equityandmarketsinsight.com/Articles">Macro</a>
+      <a target="_top" href="https://equityandmarketsinsight.com/InterestRates">Rates</a>
+      <a target="_top" href="https://equityandmarketsinsight.com/TradingLog">Investor Tools</a>
     </nav>
     <button class="theme-btn" id="themeBtn" aria-label="Toggle theme">◑</button>
   </div>
@@ -255,13 +255,13 @@ footer{margin-top:clamp(40px,4vw,68px);border-top:1px solid var(--line);padding:
 
   <nav class="cat-nav" aria-label="Sections">
     <span class="cat-label">Browse</span>
-    <a class="cat-btn" href="#companies">Companies</a>
-    <a class="cat-btn" href="#analysis">Analysis</a>
-    <a class="cat-btn" href="#currencies">Currencies</a>
-    <a class="cat-btn" href="#commodities">Commodities</a>
-    <a class="cat-btn" href="#indices">Indices</a>
-    <a class="cat-btn" href="#interest-rates">Interest Rates</a>
-    <a class="cat-btn" href="#consumer-confidence">Consumer Confidence</a>
+    <a class="cat-btn" target="_top" href="https://equityandmarketsinsight.com/Companies">Companies</a>
+    <a class="cat-btn" target="_top" href="https://equityandmarketsinsight.com/Articles">Analysis</a>
+    <a class="cat-btn" target="_top" href="https://equityandmarketsinsight.com/Currencies">Currencies</a>
+    <a class="cat-btn" target="_top" href="https://equityandmarketsinsight.com/Commodities">Commodities</a>
+    <a class="cat-btn" target="_top" href="https://equityandmarketsinsight.com/Indices">Indices</a>
+    <a class="cat-btn" target="_top" href="https://equityandmarketsinsight.com/InterestRates">Interest Rates</a>
+    <a class="cat-btn" target="_top" href="https://equityandmarketsinsight.com/ConsumerConfidence">Consumer Confidence</a>
   </nav>
 
   <section class="bento" id="bento">
@@ -390,9 +390,9 @@ footer{margin-top:clamp(40px,4vw,68px);border-top:1px solid var(--line);padding:
       </div>
       <div class="foot-cols">
         <div class="foot-col"><h6>Sections</h6>
-          <a href="#company-analysis">Company Analysis</a><a href="#macro">Macro</a><a href="#rates">Rates</a><a href="#investor-tools">Investor Tools</a></div>
+          <a target="_top" href="https://equityandmarketsinsight.com/Companies">Company Analysis</a><a target="_top" href="https://equityandmarketsinsight.com/Articles">Macro</a><a target="_top" href="https://equityandmarketsinsight.com/InterestRates">Rates</a><a target="_top" href="https://equityandmarketsinsight.com/TradingLog">Investor Tools</a></div>
         <div class="foot-col"><h6>Browse</h6>
-          <a href="#companies">Companies</a><a href="#currencies">Currencies</a><a href="#commodities">Commodities</a><a href="#indices">Indices</a><a href="#interest-rates">Interest Rates</a><a href="#consumer-confidence">Consumer Confidence</a></div>
+          <a target="_top" href="https://equityandmarketsinsight.com/Companies">Companies</a><a target="_top" href="https://equityandmarketsinsight.com/Currencies">Currencies</a><a target="_top" href="https://equityandmarketsinsight.com/Commodities">Commodities</a><a target="_top" href="https://equityandmarketsinsight.com/Indices">Indices</a><a target="_top" href="https://equityandmarketsinsight.com/InterestRates">Interest Rates</a><a target="_top" href="https://equityandmarketsinsight.com/ConsumerConfidence">Consumer Confidence</a></div>
         <div class="foot-col"><h6>Site</h6>
           <a href="rns-news.html">RNS News</a><a href="financial-calendar.html">Financial Calendar</a><a href="guidance-tracker.html">Guidance Tracker</a></div>
       </div>
@@ -402,6 +402,15 @@ footer{margin-top:clamp(40px,4vw,68px);border-top:1px solid var(--line);padding:
 </footer>
 
 <script>
+/* Embed mode (?embed=1): the Base44 app shell supplies nav + footer,
+   so hide this page's own chrome when framed as the site homepage. */
+if(new URLSearchParams(location.search).has('embed')){
+  document.documentElement.classList.add('embedded');
+  const st=document.createElement('style');
+  st.textContent='.nav,footer{display:none !important}';
+  document.head.appendChild(st);
+}
+
 const root=document.documentElement, tb=document.getElementById('themeBtn');
 tb.addEventListener('click',()=>{const cur=root.getAttribute('data-theme')||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');root.setAttribute('data-theme',cur==='dark'?'light':'dark');});
 
