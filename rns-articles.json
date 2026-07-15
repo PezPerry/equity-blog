@@ -1,5 +1,40 @@
 [
   {
+    "company": "Intermediate Capital Group plc",
+    "ticker": "ICP",
+    "publish_date": "15 July 2026",
+    "date_iso": "2026-07-15",
+    "time_period": "Q1 FY2027 (three months ended 30 June 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "Q1 FY2027 (three months ended 30 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Intermediate Capital Group plc</strong> (LSE: <strong>ICG</strong>) published its <strong>Q1 trading statement</strong> for the <strong>three months ended 30 June 2026</strong>.</li><li>Reported total <strong>AUM of $126bn</strong> as a global alternative asset manager across Structured Capital and Secondaries, Debt and Real Assets.</li><li>The scraped page contains only boilerplate business description and forward-looking-statement disclaimers — <strong>no fundraising, deployment, revenue or profit figures were captured</strong>, so the substantive trading detail could not be summarised.</li><li>Figures stated on an <strong>alternative performance measures (APM) basis</strong>; full detail would need to be taken from the primary RNS statement.</li></ul>",
+    "source_format": "html",
+    "headline": "ICG issues Q1 trading statement for the three months ended 30 June 2026, reporting AUM of $126bn, but the scraped text carries no performance figures.",
+    "priority": "high",
+    "priority_reason": "Quarterly trading statement from a FTSE 100 alternative asset manager, market-moving for the stock.",
+    "figures": [
+      {
+        "metric": "AUM",
+        "current": "$126bn",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "as reported",
+        "note": "as at Q1 FY2027 statement"
+      }
+    ],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "This is a first-quarter trading statement from Intermediate Capital Group, a FTSE 100 alternative asset manager. Such statements typically focus on assets under management (AUM), fundraising inflows and capital deployment rather than full profit and loss figures, which come at the half-year and full-year results.\n\nThe only hard number in the captured text is total AUM of $126bn. No comparative period figure, fundraising total or deployment number was present in the scraped page, so no meaningful year-on-year comparison can be drawn here. The note that results are on an alternative performance measures (APM) basis means the group presents adjusted figures alongside statutory accounts; the definitions sit in the full-year results.\n\nThe substantive quarterly detail appears to be missing from this scrape, so the primary RNS announcement should be consulted before acting on the numbers.",
+    "source_url": "https://uk.advfn.com/stock-market/london/intermediate-capital-ICP/share-news/Q1-trading-statement-for-the-three-months-ended-30/98920497",
+    "related_news_url": "https://news.google.com/search?q=%22Intermediate%20Capital%20Group%20plc%22",
+    "added_at": "2026-07-15T07:29:13.942603"
+  },
+  {
     "company": "Ferrexpo PLC",
     "ticker": "FXPO",
     "publish_date": "15 July 2026",
