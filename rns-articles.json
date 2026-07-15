@@ -1,5 +1,96 @@
 [
   {
+    "company": "Yellow Cake PLC",
+    "ticker": "YCA",
+    "publish_date": "15 July 2026",
+    "date_iso": "2026-07-15",
+    "time_period": "FY to 31 March 2026",
+    "announcement_type": "Annual results",
+    "period_detail": "FY to 31 March 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Profit after tax of USD419.5m</strong> for the year to <strong>31 March 2026</strong>, versus a <strong>loss of USD469.2m</strong> in 2025, driven mainly by a <strong>USD434.3m</strong> increase in the fair value of uranium holdings.</li><li><strong>Net asset value of USD2,109.6m (GBP6.33 per share)</strong>, up from <strong>USD1,414.4m (GBP5.05 per share)</strong> a year earlier.</li><li>Uranium (U3O8) holdings rose to <strong>23.11 million lb</strong> (2025: <strong>21.68 million lb</strong>), with the value of holdings up <strong>39% to USD1,940.4m</strong>.</li><li><strong>Spot U3O8 price closed at USD83.95/lb</strong>, up <strong>30%</strong> from <strong>USD64.45/lb</strong> at 31 March 2025; term prices at highest since 2008.</li><li>Raised <strong>gross USD283.1m (GBP210.3m)</strong> via two placings (September 2025 and February 2026) to fund additional purchases, including exercise of the <strong>Kazatomprom</strong> options; <strong>debt-free</strong> structure maintained.</li><li><strong>No dividend declared</strong> for the year; Board reserves the right to declare dividends as deemed appropriate.</li></ul>",
+    "source_format": "html",
+    "headline": "Yellow Cake swung to a USD419.5m annual profit as net asset value rose to USD2,109.6m (GBP6.33/share) on a 30% jump in the uranium spot price.",
+    "priority": "high",
+    "priority_reason": "Full-year annual results with a swing to profit and a sharp rise in net asset value.",
+    "figures": [
+      {
+        "metric": "Profit/(loss) after tax",
+        "current": "USD419.5m profit",
+        "prior": "USD469.2m loss",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "FY to 31 March 2026"
+      },
+      {
+        "metric": "Net asset value",
+        "current": "USD2,109.6m",
+        "prior": "USD1,414.4m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "As at 31 March 2026"
+      },
+      {
+        "metric": "Net asset value per share",
+        "current": "GBP6.33",
+        "prior": "GBP5.05",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "As at 31 March 2026"
+      },
+      {
+        "metric": "Value of U3O8 holdings",
+        "current": "USD1,940.4m",
+        "prior": "not stated",
+        "change": "+39%",
+        "basis": "reported",
+        "note": "As at 31 March 2026"
+      },
+      {
+        "metric": "U3O8 holdings volume",
+        "current": "23.11 million lb",
+        "prior": "21.68 million lb",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "As at 31 March 2026"
+      },
+      {
+        "metric": "Spot U3O8 price",
+        "current": "USD83.95/lb",
+        "prior": "USD64.45/lb",
+        "change": "+30%",
+        "basis": "spot close",
+        "note": "31 March 2026 vs 31 March 2025"
+      },
+      {
+        "metric": "Gross proceeds from placings",
+        "current": "USD283.1m (GBP210.3m)",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "Two placings, Sept 2025 and Feb 2026"
+      },
+      {
+        "metric": "Dividend",
+        "current": "None",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "No dividend declared for the year"
+      }
+    ],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "Yellow Cake is not an operating miner but a holding vehicle: it buys and stores physical uranium (U3O8) so that its share price tracks the uranium spot price. Because of this, almost all of its reported profit or loss comes from marking its uranium inventory to the prevailing spot price rather than from trading revenue. This year's USD419.5m profit is essentially the USD434.3m uplift in the fair value of its holdings, and last year's large loss was the mirror image — a USD456.1m fair-value fall — so the swing reflects the uranium price direction, not a change in the underlying business.\n\nNet asset value (NAV) per share is the key gauge for this type of company: it rose from GBP5.05 to GBP6.33, boosted both by the higher uranium price and by buying more physical material. The volume of uranium held grew from 21.68m to 23.11m lb, funded by USD283.1m raised through two equity placings during the year plus the exercise of purchase options with Kazatomprom. The company remains debt-free.\n\nNote the currency mix: the uranium price and NAV are quoted in US dollars (uranium trades in USD/lb), while the per-share NAV and placing proceeds are also shown in sterling, so movements in the USD/GBP rate affect the sterling figures independently of the uranium price.\n\nThe company issued no formal financial guidance and, as is its policy, declared no dividend — it returns value through NAV growth rather than income. Management commentary points to tightening term-market supply and rising nuclear demand as supportive, but these are qualitative market views, not numerical forecasts.",
+    "source_url": "https://uk.advfn.com/stock-market/london/yellow-cake-YCA/share-news/Yellow-Cake-PLC-Annual-Results-for-the-year-ended/98920617",
+    "related_news_url": "https://news.google.com/search?q=%22Yellow%20Cake%20plc%22",
+    "added_at": "2026-07-15T07:27:31.051183"
+  },
+  {
     "company": "Gore Street Energy Storage Fund PLC",
     "ticker": "GSF",
     "publish_date": "15 July 2026",
