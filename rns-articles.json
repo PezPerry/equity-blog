@@ -1,5 +1,56 @@
 [
   {
+    "company": "Foxtons Group PLC",
+    "ticker": "FOXT",
+    "publish_date": "16 July 2026",
+    "date_iso": "2026-07-16",
+    "time_period": "H1 to 30 June 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "H1 to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Foxtons Group plc</strong> expects <strong>H1 2026 adjusted operating profit of approximately £8.5m</strong>, down from <strong>£12.3m</strong> in H1 2025, against a strong prior-year comparator boosted by activity ahead of the <strong>March 2025</strong> stamp duty deadline.</li><li>Full-year <strong>2026 Group adjusted operating profit</strong> guided to a range of <strong>£17m-£19m</strong>, with profit expected to be <strong>H2-weighted</strong> on Lettings seasonality and a normalisation in tenancy terminations.</li><li>Lettings hit by short-term volatility after the <strong>Renters' Rights Act</strong> in <strong>May</strong>: elevated tenancy terminations, especially in student rentals, reversed <strong>approximately £3m</strong> of previously recognised revenue.</li><li>Sales market described as more challenging on weaker consumer confidence, higher-than-expected interest rates and Middle East conflict; further operational and organisational changes under consideration.</li><li><strong>Financial Services</strong> delivered revenue growth on stronger refinance volumes and cross-sell; Group delivered <strong>£4.5m of annualised cost savings</strong> in H1 (£3.0m cost-reduction programme plus £1.5m from the January 2026 HQ relocation).</li><li>Half-year results due <strong>30 July 2026</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Foxtons expects H1 2026 adjusted operating profit of about £8.5m, down from £12.3m, and guides full-year profit to £17m-£19m.",
+    "priority": "high",
+    "priority_reason": "Pre-close trading update flagging materially lower H1 profit and setting a full-year adjusted operating profit range.",
+    "figures": [
+      {
+        "metric": "Adjusted operating profit",
+        "current": "approximately £8.5m",
+        "prior": "£12.3m",
+        "change": "not stated",
+        "basis": "adjusted",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "Revenue reversal (lettings)",
+        "current": "approximately £3m reversed",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "previously recognised contractually due revenue",
+        "note": "tenancy terminations, May-June 2026 following RRA"
+      },
+      {
+        "metric": "Annualised cost savings",
+        "current": "£4.5m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "£3.0m cost-reduction programme plus £1.5m HQ relocation",
+        "note": "delivered in H1 2026"
+      }
+    ],
+    "guidance": {
+      "status": "new",
+      "previous": "Not stated in this announcement",
+      "current": "Full year 2026 Group adjusted operating profit expected in the range of £17m-£19m",
+      "commentary": "The Group sets a full-year adjusted operating profit range of £17m-£19m, with profit skewed to H2 as Lettings revenues are seasonally stronger and tenancy termination levels normalise. The update strikes a cautious tone, citing a subdued sales market and short-term Renters' Rights Act disruption in lettings."
+    },
+    "explainer": "This is a pre-close trading update ahead of Foxtons' half-year results on 30 July 2026. The headline profit fall — roughly £8.5m of adjusted operating profit versus £12.3m a year earlier — is flattered on the downside by an unusually strong H1 2025, when buyers rushed to complete before the March 2025 stamp duty change. So part of the decline reflects a tough comparative rather than a pure deterioration in the underlying business.\n\nThe £3m revenue reversal is a one-off consequence of the Renters' Rights Act, which came into force in May and abolished fixed tenancy terms. Because tenants could terminate early, contractually due revenue that Foxtons had already booked had to be unwound, hitting student rentals in particular. Management frames this as transitional volatility rather than a permanent loss, and argues the new rules should boost demand for professional lettings over the medium term.\n\nOn guidance, the Group has set full-year 2026 adjusted operating profit at £17m-£19m and stressed it will be H2-weighted. That skew matters: the weak first half does not scale simply to a full-year number, because lettings income is seasonally stronger later in the year and the tenancy-termination spike should fade. Against this, £4.5m of annualised cost savings is helping to offset National Insurance and inflation pressures, while the sales market is expected to stay subdued.",
+    "source_url": "https://uk.advfn.com/stock-market/london/foxtons-FOXT/share-news/Foxtons-Group-PLC-Trading-Update/98928459",
+    "related_news_url": "https://news.google.com/search?q=%22Foxtons%20Group%20plc%22",
+    "added_at": "2026-07-16T07:30:57.555674"
+  },
+  {
     "company": "Dunelm Group PLC",
     "ticker": "DNLM",
     "publish_date": "16 July 2026",
