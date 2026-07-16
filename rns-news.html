@@ -727,6 +727,36 @@ function renderBody(article) {
 }
 
 /* ── "What the numbers mean" (rich records only) ── */
+/* Derive a change figure when the record has usable current + prior values but the
+   generator left change as "not stated". Handles £/$/comma formats, accounting-style
+   parentheses for negatives, and k/m/bn multipliers. Percentage pairs are compared in
+   points; anything unparseable (or a prior of zero) falls back to the original text. */
+function deriveChange(cur, prior) {
+  const parseVal = s => {
+    if (s == null) return null;
+    let t = String(s).replace(/,/g, '').replace(/[£$€]/g, '');
+    t = t.replace(/\((\d+(?:\.\d+)?)/, '-$1');              // (8.5m) or (£8.5m) -> -8.5m
+    const m = t.match(/-?\d+(?:\.\d+)?/);
+    if (!m) return null;
+    let v = parseFloat(m[0]);
+    const suffix = t.slice(m.index + m[0].length).match(/^\s*(bn|billion|m|million|k|thousand)\b/i);
+    if (suffix) v *= { bn: 1e9, billion: 1e9, m: 1e6, million: 1e6, k: 1e3, thousand: 1e3 }[suffix[1].toLowerCase()];
+    return v;
+  };
+  const isPct = s => /%/.test(String(s == null ? '' : s));
+  const c = parseVal(cur), p = parseVal(prior);
+  if (c === null || p === null) return null;
+  if (isPct(cur) !== isPct(prior)) return null;             // unit mismatch — don't guess
+  if (isPct(cur)) {
+    const d = c - p;
+    return (d >= 0 ? '+' : '-') + Math.abs(d).toFixed(1) + 'pts';
+  }
+  if (p === 0) return null;                                  // percentage undefined
+  const pct = ((c - p) / Math.abs(p)) * 100;
+  if (!isFinite(pct) || Math.abs(pct) > 999) return null;    // sanity guard (unit mismatch)
+  return (pct >= 0 ? '+' : '-') + Math.abs(pct).toFixed(1) + '%';
+}
+
 function renderNumbers(a) {
   const hasFigures = Array.isArray(a.figures) && a.figures.length > 0;
   const g = (a.guidance && typeof a.guidance === 'object') ? a.guidance : {};
@@ -743,8 +773,13 @@ function renderNumbers(a) {
     for (const f of a.figures) {
       const notes = [f.basis, f.note]
         .filter(x => x && x !== 'reported' && x !== 'not stated').join(' · ');
+      let changeCell = esc(f.change);
+      if (!f.change || String(f.change).trim().toLowerCase() === 'not stated') {
+        const derived = deriveChange(f.current, f.prior);
+        if (derived) changeCell = `<span title="Calculated from the current and prior figures">${esc(derived)}</span>`;
+      }
       html += `<tr><td>${esc(f.metric)}</td><td>${esc(f.current)}</td>`
-            + `<td>${esc(f.prior)}</td><td>${esc(f.change)}</td><td>${esc(notes)}</td></tr>`;
+            + `<td>${esc(f.prior)}</td><td>${changeCell}</td><td>${esc(notes)}</td></tr>`;
     }
     html += '</tbody></table></div>';
   }
