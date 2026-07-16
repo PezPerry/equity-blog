@@ -1,5 +1,57 @@
 [
   {
+    "company": "Ocado Group PLC",
+    "ticker": "OCDO",
+    "publish_date": "16 July 2026",
+    "date_iso": "2026-07-16",
+    "time_period": "H1 to 31 May 2026 (26 weeks)",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 to 31 May 2026 (26 weeks)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Ocado Group plc</strong> has released <strong>interim results</strong> for the <strong>26 weeks ended 31 May 2026</strong>.</li><li>The scraped announcement is a <strong>notice of publication only</strong> — the actual financial figures are in a linked <strong>RNS PDF</strong> and are <strong>not reproduced</strong> in this page text, so no revenue, profit, EPS or guidance figures can be quoted from the source.</li><li>A results presentation for investors and analysts is scheduled for <strong>9.30am on 16 July 2026</strong>, followed by a Q&A webcast.</li><li>Full results submitted to the FCA's National Storage Mechanism; figures should be reviewed directly from the PDF before trading.</li></ul>",
+    "source_format": "html",
+    "headline": "Ocado Group publishes interim results for the 26 weeks ended 31 May 2026, with figures released via a separate PDF and a 9.30am analyst presentation.",
+    "priority": "high",
+    "priority_reason": "Half-year results from a FTSE-listed company are market-moving and warrant top billing.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "This RNS item is the publication notice for Ocado Group's half-year results covering the 26 weeks to 31 May 2026. The scraped page confirms the reporting period and points to a separate PDF on the London Stock Exchange RNS server, but it does not itself contain the profit and loss numbers, so no comparative figures, margins or one-offs can be summarised here.\n\nBecause the detailed statement is not in the text provided, figures and guidance are left empty rather than estimated. The key metrics — Retail and Technology Solutions revenue, EBITDA, cash burn and any full-year outlook — will be in the linked PDF and covered at the 9.30am presentation on 16 July 2026, which is where any guidance change would appear.",
+    "source_url": "https://uk.advfn.com/stock-market/london/ocado-OCDO/share-news/Ocado-Group-PLC-Half-Year-Results/98928484",
+    "related_news_url": "https://news.google.com/search?q=%22Ocado%20Group%20plc%22",
+    "added_at": "2026-07-16T07:28:11.802853"
+  },
+  {
+    "company": "Johnson Matthey PLC",
+    "ticker": "JMAT",
+    "publish_date": "16 July 2026",
+    "date_iso": "2026-07-16",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Johnson Matthey</strong> appoints <strong>Joachim Rosenberg</strong> as an independent Non-Executive Director, effective from the conclusion of today's <strong>AGM</strong>.</li><li>Rosenberg will also serve on the <strong>Audit, Nomination and Remuneration Committees</strong>.</li><li>He brings international automotive experience, having spent <strong>twenty years</strong> at the <strong>Volvo Group</strong> — latterly as <strong>President of Volvo Energy</strong> from 2021 — plus nearly a decade at <strong>McKinsey & Company</strong>.</li><li>Routine board disclosure under <strong>UKLR 6.4.8R</strong>; <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Johnson Matthey appoints Joachim Rosenberg as an independent Non-Executive Director, effective from the conclusion of today's AGM.",
+    "priority": "medium",
+    "priority_reason": "Routine appointment of a Non-Executive Director with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/johnson-matthey-JMAT/share-news/Johnson-Matthey-PLC-Board-change/98928493",
+    "related_news_url": "https://news.google.com/search?q=%22Johnson%20Matthey%20Plc%22",
+    "added_at": "2026-07-16T07:28:11.784407"
+  },
+  {
     "company": "BHP Group Ltd",
     "ticker": "BHP",
     "publish_date": "16 July 2026",
