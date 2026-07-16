@@ -1,5 +1,112 @@
 [
   {
+    "company": "Frasers Group PLC",
+    "ticker": "FRAS",
+    "publish_date": "16 July 2026",
+    "date_iso": "2026-07-16",
+    "time_period": "FY26 (52 weeks ended 26 April 2026)",
+    "announcement_type": "Annual results",
+    "period_detail": "FY26 (52 weeks ended 26 April 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Frasers Group PLC</strong> FY26 (52 weeks to <strong>26 April 2026</strong>): revenue up <strong>8.7%</strong> to <strong>£5,325.9m</strong>, driven by <strong>59.2%</strong> international revenue growth.</li><li>Adjusted profit before tax (<strong>APBT</strong>) down <strong>4.0%</strong> to <strong>£538.0m</strong>, hit by a <strong>£259.5m</strong> rise in fixed-asset impairments and higher interest costs; reported PBT up <strong>38.9%</strong> to <strong>£527.8m</strong> on non-repeat derivative fair-value losses.</li><li>Retail profit from trading up <strong>22.1%</strong> to <strong>£912.5m</strong>; <strong>UK Sports</strong> profit up <strong>£83.6m (17.6%)</strong> to <strong>£559.4m</strong>; group gross margin <strong>+160bps</strong>.</li><li>Basic EPS <strong>86.7p</strong> (<strong>+28.4%</strong>) but adjusted EPS <strong>83.3p</strong> (<strong>-15.1%</strong>); net debt ex-securitisation rose to <strong>£1,168.1m</strong> (FY25: <strong>£847.5m</strong>).</li><li>No FY27 financial guidance provided given ongoing takeover offers of <strong>EUR€38.00/share for HUGO BOSS</strong> and <strong>AUD$0.65/share for Accent Group</strong>; to be reviewed at half year.</li><li>CEO <strong>Michael Murray</strong> flags tough trading, subdued consumer confidence and industry-wide excess inventory persisting into early FY27.</li></ul>",
+    "source_format": "html",
+    "headline": "Frasers Group FY26 revenue rose 8.7% to £5,325.9m and retail profit 22.1% to £912.5m, but adjusted profit fell 4% and no FY27 guidance was given.",
+    "priority": "high",
+    "priority_reason": "Full-year results from a FTSE-listed retailer, with adjusted profit down, no FY27 guidance provided, and live takeover offers for HUGO BOSS and Accent Group.",
+    "figures": [
+      {
+        "metric": "Revenue",
+        "current": "£5,325.9m",
+        "prior": "not stated",
+        "change": "+8.7%",
+        "basis": "reported",
+        "note": "FY26, 52 weeks to 26 April 2026"
+      },
+      {
+        "metric": "Adjusted PBT (APBT)",
+        "current": "£538.0m",
+        "prior": "not stated",
+        "change": "-4.0%",
+        "basis": "Alternative Performance Measure",
+        "note": "FY26"
+      },
+      {
+        "metric": "Reported PBT",
+        "current": "£527.8m",
+        "prior": "not stated",
+        "change": "+38.9%",
+        "basis": "continuing operations",
+        "note": "FY26"
+      },
+      {
+        "metric": "Retail profit from trading",
+        "current": "£912.5m",
+        "prior": "not stated",
+        "change": "+22.1%",
+        "basis": "reported",
+        "note": "FY26"
+      },
+      {
+        "metric": "UK Sports profit from trading",
+        "current": "£559.4m",
+        "prior": "not stated",
+        "change": "+£83.6m (+17.6%)",
+        "basis": "reported",
+        "note": "FY26"
+      },
+      {
+        "metric": "Basic EPS",
+        "current": "86.7p",
+        "prior": "not stated",
+        "change": "+19.2p (+28.4%)",
+        "basis": "reported",
+        "note": "FY26"
+      },
+      {
+        "metric": "Adjusted EPS",
+        "current": "83.3p",
+        "prior": "not stated",
+        "change": "-14.8p (-15.1%)",
+        "basis": "Alternative Performance Measure",
+        "note": "FY26"
+      },
+      {
+        "metric": "Group gross margin",
+        "current": "+160bps year-on-year",
+        "prior": "not stated",
+        "change": "+160bps",
+        "basis": "reported",
+        "note": "retail margin +150bps"
+      },
+      {
+        "metric": "Net assets",
+        "current": "£2,452.7m",
+        "prior": "£1,988.1m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "net assets per share £5.47 vs £4.41"
+      },
+      {
+        "metric": "Net debt excluding securitisation",
+        "current": "£1,168.1m",
+        "prior": "£847.5m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "reflects capex, acquisitions and strategic investments"
+      }
+    ],
+    "guidance": {
+      "status": "withdrawn",
+      "previous": "Not applicable / not stated",
+      "current": "The Board considers it is not appropriate to provide financial guidance for FY27 at this time; position to be reviewed at half year.",
+      "commentary": "Frasers has declined to issue FY27 guidance because its voluntary takeover offer for HUGO BOSS and on-market offer for Accent Group are ongoing and could lead to a range of outcomes depending on acceptances. It will revisit at the half-year stage."
+    },
+    "explainer": "Frasers reports two profit measures. Adjusted profit before tax (APBT), the metric management views as underlying, fell 4% to £538.0m — weighed down by a £259.5m jump in impairments of fixed assets, £34.7m of impairments on associates and £37.5m more in bank interest, only partly offset by disposal gains, provision releases and a bigger share of profit from associates such as HUGO BOSS. Reported PBT, by contrast, rose 38.9% to £527.8m, but that increase is largely mechanical: last year's figure was depressed by fair-value losses on equity derivatives linked to strategic investments, which did not repeat.\n\nThe same split explains the EPS numbers. Basic (reported) EPS climbed 28.4% to 86.7p, tracking reported PBT, while adjusted EPS fell 15.1% to 83.3p, reflecting the lower APBT and a higher effective tax rate driven by non-deductible goodwill impairments. Retail profit was flattered in part by international acquisitions adding £53.7m under IFRS 16, which strips rent costs out of that measure, so trading momentum is not quite as strong as the 22.1% headline implies.\n\nOn guidance, the key change is that Frasers has chosen not to give any FY27 financial targets. This is not a profit warning as such, but management explicitly cites tough trading, weak consumer confidence and excess industry inventory continuing into FY27, alongside uncertainty over the outcome of its live takeover bids for HUGO BOSS and Accent Group. Investors will have to wait until the half-year results for a clearer steer.",
+    "source_url": "https://uk.advfn.com/stock-market/london/frasers-FRAS/share-news/Frasers-Group-PLC-Final-Results/98928481",
+    "related_news_url": "https://news.google.com/search?q=%22Frasers%20Group%20PLC%22",
+    "added_at": "2026-07-16T07:29:48.606977"
+  },
+  {
     "company": "Experian PLC",
     "ticker": "EXPN",
     "publish_date": "16 July 2026",
