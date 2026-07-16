@@ -1,5 +1,57 @@
 [
   {
+    "company": "Supermarket Income Reit PLC",
+    "ticker": "SUPR",
+    "publish_date": "16 July 2026",
+    "date_iso": "2026-07-16",
+    "time_period": "",
+    "announcement_type": "Acquisition / deal",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Supermarket Income REIT plc</strong> has exchanged contracts to acquire a portfolio of <strong>three supermarkets</strong> for <strong>£118 million</strong> at an average net initial yield of <strong>6.9%</strong>, with completion due in <strong>September 2026</strong>.</li><li>Stores are let on <strong>triple-net leases</strong> that are <strong>100% inflation-linked</strong> and <strong>100% investment grade</strong>, with a portfolio WAULT of <strong>8 years</strong> and average rent of <strong>£34 per sq ft</strong>.</li><li>Individual unexpired lease terms of <strong>12, 5 and 8 years</strong>, each with annual RPI-linked rent reviews (caps of 4–5%, floors of 0–3%); sites of <strong>71,000</strong>, <strong>128,000</strong> and <strong>41,000 sq ft</strong>.</li><li>CEO <strong>Rob Abraham</strong> cites \"compelling growth opportunities\" in grocery real estate and average rents that \"provide regear opportunities\".</li><li>Existing portfolio was valued at <strong>£2.1 billion</strong> as at <strong>31 December 2025</strong>; SUPR is a <strong>FTSE 250</strong> company listed on the LSE and JSE.</li></ul>",
+    "source_format": "html",
+    "headline": "Supermarket Income REIT has exchanged contracts to buy three supermarkets for £118m at a 6.9% net initial yield, completing September 2026.",
+    "priority": "high",
+    "priority_reason": "A material £118m portfolio acquisition by a FTSE 250 REIT falls under M&A/deals.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/supermarket-income-reit-SUPR/share-news/Supermarket-Income-REIT-PLC-Acquisition-of-three-s/98923733",
+    "related_news_url": "https://news.google.com/search?q=%22Supermarket%20Income%20REIT%20plc%22",
+    "added_at": "2026-07-16T07:17:04.407192"
+  },
+  {
+    "company": "Segro PLC",
+    "ticker": "SGRO",
+    "publish_date": "16 July 2026",
+    "date_iso": "2026-07-16",
+    "time_period": "",
+    "announcement_type": "Trading update",
+    "period_detail": "",
+    "type_workings": "Rule 'trading update': 'trading update' named in opening bullets [rns.json record]",
+    "body": "<ul><li><strong>SEGRO plc</strong> has signed <strong>three new leases</strong> across <strong>c.540,000 sq ft</strong> at <strong>SEGRO Park Coventry</strong>, including pre-lets to <strong>Volvo Group UK</strong> and <strong>DIRKS Consumer Logistics</strong> plus a speculative-unit lease to <strong>GigaCloud Technology</strong>.</li><li>The lettings add an aggregate <strong>£6 million</strong> of new rent — already included in the <strong>£53 million</strong> of new headline rent reported in SEGRO's <strong>Trading Update on 8 July 2026</strong>, so no incremental impact on previously disclosed figures.</li><li><strong>Volvo Group UK</strong> takes a <strong>91,000 sq ft</strong> build-to-suit warehouse (operational early 2027); <strong>DIRKS</strong> pre-lets <strong>306,000 sq ft</strong> (completing H1 2027); <strong>GigaCloud</strong> leases a <strong>140,500 sq ft</strong> speculative unit.</li><li>Almost <strong>1.7 million sq ft</strong> of the 3.7 million sq ft, 73-acre park is now leased; other customers include <strong>DP World</strong> and <strong>DHL</strong>, with up to <strong>5,000</strong> jobs expected once fully occupied.</li><li>Management cites <strong>strong leasing momentum</strong> across its UK big box portfolio, targeting BREEAM 'Excellent' and EPC A specification.</li></ul>",
+    "source_format": "html",
+    "headline": "SEGRO signs three new leases across c.540,000 sq ft at SEGRO Park Coventry, adding £6m of rent to Volvo Group UK, DIRKS and GigaCloud.",
+    "priority": "medium",
+    "priority_reason": "New lettings add rent but the £6m is already captured within previously announced H1 2026 rent, so it is confirmatory operational news rather than fresh material.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/segro-SGRO/share-news/SEGRO-PLC-SEGRO-CAPITALISES-ON-STRONG-LEASING-MOME/98921457",
+    "related_news_url": "https://news.google.com/search?q=%22SEGRO%20plc%22",
+    "added_at": "2026-07-16T07:17:04.391885"
+  },
+  {
     "company": "Standard Chartered PLC",
     "ticker": "STAN",
     "publish_date": "16 July 2026",
