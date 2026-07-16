@@ -1,5 +1,31 @@
 [
   {
+    "company": "Kingfisher PLC",
+    "ticker": "KGF",
+    "publish_date": "16 July 2026",
+    "date_iso": "2026-07-16",
+    "time_period": "",
+    "announcement_type": "Buyback programme launch",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li>Kingfisher has instructed <strong>Goldman Sachs International</strong> to buy back up to <strong>£50 million</strong> of shares for cancellation, commencing today and ending no later than <strong>15 September 2026</strong>.</li><li>This is the <strong>second tranche</strong> of an overall <strong>£300 million</strong> programme first announced on <strong>24 March 2026</strong>, following completion of the <strong>first tranche of £75 million</strong> announced on <strong>18 June 2026</strong>.</li><li>Maximum of <strong>169,003,381</strong> ordinary shares may be purchased, under authority granted at the AGM on <strong>26 June 2026</strong>; no repurchases will be made on the company's American Depositary Receipts.</li><li>Routine tranche instruction with <strong>no impact</strong> on trading or guidance; purpose is to reduce share capital.</li></ul>",
+    "source_format": "html",
+    "headline": "Kingfisher launches second **£50 million** tranche of its **£300 million** share buyback programme, running to no later than **15 September 2026**.",
+    "priority": "medium",
+    "priority_reason": "Launch of a new tranche within an ongoing buyback programme, not a daily dealing transaction.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/kingfisher--kgf/share-repurchase-programme-second-tranche/9672074",
+    "related_news_url": "https://news.google.com/search?q=%22Kingfisher%20plc%22",
+    "added_at": "2026-07-16T07:55:36.436423"
+  },
+  {
     "company": "DFS Furniture PLC",
     "ticker": "DFS",
     "publish_date": "16 July 2026",
