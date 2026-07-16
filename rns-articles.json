@@ -1,5 +1,72 @@
 [
   {
+    "company": "DFS Furniture PLC",
+    "ticker": "DFS",
+    "publish_date": "16 July 2026",
+    "date_iso": "2026-07-16",
+    "time_period": "FY26 (52 weeks to 28 June 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "FY26 (52 weeks to 28 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>DFS Furniture plc</strong> expects <strong>FY26 underlying PBT (PBTu(A)) of around £45m</strong>, within its previously upgraded <strong>£43-50m</strong> guidance and <strong>up around +£15m</strong> year on year, despite weaker H2 market demand.</li><li>Profit underpinned by <strong>2.7% revenue growth</strong>, gross margin expansion and cost discipline.</li><li><strong>Net bank debt</strong> cut to <strong>c£69m</strong> at 28 June (from <strong>£107m</strong> in FY25), with leverage down to <strong>0.9x</strong> (FY25: <strong>1.4x</strong>).</li><li>Group order intake softened from <strong>+2.3% YoY in H1</strong> to <strong>-4.4% YoY in H2</strong>, leaving full-year intake at <strong>-1.0%</strong> — broadly in line with the market; management cites weaker consumer confidence, housing transactions and the <strong>Iran War</strong>.</li><li>CEO <strong>Tim Stacey</strong> reiterated medium-term ambitions of <strong>£1.4bn revenue</strong> and an <strong>8% PBT margin</strong>.</li><li>Full-year results due <strong>24 September 2026</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "DFS expects FY26 underlying PBT of around £45m, within its previously upgraded £43-50m guidance and up about £15m year on year, despite softer H2 demand.",
+    "priority": "high",
+    "priority_reason": "Full-year trading update with profit guidance and detailed financial metrics for a listed retailer.",
+    "figures": [
+      {
+        "metric": "Underlying PBT (PBTu(A))",
+        "current": "around £45m",
+        "prior": "around £30m (implied)",
+        "change": "up around +£15m YoY",
+        "basis": "underlying profit before tax and brand amortisation",
+        "note": "FY26; within previously upgraded £43-50m guidance"
+      },
+      {
+        "metric": "Revenue growth",
+        "current": "+2.7%",
+        "prior": "not stated",
+        "change": "+2.7%",
+        "basis": "not stated",
+        "note": "FY26"
+      },
+      {
+        "metric": "Net bank debt",
+        "current": "c£69m",
+        "prior": "£107m",
+        "change": "reduction of c£38m",
+        "basis": "not stated",
+        "note": "at 28 June 2026 vs FY25"
+      },
+      {
+        "metric": "Leverage",
+        "current": "0.9x",
+        "prior": "1.4x",
+        "change": "reduced",
+        "basis": "banking covenant IAS17 leverage definition",
+        "note": "FY26 vs FY25"
+      },
+      {
+        "metric": "Group order intake",
+        "current": "-1.0% (full year)",
+        "prior": "not stated",
+        "change": "H1 +2.3% YoY to H2 -4.4% YoY",
+        "basis": "proprietary banking data / YoY",
+        "note": "+9.1% on a year-on-two-year basis"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Previously upgraded guidance of £43-50m underlying PBT (PBTu(A))",
+      "current": "Full year PBTu(A) expected to be around £45m, within the previously upgraded £43-50m range",
+      "commentary": "DFS confirms it will deliver full-year profit within its previously upgraded range despite a notable softening in demand in H2, so this trading statement maintains rather than raises guidance."
+    },
+    "explainer": "DFS's headline profit measure here is PBTu(A) — underlying profit before tax and brand amortisation — which strips out non-cash amortisation of acquired brands to show trading profitability. Around £45m is roughly £15m higher than the prior year and sits in the middle of the £43-50m range the company had already upgraded to earlier, so this is confirmation that it delivered on that upgraded target rather than a fresh increase.\n\nThe order-intake figures show the trading shape of the year: demand was positive in the first half (+2.3%) but turned negative in the second half (-4.4%), leaving the full year at -1.0%. The company attributes the H2 weakness to falling consumer confidence and fewer housing transactions, partly linked to the Iran War. The 'year-on-two-year' +9.1% is measured against two years ago and reflects large market-share gains booked in FY25, so it flatters the underlying trend rather than describing current momentum.\n\nOn the balance sheet, net bank debt fell from £107m to about £69m and leverage improved from 1.4x to 0.9x (on the banking covenant IAS17 definition), driven by strong free cash flow. Guidance is effectively maintained: profit lands within the range already set, and management keeps its medium-term goals of £1.4bn revenue and an 8% PBT margin unchanged.",
+    "source_url": "https://uk.advfn.com/stock-market/london/dfs-furniture-DFS/share-news/DFS-Furniture-PLC-Trading-Statement/98928465",
+    "related_news_url": "https://news.google.com/search?q=%22DFS%20Furniture%20plc%22",
+    "added_at": "2026-07-16T07:35:53.736498"
+  },
+  {
     "company": "Foxtons Group PLC",
     "ticker": "FOXT",
     "publish_date": "16 July 2026",
