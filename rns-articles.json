@@ -1,5 +1,88 @@
 [
   {
+    "company": "Experian PLC",
+    "ticker": "EXPN",
+    "publish_date": "16 July 2026",
+    "date_iso": "2026-07-16",
+    "time_period": "Q1 FY27 (three months to 30 June 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "Q1 FY27 (three months to 30 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Q1 FY27</strong> (three months to <strong>30 June 2026</strong>) revenue up <strong>10%</strong> at actual exchange rates, <strong>8%</strong> at constant currency and <strong>7%</strong> organically, in line with expectations.</li><li><strong>Full-year expectations unchanged</strong>; CEO <strong>Brian Cassin</strong> cites trusted data assets, scaled platforms and growing AI-enabled opportunities.</li><li><strong>North America</strong> organic revenue up <strong>7%</strong> (total <strong>8%</strong>), led by Financial Services (Ascend, fraud, mortgage), Automotive (AutoCheck) and Health (Patient Access Curator).</li><li><strong>Latin America</strong> organic revenue up <strong>12%</strong>; <strong>Consumer Services</strong> there grew <strong>22%</strong>, with Brazil's Limpa Nome performing strongly; closed <strong>idwall</strong> acquisition on 1 July.</li><li><strong>UK and Ireland</strong> organic revenue up <strong>5%</strong> (total constant currency <strong>7%</strong>, aided by <strong>KYC360</strong> acquisition); <strong>EMEA and Asia Pacific</strong> organic growth <strong>1%</strong> against strong prior-year comparators.</li><li>Group <strong>Consumer Services</strong> organic revenue declined <strong>(2)%</strong> as anticipated after wind-down of two mass data breach support contracts; up <strong>3%</strong> excluding data breach services. Half-year results due <strong>18 November 2026</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Experian posts strong Q1 FY27 with revenue up 10% at actual rates and 7% organically, reiterating unchanged full-year expectations.",
+    "priority": "high",
+    "priority_reason": "Q1 trading update from a FTSE 100 company with revenue growth data and reaffirmed full-year guidance.",
+    "figures": [
+      {
+        "metric": "Group revenue growth (actual FX)",
+        "current": "+10%",
+        "prior": "not stated",
+        "change": "+10%",
+        "basis": "actual exchange rates",
+        "note": "Q1 three months to 30 June 2026"
+      },
+      {
+        "metric": "Group revenue growth (constant currency)",
+        "current": "+8%",
+        "prior": "not stated",
+        "change": "+8%",
+        "basis": "constant exchange rates, ongoing activities",
+        "note": "Q1 FY27"
+      },
+      {
+        "metric": "Organic revenue growth",
+        "current": "+7%",
+        "prior": "not stated",
+        "change": "+7%",
+        "basis": "organic",
+        "note": "Q1 FY27"
+      },
+      {
+        "metric": "North America organic revenue",
+        "current": "+7%",
+        "prior": "not stated",
+        "change": "+7%",
+        "basis": "organic (total +8%)",
+        "note": "Q1 FY27"
+      },
+      {
+        "metric": "Latin America organic revenue",
+        "current": "+12%",
+        "prior": "not stated",
+        "change": "+12%",
+        "basis": "organic (total constant currency +12%)",
+        "note": "Q1 FY27"
+      },
+      {
+        "metric": "UK & Ireland organic revenue",
+        "current": "+5%",
+        "prior": "not stated",
+        "change": "+5%",
+        "basis": "organic (total constant currency +7%)",
+        "note": "Q1 FY27"
+      },
+      {
+        "metric": "EMEA & Asia Pacific organic revenue",
+        "current": "+1%",
+        "prior": "not stated",
+        "change": "+1%",
+        "basis": "organic (total constant currency +1%)",
+        "note": "Q1 FY27"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Full-year (FY27) expectations",
+      "current": "Full-year expectations unchanged",
+      "commentary": "Experian reaffirmed its full-year FY27 expectations, with Q1 revenue growth in line with those expectations and no change to guidance."
+    },
+    "explainer": "Experian reports revenue growth on three bases. 'Actual exchange rates' (+10%) is the headline reported figure including currency movements; 'constant currency' (+8%) strips out FX so you see underlying trading; and 'organic' (+7%) additionally excludes the effect of acquisitions and disposals, showing growth from the existing business alone. The gap between organic and total growth reflects recent deals such as idwall (Brazil), KYC360 (UK) and others.\n\nThe one soft spot is Consumer Services, where group organic revenue fell 2%. This was expected and is a one-off comparability effect: Experian is winding down two large, long-running mass data breach support contracts. Excluding those, Consumer Services actually grew 3%, so the decline reflects a lapping issue rather than deteriorating demand.\n\nOn guidance, nothing has changed. Management explicitly stated full-year expectations are unchanged, with Q1 tracking in line. This is a reassurance-style update rather than an upgrade or downgrade. Half-year results (six months to 30 September 2026) are scheduled for 18 November 2026.",
+    "source_url": "https://uk.advfn.com/stock-market/london/experian-EXPN/share-news/Experian-plc-Trading-update-first-quarter/98928469",
+    "related_news_url": "https://news.google.com/search?q=%22Experian%20plc%22",
+    "added_at": "2026-07-16T07:29:08.108934"
+  },
+  {
     "company": "Ocado Group PLC",
     "ticker": "OCDO",
     "publish_date": "16 July 2026",
