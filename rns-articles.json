@@ -1,5 +1,31 @@
 [
   {
+    "company": "Greatland Resources Ltd",
+    "ticker": "GRR",
+    "publish_date": "16 July 2026",
+    "date_iso": "2026-07-16",
+    "time_period": "June Quarter 2026",
+    "announcement_type": "Corporate update",
+    "period_detail": "June Quarter 2026",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>Greatland Resources Limited</strong> (<strong>AIM:GGP</strong>, <strong>ASX:GGP</strong>) will lodge its <strong>June Quarter 2026</strong> Quarterly Activities Report with the ASX on <strong>Wednesday, 29 July 2026</strong>.</li><li>Accompanying webcast and Q&A at <strong>GMT 12:30am / BST 01:30am</strong> on <strong>29 July 2026</strong>; registration and recording via the OpenBriefing link.</li><li>Diary/administrative notice only — <strong>no financial figures, results or guidance</strong> disclosed in this announcement.</li></ul>",
+    "source_format": "html",
+    "headline": "Greatland Resources will lodge its June Quarter 2026 Activities Report and host a shareholder webcast on Wednesday 29 July 2026.",
+    "priority": "low",
+    "priority_reason": "Routine notice of a scheduled results date and webcast, with no financial content disclosed.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/greatland-gold--ggp/june-quarter-2026-results-and-webcast/9672456",
+    "related_news_url": "https://news.google.com/search?q=%22Greatland%20Resources%20Limited%22",
+    "added_at": "2026-07-16T09:55:35.396782"
+  },
+  {
     "company": "Kingfisher PLC",
     "ticker": "KGF",
     "publish_date": "16 July 2026",
