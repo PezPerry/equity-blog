@@ -1,5 +1,31 @@
 [
   {
+    "company": "International Consolidated Airlines Group, S.A.",
+    "ticker": null,
+    "publish_date": "16 July 2026",
+    "date_iso": "2026-07-16",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>International Consolidated Airlines Group, S.A.</strong> confirms all outstanding <strong>1.125% senior unsecured convertible bonds due 2028</strong> (ISIN XS2343113101) have had <strong>Conversion Rights</strong> exercised, so none will be redeemed on <strong>21 July 2026</strong>.</li><li>The Issuer has exercised its <strong>Cash Alternative Election</strong>, satisfying the conversions with cash rather than issuing new shares — avoiding shareholder dilution.</li><li>Final <strong>Cash Alternative Amounts</strong> to be paid on or around <strong>26 August 2026</strong>, after which <strong>no Bonds will remain outstanding</strong>.</li><li>Follows the Optional Redemption Notice given on <strong>5 June 2026</strong> under Condition 7(b)(ii); routine bond housekeeping with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "IAG's outstanding 1.125% convertible bonds due 2028 have all been converted, with the company electing to settle them in cash rather than shares.",
+    "priority": "low",
+    "priority_reason": "Routine completion of a convertible bond conversion settled in cash; no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/international-consolidated-airlines-group-sa-cdi---iag/conversion-and-redemption-of-convertible-bonds/9672943",
+    "related_news_url": "https://news.google.com/search?q=%22International%20Consolidated%20Airlines%20Group%2C%20S.A.%22",
+    "added_at": "2026-07-16T12:55:35.458429"
+  },
+  {
     "company": "Vodafone Group PLC",
     "ticker": "VOD",
     "publish_date": "16 July 2026",
