@@ -1,5 +1,96 @@
 [
   {
+    "company": "Premier Foods PLC",
+    "ticker": "PFD",
+    "publish_date": "16 July 2026",
+    "date_iso": "2026-07-16",
+    "time_period": "Q1 FY26/27 (thirteen weeks ended 27 June 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "Q1 FY26/27 (thirteen weeks ended 27 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Premier Foods</strong> Q1 (13 weeks to <strong>27 June 2026</strong>): <strong>branded revenue up 4.0%</strong>, <strong>total revenue up 2.7%</strong> at constant currency.</li><li><strong>UK branded revenue up 3.8%</strong>, led by <strong>Sweet Treats</strong> (branded revenue up 6.6%); <strong>Mr Kipling</strong> among fastest-growing brands with sales <strong>up 9%</strong>.</li><li><strong>Grocery</strong> branded revenue <strong>up 3.0%</strong> (total up 1.3%); <strong>new categories up 16%</strong> helped by <strong>Cape Herb & Spice</strong>; further market share gains in Grocery and Sweet Treats.</li><li><strong>International revenue up 6%</strong> at constant currency (<strong>+7% reported</strong>), with progress in North America and Europe; acquired brands (<strong>The Spice Tailor, FUEL10K, Merchant Gourmet</strong>) all delivered double-digit growth and remain on track for ~<strong>£100m</strong> revenue this year.</li><li><strong>On track to deliver FY26/27 Trading profit expectations</strong> — company-compiled consensus of eight analysts is <strong>£209.4m–£213.7m</strong>, average <strong>£211.4m</strong>.</li><li>Non-branded Grocery revenue <strong>£2.5m lower</strong> on planned contract exits (expected to improve H2); Ireland sales lower after a distributor-to-direct change.</li></ul>",
+    "source_format": "html",
+    "headline": "Premier Foods reports Q1 branded revenue up 4.0% and total revenue up 2.7%, and remains on track to meet FY26/27 trading profit expectations.",
+    "priority": "high",
+    "priority_reason": "Q1 trading update with revenue growth data and confirmation of full-year trading profit guidance.",
+    "figures": [
+      {
+        "metric": "Group branded revenue",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+4.0%",
+        "basis": "constant currency",
+        "note": "13 weeks to 27 June 2026 vs 28 June 2025"
+      },
+      {
+        "metric": "Total revenue",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+2.7%",
+        "basis": "constant currency",
+        "note": "Q1 FY26/27"
+      },
+      {
+        "metric": "UK branded revenue",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+3.8%",
+        "basis": "constant currency",
+        "note": "Q1 FY26/27"
+      },
+      {
+        "metric": "Grocery branded revenue",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+3.0%",
+        "basis": "constant currency",
+        "note": "total Grocery revenue +1.3%"
+      },
+      {
+        "metric": "Sweet Treats branded revenue",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+6.6%",
+        "basis": "constant currency",
+        "note": "driven by Mr Kipling"
+      },
+      {
+        "metric": "International revenue",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+6%",
+        "basis": "constant currency (+7% reported)",
+        "note": "Q1 FY26/27"
+      },
+      {
+        "metric": "New categories revenue",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+16%",
+        "basis": "constant currency",
+        "note": "led by Cape Herb & Spice"
+      },
+      {
+        "metric": "Non-branded Sweet Treats revenue",
+        "current": "£7.9m",
+        "prior": "not stated",
+        "change": "+5.3%",
+        "basis": "reported",
+        "note": "higher pie/tart volumes plus a new contract win"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "FY26/27 Trading profit expectations (company-compiled analyst consensus of eight analysts: range £209.4m–£213.7m, average £211.4m)",
+      "current": "On track to deliver FY26/27 Trading profit expectations",
+      "commentary": "Guidance is reaffirmed rather than changed. The company reiterated it remains on track to meet full-year trading profit expectations after a good first quarter, referencing the compiled consensus range of £209.4m–£213.7m (average £211.4m)."
+    },
+    "explainer": "This is a first-quarter trading update, so it reports revenue momentum rather than profit or earnings. All growth rates compare the 13 weeks to 27 June 2026 with the same period a year earlier, and are stated on a constant-currency basis (stripping out exchange-rate movements) unless noted; international revenue, for example, grew 6% at constant currency but 7% on a reported basis, meaning currency was a small tailwind. The figures are unaudited.\n\n\"Branded\" revenue covers Premier's own brands such as Mr Kipling, OXO and Ambrosia and is the number management steers by, while \"total\" revenue also includes lower-margin non-branded (own-label and contract) work. Branded growth of 4.0% outpacing total growth of 2.7% reflects planned exits from some non-branded contracts, which dragged Grocery non-branded revenue down by £2.5m — a deliberate mix shift the company expects to ease in the second half.\n\nOn guidance, nothing has changed: Premier reaffirmed it is on track to hit its FY26/27 trading profit expectations. As a steer, it cites its own compiled consensus from eight analysts of £209.4m–£213.7m, averaging £211.4m. The recently acquired brands (The Spice Tailor, FUEL10K, Merchant Gourmet) are still on course to contribute roughly £100m of revenue this year.",
+    "source_url": "https://uk.advfn.com/stock-market/london/premier-foods-PFD/share-news/Premier-Foods-plc-Quarter-1-Trading-Update/98928454",
+    "related_news_url": "https://news.google.com/search?q=%22Premier%20Foods%20plc%22",
+    "added_at": "2026-07-16T07:25:02.062516"
+  },
+  {
     "company": "Helical PLC",
     "ticker": "HLCL",
     "publish_date": "16 July 2026",
