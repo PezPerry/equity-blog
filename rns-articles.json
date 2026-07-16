@@ -1,5 +1,72 @@
 [
   {
+    "company": "Helical PLC",
+    "ticker": "HLCL",
+    "publish_date": "16 July 2026",
+    "date_iso": "2026-07-16",
+    "time_period": "1 April 2026 to 15 July 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "1 April 2026 to 15 July 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Trading update</strong> for the period <strong>1 April to 15 July 2026</strong>, released ahead of today's <strong>AGM</strong>: <strong>Matthew Bonning-Snook</strong> calls it a <strong>\"strong start to the financial year\"</strong>.</li><li><strong>The Bower, EC1</strong>: today's <strong>9,600 sq ft</strong> letting of the 12th floor to <strong>Audio Network</strong> takes total space let in the Period to <strong>c.32,000 sq ft</strong>, with re-gears on a further <strong>c.50,000 sq ft</strong>; recent deals add <strong>£2.4m</strong> of contracted rent, lift occupancy to <strong>96.6%</strong> and extend WAULT to <strong>6.4 years</strong>.</li><li><strong>100 New Bridge Street, EC4</strong>: sale to <strong>State Street Corporation</strong> for <strong>£333m</strong> (Helical share <strong>£166.5m</strong>) completed <strong>20 May 2026</strong>, realising <strong>£31m</strong> profit.</li><li><strong>Development pipeline</strong>: <strong>10 King William Street</strong> (142,000 sq ft) due to complete <strong>December 2026</strong> and <strong>Brettenham House</strong> (128,000 sq ft) in <strong>September 2026</strong>; <strong>Delta Paddington</strong> (240,000 sq ft, Mace contract, £220m debt) targeted for <strong>Q3 2028</strong>; <strong>Southwark PBSA</strong> (429 beds) awaiting <strong>Gateway 2</strong> approval, targeting a <strong>3.0x+</strong> return.</li><li><strong>Capital return</strong>: up to <strong>£17m</strong> proposed — a <strong>£12m</strong> B Share Scheme (<strong>9.72p</strong> per Ordinary Share, subject to GM approval) plus a <strong>£5m</strong> buyback; <strong>1,109,980</strong> shares bought back to date at an average <strong>189.71p</strong>. A <strong>100 for 105</strong> share consolidation is also proposed.</li><li><strong>Dividend</strong>: final of <strong>1.00p</strong> for the year to <strong>31 March 2026</strong> (if approved) payable <strong>3 August 2026</strong>, taking the total to <strong>2.50p</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Helical reports a strong start to the year with c.32,000 sq ft let at The Bower and a c.£12m B Share capital return proposed for approval today.",
+    "priority": "high",
+    "priority_reason": "Trading update covering lettings, development pipeline progress and a capital return, released ahead of the AGM.",
+    "figures": [
+      {
+        "metric": "Contracted rental income added (recent lettings)",
+        "current": "£2.4m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "in line with March 2026 ERVs",
+        "note": "The Bower"
+      },
+      {
+        "metric": "Occupancy (The Bower)",
+        "current": "96.6%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "post recent lettings"
+      },
+      {
+        "metric": "WAULT to expiry (The Bower)",
+        "current": "6.4 years",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": ""
+      },
+      {
+        "metric": "Total dividend (year to 31 March 2026)",
+        "current": "2.50p",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "final 1.00p + interim",
+        "note": "final payable 3 August 2026"
+      },
+      {
+        "metric": "100 New Bridge Street sale (Helical share)",
+        "current": "£166.5m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "total lot £333m",
+        "note": "£31m profit realised, completed 20 May 2026"
+      }
+    ],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": "No group earnings or NAV guidance provided; the update covers lettings, development progress and capital allocation only."
+    },
+    "explainer": "This is an AGM-day trading update from Helical, a London office developer, covering activity since its 1 April year start. The £2.4m of added rent at The Bower is 'contracted' income at re-let space, and management stresses these deals were done 'in line with March 2026 ERVs' — meaning rents achieved match the last independent estimated rental values, so there is no valuation uplift or shortfall signalled by the lettings themselves.\n\nThe headline capital event is the £333m sale of 100 New Bridge Street to State Street, of which Helical's joint-venture share was £166.5m, crystallising a £31m profit. Over half of that profit is being returned to shareholders: £12m via a B Share Scheme (a redeemable share paying 9.72p per existing ordinary share) plus a £5m buyback already underway. The accompanying 100-for-105 share consolidation simply reduces the share count so the per-share price stays comparable after cash leaves the company — it is mechanical, not value-changing.\n\nNo profit, NAV or earnings guidance is given, so there is nothing to raise or lower here; the read-across for traders is operational momentum (lettings, on-track completions at Brettenham House and 10 King William Street) and disciplined capital allocation rather than a change to financial expectations.",
+    "source_url": "https://uk.advfn.com/stock-market/london/helical-HLCL/share-news/Helical-PLC-Trading-Update/98928525",
+    "related_news_url": "https://news.google.com/search?q=%22Helical%20PLC%22",
+    "added_at": "2026-07-16T07:24:27.151654"
+  },
+  {
     "company": "Supermarket Income Reit PLC",
     "ticker": "SUPR",
     "publish_date": "16 July 2026",
