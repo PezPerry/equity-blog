@@ -1,5 +1,88 @@
 [
   {
+    "company": "BHP Group Ltd",
+    "ticker": "BHP",
+    "publish_date": "16 July 2026",
+    "date_iso": "2026-07-16",
+    "time_period": "FY26 (year ended 30 June 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "FY26 (year ended 30 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>BHP</strong> produced <strong>~2 Mt (1,953 kt)</strong> of copper for the second consecutive year — down <strong>3%</strong> on planned lower Escondida feed grade — and <strong>record iron ore of 265 Mt</strong> (up <strong>1%</strong>) in <strong>FY26</strong> to 30 June 2026.</li><li><strong>FY26 unit costs</strong> expected at the bottom of guidance ranges for <strong>Escondida, Spence and Copper SA</strong>, within range at <strong>WAIO</strong> and towards the top end at <strong>BMA</strong>; realised <strong>copper prices ~35% higher</strong> year-on-year.</li><li><strong>FY27 production guidance</strong>: total copper <strong>1,650–1,800 kt</strong> (grade decline at Escondida), iron ore <strong>260–272 Mt</strong>; <strong>Antamina</strong> hit a record <strong>152 kt</strong> copper in FY26.</li><li>Preliminary <strong>H2 FY26</strong> items flagged ahead of results on <strong>18 August 2026</strong>: a <strong>Jansen project impairment</strong>, further <strong>Samarco</strong> dam-failure impacts, gains on <strong>SolGold</strong> disposal, and adjusted effective tax rate in lower half of the <strong>36–40%</strong> range.</li><li><strong>Net debt</strong> at 30 June 2026 expected at <strong>~US$9 bn</strong>; growth pipeline advanced — <strong>Vicuña</strong> RIGI approval, <strong>Cerro Colorado</strong> restart EIA submitted, <strong>Ministers North</strong> (~US$0.9 bn) approved, and <strong>Faraday Copper</strong> deal lifting BHP's stake to ~32.5%.</li><li><strong>Carrapateena</strong> underground conveyor belt failed in July 2026 (no injuries) — up to <strong>eight weeks</strong> of production impact; <strong>Brandon Craig</strong> commenced as <strong>CEO</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "BHP delivered record iron ore production of 265 Mt and ~2 Mt of copper in FY26, with FY26 unit costs expected within guidance and net debt of ~US$9bn.",
+    "priority": "high",
+    "priority_reason": "Full-year operational review with production records, FY26 cost/tax guidance, preliminary H2 financial items and net debt, plus FY27 production guidance.",
+    "figures": [
+      {
+        "metric": "Copper production",
+        "current": "1,953 kt (~2 Mt)",
+        "prior": "not stated",
+        "change": "-3%",
+        "basis": "reported",
+        "note": "FY26 to 30 June 2026"
+      },
+      {
+        "metric": "Iron ore production",
+        "current": "265 Mt",
+        "prior": "not stated",
+        "change": "+1%",
+        "basis": "reported, record",
+        "note": "FY26 to 30 June 2026"
+      },
+      {
+        "metric": "Escondida concentrator feed grade",
+        "current": "0.90%",
+        "prior": "1.02%",
+        "change": "not stated",
+        "basis": "FY26 vs FY25",
+        "note": "planned lower grade"
+      },
+      {
+        "metric": "Antamina copper production",
+        "current": "152 kt",
+        "prior": "not stated",
+        "change": "increased (financial year record)",
+        "basis": "reported",
+        "note": "FY26"
+      },
+      {
+        "metric": "Uranium production",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+16%",
+        "basis": "reported",
+        "note": "Copper SA by-product"
+      },
+      {
+        "metric": "Net debt",
+        "current": "~US$9bn",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "preliminary",
+        "note": "as at 30 June 2026"
+      },
+      {
+        "metric": "Realised copper price",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "~+35%",
+        "basis": "year-on-year",
+        "note": "FY26"
+      }
+    ],
+    "guidance": {
+      "status": "new",
+      "previous": "FY26 unit costs guidance ranges; adjusted effective tax rate guidance range 36–40%",
+      "current": "FY26 unit costs at bottom end of ranges at Escondida, Spence and Copper SA, within range at WAIO, top end at BMA; adjusted effective tax rate in lower half of 36–40%. FY27 production: total copper 1,650–1,800 kt, Escondida 1,000–1,100 kt, Spence 210–230 kt, Copper SA 290–320 kt, Antamina copper 120–140 kt / zinc 35–55 kt, iron ore 260–272 Mt (WAIO 253–264 Mt), energy coal 7.5–8.0 Mt",
+      "commentary": "FY26 costs are tracking well against guidance despite inflation and higher diesel prices, helped by by-product credits and favourable FX. New FY27 copper guidance is lower than FY26 output mainly because of the forecast grade decline at Escondida, while iron ore guidance points to broadly maintained record-level volumes."
+    },
+    "explainer": "This is BHP's operational review for its financial year to 30 June 2026 — the production scorecard that precedes the audited results due on 18 August 2026. Production figures are actual tonnages; where the company only prints a percentage change (copper -3%, iron ore +1%) rather than the prior-year tonnage, the comparative is not stated here. 'Record' means the highest annual figure for that asset or commodity, not a market-wide record.\n\nOn costs, BHP guides to unit costs 'at guidance FX rates and by-product prices', meaning it standardises for currency (AUD/USD, USD/CLP) and for gold/uranium credits so cost performance is not flattered by favourable markets. FY26 unit costs landing at the bottom of ranges for most copper assets signals genuine cost control rather than a currency tailwind. The '~35% higher' copper price is a realised-price comparison versus a year earlier and flows into revenue, not costs.\n\nThe H2 FY26 items table is a preliminary heads-up on what will hit the income statement and balance sheet: a Jansen potash project impairment, continuing Samarco dam-failure costs and settlement payments, disposal gains (SolGold, Antamina silver streaming, Carajás), and an effective tax rate in the lower half of 36–40%. These are not yet finalised, so treat them as directional. Net debt of ~US$9bn is the flagged balance-sheet figure at year-end.\n\nThe FY27 guidance is new. Group copper of 1,650–1,800 kt is below FY26's 1,953 kt, driven mostly by a planned grade decline at Escondida (feed grade guided to ~0.70% versus 0.90% in FY26). Iron ore guidance of 260–272 Mt holds output near FY26's record. One-off operational risks are flagged separately, notably up to eight weeks of lost Carrapateena production after a conveyor failure.",
+    "source_url": "https://uk.advfn.com/stock-market/london/bhp-BHP/share-news/BHP-Group-Limited-Quarterly-Activities-Report/98928422",
+    "related_news_url": "https://news.google.com/search?q=%22BHP%20Group%20Limited%22",
+    "added_at": "2026-07-16T07:27:35.331528"
+  },
+  {
     "company": "Kenmare Resources PLC",
     "ticker": "KMR",
     "publish_date": "16 July 2026",
