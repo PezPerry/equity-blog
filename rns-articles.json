@@ -1,5 +1,96 @@
 [
   {
+    "company": "Dunelm Group PLC",
+    "ticker": "DNLM",
+    "publish_date": "16 July 2026",
+    "date_iso": "2026-07-16",
+    "time_period": "Q4 (13 weeks to 27 June 2026) and FY26 (year to 27 June 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "Q4 (13 weeks to 27 June 2026) and FY26 (year to 27 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Dunelm Group plc</strong> FY26 trading update: <strong>full-year PBT expected in line</strong> with previous guidance and company-compiled <strong>consensus of £210m</strong>.</li><li>Q4 sales up <strong>2.9%</strong> to <strong>£428m</strong>, with digital participation up 3ppts to <strong>45%</strong>; growth achieved despite two weeks of exceptionally warm weather hitting store footfall.</li><li>FY total sales up <strong>3.1%</strong> to <strong>£1,825m</strong>, digital participation up 2ppts to <strong>42%</strong>; FY gross margin <strong>52.5%</strong>, up <strong>10bps</strong> year-on-year on FX tailwind, partly offset by higher promotional participation.</li><li>Net operating cost plans delivered; full-year costs include c.<strong>£7m insurance income</strong> from the temporary closure of two stores after fires.</li><li>Strong cash generation with c.<strong>70%</strong> of operating profit converted to free cash; capex c.<strong>£40m</strong>, dividends of <strong>£141m</strong> paid, small net cash inflow for the year.</li><li>New <strong>34,000 sq ft</strong> superstore opened in <strong>Kingston-upon-Thames</strong>; AI shopping assistant beta launched in app; further strategic update due with <strong>Preliminary Results on 8 September 2026</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Dunelm reports FY26 sales up 3.1% to £1,825m with full-year PBT expected in line with previous guidance and £210m consensus.",
+    "priority": "high",
+    "priority_reason": "Full-year trading update from a listed retailer with sales, margin, cash and PBT guidance detail.",
+    "figures": [
+      {
+        "metric": "Q4 sales",
+        "current": "£428m",
+        "prior": "not stated",
+        "change": "+2.9%",
+        "basis": "year-on-year",
+        "note": "13 weeks to 27 June 2026"
+      },
+      {
+        "metric": "FY total sales",
+        "current": "£1,825m",
+        "prior": "not stated",
+        "change": "+3.1%",
+        "basis": "year-on-year",
+        "note": "FY26"
+      },
+      {
+        "metric": "Digital participation (FY)",
+        "current": "42%",
+        "prior": "40%",
+        "change": "+2ppts",
+        "basis": "not stated",
+        "note": "vs FY25"
+      },
+      {
+        "metric": "Gross margin (FY)",
+        "current": "52.5%",
+        "prior": "not stated",
+        "change": "+10bps",
+        "basis": "year-on-year",
+        "note": "FX tailwind, partly offset by promotions"
+      },
+      {
+        "metric": "FY26 PBT",
+        "current": "in line with consensus of £210m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "company-compiled analyst consensus",
+        "note": "actual figure not printed"
+      },
+      {
+        "metric": "Free cash conversion",
+        "current": "c.70% of operating profit",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "not stated",
+        "note": "FY26"
+      },
+      {
+        "metric": "Capex",
+        "current": "c.£40m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "in line with previous guidance",
+        "note": "FY26"
+      },
+      {
+        "metric": "Dividends paid",
+        "current": "£141m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "not stated",
+        "note": "FY26"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Previous FY26 PBT guidance; company-compiled consensus of £210m",
+      "current": "FY26 PBT expected to be in line with previous guidance and current consensus of £210m",
+      "commentary": "Guidance is reaffirmed rather than changed: Dunelm expects full-year PBT in line with both its previous guidance and the £210m analyst consensus, with capex also held at the previously guided c.£40m."
+    },
+    "explainer": "This is a full-year trading update ahead of Dunelm's audited Preliminary Results on 8 September 2026, so it gives sales, margin and cash figures but not a precise profit number. The key point for traders is that full-year pre-tax profit (PBT) is expected to be 'in line' with both prior guidance and the company-compiled consensus of £210m — meaning no upgrade or downgrade to profit expectations.\n\nSales grew 3.1% for the full year to £1,825m, with the fourth quarter up 2.9% to £428m. Management flags that Q4 was held back by two separate weeks of exceptionally warm weather that cut store footfall, one of which clashed with the start of the Summer Sale, so the underlying trend was described as solid rather than weak. Gross margin rose 10 basis points (0.1 percentage point) to 52.5%, helped by a favourable foreign-exchange (FX) tailwind but partly offset by more customers buying on promotion, especially in the second half.\n\nTwo items to note on the cost and cash lines: full-year costs include about £7m of insurance income relating to compensation for two stores temporarily closed after fires — a one-off benefit rather than trading performance. Cash generation remained strong, with roughly 70% of operating profit converted into free cash; after £40m of capex and £141m of dividends, the group still ended the year with a small net cash inflow.\n\nOverall this is a 'no surprises' update that confirms guidance, with the bigger news — a strategic update from relatively new CEO Clo Moriarty — deferred to the September results.",
+    "source_url": "https://uk.advfn.com/stock-market/london/dunelm-DNLM/share-news/Dunelm-Group-plc-Fourth-quarter-and-full-year-trad/98928461",
+    "related_news_url": "https://news.google.com/search?q=%22Dunelm%20Group%20plc%22",
+    "added_at": "2026-07-16T07:30:24.117939"
+  },
+  {
     "company": "Frasers Group PLC",
     "ticker": "FRAS",
     "publish_date": "16 July 2026",
