@@ -1,5 +1,112 @@
 [
   {
+    "company": "Kenmare Resources PLC",
+    "ticker": "KMR",
+    "publish_date": "16 July 2026",
+    "date_iso": "2026-07-16",
+    "time_period": "Q2 and H1 to 30 June 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "Q2 and H1 to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Kenmare</strong> now expects <strong>2026 ilmenite production of approximately 800,000 tonnes</strong>, down from previous guidance of <strong>more than 800,000 tonnes</strong>, after <strong>WCP A</strong> commissioning fell short of nameplate capacity.</li><li><strong>Q2 2026 HMC production of 225,000 tonnes, down 37% YoY</strong>, driven by a <strong>29% fall in excavated ore grades</strong> as WCP A reaches the end of its Namalope mine path; ilmenite output <strong>147,200 tonnes, down 40% YoY</strong>.</li><li><strong>Concentrates production up 770% YoY to 90,500 tonnes</strong>, chiefly from a one-off conversion of <strong>75,000 tonnes</strong> of stored tailings into new <strong>ZrTi</strong> product; full-year concentrates guidance <strong>materially exceeded in H1</strong>.</li><li><strong>Total Q2 shipments 277,700 tonnes, up 53% YoY</strong>; YTD shipments of <strong>555,600 tonnes</strong> in line with annual guidance of <strong>at least 1.1 million tonnes</strong>.</li><li><strong>Net debt rose to $175.7m</strong> at 30 June 2026 (<strong>$158.8m</strong> at 31 Dec 2025); cash <strong>$31.0m</strong> vs <strong>$48.6m</strong>. Secured a <strong>$30m upsize</strong> to the <strong>$200m Revolving Credit Facility</strong> plus covenant adjustments.</li><li>Ilmenite market remained soft while zircon prices recovered; <strong>SMO 2</strong> commissioning due <strong>Q4 2026</strong> and <strong>H1 2026 results</strong> on <strong>19 August 2026</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Kenmare trims 2026 ilmenite guidance to about 800,000 tonnes as WCP A commissioning problems cut Q2 HMC production 37% year-on-year.",
+    "priority": "high",
+    "priority_reason": "Quarterly production report with a lowered full-year ilmenite guidance and a WCP A commissioning shortfall.",
+    "figures": [
+      {
+        "metric": "HMC production",
+        "current": "225,000 t",
+        "prior": "not stated",
+        "change": "-37% YoY",
+        "basis": "reported",
+        "note": "Q2 2026"
+      },
+      {
+        "metric": "Ilmenite production",
+        "current": "147,200 t",
+        "prior": "not stated",
+        "change": "-40% YoY",
+        "basis": "reported",
+        "note": "Q2 2026"
+      },
+      {
+        "metric": "Primary zircon production",
+        "current": "9,700 t",
+        "prior": "not stated",
+        "change": "-26% YoY",
+        "basis": "reported",
+        "note": "Q2 2026"
+      },
+      {
+        "metric": "Rutile production",
+        "current": "1,600 t",
+        "prior": "not stated",
+        "change": "-30% YoY",
+        "basis": "reported",
+        "note": "Q2 2026"
+      },
+      {
+        "metric": "Concentrates production",
+        "current": "90,500 t",
+        "prior": "not stated",
+        "change": "+770% YoY",
+        "basis": "reported",
+        "note": "Q2 2026, includes 75,000 t tailings converted to ZrTi"
+      },
+      {
+        "metric": "Total shipments",
+        "current": "277,700 t",
+        "prior": "not stated",
+        "change": "+53% YoY",
+        "basis": "reported",
+        "note": "Q2 2026"
+      },
+      {
+        "metric": "Shipments year-to-date",
+        "current": "555,600 t",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "H1 2026, vs annual guidance of at least 1.1m t"
+      },
+      {
+        "metric": "Net debt",
+        "current": "$175.7m",
+        "prior": "$158.8m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "30 June 2026 vs 31 Dec 2025"
+      },
+      {
+        "metric": "Cash and cash equivalents",
+        "current": "$31.0m",
+        "prior": "$48.6m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "30 June 2026 vs 31 Dec 2025"
+      },
+      {
+        "metric": "Gross bank loans",
+        "current": "$205.9m",
+        "prior": "$206.4m",
+        "change": "not stated",
+        "basis": "including accrued interest",
+        "note": "30 June 2026 vs 31 Dec 2025"
+      }
+    ],
+    "guidance": {
+      "status": "lowered",
+      "previous": "Ilmenite production in 2026 of more than 800,000 tonnes",
+      "current": "Ilmenite production in 2026 of approximately 800,000 tonnes; shipments guidance of at least 1.1 million tonnes maintained; full-year concentrates guidance materially exceeded in H1",
+      "commentary": "The ilmenite production target has been trimmed because WCP A has not consistently reached its 3,500 tph nameplate capacity (averaging 2,800 tph in Q2) and dry mining at WCP B was temporarily stopped. Shipment and concentrates guidance were unaffected, with concentrates already exceeded on strong ZrTi demand."
+    },
+    "explainer": "This is a quarterly production (operational) update rather than a full financial results statement, so most figures are tonnages compared with the same quarter a year earlier (year-on-year, or YoY). Production of heavy mineral concentrate (HMC) and finished products fell sharply — HMC down 37% and ilmenite down 40% — mainly because ore grades dropped as the main WCP A plant nears the end of its current Namalope mining area and because the plant's upgrade has not yet delivered its designed throughput.\n\nThe headline change for traders is the softening of full-year ilmenite guidance from \"more than 800,000 tonnes\" to \"approximately 800,000 tonnes\". That is a modest downgrade rather than a profit warning, and Kenmare expects a stronger second half as WCP A improves, WCP B recovers and a new SMO 2 unit commissions in Q4. Shipment guidance of at least 1.1 million tonnes is unchanged, helped by drawing down high product stockpiles.\n\nThe striking 770% jump in concentrates output is largely a one-off: 75,000 tonnes of historically stored tailings were converted into the new ZrTi by-product to meet demand, so it is not a repeatable run-rate — Kenmare guides to only 30,000-40,000 tonnes of ZrTi a year going forward.\n\nOn the balance sheet, net debt rose to $175.7m from $158.8m at the start of the year as cash was consumed, though the company secured a $30m increase to its revolving credit facility and covenant relief to add flexibility during weak titanium-feedstock markets. Zircon prices, by contrast, are recovering.",
+    "source_url": "https://uk.advfn.com/stock-market/london/kenmare-resources-KMR/share-news/Q2-and-H1-2026-Production-Report/98928406",
+    "related_news_url": "https://news.google.com/search?q=%22Kenmare%20Resources%20plc%22",
+    "added_at": "2026-07-16T07:26:54.781171"
+  },
+  {
     "company": "Trustpilot Group PLC",
     "ticker": "TRST",
     "publish_date": "16 July 2026",
