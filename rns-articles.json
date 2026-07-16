@@ -1,5 +1,139 @@
 [
   {
+    "company": "Trustpilot Group PLC",
+    "ticker": "TRST",
+    "publish_date": "16 July 2026",
+    "date_iso": "2026-07-16",
+    "time_period": "H1 to 30 June 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "H1 to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Trustpilot Group plc</strong> expects <strong>H1 26 bookings of $171m</strong> (H1 25: <strong>$140m</strong>), up <strong>22% YoY</strong> and <strong>18%</strong> at constant currency, led by Enterprise and US momentum.</li><li><strong>H1 26 revenue growth</strong> expected at <strong>19% cc</strong>; ARR from customers paying <strong>>$20k up 36% YoY</strong>, driven by AI Answer Engine Optimisation.</li><li><strong>LTM gross retention 87%</strong> (H1 25: 86%); <strong>net dollar retention 101%</strong> (H1 25: 103%) after annualising 2024-25 plan migrations.</li><li><strong>Period-end net cash of $21.9m</strong> (FY 25: $47.6m) after <strong>$42.5m (£31.5m)</strong> of share buybacks and EBT purchases in H1.</li><li><strong>On track</strong> for full-year guidance of <strong>high-teens cc revenue growth</strong> and <strong>adjusted EBITDA margin +2-3ppt YoY</strong>; ahead of the <strong>3 July 2026</strong> FY26 consensus of 17.1% cc revenue growth.</li><li>Full H1 results to be reported on <strong>15 September 2026</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Trustpilot expects H1 bookings of $171m, up 22% (18% constant currency), driven by Enterprise and US momentum, and reaffirms full-year guidance.",
+    "priority": "high",
+    "priority_reason": "Half-year trading update with bookings and revenue growth figures and reaffirmed full-year guidance.",
+    "figures": [
+      {
+        "metric": "H1 bookings",
+        "current": "$171m",
+        "prior": "$140m",
+        "change": "+22% YoY (+18% cc)",
+        "basis": "reported / constant currency",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Revenue growth",
+        "current": "19% cc",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "constant currency",
+        "note": "H1 26 expected"
+      },
+      {
+        "metric": "LTM gross retention rate",
+        "current": "87%",
+        "prior": "86%",
+        "change": "+1ppt",
+        "basis": "last twelve months",
+        "note": "H1 26 vs H1 25"
+      },
+      {
+        "metric": "Net dollar retention rate",
+        "current": "101%",
+        "prior": "103%",
+        "change": "-2ppt",
+        "basis": "not stated",
+        "note": "H1 26 vs H1 25"
+      },
+      {
+        "metric": "Net cash",
+        "current": "$21.9m",
+        "prior": "$47.6m",
+        "change": "not stated",
+        "basis": "period end",
+        "note": "vs FY 25; after $42.5m buybacks/EBT purchases"
+      },
+      {
+        "metric": "ARR from customers paying >$20k",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+36% YoY",
+        "basis": "annual recurring revenue",
+        "note": "driven by AI AEO"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Full year guidance of high-teens cc revenue growth and adjusted EBITDA margin +2-3ppt YoY",
+      "current": "On track to deliver full year guidance of high-teens cc revenue growth and adjusted EBITDA margin +2-3ppt YoY",
+      "commentary": "Full-year guidance is reaffirmed, not changed. The company also notes that on 3 July 2026 the FY26 company-compiled analyst consensus was for 17.1% constant currency revenue growth and adjusted EBITDA of $55.6m at an 18.0% margin."
+    },
+    "explainer": "Bookings — the annual contract value of contracts signed in the period — are expected at $171m, up 22% as reported but 18% on a constant-currency basis, which strips out the effect of exchange-rate moves (mainly a weaker US dollar against sterling) to show the underlying trading momentum. The company highlights the constant-currency figure as the truer measure of growth. Enterprise (larger customers) and the US were the main drivers.\n\nRetention metrics track how much subscription revenue is kept. Gross retention edged up to 87%, while net dollar retention slipped to 101% from 103%; the company attributes the dip to completing the annualisation of previously flagged plan migrations from 2024-25, rather than a fresh deterioration. Period-end net cash fell to $21.9m from $47.6m, but this reflects $42.5m spent on share buybacks and employee benefit trust purchases rather than a weakening of the business.\n\nGuidance is unchanged: the company remains on track for high-teens constant-currency revenue growth and a 2-3 percentage-point improvement in adjusted EBITDA margin year on year. The H1 revenue growth of 19% cc and the reaffirmed outlook both sit above the 3 July analyst consensus of 17.1% cc revenue growth, suggesting momentum is at least in line with, if not ahead of, market expectations.",
+    "source_url": "https://uk.advfn.com/stock-market/london/trustpilot-TRST/share-news/Trustpilot-Group-PLC-Trading-Statement-18-cc-bo/98928472",
+    "related_news_url": "https://news.google.com/search?q=%22Trustpilot%20Group%20plc%22",
+    "added_at": "2026-07-16T07:26:13.599937"
+  },
+  {
+    "company": "Crest Nicholson Holdings Ltd",
+    "ticker": "CRST",
+    "publish_date": "16 July 2026",
+    "date_iso": "2026-07-16",
+    "time_period": "H1 FY26 (six months ended 30 April 2026)",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 FY26 (six months ended 30 April 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Crest Nicholson Holdings plc</strong> posted an <strong>adjusted operating loss of £11.9m</strong> for the six months to <strong>30 April 2026</strong>, versus a <strong>£11.9m profit</strong> in HY25, on low completions and higher NRV charges.</li><li><strong>Adjusted gross margin</strong> fell to <strong>£13.9m</strong> from <strong>£35.4m</strong>, driven mainly by lower housing volume/mix (<strong>-£12.7m</strong>), land profit (<strong>-£3.5m</strong>) and increased apartment NRV provisions (<strong>+£3.6m</strong>).</li><li>FY26 guidance <strong>lowered</strong>: adjusted profit now expected at the <strong>lower half of the previously guided £5m-£15m range</strong>.</li><li><strong>Open market sales rate 0.48</strong> (HY25: 0.53) across average <strong>41 outlets</strong> (HY25: 40); volumes cut on economic uncertainty.</li><li>Lender discussions to amend the Revolving Credit Facility are <strong>well-advanced but ongoing</strong>; the interest-cover covenant waiver has been <strong>extended to 30 September 2026</strong>.</li><li>Land disposal programme continues: <strong>c.£50m</strong> cash proceeds contracted for H2 and <strong>c.£10m</strong> for FY27, with total land revenue of <strong>around £40m</strong> expected this year.</li></ul>",
+    "source_format": "html",
+    "headline": "Crest Nicholson swings to an H1 adjusted operating loss of £11.9m, guides FY26 profit to the lower half of £5m-£15m and extends its covenant waiver amid advanced lender talks.",
+    "priority": "high",
+    "priority_reason": "Half-year results with a swing to an operating loss, lowered FY26 profit guidance and ongoing covenant-waiver/lender discussions.",
+    "figures": [
+      {
+        "metric": "Adjusted operating profit/(loss)",
+        "current": "-£11.9m",
+        "prior": "£11.9m",
+        "change": "not stated",
+        "basis": "adjusted",
+        "note": "Six months to 30 April 2026 vs HY25"
+      },
+      {
+        "metric": "Adjusted gross margin",
+        "current": "£13.9m",
+        "prior": "£35.4m",
+        "change": "not stated",
+        "basis": "adjusted",
+        "note": "H1 FY26 vs HY25"
+      },
+      {
+        "metric": "Open market sales rate",
+        "current": "0.48",
+        "prior": "0.53",
+        "change": "not stated",
+        "basis": "per outlet per week",
+        "note": "HY26 vs HY25"
+      },
+      {
+        "metric": "Average outlets",
+        "current": "41",
+        "prior": "40",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "average in the half"
+      }
+    ],
+    "guidance": {
+      "status": "lowered",
+      "previous": "FY26 adjusted profit guided at £5m - £15m",
+      "current": "FY26 adjusted profit at the lower half of the previously guided £5m - £15m range",
+      "commentary": "Guidance has effectively been trimmed towards the bottom of the prior range after a weaker first half, with softer customer enquiries, visitor levels and land-market sentiment since April prompting a more cautious outlook for the rest of the year."
+    },
+    "explainer": "These are 'adjusted' figures, meaning the statutory numbers have been stripped of exceptional items (see note 5). Net debt and the adjusted measures are the company's own alternative performance measures, so they differ from the audited statutory accounts. The prior-year comparatives have also been re-presented (note 17), so like-for-like comparison carries some caveats.\n\nThe swing from a £11.9m adjusted operating profit to a £11.9m loss reflects far fewer home completions plus larger net realisable value (NRV) provisions — essentially write-downs on completed apartment developments where selling prices have fallen. Gross margin collapsed mostly on lower housing volume and mix rather than one-off items alone.\n\nOn guidance, Crest has not scrapped its FY26 range but signalled it now expects to land in the lower half of the £5m-£15m adjusted profit range, a de facto downgrade driven by weaker demand since April and a more cautious sales outlook. Alongside this, the group is negotiating covenant amendments to its revolving credit facility and has secured a temporary waiver of the interest-cover covenant to 30 September 2026 — a liquidity/financing point traders should watch closely.",
+    "source_url": "https://uk.advfn.com/stock-market/london/crest-nicholson-CRST/share-news/Crest-Nicholson-Holdings-PLC-Half-year-Financial-R/98928487",
+    "related_news_url": "https://news.google.com/search?q=%22Crest%20Nicholson%20Holdings%20plc%22",
+    "added_at": "2026-07-16T07:26:13.584585"
+  },
+  {
     "company": "Premier Foods PLC",
     "ticker": "PFD",
     "publish_date": "16 July 2026",
