@@ -1,5 +1,144 @@
 [
   {
+    "company": "Bridgepoint Group PLC",
+    "ticker": "BPT",
+    "publish_date": "17 July 2026",
+    "date_iso": "2026-07-17",
+    "time_period": "H1 2026 (six months to 30 June 2026)",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 2026 (six months to 30 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Bridgepoint Group plc</strong> reported record H1 2026 results, with <strong>underlying EBITDA up 77.6% to £227.3m</strong> (H1 2025: <strong>£128.0m</strong>) at a <strong>60.6% margin</strong>.</li><li><strong>Underlying management fee income +22.8% to £254.4m</strong> (incl. <strong>£21.7m</strong> catch-up fees); <strong>FRE +42.1% to £108.0m</strong>; <strong>PRE +109.5% to £120.7m</strong>.</li><li><strong>Underlying diluted EPS 15.5p</strong> (H1 2025: <strong>10.4p</strong>); <strong>underlying PBT £197.5m</strong> (H1 2025: <strong>£103.7m</strong>). On an IFRS basis PBT fell to <strong>£42.9m</strong> (H1 2025: <strong>£60.6m</strong>) on KARE/ECP exceptional and acquisition costs, IFRS basic EPS <strong>2.6p</strong> (H1 2025: <strong>4.4p</strong>).</li><li><strong>Fee-paying AUM +32.7% to $58.4bn</strong>; total <strong>AUM +12.4% to $97.3bn</strong>. Record <strong>€16.6bn returned</strong> to fund investors (incl. <strong>€11bn</strong> from the <strong>Calpine</strong> sale); <strong>€3.6bn deployed</strong>.</li><li><strong>Interim dividend of 4.8p</strong> per share, payable October 2026.</li><li><strong>€26bn now raised</strong> towards the recently increased <strong>€28bn fundraising target</strong> for end-2026; <strong>Kayne Anderson Real Estate</strong> acquisition (announced 29 June) expected to close at year end.</li></ul>",
+    "source_format": "html",
+    "headline": "Bridgepoint's H1 2026 underlying EBITDA jumped 78% to £227.3m, with fee-paying AUM up a third, reinforcing confidence in its raised €28bn fundraising target.",
+    "priority": "high",
+    "priority_reason": "Half-year results from a listed private-markets manager, with sharp EBITDA growth, dividend and reaffirmed guidance — market-moving.",
+    "figures": [
+      {
+        "metric": "Underlying management fee income",
+        "current": "£254.4m",
+        "prior": "£207.1m",
+        "change": "+22.8%",
+        "basis": "including catch-up fees",
+        "note": "H1 2026 vs H1 2025; +15.5% excluding catch-up fees"
+      },
+      {
+        "metric": "Fee related earnings (FRE)",
+        "current": "£108.0m",
+        "prior": "£76.0m",
+        "change": "+42.1%",
+        "basis": "including catch-up fees",
+        "note": "FRE margin 42.5% (H1 2025: 36.7%)"
+      },
+      {
+        "metric": "Performance related earnings (PRE)",
+        "current": "£120.7m",
+        "prior": "£57.6m",
+        "change": "+109.5%",
+        "basis": "underlying",
+        "note": "32.2% of total income"
+      },
+      {
+        "metric": "Underlying EBITDA",
+        "current": "£227.3m",
+        "prior": "£128.0m",
+        "change": "+77.6%",
+        "basis": "underlying, EBITDA margin 60.6%",
+        "note": "£205.6m vs £122.3m excluding catch-up fees"
+      },
+      {
+        "metric": "Underlying profit before tax",
+        "current": "£197.5m",
+        "prior": "£103.7m",
+        "change": "not stated",
+        "basis": "underlying",
+        "note": ""
+      },
+      {
+        "metric": "Underlying diluted EPS",
+        "current": "15.5p",
+        "prior": "10.4p",
+        "change": "not stated",
+        "basis": "underlying",
+        "note": ""
+      },
+      {
+        "metric": "IFRS profit before tax",
+        "current": "£42.9m",
+        "prior": "£60.6m",
+        "change": "not stated",
+        "basis": "IFRS reported",
+        "note": "lower on KARE/ECP exceptional, amortisation and acquisition finance costs"
+      },
+      {
+        "metric": "IFRS profit after tax",
+        "current": "£28.7m",
+        "prior": "£44.1m",
+        "change": "not stated",
+        "basis": "IFRS reported",
+        "note": ""
+      },
+      {
+        "metric": "IFRS basic EPS",
+        "current": "2.6p",
+        "prior": "4.4p",
+        "change": "not stated",
+        "basis": "IFRS reported",
+        "note": ""
+      },
+      {
+        "metric": "Assets under management (AUM)",
+        "current": "$97.3bn",
+        "prior": "$86.6bn",
+        "change": "+12.4%",
+        "basis": "excluding KARE acquisition",
+        "note": "at 30 June 2026 vs 30 June 2025"
+      },
+      {
+        "metric": "Fee-paying AUM",
+        "current": "$58.4bn",
+        "prior": "$44.0bn",
+        "change": "+32.7%",
+        "basis": "excluding KARE acquisition",
+        "note": ""
+      },
+      {
+        "metric": "Capital returned to fund investors",
+        "current": "€16.6bn",
+        "prior": "€8.1bn",
+        "change": "not stated",
+        "basis": "H1 2026 vs FY 2025",
+        "note": "record; includes €11bn from Calpine sale"
+      },
+      {
+        "metric": "Capital deployed",
+        "current": "€3.6bn",
+        "prior": "€7.8bn",
+        "change": "not stated",
+        "basis": "H1 2026 vs FY 2025",
+        "note": ""
+      },
+      {
+        "metric": "Interim dividend",
+        "current": "4.8p",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "per share",
+        "note": "payable October 2026"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Fundraising target of €24bn by end-2026, increased to €28bn on 29 June 2026",
+      "current": "Confidence in delivering the €28bn fundraising target by end-2026 (€26bn raised to date); fee growth of 13-16% on a rolling 3-year basis; PRE expected to remain 20-25% of total income long term, at the top end of range in 2026 and 2027",
+      "commentary": "The fundraising target was lifted from €24bn to €28bn on 29 June alongside the Kayne Anderson Real Estate deal; this results statement reaffirms that raised target, with €26bn already secured. Guidance excludes KARE, whose guidance sits in the 29 June transaction announcement."
+    },
+    "explainer": "Bridgepoint reports on two bases. Its 'underlying' figures — the ones it leads with — strip out one-off exceptional costs, acquisition-related charges and non-cash items such as amortisation of intangibles. On this basis EBITDA rose 78% to £227.3m. The statutory IFRS numbers, which include those costs, tell a different story: reported pre-tax profit actually fell (to £42.9m from £60.6m) because of exceptional and financing costs tied to the Kayne Anderson Real Estate and ECP transactions. Both pictures are real; the gap is the cost of the M&A and accounting adjustments.",
+    "source_url": "https://uk.advfn.com/stock-market/london/bridgepoint-BPT/share-news/Bridgepoint-Group-plc-Half-year-Report/98936270",
+    "related_news_url": "https://news.google.com/search?q=%22Bridgepoint%20Group%20plc%22",
+    "added_at": "2026-07-17T07:19:48.089725"
+  },
+  {
     "company": "Ninety One PLC",
     "ticker": "N91",
     "publish_date": "17 July 2026",
