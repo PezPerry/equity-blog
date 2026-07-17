@@ -1,5 +1,31 @@
 [
   {
+    "company": "Greatland Resources Ltd",
+    "ticker": "GRR",
+    "publish_date": "17 July 2026",
+    "date_iso": "2026-07-17",
+    "time_period": "June Quarter 2026",
+    "announcement_type": "Corporate update",
+    "period_detail": "June Quarter 2026",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>Greatland Resources Limited</strong> (<strong>AIM:GGP</strong>, <strong>ASX:GGP</strong>) will lodge its Quarterly Activities Report for the <strong>June Quarter 2026</strong> with the ASX on <strong>Wednesday, 29 July 2026</strong>.</li><li>A webcast and Q&A for shareholders and analysts follows the same day at <strong>BST 01:30am</strong>, with a recording available afterwards.</li><li>Routine scheduling notice with <strong>no impact</strong> on trading or guidance; the quarterly figures are not yet released.</li></ul>",
+    "source_format": "html",
+    "headline": "Greatland Resources will lodge its June Quarter 2026 Activities Report on 29 July 2026, with a shareholder webcast the same day.",
+    "priority": "low",
+    "priority_reason": "Administrative notice of a future results date and webcast, with no financial or operational content.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/greatland-resources-GGP/share-news/Greatland-Resources-Limited-June-Quarter-2026-Resu/98929762",
+    "related_news_url": "https://news.google.com/search?q=%22Greatland%20Resources%20Limited%22",
+    "added_at": "2026-07-17T07:21:07.048687"
+  },
+  {
     "company": "International Consolidated Airlines Group, S.A.",
     "ticker": "IAG",
     "publish_date": "17 July 2026",
