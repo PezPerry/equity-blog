@@ -1,5 +1,31 @@
 [
   {
+    "company": "Rentokil Initial PLC",
+    "ticker": "RTO",
+    "publish_date": "17 July 2026",
+    "date_iso": "2026-07-17",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>John Pettigrew</strong>, Senior Independent Director of <strong>Rentokil Initial plc</strong>, appointed to the board of <strong>SSE plc</strong> as a non-executive director with effect from <strong>1 December 2026</strong>.</li><li>Routine disclosure under <strong>Listing Rule 6.4.9</strong> with <strong>no impact</strong> on Rentokil's trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Rentokil Initial Senior Independent Director John Pettigrew has been appointed a non-executive director of SSE plc from 1 December 2026.",
+    "priority": "low",
+    "priority_reason": "Routine external-directorship disclosure under Listing Rule 6.4.9 with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/rentokil-initial-RTO/share-news/Rentokil-Initial-PLC-Director-Declaration/98929848",
+    "related_news_url": "https://news.google.com/search?q=%22Rentokil%20Initial%20plc%22",
+    "added_at": "2026-07-17T07:20:16.504101"
+  },
+  {
     "company": "Bridgepoint Group PLC",
     "ticker": "BPT",
     "publish_date": "17 July 2026",
@@ -391,6 +417,32 @@
     "source_url": "https://uk.advfn.com/stock-market/london/ibstock-IBST/share-news/Ibstock-PLC-Directorate-Change/98936287",
     "related_news_url": "https://news.google.com/search?q=%22Ibstock%20plc%22",
     "added_at": "2026-07-17T07:17:00.258994"
+  },
+  {
+    "company": "Burberry Group PLC",
+    "ticker": "BRBY",
+    "publish_date": "16 July 2026",
+    "date_iso": "2026-07-16",
+    "time_period": "Q1 FY2027 (first quarter)",
+    "announcement_type": "Trading update",
+    "period_detail": "Q1 FY2027 (first quarter)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Burberry Group plc</strong> has released its <strong>FY2027 first-quarter trading update</strong>, with a virtual analyst presentation held at <strong>9.00am UK time</strong>.</li><li>The scraped announcement contains <strong>no trading figures</strong> — revenue, comparable sales and regional performance are all in the linked <strong>RNS PDF</strong> (dated <strong>16 July 2026</strong>), which is not reproduced in this text.</li><li><strong>No figures, guidance or comparatives</strong> can be summarised from the available text; the full statement must be read from the PDF or the Burberry website for the actual numbers.</li><li>Routine caveat: this is a genuine high-priority update, but the source page only carries boilerplate and links — content is <strong>incomplete as scraped</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Burberry publishes its FY2027 first-quarter trading update, but the scraped text provides only links to the PDF and no actual sales or performance figures.",
+    "priority": "high",
+    "priority_reason": "First-quarter trading update from a FTSE 100 luxury name — market-moving category — though the scraped text carries no figures.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "This entry flags a real Burberry Q1 trading update, but the scraped page does not contain the substance — it only points to a PDF hosted on the London Stock Exchange RNS system and the company website. No revenue, comparable-store sales, regional splits or guidance are present in the text supplied, so none can be summarised or verified here.\n\nTo assess the update, the underlying PDF or the Burberry investor-relations page must be read directly. Until then, no comparative figures (organic vs reported, currency basis or regional performance) are available, and no view can be taken on whether guidance has changed.",
+    "source_url": "https://uk.advfn.com/stock-market/london/burberry-BRBY/share-news/Burberry-Group-PLC-First-Quarter-Trading-Update/98936257",
+    "related_news_url": "https://news.google.com/search?q=%22Burberry%20Group%20plc%22",
+    "added_at": "2026-07-17T07:20:16.490118"
   },
   {
     "company": "Aberdeen Group PLC",
