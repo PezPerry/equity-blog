@@ -115,8 +115,9 @@ img{display:block;max-width:100%}
 .block:hover{border-color:var(--line-strong);box-shadow:var(--shadow);z-index:5}
 .block .photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;z-index:1;transition:transform .55s cubic-bezier(.2,.7,.2,1)}
 .block:hover .photo{transform:scale(1.06)}
-.block.a-burn .photo{object-position:72% 42%}
-.block.a-mega .photo{object-position:center 38%}
+/* Image crops are keyed to the ARTICLE, not the slot, so they travel with it as tiles rotate. */
+.block[data-slug="burnham-uk-markets"] .photo{object-position:72% 42%}
+.block[data-slug="mega-ipo-trap"] .photo{object-position:center 38%}
 .block .overlay{position:absolute;inset:0;z-index:2;background:linear-gradient(180deg,rgba(8,12,20,0) 0%,rgba(8,12,20,0) 46%,rgba(8,12,20,.55) 72%,rgba(8,12,20,.92) 100%)}
 .block .spotlight{position:absolute;inset:0;z-index:3;opacity:0;transition:opacity .3s;background:radial-gradient(260px 260px at var(--mx,50%) var(--my,50%),rgba(212,168,83,.22),transparent 60%)}
 .block:hover .spotlight{opacity:1}
@@ -194,14 +195,14 @@ footer{margin-top:clamp(40px,4vw,68px);border-top:1px solid var(--line);padding:
       "ejt  ejt"
       "tpk  zig"
       "ndx  ndx";}
-  .block.a-burn .photo{object-position:center}
+  .block[data-slug="burnham-uk-markets"] .photo{object-position:center}
   .signup{grid-template-columns:1fr}
   .strip-inner{grid-template-columns:1fr}
 }
 @media (max-width:600px){
   .bento{grid-template-columns:1fr;grid-auto-rows:auto;grid-template-areas:none}
   .block{grid-area:auto !important;aspect-ratio:16/10}
-  .block.a-burn .photo{object-position:center 30%}
+  .block[data-slug="burnham-uk-markets"] .photo{object-position:center 30%}
 }
 @media (prefers-reduced-motion:reduce){*{transition-duration:.001ms !important}.latest-ribbon .dot{animation:none}}
 </style>
@@ -237,17 +238,19 @@ footer{margin-top:clamp(40px,4vw,68px);border-top:1px solid var(--line);padding:
       <p class="tagline"><b>Clearer thinking on UK markets and equities.</b> Independent company valuations, macro and rates — figures dated, sourced and reconciled, so you can make better-informed decisions.</p>
     </div>
 
-    <a class="latest" data-tilt href="watches-of-switzerland-WOSG-blog-page.html">
+    <!-- HERO:START — generated from front-page-tiles.json by build-front-page.py. Do not hand-edit. -->
+    <a class="latest" data-tilt data-slug="crest-nicholson-CRST-HY2026-blog-page" href="crest-nicholson-CRST-HY2026-blog-page.html">
       <div class="latest-media">
         <span class="latest-ribbon"><span class="dot"></span>Latest</span>
-        <img src="watches-of-switzerland-WOSG-cover.png" alt="Watches of Switzerland">
+        <img src="crest-nicholson-CRST-HY2026-cover.png" alt="Crest Nicholson">
       </div>
       <div class="latest-body">
-        <span class="latest-tag">Company Analysis · Luxury Retail</span>
-        <h2>Watches of Switzerland: Strong Results, with a Takeover in the Price</h2>
-        <div class="latest-meta"><span>WOSG</span><span>·</span><span style="color:var(--accent)">Hold</span></div>
+        <span class="latest-tag">Housebuilders</span>
+        <h2>Crest Nicholson: Bad Results, Real Assets</h2>
+        <div class="latest-meta"><span>CRST</span><span>&middot;</span><span style="color:var(--accent)">Buy</span></div>
       </div>
     </a>
+<!-- HERO:END -->
   </div>
 </header>
 
@@ -265,18 +268,49 @@ footer{margin-top:clamp(40px,4vw,68px);border-top:1px solid var(--line);padding:
   </nav>
 
   <section class="bento" id="bento">
+    <!-- TILES:START — generated from front-page-tiles.json by build-front-page.py. Do not hand-edit. -->
 
-    <a class="block a-mega" data-tilt href="mega-ipo-trap.html">
-      <img class="photo" alt="The Mega IPO Trap" src="mega-ipo-trap-cover.png">
+    <a class="block a-mega" data-tilt data-slug="crest-nicholson-CRST-sites-map" href="crest-nicholson-CRST-sites-map.html">
+      <img class="photo" alt="Crest Nicholson development map" src="crest-nicholson-CRST-sites-map-cover.png">
       <div class="overlay"></div><div class="spotlight"></div>
       <div class="content">
-        <span class="cat"><i class="swatch"></i>Market Insight · IPOs</span>
-        <h4>The Mega IPO Trap</h4>
-        <div class="meta"><span class="pill watch">Analysis</span><span>SpaceX · OpenAI · Anthropic</span></div>
+        <span class="cat"><i class="swatch"></i>Housing · Development Map</span>
+        <h4>Crest Nicholson: Where They Build</h4>
+        <div class="meta"><span class="pill watch">Graphic</span><span>50 developments</span></div>
       </div>
     </a>
 
-    <a class="block a-burn" data-tilt href="burnham-uk-markets.html">
+    <a class="block a-burn" data-tilt data-slug="bp-BP-blog-page" href="bp-BP-blog-page.html">
+      <img class="photo" alt="BP" src="bp-BP-cover.png">
+      <div class="overlay"></div><div class="spotlight"></div>
+      <div class="content">
+        <span class="cat"><i class="swatch"></i>Oil &amp; Gas</span>
+        <h4>BP: The Bill for the Renewables Retreat</h4>
+        <div class="meta"><span class="pill oval">Overvalued</span><span>BP.</span></div>
+      </div>
+    </a>
+
+    <a class="block a-bp" data-tilt data-slug="centrica-CNA-blog-page" href="centrica-CNA-blog-page.html">
+      <img class="photo" alt="Centrica" src="centrica-CNA-cover.png">
+      <div class="overlay"></div><div class="spotlight"></div>
+      <div class="content">
+        <span class="cat"><i class="swatch"></i>Utilities</span>
+        <h4>Centrica: Fair Value After the Fall</h4>
+        <div class="meta"><span class="pill hold">Hold</span><span>CNA</span></div>
+      </div>
+    </a>
+
+    <a class="block a-cna" data-tilt data-slug="watches-of-switzerland-WOSG-blog-page" href="watches-of-switzerland-WOSG-blog-page.html">
+      <img class="photo" alt="Watches of Switzerland" src="watches-of-switzerland-WOSG-cover.png">
+      <div class="overlay"></div><div class="spotlight"></div>
+      <div class="content">
+        <span class="cat"><i class="swatch"></i>Company Analysis · Luxury Retail</span>
+        <h4>Watches of Switzerland: Strong Results, with a Takeover in the Price</h4>
+        <div class="meta"><span class="pill hold">Hold</span><span>WOSG</span></div>
+      </div>
+    </a>
+
+    <a class="block a-hse" data-tilt data-slug="burnham-uk-markets" href="burnham-uk-markets.html">
       <img class="photo" alt="A Burnham premiership and UK markets" src="burnham-uk-markets-cover.png">
       <div class="overlay"></div><div class="spotlight"></div>
       <div class="content">
@@ -286,67 +320,17 @@ footer{margin-top:clamp(40px,4vw,68px);border-top:1px solid var(--line);padding:
       </div>
     </a>
 
-    <a class="block a-bp" data-tilt href="bp-BP-blog-page.html">
-      <img class="photo" alt="BP" src="bp-BP-cover.png">
+    <a class="block a-ejt" data-tilt data-slug="mega-ipo-trap" href="mega-ipo-trap.html">
+      <img class="photo" alt="The Mega IPO Trap" src="mega-ipo-trap-cover.png">
       <div class="overlay"></div><div class="spotlight"></div>
       <div class="content">
-        <span class="cat"><i class="swatch"></i>Oil &amp; Gas</span>
-        <h4>BP: The Bill for the Renewables Retreat</h4>
-        <div class="meta"><span class="pill oval">Overvalued</span></div>
+        <span class="cat"><i class="swatch"></i>Market Insight · IPOs</span>
+        <h4>The Mega IPO Trap</h4>
+        <div class="meta"><span class="pill watch">Analysis</span><span>SpaceX · OpenAI · Anthropic</span></div>
       </div>
     </a>
 
-    <a class="block a-cna" data-tilt href="centrica-CNA-blog-page.html">
-      <img class="photo" alt="Centrica" src="centrica-CNA-cover.png">
-      <div class="overlay"></div><div class="spotlight"></div>
-      <div class="content">
-        <span class="cat"><i class="swatch"></i>Utilities</span>
-        <h4>Centrica: Fair Value After the Fall</h4>
-        <div class="meta"><span class="pill hold">Hold</span></div>
-      </div>
-    </a>
-
-    <a class="block a-hse" data-tilt href="uk-house-prices-may-2026.html">
-      <img class="photo" alt="UK house prices, May 2026" src="uk-house-prices-may-2026-cover.png">
-      <div class="overlay"></div><div class="spotlight"></div>
-      <div class="content">
-        <span class="cat"><i class="swatch"></i>Macro &amp; Rates · House Prices</span>
-        <h4>UK House Prices Slip in May — And What It Means for the Housebuilders</h4>
-        <div class="meta"><span class="pill watch">Analysis</span><span>Nationwide HPI</span></div>
-      </div>
-    </a>
-
-    <a class="block a-ejt" data-tilt href="easyjet-EZJ-H1-FY2026-blog-page.html">
-      <img class="photo" alt="easyJet" src="easyjet-EZJ-H1-FY2026-cover.png">
-      <div class="overlay"></div><div class="spotlight"></div>
-      <div class="content">
-        <span class="cat"><i class="swatch"></i>Airlines</span>
-        <h4>Despite the Headwinds, easyJet Are Getting By</h4>
-        <div class="meta"><span class="pill buy">Buy</span><span>H1 FY2026</span></div>
-      </div>
-    </a>
-
-    <a class="block a-tpk" data-tilt href="travis-perkins-TPK-blog-page.html">
-      <img class="photo" alt="Travis Perkins" src="travis-perkins-TPK-cover.png">
-      <div class="overlay"></div><div class="spotlight"></div>
-      <div class="content">
-        <span class="cat"><i class="swatch"></i>Building Materials</span>
-        <h4>Travis Perkins: Significantly Overvalued</h4>
-        <div class="meta"><span class="pill sell">Sell</span></div>
-      </div>
-    </a>
-
-    <a class="block a-zig" data-tilt href="zigup-ZIG-blog-page.html">
-      <img class="photo" alt="Zigup" src="zigup-ZIG-cover.png">
-      <div class="overlay"></div><div class="spotlight"></div>
-      <div class="content">
-        <span class="cat"><i class="swatch"></i>Support Services</span>
-        <h4>Zigup: Marginally Overvalued, But a Solid Dividend</h4>
-        <div class="meta"><span class="pill noact">No Action</span></div>
-      </div>
-    </a>
-
-    <a class="block a-ndx" data-tilt href="why-nasdaq-keeps-rising.html">
+    <a class="block a-tpk" data-tilt data-slug="why-nasdaq-keeps-rising" href="why-nasdaq-keeps-rising.html">
       <img class="photo" alt="Nasdaq 100" src="why-nasdaq-keeps-rising-cover.png">
       <div class="overlay"></div><div class="spotlight"></div>
       <div class="content">
@@ -356,6 +340,27 @@ footer{margin-top:clamp(40px,4vw,68px);border-top:1px solid var(--line);padding:
       </div>
     </a>
 
+    <a class="block a-zig" data-tilt data-slug="uk-house-prices-may-2026" href="uk-house-prices-may-2026.html">
+      <img class="photo" alt="UK house prices, May 2026" src="uk-house-prices-may-2026-cover.png">
+      <div class="overlay"></div><div class="spotlight"></div>
+      <div class="content">
+        <span class="cat"><i class="swatch"></i>Macro &amp; Rates · House Prices</span>
+        <h4>UK House Prices Slip in May — And What It Means for the Housebuilders</h4>
+        <div class="meta"><span class="pill watch">Analysis</span><span>Nationwide HPI</span></div>
+      </div>
+    </a>
+
+    <a class="block a-ndx" data-tilt data-slug="easyjet-EZJ-H1-FY2026-blog-page" href="easyjet-EZJ-H1-FY2026-blog-page.html">
+      <img class="photo" alt="easyJet" src="easyjet-EZJ-H1-FY2026-cover.png">
+      <div class="overlay"></div><div class="spotlight"></div>
+      <div class="content">
+        <span class="cat"><i class="swatch"></i>Airlines</span>
+        <h4>Despite the Headwinds, easyJet Are Getting By</h4>
+        <div class="meta"><span class="pill buy">Buy</span><span>H1 FY2026</span></div>
+      </div>
+    </a>
+
+<!-- TILES:END -->
   </section>
 
   <div class="strip">

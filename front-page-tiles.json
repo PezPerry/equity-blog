@@ -1,0 +1,176 @@
+{
+  "_comment": "Front-page tile registry. The front page shows the 10 newest entries by date: the newest 'analysis' entry takes the hero, the next 9 fill the bento slots in date order, and anything older drops off. Ties on date are broken by the order entries appear here. Rebuild with: python build-front-page.py",
+  "_slots": [
+    "mega",
+    "burn",
+    "bp",
+    "cna",
+    "hse",
+    "ejt",
+    "tpk",
+    "zig",
+    "ndx"
+  ],
+  "tiles": [
+    {
+      "slug": "crest-nicholson-CRST-sites-map",
+      "url": "crest-nicholson-CRST-sites-map.html",
+      "date": "2026-07-16",
+      "kind": "companion",
+      "cover": "crest-nicholson-CRST-sites-map-cover.png",
+      "alt": "Crest Nicholson development map",
+      "cat": "Housing · Development Map",
+      "headline": "Crest Nicholson: Where They Build",
+      "pill": "watch",
+      "pill_label": "Graphic",
+      "meta_extra": [
+        "50 developments"
+      ]
+    },
+    {
+      "slug": "crest-nicholson-CRST-HY2026-blog-page",
+      "url": "crest-nicholson-CRST-HY2026-blog-page.html",
+      "date": "2026-07-16",
+      "kind": "analysis",
+      "cover": "crest-nicholson-CRST-HY2026-cover.png",
+      "alt": "Crest Nicholson",
+      "cat": "Housebuilders",
+      "headline": "Crest Nicholson: Bad Results, Real Assets",
+      "pill": "buy",
+      "pill_label": "Buy",
+      "ticker": "CRST"
+    },
+    {
+      "slug": "bp-BP-blog-page",
+      "url": "bp-BP-blog-page.html",
+      "date": "2026-07-14",
+      "kind": "analysis",
+      "cover": "bp-BP-cover.png",
+      "alt": "BP",
+      "cat": "Oil & Gas",
+      "headline": "BP: The Bill for the Renewables Retreat",
+      "pill": "oval",
+      "pill_label": "Overvalued",
+      "ticker": "BP."
+    },
+    {
+      "slug": "centrica-CNA-blog-page",
+      "url": "centrica-CNA-blog-page.html",
+      "date": "2026-07-14",
+      "kind": "analysis",
+      "cover": "centrica-CNA-cover.png",
+      "alt": "Centrica",
+      "cat": "Utilities",
+      "headline": "Centrica: Fair Value After the Fall",
+      "pill": "hold",
+      "pill_label": "Hold",
+      "ticker": "CNA"
+    },
+    {
+      "slug": "watches-of-switzerland-WOSG-blog-page",
+      "url": "watches-of-switzerland-WOSG-blog-page.html",
+      "date": "2026-07-14",
+      "kind": "analysis",
+      "cover": "watches-of-switzerland-WOSG-cover.png",
+      "alt": "Watches of Switzerland",
+      "cat": "Company Analysis · Luxury Retail",
+      "headline": "Watches of Switzerland: Strong Results, with a Takeover in the Price",
+      "pill": "hold",
+      "pill_label": "Hold",
+      "ticker": "WOSG"
+    },
+    {
+      "slug": "burnham-uk-markets",
+      "url": "burnham-uk-markets.html",
+      "date": "2026-06-23",
+      "kind": "analysis",
+      "cover": "burnham-uk-markets-cover.png",
+      "alt": "A Burnham premiership and UK markets",
+      "cat": "Macro · UK Politics",
+      "headline": "A Change at the Top: What a Burnham Premiership Means for UK Markets",
+      "pill": "watch",
+      "pill_label": "Analysis"
+    },
+    {
+      "slug": "mega-ipo-trap",
+      "url": "mega-ipo-trap.html",
+      "date": "2026-06-05",
+      "kind": "analysis",
+      "cover": "mega-ipo-trap-cover.png",
+      "alt": "The Mega IPO Trap",
+      "cat": "Market Insight · IPOs",
+      "headline": "The Mega IPO Trap",
+      "pill": "watch",
+      "pill_label": "Analysis",
+      "meta_extra": [
+        "SpaceX · OpenAI · Anthropic"
+      ]
+    },
+    {
+      "slug": "why-nasdaq-keeps-rising",
+      "url": "why-nasdaq-keeps-rising.html",
+      "date": "2026-06-03",
+      "kind": "analysis",
+      "cover": "why-nasdaq-keeps-rising-cover.png",
+      "alt": "Nasdaq 100",
+      "cat": "Markets · Nasdaq",
+      "headline": "Why Does the Nasdaq Keep Rising?",
+      "pill": "watch",
+      "pill_label": "Analysis"
+    },
+    {
+      "slug": "uk-house-prices-may-2026",
+      "url": "uk-house-prices-may-2026.html",
+      "date": "2026-06-02",
+      "kind": "analysis",
+      "cover": "uk-house-prices-may-2026-cover.png",
+      "alt": "UK house prices, May 2026",
+      "cat": "Macro & Rates · House Prices",
+      "headline": "UK House Prices Slip in May — And What It Means for the Housebuilders",
+      "pill": "watch",
+      "pill_label": "Analysis",
+      "meta_extra": [
+        "Nationwide HPI"
+      ]
+    },
+    {
+      "slug": "easyjet-EZJ-H1-FY2026-blog-page",
+      "url": "easyjet-EZJ-H1-FY2026-blog-page.html",
+      "date": "2026-05-21",
+      "kind": "analysis",
+      "cover": "easyjet-EZJ-H1-FY2026-cover.png",
+      "alt": "easyJet",
+      "cat": "Airlines",
+      "headline": "Despite the Headwinds, easyJet Are Getting By",
+      "pill": "buy",
+      "pill_label": "Buy",
+      "meta_extra": [
+        "H1 FY2026"
+      ]
+    },
+    {
+      "slug": "zigup-ZIG-blog-page",
+      "url": "zigup-ZIG-blog-page.html",
+      "date": "2026-05-21",
+      "kind": "analysis",
+      "cover": "zigup-ZIG-cover.png",
+      "alt": "Zigup",
+      "cat": "Support Services",
+      "headline": "Zigup: Marginally Overvalued, But a Solid Dividend",
+      "pill": "noact",
+      "pill_label": "No Action"
+    },
+    {
+      "slug": "travis-perkins-TPK-blog-page",
+      "url": "travis-perkins-TPK-blog-page.html",
+      "date": "2026-04-29",
+      "kind": "analysis",
+      "cover": "travis-perkins-TPK-cover.png",
+      "alt": "Travis Perkins",
+      "cat": "Building Materials",
+      "headline": "Travis Perkins: Significantly Overvalued",
+      "pill": "sell",
+      "pill_label": "Sell"
+    }
+  ]
+}

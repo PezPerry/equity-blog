@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="All 50 Crest Nicholson developments mapped — 42 live, 8 in the pipeline. The estate is concentrated in Southern and Eastern England, where a £414k open-market average selling price is most exposed to mortgage affordability.">
+<meta name="keywords" content="crest nicholson, housebuilder, uk housing, development map, southern england, affordability">
+<meta name="tile-kind" content="companion">
+<meta name="tile-cat" content="Housing · Development Map">
+<meta name="tile-headline" content="Crest Nicholson: Where They Build">
+<meta name="tile-pill" content="watch">
+<meta name="tile-pill-label" content="Graphic">
+<meta name="tile-meta" content="50 developments">
+<meta name="tile-alt" content="Crest Nicholson development map">
+<title>Crest Nicholson — UK development map | Equity &amp; Markets Insight</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<style>
+  :root { --navy:#1B2A4A; --red:#E8453C; --gold:#D4A853; --cream:#FBFAF7; --muted:#6E7689; --hair:#E6E1D6; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { font-family:"DM Sans",-apple-system,Segoe UI,Roboto,sans-serif; background:var(--cream); color:#26282e; }
+  header { padding:26px 34px 18px; border-bottom:1px solid var(--hair); }
+  .eyebrow { font-family:"DM Mono",monospace; font-size:12px; letter-spacing:.14em; text-transform:uppercase; color:var(--red); margin-bottom:8px; }
+  h1 { font-family:Georgia,"Playfair Display",serif; font-size:28px; color:var(--navy); }
+  .sub { color:var(--muted); font-size:14px; margin-top:6px; max-width:900px; line-height:1.5; }
+  .stats { display:flex; gap:14px; padding:16px 34px; flex-wrap:wrap; }
+  .stat { background:#fff; border:1px solid var(--hair); border-radius:10px; padding:12px 18px; min-width:150px; }
+  .stat b { display:block; font-size:22px; color:var(--navy); }
+  .stat span { font-size:12px; color:var(--muted); }
+  .wrap { display:flex; gap:0; height:calc(100vh - 220px); min-height:520px; }
+  #map { flex:1; }
+  aside { width:320px; overflow-y:auto; padding:18px 22px; background:#fff; border-left:1px solid var(--hair); }
+  aside h3 { font-size:13px; color:var(--navy); margin:14px 0 6px; display:flex; align-items:center; gap:7px; }
+  aside ul { list-style:none; }
+  aside li { font-size:12.5px; color:#444; padding:2.5px 0; display:flex; align-items:center; gap:7px; }
+  .dot { width:10px; height:10px; border-radius:50%; display:inline-block; flex:none; }
+  .note { padding:14px 34px 26px; font-size:13px; color:var(--muted); line-height:1.55; max-width:1000px; }
+  .note strong { color:var(--navy); }
+</style></head><body>
+<header>
+  <div class="eyebrow">Equity &amp; Markets Insight · Companion to the Crest Nicholson note, 16 July 2026</div>
+  <h1>Crest Nicholson — where they build</h1>
+  <div class="sub">All live and pipeline developments listed by Crest Nicholson as at July 2026. Click any marker for the development name. The concentration in the South and East of England — the highest-price, most affordability-stretched regions — is the geographic context for the weak HY26 sales rate (0.48 vs 0.53).</div>
+</header>
+<div class="stats">
+  <div class="stat"><b>50</b><span>developments (42 live, 8 pipeline)</span></div>
+  <div class="stat"><b>41</b><span>average sales outlets in HY26</span></div>
+  <div class="stat"><b>£414k</b><span>open-market ASP (HY26)</span></div>
+  <div class="stat"><b>0.48</b><span>sales per outlet week (HY25: 0.53)</span></div>
+  <div class="stat"><b>0</b><span>developments in Scotland, Wales or NW England</span></div>
+</div>
+<div class="wrap">
+  <div id="map"></div>
+  <aside><h3><span class="dot" style="background:#1B2A4A"></span>South (8)</h3><ul><li><span class="dot" style="background:#1B2A4A;"></span>Ackender Hill, Alton</li><li><span class="dot" style="background:#1B2A4A;"></span>Brightwells Yard, Farnham</li><li><span class="dot" style="background:#1B2A4A;"></span>Centenary Quay, Southampton</li><li><span class="dot" style="background:#1B2A4A;"></span>Nobel Park, Didcot</li><li><span class="dot" style="background:#1B2A4A;"></span>Curbridge Meadows, Fareham (Whiteley)</li><li><span class="dot" style="background:#1B2A4A;"></span>Newlands Place, Arborfield</li><li><span class="dot" style="background:#1B2A4A;"></span>Walton Court Gardens, Walton-on-Thames</li><li><span class="dot" style="background:#1B2A4A;"></span>Windsor Gate, Windsor</li></ul><h3><span class="dot" style="background:#2C7A7B"></span>South East (7)</h3><ul><li><span class="dot" style="background:#2C7A7B;"></span>Bilham Lawn, Ashford (Finberry)</li><li><span class="dot" style="background:#2C7A7B;"></span>Campbell Wharf, Milton Keynes</li><li><span class="dot" style="background:#2C7A7B;"></span>Kilnwood Vale, Faygate</li><li><span class="dot" style="background:#2C7A7B;"></span>Crown Meadows, Faversham</li><li><span class="dot" style="background:#2C7A7B;"></span>Meadow Views, Hailsham</li><li><span class="dot" style="background:#2C7A7B;"></span>Watling Fields, Milton Keynes</li><li><span class="dot" style="background:#2C7A7B;opacity:.55"></span>Captains Green, Ashford <em>(soon)</em></li></ul><h3><span class="dot" style="background:#D4A853"></span>Eastern (11)</h3><ul><li><span class="dot" style="background:#D4A853;"></span>Arden Oaks, Brentwood</li><li><span class="dot" style="background:#D4A853;"></span>Aspen Grange, Stowmarket</li><li><span class="dot" style="background:#D4A853;"></span>Castlefield Park, Harlington</li><li><span class="dot" style="background:#D4A853;"></span>Cringleford Heights, Norwich</li><li><span class="dot" style="background:#D4A853;"></span>Henley Gate, Ipswich</li><li><span class="dot" style="background:#D4A853;"></span>Lewin Park, Langford</li><li><span class="dot" style="background:#D4A853;"></span>Saffron Fields, Red Lodge</li><li><span class="dot" style="background:#D4A853;"></span>Verla, St Albans</li><li><span class="dot" style="background:#D4A853;"></span>Westcombe Park, Heybridge</li><li><span class="dot" style="background:#D4A853;"></span>Wycke Place, Maldon</li><li><span class="dot" style="background:#D4A853;opacity:.55"></span>Regents Brook, Goffs Oak <em>(soon)</em></li></ul><h3><span class="dot" style="background:#1f8a52"></span>South West (5)</h3><ul><li><span class="dot" style="background:#1f8a52;"></span>Brooklands Park, Stoke Gifford, Bristol</li><li><span class="dot" style="background:#1f8a52;"></span>Hunts Grove, Gloucester</li><li><span class="dot" style="background:#1f8a52;"></span>Netherton Grange, Nailsea</li><li><span class="dot" style="background:#1f8a52;"></span>Perrybrook, Brockworth</li><li><span class="dot" style="background:#1f8a52;"></span>Rowden Gate, Chippenham</li></ul><h3><span class="dot" style="background:#E8453C"></span>Midlands (13)</h3><ul><li><span class="dot" style="background:#E8453C;"></span>Branston Locks, Branston</li><li><span class="dot" style="background:#E8453C;"></span>Malabar, Daventry</li><li><span class="dot" style="background:#E8453C;"></span>Hereford Grange, Hereford</li><li><span class="dot" style="background:#E8453C;"></span>Kegworth Gate, Kegworth</li><li><span class="dot" style="background:#E8453C;"></span>Ludlow Green, Ludlow</li><li><span class="dot" style="background:#E8453C;"></span>Marston Leys, Stratford-upon-Avon</li><li><span class="dot" style="background:#E8453C;"></span>Potter's Grange, Ashby de la Zouch</li><li><span class="dot" style="background:#E8453C;"></span>Sketchley Gardens, Nuneaton</li><li><span class="dot" style="background:#E8453C;"></span>Westwood Park, Coventry (Westwood Heath)</li><li><span class="dot" style="background:#E8453C;opacity:.55"></span>Bridgnorth Edge, Bridgnorth <em>(soon)</em></li><li><span class="dot" style="background:#E8453C;opacity:.55"></span>Albrighton, Albrighton <em>(soon)</em></li><li><span class="dot" style="background:#E8453C;opacity:.55"></span>Woodville Place, Woodville <em>(soon)</em></li><li><span class="dot" style="background:#E8453C;opacity:.55"></span>Yarndale Gardens, Brackley <em>(soon)</em></li></ul><h3><span class="dot" style="background:#7c5cbf"></span>Yorkshire (6)</h3><ul><li><span class="dot" style="background:#7c5cbf;"></span>Copley Park, Sprotbrough</li><li><span class="dot" style="background:#7c5cbf;"></span>Cygnet View, Swanland</li><li><span class="dot" style="background:#7c5cbf;"></span>Dalton Gardens, Huddersfield</li><li><span class="dot" style="background:#7c5cbf;"></span>Meadow Fields, Scarborough</li><li><span class="dot" style="background:#7c5cbf;opacity:.55"></span>Elland, Elland <em>(soon)</em></li><li><span class="dot" style="background:#7c5cbf;opacity:.55"></span>Wilberfoss, Wilberfoss <em>(soon)</em></li></ul></aside>
+</div>
+<div class="note"><strong>Reading the map.</strong> Crest Nicholson’s estate is overwhelmingly a Southern and Eastern England footprint — Hampshire, Surrey, Berkshire, Sussex, Kent, Essex and the Home Counties — with a Midlands band and a small, newer Yorkshire cluster. That geography carries the highest selling prices in the country (open-market ASP of £414k against a UK new-build average nearer £300k), which makes its buyers the most exposed to mortgage affordability at a 3.75% base rate that markets now expect to stay higher for longer. Peers with heavier Northern and lower-price-point weightings have reported firmer sales rates through the same period. The Chiltern division was closed in November 2025 as part of the restructuring. This map reflects my personal opinions and is not investment advice. Sources: crestnicholson.com development listings (July 2026); HY26 interim results (16 July 2026); OpenStreetMap.</div>
+<script>
+  var map = L.map('map').setView([52.35, -1.0], 7);
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; OpenStreetMap contributors', maxZoom: 18 }).addTo(map);
+  
+    L.circleMarker([51.146,-0.985], {radius: 6, color:"#fff", weight:1.5, fillColor:"#1B2A4A", fillOpacity:0.95})
+      .bindPopup("<strong>Ackender Hill</strong><br>Alton<br><em>South · Live</em>").addTo(map);
+    L.circleMarker([51.62,0.3], {radius: 6, color:"#fff", weight:1.5, fillColor:"#D4A853", fillOpacity:0.95})
+      .bindPopup("<strong>Arden Oaks</strong><br>Brentwood<br><em>Eastern · Live</em>").addTo(map);
+    L.circleMarker([52.19,1.0], {radius: 6, color:"#fff", weight:1.5, fillColor:"#D4A853", fillOpacity:0.95})
+      .bindPopup("<strong>Aspen Grange</strong><br>Stowmarket<br><em>Eastern · Live</em>").addTo(map);
+    L.circleMarker([51.13,0.9], {radius: 6, color:"#fff", weight:1.5, fillColor:"#2C7A7B", fillOpacity:0.95})
+      .bindPopup("<strong>Bilham Lawn</strong><br>Ashford (Finberry)<br><em>South East · Live</em>").addTo(map);
+    L.circleMarker([51.214,-0.795], {radius: 6, color:"#fff", weight:1.5, fillColor:"#1B2A4A", fillOpacity:0.95})
+      .bindPopup("<strong>Brightwells Yard</strong><br>Farnham<br><em>South · Live</em>").addTo(map);
+    L.circleMarker([51.52,-2.55], {radius: 6, color:"#fff", weight:1.5, fillColor:"#1f8a52", fillOpacity:0.95})
+      .bindPopup("<strong>Brooklands Park</strong><br>Stoke Gifford, Bristol<br><em>South West · Live</em>").addTo(map);
+    L.circleMarker([52.05,-0.74], {radius: 6, color:"#fff", weight:1.5, fillColor:"#2C7A7B", fillOpacity:0.95})
+      .bindPopup("<strong>Campbell Wharf</strong><br>Milton Keynes<br><em>South East · Live</em>").addTo(map);
+    L.circleMarker([51.96,-0.49], {radius: 6, color:"#fff", weight:1.5, fillColor:"#D4A853", fillOpacity:0.95})
+      .bindPopup("<strong>Castlefield Park</strong><br>Harlington<br><em>Eastern · Live</em>").addTo(map);
+    L.circleMarker([50.895,-1.38], {radius: 6, color:"#fff", weight:1.5, fillColor:"#1B2A4A", fillOpacity:0.95})
+      .bindPopup("<strong>Centenary Quay</strong><br>Southampton<br><em>South · Live</em>").addTo(map);
+    L.circleMarker([53.51,-1.19], {radius: 6, color:"#fff", weight:1.5, fillColor:"#7c5cbf", fillOpacity:0.95})
+      .bindPopup("<strong>Copley Park</strong><br>Sprotbrough<br><em>Yorkshire · Live</em>").addTo(map);
+    L.circleMarker([52.78,-1.66], {radius: 6, color:"#fff", weight:1.5, fillColor:"#E8453C", fillOpacity:0.95})
+      .bindPopup("<strong>Branston Locks</strong><br>Branston<br><em>Midlands · Live</em>").addTo(map);
+    L.circleMarker([51.07,-0.26], {radius: 6, color:"#fff", weight:1.5, fillColor:"#2C7A7B", fillOpacity:0.95})
+      .bindPopup("<strong>Kilnwood Vale</strong><br>Faygate<br><em>South East · Live</em>").addTo(map);
+    L.circleMarker([52.26,-1.16], {radius: 6, color:"#fff", weight:1.5, fillColor:"#E8453C", fillOpacity:0.95})
+      .bindPopup("<strong>Malabar</strong><br>Daventry<br><em>Midlands · Live</em>").addTo(map);
+    L.circleMarker([51.61,-1.24], {radius: 6, color:"#fff", weight:1.5, fillColor:"#1B2A4A", fillOpacity:0.95})
+      .bindPopup("<strong>Nobel Park</strong><br>Didcot<br><em>South · Live</em>").addTo(map);
+    L.circleMarker([52.6,1.23], {radius: 6, color:"#fff", weight:1.5, fillColor:"#D4A853", fillOpacity:0.95})
+      .bindPopup("<strong>Cringleford Heights</strong><br>Norwich<br><em>Eastern · Live</em>").addTo(map);
+    L.circleMarker([51.31,0.89], {radius: 6, color:"#fff", weight:1.5, fillColor:"#2C7A7B", fillOpacity:0.95})
+      .bindPopup("<strong>Crown Meadows</strong><br>Faversham<br><em>South East · Live</em>").addTo(map);
+    L.circleMarker([50.88,-1.25], {radius: 6, color:"#fff", weight:1.5, fillColor:"#1B2A4A", fillOpacity:0.95})
+      .bindPopup("<strong>Curbridge Meadows</strong><br>Fareham (Whiteley)<br><em>South · Live</em>").addTo(map);
+    L.circleMarker([53.74,-0.51], {radius: 6, color:"#fff", weight:1.5, fillColor:"#7c5cbf", fillOpacity:0.95})
+      .bindPopup("<strong>Cygnet View</strong><br>Swanland<br><em>Yorkshire · Live</em>").addTo(map);
+    L.circleMarker([53.65,-1.75], {radius: 6, color:"#fff", weight:1.5, fillColor:"#7c5cbf", fillOpacity:0.95})
+      .bindPopup("<strong>Dalton Gardens</strong><br>Huddersfield<br><em>Yorkshire · Live</em>").addTo(map);
+    L.circleMarker([52.08,1.15], {radius: 6, color:"#fff", weight:1.5, fillColor:"#D4A853", fillOpacity:0.95})
+      .bindPopup("<strong>Henley Gate</strong><br>Ipswich<br><em>Eastern · Live</em>").addTo(map);
+    L.circleMarker([52.06,-2.71], {radius: 6, color:"#fff", weight:1.5, fillColor:"#E8453C", fillOpacity:0.95})
+      .bindPopup("<strong>Hereford Grange</strong><br>Hereford<br><em>Midlands · Live</em>").addTo(map);
+    L.circleMarker([51.8,-2.27], {radius: 6, color:"#fff", weight:1.5, fillColor:"#1f8a52", fillOpacity:0.95})
+      .bindPopup("<strong>Hunts Grove</strong><br>Gloucester<br><em>South West · Live</em>").addTo(map);
+    L.circleMarker([52.83,-1.28], {radius: 6, color:"#fff", weight:1.5, fillColor:"#E8453C", fillOpacity:0.95})
+      .bindPopup("<strong>Kegworth Gate</strong><br>Kegworth<br><em>Midlands · Live</em>").addTo(map);
+    L.circleMarker([52.05,-0.28], {radius: 6, color:"#fff", weight:1.5, fillColor:"#D4A853", fillOpacity:0.95})
+      .bindPopup("<strong>Lewin Park</strong><br>Langford<br><em>Eastern · Live</em>").addTo(map);
+    L.circleMarker([52.37,-2.72], {radius: 6, color:"#fff", weight:1.5, fillColor:"#E8453C", fillOpacity:0.95})
+      .bindPopup("<strong>Ludlow Green</strong><br>Ludlow<br><em>Midlands · Live</em>").addTo(map);
+    L.circleMarker([52.19,-1.71], {radius: 6, color:"#fff", weight:1.5, fillColor:"#E8453C", fillOpacity:0.95})
+      .bindPopup("<strong>Marston Leys</strong><br>Stratford-upon-Avon<br><em>Midlands · Live</em>").addTo(map);
+    L.circleMarker([54.28,-0.4], {radius: 6, color:"#fff", weight:1.5, fillColor:"#7c5cbf", fillOpacity:0.95})
+      .bindPopup("<strong>Meadow Fields</strong><br>Scarborough<br><em>Yorkshire · Live</em>").addTo(map);
+    L.circleMarker([50.86,0.26], {radius: 6, color:"#fff", weight:1.5, fillColor:"#2C7A7B", fillOpacity:0.95})
+      .bindPopup("<strong>Meadow Views</strong><br>Hailsham<br><em>South East · Live</em>").addTo(map);
+    L.circleMarker([51.43,-2.76], {radius: 6, color:"#fff", weight:1.5, fillColor:"#1f8a52", fillOpacity:0.95})
+      .bindPopup("<strong>Netherton Grange</strong><br>Nailsea<br><em>South West · Live</em>").addTo(map);
+    L.circleMarker([51.39,-0.9], {radius: 6, color:"#fff", weight:1.5, fillColor:"#1B2A4A", fillOpacity:0.95})
+      .bindPopup("<strong>Newlands Place</strong><br>Arborfield<br><em>South · Live</em>").addTo(map);
+    L.circleMarker([51.85,-2.15], {radius: 6, color:"#fff", weight:1.5, fillColor:"#1f8a52", fillOpacity:0.95})
+      .bindPopup("<strong>Perrybrook</strong><br>Brockworth<br><em>South West · Live</em>").addTo(map);
+    L.circleMarker([52.75,-1.47], {radius: 6, color:"#fff", weight:1.5, fillColor:"#E8453C", fillOpacity:0.95})
+      .bindPopup("<strong>Potter's Grange</strong><br>Ashby de la Zouch<br><em>Midlands · Live</em>").addTo(map);
+    L.circleMarker([51.45,-2.13], {radius: 6, color:"#fff", weight:1.5, fillColor:"#1f8a52", fillOpacity:0.95})
+      .bindPopup("<strong>Rowden Gate</strong><br>Chippenham<br><em>South West · Live</em>").addTo(map);
+    L.circleMarker([52.3,0.51], {radius: 6, color:"#fff", weight:1.5, fillColor:"#D4A853", fillOpacity:0.95})
+      .bindPopup("<strong>Saffron Fields</strong><br>Red Lodge<br><em>Eastern · Live</em>").addTo(map);
+    L.circleMarker([52.52,-1.4], {radius: 6, color:"#fff", weight:1.5, fillColor:"#E8453C", fillOpacity:0.95})
+      .bindPopup("<strong>Sketchley Gardens</strong><br>Nuneaton<br><em>Midlands · Live</em>").addTo(map);
+    L.circleMarker([51.75,-0.34], {radius: 6, color:"#fff", weight:1.5, fillColor:"#D4A853", fillOpacity:0.95})
+      .bindPopup("<strong>Verla</strong><br>St Albans<br><em>Eastern · Live</em>").addTo(map);
+    L.circleMarker([51.39,-0.42], {radius: 6, color:"#fff", weight:1.5, fillColor:"#1B2A4A", fillOpacity:0.95})
+      .bindPopup("<strong>Walton Court Gardens</strong><br>Walton-on-Thames<br><em>South · Live</em>").addTo(map);
+    L.circleMarker([52.06,-0.83], {radius: 6, color:"#fff", weight:1.5, fillColor:"#2C7A7B", fillOpacity:0.95})
+      .bindPopup("<strong>Watling Fields</strong><br>Milton Keynes<br><em>South East · Live</em>").addTo(map);
+    L.circleMarker([51.74,0.69], {radius: 6, color:"#fff", weight:1.5, fillColor:"#D4A853", fillOpacity:0.95})
+      .bindPopup("<strong>Westcombe Park</strong><br>Heybridge<br><em>Eastern · Live</em>").addTo(map);
+    L.circleMarker([52.38,-1.58], {radius: 6, color:"#fff", weight:1.5, fillColor:"#E8453C", fillOpacity:0.95})
+      .bindPopup("<strong>Westwood Park</strong><br>Coventry (Westwood Heath)<br><em>Midlands · Live</em>").addTo(map);
+    L.circleMarker([51.48,-0.62], {radius: 6, color:"#fff", weight:1.5, fillColor:"#1B2A4A", fillOpacity:0.95})
+      .bindPopup("<strong>Windsor Gate</strong><br>Windsor<br><em>South · Live</em>").addTo(map);
+    L.circleMarker([51.73,0.68], {radius: 6, color:"#fff", weight:1.5, fillColor:"#D4A853", fillOpacity:0.95})
+      .bindPopup("<strong>Wycke Place</strong><br>Maldon<br><em>Eastern · Live</em>").addTo(map);
+    L.circleMarker([52.54,-2.42], {radius: 5, color:"#fff", weight:1.5, fillColor:"#E8453C", fillOpacity:0.6})
+      .bindPopup("<strong>Bridgnorth Edge</strong><br>Bridgnorth<br><em>Midlands · Coming soon</em>").addTo(map);
+    L.circleMarker([51.14,0.87], {radius: 5, color:"#fff", weight:1.5, fillColor:"#2C7A7B", fillOpacity:0.6})
+      .bindPopup("<strong>Captains Green</strong><br>Ashford<br><em>South East · Coming soon</em>").addTo(map);
+    L.circleMarker([52.63,-2.28], {radius: 5, color:"#fff", weight:1.5, fillColor:"#E8453C", fillOpacity:0.6})
+      .bindPopup("<strong>Albrighton</strong><br>Albrighton<br><em>Midlands · Coming soon</em>").addTo(map);
+    L.circleMarker([53.68,-1.84], {radius: 5, color:"#fff", weight:1.5, fillColor:"#7c5cbf", fillOpacity:0.6})
+      .bindPopup("<strong>Elland</strong><br>Elland<br><em>Yorkshire · Coming soon</em>").addTo(map);
+    L.circleMarker([53.95,-0.89], {radius: 5, color:"#fff", weight:1.5, fillColor:"#7c5cbf", fillOpacity:0.6})
+      .bindPopup("<strong>Wilberfoss</strong><br>Wilberfoss<br><em>Yorkshire · Coming soon</em>").addTo(map);
+    L.circleMarker([51.71,-0.09], {radius: 5, color:"#fff", weight:1.5, fillColor:"#D4A853", fillOpacity:0.6})
+      .bindPopup("<strong>Regents Brook</strong><br>Goffs Oak<br><em>Eastern · Coming soon</em>").addTo(map);
+    L.circleMarker([52.77,-1.53], {radius: 5, color:"#fff", weight:1.5, fillColor:"#E8453C", fillOpacity:0.6})
+      .bindPopup("<strong>Woodville Place</strong><br>Woodville<br><em>Midlands · Coming soon</em>").addTo(map);
+    L.circleMarker([52.03,-1.15], {radius: 5, color:"#fff", weight:1.5, fillColor:"#E8453C", fillOpacity:0.6})
+      .bindPopup("<strong>Yarndale Gardens</strong><br>Brackley<br><em>Midlands · Coming soon</em>").addTo(map);
+</script>
+</body></html>

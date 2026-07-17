@@ -16,11 +16,14 @@ on:
 jobs:
   publish:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Checkout repo
         uses: actions/checkout@v5
         with:
           fetch-depth: 2
+          ref: ${{ github.ref_name }}
 
       - name: Detect and publish new HTML articles
         env:
@@ -127,3 +130,41 @@ jobs:
               exit 1
             fi
           done
+
+      - name: Rotate the front page
+        run: |
+          NEW_FILES=$(git diff --name-only --diff-filter=A HEAD~1 HEAD -- '*.html' ':!longreads/' | grep -vE '^(rns-news|guidance-tracker|tv-swipe|financial-calendar[^/]*|front-page|index)\.html$' || true)
+
+          if [ -z "$NEW_FILES" ]; then
+            echo "No new articles. Front page unchanged."
+            exit 0
+          fi
+
+          TODAY=$(date -u +%F)
+          echo "$NEW_FILES" | while IFS= read -r FILE; do
+            [ -z "$FILE" ] && continue
+            echo "Adding $FILE to the front-page registry (date $TODAY)"
+            python3 build-front-page.py --add "$FILE" --date "$TODAY"
+          done
+
+          if git diff --quiet -- front-page.html front-page-tiles.json; then
+            echo "Front page already up to date."
+            exit 0
+          fi
+
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add front-page.html front-page-tiles.json
+          git commit -m "Front page: rotate tiles for new article(s)"
+
+          # The RNS pipeline pushes to this repo often, so a plain push can lose a race.
+          for attempt in 1 2 3 4 5; do
+            if git push; then
+              echo "Front page pushed."
+              exit 0
+            fi
+            echo "Push rejected (attempt $attempt) - rebasing onto the remote and retrying."
+            git pull --rebase
+          done
+          echo "Could not push the front page after 5 attempts."
+          exit 1
