@@ -1,5 +1,48 @@
 [
   {
+    "company": "Ninety One PLC",
+    "ticker": "N91",
+    "publish_date": "17 July 2026",
+    "date_iso": "2026-07-17",
+    "time_period": "Q1 FY2027 (AUM as at 30 June 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "Q1 FY2027 (AUM as at 30 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Ninety One plc</strong> confirms <strong>AUM of £184.0bn</strong> at <strong>30 June 2026</strong>.</li><li>Up from <strong>£171.8bn</strong> at <strong>31 March 2026</strong> (end of prior financial year) and <strong>£139.7bn</strong> at <strong>30 June 2025</strong>.</li><li>Announcement gives the headline AUM figure only — <strong>no detail on net flows, market movement or currency</strong> is provided.</li><li>Routine quarterly AUM disclosure; <strong>no guidance</strong> or profit information included.</li></ul>",
+    "source_format": "html",
+    "headline": "Ninety One reports assets under management of £184.0bn at 30 June 2026, up from £171.8bn at end-March and £139.7bn a year earlier.",
+    "priority": "high",
+    "priority_reason": "Quarterly AUM update is the key trading metric for an asset manager and shows a sharp year-on-year rise.",
+    "figures": [
+      {
+        "metric": "AUM",
+        "current": "£184.0bn",
+        "prior": "£139.7bn",
+        "change": "not stated",
+        "basis": "vs 30 June 2025",
+        "note": "AUM at 30 June 2026"
+      },
+      {
+        "metric": "AUM",
+        "current": "£184.0bn",
+        "prior": "£171.8bn",
+        "change": "not stated",
+        "basis": "vs 31 March 2026",
+        "note": "quarter-on-quarter, since prior year-end"
+      }
+    ],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "Assets under management (AUM) is the total value of client money an asset manager runs, and it is the single most important driver of a firm like Ninety One's revenue, since management fees are charged as a percentage of AUM. This quarterly update simply confirms the AUM total at the end of the firm's first fiscal quarter (30 June 2026).\n\nThe headline figure of £184.0bn is up 7% from £171.8bn at 31 March 2026 (the previous financial year-end) and up about a third from £139.7bn a year earlier. However, the announcement does not break down how much of that increase came from new money coming in (net inflows) versus rising markets or favourable currency moves — so the quality of the growth cannot be judged from this statement alone.\n\nThis is a routine, figures-only disclosure. It contains no earnings, dividend or guidance information, and no forward-looking commentary.",
+    "source_url": "https://uk.advfn.com/stock-market/london/ninety-one-N91/share-news/Ninety-One-PLC-Q12027-Update/98936231",
+    "related_news_url": "https://news.google.com/search?q=%22Ninety%20One%20plc%22",
+    "added_at": "2026-07-17T07:18:43.778459"
+  },
+  {
     "company": "The Weir Group PLC",
     "ticker": "WEIR",
     "publish_date": "17 July 2026",
