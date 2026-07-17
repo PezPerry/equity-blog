@@ -1,5 +1,31 @@
 [
   {
+    "company": "Standard Life PLC",
+    "ticker": "SDLF",
+    "publish_date": "17 July 2026",
+    "date_iso": "2026-07-17",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>Standard Life plc</strong> has published two offering circulars, both dated <strong>17 July 2026</strong>, after the London Stock Exchange's International Securities Market confirmed no comments.</li><li>Covers the <strong>£5,000,000,000 Euro Medium Term Note Programme</strong> and <strong>£350,000,000 Fixed Rate Reset Perpetual Restricted Tier 1 Contingent Convertible Notes</strong>.</li><li>Application made for admission to trading on the LSE's <strong>International Securities Market (ISM)</strong>; documents available on the Standard Life plc website.</li><li>Routine debt capital-markets disclosure — no pricing, issuance terms or new figures stated, and <strong>no impact</strong> on equity trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Standard Life confirms publication of offering circulars for its £5bn EMTN programme and £350m Restricted Tier 1 contingent convertible notes.",
+    "priority": "low",
+    "priority_reason": "Routine publication of debt offering circulars with no new issuance terms, pricing or impact on equity trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/standard-life-plc--sdlf/publication-of-offering-circulars-/9675407",
+    "related_news_url": "https://news.google.com/search?q=%22Standard%20Life%20plc%22",
+    "added_at": "2026-07-17T15:15:33.335511"
+  },
+  {
     "company": "Mitchells & Butlers PLC",
     "ticker": "MAB",
     "publish_date": "17 July 2026",
