@@ -1,5 +1,164 @@
 [
   {
+    "company": "Intuitive Surgical Inc",
+    "ticker": "ISRG",
+    "publish_date": "17 July 2026",
+    "date_iso": "2026-07-17",
+    "time_period": "Q2 2026",
+    "announcement_type": "Interim results",
+    "period_detail": "Q2 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li>Q2 2026 revenue <strong>$2.89bn</strong>, up <strong>19%</strong> from <strong>$2.44bn</strong> a year earlier, driven by procedure growth and a larger da Vinci and Ion installed base.</li><li>Instruments and accessories revenue up <strong>18%</strong> to <strong>$1.73bn</strong>, on ~<strong>15%</strong> da Vinci and ~<strong>36%</strong> Ion procedure growth; systems revenue <strong>$685m</strong> (vs <strong>$575m</strong>).</li><li>Placed <strong>468 da Vinci systems</strong> (<strong>246 da Vinci 5</strong>), up from <strong>395</strong> (<strong>180 da Vinci 5</strong>) a year earlier.</li><li>GAAP net income <strong>$818m</strong> (<strong>$2.29</strong> per diluted share) vs <strong>$658m</strong> (<strong>$1.81</strong>); non-GAAP net income <strong>$1.00bn</strong> (<strong>$2.80</strong> per share) vs <strong>$0.80bn</strong> (<strong>$2.19</strong>).</li><li>Ended the quarter with <strong>$8.63bn</strong> in cash, cash equivalents and investments, up <strong>$0.65bn</strong>.</li><li>Full-year 2026 outlook figures not printed in this text; non-GAAP gross margin guidance flagged as exposed to <strong>tariff</strong> impacts.</li></ul>",
+    "source_format": "html",
+    "headline": "Intuitive Surgical Q2 2026 revenue rose 19% to $2.89bn on higher procedure volumes, with non-GAAP EPS up to $2.80.",
+    "priority": "high",
+    "priority_reason": "Quarterly results from a major medtech name with revenue and earnings growth plus full-year guidance commentary.",
+    "figures": [
+      {
+        "metric": "Revenue",
+        "current": "$2.89bn",
+        "prior": "$2.44bn",
+        "change": "+19%",
+        "basis": "GAAP",
+        "note": "Q2 2026 vs Q2 2025"
+      },
+      {
+        "metric": "Instruments & accessories revenue",
+        "current": "$1.73bn",
+        "prior": "$1.47bn",
+        "change": "+18%",
+        "basis": "GAAP",
+        "note": "Q2 2026 vs Q2 2025"
+      },
+      {
+        "metric": "Systems revenue",
+        "current": "$685m",
+        "prior": "$575m",
+        "change": "not stated",
+        "basis": "GAAP",
+        "note": "Q2 2026 vs Q2 2025"
+      },
+      {
+        "metric": "GAAP income from operations",
+        "current": "$972m",
+        "prior": "$743m",
+        "change": "not stated",
+        "basis": "GAAP",
+        "note": "Q2 2026 vs Q2 2025"
+      },
+      {
+        "metric": "Non-GAAP income from operations",
+        "current": "$1.22bn",
+        "prior": "$0.95bn",
+        "change": "not stated",
+        "basis": "non-GAAP",
+        "note": "Q2 2026 vs Q2 2025"
+      },
+      {
+        "metric": "GAAP net income",
+        "current": "$818m",
+        "prior": "$658m",
+        "change": "not stated",
+        "basis": "GAAP",
+        "note": "attributable to Intuitive Surgical"
+      },
+      {
+        "metric": "GAAP diluted EPS",
+        "current": "$2.29",
+        "prior": "$1.81",
+        "change": "not stated",
+        "basis": "GAAP",
+        "note": "Q2 2026 vs Q2 2025"
+      },
+      {
+        "metric": "Non-GAAP net income",
+        "current": "$1.00bn",
+        "prior": "$0.80bn",
+        "change": "not stated",
+        "basis": "non-GAAP",
+        "note": "attributable to Intuitive Surgical"
+      },
+      {
+        "metric": "Non-GAAP diluted EPS",
+        "current": "$2.80",
+        "prior": "$2.19",
+        "change": "not stated",
+        "basis": "non-GAAP",
+        "note": "Q2 2026 vs Q2 2025"
+      },
+      {
+        "metric": "Cash, equivalents and investments",
+        "current": "$8.63bn",
+        "prior": "not stated",
+        "change": "+$0.65bn in quarter",
+        "basis": "not stated",
+        "note": "end of Q2 2026"
+      }
+    ],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": "The release refers to a full-year 2026 outlook table (procedure growth, non-GAAP gross margin and non-GAAP operating expense growth) but the specific figures are not reproduced in the scraped text; the company flags that non-GAAP gross margin guidance reflects current tariffs and could worsen materially if further tariffs are imposed."
+    },
+    "explainer": "Intuitive reports on both GAAP and non-GAAP bases. The non-GAAP figures strip out items such as amortisation of intangibles and share-based compensation (which was $213m in the quarter), so non-GAAP profit and EPS sit above the GAAP numbers. The 19% revenue growth is driven mainly by higher surgical procedure volumes and a growing installed base of da Vinci and Ion systems, plus more systems placed under lease arrangements, which shifts revenue from upfront sales towards recurring leasing.\n\nBoth GAAP and non-GAAP results this quarter included a one-off $28m after-tax benefit ($0.08 per share) from refunds of tariffs paid in earlier periods under IEEPA. GAAP net income also benefited from $17m of excess tax benefits ($0.05 per share), down from $33m ($0.09) a year earlier, so part of the year-on-year GAAP earnings comparison is affected by these tax and tariff items.\n\nThe company reaffirms a full-year 2026 outlook covering procedure growth, non-GAAP gross margin and non-GAAP operating expense growth, but the numeric ranges are not contained in this scraped text, so the exact guidance figures cannot be quoted here. Management stresses that the non-GAAP gross margin outlook assumes tariffs currently in effect stay in place, and that additional tariffs could have a material adverse impact.",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/ISRG/share-news/Intuitive-Announces-Second-Quarter-Earnings/98934553",
+    "related_news_url": "https://news.google.com/search?q=%22Intuitive%20Surgical%2C%20Inc.%22",
+    "added_at": "2026-07-17T07:17:46.754402"
+  },
+  {
+    "company": "W.A.G payment solutions plc (Eurowag)",
+    "ticker": "EWG",
+    "publish_date": "17 July 2026",
+    "date_iso": "2026-07-17",
+    "time_period": "",
+    "announcement_type": "Placing / share sale",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Bock Capital EU Luxembourg WAG S.à r.l.</strong>, an affiliate of <strong>TA Associates</strong>, is selling approximately <strong>£30m</strong> of ordinary shares in <strong>W.A.G payment solutions plc (Eurowag)</strong> via an accelerated bookbuild.</li><li>The selling shareholder currently holds <strong>118,505,764 shares</strong>, approximately <strong>17.0%</strong> of issued share capital; price set by bookbuild to institutions, launched immediately and may close on short notice.</li><li><strong>90-day lock-up</strong> agreed on the residual holding post-settlement, subject to customary exceptions and waiver.</li><li><strong>Peel Hunt LLP</strong> is Sole Global Co-Ordinator and Joint Bookrunner, with <strong>WOOD & Company</strong> as Joint Bookrunner.</li><li>The <strong>Company is not party to the Placing and receives no proceeds</strong> — this is an existing-shareholder sell-down, not new capital.</li></ul>",
+    "source_format": "html",
+    "headline": "TA Associates affiliate launches accelerated bookbuild to sell around £30m of Eurowag shares, roughly a third of its 17% stake.",
+    "priority": "high",
+    "priority_reason": "A £30m accelerated bookbuild by a 17% shareholder is a material secondary placing that will pressure the share price.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/wag-payment-solutions-EWG/share-news/Peel-Hunt-LLP-Proposed-Placing-in-W-A-G-Payment-So/98933287",
+    "related_news_url": "https://news.google.com/search?q=%22W.A.G%20payment%20solutions%20plc%20(Eurowag)%22",
+    "added_at": "2026-07-17T07:17:46.719526"
+  },
+  {
+    "company": "Donegal Group Inc",
+    "ticker": "DGICA",
+    "publish_date": "17 July 2026",
+    "date_iso": "2026-07-17",
+    "time_period": "",
+    "announcement_type": "Dividend declaration",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Donegal Group Inc.</strong> (NASDAQ: <strong>DGICA</strong>/<strong>DGICB</strong>) has announced a <strong>quarterly dividend</strong>.</li><li>The scraped text contains only boilerplate company description and investor-relations contact details — <strong>the dividend rate, record date and payment date are not stated</strong>, so the key figures cannot be confirmed.</li><li>Donegal is a US property & casualty insurance holding company operating across <strong>21</strong> Mid-Atlantic, Midwestern, Southern and Southwestern states, with an A.M. Best rating of <strong>A (Excellent)</strong>.</li><li>Note: this is a <strong>NASDAQ-listed</strong> US stock, not a UK/RNS issuer.</li></ul>",
+    "source_format": "html",
+    "headline": "Donegal Group Inc. announces a quarterly dividend, but the scraped text does not state the dividend amount, record date or payment date.",
+    "priority": "medium",
+    "priority_reason": "Dividend declarations are medium priority under the house rules, though this US-listed insurer's release omits the actual dividend rate and payment dates.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/DGICA/share-news/Donegal-Group-Inc-Announces-Quarterly-Dividend/98934177",
+    "related_news_url": "https://news.google.com/search?q=%22Donegal%20Group%20Inc.%22",
+    "added_at": "2026-07-17T07:17:46.683892"
+  },
+  {
     "company": "Ibstock PLC",
     "ticker": "IBST",
     "publish_date": "17 July 2026",
