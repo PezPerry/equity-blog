@@ -1,5 +1,31 @@
 [
   {
+    "company": "Burberry Group PLC",
+    "ticker": "BRBY",
+    "publish_date": "17 July 2026",
+    "date_iso": "2026-07-17",
+    "time_period": "Q1 FY2027",
+    "announcement_type": "Trading update",
+    "period_detail": "Q1 FY2027",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Burberry Group plc</strong> has released its <strong>FY 2027 first-quarter trading update</strong>, dated <strong>17 July 2026</strong>.</li><li>The scraped page is a pointer notice only — the full statement sits in a linked <strong>PDF</strong> and the FCA National Storage Mechanism; <strong>no revenue, comparable-sales or profit figures</strong> are present in this text.</li><li>Virtual investor and analyst presentation scheduled for <strong>9.00am (UK time)</strong> today, with slides and an indexed replay on the Burberry website.</li><li>Trading detail (including like-for-like sales by region) must be read from the source PDF before any read-across — figures are not verifiable from this announcement alone.</li></ul>",
+    "source_format": "html",
+    "headline": "Burberry publishes its FY 2027 first-quarter trading update, released via a linked PDF with a 9.00am investor presentation, but the scraped text carries no figures.",
+    "priority": "high",
+    "priority_reason": "First-quarter trading update from a FTSE 100 luxury name; a market-moving category even though the figures sit in the linked PDF.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "This RNS is only a signposting notice: Burberry is telling the market where to find its full first-quarter trading statement (a PDF and the FCA's National Storage Mechanism), rather than reproducing the numbers in the RNS body. As scraped, it contains no comparable-sales, revenue or profit data, so no figures can be tabulated or compared here.\n\nFor a luxury name like Burberry, the market's focus in a Q1 update is usually comparable (like-for-like) store sales growth by region — notably Greater China, the Americas and EMEIA — plus any commentary on the brand turnaround and full-year outlook. None of that is present in this text, so the actual content and any guidance implications should be taken from the linked statement and the 9.00am presentation, not from this pointer.",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/burberry-group--brby/first-quarter-trading-update-/9673547",
+    "related_news_url": "https://news.google.com/search?q=%22Burberry%20Group%20plc%22",
+    "added_at": "2026-07-17T07:36:31.353488"
+  },
+  {
     "company": "Greatland Resources Ltd",
     "ticker": "GRR",
     "publish_date": "17 July 2026",
