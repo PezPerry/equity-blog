@@ -1,5 +1,31 @@
 [
   {
+    "company": "Mitchells & Butlers PLC",
+    "ticker": "MAB",
+    "publish_date": "17 July 2026",
+    "date_iso": "2026-07-17",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>Mitchells & Butlers plc</strong> has applied to the <strong>London Stock Exchange</strong> to admit <strong>341,324 ordinary shares</strong> of 8 13/24p each, allotted under its <strong>Share Incentive Plan (SIP)</strong>.</li><li>New shares will <strong>rank equally</strong> with existing shares; admission expected at <strong>8.00 am on 22 July 2026</strong> — a routine employee-scheme disclosure with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Mitchells & Butlers has applied to admit 341,324 new ordinary shares issued under its Share Incentive Plan, with dealings expected from 22 July 2026.",
+    "priority": "low",
+    "priority_reason": "Routine admission of a small tranche of employee-scheme shares with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/mitchells-butlers--mab/application-for-admission-of-securities-to-trading/9674782",
+    "related_news_url": "https://news.google.com/search?q=%22Mitchells%20%26%20Butlers%20plc%22",
+    "added_at": "2026-07-17T10:15:36.653550"
+  },
+  {
     "company": "Johnson Matthey PLC",
     "ticker": "JMAT",
     "publish_date": "17 July 2026",
