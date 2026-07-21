@@ -1,5 +1,74 @@
 [
   {
+    "company": "Helical PLC",
+    "ticker": "HLCL",
+    "publish_date": "21 July 2026",
+    "date_iso": "2026-07-21",
+    "time_period": "",
+    "announcement_type": "Return of capital",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li>Helical is returning approximately <strong>£12 million</strong> to ordinary shareholders through a <strong>B Share Scheme</strong>, paying <strong>9.72 pence per ordinary share</strong>.</li><li><strong>122,320,093 B Shares</strong> are being allotted and issued <strong>today</strong>, against <strong>123,355,260</strong> existing ordinary shares in issue at the record time (excluding <strong>1,035,167</strong> treasury shares).</li><li>B Shares are to be redeemed <strong>tomorrow</strong> at <strong>9.72 pence</strong> each, with proceeds dispatched or CREST accounts credited on <strong>Tuesday 4 August 2026</strong>.</li><li>The <strong>Share Consolidation</strong> and admission of new ordinary shares (ISIN <strong>GB00BT5GNW84</strong>) to the Main Market are due no later than <strong>8.00 a.m. today</strong>; consolidation is on a basis of one new share per <strong>105</strong> existing shares, with fractional entitlements sold in the market.</li><li>Post-consolidation total issued share capital will be <strong>117,481,200</strong> new ordinary shares of 1.05p each (<strong>985,873</strong> held in treasury), giving total voting rights of <strong>116,495,327</strong>.</li><li>Follows the <strong>General Meeting on 16 July 2026</strong> where all resolutions passed, and the circular published <strong>30 June 2026</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Helical returns about **£12m** to shareholders via a **B Share Scheme** at **9.72p per share**, alongside a **105-for** share consolidation.",
+    "priority": "medium",
+    "priority_reason": "Capital return of about £12m via B Share Scheme plus a share consolidation altering share count and voting rights.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/ordinary-HLCL/share-news/Helical-PLC-Return-of-Capital-Update/98943393",
+    "related_news_url": "https://news.google.com/search?q=%22Helical%20plc%22",
+    "added_at": "2026-07-21T11:28:32.873547"
+  },
+  {
+    "company": "Caledonia Mining Corporation Plc",
+    "ticker": "CMCL",
+    "publish_date": "21 July 2026",
+    "date_iso": "2026-07-21",
+    "time_period": "Q2 CY26 (2Q26)",
+    "announcement_type": "Trading update",
+    "period_detail": "Q2 CY26 (2Q26)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Caledonia Mining Corporation Plc</strong> reported <strong>2Q26</strong> production at its <strong>64%-owned Blanket Gold Mine</strong> in <strong>Zimbabwe</strong> of <strong>17.4koz Au</strong> (100% basis), in-line with broker forecast (<strong>1Q26: 14.8koz; 2Q25: 21.1koz</strong>).</li><li>Plant feed grade rose to <strong>2.9g/t</strong> (1Q26: <strong>2.5g/t</strong>), with grades averaging <strong>3.1g/t</strong> in <strong>July</strong> to date; management expects grades to hold around this level for the rest of <strong>CY26</strong>.</li><li>Improvement reflects <strong>good progress in restoring access to higher-grade areas</strong>.</li><li>Company reiterated its <strong>2H-weighted FY26 production guidance</strong> for Blanket — guidance maintained.</li><li>Note: source text is truncated mid-sentence, so the specific FY26 guidance range is not stated in the excerpt provided.</li></ul>",
+    "source_format": "html",
+    "headline": "Caledonia's 2Q26 gold production of 17.4koz at Blanket Mine came in line with forecast, keeping it on track to meet 2H-weighted FY26 guidance.",
+    "priority": "high",
+    "priority_reason": "Quarterly production update with reiterated full-year guidance from a producing gold miner.",
+    "figures": [
+      {
+        "metric": "Gold production (Blanket, 100% basis)",
+        "current": "17.4koz Au",
+        "prior": "14.8koz (1Q26); 21.1koz (2Q25)",
+        "change": "not stated",
+        "basis": "100% basis",
+        "note": "2Q26"
+      },
+      {
+        "metric": "Plant feed grade",
+        "current": "2.9g/t",
+        "prior": "2.5g/t (1Q26)",
+        "change": "not stated",
+        "basis": "",
+        "note": "grades averaging 3.1g/t in July to date"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "2H-weighted FY26 production guidance for Blanket",
+      "current": "2H-weighted FY26 production guidance reiterated",
+      "commentary": "Caledonia reaffirmed its full-year, second-half-weighted production guidance, supported by improving grades as access to higher-grade areas is restored. The specific guidance figures are not printed in the truncated excerpt."
+    },
+    "explainer": "Caledonia produces gold from the Blanket mine in Zimbabwe, which it owns 64%; production is quoted on a 100% basis, meaning the figures represent the whole mine's output rather than Caledonia's attributable share. Second-quarter output of 17.4koz was up sequentially from 14.8koz in the first quarter but down on the 21.1koz produced a year earlier, reflecting a period of restoring access to higher-grade ore.\n\nThe key driver is grade — the amount of gold per tonne of rock fed to the plant. That improved to 2.9g/t from 2.5g/t in the prior quarter, and has averaged 3.1g/t in July so far. Higher grade means more gold recovered from the same throughput, which underpins the expected second-half weighting of production.\n\nOn guidance, nothing has changed: management has reiterated (kept unchanged) its full-year 2026 production target, which is weighted towards the second half. This signals confidence that the improving grade trend will continue through the rest of the calendar year. Note the source text supplied is cut off before the exact guidance numbers, so those specific figures are not reproduced here.",
+    "source_url": "https://uk.advfn.com/stock-market/london/caledonia-mining-CMCL/share-news/Cavendish-Caledonia-Mining-Corporation-2Q26-pr/98944161",
+    "related_news_url": "https://news.google.com/search?q=%22Caledonia%20Mining%20Corporation%20Plc%22",
+    "added_at": "2026-07-21T11:28:32.862113"
+  },
+  {
     "company": "Mony Group PLC",
     "ticker": "MONY",
     "publish_date": "21 July 2026",
