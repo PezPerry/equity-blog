@@ -1,5 +1,80 @@
 [
   {
+    "company": "Rosebank Industries plc",
+    "ticker": "ROSE",
+    "publish_date": "21 July 2026",
+    "date_iso": "2026-07-21",
+    "time_period": "H1 2026 (1 January to 30 June 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "H1 2026 (1 January to 30 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Full-year 2026 expectations upgraded</strong>: Group <strong>adjusted operating profit and EPS</strong> now expected <strong>ahead of Company-compiled analysts' consensus</strong> (2026 consensus adjusted operating profit <strong>$294m</strong>; 2027 <strong>$452m</strong>).</li><li><strong>MW Components</strong> (acquired <strong>28 May 2026</strong>) trading ahead of pre-acquisition expectations and set to <strong>exceed current market expectations for 2026</strong>; MW head-office closure to cut central costs by <strong>at least $15m</strong>, with three factory closures announced and <strong>$30m</strong> initial capex approved.</li><li><strong>CPM</strong> (acquired <strong>12 May 2026</strong>) performing as expected with Aftermarket revenue up <strong>~7%</strong> year on year; on track to meet 2026 market expectations. Bolt-on UK & Ireland aftermarket distributor acquired for <strong>€26m</strong>; restructuring to deliver <strong>at least $10m</strong> cost reduction; new CEO joins <strong>1 October 2026</strong>.</li><li><strong>ECI</strong> trading in line with FY2026 expectations: Period revenue <strong>4% lower</strong> year on year (including 3pp from exiting low-margin revenue); <strong>A&H revenue -13%</strong>, but higher-margin <strong>E&I revenue +9%</strong>.</li><li><strong>ECI adjusted operating margin 16.1%</strong>, up <strong>1.0 percentage point</strong> year on year; all tariffs fully recovered in the Period.</li><li>Group expected to <strong>continue outperforming into 2027</strong>; interim results due <strong>3 September 2026</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Rosebank upgrades full-year 2026 expectations, with Group adjusted operating profit and EPS now seen ahead of consensus after strong early performance from MW Components and CPM.",
+    "priority": "high",
+    "priority_reason": "Trading update with an upgrade to full-year 2026 expectations, plus integration progress on two major acquisitions.",
+    "figures": [
+      {
+        "metric": "ECI revenue",
+        "current": "4% lower",
+        "prior": "not stated",
+        "change": "-4%",
+        "basis": "year on year",
+        "note": "H1 2026 vs same period 2025; includes 3pp from exiting low-margin revenue"
+      },
+      {
+        "metric": "ECI Appliance & HVAC (A&H) revenue",
+        "current": "13% lower",
+        "prior": "not stated",
+        "change": "-13%",
+        "basis": "year on year",
+        "note": "includes majority of exited low-margin revenue"
+      },
+      {
+        "metric": "ECI Electrification & Industrial (E&I) revenue",
+        "current": "+9%",
+        "prior": "not stated",
+        "change": "+9%",
+        "basis": "year on year",
+        "note": "H1 2026 vs same period 2025"
+      },
+      {
+        "metric": "ECI adjusted operating margin",
+        "current": "16.1%",
+        "prior": "15.1%",
+        "change": "+1.0 percentage point",
+        "basis": "not stated",
+        "note": "H1 2026 vs same period last year"
+      },
+      {
+        "metric": "CPM Aftermarket revenue",
+        "current": "~7% growth",
+        "prior": "not stated",
+        "change": "+7%",
+        "basis": "year on year",
+        "note": "in the Period vs last year"
+      },
+      {
+        "metric": "Group adjusted operating profit (2026 consensus)",
+        "current": "expected ahead of $294m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "Company-compiled analysts' consensus",
+        "note": "FY2026; 2027 consensus $452m"
+      }
+    ],
+    "guidance": {
+      "status": "raised",
+      "previous": "Company-compiled consensus Group adjusted operating profit for 2026 of $294 million (2027: $452 million)",
+      "current": "Group adjusted operating profit and EPS for 2026 expected to be ahead of Company-compiled analysts' consensus, with confidence the Group will continue to outperform into 2027",
+      "commentary": "Rosebank has upgraded full-year 2026 expectations, driven by MW Components trading ahead of pre-acquisition plans (now expected to exceed market expectations) and CPM performing in line, alongside self-help cost actions across all three businesses."
+    },
+    "explainer": "This is a trading update covering the first half of 2026 (1 January to 30 June) for Rosebank, a 'buy-improve-sell' industrials acquirer. The headline is an upgrade: the company now expects full-year 2026 adjusted operating profit and earnings per share to come in ahead of the consensus of analyst forecasts it collates itself. As a reference point, that consensus is a Group adjusted operating profit of $294m for 2026 and $452m for 2027. 'Adjusted' means the figures strip out one-off and non-operating items, so they flatter the statutory numbers.\n\nMost of the comparatives are stated as year-on-year percentage moves rather than absolute pounds or dollars. At ECI, reported revenue fell 4%, but around 3 percentage points of that was deliberate — management is exiting low-margin business, so the decline is a mix-improving choice rather than lost demand. The Appliance & HVAC unit was down 13% (soft end-markets plus most of the exited low-margin revenue), while the higher-margin Electrification & Industrial side grew 9%. The net effect is a richer sales mix: ECI's adjusted operating margin rose 1.0 percentage point to 16.1%, and all import tariffs were recovered in the period.\n\nThe two 2026 acquisitions — CPM (completed 12 May) and MW Components (completed 28 May) — have only been owned for a few weeks, so figures are limited. MW Components is trading ahead of the plan underwritten at acquisition and is now expected to beat 2026 market expectations; CPM is performing as expected, with aftermarket revenue up about 7%. Because ownership is so recent, these are early-days indications rather than audited half-year results.\n\nOn guidance specifically: the change is an upgrade (a raise). Previously the market anchor was the collated consensus; Rosebank now says Group adjusted operating profit and EPS will beat that consensus for 2026, and it expects the outperformance to carry into 2027. Full interim results, which will put actual numbers to these percentages, are scheduled for 3 September 2026.",
+    "source_url": "https://uk.advfn.com/stock-market/london/rosebank-industries-ROSE/share-news/Rosebank-Industries-PLC-Acquisition-update-and-H1/98950768",
+    "related_news_url": "https://news.google.com/search?q=%22Rosebank%20Industries%20plc%22",
+    "added_at": "2026-07-21T11:33:41.849894"
+  },
+  {
     "company": "GB Group plc",
     "ticker": "GBG",
     "publish_date": "21 July 2026",
