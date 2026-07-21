@@ -1,5 +1,31 @@
 [
   {
+    "company": "London Stock Exchange Group PLC",
+    "ticker": "LSEG",
+    "publish_date": "21 July 2026",
+    "date_iso": "2026-07-21",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>London Stock Exchange Group PLC</strong> plans to launch <strong>LSE 24</strong>, a new <strong>24/5</strong> trading venue supporting digital, algorithmic and agentic trading, built on LSEG's market infrastructure.</li><li>Venue available for <strong>client testing by end of 2026</strong>, with <strong>Exchange Traded Products (ETPs)</strong> as the first asset class launching in <strong>H1 2027</strong>, subject to regulatory approval; flexibility to expand into <strong>equities</strong> as the next step.</li><li>LSE 24 will operate <strong>17:00 to 07:50</strong> (with a 30-minute pause 18:30–19:00 for End of Day processes) and run separately from the Main Market, which keeps its <strong>08:00 to 16:30</strong> hours.</li><li>Will leverage LSEG's <strong>Digital Securities Depository (DSD)</strong>, and combine central limit order book and request-for-quote functionality with native connectivity for agent-based trading.</li><li><strong>Julia Hoggett</strong>, CEO of LSE plc, called it \"an important step in the evolution of our markets\", reinforcing London's position as a global financial centre.</li><li>Strategic initiative only — announcement states <strong>no financial figures or guidance impact</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "LSEG plans to launch LSE 24, a new 24/5 trading venue for digital, algorithmic and agentic trading, with client testing by end-2026.",
+    "priority": "medium",
+    "priority_reason": "Strategic product launch of a new trading venue with no immediate financial impact or guidance change.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/london-stock-exchange-LSEG/share-news/London-Stock-Exchange-Group-PLC-London-Stock-Excha/98951580",
+    "related_news_url": "https://news.google.com/search?q=%22London%20Stock%20Exchange%20Group%20PLC%22",
+    "added_at": "2026-07-21T11:30:04.862265"
+  },
+  {
     "company": "Helical PLC",
     "ticker": "HLCL",
     "publish_date": "21 July 2026",
