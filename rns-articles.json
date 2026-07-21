@@ -723,6 +723,145 @@
     "added_at": "2026-07-21T11:26:05.911884"
   },
   {
+    "company": "Steel Dynamics Inc",
+    "ticker": "STLD",
+    "publish_date": "20 July 2026",
+    "date_iso": "2026-07-20",
+    "time_period": "Q2 2026 (three months to 30 June 2026)",
+    "announcement_type": "Quarterly results",
+    "period_detail": "Q2 2026 (three months to 30 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Steel Dynamics</strong> reported <strong>Q2 2026</strong> net sales of <strong>$6.1bn</strong> and net income of <strong>$534m</strong>, or <strong>$3.69</strong> per diluted share, up from <strong>$403m</strong> ($2.78) in Q1 and <strong>$299m</strong> ($2.01) a year earlier.</li><li>Result was reduced by a <strong>$16m</strong> non-cash impairment tied to relocating the planned second satellite aluminium recycled slab centre from <strong>Arizona</strong> to <strong>Columbus, Mississippi</strong>.</li><li>Steel operations operating income rose <strong>30%</strong> sequentially to <strong>$721m</strong> on record shipments; average steel selling price up <strong>$105</strong> to <strong>$1,298/ton</strong>, scrap cost up <strong>$16</strong> to <strong>$412/ton</strong>.</li><li>Aluminium startup operating loss narrowed <strong>48%</strong> sequentially to <strong>$33m</strong>; flat-rolled sheet shipments rose to <strong>53,000 tonnes</strong>, with the third and final cold mill commissioning and profitability expected to rise sharply in H2 2026.</li><li>H1 2026 net income <strong>$938m</strong> ($6.47/share) on net sales of <strong>$11.3bn</strong>, versus <strong>$516m</strong> ($3.44) and <strong>$8.9bn</strong> a year ago.</li><li>In H1 the company invested <strong>$262m</strong> capex, paid <strong>$149m</strong> dividends and repurchased <strong>$315m</strong> (c.1% of shares); liquidity held at <strong>$2.0bn</strong>; CEO <strong>Mark Millett</strong> sees supportive conditions through 2026 into 2027.</li></ul>",
+    "source_format": "html",
+    "headline": "Steel Dynamics posted Q2 2026 net income of $534m ($3.69/share) on net sales of $6.1bn, up sharply from $299m a year earlier.",
+    "priority": "high",
+    "priority_reason": "Quarterly results with net income up sharply sequentially and year-on-year, plus operational and aluminium ramp detail.",
+    "figures": [
+      {
+        "metric": "Net sales",
+        "current": "$6.1bn",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "Q2 2026 vs prior-year Q2 not printed; Q1 2026 comparative not printed"
+      },
+      {
+        "metric": "Net income",
+        "current": "$534m",
+        "prior": "$299m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "Q2 2026 vs Q2 2025; Q1 2026 was $403m"
+      },
+      {
+        "metric": "Diluted EPS",
+        "current": "$3.69",
+        "prior": "$2.01",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "Q2 2026 vs Q2 2025; Q1 2026 was $2.78; Q2 2026 reduced by $16m impairment"
+      },
+      {
+        "metric": "Steel operations operating income",
+        "current": "$721m",
+        "prior": "not stated",
+        "change": "+30% sequential",
+        "basis": "reported",
+        "note": "vs Q1 2026 (prior-year figure not printed)"
+      },
+      {
+        "metric": "Average steel selling price",
+        "current": "$1,298/ton",
+        "prior": "$1,193/ton (implied from +$105)",
+        "change": "+$105 sequential",
+        "basis": "reported",
+        "note": "Q2 vs Q1 2026; prior stated only as sequential increase"
+      },
+      {
+        "metric": "Ferrous scrap cost per ton melted",
+        "current": "$412/ton",
+        "prior": "$396/ton (implied from +$16)",
+        "change": "+$16 sequential",
+        "basis": "reported",
+        "note": "Q2 vs Q1 2026; prior stated only as sequential increase"
+      },
+      {
+        "metric": "Metals recycling operating income",
+        "current": "$48m",
+        "prior": "$48m",
+        "change": "steady",
+        "basis": "reported",
+        "note": "Q2 2026 vs Q1 2026"
+      },
+      {
+        "metric": "Steel fabrication operating income",
+        "current": "$85m",
+        "prior": "$90m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "Q2 2026 vs Q1 2026"
+      },
+      {
+        "metric": "Aluminium operations operating loss",
+        "current": "$33m loss",
+        "prior": "not stated",
+        "change": "-48% improvement sequential",
+        "basis": "reported",
+        "note": "vs Q1 2026 (prior-year not applicable)"
+      },
+      {
+        "metric": "Cash flow from operations",
+        "current": "$428m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "Q2 2026"
+      },
+      {
+        "metric": "H1 net income",
+        "current": "$938m",
+        "prior": "$516m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "six months to 30 June 2026 vs 2025"
+      },
+      {
+        "metric": "H1 diluted EPS",
+        "current": "$6.47",
+        "prior": "$3.44",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "six months to 30 June 2026 vs 2025"
+      },
+      {
+        "metric": "H1 net sales",
+        "current": "$11.3bn",
+        "prior": "$8.9bn",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "six months to 30 June 2026 vs 2025"
+      },
+      {
+        "metric": "H1 operating income",
+        "current": "$1.2bn",
+        "prior": "not stated",
+        "change": "+88%",
+        "basis": "reported",
+        "note": "vs same period 2025"
+      }
+    ],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": "No specific numeric guidance figures issued; management expects aluminium volumes and profitability to increase sharply in H2 2026 and FY2027, and sees supportive steel/aluminium demand through 2026 into 2027, but no quantified targets are printed."
+    },
+    "explainer": "This is a quarterly report from a US steelmaker (NASDAQ-listed, reporting in US dollars), so the figures are 'reported' GAAP numbers rather than organic or constant-currency measures. Steel Dynamics gives two comparatives: 'sequential' (versus the immediately preceding first quarter of 2026) and year-on-year (versus the second quarter of 2025). Profit rose on both bases, driven mainly by higher steel selling prices rising faster than scrap input costs, which widened metal spreads.\n\nThe headline $3.69 per-share figure was dented by a $16m non-cash impairment charge — an accounting write-down, not a cash cost — linked to moving a planned aluminium slab centre from Arizona to Mississippi. Underlying steel performance was the main earnings engine, with record shipments and a $105/ton sequential rise in the average selling price.\n\nThe aluminium business is still in startup and remains loss-making ($33m operating loss), but the loss is narrowing and management expects it to swing towards profit in the second half of 2026 and into 2027 as new mills ramp up. Steel fabrication earnings dipped slightly as higher raw-material costs offset stronger volumes.\n\nThere is no formal numeric guidance in this release. Management's forward comments are qualitative — expecting strong domestic steel and aluminium demand to continue through 2026 into 2027, supported by trade actions, reshoring and infrastructure spending — so this is best read as an upbeat outlook rather than a raised or lowered target.",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/STLD/share-news/Steel-Dynamics-Reports-Second-Quarter-2026-Results/98949440",
+    "related_news_url": "https://news.google.com/search?q=%22Steel%20Dynamics%2C%20Inc.%22",
+    "added_at": "2026-07-21T11:35:38.940059"
+  },
+  {
     "company": "Caledonia Mining Corporation Plc",
     "ticker": "CMCL",
     "publish_date": "20 July 2026",
