@@ -1,5 +1,80 @@
 [
   {
+    "company": "Big Yellow Group PLC",
+    "ticker": "BYG",
+    "publish_date": "21 July 2026",
+    "date_iso": "2026-07-21",
+    "time_period": "Q1 FY27 (quarter ended 30 June 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "Q1 FY27 (quarter ended 30 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Big Yellow Group PLC</strong> posted <strong>Q1 revenue up 3%</strong> year on year, with <strong>like-for-like store revenue up 2%</strong> for the quarter ended <strong>30 June 2026</strong>.</li><li>Like-for-like closing occupancy rose <strong>2.2 ppts to 79.2%</strong> from 77.0% at 31 March 2026, though <strong>down 0.2 ppts</strong> on 30 June 2025; occupancy across all <strong>113 stores</strong> grew by <strong>161,000 sq ft</strong> (2.4% of MLA) versus a 47,000 sq ft gain a year earlier.</li><li>Closing net achieved rent across all stores was <strong>£36.45 per sq ft, up 2%</strong> year on year, with average rate <strong>up 3%</strong> on the same quarter last year.</li><li>Pipeline now stands at <strong>12 stores</strong> (planning consent on nine, on site at six adding ~356,000 sq ft); acquired a freehold site in <strong>Acton</strong>, and four stores (<strong>Staples Corner, Kentish Town, Epsom, Wapping</strong>) due to open this financial year.</li><li>Sold the <strong>Harrow</strong> industrial estate in June for <strong>£38.4m</strong> (subject to £2m retention) to fund development; the 12 pipeline stores are expected to generate <strong>£35m</strong> net operating income, a <strong>16.5% return</strong> on the <strong>£212m</strong> cost to complete.</li><li>CEO <strong>Jim Gibson</strong> cited a \"resilient\" performance but flagged fiscal and budgetary uncertainty likely unresolved until the autumn; note <strong>John Hunter</strong> listed as CEO-designate in the contact details.</li></ul>",
+    "source_format": "html",
+    "headline": "Big Yellow reported Q1 revenue up 3%, with like-for-like occupancy rising 2.2ppts to 79.2% and net achieved rent up 2% to £36.45 per sq ft.",
+    "priority": "high",
+    "priority_reason": "Quarterly trading update with revenue, occupancy and cost-guidance detail from a FTSE 250 self-storage REIT.",
+    "figures": [
+      {
+        "metric": "Group revenue",
+        "current": "up 3%",
+        "prior": "not stated",
+        "change": "+3%",
+        "basis": "reported",
+        "note": "Q1 vs same quarter last year"
+      },
+      {
+        "metric": "Like-for-like store revenue",
+        "current": "up 2%",
+        "prior": "not stated",
+        "change": "+2%",
+        "basis": "like-for-like",
+        "note": "Q1 vs same quarter last year"
+      },
+      {
+        "metric": "Like-for-like closing occupancy",
+        "current": "79.2%",
+        "prior": "77.0%",
+        "change": "+2.2 ppts",
+        "basis": "vs 31 March 2026; -0.2 ppts vs 30 June 2025",
+        "note": "portfolio"
+      },
+      {
+        "metric": "Net achieved rent per sq ft (all stores)",
+        "current": "£36.45",
+        "prior": "not stated",
+        "change": "+2%",
+        "basis": "reported",
+        "note": "closing, vs same time last year"
+      },
+      {
+        "metric": "Average rate",
+        "current": "up 3%",
+        "prior": "not stated",
+        "change": "+3%",
+        "basis": "reported",
+        "note": "vs same quarter last year"
+      },
+      {
+        "metric": "Occupancy gain (all 113 stores)",
+        "current": "161,000 sq ft",
+        "prior": "47,000 sq ft",
+        "change": "not stated",
+        "basis": "2.4% of MLA vs 0.7% prior year",
+        "note": "quarter"
+      }
+    ],
+    "guidance": {
+      "status": "new",
+      "previous": "",
+      "current": "First-half like-for-like store operating expenditure expected up 4%, with a lower increase in H2, delivering a combined 3% increase in like-for-like store operating expenditure for the full year.",
+      "commentary": "Big Yellow set out full-year cost guidance of a 3% like-for-like rise in store operating costs, front-loaded into H1 (+4%) due to the timing of efficiency initiatives; savings from automation, solar/energy efficiency and marketing are intended to offset higher property rates from the 2026 Rating Revaluation."
+    },
+    "explainer": "This is a first-quarter trading statement, so it gives operating metrics (revenue growth, occupancy and rent) rather than full profit figures. 'Like-for-like' strips out four stores opened in the last 12 months (Staines, Queensbury, Slough Bath Road and Wembley), so the 2% like-for-like store revenue growth reflects the existing estate, while total group revenue rose 3% helped by those new openings.\n\nOccupancy is quoted two ways. On a like-for-like basis it climbed 2.2 percentage points to 79.2% since the March year-end — a normal seasonal spring/summer pick-up — but is fractionally (0.2ppts) below a year ago. Net achieved rent of £36.45 per sq ft, up 2%, is the actual rate collected after discounts, so revenue growth is being driven by a mix of modestly higher rates and more space let.\n\nOn costs, the company has effectively issued new guidance: like-for-like store operating expenditure is expected to rise 4% in the first half and 3% for the full year, with the H1 skew reflecting when efficiency measures (automation-driven headcount reduction, solar/energy savings and a leaner marketing plan) take effect. These savings are meant to partly offset higher business rates from the 2026 Rating Revaluation.\n\nThe development pipeline is the growth story: 12 planned stores are projected to add £35m of net operating income at a 16.5% return on £212m of cost to complete, part-funded by the £38.4m Harrow disposal. Management struck a cautious tone on the wider environment, citing fiscal and budgetary uncertainty unlikely to clear until the autumn.",
+    "source_url": "https://uk.advfn.com/stock-market/london/big-yellow-BYG/share-news/Big-Yellow-Group-PLC-Q1-Trading-Statement/98943303",
+    "related_news_url": "https://news.google.com/search?q=%22Big%20Yellow%20Group%20PLC%22",
+    "added_at": "2026-07-21T11:26:48.621095"
+  },
+  {
     "company": "Segro PLC",
     "ticker": "SGRO",
     "publish_date": "21 July 2026",
