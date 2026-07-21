@@ -1,5 +1,40 @@
 [
   {
+    "company": "GB Group plc",
+    "ticker": "GBG",
+    "publish_date": "21 July 2026",
+    "date_iso": "2026-07-21",
+    "time_period": "Q1 FY27 (three months ended 30 June 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "Q1 FY27 (three months ended 30 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>GB Group plc</strong> issued a <strong>Q1 trading update</strong> alongside its <strong>AGM</strong>: financial performance in the <strong>three months ended 30 June 2026</strong> was <strong>in line with the Board's expectations</strong>.</li><li>Revenue growth in the core <strong>Identity and Location</strong> segments was <strong>comfortably mid-single digit</strong>, driven by strong trading in <strong>EMEA Identity</strong> and momentum behind <strong>GBG Go</strong>, its AI-powered global identity platform.</li><li>Smallest segment <strong>Global Fraud Solutions</strong> is seeing <strong>slower sales cycles</strong> and lapping a <strong>strong prior-year comparison</strong>.</li><li>Board reiterates <strong>confidence in accelerated growth in the medium term</strong>, as set out in its recent results — <strong>no change to guidance</strong> stated.</li><li><strong>FTSE 250</strong> constituent (LSE: GBG); serves more than <strong>20,000 customers</strong> globally.</li></ul>",
+    "source_format": "html",
+    "headline": "GBG says Q1 to 30 June 2026 was in line with Board expectations, with mid-single-digit revenue growth in core Identity and Location segments.",
+    "priority": "high",
+    "priority_reason": "AGM statement contains a Q1 trading update on revenue trends and reaffirmed medium-term outlook.",
+    "figures": [
+      {
+        "metric": "Core segment (Identity and Location) revenue growth",
+        "current": "comfortably mid-single digit",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "not stated",
+        "note": "Q1 to 30 June 2026"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Accelerated growth in the medium term, as outlined in recent results",
+      "current": "Q1 in line with Board's expectations; confidence in ability to deliver accelerated growth in the medium term reinforced",
+      "commentary": "No numerical guidance change: the Board reaffirms the medium-term outlook set at its recent results, with Q1 performance in line with expectations."
+    },
+    "explainer": "This is an AGM-day trading update covering GBG's first quarter, the three months to 30 June 2026. The company reports that trading was in line with what the Board expected, so there is no upgrade or downgrade to previously stated plans.\n\nGrowth is being carried by the two core divisions, Identity and Location, which grew revenue at a \"comfortably mid-single digit\" rate — meaning somewhere in the region of the mid-single-digit percentages, though GBG does not print an exact number. The strength came from EMEA Identity and take-up of GBG Go, its AI identity platform. The much smaller Global Fraud Solutions unit is a drag, with slower sales cycles and a tough prior-year comparison it is measured against (\"lapping\").\n\nNo revenue, profit or earnings figures are given — this is a qualitative early-quarter update rather than a results release. On guidance, the Board simply reaffirms the medium-term ambition of accelerated growth flagged at its recent full-year results, so the outlook is effectively unchanged.",
+    "source_url": "https://uk.advfn.com/stock-market/london/gb-GBG/share-news/GB-Group-PLC-AGM-Statement/98950765",
+    "related_news_url": "https://news.google.com/search?q=%22GB%20Group%20plc%22",
+    "added_at": "2026-07-21T11:32:54.065846"
+  },
+  {
     "company": "Mitie Group plc",
     "ticker": "MTO",
     "publish_date": "21 July 2026",
