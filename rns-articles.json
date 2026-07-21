@@ -1,5 +1,31 @@
 [
   {
+    "company": "Aston Martin Lagonda Global Holdings PLC",
+    "ticker": "AML",
+    "publish_date": "21 July 2026",
+    "date_iso": "2026-07-21",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>Aston Martin</strong> notes recent <strong>press coverage</strong> about its <strong>debt financing options</strong> and confirms the Board is in <strong>ongoing discussions with potential financing providers</strong>.</li><li>Statement carries <strong>inside information</strong> status under UK MAR; Board says it \"regularly considers the Company's capital structure and strategic options\".</li><li>Group reiterates focus on <strong>positive momentum in Q1 2026</strong> and a <strong>material improvement in financial performance expected in FY 2026</strong>, while ensuring sufficient liquidity.</li><li>No specific terms, amount or timing given; Company will make further announcements \"if and when required\" — no new figures or guidance change in this release.</li></ul>",
+    "source_format": "html",
+    "headline": "Aston Martin confirms it is in ongoing discussions with potential financing providers over its debt structure, responding to press coverage.",
+    "priority": "high",
+    "priority_reason": "Inside-information response confirming active debt-financing discussions, directly relevant to the group's stretched balance sheet and potential fundraising.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/aston-martin-lagonda-glo-AML/share-news/Aston-Martin-Lagonda-Glob-Hldgs-PLC-Response-to-pr/98939465",
+    "related_news_url": "https://news.google.com/search?q=%22Aston%20Martin%20Lagonda%20Global%20Holdings%20plc%22",
+    "added_at": "2026-07-21T11:27:10.152006"
+  },
+  {
     "company": "Big Yellow Group PLC",
     "ticker": "BYG",
     "publish_date": "21 July 2026",
@@ -176,6 +202,32 @@
     "source_url": "https://uk.advfn.com/stock-market/london/caledonia-mining-CMCL/share-news/Caledonia-Mining-Corporation-Plc-Blanket-Mine-Q2/98943692",
     "related_news_url": "https://news.google.com/search?q=%22Caledonia%20Mining%20Corporation%20Plc%22",
     "added_at": "2026-07-21T11:25:42.686495"
+  },
+  {
+    "company": "IP Group PLC",
+    "ticker": "IPO",
+    "publish_date": "17 July 2026",
+    "date_iso": "2026-07-17",
+    "time_period": "",
+    "announcement_type": "Acquisition / deal",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Railpen</strong> (Railways Pension Trustee Company Limited), holder of <strong>18.4%</strong> of <strong>IP Group plc</strong>, has made two improved proposals to the Board since its <strong>22 June 2026</strong> approach — a Rule 2.4 possible offer, not yet a firm intention.</li><li>Latest Improved Proposal: <strong>61 pence cash</strong> per IP Group share, plus a <strong>pro rata share of IP Group's Oxford Nanopore Technologies (ONT) holding</strong> valued at <strong>10.6 pence</strong> per share (based on ONT's <strong>115.9p</strong> close on <strong>16 July 2026</strong>).</li><li>Plus a <strong>contingent value right of up to 11.3 pence</strong> per share linked to IP Group's <strong>Metsera</strong> interest, paying <strong>30% of any NAV uplift above £128.2m</strong> by <strong>31 December 2029</strong>, subject to a <strong>10% annual return hurdle</strong> (implied hurdle <strong>£170.6m</strong>) — no certainty any payment is made.</li><li>Pre-conditions: formation of the consortium, satisfactory confirmatory due diligence, and <strong>unanimous, unconditional Board recommendation</strong>.</li><li>Under Rule 2.6(a), Railpen must by <strong>5.00pm on 20 July 2026</strong> either announce a firm intention (Rule 2.7) or walk away (Rule 2.8), unless the Panel extends the deadline.</li><li><strong>Rothschild & Co</strong> is financial adviser to Railpen; no parties are acting in concert with Railpen on the Improved Proposal.</li></ul>",
+    "source_format": "html",
+    "headline": "Railpen makes improved possible offer for IP Group worth 61p cash plus a pro-rata Oxford Nanopore stake and a contingent value right of up to 11.3p per share.",
+    "priority": "high",
+    "priority_reason": "Rule 2.4 possible cash-and-securities offer for IP Group from its 18.4% shareholder Railpen, with improved terms and a firm Rule 2.6(a) deadline.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/ip-IPO/share-news/Railways-Pension-Trustee-Company-Ld-Further-Statem/98940427",
+    "related_news_url": "https://news.google.com/search?q=%22IP%20Group%20plc%22",
+    "added_at": "2026-07-21T11:27:10.135321"
   },
   {
     "company": "RHI Magnesita NV",
