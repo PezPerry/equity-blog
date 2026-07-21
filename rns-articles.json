@@ -1,5 +1,72 @@
 [
   {
+    "company": "Kier Group PLC",
+    "ticker": "KIE",
+    "publish_date": "21 July 2026",
+    "date_iso": "2026-07-21",
+    "time_period": "FY26 (twelve months to 30 June 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "FY26 (twelve months to 30 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Kier Group plc</strong> now expects <strong>FY26</strong> revenue and profit to be at the <strong>top end of market expectations</strong>, after strong second-half momentum.</li><li>Order book grew <strong>8%</strong> to <strong>c.£11.9bn</strong> (30 June 2025: <strong>£11.0bn</strong>), securing over <strong>90% of FY27 Group revenue</strong> (based on consensus FY27 revenue of <strong>£4.407bn</strong>).</li><li>Period-end <strong>net cash</strong> expected at <strong>c.£232m</strong>, up c.<strong>14%</strong> on the prior year (<strong>£204m</strong>); average month-end cash of <strong>c.£11m</strong> versus <strong>£(49)m</strong> net debt in FY25.</li><li>Infrastructure won c.<strong>£1.5bn</strong> of new business in H2 (incl. <strong>Sizewell C</strong> North Plaza, <strong>£200m</strong> STEP fusion tranche, <strong>£140m</strong> South West Water extension); Construction won over <strong>£1.0bn</strong> (incl. ramp-up of <strong>HMP Glasgow</strong>).</li><li>Frameworks now total c.<strong>£150bn</strong>, including the <strong>£37bn</strong> Hospital 2.0 Alliance and <strong>£15bn</strong> Education Construction Framework 2025.</li><li>FY26 results due <strong>15 September 2026</strong>, with a strategic update on medium-term shareholder returns.</li></ul>",
+    "source_format": "html",
+    "headline": "Kier expects FY26 revenue and profit at the top end of market expectations, with the order book up 8% to c.£11.9bn.",
+    "priority": "high",
+    "priority_reason": "Full-year trading update guiding revenue and profit to the top end of market expectations, with order book and net cash upgrades.",
+    "figures": [
+      {
+        "metric": "Order book",
+        "current": "c.£11.9bn",
+        "prior": "£11.0bn",
+        "change": "+8%",
+        "basis": "as at 30 June",
+        "note": "FY26 vs FY25"
+      },
+      {
+        "metric": "Period-end net cash",
+        "current": "c.£232m",
+        "prior": "£204m",
+        "change": "+c.14%",
+        "basis": "not stated",
+        "note": "FY26 vs FY25"
+      },
+      {
+        "metric": "Average month-end cash",
+        "current": "c.£11m",
+        "prior": "£(49)m net debt",
+        "change": "not stated",
+        "basis": "not stated",
+        "note": "FY26 vs FY25"
+      },
+      {
+        "metric": "Revenue",
+        "current": "top end of market expectations",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "not stated",
+        "note": "FY26; specific figure not printed"
+      },
+      {
+        "metric": "Profit",
+        "current": "top end of market expectations",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "not stated",
+        "note": "FY26; specific figure not printed"
+      }
+    ],
+    "guidance": {
+      "status": "raised",
+      "previous": "In line with market expectations (implied from prior/first-half performance)",
+      "current": "Revenue and profit for FY26 expected to be at the top end of market expectations",
+      "commentary": "Continued strong H2 trading — driven by Water, Highways and Rail in Infrastructure and project ramp-ups such as HMP Glasgow in Construction — has moved the FY26 outcome to the top end of market expectations. Net cash guidance also improved, with period-end net cash of c.£232m."
+    },
+    "explainer": "Kier is telling the market that its financial year to 30 June 2026 has ended better than previously signalled: rather than simply meeting analysts' forecasts, it now expects both revenue and profit to land at the top end of the range of expectations. It does not print an exact revenue or profit number here — those come with the full results on 15 September 2026 — so the upgrade is expressed relative to consensus rather than in absolute figures.\n\nThe balance sheet has also strengthened. Kier expects to report period-end net cash of about £232m, up roughly 14% on last year's £204m, and an average month-end cash position of about £11m — a marked turnaround from average net debt of £49m the year before. Average month-end cash matters because it smooths out the timing swings that a single year-end snapshot can hide, giving a cleaner read on underlying cash generation.\n\nThe order book, up 8% to about £11.9bn, underpins future revenue: Kier says it already has over 90% of consensus FY27 revenue (£4.407bn) secured. The large framework positions — c.£150bn in total, including Water, Nuclear and Defence work aligned with the Government's infrastructure strategy — are potential future work rather than confirmed revenue, so they signal opportunity rather than booked income.",
+    "source_url": "https://uk.advfn.com/stock-market/london/kier-KIE/share-news/Kier-Group-PLC-Full-Year-2026-Trading-Update/98950747",
+    "related_news_url": "https://news.google.com/search?q=%22Kier%20Group%20plc%22",
+    "added_at": "2026-07-21T11:34:08.624542"
+  },
+  {
     "company": "Rosebank Industries plc",
     "ticker": "ROSE",
     "publish_date": "21 July 2026",
