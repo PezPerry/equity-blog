@@ -1,5 +1,57 @@
 [
   {
+    "company": "Whitbread PLC",
+    "ticker": "WTB",
+    "publish_date": "21 July 2026",
+    "date_iso": "2026-07-21",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Whitbread PLC</strong> discloses that <strong>Kal Atwal</strong> will be appointed an independent non-executive director at <strong>Quilter plc</strong> with effect from <strong>1 September 2026</strong>.</li><li>Kal Atwal will also join <strong>Quilter's Remuneration Committee</strong> on the same date.</li><li>Routine external-directorship disclosure under <strong>UKLR 6.4.9R</strong>, with <strong>no impact</strong> on Whitbread's trading or guidance; no further disclosures required.</li></ul>",
+    "source_format": "html",
+    "headline": "Whitbread discloses that director Kal Atwal will join Quilter plc's board as an independent non-executive director from 1 September 2026.",
+    "priority": "low",
+    "priority_reason": "Routine external-directorship disclosure under Listing Rule 6.4.9R with no impact on Whitbread's trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/whitbread--wtb/director-declaration/9679791",
+    "related_news_url": "https://news.google.com/search?q=%22Whitbread%20PLC%22",
+    "added_at": "2026-07-21T11:38:23.301674"
+  },
+  {
+    "company": "Berkeley Group Holdings PLC",
+    "ticker": "BKG",
+    "publish_date": "21 July 2026",
+    "date_iso": "2026-07-21",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>Berkeley Energia</strong> reports a maiden Mineral Resource Estimate for its 100%-owned <strong>Conchas Project</strong> in <strong>Salamanca, Spain</strong>, part of its Critical Minerals Exploration Initiative.</li><li>Maiden inferred MRE of <strong>11.8Mt at 0.41% Li2O and 0.21% Rb2O</strong>, for <strong>~49,000t</strong> of contained Li2O and <strong>~25,200t</strong> of contained Rb2O (above a US$100/t NSR cut-off).</li><li>100% of the resource sits in the <strong>Inferred</strong> category; prepared by independent consultants <strong>Maja Mining Limited</strong> to the <strong>JORC Code (2012)</strong>.</li><li>Mineralisation extends from surface and remains <strong>open at depth</strong>, is amenable to <strong>bulk-tonnage open-pit</strong> mining, with preliminary metallurgical testing showing good Li and Rb recoveries via flotation and magnetic separation.</li><li>Next steps: infill drilling to upgrade resource classification and a second phase of metallurgical test work; company describes Conchas as hosting a <strong>globally significant rubidium resource</strong>.</li><li>Note: no external certified reference materials were submitted in QAQC (appropriate CRMs unavailable), so the company flags some uncertainty around laboratory accuracy; article text is cut off mid-sentence.</li></ul>",
+    "source_format": "html",
+    "headline": "Berkeley Energia reports maiden inferred resource of 11.8Mt at 0.41% Li2O and 0.21% Rb2O at its 100%-owned Conchas lithium-rubidium project in Spain.",
+    "priority": "medium",
+    "priority_reason": "Maiden mineral resource estimate is a material exploration milestone for the company, though not results, M&A or a fundraising.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/berkeley-energia-limited-di---bky/maiden-lithium-rubidium-mre/9678465",
+    "related_news_url": "https://news.google.com/search?q=%22Berkeley%20Energia%20Limited%22",
+    "added_at": "2026-07-21T11:38:23.290643"
+  },
+  {
     "company": "Capricorn Energy PLC",
     "ticker": "CNE",
     "publish_date": "21 July 2026",
