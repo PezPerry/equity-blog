@@ -1,5 +1,31 @@
 [
   {
+    "company": "Smiths Group PLC",
+    "ticker": "SMIN",
+    "publish_date": "21 July 2026",
+    "date_iso": "2026-07-21",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>Smiths Industries Pension Scheme</strong> completes a <strong>£760m</strong> buy-in with <strong>M&G</strong>, securing benefits for over <strong>10,000</strong> members and leaving all c.<strong>17,000</strong> members fully insured across five annuity policies.</li><li>Transaction funded from the <strong>Scheme's existing assets</strong> — <strong>no additional contributions</strong> required from Smiths.</li><li>Follows the <strong>£900m</strong> buyout of the <strong>TI Group Pension Scheme</strong> with <strong>Aviva</strong>, <strong>Legal & General</strong>, <strong>Pension Insurance Corporation</strong> and <strong>Rothesay</strong>, completed in <strong>May</strong>, covering c.<strong>15,500</strong> members.</li><li>CFO <strong>Julian Fagge</strong>: the deals remove pension risk and future cash funding requirements, reduce balance-sheet volatility and strengthen free cash flow.</li><li>Part of Smiths' repositioning as a focused industrial engineering company after the sales of <strong>Smiths Interconnect</strong> and <strong>Smiths Detection</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Smiths completes a £760m pension buy-in with M&G, insuring all c.17,000 members of its largest defined benefit scheme with no extra contributions required.",
+    "priority": "medium",
+    "priority_reason": "Material balance-sheet de-risking of legacy pension liabilities, but no impact on trading or guidance and no cash cost to Smiths.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/smiths-SMIN/share-news/Smiths-Group-PLC-Smiths-Pension-schemes-landmark/98950811",
+    "related_news_url": "https://news.google.com/search?q=%22Smiths%20Group%20PLC%22",
+    "added_at": "2026-07-21T11:34:30.223964"
+  },
+  {
     "company": "Kier Group PLC",
     "ticker": "KIE",
     "publish_date": "21 July 2026",
