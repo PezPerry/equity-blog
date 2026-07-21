@@ -1,5 +1,56 @@
 [
   {
+    "company": "Caledonia Mining Corporation Plc",
+    "ticker": "CMCL",
+    "publish_date": "20 July 2026",
+    "date_iso": "2026-07-20",
+    "time_period": "Q2 2026 (quarter ended 30 June 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "Q2 2026 (quarter ended 30 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Blanket Mine</strong> gold production of <strong>17,360 ounces</strong> in <strong>Q2 2026</strong>, up <strong>18%</strong> on <strong>14,767 ounces</strong> in Q1 2026, reflecting improving access to higher-grade areas.</li><li>Full-year <strong>2026 guidance reaffirmed</strong> at <strong>72,000 to 76,500 ounces</strong>, with output weighted to the second half.</li><li>Q2 2026 was <strong>lower than Q2 2025</strong>, which benefitted from exceptional record grades; no comparative ounce figure for Q2 2025 is stated.</li><li>Grades now tracking approximately <strong>3g/t</strong>, expected to hold for the rest of the year, per CEO <strong>Mark Learmonth</strong>.</li><li>H2 supported by completion of the <strong>elution plant upgrade</strong> (from September), a <strong>7-day working week</strong> from June adding approx <strong>200 tonnes per day</strong>, and improved access to higher-grade ore.</li></ul>",
+    "source_format": "html",
+    "headline": "Caledonia's Blanket Mine produced 17,360 ounces of gold in Q2 2026, up 18% on Q1, and reaffirmed full-year guidance of 72,000-76,500 ounces.",
+    "priority": "high",
+    "priority_reason": "Quarterly production update with reaffirmed full-year guidance is price-sensitive inside information for a gold producer.",
+    "figures": [
+      {
+        "metric": "Gold production",
+        "current": "17,360 oz",
+        "prior": "14,767 oz",
+        "change": "+18%",
+        "basis": "Q2 2026 vs Q1 2026",
+        "note": "Blanket Mine, Zimbabwe"
+      },
+      {
+        "metric": "Gold production vs prior year",
+        "current": "17,360 oz",
+        "prior": "not stated",
+        "change": "lower",
+        "basis": "Q2 2026 vs Q2 2025",
+        "note": "Q2 2025 benefitted from record grades"
+      },
+      {
+        "metric": "Full-year 2026 production guidance",
+        "current": "72,000-76,500 oz",
+        "prior": "72,000-76,500 oz",
+        "change": "reaffirmed",
+        "basis": "not stated",
+        "note": "H2-weighted"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "72,000 to 76,500 ounces (initial 2026 guidance published 14 January 2026)",
+      "current": "72,000 to 76,500 ounces",
+      "commentary": "Full-year production guidance reaffirmed unchanged, with output weighted to the second half of 2026 as access to higher-grade areas is restored."
+    },
+    "explainer": "This is a quarterly operational update from a gold miner, not a full financial result, so the key numbers are ounces of gold produced rather than revenue or profit. Q2 2026 output of 17,360 ounces was 18% higher than the previous quarter (Q1 2026), which the company attributes to gradually restoring access to higher-grade sections of the mine after earlier constraints.\n\nThe year-on-year comparison is deliberately weaker: Q2 2025 was a record quarter helped by unusually high ore grades, so a lower 2026 figure was expected and reflects the planned mining sequence rather than a deterioration. The company does not print the Q2 2025 ounce figure in this release.\n\nFull-year guidance of 72,000-76,500 ounces is maintained, not raised or cut. Management stresses production is expected to be second-half weighted, supported by an elution plant upgrade, a newly introduced 7-day working week adding roughly 200 tonnes of ore per day, and grades stabilising at around 3g/t.",
+    "source_url": "https://uk.advfn.com/stock-market/london/caledonia-mining-CMCL/share-news/Caledonia-Mining-Corporation-Plc-Blanket-Mine-Q2/98943692",
+    "related_news_url": "https://news.google.com/search?q=%22Caledonia%20Mining%20Corporation%20Plc%22",
+    "added_at": "2026-07-21T11:25:42.686495"
+  },
+  {
     "company": "RHI Magnesita NV",
     "ticker": "RHIM",
     "publish_date": "17 July 2026",
