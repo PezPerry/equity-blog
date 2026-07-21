@@ -1,5 +1,57 @@
 [
   {
+    "company": "Segro PLC",
+    "ticker": "SGRO",
+    "publish_date": "21 July 2026",
+    "date_iso": "2026-07-21",
+    "time_period": "",
+    "announcement_type": "Acquisition / deal",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Prologis, Inc.</strong> has made a <strong>Third Proposal</strong> to acquire <strong>SEGRO plc</strong>, offering <strong>0.0890 new Prologis shares</strong> per SEGRO share (up <strong>6.0%</strong> on its initial approach) plus a <strong>Partial Cash Alternative of up to £2.7bn</strong> (c.20% of consideration) at a fixed <strong>1,000 pence per share</strong>, subject to pro-rata scale-back.</li><li>The proposal values each SEGRO share at <strong>993 pence</strong> (assuming a 20% cash election) and the whole company at approximately <strong>£13.5bn</strong> — a <strong>9.7%</strong> premium to pro forma adjusted NAV of <strong>905 pence</strong> (30 June 2026) and <strong>33.8%</strong> above the <strong>742 pence</strong> close on 23 June 2026, the day before the offer period began.</li><li>The <strong>SEGRO Board rejected</strong> the Third Proposal on <strong>17 July 2026</strong>; earlier proposals on <strong>10 July</strong> and the initial <strong>24 June</strong> approach were also rebuffed, and Prologis is urging SEGRO shareholders to press the board to engage.</li><li>Existing SEGRO holders would own roughly <strong>9.2%</strong> of Prologis if the cash alternative is fully taken up; Prologis says it may explore a <strong>secondary LSE listing</strong> subject to investor demand and SEGRO board engagement.</li><li>Under <strong>Rule 2.6(a)</strong>, Prologis must by <strong>5:00pm on 22 July 2026</strong> either announce a firm intention to bid (Rule 2.7) or walk away (Rule 2.8) — so a decisive update is imminent.</li><li>Note: this is a <strong>Rule 2.4</strong> statement and does <strong>not</strong> constitute a firm intention to make an offer; there is no certainty any firm offer will follow.</li></ul>",
+    "source_format": "html",
+    "headline": "Prologis makes a third, sweetened all-share proposal for SEGRO valuing it at ~£13.5bn plus a partial cash alternative, but the SEGRO board has rejected it.",
+    "priority": "high",
+    "priority_reason": "Live takeover approach: Prologis has made a third, sweetened proposal to acquire SEGRO valuing it at ~£13.5bn, with a Rule 2.6 put-up-or-shut-up deadline of 22 July.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/segro-SGRO/share-news/Prologis-Inc-Statement-re-Possible-Combination/98943369",
+    "related_news_url": "https://news.google.com/search?q=%22SEGRO%20plc%22",
+    "added_at": "2026-07-21T11:26:05.923021"
+  },
+  {
+    "company": "Frasers Group PLC",
+    "ticker": "FRAS",
+    "publish_date": "21 July 2026",
+    "date_iso": "2026-07-21",
+    "time_period": "",
+    "announcement_type": "Buyback programme launch",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Frasers Group plc</strong> has appointed <strong>Panmure Liberum Limited</strong> to run a <strong>share buyback programme</strong> on its behalf.</li><li>Panmure Liberum may purchase up to <strong>10,000,000 ordinary shares</strong> of 10p each, with aggregate purchase price capped at <strong>£80,000,000</strong>.</li><li>Programme runs from today until the trading day before the next AGM, currently expected <strong>mid-September 2026</strong>; operates under the authority granted at the <strong>24 September 2025 AGM</strong> (max 67,502,373 shares).</li><li>Repurchased shares go into <strong>treasury</strong>, with the sole purpose of <strong>reducing the Company's share capital</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Frasers Group launches a new share buyback via Panmure Liberum to purchase up to 10 million ordinary shares for a maximum GBP80m.",
+    "priority": "medium",
+    "priority_reason": "Launch of a new share buyback programme (not a routine daily dealing form), which reduces share capital.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/frasers-FRAS/share-news/Frasers-Group-PLC-Purchases-of-Own-Shares/98943336",
+    "related_news_url": "https://news.google.com/search?q=%22Frasers%20Group%20plc%22",
+    "added_at": "2026-07-21T11:26:05.911884"
+  },
+  {
     "company": "Caledonia Mining Corporation Plc",
     "ticker": "CMCL",
     "publish_date": "20 July 2026",
