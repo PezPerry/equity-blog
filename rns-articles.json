@@ -1,5 +1,64 @@
 [
   {
+    "company": "Compass Group PLC",
+    "ticker": "CPG",
+    "publish_date": "21 July 2026",
+    "date_iso": "2026-07-21",
+    "time_period": "Q3 FY26 (quarter ended 30 June 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "Q3 FY26 (quarter ended 30 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Organic revenue growth of 7.1%</strong> in Q3 (quarter ended <strong>30 June 2026</strong>), with net new business growth accelerating into the <strong>4-5% target</strong> range.</li><li>Continues to expect <strong>underlying operating profit growth above 11%</strong> in constant currency for the full year.</li><li><strong>Client retention at 96%</strong>; <strong>$4.3bn</strong> of new business wins over the last 12 months, <strong>up 16% year-on-year</strong>, with 50% from first-time outsourcing.</li><li><strong>Business & Industry</strong> the strongest sector with double-digit organic growth; <strong>University of Kentucky</strong> win cited as its largest ever in Education.</li><li>Net M&A expenditure <strong>$2.4bn</strong> year-to-date; capex trending around <strong>3.5% of sales</strong>, expected slightly elevated at full year on client mobilisation timing.</li><li>At spot rates, FX translation would add <strong>$438m</strong> to revenue and <strong>$23m</strong> to operating profit; CEO <strong>Dominic Blakemore</strong> points to the strongest-ever pipeline.</li></ul>",
+    "source_format": "html",
+    "headline": "Compass Group posts 7.1% Q3 organic revenue growth and reaffirms confidence in full-year underlying operating profit growth above 11% in constant currency.",
+    "priority": "high",
+    "priority_reason": "Quarterly trading update from a FTSE 100 constituent with organic growth and full-year profit guidance commentary.",
+    "figures": [
+      {
+        "metric": "Organic revenue growth",
+        "current": "7.1%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "organic",
+        "note": "Q3 to 30 June 2026"
+      },
+      {
+        "metric": "New business wins (LTM)",
+        "current": "$4.3bn",
+        "prior": "not stated",
+        "change": "+16%",
+        "basis": "annual revenue of wins in last 12 months",
+        "note": "50% from first-time outsourcing"
+      },
+      {
+        "metric": "Client retention",
+        "current": "96%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": ""
+      },
+      {
+        "metric": "Net M&A expenditure",
+        "current": "$2.4bn YTD",
+        "prior": "not stated",
+        "change": "broadly unchanged since half year",
+        "basis": "",
+        "note": ""
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Underlying operating profit growth of above 11% in constant currency",
+      "current": "Underlying operating profit growth of above 11% in constant currency",
+      "commentary": "Full-year profit growth guidance is reaffirmed, with management citing strong execution, continued growth momentum and margin progression. Net new business growth is now within the 4-5% target range."
+    },
+    "explainer": "This is a third-quarter trading update, so it reports growth rates and business momentum rather than full profit and loss figures. The headline 7.1% is organic revenue growth, which strips out currency moves and acquisitions/disposals to show underlying volume and pricing — Compass notes lower food inflation is now feeding through, so growth is increasingly driven by winning new contracts rather than price rises.\n\nThe key forward-looking number is the reaffirmed guidance for underlying operating profit growth of above 11% in constant currency. 'Constant currency' means measured at fixed exchange rates, so the target reflects operational performance rather than the strong dollar. Separately, at current spot rates, FX translation would flatter reported revenue by $438m and operating profit by $23m — a translation effect, not underlying trading.\n\nThe $4.3bn of new business wins is the annualised revenue of contracts signed over the past 12 months, up 16% year on year, with half coming from clients outsourcing catering for the first time — the structural growth driver in this fragmented $360bn market. Client retention of 96% indicates existing contracts are largely being kept.\n\nGuidance is unchanged rather than upgraded: management expresses continued confidence in another year of strong earnings growth and margin progression, but has not raised the numeric target.",
+    "source_url": "https://uk.advfn.com/stock-market/london/compass-CPG/share-news/Compass-Group-PLC-Q3-Trading-Update/98950728",
+    "related_news_url": "https://news.google.com/search?q=%22Compass%20Group%20PLC%22",
+    "added_at": "2026-07-21T11:35:02.215431"
+  },
+  {
     "company": "Smiths Group PLC",
     "ticker": "SMIN",
     "publish_date": "21 July 2026",
