@@ -1,5 +1,88 @@
 [
   {
+    "company": "Wickes Group PLC",
+    "ticker": "WIKS",
+    "publish_date": "21 July 2026",
+    "date_iso": "2026-07-21",
+    "time_period": "Q2 2026 (quarter ending 27 June 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "Q2 2026 (quarter ending 27 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Q2 revenue up 2.3%</strong>, driven by continued volume growth, with <strong>Retail revenue up 1.8%</strong> year-on-year and Design & Installation delivering a fifth consecutive quarter of positive delivered-sales growth.</li><li><strong>Retail two-year LFL up 8.5%</strong>; <strong>TradePro sales up 6%</strong> with active members up <strong>9% to 671,000</strong>; DIY sales broadly flat and <strong>Click & Collect and Home Delivery up 7%</strong>.</li><li>Design & Installation project numbers rose but <strong>ordered sales by value were slightly lower</strong> than a year ago as Bespoke Kitchen orders slowed; Lifestyle Kitchens and Bespoke Bathrooms grew strongly.</li><li><strong>Net cash of £152m</strong> at the half year (<strong>2025: £158m</strong>), after <strong>£10m of share buybacks</strong> and a further <strong>£10m</strong> of purchases for the Employee Benefit Trust.</li><li>Property strategy on track: <strong>eight stores refitted or refreshed</strong> and one closed in H1; <strong>4-5 new stores</strong> and <strong>15-20 refits/refreshes</strong> planned across 2026.</li><li><strong>Remains comfortable with consensus 2026 adjusted PBT</strong> (mean <strong>£55.4m</strong>, range <strong>£52.8m-£58.0m</strong> as at 3 June 2026); H1 results due <strong>mid-September 2026</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Wickes reported 2.3% Q2 revenue growth with LFL gains in both Retail and Design & Installation, and remains comfortable with 2026 adjusted PBT consensus.",
+    "priority": "high",
+    "priority_reason": "Quarterly trading update with LFL sales growth and reaffirmed full-year adjusted PBT guidance.",
+    "figures": [
+      {
+        "metric": "Group revenue growth (Q2)",
+        "current": "+2.3%",
+        "prior": "not stated",
+        "change": "+2.3%",
+        "basis": "year-on-year",
+        "note": "quarter ending 27 June 2026"
+      },
+      {
+        "metric": "Retail revenue growth",
+        "current": "+1.8%",
+        "prior": "not stated",
+        "change": "+1.8%",
+        "basis": "year-on-year",
+        "note": "Q2 2026"
+      },
+      {
+        "metric": "Retail LFL (two-year)",
+        "current": "+8.5%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "two-year basis",
+        "note": ""
+      },
+      {
+        "metric": "TradePro sales",
+        "current": "+6% y/y",
+        "prior": "not stated",
+        "change": "+6%",
+        "basis": "",
+        "note": ""
+      },
+      {
+        "metric": "Active TradePro members",
+        "current": "671,000",
+        "prior": "not stated",
+        "change": "+9% y/y",
+        "basis": "shopped in last 12 months",
+        "note": ""
+      },
+      {
+        "metric": "Net cash (half year)",
+        "current": "£152m",
+        "prior": "£158m",
+        "change": "not stated",
+        "basis": "",
+        "note": "2025 comparative"
+      },
+      {
+        "metric": "2026 adjusted PBT consensus",
+        "current": "£55.4m mean (range £52.8m-£58.0m)",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "consensus as at 3 June 2026",
+        "note": "company comfortable with this"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Comfortable with consensus expectations for adjusted PBT for 2026",
+      "current": "Remain comfortable with consensus expectations for adjusted PBT for 2026 (mean £55.4m, range £52.8m-£58.0m as at 3 June 2026)",
+      "commentary": "Guidance reaffirmed. Wickes expects modest market growth for the rest of the year and points to a productivity plan and lower business rates supporting H2 profitability."
+    },
+    "explainer": "This is a Q2 trading update, not full results, so most figures are sales-based rather than profit-based. Revenue grew 2.3%, driven by more customers and higher volumes rather than price rises — Wickes notes a deflationary pricing environment, meaning it is selling more units even as prices fall. The two-year Retail LFL of 8.5% strips out new-store effects and compares against 2024, giving a cleaner read on underlying momentum across a period that included tougher trading.\n\nIn Design & Installation (kitchens, bathrooms, solar), the company distinguishes 'delivered sales' — revenue booked once a project is completed — from 'ordered sales', the value of new orders placed. Delivered sales grew for a fifth straight quarter, but ordered sales by value dipped slightly because customers are being more cautious on big-ticket Bespoke Kitchens, even though the number of projects rose. That mix shift is worth watching as an early signal for future delivered revenue.\n\nOn guidance, nothing has changed: Wickes remains comfortable with analysts' consensus for 2026 adjusted profit before tax, pegged at a mean of £55.4m (range £52.8m-£58.0m). 'Adjusted' PBT excludes one-off or exceptional items. Management expects H2 profitability to be supported by a productivity plan and lower business rates, offsetting an uncertain consumer backdrop. Net cash of £152m is only modestly below last year's £158m despite £20m spent on buybacks and Employee Benefit Trust share purchases, indicating the balance sheet remains strong.",
+    "source_url": "https://uk.advfn.com/stock-market/london/wickes-WIX/share-news/Wickes-Group-PLC-Trading-Statement/98950771",
+    "related_news_url": "https://news.google.com/search?q=%22Wickes%20Group%20plc%22",
+    "added_at": "2026-07-21T11:32:09.636116"
+  },
+  {
     "company": "Wizz Air Holdings PLC",
     "ticker": "WIZZ",
     "publish_date": "21 July 2026",
