@@ -13,6 +13,54 @@
   ],
   "tiles": [
     {
+      "slug": "severn-trent-SVT-blog-page",
+      "url": "severn-trent-SVT-blog-page.html",
+      "date": "2026-07-22",
+      "kind": "analysis",
+      "cover": "severn-trent-SVT-cover.png",
+      "alt": "Severn Trent logo",
+      "cat": "Company Analysis",
+      "headline": "Severn Trent: Profit Up, But the Debt and the Politics Cap the Upside",
+      "pill": "hold",
+      "pill_label": "Hold",
+      "ticker": "SVT",
+      "meta_extra": [
+        "Value opp &minus;19.9%"
+      ]
+    },
+    {
+      "slug": "burberry-BRBY-blog-page",
+      "url": "burberry-BRBY-blog-page.html",
+      "date": "2026-07-22",
+      "kind": "analysis",
+      "cover": "burberry-BRBY-cover.png",
+      "alt": "Burberry logo",
+      "cat": "Company Analysis",
+      "headline": "Burberry: A Good Brand, But the Price Has Run Ahead",
+      "pill": "sell",
+      "pill_label": "Sell",
+      "ticker": "BRBY",
+      "meta_extra": [
+        "Value opp &minus;44.1%"
+      ]
+    },
+    {
+      "slug": "british-american-tobacco-BATS-blog-page",
+      "url": "british-american-tobacco-BATS-blog-page.html",
+      "date": "2026-07-22",
+      "kind": "analysis",
+      "cover": "british-american-tobacco-BATS-cover.png",
+      "alt": "British American Tobacco logo",
+      "cat": "Company Analysis",
+      "headline": "British American Tobacco: A Record Year, Fully Priced",
+      "pill": "hold",
+      "pill_label": "Hold",
+      "ticker": "BATS",
+      "meta_extra": [
+        "Value opp &minus;15.4%"
+      ]
+    },
+    {
       "slug": "crest-nicholson-CRST-sites-map",
       "url": "crest-nicholson-CRST-sites-map.html",
       "date": "2026-07-16",
