@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The FTSE 100 after the re-rating — Markets Long Read</title>
+<meta name="description" content="London&rsquo;s blue-chip index has just delivered its best year since 2009, broken 10,000 for the first time and re-rated in the process.">
+<meta property="og:title" content="The FTSE 100 after the re-rating: what 10,500 buys you &mdash; and what it doesn&rsquo;t">
+<meta property="og:description" content="Best year since 2009, through 10,000 for the first time, and a trailing multiple now above its long-run median. A Markets Long Read from Equity &amp; Markets Insight.">
+<meta property="og:image" content="https://pezperry.github.io/equity-blog/longreads/images/ftse-100-cover-1536x1024.jpg">
+<meta property="og:url" content="https://pezperry.github.io/equity-blog/longreads/2026-07-ftse-100-re-rating.html">
+<meta property="og:type" content="article">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;0,9..144,800;1,9..144,400;1,9..144,500&family=Inter+Tight:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.0/chart.umd.min.js"></script>
+<style>
+  :root{
+    --navy:#0f1419; --navy-2:#1a2028;
+    --cream:#f5f1ea; --cream-2:#eae3d6; --cream-3:#d9d0be;
+    --accent:#a5321c; --gold:#b8923a; --muted:#5a6370;
+    --rule:rgba(15,20,25,0.14); --rule-strong:rgba(15,20,25,0.28);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{background:var(--cream);color:var(--navy);font-family:'Inter Tight',-apple-system,BlinkMacSystemFont,sans-serif;font-size:18px;line-height:1.65;font-weight:400;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;overflow-x:hidden;}
+  ::selection{background:var(--accent);color:var(--cream)}
+  .progress{position:fixed;top:0;left:0;height:2px;width:0%;background:var(--accent);z-index:100;transition:width .08s linear;}
+  .masthead{position:fixed;top:0;left:0;right:0;display:flex;justify-content:space-between;align-items:center;padding:18px 32px;z-index:50;font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;mix-blend-mode:difference;color:var(--cream);pointer-events:none;}
+  .masthead .dot{display:inline-block;width:7px;height:7px;background:var(--accent);border-radius:50%;vertical-align:middle;margin-right:8px}
+  .hero{min-height:100vh;padding:120px 32px 80px;display:flex;flex-direction:column;justify-content:space-between;position:relative;background:var(--navy);color:var(--cream);}
+  .hero .hero-top{font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--cream-3);display:flex;gap:24px;align-items:center;flex-wrap:wrap;}
+  .hero .hero-top span.accent{color:var(--accent);}
+  .hero h1{font-family:'Fraunces',serif;font-weight:400;font-size:clamp(42px,7vw,108px);line-height:.98;letter-spacing:-0.025em;max-width:18ch;margin-top:auto;font-variation-settings:"opsz" 144;}
+  .hero h1 em{font-style:italic;color:var(--gold);font-weight:300;}
+  .hero .deck{font-family:'Fraunces',serif;font-weight:300;font-size:clamp(18px,1.7vw,24px);line-height:1.45;max-width:62ch;color:var(--cream-2);margin-top:40px;}
+  .hero .byline{display:flex;justify-content:space-between;align-items:flex-end;border-top:1px solid rgba(245,241,234,0.18);padding-top:20px;margin-top:60px;font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--cream-3);flex-wrap:wrap;gap:16px;}
+  .hero .byline strong{color:var(--cream);font-weight:500}
+  .scroll-indicator{position:absolute;bottom:28px;left:50%;transform:translateX(-50%);font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.3em;text-transform:uppercase;color:var(--cream-3);display:flex;flex-direction:column;align-items:center;gap:10px;}
+  .scroll-indicator .line{width:1px;height:40px;background:var(--cream-3);animation:scrollPulse 2.2s ease-in-out infinite;transform-origin:top;}
+  @keyframes scrollPulse{0%{transform:scaleY(0);opacity:0}30%{opacity:1}100%{transform:scaleY(1);opacity:0}}
+  .toc{position:fixed;left:32px;top:50%;transform:translateY(-50%);z-index:40;font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.18em;text-transform:uppercase;display:flex;flex-direction:column;gap:14px;opacity:0;transition:opacity .6s ease;pointer-events:none;}
+  .toc.visible{opacity:1;pointer-events:auto;}
+  .toc a{color:var(--muted);text-decoration:none;display:flex;align-items:center;gap:10px;transition:color .3s ease;}
+  .toc a .bar{width:18px;height:1px;background:var(--muted);transition:all .3s ease;}
+  .toc a:hover{color:var(--navy)}
+  .toc a:hover .bar{width:28px;background:var(--navy)}
+  .toc a.active{color:var(--accent)}
+  .toc a.active .bar{width:40px;background:var(--accent);height:2px}
+  .toc a .num{min-width:24px}
+  main{background:var(--cream);position:relative;z-index:2;}
+  .container{max-width:720px;margin:0 auto;padding:0 32px;}
+  .glance{padding:120px 32px;background:var(--navy);color:var(--cream);position:relative;}
+  .glance-header{display:flex;align-items:baseline;gap:24px;margin-bottom:64px;max-width:1200px;margin-left:auto;margin-right:auto;font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--cream-3);}
+  .glance-header .line{flex:1;height:1px;background:rgba(245,241,234,0.2)}
+  .glance-grid{max-width:1200px;margin:0 auto;display:grid;grid-template-columns:repeat(6,1fr);gap:0;border-top:1px solid rgba(245,241,234,0.2);border-bottom:1px solid rgba(245,241,234,0.2);}
+  .stat{padding:40px 22px 36px;border-right:1px solid rgba(245,241,234,0.14);}
+  .stat:last-child{border-right:none}
+  .stat .num{font-family:'Fraunces',serif;font-weight:300;font-size:clamp(34px,4.2vw,56px);line-height:1;letter-spacing:-.02em;font-variation-settings:"opsz" 144;color:var(--cream);}
+  .stat .num.accent{color:var(--accent)}
+  .stat .num.gold{color:var(--gold)}
+  .stat .label{font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--cream-3);margin-top:18px;line-height:1.5;}
+  .chapter{min-height:50vh;display:flex;align-items:center;padding:80px 32px 60px;position:relative;border-top:1px solid var(--rule);}
+  .chapter-inner{max-width:1100px;margin:0 auto;width:100%}
+  .chapter .num{font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:.3em;text-transform:uppercase;color:var(--accent);margin-bottom:32px;display:flex;align-items:center;gap:16px;}
+  .chapter .num .dash{width:60px;height:1px;background:var(--accent)}
+  .chapter h2{font-family:'Fraunces',serif;font-weight:300;font-size:clamp(44px,6.5vw,92px);line-height:1.02;letter-spacing:-.025em;max-width:14ch;font-variation-settings:"opsz" 144;}
+  .chapter h2 em{color:var(--accent);font-style:italic;font-weight:400}
+  .chapter .chapter-deck{font-family:'Fraunces',serif;font-weight:300;font-style:italic;font-size:clamp(18px,1.6vw,22px);line-height:1.5;margin-top:32px;max-width:55ch;color:var(--muted);}
+  .body-section{padding:40px 0 40px}
+  .body-section p{font-family:'Fraunces',serif;font-weight:400;font-size:20px;line-height:1.65;letter-spacing:-.005em;margin-bottom:1.4em;font-variation-settings:"opsz" 14;}
+  .body-section p strong{font-weight:600;color:var(--navy)}
+  .body-section h3{font-family:'Inter Tight',sans-serif;font-weight:500;font-size:13px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);margin:60px 0 24px;padding-top:24px;border-top:1px solid var(--rule);}
+  .body-section .note{font-family:'JetBrains Mono',monospace;font-size:12px;line-height:1.7;color:var(--muted);border-left:2px solid var(--gold);padding:6px 0 6px 18px;margin:0 0 1.6em;}
+  .dropcap::first-letter{font-family:'Fraunces',serif;font-weight:500;float:left;font-size:5.2em;line-height:.85;padding:6px 12px 0 0;color:var(--accent);}
+  .pullquote{position:relative;padding:60px 32px;margin:40px 0;text-align:center;background:var(--cream);border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);}
+  .pullquote blockquote{font-family:'Fraunces',serif;font-weight:300;font-style:italic;font-size:clamp(28px,4vw,52px);line-height:1.15;letter-spacing:-.02em;max-width:22ch;margin:0 auto;color:var(--navy);font-variation-settings:"opsz" 144;}
+  .pullquote blockquote::before{content:"\201C";display:block;font-size:1.6em;color:var(--accent);line-height:.6;margin-bottom:20px;font-weight:400;}
+  .pullquote .attribution{font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);margin-top:40px;}
+  figure.chart-figure{margin:40px 0;padding:24px 0;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);}
+  figure.chart-figure .fig-label{font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--accent);margin-bottom:12px;}
+  figure.chart-figure figcaption{font-family:'Fraunces',serif;font-weight:400;font-style:italic;font-size:19px;line-height:1.4;color:var(--navy);margin-bottom:28px;max-width:60ch;}
+  figure.chart-figure figcaption strong{font-style:normal;font-weight:600}
+  figure.chart-figure .chart-wrap{height:420px;position:relative;margin:0 -40px;}
+  figure.chart-figure .chart-wrap.tall{height:560px}
+  figure.chart-figure .source{font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.08em;color:var(--muted);margin-top:20px;line-height:1.5;}
+  .ratio-figure{margin:40px -40px;padding:40px 40px;background:var(--navy);color:var(--cream);overflow:hidden;}
+  .ratio-figure .label{font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--cream-3);margin-bottom:32px;display:flex;align-items:center;gap:16px;}
+  .ratio-figure .label .dash{flex:1;height:1px;background:rgba(245,241,234,0.2)}
+  .ratio-figure .compare{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:end;}
+  .ratio-figure .col .when{font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--cream-3);margin-bottom:16px;}
+  .ratio-figure .col .big{font-family:'Fraunces',serif;font-weight:300;font-size:clamp(64px,11vw,180px);line-height:.85;letter-spacing:-.04em;font-variation-settings:"opsz" 144;}
+  .ratio-figure .col.then .big{color:var(--cream-3)}
+  .ratio-figure .col.now .big{color:var(--accent)}
+  .ratio-figure .col .unit{font-family:'Fraunces',serif;font-style:italic;font-weight:300;font-size:18px;color:var(--cream-2);margin-top:18px;line-height:1.4;max-width:24ch;}
+  .ratio-figure .arrow-bar{margin-top:36px;height:6px;background:rgba(245,241,234,0.1);position:relative;border-radius:0;}
+  .ratio-figure .arrow-bar .fill{position:absolute;left:0;top:0;height:100%;width:0;background:linear-gradient(90deg,var(--gold),var(--accent));transition:width 1.6s cubic-bezier(.2,.7,.2,1);}
+  .ratio-figure.in .arrow-bar .fill{width:100%}
+  .ratio-figure .caption{margin-top:24px;font-family:'Fraunces',serif;font-style:italic;font-weight:300;color:var(--cream-2);font-size:15px;}
+  .smb-figure{margin:40px -40px;padding:0;background:var(--cream-2);overflow:hidden;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);}
+  .smb-grid{display:grid;grid-template-columns:1fr 1fr;}
+  .smb-cell{padding:48px 40px;border-right:1px solid var(--rule);background:var(--cream);}
+  .smb-cell:last-child{border-right:none;background:var(--cream-2)}
+  .smb-cell .size{font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);margin-bottom:16px;}
+  .smb-cell .delta{font-family:'Fraunces',serif;font-weight:300;font-size:clamp(40px,5.5vw,76px);line-height:1;letter-spacing:-.025em;font-variation-settings:"opsz" 144;}
+  .smb-cell.bad .delta{color:var(--accent)}
+  .smb-cell.ok .delta{color:var(--gold)}
+  .smb-cell .label{font-family:'Fraunces',serif;font-style:italic;font-weight:300;font-size:16px;color:var(--navy);margin-top:18px;line-height:1.45;}
+  .reveal{opacity:0;transform:translateY(28px);transition:opacity .9s cubic-bezier(.2,.7,.2,1), transform .9s cubic-bezier(.2,.7,.2,1);will-change:opacity, transform;}
+  .reveal.in{opacity:1;transform:none;will-change:auto}
+  .reveal.delay-1{transition-delay:.1s}
+  .reveal.delay-2{transition-delay:.2s}
+  .reveal.delay-3{transition-delay:.3s}
+  .sources{padding:100px 0 160px;background:var(--navy);color:var(--cream);border-top:1px solid var(--rule);}
+  .sources h3{font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--cream-3);margin-bottom:32px;}
+  .sources ul{list-style:none}
+  .sources li{font-family:'Fraunces',serif;font-weight:400;font-size:16px;line-height:1.6;padding:14px 0;border-bottom:1px solid rgba(245,241,234,0.12);color:var(--cream-2);}
+  .sources li em{color:var(--cream);font-style:italic}
+  .colophon{padding:40px 0 0;font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.22em;text-transform:uppercase;color:var(--cream-3);display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px;}
+  @media (max-width: 820px){
+    body{font-size:16px}
+    .toc{display:none}
+    .glance-grid{grid-template-columns:repeat(2,1fr);}
+    .stat{border-right:1px solid rgba(245,241,234,0.14); border-bottom:1px solid rgba(245,241,234,0.14)}
+    .stat:nth-child(2n){border-right:none}
+    .stat:nth-last-child(-n+2){border-bottom:none}
+    .ratio-figure{margin:60px 0;padding:40px 24px}
+    .ratio-figure .compare{gap:24px}
+    .smb-figure{margin:60px 0}
+    .smb-grid{grid-template-columns:1fr}
+    .smb-cell{border-right:none;border-bottom:1px solid var(--rule)}
+    .smb-cell:last-child{border-bottom:none}
+    .body-section p{font-size:17px}
+    .chapter{min-height:auto;padding:60px 24px}
+    figure.chart-figure .chart-wrap{height:320px;margin:0}
+    figure.chart-figure .chart-wrap.tall{height:520px}
+    .hero{padding:100px 24px 60px}
+    .hero .byline{font-size:10px}
+    .pullquote{padding:50px 24px;margin:24px 0}
+  }
+  @media (prefers-reduced-motion: reduce){
+    *,*::before,*::after{animation-duration:.01ms !important;transition-duration:.01ms !important;}
+    .reveal{opacity:1 !important;transform:none !important}
+  }
+</style>
+</head>
+<body>
+
+<div class="progress" id="progress"></div>
+
+<div class="masthead">
+  <div><span class="dot"></span>Markets Long Read / 14.07.26</div>
+  <div>№ 016 — FTSE 100</div>
+</div>
+
+<nav class="toc" id="toc" aria-label="Table of contents">
+  <a href="#ch1" data-target="ch1"><span class="num">§01</span><span class="bar"></span><span class="lbl">The Bank</span></a>
+  <a href="#ch2" data-target="ch2"><span class="num">§02</span><span class="bar"></span><span class="lbl">Valuation</span></a>
+  <a href="#ch3" data-target="ch3"><span class="num">§03</span><span class="bar"></span><span class="lbl">Global</span></a>
+  <a href="#ch4" data-target="ch4"><span class="num">§04</span><span class="bar"></span><span class="lbl">Composition</span></a>
+  <a href="#ch5" data-target="ch5"><span class="num">§05</span><span class="bar"></span><span class="lbl">Defensive</span></a>
+  <a href="#ch6" data-target="ch6"><span class="num">§06</span><span class="bar"></span><span class="lbl">Where I land</span></a>
+</nav>
+
+<section class="hero" id="hero">
+  <div class="hero-top">
+    <span class="accent">● FTSE 100</span>
+    <span>MARKETS LONG READ</span>
+    <span>JUL 2026</span>
+    <span>10 MIN READ</span>
+  </div>
+  <h1>The FTSE 100 after the re-rating: what 10,500 buys you — and what it <em>doesn&rsquo;t.</em></h1>
+  <p class="deck">London&rsquo;s blue-chip index has just delivered its best year since 2009, broken 10,000 for the first time and re-rated in the process. I still think the valuation case holds — but the composition that got the index here is the same composition that could take it back down.</p>
+  <div class="byline">
+    <div>Markets &amp; Equities Research — <strong>14 July 2026</strong></div>
+    <div>Issue 016 / 10 min read</div>
+  </div>
+  <div class="scroll-indicator">
+    <span>Scroll</span>
+    <div class="line"></div>
+  </div>
+</section>
+
+<section class="glance" id="glance">
+  <div class="glance-header">
+    <span>At a glance</span>
+    <span class="line"></span>
+    <span>As of 14 July 2026</span>
+  </div>
+  <div class="glance-grid">
+    <div class="stat">
+      <div class="num gold" data-count="21.5" data-decimals="1" data-suffix="%">0.0%</div>
+      <div class="label">2025 return<br>(best since 2009)</div>
+    </div>
+    <div class="stat">
+      <div class="num" data-count="10935" data-decimals="0" data-comma="1">0</div>
+      <div class="label">Record intraday<br>27 Feb 2026</div>
+    </div>
+    <div class="stat">
+      <div class="num" data-count="10524" data-decimals="0" data-comma="1">0</div>
+      <div class="label">Index level<br>today</div>
+    </div>
+    <div class="stat">
+      <div class="num accent" data-count="16.8" data-decimals="1" data-suffix="x">0.0x</div>
+      <div class="label">Trailing P/E<br>(M&amp;E estimate)</div>
+    </div>
+    <div class="stat">
+      <div class="num" data-count="12.3" data-decimals="1" data-suffix="x">0.0x</div>
+      <div class="label">All-Share fwd P/E<br>24 June</div>
+    </div>
+    <div class="stat">
+      <div class="num gold" data-count="3.06" data-decimals="2" data-suffix="%">0.00%</div>
+      <div class="label">FTSE 100 avg<br>dividend yield</div>
+    </div>
+  </div>
+</section>
+
+<main>
+
+<div class="container body-section">
+  <p class="reveal dropcap">The FTSE 100 has had a reasonably strong but uneven past six months, sitting on top of a 2025 that exceeded what I would have anticipated. The index rose <strong>21.5% during 2025</strong> — its best calendar year since 2009, when it climbed 22.1% in the aftermath of the financial crisis — and closed the year at 9,931.38, a whisker below the 10,000 mark it had never touched. It did not have to wait long. On the first trading day of 2026 the index broke through 10,000 for the first time in its history, and by 27 February it had printed a record close of <strong>10,910.55</strong> and an all-time intraday high of 10,934.94.</p>
+
+  <p class="reveal">Since then the run has been bumpier. The outbreak of conflict in the Middle East at the end of February pushed energy prices sharply higher, knocked the index back from its records, and only with the June peace framework and the reopening of the Strait of Hormuz has some calm returned. As I write, the index sits at around 10,500 — below February&rsquo;s peak, but still up strongly over twelve months.</p>
+
+  <figure class="chart-figure reveal">
+    <div class="fig-label">Chart 01 / 24-month trend</div>
+    <figcaption><strong>The index over 24 months.</strong> FTSE 100 daily closes, July 2024 to 14 July 2026. The April 2025 sell-off followed the US &ldquo;Liberation Day&rdquo; tariff announcements; the index recovered to break 9,000 in July 2025, 10,000 in January 2026 and peak in late February 2026.</figcaption>
+    <div class="chart-wrap"><canvas id="priceChart"></canvas></div>
+    <p class="source">Source: Yahoo Finance / LSEG data; M&amp;E chart. Shaded band marks the last twelve months.</p>
+  </figure>
+
+  <p class="reveal">What strikes me most about this rise is what it has had to absorb along the way: domestic political uncertainty, energy price shocks, repeated shifts in expectations for Bank of England policy, and the rolling tariff uncertainty emanating from the Trump administration. A market that climbs 30% or so over two years through that lot is telling you something — and part of what it is telling you is that <strong>the index has re-rated meaningfully</strong>, a point I will come back to with the charts below.</p>
+</div>
+
+<section class="chapter" id="ch1">
+  <div class="chapter-inner">
+    <div class="num reveal"><span class="dash"></span>§01 — The Bank</div>
+    <h2 class="reveal delay-1">Why I am not braced for <em>hikes.</em></h2>
+    <p class="chapter-deck reveal delay-2">CPI at 2.8%, a summer bump coming from energy — and a Committee visibly reluctant to tighten. On my numbers, Bank Rate stays at 3.75%.</p>
+  </div>
+</section>
+
+<div class="container body-section">
+  <p class="reveal">UK inflation remains above target, as it has been for most of the past five years. The latest ONS data shows CPI at <strong>2.8% in the twelve months to May</strong>, unchanged from April and below the 3.0% consensus expected. Core CPI was 2.6%, up marginally from 2.5%, and the number the Bank will be watching most closely — services inflation — jumped from 3.2% to 3.7%.</p>
+
+  <p class="reveal">My expectation for the coming year is that inflation rises through the summer months without running away. The mechanics point that way: the Ofgem price cap is due to rise by around 13% this summer as the energy shock feeds through with a lag, and the Bank itself projects CPI just under 3% in the third quarter and slightly above 3.25% in the fourth. But the peace framework agreed in June has already pulled Brent from around $100 back to the high $70s, and the domestic disinflation process underneath the energy overlay looks broadly intact — food inflation at 2.2% is the lowest since December 2024, goods inflation has slowed to 2.0%, and wage settlements are moderating.</p>
+
+  <p class="reveal">In line with that, I do not expect the Bank of England to raise rates above current levels. Bank Rate sits at <strong>3.75%, held 7–2 in June</strong> with two members — Megan Greene and Huw Pill — voting for 4%. I am aware this puts me mildly against part of the market: Bank of America has pencilled in hikes for July and September, and ING has talked of a &ldquo;one-and-done&rdquo; rise this summer. But market pricing as of early July has the Bank on hold for the rest of the year, Oxford Economics sees a hold well into 2027, and the majority on the Committee is visibly reluctant to tighten into a loosening labour market and an economy that shrank 0.1% in April. My expectation is that Bank Rate stays roughly where it is — at 3.75% — into the medium term. For equities, a central bank on hold with inflation drifting between 2.5% and 3.25% is not a hostile backdrop. It is, if anything, rather a comfortable one for the sort of companies the FTSE 100 contains.</p>
+</div>
+
+<section class="chapter" id="ch2">
+  <div class="chapter-inner">
+    <div class="num reveal"><span class="dash"></span>§02 — Valuation</div>
+    <h2 class="reveal delay-1">Cheap, but <em>less cheap</em> than it was.</h2>
+    <p class="chapter-deck reveal delay-2">A 12.3x forward multiple and a 3.06% yield still appeal. But the trailing P/E has moved from around 14.2x to around 16.8x in a year — the price has outrun the earnings.</p>
+  </div>
+</section>
+
+<div class="container body-section">
+  <p class="reveal">UK equities remain relatively lowly priced in a global context. The FTSE All-Share stood on a twelve-month forward P/E of <strong>12.3 times</strong> as of 24 June, and the average dividend yield on the FTSE 100 was <strong>3.06%</strong> as of late May. In a world where investors large and small are looking for reliable cash returns — and where the alternative on offer in the US is a forward multiple in the twenties — that combination remains appealing.</p>
+
+  <p class="reveal">But let us be honest about the direction of travel. The index is, clearly and unsurprisingly, more highly priced than it was twelve months ago — and the point is not simply that the price has risen, but that the price has risen faster than earnings have. My estimate of the trailing P/E of the index has moved from around 14.2 times a year ago to around <strong>16.8 times today</strong>, peaking at roughly 17.4 times at the February record.</p>
+
+  <figure class="chart-figure reveal">
+    <div class="fig-label">Chart 02 / Trailing P/E, last 12 months</div>
+    <figcaption><strong>The re-rating in one line.</strong> Estimated trailing twelve-month P/E of the FTSE 100, July 2025 to July 2026, daily.</figcaption>
+    <div class="chart-wrap"><canvas id="peChart"></canvas></div>
+    <p class="source">Methodology: index level divided by aggregate constituent earnings, interpolated between two verified anchors — 12.85x at end-2024 (Siblis Research) and 16.8x today (M&amp;E calculation across 51 constituents, Yahoo Finance data). Treat the level as indicative; the shape is driven by the index price.</p>
+  </figure>
+
+  <figure class="chart-figure reveal">
+    <div class="fig-label">Chart 03 / Trailing P/E, year-end</div>
+    <figcaption><strong>Where the multiple has been.</strong> Year-end trailing P/E of the FTSE 100, recent years. Gold bars are M&amp;E estimates; the dashed line marks the long-run median of around 15.8x since 1993.</figcaption>
+    <div class="chart-wrap"><canvas id="histChart"></canvas></div>
+    <p class="source">2021–2024: Siblis Research year-end figures. 2025: M&amp;E estimate. 2026: M&amp;E constituent calculation as of 14 July. Context: the trailing P/E troughed at 7.7x in February 2009 (FT/CEIC).</p>
+  </figure>
+
+  <p class="note">The full twenty-year, year-by-year P/E history requires a licensed series (LSEG / Datastream: FTSE 100 PE, year-end values 2006–2026). I have deliberately not estimated the missing years.</p>
+
+  <p class="reveal">Two things follow from this. First, the &ldquo;UK is cheap&rdquo; argument, while still true relative to the US and to the index&rsquo;s own recent past, is no longer the table-thumping bargain it was when the trailing multiple sat in the low tens in 2023. On my numbers the index now trades slightly above its long-run median trailing multiple. Second, and more constructively, a market that has re-rated from roughly 10.5 times to roughly 17 times in three years without earnings growth doing the heavy lifting is a market in which the next leg is likely to come from earnings.</p>
+</div>
+
+<div class="pullquote reveal">
+  <blockquote>A market that has re-rated without earnings doing the heavy lifting is a market in which the next leg is likely to come from earnings.</blockquote>
+  <div class="attribution">— On the move from 10.5x to 17x</div>
+</div>
+
+<section class="chapter" id="ch3">
+  <div class="chapter-inner">
+    <div class="num reveal"><span class="dash"></span>§03 — Global</div>
+    <h2 class="reveal delay-1">A global index wearing a <em>British badge.</em></h2>
+    <p class="chapter-deck reveal delay-2">Only around a quarter of FTSE 100 revenues are generated in the UK. A weak domestic economy does not have to mean weak index earnings.</p>
+  </div>
+</section>
+
+<div class="container body-section">
+  <p class="reveal">We have to keep reminding ourselves that the FTSE 100 is a global marketplace, not a pure UK one. On the revenue-exposure estimates I am working from, around <strong>22%</strong> of FTSE 100 constituent revenues come from the United States, around <strong>21%</strong> from Asia Pacific and around <strong>16%</strong> from Europe excluding the UK — leaving only around a quarter, roughly 26%, generated in domestic UK markets. Other estimates put the overseas share at 75% to 80%, but the conclusion is the same whichever cut you take: an underperforming UK macro economy does not necessarily mean weak earnings for the companies within the FTSE 100, nor for the index as a whole.</p>
+
+  <figure class="ratio-figure reveal" id="ratioFig">
+    <div class="label"><span>FTSE 100 revenue base</span><span class="dash"></span><span>By geography</span></div>
+    <div class="compare">
+      <div class="col then">
+        <div class="when">Generated in the UK</div>
+        <div class="big">26%</div>
+        <div class="unit">of constituent revenues</div>
+      </div>
+      <div class="col now">
+        <div class="when">Generated overseas</div>
+        <div class="big">74%</div>
+        <div class="unit">US 22% · Asia Pacific 21% · Europe ex-UK 16% · rest of world</div>
+      </div>
+    </div>
+    <div class="arrow-bar"><div class="fill"></div></div>
+    <div class="caption">A London listing, a global income statement — the index is a claim on world revenues, not on UK GDP.</div>
+  </figure>
+
+  <p class="reveal">That distinction made a big difference in 2025. The UK economy delivered sticky inflation and lacklustre GDP growth, and the domestically-oriented FTSE 250 duly lagged, while the internationally-weighted FTSE 100 outran the S&amp;P 500 — and did so despite sterling rising 7% against the dollar across the year, which is normally a headwind for an index in which around 80% of constituents are multinationals. There is also a geopolitical dimension I think is underappreciated: in a world where America is seen as a less stable and less reliable marketplace, where there is persistent concern about European stagnation, an English-speaking, English-law, non-US market of global businesses is of obvious interest. Capital looking for exactly that, found the London market in 2025, and I see no reason for that flow to reverse quickly.</p>
+</div>
+
+<section class="chapter" id="ch4">
+  <div class="chapter-inner">
+    <div class="num reveal"><span class="dash"></span>§04 — Composition</div>
+    <h2 class="reveal delay-1">Stabiliser and <em>destabiliser.</em></h2>
+    <p class="chapter-deck reveal delay-2">Banks, healthcare, industrials and energy alone are around 53% of the index. Whether that mix protects you or hurts you depends entirely on the scenario.</p>
+  </div>
+</section>
+
+<div class="container body-section">
+  <p class="reveal">The index is heavily exposed to banks, healthcare, industrials, energy, consumer staples and miners — the four largest supersectors alone (banks, health care, industrial goods and services, and energy) account for around 53% of index capitalisation. That composition can be a stabiliser or a destabiliser depending entirely on the macroeconomic scenario you feed into it, and the past twelve months make the point better than any argument I could construct.</p>
+
+  <figure class="chart-figure reveal">
+    <div class="fig-label">Chart 04 / Sector performance, 12 months</div>
+    <figcaption><strong>Who carried the index.</strong> Twelve-month share price performance by sector, with each sector&rsquo;s trailing P/E as of today marked at the end of the bar.</figcaption>
+    <div class="chart-wrap tall"><canvas id="sectorChart"></canvas></div>
+    <p class="source">Methodology: market-cap-weighted baskets of the largest FTSE 100 constituents in each sector; sector P/E is the cap-weighted aggregate of constituent trailing P/Es. Baskets are proxies, not official FTSE sector indices. M&amp;E calculations from Yahoo Finance data, 14 July 2026.</p>
+  </figure>
+
+  <p class="reveal">Miners and banks have carried the index — my mining basket is up around 70% over twelve months and banks around 54% — while data-and-analytics-flavoured industrials have been savaged as the AI narrative wobbled, and consumer staples have gone essentially nowhere. Note the valuations attached to those moves: banks on under 14 times after a 54% run, insurers on under 10 times, against retail and consumer discretionary names on around 25 times.</p>
+
+  <p class="reveal">This is where the double edge sits. If inflation stays contained and net interest margins hold up — and credit losses and impairments do not deteriorate — the banks, still the index&rsquo;s largest sector, can continue to do well from here. But if inflation rises suddenly and unexpectedly, forcing the rate conversation back open, that same weighting can drive significant downward movement for the index as a whole. The miners and energy companies cut even more sharply both ways. These are businesses with largely fixed operating cost bases, which means higher commodity prices produce exponentially higher profits — margins expand dramatically in the good times — and narrow just as dramatically when prices roll over. The 2025 rally leaned heavily on precious metals: <strong>Fresnillo rose roughly fivefold and Endeavour Mining nearly threefold</strong> as gold pushed above $4,000 an ounce. Nobody should own the index without understanding that a chunk of its recent performance is, in effect, a leveraged commodity position. When the general direction of the global economy is uncertain, these are precisely the companies likely to do particularly badly.</p>
+
+  <p class="reveal">The strength of the FTSE 100 — its global revenue base — is also a channel for other people&rsquo;s problems. Weakness in the US economy, or in Asian economies, feeds directly into specific parts of this index: the Asia-focused financials sold off hard in early June on exactly that, with HSBC, Prudential and Standard Chartered falling 5% to 8% in a session. Diversification away from the UK is not diversification away from the world.</p>
+</div>
+
+<div class="pullquote reveal">
+  <blockquote>Diversification away from the UK is not diversification away from the world.</blockquote>
+  <div class="attribution">— On the global revenue base</div>
+</div>
+
+<section class="chapter" id="ch5">
+  <div class="chapter-inner">
+    <div class="num reveal"><span class="dash"></span>§05 — Defensive</div>
+    <h2 class="reveal delay-1">The defensive case — and the <em>AI-shaped hole.</em></h2>
+    <p class="chapter-deck reveal delay-2">Almost no exposure to the AI revolution. Whether that is the index&rsquo;s central weakness or its opportunity depends on what you believe about US tech.</p>
+  </div>
+</section>
+
+<div class="container body-section">
+  <p class="reveal">The FTSE 100 has underperformed the major US markets since the financial crisis, and the reason is no mystery: US growth since 2008–09 has been skewed heavily towards mega-cap technology, an industry the UK simply does not possess at scale. That absence has been the great cause of the index&rsquo;s lacklustre long-run results against the NASDAQ, and it remains the index&rsquo;s central weakness looking forward: very little exposure to the AI revolution, to software growth, or to the major US technology companies that offer great growth potential. If AI capital expenditure converts into the earnings the bulls expect, the FTSE 100 will watch that party through the window, again.</p>
+
+  <figure class="smb-figure reveal">
+    <div class="smb-grid">
+      <div class="smb-cell bad">
+        <div class="size">Technology weight — FTSE 100</div>
+        <div class="delta">3.5%</div>
+        <div class="label">Almost no direct claim on the AI trade. The index&rsquo;s central long-run weakness.</div>
+      </div>
+      <div class="smb-cell ok">
+        <div class="size">Technology weight — S&amp;P 500</div>
+        <div class="delta">c. 33%</div>
+        <div class="label">A third of the US benchmark. Concentration that cuts both ways.</div>
+      </div>
+    </div>
+  </figure>
+
+  <p class="reveal">But invert the scenario. If you think US technology is overvalued at this moment — if you think there is a bubble, or at least a valuation problem, in the AI trade — then the FTSE 100&rsquo;s old-economy DNA stops being a bug and becomes the opportunity. Doubts about AI spending and monetisation made the tech trade volatile through late 2025 and into 2026 — Nvidia is flat year-to-date — and capital rotating out of that concentration has been landing in markets offering tangible value and cash yields. Banks, miners, defence contractors and healthcare businesses now look attractive to global allocators precisely because they are not caught up in the AI hype cycle. Because of its components, the FTSE 100 can fairly be seen as a defensive area — with the important caveat from the previous section that &ldquo;defensive&rdquo; here means defensive against a tech de-rating, not defensive against a global downturn. Against the latter, an index this heavy in banks, miners and energy is nothing of the sort.</p>
+</div>
+
+<section class="chapter" id="ch6">
+  <div class="chapter-inner">
+    <div class="num reveal"><span class="dash"></span>§06 — Where I land</div>
+    <h2 class="reveal delay-1">Strong — but <em>priced accordingly.</em></h2>
+    <p class="chapter-deck reveal delay-2">The easy part of the re-rating is behind us. From here, it is about earnings delivery — and three things I am watching into the autumn.</p>
+  </div>
+</section>
+
+<div class="container body-section">
+  <p class="reveal">My position, then, is deliberately two-handed. The FTSE 100 at around 10,500 still offers what it offered eighteen months ago — a 3% cash yield, a forward multiple in the low teens, global revenues, and a genuine alternative for capital nervous about US concentration — but it offers it at a meaningfully higher price, with the trailing multiple now slightly above its own long-run median. The easy part of the re-rating is behind us. From here I want to see earnings delivery, particularly from the banks, and I will be watching three things into the autumn: whether the summer inflation bump stays as contained as I expect; whether the Bank holds at 3.75% as I expect; and whether commodity prices hold the gains that a good part of this index&rsquo;s performance is quietly built on. Strong, in short — but uneven, and priced accordingly.</p>
+</div>
+
+<section class="sources">
+  <div class="container">
+    <h3>Sources &amp; data</h3>
+    <ul>
+      <li>ONS — <em>Consumer price inflation, UK: May 2026</em>.</li>
+      <li>Bank of England — <em>Monetary Policy Summary and Minutes</em>, 18 June 2026.</li>
+      <li>FTSE Russell / LSEG — index data and factsheets.</li>
+      <li>Siblis Research — FTSE 100 P/E &amp; earnings data.</li>
+      <li>FT / CEIC — FTSE Actuaries P/E series.</li>
+      <li>Guardian, Yahoo Finance, Morningstar, AJ Bell and CNBC market reports, December 2025 to July 2026.</li>
+      <li>Forward P/E (FTSE All-Share, 12.3x as of 24 June 2026) and FTSE 100 average dividend yield (3.06%, late May 2026) as compiled by Equity &amp; Markets Insight.</li>
+      <li>Sector and index P/E calculations — M&amp;E from Yahoo Finance constituent data, 14 July 2026.</li>
+      <li>This article is comment and analysis, not investment advice.</li>
+    </ul>
+    <div class="colophon">
+      <div>Markets &amp; Equities Research · № 016</div>
+      <div>End of long read — 14.07.26</div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<script>
+  const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  const progress = document.getElementById('progress');
+  function updateProgress(){
+    const h = document.documentElement;
+    const scrolled = h.scrollTop;
+    const total = h.scrollHeight - h.clientHeight;
+    const pct = total > 0 ? (scrolled / total) * 100 : 0;
+    progress.style.width = pct + '%';
+  }
+  window.addEventListener('scroll', updateProgress, { passive: true });
+  updateProgress();
+
+  const toc = document.getElementById('toc');
+  const hero = document.getElementById('hero');
+  const heroObs = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) toc.classList.remove('visible');
+      else toc.classList.add('visible');
+    });
+  }, { rootMargin: '-20% 0px 0px 0px' });
+  heroObs.observe(hero);
+
+  const chapters = ['ch1','ch2','ch3','ch4','ch5','ch6'].map(id => document.getElementById(id));
+  const tocLinks = {};
+  document.querySelectorAll('.toc a').forEach(a => tocLinks[a.dataset.target] = a);
+  const activeObs = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        const id = e.target.id;
+        Object.values(tocLinks).forEach(a => a.classList.remove('active'));
+        if (tocLinks[id]) tocLinks[id].classList.add('active');
+      }
+    });
+  }, { rootMargin: '-40% 0px -55% 0px' });
+  chapters.forEach(s => activeObs.observe(s));
+
+  const revealObs = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        e.target.classList.add('in');
+        revealObs.unobserve(e.target);
+      }
+    });
+  }, { rootMargin: '0px 0px -20% 0px', threshold: 0.05 });
+  document.querySelectorAll('.reveal').forEach(el => revealObs.observe(el));
+
+  function animateCount(el){
+    const target = parseFloat(el.dataset.count);
+    const decimals = parseInt(el.dataset.decimals || '0');
+    const suffix = el.dataset.suffix || '';
+    const prefix = el.dataset.prefix || '';
+    const useComma = el.dataset.comma === '1';
+    const fmt = (v) => useComma ? Math.round(v).toLocaleString('en-GB') : v.toFixed(decimals);
+    const duration = 1600;
+    const start = performance.now();
+    function tick(now){
+      const t = Math.min(1, (now - start) / duration);
+      const eased = 1 - Math.pow(1 - t, 3);
+      const val = target * eased;
+      el.textContent = prefix + fmt(val) + suffix;
+      if (t < 1) requestAnimationFrame(tick);
+      else el.textContent = prefix + fmt(target) + suffix;
+    }
+    if (reducedMotion){
+      el.textContent = prefix + fmt(target) + suffix;
+      return;
+    }
+    requestAnimationFrame(tick);
+  }
+  const countObs = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        animateCount(e.target);
+        countObs.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.5 });
+  document.querySelectorAll('[data-count]').forEach(el => countObs.observe(el));
+
+  const ratioFig = document.getElementById('ratioFig');
+  const ratioObs = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) { ratioFig.classList.add('in'); ratioObs.disconnect(); }
+    });
+  }, { threshold: 0.4 });
+  ratioObs.observe(ratioFig);
+
+  // CHARTS
+  const navy = '#0f1419';
+  const cream = '#f5f1ea';
+  const accent = '#a5321c';
+  const gold = '#b8923a';
+  const muted = '#5a6370';
+  const ruleSoft = 'rgba(15,20,25,0.12)';
+
+  Chart.defaults.font.family = "'Inter Tight', sans-serif";
+  Chart.defaults.font.size = 11;
+  Chart.defaults.color = muted;
+
+  const priceLabels = ["2024-06-14", "2024-06-17", "2024-06-18", "2024-06-19", "2024-06-20", "2024-06-21", "2024-06-24", "2024-06-25", "2024-06-26", "2024-06-27", "2024-06-28", "2024-07-01", "2024-07-02", "2024-07-03", "2024-07-04", "2024-07-05", "2024-07-08", "2024-07-09", "2024-07-10", "2024-07-11", "2024-07-12", "2024-07-15", "2024-07-16", "2024-07-17", "2024-07-18", "2024-07-19", "2024-07-22", "2024-07-23", "2024-07-24", "2024-07-25", "2024-07-26", "2024-07-29", "2024-07-30", "2024-07-31", "2024-08-01", "2024-08-02", "2024-08-05", "2024-08-06", "2024-08-07", "2024-08-08", "2024-08-09", "2024-08-12", "2024-08-13", "2024-08-14", "2024-08-15", "2024-08-16", "2024-08-19", "2024-08-20", "2024-08-21", "2024-08-22", "2024-08-23", "2024-08-27", "2024-08-28", "2024-08-29", "2024-08-30", "2024-09-02", "2024-09-03", "2024-09-04", "2024-09-05", "2024-09-06", "2024-09-09", "2024-09-10", "2024-09-11", "2024-09-12", "2024-09-13", "2024-09-16", "2024-09-17", "2024-09-18", "2024-09-19", "2024-09-20", "2024-09-23", "2024-09-24", "2024-09-25", "2024-09-26", "2024-09-27", "2024-09-30", "2024-10-01", "2024-10-02", "2024-10-03", "2024-10-04", "2024-10-07", "2024-10-08", "2024-10-09", "2024-10-10", "2024-10-11", "2024-10-14", "2024-10-15", "2024-10-16", "2024-10-17", "2024-10-18", "2024-10-21", "2024-10-22", "2024-10-23", "2024-10-24", "2024-10-25", "2024-10-28", "2024-10-29", "2024-10-30", "2024-10-31", "2024-11-01", "2024-11-04", "2024-11-05", "2024-11-06", "2024-11-07", "2024-11-08", "2024-11-11", "2024-11-12", "2024-11-13", "2024-11-14", "2024-11-15", "2024-11-18", "2024-11-19", "2024-11-20", "2024-11-21", "2024-11-22", "2024-11-25", "2024-11-26", "2024-11-27", "2024-11-28", "2024-11-29", "2024-12-02", "2024-12-03", "2024-12-04", "2024-12-05", "2024-12-06", "2024-12-09", "2024-12-10", "2024-12-11", "2024-12-12", "2024-12-13", "2024-12-16", "2024-12-17", "2024-12-18", "2024-12-19", "2024-12-20", "2024-12-23", "2024-12-24", "2024-12-27", "2024-12-30", "2024-12-31", "2025-01-02", "2025-01-03", "2025-01-06", "2025-01-07", "2025-01-08", "2025-01-09", "2025-01-10", "2025-01-13", "2025-01-14", "2025-01-15", "2025-01-16", "2025-01-17", "2025-01-20", "2025-01-21", "2025-01-22", "2025-01-23", "2025-01-24", "2025-01-27", "2025-01-28", "2025-01-29", "2025-01-30", "2025-01-31", "2025-02-03", "2025-02-04", "2025-02-05", "2025-02-06", "2025-02-07", "2025-02-10", "2025-02-11", "2025-02-12", "2025-02-13", "2025-02-14", "2025-02-17", "2025-02-18", "2025-02-19", "2025-02-20", "2025-02-21", "2025-02-24", "2025-02-25", "2025-02-26", "2025-02-27", "2025-02-28", "2025-03-03", "2025-03-04", "2025-03-05", "2025-03-06", "2025-03-07", "2025-03-10", "2025-03-11", "2025-03-12", "2025-03-13", "2025-03-14", "2025-03-17", "2025-03-18", "2025-03-19", "2025-03-20", "2025-03-21", "2025-03-24", "2025-03-25", "2025-03-26", "2025-03-27", "2025-03-28", "2025-03-31", "2025-04-01", "2025-04-02", "2025-04-03", "2025-04-04", "2025-04-07", "2025-04-08", "2025-04-09", "2025-04-10", "2025-04-11", "2025-04-14", "2025-04-15", "2025-04-16", "2025-04-17", "2025-04-22", "2025-04-23", "2025-04-24", "2025-04-25", "2025-04-28", "2025-04-29", "2025-04-30", "2025-05-01", "2025-05-02", "2025-05-06", "2025-05-07", "2025-05-08", "2025-05-09", "2025-05-12", "2025-05-13", "2025-05-14", "2025-05-15", "2025-05-16", "2025-05-19", "2025-05-20", "2025-05-21", "2025-05-22", "2025-05-23", "2025-05-27", "2025-05-28", "2025-05-29", "2025-05-30", "2025-06-02", "2025-06-03", "2025-06-04", "2025-06-05", "2025-06-06", "2025-06-09", "2025-06-10", "2025-06-11", "2025-06-12", "2025-06-13", "2025-06-16", "2025-06-17", "2025-06-18", "2025-06-19", "2025-06-20", "2025-06-23", "2025-06-24", "2025-06-25", "2025-06-26", "2025-06-27", "2025-06-30", "2025-07-01", "2025-07-02", "2025-07-03", "2025-07-04", "2025-07-07", "2025-07-08", "2025-07-09", "2025-07-10", "2025-07-11", "2025-07-14", "2025-07-15", "2025-07-16", "2025-07-17", "2025-07-18", "2025-07-21", "2025-07-22", "2025-07-23", "2025-07-24", "2025-07-25", "2025-07-28", "2025-07-29", "2025-07-30", "2025-07-31", "2025-08-01", "2025-08-04", "2025-08-05", "2025-08-06", "2025-08-07", "2025-08-08", "2025-08-11", "2025-08-12", "2025-08-13", "2025-08-14", "2025-08-15", "2025-08-18", "2025-08-19", "2025-08-20", "2025-08-21", "2025-08-22", "2025-08-26", "2025-08-27", "2025-08-28", "2025-08-29", "2025-09-01", "2025-09-02", "2025-09-03", "2025-09-04", "2025-09-05", "2025-09-08", "2025-09-09", "2025-09-10", "2025-09-11", "2025-09-12", "2025-09-15", "2025-09-16", "2025-09-17", "2025-09-18", "2025-09-19", "2025-09-22", "2025-09-23", "2025-09-24", "2025-09-25", "2025-09-26", "2025-09-29", "2025-09-30", "2025-10-01", "2025-10-02", "2025-10-03", "2025-10-06", "2025-10-07", "2025-10-08", "2025-10-09", "2025-10-10", "2025-10-13", "2025-10-14", "2025-10-15", "2025-10-16", "2025-10-17", "2025-10-20", "2025-10-21", "2025-10-22", "2025-10-23", "2025-10-24", "2025-10-27", "2025-10-28", "2025-10-29", "2025-10-30", "2025-10-31", "2025-11-03", "2025-11-04", "2025-11-05", "2025-11-06", "2025-11-07", "2025-11-10", "2025-11-11", "2025-11-12", "2025-11-13", "2025-11-14", "2025-11-17", "2025-11-18", "2025-11-19", "2025-11-20", "2025-11-21", "2025-11-24", "2025-11-25", "2025-11-26", "2025-11-27", "2025-11-28", "2025-12-01", "2025-12-02", "2025-12-03", "2025-12-04", "2025-12-05", "2025-12-08", "2025-12-09", "2025-12-10", "2025-12-11", "2025-12-12", "2025-12-15", "2025-12-16", "2025-12-17", "2025-12-18", "2025-12-19", "2025-12-22", "2025-12-23", "2025-12-24", "2025-12-29", "2025-12-30", "2025-12-31", "2026-01-02", "2026-01-05", "2026-01-06", "2026-01-07", "2026-01-08", "2026-01-09", "2026-01-12", "2026-01-13", "2026-01-14", "2026-01-15", "2026-01-16", "2026-01-19", "2026-01-20", "2026-01-21", "2026-01-22", "2026-01-23", "2026-01-26", "2026-01-27", "2026-01-28", "2026-01-29", "2026-01-30", "2026-02-02", "2026-02-03", "2026-02-04", "2026-02-05", "2026-02-06", "2026-02-09", "2026-02-10", "2026-02-11", "2026-02-12", "2026-02-13", "2026-02-16", "2026-02-17", "2026-02-18", "2026-02-19", "2026-02-20", "2026-02-23", "2026-02-24", "2026-02-25", "2026-02-26", "2026-02-27", "2026-03-02", "2026-03-03", "2026-03-04", "2026-03-05", "2026-03-06", "2026-03-09", "2026-03-10", "2026-03-11", "2026-03-12", "2026-03-13", "2026-03-16", "2026-03-17", "2026-03-18", "2026-03-19", "2026-03-20", "2026-03-23", "2026-03-24", "2026-03-25", "2026-03-26", "2026-03-27", "2026-03-30", "2026-03-31", "2026-04-01", "2026-04-02", "2026-04-07", "2026-04-08", "2026-04-09", "2026-04-10", "2026-04-13", "2026-04-14", "2026-04-15", "2026-04-16", "2026-04-17", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-11", "2026-05-12", "2026-05-13", "2026-05-14", "2026-05-15", "2026-05-18", "2026-05-19", "2026-05-20", "2026-05-21", "2026-05-22", "2026-05-26", "2026-05-27", "2026-05-28", "2026-05-29", "2026-06-01", "2026-06-02", "2026-06-03", "2026-06-04", "2026-06-05", "2026-06-08", "2026-06-09", "2026-06-10", "2026-06-11", "2026-06-12", "2026-06-15", "2026-06-16", "2026-06-17", "2026-06-18", "2026-06-19", "2026-06-22", "2026-06-23", "2026-06-24", "2026-06-25", "2026-06-26", "2026-06-29", "2026-06-30", "2026-07-01", "2026-07-02", "2026-07-03", "2026-07-06", "2026-07-07", "2026-07-08", "2026-07-09", "2026-07-10", "2026-07-13", "2026-07-14"];
+  const priceData = [8146.9, 8142.2, 8191.3, 8205.1, 8272.5, 8237.7, 8281.6, 8247.8, 8225.3, 8179.7, 8164.1, 8166.8, 8121.2, 8171.1, 8241.3, 8203.9, 8193.5, 8139.8, 8193.5, 8223.3, 8252.9, 8183.0, 8164.9, 8187.5, 8204.9, 8155.7, 8198.8, 8167.4, 8153.7, 8186.4, 8285.7, 8292.4, 8274.4, 8368.0, 8283.4, 8174.7, 8008.2, 8026.7, 8166.9, 8145.0, 8168.1, 8210.3, 8235.2, 8281.1, 8347.4, 8311.4, 8356.9, 8273.3, 8283.4, 8288.0, 8327.8, 8345.5, 8343.9, 8379.6, 8376.6, 8363.8, 8298.5, 8269.6, 8241.7, 8181.5, 8270.8, 8206.0, 8193.9, 8241.0, 8273.1, 8278.4, 8309.9, 8253.7, 8328.7, 8230.0, 8259.7, 8282.8, 8268.7, 8284.9, 8320.8, 8237.0, 8276.7, 8290.9, 8282.5, 8280.6, 8303.6, 8190.6, 8243.7, 8237.7, 8253.7, 8292.7, 8249.3, 8329.1, 8385.1, 8358.3, 8318.2, 8306.5, 8258.6, 8269.4, 8248.8, 8285.6, 8219.6, 8159.6, 8110.1, 8177.2, 8184.2, 8172.4, 8166.7, 8140.7, 8072.4, 8125.2, 8025.8, 8030.3, 8071.2, 8063.6, 8109.3, 8099.0, 8085.1, 8149.3, 8262.1, 8291.7, 8258.6, 8274.8, 8281.2, 8287.3, 8312.9, 8359.4, 8335.8, 8349.4, 8308.6, 8352.1, 8280.4, 8301.6, 8311.8, 8300.3, 8262.1, 8195.2, 8199.1, 8105.3, 8084.6, 8102.7, 8137.0, 8149.8, 8121.0, 8173.0, 8260.1, 8224.0, 8249.7, 8245.3, 8251.0, 8319.7, 8248.5, 8224.2, 8201.5, 8301.1, 8391.9, 8505.2, 8520.5, 8548.3, 8545.1, 8565.2, 8502.4, 8503.7, 8533.9, 8557.8, 8646.9, 8674.0, 8583.6, 8570.8, 8623.3, 8727.3, 8700.5, 8767.8, 8777.4, 8807.4, 8764.7, 8732.5, 8768.0, 8766.7, 8712.5, 8663.0, 8659.4, 8659.0, 8668.7, 8731.5, 8756.2, 8809.7, 8871.3, 8759.0, 8755.8, 8682.8, 8679.9, 8600.2, 8496.0, 8541.0, 8542.6, 8632.3, 8680.3, 8705.2, 8706.7, 8702.0, 8646.8, 8638.0, 8663.8, 8689.6, 8666.1, 8658.9, 8582.8, 8634.8, 8608.5, 8474.7, 8055.0, 7702.1, 7910.5, 7679.5, 7913.3, 7964.2, 8134.3, 8249.1, 8275.6, 8275.7, 8328.6, 8403.2, 8407.4, 8415.3, 8417.3, 8463.5, 8494.9, 8496.8, 8596.4, 8597.4, 8559.3, 8531.6, 8554.8, 8605.0, 8602.9, 8585.0, 8633.8, 8684.6, 8699.3, 8781.1, 8786.5, 8739.3, 8718.0, 8778.1, 8726.0, 8716.5, 8772.4, 8774.3, 8787.0, 8801.3, 8811.0, 8837.9, 8832.3, 8853.1, 8864.4, 8884.9, 8850.6, 8875.2, 8834.0, 8843.5, 8791.8, 8774.7, 8758.0, 8759.0, 8718.8, 8735.6, 8798.9, 8761.0, 8785.3, 8774.7, 8823.2, 8822.9, 8806.5, 8854.2, 8867.0, 8975.7, 8941.1, 8998.1, 8938.3, 8926.6, 8972.6, 8992.1, 9013.0, 9023.8, 9061.5, 9138.4, 9120.3, 9081.4, 9136.3, 9136.9, 9132.8, 9068.6, 9128.3, 9142.7, 9164.3, 9100.8, 9095.7, 9129.7, 9147.8, 9165.2, 9177.2, 9138.9, 9157.7, 9189.2, 9288.1, 9309.2, 9321.4, 9265.8, 9255.5, 9216.8, 9187.3, 9196.3, 9116.7, 9178.0, 9216.9, 9208.2, 9221.4, 9242.5, 9225.4, 9297.6, 9283.3, 9277.0, 9195.7, 9208.4, 9228.1, 9216.7, 9226.7, 9223.3, 9250.4, 9214.0, 9284.8, 9299.8, 9350.4, 9446.4, 9427.7, 9491.3, 9479.1, 9483.6, 9548.9, 9509.4, 9427.5, 9442.9, 9452.8, 9424.8, 9436.1, 9354.6, 9403.6, 9427.0, 9515.0, 9578.6, 9645.6, 9653.8, 9696.7, 9756.1, 9760.1, 9717.3, 9701.4, 9715.0, 9777.1, 9735.8, 9682.6, 9787.2, 9899.6, 9911.4, 9807.7, 9698.4, 9675.4, 9552.3, 9507.4, 9527.7, 9539.7, 9534.9, 9609.5, 9691.6, 9693.9, 9720.5, 9702.5, 9701.8, 9692.1, 9710.9, 9667.0, 9645.1, 9642.0, 9655.5, 9703.2, 9649.0, 9751.3, 9684.8, 9774.3, 9837.8, 9897.4, 9866.0, 9889.2, 9870.7, 9866.5, 9940.7, 9931.4, 9951.1, 10004.6, 10122.7, 10048.2, 10044.7, 10124.6, 10140.7, 10137.4, 10184.4, 10238.9, 10235.3, 10195.4, 10126.8, 10138.1, 10150.1, 10143.4, 10148.9, 10207.8, 10154.4, 10171.8, 10223.5, 10341.6, 10314.6, 10402.3, 10309.2, 10369.8, 10386.2, 10353.8, 10472.1, 10402.4, 10446.4, 10473.7, 10556.2, 10686.2, 10627.0, 10686.9, 10684.7, 10680.6, 10806.4, 10846.7, 10910.6, 10780.1, 10484.1, 10567.7, 10413.9, 10284.8, 10249.5, 10412.2, 10353.8, 10305.2, 10261.2, 10317.7, 10403.6, 10305.3, 10063.5, 9918.3, 9894.2, 9965.2, 10106.8, 9972.2, 9967.4, 10128.0, 10176.5, 10364.8, 10436.3, 10348.8, 10608.9, 10603.5, 10600.5, 10583.0, 10609.1, 10559.6, 10590.0, 10667.6, 10609.1, 10498.1, 10476.5, 10457.0, 10379.1, 10321.1, 10332.8, 10213.1, 10378.8, 10363.9, 10219.1, 10438.7, 10277.0, 10233.1, 10269.4, 10265.3, 10325.4, 10372.9, 10195.4, 10323.8, 10330.6, 10432.3, 10443.5, 10466.3, 10491.4, 10505.0, 10426.0, 10409.3, 10339.0, 10373.5, 10332.3, 10360.3, 10368.1, 10373.2, 10227.3, 10254.8, 10303.9, 10471.7, 10430.6, 10494.2, 10508.6, 10399.7, 10363.3, 10437.9, 10428.9, 10461.6, 10529.9, 10508.0, 10484.2, 10497.1, 10478.3, 10652.9, 10679.0, 10651.8, 10665.9, 10489.0, 10472.5, 10497.3, 10498.3, 10523.98];
+  const peLabels = ["2025-07-14", "2025-07-15", "2025-07-16", "2025-07-17", "2025-07-18", "2025-07-21", "2025-07-22", "2025-07-23", "2025-07-24", "2025-07-25", "2025-07-28", "2025-07-29", "2025-07-30", "2025-07-31", "2025-08-01", "2025-08-04", "2025-08-05", "2025-08-06", "2025-08-07", "2025-08-08", "2025-08-11", "2025-08-12", "2025-08-13", "2025-08-14", "2025-08-15", "2025-08-18", "2025-08-19", "2025-08-20", "2025-08-21", "2025-08-22", "2025-08-26", "2025-08-27", "2025-08-28", "2025-08-29", "2025-09-01", "2025-09-02", "2025-09-03", "2025-09-04", "2025-09-05", "2025-09-08", "2025-09-09", "2025-09-10", "2025-09-11", "2025-09-12", "2025-09-15", "2025-09-16", "2025-09-17", "2025-09-18", "2025-09-19", "2025-09-22", "2025-09-23", "2025-09-24", "2025-09-25", "2025-09-26", "2025-09-29", "2025-09-30", "2025-10-01", "2025-10-02", "2025-10-03", "2025-10-06", "2025-10-07", "2025-10-08", "2025-10-09", "2025-10-10", "2025-10-13", "2025-10-14", "2025-10-15", "2025-10-16", "2025-10-17", "2025-10-20", "2025-10-21", "2025-10-22", "2025-10-23", "2025-10-24", "2025-10-27", "2025-10-28", "2025-10-29", "2025-10-30", "2025-10-31", "2025-11-03", "2025-11-04", "2025-11-05", "2025-11-06", "2025-11-07", "2025-11-10", "2025-11-11", "2025-11-12", "2025-11-13", "2025-11-14", "2025-11-17", "2025-11-18", "2025-11-19", "2025-11-20", "2025-11-21", "2025-11-24", "2025-11-25", "2025-11-26", "2025-11-27", "2025-11-28", "2025-12-01", "2025-12-02", "2025-12-03", "2025-12-04", "2025-12-05", "2025-12-08", "2025-12-09", "2025-12-10", "2025-12-11", "2025-12-12", "2025-12-15", "2025-12-16", "2025-12-17", "2025-12-18", "2025-12-19", "2025-12-22", "2025-12-23", "2025-12-24", "2025-12-29", "2025-12-30", "2025-12-31", "2026-01-02", "2026-01-05", "2026-01-06", "2026-01-07", "2026-01-08", "2026-01-09", "2026-01-12", "2026-01-13", "2026-01-14", "2026-01-15", "2026-01-16", "2026-01-19", "2026-01-20", "2026-01-21", "2026-01-22", "2026-01-23", "2026-01-26", "2026-01-27", "2026-01-28", "2026-01-29", "2026-01-30", "2026-02-02", "2026-02-03", "2026-02-04", "2026-02-05", "2026-02-06", "2026-02-09", "2026-02-10", "2026-02-11", "2026-02-12", "2026-02-13", "2026-02-16", "2026-02-17", "2026-02-18", "2026-02-19", "2026-02-20", "2026-02-23", "2026-02-24", "2026-02-25", "2026-02-26", "2026-02-27", "2026-03-02", "2026-03-03", "2026-03-04", "2026-03-05", "2026-03-06", "2026-03-09", "2026-03-10", "2026-03-11", "2026-03-12", "2026-03-13", "2026-03-16", "2026-03-17", "2026-03-18", "2026-03-19", "2026-03-20", "2026-03-23", "2026-03-24", "2026-03-25", "2026-03-26", "2026-03-27", "2026-03-30", "2026-03-31", "2026-04-01", "2026-04-02", "2026-04-07", "2026-04-08", "2026-04-09", "2026-04-10", "2026-04-13", "2026-04-14", "2026-04-15", "2026-04-16", "2026-04-17", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-11", "2026-05-12", "2026-05-13", "2026-05-14", "2026-05-15", "2026-05-18", "2026-05-19", "2026-05-20", "2026-05-21", "2026-05-22", "2026-05-26", "2026-05-27", "2026-05-28", "2026-05-29", "2026-06-01", "2026-06-02", "2026-06-03", "2026-06-04", "2026-06-05", "2026-06-08", "2026-06-09", "2026-06-10", "2026-06-11", "2026-06-12", "2026-06-15", "2026-06-16", "2026-06-17", "2026-06-18", "2026-06-19", "2026-06-22", "2026-06-23", "2026-06-24", "2026-06-25", "2026-06-26", "2026-06-29", "2026-06-30", "2026-07-01", "2026-07-02", "2026-07-03", "2026-07-06", "2026-07-07", "2026-07-08", "2026-07-09", "2026-07-10", "2026-07-13", "2026-07-14"];
+  const peData = [14.23, 14.14, 14.12, 14.19, 14.22, 14.26, 14.27, 14.33, 14.46, 14.43, 14.37, 14.46, 14.46, 14.45, 14.35, 14.45, 14.47, 14.5, 14.4, 14.4, 14.45, 14.48, 14.51, 14.53, 14.47, 14.5, 14.55, 14.71, 14.74, 14.76, 14.67, 14.66, 14.6, 14.55, 14.57, 14.44, 14.54, 14.6, 14.59, 14.61, 14.64, 14.62, 14.73, 14.71, 14.7, 14.57, 14.59, 14.62, 14.61, 14.62, 14.62, 14.66, 14.6, 14.72, 14.74, 14.82, 14.98, 14.95, 15.05, 15.03, 15.04, 15.14, 15.08, 14.95, 14.98, 14.99, 14.95, 14.97, 14.84, 14.92, 14.95, 15.09, 15.2, 15.3, 15.32, 15.39, 15.48, 15.49, 15.42, 15.4, 15.42, 15.52, 15.45, 15.37, 15.53, 15.71, 15.73, 15.57, 15.4, 15.36, 15.17, 15.09, 15.13, 15.15, 15.14, 15.26, 15.39, 15.39, 15.44, 15.41, 15.41, 15.39, 15.42, 15.36, 15.32, 15.32, 15.34, 15.42, 15.33, 15.49, 15.39, 15.53, 15.63, 15.73, 15.68, 15.72, 15.69, 15.68, 15.8, 15.79, 15.82, 15.91, 16.1, 15.98, 15.97, 16.1, 16.13, 16.12, 16.2, 16.28, 16.28, 16.22, 16.11, 16.13, 16.15, 16.14, 16.15, 16.24, 16.16, 16.18, 16.27, 16.46, 16.41, 16.55, 16.41, 16.5, 16.53, 16.48, 16.67, 16.56, 16.63, 16.67, 16.81, 17.01, 16.92, 17.02, 17.01, 17.01, 17.21, 17.27, 17.38, 17.17, 16.7, 16.83, 16.59, 16.38, 16.33, 16.59, 16.49, 16.42, 16.35, 16.44, 16.58, 16.42, 16.04, 15.81, 15.77, 15.88, 16.11, 15.89, 15.89, 16.14, 16.22, 16.52, 16.64, 16.5, 16.92, 16.91, 16.9, 16.88, 16.92, 16.84, 16.89, 17.01, 16.92, 16.75, 16.71, 16.68, 16.56, 16.47, 16.49, 16.29, 16.56, 16.54, 16.31, 16.66, 16.4, 16.33, 16.39, 16.38, 16.48, 16.56, 16.27, 16.48, 16.49, 16.66, 16.67, 16.71, 16.75, 16.77, 16.65, 16.62, 16.51, 16.57, 16.5, 16.55, 16.56, 16.57, 16.34, 16.38, 16.46, 16.73, 16.67, 16.77, 16.79, 16.62, 16.56, 16.68, 16.67, 16.72, 16.83, 16.8, 16.76, 16.78, 16.75, 17.03, 17.07, 17.03, 17.05, 16.77, 16.75, 16.79, 16.79, 16.83];
+
+  function fmtLabel(iso){
+    const d = new Date(iso);
+    return d.toLocaleDateString('en-GB', { month:'short', year:'2-digit' });
+  }
+
+  function initPriceChart(){
+    const ctx = document.getElementById('priceChart').getContext('2d');
+    const shadeStart = priceLabels.indexOf('2025-07-14');
+    new Chart(ctx, {
+      type: 'line',
+      data: {
+        labels: priceLabels,
+        datasets: [{
+          label: 'FTSE 100',
+          data: priceData,
+          borderColor: navy,
+          backgroundColor: 'rgba(15,20,25,0.05)',
+          fill: true,
+          tension: 0.1,
+          borderWidth: 2,
+          pointRadius: 0,
+          pointHoverRadius: 4,
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        animation: reducedMotion ? false : { duration: 1600, easing: 'easeOutCubic' },
+        interaction: { mode: 'index', intersect: false },
+        plugins: {
+          legend: { display: false },
+          tooltip: {
+            backgroundColor: navy, titleColor: cream, bodyColor: cream,
+            titleFont: { family: "'JetBrains Mono', monospace", size: 10 },
+            bodyFont: { family: "'Inter Tight', sans-serif", size: 12 },
+            padding: 10, displayColors: false,
+            callbacks: {
+              title: (items) => new Date(items[0].label).toLocaleDateString('en-GB', { day:'numeric', month:'short', year:'numeric' }),
+              label: (c) => c.parsed.y.toLocaleString('en-GB', { maximumFractionDigits: 0 })
+            }
+          }
+        },
+        scales: {
+          x: {
+            grid: { display: false }, border: { color: navy },
+            ticks: {
+              font: { family: "'JetBrains Mono', monospace", size: 10 },
+              maxRotation: 0, autoSkip: true, maxTicksLimit: 9,
+              callback: function(v){ return fmtLabel(this.getLabelForValue(v)); }
+            }
+          },
+          y: {
+            grid: { color: ruleSoft }, border: { display: false },
+            ticks: { callback: v => v.toLocaleString('en-GB'), font: { family: "'JetBrains Mono', monospace", size: 10 } }
+          }
+        }
+      },
+      plugins: [{
+        id: 'annotations',
+        afterDraw: (chart) => {
+          const { ctx, chartArea: { top, bottom, right }, scales: { x, y } } = chart;
+          // 10,000 line
+          const y10k = y.getPixelForValue(10000);
+          if (y10k > top && y10k < bottom){
+            ctx.save();
+            ctx.setLineDash([3,3]);
+            ctx.strokeStyle = accent; ctx.lineWidth = 1;
+            ctx.beginPath(); ctx.moveTo(x.left, y10k); ctx.lineTo(right, y10k); ctx.stroke();
+            ctx.setLineDash([]);
+            ctx.font = "10px 'JetBrains Mono', monospace";
+            ctx.fillStyle = accent; ctx.textAlign = 'left';
+            ctx.fillText('10,000 — first breached 2 Jan 2026', x.left + 6, y10k - 6);
+            ctx.restore();
+          }
+          // last-12m shade
+          const sIdx = priceLabels.indexOf('2025-07-14');
+          if (sIdx > 0){
+            const sx = x.getPixelForValue(sIdx);
+            ctx.save();
+            ctx.fillStyle = 'rgba(184,146,58,0.08)';
+            ctx.fillRect(sx, top, right - sx, bottom - top);
+            ctx.restore();
+          }
+        }
+      }]
+    });
+  }
+
+  function initPeChart(){
+    const ctx = document.getElementById('peChart').getContext('2d');
+    new Chart(ctx, {
+      type: 'line',
+      data: {
+        labels: peLabels,
+        datasets: [{
+          label: 'Trailing P/E (est.)',
+          data: peData,
+          borderColor: accent,
+          backgroundColor: 'rgba(165,50,28,0.07)',
+          fill: true,
+          tension: 0.1,
+          borderWidth: 2.2,
+          pointRadius: 0,
+          pointHoverRadius: 4,
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        animation: reducedMotion ? false : { duration: 1600, easing: 'easeOutCubic' },
+        interaction: { mode: 'index', intersect: false },
+        plugins: {
+          legend: { display: false },
+          tooltip: {
+            backgroundColor: navy, titleColor: cream, bodyColor: cream,
+            titleFont: { family: "'JetBrains Mono', monospace", size: 10 },
+            bodyFont: { family: "'Inter Tight', sans-serif", size: 12 },
+            padding: 10, displayColors: false,
+            callbacks: {
+              title: (items) => new Date(items[0].label).toLocaleDateString('en-GB', { day:'numeric', month:'short', year:'numeric' }),
+              label: (c) => c.parsed.y.toFixed(1) + 'x'
+            }
+          }
+        },
+        scales: {
+          x: {
+            grid: { display: false }, border: { color: navy },
+            ticks: {
+              font: { family: "'JetBrains Mono', monospace", size: 10 },
+              maxRotation: 0, autoSkip: true, maxTicksLimit: 7,
+              callback: function(v){ return fmtLabel(this.getLabelForValue(v)); }
+            }
+          },
+          y: {
+            min: 13, max: 18.5,
+            grid: { color: ruleSoft }, border: { display: false },
+            ticks: { callback: v => v + 'x', font: { family: "'JetBrains Mono', monospace", size: 10 } }
+          }
+        }
+      },
+      plugins: [{
+        id: 'medianLine',
+        afterDraw: (chart) => {
+          const { ctx, chartArea: { right }, scales: { x, y } } = chart;
+          const ym = y.getPixelForValue(15.8);
+          ctx.save();
+          ctx.setLineDash([3,3]);
+          ctx.strokeStyle = gold; ctx.lineWidth = 1;
+          ctx.beginPath(); ctx.moveTo(x.left, ym); ctx.lineTo(right, ym); ctx.stroke();
+          ctx.setLineDash([]);
+          ctx.font = "10px 'JetBrains Mono', monospace";
+          ctx.fillStyle = gold; ctx.textAlign = 'left';
+          ctx.fillText('15.8x — long-run median since 1993', x.left + 6, ym - 6);
+          ctx.restore();
+        }
+      }]
+    });
+  }
+
+  function initHistChart(){
+    const ctx = document.getElementById('histChart').getContext('2d');
+    const labels = ['2021','2022','2023','2024','2025 (est.)','14 Jul 2026'];
+    const data = [17.1, 13.9, 10.5, 12.9, 15.8, 16.8];
+    const colors = [navy, navy, navy, navy, gold, gold];
+    new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: labels,
+        datasets: [{ label: 'Year-end trailing P/E', data: data, backgroundColor: colors, borderWidth: 0 }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        animation: reducedMotion ? false : { duration: 1400, easing: 'easeOutCubic' },
+        plugins: {
+          legend: { display: false },
+          tooltip: {
+            backgroundColor: navy, titleColor: cream, bodyColor: cream,
+            titleFont: { family: "'JetBrains Mono', monospace", size: 10 },
+            bodyFont: { family: "'Inter Tight', sans-serif", size: 12 },
+            padding: 10, displayColors: false,
+            callbacks: { label: (c) => c.parsed.y.toFixed(1) + 'x' }
+          }
+        },
+        scales: {
+          x: {
+            grid: { display: false }, border: { color: navy },
+            ticks: { font: { family: "'JetBrains Mono', monospace", size: 10 } }
+          },
+          y: {
+            beginAtZero: true, max: 20,
+            grid: { color: ruleSoft }, border: { display: false },
+            ticks: { callback: v => v + 'x', font: { family: "'JetBrains Mono', monospace", size: 10 } }
+          }
+        }
+      },
+      plugins: [{
+        id: 'medianLine2',
+        afterDraw: (chart) => {
+          const { ctx, chartArea: { right }, scales: { x, y } } = chart;
+          const ym = y.getPixelForValue(15.8);
+          ctx.save();
+          ctx.setLineDash([3,3]);
+          ctx.strokeStyle = accent; ctx.lineWidth = 1;
+          ctx.beginPath(); ctx.moveTo(x.left, ym); ctx.lineTo(right, ym); ctx.stroke();
+          ctx.setLineDash([]);
+          ctx.font = "10px 'JetBrains Mono', monospace";
+          ctx.fillStyle = accent; ctx.textAlign = 'left';
+          ctx.fillText('long-run median c. 15.8x', x.left + 6, ym - 6);
+          ctx.restore();
+        }
+      }]
+    });
+  }
+
+  function initSectorChart(){
+    const ctx = document.getElementById('sectorChart').getContext('2d');
+    const labels = ["Miners", "Banks", "Retail & consumer disc.", "Aerospace & defence", "Utilities", "Healthcare", "Energy", "Telecoms & media", "Housebuilders & property", "Consumer staples", "Insurance & asset mgmt", "Industrials"];
+    const data = [69.5, 54.4, 25.0, 24.6, 23.6, 23.4, 23.3, 21.9, 15.4, 1.6, -1.3, -26.1];
+    const pes = [17.1, 13.7, 24.9, 22.0, 20.0, 20.3, 15.7, 17.0, 15.5, 15.0, 9.7, 22.8];
+    const colors = data.map(v => v < 0 ? accent : (v > 40 ? gold : navy));
+    new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: labels,
+        datasets: [{ label: '12-month performance (%)', data: data, backgroundColor: colors, borderWidth: 0 }]
+      },
+      options: {
+        indexAxis: 'y',
+        responsive: true,
+        maintainAspectRatio: false,
+        layout: { padding: { right: 84 } },
+        animation: reducedMotion ? false : { duration: 1400, easing: 'easeOutCubic' },
+        plugins: {
+          legend: { display: false },
+          tooltip: {
+            backgroundColor: navy, titleColor: cream, bodyColor: cream,
+            titleFont: { family: "'JetBrains Mono', monospace", size: 10 },
+            bodyFont: { family: "'Inter Tight', sans-serif", size: 12 },
+            padding: 10, displayColors: false,
+            callbacks: {
+              label: (c) => (c.parsed.x > 0 ? '+' : '') + c.parsed.x.toFixed(1) + '% · trailing P/E ' + pes[c.dataIndex].toFixed(1) + 'x'
+            }
+          }
+        },
+        scales: {
+          x: {
+            grid: { color: ruleSoft }, border: { display: false },
+            ticks: { callback: v => (v > 0 ? '+' : '') + v + '%', font: { family: "'JetBrains Mono', monospace", size: 10 } }
+          },
+          y: {
+            grid: { display: false }, border: { color: navy },
+            ticks: { font: { family: "'Inter Tight', sans-serif", size: 12 } }
+          }
+        }
+      },
+      plugins: [{
+        id: 'peLabels',
+        afterDraw: (chart) => {
+          const { ctx, scales: { x, y } } = chart;
+          ctx.save();
+          ctx.font = "10px 'JetBrains Mono', monospace";
+          ctx.textBaseline = 'middle';
+          chart.getDatasetMeta(0).data.forEach((bar, i) => {
+            const v = data[i];
+            const xPos = v >= 0 ? bar.x + 8 : x.getPixelForValue(0) + 8;
+            ctx.fillStyle = muted;
+            ctx.textAlign = 'left';
+            ctx.fillText('P/E ' + pes[i].toFixed(1) + 'x', xPos, bar.y);
+          });
+          ctx.restore();
+        }
+      }]
+    });
+  }
+
+  const chartInited = { price:false, pe:false, hist:false, sector:false };
+  const chartObs = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (!e.isIntersecting) return;
+      if (e.target.id === 'priceChart' && !chartInited.price){ chartInited.price = true; initPriceChart(); }
+      if (e.target.id === 'peChart' && !chartInited.pe){ chartInited.pe = true; initPeChart(); }
+      if (e.target.id === 'histChart' && !chartInited.hist){ chartInited.hist = true; initHistChart(); }
+      if (e.target.id === 'sectorChart' && !chartInited.sector){ chartInited.sector = true; initSectorChart(); }
+    });
+  }, { threshold: 0.2 });
+  ['priceChart','peChart','histChart','sectorChart'].forEach(id => chartObs.observe(document.getElementById(id)));
+</script>
+
+</body>
+</html>
