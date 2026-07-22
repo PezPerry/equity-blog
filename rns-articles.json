@@ -1,5 +1,130 @@
 [
   {
+    "company": "IP Group PLC",
+    "ticker": "IPO",
+    "publish_date": "22 July 2026",
+    "date_iso": "2026-07-22",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>Cambridge Raman Imaging (CRI)</strong>, a portfolio company of <strong>Frontier IP Group plc</strong>, has won a <strong>€400,000</strong> European Innovation Council <strong>Transition grant</strong> to scale up its Raman imaging and AI technology.</li><li>Frontier IP holds a <strong>26.81 per cent</strong> equity stake in CRI; the funding is <strong>non-dilutive</strong> and provided by the <strong>European Union</strong>.</li><li>CRI has signed a distribution agreement with <strong>Hooke Instruments Limited</strong> to sell its microscopes into the <strong>Chinese market</strong> only.</li><li>CRI will target <strong>industrial quality control in the pharmaceutical sector</strong> as an initial focus, citing lower regulatory barriers; it is in discussions with <strong>two leading pharmaceutical groups</strong> on pilot testing.</li><li>Note: this is a <strong>REACH non-regulatory announcement</strong> (media-only); no impact on Frontier IP's trading or guidance is stated.</li></ul>",
+    "source_format": "html",
+    "headline": "Frontier IP portfolio company Cambridge Raman Imaging wins a €400,000 EU grant, signs a China distribution deal and targets pharmaceutical quality control.",
+    "priority": "low",
+    "priority_reason": "Non-regulatory REACH portfolio update with no direct financial impact on Frontier IP stated.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/frontier-ip-group--fipp/portfolio-news-cri-wins-eu-grant/9680725",
+    "related_news_url": "https://news.google.com/search?q=%22Frontier%20IP%20Group%20plc%22",
+    "added_at": "2026-07-22T07:37:44.339243"
+  },
+  {
+    "company": "Hochschild Mining PLC",
+    "ticker": "HOC",
+    "publish_date": "22 July 2026",
+    "date_iso": "2026-07-22",
+    "time_period": "H1 to 30 June 2026 (Q2 and half-year)",
+    "announcement_type": "Trading update",
+    "period_detail": "H1 to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>H1 2026</strong> attributable production of <strong>151,830 gold equivalent ounces</strong> (<strong>111,429oz gold</strong>, <strong>3.1moz silver</strong>), down from <strong>165,180 GEO</strong> in H1 2025; Q2 attributable output <strong>76,231 GEO</strong> (<strong>Q2 2025: 83,530</strong>).</li><li>On track to meet <strong>2026 attributable production target of 300,000-328,000 GEO</strong>; Inmaculada, San Jose and Mara Rosa all guided to hit full-year targets.</li><li>Attributable all-in sustaining costs currently running <strong>5-10% above the guided $2,157-$2,320 per GEO</strong>, on higher prices lifting royalties/profit-share, stronger local currencies and Argentine cost inflation; any <strong>cost guidance revision at H1 results in August</strong>.</li><li>Swung to <strong>net cash of ~$51m</strong> at 30 June 2026 from <strong>net debt of $22.7m</strong> at end-2025; total cash and short-term investments <strong>~$309m</strong> ($317.0m at 31 Dec 2025).</li><li><strong>Fatality at Inmaculada in June</strong> — death of a contractor shift supervisor — prompting a full investigation; affected development area temporarily suspended.</li><li>Growth pipeline advancing: revised Royropata EIA to be submitted to the Peruvian government shortly; <strong>Monte Do Carmo investment decision expected in H2 2026</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Hochschild produced 151,830 attributable gold-equivalent ounces in H1 2026, on track for full-year output guidance, but all-in sustaining costs are running 5-10% above the guided range.",
+    "priority": "high",
+    "priority_reason": "Half-year production report with full-year guidance reaffirmed but a flagged cost overrun and possible cost-guidance revision in August.",
+    "figures": [
+      {
+        "metric": "Attributable gold equivalent production",
+        "current": "151,830 GEO",
+        "prior": "165,180 GEO",
+        "change": "-8.1%",
+        "basis": "attributable",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "Attributable gold production",
+        "current": "111,429 oz (111.43 koz)",
+        "prior": "115,670 oz (115.67 koz)",
+        "change": "-3.7%",
+        "basis": "attributable",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "Attributable silver production",
+        "current": "3.1 moz (3,111 koz)",
+        "prior": "3,812 koz",
+        "change": "-18.4%",
+        "basis": "attributable",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "Q2 attributable gold equivalent production",
+        "current": "76,231 GEO",
+        "prior": "83,530 GEO",
+        "change": "-8.7%",
+        "basis": "attributable",
+        "note": "Q2 2026 vs Q2 2025"
+      },
+      {
+        "metric": "Net cash / (net debt)",
+        "current": "net cash ~$51m",
+        "prior": "net debt $22.7m",
+        "change": "not stated",
+        "basis": "not stated",
+        "note": "30 Jun 2026 vs 31 Dec 2025"
+      },
+      {
+        "metric": "Total cash & short-term investments",
+        "current": "~$309m",
+        "prior": "$317.0m",
+        "change": "not stated",
+        "basis": "not stated",
+        "note": "30 Jun 2026 vs 31 Dec 2025"
+      },
+      {
+        "metric": "Average realised gold price",
+        "current": "$4,167/oz",
+        "prior": "$2,832/oz",
+        "change": "+47.1%",
+        "basis": "before commercial discounts",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "Average realised silver price",
+        "current": "$77.8/oz",
+        "prior": "$33.8/oz",
+        "change": "+130.2%",
+        "basis": "before commercial discounts",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "All-in sustaining cost",
+        "current": "~5-10% above $2,157-$2,320/GEO guided range",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "attributable",
+        "note": "2026 to date"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "2026 attributable production target of 300,000-328,000 gold equivalent ounces; AISC guided range $2,157-$2,320 per GEO",
+      "current": "Production target of 300,000-328,000 GEO reaffirmed; AISC currently running ~5-10% above the guided range",
+      "commentary": "Production guidance is unchanged and the group remains on track. Cost guidance is under pressure — AISC is tracking 5-10% above the guided range due to higher metal prices lifting royalties, workers' profit-share and selling expenses, stronger local currencies and Argentine inflation. Any revision to annual cost guidance will be communicated at the H1 2026 results in August."
+    },
+    "explainer": "This is a quarterly production (operational) report, not full financial results — it reports ounces mined and sold rather than profit. Figures are quoted on an 'attributable' basis, meaning 100% of Inmaculada and Mara Rosa plus Hochschild's 51% share of the San Jose joint venture; the report also shows higher 'total' figures that include the JV partner's share. Gold equivalent ounces (GEO) convert silver output into a gold-equivalent using a price ratio, so the whole business can be measured on one number.\n\nH1 attributable production of 151,830 GEO is down about 8% year on year, largely because Inmaculada processed lower grades. Despite that, the group says it remains on track for its full-year target of 300,000-328,000 GEO, helped by San Jose growing half-on-half and Mara Rosa's turnaround gradually improving.\n\nProduction guidance is unchanged, but cost guidance is the key watch item: all-in sustaining costs (the full cash cost of producing an ounce, including sustaining capital) are running 5-10% above the guided $2,157-$2,320 per GEO. Much of this is a side-effect of sharply higher gold and silver prices — realised gold averaged $4,167/oz versus $2,832 a year earlier — which mechanically increase royalties and profit-share; stronger local currencies and Argentine inflation add to it. Management will decide whether to formally revise cost guidance at the H1 results in August.\n\nThe balance sheet strengthened materially: the group moved from $22.7m net debt at end-2025 to roughly $51m net cash, driven by strong operating cash flow at high metal prices, even after paying dividends and a working-capital outflow of about $90m tied to 2025 tax and bonuses.",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/hochschild-mining--hoc/production-report-for-6-months-ended-30-june-2026/9680678",
+    "related_news_url": "https://news.google.com/search?q=%22Hochschild%20Mining%20PLC%22",
+    "added_at": "2026-07-22T07:37:44.308075"
+  },
+  {
     "company": "Whitbread PLC",
     "ticker": "WTB",
     "publish_date": "22 July 2026",
