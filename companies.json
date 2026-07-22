@@ -123,6 +123,13 @@
   "sector": "Banks",
   "sector_group": "Financials"
  },
+ "BATS": {
+  "name": "British American Tobacco p.l.c.",
+  "website": "https://www.bat.com/",
+  "ir_url": "https://www.bat.com/investors",
+  "sector": "Tobacco",
+  "sector_group": "Consumer & Retail"
+ },
  "BBCP": {
   "name": "Concrete Pumping Holdings Inc",
   "website": "https://www.concretepumpingholdings.com",
@@ -1499,6 +1506,13 @@
   "announcements_url": "https://ir.savills.com/regulatory-news",
   "sector": "Real estate services",
   "sector_group": "Property & REITs"
+ },
+ "SVT": {
+  "name": "Severn Trent Plc",
+  "website": "https://www.severntrent.com/",
+  "ir_url": "https://www.severntrent.com/investors/",
+  "sector": "Water utilities",
+  "sector_group": "Utilities"
  },
  "TATE": {
   "name": "Tate & Lyle PLC",
