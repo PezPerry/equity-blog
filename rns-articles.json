@@ -1333,6 +1333,81 @@
     "added_at": "2026-07-27T00:10:51.684779"
   },
   {
+    "company": "Anglo American PLC",
+    "ticker": "AAL",
+    "publish_date": "22 July 2026",
+    "date_iso": "2026-07-22",
+    "time_period": "Q2 2026 (quarter ended 30 June 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "Q2 2026 (quarter ended 30 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Copper</strong> production flat at <strong>173,200 tonnes</strong>: higher throughput at <strong>Los Bronces</strong> (+25% to 46,000t) offset lower-grade stockpile ore at <strong>Collahuasi</strong> (-11% to 42,600t) and anticipated lower grades at <strong>Quellaveco</strong> (75,000t, -2%).</li><li><strong>Copper unit cost guidance</strong> revised lower to <strong>c.145 c/lb</strong> (previously c.172 c/lb) — <strong>Chile c.210 c/lb</strong> (previously c.230) and <strong>Peru c.65 c/lb</strong> (previously c.100) — on higher by-product credits and favourable FX; production guidance unchanged at <strong>700,000-760,000 tonnes</strong>.</li><li><strong>Premium iron ore</strong> production down <strong>3% to 15.4 million tonnes</strong>, with <strong>Kumba</strong> -4% to 8.8Mt (planned Kolomela maintenance) and <strong>Minas-Rio</strong> -2% to 6.5Mt on lower grade and mass recovery.</li><li><strong>Rough diamond</strong> production up <strong>88% to 7.8 million carats</strong> (weak comparative from Orapa maintenance); <strong>manganese</strong> +22% to 908,300t; <strong>nickel</strong> -4% to 9,100t; <strong>steelmaking coal</strong> broadly flat at 2.0Mt.</li><li>Merger with <strong>Teck</strong> on track, completion window of <strong>September 2026 to March 2027</strong> unchanged, with <strong>China</strong> anti-trust approval the final regulatory milestone; sale of steelmaking coal to <strong>Dhilmar</strong> for up to <strong>$3.875 billion</strong> expected to complete by Q1 2027.</li><li><strong>Underlying EBITDA from De Beers and steelmaking coal expected to be negative in H1 2026</strong>; some inflationary pressure on fuel and consumables from Middle East volatility.</li></ul>",
+    "source_format": "html",
+    "headline": "Anglo American delivered flat copper and a 3% dip in premium iron ore in Q2 2026, and cut 2026 copper unit cost guidance to c.145 c/lb.",
+    "priority": "high",
+    "priority_reason": "Quarterly production report with a material cut to copper unit cost guidance and updates on the Teck merger and portfolio disposals.",
+    "figures": [
+      {
+        "metric": "Copper production",
+        "current": "173,200 tonnes",
+        "prior": "not stated",
+        "change": "flat",
+        "basis": "contained metal basis",
+        "note": "Q2 2026 vs comparative quarter"
+      },
+      {
+        "metric": "Premium iron ore production",
+        "current": "15.4 million tonnes",
+        "prior": "not stated",
+        "change": "-3%",
+        "basis": "wet basis",
+        "note": "Q2 2026 vs comparative quarter"
+      },
+      {
+        "metric": "Manganese ore production",
+        "current": "908,300 tonnes",
+        "prior": "not stated",
+        "change": "+22%",
+        "basis": "",
+        "note": "comparative affected by Australian cyclone"
+      },
+      {
+        "metric": "Rough diamond production",
+        "current": "7.8 million carats",
+        "prior": "not stated",
+        "change": "+88%",
+        "basis": "",
+        "note": "weak comparative from Orapa maintenance"
+      },
+      {
+        "metric": "Steelmaking coal production",
+        "current": "2.0 million tonnes",
+        "prior": "not stated",
+        "change": "broadly flat",
+        "basis": "",
+        "note": ""
+      },
+      {
+        "metric": "Nickel production",
+        "current": "9,100 tonnes",
+        "prior": "not stated",
+        "change": "-4%",
+        "basis": "",
+        "note": "maintenance at Barro Alto and Codemin"
+      }
+    ],
+    "guidance": {
+      "status": "lowered",
+      "previous": "Copper unit cost c.172 c/lb (Chile c.230 c/lb; Peru c.100 c/lb)",
+      "current": "Copper unit cost c.145 c/lb (Chile c.210 c/lb; Peru c.65 c/lb); 2026 copper production guidance unchanged at 700,000-760,000 tonnes",
+      "commentary": "Copper unit cost guidance was cut on the back of stronger by-product credits (e.g. molybdenum) and favourable FX movements, plus tight cost control. Production and all other 2026 guidance remains unchanged."
+    },
+    "explainer": "This is a quarterly production report, not a full financial result — it reports tonnes and carats mined rather than revenue or profit. The percentage changes are versus the same quarter a year earlier, so some large swings (diamonds +88%, manganese +22%) mainly reflect a weak prior-year comparative period (Orapa maintenance and an Australian cyclone) rather than a step-change in current demand.\n\nThe most market-relevant change is the cut to copper unit cost guidance, from c.172 c/lb to c.145 c/lb for the year. That is driven by two external tailwinds — higher credits from by-products such as molybdenum, and favourable currency moves (a weaker Chilean peso and Peruvian sol against the dollar) — rather than by producing more copper, since production guidance is unchanged. Lower unit costs support margins at current copper prices.\n\nNote the flagged warning that underlying EBITDA from De Beers and steelmaking coal is expected to be negative in H1 2026, reflecting weak diamond markets and coal conditions; both businesses are being sold or streamlined. Copper and iron ore output is weighted to the second half of 2026, so first-half volumes look softer by design.\n\nCorporate context matters here: the Teck merger (completion window September 2026 to March 2027, awaiting Chinese anti-trust clearance) and the $3.875bn steelmaking coal disposal to Dhilmar are reshaping the group into a copper-focused business, so period-on-period comparisons will become less like-for-like over time.",
+    "source_url": "https://uk.advfn.com/stock-market/london/anglo-american-AAL/share-news/Anglo-American-PLC-Anglo-American-Production-Repor/98966729",
+    "related_news_url": "https://news.google.com/search?q=%22Anglo%20American%20plc%22",
+    "added_at": "2026-07-27T00:23:54.035651"
+  },
+  {
     "company": "Centrica plc",
     "ticker": "CNA",
     "publish_date": "22 July 2026",
