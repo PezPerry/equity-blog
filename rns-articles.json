@@ -1,5 +1,57 @@
 [
   {
+    "company": "RELX PLC",
+    "ticker": "REL",
+    "publish_date": "27 July 2026",
+    "date_iso": "2026-07-27",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Andy Halford</strong> appointed <strong>Chair of the Audit Committee</strong>, effective following publication of the H1 2026 results at <strong>7am on 23 July 2026</strong>.</li><li><strong>Suzanne Wood</strong> stepped down from the Audit Committee but remains on the Board as <strong>Senior Independent Director</strong> and a member of the Remuneration, Nominations and Corporate Governance Committees.</li><li>Routine governance disclosure with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "RELX appoints Andy Halford as Chair of its Audit Committee, with Suzanne Wood stepping down from the committee.",
+    "priority": "medium",
+    "priority_reason": "Board committee reshuffle, a routine governance change with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/relx-REL/share-news/RELX-PLC-Directorate-change/98968481",
+    "related_news_url": "https://news.google.com/search?q=%22RELX%20PLC%22",
+    "added_at": "2026-07-27T00:14:44.993827"
+  },
+  {
+    "company": "Dorchester Minerals LP",
+    "ticker": "DMLP",
+    "publish_date": "27 July 2026",
+    "date_iso": "2026-07-27",
+    "time_period": "Q2 2026",
+    "announcement_type": "Dividend declaration",
+    "period_detail": "Q2 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Dorchester Minerals, L.P.</strong> announced its <strong>second-quarter 2026 distribution</strong>, though the announcement text does not state the actual per-unit distribution amount.</li><li>Cash receipts from <strong>Royalty Properties</strong> totalled approximately <strong>$50.4m</strong> in Q2, with ~66% reflecting oil sales (Mar-May 2026) and gas sales (Feb-Apr 2026) and ~34% from prior periods.</li><li>Cash receipts from the <strong>Net Profits Interest</strong> totalled approximately <strong>$16.6m</strong>, of which ~79% came from prior periods, including proceeds from a previously announced settlement affecting leasehold in <strong>Midland County, Texas</strong>.</li><li><strong>Lease bonus and other income</strong> receipts totalled approximately <strong>$2.5m</strong> in the quarter.</li><li>Also flagged: the <strong>2025 Schedule K-3</strong> (international tax relevance) is now available online for unitholders who require it — a routine tax-administration disclosure with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Dorchester Minerals announces its Q2 2026 distribution, with royalty cash receipts of approximately **$50.4m** and net profits interest receipts of approximately **$16.6m**.",
+    "priority": "medium",
+    "priority_reason": "Quarterly distribution announcement for the partnership, though no per-unit distribution figure is stated in the text.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/DMLP/share-news/Dorchester-Minerals-L-P-Announces-Its-Second-Qua/98972978",
+    "related_news_url": "https://news.google.com/search?q=%22Dorchester%20Minerals%2C%20L.P.%22",
+    "added_at": "2026-07-27T00:14:44.957791"
+  },
+  {
     "company": "Johnson Matthey PLC",
     "ticker": "JMAT",
     "publish_date": "27 July 2026",
