@@ -992,6 +992,129 @@
     "added_at": "2026-07-26T21:23:42.464802"
   },
   {
+    "company": "Naked Wines PLC",
+    "ticker": "WINE",
+    "publish_date": "23 July 2026",
+    "date_iso": "2026-07-23",
+    "time_period": "FY26 (52 weeks ended 30 March 2026)",
+    "announcement_type": "Annual results",
+    "period_detail": "FY26 (52 weeks ended 30 March 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Adjusted EBITDA (excl. inventory liquidation) of £7.6m</strong>, slightly ahead of the <strong>£5.5m–£7.5m</strong> guidance range and up <strong>35%</strong> in constant currency (<strong>+13%</strong> vs FY25: £6.7m); tracking towards the medium-term <strong>£9m–£14m</strong> target.</li><li><strong>Revenue of £199.1m, -20%</strong> year-on-year (<strong>-18%</strong> at constant currency), reflecting deliberate withdrawal from value-destructive, discount-led customer acquisition; all markets in line with management expectations.</li><li><strong>Statutory loss before tax of £6.3m</strong> (FY25: £4.9m loss), after <strong>£6.0m of adjusted items</strong> including restructuring (£3.5m), impairment (£1.8m) and software write-offs (£0.7m).</li><li><strong>Net cash (excl. leases) of £33.4m</strong>, up <strong>£3.3m</strong>, after returning <strong>£6m</strong> to shareholders via buyback; <strong>£9m</strong> underlying cash generated. Gross margin up to <strong>19.9%</strong> (FY25: 18.4%).</li><li><strong>7.7m share buyback</strong> completed by <strong>6 June 2026</strong>, equal to <strong>10.5%</strong> of opening issued share capital; ongoing distributions planned for FY27.</li><li><strong>FY27 guidance</strong> reaffirms progressive adjusted EBITDA growth and continued cash generation despite a planned lower revenue base; medium-term target of <strong>£45m</strong> cash by end-FY30 reaffirmed (£9m delivered).</li></ul>",
+    "source_format": "html",
+    "headline": "Naked Wines posts FY26 adjusted EBITDA of £7.6m, ahead of guidance and up 13% year-on-year, while revenue fell 20% as it recalibrates around a smaller, more profitable core.",
+    "priority": "high",
+    "priority_reason": "Full-year results with EBITDA ahead of guidance and new FY27 guidance issued.",
+    "figures": [
+      {
+        "metric": "Adjusted EBITDA (excl. inventory liquidation)",
+        "current": "£7.6m",
+        "prior": "£6.7m",
+        "change": "+13% (+35% constant currency)",
+        "basis": "reported/constant currency",
+        "note": "FY26; ahead of £5.5m-£7.5m guidance"
+      },
+      {
+        "metric": "Revenue",
+        "current": "£199.1m",
+        "prior": "not stated",
+        "change": "-20% (-18% constant currency)",
+        "basis": "reported/constant currency",
+        "note": "FY26"
+      },
+      {
+        "metric": "Statutory loss before tax",
+        "current": "£6.3m loss",
+        "prior": "£4.9m loss",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "FY26; includes £6.0m adjusted items"
+      },
+      {
+        "metric": "Gross Profit Margin %",
+        "current": "19.9%",
+        "prior": "18.4%",
+        "change": "+1.5pp",
+        "basis": "reported",
+        "note": "FY26"
+      },
+      {
+        "metric": "Net cash (excl. lease liabilities)",
+        "current": "£33.4m",
+        "prior": "£30.1m",
+        "change": "+£3.3m",
+        "basis": "reported",
+        "note": "after £6m buyback; £9m underlying cash generation"
+      },
+      {
+        "metric": "Free cash flow",
+        "current": "£10.6m",
+        "prior": "£18.5m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "FY26; lower inventory reduction rate"
+      },
+      {
+        "metric": "Total inventory (incl. staged payments)",
+        "current": "£97.2m",
+        "prior": "£107.6m",
+        "change": "-£10.4m",
+        "basis": "reported",
+        "note": "lowest in 5 years"
+      },
+      {
+        "metric": "Return on Equity and Cash",
+        "current": "12%",
+        "prior": "9%",
+        "change": "+3pp",
+        "basis": "reported",
+        "note": "FY26"
+      },
+      {
+        "metric": "Member Retention Rate",
+        "current": "76%",
+        "prior": "75%",
+        "change": "+1pp",
+        "basis": "reported",
+        "note": "FY26"
+      },
+      {
+        "metric": "Revenue per Member",
+        "current": "£388",
+        "prior": "£395",
+        "change": "+1% constant currency",
+        "basis": "reported/constant currency",
+        "note": "FY26"
+      },
+      {
+        "metric": "Customer Acquisition Cost",
+        "current": "£76",
+        "prior": "£74",
+        "change": "fell in constant currency",
+        "basis": "reported/constant currency",
+        "note": "FY26"
+      },
+      {
+        "metric": "Net Promoter Score",
+        "current": "77",
+        "prior": "76",
+        "change": "+1",
+        "basis": "reported",
+        "note": "FY26"
+      }
+    ],
+    "guidance": {
+      "status": "new",
+      "previous": "FY26 adjusted EBITDA (excl. inventory liquidation) guidance of £5.5m to £7.5m",
+      "current": "FY27 guidance indicates progressive growth in adjusted EBITDA (excl. inventory liquidation) and continued cash generation despite a planned reduction in the revenue base; medium-term targets of £9m–£14m adjusted EBITDA and more than £45m of cash generation by end of FY30 reaffirmed",
+      "commentary": "FY26 EBITDA of £7.6m beat the £5.5m–£7.5m guidance range. Fresh FY27 guidance points to further EBITDA growth and cash generation even as revenue keeps falling, aided by £25m of annualised savings and the FY26 price increases annualising."
+    },
+    "explainer": "Naked Wines' headline profit measure — 'adjusted EBITDA excluding inventory liquidation and associated costs' — came in at £7.6m, above the £5.5m–£7.5m range the company had guided to. The 13% reported rise (35% in constant currency) reflects tighter cost control rather than growth: revenue actually fell 20% to £199.1m as management deliberately stopped chasing discount-led customers whose acquisition economics were loss-making. So this is a smaller-but-more-profitable story, not a growth story.\n\nThe statutory loss before tax widened to £6.3m from £4.9m, but that is distorted by £6.0m of one-off 'adjusted items' — restructuring, asset impairments and software write-offs — versus just £1.3m the prior year. Stripping those out, the underlying trading picture improved, with gross margin up to 19.9% and net cash rising to £33.4m even after £6m was returned to shareholders via a buyback that retired 10.5% of the share count.\n\nOn guidance: the FY26 target has been beaten, and the company has issued fresh FY27 guidance pointing to continued EBITDA growth and cash generation despite planning for a further fall in revenue. This is underpinned by £25m of annualised cost savings already actioned (above the £23m target) and FY26 price rises annualising into FY27. The medium-term ambitions — £9m–£14m adjusted EBITDA and more than £45m of cumulative cash generation by end-FY30 (of which £9m is done) — were reaffirmed. Note the results were released on 23 July 2026 per the text, ahead of this 27 July digest.",
+    "source_url": "https://uk.advfn.com/stock-market/london/naked-wines-WINE/share-news/Naked-Wines-PLC-Final-Results/98966687",
+    "related_news_url": "https://news.google.com/search?q=%22Naked%20Wines%20plc%22",
+    "added_at": "2026-07-27T00:24:24.794419"
+  },
+  {
     "company": "Airtel Africa plc",
     "ticker": "AAF",
     "publish_date": "23 July 2026",
