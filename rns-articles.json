@@ -1,5 +1,48 @@
 [
   {
+    "company": "Motorpoint Group PLC",
+    "ticker": "MPGT",
+    "publish_date": "27 July 2026",
+    "date_iso": "2026-07-27",
+    "time_period": "Q1 FY27 (quarter to end-June 2026, FY ending 31 March 2027)",
+    "announcement_type": "Trading update",
+    "period_detail": "Q1 FY27 (quarter to end-June 2026, FY ending 31 March 2027)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Q1 FY27</strong> retail volumes up <strong>11.1%</strong> year on year as stock levels increased to support growth plans.</li><li>Profitability <strong>improved strongly</strong> year on year, supported by continued <strong>excellent metal margins</strong> and cost discipline.</li><li><strong>Motorpoint Leeds</strong>, the Group's <strong>22nd store</strong>, opened on <strong>10 July 2026</strong>, with further confirmed openings expected in due course.</li><li>Improved vehicle supply — including buying direct from consumers via <strong>Sell Your Car</strong> — plus investment in data, AI and technology underpinned the start to the year.</li><li>Non-Executive Director <strong>Mary McNamara</strong> to step down from the Board following the AGM after a ten-year tenure.</li><li>Next trading update on the six months to <strong>30 September 2026</strong> due in <strong>early October 2026</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Motorpoint reports Q1 FY27 retail volumes up 11.1% and strongly improved profitability, supported by robust metal margins and cost discipline.",
+    "priority": "high",
+    "priority_reason": "AGM trading update with volume growth and a strong year-on-year profit improvement is price-sensitive.",
+    "figures": [
+      {
+        "metric": "Retail volumes",
+        "current": "not stated (absolute)",
+        "prior": "not stated (absolute)",
+        "change": "+11.1%",
+        "basis": "vs equivalent period FY26",
+        "note": "Q1 FY27"
+      },
+      {
+        "metric": "Profitability",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "improved strongly",
+        "basis": "year on year",
+        "note": "no figures quoted"
+      }
+    ],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "This is a first-quarter trading update given at Motorpoint's AGM, covering the three months to the end of June 2026 (Q1 of the financial year ending 31 March 2027). The headline growth figure — retail volumes up 11.1% — is measured against the same quarter a year earlier, so it is a like-for-period comparison rather than a sequential one. Motorpoint attributes the rise partly to deliberately higher stock levels to support its expansion.\n\nThe update is qualitative on profit: management says profitability \"improved strongly\" year on year, helped by strong \"metal margins\" (the gross profit made on each vehicle sold) and cost control, but it prints no actual profit, revenue or margin figures. No specific numbers are given for any metric beyond the 11.1% volume figure, so the scale of the profit improvement cannot be quantified from this statement.\n\nThe company issues no formal financial guidance in this release and makes no change to any prior outlook, so guidance status is unchanged. A fuller half-year trading update covering the six months to 30 September 2026 is scheduled for early October 2026.",
+    "source_url": "https://uk.advfn.com/stock-market/london/motorpoint-MOTR/share-news/Motorpoint-Group-plc-AGM-Trading-Update/98966651",
+    "related_news_url": "https://news.google.com/search?q=%22Motorpoint%20Group%20PLC%22",
+    "added_at": "2026-07-27T00:27:02.297173"
+  },
+  {
     "company": "Auction Technology Group PLC",
     "ticker": "ATG",
     "publish_date": "27 July 2026",
