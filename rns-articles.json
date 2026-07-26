@@ -810,6 +810,89 @@
     "added_at": "2026-07-26T21:23:42.464802"
   },
   {
+    "company": "CVS Group plc",
+    "ticker": "CVSG",
+    "publish_date": "23 July 2026",
+    "date_iso": "2026-07-23",
+    "time_period": "FY to 30 June 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "FY to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>CVS Group plc</strong> FY26 (to <strong>30 June 2026</strong>) revenue up <strong>5.9%</strong> to <strong>£712.8m</strong> (FY25: £673.2m), with like-for-like sales <strong>+2.1%</strong> despite a soft UK backdrop.</li><li>Adjusted EBITDA expected at c.<strong>£141.5m</strong> (FY25: £134.6m), <strong>in line with market consensus</strong> (range £140.4m–£142.3m, average £141.6m); margin held at <strong>19.9%</strong> (FY25: 20.0%).</li><li><strong>Australia</strong> revenue up <strong>£27.0m</strong> to <strong>£79.1m</strong>, now c.<strong>11%</strong> of Group revenue and c.<strong>16%</strong> of Group EBITDA before central costs; <strong>six acquisitions</strong> (14 sites) plus a minority buy-out for <strong>A$91.0m / £45.6m</strong>.</li><li>Net bank borrowings rose to <strong>£199.6m</strong> (30 June 2025: £131.4m); leverage expected c.<strong>1.63x</strong>, versus a stated ceiling of <strong>2.0x</strong>.</li><li><strong>£50m share buyback</strong> (announced 26 May 2026) underway, of which <strong>£11.7m</strong> completed in FY26; programme runs to <strong>November 2026</strong>.</li><li>CEO <strong>Richard Fairman</strong> to retire (search underway); CMA Final Decision published <strong>24 March 2026</strong> with CVS already compliant with many remedies. FY26 prelims due <strong>24 September 2026</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "CVS Group expects FY26 revenue up 5.9% to £712.8m and adjusted EBITDA of c.£141.5m, in line with market consensus.",
+    "priority": "high",
+    "priority_reason": "Full-year trading update with revenue, EBITDA versus consensus, leverage and buyback detail — market-moving.",
+    "figures": [
+      {
+        "metric": "Revenue",
+        "current": "£712.8m",
+        "prior": "£673.2m",
+        "change": "+5.9%",
+        "basis": "reported, unaudited",
+        "note": "FY to 30 June 2026; like-for-like +2.1%"
+      },
+      {
+        "metric": "Adjusted EBITDA",
+        "current": "c.£141.5m",
+        "prior": "£134.6m",
+        "change": "+5.1%",
+        "basis": "unaudited, in line with consensus",
+        "note": "consensus range £140.4m–£142.3m, avg £141.6m"
+      },
+      {
+        "metric": "Adjusted EBITDA margin",
+        "current": "19.9%",
+        "prior": "20.0%",
+        "change": "-0.1pp",
+        "basis": "within 19%-23% guidance",
+        "note": "full year"
+      },
+      {
+        "metric": "Australia revenue",
+        "current": "£79.1m",
+        "prior": "£52.1m",
+        "change": "+£27.0m",
+        "basis": "reported",
+        "note": "now c.11% of Group revenue"
+      },
+      {
+        "metric": "Net bank borrowings",
+        "current": "£199.6m",
+        "prior": "£131.4m",
+        "change": "+£68.2m",
+        "basis": "vs 30 June 2025",
+        "note": "31 Dec 2025: £160.2m"
+      },
+      {
+        "metric": "Leverage",
+        "current": "c.1.63x",
+        "prior": "1.18x",
+        "change": "not stated",
+        "basis": "bank test basis, vs 30 June 2025",
+        "note": "ceiling of 2.0x"
+      },
+      {
+        "metric": "Capital expenditure",
+        "current": "£36.4m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "c.5.0% of revenue",
+        "note": "ongoing capex guided to c.£30m"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Adjusted EBITDA margin guidance of 19% to 23%; leverage ceiling of 2.0x",
+      "current": "FY26 Adjusted EBITDA c.£141.5m, in line with consensus; margin 19.9% within 19%-23% range; leverage c.1.63x, expected to rise towards 2.0x ceiling on buyback",
+      "commentary": "CVS confirms FY26 EBITDA lands in line with the company-compiled consensus (avg £141.6m). Margin remains within the stated 19%-23% band and leverage stays below the 2.0x ceiling, though management may temporarily exceed it for attractive acquisitions."
+    },
+    "explainer": "This is an unaudited full-year trading update for the year to 30 June 2026, ahead of the audited preliminary results on 24 September 2026. Headline revenue growth of 5.9% is a reported figure that includes acquisitions; the more comparable like-for-like measure — which strips out acquired practices and adjusts for working days and currency — was a more modest +2.1%, reflecting weak UK consumer confidence weighing on companion-animal footfall.\n\nThe key reassurance is that adjusted EBITDA of roughly £141.5m sits within the company-compiled analyst consensus range of £140.4m–£142.3m (average £141.6m). Adjusted EBITDA is a profit measure before interest, tax, depreciation, amortisation and one-off/acquisition costs, so it flatters the statutory result; the margin held broadly flat at 19.9%.\n\nGrowth is being driven by Australia, where revenue jumped to £79.1m following six practice acquisitions (plus a minority buy-out) for A$91.0m / £45.6m. That acquisition spend, alongside a £50m buyback, has pushed net bank borrowings up to £199.6m and leverage to c.1.63x, still under the stated 2.0x ceiling but rising.\n\nGuidance is effectively maintained rather than changed: EBITDA in line with consensus, margin within the 19%-23% band, and leverage within policy. Note the CEO transition — Richard Fairman intends to retire once a successor is found — and the conclusion of the CMA process, both of which remove overhangs but are not guidance events.",
+    "source_url": "https://uk.advfn.com/stock-market/london/cvs-CVSG/share-news/CVS-Group-plc-Full-year-trading-update/98966698",
+    "related_news_url": "https://news.google.com/search?q=%22CVS%20Group%20plc%22",
+    "added_at": "2026-07-27T00:21:39.855825"
+  },
+  {
     "company": "Caledonia Mining Corporation Plc",
     "ticker": "CMCL",
     "publish_date": "23 July 2026",
