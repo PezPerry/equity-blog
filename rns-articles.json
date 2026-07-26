@@ -823,6 +823,49 @@
     "added_at": "2026-07-27T00:10:51.684779"
   },
   {
+    "company": "United Rentals Inc",
+    "ticker": "URI",
+    "publish_date": "22 July 2026",
+    "date_iso": "2026-07-22",
+    "time_period": "Q2 2026",
+    "announcement_type": "Quarterly results",
+    "period_detail": "Q2 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>United Rentals</strong> reported <strong>record Q2 2026</strong> results, with growth across <strong>EPS, adjusted EBITDA and revenue</strong>, and <strong>raised</strong> its full-year <strong>2026 guidance</strong>.</li><li>CEO <strong>Matthew Flannery</strong> cited <strong>tailwinds across large projects, customer backlogs and year-to-date momentum</strong>, saying growth accelerated in the quarter.</li><li>Results include a <strong>$49m gain</strong> on the sale of part of the <strong>scaffolding business</strong> — a <strong>$37m after-tax benefit</strong> (<strong>$0.58 per diluted share</strong>) and a <strong>$49m</strong> boost to adjusted EBITDA.</li><li>Raised outlook detail is only partly legible in the source: net rental capex guided to <strong>$3.4bn–$3.8bn</strong> after gross purchases of <strong>$4.85bn–$5.25bn</strong> (versus a <strong>$2.95bn–$3.35bn</strong> / <strong>$4.4bn–$4.8bn</strong> comparative), but the specific revenue, EBITDA and EPS guidance figures are <strong>not printed</strong> in the scraped text.</li><li>Restructuring-related payments were <strong>$20m</strong> for the six months to <strong>30 June 2026</strong>; share-repurchase excise tax totalled <strong>$6m</strong> year-to-date.</li><li>Source text is <strong>garbled</strong>: headline revenue, net income, adjusted EBITDA and EPS figures and their prior-year comparatives are missing, so key numbers could not be verified.</li></ul>",
+    "source_format": "html",
+    "headline": "United Rentals posted record Q2 2026 revenue, adjusted EBITDA and EPS and raised its full-year 2026 guidance for the second time.",
+    "priority": "high",
+    "priority_reason": "Quarterly results with a raised full-year guidance from the world's largest equipment rental company.",
+    "figures": [
+      {
+        "metric": "Scaffolding disposal gain",
+        "current": "$49m ($37m after-tax; $0.58 per diluted share)",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "pre-tax gain, also a $49m benefit to adjusted EBITDA",
+        "note": "Q2 2026, one-off"
+      },
+      {
+        "metric": "Net rental capex after gross purchases (FY2026 guidance)",
+        "current": "$3.4bn–$3.8bn, after gross purchases of $4.85bn–$5.25bn",
+        "prior": "$2.95bn–$3.35bn, after gross purchases of $4.4bn–$4.8bn",
+        "change": "not stated",
+        "basis": "as printed; current vs prior guidance not explicitly labelled in source",
+        "note": "FY2026 outlook"
+      }
+    ],
+    "guidance": {
+      "status": "raised",
+      "previous": "Not printed in the scraped text; capex lines suggest a prior range of $2.95bn–$3.35bn net rental capex after gross purchases of $4.4bn–$4.8bn.",
+      "current": "Full-year 2026 outlook raised; net rental capex guided to $3.4bn–$3.8bn after gross purchases of $4.85bn–$5.25bn. Specific revenue and adjusted EBITDA guidance figures are not legible in the source.",
+      "commentary": "Management raised FY2026 guidance for the second time this year, citing large-project tailwinds, customer backlogs and year-to-date momentum. The precise upgraded revenue/EBITDA figures were not captured in the scraped text."
+    },
+    "explainer": "United Rentals reported record second-quarter 2026 results, meaning revenue, adjusted EBITDA and earnings per share all hit new highs, though the actual figures and their prior-year comparatives were missing from the scraped article. The quarter benefited from a one-off $49m pre-tax gain on selling part of its scaffolding business, which added $37m (or $0.58 a share) to net income after tax — a non-recurring item that flatters the reported numbers and should be stripped out when judging underlying trading.\n\nAdjusted EBITDA and adjusted EPS are non-GAAP measures: they exclude items such as restructuring charges, stock compensation and the accounting mark-up of fleet acquired in past deals, so they aim to show ongoing operating performance rather than statutory profit. The prior-year (2025) comparatives are complicated by a one-off benefit from the terminated H&E Rentals merger agreement, which distorts a straight year-on-year comparison.\n\nThe key news is the raised full-year 2026 guidance — the second increase this year — driven by strong demand for large construction projects, healthy customer backlogs and momentum through the first half. The company only reconciles capex ranges in the visible text ($3.4bn–$3.8bn net after $4.85bn–$5.25bn of gross fleet purchases), and it does not provide a GAAP reconciliation of its forward adjusted EBITDA, citing the difficulty of forecasting tax and other items.",
+    "source_url": "https://uk.advfn.com/stock-market/NYSE/URI/share-news/United-Rentals-Announces-Record-Second-Quarter-Res/98965086",
+    "related_news_url": "https://news.google.com/search?q=%22United%20Rentals%2C%20Inc.%22",
+    "added_at": "2026-07-27T00:18:55.628652"
+  },
+  {
     "company": "Energean plc",
     "ticker": "ENOG",
     "publish_date": "22 July 2026",
