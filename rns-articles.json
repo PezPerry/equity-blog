@@ -1,5 +1,64 @@
 [
   {
+    "company": "discoverIE Group plc",
+    "ticker": "DSCV",
+    "publish_date": "27 July 2026",
+    "date_iso": "2026-07-27",
+    "time_period": "Q1 FY to 31 March 2027",
+    "announcement_type": "Trading update",
+    "period_detail": "Q1 FY to 31 March 2027",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li>Q1 (three months to 30 June 2026) <strong>Group orders up 31% organically</strong> and <strong>sales up 6% organically</strong>, with a <strong>book-to-bill of 1.15</strong>.</li><li>Including recent acquisitions <strong>Trival</strong> and <strong>Storm</strong>, sales up <strong>10% CER</strong>; both businesses performing well.</li><li><strong>Full-year adjusted earnings tracking ahead of the Board's expectations</strong> — a positive guidance signal.</li><li>Regulatory approval for the acquisition of <strong>3Gmetalworx</strong> is progressing.</li><li>Strong order book, design-win pipeline and acquisition opportunities; Group well placed for continued growth.</li></ul>",
+    "source_format": "html",
+    "headline": "discoverIE reports Q1 organic orders up 31% and full-year adjusted earnings tracking ahead of Board expectations.",
+    "priority": "high",
+    "priority_reason": "Q1 trading update with orders up strongly and full-year earnings tracking ahead of Board expectations.",
+    "figures": [
+      {
+        "metric": "Group orders",
+        "current": "+31% organic",
+        "prior": "not stated",
+        "change": "+31%",
+        "basis": "organic, CER",
+        "note": "Q1 to 30 June 2026 vs prior year"
+      },
+      {
+        "metric": "Group sales (organic)",
+        "current": "+6% organic",
+        "prior": "not stated",
+        "change": "+6%",
+        "basis": "organic, CER",
+        "note": "Q1 to 30 June 2026"
+      },
+      {
+        "metric": "Group sales (incl. acquisitions)",
+        "current": "+10% CER",
+        "prior": "not stated",
+        "change": "+10%",
+        "basis": "CER, incl. Trival and Storm",
+        "note": "Q1 to 30 June 2026"
+      },
+      {
+        "metric": "Book-to-bill",
+        "current": "1.15",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "Q1"
+      }
+    ],
+    "guidance": {
+      "status": "raised",
+      "previous": "Board's expectations for the full year",
+      "current": "Full year adjusted earnings tracking ahead of the Board's expectations",
+      "commentary": "Continued strong order and sales momentum from Q4 last year has carried into Q1, leaving full-year adjusted earnings running ahead of the Board's prior expectations — an effective upgrade to guidance."
+    },
+    "explainer": "This is a first-quarter trading update covering the three months to 30 June 2026, the opening quarter of discoverIE's financial year ending 31 March 2027. The headline growth rates are stated on an organic, constant-exchange-rate (CER) basis: organic strips out the first 12 months of recent acquisitions (Storm, bought December 2025, and Trival, bought April 2026), and CER removes currency swings so the underlying trading trend is clearer. On that basis orders rose 31% and sales 6%.\n\nThe difference between the 6% organic sales figure and the 10% CER figure is the contribution from the newly acquired Trival and Storm businesses. A book-to-bill of 1.15 means the Group is taking in orders faster than it is shipping them, pointing to a building order book and support for sales in coming quarters.\n\nOn guidance, the key line is that full-year adjusted earnings are now tracking ahead of the Board's expectations. That is effectively an upgrade versus the prior internal/market expectation, driven by the momentum that began in the final quarter of last year continuing into Q1. Currency was a modest tailwind — sterling weakened 2% against the euro and 5% against the Nordic currencies, while strengthening 1% against the US dollar — which is why the reported picture differs from the CER measures.",
+    "source_url": "https://uk.advfn.com/stock-market/london/discoverie-DSCV/share-news/discoverIE-Group-plc-Trading-Update/98974969",
+    "related_news_url": "https://news.google.com/search?q=%22discoverIE%20Group%20plc%22",
+    "added_at": "2026-07-27T00:32:58.063971"
+  },
+  {
     "company": "Whitbread PLC",
     "ticker": "WTB",
     "publish_date": "27 July 2026",
