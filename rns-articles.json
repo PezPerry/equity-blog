@@ -1,5 +1,57 @@
 [
   {
+    "company": "Capricorn Energy PLC",
+    "ticker": "CNE",
+    "publish_date": "27 July 2026",
+    "date_iso": "2026-07-27",
+    "time_period": "",
+    "announcement_type": "Acquisition / deal",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Capricorn Energy PLC</strong> has received a proposal from <strong>Samos Energy Ltd</strong> regarding a possible cash offer at <strong>381 pence per share</strong>.</li><li>Proposal remains subject to due diligence, with discussions ongoing; <strong>no certainty</strong> an offer will be made or on what terms.</li><li>Capricorn is already subject to a firm offer from <strong>Genel Energy plc</strong>, announced under Rule 2.7 on <strong>2 July 2026</strong>, making this a competing approach.</li><li>Announcement made under <strong>Rule 2.4</strong> without Samos's consent; the <strong>Takeover Panel</strong> will set a deadline (PUSU) by which Samos must clarify its intentions.</li><li>Shareholders advised to <strong>take no action</strong>; a further announcement will follow. Capricorn has <strong>70,558,339</strong> ordinary shares in issue (as at 21 July 2026).</li></ul>",
+    "source_format": "html",
+    "headline": "Capricorn confirms possible 381p-per-share cash offer proposal from Samos Energy, setting up a bid contest against existing suitor Genel Energy.",
+    "priority": "high",
+    "priority_reason": "A second suitor has emerged with a possible cash offer, triggering a competitive takeover situation for Capricorn.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/capricorn-energy-CNE/share-news/Capricorn-Energy-PLC-Statement-regarding-possible/98963780",
+    "related_news_url": "https://news.google.com/search?q=%22Capricorn%20Energy%20PLC%22",
+    "added_at": "2026-07-27T00:17:30.867138"
+  },
+  {
+    "company": "Bloomsbury Publishing PLC",
+    "ticker": "BMY",
+    "publish_date": "27 July 2026",
+    "date_iso": "2026-07-27",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li>US District Court has formally approved the <strong>$1.5bn</strong> settlement in <strong>Bartz et al v Anthropic</strong>, covering Anthropic's training of AI models on content it had not purchased.</li><li><strong>14,087</strong> Bloomsbury titles are listed within the settlement, at about <strong>$3,000 per work</strong> (less attorney fees and expenses), divided equally between <strong>author and publisher</strong>.</li><li>Payments are estimated to start in the <strong>second half of the financial year</strong>, spread over several instalments; the total sum to Bloomsbury is not stated in the announcement.</li><li>Bloomsbury held <strong>£29.2m net cash</strong> as at <strong>28 February 2026</strong>; capital allocation priorities are organic investment, debt repayment, dividends and bolt-on acquisitions.</li><li>Announcement notes the information has <strong>not been audited or independently verified</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "US court approves the $1.5bn Bartz v Anthropic copyright settlement, with Bloomsbury among the beneficiaries across 14,087 of its listed titles.",
+    "priority": "high",
+    "priority_reason": "Material, unbudgeted cash windfall from a court-approved AI copyright settlement affecting over 14,000 of the company's titles.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/bloomsbury-publishing-BMY/share-news/Bloomsbury-Publishing-PLC-1-5bn-Anthropic-Settlem/98958938",
+    "related_news_url": "https://news.google.com/search?q=%22Bloomsbury%20Publishing%20PLC%22",
+    "added_at": "2026-07-27T00:17:30.854459"
+  },
+  {
     "company": "Greencore Group plc",
     "ticker": "GNC",
     "publish_date": "27 July 2026",
