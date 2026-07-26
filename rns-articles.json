@@ -212,6 +212,81 @@
     "added_at": "2026-07-26T21:23:42.464802"
   },
   {
+    "company": "CME Group Inc",
+    "ticker": "CME",
+    "publish_date": "22 July 2026",
+    "date_iso": "2026-07-22",
+    "time_period": "Q2 2026",
+    "announcement_type": "Interim results",
+    "period_detail": "Q2 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Q2 2026</strong> revenue of <strong>$1.7bn</strong>, operating income <strong>$1.1bn</strong>, net income <strong>$1.0bn</strong> and diluted EPS of <strong>$2.88</strong>; on an adjusted basis operating income <strong>$1.2bn</strong>, net income <strong>$1.1bn</strong> and diluted EPS <strong>$2.99</strong>.</li><li><strong>CEO Terry Duffy</strong> called the first half of 2026 \"the strongest in CME Group's history\", with record H1 revenue, adjusted operating income, adjusted net income and adjusted EPS.</li><li>Q2 average daily volume of <strong>29.8 million contracts</strong> (third-highest quarterly ADV), including non-U.S. ADV of <strong>9.1 million</strong>; total average rate per contract <strong>$0.678</strong>.</li><li>Clearing and transaction fees revenue <strong>$1.4bn</strong>; market data revenue a record <strong>$238 million</strong>, up <strong>20%</strong>.</li><li>Balance sheet at 30 June 2026: <strong>$2.3bn</strong> cash and <strong>$3.4bn</strong> debt; Q2 dividends of ~<strong>$468 million</strong> paid and <strong>$695 million</strong> of shares repurchased.</li><li>Note: comparatives for most headline figures are not printed in the release text provided; only the 20% market-data growth is stated as a year-on-year change.</li></ul>",
+    "source_format": "html",
+    "headline": "CME Group posts Q2 2026 revenue of **$1.7bn** and diluted EPS of **$2.88** ($2.99 adjusted), capping a record first half.",
+    "priority": "high",
+    "priority_reason": "Quarterly results from a major derivatives exchange, including revenue, profit, EPS and capital returns.",
+    "figures": [
+      {
+        "metric": "Market data revenue",
+        "current": "$238m",
+        "prior": "not stated",
+        "change": "+20%",
+        "basis": "reported",
+        "note": "Q2 2026, record"
+      },
+      {
+        "metric": "Revenue",
+        "current": "$1.7bn",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "Q2 2026"
+      },
+      {
+        "metric": "Operating income",
+        "current": "$1.1bn",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "GAAP",
+        "note": "Q2 2026; $1.2bn adjusted"
+      },
+      {
+        "metric": "Net income",
+        "current": "$1.0bn",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "GAAP",
+        "note": "Q2 2026; $1.1bn adjusted"
+      },
+      {
+        "metric": "Diluted EPS",
+        "current": "$2.88",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "GAAP",
+        "note": "Q2 2026; $2.99 adjusted"
+      },
+      {
+        "metric": "Average daily volume",
+        "current": "29.8m contracts",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "Q2 2026; non-U.S. ADV 9.1m"
+      }
+    ],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "CME Group reports in US dollars under US GAAP and also on an 'adjusted' (non-GAAP) basis that strips out items such as amortisation of purchased intangibles, strategic transaction costs, and foreign-exchange and investment gains or losses. That is why two sets of numbers appear: reported diluted EPS of $2.88 versus adjusted diluted EPS of $2.99 for the quarter. Adjusted figures are meant to show the underlying operating run-rate.\n\nThe release leads on absolute Q2 figures rather than year-on-year comparisons, so most growth rates are not disclosed in this text. The one explicit comparative is market data revenue, up 20% to a record $238 million. Management frames the story around records for the first half as a whole, driven by very high Q1 trading volumes and the second-highest Q2 volumes on record.\n\nNo forward financial guidance is given — CME does not typically issue earnings targets, so there is nothing raised or lowered here. Capital returns are notable: roughly $468 million of dividends and $695 million of buybacks in the quarter, against $2.3bn cash and $3.4bn debt.",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/CME/share-news/CME-Group-Inc-Reports-Strong-Financial-Results-fo/98960965",
+    "related_news_url": "https://news.google.com/search?q=%22CME%20Group%20Inc.%22",
+    "added_at": "2026-07-27T00:09:42.059691"
+  },
+  {
     "company": "J D Wetherspoon plc",
     "ticker": "JDW",
     "publish_date": "22 July 2026",
