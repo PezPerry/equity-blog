@@ -1,5 +1,80 @@
 [
   {
+    "company": "AJ Bell PLC",
+    "ticker": "AJB",
+    "publish_date": "27 July 2026",
+    "date_iso": "2026-07-27",
+    "time_period": "Q3 FY26 (three months ended 30 June 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "Q3 FY26 (three months ended 30 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>AJ Bell plc</strong> Q3 trading update (three months ended <strong>30 June 2026</strong>): assets under administration of <strong>£121.5 billion</strong>, up <strong>26%</strong> over the year and <strong>12%</strong> in the quarter.</li><li>Record platform net inflows of <strong>£3.0 billion</strong> in the quarter, up <strong>43%</strong> vs prior year (<strong>2025: £2.1 billion</strong>); gross inflows <strong>£6.0 billion</strong>, up <strong>50%</strong> (<strong>2025: £4.0 billion</strong>).</li><li>Customer numbers up <strong>39,000</strong> in the quarter to <strong>762,000</strong>, up <strong>23%</strong> over the year — D2C customers <strong>571,000</strong> (up <strong>30%</strong> y/y), advised customers <strong>191,000</strong> (up <strong>6%</strong> y/y).</li><li>Assets under management rose to <strong>£11.4 billion</strong>, up <strong>41%</strong> over the year and <strong>16%</strong> in the quarter, with record AUM net inflows of <strong>£0.8 billion</strong> (<strong>2025: £0.4 billion</strong>).</li><li>Favourable market movements added <strong>9%</strong> of opening AUA in the quarter; core MPS charge to be cut from <strong>0.15%</strong> to <strong>0.12%</strong> per annum from <strong>1 October 2026</strong>.</li><li>CEO <strong>Michael Summersgill</strong> cites strongest-ever quarter for the investment business and structural growth in the UK platform market; no FY guidance figures provided.</li></ul>",
+    "source_format": "html",
+    "headline": "AJ Bell reports record Q3 net inflows of £3.0bn and AUA up 26% year-on-year to £121.5bn, surpassing £120bn for the first time.",
+    "priority": "high",
+    "priority_reason": "Quarterly trading update from a listed platform, reporting record inflows and AUA growth — market-moving results-type news.",
+    "figures": [
+      {
+        "metric": "AUA",
+        "current": "£121.5bn",
+        "prior": "not stated",
+        "change": "+26% YoY, +12% in quarter",
+        "basis": "reported",
+        "note": "As at 30 June 2026"
+      },
+      {
+        "metric": "Gross inflows",
+        "current": "£6.0bn",
+        "prior": "£4.0bn",
+        "change": "+50%",
+        "basis": "reported",
+        "note": "Q3, vs Q3 2025"
+      },
+      {
+        "metric": "Net inflows (platform)",
+        "current": "£3.0bn",
+        "prior": "£2.1bn",
+        "change": "+43%",
+        "basis": "reported",
+        "note": "Q3, vs Q3 2025"
+      },
+      {
+        "metric": "Customer numbers",
+        "current": "762,000",
+        "prior": "not stated",
+        "change": "+23% YoY, +39,000 in quarter",
+        "basis": "reported",
+        "note": "As at 30 June 2026"
+      },
+      {
+        "metric": "AUM",
+        "current": "£11.4bn",
+        "prior": "not stated",
+        "change": "+41% YoY, +16% in quarter",
+        "basis": "reported",
+        "note": "AJ Bell Investments"
+      },
+      {
+        "metric": "Net inflows (AUM)",
+        "current": "£0.8bn",
+        "prior": "£0.4bn",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "Q3, vs Q3 2025"
+      }
+    ],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": "The update provides no numerical full-year guidance; management notes strong momentum entering the final quarter but issues no formal profit or revenue outlook."
+    },
+    "explainer": "This is a Q3 volume update covering the three months to 30 June 2026. AJ Bell is a platform business, so the key metrics are customer numbers, assets under administration (AUA — the total client money on its platform) and net inflows (new money in, less money withdrawn). Higher assets generally mean higher fee income, so these figures are a lead indicator of revenue rather than profit itself.\n\nThe growth in AUA to £121.5bn came from two sources: record net inflows of £3.0bn (new client money) and favourable market movements worth 9% of opening AUA (rising markets lifting the value of existing holdings). Both the year-on-year and in-quarter comparisons are reported figures, not organic or currency-adjusted.\n\nAssets under management (AUM, £11.4bn) is a separate, smaller pool — money run in AJ Bell's own funds and Managed Portfolio Service, which earns a higher margin than pure administration. Its 41% annual growth and record £0.8bn net inflows are the standout, and the announced MPS fee cut (0.15% to 0.12% from October) is a deliberate move to pass scale benefits to customers and defend competitiveness rather than a sign of weakness.\n\nNo formal financial guidance is given — this is a trading statement on flows and assets, not results — so there is no change to any previously stated outlook to report.",
+    "source_url": "https://uk.advfn.com/stock-market/london/aj-bell-AJB/share-news/AJ-Bell-PLC-Q3-Trading-Update/98966732",
+    "related_news_url": "https://news.google.com/search?q=%22AJ%20Bell%20plc%22",
+    "added_at": "2026-07-27T00:22:06.142996"
+  },
+  {
     "company": "Ninety One PLC",
     "ticker": "N91",
     "publish_date": "27 July 2026",
