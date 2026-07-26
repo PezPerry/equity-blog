@@ -1,5 +1,56 @@
 [
   {
+    "company": "Auction Technology Group PLC",
+    "ticker": "ATG",
+    "publish_date": "27 July 2026",
+    "date_iso": "2026-07-27",
+    "time_period": "Q3 FY26 (three months to 30 June 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "Q3 FY26 (three months to 30 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Auction Technology Group plc</strong> reports <strong>Q3</strong> (three months to <strong>30 June 2026</strong>) pro forma constant-currency revenue growth of <strong>7.8%</strong>, with pro forma growth at actual rates of <strong>7.7%</strong>.</li><li>FY26 revenue guidance <strong>raised to 5.5-6.5%</strong> on a pro forma constant-currency basis, a slight upgrade to the <strong>5.0-6.0%</strong> guided at the May half-year results.</li><li><strong>Arts & Antiques</strong> saw good growth (<strong>LiveAuctioneers</strong> progress and a strong <strong>Chairish</strong> performance); <strong>Industrial & Commercial</strong> decline consistent with H1.</li><li>Adjusted net debt to adjusted EBITDA reduced to <strong>1.7x</strong> at end-June from <strong>2.2x</strong> at end-FY25; group leverage expected around <strong>1.5x</strong> by end-FY26.</li><li>Adjusted EBITDA margin guidance unchanged at <strong>34.5-35.5%</strong>, still expected at the bottom end; <strong>Chairish</strong> integration on track for <strong>$8m</strong> operational synergies run-rate by <strong>FY27</strong>.</li><li>FY26 Pre-close Trading Update and Notice of Results due <strong>Thursday 22 October 2026</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "ATG posts Q3 pro forma constant-currency revenue growth of 7.8% and raises FY26 revenue guidance to 5.5-6.5%.",
+    "priority": "high",
+    "priority_reason": "Q3 trading update with a full-year revenue guidance upgrade.",
+    "figures": [
+      {
+        "metric": "Revenue growth (pro forma constant currency)",
+        "current": "7.8%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "pro forma constant currency",
+        "note": "Q3, three months to 30 June 2026"
+      },
+      {
+        "metric": "Revenue growth (pro forma actual rates)",
+        "current": "7.7%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "pro forma actual currency",
+        "note": "Q3 to 30 June 2026"
+      },
+      {
+        "metric": "Adjusted net debt / adjusted EBITDA",
+        "current": "1.7x",
+        "prior": "2.2x",
+        "change": "not stated",
+        "basis": "per senior facilities agreement",
+        "note": "end-June 2026 vs end-FY25"
+      }
+    ],
+    "guidance": {
+      "status": "raised",
+      "previous": "Revenue growth of 5.0-6.0% on a pro forma constant currency basis (guided at May half-year results); Adjusted EBITDA margin 34.5-35.5%, at bottom end",
+      "current": "Revenue growth of 5.5-6.5% on a pro forma constant currency basis; Adjusted EBITDA margin unchanged at 34.5-35.5%, still expected at bottom end; group leverage around 1.5x by end-FY26",
+      "commentary": "FY26 revenue guidance was upgraded by half a point at both ends of the range, driven by value-added services and healthy commission revenue from LiveAuctioneers and Chairish. Margin guidance is unchanged, with the bottom-of-range outcome reflecting lower-margin value-added services and a full year of Chairish revenue."
+    },
+    "explainer": "This is a third-quarter trading update, so the numbers are growth rates and leverage ratios rather than full financial statements. The headline growth is measured on a \"pro forma constant currency\" basis: pro forma means the recently acquired Chairish business is included in the comparative (prior-year) period as if ATG had owned it all along, so the comparison is like-for-like; constant currency strips out exchange-rate swings by applying this year's average rates to last year's figures. On that basis Q3 revenue grew 7.8%, and at actual exchange rates it grew 7.7% — the small gap shows currency had little effect this quarter.\n\nThe key news is the guidance upgrade. ATG has lifted its full-year revenue growth expectation from 5.0-6.0% to 5.5-6.5%, crediting value-added services plus commission income from the LiveAuctioneers and Chairish marketplaces. Note the full-year guidance (5.5-6.5%) is lower than the reported Q3 rate (7.8%) because it blends softer periods and a slowing Industrial & Commercial division across the year.\n\nProfitability guidance is unchanged: the adjusted EBITDA margin is still expected at 34.5-35.5%, and management continues to steer to the bottom of that range. That reflects a mix shift toward lower-margin value-added services and a full year of Chairish revenue diluting the average margin.\n\nOn the balance sheet, leverage (net debt relative to EBITDA) has fallen to 1.7x from 2.2x a year earlier and is expected to reach around 1.5x by the financial year-end, reflecting steady free cash flow generation and disciplined spending.",
+    "source_url": "https://uk.advfn.com/stock-market/london/auction-technology-ATG/share-news/Auction-Technology-Group-PLC-Q3-TRADING-UPDATE/98966700",
+    "related_news_url": "https://news.google.com/search?q=%22Auction%20Technology%20Group%20plc%22",
+    "added_at": "2026-07-27T00:26:40.995259"
+  },
+  {
     "company": "Mortgage Advice Bureau (Holdings) PLC",
     "ticker": "MAB1",
     "publish_date": "27 July 2026",
