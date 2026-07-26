@@ -992,6 +992,121 @@
     "added_at": "2026-07-26T21:23:42.464802"
   },
   {
+    "company": "Jupiter Fund Management PLC",
+    "ticker": "JUP",
+    "publish_date": "23 July 2026",
+    "date_iso": "2026-07-23",
+    "time_period": "H1 to 30 June 2026",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Underlying profit before tax up 67% to £50.7m</strong> (H1 2025: £30.4m); <strong>statutory PBT up 29% to £35.4m</strong> (H1 2025: £27.5m).</li><li><strong>AUM up 36% to £73.7bn</strong> (31 December 2025: £54.0bn), driven by the completed <strong>CCLA acquisition</strong>, <strong>£0.7bn net new business</strong> and strong performance.</li><li><strong>Net revenue up 39% to £213.3m</strong> (H1 2025: £153.9m); <strong>cost:income ratio improved 5pts to 77%</strong>, targeting <strong>70%</strong> medium term.</li><li><strong>Underlying EPS (ex-performance fees) up 80% to 7.4p</strong> (H1 2025: 4.1p); basic statutory EPS <strong>4.8p</strong> (H1 2025: 4.1p).</li><li><strong>Ordinary dividend of 3.7p per share</strong> declared, representing 50% of underlying pre-performance-fee earnings.</li><li>CCLA synergy target raised to <strong>at least £17m</strong> (from £16m), with c.£8m to be realised in 2026 (£2.5m achieved in H1); <strong>£10.8bn gross inflows</strong>, up 46%.</li></ul>",
+    "source_format": "html",
+    "headline": "Jupiter H1 2026 underlying pre-tax profit up 67% to £50.7m as AUM jumps 36% to £73.7bn following the CCLA acquisition and £0.7bn net inflows.",
+    "priority": "high",
+    "priority_reason": "Half-year results showing sharp profit growth, AUM step-up from the CCLA acquisition and raised synergy targets.",
+    "figures": [
+      {
+        "metric": "Net revenue",
+        "current": "£213.3m",
+        "prior": "£153.9m",
+        "change": "+39%",
+        "basis": "reported",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Underlying profit before tax",
+        "current": "£50.7m",
+        "prior": "£30.4m",
+        "change": "+67%",
+        "basis": "underlying",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Statutory profit before tax",
+        "current": "£35.4m",
+        "prior": "£27.5m",
+        "change": "+29%",
+        "basis": "statutory",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Underlying EPS (ex-performance fees)",
+        "current": "7.4p",
+        "prior": "4.1p",
+        "change": "+80%",
+        "basis": "underlying, excl. performance fees",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Basic statutory EPS",
+        "current": "4.8p",
+        "prior": "4.1p",
+        "change": "not stated",
+        "basis": "statutory",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "AUM",
+        "current": "£73.7bn",
+        "prior": "£54.0bn",
+        "change": "+36%",
+        "basis": "reported",
+        "note": "vs 31 December 2025; includes CCLA"
+      },
+      {
+        "metric": "Net new business (flows)",
+        "current": "£0.7bn",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "net inflows",
+        "note": "H1 2026"
+      },
+      {
+        "metric": "Gross inflows",
+        "current": "£10.8bn",
+        "prior": "£7.4bn",
+        "change": "+46%",
+        "basis": "reported",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "Cost:income ratio (ex-performance fees)",
+        "current": "77%",
+        "prior": "82%",
+        "change": "-5pts",
+        "basis": "excl. performance fee impact",
+        "note": "H1 2026"
+      },
+      {
+        "metric": "Ordinary dividend",
+        "current": "3.7p",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "per share",
+        "note": "50% of underlying pre-performance-fee earnings"
+      },
+      {
+        "metric": "Performance fee revenue",
+        "current": "£8.9m",
+        "prior": "£5.3m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "H1 2026 vs H1 2025"
+      }
+    ],
+    "guidance": {
+      "status": "raised",
+      "previous": "At completion, target of at least £16m of annualised CCLA cost synergies fully delivered on a run-rate basis by end-2027, with £4m of savings achieved through 2026",
+      "current": "Minimum synergy target of at least £17m, with around £8m of savings to be realised in 2026 (£2.5m achieved in H1)",
+      "commentary": "Jupiter raised both the quantum and pace of CCLA acquisition synergies as integration runs ahead of schedule. It reaffirmed a medium-term cost:income target of 70% and unchanged full-year pre-existing Jupiter non-compensation costs of £106m."
+    },
+    "explainer": "These are Jupiter's half-year results for the six months to 30 June 2026, and the numbers are flattered by the CCLA acquisition, which completed on 2 February 2026. That deal is the main reason assets under management jumped 36% to £73.7bn and net revenue rose 39%: the comparison is partly organic growth and partly the acquired business bolted on, so year-on-year percentages are not like-for-like. The total Group fee margin fell to 60bps because CCLA's assets earn a lower 42bps versus Jupiter's own 64bps, but higher overall AUM more than offset the thinner margin.\n\nUnderlying profit before tax (an adjusted measure that strips out exceptional items such as acquisition and integration costs of £15.3m) rose 67% to £50.7m, well ahead of the 29% rise in statutory profit to £35.4m. The gap between the two, and between underlying EPS of 7.4p and basic statutory EPS of 4.8p, reflects those one-off charges — worth watching, as underlying figures always look stronger than the audited statutory result.\n\nOn flows, the headline £0.7bn of net new business masks moving parts: £1.5bn of retail/wholesale/investment-trust inflows and £1.6bn from Continental Europe were partly offset by two large segregated-mandate redemptions (not performance-related) and £0.7bn of CCLA outflows that management had already flagged. Gross inflows of £10.8bn were up 46%.\n\nThe main guidance change is on cost synergies from CCLA: Jupiter now expects at least £17m of annualised savings (up from £16m), with roughly £8m landing in 2026 rather than the previously guided £4m — integration is running ahead of plan. The medium-term 70% cost:income target and the £106m full-year non-compensation cost expectation are unchanged.",
+    "source_url": "https://uk.advfn.com/stock-market/london/jupiter-fund-management-JUP/share-news/Jupiter-Fund-Management-PLC-Half-year-Financial-Re/98966707",
+    "related_news_url": "https://news.google.com/search?q=%22Jupiter%20Fund%20Management%20PLC%22",
+    "added_at": "2026-07-27T00:24:55.612703"
+  },
+  {
     "company": "Naked Wines PLC",
     "ticker": "WINE",
     "publish_date": "23 July 2026",
