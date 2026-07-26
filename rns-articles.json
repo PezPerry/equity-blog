@@ -1,5 +1,64 @@
 [
   {
+    "company": "Renishaw plc",
+    "ticker": "RSW",
+    "publish_date": "27 July 2026",
+    "date_iso": "2026-07-27",
+    "time_period": "Q4 and FY2026 (3 and 12 months ended 30 June 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "Q4 and FY2026 (3 and 12 months ended 30 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Record Q4 revenue of approximately £243m</strong>, up <strong>27%</strong> on the prior year and <strong>18%</strong> above Q3, with FY2026 profit <strong>ahead of expectations</strong>.</li><li><strong>FY2026 revenue expected at approximately £815m</strong>, <strong>14%</strong> higher than the prior year, with all three segments growing — led by <strong>Specialised Technologies</strong> and <strong>Position Measurement</strong>.</li><li><strong>FY2026 adjusted operating profit of approximately £152m</strong> and <strong>adjusted profit before tax of approximately £167m</strong>, <strong>31%</strong> above the prior year.</li><li>Demand strong from the <strong>semiconductor and electronics manufacturing equipment</strong> sector and from <strong>aerospace and defence</strong>.</li><li>Full year results due <strong>23 September 2026</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Renishaw reports record Q4 revenue of approximately £243m and expects FY2026 adjusted profit before tax of about £167m, ahead of expectations.",
+    "priority": "high",
+    "priority_reason": "Post-close trading update flagging record Q4 revenue and FY2026 profit ahead of expectations.",
+    "figures": [
+      {
+        "metric": "Q4 revenue",
+        "current": "approx £243m",
+        "prior": "not stated",
+        "change": "+27% YoY (+18% vs Q3)",
+        "basis": "reported",
+        "note": "3 months ended 30 June 2026"
+      },
+      {
+        "metric": "FY2026 revenue",
+        "current": "approx £815m",
+        "prior": "not stated",
+        "change": "+14%",
+        "basis": "reported",
+        "note": "12 months ended 30 June 2026, guidance"
+      },
+      {
+        "metric": "FY2026 adjusted operating profit",
+        "current": "approx £152m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "adjusted",
+        "note": "guidance"
+      },
+      {
+        "metric": "FY2026 adjusted profit before tax",
+        "current": "approx £167m",
+        "prior": "not stated",
+        "change": "+31%",
+        "basis": "adjusted",
+        "note": "guidance"
+      }
+    ],
+    "guidance": {
+      "status": "raised",
+      "previous": "Not explicitly quoted; announcement states results are 'ahead of expectations'.",
+      "current": "FY2026 revenue approximately £815m (+14%); adjusted operating profit approximately £152m; adjusted profit before tax approximately £167m (+31%).",
+      "commentary": "Renishaw signals FY2026 profit will come in ahead of prior expectations, driven by accelerating growth through the year and record Q4 revenue."
+    },
+    "explainer": "This is a post-close trading update, meaning Renishaw is flagging its likely full-year outcome ahead of audited results on 23 September 2026. The figures are approximate and company-guided, not final. The comparatives given (27% for Q4 revenue, 14% for FY revenue, 31% for adjusted profit before tax) are year-on-year against the prior period; only the changes are printed, not the actual prior-year money amounts.\n\nProfit figures are on an 'adjusted' basis, which typically strips out one-off or non-operating items — the eventual statutory numbers in September may differ. The gap between adjusted operating profit (£152m) and adjusted profit before tax (£167m) reflects net finance and other income below the operating line.\n\nThe key takeaway for guidance is that profit is now expected 'ahead of expectations', driven by accelerating momentum through the year and a record Q4, with strong demand from semiconductor/electronics manufacturing equipment and aerospace and defence customers.",
+    "source_url": "https://uk.advfn.com/stock-market/london/renishaw-RSW/share-news/Renishaw-PLC-Trading-Statement/98974984",
+    "related_news_url": "https://news.google.com/search?q=%22Renishaw%20plc%22",
+    "added_at": "2026-07-27T00:35:21.151257"
+  },
+  {
     "company": "Bluefield Solar Income Fund Limited",
     "ticker": "DRX",
     "publish_date": "27 July 2026",
