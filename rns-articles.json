@@ -1208,6 +1208,89 @@
     "added_at": "2026-07-22T07:16:58.561556"
   },
   {
+    "company": "Interactive Brokers Group Inc",
+    "ticker": "IBKR",
+    "publish_date": "21 July 2026",
+    "date_iso": "2026-07-21",
+    "time_period": "Q2 2026 (quarter ended 30 June 2026)",
+    "announcement_type": "Quarterly results",
+    "period_detail": "Q2 2026 (quarter ended 30 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Interactive Brokers Group</strong> posted <strong>Q2 2026</strong> (quarter ended <strong>30 June 2026</strong>) GAAP and adjusted diluted EPS both of <strong>$0.69</strong>, up from <strong>$0.51</strong> in the year-ago quarter.</li><li>GAAP net revenues rose to <strong>$1.90bn</strong> (<strong>$1.88bn</strong> adjusted) from <strong>$1.48bn</strong> a year earlier.</li><li>GAAP income before income taxes was <strong>$1.46bn</strong> (<strong>$1.44bn</strong> adjusted) versus <strong>$1.10bn</strong> a year ago.</li><li>Board declared a quarterly cash dividend of <strong>$0.0875</strong> per share, payable <strong>14 September 2026</strong> to holders of record on <strong>1 September 2026</strong>.</li><li>Other income increased <strong>88%</strong> to <strong>$79m</strong>, mainly <strong>$26m</strong> from the currency diversification strategy and <strong>$11m</strong> from investing activities; the currency strategy cut comprehensive earnings by <strong>$36m</strong> as the GLOBAL basket fell c.0.21% against the US dollar.</li><li>Source dates the release <strong>21 July 2026</strong> despite the 27 July digest date; US-listed (Nasdaq: IBKR), carried on the RNS/ADVFN feed.</li></ul>",
+    "source_format": "html",
+    "headline": "Interactive Brokers reports Q2 2026 GAAP diluted EPS of $0.69 (up from $0.51) on net revenues of $1.90bn.",
+    "priority": "high",
+    "priority_reason": "Quarterly results with revenue, profit and EPS all up sharply year-on-year.",
+    "figures": [
+      {
+        "metric": "GAAP diluted EPS",
+        "current": "$0.69",
+        "prior": "$0.51",
+        "change": "not stated",
+        "basis": "GAAP",
+        "note": "Q2 2026 vs year-ago quarter"
+      },
+      {
+        "metric": "Adjusted diluted EPS",
+        "current": "$0.69",
+        "prior": "$0.51",
+        "change": "not stated",
+        "basis": "non-GAAP",
+        "note": "Q2 2026 vs year-ago quarter"
+      },
+      {
+        "metric": "GAAP net revenues",
+        "current": "$1.90bn",
+        "prior": "$1.48bn",
+        "change": "not stated",
+        "basis": "GAAP",
+        "note": "Q2 2026 vs year-ago quarter"
+      },
+      {
+        "metric": "Adjusted net revenues",
+        "current": "$1.88bn",
+        "prior": "$1.48bn",
+        "change": "not stated",
+        "basis": "non-GAAP",
+        "note": "Q2 2026 vs year-ago quarter"
+      },
+      {
+        "metric": "Income before income taxes",
+        "current": "$1.46bn ($1.44bn adjusted)",
+        "prior": "$1.10bn",
+        "change": "not stated",
+        "basis": "GAAP and adjusted",
+        "note": "Q2 2026 vs year-ago quarter"
+      },
+      {
+        "metric": "Other income",
+        "current": "$79m",
+        "prior": "not stated",
+        "change": "+88%",
+        "basis": "GAAP",
+        "note": "Q2 2026 vs year-ago quarter"
+      },
+      {
+        "metric": "Quarterly dividend",
+        "current": "$0.0875 per share",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "declared",
+        "note": "payable 14 September 2026"
+      }
+    ],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "Interactive Brokers is an automated global broker. For the second quarter of 2026 (the three months to 30 June 2026), all comparisons are to the same quarter a year earlier. Both GAAP (US accounting standard) and the company's own 'adjusted' figures moved broadly in step, so there is little difference between headline and underlying performance this quarter.\n\nThe 'adjusted' numbers strip out two items management regards as noise: gains and losses from its currency diversification strategy (holding equity in a basket of ten major currencies it calls 'GLOBALs') and mark-to-market swings on its investment portfolios. This quarter the currency strategy actually reduced comprehensive earnings by $36m, split between a $21m gain in Other Income and a $57m loss in Other Comprehensive Income, because the US dollar value of the GLOBAL basket fell about 0.21%.\n\nRevenues, pre-tax income and EPS all rose strongly year-on-year, and the board maintained a quarterly cash dividend of $0.0875 per share. The announcement contains no forward-looking earnings guidance, so there is nothing to raise, lower or maintain on that front.",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/IBKR/share-news/Interactive-Brokers-Group-Announces-2Q2026-Results/98957038",
+    "related_news_url": "https://news.google.com/search?q=%22Interactive%20Brokers%20Group%2C%20Inc.%22",
+    "added_at": "2026-07-27T00:18:01.812730"
+  },
+  {
     "company": "OSB Group PLC",
     "ticker": "OSB",
     "publish_date": "21 July 2026",
