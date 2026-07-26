@@ -1,5 +1,72 @@
 [
   {
+    "company": "Volution Group plc",
+    "ticker": "FAN",
+    "publish_date": "27 July 2026",
+    "date_iso": "2026-07-27",
+    "time_period": "FY to 31 July 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "FY to 31 July 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Volution Group plc</strong> expects FY26 (year to <strong>31 July 2026</strong>) adjusted EPS of approximately <strong>38.0p</strong>, <strong>4% ahead</strong> of the current market consensus of <strong>36.4p</strong> and above the forecast range of <strong>35.2p–37.1p</strong>.</li><li>Adjusted EPS growth of <strong>15%</strong> versus the prior year, extending an adjusted EPS CAGR of <strong>c.12%</strong> over the 12 years since listing.</li><li>Total revenue growth of <strong>c.15%</strong>, supported by the acquisition of <strong>AC Industries (ACI)</strong> in Australasia (gold and copper mining exposure); organic growth <strong>c.3% cc</strong>.</li><li>By region: Continental Europe strongest at <strong>5.5%–6% cc</strong> (Nordics recovery, heat recovery demand); Australasia <strong>3.0–3.5% cc</strong>; UK revenue broadly flat against a strong comparator, with resilient social housing refurbishment offsetting weak new build and commercial.</li><li>Adjusted operating margins expanded organically in all three regions, particularly strong in the UK; operating cash conversion expected above the <strong>90%</strong> target; leverage of <strong>c.1.6x</strong> ex-leases at 31 July 2026.</li><li>Full-year results to be announced on <strong>Thursday 8 October 2026</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Volution expects FY26 adjusted EPS of about 38.0p, 4% ahead of consensus and up 15% year-on-year, driven by margin expansion, organic growth and acquisitions.",
+    "priority": "high",
+    "priority_reason": "Pre-close trading update with an implied earnings upgrade, guiding adjusted EPS above the current consensus range.",
+    "figures": [
+      {
+        "metric": "Adjusted EPS",
+        "current": "c.38.0p",
+        "prior": "not stated",
+        "change": "+15%",
+        "basis": "adjusted",
+        "note": "FY26; 4% ahead of consensus of 36.4p (range 35.2p–37.1p)"
+      },
+      {
+        "metric": "Total revenue growth",
+        "current": "c.15%",
+        "prior": "not stated",
+        "change": "c.+15%",
+        "basis": "reported",
+        "note": "FY26, incl. ACI acquisition"
+      },
+      {
+        "metric": "Organic revenue growth",
+        "current": "c.3%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "constant currency",
+        "note": "Group organic; Continental Europe 5.5%–6%, Australasia 3.0–3.5%, UK broadly flat"
+      },
+      {
+        "metric": "Operating cash conversion",
+        "current": "above 90%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "adjusted",
+        "note": "target is 90%"
+      },
+      {
+        "metric": "Leverage (ex-leases)",
+        "current": "c.1.6x",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "ex-leases",
+        "note": "at 31 July 2026"
+      }
+    ],
+    "guidance": {
+      "status": "raised",
+      "previous": "Current market consensus adjusted EPS of 36.4p (range 35.2p to 37.1p) for FY26",
+      "current": "Adjusted EPS expected to be approximately 38.0p, above the current range of market forecasts",
+      "commentary": "Volution now expects FY26 adjusted EPS about 4% ahead of consensus and above the top of the forecast range, driven by broad-based margin expansion, resilient organic growth and earnings-accretive acquisitions."
+    },
+    "explainer": "This is a pre-close trading update — a signal ahead of the full results on 8 October — and its headline point is an earnings upgrade. Analysts had pencilled in adjusted EPS of 35.2p–37.1p (consensus 36.4p); Volution now expects about 38.0p, above the whole range. \"Adjusted\" means before one-off and non-cash items such as acquisition-related amortisation, so it flatters the statutory figure.\n\nRevenue is set to grow about 15%, but most of that is bought-in: the AC Industries deal in Australasia adds the bulk, while underlying (organic) growth — stripping out acquisitions and currency moves — is only around 3%. That distinction matters because organic growth shows how the existing business is trading; here it is modest, held back by a flat UK where resilient social-housing refurbishment offsets weak new build and commercial work.\n\nThe quality of the upgrade comes largely from margins rather than volume: all three regions widened operating margins through pricing, cost control and factory efficiencies, and ACI lifted group margins in the second half. Cash generation is strong too, with conversion above the 90% target and leverage a comfortable c.1.6x, leaving room for further acquisitions.",
+    "source_url": "https://uk.advfn.com/stock-market/london/volution-FAN/share-news/Volution-Group-plc-Pre-Close-Trading-Update/98966680",
+    "related_news_url": "https://news.google.com/search?q=%22Volution%20Group%20plc%22",
+    "added_at": "2026-07-27T00:29:20.722779"
+  },
+  {
     "company": "Mitchells & Butlers PLC",
     "ticker": "MAB",
     "publish_date": "27 July 2026",
