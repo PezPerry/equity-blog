@@ -1,5 +1,31 @@
 [
   {
+    "company": "Intertek Group plc",
+    "ticker": "ITRK",
+    "publish_date": "27 July 2026",
+    "date_iso": "2026-07-27",
+    "time_period": "",
+    "announcement_type": "Acquisition / deal",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>EQT</strong>-backed <strong>Bidco</strong> discloses <strong>£388m</strong> of further equity co-investor commitments, on top of <strong>£1,014m</strong> from the initial co-investors, in its recommended final cash acquisition of <strong>Intertek Group plc</strong>.</li><li>Combined, the co-investment vehicles' expected economic indirect interest in Bidco at completion is approximately <strong>25.9%</strong>; co-investors get no governance or control rights.</li><li>One further co-investor's expected indirect interest is stated as <strong>4.5%</strong> (including a <strong>3.2%</strong> interest already disclosed in the Scheme Document); the source text does not clearly name the further co-investors.</li><li>Relates to the <strong>recommended cash acquisition agreed on 18 June 2026</strong>, to be implemented by a scheme of arrangement per the <strong>Scheme Document dated 15 July 2026</strong> — this update does not change the offer terms, price or timetable.</li><li>Note: source text is partially garbled and cuts off; the identities of the further co-investors are not legible in the supplied text.</li></ul>",
+    "source_format": "html",
+    "headline": "Bidco confirms **£388m** of further equity co-investor commitments in the recommended EQT takeover of **Intertek**, lifting co-investment vehicles' expected indirect stake to about **25.9%**.",
+    "priority": "medium",
+    "priority_reason": "Update within the live EQT/Bidco takeover of Intertek, but it only discloses additional co-investors and does not change the recommended cash offer terms or timetable.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/intertek-ITRK/share-news/EQT-Fund-Management-S-a-r-l-Update-on-Equity-Co-I/98972101",
+    "related_news_url": "https://news.google.com/search?q=%22Intertek%20Group%20plc%22",
+    "added_at": "2026-07-27T00:11:47.629257"
+  },
+  {
     "company": "Intel Corp",
     "ticker": "INTC",
     "publish_date": "27 July 2026",
@@ -271,6 +297,97 @@
     "source_url": "https://www.investegate.co.uk/announcement/rns/capricorn-energy--cne/replacement-admission-to-trading/9687451",
     "related_news_url": "https://news.google.com/search?q=%22Capricorn%20Energy%20PLC%22",
     "added_at": "2026-07-26T21:23:42.464802"
+  },
+  {
+    "company": "Tractor Supply Company",
+    "ticker": null,
+    "publish_date": "23 July 2026",
+    "date_iso": "2026-07-23",
+    "time_period": "Q2 FY26 (quarter ended 27 June 2026)",
+    "announcement_type": "Quarterly results",
+    "period_detail": "Q2 FY26 (quarter ended 27 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Tractor Supply Company</strong> reported <strong>Q2 FY26</strong> results below expectations, with <strong>comparable store sales down 1.5%</strong> (vs +1.5% a year earlier) as an <strong>unusually adverse May</strong> offset positive April and June.</li><li><strong>Net sales rose 2.3% to $4.54bn</strong> (from <strong>$4.44bn</strong>), driven by new store openings but held back by the comparable-sales decline; transaction count fell <strong>1.7%</strong> with ticket up <strong>0.2%</strong>.</li><li><strong>Diluted EPS fell 14.9% to $0.69</strong> (from <strong>$0.81</strong>); <strong>net income down 16.1% to $360.7m</strong>. On an adjusted basis EPS was <strong>$0.81</strong> and net income <strong>$423.5m</strong>, excluding Petsense impairment and VIP Petcare acquisition costs.</li><li><strong>Operating income dropped 19.2% to $467.1m</strong> (adjusted -5.1% to <strong>$548.3m</strong>); results include a <strong>$65.8m</strong> Petsense impairment/restructuring charge and planned closure of about <strong>75 Petsense stores</strong>.</li><li><strong>FY2026 guidance updated</strong> to reflect year-to-date underperformance, and the Company is <strong>withdrawing the long-term financial framework</strong> set at its December 2024 Investor Day, with an updated framework due with Q4 2026 earnings.</li><li>Returned <strong>$260.9m</strong> to shareholders in the quarter — <strong>$135.3m</strong> of buybacks (<strong>c.3.9m shares</strong>) and <strong>$125.6m</strong> in dividends; note the specific revised FY26 outlook figures are not printed in this text.</li></ul>",
+    "source_format": "html",
+    "headline": "Tractor Supply posts a 1.5% comparable-sales decline and 14.9% drop in Q2 diluted EPS to $0.69, and cuts its fiscal 2026 outlook.",
+    "priority": "high",
+    "priority_reason": "Q2 results came in below expectations with EPS down, plus a cut to FY2026 outlook and withdrawal of the long-term financial framework.",
+    "figures": [
+      {
+        "metric": "Net sales",
+        "current": "$4.54bn",
+        "prior": "$4.44bn",
+        "change": "+2.3%",
+        "basis": "reported",
+        "note": "Q2 ended 27 June 2026"
+      },
+      {
+        "metric": "Comparable store sales",
+        "current": "-1.5%",
+        "prior": "+1.5%",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "May softness drove the quarterly decline"
+      },
+      {
+        "metric": "Gross profit",
+        "current": "$1.68bn",
+        "prior": "$1.64bn",
+        "change": "+2.6%",
+        "basis": "reported",
+        "note": "gross margin 37.1% vs 36.9%"
+      },
+      {
+        "metric": "SG&A",
+        "current": "$1.22bn",
+        "prior": "$1.06bn",
+        "change": "+14.4%",
+        "basis": "reported",
+        "note": "includes $65.8m Petsense charges and $9.5m VIP Petcare acquisition costs"
+      },
+      {
+        "metric": "Operating income",
+        "current": "$467.1m",
+        "prior": "$577.8m",
+        "change": "-19.2%",
+        "basis": "reported",
+        "note": "adjusted $548.3m, -5.1%"
+      },
+      {
+        "metric": "Net income",
+        "current": "$360.7m",
+        "prior": "$430.0m",
+        "change": "-16.1%",
+        "basis": "reported",
+        "note": "adjusted $423.5m"
+      },
+      {
+        "metric": "Diluted EPS",
+        "current": "$0.69",
+        "prior": "$0.81",
+        "change": "-14.9%",
+        "basis": "reported",
+        "note": "adjusted $0.81 per share"
+      },
+      {
+        "metric": "Capital returned",
+        "current": "$260.9m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "$135.3m buybacks (c.3.9m shares) plus $125.6m dividends"
+      }
+    ],
+    "guidance": {
+      "status": "lowered",
+      "previous": "Long-term financial framework introduced at the December 2024 Investor Day (specific figures not restated in this release)",
+      "current": "Updated fiscal 2026 outlook reflecting year-to-date performance; long-term framework withdrawn, with an updated one to be provided at Q4 2026 earnings (specific revised FY26 figures not printed in this text)",
+      "commentary": "The Company revised its FY2026 outlook downward after Q2 results came in below expectations, citing discrete headwinds across most end markets, and withdrew its December 2024 long-term financial framework pending a fresh one at year-end."
+    },
+    "explainer": "Tractor Supply's headline net sales still grew 2.3% because it keeps opening stores, but the more telling number is comparable store sales — sales at existing stores — which fell 1.5%. That swing was driven almost entirely by a weak May, when shoppers pulled back on big-ticket seasonal and discretionary items; April and June were positive. Its 'consumable, usable and edible' staples held up, while the companion-animal (pet) business lagged.\n\nThe gap between reported and adjusted profit matters here. Reported operating income fell 19.2% and reported EPS fell to $0.69, but those figures are dragged down by one-off charges: a $65.8m impairment and restructuring hit tied to closing around 75 Petsense pet stores, plus $9.5m of costs for buying VIP Petcare. Strip those out and adjusted EPS was $0.81 — flat versus last year — and adjusted operating income fell a milder 5.1%. Gross margin actually edged up to 37.1%, helped by cost control and tariff benefits.\n\nOn guidance, the key event is that management cut its fiscal 2026 outlook and, more significantly, withdrew the multi-year financial targets it set at its December 2024 Investor Day. It plans to issue a new long-term framework alongside its Q4 2026 results. This release does not print the exact revised 2026 sales/margin/EPS numbers, so the precise new targets are not available from this text alone.",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/TSCO/share-news/Tractor-Supply-Company-Reports-Second-Quarter-2026/98968793",
+    "related_news_url": "https://news.google.com/search?q=%22Tractor%20Supply%20Company%22",
+    "added_at": "2026-07-27T00:11:47.591675"
   },
   {
     "company": "SLM Corporation",
