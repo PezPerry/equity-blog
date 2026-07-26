@@ -1,5 +1,64 @@
 [
   {
+    "company": "James Halstead PLC",
+    "ticker": "JHD",
+    "publish_date": "27 July 2026",
+    "date_iso": "2026-07-27",
+    "time_period": "FY to 30 June 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "FY to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>James Halstead plc</strong>, the AIM-listed flooring manufacturer, expects FY26 (year ended <strong>30 June 2026</strong>) <strong>sales marginally below</strong> the 2025 comparative and <strong>profit approximately 10-15% below</strong> last year.</li><li>Continued confidence in resilient sheet flooring, but <strong>headwinds in luxury vinyl tile (LVT)</strong>, principally in <strong>Europe</strong> and <strong>Australia</strong>.</li><li><strong>Iran conflict</strong> triggered sudden supplier surcharges on input costs; the Company chose to <strong>absorb some cost</strong> to buffer end contractors, while taking extra volume as competitors raised prices.</li><li><strong>UK</strong> sales (largest market) up modestly; <strong>June very strong</strong>, partly reflecting purchases ahead of <strong>July price increases</strong>. <strong>Middle East +54%</strong> and <strong>South Africa +25%</strong> ahead of comparatives.</li><li>Balance sheet remains <strong>ungeared</strong> and strong; Board confident on medium-term prospects.</li><li>Full-year results expected <strong>towards the end of September 2026</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "James Halstead expects FY26 sales marginally below 2025 and profit approximately 10-15% lower, hit by input-cost surcharges and weak LVT demand.",
+    "priority": "high",
+    "priority_reason": "Trading update guiding full-year profit 10-15% below last year — effectively a profit warning.",
+    "figures": [
+      {
+        "metric": "Full-year sales",
+        "current": "marginally below 2025",
+        "prior": "not stated",
+        "change": "marginally lower",
+        "basis": "not stated",
+        "note": "FY to 30 June 2026, guidance"
+      },
+      {
+        "metric": "Full-year profit",
+        "current": "approximately 10-15% below last year",
+        "prior": "not stated",
+        "change": "-10% to -15%",
+        "basis": "not stated",
+        "note": "FY to 30 June 2026, guidance"
+      },
+      {
+        "metric": "Middle East sales",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+54%",
+        "basis": "vs comparatives",
+        "note": "regional performance"
+      },
+      {
+        "metric": "South Africa sales",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+25%",
+        "basis": "vs comparatives",
+        "note": "regional performance"
+      }
+    ],
+    "guidance": {
+      "status": "new",
+      "previous": "not stated",
+      "current": "Sales marginally below the 2025 comparative; profit approximately 10-15% below that of last year",
+      "commentary": "First indication of FY26 outturn ahead of September results, signalling a profit decline of 10-15% driven by Iran-conflict input-cost surcharges the Company partly absorbed and soft LVT demand in Europe and Australia, despite UK market-share gains and strong Middle East and South Africa growth."
+    },
+    "explainer": "This is a pre-close trading update: James Halstead is flagging how the year to 30 June 2026 has gone before it reports full audited results in late September. Its guidance is that sales will be a touch below last year, but profit will fall more sharply — roughly 10-15% lower — because margins were squeezed.\n\nThe main driver is cost, not demand collapse. Following the Iran conflict, suppliers imposed sudden surcharges on raw materials. Rather than pass all of this to contractors on committed projects, the Company chose to absorb part of it, protecting customers in fragile refurbishment markets. That decision cushions revenue but compresses profit margins, which is why profit falls faster than sales.\n\nDemand was mixed by product and region. Resilient sheet flooring held up, but luxury vinyl tile (LVT) was weak in Europe and Australia. The UK, its biggest market, grew modestly, with an especially strong June — though management cautions some of that was customers buying ahead of July price rises, so it may partly borrow from future sales. Overseas, the Middle East (+54%) and South Africa (+25%) were standout gains versus the prior year.\n\nThe balance sheet remains ungeared (no net debt) with strong cash and reserves, and the Board says medium-term prospects are solid. The percentage figures quoted are year-on-year comparisons against FY25; the Company has not yet printed absolute revenue or profit numbers.",
+    "source_url": "https://uk.advfn.com/stock-market/london/james-halstead-JHD/share-news/James-Halstead-PLC-Trading-Update/98958828",
+    "related_news_url": "https://news.google.com/search?q=%22James%20Halstead%20plc%22",
+    "added_at": "2026-07-27T00:06:21.547324"
+  },
+  {
     "company": "Capricorn Energy PLC",
     "ticker": "CNE",
     "publish_date": "24 July 2026",
