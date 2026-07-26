@@ -1571,6 +1571,89 @@
     "added_at": "2026-07-27T00:10:51.684779"
   },
   {
+    "company": "RELX PLC",
+    "ticker": "REL",
+    "publish_date": "22 July 2026",
+    "date_iso": "2026-07-22",
+    "time_period": "H1 to 30 June 2026",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>RELX PLC</strong> H1 2026: revenue <strong>£4,871m</strong> (£4,741m), <strong>underlying growth +7%</strong>; <strong>full-year outlook reaffirmed</strong>.</li><li>Adjusted operating profit <strong>£1,727m</strong> (£1,652m), underlying growth <strong>+9%</strong>; adjusted operating margin up to <strong>35.5%</strong> (34.8%).</li><li>Adjusted EPS <strong>68.6p</strong> (63.5p), <strong>constant currency growth +11%</strong>; reported operating profit <strong>£1,585m</strong> (£1,490m).</li><li>Interim dividend <strong>20.9p</strong> (19.5p), <strong>+7%</strong>, payable <strong>10 September 2026</strong> (ex-dividend <strong>6 August 2026</strong>).</li><li>Of the <strong>£2,250m</strong> buyback, <strong>£1,750m</strong> completed in H1, a further £100m since 1 July, remaining £400m by year-end; net debt/EBITDA <strong>2.3x</strong>.</li><li>CEO <strong>Erik Engstrom</strong>: strong growth in Risk, a step up in STM and Legal, and strong ongoing growth in Exhibitions; two acquisitions for <strong>£103m</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "RELX H1 2026 revenue up 7% underlying to £4,871m and adjusted EPS up 11% at constant currency, with full-year outlook reaffirmed.",
+    "priority": "high",
+    "priority_reason": "Half-year results from a FTSE 100 constituent with full-year outlook reaffirmed.",
+    "figures": [
+      {
+        "metric": "Revenue",
+        "current": "£4,871m",
+        "prior": "£4,741m",
+        "change": "+7%",
+        "basis": "underlying (constant currency)",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Adjusted operating profit",
+        "current": "£1,727m",
+        "prior": "£1,652m",
+        "change": "+9%",
+        "basis": "underlying",
+        "note": "margin 35.5% vs 34.8%"
+      },
+      {
+        "metric": "Reported operating profit",
+        "current": "£1,585m",
+        "prior": "£1,490m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "includes £118m amortisation of acquired intangibles"
+      },
+      {
+        "metric": "Adjusted EPS",
+        "current": "68.6p",
+        "prior": "63.5p",
+        "change": "+11%",
+        "basis": "constant currency",
+        "note": "H1 2026"
+      },
+      {
+        "metric": "Reported profit before tax",
+        "current": "£1,523m",
+        "prior": "£1,283m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": ""
+      },
+      {
+        "metric": "Interim dividend",
+        "current": "20.9p",
+        "prior": "19.5p",
+        "change": "+7%",
+        "basis": "per share",
+        "note": "payable 10 September 2026"
+      },
+      {
+        "metric": "Net debt",
+        "current": "£8,733m",
+        "prior": "£7,443m",
+        "change": "not stated",
+        "basis": "net debt/EBITDA 2.3x vs 2.2x",
+        "note": "at 30 June 2026"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Another year of strong underlying growth in revenue and adjusted operating profit, and strong growth in adjusted EPS on a constant currency basis",
+      "current": "We continue to see positive momentum across the group, and we expect another year of strong underlying growth in revenue and adjusted operating profit, as well as strong growth in adjusted earnings per share on a constant currency basis",
+      "commentary": "RELX reaffirmed its full-year outlook, pointing to positive momentum across all four divisions. No numerical guidance change was given."
+    },
+    "explainer": "RELX reports on both 'underlying' and 'adjusted' bases. Underlying growth strips out currency movements, acquisitions (until owned for twelve months), disposals, print revenue and exhibition cycling, so the +7% revenue and +9% profit figures reflect organic performance rather than the reported sterling totals. Adjusted figures exclude amortisation of acquired intangibles (£118m this half) and other acquisition-related items, which is why adjusted operating profit (£1,727m) sits above reported operating profit (£1,585m).\n\nAdjusted EPS grew +11% on a constant-currency basis, faster than profit, helped by the ongoing share buyback reducing the share count. Constant-currency growth uses 2025 full-year average and hedge exchange rates, so it removes the distortion from currency moves during the period.\n\nOn guidance, nothing has changed: RELX simply reaffirmed its existing full-year outlook of strong underlying revenue and profit growth and strong constant-currency EPS growth. The interim dividend rose 7% to 20.9p, and the group is roughly three-quarters through its £2,250m buyback, with the remaining £400m to be spent before year-end.",
+    "source_url": "https://uk.advfn.com/stock-market/london/relx-REL/share-news/RELX-PLC-RELX-2026-INTERIM-RESULTS/98966710",
+    "related_news_url": "https://news.google.com/search?q=%22RELX%20PLC%22",
+    "added_at": "2026-07-27T00:25:17.586612"
+  },
+  {
     "company": "Anglo American PLC",
     "ticker": "AAL",
     "publish_date": "22 July 2026",
