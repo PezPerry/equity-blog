@@ -992,6 +992,121 @@
     "added_at": "2026-07-26T21:23:42.464802"
   },
   {
+    "company": "Airtel Africa plc",
+    "ticker": "AAF",
+    "publish_date": "23 July 2026",
+    "date_iso": "2026-07-23",
+    "time_period": "Q1 FY27 (quarter ended 30 June 2026)",
+    "announcement_type": "Interim results",
+    "period_detail": "Q1 FY27 (quarter ended 30 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Airtel Africa plc</strong> Q1 FY27 (quarter ended <strong>30 June 2026</strong>): revenue up <strong>31.0%</strong> in reported currency to <strong>$1,853m</strong> (<strong>+21.1%</strong> constant currency), all segments delivering double-digit constant-currency growth.</li><li>Reported EBITDA up <strong>36.6%</strong> to <strong>$928m</strong>; EBITDA margin <strong>50.1%</strong>, up <strong>206bps</strong> year-on-year on cost optimisation despite energy cost inflation.</li><li>Profit after tax <strong>$198m</strong> (vs <strong>$156m</strong>); basic EPS <strong>4.4 cents</strong> (vs <strong>3.4c</strong>), but hit by a <strong>$37m</strong> exceptional finance cost from an in-principle commercial dispute settlement — EPS before exceptionals <strong>5.4 cents</strong>.</li><li>Confirmed <strong>London</strong> as preferred listing venue for the proposed <strong>Airtel Money</strong> IPO in <strong>2026</strong>, subject to regulatory approvals; annualised TPV up <strong>51.5%</strong> to over <strong>$245bn</strong>.</li><li>Total customer base up <strong>11.6%</strong> to <strong>189 million</strong>; accelerated capex of <strong>$389m</strong> (from <strong>$121m</strong>), over <strong>920</strong> new sites added; leverage improved to <strong>1.7x</strong> from <strong>2.2x</strong>.</li><li>Board approved buyback of up to <strong>1%</strong> of issued share capital; <strong>10.2 million</strong> shares purchased for <strong>$46.6m</strong> as at 30 June 2026. Note: management flags higher energy costs will weigh on near-term EBITDA margins.</li></ul>",
+    "source_format": "html",
+    "headline": "Airtel Africa Q1 revenue rose 31.0% in reported currency to $1,853m with EBITDA up 36.6% to $928m, and confirmed London as preferred listing venue for Airtel Money.",
+    "priority": "high",
+    "priority_reason": "Quarterly results with double-digit revenue and EBITDA growth, plus a confirmed London listing venue for the Airtel Money fintech IPO.",
+    "figures": [
+      {
+        "metric": "Revenue",
+        "current": "$1,853m",
+        "prior": "not stated",
+        "change": "+31.0%",
+        "basis": "reported currency (+21.1% constant currency)",
+        "note": "Q1 quarter ended 30 June 2026"
+      },
+      {
+        "metric": "EBITDA",
+        "current": "$928m",
+        "prior": "not stated",
+        "change": "+36.6%",
+        "basis": "reported currency (+24.4% constant currency)",
+        "note": "margin 50.1%, +206bps YoY"
+      },
+      {
+        "metric": "Operating profit",
+        "current": "$627m",
+        "prior": "not stated",
+        "change": "+40.7%",
+        "basis": "reported currency",
+        "note": ""
+      },
+      {
+        "metric": "Profit after tax",
+        "current": "$198m",
+        "prior": "$156m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "after $37m exceptional finance cost"
+      },
+      {
+        "metric": "Basic EPS",
+        "current": "4.4 cents",
+        "prior": "3.4 cents",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "EPS before exceptionals 5.4c vs 3.4c"
+      },
+      {
+        "metric": "Net cash from operating activities",
+        "current": "$786m",
+        "prior": "$568m",
+        "change": "+38.3%",
+        "basis": "",
+        "note": ""
+      },
+      {
+        "metric": "Operating free cash flow",
+        "current": "$539m",
+        "prior": "not stated",
+        "change": "-3.5%",
+        "basis": "",
+        "note": "higher EBITDA offset by increased capex"
+      },
+      {
+        "metric": "Capex",
+        "current": "$389m",
+        "prior": "$121m",
+        "change": "not stated",
+        "basis": "",
+        "note": "accelerated network investment"
+      },
+      {
+        "metric": "Leverage",
+        "current": "1.7x",
+        "prior": "2.2x",
+        "change": "not stated",
+        "basis": "",
+        "note": "lease-adjusted leverage 0.5x vs 0.9x"
+      },
+      {
+        "metric": "Total customer base",
+        "current": "189 million",
+        "prior": "not stated",
+        "change": "+11.6%",
+        "basis": "",
+        "note": "data customers +15.5% to 87.3m"
+      },
+      {
+        "metric": "Airtel Money annualised TPV",
+        "current": "over $245bn",
+        "prior": "not stated",
+        "change": "+51.5%",
+        "basis": "reported currency",
+        "note": ""
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Elevated capex programme flagged at full-year 2026 results",
+      "current": "Accelerated investment programme remains on track, with investment brought forward into Q1; higher energy costs expected to weigh on EBITDA margins in the near term, with the company aiming to offset some of the impact over the year",
+      "commentary": "No formal numeric guidance change. Management confirms the accelerated capex plan set out at FY26 results is on track (capex brought forward into Q1), and cautions that geopolitically-driven energy cost inflation will pressure near-term EBITDA margins, which it intends to partly offset over the year."
+    },
+    "explainer": "Airtel Africa reports in US dollars but operates in 14 sub-Saharan African markets with volatile local currencies, so it splits growth into 'reported currency' (what the dollar accounts show) and 'constant currency' (stripping out exchange-rate moves). This quarter reported revenue grew 31.0% but constant-currency growth was 21.1% — the gap reflects African currencies appreciating against the dollar, which flatters the headline figures. The underlying operating story is the constant-currency numbers and the customer/usage metrics.\n\nProfit after tax rose to $198m from $156m, but the comparison is muddied by two one-offs. The current quarter carries a $37m exceptional finance cost from an in-principle settlement of a commercial dispute at a subsidiary, while the prior year benefited from $22m of foreign-exchange gains that turned into a $6m loss this year. Stripping the exceptional item out, EPS before exceptionals was 5.4 cents versus 3.4 cents — a cleaner read on trading performance.\n\nCapex jumped to $389m from $121m because Airtel deliberately brought forward network investment (over 920 new sites, fibre now 82,100 km) to get ahead of demand. That is why operating free cash flow slipped 3.5% despite EBITDA rising 36.6% — the extra spending, not weaker trading, is the cause.\n\nOn guidance, there is no change to formal targets. The accelerated investment programme flagged at the FY26 results is confirmed on track, and management explicitly warns that higher energy costs from geopolitical developments will weigh on EBITDA margins in the near term, which it will try to partly offset during the year. The strategically significant item is confirmation of London as the preferred listing venue for the Airtel Money fintech IPO in 2026, subject to regulatory approval.",
+    "source_url": "https://uk.advfn.com/stock-market/london/airtel-africa-AAF/share-news/Airtel-Africa-PLC-Q1-Results/98966728",
+    "related_news_url": "https://news.google.com/search?q=%22Airtel%20Africa%20plc%22",
+    "added_at": "2026-07-27T00:23:18.152257"
+  },
+  {
     "company": "CVS Group plc",
     "ticker": "CVSG",
     "publish_date": "23 July 2026",
