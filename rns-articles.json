@@ -1,5 +1,112 @@
 [
   {
+    "company": "Goosehead Insurance Inc",
+    "ticker": "GSHD",
+    "publish_date": "27 July 2026",
+    "date_iso": "2026-07-27",
+    "time_period": "Q2 2026 (three months to 30 June 2026)",
+    "announcement_type": "Interim results",
+    "period_detail": "Q2 2026 (three months to 30 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Total revenues</strong> of <strong>$113.4m</strong>, up <strong>21%</strong> on the prior-year quarter; <strong>Core Revenues</strong> (non-GAAP) up <strong>10%</strong> to <strong>$95.6m</strong> from <strong>$86.8m</strong>.</li><li><strong>Net income</strong> more than doubled to <strong>$17.0m</strong> from <strong>$8.3m</strong>; <strong>EPS</strong> of <strong>$0.42</strong> and <strong>Adjusted EPS</strong> of <strong>$0.64</strong>.</li><li><strong>Adjusted EBITDA</strong> of <strong>$37.9m</strong> (vs <strong>$29.2m</strong>), with <strong>Adjusted EBITDA margin</strong> up 2pts to <strong>33%</strong>.</li><li><strong>Total written premiums</strong> — the group's stated leading indicator — grew <strong>14%</strong>; <strong>client retention</strong> of <strong>86%</strong>.</li><li>The company <strong>raised its full-year 2026 guidance</strong>, but the release text does not print the specific new figures — the '2026 Outlook' table did not carry through in the scraped text.</li><li><strong>CEO Mark Miller</strong> cited accelerating momentum, improved retention and a more favourable product market; <strong>$144.6m</strong> remained under the share repurchase authorisation as at 30 June 2026.</li></ul>",
+    "source_format": "html",
+    "headline": "Goosehead Q2 total revenues rose 21% to $113.4m, net income doubled to $17.0m, and the group raised its full-year 2026 guidance.",
+    "priority": "high",
+    "priority_reason": "Quarterly results with a raised full-year 2026 guidance, revenue up 21% and net income more than doubling.",
+    "figures": [
+      {
+        "metric": "Total revenues",
+        "current": "$113.4m",
+        "prior": "$94.0m",
+        "change": "+21%",
+        "basis": "GAAP",
+        "note": "Q2 to 30 June 2026"
+      },
+      {
+        "metric": "Core Revenues",
+        "current": "$95.6m",
+        "prior": "$86.8m",
+        "change": "+10%",
+        "basis": "non-GAAP",
+        "note": "Q2 to 30 June 2026"
+      },
+      {
+        "metric": "Net income",
+        "current": "$17.0m",
+        "prior": "$8.3m",
+        "change": "not stated",
+        "basis": "GAAP",
+        "note": "Q2 to 30 June 2026"
+      },
+      {
+        "metric": "EPS (basic)",
+        "current": "$0.42",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "GAAP",
+        "note": "Q2 2026"
+      },
+      {
+        "metric": "Adjusted EPS",
+        "current": "$0.64",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "non-GAAP",
+        "note": "Q2 2026"
+      },
+      {
+        "metric": "Adjusted EBITDA",
+        "current": "$37.9m",
+        "prior": "$29.2m",
+        "change": "not stated",
+        "basis": "non-GAAP",
+        "note": "Q2 2026"
+      },
+      {
+        "metric": "Adjusted EBITDA margin",
+        "current": "33%",
+        "prior": "31%",
+        "change": "+2pts",
+        "basis": "non-GAAP",
+        "note": "Q2 2026"
+      },
+      {
+        "metric": "Total written premiums",
+        "current": "+14% YoY",
+        "prior": "not stated",
+        "change": "+14%",
+        "basis": "not stated",
+        "note": "Q2 2026 growth rate"
+      },
+      {
+        "metric": "Client retention",
+        "current": "86%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "not stated",
+        "note": "Q2 2026"
+      },
+      {
+        "metric": "Adjusted total operating expenses",
+        "current": "$75.4m",
+        "prior": "$64.9m",
+        "change": "+16%",
+        "basis": "non-GAAP",
+        "note": "Q2 2026"
+      }
+    ],
+    "guidance": {
+      "status": "raised",
+      "previous": "not stated in the scraped text",
+      "current": "not stated in the scraped text — the '2026 Outlook' table did not carry through",
+      "commentary": "The company states it has increased its full-year 2026 guidance, but the specific figures for the raised outlook are absent from the scraped release text."
+    },
+    "explainer": "Goosehead reports both GAAP (statutory) numbers and its own 'Core Revenue' measure, which strips out lumpier items — contingent commissions, initial franchise fees, interest income and other franchise revenues — to show the recurring commission and royalty streams. That is why total revenues grew 21% while Core Revenues grew a slower 10%: the headline figure was flattered by items outside the core. Core growth was also held back by a $4.0m prior-year benefit ($3.0m renewal commissions plus $1.0m renewal royalty fees) tied to releasing a constraint on variable consideration, which raised the 2025 comparative base.\n\nThe 'Adjusted' figures (Adjusted EPS $0.64 vs GAAP EPS $0.42, Adjusted EBITDA $37.9m) are non-GAAP: they add back equity-based compensation, a $3.1m contract termination cost in the current quarter, and, in the prior year, $4.7m of impairment and other losses. These adjustments explain the large gap between statutory and adjusted profitability.\n\nOn guidance, the company explicitly says it has raised its full-year 2026 outlook — a positive signal — but the scraped text cuts off at the '2026 Outlook' heading and does not include the actual revised numbers. The specific magnitude of the upgrade therefore cannot be quoted from this release as captured.",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/GSHD/share-news/Goosehead-Insurance-Inc-Announces-Second-Quarter/98964817",
+    "related_news_url": "https://news.google.com/search?q=%22Goosehead%20Insurance%2C%20Inc.%22",
+    "added_at": "2026-07-27T00:18:22.776413"
+  },
+  {
     "company": "Capricorn Energy PLC",
     "ticker": "CNE",
     "publish_date": "27 July 2026",
