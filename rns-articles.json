@@ -1,5 +1,104 @@
 [
   {
+    "company": "Howden Joinery Group PLC",
+    "ticker": "HWDN",
+    "publish_date": "27 July 2026",
+    "date_iso": "2026-07-27",
+    "time_period": "H1 2026 (24 weeks to 13 June 2026)",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 2026 (24 weeks to 13 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Group sales</strong> up <strong>3.3%</strong> to <strong>£1,030.6m</strong> (2025: £997.6m), or <strong>3.7%</strong> ahead on a trading-day-adjusted basis; <strong>UK</strong> adjusted sales <strong>+3.3%</strong>, <strong>International</strong> adjusted sales <strong>+13.0%</strong> (including FX translation).</li><li><strong>Underlying operating profit (EBIT)</strong> up <strong>5.5%</strong> to <strong>£128.1m</strong>, underlying EBIT margin <strong>12.4%</strong> (2025: 12.2%); <strong>underlying PBT +4.3%</strong> to <strong>£122.2m</strong>; underlying EPS <strong>17.3p</strong> (2025: 16.4p).</li><li>Statutory figures after <strong>£6.4m</strong> DIY Kitchens acquisition costs: <strong>operating profit £121.7m</strong> (2025: £121.4m), <strong>PBT £115.8m</strong> (2025: £117.2m), <strong>basic EPS 16.2p</strong> (2025: 16.4p).</li><li><strong>Gross margin 62.8%</strong> (2025: 62.1%); productivity/efficiency savings of <strong>£19m</strong> across the cost base; period-end cash <strong>£332.8m</strong>.</li><li><strong>Interim dividend 5.1p</strong> (2025: 5.0p), up <strong>2.0%</strong>; <strong>£100m share buyback</strong> for 2026 (c.£39m done by 21 July) to complete in H2; <strong>DIY Kitchens</strong> acquired post-period on <strong>23 June 2026</strong> for <strong>£390m</strong> enterprise value.</li><li><strong>Full-year 2026 outlook unchanged</strong>; trading to date in line with expectations; planning assumption that the UK kitchen market is level year-on-year in 2026.</li></ul>",
+    "source_format": "html",
+    "headline": "Howden Joinery H1 sales rose 3.3% to £1,030.6m with underlying EBIT up 5.5% to £128.1m; full-year 2026 outlook unchanged.",
+    "priority": "high",
+    "priority_reason": "Half-year results from a FTSE 100 constituent with detailed trading, margin, dividend and full-year outlook.",
+    "figures": [
+      {
+        "metric": "Group sales",
+        "current": "£1,030.6m",
+        "prior": "£997.6m",
+        "change": "+3.3%",
+        "basis": "reported (+3.7% trading-day adjusted)",
+        "note": "24 weeks to 13 June 2026"
+      },
+      {
+        "metric": "Underlying operating profit (EBIT)",
+        "current": "£128.1m",
+        "prior": "£121.4m",
+        "change": "+5.5%",
+        "basis": "before £6.4m acquisition costs",
+        "note": "underlying EBIT margin 12.4% vs 12.2%"
+      },
+      {
+        "metric": "Underlying profit before tax",
+        "current": "£122.2m",
+        "prior": "£117.2m",
+        "change": "+4.3%",
+        "basis": "underlying/APM",
+        "note": "after £9m strategic investment"
+      },
+      {
+        "metric": "Statutory operating profit (EBIT)",
+        "current": "£121.7m",
+        "prior": "£121.4m",
+        "change": "not stated",
+        "basis": "after £6.4m acquisition costs",
+        "note": ""
+      },
+      {
+        "metric": "Statutory profit before tax",
+        "current": "£115.8m",
+        "prior": "£117.2m",
+        "change": "not stated",
+        "basis": "statutory",
+        "note": ""
+      },
+      {
+        "metric": "Basic EPS",
+        "current": "16.2p",
+        "prior": "16.4p",
+        "change": "not stated",
+        "basis": "statutory",
+        "note": "underlying EPS 17.3p vs 16.4p, +5.5%"
+      },
+      {
+        "metric": "Gross profit margin",
+        "current": "62.8%",
+        "prior": "62.1%",
+        "change": "+70bps",
+        "basis": "reported",
+        "note": ""
+      },
+      {
+        "metric": "Interim dividend",
+        "current": "5.1p",
+        "prior": "5.0p",
+        "change": "+2.0%",
+        "basis": "per ordinary share",
+        "note": "payable 20 November 2026"
+      },
+      {
+        "metric": "Period-end cash",
+        "current": "£332.8m",
+        "prior": "£321.4m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "£150m RCF undrawn; new £240m term loan for DIY Kitchens drawn post-period"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Full-year 2026 outlook; planning assumption that the UK kitchen market is level year-on-year in 2026.",
+      "current": "Full-year outlook unchanged; UK kitchen market assumed level year-on-year in 2026; trading to date in line with expectations.",
+      "commentary": "Guidance is reaffirmed rather than changed. Management says H1 was in line, it is well prepared for the Autumn peak, and expects to outperform competitors again in 2026 while continuing to invest in strategic initiatives."
+    },
+    "explainer": "Howdens reports two sets of numbers. The 'underlying' figures strip out £6.4m of one-off costs from the DIY Kitchens acquisition, so underlying EBIT rose 5.5% to £128.1m and underlying EPS rose to 17.3p. The 'statutory' figures include those costs, which is why statutory operating profit was broadly flat and both statutory PBT and basic EPS slipped slightly year-on-year. The underlying numbers are the better guide to the ongoing business; the statutory dip is essentially the deal cost, not a trading deterioration.\n\nSales growth is also quoted on an 'adjusted' basis, which corrects for one fewer trading day than last year — hence group sales up 3.3% reported but 3.7% adjusted. International growth of 13.0% flatters the reported number because it includes a currency translation benefit; in local currency the international depots grew about 8.2%. The gross margin improved to 62.8% on price increases, higher volumes and sourcing/manufacturing efficiencies.\n\nOn guidance, nothing has changed: the full-year outlook is reaffirmed, with the company still assuming a flat UK kitchen market in 2026 and citing in-line trading and readiness for the key Autumn selling period. The £100m buyback and progressive dividend policy are also unchanged after the acquisition.\n\nThe DIY Kitchens deal (£390m enterprise value, completed 23 June 2026, after the period end) is a separate online-only, consumer-focused kitchen business. It will run standalone and is expected to be immediately accretive to revenue, EBIT margin and EPS; it was funded partly by a new £240m term loan, but the group still expects to remain in a net cash position.",
+    "source_url": "https://uk.advfn.com/stock-market/london/howden-joinery-HWDN/share-news/Howden-Joinery-Group-PLC-Half-Year-Report/98966673",
+    "related_news_url": "https://news.google.com/search?q=%22Howden%20Joinery%20Group%20PLC%22",
+    "added_at": "2026-07-27T00:29:51.691692"
+  },
+  {
     "company": "Volution Group plc",
     "ticker": "FAN",
     "publish_date": "27 July 2026",
