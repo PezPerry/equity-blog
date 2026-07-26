@@ -1,5 +1,104 @@
 [
   {
+    "company": "BT Group PLC",
+    "ticker": "BT.A",
+    "publish_date": "27 July 2026",
+    "date_iso": "2026-07-27",
+    "time_period": "Q1 FY27 (three months to 30 June 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "Q1 FY27 (three months to 30 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>BT Group</strong> reported a solid start to FY27 for the <strong>three months to 30 June 2026</strong>: revenue <strong>£4.3bn</strong>, flat year-on-year, with adjusted UK service revenue <strong>£3.8bn</strong>, down <strong>1%</strong>, on continuing operations.</li><li>Adjusted EBITDA <strong>£2.0bn</strong>, down <strong>1%</strong> (broadly flat excluding prior-year one-offs); reported profit before tax <strong>£505m</strong>, down <strong>4%</strong> on higher finance costs partly offset by lower restructuring costs.</li><li><strong>Openreach</strong> FTTP footprint reached <strong>23.4m</strong> premises (+<strong>514k</strong> in the quarter), on track for the <strong>25m</strong> build target by <strong>December 2026</strong>; record <strong>574k</strong> FTTP net adds, take-up rate <strong>40%</strong>, broadband ARPU up <strong>7%</strong> to <strong>£17.7</strong>; broadband lines fell <strong>192k</strong> (still expects c.800k losses this year).</li><li>Record retail FTTP base up <strong>1.1m</strong> year-on-year to <strong>4.8m</strong>; <strong>EE</strong> 5G+ coverage rose to <strong>77%</strong> of UK population; Consumer growth of 1k broadband, 13k postpaid mobile and 9k TV, with churn stable.</li><li>Following the <strong>June</strong> agreement to combine <strong>BT International</strong> with <strong>Verizon</strong>, the International unit is now reported as a discontinued operation; comparatives re-presented to continuing operations.</li><li>Reconfirmed all <strong>FY27</strong> and multi-year outlook metrics as updated in June, including cash flow of <strong>c£2.0bn</strong> this year and <strong>c£3.0bn</strong> by the end of the decade; H1 FY27 results due <strong>5 November 2026</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "BT reports Q1 revenue of £4.3bn (flat) and adjusted EBITDA of £2.0bn (down 1%), reconfirming FY27 targets including c£2.0bn cash flow.",
+    "priority": "high",
+    "priority_reason": "Quarterly trading update from a FTSE 100 telecom, reconfirming full-year guidance and detailing the Verizon JV treatment.",
+    "figures": [
+      {
+        "metric": "Revenue",
+        "current": "£4.3bn",
+        "prior": "not stated",
+        "change": "flat",
+        "basis": "continuing operations",
+        "note": "Q1 FY27, three months to 30 June 2026"
+      },
+      {
+        "metric": "Adjusted UK service revenue",
+        "current": "£3.8bn",
+        "prior": "not stated",
+        "change": "-1%",
+        "basis": "continuing operations",
+        "note": "Q1 FY27"
+      },
+      {
+        "metric": "Adjusted EBITDA",
+        "current": "£2.0bn",
+        "prior": "not stated",
+        "change": "-1%",
+        "basis": "continuing operations; broadly flat ex prior-year one-offs",
+        "note": "Q1 FY27"
+      },
+      {
+        "metric": "Reported profit before tax (continuing)",
+        "current": "£505m",
+        "prior": "£526m (Q1 FY26)",
+        "change": "-4%",
+        "basis": "continuing operations",
+        "note": "total PBT £462m vs £468m incl. discontinued loss"
+      },
+      {
+        "metric": "Openreach FTTP footprint",
+        "current": "23.4m premises",
+        "prior": "not stated",
+        "change": "+514k in quarter",
+        "basis": "",
+        "note": "target 25m by December 2026"
+      },
+      {
+        "metric": "Openreach FTTP net adds",
+        "current": "574k",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "take-up rate 40%",
+        "note": "Q1 FY27"
+      },
+      {
+        "metric": "Openreach broadband ARPU",
+        "current": "£17.7",
+        "prior": "not stated",
+        "change": "+7%",
+        "basis": "",
+        "note": "driven by FTTP take-up, speed mix, price rises"
+      },
+      {
+        "metric": "Retail FTTP base",
+        "current": "4.8m",
+        "prior": "3.7m (implied prior year)",
+        "change": "+1.1m year-on-year",
+        "basis": "4.5m Consumer, 0.3m Business",
+        "note": "54% of broadband base"
+      },
+      {
+        "metric": "5G+ population coverage",
+        "current": "77%",
+        "prior": "73% (last quarter)",
+        "change": "+4pts",
+        "basis": "",
+        "note": ""
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "FY27 outlook including International (as previously stated)",
+      "current": "Reconfirmed all FY27 and multi-year outlook metrics as updated in June to reflect continuing operations (excl. International); cash flow c£2.0bn this year and c£3.0bn by end of the decade",
+      "commentary": "Guidance was re-based in June to exclude the International unit now heading into the Verizon JV, and BT reconfirms all those metrics. The underlying targets — c£2.0bn cash flow this year, c£3.0bn by decade-end, and c.800k broadband line losses in the year — are unchanged."
+    },
+    "explainer": "This is a first-quarter (Q1 FY27) trading update covering the three months to 30 June 2026. The headline figures are on a 'continuing operations' basis, meaning BT's International division has been stripped out of both current and prior-year numbers. That is because in June BT agreed to fold International into a joint venture with Verizon, so under accounting rules it is now treated as a 'discontinued operation'. The prior-year comparatives have been re-presented to match, which is why year-on-year percentages look clean despite the reshuffle.\n\nOn that continuing basis, revenue was flat at £4.3bn and adjusted EBITDA slipped 1% to £2.0bn — but management notes EBITDA was broadly flat once prior-year one-offs are excluded, so the underlying trend is steadier than the reported decline suggests. Reported (statutory) profit before tax fell 4% to £505m, mainly on higher finance costs. Total profit before tax including the discontinued International unit was £462m.\n\nThe operational story is the fibre build: Openreach added 514k FTTP premises to reach 23.4m, on track for 25m by December 2026, with record net customer adds and rising ARPU. Copper landline losses continue (192k broadband lines lost, c.800k expected for the year) as the legacy network winds down.\n\nOn guidance, nothing new was announced — BT reconfirmed the outlook it re-based in June to reflect continuing operations, including cash flow of c£2.0bn this year rising to c£3.0bn by the end of the decade. So this is a 'maintained' guidance update, not a raise or cut; the June re-basing was about scope (excluding International), not about changing the underlying ambition.",
+    "source_url": "https://uk.advfn.com/stock-market/london/bt-BT.A/share-news/BT-Group-PLC-Trading-Statement/98966686",
+    "related_news_url": "https://news.google.com/search?q=%22BT%20Group%20plc%22",
+    "added_at": "2026-07-27T00:27:33.399790"
+  },
+  {
     "company": "Motorpoint Group PLC",
     "ticker": "MPGT",
     "publish_date": "27 July 2026",
