@@ -1,5 +1,112 @@
 [
   {
+    "company": "3i Group plc",
+    "ticker": "III",
+    "publish_date": "27 July 2026",
+    "date_iso": "2026-07-27",
+    "time_period": "Q1 FY2027 (three months to 30 June 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "Q1 FY2027 (three months to 30 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>NAV per share</strong> climbed to <strong>3,131 pence</strong> at 30 June 2026 (31 March 2026: <strong>3,030 pence</strong>), a <strong>total return of 3%</strong> for the quarter, after a negative <strong>foreign exchange</strong> hit of <strong>£276 million</strong> (27 pence).</li><li>Largest holding <strong>Action</strong> delivered Q2 (P4-P6) net sales of <strong>€4,338m</strong> and operating EBITDA of <strong>€609m</strong> (P4-P6 2025: <strong>€3,819m</strong> and <strong>€516m</strong>), up <strong>14%</strong> and <strong>18%</strong>; H1 (P6) net sales <strong>€8,348m</strong> and EBITDA <strong>€1,108m</strong>, up <strong>14%</strong> and <strong>13%</strong>, with <strong>LFL sales growth of 3.6%</strong>.</li><li><strong>Action</strong> added <strong>121 net new stores</strong> to reach <strong>3,423 stores</strong> across 15 countries and remains on track to add <strong>at least 400 stores</strong> this year; it paid a <strong>€450m dividend</strong> in May, of which 3i received <strong>£254 million</strong>.</li><li>New <strong>£118 million</strong> Private Equity investment made in <strong>Nutergia</strong>, a French natural food supplements brand; <strong>£45 million</strong> of proceeds received from <strong>Audley Travel</strong>.</li><li><strong>3i Infrastructure (3iN)</strong> share price rose <strong>13%</strong> to <strong>378 pence</strong>, valuing 3i's 29% stake at <strong>£1,016m</strong>, with <strong>£18 million</strong> of dividend income recognised.</li><li><strong>£750 million</strong> share buyback (launched 14 May 2026, to complete by end December 2026) is progressing: c.<strong>14.7 million shares</strong> cancelled for c.<strong>£344 million</strong> as at 21 July 2026; balance sheet strong with gross cash of <strong>£724m</strong> and gearing of <strong>2%</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "3i's NAV per share rose to 3,131p at 30 June 2026 from 3,030p, a 3% total return, as key holding Action kept growing strongly.",
+    "priority": "high",
+    "priority_reason": "Quarterly performance update from a FTSE 100 investment manager covering NAV, Action's trading and the buyback.",
+    "figures": [
+      {
+        "metric": "NAV per share",
+        "current": "3,131p",
+        "prior": "3,030p",
+        "change": "+3.3%",
+        "basis": "diluted, Investment basis",
+        "note": "at 30 June 2026 vs 31 March 2026"
+      },
+      {
+        "metric": "Total return",
+        "current": "3%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "after £276m FX translation loss",
+        "note": "three months to 30 June 2026"
+      },
+      {
+        "metric": "Action net sales (Q2, P4-P6)",
+        "current": "€4,338m",
+        "prior": "€3,819m",
+        "change": "+14%",
+        "basis": "reported",
+        "note": "P4-P6 2026 vs P4-P6 2025"
+      },
+      {
+        "metric": "Action operating EBITDA (Q2, P4-P6)",
+        "current": "€609m",
+        "prior": "€516m",
+        "change": "+18%",
+        "basis": "reported",
+        "note": "P4-P6 2026 vs P4-P6 2025"
+      },
+      {
+        "metric": "Action net sales (H1, P6)",
+        "current": "€8,348m",
+        "prior": "not stated",
+        "change": "+14%",
+        "basis": "reported",
+        "note": "six months to 28 June 2026"
+      },
+      {
+        "metric": "Action operating EBITDA (H1, P6)",
+        "current": "€1,108m",
+        "prior": "not stated",
+        "change": "+13%",
+        "basis": "13.3% margin",
+        "note": "six months to 28 June 2026"
+      },
+      {
+        "metric": "Action LFL sales growth",
+        "current": "3.6%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "like-for-like",
+        "note": "H1 P6 2026; Q2 also 3.6%"
+      },
+      {
+        "metric": "3iN share price",
+        "current": "378p",
+        "prior": "333p",
+        "change": "+13%",
+        "basis": "not stated",
+        "note": "quarter to 30 June 2026"
+      },
+      {
+        "metric": "Gross cash",
+        "current": "£724m",
+        "prior": "£664m",
+        "change": "not stated",
+        "basis": "not stated",
+        "note": "at 30 June 2026 vs 31 March 2026"
+      },
+      {
+        "metric": "Net debt",
+        "current": "£481m",
+        "prior": "£547m",
+        "change": "not stated",
+        "basis": "gearing 2%",
+        "note": "at 30 June 2026 vs 31 March 2026"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Target of adding at least 400 stores in the year",
+      "current": "On track to meet its target of adding at least 400 stores this year",
+      "commentary": "Action reaffirmed its store-opening target for the year, having added 121 net new stores in the first six periods. No changes were made to any portfolio company valuation multiples, and Action's multiple was held at 18.5x."
+    },
+    "explainer": "This is a quarterly performance update, not full results, so it focuses on movements in 3i's net asset value (NAV) and on trading at its portfolio companies rather than a complete set of group financials. NAV per share is the key measure for an investment manager like 3i: it rose to 3,131 pence, up from 3,030 pence at the end of March, giving a 3% total return for the three months. That return was struck after a £276 million foreign-exchange translation loss (27 pence per share), which arose because sterling strengthened about 1% against the euro — most of 3i's value sits in euro-denominated Action, so a stronger pound reduces the sterling value of that stake.\n\nAction, the Dutch discount retailer that dominates 3i's portfolio, is the main driver. The 14% and 18% growth figures for the quarter (Action's P4-P6 period) are reported growth versus the same quarter last year; like-for-like sales — stripping out the effect of new store openings — grew a more modest 3.6%, driven by more customer transactions. Note the prior-year comparatives include a one-off €26 million cost from a staff payment marking Action's 3,000th store, which slightly flatters the EBITDA growth rate on a reported basis. Action's valuation multiple was left unchanged at 18.5x.\n\nOn guidance, the only forward target quoted is Action's plan to open at least 400 new stores this year, which was maintained; 121 net new stores were added in the first half. There is no change to profit or NAV guidance as such — investment companies typically do not issue earnings guidance. 3i also confirmed its £750 million buyback is running to schedule, with c.£344 million spent by 21 July, and flagged that the next market update will be the half-year results in November 2026.",
+    "source_url": "https://uk.advfn.com/stock-market/london/3i-III/share-news/3i-Group-PLC-FY2027-Q1-performance-update/98966708",
+    "related_news_url": "https://news.google.com/search?q=%223i%20Group%20plc%22",
+    "added_at": "2026-07-27T00:22:42.179380"
+  },
+  {
     "company": "AJ Bell PLC",
     "ticker": "AJB",
     "publish_date": "27 July 2026",
