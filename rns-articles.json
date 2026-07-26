@@ -1,5 +1,88 @@
 [
   {
+    "company": "Mortgage Advice Bureau (Holdings) PLC",
+    "ticker": "MAB1",
+    "publish_date": "27 July 2026",
+    "date_iso": "2026-07-27",
+    "time_period": "H1 to 30 June 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "H1 to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Trading update</strong> for the six months to <strong>30 June 2026</strong>; interim results due <strong>22 September 2026</strong>.</li><li>Total mortgage completions up <strong>16%</strong> to <strong>c.£16.5bn</strong> (H1 2025: <strong>£14.2bn</strong>); group revenue up <strong>8%</strong> to <strong>c.£160m</strong> (H1 2025: <strong>£148.2m</strong>), supported by strong refinancing activity.</li><li>Adjusted profit before tax expected at <strong>c.£14.6m</strong>, in line with prior year (<strong>£14.5m</strong>), as margin fell on shift in mortgage mix, slower protection volumes and timing of acquisition synergies.</li><li>Share of new mortgage lending rose to <strong>8.3%</strong> (5 months to 31 May 2026, 2025: <strong>8.2%</strong>); Product Transfers share up to <strong>3.2%</strong> (2025: <strong>2.9%</strong>); mainstream advisers up <strong>3%</strong> to <strong>2,194</strong>.</li><li>Board expects <strong>full-year results in line with expectations</strong>; strong visibility over <strong>c.70k</strong> fixed-rate maturities in H2, with 2026 profit weighted more towards H2 than prior years.</li><li>Applications turned negative late in the half — down <strong>13%</strong> in the seven weeks to end June — leaving YTD applications up <strong>7%</strong> year-on-year.</li><li>CEO <strong>Peter Brodnicki</strong> cites a resilient, predominantly refinance-led market with purchase recovery yet to emerge.</li></ul>",
+    "source_format": "html",
+    "headline": "MAB grew H1 revenue 8% to c.£160m and mortgage completions 16% to c.£16.5bn, with adjusted PBT flat at c.£14.6m and full-year expectations reaffirmed.",
+    "priority": "high",
+    "priority_reason": "Half-year trading update with revenue, completions and profit figures plus reiterated full-year guidance.",
+    "figures": [
+      {
+        "metric": "Total mortgage completions",
+        "current": "c.£16.5bn",
+        "prior": "£14.2bn",
+        "change": "+16%",
+        "basis": "reported",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Group revenue",
+        "current": "c.£160m",
+        "prior": "£148.2m",
+        "change": "+8%",
+        "basis": "reported",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Adjusted profit before tax",
+        "current": "c.£14.6m",
+        "prior": "£14.5m",
+        "change": "in line",
+        "basis": "adjusted",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Share of new mortgage lending",
+        "current": "8.3%",
+        "prior": "8.2%",
+        "change": "+0.1pp",
+        "basis": "5 months to 31 May",
+        "note": "excludes Product Transfers"
+      },
+      {
+        "metric": "Share of Product Transfers",
+        "current": "3.2%",
+        "prior": "2.9%",
+        "change": "+0.3pp",
+        "basis": "not stated",
+        "note": "market share"
+      },
+      {
+        "metric": "Mainstream advisers",
+        "current": "2,194",
+        "prior": "2,135",
+        "change": "+3%",
+        "basis": "reported",
+        "note": "at 30 June 2026 vs 31 December 2025"
+      },
+      {
+        "metric": "Average revenue per mainstream adviser",
+        "current": "£74k",
+        "prior": "£74k",
+        "change": "stable",
+        "basis": "reported",
+        "note": "H1"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "In line with expectations (per AGM Trading Statement, 20 May 2026)",
+      "current": "The Board expects full-year results to be in line with expectations",
+      "commentary": "Full-year guidance is reaffirmed, but the profit profile is now expected to be more heavily H2-weighted than in prior years, underpinned by c.70k fixed-rate mortgage maturities, acquisition synergies and adviser-productivity actions. No assumed improvement in housing transactions."
+    },
+    "explainer": "MAB's headline numbers compare the six months to 30 June 2026 against the same period in 2025. All figures are reported (not currency-adjusted), with profit quoted on an 'adjusted' basis — i.e. before certain one-off or non-underlying items. Revenue and completions both grew, but adjusted profit before tax was essentially flat (£14.6m vs £14.5m) because the business mix shifted towards lower-margin remortgages and Product Transfers, protection sales grew more slowly, and synergies from businesses acquired in late 2025 have yet to fully land.\n\nThe market-share figures cover slightly different windows: the 8.3% new-lending share is measured over the five months to 31 May 2026, while completions and revenue are for the full half. Prior-year market-share figures have been restated to reflect the latest industry data, so they may differ slightly from earlier reports.\n\nThe application data highlights seasonality and phasing: a burst of refinancing in March–April (customers locking in rates early) flattered the early period, then applications fell 13% in the final seven weeks, leaving year-to-date applications up 7%. This 'pull-forward' explains why management is emphasising an H2-weighted profit shape.\n\nOn guidance, nothing has changed at the full-year level — the Board still expects results in line with expectations. What has changed is the shape: a heavier cost base from acquired businesses gives more operating leverage, so profit is expected to skew towards the second half, supported by roughly 70,000 fixed-rate mortgages maturing in H2 and continued cost discipline.",
+    "source_url": "https://uk.advfn.com/stock-market/london/mortgage-advice-bureau-MAB1/share-news/Mortgage-Advice-Bureau-Hldgs-PLC-Trading-Update/98966657",
+    "related_news_url": "https://news.google.com/search?q=%22Mortgage%20Advice%20Bureau%20(Holdings)%20plc%22",
+    "added_at": "2026-07-27T00:26:14.859322"
+  },
+  {
     "company": "3i Group plc",
     "ticker": "III",
     "publish_date": "27 July 2026",
