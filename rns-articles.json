@@ -1,5 +1,31 @@
 [
   {
+    "company": "Capricorn Energy PLC",
+    "ticker": "CNE",
+    "publish_date": "24 July 2026",
+    "date_iso": "2026-07-24",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li>Replacement of the <strong>24 July 2026</strong> 'Admission to Trading' announcement (RNS No <strong>4437N</strong>), correcting the admission date from <strong>23 July 2026</strong> to <strong>24 July 2026</strong> in sections 3(a) and 3(c); all other details unchanged.</li><li>Covers admission of <strong>845,313 Ordinary Shares</strong> to the <strong>London Stock Exchange</strong> Main Market, taking total shares in issue to <strong>71,403,652</strong>.</li><li>Routine technical disclosure with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Capricorn Energy reissues its Admission to Trading notice to correct the admission date to 24 July 2026, all other details unchanged.",
+    "priority": "low",
+    "priority_reason": "Routine admission-to-trading notice, reissued only to correct an admission date; no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/capricorn-energy--cne/replacement-admission-to-trading/9687451",
+    "related_news_url": "https://news.google.com/search?q=%22Capricorn%20Energy%20PLC%22",
+    "added_at": "2026-07-26T21:23:42.464802"
+  },
+  {
     "company": "IP Group PLC",
     "ticker": "IPO",
     "publish_date": "22 July 2026",
