@@ -1,5 +1,64 @@
 [
   {
+    "company": "Fresnillo plc",
+    "ticker": "FRES",
+    "publish_date": "27 July 2026",
+    "date_iso": "2026-07-27",
+    "time_period": "Q2 and H1 2026 (to 30 June 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "Q2 and H1 2026 (to 30 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Fresnillo plc</strong> kept its <strong>2026 production guidance</strong> unchanged: attributable silver of <strong>42.0–46.5 moz</strong> and gold of <strong>500–550 koz</strong>, remaining on track to meet full-year targets.</li><li>Q2 attributable silver production of <strong>10.9 moz</strong>, down <strong>1.7%</strong> vs 1Q26 and down <strong>12.6%</strong> vs 2Q25, on lower ore grades at Saucito and Ciénega and the end of the <strong>Silverstream</strong> contribution.</li><li>H1 attributable silver production of <strong>22.0 moz</strong>, down <strong>11.4%</strong> vs 1H25, mainly reflecting the planned end of Silverstream and grade variability at Saucito and Juanicipio.</li><li>Q2 attributable gold production of <strong>154.8 koz</strong>, up <strong>13.8%</strong> vs 1Q26 on higher throughput at <strong>Herradura</strong>, but down <strong>1.9%</strong> vs 2Q25; H1 gold of <strong>290.9 koz</strong> down <strong>7.3%</strong> year-on-year.</li><li>By-product lead up <strong>15.1%</strong> vs 2Q25 in the quarter; zinc broadly stable across H1.</li><li>Board change: <strong>Tomás Iturriaga</strong> stepped down as COO Central Region after five years; <strong>Gabriel Durán</strong> temporarily assumes the region. Interim results due <strong>4 August 2026</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Fresnillo reported Q2 attributable silver output of **10.9 moz** and gold of **154.8 koz**, and reaffirmed its full-year 2026 production guidance.",
+    "priority": "high",
+    "priority_reason": "Quarterly production report from a major FTSE 100 precious-metals producer, with full-year guidance reaffirmed.",
+    "figures": [
+      {
+        "metric": "Attributable silver production (Q2)",
+        "current": "10.9 moz",
+        "prior": "not stated",
+        "change": "-12.6% vs 2Q25; -1.7% vs 1Q26",
+        "basis": "attributable",
+        "note": "Q2 2026"
+      },
+      {
+        "metric": "Attributable silver production (H1)",
+        "current": "22.0 moz",
+        "prior": "not stated",
+        "change": "-11.4% vs 1H25",
+        "basis": "attributable",
+        "note": "H1 2026"
+      },
+      {
+        "metric": "Attributable gold production (Q2)",
+        "current": "154.8 koz",
+        "prior": "not stated",
+        "change": "+13.8% vs 1Q26; -1.9% vs 2Q25",
+        "basis": "attributable",
+        "note": "Q2 2026"
+      },
+      {
+        "metric": "Attributable gold production (H1)",
+        "current": "290.9 koz",
+        "prior": "not stated",
+        "change": "-7.3% vs 1H25",
+        "basis": "attributable",
+        "note": "H1 2026"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Attributable silver 42.0–46.5 moz; gold 500–550 koz; lead 54–59 kt; zinc 85–95 kt; total 82–91 moz silver equivalent for 2026",
+      "current": "Attributable silver 42.0–46.5 moz; gold 500–550 koz; lead 54–59 kt; zinc 85–95 kt; total 82–91 moz silver equivalent for 2026; 2027 and 2028 expectations unchanged",
+      "commentary": "Full-year 2026 outlook is reaffirmed in line with previous guidance despite lower first-half silver and gold, as gold showed strong sequential momentum and the second half is tracking to plan."
+    },
+    "explainer": "This is a production report, not financial results — it reports ounces of metal mined, not revenue or profit. \"Attributable\" means Fresnillo's share of output from mines it does not wholly own (chiefly the Juanicipio joint venture), so the figures reflect what belongs to shareholders rather than gross mine output.\n\nThe year-on-year declines are largely pre-planned rather than operational setbacks. First-half silver fell 11.4% mainly because the Silverstream contract — a financing arrangement under which Fresnillo received silver from a third-party mine — has ended, removing that contribution entirely, alongside naturally lower ore grades at several mines. First-half gold fell 7.3% chiefly due to lower grades and throughput at Herradura, which management had flagged in its 2026 guidance.\n\nThe more encouraging signal is the sequential (quarter-on-quarter) trend: gold rose 13.8% versus Q1 as Herradura processed more ore, pointing to a stronger second half. Grades vary from quarter to quarter as different parts of a mine are worked, so sequential swings are normal.\n\nOn guidance, nothing has changed. Full-year 2026 targets for all four metals are reaffirmed, and 2027–2028 expectations are unchanged, signalling management remains confident the weaker first half will be offset later in the year.",
+    "source_url": "https://uk.advfn.com/stock-market/london/fresnillo-FRES/share-news/Fresnillo-PLC-Second-quarter-production-report/98958874",
+    "related_news_url": "https://news.google.com/search?q=%22Fresnillo%20plc%22",
+    "added_at": "2026-07-27T00:15:52.571780"
+  },
+  {
     "company": "Sirius Real Estate Ltd",
     "ticker": "SRE",
     "publish_date": "27 July 2026",
