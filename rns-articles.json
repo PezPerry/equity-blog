@@ -1,5 +1,64 @@
 [
   {
+    "company": "Greencore Group plc",
+    "ticker": "GNC",
+    "publish_date": "27 July 2026",
+    "date_iso": "2026-07-27",
+    "time_period": "Q3 FY26 (13 weeks ended 26 June 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "Q3 FY26 (13 weeks ended 26 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Greencore Group plc</strong> upgraded <strong>FY26 Adjusted Operating Profit</strong> guidance for continuing operations (UK business) to <strong>GBP234-242m</strong>, above current market consensus of <strong>GBP224m</strong> (range <strong>GBP219-231m</strong>, 6 analysts).</li><li>Q3 (13 weeks to <strong>26 June 2026</strong>) total pro forma revenue rose <strong>3.2%</strong>, with volume and mix contributing <strong>2.3%</strong> and price/inflation recovery <strong>0.9%</strong>.</li><li>Manufactured pro forma volume growth accelerated to <strong>0.7%</strong>, ahead of the wider grocery market at <strong>-0.4%</strong>; legacy Greencore <strong>+0.3%</strong>, legacy Bakkavor <strong>+1.0%</strong>.</li><li><strong>Bakkavor</strong> integration on track: fast start on synergies, expecting c.<strong>GBP15m</strong> in-year cost synergies in FY26 and at least <strong>GBP80m</strong> annual cost synergies over time.</li><li>Guidance range implies pro forma Adjusted Operating Profit growth of <strong>17-21%</strong> vs comparable FY25 of <strong>GBP201m</strong>; positive Q3 cashflow, neutral net working capital expected by end-FY26.</li><li>Group continues to explore sale of its <strong>US business</strong> (held for sale, discontinued operation); next update a Q4/FY26 trading update on <strong>8 October 2026</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Greencore upgrades FY26 adjusted operating profit guidance to GBP234-242m, above the GBP224m market consensus, after strong Q3 volume and profit growth.",
+    "priority": "high",
+    "priority_reason": "Q3 trading update with an upgrade to FY26 adjusted operating profit guidance above market expectations.",
+    "figures": [
+      {
+        "metric": "Total pro forma revenue growth",
+        "current": "+3.2%",
+        "prior": "not stated",
+        "change": "+3.2%",
+        "basis": "pro forma vs FY25",
+        "note": "Q3, 13 weeks to 26 June 2026"
+      },
+      {
+        "metric": "Manufactured pro forma volume growth",
+        "current": "+0.7%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "pro forma vs FY25; wider grocery market -0.4%",
+        "note": "Q3"
+      },
+      {
+        "metric": "FY26 Adjusted Operating Profit guidance (continuing ops)",
+        "current": "£234-242m",
+        "prior": "£201m (comparable FY25)",
+        "change": "+17-21% on comparable basis",
+        "basis": "continuing operations, UK business",
+        "note": "vs consensus £224m"
+      },
+      {
+        "metric": "FY26 in-year cost synergies",
+        "current": "c.£15m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "Bakkavor integration",
+        "note": "at least £80m annual run-rate targeted"
+      }
+    ],
+    "guidance": {
+      "status": "raised",
+      "previous": "Current market consensus for FY26 Adjusted Operating Profit for continuing operations (UK business only) is £224m (range £219-231m)",
+      "current": "FY26 Adjusted Operating Profit for continuing operations (UK business) above market expectations in the range £234-242m",
+      "commentary": "Greencore upgraded FY26 adjusted operating profit guidance to £234-242m, above the £224m consensus, with the majority of the upgrade driven by underlying trading of the enlarged Greencore/Bakkavor business rather than synergies alone."
+    },
+    "explainer": "This is a third-quarter trading update covering the 13 weeks to 26 June 2026. The headline is a guidance upgrade: Greencore now expects full-year (FY26) adjusted operating profit from continuing operations to be £234-242m, comfortably above the £224m analysts had pencilled in. 'Adjusted' operating profit strips out one-off and integration-related items, and 'continuing operations' excludes the US business, which is now treated as held-for-sale and could be sold.\n\nThe figures are quoted on a 'pro forma' basis, meaning both the current and prior-year periods are restated as if Greencore and Bakkavor (acquired earlier in the year) had always been combined, and with the disposed Bristol facility removed from both periods. This makes the 3.2% revenue growth and 0.7% volume growth like-for-like comparisons rather than flattering figures inflated by the acquisition. Volume growth of 0.7% is notable because the wider grocery market shrank 0.4%.\n\nOn guidance, the upgrade is described as mostly driven by underlying trading of the enlarged business rather than merger synergies. The new £234-242m range implies 17-21% growth versus the comparable FY25 figure of £201m. Cost synergies from the Bakkavor deal are running ahead of plan, with c.£15m expected in FY26 and at least £80m targeted annually over the next few years.\n\nSeparately, the company is exploring a sale of its US operations, which are performing in line with expectations. The next update is a Q4 and FY26 trading statement on 8 October 2026, with full results on 1 December 2026.",
+    "source_url": "https://uk.advfn.com/stock-market/london/greencore-GNC/share-news/Greencore-Group-PLC-Q3-Trading-Update/98958892",
+    "related_news_url": "https://news.google.com/search?q=%22Greencore%20Group%20plc%22",
+    "added_at": "2026-07-27T00:16:44.709371"
+  },
+  {
     "company": "Fresnillo plc",
     "ticker": "FRES",
     "publish_date": "27 July 2026",
