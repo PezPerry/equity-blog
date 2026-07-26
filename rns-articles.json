@@ -1,5 +1,122 @@
 [
   {
+    "company": "Frasers Group PLC",
+    "ticker": "FRAS",
+    "publish_date": "27 July 2026",
+    "date_iso": "2026-07-27",
+    "time_period": "",
+    "announcement_type": "Acquisition / deal",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Frasers Group plc</strong> has extended the closing date of its on-market takeover Offer for <strong>Accent Group Limited (ASX: AX1)</strong> to <strong>4:00pm Sydney time on 30 September 2026</strong>, unless further extended or withdrawn.</li><li>The all-cash Offer, first announced on <strong>15 June 2026</strong>, is priced at <strong>A$0.65 per Accent Share</strong> for all shares Frasers does not already hold.</li><li>The extension was announced on <strong>23 July 2026</strong> via the ASX by Frasers' broker <strong>Barrenjoey Markets Pty Limited</strong>; <strong>no other terms of the Offer have changed</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Frasers Group has extended the offer period for its A$0.65-per-share all-cash takeover bid for Australia's Accent Group to 30 September 2026.",
+    "priority": "high",
+    "priority_reason": "Update on a live all-cash takeover bid for ASX-listed Accent Group, an M&A situation.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/frasers-FRAS/share-news/Frasers-Group-PLC-Update-on-Offer-for-Accent/98966668",
+    "related_news_url": "https://news.google.com/search?q=%22Frasers%20Group%20plc%22",
+    "added_at": "2026-07-27T00:30:42.798633"
+  },
+  {
+    "company": "easyJet PLC",
+    "ticker": "EZJ",
+    "publish_date": "27 July 2026",
+    "date_iso": "2026-07-27",
+    "time_period": "Q3 FY26 (quarter ended 30 June 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "Q3 FY26 (quarter ended 30 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Q3 FY26 headline PBT of £85 million</strong>, impacted by the <strong>Middle East conflict</strong> and its effect on fuel prices and booking trends; strong late-booking demand continued but was insufficient to fully offset weaker post-conflict trends.</li><li>Fuel costs a <strong>£105 million</strong> headwind versus prior year on higher prices on the unhedged portion, with fuel peaking at approximately <strong>$1,800 per metric tonne</strong> in April; Q3 CASK ex fuel up <strong>3% YoY</strong>.</li><li><strong>easyJet holidays PBT of £84 million</strong> vs <strong>£86 million</strong> in Q3 FY25 (<strong>+7% excluding FX</strong>); customer numbers up <strong>8%</strong>, inflight retail PBT per seat up <strong>14% YoY</strong>.</li><li>Capacity: <strong>29.0m seats</strong> flown (Q3 FY25: 28.7m); load factor <strong>88.9%</strong> (90.2%); passengers broadly flat at <strong>25.8m</strong> (25.9m). On-time performance <strong>78%</strong> (+2ppt); airline customer satisfaction <strong>84%</strong> (+3ppt).</li><li>Board change: COO <strong>David Morgan</strong> to retire and return to flying as a pilot; <strong>Sophie Dekkers</strong> (currently CCO) succeeds him, with <strong>Daniel Skjeldam</strong> joining as CCO on <strong>1 September</strong>.</li><li>Outlook: final FY26 outcome remains dependent on remaining peak-summer bookings and volatile fuel prices; no numeric guidance provided. Profit figures constitute Rule 28 profit estimates under the Takeover Code.</li></ul>",
+    "source_format": "html",
+    "headline": "easyJet posts **Q3 FY26 headline PBT of £85m**, dented by the **Middle East conflict** hitting fuel prices and bookings, though late demand stayed strong.",
+    "priority": "high",
+    "priority_reason": "Quarterly trading update from a FTSE airline, with a stated Q3 headline PBT figure, fuel/demand impact and a management board change.",
+    "figures": [
+      {
+        "metric": "Group headline PBT",
+        "current": "£85m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "headline",
+        "note": "Q3 FY26 (quarter ended 30 June 2026)"
+      },
+      {
+        "metric": "easyJet holidays PBT",
+        "current": "£84m",
+        "prior": "£86m",
+        "change": "+7% excluding FX",
+        "basis": "reported down YoY; +7% ex FX",
+        "note": "Q3 FY26 vs Q3 FY25"
+      },
+      {
+        "metric": "Fuel costs",
+        "current": "+£105m vs prior year",
+        "prior": "not stated",
+        "change": "+£105m YoY",
+        "basis": "higher prices on unhedged consumption",
+        "note": "Q3 FY26"
+      },
+      {
+        "metric": "CASK ex fuel",
+        "current": "+3% YoY",
+        "prior": "not stated",
+        "change": "+3%",
+        "basis": "cost per available seat km, ex fuel",
+        "note": "Q3 FY26"
+      },
+      {
+        "metric": "Seats flown",
+        "current": "29.0m",
+        "prior": "28.7m",
+        "change": "+1.0%",
+        "basis": "not stated",
+        "note": "Q3 FY26 vs Q3 FY25"
+      },
+      {
+        "metric": "Load factor",
+        "current": "88.9%",
+        "prior": "90.2%",
+        "change": "-1.3ppt",
+        "basis": "not stated",
+        "note": "Q3 FY26 vs Q3 FY25"
+      },
+      {
+        "metric": "Passenger numbers",
+        "current": "25.8m",
+        "prior": "25.9m",
+        "change": "broadly flat",
+        "basis": "not stated",
+        "note": "Q3 FY26 vs Q3 FY25"
+      },
+      {
+        "metric": "Inflight retail PBT per seat",
+        "current": "+14% YoY",
+        "prior": "not stated",
+        "change": "+14%",
+        "basis": "ancillary revenue",
+        "note": "Q3 FY26"
+      }
+    ],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "The final outcome for FY26 remains dependent on the important remaining bookings, as well as fuel prices, which continue to be volatile.",
+      "commentary": "No numeric FY26 guidance was issued or changed; management framed the outlook as dependent on peak-summer bookings and volatile fuel prices, while reiterating self-help initiatives aimed at medium-term margin and profit improvement."
+    },
+    "explainer": "This is a Q3 trading update covering the three months to 30 June 2026, the third quarter of easyJet's financial year, which ends 30 September. It is not full results, so the company gives selected headline figures rather than a complete statutory income statement. The unaudited profit numbers are formally designated 'profit estimates' under Rule 28 of the UK Takeover Code, meaning the board has confirmed they were properly compiled — a technicality that does not imply a bid is in play.\n\nThe headline story is that group headline PBT was £85 million, held back by the Middle East conflict that began in March: it pushed up fuel prices and initially dampened bookings. Fuel alone was a £105 million year-on-year headwind, largely because the portion of fuel not hedged was exposed to prices that spiked to around $1,800 per tonne in April. Encouragingly, customers booked late and in strength, and the holidays arm proved resilient — its PBT slipped from £86m to £84m as reported, but rose 7% once adverse currency movements are stripped out, so the underlying trend was positive.\n\nOn operating metrics, easyJet flew slightly more seats (29.0m vs 28.7m) but load factor fell to 88.9% from 90.2%, meaning planes ran a little emptier as demand normalised after the conflict — passenger numbers were essentially flat. Comparisons such as CASK ex fuel (+3%) are flattered or hindered by prior-year one-offs; management notes last year benefited from a credit on buying aircraft back, so the underlying cost performance was better than the raw 3% suggests.\n\nOn guidance: there is no numeric target here to raise or cut. The outlook is deliberately cautious, hinging on the crucial peak-summer bookings still to come and on volatile fuel prices, with management pointing to self-help initiatives (new loyalty scheme in FY27, premiumisation, the Expedia hotels tie-up) as the medium-term profit drivers rather than any near-term figure.",
+    "source_url": "https://uk.advfn.com/stock-market/london/easyjet-EZJ/share-news/Trading-Update-for-the-quarter-ended-30-June-2026/98966756",
+    "related_news_url": "https://news.google.com/search?q=%22easyJet%20plc%22",
+    "added_at": "2026-07-27T00:30:42.785127"
+  },
+  {
     "company": "Howden Joinery Group PLC",
     "ticker": "HWDN",
     "publish_date": "27 July 2026",
