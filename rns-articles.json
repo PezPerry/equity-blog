@@ -1,5 +1,40 @@
 [
   {
+    "company": "Intel Corp",
+    "ticker": "INTC",
+    "publish_date": "27 July 2026",
+    "date_iso": "2026-07-27",
+    "time_period": "Q2 2026",
+    "announcement_type": "Quarterly results",
+    "period_detail": "Q2 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Intel Corporation</strong> reported <strong>Q2 2026</strong> results, with CEO <strong>Lip-Bu Tan</strong> claiming its <strong>strongest revenue growth in more than fifteen years</strong> — but the scraped text does <strong>not print the actual revenue, net income or EPS figures</strong>, so the headline numbers cannot be confirmed here.</li><li>Management says the quarter <strong>exceeded financial guidance</strong> on robust demand and improved execution, including volume upside from higher factory yields and better cycle times.</li><li>The company generated <strong>$7.0bn</strong> in cash from operations in the quarter (no prior-year comparative printed in the source).</li><li>Year-on-year comparability was affected by the <strong>deconsolidation of Altera</strong> (programmable/FPGA business) after Intel sold <strong>51%</strong> of it, effective <strong>12 September 2025</strong>; Altera now sits within 'All Other'.</li><li>Client Computing Group has been renamed the <strong>Client Computing and Physical AI Group (CCPG)</strong>.</li><li><strong>Q3 2026 guidance</strong> (GAAP and non-GAAP) was issued, but the specific revenue, gross-margin and EPS figures are <strong>not captured in the scraped text</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Intel reports Q2 2026 results, saying it beat guidance with its strongest revenue growth in more than fifteen years on AI-driven compute demand.",
+    "priority": "high",
+    "priority_reason": "Quarterly results from a major chipmaker with management claiming the strongest revenue growth in over fifteen years and a Q3 guidance outlook.",
+    "figures": [
+      {
+        "metric": "Cash from operations",
+        "current": "$7.0bn",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "GAAP",
+        "note": "Q2 2026"
+      }
+    ],
+    "guidance": {
+      "status": "new",
+      "previous": "not stated",
+      "current": "not stated",
+      "commentary": "Intel issued Q3 2026 GAAP and non-GAAP guidance for revenue, gross margin and diluted EPS, with gross-margin and EPS outlooks based on the midpoint of the revenue range. The actual guidance figures are not present in the scraped text, so the direction versus prior guidance cannot be determined here."
+    },
+    "explainer": "This is Intel's second-quarter 2026 earnings release, but the scraped page contains only the narrative and the labels of the financial tables — the numbers themselves (revenue, net income, EPS and the Q3 outlook) did not come through. As a result, the specific figures cannot be reported and would need to be checked against Intel's official release.\n\nWhat can be stated from the text: management says the quarter beat its own guidance, driven by AI-related compute demand, higher factory yields and faster cycle times, and the CEO characterises it as the strongest revenue growth in over fifteen years. The company produced $7.0bn of operating cash flow in the quarter.\n\nA key comparability point: Intel sold 51% of Altera (its FPGA/programmable-chip business) in September 2025 and deconsolidated it. That means year-on-year revenue and profit lines are not like-for-like — Altera's sales were included in the prior period but are now largely absent, so headline growth and margin comparisons are distorted by that divestiture rather than reflecting purely organic trends.\n\nOn guidance, Intel provided a fresh Q3 2026 outlook on both a GAAP and non-GAAP basis, with the gross-margin and EPS ranges built off the midpoint of the revenue range. Because the actual numbers are missing from this scrape, it is not possible to say here whether the outlook is above or below prior expectations.",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/INTC/share-news/Intel-Reports-Second-Quarter-2026-Financial-Result/98973025",
+    "related_news_url": "https://news.google.com/search?q=%22Intel%20Corporation%22",
+    "added_at": "2026-07-27T00:10:51.755858"
+  },
+  {
     "company": "Paragon Banking Group PLC",
     "ticker": "PAG",
     "publish_date": "27 July 2026",
@@ -186,6 +221,32 @@
     "added_at": "2026-07-27T00:06:21.547324"
   },
   {
+    "company": "Helios Towers plc",
+    "ticker": "HTWS",
+    "publish_date": "24 July 2026",
+    "date_iso": "2026-07-24",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>David Wassong</strong> has ceased to be the shareholder-appointed director of <strong>Quantum Strategic Partners Ltd</strong> after Quantum's stake in <strong>Helios Towers</strong> fell below <strong>10%</strong>, terminating the Shareholders' Agreement.</li><li>He continues as a <strong>non-executive director</strong> and has been appointed to the <strong>Nomination and Technology Committees</strong> with effect from <strong>23 July 2026</strong>.</li><li>Routine disclosure under <strong>UKLR 6.4.6R(3)</strong> with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "David Wassong ceases to be Quantum's shareholder-appointed director but continues as non-executive director, joining the Nomination and Technology Committees.",
+    "priority": "low",
+    "priority_reason": "Routine change of director responsibilities disclosure under UKLR 6.4.6R(3) with no trading or guidance impact.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/helios-towers-HTWS/share-news/Helios-Towers-PLC-Change-of-Director-Responsibilit/98975038",
+    "related_news_url": "https://news.google.com/search?q=%22Helios%20Towers%20plc%22",
+    "added_at": "2026-07-27T00:10:51.719253"
+  },
+  {
     "company": "Capricorn Energy PLC",
     "ticker": "CNE",
     "publish_date": "24 July 2026",
@@ -210,6 +271,32 @@
     "source_url": "https://www.investegate.co.uk/announcement/rns/capricorn-energy--cne/replacement-admission-to-trading/9687451",
     "related_news_url": "https://news.google.com/search?q=%22Capricorn%20Energy%20PLC%22",
     "added_at": "2026-07-26T21:23:42.464802"
+  },
+  {
+    "company": "SLM Corporation",
+    "ticker": "SLM",
+    "publish_date": "23 July 2026",
+    "date_iso": "2026-07-23",
+    "time_period": "Q2 2026",
+    "announcement_type": "Quarterly results",
+    "period_detail": "Q2 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>SLM Corporation (Sallie Mae)</strong> (Nasdaq: <strong>SLM</strong>) released its <strong>Q2 2026</strong> financial results on <strong>23 July 2026</strong>.</li><li>The scraped page carries only the release notice — <strong>no revenue, profit, EPS or other figures are stated</strong> in this text; full results are at SallieMae.com/investors and via the BusinessWire release.</li><li>Earnings conference call held <strong>23 July 2026 at 5:30 p.m. ET</strong>.</li><li>US-listed private student lender; <strong>not a UK RNS announcement</strong> and of limited direct relevance to UK equity trading.</li></ul>",
+    "source_format": "html",
+    "headline": "Sallie Mae released its second-quarter 2026 financial results, though no figures are included in the scraped text.",
+    "priority": "medium",
+    "priority_reason": "Quarterly results release, but the scraped text contains only the announcement notice and no actual financial figures.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "This is a results announcement, but the scraped text is only the press-release notice pointing readers to Sallie Mae's investor site and the underlying BusinessWire release. It does not print any of the actual Q2 2026 numbers, so no figures can be summarised or verified here.",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/SLM/share-news/Sallie-Mae-Reports-Second-Quarter-2026-Financial-R/98973755",
+    "related_news_url": "https://news.google.com/search?q=%22SLM%20Corporation%20(Sallie%20Mae)%22",
+    "added_at": "2026-07-27T00:10:51.684779"
   },
   {
     "company": "CME Group Inc",
