@@ -810,6 +810,32 @@
     "added_at": "2026-07-26T21:23:42.464802"
   },
   {
+    "company": "Caledonia Mining Corporation Plc",
+    "ticker": "CMCL",
+    "publish_date": "23 July 2026",
+    "date_iso": "2026-07-23",
+    "time_period": "",
+    "announcement_type": "Exploration update",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Caledonia Mining</strong> surface drilling at the <strong>K-Pits</strong> target, <strong>Blanket</strong> mine (Zimbabwe), has defined a previously unrecognised near-surface gold zone about <strong>200 metres east</strong> of the nearest projected underground orebody, potentially a <strong>new orebody</strong>.</li><li>Both <strong>oxide and sulphide</strong> mineralisation identified; selected RC highlights include <strong>23.00m at 2.61g/t</strong> from surface (oxide), <strong>16.00m at 6.04g/t</strong> and <strong>7.00m at 5.96g/t</strong> (sulphide) — down-hole intersections, true widths not yet stated.</li><li>Metallurgical test work underway on the oxide material for <strong>conventional heap leaching</strong>, with preliminary results described as encouraging; a trial <strong>10,000-tonne</strong> heap leach is intended for <strong>H2 2026</strong> if recoveries prove acceptable.</li><li>Updated <strong>Blanket resource statement</strong>, incorporating the surface programme and recent underground drilling, expected to be published in <strong>August 2026</strong>.</li><li>Follow-up drilling planned from surface and underground (9 level) to test extensions at depth; <strong>no impact on current guidance</strong> stated.</li></ul>",
+    "source_format": "html",
+    "headline": "Surface drilling at Caledonia's Blanket mine defines a previously unrecognised near-surface gold zone, with an updated resource statement due August 2026.",
+    "priority": "medium",
+    "priority_reason": "Exploration drilling has identified a potential new near-surface gold orebody at Blanket, a genuine value driver but earlier-stage than results or M&A.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/caledonia-mining-CMCL/share-news/Caledonia-Mining-Corporation-PLC-Blanket-Explorati/98966766",
+    "related_news_url": "https://news.google.com/search?q=%22Caledonia%20Mining%20Corporation%20Plc%22",
+    "added_at": "2026-07-27T00:21:13.701141"
+  },
+  {
     "company": "Tractor Supply Company",
     "ticker": null,
     "publish_date": "23 July 2026",
@@ -925,6 +951,41 @@
     "source_url": "https://uk.advfn.com/stock-market/NASDAQ/SLM/share-news/Sallie-Mae-Reports-Second-Quarter-2026-Financial-R/98973755",
     "related_news_url": "https://news.google.com/search?q=%22SLM%20Corporation%20(Sallie%20Mae)%22",
     "added_at": "2026-07-27T00:10:51.684779"
+  },
+  {
+    "company": "Centrica plc",
+    "ticker": "CNA",
+    "publish_date": "22 July 2026",
+    "date_iso": "2026-07-22",
+    "time_period": "H1 to 30 June 2026",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Centrica plc</strong> released its <strong>interim results for the six months ended 30 June 2026</strong>; the detailed financials are in the linked RNS PDF and are <strong>not reproduced in this announcement text</strong>.</li><li>Proposed <strong>interim dividend of 2.0p</strong> per share, payable <strong>22 September 2026</strong> to shareholders on the register at <strong>21 August 2026</strong>.</li><li>Analyst and institutional results presentation held at <strong>9.30am UK on Thursday 23 July 2026</strong>, with a live webcast.</li><li>The scraped text contains <strong>no revenue, profit or EPS figures</strong> — those detail figures are only available in the full PDF report, so no comparatives can be given here.</li></ul>",
+    "source_format": "html",
+    "headline": "Centrica published its interim results for the six months ended 30 June 2026 and declared an interim dividend of 2.0p per share.",
+    "priority": "high",
+    "priority_reason": "Half-year financial report from a FTSE 100 energy group — a scheduled results release traders watch closely.",
+    "figures": [
+      {
+        "metric": "Interim dividend",
+        "current": "2.0p per share",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "H1 to 30 June 2026"
+      }
+    ],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "This RNS item is the notification that Centrica's half-year results for the six months to 30 June 2026 have been published, but the scraped page carries only the dividend declaration and administrative details — the actual profit and loss numbers sit in the linked PDF and were not captured in the text provided.\n\nThe only hard figure available here is the interim dividend of 2.0p per share. No prior-year comparative for the dividend or any other metric is printed in this text, so no like-for-like change can be stated. For revenue, adjusted operating profit, EPS and net cash/debt, the full report would need to be read directly.",
+    "source_url": "https://uk.advfn.com/stock-market/london/centrica-CNA/share-news/Centrica-PLC-Half-year-Financial-Report/98966719",
+    "related_news_url": "https://news.google.com/search?q=%22Centrica%20plc%22",
+    "added_at": "2026-07-27T00:21:13.686468"
   },
   {
     "company": "Airtel Africa plc",
