@@ -1,5 +1,56 @@
 [
   {
+    "company": "Mitchells & Butlers PLC",
+    "ticker": "MAB",
+    "publish_date": "27 July 2026",
+    "date_iso": "2026-07-27",
+    "time_period": "42 weeks ended 18 July 2026 (Q3 FY26 / year-to-date)",
+    "announcement_type": "Trading update",
+    "period_detail": "42 weeks ended 18 July 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Year-to-date like-for-like sales up 2.2%</strong> over the 42 weeks to <strong>18 July 2026</strong>, described as robust despite a challenging third quarter against strong comparatives.</li><li><strong>Total sales up 1.3%</strong> year-to-date.</li><li>Q3 hit by the timing of <strong>Easter</strong> (an approximate <strong>0.8ppt</strong> LFL headwind, as it fell in Q3 last year) and by extended periods of <strong>extreme heat</strong>, which hurt food-led brands <strong>Toby Carvery</strong> and <strong>Miller & Carter</strong>; drink-led pubs performed well, aided by the football <strong>World Cup</strong>.</li><li>Investment programme accelerated: <strong>181 conversions and remodels</strong> completed, plus <strong>10 new sites acquired</strong> (2 leasehold in Germany, 8 UK freeholds) and <strong>4 freehold interests</strong> bought in existing sites.</li><li>Cost inflation guidance unchanged at <strong>c.£120m</strong> for the financial year; management remains confident of a full-year outturn <strong>in line with consensus expectations</strong>, helped by the <strong>Ignite</strong> programme and investment strategy.</li></ul>",
+    "source_format": "html",
+    "headline": "Mitchells & Butlers reports year-to-date like-for-like sales up 2.2% and reaffirms a full-year outturn in line with consensus, despite weather-hit Q3 trading.",
+    "priority": "high",
+    "priority_reason": "Quarterly trading update from a listed pub and restaurant operator, with sales performance and reaffirmed full-year guidance.",
+    "figures": [
+      {
+        "metric": "Like-for-like sales growth (YTD)",
+        "current": "+2.2%",
+        "prior": "not stated",
+        "change": "+2.2%",
+        "basis": "like-for-like",
+        "note": "42 weeks to 18 July 2026"
+      },
+      {
+        "metric": "Total sales growth (YTD)",
+        "current": "+1.3%",
+        "prior": "not stated",
+        "change": "+1.3%",
+        "basis": "total sales",
+        "note": "42 weeks to 18 July 2026"
+      },
+      {
+        "metric": "Cost inflation (full year)",
+        "current": "c.£120m",
+        "prior": "c.£120m",
+        "change": "unchanged",
+        "basis": "management expectation",
+        "note": "current financial year"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Full-year outturn in line with consensus expectations; cost inflation of c.£120m",
+      "current": "Full-year outturn in line with consensus expectations; cost inflation unchanged at c.£120m",
+      "commentary": "Guidance is reaffirmed rather than changed: despite a weather-affected third quarter, management expects to deliver full-year expectations in line with consensus, with cost inflation held at c.£120m."
+    },
+    "explainer": "This is a Q3 trading update covering the 42 weeks to 18 July 2026, so the figures are cumulative for the financial year to date rather than for the quarter alone. Like-for-like (LFL) sales of +2.2% strip out the effect of new or closed sites, measuring only the underlying performance of the estate; total sales of +1.3% are lower than LFL because the two measures capture different things, with the estate mix and site changes weighing on the total.\n\nThe quarter itself was softer, and the company is explicit about why. Easter fell in the third quarter last year but not this year, which flatters last year's comparative and creates roughly a 0.8 percentage-point drag on this year's LFL growth. Prolonged extreme heat also hurt food-led brands such as Toby Carvery and Miller & Carter, while wet-led pubs held up better, helped by the World Cup.\n\nOn guidance, nothing has been raised or cut. Management reaffirms that it expects a full-year result in line with consensus (the average of City analysts' forecasts) and keeps its cost-inflation estimate unchanged at about £120m. The message is one of resilience and confidence in meeting existing expectations rather than any upgrade or downgrade.",
+    "source_url": "https://uk.advfn.com/stock-market/london/mitchells-butlers-MAB/share-news/Mitchells-Butlers-PLC-Third-Quarter-Trading-Upda/98966685",
+    "related_news_url": "https://news.google.com/search?q=%22Mitchells%20%26%20Butlers%20PLC%22",
+    "added_at": "2026-07-27T00:28:54.623501"
+  },
+  {
     "company": "BT Group PLC",
     "ticker": "BT.A",
     "publish_date": "27 July 2026",
