@@ -26,6 +26,73 @@
     "added_at": "2026-07-26T21:23:42.464802"
   },
   {
+    "company": "J D Wetherspoon plc",
+    "ticker": "JDW",
+    "publish_date": "22 July 2026",
+    "date_iso": "2026-07-22",
+    "time_period": "FY to 26 July 2026 (52 weeks)",
+    "announcement_type": "Trading update",
+    "period_detail": "FY to 26 July 2026 (52 weeks)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>J D Wetherspoon</strong> warns <strong>profits for the year are likely to be below market expectations</strong>, chairman <strong>Tim Martin</strong> citing marginally lower Q4 sales and higher costs in food, labour, repairs, energy and business rates.</li><li>Like-for-like sales up <strong>4.0%</strong> in the <strong>12 weeks to 19 July 2026</strong>; year-to-date like-for-like sales up <strong>4.2%</strong>.</li><li>Year-end <strong>net debt</strong> anticipated at <strong>£720 million</strong>, in line with the end of the last financial year.</li><li>Estate: <strong>793 managed pubs</strong> (opened eight, sold nine year-to-date); <strong>15 franchised pubs</strong> opened, total now <strong>23</strong>.</li><li>Bought back <strong>6,402,368 own shares</strong> for cancellation at an average <strong>£6.52</strong>; purchased freehold reversions of four pubs for <strong>£12.2 million</strong>.</li><li>This is a correction of the 22 July 2026 update — a date typo (19 July 2025 corrected to 19 July 2026); preliminary results due <strong>2 October 2026</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Wetherspoon warns full-year profits will fall below market expectations despite like-for-like sales rising 4.0% over the last 12 weeks.",
+    "priority": "high",
+    "priority_reason": "Pre-close trading update containing a profit warning: profits now expected below market expectations.",
+    "figures": [
+      {
+        "metric": "Like-for-like sales (12 weeks to 19 July 2026)",
+        "current": "+4.0%",
+        "prior": "not stated",
+        "change": "+4.0%",
+        "basis": "like-for-like",
+        "note": "vs same period last year"
+      },
+      {
+        "metric": "Like-for-like sales (year-to-date)",
+        "current": "+4.2%",
+        "prior": "not stated",
+        "change": "+4.2%",
+        "basis": "like-for-like",
+        "note": "year-to-date"
+      },
+      {
+        "metric": "Net debt (year-end anticipated)",
+        "current": "£720m",
+        "prior": "£720m",
+        "change": "in line",
+        "basis": "as reported",
+        "note": "in line with end of last financial year"
+      },
+      {
+        "metric": "Managed pubs",
+        "current": "793",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "as reported",
+        "note": "eight opened, nine sold year-to-date"
+      },
+      {
+        "metric": "Own shares purchased for cancellation",
+        "current": "6,402,368 shares at avg £6.52",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "as reported",
+        "note": "year-to-date"
+      }
+    ],
+    "guidance": {
+      "status": "lowered",
+      "previous": "not stated (prior market expectations)",
+      "current": "Profits for the year are likely to be below market expectations",
+      "commentary": "Wetherspoon has effectively issued a profit warning: full-year profit will come in below prior market expectations, driven by marginally lower-than-anticipated sales in the final quarter and higher costs across food, labour, repairs, energy and business rates."
+    },
+    "explainer": "Like-for-like (LFL) sales strip out newly opened or closed pubs, so the +4.0% over the last 12 weeks and +4.2% year-to-date reflect underlying growth from the existing estate rather than expansion. On the face of it, sales growth remains solid.\n\nThe key message, however, is the profit warning. Despite positive sales, Wetherspoon expects full-year profit to land below what the market had been forecasting. Chairman Tim Martin attributes this to two things: sales in the final quarter came in marginally softer than the company had anticipated, and cost inflation across food, labour, repairs, energy and business rates is squeezing margins. When costs rise faster than sales, profit falls even as revenue grows.\n\nNet debt is guided to £720 million at year-end, unchanged versus last year, so the balance sheet position is stable. The company has continued returning cash via share buybacks (over 6.4 million shares cancelled at an average £6.52) and has kept investing in freehold reversions.\n\nNote this is a technical correction of the 22 July update, fixing a mistyped date (19 July 2025 should read 19 July 2026). The financial substance — including the profit warning — is unchanged. Preliminary results are due on 2 October 2026.",
+    "source_url": "https://uk.advfn.com/stock-market/london/wetherspoon-j-d-JDW/share-news/Wetherspoon-JD-PLC-Pre-close-trading-update-Corr/98959841",
+    "related_news_url": "https://news.google.com/search?q=%22J%20D%20Wetherspoon%20plc%22",
+    "added_at": "2026-07-27T00:05:19.564041"
+  },
+  {
     "company": "IP Group PLC",
     "ticker": "IPO",
     "publish_date": "22 July 2026",
