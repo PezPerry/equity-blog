@@ -605,6 +605,49 @@
     "added_at": "2026-07-27T00:10:51.684779"
   },
   {
+    "company": "Energean plc",
+    "ticker": "ENOG",
+    "publish_date": "22 July 2026",
+    "date_iso": "2026-07-22",
+    "time_period": "H2 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "H2 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Second oil train</strong> on the <strong>Energean Power FPSO</strong> safely commissioned on <strong>13 July 2026</strong>, raising total liquids processing capacity from <strong>18 kbbl/d to 31 kbbl/d</strong>.</li><li>Liquids production tested at rates of up to <strong>21 kbbl/d</strong>; further testing at higher rates expected in <strong>August 2026</strong> after <strong>Katlan</strong> subsea tie-in work.</li><li>Israel liquids production averaged <strong>10 kbbl/d in H1 2026</strong> (<strong>13 kbbl/d</strong> excluding a 41-day shutdown between <strong>28 February and 9 April 2026</strong>), and is expected to average <strong>17-21 kbbl/d in H2 2026</strong>, in line with 2026 guidance.</li><li>Milestone strengthens position as <strong>Israel's largest liquids producer</strong> and increases the share of revenues linked to <strong>Brent</strong> pricing.</li></ul>",
+    "source_format": "html",
+    "headline": "Energean commissions second oil train on its Power FPSO, lifting total liquids processing capacity from 18 to 31 kbbl/d and increasing Brent-linked revenue.",
+    "priority": "medium",
+    "priority_reason": "Operational milestone that lifts liquids capacity and Brent-linked revenue, but reaffirms rather than changes 2026 guidance.",
+    "figures": [
+      {
+        "metric": "FPSO liquids processing capacity",
+        "current": "31 kbbl/d",
+        "prior": "18 kbbl/d",
+        "change": "not stated",
+        "basis": "",
+        "note": "after second oil train commissioning"
+      },
+      {
+        "metric": "Israel liquids production",
+        "current": "17-21 kbbl/d (H2 2026 expected)",
+        "prior": "10 kbbl/d (H1 2026)",
+        "change": "not stated",
+        "basis": "H1 averaged 13 kbbl/d excluding 41-day shutdown",
+        "note": "in line with 2026 guidance"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "2026 guidance for Israel liquids",
+      "current": "Israel liquids production expected to average 17-21 kbbl/d in H2 2026",
+      "commentary": "Guidance reaffirmed; the H2 range is described as in line with the existing 2026 guidance and reflects planned shutdowns for Katlan-related activity and maintenance."
+    },
+    "explainer": "This is an operational update rather than a financial results statement. The key change is physical: a second oil train has been brought online on the Energean Power FPSO offshore Israel, increasing the vessel's liquids processing capacity from 18 to 31 kbbl/d. Because liquids (oil condensate) are priced against Brent crude, more liquids output means a larger slice of Energean's revenue moves with the Brent oil price rather than with gas contracts.\n\nOn the production comparison: Israel liquids averaged 10 kbbl/d in the first half of 2026, but this was depressed by a 41-day government-directed shutdown between late February and early April; stripping that out, the underlying average was 13 kbbl/d. Management guides to 17-21 kbbl/d in the second half, which it says is consistent with existing 2026 guidance.\n\nGuidance is therefore maintained, not raised. The H2 range already factors in planned shutdowns for Katlan tie-in work and maintenance, so investors should read the higher second-half figure as expected ramp-up rather than a fresh upgrade.",
+    "source_url": "https://uk.advfn.com/stock-market/london/energean-ENOG/share-news/Energean-PLC-Second-Oil-Train-Boosts-Brent-Linked/98958894",
+    "related_news_url": "https://news.google.com/search?q=%22Energean%20plc%22",
+    "added_at": "2026-07-27T00:16:18.595156"
+  },
+  {
     "company": "CME Group Inc",
     "ticker": "CME",
     "publish_date": "22 July 2026",
