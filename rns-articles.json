@@ -1,5 +1,57 @@
 [
   {
+    "company": "GSK plc",
+    "ticker": "GSK",
+    "publish_date": "27 July 2026",
+    "date_iso": "2026-07-27",
+    "time_period": "",
+    "announcement_type": "Regulatory / drug approval",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>US FDA</strong> has approved <strong>Jideytro (zidesamtinib)</strong>, a ROS1 selective inhibitor, for adults with locally advanced or metastatic <strong>ROS1-positive NSCLC</strong> who received a prior ROS1 kinase inhibitor.</li><li>Approval came <strong>ahead of the 18 September 2026 target date</strong> and follows Breakthrough Therapy and Orphan Drug designations.</li><li>Drug comes from <strong>GSK's recently completed acquisition of Nuvalent, Inc.</strong> (completed <strong>15 July 2026</strong>) and is <strong>GSK's first approved medicine in lung cancer</strong>.</li><li>Based on the <strong>ARROS-1 phase I/II trial</strong>: objective response rate <strong>44%</strong> (n=117), with duration-of-response rates of <strong>82% at six months</strong> and <strong>69% at 12 months</strong>.</li><li>GSK is advancing further Nuvalent assets, including <strong>neladalkib (NVL-655)</strong> for ALK-altered NSCLC, under FDA review with a <strong>27 November 2026</strong> target decision date.</li><li>Announcement contains <strong>no financial figures, revenue guidance or trading impact</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "US FDA approves GSK's Jideytro (zidesamtinib) for previously treated ROS1-positive non-small cell lung cancer, GSK's first lung cancer approval.",
+    "priority": "high",
+    "priority_reason": "US FDA approval of a new oncology drug marks GSK's first approval in lung cancer and validates its recent Nuvalent acquisition.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/gsk-GSK/share-news/GSK-PLC-Jideytro-approved-in-US-for-certain-lung-c/98963771",
+    "related_news_url": "https://news.google.com/search?q=%22GSK%20plc%22",
+    "added_at": "2026-07-27T00:19:44.007203"
+  },
+  {
+    "company": "Centrica plc",
+    "ticker": "CNA",
+    "publish_date": "27 July 2026",
+    "date_iso": "2026-07-27",
+    "time_period": "",
+    "announcement_type": "Trading update",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Centrica</strong> confirms <strong>two-year</strong> life extensions for the <strong>Heysham 1</strong> and <strong>Hartlepool</strong> nuclear power stations, in which it holds a <strong>20% share</strong>, pushing expected closure to <strong>March 2030</strong>.</li><li>Extensions add approximately <strong>6TWh</strong> of incremental generation for the Company, with <strong>no material upfront capital investment</strong> required.</li><li>Stations together power more than <strong>4 million homes</strong> a year; decision taken at a licensee board meeting on <strong>22 July 2026</strong>, versus a prior defuelling date of <strong>March 2028</strong>.</li><li>Follows recently announced Heads of Terms for a <strong>20-year regulated Contract for Difference</strong> for <strong>Sizewell B</strong>, expected to be finalised with <strong>UK Government</strong> later this year.</li><li>No change to the <strong>March 2030</strong> closure date for <strong>Heysham 2</strong> and <strong>Torness</strong>; those lifetimes were not reviewed in this process.</li></ul>",
+    "source_format": "html",
+    "headline": "Centrica confirms two-year life extensions to March 2030 for its 20%-owned Heysham 1 and Hartlepool nuclear stations, adding around 6TWh of generation.",
+    "priority": "medium",
+    "priority_reason": "Operational life extension adds incremental low-carbon generation, but no financial figures or guidance change are disclosed.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/centrica-CNA/share-news/Centrica-PLC-Further-life-extensions-for-nuclear-p/98963188",
+    "related_news_url": "https://news.google.com/search?q=%22Centrica%20plc%22",
+    "added_at": "2026-07-27T00:19:43.972230"
+  },
+  {
     "company": "Goosehead Insurance Inc",
     "ticker": "GSHD",
     "publish_date": "27 July 2026",
