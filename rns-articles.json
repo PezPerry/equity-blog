@@ -992,6 +992,105 @@
     "added_at": "2026-07-26T21:23:42.464802"
   },
   {
+    "company": "Morgan Sindall PLC",
+    "ticker": "MGNS",
+    "publish_date": "23 July 2026",
+    "date_iso": "2026-07-23",
+    "time_period": "H1 to 30 June 2026",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Record H1</strong> results: <strong>adjusted profit before tax up 21% to £116.1m</strong> (HY 2025: <strong>£95.9m</strong>); <strong>PBTA margin</strong> rose to <strong>4.5%</strong> (HY 2025: 4.0%).</li><li><strong>Group revenue up 8% to £2,562m</strong> (HY 2025: £2,370m); <strong>adjusted EPS up 22% to 186.1p</strong> (HY 2025: 153.1p).</li><li><strong>Interim dividend up 10% to 55.0p</strong> per share (HY 2025: 50.0p); <strong>average daily net cash of £423m</strong> (HY 2025: £354m); secured order book <strong>£12.2bn</strong>.</li><li><strong>Medium-term targets raised</strong> (effective <strong>23 July 2026</strong>): <strong>Fit Out</strong> average annual operating profit to <strong>£100m-£130m</strong> (was £80m-£100m); <strong>Construction</strong> operating margin to <strong>3.5%-4.0%</strong> (was 3.0%-3.5%).</li><li><strong>Fit Out</strong> revenue and operating profit both up <strong>19%</strong> to <strong>£996m</strong> and <strong>£69.1m</strong>; <strong>Construction</strong> operating profit up <strong>47% to £24.4m</strong> on revenue up 18% to £742m.</li><li><strong>Partnership Housing</strong> full-year operating profit now expected slightly below prior year amid subdued housing market; Group confident <strong>full-year performance in line with current expectations</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Morgan Sindall posts record H1 with adjusted PBT up 21% to £116m, lifts interim dividend 10% and raises medium-term Fit Out and Construction targets.",
+    "priority": "high",
+    "priority_reason": "Half-year results with record profit, increased medium-term divisional targets and a dividend hike — market-moving for the shares.",
+    "figures": [
+      {
+        "metric": "Group revenue",
+        "current": "£2,562m",
+        "prior": "£2,370m",
+        "change": "+8%",
+        "basis": "",
+        "note": "HY to 30 June 2026"
+      },
+      {
+        "metric": "Adjusted profit before tax",
+        "current": "£116.1m",
+        "prior": "£95.9m",
+        "change": "+21%",
+        "basis": "before intangible amortisation and exceptional building safety charge",
+        "note": "HY to 30 June 2026"
+      },
+      {
+        "metric": "Adjusted operating profit",
+        "current": "£111.5m",
+        "prior": "£91.8m",
+        "change": "+21%",
+        "basis": "",
+        "note": "adjusted operating margin 4.4% vs 3.9%"
+      },
+      {
+        "metric": "Adjusted EPS",
+        "current": "186.1p",
+        "prior": "153.1p",
+        "change": "+22%",
+        "basis": "",
+        "note": "statutory basic EPS 186.1p, up 20% (HY 2025: 155.7p)"
+      },
+      {
+        "metric": "Interim dividend",
+        "current": "55.0p",
+        "prior": "50.0p",
+        "change": "+10%",
+        "basis": "",
+        "note": "per share"
+      },
+      {
+        "metric": "Average daily net cash",
+        "current": "£423m",
+        "prior": "£354m",
+        "change": "not stated",
+        "basis": "",
+        "note": "period-end net cash £418m (HY 2025: £390m)"
+      },
+      {
+        "metric": "Secured order book",
+        "current": "£12.2bn",
+        "prior": "£12.0bn",
+        "change": "not stated",
+        "basis": "",
+        "note": "vs FY 2025 £12.0bn; preferred bidder work £7.3bn, totalling £19.5bn"
+      },
+      {
+        "metric": "Fit Out operating profit",
+        "current": "£69.1m",
+        "prior": "£58.1m",
+        "change": "+19%",
+        "basis": "",
+        "note": "revenue £996m (+19%), margin 6.9%"
+      },
+      {
+        "metric": "Construction operating profit",
+        "current": "£24.4m",
+        "prior": "£16.6m",
+        "change": "+47%",
+        "basis": "",
+        "note": "revenue £742m (+18%), margin 3.3%"
+      }
+    ],
+    "guidance": {
+      "status": "raised",
+      "previous": "Fit Out medium-term average annual operating profit £80m-£100m; Construction operating margin 3.0%-3.5% pa with annual revenue in excess of £1.5bn. Full-year Group performance in line with current expectations.",
+      "current": "Fit Out medium-term average annual operating profit £100m-£130m; Construction operating margin 3.5%-4.0% pa with unchanged annual revenue target in excess of £1.5bn. Full-year Group performance still expected in line with current expectations; average daily net cash for 2026 in excess of £400m.",
+      "commentary": "Medium-term divisional targets for Fit Out and Construction were increased as of 23 July 2026, reflecting strong market position and secured work. Group full-year guidance is maintained, though Partnership Housing full-year operating profit is now seen slightly below prior year and Mixed Use Partnerships is expected to show a small full-year loss."
+    },
+    "explainer": "The headline change is that management has raised the medium-term profit and margin targets for two divisions from 23 July 2026: Fit Out's average annual operating profit target moves up to £100m-£130m (from £80m-£100m) and Construction's operating margin target to 3.5%-4.0% (from 3.0%-3.5%). This is a genuine upgrade to how profitable the company expects these businesses to be over the coming years, reflecting a strong order book and government infrastructure and housing spending. Full-year 2026 Group guidance is unchanged ('in line with current expectations').\n\nNot everything improved: the Partnerships side is under pressure from a weak private housing market. Partnership Housing's full-year operating profit is now expected slightly below last year, and Mixed Use Partnerships is expected to post a small full-year loss as it absorbs upfront project costs. The seasonal first-half operating cash outflow (£10.0m) reflects normal working-capital timing and continued investment in housing sites, not a deterioration in cash generation — twelve-month operating cash was a £202.6m inflow.",
+    "source_url": "https://uk.advfn.com/stock-market/london/morgan-sindall-MGNS/share-news/Morgan-Sindall-Group-PLC-RESULTS-FOR-THE-HALF-YEAR/98966706",
+    "related_news_url": "https://news.google.com/search?q=%22Morgan%20Sindall%20Group%20plc%22",
+    "added_at": "2026-07-27T00:25:48.529517"
+  },
+  {
     "company": "Jupiter Fund Management PLC",
     "ticker": "JUP",
     "publish_date": "23 July 2026",
