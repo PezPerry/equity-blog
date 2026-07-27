@@ -1,5 +1,72 @@
 [
   {
+    "company": "Yellow Cake PLC",
+    "ticker": "YCA",
+    "publish_date": "27 July 2026",
+    "date_iso": "2026-07-27",
+    "time_period": "Q2 2026 (quarter ended 30 June 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "Q2 2026 (quarter ended 30 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li>Estimated <strong>NAV per share</strong> rose <strong>0.2%</strong> to <strong>£6.34</strong> at 30 June 2026 (from <strong>£6.33</strong> at 31 March 2026); proforma NAV on <strong>24 July 2026</strong> was <strong>£6.42/share</strong> or <strong>US$2,149.3m</strong>.</li><li>Value of uranium holdings up <strong>1.5%</strong> to <strong>US$1,969.7m</strong> (from <strong>US$1,940.4m</strong>), reflecting a spot price rise to <strong>US$84.85/lb</strong> (from <strong>US$83.95/lb</strong>) and 100,000 lb bought in the Quarter.</li><li>Holdings increased from <strong>23,114,230 lb</strong> to <strong>23,214,230 lb</strong> of U3O8 after delivery of <strong>100,000 lb</strong> on <strong>20 April 2026</strong>.</li><li>Committed to buy <strong>1,160,766 lb</strong> of U3O8 from <strong>Kazatomprom</strong> at <strong>US$86.15/lb</strong> (<strong>US$100.0m</strong> total), exercising its 2026 option; delivery due H2 2026, lifting holdings to <strong>24,374,996 lb</strong>.</li><li>Completed <strong>US$10m share buyback</strong> on <strong>10 July 2026</strong>, purchasing <strong>1,363,976 shares</strong> at a VWAP of <strong>544.41 pence</strong>.</li><li>Longer-term uranium indicators strengthened: UxC <strong>Long-Term Price</strong> at <strong>US$94.00/lb</strong> (up nearly 10% in H1 2026); spot stabilised in the mid-US$80s/lb.</li></ul>",
+    "source_format": "html",
+    "headline": "Yellow Cake's estimated NAV rose 0.2% to **£6.34/share** in Q2 as uranium holdings grew towards 24.4m lb and it completed a US$10m buyback.",
+    "priority": "high",
+    "priority_reason": "Quarterly operating update giving NAV, uranium holdings, a new US$100m purchase and completion of a buyback programme.",
+    "figures": [
+      {
+        "metric": "Estimated NAV per share",
+        "current": "£6.34",
+        "prior": "£6.33",
+        "change": "+0.2%",
+        "basis": "as reported",
+        "note": "30 June 2026 vs 31 March 2026"
+      },
+      {
+        "metric": "Value of uranium holdings",
+        "current": "US$1,969.7m",
+        "prior": "US$1,940.4m",
+        "change": "+1.5%",
+        "basis": "as reported",
+        "note": "30 June 2026 vs 31 March 2026"
+      },
+      {
+        "metric": "Uranium holdings",
+        "current": "23,214,230 lb U3O8",
+        "prior": "23,114,230 lb U3O8",
+        "change": "+100,000 lb",
+        "basis": "physical",
+        "note": "delivery on 20 April 2026; will rise to 24,374,996 lb after Kazatomprom purchase"
+      },
+      {
+        "metric": "Uranium spot price",
+        "current": "US$84.85/lb",
+        "prior": "US$83.95/lb",
+        "change": "+US$0.90/lb",
+        "basis": "Ux U3O8 daily spot",
+        "note": "30 June 2026 vs 31 March 2026"
+      },
+      {
+        "metric": "UxC Long-Term Price",
+        "current": "US$94.00/lb",
+        "prior": "US$90.00/lb",
+        "change": "+4.4%",
+        "basis": "as reported",
+        "note": "end Q2 vs 31 March 2026; up nearly 10% in H1 2026"
+      }
+    ],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "Yellow Cake is not a trading business in the usual sense: it buys and stores physical uranium (U3O8), so its value tracks the amount of uranium it holds and the prevailing uranium price, translated from US dollars into sterling. The headline measure is estimated net asset value (NAV) per share. This nudged up just 0.2% over the quarter to £6.34, because although the value of the uranium stockpile rose 1.5% (helped by a slightly higher spot price and an extra 100,000 lb bought), a stronger pound against the dollar offset much of the gain when converted to sterling.\n\nThe company also flagged a proforma NAV of £6.42 per share as at 24 July 2026. This is a later snapshot that assumes the full 24.37m lb holding (i.e. including the pending Kazatomprom delivery), values it at a higher spot price of US$86.25/lb, and adjusts cash for the US$100m owed to Kazatomprom and the completed buyback. It is not directly comparable to the 30 June figure because it uses different assumptions and a different date.\n\nThe US$10m buyback, completed on 10 July at a volume-weighted average of 544.41 pence per share, is described as accretive: because the shares were bought below NAV, retiring them lifts NAV per share slightly for remaining holders. No profit, revenue or dividend figures are relevant here, and the company issued no financial guidance.",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/yellow-cake--yca/quarterly-operating-update/9688448",
+    "related_news_url": "https://news.google.com/search?q=%22Yellow%20Cake%20plc%22",
+    "added_at": "2026-07-27T08:17:12.090685"
+  },
+  {
     "company": "IP Group PLC",
     "ticker": "IPO",
     "publish_date": "27 July 2026",
