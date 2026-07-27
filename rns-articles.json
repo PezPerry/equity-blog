@@ -1,5 +1,31 @@
 [
   {
+    "company": "FirstGroup PLC",
+    "ticker": "FGP",
+    "publish_date": "27 July 2026",
+    "date_iso": "2026-07-27",
+    "time_period": "",
+    "announcement_type": "Buyback programme update",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>FirstGroup plc</strong> confirms completion of the <strong>first tranche</strong> of its <strong>£100m</strong> on-market share buyback, originally announced on <strong>18 June 2026</strong>.</li><li><strong>RBC Europe Limited</strong> purchased <strong>13,553,662</strong> ordinary shares for a total of <strong>£24,806,895</strong>, completing the first tranche on <strong>24 July 2026</strong>; shares held in Treasury.</li><li><strong>Panmure Liberum Limited</strong> commences the <strong>second £25m tranche</strong> with effect from today; third and fourth tranches to follow as previously set out.</li><li>Routine progression of an existing programme — <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "FirstGroup completes first £25m tranche of its £100m buyback, buying 13.55m shares, and starts the second tranche today.",
+    "priority": "low",
+    "priority_reason": "Routine progress update on an already-announced £100m buyback, not a new programme launch or a price-sensitive event.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/prn/firstgroup--fgp/buyback-programme/9688433",
+    "related_news_url": "https://news.google.com/search?q=%22FirstGroup%20plc%22",
+    "added_at": "2026-07-27T09:57:43.916169"
+  },
+  {
     "company": "Yellow Cake PLC",
     "ticker": "YCA",
     "publish_date": "27 July 2026",
