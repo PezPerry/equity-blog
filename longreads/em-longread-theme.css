@@ -1,0 +1,205 @@
+/* ============================================================================
+   Equity & Markets Insight — shared /longreads/ theme
+   ----------------------------------------------------------------------------
+   Brings the front-page design system (../front-page.html) to the
+   scroll-driven long-read format in this folder, the same way
+   ../em-analysis-theme.css does for the *-blog-page.html company analyses.
+
+   DESIGN ONLY. Never changes an article's figures, wording, chart data or
+   forecasts — Chart.js configuration in each article's own <script> is left
+   completely untouched.
+
+   House identity: paper #F4F1EA · navy #1B2A4A · gold #D4A853 / #A9812E ·
+   red #E8453C (negatives only) · Playfair Display / DM Sans / DM Mono.
+
+   Self-contained by design: this file does NOT @import ../em-analysis-theme.css
+   — that stylesheet carries bare tag/generic-class rules (h2, h3, p, table,
+   and a same-named .sources block) tuned for the *-blog-page.html markup,
+   which would fight the long-read template's own compound selectors on
+   equal specificity. The one shared component it's still worth reusing
+   (the site footer) is copied below under an em-foot-* namespace instead.
+
+   Loaded AFTER each long-read's own inline <style>, so equal-specificity
+   rules win — same technique as ../em-analysis-theme.css.
+
+   Created 2026-07-27. Companion script: em-longread-embed.js
+   ========================================================================== */
+
+/* --- 1. Re-point the template's own tokens at the house palette ----------- */
+:root{
+  --navy:#1B2A4A;                 /* was #0f1419 */
+  --navy-2:#141C2B;               /* was #1a2028 */
+  --cream:#F4F1EA;                /* was #f5f1ea — near-identical, aligned exactly */
+  --cream-2:#F4F0E7;              /* was #eae3d6 */
+  --cream-3:#E4C583;              /* was #d9d0be — now the house gold-soft */
+  --accent:#A9812E;               /* was brick #a5321c — decorative/wayfinding
+                                      only in this template (chapter numbers,
+                                      drop caps, quote marks, active TOC state,
+                                      progress bar). Never a data value, so it
+                                      moves to house gold-deep, not red. */
+  --gold:#D4A853;                 /* was #b8923a */
+  --muted:#4E5567;                /* was #5a6370 */
+  --rule:rgba(27,42,74,.15);      /* was rgba(15,20,25,.14) */
+  --rule-strong:rgba(27,42,74,.28); /* was rgba(15,20,25,.28) */
+
+  /* house tokens for the few genuinely negative/positive DATA figures below,
+     and for the injected header/footer chrome */
+  --em-negative:#E8453C;
+  --em-positive:#3FA66A;
+  --em-ink:#141C2B;
+}
+
+/* --- 2. Typeface swap ------------------------------------------------------
+   Fraunces -> Playfair Display (display headlines/quotes/big numerals)
+   Inter Tight / Fraunces body copy -> DM Sans (reading text)
+   JetBrains Mono -> DM Mono (labels, kickers, data)
+   Enumerated selector-by-selector (matching every selector across
+   _template.html and the three live long reads) rather than a blanket
+   tag rule, so nothing is missed and nothing is guessed. ------------------ */
+body{font-family:"DM Sans",-apple-system,BlinkMacSystemFont,sans-serif}
+
+.site-header .brand-name{font-family:"Playfair Display",serif}
+.site-header nav a{font-family:"DM Sans",sans-serif}
+
+.masthead,
+.hero .hero-top,
+.hero .byline,
+.scroll-indicator,
+.toc,
+.glance-header,
+.stat .label,
+.chapter .num,
+.body-section .note,
+.pullquote .attribution,
+.chart-figure .fig-label,
+.chart-figure .source,
+.ratio-figure .label,
+.ratio-figure .col .when,
+.smb-cell .size,
+.sources h3,
+.colophon,
+.components-table .tab-header,
+.components-table .row .val,
+.components-table .row .dir,
+.forecast-cell .horizon,
+.body-section ul.bullets li::before{
+  font-family:"DM Mono",ui-monospace,monospace;
+}
+
+.hero h1,
+.chapter h2,
+.stat .num,
+.pullquote blockquote,
+.dropcap::first-letter,
+.ratio-figure .col .big,
+.smb-cell .delta,
+.forecast-cell .range{
+  font-family:"Playfair Display",serif;
+}
+
+.hero .deck,
+.chapter .chapter-deck,
+.body-section p,
+.body-section h3,
+.body-section ul.bullets li,
+.chart-figure figcaption,
+.boe-figure figcaption,
+.ratio-figure .col .unit,
+.ratio-figure .caption,
+.smb-cell .label,
+.sources li,
+.components-table .row,
+.components-table .row .comp,
+.forecast-cell .note{
+  font-family:"DM Sans",-apple-system,BlinkMacSystemFont,sans-serif;
+}
+
+/* --- 3. Red is reserved for genuinely negative figures --------------------
+   Everywhere else --accent now renders in house gold (see §1). These two
+   pairs are the only spots in the template family that encode an explicit
+   good/bad data comparison, so they get the real house red/green instead. */
+.smb-cell.bad .delta{color:var(--em-negative) !important}
+.smb-cell.ok .delta{color:var(--em-positive) !important}
+.components-table .row.rising .val:first-of-type,
+.components-table .row.rising .dir{color:var(--em-negative) !important}
+.components-table .row.falling .val:first-of-type,
+.components-table .row.falling .dir{color:var(--em-positive) !important}
+
+/* --- 4. Navy-touching-gold double-line motif on the full-bleed dark blocks */
+.hero,.glance,.sources,.ratio-figure{position:relative}
+.hero::after,.glance::after,.ratio-figure::after{
+  content:"";position:absolute;left:0;right:0;bottom:0;height:5px;
+  background:linear-gradient(180deg,var(--gold) 0 3px,rgba(255,255,255,.28) 3px 4px,var(--gold) 4px 5px);
+}
+.sources::before{
+  content:"";position:absolute;left:0;right:0;top:0;height:5px;
+  background:linear-gradient(180deg,var(--gold) 0 3px,rgba(255,255,255,.28) 3px 4px,var(--gold) 4px 5px);
+}
+
+/* --- 5. Site header — restyled to house colours/type, and defined here in
+   full so it also works on the two live long reads that currently ship
+   with no header at all (em-longread-embed.js builds the markup for those;
+   for the two that already carry a .site-header this simply reskins it —
+   see the file-by-file notes in the deployment report). --------------------- */
+.site-header{
+  background:var(--cream);
+  padding:0 clamp(16px,4vw,32px);
+  height:58px;
+  display:flex;align-items:center;justify-content:space-between;
+  border-bottom:2px solid var(--navy);
+  position:relative;z-index:60;
+}
+.site-header .brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--navy)}
+.site-header .brand-icon{
+  width:auto;height:34px;border-radius:0;background:transparent;
+  display:flex;align-items:center;justify-content:center;flex-shrink:0;
+}
+.site-header .brand-icon svg{width:20px;height:20px}
+.site-header .brand-icon img{height:34px;width:auto;display:block}
+.site-header .brand-name{font-weight:800;font-size:16px;letter-spacing:-.01em;color:var(--navy)}
+.site-header nav{display:flex;align-items:center;gap:6px}
+.site-header nav a{
+  font-size:13px;font-weight:500;text-decoration:none;color:var(--navy);
+  padding:7px 14px;border-radius:20px;
+  transition:background .2s ease,color .2s ease;white-space:nowrap;
+}
+.site-header nav a:hover{background:rgba(27,42,74,.08)}
+.site-header nav a.active{background:var(--navy);color:#fff}
+@media (max-width:820px){
+  .site-header nav{display:none}
+  .site-header{padding:0 20px}
+}
+
+/* --- 6. Footer — namespaced em-foot-*, injected by em-longread-embed.js.
+   No dependency on ../em-analysis-theme.css (kept fully self-contained to
+   avoid the .sources naming collision noted at the top of this file). ---- */
+.em-foot{
+  margin-top:clamp(40px,4vw,68px);border-top:1px solid var(--rule);
+  padding:40px 0 60px;background:var(--cream);
+}
+.em-foot-inner{max-width:1100px;margin:0 auto;padding:0 clamp(16px,4vw,44px)}
+.em-foot-grid{display:flex;justify-content:space-between;gap:30px;flex-wrap:wrap;align-items:flex-start}
+.em-foot-brand{display:flex;align-items:center;gap:11px}
+.em-foot-brand img{height:30px}
+.em-foot-brand span{font-family:"Playfair Display",serif;font-weight:800;font-size:20px;color:var(--navy)}
+.em-foot p.em-blurb{margin-top:14px;max-width:34ch;color:var(--muted);font-size:13.5px;font-family:"DM Sans",sans-serif}
+.em-foot-cols{display:flex;gap:clamp(28px,5vw,64px);flex-wrap:wrap}
+.em-foot-col h6{
+  font-family:"DM Mono",monospace;font-size:10.5px;letter-spacing:.16em;
+  text-transform:uppercase;color:var(--muted);margin-bottom:12px;
+}
+.em-foot-col a{display:block;color:var(--muted);font-size:13.5px;font-family:"DM Sans",sans-serif;padding:4px 0;text-decoration:none;transition:color .2s}
+.em-foot-col a:hover{color:var(--accent)}
+.em-foot-note{
+  margin-top:30px;padding-top:20px;border-top:1px solid var(--rule);
+  font-family:"DM Mono",monospace;font-size:11px;color:var(--muted);
+  line-height:1.7;max-width:92ch;
+}
+
+/* --- 7. Responsive & motion parity with the rest of the site -------------- */
+@media (max-width:700px){
+  .em-foot-grid{flex-direction:column}
+}
+@media print{
+  .site-header,.em-foot,.masthead,.progress,.toc{display:none !important}
+}
