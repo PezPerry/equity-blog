@@ -1,5 +1,57 @@
 [
   {
+    "company": "IP Group PLC",
+    "ticker": "IPO",
+    "publish_date": "27 July 2026",
+    "date_iso": "2026-07-27",
+    "time_period": "",
+    "announcement_type": "M&A / takeover approach",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Railpen</strong> (Railways Pension Trustee Company Limited, acting via Railway Pension Investments Limited) confirms it does <strong>not intend to make an offer</strong> for <strong>IP Group plc</strong> under <strong>Rule 2.8</strong> of the Takeover Code.</li><li>Railpen had been in discussions with the <strong>Board</strong> for <strong>several months</strong> but was <strong>unable to agree</strong> the terms of a mutually acceptable proposal.</li><li>Railpen reserves the right to set aside the Rule 2.8 restrictions if the Board agrees, a third party announces a firm offer, IP Group announces a Rule 9 waiver or reverse takeover, or on a material change of circumstances.</li><li>Financial adviser to Railpen: <strong>Rothschild & Co</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Railpen confirms it does not intend to make an offer for IP Group after failing to agree terms with the board following several months of talks.",
+    "priority": "high",
+    "priority_reason": "A potential bidder has publicly walked away from a possible offer under Rule 2.8 of the Takeover Code, materially affecting takeover expectations.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/ip-group--ipo/rule-2-8-announcement/9687623",
+    "related_news_url": "https://news.google.com/search?q=%22IP%20Group%20plc%22",
+    "added_at": "2026-07-27T07:38:41.766898"
+  },
+  {
+    "company": "Costain Group PLC",
+    "ticker": "COST",
+    "publish_date": "27 July 2026",
+    "date_iso": "2026-07-27",
+    "time_period": "",
+    "announcement_type": "Interim results",
+    "period_detail": "",
+    "type_workings": "Rule 'results headline': opening bullets say 'half year results' [rns.json record]",
+    "body": "<ul><li><strong>Costain Group PLC</strong> to host an <strong>Investor Meet Company</strong> Q&A on its <strong>2026 Half Year Results</strong> on <strong>17 August 2026 at 10.00am</strong>, led by CEO <strong>Alex Vaughan</strong> and CFO <strong>Helen Willis</strong>.</li><li>Half-year 2026 results to be published on <strong>13 August 2026</strong> — the diary date of note for traders.</li><li>Routine investor-access logistics with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Costain will host an investor Q&A on its 2026 half-year results via Investor Meet Company on 17 August, with results due 13 August 2026.",
+    "priority": "low",
+    "priority_reason": "Routine notice of an investor Q&A webcast, though it flags the H1 results date.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/costain-group--cost/investor-presentation-via-investor-meet-company/9687763",
+    "related_news_url": "https://news.google.com/search?q=%22Costain%20Group%20PLC%22",
+    "added_at": "2026-07-27T07:38:41.596159"
+  },
+  {
     "company": "AstraZeneca PLC",
     "ticker": "AZN",
     "publish_date": "27 July 2026",
