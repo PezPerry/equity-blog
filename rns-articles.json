@@ -1,5 +1,31 @@
 [
   {
+    "company": "AstraZeneca PLC",
+    "ticker": "AZN",
+    "publish_date": "27 July 2026",
+    "date_iso": "2026-07-27",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>AstraZeneca PLC</strong> reported positive high-level results from the <strong>CLARITY-Gastric01</strong> global Phase III trial: <strong>sonesitatug vedotin (Sone-Ve)</strong> showed a statistically significant and clinically meaningful improvement in <strong>overall survival</strong> in 2nd- and later-line <strong>CLDN18.2-positive</strong> advanced gastric/GEJ cancers versus investigator's choice of therapy.</li><li>Trial met its dual primary endpoint of OS in 3rd- and later-line treatment plus the key secondary endpoint of OS in the overall 2nd- and later-line population; the other primary endpoint (<strong>PFS</strong>) showed a trend to improvement but <strong>did not reach statistical significance</strong>.</li><li>Described as the <strong>first pivotal readout</strong> from AstraZeneca's wholly owned ADC portfolio and the first Phase III to show an OS benefit with an anti-CLDN18.2 ADC in this setting; opportunity to expand eligibility to ≥25% CLDN18.2 expression, roughly <strong>60%</strong> of patients.</li><li>Sone-Ve was well tolerated with no new safety signals; data to be presented at a forthcoming medical meeting and shared with regulators. Drug licensed from <strong>KYM Biosciences</strong> (March 2023); holds Orphan Drug Designation in the US and EU and Breakthrough Designation in China.</li><li>Market context: roughly <strong>183,500</strong> patients treated annually in this setting across the US, EU, China and Japan; no financial figures or guidance disclosed.</li></ul>",
+    "source_format": "html",
+    "headline": "AstraZeneca's sonesitatug vedotin met its Phase III overall survival endpoint in 2nd- and later-line CLDN18.2-positive advanced gastric/GEJ cancers.",
+    "priority": "high",
+    "priority_reason": "First pivotal Phase III readout from AstraZeneca's wholly owned ADC portfolio, showing a statistically significant survival benefit in a large gastric cancer setting — a material pipeline catalyst.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/astrazeneca-AZN/share-news/AstraZeneca-PLC-Sone-Ve-improved-survival-in-gastr/98983517",
+    "related_news_url": "https://news.google.com/search?q=%22AstraZeneca%20PLC%22",
+    "added_at": "2026-07-27T07:20:03.246650"
+  },
+  {
     "company": "Vodafone Group PLC",
     "ticker": "VOD",
     "publish_date": "27 July 2026",
@@ -2170,6 +2196,32 @@
     "source_url": "https://uk.advfn.com/stock-market/london/james-halstead-JHD/share-news/James-Halstead-PLC-Trading-Update/98958828",
     "related_news_url": "https://news.google.com/search?q=%22James%20Halstead%20plc%22",
     "added_at": "2026-07-27T00:06:21.547324"
+  },
+  {
+    "company": "Rio Tinto PLC",
+    "ticker": "RIO",
+    "publish_date": "26 July 2026",
+    "date_iso": "2026-07-26",
+    "time_period": "",
+    "announcement_type": "Disposal",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Rio Tinto</strong> and the <strong>Western Australian Government</strong> have signed <strong>non-binding agreements</strong> to sell their respective JV shares in the <strong>Dampier Seawater Desalination Plant</strong> to <strong>Yindjibarndi WaterCo</strong>; the two are currently <strong>50:50</strong> partners.</li><li>Plant has a construction budget of <strong>A$1.1 billion</strong> and is expected to supply <strong>8GL</strong> of desalinated water into the West Pilbara Water Supply Scheme.</li><li>A <strong>binding deal is targeted by year-end</strong>; terms are confidential, with sale price subject to construction costs. Rio Tinto retains construction management, with operational control to transfer post-completion, subject to due diligence and approvals.</li><li><strong>Stage 1</strong> (4GL capacity) completion expected this year with first water in <strong>early 2027</strong>; <strong>Stage 2</strong> (further 4GL) has commenced with first water expected in <strong>2027</strong>.</li><li>Rio Tinto will continue to receive <strong>4GL of water annually</strong> to offset abstraction from the Bungaroo aquifer; divestment framed as unlocking capital and disciplined capital allocation.</li><li>Note: this is a <strong>non-binding, framework-only</strong> agreement — no sale price disclosed and completion is conditional; <strong>no impact</strong> on current trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Rio Tinto and the WA Government sign non-binding agreements to sell their 50:50 Dampier Seawater Desalination Plant to Yindjibarndi WaterCo, targeting a binding deal by year-end.",
+    "priority": "medium",
+    "priority_reason": "Non-binding disposal agreement to unlock capital, but small relative to Rio Tinto's scale and terms are undisclosed.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/rio-tinto-RIO/share-news/Rio-Tinto-and-WA-Government-sign-agreements-with-Y/98983066",
+    "related_news_url": "https://news.google.com/search?q=%22Rio%20Tinto%20plc%22",
+    "added_at": "2026-07-27T07:20:02.306403"
   },
   {
     "company": "TBC Bank Group PLC",
