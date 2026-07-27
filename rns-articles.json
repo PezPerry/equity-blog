@@ -1,5 +1,57 @@
 [
   {
+    "company": "Vesuvius plc",
+    "ticker": "VSVS",
+    "publish_date": "27 July 2026",
+    "date_iso": "2026-07-27",
+    "time_period": "H1 2026 / FY26",
+    "announcement_type": "Trading update",
+    "period_detail": "H1 2026 / FY26",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Vesuvius plc</strong> expects <strong>H1 2026 trading profit of c. £74m</strong>, in a pre-close trading update ahead of half-year results.</li><li>Continued <strong>operational issues in the Steel division</strong> since the <strong>28 May 2026</strong> update, plus a challenging <strong>Advanced Refractories</strong> market (especially <strong>Europe</strong>), are having a greater impact than previously anticipated.</li><li>Management calls the issues temporary, being addressed, and expected to be <strong>resolved by the end of the year</strong>.</li><li>Full-year <strong>trading profit</strong> now guided to be only <strong>slightly ahead of FY25 on a constant-currency basis</strong> — a softer outlook.</li><li>Half-year results confirmed for <strong>7.00am on Thursday 30 July 2026</strong>.</li><li>No H1 comparative trading profit figure disclosed in this statement.</li></ul>",
+    "source_format": "html",
+    "headline": "Vesuvius expects H1 2026 trading profit of c.£74m and now sees full-year trading profit only slightly ahead of FY25, as Steel and Advanced Refractories issues bite harder than anticipated.",
+    "priority": "high",
+    "priority_reason": "Pre-results trading statement flagging worse-than-expected operational issues and a softer full-year profit outlook.",
+    "figures": [],
+    "guidance": {
+      "status": "lowered",
+      "previous": "Not explicitly quoted; prior outlook flagged in the 28 May 2026 trading update, with operational issues expected to be less impactful.",
+      "current": "Full-year trading profit now expected to be slightly ahead of FY25 trading profit on a constant currency basis.",
+      "commentary": "The company says operational issues in Steel and weak Advanced Refractories demand in Europe are hitting harder than previously anticipated, trimming the full-year profit expectation despite management viewing the problems as temporary and resolvable by year-end."
+    },
+    "explainer": "This is a pre-results trading statement, not the full half-year numbers, which land on 30 July 2026. Vesuvius flags first-half trading profit of around £74m, but gives no prior-year comparative, so the direction of travel on H1 profit cannot be judged from the statement alone.\n\nThe key message is on the outlook. Since its late-May update, the group has continued to suffer operational problems in its Steel division and now faces a weak trading backdrop in Advanced Refractories, particularly in Europe. It stresses these are temporary and should be fixed by year-end, but concedes the impact is bigger than it previously expected.\n\nAs a result, full-year trading profit is now guided to be only 'slightly ahead' of FY25 on a constant-currency basis. Constant currency strips out exchange-rate moves, so the comparison reflects underlying trading rather than a weaker or stronger pound. In practice this reads as a downgrade to expectations versus the earlier tone, which is why the market will scrutinise the 30 July results for the scale of the operational hit and the cost of fixing it.",
+    "source_url": "https://uk.advfn.com/stock-market/london/vesuvius-VSVS/share-news/Vesuvius-plc-Trading-Statement/98983192",
+    "related_news_url": "https://news.google.com/search?q=%22Vesuvius%20plc%22",
+    "added_at": "2026-07-27T07:17:36.415568"
+  },
+  {
+    "company": "DCC Energy plc",
+    "ticker": "DCC",
+    "publish_date": "27 July 2026",
+    "date_iso": "2026-07-27",
+    "time_period": "",
+    "announcement_type": "Acquisition / deal",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>DCC Energy plc</strong> board recommends a cash acquisition by a consortium of <strong>Kohlberg Kravis Roberts (KKR)</strong> and <strong>Energy Capital Partners (ECP)</strong>, via Bidco, by scheme of arrangement under the <strong>Irish Takeover Rules</strong>.</li><li>Total offer value up to <strong>6,797.22 pence</strong> per share: <strong>6,525p</strong> base consideration, the <strong>147.22p</strong> final dividend (paid 23 July 2026) and up to <strong>125p</strong> contingent Technology Disposal Additional Consideration tied to a possible sale of the <strong>Nexora</strong> business.</li><li>Base consideration plus final dividend value DCC Energy at approximately <strong>£5.75 billion</strong> and represent a <strong>24%</strong> premium to the undisturbed close of <strong>5,380p</strong> and <strong>33%</strong> to the three-month VWAP.</li><li>DCC Energy Directors, advised by <strong>J.P. Morgan</strong> and <strong>UBS</strong>, intend to recommend unanimously; irrevocable undertakings cover <strong>239,744 shares</strong> (<strong>0.28%</strong> of issued capital).</li><li>Scheme requires <strong>75%</strong> shareholder approval and High Court sanction; Scheme Meeting and EGM expected in <strong>September 2026</strong>, with completion expected in <strong>Q1 2027</strong>.</li><li>Contingent 125p is uncertain: it depends on Nexora net proceeds between a hurdle and <strong>US$800m</strong> (linear scale), with no binding sale agreed and no assurance it will become payable.</li></ul>",
+    "source_format": "html",
+    "headline": "KKR and Energy Capital Partners agree recommended cash acquisition of DCC Energy at up to 6,797.22p per share, valuing it at about £5.75bn.",
+    "priority": "high",
+    "priority_reason": "Recommended cash takeover of a listed company by a KKR/ECP consortium valuing DCC Energy at around £5.75bn.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/dcc-energy-DCC/share-news/Kohlberg-Kravis-Roberts-Co-LP-RECOMMENDED-ACQUIS/98983197",
+    "related_news_url": "https://news.google.com/search?q=%22DCC%20Energy%20plc%22",
+    "added_at": "2026-07-27T07:17:36.337617"
+  },
+  {
     "company": "Victrex PLC",
     "ticker": "VCT",
     "publish_date": "27 July 2026",
