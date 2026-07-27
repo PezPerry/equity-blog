@@ -1,5 +1,122 @@
 [
   {
+    "company": "Vodafone Group PLC",
+    "ticker": "VOD",
+    "publish_date": "27 July 2026",
+    "date_iso": "2026-07-27",
+    "time_period": "Q1 FY27 (quarter to 30 June 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "Q1 FY27 (quarter to 30 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Vodafone Group Plc</strong> Q1 FY27: total revenue up <strong>9.7%</strong> to <strong>€10.3bn</strong> and organic service revenue up <strong>5.2%</strong>, with growth across all segments.</li><li>Adjusted EBITDAaL up <strong>6.7%</strong> to <strong>€2.9bn</strong> (<strong>+6.2%</strong> organic); margin improved <strong>0.6pp</strong> organically to <strong>28.5%</strong>; operating profit rose to <strong>€3.9bn</strong>, boosted by a gain on the <strong>Safaricom</strong> transaction.</li><li>By segment (organic service revenue): <strong>Germany +1.2%</strong>, <strong>UK +0.6%</strong>, <strong>Other Europe +1.0%</strong>, <strong>Türkiye +8.3%</strong> (euro terms), <strong>Africa +12.6%</strong>; Business service revenue accelerated to <strong>+5.0%</strong>.</li><li><strong>Safaricom</strong> deal completed <strong>30 June 2026</strong>: Vodacom lifted the Group holding to <strong>55%</strong>, with full consolidation from <strong>1 July 2026</strong>.</li><li>FY27 guidance updated for Safaricom: Group Adjusted EBITDAaL of <strong>€13.0–€13.3bn</strong> and Adjusted free cash flow of <strong>€2.6–€2.9bn</strong>; company now expects the <strong>upper end</strong> of the updated ranges.</li><li>Restructuring/integration costs to peak at <strong>c.€0.7bn</strong> in FY27, including <strong>c.€0.4bn</strong> for the VodafoneThree merger; <strong>1,200</strong> roles cut in the quarter across Europe and Shared Operations.</li></ul>",
+    "source_format": "html",
+    "headline": "Vodafone reports Q1 FY27 organic service revenue up 5.2% and raises FY27 guidance to include Safaricom, now expecting the upper end of ranges.",
+    "priority": "high",
+    "priority_reason": "Quarterly trading update with organic growth across all segments and an upgraded guidance range following the Safaricom consolidation.",
+    "figures": [
+      {
+        "metric": "Total revenue",
+        "current": "€10.3bn",
+        "prior": "not stated",
+        "change": "+9.7%",
+        "basis": "reported",
+        "note": "Q1 FY27; includes consolidation of Three UK, partly offset by FX"
+      },
+      {
+        "metric": "Service revenue",
+        "current": "€8.6bn",
+        "prior": "not stated",
+        "change": "+9.8% reported / +5.2% organic",
+        "basis": "organic and reported",
+        "note": "growth in all segments"
+      },
+      {
+        "metric": "Adjusted EBITDAaL",
+        "current": "€2.9bn",
+        "prior": "not stated",
+        "change": "+6.7% reported / +6.2% organic",
+        "basis": "organic and reported",
+        "note": "margin 28.5%, +0.6pp organic"
+      },
+      {
+        "metric": "Operating profit",
+        "current": "€3.9bn",
+        "prior": "€1.0bn (implied)",
+        "change": "+€2.9bn",
+        "basis": "reported",
+        "note": "increase of €2.9bn, largely Safaricom completion gain"
+      },
+      {
+        "metric": "Germany organic service revenue",
+        "current": "+1.2%",
+        "prior": "+1.3% (Q4)",
+        "change": "not stated",
+        "basis": "organic",
+        "note": "Q1 FY27 vs Q4 FY26"
+      },
+      {
+        "metric": "UK organic service revenue",
+        "current": "+0.6%",
+        "prior": "-0.2% (Q4)",
+        "change": "not stated",
+        "basis": "organic",
+        "note": "Q1 FY27 vs Q4 FY26"
+      },
+      {
+        "metric": "Africa organic service revenue",
+        "current": "+12.6%",
+        "prior": "+10.9% (Q4)",
+        "change": "not stated",
+        "basis": "organic",
+        "note": "Q1 FY27 vs Q4 FY26"
+      },
+      {
+        "metric": "Business organic service revenue",
+        "current": "+5.0%",
+        "prior": "+3.2% (Q4)",
+        "change": "not stated",
+        "basis": "organic",
+        "note": "Q1 FY27 vs Q4 FY26"
+      }
+    ],
+    "guidance": {
+      "status": "raised",
+      "previous": "FY27 guidance set in May 2026 (pre-Safaricom); Europe Adjusted EBITDAaL of €7.6–€7.9bn maintained",
+      "current": "Group Adjusted EBITDAaL of €13.0–€13.3bn and Adjusted free cash flow of €2.6–€2.9bn, now including Safaricom; company expects to deliver the upper end of the updated ranges",
+      "commentary": "Guidance was updated to fold in the newly consolidated Safaricom (nine-month impact of €1.1bn Adjusted EBITDAaL, nil impact on free cash flow), and a strong start to the year prompted Vodafone to point to the top of the updated ranges."
+    },
+    "explainer": "This is a first-quarter trading update, so Vodafone reports revenue and profit growth but does not give a full profit-and-loss comparison with prior-year figures for every line. Reported growth (e.g. total revenue +9.7%) includes the effect of consolidating Three UK following the May 2025 merger and adverse foreign-exchange movements, whereas organic growth (service revenue +5.2%) strips out acquisitions, disposals and currency to show the underlying trading trend. Türkiye figures are quoted excluding hyperinflation accounting adjustments.\n\nThe standout structural change is the Safaricom transaction, completed on 30 June 2026, which lifted the Group's effective stake to 55% and means Safaricom will be fully consolidated from 1 July 2026. The €2.9bn jump in operating profit to €3.9bn is largely a one-off gain from completing this deal rather than an improvement in underlying trading.\n\nOn guidance, the change is a re-basing rather than a straightforward upgrade: the FY27 ranges (Adjusted EBITDAaL €13.0–€13.3bn, Adjusted free cash flow €2.6–€2.9bn) now include Safaricom, which adds roughly €1.1bn of EBITDAaL over nine months but no free cash flow this year. Importantly, after a good start Vodafone now expects to land at the upper end of these updated ranges, signalling confidence in the underlying performance. Europe Adjusted EBITDAaL guidance of €7.6–€7.9bn is unchanged.",
+    "source_url": "https://uk.advfn.com/stock-market/london/vodafone-VOD/share-news/Vodafone-Group-Plc-Vodafone-Q1-FY27-Trading-Update/98983199",
+    "related_news_url": "https://news.google.com/search?q=%22Vodafone%20Group%20Plc%22",
+    "added_at": "2026-07-27T07:18:43.228033"
+  },
+  {
+    "company": "Tritax Big Box REIT PLC",
+    "ticker": "BBOX",
+    "publish_date": "27 July 2026",
+    "date_iso": "2026-07-27",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>Planning consent</strong> secured for a <strong>107MW</strong> data centre on a <strong>74-acre</strong> site at <strong>Manor Farm</strong> in the <strong>Slough Availability Zone</strong>, after a six-week judicial review concluded successfully.</li><li>Scheme targets a <strong>9.3% yield on cost</strong>, which management frames as an 'exceptional risk-adjusted' return under its <strong>'power-first'</strong> data centre strategy.</li><li>A <strong>pre-let agreement</strong> for the scheme is now <strong>in solicitors' hands</strong>, following a competitive marketing process; rental income expected only after practical completion.</li><li><strong>Accelerated route to power delivery</strong> secured — power access being a principal constraint on new data centre supply — giving greater certainty on timelines.</li><li>Part of BBOX's first data centre opportunities totalling over <strong>230MW</strong>, with a pipeline of c.<strong>1-gigawatt</strong> of further opportunities.</li><li>CEO <strong>Colin Godfrey</strong> calls it 'the first major demonstration of our data centre value creation strategy' and says it supports medium-term earnings growth ambition.</li></ul>",
+    "source_format": "html",
+    "headline": "Tritax Big Box has secured planning consent for a 107MW data centre at Manor Farm in Slough, targeting a 9.3% yield on cost with a pre-let in solicitors' hands.",
+    "priority": "high",
+    "priority_reason": "Material development milestone for a FTSE 100 REIT, clearing judicial review to build a 107MW data centre with a pre-let in progress and a targeted 9.3% yield on cost.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/tritax-big-box-reit-BBOX/share-news/Tritax-Big-Box-REIT-plc-Planning-consent-secured-f/98983187",
+    "related_news_url": "https://news.google.com/search?q=%22Tritax%20Big%20Box%20REIT%20plc%22",
+    "added_at": "2026-07-27T07:18:42.912566"
+  },
+  {
     "company": "Vesuvius plc",
     "ticker": "VSVS",
     "publish_date": "27 July 2026",
