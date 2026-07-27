@@ -497,7 +497,7 @@
 <div class="companies-view" id="companiesView" style="display:none;"></div>
 
 <div class="disclaimer">
-  This information is sourced from publicly available regulatory announcements, broker research and company reports. It does not constitute financial advice. Always conduct your own research before making investment decisions. Links to external sites (company investor-relations pages, original announcements and related coverage) open in a new tab and are provided for convenience.
+  This information is sourced from publicly available regulatory announcements, broker research and company reports. It does not constitute financial advice. Always conduct your own research before making investment decisions. Links to external sites (the company's own regulatory-news pages) open in a new tab and are provided for convenience.
 </div>
 
 <script>
@@ -802,15 +802,18 @@ function renderNumbers(a) {
   return html + '</div>';
 }
 
-/* ── Source / IR / related-coverage links (rendered only when present) ── */
+/* ── Source links (rendered only when present) ──────────────────────────
+   "Company RNS" points at the company's OWN regulatory-news page, so a reader
+   can go straight from our summary to the announcement as the company published
+   it. Where we hold no announcements_url for that company the button is simply
+   omitted — never a dead or guessed link. (Owner's instruction, 27 Jul 2026:
+   the "Investor relations" and "Related coverage" pills were removed.) */
 function renderLinks(a) {
   const reg = (a.ticker && registry[a.ticker]) ? registry[a.ticker] : {};
   const links = [];
   const analysis = analysisFor(a.ticker);
   if (analysis) links.push(`<a class="link-pill" href="${esc(analysis.url)}" target="_blank" rel="noopener">Our analysis &#8599;</a>`);
-  if (reg.announcements_url) links.push(`<a class="link-pill" href="${esc(reg.announcements_url)}" target="_blank" rel="noopener">Company announcements &#8599;</a>`);
-  if (reg.ir_url) links.push(`<a class="link-pill" href="${esc(reg.ir_url)}" target="_blank" rel="noopener">Investor relations &#8599;</a>`);
-  if (a.related_news_url) links.push(`<a class="link-pill" href="${esc(a.related_news_url)}" target="_blank" rel="noopener">Related coverage &#8599;</a>`);
+  if (reg.announcements_url) links.push(`<a class="link-pill" href="${esc(reg.announcements_url)}" target="_blank" rel="noopener">Company RNS &#8599;</a>`);
   const next = nextEventFor(a.ticker);
   if (next) links.push(`<span class="link-pill next-chip">Next: ${esc(next)}</span>`);
   return links.length ? `<div class="link-row">${links.join('')}</div>` : '';
@@ -984,8 +987,7 @@ function renderCompanies() {
     const links = [];
     const analysis = analysisFor(rec.ticker);
     if (analysis) links.push(`<a class="link-pill" href="${esc(analysis.url)}" target="_blank" rel="noopener">Our analysis &#8599;</a>`);
-    if (reg.ir_url) links.push(`<a class="link-pill" href="${esc(reg.ir_url)}" target="_blank" rel="noopener">Investor relations &#8599;</a>`);
-    if (reg.announcements_url) links.push(`<a class="link-pill" href="${esc(reg.announcements_url)}" target="_blank" rel="noopener">Announcements &#8599;</a>`);
+    if (reg.announcements_url) links.push(`<a class="link-pill" href="${esc(reg.announcements_url)}" target="_blank" rel="noopener">Company RNS &#8599;</a>`);
     if (reg.website) links.push(`<a class="link-pill" href="${esc(reg.website)}" target="_blank" rel="noopener">Website &#8599;</a>`);
     html += `<div class="company-row">`
       + star
