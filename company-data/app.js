@@ -419,8 +419,8 @@ function renderChartTurnover(years, turnover, cur) {
   const builder = (targetCtx) => {
     const h = targetCtx.canvas.height || 280;
     const grad = targetCtx.createLinearGradient(0, 0, 0, h);
-    grad.addColorStop(0, 'rgba(165, 50, 28,0.3)');
-    grad.addColorStop(1, 'rgba(165, 50, 28,0.0)');
+    grad.addColorStop(0, 'rgba(169, 129, 46,0.3)');
+    grad.addColorStop(1, 'rgba(169, 129, 46,0.0)');
     return {
       type: 'line',
       data: {
@@ -464,7 +464,7 @@ function renderChartTurnoverGrowth(years, pctChg, turnover) {
   const ctx = $('chartTurnoverGrowth').getContext('2d');
   const hasProvided = pctChg && pctChg.some((v) => v !== null);
   const data = hasProvided ? pctChg : yoy(turnover);
-  const colors = data.map((v) => v === null ? 'rgba(148,163,184,0.4)' : (v >= 0 ? 'rgba(47, 122, 57,0.75)' : 'rgba(165, 50, 28,0.75)'));
+  const colors = data.map((v) => v === null ? 'rgba(148,163,184,0.4)' : (v >= 0 ? 'rgba(63, 166, 106,0.75)' : 'rgba(232, 69, 60,0.75)'));
   const builder = () => ({
     type: 'bar',
     data: {
@@ -510,7 +510,7 @@ function renderChartPostTax(years, postTax, cur) {
           label: 'Post-tax Profit',
           data: postTax,
           borderColor: chartColors.accent,
-          backgroundColor: 'rgba(165, 50, 28,0.08)',
+          backgroundColor: 'rgba(169, 129, 46,0.08)',
           fill: true,
           tension: 0.3,
           pointRadius: 3,
@@ -537,7 +537,7 @@ function renderChartPostTax(years, postTax, cur) {
       responsive: true,
       maintainAspectRatio: false,
       plugins: {
-        legend: { labels: { color: chartColors.text, font: { family: 'Inter Tight' } } },
+        legend: { labels: { color: chartColors.text, font: { family: 'DM Sans' } } },
         tooltip: {
           backgroundColor: chartColors.tooltipBg, borderColor: chartColors.tooltipBorder, borderWidth: 1,
           titleColor: chartColors.tooltipTitle, bodyColor: chartColors.tooltipBody, padding: 12, cornerRadius: 8,
@@ -557,7 +557,7 @@ function renderChartPostTax(years, postTax, cur) {
 function renderChartEPSGrowth(years, eps) {
   const ctx = $('chartEPSGrowth').getContext('2d');
   const growth = yoy(eps);
-  const colors = growth.map((v) => v === null ? 'rgba(148,163,184,0.4)' : (v >= 0 ? 'rgba(47, 122, 57,0.75)' : 'rgba(165, 50, 28,0.75)'));
+  const colors = growth.map((v) => v === null ? 'rgba(148,163,184,0.4)' : (v >= 0 ? 'rgba(63, 166, 106,0.75)' : 'rgba(232, 69, 60,0.75)'));
   const builder = () => ({
     type: 'bar',
     data: {
@@ -642,17 +642,17 @@ function renderTearsheetTable(ts, cur) {
 
 // === Charts ===
 const chartColors = {
-  grid: 'rgba(15,23,42,0.06)',
-  text: '#5a6370',
-  accent: '#a5321c',
-  accent2: '#b8923a',
-  green: '#2f7a39',
-  red: '#a5321c',
-  amber: '#b8923a',
+  grid: 'rgba(27,42,74,0.06)',
+  text: '#4E5567',
+  accent: '#A9812E',
+  accent2: '#D4A853',
+  green: '#3FA66A',
+  red: '#E8453C',
+  amber: '#D4A853',
   tooltipBg: '#ffffff',
-  tooltipBorder: 'rgba(15,23,42,0.1)',
-  tooltipTitle: '#0f1419',
-  tooltipBody: '#5a6370',
+  tooltipBorder: 'rgba(27,42,74,0.1)',
+  tooltipTitle: '#141C2B',
+  tooltipBody: '#4E5567',
 };
 
 function destroyChart(key) {
@@ -701,11 +701,11 @@ function closeChartModal() {
 const baseScales = {
   x: {
     grid: { color: chartColors.grid, drawBorder: false },
-    ticks: { color: chartColors.text, font: { size: 11, family: 'Inter Tight' } },
+    ticks: { color: chartColors.text, font: { size: 11, family: 'DM Sans' } },
   },
   y: {
     grid: { color: chartColors.grid, drawBorder: false },
-    ticks: { color: chartColors.text, font: { size: 11, family: 'Inter Tight' } },
+    ticks: { color: chartColors.text, font: { size: 11, family: 'DM Sans' } },
     beginAtZero: true,
   },
 };
@@ -722,8 +722,8 @@ function renderPriceVsTarget(c, v) {
   gradCur.addColorStop(1, 'rgba(75,85,99,0.5)');
 
   const gradTarg = ctx.createLinearGradient(0, 0, 0, 240);
-  gradTarg.addColorStop(0, targetVal > priceVal ? 'rgba(34,197,94,0.9)' : 'rgba(239,68,68,0.9)');
-  gradTarg.addColorStop(1, targetVal > priceVal ? 'rgba(34,197,94,0.3)' : 'rgba(239,68,68,0.3)');
+  gradTarg.addColorStop(0, targetVal > priceVal ? 'rgba(63,166,106,0.9)' : 'rgba(232,69,60,0.9)');
+  gradTarg.addColorStop(1, targetVal > priceVal ? 'rgba(63,166,106,0.3)' : 'rgba(232,69,60,0.3)');
 
   state.charts.priceVsTarget = new Chart(ctx, {
     type: 'bar',
@@ -776,7 +776,7 @@ function renderGauge(v) {
         backgroundColor: [
           oppPct >= 0 ? chartColors.green : chartColors.red,
           chartColors.amber,
-          'rgba(15,23,42,0.06)',
+          'rgba(27,42,74,0.06)',
         ],
         borderColor: 'transparent',
         borderWidth: 0,
@@ -791,7 +791,7 @@ function renderGauge(v) {
       plugins: {
         legend: {
           position: 'bottom',
-          labels: { color: chartColors.text, font: { size: 11, family: 'Inter Tight' }, boxWidth: 10, padding: 10 },
+          labels: { color: chartColors.text, font: { size: 11, family: 'DM Sans' }, boxWidth: 10, padding: 10 },
         },
         tooltip: {
           backgroundColor: chartColors.tooltipBg,
@@ -837,8 +837,8 @@ function renderEPS(c) {
   const builder = (targetCtx) => {
     const h = targetCtx.canvas.height || 240;
     const grad = targetCtx.createLinearGradient(0, 0, 0, h);
-    grad.addColorStop(0, 'rgba(165, 50, 28,0.3)');
-    grad.addColorStop(1, 'rgba(165, 50, 28,0.0)');
+    grad.addColorStop(0, 'rgba(169, 129, 46,0.3)');
+    grad.addColorStop(1, 'rgba(169, 129, 46,0.0)');
     return {
       type: 'line',
       data: {
@@ -895,7 +895,7 @@ function renderPeers(c) {
           label: c.name,
           data: selfData,
           backgroundColor: chartColors.green,
-          borderColor: '#0f1419',
+          borderColor: '#141C2B',
           borderWidth: 2,
           pointRadius: 10,
           pointHoverRadius: 12,
@@ -906,7 +906,7 @@ function renderPeers(c) {
       responsive: true,
       maintainAspectRatio: false,
       plugins: {
-        legend: { labels: { color: chartColors.text, font: { family: 'Inter Tight' } } },
+        legend: { labels: { color: chartColors.text, font: { family: 'DM Sans' } } },
         tooltip: {
           backgroundColor: chartColors.tooltipBg,
           borderColor: chartColors.tooltipBorder,
@@ -954,7 +954,7 @@ function renderSensitivity(c) {
         {
           label: '-10% growth',
           data: vMinus10,
-          borderColor: 'rgba(165, 50, 28,0.55)',
+          borderColor: 'rgba(232, 69, 60,0.55)',
           backgroundColor: 'transparent',
           borderDash: [2, 4],
           borderWidth: 1.5,
@@ -966,8 +966,8 @@ function renderSensitivity(c) {
         {
           label: '-5% growth',
           data: vMinus5,
-          borderColor: 'rgba(165, 50, 28,0.8)',
-          backgroundColor: 'rgba(165, 50, 28,0.08)',
+          borderColor: 'rgba(232, 69, 60,0.8)',
+          backgroundColor: 'rgba(232, 69, 60,0.08)',
           borderDash: [4, 4],
           borderWidth: 1.75,
           pointRadius: 0,
@@ -979,7 +979,7 @@ function renderSensitivity(c) {
         {
           label: '+10% growth',
           data: vPlus10,
-          borderColor: 'rgba(47, 122, 57,0.55)',
+          borderColor: 'rgba(63, 166, 106,0.55)',
           backgroundColor: 'transparent',
           borderDash: [2, 4],
           borderWidth: 1.5,
@@ -991,8 +991,8 @@ function renderSensitivity(c) {
         {
           label: '+5% growth',
           data: vPlus5,
-          borderColor: 'rgba(47, 122, 57,0.8)',
-          backgroundColor: 'rgba(47, 122, 57,0.1)',
+          borderColor: 'rgba(63, 166, 106,0.8)',
+          backgroundColor: 'rgba(63, 166, 106,0.1)',
           borderDash: [4, 4],
           borderWidth: 1.75,
           pointRadius: 0,
@@ -1034,7 +1034,7 @@ function renderSensitivity(c) {
         legend: {
           labels: {
             color: chartColors.text,
-            font: { family: 'Inter Tight', size: 11 },
+            font: { family: 'DM Sans', size: 11 },
             boxWidth: 14,
             padding: 8,
           },
