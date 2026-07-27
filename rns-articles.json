@@ -1,5 +1,106 @@
 [
   {
+    "company": "Victrex PLC",
+    "ticker": "VCT",
+    "publish_date": "27 July 2026",
+    "date_iso": "2026-07-27",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Ian Melling</strong> will step down as <strong>Chief Financial Officer</strong> and Board member on <strong>31 July 2026</strong>; an orderly transition is underway and the search for a successor is in progress, with interim finance leadership to be confirmed shortly.</li><li>Three further senior figures — <strong>Michael Koch</strong> (MD, Sustainable Solutions), <strong>Jane Brisley</strong> (General Counsel) and <strong>Andrew Hanson</strong> (Director of Investor Relations, Corporate Communications and ESG) — will also leave with effect from <strong>31 July 2026</strong>.</li><li>New Executive Committee appointments: <strong>Andrew Ng</strong> joined as <strong>Chief Commercial Officer</strong> in <strong>May 2026</strong>, and <strong>Daniel Diffenderfer</strong> joined this month as <strong>Managing Director, Medical</strong>.</li><li>CEO <strong>James Routh</strong> said the new leadership team is now embedded and he will set out strategy and priorities at the <strong>Capital Markets Event on 24 September 2026</strong>.</li><li>Announcement follows the <strong>Q3 trading update issued on 7 July 2026</strong>; no change to trading or guidance is indicated.</li></ul>",
+    "source_format": "html",
+    "headline": "CFO Ian Melling to step down on 31 July 2026 alongside three other senior leaders, as Victrex reshapes its Board and Executive Committee.",
+    "priority": "medium",
+    "priority_reason": "CFO departure plus multiple senior exits and new appointments constitute a significant leadership overhaul, though not a trading or guidance event.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/victrex-VCT/share-news/Victrex-PLC-Directorate-change/98975029",
+    "related_news_url": "https://news.google.com/search?q=%22Victrex%20plc%22",
+    "added_at": "2026-07-27T07:16:56.580909"
+  },
+  {
+    "company": "Cranswick plc",
+    "ticker": "CWK",
+    "publish_date": "27 July 2026",
+    "date_iso": "2026-07-27",
+    "time_period": "Q1 FY27 (13 weeks to 27 June 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "Q1 FY27 (13 weeks to 27 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Cranswick</strong> reports reported revenue in the <strong>13 weeks to 27 June 2026</strong> up <strong>5.5%</strong> year on year, driven by strong volume growth of <strong>8.2%</strong>.</li><li><strong>Like-for-like revenue up 4.0%</strong> with volumes up <strong>6.4%</strong>, as lower input prices were passed on to customers; growth across the core protein portfolio.</li><li><strong>Poultry</strong> grew strongly on Fresh Poultry retail demand and Eye-site capacity expansion; <strong>Domestic Fresh Pork</strong> ahead on double-digit retail volume growth, though <strong>export revenue was lower</strong> on subdued China and global demand.</li><li>Formed a joint venture with the founders and management of <strong>The Jolly Hog Group Limited</strong>, a Bristol-based premium sausage, bacon and cooked-meats supplier.</li><li><strong>Net debt</strong> at quarter end in line with the <strong>March 2026</strong> year-end position; committed unsecured facilities of <strong>£360m</strong> provide headroom.</li><li>Outlook for FY ending <strong>27 March 2027</strong> remains <strong>in line with current market expectations</strong> (adjusted PBT range <strong>£230.0m–£243.0m</strong>, average <strong>£234.3m</strong>); interim results due <strong>24 November 2026</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Cranswick reports a positive start to FY27 with reported Q1 revenue up 5.5%, driven by 8.2% volume growth, and outlook in line with market expectations.",
+    "priority": "high",
+    "priority_reason": "First-quarter trading statement from a FTSE food producer, with volume-led revenue growth and full-year outlook confirmed in line with market expectations.",
+    "figures": [
+      {
+        "metric": "Reported revenue",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+5.5%",
+        "basis": "reported",
+        "note": "13 weeks to 27 June 2026 vs same period last year"
+      },
+      {
+        "metric": "Volume growth (reported)",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+8.2%",
+        "basis": "reported",
+        "note": "Q1 FY27"
+      },
+      {
+        "metric": "Like-for-like revenue",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+4.0%",
+        "basis": "like-for-like (excludes acquisitions pre-anniversary)",
+        "note": "Q1 FY27"
+      },
+      {
+        "metric": "Like-for-like volume",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+6.4%",
+        "basis": "like-for-like",
+        "note": "Q1 FY27"
+      },
+      {
+        "metric": "Net debt",
+        "current": "in line with March 2026 year end",
+        "prior": "March 2026 year-end position",
+        "change": "broadly flat",
+        "basis": "not stated",
+        "note": "quarter end 27 June 2026"
+      },
+      {
+        "metric": "Committed unsecured facilities",
+        "current": "£360m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "not stated",
+        "note": "headroom"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Adjusted profit before tax market expectations range £230.0m–£243.0m, average £234.3m (as at 24 July 2026)",
+      "current": "Outlook for the financial year ending 27 March 2027 remains in line with current market expectations (adjusted PBT range £230.0m–£243.0m, average £234.3m)",
+      "commentary": "No change to the full-year outlook: the Group confirmed FY27 trading in line with market expectations, with a stated adjusted PBT consensus range of £230.0m–£243.0m and an average of £234.3m."
+    },
+    "explainer": "This is a first-quarter trading statement covering the 13 weeks to 27 June 2026, based on unaudited management accounts, so it gives growth percentages rather than full audited figures. Reported revenue rose 5.5%, but the standout is volume growth of 8.2% — meaning the increase is driven by selling more product, not by pushing through higher prices. In fact prices fell, because lower input costs were passed on to customers.\n\nThe 'like-for-like' figures (revenue +4.0%, volume +6.4%) strip out the contribution of acquisitions until they have been owned for a full year, giving a cleaner picture of underlying organic growth. The gap between reported and like-for-like growth reflects the benefit of recent deals. The new joint venture with The Jolly Hog is a bolt-on rather than a large acquisition.\n\nOn the balance sheet, net debt was flat versus the March 2026 year end despite continued heavy capital investment (Eye poultry capacity and the Hull pork site), signalling strong cash generation. The £360m of committed facilities underlines comfortable liquidity.\n\nOn guidance, nothing has changed: the Group reaffirmed that FY27 (year ending 27 March 2027) will be in line with market expectations, and helpfully spelt out that consensus for adjusted profit before tax spans £230.0m to £243.0m with an average of £234.3m — up from the £215.8m PBT reported for the prior full year.",
+    "source_url": "https://uk.advfn.com/stock-market/london/cranswick-CWK/share-news/Cranswick-PLC-First-Quarter-Trading-Statement/98983183",
+    "related_news_url": "https://news.google.com/search?q=%22Cranswick%20plc%22",
+    "added_at": "2026-07-27T07:16:56.565534"
+  },
+  {
     "company": "HSBC Holdings PLC",
     "ticker": "HSBA",
     "publish_date": "27 July 2026",
