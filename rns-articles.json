@@ -1,5 +1,31 @@
 [
   {
+    "company": "Morgan Sindall PLC",
+    "ticker": "MGNS",
+    "publish_date": "28 July 2026",
+    "date_iso": "2026-07-28",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>Morgan Sindall Group plc</strong> has applied to the <strong>London Stock Exchange</strong> to admit <strong>35,000 ordinary shares</strong> of 5p each, issuable under the <strong>Morgan Sindall Sharesave Plan (2018)</strong>.</li><li>Admission expected to become effective on <strong>30 July 2026</strong>; new shares will rank pari passu with existing ordinary shares.</li><li>Routine Sharesave admission with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Morgan Sindall has applied to admit 35,000 new ordinary shares issuable under its Sharesave Plan, effective 30 July 2026.",
+    "priority": "low",
+    "priority_reason": "Routine LSE admission of a small block of Sharesave shares with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/morgan-sindall-group--mgns/admission-to-trading/9691920",
+    "related_news_url": "https://news.google.com/search?q=%22Morgan%20Sindall%20Group%20plc%22",
+    "added_at": "2026-07-28T15:35:33.086161"
+  },
+  {
     "company": "Tate & Lyle PLC",
     "ticker": "TATE",
     "publish_date": "28 July 2026",
