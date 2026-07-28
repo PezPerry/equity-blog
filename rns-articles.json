@@ -1,5 +1,80 @@
 [
   {
+    "company": "Yellow Cake PLC",
+    "ticker": "YCA",
+    "publish_date": "28 July 2026",
+    "date_iso": "2026-07-28",
+    "time_period": "Q2 2026 (quarter ended 30 June 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "Q2 2026 (quarter ended 30 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li>Estimated <strong>net asset value</strong> up <strong>0.2%</strong> over the quarter to <strong>£6.34 per share</strong> at 30 June 2026 (from <strong>£6.33</strong> at 31 March 2026); estimated pro forma NAV was <strong>£6.42 per share</strong> (<strong>US$2,149.3m</strong>) on <strong>24 July 2026</strong>.</li><li>Value of uranium holdings up <strong>~1.5%</strong> to <strong>US$1,969.7m</strong> (from <strong>US$1,940.4m</strong>), reflecting an extra <strong>100,000 lb</strong> of U3O8 delivered on <strong>20 April 2026</strong> and a spot price rise to <strong>US$84.85/lb</strong> (from US$83.95/lb).</li><li>Holdings rose to <strong>23,214,230 lb</strong> of U3O8; committed to buy a further <strong>1,160,766 lb</strong> from <strong>Kazatomprom</strong> at <strong>US$86.15/lb</strong> (<strong>US$100.0m</strong>) for H2 2026 delivery, taking holdings to <strong>24,374,996 lb</strong>.</li><li>Completed a <strong>US$10m share buyback</strong> post-quarter on <strong>10 July 2026</strong>, purchasing <strong>1,363,976 shares</strong> at a VWAP of <strong>544.41 pence</strong>; <strong>251,295,208</strong> shares now carry voting rights.</li><li>Uranium spot prices stabilised around the mid-<strong>US$80s/lb</strong>; longer-term indicators strengthened, with the <strong>Long-Term Price</strong> at <strong>US$94.00/lb</strong> (up nearly 10% in H1 2026) and the 3-year Forward Price at <strong>US$101.00/lb</strong>.</li><li>CEO <strong>Andre Liebenberg</strong> cited strengthening demand from North America, China, Europe and data centres against constrained future supply, pointing to a widening supply gap.</li></ul>",
+    "source_format": "html",
+    "headline": "Yellow Cake's estimated NAV rose 0.2% to **£6.34/share** as uranium holdings grew towards **24.4m lb**, with a US$10m buyback completed post-quarter.",
+    "priority": "high",
+    "priority_reason": "Quarterly operating update from a uranium holding company, covering NAV, holdings and market conditions.",
+    "figures": [
+      {
+        "metric": "NAV per share",
+        "current": "£6.34",
+        "prior": "£6.33",
+        "change": "+0.2%",
+        "basis": "estimated",
+        "note": "at 30 June 2026 vs 31 March 2026"
+      },
+      {
+        "metric": "Uranium holdings value",
+        "current": "US$1,969.7m",
+        "prior": "US$1,940.4m",
+        "change": "+~1.5%",
+        "basis": "spot valuation",
+        "note": "quarter to 30 June 2026"
+      },
+      {
+        "metric": "U3O8 holdings",
+        "current": "23,214,230 lb",
+        "prior": "23,114,230 lb",
+        "change": "+100,000 lb",
+        "basis": "physical",
+        "note": "at 30 June 2026; rising to 24,374,996 lb after Kazatomprom delivery"
+      },
+      {
+        "metric": "Uranium spot price",
+        "current": "US$84.85/lb",
+        "prior": "US$83.95/lb",
+        "change": "+US$0.90/lb",
+        "basis": "daily Ux U3O8 spot",
+        "note": "30 June vs 31 March 2026"
+      },
+      {
+        "metric": "Ux Long-Term Price",
+        "current": "US$94.00/lb",
+        "prior": "US$86.00/lb",
+        "change": "+~10%",
+        "basis": "term price",
+        "note": "H1 2026 (from end-2025 level)"
+      },
+      {
+        "metric": "Pro forma NAV per share",
+        "current": "£6.42",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "estimated, at US$86.25/lb spot",
+        "note": "24 July 2026, adjusted for Kazatomprom payment and completed buyback"
+      }
+    ],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "Yellow Cake is not an operating miner: it buys and holds physical uranium (U3O8) as a long-term store of value, so its NAV moves almost entirely with the uranium spot price, the size of its stockpile and the sterling/dollar rate. The figures here are quarter-on-quarter comparatives (30 June 2026 vs 31 March 2026), not year-on-year, and the uranium value is stated in US dollars while the per-share NAV is converted to sterling.\n\nThe modest 0.2% rise in NAV per share reflects three offsetting forces: a slightly higher uranium value (from an extra 100,000 lb bought and a small spot-price gain to US$84.85/lb), the accretive effect of buying back shares below NAV, and a partial drag from sterling strengthening against the dollar, which reduces the sterling value of dollar-priced uranium.\n\nThe most notable market signal is the divergence between a stable spot price (mid-US$80s/lb) and firmer long-term prices — the Ux Long-Term Price reached US$94.00/lb, up nearly 10% in the first half of 2026 — suggesting utilities are increasingly paying up to lock in future supply even as near-term trading stays subdued.\n\nNo formal earnings guidance applies to this type of vehicle; the pro forma NAV of £6.42 per share at 24 July 2026 simply reflects the completed US$10m buyback and the US$100m Kazatomprom purchase commitment already factored in.",
+    "source_url": "https://uk.advfn.com/stock-market/london/yellow-cake-YCA/share-news/Yellow-Cake-PLC-QUARTERLY-OPERATING-UPDATE/98984063",
+    "related_news_url": "https://news.google.com/search?q=%22Yellow%20Cake%20plc%22",
+    "added_at": "2026-07-28T07:17:12.278593"
+  },
+  {
     "company": "Entain plc",
     "ticker": "ENT",
     "publish_date": "28 July 2026",
