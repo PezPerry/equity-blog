@@ -1,5 +1,80 @@
 [
   {
+    "company": "Croda International PLC",
+    "ticker": "CRDA",
+    "publish_date": "28 July 2026",
+    "date_iso": "2026-07-28",
+    "time_period": "H1 to 30 June 2026",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Croda International Plc</strong> H1 to <strong>30 June 2026</strong>: <strong>4.6%</strong> Group organic sales growth, driven by <strong>Consumer Care</strong> (sales +8%), with <strong>Q2</strong> organic growth improving to <strong>9%</strong>.</li><li>Adjusted operating profit up <strong>6.7%</strong> organically to <strong>£155.8m</strong> (H125: £146.9m); adjusted operating margin <strong>17.7%</strong> (H125: 17.2%); IFRS operating profit <strong>£115.5m</strong> (H125: £94.4m).</li><li>Free cash flow up <strong>36.8%</strong> to <strong>£38.3m</strong> (H125: £28.0m restated), aided by lower capex; interim dividend held flat at <strong>48.0p</strong> to restore earnings cover.</li><li>By division: <strong>Consumer Care +8%</strong> (Beauty Actives +19%), <strong>Life Sciences flat</strong> (Crop Protection -2%), <strong>Pharma +1%</strong> (Ingredients +7%, Solutions -17% on project phasing).</li><li>Transformation on track for <strong>~£100m</strong> efficiency benefits and <strong>~£50m</strong> working capital improvements by FY28; <strong>£18m</strong> incremental savings delivered in H126.</li><li><strong>FY26 outlook unchanged</strong>: Group organic sales growth within <strong>3-6%</strong> range and a further increase in adjusted operating margin; Q3 update due <strong>5 November 2026</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Croda posts 4.6% organic sales growth and 6.7% organic rise in adjusted operating profit to £155.8m in H1, with FY26 outlook unchanged.",
+    "priority": "high",
+    "priority_reason": "Half-year results with profit, margin and cash flow detail plus reaffirmed full-year guidance.",
+    "figures": [
+      {
+        "metric": "Organic sales growth",
+        "current": "+4.6%",
+        "prior": "not stated",
+        "change": "+4.6%",
+        "basis": "organic / constant currency",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Adjusted operating profit",
+        "current": "£155.8m",
+        "prior": "£146.9m",
+        "change": "+6.7% organic",
+        "basis": "adjusted",
+        "note": "H126 vs H125"
+      },
+      {
+        "metric": "Adjusted operating margin",
+        "current": "17.7%",
+        "prior": "17.2%",
+        "change": "+0.5pp",
+        "basis": "reported currency",
+        "note": "H126 vs H125"
+      },
+      {
+        "metric": "IFRS operating profit",
+        "current": "£115.5m",
+        "prior": "£94.4m",
+        "change": "+22.4%",
+        "basis": "reported",
+        "note": "H126 vs H125"
+      },
+      {
+        "metric": "Free cash flow",
+        "current": "£38.3m",
+        "prior": "£28.0m",
+        "change": "+36.8%",
+        "basis": "post exceptionals, H125 restated",
+        "note": "H126 vs H125 restated"
+      },
+      {
+        "metric": "Interim dividend",
+        "current": "48.0p",
+        "prior": "48.0p",
+        "change": "flat",
+        "basis": "not stated",
+        "note": "held to restore earnings cover"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Group organic sales growth within 3-6% range; a further increase in Group adjusted operating margin; FY26 adjusted operating profit expectations as previously set; financial framework to FY2028",
+      "current": "No change to FY26 outlook: Group organic sales growth within 3-6% range; further increase in Group adjusted operating margin; FY26 adjusted operating profit expectations unchanged; on track for framework to FY2028",
+      "commentary": "FY26 guidance reaffirmed despite geopolitical and macro uncertainty, underpinned by improving Consumer Care and Life Sciences profitability and transformation benefits. Guidance is on a constant currency basis (2025 average rates US$1.32, €1.17)."
+    },
+    "explainer": "Croda reports on an 'organic' basis, which strips out currency movements and the effect of acquisitions and disposals in their first year. So the 4.6% sales growth and 6.7% profit growth reflect the underlying business at constant exchange rates rather than the headline sterling figures. Foreign exchange actually knocked £1.0m off adjusted operating profit in the half.\n\nThe gap between adjusted operating profit (£155.8m) and IFRS operating profit (£115.5m) is largely exceptional items and the amortisation of intangibles from past acquisitions, which Croda excludes from its 'adjusted' numbers. The much larger jump in IFRS profit (+22%) versus adjusted (+6.7%) suggests lower exceptional charges this half rather than a stronger underlying performance.\n\nFree cash flow is not directly comparable to last year without care: the definition was changed in the prior year to deduct the cash cost of exceptional items, restating H125 free cash flow down to £28.0m from £34.2m. On the new like-for-like basis, free cash flow rose 36.8%, helped mainly by more disciplined capital spending.\n\nOn guidance, nothing has changed: Croda reaffirmed its FY26 outlook of 3-6% organic sales growth, a further margin increase and unchanged adjusted operating profit expectations, all on a constant currency basis. It also flagged a potential ~£4m negative FX translation hit to reported FY26 operating profit if June 2026 closing rates persist through the second half.",
+    "source_url": "https://uk.advfn.com/stock-market/london/croda-CRDA/share-news/Croda-International-PLC-Results-for-the-six-months/98990661",
+    "related_news_url": "https://news.google.com/search?q=%22Croda%20International%20Plc%22",
+    "added_at": "2026-07-28T07:41:25.974958"
+  },
+  {
     "company": "Barclays PLC",
     "ticker": "BARC",
     "publish_date": "28 July 2026",
