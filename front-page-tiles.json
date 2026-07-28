@@ -13,6 +13,21 @@
   ],
   "tiles": [
     {
+      "slug": "who-supplies-your-water",
+      "url": "who-supplies-your-water.html",
+      "date": "2026-07-28",
+      "kind": "companion",
+      "cover": "who-supplies-your-water-cover.png",
+      "alt": "A water droplet holding a map of the UK",
+      "cat": "Utilities · Interactive Atlas",
+      "headline": "Who Supplies Your Water",
+      "pill": "watch",
+      "pill_label": "Graphic",
+      "meta_extra": [
+        "18 companies mapped"
+      ]
+    },
+    {
       "slug": "severn-trent-SVT-blog-page",
       "url": "severn-trent-SVT-blog-page.html",
       "date": "2026-07-22",
