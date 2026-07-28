@@ -1,5 +1,213 @@
 [
   {
+    "company": "SSP Group PLC",
+    "ticker": "SSPG",
+    "publish_date": "28 July 2026",
+    "date_iso": "2026-07-28",
+    "time_period": "Q3 FY26 (1 April to 30 June 2026) and nine months to 30 June 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "Q3 FY26 (1 April to 30 June 2026) and nine months to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>SSP Group plc</strong> Q3 FY26 (to <strong>30 June 2026</strong>): group sales <strong>+4%</strong> YoY constant currency, with <strong>like-for-like sales +4%</strong>; <strong>on track</strong> to deliver full-year expectations.</li><li><strong>UK & Ireland</strong> strongest, sales <strong>+8%</strong> (LFL <strong>+11%</strong>) helped by seasonal trading and lapping last year's <strong>M&S cyber incident</strong>; <strong>North America</strong> +4% (LFL +2%); <strong>Continental Europe</strong> flat (LFL +2%).</li><li><strong>APAC & EEME</strong> weak: LFL <strong>-2%</strong> and down <strong>10%</strong> QoQ on the <strong>Middle East conflict</strong>; Gulf markets traded at <strong>c.65%</strong> of prior-year levels.</li><li>Nine months to <strong>30 June 2026</strong>: group sales <strong>+5%</strong> constant currency, LFL <strong>+5%</strong>.</li><li>Full-year guidance (from Interim Results) reaffirmed: <strong>EPS 13.6-14.8p</strong> (post buyback), free cash flow (pre-dividend/buyback) to <strong>>£100m</strong>, ROCE progress towards <strong>20%</strong> medium-term target.</li><li><strong>£76m</strong> of the <strong>£100m</strong> share buyback (started October 2025) now completed; full-year results due <strong>8 December 2026</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "SSP Group posts 4% Q3 like-for-like sales growth and remains on track to meet full-year expectations despite Middle East disruption.",
+    "priority": "high",
+    "priority_reason": "Quarterly trading update with sales figures and full-year guidance reaffirmation from a listed operator.",
+    "figures": [
+      {
+        "metric": "Group sales (Q3, constant currency)",
+        "current": "+4% YoY",
+        "prior": "not stated",
+        "change": "+4%",
+        "basis": "constant currency",
+        "note": "Q3 FY26, 1 April to 30 June 2026"
+      },
+      {
+        "metric": "Group LFL sales (Q3)",
+        "current": "+4%",
+        "prior": "not stated",
+        "change": "+4%",
+        "basis": "like-for-like",
+        "note": "Q3 FY26"
+      },
+      {
+        "metric": "Group sales (9 months, constant currency)",
+        "current": "+5%",
+        "prior": "not stated",
+        "change": "+5%",
+        "basis": "constant currency",
+        "note": "nine months to 30 June 2026"
+      },
+      {
+        "metric": "UK & Ireland sales (Q3)",
+        "current": "+8% YoY (LFL +11%)",
+        "prior": "not stated",
+        "change": "+8%",
+        "basis": "reported / like-for-like",
+        "note": "Q3 FY26"
+      },
+      {
+        "metric": "North America sales (Q3, constant currency)",
+        "current": "+4% YoY (LFL +2%)",
+        "prior": "not stated",
+        "change": "+4%",
+        "basis": "constant currency",
+        "note": "Q3 FY26"
+      },
+      {
+        "metric": "APAC & EEME LFL sales (Q3)",
+        "current": "-2% YoY",
+        "prior": "not stated",
+        "change": "-2%",
+        "basis": "like-for-like",
+        "note": "down 10% QoQ; Gulf at c.65% of prior year"
+      },
+      {
+        "metric": "Share buyback completed",
+        "current": "£76m",
+        "prior": "£100m programme",
+        "change": "not stated",
+        "basis": "of £100m programme initiated October 2025",
+        "note": "as at update"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "As stated at Interim Results: EPS 13.6-14.8p (post share buyback); improving free cash flow (pre-dividend and pre-share buyback) to >£100m; further progress in ROCE towards medium-term target of 20%.",
+      "current": "Same targets reaffirmed: EPS 13.6-14.8p (post buyback); free cash flow (pre-dividend and pre-buyback) >£100m; ROCE progress towards 20% medium-term target.",
+      "commentary": "Full-year guidance is unchanged from the Interim Results, with management stating it remains on track assuming the current operating environment and 22 July 2026 FX rates hold. On those spot rates, currency would impact revenue by +0.3% and operating profit by -1.6% versus 2025 average rates."
+    },
+    "explainer": "This is a third-quarter trading update, not full results — SSP reports sales momentum by region rather than profit. \"Like-for-like\" (LFL) strips out new or closed outlets to show growth from existing sites, while \"constant currency\" removes the distortion of exchange-rate moves so the underlying trend is visible. Group LFL sales grew 4% in the quarter and 5% over the nine months.\n\nThe headline masks a sharp regional split. The UK & Ireland was strong (LFL +11%), flattered partly by lapping last year's M&S cyber incident, and North America and Continental Europe were steady. Against that, the APAC & EEME region contracted, with Gulf markets running at only about 65% of prior-year levels because the Middle East conflict cut passenger numbers through airports and travel hubs — SSP's core locations.\n\nGuidance is maintained, not raised or cut. The company reaffirmed the full-year targets set at May's Interim Results: EPS of 13.6-14.8p (after the buyback reduces the share count), free cash flow above £100m before dividends and buybacks, and continued progress in return on capital towards a 20% medium-term goal. This holds only if trading conditions and current FX rates stay broadly unchanged.\n\nSeparately, SSP has completed £76m of its £100m buyback launched in October 2025, and full-year results are scheduled for 8 December 2026.",
+    "source_url": "https://uk.advfn.com/stock-market/london/ssp-SSPG/share-news/SSP-Group-PLC-Q3-Trading-Update/98990674",
+    "related_news_url": "https://news.google.com/search?q=%22SSP%20Group%20plc%22",
+    "added_at": "2026-07-28T07:40:10.133006"
+  },
+  {
+    "company": "Forterra PLC",
+    "ticker": "FORT",
+    "publish_date": "28 July 2026",
+    "date_iso": "2026-07-28",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Forterra plc</strong> appoints <strong>Lisa Oxnard</strong> as <strong>Chief Financial Officer and Executive Director</strong>, joining later in 2026 after completing current commitments.</li><li>Succeeds <strong>Ben Guyatt</strong>, who leaves the Company on <strong>31 October 2026</strong> (departure flagged <strong>11 June 2026</strong>); Board to arrange interim continuity of financial leadership.</li><li>Oxnard joins from <strong>Genuit Group plc</strong> (Group Financial Controller) and previously held CFO roles at <strong>JELD-WEN Europe</strong> and <strong>Doncasters Group Ltd</strong>; over 25 years' international finance experience.</li><li>Routine Listing Rule 6.4.8R disclosure — no further information to disclose; <strong>no impact</strong> on current trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Forterra appoints Lisa Oxnard as Chief Financial Officer and Executive Director, succeeding Ben Guyatt who steps down on 31 October 2026.",
+    "priority": "medium",
+    "priority_reason": "CFO succession at a listed company is a material board change but has no immediate impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/forterra-FORT/share-news/Forterra-plc-Appointment-of-Chief-Financial-Office/98991055",
+    "related_news_url": "https://news.google.com/search?q=%22Forterra%20plc%22",
+    "added_at": "2026-07-28T07:40:09.832399"
+  },
+  {
+    "company": "Man Group PLC",
+    "ticker": "EMG",
+    "publish_date": "28 July 2026",
+    "date_iso": "2026-07-28",
+    "time_period": "H1 to 30 June 2026",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Man Group plc</strong> H1 2026 results: <strong>record AUM of $253.6bn</strong> at 30 June 2026, up from <strong>$227.6bn</strong> at 31 December 2025.</li><li><strong>Net inflows of $7.1bn</strong>, 3.4% ahead of the industry, plus positive investment performance of <strong>$19.8bn</strong>.</li><li>Statutory diluted EPS <strong>17.5¢</strong> (H1 2025: <strong>4.4¢</strong>); core diluted EPS <strong>19.9¢</strong> (H1 2025: <strong>9.7¢</strong>); core management fee EPS up <strong>46%</strong> to <strong>12.4¢</strong>.</li><li>Core performance fees jumped to <strong>$207m</strong> (H1 2025: <strong>$67m</strong>); run-rate net management fees <strong>$1,303m</strong> (Dec 2025: <strong>$1,182m</strong>).</li><li>Recommended interim dividend of <strong>5.7¢</strong> per share, in line with guidance and flat on prior year; <strong>$29m</strong> of the <strong>$50m</strong> buyback complete as at 24 July.</li><li>CEO <strong>Robyn Grew</strong> says diversification is compounding into broad-based growth as clients consolidate towards fewer strategic partners.</li></ul>",
+    "source_format": "html",
+    "headline": "Man Group posts record AUM of $253.6bn at 30 June 2026 with $7.1bn net inflows and statutory diluted EPS quadrupling to 17.5¢.",
+    "priority": "high",
+    "priority_reason": "Half-year results from a FTSE 250 asset manager, with record AUM, strong inflows and sharp earnings growth.",
+    "figures": [
+      {
+        "metric": "AUM",
+        "current": "$253.6bn",
+        "prior": "$227.6bn",
+        "change": "+11.4%",
+        "basis": "reported",
+        "note": "30 June 2026 vs 31 December 2025"
+      },
+      {
+        "metric": "Net inflows",
+        "current": "$7.1bn",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "H1 2026; 3.4% ahead of industry"
+      },
+      {
+        "metric": "Core performance fees",
+        "current": "$207m",
+        "prior": "$67m",
+        "change": "+209%",
+        "basis": "reported",
+        "note": "vs H1 2025"
+      },
+      {
+        "metric": "Run-rate net management fees",
+        "current": "$1,303m",
+        "prior": "$1,182m",
+        "change": "+10.2%",
+        "basis": "reported",
+        "note": "30 June 2026 vs 31 December 2025"
+      },
+      {
+        "metric": "Statutory EPS (diluted)",
+        "current": "17.5¢",
+        "prior": "4.4¢",
+        "change": "+298%",
+        "basis": "reported",
+        "note": "vs H1 2025"
+      },
+      {
+        "metric": "Core EPS (diluted)",
+        "current": "19.9¢",
+        "prior": "9.7¢",
+        "change": "+105%",
+        "basis": "core / APM",
+        "note": "vs H1 2025"
+      },
+      {
+        "metric": "Core management fee EPS",
+        "current": "12.4¢",
+        "prior": "not stated",
+        "change": "+46%",
+        "basis": "core / APM",
+        "note": "H1 2026"
+      },
+      {
+        "metric": "Interim dividend",
+        "current": "5.7¢",
+        "prior": "5.7¢",
+        "change": "flat",
+        "basis": "reported",
+        "note": "one-third of prior year's total dividend"
+      },
+      {
+        "metric": "Net tangible assets",
+        "current": "$758m",
+        "prior": "$723m",
+        "change": "+4.8%",
+        "basis": "reported",
+        "note": "30 June 2026 vs 31 December 2025"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Interim dividend set at one-third of the previous year's total dividend per share; $50m share buyback programme announced in May",
+      "current": "Interim dividend of 5.7¢ per share declared in line with that policy; $29m of the $50m buyback complete as at 24 July",
+      "commentary": "No change to policy: the dividend follows the stated one-third formula and the previously announced buyback is progressing. Capital allocation remains progressive dividend, then investment, then buybacks."
+    },
+    "explainer": "Man Group reports in US dollars. 'Core' measures are the firm's own alternative performance metrics, which strip out non-core items to show underlying earnings; the announcement gives both statutory (audited) and core figures. Statutory diluted EPS of 17.5¢ versus 4.4¢ a year earlier is a genuine jump, but much of it reflects performance fees, which are inherently lumpy — core performance fees of $207m versus $67m are the main swing factor and can vary sharply period to period with market conditions.\n\nThe AUM and management-fee figures are the more stable, recurring part of the business. Record AUM of $253.6bn (up from $227.6bn at end-2025) was driven by both $7.1bn of net inflows and $19.8bn of positive investment performance, lifting run-rate net management fees to $1,303m. Note that AUM reporting categories were changed effective 1 January 2026, so comparisons of sub-category flows against older splits are not like-for-like.\n\nOn distributions, the interim dividend of 5.7¢ is flat year-on-year and simply follows the stated policy of setting the interim at one-third of the prior year's total — so it is not a signal of a guidance change. The $50m buyback announced in May is roughly 58% complete ($29m) as at 24 July. Overall, guidance and capital policy are unchanged; the standout is the recovery in performance fees rather than any shift in outlook.",
+    "source_url": "https://uk.advfn.com/stock-market/london/man-EMG/share-news/Man-Group-plc-Half-Year-results-for-the-period-end/98990642",
+    "related_news_url": "https://news.google.com/search?q=%22Man%20Group%20plc%22",
+    "added_at": "2026-07-28T07:40:09.711892"
+  },
+  {
     "company": "Bodycote plc",
     "ticker": "BOY",
     "publish_date": "28 July 2026",
