@@ -101,12 +101,25 @@ jobs:
 
           iframe = f'<div style=\"width:100%;margin:0;padding:0;\"><iframe src=\"{github_url}\" style=\"width:100%;height:85vh;border:none;display:block;\" scrolling=\"yes\"></iframe></div>'
 
+          # Cover image: house convention is the article filename with a trailing
+          # '-blog-page' dropped and '-cover.<ext>' appended, sitting beside the
+          # article in the repo root. Only set it when the file actually exists,
+          # so a missing cover leaves the field empty rather than pointing at a 404.
+          cover_url = ''
+          cover_stem = slug[:-len('-blog-page')] if slug.endswith('-blog-page') else slug
+          for ext in ('png', 'jpg', 'jpeg'):
+              candidate = f'{cover_stem}-cover.{ext}'
+              if os.path.exists(candidate):
+                  cover_url = f'https://pezperry.github.io/equity-blog/{candidate}'
+                  break
+
           from datetime import date
           post = {
               'title': title,
               'slug': slug,
               'category': category,
               'tags': tags,
+              'cover_image': cover_url,
               'content': iframe,
               'excerpt': excerpt,
               'author': 'Mickey Perry',
@@ -119,6 +132,7 @@ jobs:
           print(f'  Category: {category}')
           print(f'  Slug:     {slug}')
           print(f'  Read:     {read_time} min')
+          print(f'  Cover:    {cover_url or \"(none found - add \" + cover_stem + \"-cover.png)\"}')
 
           with open('/tmp/base44_payload.json', 'w') as f:
               json.dump(post, f)
