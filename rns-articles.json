@@ -1,5 +1,104 @@
 [
   {
+    "company": "Barclays PLC",
+    "ticker": "BARC",
+    "publish_date": "28 July 2026",
+    "date_iso": "2026-07-28",
+    "time_period": "H1 2026 (six months to 30 June 2026)",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 2026 (six months to 30 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Barclays PLC</strong> H1 2026 profit before tax <strong>£6.1bn</strong> (H125: <strong>£5.2bn</strong>), Group RoTE <strong>14.8%</strong> (H125: 13.2%); Q226 RoTE <strong>16.1%</strong>.</li><li>H126 income <strong>£16.5bn</strong>, up <strong>11%</strong> year-on-year; H126 EPS <strong>30.7p</strong> (H125: 24.7p), Q226 EPS <strong>16.7p</strong> up <strong>43%</strong>.</li><li>Upgraded <strong>2026 Group income target to c.£31.5bn</strong> (from c.£31bn); NII ex-IB and Head Office raised to <strong>greater than £13.7bn</strong> (from >£13.5bn).</li><li>Total H1 capital distributions of <strong>£2.3bn</strong>, up <strong>61%</strong> — including a <strong>£1.0bn</strong> buyback and <strong>5.9p</strong> H126 dividend (H125: 3.0p).</li><li><strong>CET1 ratio 14.3%</strong>, above the 13-14% target range; cost:income ratio improved to <strong>54%</strong> (Q225: 59%).</li><li>Investment Bank income up <strong>20%</strong>; US Consumer Bank income up <strong>38%</strong>, boosted by a <strong>c.£225m</strong> gain on the <strong>American Airlines</strong> card portfolio sale and the <strong>Best Egg</strong> acquisition.</li></ul>",
+    "source_format": "html",
+    "headline": "Barclays H1 2026 profit before tax rose to £6.1bn with a 14.8% RoTE, and it upgraded its 2026 income target to c.£31.5bn.",
+    "priority": "high",
+    "priority_reason": "Half-year results from a FTSE 100 bank, with an upgraded 2026 income target and £2.3bn capital return.",
+    "figures": [
+      {
+        "metric": "Profit before tax",
+        "current": "£6.1bn",
+        "prior": "£5.2bn",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "Total income",
+        "current": "£16.5bn",
+        "prior": "not stated",
+        "change": "+11%",
+        "basis": "reported",
+        "note": "H1 2026 year-on-year"
+      },
+      {
+        "metric": "EPS",
+        "current": "30.7p",
+        "prior": "24.7p",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "RoTE",
+        "current": "14.8%",
+        "prior": "13.2%",
+        "change": "not stated",
+        "basis": "return on tangible equity",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "Dividend per share",
+        "current": "5.9p",
+        "prior": "3.0p",
+        "change": "not stated",
+        "basis": "interim",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "Total operating expenses",
+        "current": "£9.1bn",
+        "prior": "not stated",
+        "change": "+6%",
+        "basis": "reported",
+        "note": "H1 2026 year-on-year"
+      },
+      {
+        "metric": "CET1 ratio",
+        "current": "14.3%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "common equity tier 1",
+        "note": "above 13-14% target range"
+      },
+      {
+        "metric": "Q226 profit before tax",
+        "current": "£3.3bn",
+        "prior": "£2.5bn",
+        "change": "+31%",
+        "basis": "reported",
+        "note": "Q2 2026 vs Q2 2025"
+      },
+      {
+        "metric": "Q226 EPS",
+        "current": "16.7p",
+        "prior": "11.7p",
+        "change": "+43%",
+        "basis": "reported",
+        "note": "Q2 2026 vs Q2 2025"
+      }
+    ],
+    "guidance": {
+      "status": "raised",
+      "previous": "2026 Group income target of c.£31bn; NII excluding Investment Bank and Head Office of greater than £13.5bn",
+      "current": "2026 Group income target of c.£31.5bn; NII excluding Investment Bank and Head Office of greater than £13.7bn",
+      "commentary": "Barclays lifted its 2026 income guidance by c.£0.5bn and raised its net interest income target by £0.2bn, citing strong first-half performance and continued UK lending growth; it reaffirmed all 2026 and 2028 financial and distribution targets."
+    },
+    "explainer": "These are half-year results covering the six months to 30 June 2026, compared with the same period of 2025. Income comparisons are on a reported basis. Group RoTE — return on tangible equity, a core profitability measure for banks — rose to 14.8% for the half and 16.1% in the second quarter, comfortably above the roughly 11% level Barclays targets, with all divisions delivering double-digit returns.\n\nThe US Consumer Bank's 38% income jump is flattered by one-offs: a c.£225m gain from selling the American Airlines co-branded credit card portfolio, plus the addition of the acquired Best Egg lending business. Underlying UK income growth was more modest, helped by structural hedge income but held back by mortgage margin compression and deposit shifts. Impairment charges edged up to £0.6bn in the quarter (loan loss rate 51bps versus 44bps).\n\nOn guidance, Barclays upgraded its full-year 2026 Group income target to about £31.5bn from about £31bn, and raised its net interest income target (excluding the Investment Bank and Head Office) to more than £13.7bn from more than £13.5bn. It kept its CET1 target range of 13-14% and reiterated confidence in hitting all 2026 and 2028 targets.\n\nCapital returns are a key takeaway for holders: £2.3bn of first-half distributions, up 61% year-on-year, comprising a £1.0bn buyback and a 5.9p dividend announced at these results, on top of the £500m buyback flagged at Q1.",
+    "source_url": "https://uk.advfn.com/stock-market/london/barclays-BARC/share-news/Barclays-PLC-Half-year-Financial-Report/98990657",
+    "related_news_url": "https://news.google.com/search?q=%22Barclays%20PLC%22",
+    "added_at": "2026-07-28T07:40:54.793693"
+  },
+  {
     "company": "SSP Group PLC",
     "ticker": "SSPG",
     "publish_date": "28 July 2026",
