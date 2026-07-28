@@ -1,5 +1,80 @@
 [
   {
+    "company": "Coats Group plc",
+    "ticker": "COA",
+    "publish_date": "28 July 2026",
+    "date_iso": "2026-07-28",
+    "time_period": "H1 to 30 June 2026",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Coats Group plc</strong> reported H1 2026 revenue of <strong>$837m</strong> (H1 2025: <strong>$705m</strong>), up <strong>1% organic</strong> on a constant-currency basis, again outperforming apparel and footwear markets estimated to have declined mid-single digits.</li><li>Adjusted EBIT of <strong>$166m</strong> (H1 2025: <strong>$140m</strong>), <strong>2% lower organically</strong> on growth and technology investment; adjusted EBIT margin maintained at <strong>19.8%</strong>, aided by <strong>OrthoLite</strong> accretion.</li><li>Free cash flow (pre-distributions) of <strong>$30m</strong> (H1 2025: <strong>$38m</strong>); net debt <strong>$842m</strong> at 30 June 2026 (31 Dec 2025: <strong>$815m</strong>), leverage <strong>2.3x</strong>, on track to reach <strong>2.0x</strong> by year end.</li><li>Guidance reaffirmed: Group <strong>confident of delivering FY results in line with market expectations</strong> despite prolonged industry de-stocking.</li><li><strong>Apparel</strong> grew <strong>1% organically</strong> (EBIT margin 18.9%, down 50bps); <strong>Footwear</strong> revenue flat with a return to growth in Q2 (EBIT margin 21.1%, up 30bps).</li><li><strong>OrthoLite</strong> on track for cost synergies (<strong>$5m</strong> in 2026 rising to <strong>$20m+</strong> by 2028) and targeting <strong>$40m+</strong> of incremental sales synergies by <strong>2030</strong>; new CEO <strong>Marius Wirtz</strong> took the role on 15 July.</li></ul>",
+    "source_format": "html",
+    "headline": "Coats reports H1 revenue of $837m with market outperformance, maintained margins and reaffirms confidence in FY results in line with expectations.",
+    "priority": "high",
+    "priority_reason": "Half-year results from a FTSE 250 company, with divisional detail, cash flow, net debt and reaffirmed full-year guidance.",
+    "figures": [
+      {
+        "metric": "Revenue",
+        "current": "$837m",
+        "prior": "$705m",
+        "change": "+1% organic",
+        "basis": "organic constant currency",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Adjusted EBIT",
+        "current": "$166m",
+        "prior": "$140m",
+        "change": "-2% organic",
+        "basis": "adjusted",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Adjusted EBIT margin",
+        "current": "19.8%",
+        "prior": "19.8%",
+        "change": "maintained",
+        "basis": "adjusted",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Free cash flow (pre-distributions)",
+        "current": "$30m",
+        "prior": "$38m",
+        "change": "not stated",
+        "basis": "after interest, tax, minorities, exceptionals",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Net debt",
+        "current": "$842m",
+        "prior": "$815m",
+        "change": "not stated",
+        "basis": "frozen GAAP, excludes IFRS 16",
+        "note": "30 June 2026 vs 31 December 2025"
+      },
+      {
+        "metric": "Leverage (net debt/EBITDA)",
+        "current": "2.3x",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "frozen GAAP",
+        "note": "targeting 2.0x by year end"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "FY results in line with market expectations",
+      "current": "Reaffirm confidence to deliver FY results in line with market expectations",
+      "commentary": "Guidance unchanged; management remains confident on the second-half outlook despite prolonged industry de-stocking, tariff uncertainty and the Middle East conflict, citing lean customer inventory levels as potential upside."
+    },
+    "explainer": "The headline revenue jump from $705m to $837m is flattered by acquisitions (OrthoLite and Viz Reflectives) and currency. Stripping those out, underlying 'organic' revenue grew just 1% at constant exchange rates — but that was still ahead of core apparel and footwear markets, which Coats estimates shrank by a mid-single-digit percentage as brands ran down inventory. In other words, the growth is share gain rather than a rising market.\n\nAdjusted EBIT rose in reported terms to $166m but was actually 2% lower on an organic basis, because Coats spent more on growth and technology initiatives. The key resilience signal is the margin: adjusted EBIT margin held at 19.8%, helped by the higher-margin OrthoLite business, showing pricing and cost discipline offset inflation from the Middle East disruption.\n\nNet debt edged up to $842m (from $815m at end-2025) mainly because the 2025 final dividend was paid in the period. Leverage of 2.3x is expected to fall to 2.0x by year end as working capital unwinds — a normal second-half seasonal cash inflow for Coats.\n\nOn guidance, nothing has changed: management reaffirms it expects full-year results in line with market expectations. The tone is cautiously confident — de-stocking has been prolonged, but Coats argues customer inventories are now lean, which could support a demand pick-up beyond what its own in-year outlook assumes.",
+    "source_url": "https://uk.advfn.com/stock-market/london/coats-COA/share-news/Coats-Group-PLC-Half-year-Financial-Report/98990678",
+    "related_news_url": "https://news.google.com/search?q=%22Coats%20Group%20plc%22",
+    "added_at": "2026-07-28T07:43:40.386022"
+  },
+  {
     "company": "Inchcape plc",
     "ticker": "INCH",
     "publish_date": "28 July 2026",
