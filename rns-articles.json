@@ -1,5 +1,57 @@
 [
   {
+    "company": "Inchcape plc",
+    "ticker": "INCH",
+    "publish_date": "28 July 2026",
+    "date_iso": "2026-07-28",
+    "time_period": "",
+    "announcement_type": "Buyback programme increase",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Inchcape plc</strong> has increased its ongoing share buyback programme by <strong>£75 million</strong>, from <strong>£175 million</strong> to up to <strong>£250 million</strong>.</li><li>Announced as part of the Group's <strong>H1 2026</strong> financial results, also published today.</li><li>Managed on a non-discretionary basis by <strong>UBS AG London Branch</strong>; maximum <strong>53,615,114 shares</strong> may be repurchased (inclusive of purchases since <strong>14 May 2026</strong>) under AGM authority.</li><li>Programme runs from today until no later than <strong>5 March 2027</strong>; all repurchased shares will be cancelled to reduce capital.</li><li>Board cites strong underlying free cash flow, a strong balance sheet and confidence in future prospects; <strong>no change</strong> to trading or guidance is disclosed in this announcement.</li></ul>",
+    "source_format": "html",
+    "headline": "Inchcape increases its current share buyback programme by **£75m**, from **£175m** to up to **£250m**, alongside H1 2026 results published today.",
+    "priority": "medium",
+    "priority_reason": "Buyback programme launch/increase is a medium-priority capital-return event, not a daily buyback transaction.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/inchcape-INCH/share-news/Inchcape-PLC-Current-175m-share-buyback-increased/98991120",
+    "related_news_url": "https://news.google.com/search?q=%22Inchcape%20plc%22",
+    "added_at": "2026-07-28T07:42:12.913734"
+  },
+  {
+    "company": "Ferrexpo PLC",
+    "ticker": "FXPO",
+    "publish_date": "28 July 2026",
+    "date_iso": "2026-07-28",
+    "time_period": "H2 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "H2 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Ferrexpo plc</strong> reports a vessel carrying its high-grade <strong>DR-grade pellets (FDP)</strong> was struck by <strong>Russian drones</strong> in Ukrainian Black Sea waters; one <strong>crew member died</strong> and the cargo and vessel integrity are unknown.</li><li>Group does <strong>not expect to load additional vessels via this export route for the foreseeable future</strong>, as shipowners have cancelled vessel fixtures amid ongoing port attacks.</li><li>Approximately <strong>189,000 tonnes</strong> of pellets await shipment — <strong>55,000 tonnes of FDP</strong> on the stricken vessel and ~<strong>90,000 tonnes of FDP</strong> in stockpiles — with production/delivery cost of ~<strong>US$20 million</strong>.</li><li><strong>Material negative impact on liquidity</strong>: Group now forecasts sufficient net accessible cash to operate only until <strong>end-August 2026</strong>.</li><li>Board continues to work towards an equity capital raise of a minimum <strong>US$100 million</strong> (the 'Intended Fundraise') to support working capital; terms to follow.</li><li>Forecast remains subject to iron ore pricing, energy costs, suspended VAT refunds and ongoing legal proceedings involving <strong>Ferrexpo Poltava Mining</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Ferrexpo warns liquidity is materially hit after a drone strike sank an FDP-laden vessel and shut its Black Sea export route, leaving cash only to end-August 2026.",
+    "priority": "high",
+    "priority_reason": "Vessel loss and blocked export route materially hit liquidity, with cash runway now only to end-August 2026 and a US$100m raise pending.",
+    "figures": [],
+    "guidance": {
+      "status": "new",
+      "previous": "Group had forecast increased FDP sales for export from Black Sea ports in H2 2026 (per 15 July 2026 Production Report & Trading Update)",
+      "current": "Black Sea export route not available for the foreseeable future; net accessible cash forecast to last only until end-August 2026",
+      "commentary": "The vessel incident and resulting fixture cancellations have removed the planned H2 2026 FDP export route, causing a material deterioration in liquidity and shortening the cash runway to end-August 2026. Management is evaluating mitigation scenarios and progressing a minimum US$100m equity raise."
+    },
+    "explainer": "Ferrexpo mines iron ore in Ukraine and had been shifting its output towards its highest-quality 'DR-grade' pellets (FDP) for Middle East customers, exporting them through Black Sea ports. A vessel carrying about 55,000 tonnes of that product was hit by drones and one crew member was killed; the cargo may be lost and the route is now effectively closed because shipowners are cancelling bookings.\n\nThe key financial point is liquidity, not profit. Because the planned second-half FDP exports cannot ship, the company is left holding roughly 189,000 tonnes of inventory it cannot easily sell, and it now says its accessible cash only lasts until the end of August 2026 — a very short runway that signals acute funding stress.\n\nThis is why the company is pushing to launch an equity capital raise of at least US$100 million to shore up working capital. That raise is not yet live; its terms would come in a separate announcement, and the cash forecast still depends on iron ore prices, energy costs, suspended VAT refunds and unresolved legal proceedings in Ukraine. No prior-year comparative figures are given, so this is a liquidity warning rather than a full trading statement.",
+    "source_url": "https://uk.advfn.com/stock-market/london/ferrexpo-FXPO/share-news/Ferrexpo-PLC-Update-on-logistics-disruption-and-ve/98990696",
+    "related_news_url": "https://news.google.com/search?q=%22Ferrexpo%20plc%22",
+    "added_at": "2026-07-28T07:42:12.846400"
+  },
+  {
     "company": "Croda International PLC",
     "ticker": "CRDA",
     "publish_date": "28 July 2026",
