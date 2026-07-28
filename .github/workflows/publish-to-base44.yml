@@ -62,6 +62,16 @@ jobs:
           kw_match = re.search(r'meta name=\"keywords\" content=\"([^\"]+)\"', html)
           keywords = kw_match.group(1).lower() if kw_match else ''
 
+          # Secondary topic tags, kept alongside the single primary category so an
+          # article can surface under cross-cutting filters (Banking, UK Markets)
+          # without losing its Company Analysis home.
+          raw_tags = [t.strip() for t in kw_match.group(1).split(',')] if kw_match else []
+          tags, seen_tags = [], set()
+          for t in raw_tags:
+              if t and t.lower() not in seen_tags:
+                  seen_tags.add(t.lower())
+                  tags.append(t)
+
           text_only = re.sub(r'<[^>]+>', ' ', html)
           word_count = len(text_only.split())
           read_time = max(1, word_count // 200)
@@ -96,6 +106,7 @@ jobs:
               'title': title,
               'slug': slug,
               'category': category,
+              'tags': tags,
               'content': iframe,
               'excerpt': excerpt,
               'author': 'Mickey Perry',
