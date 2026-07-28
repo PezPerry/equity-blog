@@ -1,0 +1,698 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Who supplies your water | Equity &amp; Markets Insight</title>
+<meta name="description" content="An interactive atlas of the eighteen companies that supply water to the UK. Map every service area, then shade it by customers, incidents, capital spending or profit after tax — from Thames Water's £585.5m loss to Yorkshire's £270.7m profit.">
+<meta name="keywords" content="utilities, water, ofwat, thames water, united utilities, anglian, welsh water, scottish water, capital expenditure, regulated returns, service area map">
+<meta name="tile-kind" content="companion">
+<meta name="tile-cover" content="who-supplies-your-water-cover.png">
+<meta name="tile-alt" content="A water droplet holding a map of the UK">
+<meta name="tile-cat" content="Utilities · Interactive Atlas">
+<meta name="tile-headline" content="Who Supplies Your Water">
+<meta name="tile-pill" content="watch">
+<meta name="tile-pill-label" content="Graphic">
+<meta name="tile-meta" content="18 companies mapped">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<script src="https://unpkg.com/d3@7.9.0/dist/d3.min.js" integrity="sha384-CjloA8y00+1SDAUkjs099PVfnY2KmDC2BZnws9kh8D/lX1s46w6EPhpXdqMfjK6i" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/topojson-client@3.1.0/dist/topojson-client.min.js" integrity="sha384-Ukv1p/xTma6P4/2bY5KzWBw+ydSpXmhCMtyciIQVDJ1RmOxtCYNMF1uXT9T63H67" crossorigin="anonymous"></script>
+<style>
+  :root{
+    --ink:#f7f5f0; --ink2:#fffefb; --panel:#ffffff;
+    --line:#e0dbd1; --line2:#cdc6b9;
+    --text:#1a2230; --muted:#63707f; --faint:#626b77;
+    --pos:#0f8f68; --neg:#d3384a;
+    --sea:#eef1f4; --land:#e7e3da;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;height:100%}
+  body{
+    background:
+      radial-gradient(1200px 700px at 18% -10%, #ffffff 0%, transparent 62%),
+      radial-gradient(900px 600px at 95% 110%, #eaf1f5 0%, transparent 58%),
+      var(--ink);
+    color:var(--text); font-family:"IBM Plex Sans",system-ui,sans-serif;
+    font-size:14px; overflow:hidden;
+  }
+  a{color:#1d5fa8}
+  a:hover{color:#0e3f78}
+  .num{font-family:"IBM Plex Mono",monospace;font-variant-numeric:tabular-nums}
+  .app{height:100vh;display:grid;grid-template-rows:auto minmax(0,1fr) auto;grid-template-columns:minmax(0,1fr);overflow:hidden}
+  header,main,footer{min-width:0}
+
+  /* ── header ───────────────────────────── */
+  header{display:flex;flex-wrap:wrap;align-items:flex-end;gap:18px 28px;padding:16px 26px 13px;border-bottom:1px solid var(--line)}
+  .brand{display:flex;flex-direction:column;gap:2px;min-width:300px}
+  .kicker{font-size:10.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--faint)}
+  h1{margin:0;font-family:"Instrument Serif",Georgia,serif;font-weight:400;font-size:31px;line-height:1;letter-spacing:.01em}
+  h1 em{font-style:italic;color:#1d5fa8}
+  .lens{display:flex;flex-direction:column;gap:6px;margin-left:auto}
+  .lens-label{font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--faint)}
+  .seg{display:flex;gap:4px;background:#fffdf8;border:1px solid var(--line);border-radius:999px;padding:4px}
+  .seg button{
+    appearance:none;border:0;background:transparent;color:var(--muted);cursor:pointer;
+    font:500 12px/1 "IBM Plex Sans",sans-serif;padding:8px 13px;border-radius:999px;letter-spacing:.01em;
+    transition:background .18s,color .18s
+  }
+  .seg button:hover{color:var(--text);background:#eeeae1}
+  .seg button[aria-pressed="true"]{background:#1a2230;color:#fbfaf7}
+  .toggle{display:flex;align-items:center;gap:9px;font-size:12px;color:var(--muted);cursor:pointer;user-select:none;white-space:nowrap}
+  .toggle input{appearance:none;width:34px;height:19px;border-radius:999px;background:#e6e1d7;border:1px solid var(--line2);position:relative;cursor:pointer;transition:background .2s}
+  .toggle input::after{content:"";position:absolute;top:2px;left:2px;width:13px;height:13px;border-radius:50%;background:#ffffff;box-shadow:0 1px 2px #00000026;transition:transform .2s,background .2s}
+  .toggle input:checked{background:#1a2230}
+  .toggle input:checked::after{transform:translateX(15px);background:#ffffff}
+
+  /* ── main ─────────────────────────────── */
+  main{display:grid;grid-template-columns:288px minmax(0,1fr) 340px;gap:0;min-height:0}
+  .col{min-height:0;overflow:auto;scrollbar-width:thin;scrollbar-color:#cdc6b9 transparent}
+  .col::-webkit-scrollbar{width:8px}
+  .col::-webkit-scrollbar-thumb{background:#d3ccbf;border-radius:8px}
+  .left{border-right:1px solid var(--line);padding:16px 14px 22px}
+  .right{border-left:1px solid var(--line);padding:18px 18px 24px;background:linear-gradient(180deg,#fffefb 0%,#f4f1ea 100%)}
+  .stagewrap{position:relative;min-height:0;display:flex}
+  svg#map{width:100%;height:100%;display:block;cursor:crosshair}
+
+
+  .grouphead{display:flex;align-items:baseline;justify-content:space-between;margin:2px 4px 9px;
+    font-size:9.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--faint)}
+  .grouphead span:last-child{letter-spacing:0;text-transform:none;font-size:10.5px}
+  .row{
+    display:grid;grid-template-columns:10px 1fr auto;align-items:center;gap:9px;
+    padding:7px 8px;border-radius:7px;cursor:pointer;border:1px solid transparent;
+    transition:background .14s,border-color .14s,opacity .14s
+  }
+  .row:hover{border-color:var(--line2);background:#fffdf7}
+  .row.on{background:#ffffff;border-color:#b3aa99;box-shadow:0 1px 3px #0000000f}
+  .row.off{opacity:.4}
+  .chip{width:10px;height:22px;border-radius:3px}
+  .rname{font-size:12.5px;line-height:1.25;letter-spacing:.005em}
+  .rsub{font-size:10px;color:var(--faint);margin-top:2px}
+  .rval{font-size:11.5px;color:var(--muted);text-align:right}
+  .rbar{height:3px;border-radius:2px;margin-top:4px;background:#e6e1d7;overflow:hidden}
+  .rbar i{display:block;height:100%;border-radius:2px}
+
+  /* ── detail panel ─────────────────────── */
+  .dtitle{font-family:"Instrument Serif",Georgia,serif;font-size:27px;line-height:1.08;margin:10px 0 6px}
+  .swatchbar{height:5px;border-radius:3px;width:64px}
+  .dtag{display:inline-flex;align-items:center;gap:6px;font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--faint);
+    border:1px solid var(--line2);border-radius:999px;padding:4px 9px}
+  .darea{font-size:12.5px;color:var(--muted);line-height:1.5;margin:8px 0 16px;text-wrap:pretty}
+  .stat{border-top:1px solid var(--line);padding:11px 0 12px}
+  .stat:last-of-type{border-bottom:1px solid var(--line)}
+  .slabel{font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--faint);display:flex;justify-content:space-between;align-items:center}
+  .rank{font-size:9.5px;letter-spacing:.08em;color:var(--muted);background:#efece4;border-radius:4px;padding:2px 6px}
+  .sval{font-size:23px;margin-top:5px;letter-spacing:-.01em}
+  .sunit{font-size:12px;color:var(--muted);margin-left:4px;letter-spacing:0}
+  .track{height:5px;background:#e6e1d7;border-radius:3px;margin-top:8px;position:relative;overflow:hidden}
+  .track i{position:absolute;top:0;bottom:0;border-radius:3px}
+  .track.signed::before{content:"";position:absolute;top:-2px;bottom:-2px;left:50%;width:1px;background:#b3aa99}
+  .derived{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:14px}
+  .dcard{background:#fffdf8;border:1px solid var(--line);border-radius:9px;padding:10px 11px}
+  .dcard .k{font-size:9.5px;letter-spacing:.13em;text-transform:uppercase;color:var(--faint);line-height:1.3}
+  .dcard .v{font-size:17px;margin-top:6px}
+  .hint{font-size:11.5px;color:var(--faint);line-height:1.55;margin-top:14px;text-wrap:pretty}
+
+  /* ── bottom strip ─────────────────────── */
+  footer{border-top:1px solid var(--line);padding:12px 26px 14px;background:#fffefbcc}
+  .fhead{display:flex;align-items:center;gap:16px;margin-bottom:9px;flex-wrap:wrap}
+  .ftitle{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--faint)}
+  .fnote{font-size:10.5px;color:var(--muted);margin-left:auto;text-align:right;line-height:1.4;max-width:520px}
+  .bars{display:flex;align-items:flex-end;gap:6px;height:82px}
+  .bwrap{flex:1;display:flex;flex-direction:column;justify-content:flex-end;align-items:stretch;gap:5px;cursor:pointer;min-width:0}
+  .bwrap.off{opacity:.42}
+  .bval{font-size:10px;color:var(--muted);text-align:center;white-space:nowrap;overflow:hidden;text-overflow:clip}
+  .bar{border-radius:3px 3px 0 0;min-height:2px;transition:height .35s cubic-bezier(.4,0,.2,1),opacity .15s}
+  .bcap{font-size:9px;color:var(--faint);text-align:center;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;letter-spacing:.02em}
+  .bars{overflow:hidden}
+  .zeroline{height:1px;background:var(--line2);margin:0 0 5px}
+
+  /* ── tooltip ──────────────────────────── */
+  #tip{
+    position:fixed;pointer-events:none;z-index:60;opacity:0;transform:translate(-50%,-100%) translateY(-12px);
+    transition:opacity .12s;background:#fffefbf5;border:1px solid var(--line2);border-radius:10px;
+    padding:10px 12px;min-width:186px;box-shadow:0 14px 34px #1a223026;backdrop-filter:blur(6px)
+  }
+  #tip .tc{font-size:13px;display:flex;align-items:center;gap:7px;margin-bottom:2px}
+  #tip .td{font-size:10.5px;color:var(--faint);margin-bottom:7px}
+  #tip .tg{display:grid;grid-template-columns:auto auto;gap:2px 14px;font-size:11px}
+  #tip .tg span:nth-child(odd){color:var(--muted)}
+  #tip .tg span:nth-child(even){text-align:right}
+  .dot{width:8px;height:8px;border-radius:2px;flex:none}
+
+  .lad{stroke:#fdfcf9;stroke-width:.4;transition:opacity .18s}
+  .company-edge{fill:none;stroke-linejoin:round;pointer-events:none;transition:opacity .18s}
+  .maplabel{font-family:"IBM Plex Sans",sans-serif;font-size:9.5px;letter-spacing:.06em;text-anchor:middle;
+    pointer-events:none;paint-order:stroke;stroke:#fbf9f4;stroke-width:3px;stroke-linejoin:round;text-transform:uppercase}
+  #mapkey{display:flex;align-items:center;gap:16px;flex-wrap:wrap;padding-left:18px;
+    border-left:1px solid var(--line)}
+  #mapkey .krow{display:flex;align-items:center;gap:7px;font-size:10.5px;color:var(--muted);white-space:nowrap}
+  #mapkey .ksw{width:16px;height:10px;border-radius:2px;flex:none}
+  #mapkey .ramp{width:104px;height:8px;border-radius:2px;flex:none}
+  #mapkey .ends{display:flex;gap:8px;font-size:10px;color:var(--faint)}
+  #loading{position:absolute;inset:0;display:grid;place-content:center;gap:10px;justify-items:center;color:var(--faint);font-size:12px;letter-spacing:.14em;text-transform:uppercase}
+  .pulse{width:34px;height:34px;border:1px solid #c9c1b2;border-radius:50%;animation:p 1.4s ease-out infinite}
+  @keyframes p{0%{transform:scale(.6);opacity:1}100%{transform:scale(1.35);opacity:0}}
+  @media (max-width:1240px){ main{grid-template-columns:250px minmax(0,1fr) 300px} }
+
+  /* ── stacked single column: map → detail → company lists → ranked bars ── */
+  @media (max-width:900px){
+    html,body{height:auto}
+    body{overflow-x:hidden;overflow-y:auto}
+    .app{height:auto;min-height:100vh;grid-template-rows:auto auto auto}
+    header{padding:14px 16px 12px;gap:12px 18px}
+    .brand{min-width:0;flex:1 1 100%}
+    h1{font-size:26px}
+    .lens{margin-left:0;flex:1 1 100%}
+    .seg{flex-wrap:wrap}
+    .seg button{padding:7px 11px;font-size:11.5px}
+    main{grid-template-columns:minmax(0,1fr)}
+    .col{overflow:visible}
+    .stagewrap{order:1;height:56vh;min-height:320px}
+    .right{order:2;border-left:0;border-top:1px solid var(--line);padding:16px 16px 20px}
+    .left{order:3;border-right:0;border-top:1px solid var(--line);padding:14px 16px 22px}
+    footer{padding:12px 16px 16px}
+    #mapkey{padding-left:0;border-left:0}
+    .fnote{margin-left:0;text-align:left;max-width:none;flex:1 1 100%}
+    .bars{overflow-x:auto;overflow-y:hidden;-webkit-overflow-scrolling:touch;padding-bottom:4px}
+    .bwrap{flex:0 0 44px}
+    #tip{min-width:0;max-width:min(78vw,240px)}
+  }
+
+  @media (max-width:560px){
+    h1{font-size:23px}
+    .kicker{font-size:9.5px;letter-spacing:.15em}
+    .stagewrap{height:50vh;min-height:280px}
+    .dtitle{font-size:23px}
+    .derived{grid-template-columns:1fr}
+    .bwrap{flex:0 0 40px}
+  }
+</style>
+</head>
+<body>
+<div class="app">
+  <header>
+    <div class="brand">
+      <div class="kicker">Equity &amp; Markets Insight · Ofwat reporting, latest full year · 28 July 2026</div>
+      <h1>Who supplies <em>your water</em></h1>
+    </div>
+    <div class="lens">
+      <div class="lens-label">Colour lens</div>
+      <div class="seg" id="seg"></div>
+    </div>
+    <label class="toggle"><input type="checkbox" id="woc"><span>Water-only suppliers</span></label>
+    <label class="toggle"><input type="checkbox" id="labels" checked><span>Map labels</span></label>
+  </header>
+
+  <main>
+    <div class="col left">
+      <div class="grouphead"><span>Water &amp; sewerage companies</span><span id="metricUnit">accounts</span></div>
+      <div id="legendWasc"></div>
+      <div class="grouphead" style="margin-top:18px"><span>Water-only companies</span><span>overlay</span></div>
+      <div id="legendWoc"></div>
+    </div>
+
+    <div class="stagewrap">
+      <svg id="map"></svg>
+      <div id="loading"><div class="pulse"></div><div>Loading boundary data</div></div>
+    </div>
+
+    <div class="col right" id="detail"></div>
+  </main>
+
+  <footer>
+    <div class="fhead">
+      <div class="ftitle" id="fTitle">Ranked comparison</div>
+      <div id="mapkey"></div>
+      <div class="fnote">Service areas are approximated to local-authority boundaries — real appointment areas follow water-catchment lines. Boundary geometry: ONS / OSNI open data.</div>
+    </div>
+    <div class="zeroline"></div>
+    <div class="bars" id="bars"></div>
+  </footer>
+</div>
+<div id="tip"></div>
+
+<script>
+/* ────────────────────────────────────────────────────────────
+   1. Company data
+   ──────────────────────────────────────────────────────────── */
+const C = {
+  anglian:{name:"Anglian Water", type:"wasc", area:"East of England, East Midlands and Hartlepool", accounts:3009800, incidents:482, capex:1066.6, pat:76.0, color:"#c9a227"},
+  welsh:{name:"Dŵr Cymru Welsh Water", type:"wasc", area:"Most of Wales; adjoining English border areas", accounts:1462448, incidents:132, capex:629.0, pat:-108.4, color:"#c8481f"},
+  hafren:{name:"Hafren Dyfrdwy", type:"wasc", area:"North-east and parts of mid-Wales", accounts:98048, incidents:2, capex:24.3, pat:-5.1, color:"#7fa62a"},
+  northumbrian:{name:"Northumbrian Water", type:"wasc", area:"North East England; water-only in Essex and Suffolk", accounts:1996545, incidents:134, capex:545.3, pat:58.2, color:"#d97a1f"},
+  severntrent:{name:"Severn Trent Water", type:"wasc", area:"Midlands and adjoining areas", accounts:4191358, incidents:300, capex:1553.2, pat:196.2, color:"#0f9c8a"},
+  southwest:{name:"South West Water", type:"wasc", area:"South West; Bournemouth and Bristol water areas", accounts:1537889, incidents:209, capex:604.1, pat:-48.6, color:"#de3f4e"},
+  southern:{name:"Southern Water", type:"wasc", area:"Kent, Sussex, Hampshire and Isle of Wight", accounts:2017029, incidents:332, capex:803.4, pat:-137.8, color:"#8b5cd6"},
+  thames:{name:"Thames Water", type:"wasc", area:"London and the Thames Valley", accounts:5815218, incidents:523, capex:1826.0, pat:-585.5, color:"#d9418a"},
+  unitedutilities:{name:"United Utilities", type:"wasc", area:"North West England", accounts:3249559, incidents:376, capex:995.5, pat:205.6, color:"#b02a4c"},
+  wessex:{name:"Wessex Water", type:"wasc", area:"Bristol, Bath, Somerset, Dorset and Wiltshire", accounts:1262387, incidents:248, capex:411.8, pat:11.7, color:"#1f9ec4"},
+  yorkshire:{name:"Yorkshire Water", type:"wasc", area:"Yorkshire and adjoining areas", accounts:2305487, incidents:197, capex:787.8, pat:270.7, color:"#5b4bd1"},
+  scottish:{name:"Scottish Water", type:"nation", area:"All of Scotland — publicly owned", accounts:2830297, incidents:1434, capex:778.0, pat:35.6, color:"#2b64d9"},
+  niwater:{name:"Northern Ireland Water", type:"nation", area:"All of Northern Ireland — government owned", accounts:930000, incidents:79, capex:380.5, pat:91.0, color:"#1f9463"},
+
+  affinity:{name:"Affinity Water", type:"woc", area:"Three supply areas across South East England", accounts:1456093, incidents:null, capex:205.9, pat:-16.8, color:"#3fa9d6"},
+  portsmouth:{name:"Portsmouth Water", type:"woc", area:"South-east Hampshire and west Sussex", accounts:303974, incidents:null, capex:78.9, pat:-5.6, color:"#d15f97"},
+  southeast:{name:"South East Water", type:"woc", area:"Kent, Sussex, Surrey, Hampshire and Berkshire", accounts:918950, incidents:null, capex:142.6, pat:-18.6, color:"#b8961a"},
+  southstaffs:{name:"South Staffs Water", type:"woc", area:"South Staffordshire / West Midlands and Cambridge", accounts:677301, incidents:null, capex:55.0, pat:4.3, color:"#5f9a35"},
+  ses:{name:"SES Water", type:"woc", area:"East Surrey, west Sussex and the south-London fringe", accounts:284208, incidents:null, capex:20.3, pat:-5.2, color:"#cf7433"}
+};
+const IDS = Object.keys(C);
+IDS.forEach(id => C[id].id = id);
+
+/* helper: expand code ranges like E07000026-031 */
+const seq = (prefix, from, to) => d3.range(from, to+1).map(n => prefix + String(n).padStart(6,"0"));
+
+/* ── primary layer: sewerage / national provider per local authority ── */
+const WASC = {
+  northumbrian: ["E06000001","E06000002","E06000003","E06000004","E06000005","E06000047","E06000057",
+                 "E08000021","E08000022","E08000023","E08000024","E08000037"],
+  yorkshire: ["E06000010","E06000011","E06000014",...seq("E07",163,169),
+              "E08000016","E08000017","E08000018","E08000019","E08000032","E08000033","E08000034","E08000035","E08000036"],
+  unitedutilities: ["E06000006","E06000007","E06000008","E06000009","E06000049","E06000050","E07000037",
+                    ...seq("E07",26,31),...seq("E07",117,128),...seq("E08",1,15)],
+  severntrent: ["E06000015","E06000016","E06000018","E06000019","E06000020","E06000021","E06000051",
+                ...seq("E07",32,36),"E07000038","E07000039",...seq("E07",78,83),...seq("E07",129,135),
+                ...seq("E07",170,176),...seq("E07",192,199),...seq("E07",218,222),...seq("E07",234,239),
+                ...seq("E08",25,31)],
+  anglian: ["E06000012","E06000013","E06000017","E06000031","E06000032","E06000033","E06000034","E06000042",
+            "E06000055","E06000056",...seq("E07",8,12),...seq("E07",66,77),...seq("E07",136,149),
+            ...seq("E07",150,156),...seq("E07",200,206),"E07000099","E07000242","E07000243"],
+  thames: [...seq("E09",1,33),"E06000030","E06000036","E06000037","E06000038","E06000039","E06000040","E06000041",
+           ...seq("E07",4,7),...seq("E07",177,181),...seq("E07",207,217),
+           "E07000095","E07000096","E07000098","E07000102","E07000103","E07000240","E07000241",
+           "E07000107","E07000109"],
+  southern: ["E06000035","E06000043","E06000044","E06000045","E06000046",...seq("E07",84,94),
+             ...seq("E07",61,65),...seq("E07",223,229),
+             "E07000105","E07000106","E07000108","E07000110","E07000111","E07000112","E07000113","E07000114","E07000115","E07000116"],
+  wessex: ["E06000022","E06000023","E06000024","E06000025","E06000028","E06000029","E06000054",
+           ...seq("E07",48,53),...seq("E07",187,191)],
+  southwest: ["E06000026","E06000027","E06000052","E06000053",...seq("E07",40,47)],
+  hafren: ["W06000006","W06000023"]
+};
+/* everything else: W06 → Welsh Water, S12 → Scottish Water, N → NI Water */
+
+/* ── overlay layer: water-only supply areas (approximate) ── */
+const WOC = {
+  affinity: ["E07000096","E07000102","E07000103","E07000240","E07000241","E07000098","E07000095","E07000099",
+             "E07000242","E07000243","E06000032","E06000055","E06000056",...seq("E07",4,7),
+             "E09000003","E09000005","E09000015","E09000017","E09000009","E09000010",
+             "E07000076","E07000112","E07000108"],
+  southeast: ["E07000105","E07000106","E07000110","E07000111","E07000113","E07000114","E07000115","E07000116",
+              "E07000065","E07000061","E07000063","E07000228","E07000226","E07000227",
+              "E07000209","E07000216","E07000207","E07000210","E07000217","E07000214","E07000212","E07000213",
+              "E06000036","E06000041","E07000089","E07000092","E07000085"],
+  portsmouth: ["E06000044","E07000090","E07000087","E07000088","E07000225","E07000224"],
+  southstaffs: ["E07000196","E07000192","E07000194","E07000199","E08000030","E08000031","E08000027","E08000028",
+                "E07000008","E07000012"],
+  ses: ["E07000215","E07000211","E07000208","E09000008","E09000029"],
+  northumbrian: ["E06000033","E06000034","E07000069","E07000075","E07000066","E07000068","E07000070","E07000074",
+                 "E07000067","E07000145","E07000206"],
+  southwest: ["E06000023","E06000022","E06000024","E06000025","E06000028","E06000029","E07000048","E07000049"],
+  anglian: ["E06000001"]
+};
+
+/* ────────────────────────────────────────────────────────────
+   2. Metrics
+   ──────────────────────────────────────────────────────────── */
+const fmtN   = d3.format(",");
+const fmt1   = d3.format(",.1f");
+const compact = v => Math.abs(v) >= 1e6 ? d3.format(".2f")(v/1e6)+"m" : Math.abs(v) >= 1e4 ? d3.format(".0f")(v/1e3)+"k" : fmtN(v);
+const METRICS = [
+  {key:"areas",      label:"Service areas", unit:"", short:"Company"},
+  {key:"incidents",  label:"Incidents",     unit:"incidents", short:"Incidents",
+   fmt:v=>v==null?"n/a":fmtN(v), title:"Reported incidents"},
+  {key:"capex",      label:"Capex",         unit:"£m capex",  short:"Capex £m",
+   fmt:v=>"£"+fmt1(v)+"m", title:"Capital expenditure"},
+  {key:"pat",        label:"Profit after tax", unit:"£m PAT", short:"PAT £m", signed:true,
+   fmt:v=>(v<0?"−£":"£")+fmt1(Math.abs(v))+"m", title:"Profit after tax"},
+  {key:"accounts",   label:"Customers",     unit:"accounts",  short:"Accounts",
+   fmt:v=>fmtN(v), title:"Customer accounts / premises"}
+];
+const M = k => METRICS.find(m => m.key === k);
+
+let state = { metric:"areas", showWoc:false, showLabels:true, hover:null, pinned:null };
+const active = () => state.hover || state.pinned;
+
+/* ────────────────────────────────────────────────────────────
+   3. Map
+   ──────────────────────────────────────────────────────────── */
+const svg = d3.select("#map");
+let features = [], edges = [], pathGen, ladSel, wocSel, edgeSel, labelSel;
+
+const primaryFor = code => {
+  for (const [id, list] of Object.entries(WASC)) if (list.includes(code)) return id;
+  if (code[0] === "W") return "welsh";
+  if (code[0] === "S") return "scottish";
+  if (code[0] === "N") return "niwater";
+  return null;
+};
+const wocFor = code => IDS.filter(id => WOC[id] && WOC[id].includes(code));
+
+Promise.all([
+  d3.json("https://cdn.jsdelivr.net/gh/martinjc/UK-GeoJSON@master/json/administrative/gb/topo_lad.json"),
+  d3.json("https://cdn.jsdelivr.net/gh/martinjc/UK-GeoJSON@master/json/administrative/ni/topo_lgd.json")
+]).then(([gb, ni]) => {
+  const gbF = topojson.feature(gb, gb.objects.lad).features.map(f => ({
+    code:f.properties.LAD13CD, name:f.properties.LAD13NM, geo:f
+  }));
+  const niF = topojson.feature(ni, ni.objects.lgd).features.map(f => ({
+    code:"N"+f.properties.LGDCode, name:f.properties.LGDNAME, geo:f
+  }));
+  features = [...gbF, ...niF].map(d => ({...d, co:primaryFor(d.code), woc:wocFor(d.code)}));
+
+  const missing = features.filter(d => !d.co).map(d => d.code+" "+d.name);
+  if (missing.length) console.warn("unmapped:", missing);
+
+  /* merged company outlines (dissolved local-authority borders) */
+  const byCo = d3.group(features.filter(d=>d.co), d=>d.co);
+  const gbIdx = new Map(gb.objects.lad.geometries.map(g => [g.properties.LAD13CD, g]));
+  const niIdx = new Map(ni.objects.lgd.geometries.map(g => ["N"+g.properties.LGDCode, g]));
+  edges = [...byCo].map(([id, rows]) => {
+    const parts = [];
+    const gbG = rows.map(r=>gbIdx.get(r.code)).filter(Boolean);
+    const niG = rows.map(r=>niIdx.get(r.code)).filter(Boolean);
+    if (gbG.length) parts.push(topojson.merge(gb, gbG));
+    if (niG.length) parts.push(topojson.merge(ni, niG));
+    const coords = parts.flatMap(p => p.coordinates);
+    return {id, geo:{type:"MultiPolygon", coordinates:coords}};
+  });
+
+  render();
+  d3.select("#loading").style("display","none");
+  const relayout = () => { layout(); paint(); };
+  window.addEventListener("resize", relayout);
+  setTimeout(relayout, 0);
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(relayout);
+  new ResizeObserver(relayout).observe(document.querySelector(".stagewrap"));
+}).catch(e => {
+  d3.select("#loading").html('<div style="max-width:280px;text-align:center;line-height:1.6">Boundary data could not be loaded.<br>'+e+'</div>');
+});
+
+function render(){
+  const defs = svg.append("defs");
+  /* hatch patterns for water-only overlay */
+  IDS.filter(id => WOC[id]).forEach(id => {
+    const p = defs.append("pattern").attr("id","h-"+id).attr("width",6).attr("height",6)
+      .attr("patternUnits","userSpaceOnUse").attr("patternTransform","rotate(45)");
+    p.append("rect").attr("width",6).attr("height",6).attr("fill","transparent");
+    p.append("line").attr("x1",0).attr("y1",0).attr("x2",0).attr("y2",6)
+      .attr("stroke", C[id].color).attr("stroke-width",2.6).attr("opacity",.9);
+  });
+  const gLad   = svg.append("g").attr("class","g-lad");
+  const gWoc   = svg.append("g").attr("class","g-woc");
+  const gEdge  = svg.append("g").attr("class","g-edge");
+  const gLabel = svg.append("g").attr("class","g-label");
+
+  ladSel = gLad.selectAll("path").data(features).join("path").attr("class","lad")
+    .on("pointerenter", (ev,d) => { state.hover = d.co; showTip(ev,d); paint(); })
+    .on("pointermove", (ev,d) => moveTip(ev,d))
+    .on("pointerleave", () => { state.hover = null; hideTip(); paint(); })
+    .on("click", (ev,d) => { state.pinned = (state.pinned===d.co ? null : d.co); paint(); });
+
+  wocSel = gWoc.selectAll("path").data(features.filter(d=>d.woc.length)).join("path")
+    .attr("fill", d => "url(#h-"+d.woc[0]+")").attr("stroke","none").attr("pointer-events","none");
+
+  edgeSel = gEdge.selectAll("path").data(edges).join("path").attr("class","company-edge");
+  labelSel = gLabel.selectAll("text").data(edges).join("text").attr("class","maplabel")
+    .text(d => C[d.id].name.replace(" Water","").replace("Dŵr Cymru ","").toUpperCase());
+
+  svg.on("pointerleave", () => { state.hover = null; hideTip(); paint(); });
+  layout(); buildSeg(); paint();
+}
+
+function layout(){
+  const node = svg.node(), w = node.clientWidth, h = node.clientHeight;
+  svg.attr("viewBox", [0,0,w,h]);
+  const proj = d3.geoConicConformal().parallels([50,60]).rotate([4.4,0])
+    .fitExtent([[26,18],[w-26,h-18]], {type:"FeatureCollection", features:features.map(d=>d.geo)});
+  pathGen = d3.geoPath(proj);
+  ladSel.attr("d", d => pathGen(d.geo));
+  wocSel.attr("d", d => pathGen(d.geo));
+  edgeSel.attr("d", d => pathGen(d.geo));
+  /* label anchor = area-weighted mean of the company's member local-authority centroids */
+  const placed = edges.map(d => {
+    let sx = 0, sy = 0, sw = 0, tot = 0;
+    features.filter(f => f.co === d.id).forEach(f => {
+      const c = pathGen.centroid(f.geo);
+      let A = Math.abs(pathGen.area(f.geo));
+      if (!isFinite(A)) A = 0;
+      if (!isFinite(c[0]) || !isFinite(c[1])) return;
+      const wt = Math.max(A, 1);
+      sx += c[0]*wt; sy += c[1]*wt; sw += wt; tot += A;
+    });
+    const x = sw ? sx/sw : w/2, y = sw ? sy/sw : h/2;
+    return {d, a:tot,
+      x: Math.min(Math.max(x, 46), w-46),
+      y: Math.min(Math.max(y, 14), h-8)};
+  }).sort((p,q) => q.a - p.a);
+  /* keep the biggest region's label; hide any that would collide with one already kept */
+  const nodeById = new Map();
+  labelSel.each(function(d){ nodeById.set(d.id, this); });
+  const kept = [];
+  placed.forEach(p => {
+    const n = nodeById.get(p.d.id);
+    p.w = (n.getComputedTextLength ? n.getComputedTextLength() : 60) + 6;
+    p.hide = kept.some(q => Math.abs(q.x-p.x) < (p.w+q.w)/2 && Math.abs(q.y-p.y) < 13);
+    if (!p.hide) kept.push(p);
+  });
+  const byId = new Map(placed.map(p => [p.d.id, p]));
+  labelSel.each(function(d){
+    const p = byId.get(d.id);
+    d3.select(this).attr("x", p.x).attr("y", p.y).attr("data-small", p.hide ? 1 : 0);
+  });
+}
+
+/* ────────────────────────────────────────────────────────────
+   4. Paint — one pass keeps map, legend, panel, bars in sync
+   ──────────────────────────────────────────────────────────── */
+function paint(){
+  const m = M(state.metric), a = active();
+  const vals = IDS.filter(id => C[id].type!=="woc" && C[id][m.key]!=null).map(id => C[id][m.key]);
+  const scale = m.key==="areas" ? null
+    : m.signed ? d3.scaleLinear().domain([0, d3.max(vals.map(Math.abs))]).range([.30,1])
+               : d3.scaleSqrt().domain([0, d3.max(vals)]).range([.26,1]);
+
+  const wash = c => d3.interpolateLab(d3.color(c).formatHex(), "#efece5")(.74);
+  const fill = d => {
+    if (!d.co) return "#e7e3da";
+    const col = d3.color(C[d.co].color);
+    if (m.key==="areas") return a && d.co!==a ? wash(col) : col.formatHex();
+    const v = C[d.co][m.key];
+    if (v==null) return "#eae6de";
+    const t = scale(Math.abs(v));
+    const base = d3.color(m.signed ? (v<0 ? "#d3384a" : C[d.co].color) : C[d.co].color);
+    const shade = d3.interpolateLab("#f1eee7", base)(t);
+    return a && d.co!==a ? wash(shade) : shade;
+  };
+
+  ladSel.attr("fill", fill)
+    .attr("opacity", 1)
+    .attr("stroke", d => a && d.co===a ? "#00000030" : "#fdfcf9");
+
+  wocSel.attr("opacity", d => {
+    if (!state.showWoc) return 0;
+    if (!a) return .8;
+    return d.woc.includes(a) ? 1 : (d.co===a ? .5 : .12);
+  });
+
+  edgeSel
+    .attr("stroke", d => a===d.id ? "#111a26" : d3.color(C[d.id].color).darker(0.55).formatHex())
+    .attr("stroke-width", d => a===d.id ? 2.1 : 1)
+    .attr("opacity", d => !a ? .5 : (a===d.id ? 1 : .16));
+
+  labelSel
+    .attr("fill", d => a===d.id ? "#111a26" : "#414c5a")
+    .attr("opacity", function(d){
+      if (!state.showLabels) return 0;
+      if (a) return a===d.id ? 1 : .16;
+      return this.getAttribute("data-small")==="1" ? 0 : .88;
+    })
+    .attr("font-size", d => a===d.id ? 11 : 9.5);
+
+  d3.select("#seg").selectAll("button").attr("aria-pressed", d => d.key===state.metric);
+  legend(); detail(); bars(); mapkey(scale, m);
+  d3.select("#metricUnit").text(m.key==="areas" ? "accounts" : m.short);
+}
+
+/* ── map key ── */
+function mapkey(scale, m){
+  const el = d3.select("#mapkey");
+  const hatch = state.showWoc
+    ? `<div class="krow"><span class="ksw" style="background:repeating-linear-gradient(135deg,#3fa9d6 0 3px,#ffffff 3px 6px)"></span>Water-only supply area</div>` : "";
+  if (m.key==="areas"){
+    el.html(`<div class="krow"><span class="ksw" style="background:linear-gradient(90deg,#d9418a,#0f9c8a,#c9a227)"></span>Map fill = appointed company</div>${hatch}`);
+    return;
+  }
+  const vals = IDS.filter(id => C[id].type!=="woc" && C[id][m.key]!=null).map(id => C[id][m.key]);
+  const lo = m.signed ? d3.min(vals) : 0, hi = m.signed ? d3.max(vals.map(Math.abs)) : d3.max(vals);
+  const ramp = m.signed
+    ? "linear-gradient(90deg,#d3384a,#f1eee7,#0f8f68)"
+    : "linear-gradient(90deg,#f1eee7,#2b64d9)";
+  el.html(`<div class="krow"><span class="ramp" style="background:${ramp}"></span>
+      <span class="ends"><span>${m.fmt(m.signed ? -hi : lo)}</span><span>→</span><span>${m.fmt(hi)}</span></span></div>
+    <div class="krow">Hue keeps the company; depth shows the value.</div>${hatch}`);
+}
+
+/* ── segmented control ── */
+function buildSeg(){
+  d3.select("#seg").selectAll("button").data(METRICS).join("button")
+    .text(d=>d.label)
+    .attr("aria-pressed", d => d.key===state.metric)
+    .on("click", (e,d) => { state.metric = d.key; paint(); });
+  d3.select("#woc").on("change", function(){ state.showWoc = this.checked; paint(); });
+  d3.select("#labels").on("change", function(){ state.showLabels = this.checked; paint(); });
+}
+
+/* ── legend lists ── */
+function legend(){
+  const m = M(state.metric), a = active();
+  const metricKey = m.key==="areas" ? "accounts" : m.key;
+  const mm = M(metricKey);
+  const row = (sel, ids) => {
+    const max = d3.max(ids.map(id => Math.abs(C[id][metricKey] ?? 0))) || 1;
+    const items = ids.slice().sort((x,y) => (Math.abs(C[y][metricKey]??-1)) - (Math.abs(C[x][metricKey]??-1)));
+    const s = d3.select(sel).selectAll(".row").data(items, d=>d).join(enter => {
+      const r = enter.append("div").attr("class","row");
+      r.append("div").attr("class","chip");
+      const t = r.append("div");
+      t.append("div").attr("class","rname");
+      t.append("div").attr("class","rbar").append("i");
+      r.append("div").attr("class","rval");
+      return r;
+    });
+    s.attr("class", d => "row" + (a===d ? " on" : (a ? " off" : "")))
+      .on("pointerenter", (e,d) => { state.hover = d; paint(); })
+      .on("pointerleave", () => { state.hover = null; paint(); })
+      .on("click", (e,d) => { state.pinned = state.pinned===d ? null : d; paint(); });
+    s.select(".chip").style("background", d => C[d].type==="woc"
+      ? `repeating-linear-gradient(135deg,${C[d].color} 0 3px,#ffffff 3px 6px)` : C[d].color);
+    s.select(".rname").text(d => C[d].name);
+    s.select(".rval").attr("class","rval num").text(d => (mm.fmt||fmtN)(C[d][metricKey]));
+    s.select(".rbar i")
+      .style("width", d => (Math.abs(C[d][metricKey]??0)/max*100)+"%")
+      .style("background", d => (metricKey==="pat" && C[d].pat<0) ? "var(--neg)" : C[d].color);
+  };
+  row("#legendWasc", IDS.filter(id => C[id].type!=="woc"));
+  row("#legendWoc",  IDS.filter(id => C[id].type==="woc"));
+}
+
+/* ── detail panel ── */
+function ranks(key){
+  const pool = IDS.filter(id => C[id][key]!=null);
+  const sorted = pool.slice().sort((x,y) => C[y][key]-C[x][key]);
+  return {rank:id => sorted.indexOf(id)+1, n:pool.length,
+          max:d3.max(pool.map(id=>Math.abs(C[id][key])))};
+}
+function detail(){
+  const el = d3.select("#detail"), a = active();
+  if (!a){
+    const tot = k => d3.sum(IDS.map(id => C[id][k] || 0));
+    el.html(`
+      <div class="dtag">Sector overview</div>
+      <div class="dtitle">18 companies,<br>one island's plumbing</div>
+      <div class="darea">Eleven water &amp; sewerage companies and five water-only suppliers cover England and Wales; Scotland and Northern Ireland are served by publicly owned utilities.</div>
+      ${[["Customer accounts / premises", fmtN(tot("accounts"))],
+         ["Reported incidents", fmtN(tot("incidents"))],
+         ["Capital expenditure", "£"+fmt1(tot("capex"))+"m"],
+         ["Combined profit after tax", (tot("pat")<0?"−£":"£")+fmt1(Math.abs(tot("pat")))+"m"]]
+        .map(([k,v]) => `<div class="stat"><div class="slabel">${k}</div><div class="sval num">${v}</div></div>`).join("")}
+      <div class="hint">Hover any region on the map — or a company in the list — to break it down. Click to pin it. Switch the colour lens to shade the map by a metric instead of by company.</div>`);
+    return;
+  }
+  const c = C[a];
+  const stat = (key) => {
+    const mm = M(key), v = c[key], R = ranks(key);
+    if (v==null) return `<div class="stat"><div class="slabel">${mm.title}</div>
+      <div class="sval" style="color:var(--faint);font-size:15px">Not separately reported</div></div>`;
+    const R2 = R, w = Math.abs(v)/R2.max*100;
+    const signed = mm.signed;
+    const barStyle = signed
+      ? (v<0 ? `right:50%;width:${w/2}%;background:var(--neg)` : `left:50%;width:${w/2}%;background:var(--pos)`)
+      : `left:0;width:${w}%;background:${c.color}`;
+    return `<div class="stat">
+      <div class="slabel"><span>${mm.title}</span><span class="rank num">#${R2.rank(a)} of ${R2.n}</span></div>
+      <div class="sval num" style="${signed?`color:${v<0?"var(--neg)":"var(--pos)"}`:""}">${mm.fmt(v)}</div>
+      <div class="track ${signed?"signed":""}"><i style="${barStyle}"></i></div>
+    </div>`;
+  };
+  const perAcc = c.incidents!=null ? (c.incidents/c.accounts*100000) : null;
+  el.html(`
+    <div class="swatchbar" style="background:${c.type==="woc"
+      ? `repeating-linear-gradient(135deg,${c.color} 0 4px,#ffffff 4px 8px)` : c.color}"></div>
+    <div class="dtitle">${c.name}</div>
+    <div class="dtag">${c.type==="woc"?"Water supply only":c.type==="nation"?"Publicly owned utility":"Water &amp; sewerage"}</div>
+    <div class="darea">${c.area}</div>
+    ${stat("accounts")}${stat("incidents")}${stat("capex")}${stat("pat")}
+    <div class="derived">
+      <div class="dcard"><div class="k">Incidents per 100k accounts</div>
+        <div class="v num">${perAcc==null?"—":fmt1(perAcc)}</div></div>
+      <div class="dcard"><div class="k">Capex per account</div>
+        <div class="v num">£${fmt1(c.capex*1e6/c.accounts)}</div></div>
+    </div>
+    <div class="hint">${state.pinned===a
+      ? "Pinned — click again to release."
+      : "Click to pin this company."}${c.type==="woc" ? " Water-only suppliers share their footprint with the sewerage company beneath; switch on the overlay to see it hatched." : ""}</div>`);
+}
+
+/* ── ranked bars ── */
+function bars(){
+  const m = M(state.metric), key = m.key==="areas" ? "accounts" : m.key, mm = M(key);
+  const a = active();
+  const pool = IDS.filter(id => C[id][key]!=null)
+    .sort((x,y) => C[y][key]-C[x][key]);
+  const max = d3.max(pool.map(id => Math.abs(C[id][key])));
+  d3.select("#fTitle").text(mm.title + " — all companies ranked");
+  const s = d3.select("#bars").selectAll(".bwrap").data(pool, d=>d).join(enter => {
+    const w = enter.append("div").attr("class","bwrap");
+    w.append("div").attr("class","bval num");
+    w.append("div").attr("class","bar");
+    w.append("div").attr("class","bcap");
+    return w;
+  });
+  s.order()
+    .attr("class", d => "bwrap" + (a && a!==d ? " off" : ""))
+    .on("pointerenter", (e,d) => { state.hover=d; paint(); })
+    .on("pointerleave", () => { state.hover=null; paint(); })
+    .on("click", (e,d) => { state.pinned = state.pinned===d ? null : d; paint(); });
+  s.select(".bval").text(d => key==="accounts" ? compact(C[d][key]) : mm.fmt(C[d][key]));
+  s.select(".bar")
+    .style("height", d => Math.max(2, Math.abs(C[d][key])/max*48)+"px")
+    .style("background", d => (key==="pat" && C[d].pat<0)
+      ? `repeating-linear-gradient(135deg,var(--neg) 0 3px,#f9dfe3 3px 6px)` : C[d].color)
+    .style("opacity", d => a===d ? 1 : .82);
+  s.select(".bcap").text(d => C[d].name.replace("Dŵr Cymru ","").replace(" Water",""));
+}
+
+/* ── tooltip ── */
+const tip = d3.select("#tip");
+function showTip(ev,d){ tipHtml(d); moveTip(ev,d); tip.style("opacity",1); }
+function moveTip(ev){
+  /* the box is centred on the cursor and sits above it — keep it inside the viewport */
+  const n = tip.node(), w = n.offsetWidth || 200, h = n.offsetHeight || 90;
+  const x = Math.min(Math.max(ev.clientX, w/2 + 8), window.innerWidth - w/2 - 8);
+  const y = Math.max(ev.clientY, h + 16);
+  tip.style("left", x+"px").style("top", y+"px");
+}
+function hideTip(){ tip.style("opacity",0); }
+function tipHtml(d){
+  if (!d.co){ tip.html("Not mapped"); return; }
+  const c = C[d.co], m = M(state.metric);
+  const wocs = d.woc.filter(id => id!==d.co);
+  tip.html(`
+    <div class="tc"><span class="dot" style="background:${c.color}"></span>${c.name}</div>
+    <div class="td">${d.name}</div>
+    <div class="tg">
+      <span>Accounts</span><span class="num">${fmtN(c.accounts)}</span>
+      <span>Incidents</span><span class="num">${c.incidents==null?"n/a":fmtN(c.incidents)}</span>
+      <span>Capex</span><span class="num">£${fmt1(c.capex)}m</span>
+      <span>PAT</span><span class="num" style="color:${c.pat<0?"var(--neg)":"var(--pos)"}">${(c.pat<0?"−£":"£")+fmt1(Math.abs(c.pat))}m</span>
+    </div>
+    ${wocs.length ? `<div class="td" style="margin:8px 0 0">Water supplied by ${wocs.map(id=>C[id].name).join(", ")}</div>` : ""}`);
+}
+document.addEventListener("keydown", e => { if (e.key==="Escape"){ state.pinned=null; paint(); } });
+</script>
+</body>
+</html>
