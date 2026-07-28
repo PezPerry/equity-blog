@@ -1,5 +1,211 @@
 [
   {
+    "company": "UNITE Group PLC",
+    "ticker": "UTG",
+    "publish_date": "28 July 2026",
+    "date_iso": "2026-07-28",
+    "time_period": "H1 to 30 June 2026",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Unite Group PLC</strong> posted an <strong>IFRS loss before tax of £417.1m</strong> for <strong>H1 2026</strong> (H1 2025: <strong>£185.9m profit</strong>), principally driven by a <strong>6.4%</strong> like-for-like fall in property values.</li><li><strong>Adjusted EPS 27.1p</strong>, down <strong>8%</strong> (H1 2025: <strong>29.5p</strong>); adjusted earnings <strong>£142.0m</strong>, down <strong>2%</strong> (H1 2025: <strong>£144.2m</strong>), reflecting higher interest costs, 2025 disposals and Empiric dual-running costs.</li><li><strong>EPRA NTA per share down 9% to 865p</strong> (Dec 2025: <strong>955p</strong>); total accounting return of <strong>(7.5%)</strong> in the half (H1 2025: <strong>4.0%</strong>).</li><li>Reiterated <strong>FY2026 adjusted EPS guidance of 41.5-43.0p</strong>; Unite Students <strong>89% reserved</strong> for 2026/27 (2025/26 LfL: 87%), Hello Student <strong>77% reserved</strong> (2025/26 LfL: 68%).</li><li>Portfolio review to refocus on c.20 cities and <strong>55,000-60,000 beds</strong>; <strong>15,000-20,000 beds</strong> identified for sale, with <strong>£190m</strong> (<strong>Unite share £130m</strong>) of disposals completed at a <strong>4.8% NOI yield</strong> and <strong>£300-400m</strong> targeted for 2026.</li><li>Pro forma <strong>net debt:EBITDA 7.5x</strong> and <strong>LTV 36%</strong> (Dec 2025: 6.0x and 27%); cost of debt expected to rise to <strong>4.3%</strong> in 2026 (2025: 3.9%); <strong>c.£165m</strong> reinvested via share buyback.</li></ul>",
+    "source_format": "html",
+    "headline": "Unite reported an IFRS loss before tax of £417.1m on a 6.4% property revaluation decline, but adjusted EPS of 27.1p was in line and FY2026 guidance was reaffirmed.",
+    "priority": "high",
+    "priority_reason": "Half-year results from a FTSE-listed REIT, including earnings, a large IFRS loss on revaluation and reaffirmed full-year guidance.",
+    "figures": [
+      {
+        "metric": "IFRS (loss)/profit before tax",
+        "current": "£(417.1)m",
+        "prior": "£185.9m",
+        "change": "not stated",
+        "basis": "IFRS",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Adjusted earnings",
+        "current": "£142.0m",
+        "prior": "£144.2m",
+        "change": "-2%",
+        "basis": "adjusted (excludes SaaS costs)",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Adjusted EPS",
+        "current": "27.1p",
+        "prior": "29.5p",
+        "change": "-8%",
+        "basis": "adjusted",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "IFRS diluted EPS",
+        "current": "(79.7p)",
+        "prior": "37.9p",
+        "change": "not stated",
+        "basis": "IFRS",
+        "note": "reflects revaluation decline"
+      },
+      {
+        "metric": "EPRA NTA per share",
+        "current": "865p",
+        "prior": "955p",
+        "change": "-9%",
+        "basis": "EPRA",
+        "note": "vs 31 December 2025"
+      },
+      {
+        "metric": "IFRS NAV per share",
+        "current": "879p",
+        "prior": "966p",
+        "change": "-9%",
+        "basis": "IFRS",
+        "note": "vs 31 December 2025"
+      },
+      {
+        "metric": "Total accounting return",
+        "current": "(7.5%)",
+        "prior": "4.0%",
+        "change": "not stated",
+        "basis": "EPRA",
+        "note": "H1 period"
+      },
+      {
+        "metric": "Portfolio valuation",
+        "current": "£9.7bn (Unite share £6.7bn)",
+        "prior": "not stated",
+        "change": "-6.4%",
+        "basis": "like-for-like, Unite share",
+        "note": "at 30 June 2026"
+      },
+      {
+        "metric": "Pro forma net debt : EBITDA",
+        "current": "7.5x",
+        "prior": "6.0x",
+        "change": "not stated",
+        "basis": "pro forma, 12-month look-back",
+        "note": "vs 31 December 2025"
+      },
+      {
+        "metric": "LTV",
+        "current": "36%",
+        "prior": "27%",
+        "change": "not stated",
+        "basis": "not stated",
+        "note": "vs 31 December 2025"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "FY2026 adjusted EPS of 41.5-43.0p",
+      "current": "FY2026 adjusted EPS of 41.5-43.0p; £300-400m (Unite share) of disposals in 2026; 2026/27 like-for-like income growth of 0-2%, occupancy 94-96% and rental growth 1-2%",
+      "commentary": "Full-year adjusted EPS guidance was reiterated, with management saying first-half earnings were in line with expectations and reservations for the 2026/27 academic year up year-on-year. Operational guidance for 2026/27 implies slower rental growth (1-2% vs 4.0% in 2025/26) and slightly lower occupancy."
+    },
+    "explainer": "Unite is a student-accommodation REIT, so its results split into two very different stories. The 'adjusted' earnings measure — which strips out one-off costs and follows EPRA property-industry conventions — held up: adjusted EPS of 27.1p was only 8% lower, mainly because January's Empiric acquisition added both interest costs and extra shares before the promised cost savings arrive. On this operating basis the business is performing in line with plan.\n\nThe headline £417.1m IFRS loss is almost entirely a paper revaluation, not a cash loss. Rising property yields (investors demanding a higher return, which pushes valuations down) cut the value of Unite's portfolio by 6.4% on a like-for-like basis, and that write-down flows straight through the IFRS accounts. The same effect drove net asset value (EPRA NTA) down 9% to 865p and produced a negative total accounting return of 7.5% for the half.\n\nGuidance was maintained rather than changed. Unite reaffirmed its FY2026 adjusted EPS target of 41.5-43.0p and its £300-400m disposal programme. Note that 2026/27 operational guidance points to a clear slowdown: rental growth of just 1-2% against 4.0% achieved in 2025/26, and occupancy of 94-96% versus 95.2%, reflecting a 'less certain' market even as reservations run ahead of last year.\n\nThe strategic message is a portfolio reshaping: selling 15,000-20,000 beds to concentrate on around 20 cities and the UK's strongest universities, funding development and buybacks. Higher leverage (net debt:EBITDA up to 7.5x, LTV up to 36%) largely reflects the lower asset values and the Empiric deal, and is expected to ease as disposals complete.",
+    "source_url": "https://uk.advfn.com/stock-market/london/unite-UTG/share-news/Unite-Group-PLC-The-Interim-Results-for-Six-Months/98990698",
+    "related_news_url": "https://news.google.com/search?q=%22Unite%20Group%20PLC%22",
+    "added_at": "2026-07-28T07:44:43.035587"
+  },
+  {
+    "company": "Unilever PLC",
+    "ticker": "ULVR",
+    "publish_date": "28 July 2026",
+    "date_iso": "2026-07-28",
+    "time_period": "H1 to 30 June 2026",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>H1 underlying sales growth of 4.8%</strong> (<strong>4.2% volume</strong>, <strong>0.6% price</strong>), accelerating to <strong>5.8% USG</strong> in Q2 with <strong>5.5% volume</strong> — described as the best volume quarter in over a decade.</li><li>Guidance <strong>upgraded</strong>: full-year 2026 USG now expected within the <strong>4%–6%</strong> multi-year range with around <strong>3% volume</strong>, and a modest improvement in underlying operating margin versus <strong>20.0%</strong> in 2025.</li><li>Turnover <strong>€25.6bn</strong>, up <strong>0.5%</strong>, as operations and net acquisitions offset a <strong>(4.9)%</strong> currency drag; underlying operating margin <strong>20.3%</strong>, up <strong>10bps</strong>; underlying EPS up <strong>2.4%</strong> but diluted EPS down <strong>(2.5)%</strong>.</li><li>Power Brands (<strong>78% of turnover</strong>) led with <strong>6.0% USG</strong>; emerging markets up <strong>7.0%</strong>, developed markets up <strong>1.5%</strong>; Foods lagged at <strong>1.2% USG</strong>.</li><li>Quarterly dividend of <strong>€0.4664</strong> declared, up <strong>3.0%</strong> vs Q2 2025; the <strong>€1.5bn</strong> buyback completed in June, part of a planned <strong>€6bn</strong> of buybacks 2026–2029.</li><li><strong>Unilever Foods</strong> combination with <strong>McCormick</strong> on track for completion by mid-2027; on <strong>23 July 2026</strong> McCormick set out the operating model, executive team and a secondary <strong>London</strong> listing.</li><li>Routine board note: <strong>Belén Garijo López</strong> will no longer take up her planned Non-Executive Director role after becoming CEO of <strong>Sanofi</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Unilever posts volume-led H1 underlying sales growth of 4.8% — best volume quarter in over a decade in Q2 — and upgrades its 2026 outlook.",
+    "priority": "high",
+    "priority_reason": "First-half results with an upgraded full-year outlook and updates on the McCormick Foods separation — highly material for the stock.",
+    "figures": [
+      {
+        "metric": "Underlying sales growth (USG)",
+        "current": "4.8%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "4.2% volume, 0.6% price",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Turnover",
+        "current": "€25.6bn",
+        "prior": "not stated",
+        "change": "+0.5%",
+        "basis": "includes +0.7% net acquisitions, (4.9)% currency",
+        "note": "H1 2026"
+      },
+      {
+        "metric": "Underlying operating profit",
+        "current": "€5.2bn",
+        "prior": "not stated",
+        "change": "+0.9%",
+        "basis": "reported",
+        "note": "H1 2026"
+      },
+      {
+        "metric": "Underlying operating margin",
+        "current": "20.3%",
+        "prior": "not stated",
+        "change": "+10bps",
+        "basis": "gross margin 46.8%, BMI 16.1%",
+        "note": "H1 2026"
+      },
+      {
+        "metric": "Operating profit",
+        "current": "€4.9bn",
+        "prior": "not stated",
+        "change": "+2.6%",
+        "basis": "reported, lower restructuring costs",
+        "note": "H1 2026"
+      },
+      {
+        "metric": "Underlying EPS",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+2.4%",
+        "basis": "underlying",
+        "note": "H1 2026"
+      },
+      {
+        "metric": "Diluted EPS",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "(2.5)%",
+        "basis": "reported",
+        "note": "H1 2026"
+      },
+      {
+        "metric": "Gross margin",
+        "current": "46.8%",
+        "prior": "not stated",
+        "change": "-70bps",
+        "basis": "reported",
+        "note": "H1 2026"
+      },
+      {
+        "metric": "Quarterly dividend",
+        "current": "€0.4664",
+        "prior": "not stated",
+        "change": "+3.0%",
+        "basis": "vs Q2 2025",
+        "note": "Q2 2026, payable September 2026"
+      }
+    ],
+    "guidance": {
+      "status": "raised",
+      "previous": "Multi-year USG guidance range of 4% to 6%; 2025 underlying operating margin of 20.0%",
+      "current": "Full-year 2026 USG expected within the 4% to 6% range with around 3% underlying volume growth; H2 USG of 4% to 5% led by pricing; a modest improvement in underlying operating margin versus 20.0% in 2025",
+      "commentary": "Unilever upgraded its 2026 outlook after a strong, volume-led first half, with H2 growth expected to be more pricing-led as commodity-driven pricing lands. Full-year margin is now guided to improve modestly on 2025's 20.0%."
+    },
+    "explainer": "Underlying sales growth (USG) strips out currency moves and acquisitions/disposals to show the like-for-like trend, split into volume (more units sold) and price. Unilever's 4.8% H1 USG was mostly volume (4.2%), which the market generally prefers to price-led growth because it signals genuine demand rather than just passing on inflation. Q2 was notably stronger at 5.8% USG, the best volume quarter in over a decade.\n\nReported turnover barely moved (+0.5% to €25.6bn) because a heavy (4.9)% currency headwind almost wiped out the underlying operating gains — a translation effect, not weaker trading. Note also the split between underlying EPS (+2.4%) and diluted EPS (down 2.5%): the underlying measure excludes one-offs and restructuring, while the statutory diluted figure fell, so the two are not contradictory.\n\nOn guidance, the key change is the upgrade: management now expects full-year USG within its 4%–6% range with around 3% volume, and — new for this statement — a modest improvement in underlying operating margin versus 20.0% in 2025. H2 growth is expected to lean more on pricing as commodity-driven price increases feed through, after a first half where price growth was temporarily held back by tough comparators, World Cup promotions and Brazil pricing actions.\n\nSeparately, the planned combination of Unilever's Foods arm with McCormick is progressing towards a mid-2027 completion and would leave Unilever as a focused personal-care and home-care (HPC) business; capital returns are supported by a planned €6bn of buybacks across 2026–2029.",
+    "source_url": "https://uk.advfn.com/stock-market/london/unilever-ULVR/share-news/Unilever-PLC-2026-First-Half-Results/98990691",
+    "related_news_url": "https://news.google.com/search?q=%22Unilever%20PLC%22",
+    "added_at": "2026-07-28T07:44:43.022923"
+  },
+  {
     "company": "Coats Group plc",
     "ticker": "COA",
     "publish_date": "28 July 2026",
