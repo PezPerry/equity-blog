@@ -1,5 +1,120 @@
 [
   {
+    "company": "Bodycote plc",
+    "ticker": "BOY",
+    "publish_date": "28 July 2026",
+    "date_iso": "2026-07-28",
+    "time_period": "H1 to 30 June 2026",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>H1 2026 results in line with expectations</strong>; <strong>full-year outlook unchanged</strong>, with <strong>Core organic revenue growth</strong> still expected in 2026.</li><li><strong>Core revenue £372.0m</strong> (H1 25: <strong>£336.6m</strong>), organic growth <strong>+9.6%</strong>, led by <strong>Aerospace & Defence +25%</strong> and IGT; <strong>Automotive weak at -4%</strong>. Total Group revenue <strong>£381.2m</strong> (H1 25: £369.0m).</li><li><strong>Core adjusted operating profit £60.4m</strong> (H1 25: £53.5m), Core adjusted margin <strong>+30bps to 16.2%</strong>; Group adjusted operating profit <strong>£61.0m</strong>, Group adjusted margin <strong>+110bps to 16.0%</strong>.</li><li><strong>Basic adjusted EPS 25.2p, +18.3%</strong> (H1 25: 21.3p); statutory EPS <strong>18.1p</strong> (H1 25: 15.5p). Statutory operating profit <strong>£45.6m</strong> (H1 25: £41.2m).</li><li><strong>Interim dividend 7.2p, +4.3%</strong> (H1 25: 6.9p); <strong>~£45m returned</strong> to shareholders including <strong>£17.8m</strong> buyback (£12.6m under the new <strong>£80m</strong> programme). <strong>Net debt £135.2m</strong>, leverage <strong>~0.7x</strong>.</li><li><strong>Optimise</strong> programme on track (<strong>27 of 31</strong> closures/disposals complete) with potential scope expansion under review; <strong>Spectrum</strong> acquisition (Jan 2026, c.£6m) integrated well.</li></ul>",
+    "source_format": "html",
+    "headline": "Bodycote H1 2026 in line, Core revenue up 9.6% organically to £372.0m and adjusted EPS up 18.3% to 25.2p, full-year guidance unchanged.",
+    "priority": "high",
+    "priority_reason": "Interim results with divisional detail, EPS growth, dividend rise and full-year guidance reaffirmed.",
+    "figures": [
+      {
+        "metric": "Core revenue",
+        "current": "£372.0m",
+        "prior": "£336.6m",
+        "change": "+9.6% organic",
+        "basis": "organic, constant currency",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Total Group revenue",
+        "current": "£381.2m",
+        "prior": "£369.0m",
+        "change": "+3.3% (+6.5% organic)",
+        "basis": "reported",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Core adjusted operating profit",
+        "current": "£60.4m",
+        "prior": "£53.5m",
+        "change": "not stated",
+        "basis": "adjusted",
+        "note": "margin +30bps to 16.2%"
+      },
+      {
+        "metric": "Group adjusted operating profit",
+        "current": "£61.0m",
+        "prior": "£55.1m",
+        "change": "+10.7%",
+        "basis": "adjusted",
+        "note": "margin +110bps to 16.0%"
+      },
+      {
+        "metric": "Statutory operating profit",
+        "current": "£45.6m",
+        "prior": "£41.2m",
+        "change": "not stated",
+        "basis": "statutory",
+        "note": "exceptional charge £10.4m (H1 25: £9.1m)"
+      },
+      {
+        "metric": "Basic adjusted EPS",
+        "current": "25.2p",
+        "prior": "21.3p",
+        "change": "+18.3%",
+        "basis": "adjusted",
+        "note": ""
+      },
+      {
+        "metric": "Statutory EPS",
+        "current": "18.1p",
+        "prior": "15.5p",
+        "change": "+16.8%",
+        "basis": "statutory",
+        "note": ""
+      },
+      {
+        "metric": "Interim dividend",
+        "current": "7.2p",
+        "prior": "6.9p",
+        "change": "+4.3%",
+        "basis": "",
+        "note": ""
+      },
+      {
+        "metric": "Adjusted operating cash flow",
+        "current": "£41.6m",
+        "prior": "£37.7m",
+        "change": "not stated",
+        "basis": "",
+        "note": "cash conversion 68% (H1 25: 68%)"
+      },
+      {
+        "metric": "Free cash flow",
+        "current": "£14.5m",
+        "prior": "£18.0m",
+        "change": "not stated",
+        "basis": "",
+        "note": "lower on higher cash tax"
+      },
+      {
+        "metric": "Net debt (ex-leases)",
+        "current": "£135.2m",
+        "prior": "£104.8m",
+        "change": "not stated",
+        "basis": "",
+        "note": "vs 31 Dec 2025; leverage ~0.7x net debt/EBITDA"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Full year expectations for Core organic revenue growth and improved operating margins in 2026.",
+      "current": "Full-year guidance unchanged: Core organic revenue growth in 2026 led by A&D and IGT, partly offset by Automotive; operating margins to improve, driven by revenue growth and Optimise benefits, partly offset by normalisation of variable remuneration and ramp-up costs.",
+      "commentary": "Guidance reaffirmed after an in-line first half. Management flags that the pace of revenue growth is likely to moderate in H2 against tougher prior-year comparators, particularly in A&D, and cites geopolitical and macroeconomic uncertainty."
+    },
+    "explainer": "Bodycote reports on both a 'Core' and a total Group basis. Core excludes the Non-Core sites being wound down or sold under its 'Optimise' restructuring programme, so Core organic growth of 9.6% is the cleaner read on the ongoing business; total Group revenue rose just 3.3% because Non-Core revenue fell 72% to £9.2m as sites were closed or disposed. 'Organic' figures strip out acquisitions (here, Spectrum, bought in January 2026) and currency moves, so they show underlying volume and demand rather than deal or FX effects.\n\nThe growth was led by Aerospace & Defence (+25%), flattered somewhat by weak H1 2025 comparators when the sector had supply-chain problems, plus industrial gas turbines benefiting from data-centre demand. Automotive remained a drag (-4%), especially in Western Europe. Adjusted profit measures exclude exceptional items — mainly the £10.4m Optimise restructuring charge — which is why statutory operating profit (£45.6m) is lower than adjusted (£61.0m).\n\nGroup adjusted margin rose 110bps to 16.0%, but part of that improvement simply reflects shrinking the low-margin Non-Core operations rather than pure underlying gains; the Core margin rose a more modest 30bps to 16.2%. Adjusted EPS grew faster (+18.3%) than profit (+10.7%) partly because the share buyback has reduced the share count.\n\nOn guidance, nothing has changed: the company still expects Core organic revenue growth and improved margins for full-year 2026, but explicitly warns that second-half growth will slow against stronger prior-year comparators, and that margin gains will be partly offset by variable pay normalising and start-up costs on new growth projects.",
+    "source_url": "https://uk.advfn.com/stock-market/london/bodycote-BOY/share-news/Bodycote-Plc-2026-Interim-Results/98991054",
+    "related_news_url": "https://news.google.com/search?q=%22Bodycote%20plc%22",
+    "added_at": "2026-07-28T07:39:13.234599"
+  },
+  {
     "company": "Essentra PLC",
     "ticker": "ESNT",
     "publish_date": "28 July 2026",
