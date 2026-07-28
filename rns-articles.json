@@ -1,5 +1,104 @@
 [
   {
+    "company": "Essentra PLC",
+    "ticker": "ESNT",
+    "publish_date": "28 July 2026",
+    "date_iso": "2026-07-28",
+    "time_period": "H1 to 30 June 2026",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Essentra plc</strong> H1 2026 revenue <strong>£166.1m</strong> (H1 2025: £152.4m), <strong>+9.0%</strong> reported, <strong>+9.8%</strong> constant currency and <strong>+7.8%</strong> like-for-like, in line with Board expectations.</li><li>Adjusted operating profit up to <strong>£18.1m</strong> (H1 2025: £16.5m); adjusted operating margin <strong>10.9%</strong> (H1 2025: 10.8%); adjusted basic EPS <strong>4.3p</strong> (H1 2025: 3.4p), <strong>+21.3%</strong> on constant currency.</li><li>Organic growth across all three regions — EMEA <strong>+8.9%</strong>, Americas <strong>+5.7%</strong>, APAC <strong>+7.8%</strong> LFL; gross margin dipped to <strong>43.0%</strong> (H1 2025: 43.6%) on Americas operational inefficiencies.</li><li>Net debt <strong>£70.7m</strong> excluding leases (30 June 2025: £68.7m), leverage <strong>1.6x</strong> after completing the <strong>Boteco</strong> acquisition in June; adjusted cash conversion <strong>79%</strong>.</li><li><strong>FY26 expectations unchanged</strong>; new <strong>14%</strong> adjusted operating margin target set for <strong>2028</strong>, a milestone towards the medium-term <strong>18%</strong> target, driven mainly by self-help initiatives.</li><li>Growth and Simplification programme launched on 80:20 methodology; IT cost rationalisation to deliver c.150bps margin progression and c.<strong>£6-8m</strong> cash benefit by 2028.</li></ul>",
+    "source_format": "html",
+    "headline": "Essentra posts strong H1 with revenue up 9.0% to £166.1m and adjusted operating profit of £18.1m; FY26 expectations unchanged.",
+    "priority": "high",
+    "priority_reason": "Half-year results with revenue and profit growth, FY26 guidance reaffirmed and a new 2028 margin target.",
+    "figures": [
+      {
+        "metric": "Revenue",
+        "current": "£166.1m",
+        "prior": "£152.4m",
+        "change": "+9.0% reported (+9.8% constant currency, +7.8% LFL)",
+        "basis": "continuing operations",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Adjusted operating profit",
+        "current": "£18.1m",
+        "prior": "£16.5m",
+        "change": "not stated",
+        "basis": "adjusted, continuing operations",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Adjusted operating margin",
+        "current": "10.9%",
+        "prior": "10.8%",
+        "change": "+10bps",
+        "basis": "adjusted",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Adjusted basic EPS",
+        "current": "4.3p",
+        "prior": "3.4p",
+        "change": "+21.3%",
+        "basis": "constant currency, continuing operations",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Gross margin",
+        "current": "43.0%",
+        "prior": "43.6%",
+        "change": "-60bps",
+        "basis": "reported",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Adjusted net cash inflow from operating activities",
+        "current": "£14.3m",
+        "prior": "£17.4m",
+        "change": "not stated",
+        "basis": "adjusted, continuing operations",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Net debt (excl. IFRS16 leases)",
+        "current": "£70.7m",
+        "prior": "£68.7m",
+        "change": "not stated",
+        "basis": "leverage 1.6x adjusted EBITDA",
+        "note": "at 30 June 2026 vs 30 June 2025"
+      },
+      {
+        "metric": "Adjusted cash conversion",
+        "current": "79%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "adjusted",
+        "note": "FY target >85%"
+      },
+      {
+        "metric": "Free cash flow",
+        "current": "£8.7m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "H1 to 30 June 2026"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "FY26 Board expectations (adjusted operating cash conversion target >85%; leverage guidance c.1.6x; adjusted operating margins broadly flat year-on-year)",
+      "current": "FY26 expectations unchanged; adjusted operating margins expected broadly flat year-on-year while underlying performance improves; adjusted operating cash conversion target of >85% for the full year; new 14% adjusted operating margin target established for 2028 towards the medium-term 18% target",
+      "commentary": "FY26 guidance is reaffirmed on continued order and revenue momentum. Alongside this, Essentra introduced a fresh 2028 milestone of 14% adjusted operating margin — driven principally by self-help (pricing, procurement, cost-base and IT rationalisation) rather than a market recovery — as a stepping stone to its longstanding 18% medium-term goal."
+    },
+    "explainer": "Essentra's headline revenue rose 9.0% as reported, but the cleaner underlying measure is the 7.8% like-for-like figure, which strips out acquisitions (Device Technologies, bought December 2025) and currency. Constant-currency growth was 9.8%, meaning a stronger dollar/euro translation would have flattered the number; foreign exchange actually knocked 0.8% off reported revenue. Growth was organic and spread across all three regions, supported by both higher volumes and pricing.\n\nProfitability is more nuanced. Adjusted operating margin nudged up to 10.9%, but gross margin slipped 60bps to 43.0% because of one-off Americas disruption — the transfer of manufacturing from Costa Rica to Mexico and lagging price recovery. Management expects gross margin to rebuild in H2 as Q2 pricing actions take full effect. EPS growth of 21.3% is quoted on a constant-currency basis, so the reported uplift will differ.\n\nOn guidance, the key point is that FY26 expectations are unchanged — no upgrade or downgrade despite the strong first half — because the Group is deliberately reinvesting and rebuilding variable (bonus) compensation, leaving full-year margins broadly flat even as underlying performance improves. The genuinely new item is a 2028 target of 14% adjusted operating margin, a milestone towards the existing 18% medium-term ambition. Management stresses this rests on self-help (pricing discipline, procurement, cost cuts, IT rationalisation worth c.£6-8m of cash benefit and c.150bps of margin) rather than any assumed improvement in end-markets.",
+    "source_url": "https://uk.advfn.com/stock-market/london/essentra-ESNT/share-news/Essentra-plc-Results-for-the-Half-Year-Ended-30-Ju/98990641",
+    "related_news_url": "https://news.google.com/search?q=%22Essentra%20plc%22",
+    "added_at": "2026-07-28T07:38:42.025651"
+  },
+  {
     "company": "Games Workshop Group PLC",
     "ticker": "GAW",
     "publish_date": "28 July 2026",
