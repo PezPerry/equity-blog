@@ -1,5 +1,57 @@
 [
   {
+    "company": "Currys PLC",
+    "ticker": "CURY",
+    "publish_date": "28 July 2026",
+    "date_iso": "2026-07-28",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>Currys plc</strong> has changed its registered office address, effective <strong>28 July 2026</strong>, from <strong>1 Portal Way, London, W3 6RS</strong> to <strong>Currys Newark Campus, Long Hollow Way, Newark, NG24 2NH</strong>.</li><li>Routine administrative disclosure with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Currys plc moves its registered office from 1 Portal Way, London to Currys Newark Campus, Newark, effective 28 July 2026.",
+    "priority": "low",
+    "priority_reason": "Routine administrative change of registered office address with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/currys--cury/change-of-registered-office/9690905",
+    "related_news_url": "https://news.google.com/search?q=%22Currys%20plc%22",
+    "added_at": "2026-07-28T08:35:32.375160"
+  },
+  {
+    "company": "Caledonia Mining Corporation Plc",
+    "ticker": "CMCL",
+    "publish_date": "28 July 2026",
+    "date_iso": "2026-07-28",
+    "time_period": "Q2 2026 (quarter ended 30 June 2026)",
+    "announcement_type": "Notice of results",
+    "period_detail": "Q2 2026 (quarter ended 30 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Caledonia Mining Corporation Plc</strong> will publish <strong>Q2 2026 results</strong> (quarter ended <strong>30 June 2026</strong>) on <strong>Monday 10 August 2026</strong>.</li><li>Remote analyst and investor presentation to be held the same day at <strong>2:00pm London time</strong>, followed by Q&A.</li><li>Routine diary notice — <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Caledonia Mining will publish its Q2 2026 operating and financial results on Monday 10 August 2026, with an analyst and investor call the same day.",
+    "priority": "low",
+    "priority_reason": "Administrative diary notice of a future results date, with no financial data or trading content.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/caledonia-mining-corporation-di---cmcl/notice-of-results/9689958",
+    "related_news_url": "https://news.google.com/search?q=%22Caledonia%20Mining%20Corporation%20Plc%22",
+    "added_at": "2026-07-28T08:35:32.346655"
+  },
+  {
     "company": "IP Group PLC",
     "ticker": "IPO",
     "publish_date": "28 July 2026",
