@@ -1,5 +1,31 @@
 [
   {
+    "company": "Barclays PLC",
+    "ticker": "BARC",
+    "publish_date": "29 July 2026",
+    "date_iso": "2026-07-29",
+    "time_period": "",
+    "announcement_type": "Buyback programme launch",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li>Barclays PLC has commenced a <strong>share buy-back programme</strong> of up to <strong>£1,000m</strong>, as previously flagged on <strong>28 July 2026</strong>.</li><li>Programme runs from <strong>29 July 2026</strong> to no later than <strong>28 January 2027</strong>; purchased Ordinary Shares will be <strong>cancelled</strong> to reduce share capital.</li><li><strong>Citigroup Global Markets Limited</strong> appointed to conduct on-market purchases on the LSE as riskless principal, acting independently.</li><li>Maximum <strong>1,378,798,169</strong> Ordinary Shares may be repurchased under the <strong>2026 Authority</strong>; no purchases in the US or in respect of ADRs.</li></ul>",
+    "source_format": "html",
+    "headline": "Barclays commences a share buy-back of up to £1,000m, with purchased shares to be cancelled, running to no later than 28 January 2027.",
+    "priority": "medium",
+    "priority_reason": "Launch of a new share buy-back programme is a capital-return event but was pre-disclosed on 28 July 2026.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/barclays--barc/commencement-of-share-buy-back-programme/9693118",
+    "related_news_url": "https://news.google.com/search?q=%22Barclays%20PLC%22",
+    "added_at": "2026-07-29T07:56:36.776397"
+  },
+  {
     "company": "GSK plc",
     "ticker": "GSK",
     "publish_date": "29 July 2026",
@@ -2050,6 +2076,58 @@
     "source_url": "https://uk.advfn.com/stock-market/london/sage-SGE/share-news/Sage-Group-PLC-The-Trading-update-for-nine-months/98999624",
     "related_news_url": "https://news.google.com/search?q=%22The%20Sage%20Group%20plc%22",
     "added_at": "2026-07-29T07:37:47.196701"
+  },
+  {
+    "company": "PayPal Holdings Inc",
+    "ticker": "PYPL",
+    "publish_date": "28 July 2026",
+    "date_iso": "2026-07-28",
+    "time_period": "Q2 2026 (quarter ended 30 June 2026)",
+    "announcement_type": "Quarterly results",
+    "period_detail": "Q2 2026 (quarter ended 30 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>PayPal Holdings, Inc.</strong> (NASDAQ: <strong>PYPL</strong>) released <strong>second-quarter 2026</strong> results for the period ended <strong>30 June 2026</strong>.</li><li>The scraped page contains <strong>no financial data</strong> — no revenue, profit, EPS, or guidance figures are printed; the release directs readers to PayPal's investor relations website.</li><li>Results discussed on a conference call and webcast held <strong>28 July 2026</strong> at 8:00 a.m. Eastern time.</li><li>Figures cannot be summarised from this text — refer to PayPal's IR site for the actual numbers.</li></ul>",
+    "source_format": "html",
+    "headline": "**PayPal** announced its **Q2 2026** results for the quarter ended **30 June 2026**, but the scraped text carries no financial figures — only a link to the investor relations site.",
+    "priority": "high",
+    "priority_reason": "Quarterly results from a major payments company, though this scraped text contains only the announcement notice and no figures.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "This scraped announcement is only PayPal's standard notice that its Q2 2026 earnings have been released; the underlying earnings release, tables and any guidance are hosted separately on the company's investor relations website and are not reproduced in this text.\n\nAs a result, no revenue, profit, earnings-per-share, dividend or outlook figures are available here, and none should be inferred. Anyone needing the actual numbers and any change to full-year guidance must consult PayPal's investor relations materials directly.",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/PYPL/share-news/PayPal-Reports-Second-Quarter-2026-Results/98993062",
+    "related_news_url": "https://news.google.com/search?q=%22PayPal%20Holdings%2C%20Inc.%22",
+    "added_at": "2026-07-29T07:56:36.762880"
+  },
+  {
+    "company": "Open Lending Corp",
+    "ticker": "LPRO",
+    "publish_date": "28 July 2026",
+    "date_iso": "2026-07-28",
+    "time_period": "",
+    "announcement_type": "Acquisition / deal",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>ANV Group Holdings Ltd.</strong> completed its all-cash tender offer for <strong>Open Lending Corporation</strong> (NASDAQ: <strong>LPRO</strong>) at <strong>$3.15 per share</strong>, with all conditions satisfied.</li><li><strong>101,348,383 shares</strong> — approximately <strong>85.65%</strong> of shares outstanding — were validly tendered by the <strong>27 July 2026</strong> expiration and accepted for payment on <strong>28 July 2026</strong> via ANV subsidiary <strong>Lakers Acquisition Sub, Inc.</strong></li><li>A back-end merger under <strong>Section 251(h) DGCL</strong> will follow without a stockholder vote; remaining untendered shares convert to the right to receive <strong>$3.15 per share</strong> in cash.</li><li>Merger expected to complete on <strong>30 July 2026</strong>, taking Open Lending private and delisting it from NASDAQ.</li><li>ANV is a global insurance intermediary platform across the <strong>US, UK and Europe</strong>; Open Lending provides loan analytics and default insurance to US auto lenders.</li></ul>",
+    "source_format": "html",
+    "headline": "ANV's $3.15-per-share tender offer for Open Lending succeeds with 85.65% of shares tendered, clearing the way to take the company private on 30 July 2026.",
+    "priority": "high",
+    "priority_reason": "Completion of a cash takeover of Open Lending by ANV, with the company being taken private at $3.15 per share.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/LPRO/share-news/Open-Lending-and-ANV-Announce-Results-of-Tender-Of/98993373",
+    "related_news_url": "https://news.google.com/search?q=%22Open%20Lending%20Corporation%22",
+    "added_at": "2026-07-29T07:56:36.728769"
   },
   {
     "company": "Rio Tinto PLC",
