@@ -171,6 +171,22 @@ def report(hero, chosen, dropped, slots):
         print("  DROPPED off the front page: %s  (%s)" % (tile["slug"], tile["date"]))
 
 
+def default_cover(slug):
+    """Cover filename for an article that declares no explicit tile-cover.
+
+    House convention drops a trailing '-blog-page' and appends '-cover.<ext>'
+    (bp-BP-blog-page -> bp-BP-cover.png). Probe the extensions actually in use
+    and fall back to .png so the missing-cover warning below still fires with a
+    sensible name to create.
+    """
+    stem = slug[:-len("-blog-page")] if slug.endswith("-blog-page") else slug
+    for ext in ("png", "jpg", "jpeg"):
+        candidate = "%s-cover.%s" % (stem, ext)
+        if os.path.exists(os.path.join(HERE, candidate)):
+            return candidate
+    return "%s-cover.png" % stem
+
+
 META_MAP = {
     "tile-kind": "kind",
     "tile-cat": "cat",
@@ -205,7 +221,7 @@ def add_article(path, date):
         "url": os.path.basename(path),
         "date": date,
         "kind": meta("tile-kind") or "analysis",
-        "cover": meta("tile-cover") or "%s-cover.png" % slug,
+        "cover": meta("tile-cover") or default_cover(slug),
         "alt": meta("tile-alt") or (title.group(1).strip() if title else slug),
         "cat": meta("tile-cat") or "Analysis",
         "headline": meta("tile-headline") or (title.group(1).strip() if title else slug),
