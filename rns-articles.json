@@ -1,5 +1,96 @@
 [
   {
+    "company": "Glencore PLC",
+    "ticker": "GLEN",
+    "publish_date": "29 July 2026",
+    "date_iso": "2026-07-29",
+    "time_period": "H1 2026 (six months to 30 June 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "H1 2026 (six months to 30 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li>H1 2026 own-sourced <strong>copper</strong> production <strong>397,000 tonnes</strong>, up <strong>53,100t (15%)</strong> on H1 2025, driven by <strong>African Copper</strong> (+55,000t) and <strong>Antamina</strong> grades (+27,700t), partly offset by the <strong>Mount Isa</strong> closure.</li><li><strong>Zinc</strong> output <strong>365,600t</strong>, down <strong>99,600t (21%)</strong>; <strong>cobalt 10,200t</strong>, down <strong>8,700t (46%)</strong> on the DRC export-quota regime; <strong>nickel 35,800t</strong> broadly flat.</li><li><strong>Steelmaking coal 13.5Mt</strong>, down <strong>2.2Mt (14%)</strong> on lower EVR throughput; <strong>energy coal 47.4Mt</strong>, down <strong>0.9Mt (2%)</strong> on the Cerrejón curtailment.</li><li>Full-year 2026 guidance for <strong>copper, zinc and nickel</strong> unchanged; <strong>energy coal</strong> mid-point up <strong>1Mt</strong>, <strong>steelmaking coal</strong> mid-point down <strong>1Mt</strong>.</li><li><strong>Kidd mine</strong> sale completed <strong>1 June 2026</strong>; FY guidance not adjusted for the loss of c.<strong>20kt zinc</strong> and c.<strong>11kt copper</strong>, implying a like-for-like upgrade to both mid-points.</li><li>CEO <strong>Gary Nagle</strong> expects a strong half-year <strong>Marketing Adjusted EBIT of c.$3.3 billion</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Glencore reports strong H1 2026 output with copper up 15%, keeps full-year copper, zinc and nickel guidance unchanged and flags c.$3.3bn Marketing Adjusted EBIT.",
+    "priority": "high",
+    "priority_reason": "Half-year production report from a major FTSE 100 miner with commodity-by-commodity volumes, full-year guidance tweaks and a c.$3.3bn Marketing EBIT indication.",
+    "figures": [
+      {
+        "metric": "Own-sourced copper production",
+        "current": "397,000t",
+        "prior": "not stated",
+        "change": "+15% (+53,100t)",
+        "basis": "own sourced, 100% basis",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "Own-sourced cobalt production",
+        "current": "10,200t",
+        "prior": "not stated",
+        "change": "-46% (-8,700t)",
+        "basis": "own sourced",
+        "note": "H1 2026 vs H1 2025; DRC quota impact"
+      },
+      {
+        "metric": "Own-sourced zinc production",
+        "current": "365,600t",
+        "prior": "not stated",
+        "change": "-21% (-99,600t)",
+        "basis": "own sourced",
+        "note": "H1 2026 vs H1 2025; includes Kidd disposal and Lady Loretta end of life"
+      },
+      {
+        "metric": "Own-sourced nickel production",
+        "current": "35,800t",
+        "prior": "not stated",
+        "change": "broadly in line",
+        "basis": "own sourced",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "Attributable chrome ore production",
+        "current": "1,647,000t",
+        "prior": "not stated",
+        "change": "-4% (-70,000t)",
+        "basis": "attributable",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "Steelmaking coal production",
+        "current": "13.5Mt",
+        "prior": "not stated",
+        "change": "-14% (-2.2Mt)",
+        "basis": "not stated",
+        "note": "H1 2026 vs H1 2025; lower EVR production"
+      },
+      {
+        "metric": "Energy coal production",
+        "current": "47.4Mt",
+        "prior": "not stated",
+        "change": "-2% (-0.9Mt)",
+        "basis": "not stated",
+        "note": "H1 2026 vs H1 2025; Cerrejón curtailment"
+      },
+      {
+        "metric": "Marketing Adjusted EBIT",
+        "current": "c.$3.3bn",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "expected half-year",
+        "note": "guidance indication, H1 2026"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Prior FY 2026 production guidance for copper, zinc, nickel, energy coal and steelmaking coal.",
+      "current": "FY 2026 copper, zinc and nickel guidance unchanged; energy coal mid-point raised by 1Mt; steelmaking coal mid-point cut by 1Mt. FY guidance not adjusted for the Kidd mine disposal (c.20kt zinc, c.11kt copper of rest-of-year output), implying a like-for-like upgrade to copper and zinc mid-points.",
+      "commentary": "Headline copper, zinc and nickel guidance is held despite completion of the Kidd mine sale, which management frames as an effective like-for-like upgrade. Coal guidance is mixed: energy coal nudged up on stronger Australian performance, steelmaking coal trimmed on lower EVR yields expected to normalise in H2."
+    },
+    "explainer": "This is a production report, not full financial results, so the figures are physical output volumes (tonnes) rather than revenue or profit. Production is quoted on an 'own-sourced' basis (Glencore's controlled industrial assets and joint ventures, at 100%), and each commodity is compared with the same six months of 2025. Copper's 15% rise reflects higher mining rates and grades at African Copper and Antamina, offset by last year's Mount Isa copper closure; the sharp cobalt fall stems from the DRC government's export-quota regime, with unsold cobalt held in solution to be processed later rather than lost.\n\nOn guidance, the key nuance is the Kidd mine sale, completed on 1 June 2026. Glencore has chosen not to reduce its full-year copper and zinc targets to reflect the roughly seven months of lost Kidd output (c.11kt copper, c.20kt zinc), so on a like-for-like basis the mid-points are effectively upgraded. Copper, zinc and nickel guidance is otherwise unchanged.\n\nCoal guidance moves in opposite directions: the energy coal mid-point is lifted by about 1Mt after stronger-than-guided H1 Australian output (c.3Mt ahead), while steelmaking coal is cut by about 1Mt on weaker EVR throughput and yields, which management expects to recover in the second half. Overall the full-year profile is weighted towards H2.\n\nThe c.$3.3bn Marketing Adjusted EBIT is a trading-division indication ahead of the interim results and gives a read on how profitably Glencore's commodity marketing arm performed in the half.",
+    "source_url": "https://uk.advfn.com/stock-market/london/glencore-GLEN/share-news/Glencore-PLC-Half-Year-Production-Report-2026/98999649",
+    "related_news_url": "https://news.google.com/search?q=%22Glencore%20PLC%22",
+    "added_at": "2026-07-29T07:45:24.088062"
+  },
+  {
     "company": "The Weir Group PLC",
     "ticker": "WEIR",
     "publish_date": "29 July 2026",
