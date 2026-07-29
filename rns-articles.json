@@ -1,5 +1,147 @@
 [
   {
+    "company": "PayPoint PLC",
+    "ticker": "PAY",
+    "publish_date": "29 July 2026",
+    "date_iso": "2026-07-29",
+    "time_period": "Q1 FY27 (three months ended 30 June 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "Q1 FY27 (three months ended 30 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>PayPoint Plc</strong> delivered a <strong>solid Q1 FY27</strong> (three months ended <strong>30 June 2026</strong>), with underlying performance consistent with expectations against a strong prior-year comparator; Group <strong>on track to meet market expectations for FY27</strong>.</li><li>Business reorganisation now <strong>largely complete</strong>, with early positive signs across all four units; guidance reiterates a <strong>greater weighting of performance towards H2</strong> from new business and seasonal contributions.</li><li>Trading backdrop remained <strong>challenging</strong>, with subdued consumer activity and confidence and a weak overall economy.</li><li><strong>Love2shop</strong> single-domain website now live, overall billings <strong>strongly ahead</strong> of last year and July's 'Thank You Teacher' in-store sales up strongly year on year.</li><li>By 30 June 2026, <strong>£50m</strong> returned via first and second buyback tranches (<strong>7,860,645 shares</strong> cancelled); with the share consolidation, shares in issue reduced <strong>17.7%</strong>. Third Tranche began <strong>1 July 2026</strong>, taking expected FY27 buyback returns to <strong>£30m</strong>.</li><li>Final dividend of <strong>20.0p</strong> (up <strong>2%</strong> on 2025's 19.6p) declared at FY results on 11 June 2026; <strong>Capital Markets Day</strong> set for <strong>29 September 2026</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "PayPoint reports a solid Q1 FY27 with underlying performance in line and reaffirms it is on track to meet market expectations for the full year.",
+    "priority": "high",
+    "priority_reason": "Q1 trading update with reaffirmed full-year guidance and shareholder-return detail.",
+    "figures": [
+      {
+        "metric": "Final dividend",
+        "current": "20.0p per share",
+        "prior": "19.6p per share",
+        "change": "+2%",
+        "basis": "FY26 final vs FY25 final",
+        "note": "declared 11 June 2026, subject to AGM approval"
+      },
+      {
+        "metric": "Capital returned via buyback (cumulative)",
+        "current": "£50m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "first and second tranches to 30 June 2026",
+        "note": "7,860,645 shares cancelled; shares in issue down 17.7% with consolidation"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "On track to meet market expectations for FY27, with performance weighted towards H2",
+      "current": "Confident in making further progress in FY27 and meeting market expectations, with a greater H2 weighting",
+      "commentary": "Guidance reaffirmed: management expects a stronger second half driven by an accelerating contribution from new business and seasonal businesses. No change to the full-year outlook."
+    },
+    "explainer": "This is a first-quarter trading update rather than a full set of results, so it carries limited hard numbers. The key message is continuity: underlying performance in the three months to 30 June 2026 matched management's own expectations, and it was achieved against a strong prior-year comparator (i.e. Q1 last year was a tough act to follow), so a flat-looking quarter is being framed as a solid platform rather than a slowdown.\n\nOn guidance, nothing has changed. The Group still expects to meet market expectations for FY27 and continues to flag that performance will be weighted towards the second half, reflecting new business ramping up and seasonal businesses (such as Love2shop gifting) landing later in the year. That H2 weighting is a normal shape for the company, not a downgrade.\n\nThe capital-return figures are cumulative programme numbers, not quarterly earnings: £50m has been returned through the first two buyback tranches, £5m of it in Q1, and the third tranche started on 1 July 2026, with total FY27 buyback returns expected to reach £30m. Combined with the share consolidation, the share count is down 17.7%, which mechanically supports per-share metrics. A Capital Markets Day on 29 September 2026 will set out the strategy and three-year financial objectives.",
+    "source_url": "https://uk.advfn.com/stock-market/london/paypoint-PAY/share-news/1st-Quarter-Results/98999564",
+    "related_news_url": "https://news.google.com/search?q=%22PayPoint%20Plc%22",
+    "added_at": "2026-07-29T07:39:44.916616"
+  },
+  {
+    "company": "International Personal Finance plc",
+    "ticker": "IPF",
+    "publish_date": "29 July 2026",
+    "date_iso": "2026-07-29",
+    "time_period": "H1 to 30 June 2026",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>International Personal Finance plc</strong> reported <strong>H1-26 pre-exceptional profit before tax of £47.4m</strong> (H1-25: <strong>£49.9m</strong>), in line with internal plan, after a <strong>£4.6m</strong> pre-tax exceptional charge.</li><li><strong>Customer numbers up 5%</strong> year on year to <strong>1.7m</strong>; <strong>customer lending up 18%</strong> and closing net receivables up <strong>17%</strong> to <strong>£1,169.9m</strong> (H1-25: <strong>£937.8m</strong>), all on a constant-currency basis.</li><li><strong>Impairment rate rose to 10.0%</strong> (H1-25: <strong>8.3%</strong>), reflecting higher up-front IFRS 9 charges on stronger lending growth, particularly in new channels; credit quality described as stable.</li><li><strong>No interim dividend</strong> declared (H1-25: <strong>3.8p</strong>), given the pending acquisition and a previously declared <strong>special dividend of 15p per share</strong>.</li><li>Recommended cash acquisition by <strong>IPF Parent Holdings Limited ('Bidco')</strong> (part of <strong>BasePoint Capital LLC</strong>) at <strong>235p per share</strong> has cleared regulators; Sanction Hearing set for <strong>31 July 2026</strong>, with the Scheme expected to be Effective on <strong>4 August 2026</strong>.</li><li>Balance sheet remains strong: <strong>£107m</strong> funding headroom and an equity-to-receivables ratio of <strong>48%</strong> (H1-25: <strong>53%</strong>).</li></ul>",
+    "source_format": "html",
+    "headline": "IPF posts H1 pre-exceptional PBT of £47.4m with 18% lending growth, as its 235p recommended takeover by Bidco nears completion on 4 August 2026.",
+    "priority": "high",
+    "priority_reason": "Half-year results from a listed lender, alongside imminent completion of its recommended cash takeover by Bidco.",
+    "figures": [
+      {
+        "metric": "Pre-exceptional profit before tax",
+        "current": "£47.4m",
+        "prior": "£49.9m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "H1 to 30 June 2026 vs H1-25; before £4.6m exceptional charge"
+      },
+      {
+        "metric": "Customer numbers",
+        "current": "1.7m",
+        "prior": "not stated",
+        "change": "+5%",
+        "basis": "year on year",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Customer lending",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+18%",
+        "basis": "constant exchange rate",
+        "note": "year on year, H1-26"
+      },
+      {
+        "metric": "Closing net receivables",
+        "current": "£1,169.9m",
+        "prior": "£937.8m",
+        "change": "+17%",
+        "basis": "constant exchange rate",
+        "note": "H1 to 30 June 2026 vs H1-25"
+      },
+      {
+        "metric": "Impairment rate (annualised)",
+        "current": "10.0%",
+        "prior": "8.3%",
+        "change": "not stated",
+        "basis": "annualised",
+        "note": "H1 to 30 June 2026 vs H1-25"
+      },
+      {
+        "metric": "Interim dividend",
+        "current": "nil",
+        "prior": "3.8p",
+        "change": "not stated",
+        "basis": "per share",
+        "note": "no interim dividend given pending acquisition"
+      },
+      {
+        "metric": "Special dividend",
+        "current": "15p",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "per share",
+        "note": "conditional on Court sanction of the offer"
+      },
+      {
+        "metric": "Funding headroom",
+        "current": "£107m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "undrawn facilities and non-operational cash",
+        "note": "at 30 June 2026"
+      },
+      {
+        "metric": "Equity to receivables ratio",
+        "current": "48%",
+        "prior": "53%",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "H1 to 30 June 2026 vs H1-25"
+      }
+    ],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": "No forward numeric guidance issued; H1 profit stated as in line with internal plan and the Group described as well positioned for H2."
+    },
+    "explainer": "This is IPF's interim (half-year) report for the six months to 30 June 2026. The headline profit measure — pre-exceptional profit before tax of £47.4m — strips out a £4.6m one-off exceptional charge; on a statutory basis profit would be lower. Profit fell modestly year on year, which management frames as deliberate: they are investing in growth, so up-front loan loss provisioning (IFRS 9 requires impairment to be booked when a loan is written, not when it goes bad) has risen as lending expands, pushing the impairment rate up to 10.0% from 8.3%.\n\nAlmost all the growth rates — lending +18%, receivables +17% — are quoted on a constant-exchange-rate (CER) basis, which removes currency movements to show underlying momentum in local markets like Poland and Mexico. Receivables in cash terms grew to £1,169.9m from £937.8m.\n\nThe dominant event is corporate rather than operational: IPF is being taken private by Bidco (linked to BasePoint Capital) at 235p per share via a court-sanctioned scheme. Regulatory approvals are now in place, the Sanction Hearing is on 31 July 2026, and the deal is expected to complete on 4 August 2026. Because of this, no interim dividend was paid; instead shareholders are due a 15p special dividend conditional on the court sanctioning the offer.\n\nNo formal profit guidance is given. Investors should note the flagged contingent risk from an April 2026 EU court ruling (Case C-744/2) on charging interest on financed credit-related fees in Poland — no provision has been made and the potential impact remains uncertain.",
+    "source_url": "https://uk.advfn.com/stock-market/london/international-personal-f-IPF/share-news/International-Personal-Finance-Plc-Half-year-Repor/98999597",
+    "related_news_url": "https://news.google.com/search?q=%22International%20Personal%20Finance%20plc%22",
+    "added_at": "2026-07-29T07:39:44.891565"
+  },
+  {
     "company": "FirstGroup PLC",
     "ticker": "FGP",
     "publish_date": "29 July 2026",
