@@ -1,5 +1,88 @@
 [
   {
+    "company": "The Sage Group plc",
+    "ticker": "SGE",
+    "publish_date": "29 July 2026",
+    "date_iso": "2026-07-29",
+    "time_period": "9M to 30 June 2026 (Q3 FY26)",
+    "announcement_type": "Trading update",
+    "period_detail": "9M to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>The Sage Group plc</strong> total revenue up <strong>11% to £2,062m</strong> for the <strong>nine months ended 30 June 2026</strong>, with growth accelerating to <strong>12%</strong> (to <strong>£699m</strong>) in the third quarter.</li><li><strong>Organic</strong> total revenue up <strong>10% to £2,057m</strong>; FY26 guidance reiterated at <strong>organic total revenue growth above 9%</strong>, with operating margins to trend upwards.</li><li>By region: <strong>North America +14% to £932m</strong>, <strong>UKIA +10% to £602m</strong>, <strong>Europe +7% to £528m</strong>, led by <strong>Sage Intacct</strong> scaling.</li><li><strong>Sage Business Cloud</strong> revenue up <strong>15% to £1,762m</strong>; within it <strong>cloud native +25% to £794m</strong> (from £637m).</li><li><strong>Recurring revenue +11% to £2,002m</strong>; software subscription revenue <strong>+13% to £1,743m</strong>, subscription penetration <strong>84%</strong> (from 83%).</li><li>Broadly <strong>neutral</strong> currency impact at Group level; CFO <strong>Jacqui Cartin</strong> cites AI-driven momentum and strong SMB demand.</li></ul>",
+    "source_format": "html",
+    "headline": "Sage nine-month revenue rose 11% to £2,062m with Q3 growth accelerating to 12%, and full-year guidance reiterated.",
+    "priority": "high",
+    "priority_reason": "Nine-month trading update from a FTSE 100 company with accelerating revenue growth and reiterated full-year guidance.",
+    "figures": [
+      {
+        "metric": "Total revenue (9M)",
+        "current": "£2,062m",
+        "prior": "not stated",
+        "change": "+11%",
+        "basis": "underlying",
+        "note": "9M to 30 June 2026"
+      },
+      {
+        "metric": "Total revenue (Q3)",
+        "current": "£699m",
+        "prior": "£627m",
+        "change": "+12%",
+        "basis": "underlying",
+        "note": "Q3 FY26 vs Q3 25"
+      },
+      {
+        "metric": "Organic total revenue (9M)",
+        "current": "£2,057m",
+        "prior": "£1,864m",
+        "change": "+10%",
+        "basis": "organic, constant currency ex-M&A",
+        "note": "9M FY26"
+      },
+      {
+        "metric": "Sage Business Cloud revenue",
+        "current": "£1,762m",
+        "prior": "not stated",
+        "change": "+15%",
+        "basis": "underlying",
+        "note": "9M FY26"
+      },
+      {
+        "metric": "Cloud native revenue",
+        "current": "£794m",
+        "prior": "£637m",
+        "change": "+25%",
+        "basis": "underlying",
+        "note": "Q3 25 YTD comparative"
+      },
+      {
+        "metric": "Recurring revenue",
+        "current": "£2,002m",
+        "prior": "£1,801m",
+        "change": "+11%",
+        "basis": "underlying",
+        "note": "Q3 25 YTD comparative"
+      },
+      {
+        "metric": "Software subscription revenue",
+        "current": "£1,743m",
+        "prior": "£1,546m",
+        "change": "+13%",
+        "basis": "underlying",
+        "note": "9M FY26; penetration 84% vs 83%"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Organic total revenue growth for FY26 above 9%; operating margins to trend upwards in FY26 and beyond",
+      "current": "Organic total revenue growth for FY26 above 9%; operating margins to trend upwards in FY26 and beyond",
+      "commentary": "Sage reiterated full-year guidance unchanged, citing accelerating growth, deepening AI capabilities and continued scaling of Sage Intacct."
+    },
+    "explainer": "Sage reports on an 'underlying' basis (constant currency) and separately on an 'organic' basis, which also strips out the effect of acquisitions and disposals. The 9M underlying revenue of £2,062m (+11%) is flattered slightly by M&A; the organic figure of £2,057m (+10%) is the cleaner read on the core business. Currency movements roughly cancelled out this period — sterling strengthened against the US dollar but weakened against other currencies — so the exchange-rate impact was broadly neutral at Group level.\n\nThe key signal is acceleration: third-quarter total revenue growth of 12% is ahead of the nine-month rate of 11%, showing momentum is building rather than fading. Recurring and subscription revenues, which are more predictable and valued highly by investors, continue to grow faster than the total, with subscription penetration edging up to 84%.\n\nOn guidance, nothing changed. Sage reiterated its FY26 target of organic total revenue growth above 9% and repeated that operating margins should trend upwards. Maintaining guidance after a strong Q3 implies management is comfortable with, but not yet upgrading, full-year expectations.",
+    "source_url": "https://uk.advfn.com/stock-market/london/sage-SGE/share-news/Sage-Group-PLC-The-Trading-update-for-nine-months/98999624",
+    "related_news_url": "https://news.google.com/search?q=%22The%20Sage%20Group%20plc%22",
+    "added_at": "2026-07-29T07:37:47.196701"
+  },
+  {
     "company": "Morgan Sindall PLC",
     "ticker": "MGNS",
     "publish_date": "28 July 2026",
