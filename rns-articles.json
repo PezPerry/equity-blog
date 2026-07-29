@@ -1,5 +1,229 @@
 [
   {
+    "company": "Rio Tinto PLC",
+    "ticker": "RIO",
+    "publish_date": "29 July 2026",
+    "date_iso": "2026-07-29",
+    "time_period": "H1 2026 (six months to 30 June 2026)",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 2026 (six months to 30 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Rio Tinto plc</strong> H1 2026 underlying EBITDA <strong>$14.8bn (+28%)</strong> and free cash flow <strong>$3.8bn (+75%)</strong>, described as a step-change aided by favourable commodity prices.</li><li>Profit after tax attributable to owners <strong>$6.7bn (+47%)</strong>; underlying earnings <strong>$6.9bn (+43%)</strong>; underlying ROCE <strong>17%</strong>; operating cash flow <strong>$9.2bn (+32%)</strong>.</li><li>Interim ordinary dividend <strong>$3.4bn (+43%)</strong>, a <strong>50%</strong> payout ratio; <strong>+3%</strong> copper-equivalent production, with Copper, Aluminium and Lithium now over 50% of underlying EBITDA.</li><li>Productivity: <strong>$870m</strong> benefits banked YTD, <strong>$1.3bn</strong> annualised run-rate achieved in H1, on track for <strong>$1.8bn</strong> by year-end; ~$5bn cash release targeted by end-2026.</li><li><strong>Simandou</strong> made first high-grade iron ore sales in April; <strong>Pilbara</strong> delivered its highest H1 iron ore output since 2018; first lithium production achieved at Fénix 1B and Sal de Vida ahead of plan.</li><li>Guidance: 2026 production, sales and capital-investment guidance <strong>maintained</strong>; Copper C1 net unit cost guidance cut to <strong>US 30-50c/lb</strong> (from 65-75c/lb); full-year effective tax rate lowered to <strong>~25%</strong> (from ~30%).</li></ul>",
+    "source_format": "html",
+    "headline": "Rio Tinto H1 2026 underlying EBITDA up 28% to $14.8bn and free cash flow up 75%, lifting the interim dividend 43% to $3.4bn.",
+    "priority": "high",
+    "priority_reason": "Half-year results from a FTSE 100 mega-cap with a 28% EBITDA rise, 43% dividend increase and multiple guidance changes.",
+    "figures": [
+      {
+        "metric": "Underlying EBITDA",
+        "current": "$14.8bn",
+        "prior": "not stated",
+        "change": "+28%",
+        "basis": "underlying (non-IFRS)",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "Free cash flow",
+        "current": "$3.8bn",
+        "prior": "not stated",
+        "change": "+75%",
+        "basis": "refined H1 2026 definition includes Rio Tinto share of capital investment",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "Profit after tax attributable to owners",
+        "current": "$6.7bn",
+        "prior": "not stated",
+        "change": "+47%",
+        "basis": "IFRS net earnings",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "Underlying earnings",
+        "current": "$6.9bn",
+        "prior": "not stated",
+        "change": "+43%",
+        "basis": "underlying (non-IFRS)",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "Operating cash flow",
+        "current": "$9.2bn",
+        "prior": "not stated",
+        "change": "+32%",
+        "basis": "net cash from operating activities",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "Interim ordinary dividend",
+        "current": "$3.4bn",
+        "prior": "not stated",
+        "change": "+43%",
+        "basis": "50% interim payout ratio",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "Underlying ROCE",
+        "current": "17%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "underlying return on capital employed",
+        "note": "H1 2026"
+      },
+      {
+        "metric": "Copper equivalent production",
+        "current": "+3%",
+        "prior": "not stated",
+        "change": "+3%",
+        "basis": "copper equivalent volume",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "Taxes and government royalties",
+        "current": "$5.6bn",
+        "prior": "$4.8bn",
+        "change": "not stated",
+        "basis": "as reported",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "Effective tax rate on underlying earnings (H1)",
+        "current": "25.2%",
+        "prior": "34.5%",
+        "change": "not stated",
+        "basis": "half-year rate",
+        "note": "H1 2026 vs H1 2025"
+      }
+    ],
+    "guidance": {
+      "status": "lowered",
+      "previous": "Copper C1 net unit costs US 65-75c/lb; full-year 2026 effective tax rate on underlying earnings ~30%. 2026 production, sales, share-of-capital-investment, E&E (~$0.8bn Rio share) and closure-cash-spend guidance as previously set.",
+      "current": "Copper C1 net unit costs reduced to US 30-50c/lb (announced 15 July); full-year 2026 effective tax rate reduced to ~25% (returning to ~30% from 2027). Production, sales, capital investment, E&E and closure guidance all maintained.",
+      "commentary": "The favourable changes are cost- and tax-related rather than a profit downgrade: copper unit-cost guidance was cut on higher gold by-product prices and productivity gains, and the tax-rate guidance fell on use of previously unrecognised deferred tax assets and profit geography. Headline production, sales and capex guidance were left unchanged."
+    },
+    "explainer": "These are Rio Tinto's half-year (H1 2026) results, covering the six months to 30 June 2026 and compared with the same period a year earlier. Rio reports in US dollars. Many of the profit measures — underlying EBITDA, underlying earnings, free cash flow and ROCE — are 'underlying' (non-IFRS) figures management uses to show operating performance stripped of one-offs; the announcement reconciles these to statutory numbers elsewhere in the report. Note that Rio has changed its free cash flow definition this period to include its share of capital investment, so the +75% growth is on the new basis.\n\nSeveral comparatives are not directly like-for-like. Lithium results only consolidate from the March 2025 Arcadium acquisition, so the H1 2025 lithium base reflects a partial (post-acquisition) period, flattering year-on-year growth. Iron ore realised-price references also switched from a 62% Fe to a 61% Fe index basis from January 2026, and some reported figures (e.g. QAL) are now shown on a 100% basis, so the underlying benchmarks have moved.\n\nOn guidance, the important point for traders is what changed and why. Copper C1 net unit cost guidance was cut sharply (to 30-50c/lb from 65-75c/lb) because higher gold prices boost by-product credits and productivity is improving — a cost-favourable revision, not a demand signal. The full-year effective tax rate guidance was lowered to ~25% from ~30% due to deferred-tax-asset utilisation and where profits arise, but is expected to normalise back to ~30% from 2027. Headline production, sales and capital-investment guidance were all reaffirmed, with the productivity programme on track for a $1.8bn annualised run-rate by year-end.",
+    "source_url": "https://uk.advfn.com/stock-market/london/rio-tinto-RIO/share-news/Rio-Tinto-PLC-Rio-Tinto-2026-half-year-results/98999606",
+    "related_news_url": "https://news.google.com/search?q=%22Rio%20Tinto%20plc%22",
+    "added_at": "2026-07-29T07:44:08.550070"
+  },
+  {
+    "company": "Ibstock PLC",
+    "ticker": "IBST",
+    "publish_date": "29 July 2026",
+    "date_iso": "2026-07-29",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Louis Eperjesi</strong>, Senior Independent Director, will step down as a Non-Executive Director on <strong>31 December 2026</strong>, leaving to join <strong>Breedon Group Plc</strong> as a NED in early 2027.</li><li><strong>Nicola Bruce</strong> (on the Board since <strong>29 March 2023</strong>) succeeds him as <strong>Senior Independent Director</strong> with immediate effect, retaining her role as Remuneration Committee Chair.</li><li>Board has initiated a process to appoint an additional Independent Non-Executive Director; further announcement in due course.</li><li>Routine Board disclosure under UKLR 6.4.6R — <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Ibstock's Senior Independent Director Louis Eperjesi to step down on 31 December 2026, with Nicola Bruce succeeding him with immediate effect.",
+    "priority": "medium",
+    "priority_reason": "Board change: Senior Independent Director stepping down with a succession and further NED appointment to follow.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/ibstock-IBST/share-news/Ibstock-PLC-Directorate-change/99000016",
+    "related_news_url": "https://news.google.com/search?q=%22Ibstock%20PLC%22",
+    "added_at": "2026-07-29T07:44:08.537640"
+  },
+  {
+    "company": "Greggs PLC",
+    "ticker": "GRG",
+    "publish_date": "29 July 2026",
+    "date_iso": "2026-07-29",
+    "time_period": "H1 2026 (26 weeks to 27 June 2026)",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 2026 (26 weeks to 27 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Greggs plc</strong> reported H1 2026 total sales up <strong>7.2%</strong> to <strong>£1,101.5m</strong> (H1 2025: <strong>£1,027.7m</strong>), with company-managed LFL sales <strong>+2.1%</strong> and franchise LFL system sales <strong>+1.3%</strong>.</li><li>Operating profit up <strong>22.9%</strong> to <strong>£86.5m</strong> and profit before tax up <strong>19.7%</strong> to <strong>£76.0m</strong>, helped by a soft comparator, cost control and phasing of cost inflation.</li><li>Interim dividend held flat at <strong>19.0p</strong> (2025: <strong>19.0p</strong>).</li><li>Estate grew by <strong>34 net new shops</strong> to <strong>2,773</strong> as at <strong>27 June 2026</strong>; <strong>100-110</strong> net openings expected in 2026 plus around ten <strong>'Greggs Express'</strong> trials.</li><li><strong>£11m</strong> structural cost savings targeted for 2026 (<strong>£7m</strong> delivered); 2026 capex cut from <strong>£200m</strong> to around <strong>£180m</strong>, creating capacity for additional shareholder returns.</li><li>Food-to-go market share up <strong>0.3pp</strong> to <strong>8.7%</strong> (Circana CREST, 12 months to June 2026); the Board's full-year expectations are <strong>unchanged</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Greggs H1 total sales rose 7.2% to £1,101.5m with pre-tax profit up 19.7% to £76.0m; full-year expectations unchanged.",
+    "priority": "high",
+    "priority_reason": "Half-year results from a major listed retailer, with profit growth, dividend and full-year guidance.",
+    "figures": [
+      {
+        "metric": "Total sales",
+        "current": "£1,101.5m",
+        "prior": "£1,027.7m",
+        "change": "+7.2%",
+        "basis": "reported",
+        "note": "26 weeks to 27 June 2026"
+      },
+      {
+        "metric": "Company-managed LFL sales",
+        "current": "+2.1%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "like-for-like",
+        "note": "vs H1 2025 comparable period"
+      },
+      {
+        "metric": "Franchise LFL system sales",
+        "current": "+1.3%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "like-for-like",
+        "note": "vs H1 2025 comparable period"
+      },
+      {
+        "metric": "Operating profit",
+        "current": "£86.5m",
+        "prior": "not stated",
+        "change": "+22.9%",
+        "basis": "reported",
+        "note": "H1 2026"
+      },
+      {
+        "metric": "Profit before tax",
+        "current": "£76.0m",
+        "prior": "not stated",
+        "change": "+19.7%",
+        "basis": "reported",
+        "note": "H1 2026"
+      },
+      {
+        "metric": "Interim dividend",
+        "current": "19.0p",
+        "prior": "19.0p",
+        "change": "0%",
+        "basis": "per share",
+        "note": "flat year on year"
+      },
+      {
+        "metric": "Total shops",
+        "current": "2,773",
+        "prior": "not stated",
+        "change": "+34 net (H1)",
+        "basis": "estate count",
+        "note": "of which 627 franchised, at 27 June 2026"
+      },
+      {
+        "metric": "Food-to-go market share (visits)",
+        "current": "8.7%",
+        "prior": "8.4%",
+        "change": "+0.3pp",
+        "basis": "Circana CREST",
+        "note": "12 months to June 2026"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Full-year expectations (as previously set)",
+      "current": "The Board's expectations for the full-year outcome are unchanged",
+      "commentary": "Full-year guidance is maintained despite strong H1 profit growth, which partly reflected a soft prior-year comparator and cost-inflation phasing. 2026 net openings are now guided to 100-110 shops and capex has been trimmed from £200m to around £180m."
+    },
+    "explainer": "Greggs' headline growth looks strong, but the context matters. Total sales rose 7.2% partly through opening more shops and expanding grocery (Bake-at-Home with Tesco, Iceland) — the like-for-like measure, which strips out new and closed shops, was more modest at 2.1% for company-managed stores and 1.3% for franchises. That gap shows how much of the growth is coming from estate expansion rather than existing shops selling more.\n\nProfit grew faster than sales (PBT +19.7%, operating profit +22.9%) largely because the first half of 2025 was a weak comparator, alongside tight cost control and the timing of when cost inflation hits. Management is explicit that £11m of structural cost savings is targeted this year, with £7m already delivered, so some of the margin gain is phasing rather than a permanent step-change.\n\nOn guidance, nothing has changed: the Board still expects the same full-year outcome despite the strong first half, implying a more cautious view of the second half in a market where consumer confidence is subdued and food-to-go visits are actually declining (down 1.9%). Greggs is still winning share within that shrinking market.\n\nTwo capital signals: capex has been cut from £200m to around £180m, and the dividend was held flat at 19.0p. Management frames the lower capex and strong cash generation as creating room for additional shareholder returns, while restoring return on capital employed towards a ~20% target remains a stated focus.",
+    "source_url": "https://uk.advfn.com/stock-market/london/greggs-GRG/share-news/Greggs-PLC-Interim-Results/98999622",
+    "related_news_url": "https://news.google.com/search?q=%22Greggs%20plc%22",
+    "added_at": "2026-07-29T07:44:08.521720"
+  },
+  {
     "company": "Greatland Resources Ltd",
     "ticker": "GRR",
     "publish_date": "29 July 2026",
