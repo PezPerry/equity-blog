@@ -1,5 +1,104 @@
 [
   {
+    "company": "The Weir Group PLC",
+    "ticker": "WEIR",
+    "publish_date": "29 July 2026",
+    "date_iso": "2026-07-29",
+    "time_period": "H1 to 30 June 2026",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>H1 to 30 June 2026</strong> interim results: constant-currency <strong>orders +8%</strong> year on year (organic +4%), led by <strong>Q2</strong> momentum and market-share gains.</li><li><strong>Revenue +5%</strong> constant currency; adjusted operating margin <strong>18.8%</strong>, down <strong>100bps</strong> on a strong comparator and adverse product mix, with book-to-bill up to <strong>1.12</strong> (2025: 1.09).</li><li>Interim dividend raised <strong>2%</strong> to <strong>20.0p</strong> (2025: 19.6p), payable <strong>3 November 2026</strong> to holders on register <strong>2 October 2026</strong>.</li><li><strong>Net debt/EBITDA of 2.2x</strong> (after the <strong>£56m</strong> ESEL acquisition), expected to return toward <strong>1.5x</strong> by year end; free operating cash conversion <strong>41%</strong> (2025: 62%) on working-capital phasing.</li><li><strong>FY guidance reiterated</strong>: constant-currency growth in revenue, operating profit and margins; on track for <strong>£90m</strong> cumulative Performance Excellence savings and margins <strong>above 20%</strong> for the full year.</li><li>CEO <strong>Jon Stanton</strong> flags handover to successor <strong>Andrew</strong>; £72m cumulative savings delivered so far (£13m in H1).</li></ul>",
+    "source_format": "html",
+    "headline": "Weir posts H1 order growth of 8% and a 2% dividend rise, reiterating full-year guidance for constant-currency growth in revenue, profit and margins.",
+    "priority": "high",
+    "priority_reason": "Half-year results from a FTSE 100 mining-equipment group, with orders, margins, dividend and reiterated full-year guidance.",
+    "figures": [
+      {
+        "metric": "Orders (constant currency)",
+        "current": "+8% YoY (organic +4%)",
+        "prior": "not stated",
+        "change": "+8%",
+        "basis": "constant currency",
+        "note": "H1 to 30 June 2026; OE +10%, AM +8%"
+      },
+      {
+        "metric": "Revenue (constant currency)",
+        "current": "+5%",
+        "prior": "not stated",
+        "change": "+5%",
+        "basis": "constant currency",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Adjusted operating profit margin",
+        "current": "18.8%",
+        "prior": "not stated",
+        "change": "-100bps",
+        "basis": "constant currency",
+        "note": "declined 100bps against strong comparator"
+      },
+      {
+        "metric": "Interim dividend",
+        "current": "20.0p",
+        "prior": "19.6p",
+        "change": "+2%",
+        "basis": "",
+        "note": "per share; paid 3 November 2026"
+      },
+      {
+        "metric": "Book-to-bill",
+        "current": "1.12",
+        "prior": "1.09",
+        "change": "not stated",
+        "basis": "",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Free operating cash conversion",
+        "current": "41%",
+        "prior": "62%",
+        "change": "not stated",
+        "basis": "",
+        "note": "seasonality and working-capital phasing"
+      },
+      {
+        "metric": "Net debt to EBITDA",
+        "current": "2.2x",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "expected to return toward 1.5x at year end"
+      },
+      {
+        "metric": "ROCE (12 months to June)",
+        "current": "15.2%",
+        "prior": "17.7%",
+        "change": "not stated",
+        "basis": "",
+        "note": "down on higher net assets from acquisitions"
+      },
+      {
+        "metric": "Cumulative Performance Excellence savings",
+        "current": "£72m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "£13m delivered in H1; £90m targeted for 2026"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Constant-currency growth in revenue, operating profit and operating margins; £90m cumulative Performance Excellence savings in 2026; margins above 20% for the full year.",
+      "current": "Full-year guidance reiterated and 'in line with market expectations': constant-currency growth in revenue, operating profit and margins, £90m cumulative savings and margins above 20% for the full year.",
+      "commentary": "Guidance is unchanged and described as underpinned by the strong end-June orderbook, Q2 momentum and expected H2 improvement in product mix, cash conversion and savings delivery."
+    },
+    "explainer": "These are half-year figures for the six months to 30 June 2026. Weir presents most growth on a constant-currency basis, which strips out exchange-rate moves; order growth of 8% falls to 4% once acquisitions (such as the ESEL joint-venture buyout and the 2025 Micromine/Fast2Mine software deals) are excluded, so roughly half the growth is organic and half is bought-in.\n\nThe operating margin of 18.8% is down 100 basis points (one percentage point) year on year, but management stresses this is against an unusually strong prior-half comparator and reflects a temporary shift in product mix and the timing of cost savings. The company expects both to reverse in the second half and still targets full-year margins above 20%.\n\nThe weaker-looking cash figures are largely phasing. Free operating cash conversion of 41% (versus 62% a year earlier) and net debt at 2.2x EBITDA reflect extra working capital, stock built for production transfers, some delayed customer payments and the ESEL acquisition. Weir expects these to unwind, guiding to 90–100% cash conversion and a fall in leverage toward 1.5x by year end.\n\nCrucially, full-year guidance is maintained, not raised or cut: management reiterates constant-currency growth in revenue, operating profit and margins, £90m of cumulative efficiency savings and above-20% margins, framing H1 as first-half seasonality with a stronger H2 to follow.",
+    "source_url": "https://uk.advfn.com/stock-market/london/weir-WEIR/share-news/Weir-Group-PLC-Half-year-Financial-Report/98999659",
+    "related_news_url": "https://news.google.com/search?q=%22The%20Weir%20Group%20PLC%22",
+    "added_at": "2026-07-29T07:44:43.643469"
+  },
+  {
     "company": "Rio Tinto PLC",
     "ticker": "RIO",
     "publish_date": "29 July 2026",
