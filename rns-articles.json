@@ -1,5 +1,112 @@
 [
   {
+    "company": "Lancashire Holdings Ltd",
+    "ticker": "LRE",
+    "publish_date": "29 July 2026",
+    "date_iso": "2026-07-29",
+    "time_period": "H1 to 30 June 2026",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Lancashire Holdings</strong> reported an H1 2026 profit of <strong>$141.7 million</strong>, giving an annualised <strong>RoE of 19.6%</strong>.</li><li>Gross premiums written <strong>$1,315.0 million</strong> (down <strong>1%</strong> underlying year-on-year); insurance revenue <strong>$930.0 million</strong>, broadly flat; Group <strong>RPI of 92%</strong> reflects softening but not soft conditions.</li><li>Interim dividend of <strong>$0.075</strong> (approx <strong>£0.06</strong>) per common share, ~$18.0m in total, payable <strong>4 September 2026</strong> to holders of record on <strong>7 August 2026</strong>.</li><li>Catastrophe, weather and large-loss impact of <strong>$60.1 million</strong>, sharply lower than <strong>$211.2 million</strong> in H1 2025; reserve for the <strong>MV Dali Baltimore Bridge</strong> loss raised to full policy limits.</li><li>Total investment return of <strong>$51.3 million</strong> (2025: $108.2m), hit by a <strong>$29.6 million</strong> negative mark-to-market from higher government bond yields.</li><li>Guidance <strong>maintained</strong>: on track for <strong>high-teens RoE</strong> for full-year 2026; total capital available ~<strong>$2.0 billion</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Lancashire posted H1 2026 profit of $141.7m and 19.6% annualised RoE, declaring a 7.5c interim dividend and reaffirming high-teens full-year RoE guidance.",
+    "priority": "high",
+    "priority_reason": "Half-year results from a Main Market specialty (re)insurer, with profit, dividend and full-year RoE guidance reaffirmed.",
+    "figures": [
+      {
+        "metric": "Profit for the period",
+        "current": "$141.7m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Annualised RoE",
+        "current": "19.6%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "H1 2026"
+      },
+      {
+        "metric": "Gross premiums written",
+        "current": "$1,315.0m",
+        "prior": "not stated",
+        "change": "-1%",
+        "basis": "underlying, excluding prior-period reinstatement premiums",
+        "note": "H1 2026 year-on-year"
+      },
+      {
+        "metric": "Insurance revenue",
+        "current": "$930.0m",
+        "prior": "not stated",
+        "change": "flat",
+        "basis": "",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "Interim dividend per share",
+        "current": "$0.075",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "approx £0.06",
+        "note": "aggregate ~$18.0m"
+      },
+      {
+        "metric": "Catastrophe, weather and large-loss (net, undiscounted, ex-reinstatement)",
+        "current": "$60.1m",
+        "prior": "$211.2m",
+        "change": "not stated",
+        "basis": "",
+        "note": "prior year dominated by California wildfires"
+      },
+      {
+        "metric": "Total investment return",
+        "current": "$51.3m",
+        "prior": "$108.2m",
+        "change": "not stated",
+        "basis": "return of 1.2%",
+        "note": "includes $29.6m negative mark-to-market"
+      },
+      {
+        "metric": "Net investment income (ex realised/unrealised)",
+        "current": "$78.3m",
+        "prior": "$81.3m",
+        "change": "not stated",
+        "basis": "",
+        "note": ""
+      },
+      {
+        "metric": "Prior-year favourable reserve development",
+        "current": "$21.8m",
+        "prior": "$109.1m",
+        "change": "not stated",
+        "basis": "undiscounted net",
+        "note": ""
+      },
+      {
+        "metric": "Total capital available",
+        "current": "$2.0bn",
+        "prior": "$2.0bn",
+        "change": "flat",
+        "basis": "vs 31 December 2025",
+        "note": "shareholders' equity $1.5bn, long-term debt $0.5bn"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "High-teens RoE for 2026, as given at the start of the year",
+      "current": "On track to deliver high-teens RoE for full year 2026",
+      "commentary": "Full-year return-on-equity guidance is reaffirmed unchanged, with management noting rates will continue to reflect excess industry capacity but that discipline, reserves and reinsurance efficiency underpin performance."
+    },
+    "explainer": "These are half-year figures for the six months to 30 June 2026. Lancashire is a Bermuda-based specialty insurer and reinsurer, so its earnings swing heavily on catastrophe losses and investment markets. The headline profit of $141.7m and 19.6% annualised return on equity were helped by a much quieter loss year than 2025, when the California wildfires drove net catastrophe losses to $211.2m versus just $60.1m this time.\n\nThe top line was deliberately kept broadly flat. Gross premiums written of $1,315.0m were down 1% on an underlying basis (which strips out one-off reinstatement premiums that inflated the prior period). Softer pricing — the renewal price index was 92%, meaning rates fell around 8% on renewed business — was largely offset by acquiring 100% of Lloyd's Syndicate 2010's capacity and adding new underwriting lines.\n\nInvestment income tells a mixed story: underlying net investment income held steady near $78m, but total return dropped to $51.3m because higher government bond yields created a $29.6m negative mark-to-market on the bond portfolio. That is a paper valuation move, not a cash loss, on a short-duration, high-quality book. Lancashire also capped its exposure to the MV Dali Baltimore Bridge claim by reserving to full policy limits.\n\nOn guidance, nothing has changed: management reaffirmed the high-teens full-year RoE target set in January, and declared a 7.5 cents interim dividend. The message is one of steady, disciplined delivery through a softening but still adequately priced market.",
+    "source_url": "https://uk.advfn.com/stock-market/london/lancashire-LRE/share-news/Lancashire-Holdings-Limited-Lancashire-Holdings/98999907",
+    "related_news_url": "https://news.google.com/search?q=%22Lancashire%20Holdings%20Limited%22",
+    "added_at": "2026-07-29T07:40:57.008681"
+  },
+  {
     "company": "St. James's Place plc",
     "ticker": "STJ",
     "publish_date": "29 July 2026",
