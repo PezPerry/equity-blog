@@ -1,5 +1,138 @@
 [
   {
+    "company": "Plus500 Ltd",
+    "ticker": "PLUS",
+    "publish_date": "29 July 2026",
+    "date_iso": "2026-07-29",
+    "time_period": "",
+    "announcement_type": "Acquisition / deal",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Plus500</strong> announces a strategic partnership with <strong>Wealthsimple</strong>, Canada's leading financial innovator serving <strong>more than 4 million Canadians</strong> and holding <strong>C$150bn</strong> in assets under administration.</li><li>Plus500 will provide its <strong>institutional-grade clearing, order routing and risk management infrastructure</strong> — the same CFTC-regulated technology behind its US futures operations — to power <strong>US futures access for Canadian retail investors</strong>.</li><li>Adds to a growing B2B ecosystem alongside prior deals as clearing partner for <strong>CME Group</strong> and <strong>FanDuel's</strong> event-based contracts platform, and its partnership with <strong>Topstep</strong>; further B2B announcements expected.</li><li><strong>No financial terms or guidance impact</strong> disclosed; deemed inside information under MAR.</li></ul>",
+    "source_format": "html",
+    "headline": "Plus500 signs a strategic partnership with Canada's Wealthsimple to power first-ever US futures access for its 4 million retail clients.",
+    "priority": "medium",
+    "priority_reason": "A notable B2B commercial partnership expanding Plus500's futures infrastructure ecosystem, but no financial terms or guidance impact disclosed.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/plus500-PLUS/share-news/Plus500-Limited-Plus500-strategic-partnership-with/98999656",
+    "related_news_url": "https://news.google.com/search?q=%22Plus500%20Ltd%22",
+    "added_at": "2026-07-29T07:48:09.650769"
+  },
+  {
+    "company": "Aberdeen Group PLC",
+    "ticker": "ABDN",
+    "publish_date": "29 July 2026",
+    "date_iso": "2026-07-29",
+    "time_period": "H1 to 30 June 2026",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Aberdeen Group PLC</strong> H1 2026 Group adjusted operating profit up <strong>21%</strong> to <strong>£151m</strong> (H1 2025: <strong>£125m</strong>), driven by revenue growth and efficiency.</li><li>Net capital generation up <strong>47%</strong> to <strong>£163m</strong> (H1 2025: <strong>£111m</strong>); IFRS profit before tax <strong>£276m</strong> (H1 2025: <strong>£271m</strong>), including <strong>£100m</strong> of gains from the <strong>Standard Life plc</strong> stake.</li><li>Adjusted diluted EPS <strong>8.2p</strong> (H1 2025: <strong>7.5p</strong>); interim dividend maintained at <strong>7.3p</strong>. Total capital coverage stronger at <strong>229%</strong> (FY 2025: 218%).</li><li><strong>interactive investor</strong> AOP up <strong>18%</strong> to <strong>£84m</strong>, record net inflows of <strong>£6.8bn</strong>, customers up <strong>14%</strong> to <strong>525k</strong>; AUMA up <strong>15%</strong> to <strong>£108bn</strong>.</li><li><strong>Adviser</strong> AOP broadly stable at <strong>£41m</strong> with net outflows of <strong>£1.3bn</strong>; <strong>Investments</strong> AOP up <strong>9%</strong> to <strong>£38m</strong> but I&RW net outflows (ex-liquidity) of <strong>£5.6bn</strong> (incl. c.£4bn low-margin equities); new Adviser CEO <strong>Rich Denning</strong> appointed.</li><li>Guidance reaffirmed: FY 2026 targets of AOP of at least <strong>£300m</strong> and net capital generation of c.<strong>£300m</strong>; medium-term net capital generation growth of <strong>5-10% p.a.</strong> targeted.</li></ul>",
+    "source_format": "html",
+    "headline": "Aberdeen's H1 2026 adjusted operating profit rose 21% to £151m and net capital generation jumped 47%, with FY 2026 targets reaffirmed.",
+    "priority": "high",
+    "priority_reason": "Half-year results from a FTSE 100 asset manager, with profit, capital generation and full-year guidance detail.",
+    "figures": [
+      {
+        "metric": "Group adjusted operating profit",
+        "current": "£151m",
+        "prior": "£125m",
+        "change": "+21%",
+        "basis": "adjusted",
+        "note": "H1 to 30 June 2026 vs H1 2025"
+      },
+      {
+        "metric": "IFRS profit before tax",
+        "current": "£276m",
+        "prior": "£271m",
+        "change": "+1.8%",
+        "basis": "IFRS",
+        "note": "includes £100m gain on Standard Life plc stake (H1 2025: £155m gain)"
+      },
+      {
+        "metric": "Net capital generation",
+        "current": "£163m",
+        "prior": "£111m",
+        "change": "+47%",
+        "basis": "not stated",
+        "note": "aided by DB pension surplus actions"
+      },
+      {
+        "metric": "Adjusted diluted EPS",
+        "current": "8.2p",
+        "prior": "7.5p",
+        "change": "not stated",
+        "basis": "adjusted diluted",
+        "note": "H1 2026"
+      },
+      {
+        "metric": "Interim dividend",
+        "current": "7.3p",
+        "prior": "7.3p",
+        "change": "maintained",
+        "basis": "per share",
+        "note": "interim"
+      },
+      {
+        "metric": "Total capital coverage",
+        "current": "229%",
+        "prior": "218%",
+        "change": "+11ppts",
+        "basis": "not stated",
+        "note": "vs FY 2025"
+      },
+      {
+        "metric": "Group AUMA",
+        "current": "£579.4bn",
+        "prior": "£556.0bn",
+        "change": "+4%",
+        "basis": "not stated",
+        "note": "vs FY 2025; Group outflows ex-liquidity £1.0bn"
+      },
+      {
+        "metric": "interactive investor AOP",
+        "current": "£84m",
+        "prior": "£71m",
+        "change": "+18%",
+        "basis": "adjusted, ex financial planning",
+        "note": "record net inflows £6.8bn; customers 525k"
+      },
+      {
+        "metric": "Adviser AOP",
+        "current": "£41m",
+        "prior": "£42m",
+        "change": "broadly stable",
+        "basis": "adjusted",
+        "note": "net outflows £1.3bn"
+      },
+      {
+        "metric": "Investments AOP",
+        "current": "£38m",
+        "prior": "£35m",
+        "change": "+9%",
+        "basis": "adjusted",
+        "note": "I&RW net outflows ex-liquidity £5.6bn"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "FY 2026 targets of adjusted operating profit of at least £300m and net capital generation of c.£300m",
+      "current": "Confident in delivery of FY 2026 targets: adjusted operating profit of at least £300m and net capital generation of c.£300m; beyond 2026, targeting net capital generation growth of 5-10% per annum over the medium term",
+      "commentary": "Full-year targets reaffirmed. By division: ii FY 2026 revenue to grow in line with customers and cost/AUMA <18bps; Adviser H2 profitability broadly flat; Investments AOP to step up in H2 on bolt-on acquisitions, higher markets and other fees, with expenses rising modestly."
+    },
+    "explainer": "These are half-year figures for the six months to 30 June 2026, compared with the same period in 2025. \"Adjusted operating profit\" strips out one-off items to show underlying trading; on that measure Group profit rose 21% to £151m. The larger IFRS profit before tax of £276m looks flatter year-on-year mainly because it includes a £100m paper gain on Aberdeen's 10% stake in Standard Life plc — smaller than the £155m gain booked a year earlier — so the reported number is distorted by that mark-to-market swing rather than trading.\n\nThe standout is interactive investor, the UK direct-to-consumer platform, which delivered record net inflows of £6.8bn, 14% customer growth and 18% higher profit — the main engine behind the Group result. Treasury income (interest earned on customer cash) rose 33% as cash balances and margins climbed, which flatters ii's revenue and could reverse if UK interest rates fall.\n\nThe weaker spots are Adviser (flat profit, continued net outflows of £1.3bn) and Investments, where headline profit rose 9% on cost cuts but flows were poor: net outflows excluding liquidity of £5.6bn, including roughly £4bn of low-margin equities withdrawals already flagged. A £1bn credit mandate slipped out of Q2 and only funded in early July, so it is not in these numbers.\n\nOn guidance, nothing changed: the Group reaffirmed FY 2026 targets of at least £300m adjusted operating profit and about £300m of net capital generation, and set a medium-term ambition of 5-10% annual growth in net capital generation. The interim dividend was held at 7.3p.",
+    "source_url": "https://uk.advfn.com/stock-market/london/aberdeen-ABDN/share-news/Aberdeen-Group-PLC-Half-year-Financial-Report/98999653",
+    "related_news_url": "https://news.google.com/search?q=%22Aberdeen%20Group%20PLC%22",
+    "added_at": "2026-07-29T07:48:09.638092"
+  },
+  {
     "company": "Paragon Banking Group PLC",
     "ticker": "PAG",
     "publish_date": "29 July 2026",
