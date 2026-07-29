@@ -1,5 +1,181 @@
 [
   {
+    "company": "Reckitt Benckiser Group plc",
+    "ticker": "RKT",
+    "publish_date": "29 July 2026",
+    "date_iso": "2026-07-29",
+    "time_period": "H1 to 30 June 2026",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Reckitt Benckiser Group plc</strong> published <strong>half-year results for the six months ended 30 June 2026</strong>; the detailed financial statement is provided only via a <strong>linked LSE PDF</strong>, so revenue, profit and EPS figures are not in this announcement text.</li><li>Interim 2026 dividend of <strong>88.6 pence</strong> declared, up from <strong>84.4 pence</strong> in interim 2025 (<strong>+5.0%</strong>), in line with the progressive dividend policy.</li><li>New share buyback programme to commence imminently, repurchasing <strong>up to £500 million</strong> of shares over the <strong>next twelve months</strong>.</li><li>Dividend timetable: ex-dividend <strong>6 August 2026</strong>, record date <strong>7 August 2026</strong>, payment <strong>18 September 2026</strong>.</li><li>Investor presentation and Q&A webcast held at <strong>08:30 BST on 29 July 2026</strong>.</li><li>Source text does not contain the trading figures — full financials require the linked results statement.</li></ul>",
+    "source_format": "html",
+    "headline": "Reckitt reports H1 2026 results, lifts the interim dividend to 88.6p and launches a new buyback of up to £500m over twelve months.",
+    "priority": "high",
+    "priority_reason": "Half-year results with a dividend increase and a new share buyback programme.",
+    "figures": [
+      {
+        "metric": "Interim dividend",
+        "current": "88.6p",
+        "prior": "84.4p",
+        "change": "+5.0%",
+        "basis": "per share",
+        "note": "Interim 2026 vs interim 2025"
+      }
+    ],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "This is Reckitt's half-year results announcement for the six months to 30 June 2026. Importantly, the scraped page contains only the headline capital-return items — the dividend and buyback — while the actual trading numbers (revenue, operating profit, margins, EPS) sit inside a separate PDF hosted on the London Stock Exchange RNS system. No revenue or profit comparatives are stated in this text, so none are reported above.\n\nThe interim dividend has been raised to 88.6 pence from 84.4 pence a year earlier, a 5.0% increase, which the board frames as consistent with its progressive dividend policy. Alongside this, Reckitt is starting a new buyback of up to £500 million of shares over the next twelve months, adding to shareholder returns.\n\nNo explicit full-year guidance figure is quoted in this announcement, so guidance status is left as none; any outlook statements would be contained in the linked results document.",
+    "source_url": "https://uk.advfn.com/stock-market/london/reckitt-benckiser-RKT/share-news/Reckitt-Benckiser-Group-PLC-Results-for-the-Six-Mo/98999663",
+    "related_news_url": "https://news.google.com/search?q=%22Reckitt%20Benckiser%20Group%20plc%22",
+    "added_at": "2026-07-29T07:50:01.290589"
+  },
+  {
+    "company": "Metlen Energy & Metals Plc",
+    "ticker": "MTLN",
+    "publish_date": "29 July 2026",
+    "date_iso": "2026-07-29",
+    "time_period": "",
+    "announcement_type": "Acquisition / deal",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Metlen</strong> has signed a long-term commercial agreement to supply approximately <strong>25%</strong> of the annual gallium production from its <strong>planned production facility in Greece</strong>; terms are <strong>confidential</strong>.</li><li>Described as the <strong>first major commercial gallium supply agreement</strong> between a European producer and a <strong>leading US technology company</strong> — the buyer is not named.</li><li>Gallium is a <strong>critical raw material</strong> for AI, advanced renewables, telecoms and defence, with global production currently highly concentrated.</li><li>Metlen says it is the <strong>first company in Europe</strong> to establish integrated gallium production; the project is a <strong>Strategic Project</strong> under the EU <strong>Critical Raw Materials Act (CRMA)</strong>, with <strong>EIB</strong> financing approved under <strong>REPowerEU</strong>.</li><li>Announcement contains <strong>inside information</strong> under UK/EU MAR; no financial value, volume or timing for the deal is disclosed.</li></ul>",
+    "source_format": "html",
+    "headline": "Metlen signs first major commercial agreement to supply about 25% of annual gallium output from its planned Greek facility to a leading US technology company.",
+    "priority": "high",
+    "priority_reason": "First major commercial gallium supply deal for a European producer and inside information for a FTSE 100 constituent — a strategic contract win.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/metlen-energy-and-metals-MTLN/share-news/Metlen-Energy-Metals-PLC-METLEN-Signs-Landmark-G/98999668",
+    "related_news_url": "https://news.google.com/search?q=%22Metlen%20Energy%20%26%20Metals%20Plc%22",
+    "added_at": "2026-07-29T07:50:01.258299"
+  },
+  {
+    "company": "Franchise Brands PLC",
+    "ticker": "FRAN",
+    "publish_date": "29 July 2026",
+    "date_iso": "2026-07-29",
+    "time_period": "H1 2026 (six months ended 30 June 2026)",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 2026 (six months ended 30 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Franchise Brands plc</strong> (AIM: FRAN) H1 2026 (six months to <strong>30 June 2026</strong>): system sales up <strong>6.7% to £229.2m</strong> (H1 2025 restated: £214.9m); statutory revenue up <strong>7.4% to £75.6m</strong>.</li><li>Adjusted EBITDA up <strong>6.5% to £18.5m</strong>; adjusted PBT up <strong>7.8% to £12.6m</strong>; statutory PBT up <strong>42% to £8.4m</strong>. Adjusted EPS up <strong>8.9% to 4.81p</strong>; basic EPS up <strong>45.0% to 3.20p</strong>.</li><li>Continued deleveraging: adjusted net debt cut by <strong>£9.2m to £52.9m</strong>, reducing leverage to <strong>1.5x</strong> (30 June 2025: 1.8x); cash conversion <strong>81%</strong>.</li><li>Interim dividend raised <strong>9% to 1.25p</strong> (H1 2025: 1.15p). <strong>Filta International</strong> in the <strong>US</strong> was the standout performer on elevated UCO prices and volumes; UK and Europe growth recovering.</li><li>Board changes: <strong>Neil Miller</strong> appointed Group CFO; <strong>Andrew Mallows</strong> moves to newly created Group Delivery Director role.</li><li>Full-year performance expected <strong>in line with market expectations</strong> (FY26 adjusted EBITDA consensus of <strong>£35.9m to £38.0m</strong>); no H2 macro tailwinds assumed.</li></ul>",
+    "source_format": "html",
+    "headline": "Franchise Brands returns to stronger growth in H1 2026, with system sales up 6.7% to £229.2m and full-year performance expected in line with market expectations.",
+    "priority": "high",
+    "priority_reason": "Interim results with EBITDA, EPS, dividend and net debt data plus full-year guidance confirmation.",
+    "figures": [
+      {
+        "metric": "System sales",
+        "current": "£229.2m",
+        "prior": "£214.9m",
+        "change": "+6.7%",
+        "basis": "H1 2025 restated from £209.4m for Pirtek DLO operations",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Statutory revenue",
+        "current": "£75.6m",
+        "prior": "£70.4m",
+        "change": "+7.4%",
+        "basis": "",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Adjusted EBITDA",
+        "current": "£18.5m",
+        "prior": "£17.4m",
+        "change": "+6.5%",
+        "basis": "",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Adjusted profit before tax",
+        "current": "£12.6m",
+        "prior": "£11.7m",
+        "change": "+7.8%",
+        "basis": "",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Profit before tax (statutory)",
+        "current": "£8.4m",
+        "prior": "£5.9m",
+        "change": "+42%",
+        "basis": "",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Adjusted EPS",
+        "current": "4.81p",
+        "prior": "4.42p",
+        "change": "+8.9%",
+        "basis": "",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Basic EPS",
+        "current": "3.20p",
+        "prior": "2.21p",
+        "change": "+45.0%",
+        "basis": "",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Adjusted net debt",
+        "current": "£52.9m",
+        "prior": "£62.0m",
+        "change": "-£9.2m",
+        "basis": "leverage 1.5x vs 1.8x; excludes £8.7m right-of-use asset debt",
+        "note": "as at 30 June 2026"
+      },
+      {
+        "metric": "Interest charge",
+        "current": "£2.6m",
+        "prior": "£3.0m",
+        "change": "-16%",
+        "basis": "",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Cash conversion",
+        "current": "81%",
+        "prior": "83%",
+        "change": "not stated",
+        "basis": "adjusted EBITDA converted to adjusted operating cash",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Interim dividend",
+        "current": "1.25p",
+        "prior": "1.15p",
+        "change": "+9%",
+        "basis": "",
+        "note": "per share"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Full year performance in line with market expectations",
+      "current": "Full year performance in line with market expectations; current market expectations of adjusted EBITDA for FY ending 31 December 2026 are £35.9m to £38.0m",
+      "commentary": "Guidance reaffirmed for the full year, with management prudently assuming no H2 macro tailwinds. Confidence rests on strategic initiatives, cost control and the essential, non-discretionary nature of the services."
+    },
+    "explainer": "These are unaudited interim results for the six months to 30 June 2026. 'System sales' is the total sales generated by franchise partners across the network, from which the Group earns an average management service fee of about 15%; statutory revenue is the Group's own recognised income. Note that the prior-year system sales figure was restated upward from £209.4m to £214.9m because certain Pirtek directly-operated (DLO) operations had not previously been counted, so the 6.7% growth is measured against the restated base.\n\nThe gap between adjusted and statutory numbers is significant. Adjusted profit before tax (£12.6m) strips out amortisation of acquired intangibles, share-based payments and non-recurring items, and rose a modest 7.8%. Statutory PBT (£8.4m) jumped 42%, and basic EPS 45%, largely because those below-the-line charges were smaller than a year earlier, flattering the reported growth rate versus the underlying adjusted trend.\n\nDeleveraging is a key theme: adjusted net debt fell £9.2m to £52.9m, cutting leverage to 1.5x from 1.8x, helped by strong cash conversion (81%) and a lower interest charge. The dividend was raised 9% to 1.25p, reflecting the cash-generative franchise model.\n\nOn guidance, the Group maintained its outlook: full-year performance is expected in line with market expectations, defined as FY26 adjusted EBITDA of £35.9m to £38.0m. Management is deliberately cautious, assuming no improvement in market conditions in H2, so confidence rests on self-help measures — the One Franchise Brands platform, cost control and the essential nature of the services — rather than any macro recovery.",
+    "source_url": "https://uk.advfn.com/stock-market/london/franchise-brands-FRAN/share-news/Franchise-Brands-PLC-Interim-Results/98999673",
+    "related_news_url": "https://news.google.com/search?q=%22Franchise%20Brands%20plc%22",
+    "added_at": "2026-07-29T07:50:01.199089"
+  },
+  {
     "company": "Shaftesbury Capital PLC",
     "ticker": "SHC",
     "publish_date": "29 July 2026",
