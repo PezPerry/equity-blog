@@ -1,5 +1,120 @@
 [
   {
+    "company": "Standard Chartered PLC",
+    "ticker": "STAN",
+    "publish_date": "29 July 2026",
+    "date_iso": "2026-07-29",
+    "time_period": "H1 (six months) to 30 June 2026",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 (six months) to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Standard Chartered PLC</strong> reported <strong>record H1 2026 profit before tax of $4.8bn</strong>, up <strong>9 per cent</strong>, with <strong>EPS up 17 per cent to 151.6 cents</strong>.</li><li><strong>Record operating income of $11.6bn</strong>, up <strong>6 per cent</strong> (up <strong>8 per cent</strong> excluding the prior-year <strong>Solv India</strong> gain); <strong>Wealth Solutions up 38 per cent</strong> and <strong>Global Banking up 19 per cent</strong>.</li><li>New <strong>$1.0bn share buyback</strong> commencing imminently (after the <strong>$1.5bn</strong> buyback done in H1); <strong>interim dividend up 66 per cent to 20.4 cents per share</strong> ($448m).</li><li><strong>Upgraded 2026 income guidance</strong>: operating income growth now seen around the middle of the <strong>5-7 per cent</strong> range at constant currency; expenses ex-notables around <strong>$13.3bn</strong>.</li><li><strong>CET1 ratio of 14.2 per cent</strong> (up 77bps q/q); <strong>RoTE broadly flat at 17.9 per cent</strong> in Q2; credit impairment of <strong>$446m</strong> including a <strong>$234m Middle East management overlay</strong>.</li><li>CEO <strong>Bill Winters</strong> cited a \"record first half\" and \"confidence in the business\"; comparisons stated on a constant-currency basis unless noted.</li></ul>",
+    "source_format": "html",
+    "headline": "Standard Chartered posted record H1 pre-tax profit of $4.8bn, up 9%, lifted income guidance and launched a new $1.0bn share buyback.",
+    "priority": "high",
+    "priority_reason": "Half-year results with a record profit, upgraded income guidance and a new $1.0bn buyback — market-moving for the shares.",
+    "figures": [
+      {
+        "metric": "Operating income",
+        "current": "$11.6bn",
+        "prior": "not stated",
+        "change": "+6%",
+        "basis": "constant currency; +8% ex-Solv India gain",
+        "note": "H1 to 30 June 2026 vs H1 2025"
+      },
+      {
+        "metric": "Profit before tax",
+        "current": "$4.8bn",
+        "prior": "not stated",
+        "change": "+9%",
+        "basis": "reported",
+        "note": "record; H1 2026"
+      },
+      {
+        "metric": "Earnings per share",
+        "current": "151.6 cents",
+        "prior": "not stated",
+        "change": "+17%",
+        "basis": "",
+        "note": "H1 2026"
+      },
+      {
+        "metric": "Net interest income (adjusted)",
+        "current": "$5.7bn",
+        "prior": "not stated",
+        "change": "+4%",
+        "basis": "constant currency",
+        "note": "H1 2026"
+      },
+      {
+        "metric": "Non-interest income (adjusted)",
+        "current": "$5.9bn",
+        "prior": "not stated",
+        "change": "+8%",
+        "basis": "+13% ex-Solv India gain",
+        "note": "H1 2026"
+      },
+      {
+        "metric": "Operating expenses",
+        "current": "$6.3bn",
+        "prior": "not stated",
+        "change": "+1%",
+        "basis": "+2% excluding notables",
+        "note": "H1 2026"
+      },
+      {
+        "metric": "Credit impairment charge",
+        "current": "$446m",
+        "prior": "not stated",
+        "change": "+$110m",
+        "basis": "26bps annualised loss rate; incl. $234m Middle East overlay",
+        "note": "H1 2026"
+      },
+      {
+        "metric": "Interim ordinary dividend",
+        "current": "20.4 cents per share",
+        "prior": "not stated",
+        "change": "+66%",
+        "basis": "$448m total",
+        "note": "H1 2026"
+      },
+      {
+        "metric": "CET1 ratio",
+        "current": "14.2%",
+        "prior": "not stated",
+        "change": "+77bps q/q",
+        "basis": "$1.0bn buyback to reduce ratio by 38bps",
+        "note": "at 30 June 2026"
+      },
+      {
+        "metric": "Return on Tangible Equity (RoTE)",
+        "current": "17.9% (Q2)",
+        "prior": "not stated",
+        "change": "broadly flat",
+        "basis": "Q2 2026",
+        "note": ""
+      },
+      {
+        "metric": "Tangible net asset value per share",
+        "current": "$17.55",
+        "prior": "not stated",
+        "change": "+4%",
+        "basis": "",
+        "note": ""
+      }
+    ],
+    "guidance": {
+      "status": "raised",
+      "previous": "Prior 2026 income guidance not restated in this text (income growth range referenced as 5-7 per cent).",
+      "current": "Operating income growth year-on-year to be around the middle of the 5-7 per cent range at constant currency, excluding material notables; within which NII expected to show low single-digit percentage growth; expenses excluding notables around $13.3bn at constant currency.",
+      "commentary": "Management describes the income guidance as 'upgraded'/'revised', now pointing to the middle of the 5-7% range, reflecting momentum in Wealth Solutions and Global Banking. The new $1.0bn buyback signals confidence alongside the guidance change."
+    },
+    "explainer": "These are half-year figures for the six months to 30 June 2026, reported in US dollars. Standard Chartered presents growth on a constant-currency basis — stripping out exchange-rate moves — so the headline percentage changes reflect underlying business trends rather than currency swings. Several comparisons are also shown 'excluding the Solv India transaction', a $238m one-off gain booked in Q2 2025; excluding it, underlying income growth looks stronger (8% for the half rather than 6%), because the prior-year base was flattered by that disposal gain.\n\nOn guidance, the bank says it has upgraded its 2026 income outlook: it now expects operating income growth around the middle of the 5-7% range at constant currency (excluding material notable items), driven by Wealth Solutions (up 38%) and Global Banking (up 19%). Net interest income — earnings from lending margins — is guided to only low single-digit growth, as lower interest rates offset higher volumes, so the growth story is increasingly fee-led. Costs excluding notables are guided to about $13.3bn.\n\nThe $446m credit impairment charge includes a $234m 'management overlay' for Middle East-related exposures — a precautionary provision set aside against potential future losses from the regional conflict, not actual defaults incurred. Capital returns step up: the interim dividend rises 66% and a new $1.0bn buyback follows the $1.5bn already completed in H1, funded by strong profit generation and a CET1 ratio of 14.2%.",
+    "source_url": "https://uk.advfn.com/stock-market/london/standard-chartered-STAN/share-news/Standard-Chartered-PLC-SCPLC-Half-Year-Results-202/98999682",
+    "related_news_url": "https://news.google.com/search?q=%22Standard%20Chartered%20PLC%22",
+    "added_at": "2026-07-29T07:50:42.280319"
+  },
+  {
     "company": "Reckitt Benckiser Group plc",
     "ticker": "RKT",
     "publish_date": "29 July 2026",
