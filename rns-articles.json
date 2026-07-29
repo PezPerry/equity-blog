@@ -1,5 +1,88 @@
 [
   {
+    "company": "Paragon Banking Group PLC",
+    "ticker": "PAG",
+    "publish_date": "29 July 2026",
+    "date_iso": "2026-07-29",
+    "time_period": "Nine months to 30 June 2026 (Q3 FY26)",
+    "announcement_type": "Trading update",
+    "period_detail": "Nine months to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Paragon Banking Group PLC</strong> delivered <strong>continued strong trading</strong> for the nine months to June, with <strong>FY26 guidance unchanged</strong> from the half year.</li><li>Aggregate new advances <strong>up 4.3%</strong> year-on-year at <strong>£2.06 billion</strong> (2025 Q3: £1.98 billion); net loan book <strong>+3.0%</strong> over 12 months, or <strong>+6.1%</strong> underlying excluding legacy run-off.</li><li>Mortgage advances <strong>+1.2%</strong> at <strong>£1.12 billion</strong> (buy-to-let pipeline <strong>£0.62 billion</strong>); Commercial Lending advances <strong>+8.2%</strong> at <strong>£0.94 billion</strong> (pipeline <strong>£0.61 billion</strong>).</li><li>Credit remains strong: buy-to-let arrears down <strong>10bps</strong> to <strong>40bps</strong>; new <strong>Agricultural</strong> and <strong>bridging</strong> teams joined, with first bridging products due in Q1 FY27.</li><li><strong>SFS disposal</strong> completed <strong>10 July</strong>, delivering a circa <strong>£27 million</strong> one-off gain (excluded from underlying results); Tier 2 bond refinanced and upsized to <strong>£200 million</strong>.</li><li>Proforma June 2026 capital ratios: <strong>CET1 13.5%</strong>, <strong>Tier 1 15.2%</strong>, <strong>TCR 16.9%</strong>; full-year results due <strong>1 December 2026</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Paragon reports continued strong trading with new advances up 4.3% to £2.06bn for the nine months, and reconfirms unchanged FY26 guidance.",
+    "priority": "high",
+    "priority_reason": "Q3 trading update with volume, credit and capital detail plus FY26 guidance reconfirmation — market-moving for the shares.",
+    "figures": [
+      {
+        "metric": "Aggregate new advances",
+        "current": "£2.06bn",
+        "prior": "£1.98bn",
+        "change": "+4.3%",
+        "basis": "reported",
+        "note": "nine months to June, 2025 Q3 comparative"
+      },
+      {
+        "metric": "Mortgage advances",
+        "current": "£1.12bn",
+        "prior": "£1.11bn",
+        "change": "+1.2%",
+        "basis": "reported",
+        "note": "nine months to June"
+      },
+      {
+        "metric": "Commercial Lending advances",
+        "current": "£0.94bn",
+        "prior": "£0.87bn",
+        "change": "+8.2%",
+        "basis": "reported",
+        "note": "nine months to June"
+      },
+      {
+        "metric": "Net loan book growth",
+        "current": "+3.0% (6.1% underlying)",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "12 months to 30 June 2026",
+        "note": "underlying excludes legacy portfolio run-off"
+      },
+      {
+        "metric": "Buy-to-let arrears",
+        "current": "40bps",
+        "prior": "50bps",
+        "change": "-10bps in quarter",
+        "basis": "reported",
+        "note": "at end of June"
+      },
+      {
+        "metric": "Retail savings balances",
+        "current": "£15.1bn",
+        "prior": "£15.3bn",
+        "change": "-£0.2bn in quarter",
+        "basis": "reported",
+        "note": "use made of Bank of England repo facilities"
+      },
+      {
+        "metric": "CET1 ratio (proforma)",
+        "current": "13.5%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "proforma reflecting SFS, distributions and full H2 buyback",
+        "note": "June 2026"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "FY26 guidance as set at the half year (buy-to-let demand sensitivity reflected in the H1 guidance update)",
+      "current": "FY26 guidance unchanged; well positioned to deliver further growth in FY27",
+      "commentary": "Guidance for FY26 is reconfirmed with volumes, margins, costs and capital all in line with expectations. No numeric guidance figures were reproduced in the update; management points to new growth avenues (Agricultural lending, bridging) supporting FY27."
+    },
+    "explainer": "This is a third-quarter trading update covering the nine months to 30 June 2026, ahead of full-year results on 1 December. Paragon's year-on-year advance figures compare against the equivalent 2025 Q3 period. The headline loan book grew 3.0% over twelve months, but the company stresses a 6.1% \"underlying\" rate that strips out the shrinkage of its old (legacy) mortgage portfolio, which is deliberately running off — so the core lending book is growing roughly twice as fast as the reported number suggests.\n\nGrowth is skewed towards Commercial Lending (+8.2%) over Mortgages (+1.2%), consistent with Paragon's diversification strategy. Buy-to-let was soft in April and May on interest-rate sensitivity — a weakness already flagged at the half year — but application flows normalised in June. Credit quality is improving, with buy-to-let arrears down to 40 basis points.\n\nOn guidance, nothing has changed: FY26 expectations set at the half year are reconfirmed, with trading described as in line across volumes, margins, costs and capital. There is no upgrade or downgrade here — the message is stability plus optionality from new Agricultural and bridging lending teams expected to contribute from FY27.\n\nSeparately, the July completion of the SFS disposal produces a circa £27 million one-off gain that will be excluded from underlying results (so it should not be read as recurring profit), while strengthening capital — proforma CET1 of 13.5%. The Tier 2 bond refinancing at a much tighter spread (gilts +205bps versus the old +395.6bps) lowers funding costs.",
+    "source_url": "https://uk.advfn.com/stock-market/london/paragon-banking-PAG/share-news/Paragon-Banking-Group-PLC-Trading-Update/98999600",
+    "related_news_url": "https://news.google.com/search?q=%22Paragon%20Banking%20Group%20PLC%22",
+    "added_at": "2026-07-29T07:46:27.206441"
+  },
+  {
     "company": "Aston Martin Lagonda Global Holdings PLC",
     "ticker": "AML",
     "publish_date": "29 July 2026",
