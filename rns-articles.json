@@ -1,5 +1,96 @@
 [
   {
+    "company": "Shaftesbury Capital PLC",
+    "ticker": "SHC",
+    "publish_date": "29 July 2026",
+    "date_iso": "2026-07-29",
+    "time_period": "H1 to 30 June 2026",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Shaftesbury Capital PLC</strong> reported <strong>interim results for the six months to 30 June 2026</strong>, with <strong>EPRA NTA up 3.9% to 223 pence</strong> per share and a <strong>total accounting return of 4.9%</strong>.</li><li>Portfolio valuation increased <strong>3.4% like-for-like to £5.6 billion</strong>, supported by <strong>3.8% like-for-like ERV growth to £281 million</strong> and a <strong>total property return of 5.0%</strong>.</li><li><strong>H1 underlying earnings up 8% to 2.4 pence</strong> per share; <strong>interim dividend raised 16% to 2.2 pence</strong> per share.</li><li><strong>226 leasing transactions</strong> (<strong>£23.2 million</strong> of contracted rent) completed <strong>5% ahead of December 2025 ERV</strong> and <strong>18% ahead of previous passing rents</strong>; occupancy high with only <strong>2.6% of ERV available to let</strong>.</li><li><strong>£31.2 million</strong> invested via acquisitions and capex; <strong>£64.7 million</strong> raised from disposal of the non-core <strong>Lillie Square</strong> interest, broadly in line with valuation.</li><li>Strong balance sheet with <strong>EPRA LTV of 16%</strong>; in June 2026 the <strong>Covent Garden partnership</strong> signed a new <strong>£300 million unsecured RCF</strong> (five-year maturity, two one-year extensions); management remains <strong>confident in medium-term targets</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Shaftesbury Capital's H1 portfolio valuation rose 3.4% like-for-like to £5.6bn, with underlying earnings up 8% and the interim dividend raised 16%.",
+    "priority": "high",
+    "priority_reason": "Half-year results from a FTSE-250 REIT, showing valuation, earnings and dividend progression.",
+    "figures": [
+      {
+        "metric": "Portfolio valuation (under management)",
+        "current": "£5.6bn",
+        "prior": "not stated",
+        "change": "+3.4%",
+        "basis": "like-for-like",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "ERV",
+        "current": "£281m",
+        "prior": "not stated",
+        "change": "+3.8%",
+        "basis": "like-for-like",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "EPRA NTA per share",
+        "current": "223p",
+        "prior": "215p",
+        "change": "+3.9%",
+        "basis": "8p increase",
+        "note": "total accounting return 4.9%"
+      },
+      {
+        "metric": "Underlying earnings per share",
+        "current": "2.4p",
+        "prior": "not stated",
+        "change": "+8%",
+        "basis": "underlying",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Interim dividend per share",
+        "current": "2.2p",
+        "prior": "not stated",
+        "change": "+16%",
+        "basis": "declared",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Annualised gross income",
+        "current": "£219.5m",
+        "prior": "not stated",
+        "change": "+2.0%",
+        "basis": "like-for-like",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "EPRA LTV",
+        "current": "16%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "at 30 June 2026"
+      },
+      {
+        "metric": "Group cost ratio",
+        "current": "32%",
+        "prior": "33%",
+        "change": "-1pt",
+        "basis": "vs full-year 2025",
+        "note": "cost efficiency"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Medium-term targets",
+      "current": "Remains confident in achieving medium-term targets",
+      "commentary": "No numerical change to guidance; management reiterated confidence in its medium-term targets, supported by a strong leasing pipeline, high occupancy and a robust balance sheet."
+    },
+    "explainer": "This is a half-year (six months to 30 June 2026) results statement from a central London mixed-use REIT. The headline valuation and rental figures are quoted 'like-for-like', meaning they strip out the effect of acquisitions and disposals so the underlying portfolio's movement can be compared cleanly with the prior period. Property-level figures such as the £5.6bn valuation and £281m ERV are stated at 100% of the portfolio under management; the Group's own share is lower because the Covent Garden estate has been 75%-owned since the NBIM partnership was established on 1 April 2025, with NBIM's 25% shown as a non-controlling interest under IFRS.\n\nERV (estimated rental value) is the market rent the portfolio could achieve; the company notes that ERV is 28% above current passing rent, indicating scope to lift income as leases are renewed. New leasing completing 18% ahead of previous passing rents and 5% ahead of December 2025 ERV shows the company is capturing that reversion. EPRA NTA (net tangible assets) of 223p is the industry-standard measure of a REIT's underlying net asset value per share, up 8p on the back of the valuation uplift.\n\nOn guidance, there is no change to the numbers: the company reiterates confidence in its unchanged medium-term targets. The 16% dividend increase and 8% rise in underlying earnings reflect rental growth and cost efficiencies (the cost ratio fell to 32% from 33%), rather than any reset of the outlook.",
+    "source_url": "https://uk.advfn.com/stock-market/london/shaftesbury-capital-SHC/share-news/Shaftesbury-Capital-PLC-Half-year-Report/98999639",
+    "related_news_url": "https://news.google.com/search?q=%22Shaftesbury%20Capital%20PLC%22",
+    "added_at": "2026-07-29T07:49:08.764918"
+  },
+  {
     "company": "Rathbones Group Plc",
     "ticker": "RAT",
     "publish_date": "29 July 2026",
