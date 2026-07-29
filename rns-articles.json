@@ -1,5 +1,31 @@
 [
   {
+    "company": "Diageo PLC",
+    "ticker": "DGE",
+    "publish_date": "29 July 2026",
+    "date_iso": "2026-07-29",
+    "time_period": "FY26 (fiscal 2026)",
+    "announcement_type": "Board / management change",
+    "period_detail": "FY26 (fiscal 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Diageo</strong> will release its <strong>full year fiscal 26 preliminary results</strong> on <strong>Thursday 6 August 2026</strong> at <strong>11am UK</strong> (12 CET).</li><li>A <strong>Capital Markets Day</strong> follows the same afternoon, webcast from <strong>1.30pm UK</strong> (2.30pm CET) via diageo.com.</li><li>An audio recording and presentation on the FY26 results will be shared shortly after the 11am release.</li><li>Routine scheduling notice with <strong>no impact</strong> on current trading or guidance; the CMD may carry strategic significance for the numbers themselves.</li></ul>",
+    "source_format": "html",
+    "headline": "Diageo will publish its FY26 preliminary results on Thursday 6 August 2026, followed by a Capital Markets Day the same afternoon.",
+    "priority": "low",
+    "priority_reason": "Routine scheduling notice for a forthcoming results release and Capital Markets Day; no financial content.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/diageo--dge/notification-of-full-year-results-and-cmd/9693344",
+    "related_news_url": "https://news.google.com/search?q=%22Diageo%20plc%22",
+    "added_at": "2026-07-29T14:35:45.299972"
+  },
+  {
     "company": "Barclays PLC",
     "ticker": "BARC",
     "publish_date": "29 July 2026",
