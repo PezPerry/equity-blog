@@ -1,5 +1,72 @@
 [
   {
+    "company": "Mobico Group PLC",
+    "ticker": "MCG",
+    "publish_date": "29 July 2026",
+    "date_iso": "2026-07-29",
+    "time_period": "15 months to 31 March 2026",
+    "announcement_type": "Annual results",
+    "period_detail": "15 months to 31 March 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Mobico Group PLC</strong> raised its calendar-year <strong>2026 Adjusted Operating Profit guidance to £215-230m</strong>, up from <strong>£195-210m</strong>, citing continued growth at <strong>Alsa</strong> and a return to full service-levels in Germany.</li><li><strong>Adjusted Revenue £3.42bn</strong>, up <strong>+5.9%</strong> vs 15m 2025 (£3.23bn); <strong>Adjusted Operating Profit £231m</strong> (15m 2025: £196m), with margin up from <strong>6.1% to 6.8%</strong>.</li><li><strong>Statutory Operating Profit fell to £12m</strong> (15m 2025: £42m), hit by <strong>£219.3m of adjusting items</strong> including NASB retained liabilities (<strong>£46.2m</strong>), an RME contract asset impairment (<strong>£41.3m</strong>) and a WeDriveU onerous-contract charge (<strong>£38.6m</strong>).</li><li><strong>Covenant gearing 2.9x</strong> (Dec 2025: 2.7x); liquidity <strong>£0.8bn</strong> including <strong>£242m net cash</strong> and an undrawn <strong>£600m RCF</strong>; Free Cash Flow <strong>£132m</strong>.</li><li><strong>UK Coach</strong> remains loss-making — Adjusted Operating Loss widened by <strong>£20.9m to £22.9m</strong> on increased competition; on track for <strong>£100m of annualised opex savings</strong> and capex below <strong>£120m in 2027</strong>.</li><li>Debt reduction the Board's key priority; cash outflows on legacy liabilities continue to constrain deleveraging, with an update on strategic and financial options expected in <strong>H2 2026</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Mobico posts adjusted revenue of £3.42bn and raises 2026 adjusted operating profit guidance to £215-230m, though statutory operating profit slumps to £12m on one-off charges.",
+    "priority": "high",
+    "priority_reason": "Full-year audited results accompanied by a raised 2026 adjusted operating profit guidance, a market-moving event.",
+    "figures": [
+      {
+        "metric": "Adjusted Revenue",
+        "current": "£3.42bn",
+        "prior": "£3.23bn",
+        "change": "+5.9%",
+        "basis": "reported",
+        "note": "15m to 31 March 2026 vs unaudited 15m 2025"
+      },
+      {
+        "metric": "Adjusted Operating Profit",
+        "current": "£231m",
+        "prior": "£196m",
+        "change": "+17.6%",
+        "basis": "continuing operations",
+        "note": "15m to 31 March 2026 vs unaudited 15m 2025; margin 6.8% vs 6.1%"
+      },
+      {
+        "metric": "Statutory Operating Profit",
+        "current": "£12m",
+        "prior": "£42m",
+        "change": "not stated",
+        "basis": "impacted by £219.3m of adjusting items",
+        "note": "15m to 31 March 2026 vs 15m 2025"
+      },
+      {
+        "metric": "Free Cash Flow",
+        "current": "£132m",
+        "prior": "£77m",
+        "change": "not stated",
+        "basis": "vs 12m 2025 (12m 2024: £216m)",
+        "note": "12m 2024 higher due to NASB cash flows pre-sale"
+      },
+      {
+        "metric": "Covenant gearing",
+        "current": "2.9x",
+        "prior": "2.7x",
+        "change": "not stated",
+        "basis": "vs Dec 2025 (Dec 2024: 2.8x)",
+        "note": "as at 31 March 2026"
+      }
+    ],
+    "guidance": {
+      "status": "raised",
+      "previous": "Adjusted Operating Profit guidance for calendar year 2026 of £195-210m",
+      "current": "Adjusted Operating Profit guidance for calendar year 2026 of £215-230m",
+      "commentary": "Guidance lifted by £20m at both ends, driven by continued Alsa growth and the resumption of full service-levels in Germany from late 2025. A small reduction in covenant gearing is expected at 31 December 2026."
+    },
+    "explainer": "Mobico has extended its financial year-end to 31 March, so this is an unusual 15-month statutory period (to 31 March 2026) compared against the prior 12-month period to December 2024. To make the numbers comparable the company also provides unaudited 15-month comparators to March 2025 — most of the headline growth figures (revenue +5.9%, adjusted operating profit +17.6%) are stated on that like-for-like 15-month basis.\n\nThe large gap between adjusted operating profit (£231m) and statutory operating profit (£12m) is explained by £219.3m of one-off 'adjusting items', most of which are non-cash. These include a £46.2m charge for legal/insurance liabilities retained after the North America School Bus (NASB) sale, a £41.3m impairment on the German RME rail contract asset, and a £38.6m onerous-contract charge at US operation WeDriveU (largely the loss-making WMATA contract). Adjusted figures strip these out to show underlying trading; the statutory figure reflects the accounting reality including the write-downs.\n\nGuidance has been raised: management now expects calendar-year 2026 adjusted operating profit of £215-230m, £20m higher at each end than the previous £195-210m range. The upgrade rests on strength at Spanish/international arm Alsa (revenue +11.5% reported, +9.6% constant currency) and Germany returning to full service. The 3m 2026 quarter's improvement was flattered by a one-off £6.3m German Rail settlement, and the benefits of newly signed German rail contracts (backdated to 1 January 2026) are not yet in these numbers but will boost future EBITDA.\n\nThe key caveat for investors is leverage. Covenant gearing edged up to 2.9x and management is candid that cash outflows from legacy liabilities continue to constrain net-debt reduction. It is working with advisers on strategic and financial options to accelerate deleveraging, with an update promised in the second half of the year.",
+    "source_url": "https://uk.advfn.com/stock-market/london/mobico-MCG/share-news/Mobico-Group-PLC-Audited-results-for-15-months-end/98999687",
+    "related_news_url": "https://news.google.com/search?q=%22Mobico%20Group%20PLC%22",
+    "added_at": "2026-07-29T07:53:30.522828"
+  },
+  {
     "company": "RTW Biotech Opportunities Ltd",
     "ticker": "RTW",
     "publish_date": "29 July 2026",
