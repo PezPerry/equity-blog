@@ -1,5 +1,120 @@
 [
   {
+    "company": "Aston Martin Lagonda Global Holdings PLC",
+    "ticker": "AML",
+    "publish_date": "29 July 2026",
+    "date_iso": "2026-07-29",
+    "time_period": "H1 2026 (six months ended 30 June 2026)",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 2026 (six months ended 30 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>H1 2026 revenue</strong> rose <strong>38%</strong> to <strong>£629m</strong> (H1 2025: £454m), driven by <strong>225 Specials deliveries</strong> (mostly <strong>Valhalla</strong>, over 220 units) and higher core volumes; total ASP up <strong>17%</strong> though core ASP fell <strong>5%</strong> on targeted dealer support to clear aged stock.</li><li><strong>Gross profit</strong> up <strong>68%</strong> to <strong>£213m</strong> (H1 2025: £127m), lifting <strong>gross margin to 34%</strong> (H1 2025: 28%); <strong>adjusted EBITDA</strong> turned positive at <strong>£63m</strong> (H1 2025: £(3)m), while adjusted loss before tax widened to <strong>£207m</strong> (H1 2025: £130m loss) on higher net finance costs.</li><li><strong>H1 free cash outflow</strong> improved to <strong>£198m</strong> (H1 2025: £321m outflow); <strong>Q2 free cash outflow</strong> cut to <strong>£81m</strong> (Q2 2025: £201m), approaching breakeven excluding interest.</li><li>New <strong>£550m debt financing</strong> completed <strong>22 July 2026</strong> (£450m Senior Secured Term Loan + £100m delayed draw, 6.75% over SONIA, maturing 2031, led by <strong>HPS Investment Partners</strong>) lifts pro forma H1 liquidity to c.<strong>£340m</strong>; net debt <strong>£1,545m</strong> (31 Dec 2025: £1,380m), leverage 8.9x.</li><li><strong>FY 2026 operational guidance unchanged</strong> — wholesale volumes similar to FY25 (5,448) incl. c.500 Valhalla, gross margin into the high 30s%; <strong>net finance cost guidance raised slightly to c.£160m</strong> (previously c.£150m) reflecting the new SSTL.</li><li>CEO <strong>Adrian Hallmark</strong> expects an even stronger H2 as transformation benefits and Specials deliveries flow through; macro/tariff backdrop (US tariff quota, China luxury taxes) remains a stated risk.</li></ul>",
+    "source_format": "html",
+    "headline": "Aston Martin H1 2026 revenue up 38% to £629m and gross profit up 68% to £213m, with FY operational guidance held unchanged.",
+    "priority": "high",
+    "priority_reason": "Half-year results with materially improved performance, new £550m financing and a revision to net finance cost guidance.",
+    "figures": [
+      {
+        "metric": "Revenue",
+        "current": "£629m",
+        "prior": "£454m",
+        "change": "+38%",
+        "basis": "reported",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Gross profit",
+        "current": "£213m",
+        "prior": "£127m",
+        "change": "+68%",
+        "basis": "reported",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Gross margin",
+        "current": "34%",
+        "prior": "28%",
+        "change": "+6pp",
+        "basis": "reported",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Adjusted EBITDA",
+        "current": "£63m",
+        "prior": "£(3)m",
+        "change": "+£66m",
+        "basis": "adjusted",
+        "note": "adjusted EBITDA margin 10% vs (1)%"
+      },
+      {
+        "metric": "Adjusted EBIT",
+        "current": "£(109)m",
+        "prior": "£(122)m",
+        "change": "+10%",
+        "basis": "adjusted",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Adjusted loss before tax",
+        "current": "£207m loss",
+        "prior": "£130m loss",
+        "change": "not stated",
+        "basis": "adjusted",
+        "note": "driven by higher net finance costs"
+      },
+      {
+        "metric": "Reported loss before tax",
+        "current": "£154m loss",
+        "prior": "£141m loss",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "includes gain on F1 naming rights sale"
+      },
+      {
+        "metric": "Free cash outflow",
+        "current": "£198m",
+        "prior": "£321m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "H1; Q2 outflow £81m vs £201m"
+      },
+      {
+        "metric": "Net debt",
+        "current": "£1,545m",
+        "prior": "£1,380m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "vs 31 December 2025"
+      },
+      {
+        "metric": "Liquidity",
+        "current": "£145m",
+        "prior": "£228m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "30 June 2026 vs 30 June 2025; c.£340m pro forma post financing"
+      },
+      {
+        "metric": "Adjusted net leverage",
+        "current": "8.9x",
+        "prior": "12.8x",
+        "change": "not stated",
+        "basis": "adjusted",
+        "note": "vs 31 December 2025"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "FY 2026 net finance cost c.£150m; wholesale volumes similar to FY 2025 (5,448) incl. c.500 Valhalla; gross margin into the high 30s%; adjusted opex (ex D&A) below £300m; adjusted D&A £375m-£400m",
+      "current": "FY 2026 operational guidance unchanged; net finance cost revised slightly higher to c.£160m following the £450m Senior Secured Term Loan",
+      "commentary": "Operational targets (volumes, gross margin, opex, D&A) are all held; the only change is a modest lift to net finance cost guidance to c.£160m from c.£150m, reflecting interest on the newly completed £550m financing."
+    },
+    "explainer": "The comparatives are half-year on half-year (six months to 30 June 2026 vs the same period in 2025). The headline growth is heavily driven by 'Specials' — chiefly 225 Valhalla hypercar deliveries versus just 18 a year earlier — which flatter both revenue (+38%) and average selling price (+17%). Underlying core cars actually saw ASP fall 5% as Aston Martin discounted to clear aged dealer stock, so the improvement is more about mix and one-off high-value cars than broad-based pricing strength.\n\nThere is a large gap between the 'adjusted' and 'reported' numbers. Reported loss before tax (£154m) is smaller than the adjusted loss before tax (£207m) largely because the reported figure includes a one-off gain on selling the Aston Martin F1 naming rights, while the adjusted measure strips that out and is dragged down by an £11m non-cash FX loss on US dollar debt. Cash performance genuinely improved: H1 free cash outflow fell to £198m from £321m, and Q2 was close to breakeven once interest is excluded.\n\nOn guidance, the operational targets are all maintained — this is not a profit warning. The single change is a small increase in the FY 2026 net finance cost forecast to about £160m (from about £150m), a direct consequence of interest on the new £450m Senior Secured Term Loan. That financing, alongside the delayed-draw facility, refinances the old revolving credit and Yew Tree facilities and boosts pro forma liquidity to around £340m, addressing balance-sheet concerns even though net debt rose to £1,545m and leverage remains high at 8.9x.",
+    "source_url": "https://uk.advfn.com/stock-market/london/aston-martin-lagonda-glo-AML/share-news/Aston-Martin-Lagonda-Glob-Hldgs-PLC-Interim-result/98999643",
+    "related_news_url": "https://news.google.com/search?q=%22Aston%20Martin%20Lagonda%20Global%20Holdings%20plc%22",
+    "added_at": "2026-07-29T07:46:00.546452"
+  },
+  {
     "company": "Glencore PLC",
     "ticker": "GLEN",
     "publish_date": "29 July 2026",
