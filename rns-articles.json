@@ -2026,6 +2026,113 @@
     "added_at": "2026-07-29T07:37:47.196701"
   },
   {
+    "company": "GSK plc",
+    "ticker": "GSK",
+    "publish_date": "28 July 2026",
+    "date_iso": "2026-07-28",
+    "time_period": "Q2 2026",
+    "announcement_type": "Interim results",
+    "period_detail": "Q2 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>GSK plc</strong> delivered <strong>Q2 2026</strong> total sales of <strong>£8.4 billion</strong>, up <strong>5%</strong> at both AER and CER, led by <strong>Specialty Medicines £3.8bn (+14%)</strong> and <strong>Vaccines £2.3bn (+8%)</strong>; General Medicines fell to <strong>£2.3bn (-9%)</strong>.</li><li><strong>Core operating profit +7%</strong> and <strong>Core EPS +9%</strong> on higher sales and favourable mix, partly offset by higher R&D and launch investment; <strong>cash from operations £2.9bn</strong>, free cash flow <strong>£2.0bn</strong>.</li><li><strong>Total operating profit -75%</strong> and <strong>Total EPS -69%</strong>, driven by higher impairments — primarily <strong>camlipixant £1.3 billion</strong> — and higher CCL charges; development of camlipixant in RCC halted after CALM-1/2 phase III results.</li><li>New <strong>3-year 'Accelerate Growth' programme</strong> targeting <strong>£1.9 billion</strong> annual savings by <strong>2029</strong> for costs of <strong>£2.4 billion</strong> (£2.1bn cash); now expects <strong>20+ phase III trial starts in 2026</strong> (previously 10) and a new flagship R&D centre at <strong>Cambridge Biomedical Campus</strong>.</li><li><strong>Q2 2026 dividend of 17p</strong> declared (<strong>70p</strong> expected for full year); completed the <strong>£2 billion</strong> share buyback announced at FY 2024.</li><li><strong>FY 2026 guidance reaffirmed</strong> at CER: turnover <strong>+3% to +5%</strong>, Core OP <strong>+7% to +9%</strong>, Core EPS <strong>+7% to +9%</strong>; on track for <strong>2031 sales of more than £40 billion</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "GSK posts Q2 sales of £8.4bn, up 5%, with Core operating profit +7%, reaffirms FY 2026 guidance and launches a 3-year 'Accelerate Growth' cost programme.",
+    "priority": "high",
+    "priority_reason": "Q2 results with a major new 3-year cost-savings programme, R&D acceleration and reaffirmed FY guidance from a FTSE 100 pharma major.",
+    "figures": [
+      {
+        "metric": "Total sales",
+        "current": "£8.4bn",
+        "prior": "not stated",
+        "change": "+5%",
+        "basis": "CER (also +5% AER)",
+        "note": "Q2 2026"
+      },
+      {
+        "metric": "Specialty Medicines sales",
+        "current": "£3.8bn",
+        "prior": "not stated",
+        "change": "+14%",
+        "basis": "CER",
+        "note": "Q2 2026"
+      },
+      {
+        "metric": "Vaccines sales",
+        "current": "£2.3bn",
+        "prior": "not stated",
+        "change": "+8%",
+        "basis": "CER",
+        "note": "Q2 2026"
+      },
+      {
+        "metric": "General Medicines sales",
+        "current": "£2.3bn",
+        "prior": "not stated",
+        "change": "-9%",
+        "basis": "CER",
+        "note": "Q2 2026"
+      },
+      {
+        "metric": "Core operating profit",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+7%",
+        "basis": "CER",
+        "note": "Q2 2026"
+      },
+      {
+        "metric": "Core EPS",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+9%",
+        "basis": "CER",
+        "note": "Q2 2026"
+      },
+      {
+        "metric": "Total operating profit",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "-75%",
+        "basis": "IFRS",
+        "note": "driven by impairments (camlipixant £1.3bn) and CCL charges"
+      },
+      {
+        "metric": "Total EPS",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "-69%",
+        "basis": "IFRS",
+        "note": "Q2 2026"
+      },
+      {
+        "metric": "Cash generated from operations",
+        "current": "£2.9bn",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "Q2 2026; free cash flow £2.0bn"
+      },
+      {
+        "metric": "Dividend",
+        "current": "17p",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "Q2 2026; 70p expected full year"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "FY 2026 at CER: turnover +3% to +5%; Core operating profit +7% to +9%; Core EPS +7% to +9%",
+      "current": "FY 2026 reaffirmed at CER: turnover +3% to +5% (upper half of range); Core operating profit +7% to +9% (upper half); Core EPS +7% to +9% (lower half). Royalty income now expected at £850-900m; interest charges around £800m (including Nuvalent acquisition); tax rate rising to around 17.5%",
+      "commentary": "Headline ranges are unchanged but GSK added specificity: turnover and Core OP now guided to the upper half of their ranges, while Core EPS is at the lower half owing to higher interest charges (including the Nuvalent deal) and a rising tax rate, partly offset by the buyback. R&D is now expected to grow significantly ahead of sales."
+    },
+    "explainer": "GSK reports two sets of numbers. 'Total' (IFRS) results include one-off items, so the -75% operating profit and -69% EPS mainly reflect a £1.3bn write-down on the failed camlipixant lung/kidney-cancer asset plus contingent consideration (CCL) charges — not a deterioration in the underlying business. 'Core' results strip those items out, and on that basis operating profit rose 7% and EPS 9%, which is the figure management and analysts focus on.\n\nGrowth is quoted at constant exchange rates (CER), which removes currency moves. Because sterling strengthened against the US dollar, the reported (AER) figures are lower than CER for the year to date; for Q2 the two happened to match at +5%. GSK flags that if July exchange rates held, full-year sterling turnover growth would be about 2 percentage points lower and Core operating profit growth about 4 points lower than the CER guidance.\n\nOn guidance, the headline full-year ranges are unchanged (turnover +3-5%, Core OP and Core EPS both +7-9% at CER), so this is a reaffirmation rather than an upgrade. GSK did, however, sharpen the picture: turnover and Core operating profit are now expected in the upper half of their ranges, but Core EPS sits at the lower half because of roughly £800m of interest costs (including the Nuvalent acquisition) and a tax rate rising to about 17.5%, only partly cushioned by the completed £2bn buyback.\n\nThe strategic news is a new 3-year 'Accelerate Growth' restructuring programme targeting £1.9bn of annual savings by 2029 at a cost of £2.4bn, most of it reinvested into a late-stage pipeline (20+ phase III starts planned in 2026 versus 10 previously). Management frames this as protecting margins through the 2028-2030 patent expiry of HIV drug dolutegravir and underpinning its target of more than £40bn of sales by 2031.",
+    "source_url": "https://uk.advfn.com/stock-market/london/gsk-GSK/share-news/GSK-PLC-2nd-Quarter-Results/98992979",
+    "related_news_url": "https://news.google.com/search?q=%22GSK%20plc%22",
+    "added_at": "2026-07-29T07:54:41.991480"
+  },
+  {
     "company": "Morgan Sindall PLC",
     "ticker": "MGNS",
     "publish_date": "28 July 2026",
