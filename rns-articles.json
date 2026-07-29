@@ -1,5 +1,88 @@
 [
   {
+    "company": "Greatland Resources Ltd",
+    "ticker": "GRR",
+    "publish_date": "29 July 2026",
+    "date_iso": "2026-07-29",
+    "time_period": "June quarter (Q4) and full-year FY26 to 30 June 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "June quarter and full-year FY26 to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Greatland Resources Limited</strong> beat FY26 guidance: full-year production of <strong>328,987oz Au</strong> and <strong>14,594t Cu</strong> at an <strong>AISC of $2,179/oz</strong>, above the <strong>260,000–310,000oz</strong> range and below the <strong>$2,400–2,800/oz</strong> cost guidance.</li><li>June quarter production of <strong>79,100oz Au</strong> and <strong>3,573t Cu</strong> at <strong>AISC $2,312/oz</strong>, with <strong>86.8%</strong> gold recovery and zero lost-time injuries.</li><li>Quarterly sales of <strong>74,648oz Au</strong> and <strong>3,531t Cu</strong> at realised prices of <strong>$6,468/oz gold</strong> and <strong>$16,107/t copper</strong>, generating net revenue of <strong>$545m</strong>; operating cash flow <strong>$302m</strong> and cash build of <strong>$81m</strong>.</li><li>Closing cash of <strong>$1,289m</strong> at <strong>30 June 2026</strong> (up from <strong>$1,208m</strong> at 31 March 2026), <strong>debt-free</strong>, having added <strong>$714m</strong> cash over the year.</li><li><strong>Telfer Ore Reserve</strong> upgraded by <strong>1.1Moz to 1.8Moz (+150%)</strong>; group Ore Reserves grew to <strong>5.0Moz Au</strong>; high-grade <strong>Pinnacles</strong> drill hit of <strong>58.7m @ 6.5g/t Au</strong> confirmed a ~1.2km West Dome extension.</li><li>FY27 guidance set at <strong>260,000–300,000oz Au</strong> at <strong>AISC A$2,900–3,330/oz</strong> — lower output and higher costs versus FY26 as growth capital ramps at <strong>Havieron</strong> (first gold ~FY29) and Telfer's <strong>West Dome Underground</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Greatland beat FY26 production and cost guidance, producing 328,987oz gold at AISC $2,179/oz and closing the year debt-free with $1,289m cash.",
+    "priority": "high",
+    "priority_reason": "Quarterly production report with FY26 guidance beat, a large reserve upgrade and new FY27 guidance — all price-sensitive inside information.",
+    "figures": [
+      {
+        "metric": "FY26 gold production",
+        "current": "328,987oz Au",
+        "prior": "guidance 260,000–310,000oz",
+        "change": "above top of range",
+        "basis": "vs FY26 guidance",
+        "note": "full year to 30 June 2026"
+      },
+      {
+        "metric": "FY26 AISC",
+        "current": "$2,179/oz Au",
+        "prior": "guidance $2,400–2,800/oz",
+        "change": "below range",
+        "basis": "vs FY26 guidance",
+        "note": "net of copper by-product credits"
+      },
+      {
+        "metric": "Quarterly gold production",
+        "current": "79,100oz Au",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "June quarter"
+      },
+      {
+        "metric": "Quarterly net revenue",
+        "current": "$545m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "June quarter"
+      },
+      {
+        "metric": "Operating cash flow",
+        "current": "$302m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "June quarter; cash build of $81m"
+      },
+      {
+        "metric": "Closing cash",
+        "current": "$1,289m",
+        "prior": "$1,208m",
+        "change": "+$81m",
+        "basis": "debt free",
+        "note": "30 June 2026 vs 31 March 2026"
+      },
+      {
+        "metric": "Group Ore Reserves",
+        "current": "5.0Moz Au",
+        "prior": "not stated",
+        "change": "+1.1Moz at Telfer",
+        "basis": "Telfer reserve up 150% to 1.8Moz",
+        "note": "as at 31 March 2026"
+      }
+    ],
+    "guidance": {
+      "status": "new",
+      "previous": "FY26 guidance: 260,000–310,000oz Au at AISC $2,400–2,800/oz (beaten)",
+      "current": "FY27 guidance: 260,000–300,000oz Au at AISC A$2,900–3,330/oz",
+      "commentary": "FY26 outcomes beat both production and cost guidance. Newly issued FY27 guidance points to lower volumes and materially higher unit costs, primarily due to a greater share of lower-grade stockpiles in the ore feed and a heavy year of growth investment at Havieron and Telfer's West Dome Underground."
+    },
+    "explainer": "This is Greatland's June quarter (Q4) report, which also closes out its FY26 financial year to 30 June 2026. The company beat both its production and cost guidance: it produced 328,987oz of gold for the year against a 260,000–310,000oz target, and did so at an all-in sustaining cost (AISC) of $2,179/oz, below the $2,400–2,800/oz guided range. AISC is the industry's broad per-ounce cost measure, here shown net of copper by-product credits — Telfer is a gold-copper mine, so copper sales offset gold costs.\n\nThe balance sheet is the standout: strong gold and copper prices, better-than-budgeted recoveries and a better realised copper price lifted cash to $1,289m at year-end, up from $1,208m a quarter earlier, with no drawn debt. Greatland added $714m of cash over the year. Note the reporting currency is dollars; the FY27 AISC guidance is explicitly quoted in Australian dollars (A$2,900–3,330/oz).\n\nFY27 guidance is deliberately lower and more expensive: 260,000–300,000oz at AISC A$2,900–3,330/oz. This is not a deterioration in the asset — the company is feeding a higher proportion of lower-grade stockpiles while it invests heavily in future high-grade ore sources. Costs rise partly because grade falls and partly because FY27 is a peak growth-spend year (Havieron pre-production capital, West Dome Underground early works, fleet renewal and tailings expansion).\n\nTwo resource items add strategic weight: the Telfer reserve was upgraded 150% to 1.8Moz, taking group reserves to 5.0Moz and underpinning a multi-year mine life, and high-grade Pinnacles drilling extended the West Dome structure. First gold is targeted at West Dome Underground in FY28 and at Havieron in FY29, framing FY27 as an investment year ahead of production growth. Note the source text is truncated mid-sentence on the Havieron Final Investment Decision detail.",
+    "source_url": "https://uk.advfn.com/stock-market/london/greatland-resources-GGP/share-news/Greatland-Resources-Limited-June-2026-Quarterly-Ac/98999583",
+    "related_news_url": "https://news.google.com/search?q=%22Greatland%20Resources%20Limited%22",
+    "added_at": "2026-07-29T07:41:35.664627"
+  },
+  {
     "company": "Lancashire Holdings Ltd",
     "ticker": "LRE",
     "publish_date": "29 July 2026",
