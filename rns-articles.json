@@ -1,5 +1,122 @@
 [
   {
+    "company": "FirstGroup PLC",
+    "ticker": "FGP",
+    "publish_date": "29 July 2026",
+    "date_iso": "2026-07-29",
+    "time_period": "",
+    "announcement_type": "Disposal",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>FirstGroup plc</strong> has agreed to sell <strong>Mistral Data Services Limited</strong> to <strong>Tracsis plc</strong> (AIM: TRCS) for an enterprise value of <strong>£48 million</strong> on a cash-free, debt-free basis, payable in cash on completion.</li><li>Mistral Data, part of the First Rail division, provides rail software solutions; revenues grew from <strong>c.£7m</strong> in FY 2022 to <strong>c.£13m</strong> in FY 2026, with operating profit of <strong>c.£4m</strong>.</li><li>FirstGroup expects a profit on disposal of <strong>c.£46m</strong>, reported as an adjusting item, but anticipates a <strong>c.£4m</strong> decrease in First Rail's FY 2027 adjusted operating profit and a <strong>c.0.6p</strong> cut to Group adjusted EPS (FY 2026: <strong>20.3p</strong>).</li><li>The Group now expects free cash generation of <strong>c.£435m</strong> over the next three years; the sale accelerates cash inflows previously guided within the <strong>£90m</strong> DfT TOCs and Rail Services figure.</li><li>Completion is conditional principally on <strong>Competition and Markets Authority</strong> clearance and is expected by no later than <strong>31 October 2026</strong>; <strong>Panmure Liberum</strong> advised FirstGroup.</li></ul>",
+    "source_format": "html",
+    "headline": "FirstGroup has agreed to sell rail software subsidiary Mistral Data to Tracsis for an enterprise value of £48m on a cash-free, debt-free basis.",
+    "priority": "medium",
+    "priority_reason": "A disposal of a non-core rail software subsidiary for £48m, small relative to group scale but with an EPS and free cash flow impact.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/firstgroup-FGP/share-news/FirstGroup-Plc-Disposal/98999809",
+    "related_news_url": "https://news.google.com/search?q=%22FirstGroup%20plc%22",
+    "added_at": "2026-07-29T07:38:46.086222"
+  },
+  {
+    "company": "Breedon Group plc",
+    "ticker": "BREE",
+    "publish_date": "29 July 2026",
+    "date_iso": "2026-07-29",
+    "time_period": "H1 2026 (six months to 30 June 2026)",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 2026 (six months to 30 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Revenue up 5% to £858m</strong> on like-for-like growth plus <strong>£110m</strong> of US and Irish bolt-on acquisitions; <strong>Underlying EBITDA broadly flat</strong> (slightly up like-for-like).</li><li>By region: <strong>US revenue +20%</strong> (LFL +13%, LFL EBITDA +14%); <strong>Ireland revenue +12%</strong> (EBITDA +3%); <strong>Great Britain EBITDA -3%</strong> with ready-mixed concrete volumes down a further <strong>8%</strong>.</li><li><strong>Guidance maintained</strong> — 2026 performance expected in line with market expectations; company-compiled consensus <strong>FY26 Underlying EBITDA £280m</strong> (range £273m-£285m).</li><li><strong>Dividend increased 5%</strong>; <strong>covenant leverage cut to 2.1x</strong> versus H1 2025 despite acquisitions, with further deleveraging expected in H2.</li><li>GB market indicators point to demand <strong>declining for a fifth consecutive year</strong> in 2026 on weak residential new build; infrastructure provides some support.</li><li>Bolt-ons <strong>Falling Springs</strong> (US) and <strong>Booth</strong> (Ireland/Dublin) completed; <strong>'Back British Cement'</strong> campaign launched seeking carbon border measures.</li></ul>",
+    "source_format": "html",
+    "headline": "Breedon lifts H1 revenue 5% to £858m as US and Ireland offset weaker Great Britain, with full-year guidance maintained in line with market expectations.",
+    "priority": "high",
+    "priority_reason": "Half-year results from a FTSE 250 constructor, with divisional detail, guidance and a dividend rise.",
+    "figures": [
+      {
+        "metric": "Revenue",
+        "current": "£858m",
+        "prior": "not stated",
+        "change": "+5%",
+        "basis": "reported",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "Underlying EBITDA (Group)",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "broadly flat",
+        "basis": "reported",
+        "note": "slightly improved like-for-like"
+      },
+      {
+        "metric": "GB Underlying EBITDA",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "-3%",
+        "basis": "reported",
+        "note": "vs H1 2025"
+      },
+      {
+        "metric": "Ireland revenue",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+12%",
+        "basis": "reported",
+        "note": "Underlying EBITDA +3%"
+      },
+      {
+        "metric": "US revenue",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+20%",
+        "basis": "reported",
+        "note": "LFL revenue +13%, LFL EBITDA +14%, reported EBITDA +6%"
+      },
+      {
+        "metric": "GB ready-mixed concrete volumes",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "-8%",
+        "basis": "like-for-like",
+        "note": "vs H1 2025"
+      },
+      {
+        "metric": "Interim dividend",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+5%",
+        "basis": "reported",
+        "note": "increase only stated, no pence figure"
+      },
+      {
+        "metric": "Covenant leverage",
+        "current": "2.1x",
+        "prior": "not stated",
+        "change": "reduced",
+        "basis": "covenant basis",
+        "note": "vs H1 2025; at peak of working capital cycle"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "2026 performance in line with market expectations",
+      "current": "2026 performance in line with market expectations; company-compiled consensus FY26 Underlying EBITDA £280m, range £273m-£285m",
+      "commentary": "Guidance is unchanged. Positive momentum in Ireland and the US is expected to offset a fifth consecutive year of declining GB demand, with H2 also benefiting from acquisitions completed earlier in the year, most notably Falling Springs."
+    },
+    "explainer": "Breedon reports on a reported and 'like-for-like' basis. Like-for-like strips out the effect of acquisitions, disposals and currency moves (translating US dollars at prior-year average rates), so it isolates the underlying trading of the existing business. Reported revenue rose 5% to £858m, but part of that reflects the £110m of US and Irish bolt-ons rather than pure organic growth. 'Underlying' EBITDA excludes items such as acquisition costs, cement decarbonisation costs and amortisation of acquired intangibles.\n\nThe headline picture is one of geographic diversification doing its job: the US (revenue +20%, aided by better Midwest weather and pricing) and Ireland (revenue +12%, despite a temporary Kinnegad cement-mill shutdown in May) offset a soft Great Britain, where ready-mixed concrete volumes fell a further 8% as residential construction stayed weak. Group EBITDA was therefore broadly flat overall.\n\nOn guidance, nothing has changed: the Board still expects full-year performance in line with market expectations, which it benchmarks against a company-compiled consensus of £280m Underlying EBITDA (£273m-£285m range). Management flags that GB demand is likely to fall for a fifth straight year, but that Ireland, the US and the contribution from acquisitions should carry the group. The 5% dividend increase and reduced covenant leverage of 2.1x signal balance-sheet confidence rather than any change to the earnings outlook.",
+    "source_url": "https://uk.advfn.com/stock-market/london/breedon-BREE/share-news/Breedon-Group-PLC-Interim-results-2026/98999617",
+    "related_news_url": "https://news.google.com/search?q=%22Breedon%20Group%20plc%22",
+    "added_at": "2026-07-29T07:38:46.060457"
+  },
+  {
     "company": "The Sage Group plc",
     "ticker": "SGE",
     "publish_date": "29 July 2026",
