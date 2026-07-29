@@ -1,5 +1,136 @@
 [
   {
+    "company": "St. James's Place plc",
+    "ticker": "STJ",
+    "publish_date": "29 July 2026",
+    "date_iso": "2026-07-29",
+    "time_period": "H1 to 30 June 2026",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>St. James's Place plc</strong> reported <strong>H1 2026</strong> results with <strong>record funds under management of £240.8 billion</strong> (31 December 2025: <strong>£220.0 billion</strong>), aided by investment returns of <strong>16.4%</strong> of opening FUM annualised.</li><li><strong>Net inflows of £2.7 billion</strong> (2025: <strong>£3.8 billion</strong>) on gross inflows of <strong>£10.5 billion</strong> (flat), with <strong>FUM retention improving to 95.4%</strong> (2025: 95.3%).</li><li><strong>Adjusted IFRS profit before tax of £278.4 million</strong> (2025: <strong>£307.0 million</strong>); adjusted IFRS profit after tax <strong>£224.4 million</strong> (2025: £235.8 million). Headline <strong>IFRS profit after tax rose to £310.8 million</strong> (2025: £279.5 million).</li><li>Further <strong>Ongoing Service Evidence provision release of £110.4 million</strong> before tax (2025: £84.5 million); firm says it has entered the final stages of the historic OSE review.</li><li><strong>Interim dividend held at 6.00 pence</strong> per share; ordinary buy-back of <strong>£45.3 million</strong> plus an additional <strong>£82.8 million</strong> buy-back for the post-tax OSE release.</li><li>Adviser numbers rose to <strong>4,951</strong> and clients to <strong>1,064,000</strong> (net +27,000); CEO <strong>Mark FitzPatrick</strong> cites completion of the 'Strengthen' phase and demand driven by pension and IHT planning changes.</li></ul>",
+    "source_format": "html",
+    "headline": "St. James's Place posts H1 2026 record FUM of £240.8bn and net inflows of £2.7bn, though adjusted IFRS pre-tax profit fell to £278.4m.",
+    "priority": "high",
+    "priority_reason": "Half-year results from a FTSE 100 wealth manager, with FUM, profit, dividend and buyback detail.",
+    "figures": [
+      {
+        "metric": "Funds under management",
+        "current": "£240.8bn",
+        "prior": "£220.0bn",
+        "change": "+9.5%",
+        "basis": "reported",
+        "note": "vs 31 December 2025"
+      },
+      {
+        "metric": "Gross inflows",
+        "current": "£10.5bn",
+        "prior": "£10.5bn",
+        "change": "flat",
+        "basis": "reported",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Net inflows",
+        "current": "£2.7bn",
+        "prior": "£3.8bn",
+        "change": "-28.9%",
+        "basis": "reported",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "FUM retention",
+        "current": "95.4%",
+        "prior": "95.3%",
+        "change": "+0.1pp",
+        "basis": "reported",
+        "note": "above 95% long-term ambition"
+      },
+      {
+        "metric": "Adjusted IFRS profit before tax",
+        "current": "£278.4m",
+        "prior": "£307.0m",
+        "change": "-9.3%",
+        "basis": "adjusted IFRS (APM)",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Adjusted IFRS profit after tax",
+        "current": "£224.4m",
+        "prior": "£235.8m",
+        "change": "-4.8%",
+        "basis": "adjusted IFRS (APM)",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "IFRS profit after tax",
+        "current": "£310.8m",
+        "prior": "£279.5m",
+        "change": "+11.2%",
+        "basis": "reported IFRS",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "OSE provision release (pre-tax)",
+        "current": "£110.4m",
+        "prior": "£84.5m",
+        "change": "+30.7%",
+        "basis": "reported",
+        "note": "before tax"
+      },
+      {
+        "metric": "Interim ordinary dividend",
+        "current": "6.00p",
+        "prior": "6.00p",
+        "change": "flat",
+        "basis": "per share",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Ordinary share buy-back",
+        "current": "£45.3m",
+        "prior": "£32.1m",
+        "change": "+41.1%",
+        "basis": "reported",
+        "note": "plus £82.8m additional OSE-related buy-back"
+      },
+      {
+        "metric": "Adviser numbers",
+        "current": "4,951",
+        "prior": "4,934",
+        "change": "+17",
+        "basis": "period end",
+        "note": "vs 31 December 2025"
+      },
+      {
+        "metric": "Client numbers",
+        "current": "1,064,000",
+        "prior": "1,037,000",
+        "change": "+27,000",
+        "basis": "period end",
+        "note": "vs 31 December 2025"
+      },
+      {
+        "metric": "Investment returns (annualised)",
+        "current": "16.4%",
+        "prior": "4.7%",
+        "change": "not stated",
+        "basis": "of opening FUM, net of charges",
+        "note": "H1 to 30 June 2026"
+      }
+    ],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": "No formal financial guidance figures issued; the company reiterates confidence in the long-term outlook for UK financial advice and notes it is in the final stages of its cost/efficiency and OSE review programmes, but sets no specific numeric targets in this text."
+    },
+    "explainer": "St. James's Place reports two profit measures. The headline IFRS profit after tax rose to £310.8m from £279.5m, but the company steers investors to its 'Adjusted IFRS' figure (an alternative performance measure it considers more representative of underlying trading), which fell to £278.4m before tax from £307.0m a year earlier. The two move in opposite directions because IFRS accounting for a life and pensions business is heavily affected by timing and provision movements rather than cash trading in the period.\n\nA large swing factor is the Ongoing Service Evidence (OSE) provision — money set aside relating to a historic review of whether clients received the ongoing advice they paid for. In H1 SJP released £110.4m of that provision (up from £84.5m), which flatters the reported IFRS number and funds an extra £82.8m share buy-back on top of the ordinary £45.3m buy-back. Management says it is now in the final stages of that review.\n\nOn flows, gross inflows were flat at £10.5bn but net inflows fell to £2.7bn from £3.8bn, meaning more money left (withdrawals) than a year ago even as retention edged up to 95.4%. The record £240.8bn FUM is largely driven by strong markets: investment returns of 16.4% of opening FUM (annualised) compared with just 4.7% a year earlier did most of the heavy lifting.\n\nThe interim dividend is held flat at 6.00p. No specific numeric earnings guidance is given, so this reads as an in-line, market-driven half with a lower net-flow rate but a healthier reported profit thanks to the OSE release.",
+    "source_url": "https://uk.advfn.com/stock-market/london/st-james-s-place-STJ/share-news/St-Jamess-Place-PLC-Half-year-Financial-Report/98999621",
+    "related_news_url": "https://news.google.com/search?q=%22St.%20James's%20Place%20plc%22",
+    "added_at": "2026-07-29T07:40:20.848911"
+  },
+  {
     "company": "PayPoint PLC",
     "ticker": "PAY",
     "publish_date": "29 July 2026",
