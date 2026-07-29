@@ -1,5 +1,31 @@
 [
   {
+    "company": "GSK plc",
+    "ticker": "GSK",
+    "publish_date": "29 July 2026",
+    "date_iso": "2026-07-29",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>Hansoh Pharma's</strong> <strong>ARTEMIS-011</strong> China Phase III trial of <strong>risvutatug rezetecan (Ris-Rez)</strong> met its primary endpoint of <strong>progression-free survival</strong> in relapsed osteosarcoma, with statistically significant and clinically meaningful improvement versus chemotherapy.</li><li>Consistent benefit seen across secondary endpoints including <strong>overall survival</strong>; safety profile in line with prior findings and no new safety signals — data to support Hansoh's <strong>regulatory submission in China</strong>.</li><li>Second positive Phase III readout for the <strong>B7-H3-targeted ADC</strong>, following recent pivotal data in <strong>small-cell lung cancer</strong>, making Ris-Rez the only B7-H3 ADC with positive Phase III outcomes across multiple tumour types.</li><li><strong>GSK</strong> holds exclusive worldwide rights outside China and is advancing Ris-Rez across lung, prostate and other solid tumours; drug holds <strong>US FDA Breakthrough Therapy Designation</strong> in relapsed/refractory osteosarcoma.</li><li>Note: trial conducted by licensor Hansoh in China; no financial, revenue or guidance impact disclosed.</li></ul>",
+    "source_format": "html",
+    "headline": "GSK's licensor Hansoh reports a second positive Phase III trial for Ris-Rez, meeting its primary progression-free survival endpoint in relapsed osteosarcoma in China.",
+    "priority": "medium",
+    "priority_reason": "Positive pivotal Phase III data for a key oncology ADC is a clinical milestone, though this trial was run by licensor Hansoh in China and is not itself an earnings or guidance event.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/gsk-GSK/share-news/GSK-PLC-Hansoh-positive-2nd-Phase-III-results-for/98992489",
+    "related_news_url": "https://news.google.com/search?q=%22GSK%20plc%22",
+    "added_at": "2026-07-29T07:55:35.081836"
+  },
+  {
     "company": "THG PLC",
     "ticker": "THG",
     "publish_date": "29 July 2026",
