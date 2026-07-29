@@ -1,5 +1,96 @@
 [
   {
+    "company": "Rathbones Group Plc",
+    "ticker": "RAT",
+    "publish_date": "29 July 2026",
+    "date_iso": "2026-07-29",
+    "time_period": "H1 to 30 June 2026",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Underlying profit before tax</strong> up <strong>14.4%</strong> to <strong>£123.2m</strong> (HY 2025: £107.7m); <strong>statutory PBT</strong> <strong>£72.1m</strong>, up <strong>15.7%</strong>.</li><li><strong>Funds under management and administration</strong> up <strong>10.7%</strong> YoY to <strong>£120.7bn</strong> (30 June 2025: £109.0bn); <strong>operating income</strong> up <strong>8.6%</strong> to <strong>£487.5m</strong>.</li><li><strong>Q4 operating margin target cut from 30.0% to 28.7%</strong>, as ceasing to charge fees on the cash element of portfolios (a <strong>FCA Skilled Person Review</strong> action) is expected to cut income and operating profit by <strong>c.£9m</strong> in H2.</li><li><strong>Interim dividend</strong> raised <strong>3.2%</strong> to <strong>32.0p</strong>; <strong>£20m</strong> buyback concluded <strong>13 July 2026</strong>; progressive dividend policy unchanged.</li><li><strong>H1 net outflows of £0.9bn</strong> at group level; Wealth Management net inflows of <strong>£0.4bn</strong> in Q2 offset Q1 outflows, while Asset Management saw <strong>£0.4bn</strong> of Q2 net outflows.</li><li><strong>£19.0m</strong> of FCA Skilled Person Review costs recognised (HY 2025: nil); acquisition/integration costs fell to <strong>£9.5m</strong> (HY 2025: £23.2m).</li></ul>",
+    "source_format": "html",
+    "headline": "Rathbones' H1 underlying PBT rose 14.4% to £123.2m and FUMA grew 10.7% to £120.7bn, but it cut its Q4 operating margin target to 28.7%.",
+    "priority": "high",
+    "priority_reason": "Half-year results from a FTSE 250 wealth manager, including a downward revision to its Q4 operating margin target.",
+    "figures": [
+      {
+        "metric": "Operating income",
+        "current": "£487.5m",
+        "prior": "£449.1m",
+        "change": "+8.6%",
+        "basis": "reported",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Underlying profit before tax",
+        "current": "£123.2m",
+        "prior": "£107.7m",
+        "change": "+14.4%",
+        "basis": "underlying (APM)",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Profit before tax (statutory)",
+        "current": "£72.1m",
+        "prior": "not stated",
+        "change": "+15.7%",
+        "basis": "reported",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "FUMA",
+        "current": "£120.7bn",
+        "prior": "£109.0bn",
+        "change": "+10.7%",
+        "basis": "as at period end",
+        "note": "30 June 2026 vs 30 June 2025"
+      },
+      {
+        "metric": "Underlying operating margin",
+        "current": "25.3%",
+        "prior": "24.0%",
+        "change": "+1.3ppt",
+        "basis": "underlying (APM)",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Interim dividend",
+        "current": "32.0p",
+        "prior": "not stated",
+        "change": "+3.2%",
+        "basis": "reported",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Acquisition and integration costs",
+        "current": "£9.5m",
+        "prior": "£23.2m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "H1; beyond Investec W&I integration phase"
+      },
+      {
+        "metric": "FCA Skilled Person Review costs",
+        "current": "£19.0m",
+        "prior": "£nil",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "H1 to 30 June 2026"
+      }
+    ],
+    "guidance": {
+      "status": "lowered",
+      "previous": "Q4 operating margin target of 30.0%",
+      "current": "Q4 operating margin target revised to 28.7%",
+      "commentary": "The target was cut by 1.3 percentage points because Rathbones will stop charging fees on the cash element of client portfolios — an action arising from the FCA Skilled Person Review — reducing H2 income and operating profit by c.£9m. The Group says it remains on track to hit the revised target, subject to FUMA growth, inflation and interest-rate conditions, and its progressive dividend policy is unchanged."
+    },
+    "explainer": "The headline profit growth is on an 'underlying' basis, an alternative performance measure that strips out one-off and non-recurring items. Underlying PBT rose 14.4% to £123.2m, but statutory (reported) PBT was much lower at £72.1m because it includes £19.0m of costs tied to the FCA Skilled Person Review and £9.5m of acquisition/integration costs from the earlier Investec Wealth & Investment deal. Those integration costs are falling as expected and are due to cease during 2027.\n\nFUMA (funds under management and administration) grew 10.7% year on year to £120.7bn, but net client flows were weak: the group saw £0.9bn of net outflows over the half. Wealth Management turned positive in Q2 (net inflows of £0.4bn) after Q1 outflows, leaving it broadly neutral for the half, while Asset Management kept losing money to industry-wide pressure on active equity funds.\n\nThe key guidance change is the Q4 operating margin target being lowered from 30.0% to 28.7%. This is a direct consequence of the remediation following the FCA Skilled Person Review: Rathbones will stop charging fees on the cash held in client portfolios, which it expects to reduce income and operating profit by about £9m in the second half, trimming the H2 underlying margin by 1.3 percentage points. Lower technology costs after the Salesforce rollout completes are expected to partly cushion H2.\n\nDespite the margin cut, shareholder returns were increased: the interim dividend was raised 3.2% to 32.0p, and a £20m buyback (following an earlier £50m programme) concluded on 13 July 2026.",
+    "source_url": "https://uk.advfn.com/stock-market/london/rathbones-RAT/share-news/Rathbones-Group-PLC-Interim-Results-2026/98999652",
+    "related_news_url": "https://news.google.com/search?q=%22Rathbones%20Group%20Plc%22",
+    "added_at": "2026-07-29T07:48:42.665401"
+  },
+  {
     "company": "Plus500 Ltd",
     "ticker": "PLUS",
     "publish_date": "29 July 2026",
