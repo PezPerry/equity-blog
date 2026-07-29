@@ -2052,6 +2052,73 @@
     "added_at": "2026-07-29T07:37:47.196701"
   },
   {
+    "company": "Rio Tinto PLC",
+    "ticker": "RIO",
+    "publish_date": "28 July 2026",
+    "date_iso": "2026-07-28",
+    "time_period": "H1 2026 (six months to 30 June 2026)",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 2026 (six months to 30 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Rio Tinto</strong> H1 2026: underlying EBITDA up <strong>28 per cent</strong> and free cash flow up <strong>75 per cent</strong>, driven by stronger execution and favourable commodity prices.</li><li>Interim ordinary dividend of <strong>$3.4 billion</strong>, up <strong>43 per cent</strong>.</li><li>Copper equivalent production up <strong>3 per cent</strong>; <strong>Copper, Aluminium and Lithium</strong> together contributed more than <strong>50 per cent</strong> of underlying EBITDA.</li><li><strong>$870 million</strong> of productivity benefits already banked, with an annualised run-rate of <strong>$1.8 billion</strong> targeted by year-end.</li><li>CEO <strong>Simon Trott</strong> described a \"step-change in performance\" underpinned by accelerating productivity across the business.</li><li>Note: the release prints percentage changes but omits many absolute current-vs-prior figures in the scraped text; full detail is in the H1 2026 results document.</li></ul>",
+    "source_format": "html",
+    "headline": "Rio Tinto reports a 28% rise in first-half underlying EBITDA and a 75% jump in free cash flow, lifting its interim dividend 43% to $3.4bn.",
+    "priority": "high",
+    "priority_reason": "Half-year results from a major FTSE 100 miner, with a 28% EBITDA rise and a 43% increase in the interim dividend.",
+    "figures": [
+      {
+        "metric": "Underlying EBITDA",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+28%",
+        "basis": "underlying",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "Free cash flow",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+75%",
+        "basis": "refined definition including Rio Tinto share of capital investment from H1 2026",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "Copper equivalent production",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+3%",
+        "basis": "copper equivalent volume",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "Interim ordinary dividend",
+        "current": "$3.4bn",
+        "prior": "not stated",
+        "change": "+43%",
+        "basis": "interim ordinary dividend",
+        "note": "H1 2026"
+      },
+      {
+        "metric": "Productivity benefits realised",
+        "current": "$870m YTD",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "from a 2024 baseline; targeting $1.8bn annualised run-rate by year-end",
+        "note": "H1 2026"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Multi-year productivity programme targeting an annualised run-rate of $1.8 billion",
+      "current": "On track to reach an annualised run-rate of $1.8 billion of productivity benefits by year-end, with significantly more to come",
+      "commentary": "Management reaffirmed the productivity target, saying $870m has already been banked and the programme continues to scale beyond year-end."
+    },
+    "explainer": "These are Rio Tinto's first-half results for the six months to 30 June 2026. Rather than absolute pounds-and-pence numbers, the scraped statement leads with percentage movements versus the same period a year earlier: underlying EBITDA (a measure of operating profit before interest, tax, depreciation and one-off items) up 28 per cent, and free cash flow up 75 per cent. Both were helped by higher commodity prices as well as the company's own cost and productivity work, so not all of the improvement reflects self-generated performance.\n\nOne technical point on the cash flow figure: Rio Tinto notes it has \"refined\" its definition of free cash flow from H1 2026 to include its share of capital investment. A change in definition can affect comparability, so the 75 per cent rise should be read alongside that basis change rather than as a pure like-for-like number.\n\nThe headline shareholder return is a $3.4 billion interim dividend, up 43 per cent. The productivity programme is the operational story: $870 million of benefits have been realised so far against a 2024 baseline, and the company is guiding to a $1.8 billion annualised run-rate by the end of the year, described as on track with more to come.\n\nNote that several metrics quoted (EBITDA, free cash flow, EPS, ROCE) are non-IFRS \"underlying\" measures that strip out items management considers one-off; the full IFRS reconciliations sit in the detailed results document, which the scraped text references but does not reproduce.",
+    "source_url": "https://uk.advfn.com/stock-market/london/rio-tinto-RIO/share-news/Rio-Tinto-Step-change-in-performance-delivering-h/98999108",
+    "related_news_url": "https://news.google.com/search?q=%22Rio%20Tinto%20plc%22",
+    "added_at": "2026-07-29T07:56:04.701679"
+  },
+  {
     "company": "GSK plc",
     "ticker": "GSK",
     "publish_date": "28 July 2026",
