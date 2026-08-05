@@ -1,5 +1,31 @@
 [
   {
+    "company": "Old Mutual Ltd",
+    "ticker": "OMU",
+    "publish_date": "05 August 2026",
+    "date_iso": "2026-08-05",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>Old Mutual Limited</strong> has had approval to migrate its secondary Zimbabwe listing from the <strong>Zimbabwe Stock Exchange (ZSE)</strong> to the <strong>Victoria Falls Stock Exchange (VFEX)</strong>.</li><li>Trading in Old Mutual shares on the VFEX commences <strong>Wednesday, 12 August 2026</strong>.</li><li>Opening price will be set by market bids and offers with no price limits on day one; normal <strong>20%</strong> daily trading limits apply from the second trading day.</li><li>Routine listing-venue change affecting the Zimbabwe secondary line only — <strong>no impact</strong> on the primary JSE/LSE listings, trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Old Mutual will migrate its secondary Zimbabwe listing from the ZSE to the Victoria Falls Stock Exchange, with VFEX trading starting 12 August 2026.",
+    "priority": "low",
+    "priority_reason": "Routine secondary-listing venue migration in Zimbabwe with no impact on financials, trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/old-mutual-OMU/share-news/Old-Mutual-Limited-OML-Migration-Implementation-An/99039783",
+    "related_news_url": "https://news.google.com/search?q=%22Old%20Mutual%20Limited%22",
+    "added_at": "2026-08-05T07:38:28.549521"
+  },
+  {
     "company": "British American Tobacco p.l.c.",
     "ticker": "BATS",
     "publish_date": "05 August 2026",
@@ -50,6 +76,41 @@
     "source_url": "https://uk.advfn.com/stock-market/london/international-personal-f-IPF/share-news/International-Personal-Finance-Plc-Scheme-Effectiv/99042235",
     "related_news_url": "https://news.google.com/search?q=%22International%20Personal%20Finance%20Plc%22",
     "added_at": "2026-08-05T07:36:49.674590"
+  },
+  {
+    "company": "CME Group Inc",
+    "ticker": "CME",
+    "publish_date": "04 August 2026",
+    "date_iso": "2026-08-04",
+    "time_period": "July 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "July 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>CME Group</strong> reported its highest-ever July average daily volume (ADV) of <strong>27 million contracts</strong>, up <strong>23%</strong> year over year.</li><li>Record set across the derivatives marketplace spanning interest rates, equity indexes, FX, cryptocurrencies, energy, agriculture and metals.</li><li>The scraped text omits the per-asset-class ADV breakdown and product highlights (blank in source); detailed statistics available on CME's monthly volume page.</li><li>Routine monthly volume disclosure — <strong>no impact</strong> on guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "CME Group reports record July average daily volume of 27 million contracts, up 23% year over year.",
+    "priority": "medium",
+    "priority_reason": "Monthly volume report showing record activity is a routine operational metric, though the record high and strong YoY growth are of interest to traders.",
+    "figures": [
+      {
+        "metric": "July average daily volume",
+        "current": "27 million contracts",
+        "prior": "not stated",
+        "change": "+23%",
+        "basis": "year over year",
+        "note": "July 2026, record high"
+      }
+    ],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "This is CME Group's routine monthly volume update. Average daily volume (ADV) measures the number of futures and options contracts traded each day on average across the month — a key operational indicator of exchange activity that feeds directly into transaction-fee revenue.\n\nThe headline figure of 27 million contracts is a record for the month of July and 23% higher than July 2025. Higher volumes generally signal stronger revenue, as CME earns fees per contract traded, though the announcement gives no revenue or profit figures and does not change any financial guidance. The scraped text is missing the usual asset-class breakdown and product highlights, so the drivers of the increase cannot be identified from this source.",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/CME/share-news/CME-Group-July-Volume-Hits-New-Record-of-27-Millio/99042936",
+    "related_news_url": "https://news.google.com/search?q=%22CME%20Group%20Inc.%22",
+    "added_at": "2026-08-05T07:38:28.530709"
   },
   {
     "company": "LGI Homes, Inc.",
