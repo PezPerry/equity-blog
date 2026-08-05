@@ -1,165 +1,81 @@
 {
-  "generated": "2026-07-29",
+  "generated": "2026-08-05",
   "by_ticker": {
-    "ABDN": {
-      "date": "2026-07-31",
-      "event": "Year end"
-    },
     "ABF": {
       "date": "2026-08-31",
       "event": "Year end"
-    },
-    "AO.": {
-      "date": "2026-07-31",
-      "event": "Special div payment"
-    },
-    "API": {
-      "date": "2026-07-29",
-      "event": "Interim Results"
     },
     "BAB": {
       "date": "2026-08-13",
       "event": "Q4 ex-div"
     },
     "BKG": {
-      "date": "2026-08-04",
-      "event": "Annual report (Est)"
+      "date": "2026-09-11",
+      "event": "AGM (Conf)"
     },
     "BT.A": {
       "date": "2026-08-06",
       "event": "Q4 ex-div"
     },
     "BWY": {
-      "date": "2026-07-31",
-      "event": "Year end"
-    },
-    "CBG": {
-      "date": "2026-07-31",
-      "event": "Year end"
+      "date": "2026-08-11",
+      "event": "Trading statement"
     },
     "CMCX": {
       "date": "2026-08-14",
       "event": "Q4 div payment"
     },
-    "CPG": {
-      "date": "2026-07-30",
-      "event": "Interim Dividend Payment Date"
-    },
     "CURY": {
-      "date": "2026-07-31",
-      "event": "Annual report (Est)"
+      "date": "2026-08-27",
+      "event": "Special ex-div"
     },
     "DGE": {
       "date": "2026-08-14",
       "event": "Annual report (Est)"
     },
     "FGP": {
-      "date": "2026-07-30",
-      "event": "AGM (Conf)"
+      "date": "2026-08-07",
+      "event": "Q4 div payment"
     },
     "FRAS": {
       "date": "2026-08-29",
       "event": "Annual report (Est)"
     },
     "GLEN": {
-      "date": "2026-07-29",
-      "event": "Trading statement"
+      "date": "2026-08-27",
+      "event": "Q4 ex-div"
     },
     "GOOGL": {
       "date": "2026-09-04",
       "event": "Q2 ex-div"
     },
-    "IAG": {
-      "date": "2026-07-31",
-      "event": "Interim Results"
-    },
-    "ICG": {
-      "date": "2026-07-31",
-      "event": "Final Dividend Payment Date"
-    },
     "INVP": {
       "date": "2026-08-06",
       "event": "AGM (Conf)"
     },
-    "JD.": {
-      "date": "2026-07-31",
-      "event": "Final Dividend Payment Date"
-    },
-    "JDW": {
-      "date": "2026-07-31",
-      "event": "Year end"
-    },
-    "JMAT": {
-      "date": "2026-08-04",
-      "event": "Q4 div payment"
-    },
-    "LLOY": {
-      "date": "2026-07-30",
-      "event": "Interim Results"
-    },
-    "LRE": {
-      "date": "2026-07-29",
-      "event": "Interim Results"
-    },
     "MONY": {
-      "date": "2026-07-30",
-      "event": "Q2 ex-div"
-    },
-    "MPGT": {
-      "date": "2026-07-31",
-      "event": "Final Dividend Payment Date"
-    },
-    "MRO": {
-      "date": "2026-07-31",
-      "event": "Interim Results"
+      "date": "2026-09-07",
+      "event": "Q2 div payment"
     },
     "MSFT": {
-      "date": "2026-07-30",
-      "event": "Annual report (Est)"
+      "date": "2026-08-20",
+      "event": "Special ex-div"
     },
     "N91": {
       "date": "2026-08-06",
       "event": "Q4 div payment"
     },
-    "NWG": {
-      "date": "2026-07-31",
-      "event": "Interim Results"
-    },
     "NXT": {
-      "date": "2026-08-03",
-      "event": "Q4 div payment"
+      "date": "2026-08-05",
+      "event": "Trading statement"
     },
     "PAF": {
       "date": "2026-09-10",
       "event": "Annual report (Est)"
     },
-    "PAG": {
-      "date": "2026-07-29",
-      "event": "Trading statement"
-    },
-    "PAY": {
-      "date": "2026-07-29",
-      "event": "AGM"
-    },
-    "PETS": {
-      "date": "2026-07-30",
-      "event": "Trading Announcement"
-    },
     "PHP": {
       "date": "2026-08-14",
       "event": "Special div payment"
-    },
-    "RAT": {
-      "date": "2026-07-29",
-      "event": "Interim Results"
-    },
-    "RIO": {
-      "date": "2026-07-29",
-      "event": "Interim Results"
-    },
-    "RTO": {
-      "date": "2026-07-30",
-      "event": "Interim Results"
     },
     "SAF": {
       "date": "2026-08-06",
@@ -169,61 +85,25 @@
       "date": "2026-08-14",
       "event": "Special ex-div"
     },
-    "SHEL": {
-      "date": "2026-07-30",
-      "event": "Q2 Results"
-    },
     "SMWH": {
       "date": "2026-08-31",
       "event": "Year end"
-    },
-    "SRE": {
-      "date": "2026-07-30",
-      "event": "Final Dividend Payment Date"
-    },
-    "STAN": {
-      "date": "2026-07-30",
-      "event": "Interim Results"
-    },
-    "STJ": {
-      "date": "2026-07-29",
-      "event": "Interim Results"
     },
     "SUPR": {
       "date": "2026-08-21",
       "event": "Special div payment"
     },
-    "SUS": {
-      "date": "2026-07-31",
-      "event": "Interim Dividend Payment Date"
-    },
-    "TATE": {
-      "date": "2026-07-31",
-      "event": "Final Dividend Payment Date"
-    },
     "TBCG": {
       "date": "2026-08-13",
       "event": "Q1 ex-div"
-    },
-    "TW.": {
-      "date": "2026-07-31",
-      "event": "Interim Results"
-    },
-    "VOD": {
-      "date": "2026-07-30",
-      "event": "Final Dividend Payment Date"
     },
     "WIZZ": {
       "date": "2026-08-05",
       "event": "AGM (Conf)"
     },
-    "WKP": {
-      "date": "2026-08-03",
-      "event": "Q4 div payment"
-    },
     "WOSG": {
-      "date": "2026-07-31",
-      "event": "Annual report (Est)"
+      "date": "2026-09-03",
+      "event": "AGM (Est)"
     },
     "ZIG": {
       "date": "2026-08-27",
