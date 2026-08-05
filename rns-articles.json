@@ -1,5 +1,31 @@
 [
   {
+    "company": "Reckitt Benckiser Group plc",
+    "ticker": "RKT",
+    "publish_date": "05 August 2026",
+    "date_iso": "2026-08-05",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>Mead Johnson Nutrition Company</strong>, a wholly-owned subsidiary of <strong>Reckitt</strong>, has commenced an any-and-all cash tender offer for its outstanding <strong>4.600% Senior Notes due 2044</strong>.</li><li>Accompanied by a consent solicitation to strip out substantially all restrictive covenants and certain events of default, and to release <strong>Reckitt's guarantee</strong> of the Notes.</li><li>Tender offer and consent solicitation expire at <strong>5:00 p.m. New York time on 13 August 2026</strong>; settlement expected <strong>18 August 2026</strong>.</li><li>Routine liability-management exercise on subsidiary debt — <strong>no impact</strong> on Reckitt's equity, trading or guidance; <strong>Deutsche Bank Securities</strong> and <strong>Merrill Lynch International</strong> acting as dealer managers.</li></ul>",
+    "source_format": "html",
+    "headline": "Reckitt subsidiary Mead Johnson launches any-and-all cash tender offer and consent solicitation for its 4.600% Senior Notes due 2044.",
+    "priority": "low",
+    "priority_reason": "Debt tender offer and consent solicitation on a subsidiary's bonds — a liability-management exercise with no impact on Reckitt's equity, trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/reckitt-benckiser-RKT/share-news/Reckitt-Benckiser-Group-PLC-Tender-Offer/99051252",
+    "related_news_url": "https://news.google.com/search?q=%22Reckitt%20Benckiser%20Group%20plc%22",
+    "added_at": "2026-08-05T14:16:32.005641"
+  },
+  {
     "company": "HSBC Holdings PLC",
     "ticker": "HSBA",
     "publish_date": "05 August 2026",
