@@ -1,5 +1,31 @@
 [
   {
+    "company": "Ferrexpo PLC",
+    "ticker": "FXPO",
+    "publish_date": "05 August 2026",
+    "date_iso": "2026-08-05",
+    "time_period": "",
+    "announcement_type": "Trading update",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Ferrexpo</strong> has <strong>temporarily suspended production</strong> of iron ore products from its mining and pelletising operations in <strong>Ukraine</strong> to preserve working capital, after attacks around Ukrainian ports <strong>materially restricted</strong> its Black Sea export routes.</li><li>The Group warns that, absent additional funding, its net accessible cash resources are only sufficient until <strong>mid-September 2026</strong>.</li><li>Resumption of production is subject to, among other things, an <strong>injection of additional working capital</strong>.</li><li>The third-party vessel carrying Ferrexpo <strong>DR-grade pellets</strong> — subject of the <strong>28 July 2026</strong> incident — has been located, removed from the war-risk area and is under tow to a Black Sea port for inspection.</li><li>European customers can currently be supplied from <strong>existing inventory stockpiles</strong>.</li><li>Forecast remains subject to iron ore price volatility, energy costs, suspended <strong>VAT refunds</strong> and ongoing legal proceedings involving <strong>Ferrexpo Poltava Mining</strong>; announcement contains inside information.</li></ul>",
+    "source_format": "html",
+    "headline": "Ferrexpo temporarily suspends all Ukrainian iron ore production after Black Sea logistics disruption, warning cash resources last only until mid-September 2026 without new funding.",
+    "priority": "high",
+    "priority_reason": "Ferrexpo has suspended all production in Ukraine and warns cash runs out by mid-September without new funding — a going-concern-level operational crisis.",
+    "figures": [],
+    "guidance": {
+      "status": "new",
+      "previous": "",
+      "current": "In the absence of additional funding, the Group expects its net accessible cash resources to be sufficient until mid-September 2026.",
+      "commentary": "Ferrexpo has suspended production and flagged a cash runway only to mid-September 2026 without fresh working capital, effectively a going-concern warning driven by restricted Black Sea export logistics."
+    },
+    "explainer": "This is not a results announcement but a material operational update. Ferrexpo mines and processes iron ore in Ukraine, and the war has repeatedly disrupted its ability to ship product out through Black Sea ports. Attacks in and around Ukrainian ports have now restricted export routes so severely that the company has chosen to halt production entirely rather than keep mining ore it cannot ship and burn through cash doing so.\n\nThe critical figure is the cash runway: management states that, without new funding, net accessible cash resources last only until mid-September 2026. That is a going-concern-style warning — the business needs an injection of working capital both to keep operating and to restart production. Restarting is explicitly conditional on that funding.\n\nThe vessel incident referenced from 28 July 2026 involves a third-party ship carrying Ferrexpo's DR-grade pellets; it has now been recovered from the war-risk zone and is being towed to port for inspection, so the cargo's condition is not yet known.\n\nSeveral caveats compound the risk: iron ore price volatility, energy and operating costs, suspended VAT refunds in Ukraine, and ongoing legal proceedings involving Ferrexpo Poltava Mining. For now European customers can be served from existing stockpiles, but those inventories are finite while production is paused.",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/ferrexpo--fxpo/update-on-vessel-incident-logistics-operations/9704916",
+    "related_news_url": "https://news.google.com/search?q=%22Ferrexpo%20plc%22",
+    "added_at": "2026-08-05T07:41:19.969683"
+  },
+  {
     "company": "Credit Acceptance Corp",
     "ticker": "CACC",
     "publish_date": "05 August 2026",
