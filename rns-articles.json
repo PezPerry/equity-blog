@@ -78,6 +78,97 @@
     "added_at": "2026-08-05T07:36:49.674590"
   },
   {
+    "company": "Wynn Resorts Ltd",
+    "ticker": "WYNN",
+    "publish_date": "04 August 2026",
+    "date_iso": "2026-08-04",
+    "time_period": "Q2 2026 (quarter ended 30 June 2026)",
+    "announcement_type": "Interim results",
+    "period_detail": "Q2 2026 (quarter ended 30 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Wynn Resorts, Limited</strong> reported Q2 2026 operating revenue of <strong>$1.86bn</strong>, up <strong>$119.1m</strong> from <strong>$1.74bn</strong> a year earlier.</li><li>Net income attributable to Wynn more than doubled to <strong>$140.1m</strong> (<strong>$1.32</strong> diluted EPS) from <strong>$66.2m</strong> (<strong>$0.64</strong>); adjusted EPS <strong>$1.24</strong> vs <strong>$1.09</strong>.</li><li>Adjusted Property EBITDAR <strong>$568.3m</strong> vs <strong>$552.4m</strong>, with <strong>Wynn Palace</strong> up <strong>$44.3m</strong> but <strong>Las Vegas</strong> down <strong>$19.6m</strong>.</li><li>Board declared a quarterly cash dividend of <strong>$0.25</strong> per share, payable <strong>28 August 2026</strong> to holders of record <strong>14 August 2026</strong>.</li><li>Repurchased <strong>741,098 shares</strong> at an average <strong>$101.20</strong> for <strong>$75.0m</strong>; <strong>$326.1m</strong> of buyback authority remaining.</li><li><strong>Wynn Al Marjan Island</strong> (UAE, 40%-owned JV) now expected to open <strong>September 2027</strong>; life-to-date cash contributions <strong>$1.06bn</strong>. Total debt <strong>$10.72bn</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Wynn Resorts Q2 2026 revenue rose to $1.86bn and net income more than doubled to $140.1m, driven by strong Macau and Las Vegas demand.",
+    "priority": "high",
+    "priority_reason": "Quarterly results with revenue, profit, EPS and dividend — a core trading event.",
+    "figures": [
+      {
+        "metric": "Operating revenue",
+        "current": "$1.86bn",
+        "prior": "$1.74bn",
+        "change": "+$119.1m",
+        "basis": "reported",
+        "note": "Q2 ended 30 June 2026 vs Q2 2025"
+      },
+      {
+        "metric": "Net income attributable to Wynn",
+        "current": "$140.1m",
+        "prior": "$66.2m",
+        "change": "+112%",
+        "basis": "reported",
+        "note": "Q2 2026 vs Q2 2025"
+      },
+      {
+        "metric": "Diluted EPS",
+        "current": "$1.32",
+        "prior": "$0.64",
+        "change": "+106%",
+        "basis": "GAAP diluted",
+        "note": "Q2 2026 vs Q2 2025"
+      },
+      {
+        "metric": "Adjusted diluted EPS",
+        "current": "$1.24",
+        "prior": "$1.09",
+        "change": "+13.8%",
+        "basis": "non-GAAP",
+        "note": "adjusted net income $127.5m vs $113.3m"
+      },
+      {
+        "metric": "Adjusted Property EBITDAR",
+        "current": "$568.3m",
+        "prior": "$552.4m",
+        "change": "+$15.9m",
+        "basis": "non-GAAP",
+        "note": "Q2 2026 vs Q2 2025"
+      },
+      {
+        "metric": "Dividend per share",
+        "current": "$0.25",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "quarterly cash dividend",
+        "note": "payable 28 August 2026"
+      },
+      {
+        "metric": "Total debt",
+        "current": "$10.72bn",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "current and long-term",
+        "note": "as at 30 June 2026"
+      },
+      {
+        "metric": "Cash and cash equivalents",
+        "current": "$1.57bn",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "excludes $527.4m WML short-term investments",
+        "note": "as at 30 June 2026"
+      }
+    ],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": "No financial guidance issued; the only forward commitment is the Wynn Al Marjan Island opening timeline, now set for September 2027."
+    },
+    "explainer": "This is a US-listed (NASDAQ) quarterly report, so figures are in dollars and follow US GAAP rather than the UK results format. The headline story is a sharp jump in net income — $140.1m versus $66.2m — on a more modest revenue gain, meaning the profit growth outpaced the top line. Diluted EPS doubled to $1.32.\n\nThe company also prints two non-GAAP measures. Adjusted Property EBITDAR ($568.3m) strips out interest, tax, depreciation, pre-opening costs, corporate expenses and lease rent to show underlying property-level trading; it rose only $15.9m, a much slower rate than reported net income, because much of the net income improvement came from below-the-line items. Adjusted EPS ($1.24 vs $1.09) smooths out one-offs and reflects a steadier 14% underlying gain.\n\nBy region, Wynn Palace in Macau did the heavy lifting (EBITDAR +$44.3m), helped by an unusually high mass-market table win of 29.7% versus 22.3% a year ago — a favourable luck factor. Las Vegas EBITDAR actually fell $19.6m despite flat revenue, and Encore Boston Harbor softened. Investors should treat elevated win percentages as partly luck-driven rather than a permanent trend.\n\nThere is no earnings guidance in this release. The main forward marker is the Wynn Al Marjan Island resort in the UAE, now scheduled to open September 2027, into which Wynn has sunk $1.06bn to date via its 40% JV stake.",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/WYNN/share-news/Wynn-Resorts-Limited-Reports-Second-Quarter-2026/99047390",
+    "related_news_url": "https://news.google.com/search?q=%22Wynn%20Resorts%2C%20Limited%22",
+    "added_at": "2026-08-05T07:39:35.588145"
+  },
+  {
     "company": "trivago NV",
     "ticker": "TRVG",
     "publish_date": "04 August 2026",
