@@ -1,5 +1,96 @@
 [
   {
+    "company": "Credit Acceptance Corp",
+    "ticker": "CACC",
+    "publish_date": "05 August 2026",
+    "date_iso": "2026-08-05",
+    "time_period": "Q2 2026 (three months ended 30 June 2026)",
+    "announcement_type": "Quarterly results",
+    "period_detail": "Q2 2026 (three months ended 30 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Credit Acceptance Corporation</strong> (NASDAQ: CACC) reported <strong>Q2 2026</strong> results (three months to <strong>30 June 2026</strong>), with CEO <strong>Vinayak Hegde</strong> citing improved profitability and strengthening origination trends.</li><li>Unit volume <strong>declined 1.0%</strong> and dollar volume <strong>rose 0.1%</strong> year-on-year; active dealers <strong>increased 3.3%</strong> while average unit volume per active dealer <strong>fell 3.8%</strong>.</li><li>Volume momentum turned sharply positive after quarter-end: <strong>July 2026</strong> unit volume <strong>jumped 28.0%</strong> versus the same period in 2025.</li><li>Spread on 2026 Consumer Loans was <strong>21.9%</strong> as of 30 June 2026, <strong>consistent with 2025</strong>; 2026 dealer-loan spread <strong>22.4%</strong> (2025: 22.1%) and purchased-loan spread <strong>20.3%</strong> (2025: 21.1%).</li><li>Forecasted collection rates <strong>declined</strong> for loans assigned in <strong>2023–2025</strong>; net dealer loans were <strong>71.0%</strong> of total net loans receivable, down from <strong>72.1%</strong> at 31 December 2025.</li><li>Note: the scraped text is <strong>truncated</strong> before the GAAP net income, revenue and EPS figures — headline earnings numbers and any comparatives are not available in this article.</li></ul>",
+    "source_format": "html",
+    "headline": "Credit Acceptance reports Q2 2026 results, citing improved profitability and a sharp rebound in loan volumes into July, though the scraped text is cut off before headline earnings figures.",
+    "priority": "high",
+    "priority_reason": "Quarterly results release, which is high priority under the results rule.",
+    "figures": [
+      {
+        "metric": "Unit volume",
+        "current": "-1.0%",
+        "prior": "not stated",
+        "change": "-1.0% YoY",
+        "basis": "reported",
+        "note": "Q2 2026 vs Q2 2025"
+      },
+      {
+        "metric": "Dollar volume",
+        "current": "+0.1%",
+        "prior": "not stated",
+        "change": "+0.1% YoY",
+        "basis": "reported",
+        "note": "Q2 2026 vs Q2 2025"
+      },
+      {
+        "metric": "Active dealers",
+        "current": "+3.3%",
+        "prior": "not stated",
+        "change": "+3.3% YoY",
+        "basis": "reported",
+        "note": "Q2 2026"
+      },
+      {
+        "metric": "Average unit volume per active dealer",
+        "current": "-3.8%",
+        "prior": "not stated",
+        "change": "-3.8% YoY",
+        "basis": "reported",
+        "note": "Q2 2026"
+      },
+      {
+        "metric": "July unit volume",
+        "current": "+28.0%",
+        "prior": "not stated",
+        "change": "+28.0% YoY",
+        "basis": "reported",
+        "note": "July 2026 vs July 2025"
+      },
+      {
+        "metric": "Spread on 2026 dealer loans",
+        "current": "22.4%",
+        "prior": "22.1%",
+        "change": "+0.3pp",
+        "basis": "as % of initial loan balance",
+        "note": "2026 vs 2025 dealer loans, at 30 June 2026"
+      },
+      {
+        "metric": "Spread on 2026 purchased loans",
+        "current": "20.3%",
+        "prior": "21.1%",
+        "change": "-0.8pp",
+        "basis": "as % of initial loan balance",
+        "note": "2026 vs 2025 purchased loans, at 30 June 2026"
+      },
+      {
+        "metric": "Net dealer loans receivable (% of total net loans)",
+        "current": "71.0%",
+        "prior": "72.1%",
+        "change": "-1.1pp",
+        "basis": "reported",
+        "note": "30 June 2026 vs 31 December 2025"
+      }
+    ],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "Credit Acceptance is a US sub-prime auto lender that funds car dealers by either advancing money against dealers' consumer loan contracts or buying those contracts outright. Its profitability hinges on the 'spread' — the gap between the collection rate it forecasts on a pool of loans and the advance rate it pays dealers. A wider spread means more expected profit per loan, so the small spread moves quoted here (dealer loans up to 22.4%, purchased loans down to 20.3%) are the operational signal traders watch.\n\nThe volume picture is mixed: the quarter itself was flat-to-down (unit volume -1.0%), driven by a 3.8% drop in average volume per dealer even as the dealer network grew 3.3%. The eye-catching number is the post-quarter rebound — July unit volume up 28.0% year-on-year — which management frames as momentum returning, though a single month should be treated with caution given easy prior-year comparatives.\n\nDeclining forecast collection rates on 2023–2025 vintages are a negative: it means loans booked in those years are collecting less than originally modelled, which can pressure earnings via impairment. The company stresses that recent-quarter declines partly reflect loan cancellations inflating the denominator rather than genuine performance deterioration.\n\nImportant caveat: this scraped article is cut off mid-sentence, just as it begins explaining the drivers of GAAP net income. The actual headline results — net income, adjusted (economic) profit, revenue and EPS, plus their year-on-year comparatives — are not present in the text supplied, so this summary covers only the operational and portfolio metrics that were included.",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/CACC/share-news/Credit-Acceptance-Announces-Second-Quarter-2026-Re/99047457",
+    "related_news_url": "https://news.google.com/search?q=%22Credit%20Acceptance%20Corporation%22",
+    "added_at": "2026-08-05T07:40:10.277726"
+  },
+  {
     "company": "Old Mutual Ltd",
     "ticker": "OMU",
     "publish_date": "05 August 2026",
