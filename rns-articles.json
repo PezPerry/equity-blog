@@ -1,5 +1,31 @@
 [
   {
+    "company": "HSBC Holdings PLC",
+    "ticker": "HSBA",
+    "publish_date": "05 August 2026",
+    "date_iso": "2026-08-05",
+    "time_period": "",
+    "announcement_type": "Buyback programme launch",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>HSBC Holdings plc</strong> to commence a share buy-back of up to <strong>US$1,000,000,000</strong> in ordinary shares, as flagged in its <strong>4 August 2026</strong> announcement.</li><li>Non-discretionary agreement with <strong>BNP Paribas</strong> (acting as principal); purchases run from <strong>6 August 2026</strong> to no later than <strong>23 October 2026</strong>.</li><li>Trades on <strong>UK Venues</strong> (LSE, Aquis, Cboe BXE/CXE, Turquoise) and/or the <strong>Hong Kong Stock Exchange</strong>; all repurchased shares to be <strong>cancelled</strong>.</li><li>Maximum <strong>1,718,354,635</strong> ordinary shares repurchasable under the <strong>2026 Authority</strong> granted at the AGM on <strong>8 May 2026</strong>.</li><li>Routine capital-return programme launch — <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "HSBC to launch a US$1bn share buy-back from 6 August 2026, purchasing and cancelling ordinary shares via BNP Paribas by 23 October 2026.",
+    "priority": "medium",
+    "priority_reason": "Launch of a new US$1bn buyback programme is a capital-return event, above routine daily dealing disclosures.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/hsbc-holdings--hsba/hsbc-holdings-plc-share-buy-back-/9706234",
+    "related_news_url": "https://news.google.com/search?q=%22HSBC%20Holdings%20plc%22",
+    "added_at": "2026-08-05T10:55:38.521344"
+  },
+  {
     "company": "Legal & General Group PLC",
     "ticker": "LGEN",
     "publish_date": "05 August 2026",
