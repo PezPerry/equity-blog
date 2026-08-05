@@ -1,5 +1,112 @@
 [
   {
+    "company": "Beazley PLC",
+    "ticker": "BEZ",
+    "publish_date": "05 August 2026",
+    "date_iso": "2026-08-05",
+    "time_period": "H1 2026 (period ended 30 June 2026)",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 2026 (period ended 30 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Profit before tax</strong> fell 53% to <strong>$237.7m</strong> (2025HY: <strong>$502.5m</strong>), including <strong>$33.6m</strong> of costs relating to the <strong>Zurich</strong> transaction.</li><li><strong>Insurance written premiums</strong> down 4% to <strong>$3,050.6m</strong> (2025HY: <strong>$3,187.1m</strong>) as Beazley proactively de-risked; rating conditions down <strong>6.5%</strong> on average, with Property Risks down <strong>13.2%</strong>.</li><li><strong>Undiscounted combined ratio</strong> worsened to <strong>93.3%</strong> (2025HY: <strong>84.9%</strong>) on a return to an active large-loss environment; <strong>EPS 23.2p</strong> (2025HY: <strong>52.5p</strong>), down 56%.</li><li><strong>Return on equity</strong> (annualised) of <strong>7.6%</strong> (2025HY: <strong>18.2%</strong>); investment result <strong>$211.6m</strong> (2025HY: <strong>$308.5m</strong>) hit by market volatility.</li><li><strong>Net assets per share</strong> up 10% to <strong>616.7p</strong>; CEO <strong>Adrian Cox</strong> cites cyber and geopolitical risk (Middle East, marine/political violence) and progress in Bermuda and Transition underwriting.</li><li>Board accepted <strong>Zurich Insurance Group's</strong> offer to acquire the company in <strong>March 2026</strong>, with the deal expected to close before year-end.</li></ul>",
+    "source_format": "html",
+    "headline": "Beazley H1 2026 pre-tax profit fell 53% to $237.7m as softening rates, large losses and Zurich deal costs weighed; premiums down 4%.",
+    "priority": "high",
+    "priority_reason": "Half-year results from a major listed specialty insurer, showing a sharp profit fall against a pending Zurich takeover.",
+    "figures": [
+      {
+        "metric": "Profit before tax",
+        "current": "$237.7m",
+        "prior": "$502.5m",
+        "change": "-53%",
+        "basis": "reported",
+        "note": "H1 to 30 June 2026; includes $33.6m Zurich transaction costs"
+      },
+      {
+        "metric": "Insurance written premiums",
+        "current": "$3,050.6m",
+        "prior": "$3,187.1m",
+        "change": "-4%",
+        "basis": "reported",
+        "note": "-4.3% on stated basis"
+      },
+      {
+        "metric": "Net insurance written premiums",
+        "current": "$2,439.6m",
+        "prior": "$2,600.6m",
+        "change": "-6%",
+        "basis": "reported",
+        "note": ""
+      },
+      {
+        "metric": "Insurance service result",
+        "current": "$274.8m",
+        "prior": "$493.7m",
+        "change": "-44%",
+        "basis": "reported",
+        "note": ""
+      },
+      {
+        "metric": "Undiscounted combined ratio",
+        "current": "93.3%",
+        "prior": "84.9%",
+        "change": "+8.4pts",
+        "basis": "reported",
+        "note": "discounted combined ratio 88.4% vs 80.3%"
+      },
+      {
+        "metric": "Return on equity (annualised)",
+        "current": "7.6%",
+        "prior": "18.2%",
+        "change": "-10.6pts",
+        "basis": "annualised",
+        "note": ""
+      },
+      {
+        "metric": "Earnings per share",
+        "current": "23.2p",
+        "prior": "52.5p",
+        "change": "-56%",
+        "basis": "reported",
+        "note": ""
+      },
+      {
+        "metric": "Net assets per share",
+        "current": "616.7p",
+        "prior": "560.0p",
+        "change": "+10%",
+        "basis": "reported",
+        "note": ""
+      },
+      {
+        "metric": "Net tangible assets per share",
+        "current": "580.2p",
+        "prior": "536.1p",
+        "change": "+8%",
+        "basis": "reported",
+        "note": ""
+      },
+      {
+        "metric": "Investment result",
+        "current": "$211.6m",
+        "prior": "$308.5m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": ""
+      }
+    ],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": "No explicit numeric earnings or premium guidance is quoted in this statement; management flags continued market softening and disciplined underwriting, with the Zurich acquisition expected to close before year-end."
+    },
+    "explainer": "These are half-year results for the six months to 30 June 2026, reported in US dollars. The headline is a sharp fall in profit before tax, down 53% to $237.7m, driven by a 'softer' insurance market (falling premium rates, down 6.5% on average) and a return to a more active large-loss environment after several benign years. All the comparatives are versus the same period in 2025, on a reported basis, with no currency-adjusted or organic restatement given.\n\nThe combined ratio measures underwriting profitability — claims and costs as a percentage of premiums, so below 100% means an underwriting profit. Beazley's undiscounted combined ratio worsened from 84.9% to 93.3%, meaning underwriting is still profitable but markedly less so. The $33.6m of Zurich takeover costs sit outside the combined ratio (they are not underwriting costs), so they depress reported profit but not the underwriting metrics.\n\nPremiums fell 4% partly by choice: Beazley says it is deliberately pulling back from lines where prices no longer reflect the risk, notably North American cyber and property. The weaker investment result ($211.6m vs $308.5m) reflects more volatile markets. Book value per share still rose (net assets per share up 10% to 616.7p), so the balance sheet strengthened even as earnings dropped.\n\nNo formal guidance figures are provided. The dominant forward-looking item is the agreed acquisition by Zurich, accepted by the Board in March 2026 and expected to complete before the end of the year — which is likely to matter more to the shares than the half-year numbers themselves.",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/beazley--bez/beazley-plc-results-for-period-ended-30-june-2026/9704869",
+    "related_news_url": "https://news.google.com/search?q=%22Beazley%20plc%22",
+    "added_at": "2026-08-05T07:41:51.861020"
+  },
+  {
     "company": "Ferrexpo PLC",
     "ticker": "FXPO",
     "publish_date": "05 August 2026",
