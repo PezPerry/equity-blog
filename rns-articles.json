@@ -1,5 +1,31 @@
 [
   {
+    "company": "Legal & General Group PLC",
+    "ticker": "LGEN",
+    "publish_date": "05 August 2026",
+    "date_iso": "2026-08-05",
+    "time_period": "H1 to 30 June 2026",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Legal & General Finance PLC</strong> has submitted its <strong>half-year report and accounts</strong> for the period ended <strong>30 June 2026</strong> to the National Storage Mechanism.</li><li>This is the financing subsidiary vehicle, not <strong>Legal & General Group Plc</strong> itself; no financial figures, results detail or guidance are contained in the announcement.</li><li>Routine document-availability notice with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Legal & General Finance PLC has filed its half-year report for the six months to 30 June 2026 with the National Storage Mechanism.",
+    "priority": "low",
+    "priority_reason": "Administrative notice that a financing subsidiary's half-year report has been filed to the NSM, with no figures or trading content disclosed.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/legal-general-finance-plc--67db/half-year-report/9706129",
+    "related_news_url": "https://news.google.com/search?q=%22Legal%20%26%20General%20Finance%20PLC%22",
+    "added_at": "2026-08-05T10:15:30.219994"
+  },
+  {
     "company": "Beazley PLC",
     "ticker": "BEZ",
     "publish_date": "05 August 2026",
