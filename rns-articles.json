@@ -52,6 +52,89 @@
     "added_at": "2026-08-05T07:36:49.674590"
   },
   {
+    "company": "LGI Homes, Inc.",
+    "ticker": "LGIH",
+    "publish_date": "04 August 2026",
+    "date_iso": "2026-08-04",
+    "time_period": "Q2 2026 (to 30 June 2026)",
+    "announcement_type": "Quarterly results",
+    "period_detail": "Q2 2026 (to 30 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>LGI Homes</strong> delivered <strong>1,440 homes</strong> in Q2 2026, up <strong>8.8%</strong> year-on-year, generating total revenues of <strong>$516.0m</strong> and homebuilding revenues of <strong>$501.5m</strong>.</li><li>Homebuilding gross margin of <strong>19.8%</strong> and adjusted homebuilding gross margin of <strong>23.2%</strong>, both above the midpoint of the previously increased guidance range.</li><li>Debt cut by <strong>$128.6m</strong> in the quarter; debt-to-capital ratio of <strong>42.6%</strong>, a <strong>220 basis point</strong> year-on-year improvement.</li><li><strong>151 active communities</strong> at quarter-end, up <strong>3.4%</strong> year-on-year, hitting the low end of full-year guidance six months in.</li><li>Raised full-year 2026 guidance (second consecutive quarter): homebuilding gross margin <strong>19.0%–21.0%</strong>, adjusted <strong>22.5%–24.5%</strong>, and average sales price per home <strong>$360,000–$370,000</strong>.</li><li>Note: several comparative figures (revenue, EPS, net income prior-year) not printed in the scraped text; income-statement tables not captured.</li></ul>",
+    "source_format": "html",
+    "headline": "LGI Homes posted Q2 revenues of $516.0m on 1,440 closings, up 8.8%, and raised full-year gross margin and average sales price guidance.",
+    "priority": "high",
+    "priority_reason": "Quarterly results with a raised full-year guidance on gross margin and average sales price.",
+    "figures": [
+      {
+        "metric": "Home closings",
+        "current": "1,440",
+        "prior": "not stated",
+        "change": "+8.8%",
+        "basis": "",
+        "note": "Q2 2026 vs Q2 2025"
+      },
+      {
+        "metric": "Total revenues",
+        "current": "$516.0m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "Q2 2026"
+      },
+      {
+        "metric": "Homebuilding revenues",
+        "current": "$501.5m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "Q2 2026"
+      },
+      {
+        "metric": "Homebuilding gross margin",
+        "current": "19.8%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "GAAP",
+        "note": "Q2 2026"
+      },
+      {
+        "metric": "Adjusted homebuilding gross margin",
+        "current": "23.2%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "non-GAAP",
+        "note": "Q2 2026"
+      },
+      {
+        "metric": "Active communities",
+        "current": "151",
+        "prior": "not stated",
+        "change": "+3.4%",
+        "basis": "",
+        "note": "at 30 June 2026"
+      },
+      {
+        "metric": "Debt-to-capital ratio",
+        "current": "42.6%",
+        "prior": "not stated",
+        "change": "-220bps",
+        "basis": "",
+        "note": "debt reduced by $128.6m in quarter"
+      }
+    ],
+    "guidance": {
+      "status": "raised",
+      "previous": "Previously increased homebuilding gross margin guidance range (specific prior range not printed in the scraped text); prior average sales price guidance not stated.",
+      "current": "Full-year 2026 homebuilding gross margin 19.0%–21.0%, adjusted homebuilding gross margin 22.5%–24.5%, average sales price per home closed $360,000–$370,000; other outlook items reiterated.",
+      "commentary": "On first-half outperformance, LGI raised its full-year gross margin guidance for a second consecutive quarter and lifted its average sales price range, citing disciplined pricing, incentive and inventory management. Guidance assumes stable economic conditions and excludes any further US tariff changes on homebuilding products."
+    },
+    "explainer": "LGI Homes is a US homebuilder (NASDAQ-listed, based in Texas) reporting its second-quarter 2026 results. Headline numbers compare the three months to 30 June 2026 with the same period a year earlier: 1,440 homes closed (up 8.8%) producing $516.0m of total revenue. The company highlights both a GAAP homebuilding gross margin (19.8%) and an 'adjusted' figure (23.2%) — the adjusted measure strips out capitalised interest, purchase-accounting adjustments and any inventory impairment, so it will typically look higher than the reported margin.\n\nThe key news is the guidance upgrade. For the second quarter running, LGI has raised its full-year gross margin outlook, now guiding to 19.0%–21.0% (reported) and 22.5%–24.5% (adjusted), and has lifted its expected full-year average sales price per home to $360,000–$370,000. Other outlook items (community count, SG&A, tax rate) are unchanged.\n\nManagement frames the upgrade as a read-through from first-half outperformance rather than a change in market conditions — the outlook explicitly assumes input costs, interest rates and mortgage availability stay similar to the year to date, and does not build in any additional US tariff changes on homebuilding products. Alongside the margin story, LGI paid down $128.6m of debt in the quarter, improving its debt-to-capital ratio to 42.6% (a 220 basis point year-on-year improvement), pointing to a stronger balance sheet.\n\nNote for reference: the scraped text captured management commentary and guidance but not the detailed income-statement tables, so prior-year comparatives for revenue, net income and EPS are not printed here.",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/LGIH/share-news/LGI-Homes-Inc-Reports-Strong-Second-Quarter-2026/99042574",
+    "related_news_url": "https://news.google.com/search?q=%22LGI%20Homes%2C%20Inc.%22",
+    "added_at": "2026-08-05T07:37:55.348506"
+  },
+  {
     "company": "Steel Dynamics Inc",
     "ticker": "STLD",
     "publish_date": "04 August 2026",
