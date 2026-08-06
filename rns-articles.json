@@ -1,5 +1,80 @@
 [
   {
+    "company": "Morgan Advanced Materials Plc",
+    "ticker": "MGAM",
+    "publish_date": "06 August 2026",
+    "date_iso": "2026-08-06",
+    "time_period": "H1 to 30 June 2026",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>H1 revenue £518.1m</strong> (restated H1 2025: <strong>£502.5m</strong>), <strong>+3.1%</strong> reported and <strong>+4.8%</strong> organic constant-currency; <strong>+3.0%</strong> excluding phasing benefit from a semiconductor take-or-pay contract.</li><li><strong>Adjusted operating profit margin 11.2%</strong>; revenue, adjusted operating profit and net debt boosted by <strong>£8.9m</strong> of take-or-pay income phased into H1 that will <strong>not repeat in H2</strong>.</li><li><strong>Net debt/EBITDA at 2.0x</strong> (ex-IFRS 16), reflecting capacity, simplification and ERP investment; expected to reduce in H2 as free cash flow normalises and via potential MMS disposal proceeds.</li><li>Full-year guidance: <strong>around 2%</strong> organic constant-currency revenue growth expected, with a <strong>foreign exchange headwind</strong> and H2 adjusted margin broadly in line with H1 excluding the take-or-pay phasing.</li><li><strong>Strategic review of the Thermal Products division</strong> progressing, with a potential disposal among options under consideration; further update in due course.</li><li>Simplification programme on track for <strong>£27m</strong> annualised run-rate savings by end-2026 (total cash cost <strong>£45m</strong>); confident in <strong>12% margin target by 2028</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Morgan Advanced Materials posts H1 revenue of £518.1m, up 4.8% organic constant-currency, with an adjusted operating margin of 11.2% and performance in line.",
+    "priority": "high",
+    "priority_reason": "Half-year results with full-year revenue guidance and a strategic review of the Thermal Products division.",
+    "figures": [
+      {
+        "metric": "Revenue",
+        "current": "£518.1m",
+        "prior": "£502.5m",
+        "change": "+3.1%",
+        "basis": "reported; +4.8% organic constant-currency",
+        "note": "H1 to 30 June 2026 (H1 2025 restated for MMS as discontinued)"
+      },
+      {
+        "metric": "Adjusted operating profit margin",
+        "current": "11.2%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "adjusted, continuing operations",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Net debt to EBITDA",
+        "current": "2.0x",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "excluding IFRS 16 leases",
+        "note": "at 30 June 2026"
+      },
+      {
+        "metric": "Thermal Products revenue",
+        "current": "£176.1m",
+        "prior": "not stated",
+        "change": "+2.5%",
+        "basis": "organic constant-currency",
+        "note": "H1 2026"
+      },
+      {
+        "metric": "Performance Carbon revenue",
+        "current": "£158.3m",
+        "prior": "not stated",
+        "change": "+4.0%",
+        "basis": "organic constant-currency; -1.8% excluding take-or-pay phasing",
+        "note": "H1 2026"
+      },
+      {
+        "metric": "Technical Ceramics revenue",
+        "current": "£183.7m",
+        "prior": "not stated",
+        "change": "+7.8%",
+        "basis": "organic constant-currency",
+        "note": "H1 2026"
+      }
+    ],
+    "guidance": {
+      "status": "new",
+      "previous": "Medium-term financial framework targeting a 12% adjusted operating profit margin by 2028",
+      "current": "Full-year organic constant-currency revenue growth of around 2%; H2 adjusted operating profit margin broadly in line with H1 excluding the take-or-pay phasing benefit, noting a FX headwind; 12% margin target for 2028 reaffirmed",
+      "commentary": "The company set a full-year outlook of about 2% organic constant-currency revenue growth, cautioning on European Industrial markets and a currency headwind, while reaffirming its medium-term 12% margin ambition for 2028."
+    },
+    "explainer": "Morgan reports on both a statutory (reported) and an organic constant-currency basis. Reported revenue rose 3.1%, but a stronger sterling/weaker US dollar created a foreign exchange drag; stripping out currency moves and portfolio changes, underlying (organic) revenue was up 4.8%. Prior-year figures have been restated to move the disposed Molten Metal Systems (MMS) business into discontinued operations, so the comparatives cover continuing operations only.\n\nA one-off distorts the first half: a semiconductor customer settled a take-or-pay contract in full during H1, pulling £8.9m of income forward that had been expected in H2. That flatters H1 revenue, adjusted operating profit and net debt, and management is clear it will not repeat — hence the underlying organic growth of 3.0% (group) once phasing is excluded.\n\nOn guidance, management now expects full-year organic constant-currency revenue growth of around 2%, citing weak European Industrial demand and a currency headwind, and guides second-half margin to be broadly in line with the first half once the take-or-pay benefit is excluded. The medium-term target of a 12% adjusted operating margin by 2028 is reaffirmed. Net debt sits at 2.0x EBITDA after heavy investment and is expected to fall in H2 as cash generation normalises and if the MMS proceeds and any Thermal Products disposal materialise.",
+    "source_url": "https://uk.advfn.com/stock-market/london/morgan-advanced-materials-MGAM/share-news/Morgan-Advanced-Materials-PLC-Half-year-Financial/99061062",
+    "related_news_url": "https://news.google.com/search?q=%22Morgan%20Advanced%20Materials%20Plc%22",
+    "added_at": "2026-08-06T07:42:19.155542"
+  },
+  {
     "company": "Wizz Air Holdings PLC",
     "ticker": "WIZZ",
     "publish_date": "06 August 2026",
@@ -602,6 +677,41 @@
     "source_url": "https://www.investegate.co.uk/announcement/rns/serco-group--srp/directorate-change/9707476",
     "related_news_url": "https://news.google.com/search?q=%22Serco%20Group%20plc%22",
     "added_at": "2026-08-06T07:28:05.741872"
+  },
+  {
+    "company": "TP ICAP Group plc",
+    "ticker": "TCAP",
+    "publish_date": "05 August 2026",
+    "date_iso": "2026-08-05",
+    "time_period": "H1 to 30 June 2026",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>TP ICAP Group plc</strong> releases <strong>Interim Results</strong> for the <strong>six months ended 30 June 2026</strong>, submitted to the FCA's National Storage Mechanism.</li><li>Board declares an <strong>interim dividend of 5.6 pence per share</strong>, payable <strong>6 November 2026</strong> to shareholders on the register at <strong>2 October 2026</strong>; ex-dividend <strong>1 October 2026</strong>.</li><li>DRIP available; last election date <strong>16 October 2026</strong>.</li><li>This scraped page carries only the notice and dividend detail — <strong>no revenue, profit or EPS figures are printed in the source text</strong>; full results are in the linked RNS PDF.</li></ul>",
+    "source_format": "html",
+    "headline": "TP ICAP publishes interim results for the six months to 30 June 2026 and declares an interim dividend of 5.6 pence per share.",
+    "priority": "high",
+    "priority_reason": "Half-year results with an interim dividend declaration.",
+    "figures": [
+      {
+        "metric": "Interim dividend",
+        "current": "5.6 pence per share",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "H1 to 30 June 2026"
+      }
+    ],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "This page is the interim-results notice rather than the detailed statement. It confirms TP ICAP has filed its results for the first half of 2026 and sets out the interim dividend of 5.6 pence per share, but the scraped text does not include the headline financials — revenue, profit, earnings per share or comparatives against H1 2025.\n\nBecause no current-versus-prior figures are printed in the source, none can be summarised here without inventing them. The actual numbers, and any commentary on trading and outlook, are contained in the full announcement linked in the release (the RNS PDF and TP ICAP's investor site). No formal guidance change is stated in this text.",
+    "source_url": "https://uk.advfn.com/stock-market/london/tp-icap-TCAP/share-news/TP-ICAP-Group-plc-Half-year-Financial-Report/99061054",
+    "related_news_url": "https://news.google.com/search?q=%22TP%20ICAP%20Group%20plc%22",
+    "added_at": "2026-08-06T07:42:19.121587"
   },
   {
     "company": "JTC plc",
