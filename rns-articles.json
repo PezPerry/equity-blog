@@ -1,5 +1,31 @@
 [
   {
+    "company": "TBC Bank Group PLC",
+    "ticker": "TBCG",
+    "publish_date": "06 August 2026",
+    "date_iso": "2026-08-06",
+    "time_period": "2Q 2026",
+    "announcement_type": "Dividend declaration",
+    "period_detail": "2Q 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>TBC Bank Group PLC</strong> declares a <strong>2Q 2026</strong> quarterly dividend of <strong>GEL 1.75 per share</strong>, payable in Pounds Sterling.</li><li>Ex-dividend <strong>22 October 2026</strong>, record date <strong>23 October 2026</strong>, payment date <strong>20 November 2026</strong>.</li><li>GEL/GBP conversion set on <strong>6 November 2026</strong> using the National Bank of Georgia's 5-day average rate (2-6 November 2026).</li><li>Routine dividend declaration — <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "TBC Bank Group declares a 2Q 2026 quarterly dividend of GEL 1.75 per share, payable in sterling on 20 November 2026.",
+    "priority": "medium",
+    "priority_reason": "Routine quarterly dividend declaration with a fixed per-share amount and timetable, no trading or guidance impact.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/tbc-bank-group--tbcg/declaration-of-2q-2026-quarterly-dividend/9707316",
+    "related_news_url": "https://news.google.com/search?q=%22TBC%20Bank%20Group%20PLC%22",
+    "added_at": "2026-08-06T07:30:07.791618"
+  },
+  {
     "company": "Harworth Group PLC",
     "ticker": "HWG",
     "publish_date": "06 August 2026",
