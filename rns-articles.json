@@ -1,5 +1,120 @@
 [
   {
+    "company": "OSB Group PLC",
+    "ticker": "OSB",
+    "publish_date": "06 August 2026",
+    "date_iso": "2026-08-06",
+    "time_period": "H1 2026 (six months to 30 June 2026)",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 2026 (six months to 30 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>OSB Group</strong> now expects <strong>2026 net interest margin of 215-220bps</strong> (previously higher) and <strong>2026 RoTE of c.12.5%</strong>, on the conservative assumption that elevated retail funding cost pressures persist.</li><li><strong>H1 2026</strong> net interest income up <strong>1% to £339.8m</strong> (H1 2025: £337.0m); <strong>NIM 223bps</strong> (H1 2025: 230bps); <strong>RoTE 13.3%</strong> (H1 2025: 13.7%).</li><li><strong>Net loan book £26.3bn</strong>, up <strong>1.3%</strong> since December 2025, on originations of <strong>£2.3bn</strong> (+10% vs H1 2025); net loan book growth guidance for 2026 unchanged.</li><li>Impairment charge jumped to <strong>£15.8m</strong> (H1 2025: £2.0m), a <strong>12bps</strong> loan loss ratio; total admin expenses <strong>£136.5m</strong> (H1 2025: £131.4m); <strong>CET1 15.2%</strong> (Dec 2025: 15.8%).</li><li>Interim dividend of <strong>11.8p</strong> declared, up <strong>5%</strong> (H1 2025: 11.2p), ex-dividend <strong>13 August 2026</strong>, payable <strong>18 September 2026</strong>.</li><li>CEO transition: <strong>Andy Golding</strong> steps down as CEO on <strong>31 August 2026</strong>; <strong>Enrique Alvarez Labiano</strong> becomes Group CEO from <strong>1 September 2026</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "OSB Group cut its 2026 net interest margin and RoTE guidance on elevated retail funding costs, as H1 net interest income rose 1% and it lifted the interim dividend 5%.",
+    "priority": "high",
+    "priority_reason": "Half-year results accompanied by lowered 2026 NIM and RoTE guidance and a CEO handover.",
+    "figures": [
+      {
+        "metric": "Net interest income",
+        "current": "£339.8m",
+        "prior": "£337.0m",
+        "change": "+1%",
+        "basis": "",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "Net interest margin",
+        "current": "223bps",
+        "prior": "230bps",
+        "change": "-7bps",
+        "basis": "",
+        "note": "H1 2026 vs H1 2025; down 3bps vs H2 2025 (226bps)"
+      },
+      {
+        "metric": "Return on tangible equity",
+        "current": "13.3%",
+        "prior": "13.7%",
+        "change": "-0.4pp",
+        "basis": "",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "Net loan book",
+        "current": "£26.3bn",
+        "prior": "£25.9bn",
+        "change": "+1.3%",
+        "basis": "",
+        "note": "30 June 2026 vs 31 December 2025"
+      },
+      {
+        "metric": "Originations",
+        "current": "£2.3bn",
+        "prior": "£2.1bn",
+        "change": "+10%",
+        "basis": "",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "Total administrative expenses",
+        "current": "£136.5m",
+        "prior": "£131.4m",
+        "change": "+3.9%",
+        "basis": "",
+        "note": "H1 2026 vs H1 2025; core admin expenses down 0.4%"
+      },
+      {
+        "metric": "Impairment charge",
+        "current": "£15.8m",
+        "prior": "£2.0m",
+        "change": "not stated",
+        "basis": "",
+        "note": "loan loss ratio 12bps vs 2bps"
+      },
+      {
+        "metric": "Interim dividend",
+        "current": "11.8p",
+        "prior": "11.2p",
+        "change": "+5%",
+        "basis": "",
+        "note": "per share"
+      },
+      {
+        "metric": "CET1 ratio",
+        "current": "15.2%",
+        "prior": "15.8%",
+        "change": "-0.6pp",
+        "basis": "",
+        "note": "30 June 2026 vs 31 December 2025"
+      },
+      {
+        "metric": "Retail deposits",
+        "current": "£25.0bn",
+        "prior": "£24.3bn",
+        "change": "+3%",
+        "basis": "",
+        "note": "30 June 2026 vs 31 December 2025"
+      },
+      {
+        "metric": "Cost to income ratio",
+        "current": "40.1%",
+        "prior": "40.3%",
+        "change": "-0.2pp",
+        "basis": "",
+        "note": "H1 2026 vs H1 2025"
+      }
+    ],
+    "guidance": {
+      "status": "lowered",
+      "previous": "Prior 2026 NIM guidance above current range and 2026 RoTE guidance above c.12.5%; mid-teens RoTE aspiration for 2027",
+      "current": "2026 net interest margin now expected at 215-220bps; 2026 RoTE now c.12.5% (both assuming elevated cost of funds continue and excluding incoming-CEO costs); administrative expenses still c.£280m ex-CEO costs; net loan book growth guidance unchanged",
+      "commentary": "OSB lowered its 2026 NIM and RoTE guidance because it now conservatively assumes that strong competition in retail savings and elevated retail funding costs will not ease. It also flagged a possible modest hit to its 2027 mid-teens RoTE aspiration if funding cost pressures persist, while reaffirming longer-term 2028-2029 aspirations and loan book growth guidance."
+    },
+    "explainer": "OSB is a specialist lender funded largely by retail savings deposits. Its profitability hinges on the net interest margin — the gap between what it earns on mortgages and what it pays savers. In H1 2026 that margin narrowed to 223bps from 230bps a year earlier, because fierce competition for deposits pushed up funding costs faster than the yield on new lending, and older, higher-yielding mortgages continued to roll off the back book.\n\nThe headline of this update is the guidance cut. Management now expects full-year 2026 NIM of just 215-220bps and RoTE of about 12.5%, having previously guided higher. The key word is 'conservative': OSB is assuming these elevated funding costs will NOT ease for the rest of the year, so the downgrade reflects a cautious planning assumption rather than a confirmed deterioration. Cost guidance (c.£280m admin expenses) and net loan book growth guidance are unchanged.\n\nTwo other moving parts are worth noting. The impairment charge leapt to £15.8m from just £2.0m a year ago — a rise from a very low base that lifted the loan loss ratio to 12bps, still modest in absolute terms. And core administrative expenses actually fell 0.4%; the reported rise in total costs is driven by continued spending on the transformation programme.\n\nSeparately, this is Andy Golding's final results as CEO after 14 years; Enrique Alvarez Labiano takes over on 1 September 2026. The dividend was still raised 5% to 11.8p, signalling board confidence despite the margin squeeze.",
+    "source_url": "https://uk.advfn.com/stock-market/london/osb-OSB/share-news/OSB-GROUP-PLC-Interim-Report-for-the-six-months-en/99061013",
+    "related_news_url": "https://news.google.com/search?q=%22OSB%20GROUP%20PLC%22",
+    "added_at": "2026-08-06T07:39:06.668095"
+  },
+  {
     "company": "TP ICAP Group plc",
     "ticker": "TCAP",
     "publish_date": "06 August 2026",
