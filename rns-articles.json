@@ -1,5 +1,31 @@
 [
   {
+    "company": "Tractor Supply Company",
+    "ticker": null,
+    "publish_date": "06 August 2026",
+    "date_iso": "2026-08-06",
+    "time_period": "",
+    "announcement_type": "Dividend declaration",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Tractor Supply Company</strong> declared a quarterly cash dividend of <strong>$0.24 per share</strong> of common stock.</li><li>Payable on <strong>8 September 2026</strong> to stockholders of record as of <strong>24 August 2026</strong>.</li><li>Routine dividend declaration with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Tractor Supply declares quarterly cash dividend of $0.24 per share, payable 8 September 2026.",
+    "priority": "medium",
+    "priority_reason": "Routine quarterly dividend declaration with no change to trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/TSCO/share-news/Tractor-Supply-Company-Declares-Quarterly-Dividend/99066299",
+    "related_news_url": "https://news.google.com/search?q=%22Tractor%20Supply%20Company%22",
+    "added_at": "2026-08-06T16:20:10.205819"
+  },
+  {
     "company": "CME Group Inc",
     "ticker": "CME",
     "publish_date": "06 August 2026",
