@@ -1,5 +1,57 @@
 [
   {
+    "company": "Harworth Group PLC",
+    "ticker": "HWG",
+    "publish_date": "06 August 2026",
+    "date_iso": "2026-08-06",
+    "time_period": "",
+    "announcement_type": "Acquisition / deal",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Peel Pepper (UK) Limited</strong> (\"BidCo\"), indirectly wholly-owned by <strong>Peel Holdings Group Limited</strong>, has launched a <strong>cash offer of 172.5 pence per share</strong> for <strong>Harworth Group plc</strong>, valuing the entire issued and to-be-issued share capital at approximately <strong>£582.88 million</strong>.</li><li>The offer is a <strong>20.1% premium</strong> to the closing price of <strong>143.6p</strong> on <strong>5 August 2026</strong>, a <strong>36.9% premium</strong> to the one-month VWAP (<strong>126.0p</strong>) and a <strong>36.0% premium</strong> to the three-month VWAP (<strong>126.8p</strong>).</li><li><strong>Goodweather Holdings Limited</strong>, another Peel Holdings subsidiary, and its concert parties already hold <strong>97,949,409 shares (~29.96%)</strong> of Harworth; the offer is conditional on acceptances taking BidCo above <strong>50%</strong> of voting rights.</li><li>BidCo argues Harworth's cash flow is increasingly unsustainable — for FY to <strong>31 December 2025</strong>, administrative expenses were <strong>£36.34m</strong> (+9.5%) and net interest <strong>£10.6m</strong> (+58.2%), against passing rental income of just <strong>£14.70m</strong> (-7.0%).</li><li>Post-completion BidCo plans a strategic pivot toward strategic land activities, an asset disposal programme, likely delisting and a <strong>significant headcount reduction</strong> from removing overlapping and listed-company functions.</li><li>The Offer Document will be despatched within 28 days; BidCo notes Harworth's top three shareholders own approximately <strong>75.7%</strong> of the share capital.</li></ul>",
+    "source_format": "html",
+    "headline": "Peel Pepper (UK), part of the Peel Group, launches a 172.5p per share all-cash offer valuing Harworth at approximately £582.88m.",
+    "priority": "high",
+    "priority_reason": "All-cash takeover offer for the entire company at a 20% premium to last close — a definitive M&A event.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/harworth-group--hwg/cash-offer-for-harworth-group-plc/9707305",
+    "related_news_url": "https://news.google.com/search?q=%22Harworth%20Group%20plc%22",
+    "added_at": "2026-08-06T07:29:18.717645"
+  },
+  {
+    "company": "Tritax Big Box REIT PLC",
+    "ticker": "BBOX",
+    "publish_date": "06 August 2026",
+    "date_iso": "2026-08-06",
+    "time_period": "",
+    "announcement_type": "Fundraising / placing",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Tritax Big Box REIT</strong> has raised gross proceeds of <strong>£350m</strong> (net <strong>£343m</strong>) issuing <strong>213,414,634 New Ordinary Shares</strong> at <strong>164 pence</strong> — around <strong>7.9%</strong> of existing share capital.</li><li>Placing Price is a <strong>4.5% discount</strong> to the <strong>171.7p</strong> close on <strong>5 August 2026</strong> and an <strong>11.8% discount</strong> to NTA per share of <strong>185.9p</strong> at 30 June 2026.</li><li>Comprises a <strong>206,198,116-share Placing</strong> (via <strong>Jefferies</strong>, <strong>J.P. Morgan Cazenove</strong> and <strong>Santander</strong>), a <strong>6,445,323-share Retail Offer</strong> via <strong>RetailBook</strong>, and a <strong>771,195-share</strong> director/PDMR Subscription.</li><li>Proceeds fund an enlarged <strong>data centre</strong> pipeline — secured power nearly doubled to <strong>507MW</strong> after a further <strong>235MW</strong> of grid connections — plus logistics opportunities and capital recycling.</li><li><strong>Trot Holdings</strong> (holding ~8.6%) bid ~<strong>£30m</strong> but was scaled back to ~<strong>£3m</strong> to widen investor access; it has given an irrevocable undertaking to back the Resolution.</li><li>Non-pre-emptive issue conditional on a shareholder vote at a <strong>General Meeting on or around 24 August 2026</strong>; Admission expected <strong>26 August 2026</strong>, taking shares in issue to <strong>2,927,912,135</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Tritax Big Box has raised approximately £350m via a placing, retail offer and director subscription at 164p to fund its enlarged data centre development pipeline.",
+    "priority": "high",
+    "priority_reason": "A £350m non-pre-emptive equity raise materially expands the share count and funds a new data centre pipeline.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/tritax-big-box-reit--bbox/results-of-equity-issue/9707306",
+    "related_news_url": "https://news.google.com/search?q=%22Tritax%20Big%20Box%20REIT%20plc%22",
+    "added_at": "2026-08-06T07:29:18.700407"
+  },
+  {
     "company": "Harbour Energy PLC",
     "ticker": "HBR",
     "publish_date": "06 August 2026",
