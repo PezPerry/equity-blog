@@ -1,5 +1,96 @@
 [
   {
+    "company": "Michael Page plc",
+    "ticker": "PAGE",
+    "publish_date": "06 August 2026",
+    "date_iso": "2026-08-06",
+    "time_period": "H1 to 30 June 2026",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Operating profit</strong> of <strong>£9.7m</strong> (H1 2025: <strong>£2.1m</strong>), aided by lower one-off costs (<strong>c.£13m</strong> in H1 2025 vs c.£2.5m of senior-exit costs this half); <strong>conversion rate 2.5%</strong> (H1 2025: 0.5%).</li><li><strong>Group gross profit down 2.4%</strong> in constant currency to <strong>£385.2m</strong> (H1 2025: <strong>£389.7m</strong>); <strong>revenue £799.5m</strong>, up <strong>0.1%</strong> reported (down 1.9% constant currency).</li><li><strong>Interim dividend cut to 1.46p</strong> per share (2025: <strong>5.36p</strong>), the Board citing prudence given the sustained challenging trading environment; payable <strong>9 October 2026</strong>.</li><li><strong>Net debt of £7.2m</strong> at 30 June 2026 versus <strong>net cash of £10.8m</strong> a year earlier, after <strong>£10.0m</strong> of dividends paid in the half.</li><li>Board <strong>reiterates full-year guidance</strong>, continuing to expect <strong>2026 operating profit in line with consensus of c.£28m</strong>; c.50% of markets in growth, with <strong>Page Executive up 8%</strong> to a record H1.</li><li><strong>Basic EPS 1.2p</strong> (2025: 0.0p); rebrand from PageGroup to <strong>Michael Page</strong> completed as previously announced.</li></ul>",
+    "source_format": "html",
+    "headline": "Michael Page posts resilient H1 with operating profit up to £9.7m, cuts interim dividend to 1.46p and reiterates c.£28m FY operating profit guidance.",
+    "priority": "high",
+    "priority_reason": "Half-year results from a FTSE recruiter, with an operating profit recovery, a sharply cut interim dividend and full-year guidance reiterated.",
+    "figures": [
+      {
+        "metric": "Revenue",
+        "current": "£799.5m",
+        "prior": "£798.4m",
+        "change": "+0.1% reported (-1.9% constant currency)",
+        "basis": "reported / constant currency",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Gross profit",
+        "current": "£385.2m",
+        "prior": "£389.7m",
+        "change": "-1.1% reported (-2.4% constant currency)",
+        "basis": "reported / constant currency",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Operating profit",
+        "current": "£9.7m",
+        "prior": "£2.1m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "H1 2025 depressed by c.£13m one-off costs"
+      },
+      {
+        "metric": "Conversion rate",
+        "current": "2.5%",
+        "prior": "0.5%",
+        "change": "not stated",
+        "basis": "operating profit as % of gross profit",
+        "note": "H1 2025 underlying 3.8%"
+      },
+      {
+        "metric": "Basic EPS",
+        "current": "1.2p",
+        "prior": "0.0p",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Interim dividend",
+        "current": "1.46p",
+        "prior": "5.36p",
+        "change": "-72.8%",
+        "basis": "per ordinary share",
+        "note": "payable 9 October 2026"
+      },
+      {
+        "metric": "Net debt / (cash)",
+        "current": "net debt £7.2m",
+        "prior": "net cash £10.8m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "at 30 June"
+      },
+      {
+        "metric": "Administrative expenses",
+        "current": "£375.5m",
+        "prior": "£387.5m",
+        "change": "-3.1% reported (-4.3% constant currency)",
+        "basis": "reported / constant currency",
+        "note": "H1 to 30 June 2026"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "2026 operating profit in line with company-compiled consensus of c.£28m",
+      "current": "Board continues to expect 2026 operating profit to be in line with company-compiled consensus of c.£28m",
+      "commentary": "Full-year guidance is reiterated at c.£28m operating profit despite ongoing challenging conditions, though the Board flags a high degree of uncertainty in the outlook for the rest of the year and expects a similar c.£2.5m of one-off costs in H2."
+    },
+    "explainer": "Michael Page (formerly PageGroup) reports two versions of its top line: in reported currency revenue was flat (+0.1%) and gross profit fell 1.1%, but stripping out favourable currency moves ('constant currency') both were weaker — revenue down 1.9% and gross profit down 2.4%. For a recruiter, gross profit (net fee income) is the key measure of activity, so the underlying trend is still mildly negative even though the headline revenue looks flat.\n\nOperating profit jumped from £2.1m to £9.7m, but the comparison is flattered by one-off costs: H1 2025 carried around £13m of exceptional charges, versus only about £2.5m of senior-exit costs this half. On an underlying basis the conversion rate (operating profit as a share of gross profit) actually fell from 3.8% a year ago to 2.5%, so profitability is lower once the distortions are removed. The company expects a similar c.£2.5m of one-off costs again in H2.\n\nThe most market-relevant decision is the dividend: the interim payout has been cut by roughly three-quarters, from 5.36p to 1.46p, as the Board prioritises balance-sheet strength and investment in growth areas while trading stays weak. The group has also swung from net cash of £10.8m to net debt of £7.2m, partly reflecting £10.0m of dividends paid in the period.\n\nOn guidance, nothing has changed: the Board still expects full-year 2026 operating profit of about £28m, in line with the consensus it compiles. Roughly half its markets returned to growth in H1 — led by Asia Pacific, the Americas and a Q2 recovery in Southern Europe — while France, Northern Europe and the UK remained difficult, and management stresses continued uncertainty for the rest of the year.",
+    "source_url": "https://uk.advfn.com/stock-market/london/michael-page-PAGE/share-news/Michael-Page-PLC-Half-Year-Results-for-the-Period/99061070",
+    "related_news_url": "https://news.google.com/search?q=%22Michael%20Page%20plc%22",
+    "added_at": "2026-08-06T07:46:28.379523"
+  },
+  {
     "company": "Quilter plc",
     "ticker": "QLT",
     "publish_date": "06 August 2026",
