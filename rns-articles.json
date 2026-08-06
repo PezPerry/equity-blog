@@ -1473,6 +1473,105 @@
     "added_at": "2026-08-06T07:28:05.741872"
   },
   {
+    "company": "Trekor Metals Limited",
+    "ticker": null,
+    "publish_date": "05 August 2026",
+    "date_iso": "2026-08-05",
+    "time_period": "Q2 2026 (three months to 30 June 2026)",
+    "announcement_type": "Quarterly results",
+    "period_detail": "Q2 2026 (three months to 30 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Q2 2026 Adjusted EBITDA</strong> of <strong>US$125.1m</strong> (<strong>US$17.4m</strong> a year earlier); revenues <strong>US$330.6m</strong> vs <strong>US$116.1m</strong>, driven by <strong>record copper prices</strong> and higher volumes.</li><li><strong>Consolidated production 36m lbs copper</strong>, up <strong>80%</strong> year-on-year; <strong>Gibraltar</strong> produced <strong>30.3m lbs</strong> at C1 cost of <strong>US$2.41/lb</strong> (down from US$3.14), <strong>Florence Copper</strong> added <strong>5.2m lbs</strong> in its first full quarter.</li><li><strong>Net income US$22.2m</strong> (<strong>US$0.06/share</strong>); <strong>Adjusted net income US$40.5m</strong> (<strong>US$0.11/share</strong>) vs a US$13.0m loss last year; <strong>operating cash flow US$183.4m</strong>.</li><li>Realised copper price <strong>US$6.10/lb</strong>; <strong>copper collars capped at US$5.40/lb matured in June</strong>, causing a <strong>US$24.2m</strong> derivative loss but freeing upside — Q3 ceilings now <strong>US$7.50–8.50/lb</strong>, no ceiling from Q4.</li><li><strong>Production guidance unchanged</strong>: Gibraltar <strong>110–115m lbs</strong>, Florence Copper <strong>30–35m lbs</strong> for 2026.</li><li><strong>Yellowhead</strong> permitting advanced: <strong>BC EAO</strong> issued a positive Readiness Decision and Notice of Decision to proceed to environmental assessment; liquidity <strong>US$342m</strong> including undrawn revolver, cash <strong>US$186m</strong> at 30 June.</li></ul>",
+    "source_format": "html",
+    "headline": "Trekor posts record Q2 with adjusted EBITDA of US$125m as revenues nearly triple to US$331m on record copper prices and 80% higher output.",
+    "priority": "high",
+    "priority_reason": "Q2 results with record copper prices, an 80% production jump and new output from Florence Copper.",
+    "figures": [
+      {
+        "metric": "Revenue",
+        "current": "US$330.6m",
+        "prior": "US$116.1m",
+        "change": "+US$214.5m",
+        "basis": "reported",
+        "note": "Q2 to 30 June 2026"
+      },
+      {
+        "metric": "Adjusted EBITDA",
+        "current": "US$125.1m",
+        "prior": "US$17.4m",
+        "change": "+US$107.7m",
+        "basis": "non-GAAP",
+        "note": "Q2 2026"
+      },
+      {
+        "metric": "Net income",
+        "current": "US$22.2m",
+        "prior": "US$21.9m",
+        "change": "+US$0.4m",
+        "basis": "reported",
+        "note": "Q2 2026"
+      },
+      {
+        "metric": "EPS (basic)",
+        "current": "US$0.06",
+        "prior": "US$0.07",
+        "change": "-US$0.01",
+        "basis": "reported",
+        "note": "Q2 2026"
+      },
+      {
+        "metric": "Adjusted net income",
+        "current": "US$40.5m",
+        "prior": "-US$13.0m",
+        "change": "+US$53.5m",
+        "basis": "non-GAAP",
+        "note": "Q2 2026, prior period was a loss"
+      },
+      {
+        "metric": "Adjusted EPS",
+        "current": "US$0.11",
+        "prior": "-US$0.04",
+        "change": "+US$0.15",
+        "basis": "non-GAAP",
+        "note": "Q2 2026"
+      },
+      {
+        "metric": "Cash flow from operations",
+        "current": "US$183.4m",
+        "prior": "US$26.0m",
+        "change": "+US$157.4m",
+        "basis": "reported",
+        "note": "Q2 2026"
+      },
+      {
+        "metric": "Consolidated copper production",
+        "current": "36m lbs",
+        "prior": "20m lbs",
+        "change": "+80%",
+        "basis": "not stated",
+        "note": "Q2 2026 vs Q2 2025"
+      },
+      {
+        "metric": "Total operating cost (C1), Gibraltar",
+        "current": "US$2.41/lb",
+        "prior": "US$3.14/lb",
+        "change": "-US$0.73/lb",
+        "basis": "non-GAAP",
+        "note": "per pound copper produced"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Gibraltar 110 to 115 million pounds; Florence Copper 30 to 35 million pounds",
+      "current": "Gibraltar 110 to 115 million pounds; Florence Copper 30 to 35 million pounds",
+      "commentary": "Full-year 2026 copper production guidance for both Gibraltar and Florence Copper is unchanged. Gibraltar costs are expected to run roughly US$0.15/lb higher in H2 versus the prior year on elevated diesel prices."
+    },
+    "explainer": "This is a second-quarter update from a copper miner reported in US dollars. The headline growth looks dramatic — revenues nearly tripling and Adjusted EBITDA rising from US$17m to US$125m — because it combines three tailwinds: record copper prices (a realised US$6.10/lb at Gibraltar), a large jump in output (consolidated production up 80% year-on-year), and first output from the new Florence Copper operation. Adjusted EBITDA and adjusted net income are non-GAAP measures that strip out depletion, amortisation and one-off items, which is why adjusted profit (US$40.5m) is much larger than reported net income (US$22.2m).\n\nReported net income was almost flat year-on-year (US$22.2m vs US$21.9m) despite the revenue surge, largely because the prior-year quarter included favourable items and this quarter carried a US$24.2m derivative loss. That loss came from copper 'collar' hedges that capped the price the company could realise at US$5.40/lb; with copper trading well above that, the cap cost money as it matured in June. The important forward point is that these caps have now expired — Q3 ceilings rise to US$7.50–8.50/lb and there is no ceiling from Q4 — so the company keeps more upside if copper prices stay high.\n\nOn costs, Gibraltar's C1 unit cost fell to US$2.41/lb from US$3.14/lb, helped by higher production and stronger molybdenum by-product credits (US$0.65/lb), partly offset by higher diesel and explosives costs linked to Middle East conflict. Management flags that diesel could add roughly US$0.15/lb to H2 costs versus last year.\n\nGuidance is maintained, not changed: full-year production targets of 110–115m lbs at Gibraltar and 30–35m lbs at Florence Copper are unchanged. The growth story from here rests on ramping up Florence Copper's wellfield and advancing permitting at the Yellowhead project, which cleared an early BC regulatory milestone.",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/taseko-mines-limited-npv-di---tko/trekor-announces-125m-of-adjusted-ebitda-in-q2/9708114",
+    "related_news_url": "https://news.google.com/search?q=%22Trekor%20Metals%20Limited%22",
+    "added_at": "2026-08-06T08:16:37.139519"
+  },
+  {
     "company": "Tritax Big Box REIT PLC",
     "ticker": "BBOX",
     "publish_date": "05 August 2026",
