@@ -45,6 +45,7 @@ jobs:
 
             python3 -c "
           import json, re, os
+          from html import unescape
 
           filename = os.environ['FILE']
           slug = os.path.splitext(os.path.basename(filename))[0]
@@ -54,10 +55,13 @@ jobs:
               html = f.read()
 
           title_match = re.search(r'<title>([^|<]+)', html)
-          title = title_match.group(1).strip() if title_match else slug
+          # Page sources carry HTML entities (&mdash;, &amp;, &#8212;). Base44 stores
+          # these fields as plain text, so decode them here - otherwise the entity
+          # shows up literally in the title on the live site.
+          title = unescape(title_match.group(1).strip()) if title_match else slug
 
           excerpt_match = re.search(r'meta name=\"description\" content=\"([^\"]+)\"', html)
-          excerpt = excerpt_match.group(1) if excerpt_match else ''
+          excerpt = unescape(excerpt_match.group(1)) if excerpt_match else ''
 
           kw_match = re.search(r'meta name=\"keywords\" content=\"([^\"]+)\"', html)
           keywords = kw_match.group(1).lower() if kw_match else ''
@@ -78,7 +82,15 @@ jobs:
 
           all_text = f'{keywords} {title} {slug}'.lower()
 
-          if re.search(r'(company.*(analysis|research)|earnings|results|rns|trading.update|annual.report|half.year|interim)', all_text):
+          # A parenthesised uppercase ticker in the title - 'Greggs (GRG)', 'Barclays
+          # (BARC)' - is the most reliable single-company signal we have, and it is
+          # case-sensitive, so test it against the raw title rather than all_text.
+          # Without this, a company note whose title carries no reporting keyword
+          # ('Greggs (GRG) - Hold: Well Run, Fully Priced') falls through every
+          # branch below and lands in the market_movements default.
+          has_ticker = bool(re.search(r'\([A-Z]{2,5}\)', title))
+
+          if has_ticker or re.search(r'(company.*(analysis|research)|earnings|results|rns|trading.update|annual.report|half.year|full.year|\bhy\s?20\d\d|\bfy\s?20\d\d|\bh[12]\s?20\d\d|interim)', all_text):
               category = 'company_analysis'
           elif re.search(r'(trade.*(log|diary|journal)|day.trade|swing.trade|position.*(open|close|sold|bought)|entry.price|stop.loss)', all_text):
               category = 'day_trades'
