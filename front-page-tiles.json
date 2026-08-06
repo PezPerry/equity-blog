@@ -13,6 +13,30 @@
   ],
   "tiles": [
     {
+      "slug": "greggs-store-map",
+      "url": "greggs-store-map.html",
+      "date": "2026-08-06",
+      "kind": "analysis",
+      "cover": "greggs-store-map-cover.png",
+      "alt": "Greggs — the estate on the map",
+      "cat": "Analysis",
+      "headline": "Greggs — the estate on the map",
+      "pill": "watch",
+      "pill_label": "Analysis"
+    },
+    {
+      "slug": "greggs-GRG-HY2026-blog-page",
+      "url": "greggs-GRG-HY2026-blog-page.html",
+      "date": "2026-08-06",
+      "kind": "analysis",
+      "cover": "greggs-GRG-HY2026-cover.png",
+      "alt": "Greggs (GRG) &mdash; Hold: Well Run, Fully Priced",
+      "cat": "Analysis",
+      "headline": "Greggs (GRG) &mdash; Hold: Well Run, Fully Priced",
+      "pill": "watch",
+      "pill_label": "Analysis"
+    },
+    {
       "slug": "barclays-BARC-H1-FY2026-blog-page",
       "url": "barclays-BARC-H1-FY2026-blog-page.html",
       "date": "2026-07-28",
