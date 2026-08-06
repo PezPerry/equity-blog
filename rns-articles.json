@@ -1,5 +1,120 @@
 [
   {
+    "company": "Warner Music Group Corp",
+    "ticker": "WMG",
+    "publish_date": "06 August 2026",
+    "date_iso": "2026-08-06",
+    "time_period": "Q3 FY26 (three months ended 30 June 2026)",
+    "announcement_type": "Quarterly results",
+    "period_detail": "Q3 FY26 (three months ended 30 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Warner Music Group</strong> Q3 FY26 revenue up <strong>10.4%</strong> (<strong>9.3%</strong> constant currency); excluding the Copyright Settlement and BMG Termination, revenue rose <strong>12.1%</strong> (<strong>11.0%</strong> cc).</li><li>Operating income up <strong>80.5%</strong> to <strong>$305m</strong> (from <strong>$169m</strong>); <strong>Adjusted OIBDA</strong> up <strong>16.1%</strong> to <strong>$433m</strong> (from <strong>$373m</strong>), margin <strong>23.2%</strong> vs <strong>22.1%</strong>.</li><li>Net income of <strong>$200m</strong> versus a <strong>$16m loss</strong> a year earlier, largely on FX swings on Euro-denominated debt; basic EPS <strong>$0.39</strong> (diluted <strong>$0.38</strong> Class A).</li><li>Streaming revenue up <strong>12.3%</strong>; <strong>Recorded Music</strong> revenue up <strong>9.9%</strong>, <strong>Music Publishing</strong> up <strong>12.2%</strong>; top sellers included <strong>Bruno Mars</strong>, <strong>Don Toliver</strong>, <strong>sombr</strong>, <strong>Alex Warren</strong> and <strong>Madonna</strong>.</li><li>Net debt <strong>$4.092bn</strong>; Free Cash Flow rose to <strong>$114m</strong> (from <strong>$7m</strong>); cash from operations up 209% to <strong>$142m</strong>.</li><li>Board declared a regular quarterly dividend of <strong>$0.20</strong> per share, payable <strong>1 September 2026</strong> to holders of record on <strong>20 August 2026</strong>; CFO says WMG is on track to meet the <strong>high end</strong> of FY26 margin expansion targets.</li></ul>",
+    "source_format": "html",
+    "headline": "Warner Music Group Q3 revenue rose 10.4% with net income swinging to $200m and operating income up 80.5% to $305m.",
+    "priority": "high",
+    "priority_reason": "Quarterly results with double-digit revenue and profit growth, plus reaffirmed full-year margin guidance and a dividend declaration.",
+    "figures": [
+      {
+        "metric": "Revenue",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+10.4% (+9.3% cc)",
+        "basis": "reported",
+        "note": "Q3 FY26; +12.1% (+11.0% cc) excluding Copyright Settlement and BMG Termination"
+      },
+      {
+        "metric": "Operating income",
+        "current": "$305m",
+        "prior": "$169m",
+        "change": "+80.5% (+75.3% cc)",
+        "basis": "reported",
+        "note": "Q3 FY26"
+      },
+      {
+        "metric": "Adjusted OIBDA",
+        "current": "$433m",
+        "prior": "$373m",
+        "change": "+16.1% (+14.6% cc)",
+        "basis": "non-GAAP",
+        "note": "margin 23.2% vs 22.1%"
+      },
+      {
+        "metric": "Net income",
+        "current": "$200m",
+        "prior": "-$16m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "swing from prior-year loss, largely FX on Euro-denominated debt"
+      },
+      {
+        "metric": "Basic EPS",
+        "current": "$0.39",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "Class A and Class B",
+        "note": "diluted $0.38 Class A / $0.39 Class B"
+      },
+      {
+        "metric": "Free Cash Flow",
+        "current": "$114m",
+        "prior": "$7m",
+        "change": "not stated",
+        "basis": "non-GAAP",
+        "note": "Q3 FY26"
+      },
+      {
+        "metric": "Cash from operations",
+        "current": "$142m",
+        "prior": "$46m",
+        "change": "+209%",
+        "basis": "reported",
+        "note": "Q3 FY26"
+      },
+      {
+        "metric": "Net debt",
+        "current": "$4.092bn",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "as at 30 June 2026",
+        "note": "total debt $4.710bn less $618m cash"
+      },
+      {
+        "metric": "Dividend",
+        "current": "$0.20/share",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "regular quarterly",
+        "note": "payable 1 September 2026"
+      },
+      {
+        "metric": "Recorded Music operating income",
+        "current": "$326m",
+        "prior": "$201m",
+        "change": "+62.2% (+58.3% cc)",
+        "basis": "reported",
+        "note": "margin 21.9% vs 14.8%"
+      },
+      {
+        "metric": "Music Publishing operating income",
+        "current": "$71m",
+        "prior": "$60m",
+        "change": "+18.3% (+16.4% cc)",
+        "basis": "reported",
+        "note": "margin 18.8% vs 17.9%"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Fiscal '26 margin expansion targets",
+      "current": "On track to meet the high end of fiscal '26 margin expansion targets",
+      "commentary": "Management reaffirmed full-year FY26 guidance, saying it remains on track to hit the high end of its margin expansion targets after Q3 margin gains. No specific numeric target range is quoted in the release."
+    },
+    "explainer": "Reported revenue growth of 10.4% (9.3% in constant currency) is flattered and depressed by two prior-year items. The year-ago quarter included a $16m one-off from copyright infringement settlements (the 'Copyright Settlement'), while the ongoing loss of the BMG distribution deal removed $10m of digital revenue this year. Stripping both out, the underlying comparison is stronger at +12.1% (11.0% cc). 'Constant currency' simply removes the effect of exchange-rate moves, giving a cleaner view of organic growth.\n\nThe eye-catching net income swing — $200m profit versus a $16m loss last year — is mostly non-operating. Last year's quarter was hit by large foreign-exchange losses on the company's Euro-denominated debt and intercompany loans, plus a $70m impairment tied to its EMP business; those did not recur. The better underlying-profit signal is Adjusted OIBDA (a music-industry cash earnings measure), up 16.1% to $433m with margin widening to 23.2%.\n\nOn guidance, nothing was raised or cut: the CFO reiterated WMG is 'on track to meet the high end' of its FY26 margin expansion targets, which counts as maintained/reaffirmed rather than an upgrade. Cash generation improved sharply, with Free Cash Flow of $114m against just $7m a year earlier, helped by stronger trading and lower capex.\n\nNote WMG reports in US dollars and is NASDAQ-listed, so figures are in $, not £. The Board also declared its regular $0.20 quarterly dividend, unchanged and routine alongside the results.",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/WMG/share-news/Warner-Music-Group-Corp-Reports-Results-for-Fisca/99057868",
+    "related_news_url": "https://news.google.com/search?q=%22Warner%20Music%20Group%20Corp.%22",
+    "added_at": "2026-08-06T07:52:38.720996"
+  },
+  {
     "company": "LGI Homes, Inc.",
     "ticker": "LGIH",
     "publish_date": "06 August 2026",
