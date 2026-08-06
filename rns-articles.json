@@ -1,5 +1,88 @@
 [
   {
+    "company": "Persimmon PLC",
+    "ticker": "PSN",
+    "publish_date": "06 August 2026",
+    "date_iso": "2026-08-06",
+    "time_period": "H1 to 30 June 2026",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Persimmon Plc</strong> H1 results to <strong>30 June 2026</strong>: total completions up <strong>13%</strong> to <strong>5,189</strong>, with underlying operating profit up <strong>10%</strong>.</li><li>Full-year completions guidance nudged to <strong>c.12,500 homes</strong>, at the <strong>upper end</strong> of previous guidance; <strong>2026 underlying profit before tax in line with market expectations</strong>.</li><li>Company-compiled 2026 consensus (as at <strong>2 August 2026</strong>): volume <strong>12,242</strong> homes, underlying operating profit <strong>£491m</strong>, underlying PBT <strong>£454m</strong>.</li><li>Private forward order book up <strong>5%</strong> to <strong>£1.31bn</strong> (2025: <strong>£1.25bn</strong>); private ASP c.<strong>£302,000</strong>, up <strong>3%</strong>; c.<strong>80% secured</strong> on private completions for the full year.</li><li>Net private sales rate up <strong>7%</strong> at <strong>0.75</strong> (2025: 0.70); in the <strong>five weeks</strong> since 30 June, rate up 6% to <strong>0.72</strong> but open-market sales softened, with weaker July enquiries.</li><li>Flags additional <strong>inflationary pressure in 2027</strong> (partly Middle East conflict) that mitigation may not fully offset; medium-term ambition unchanged at <strong>20% housing operating margin and 20% ROCE</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Persimmon grew H1 completions 13% to 5,189 and underlying operating profit 10%, and now expects c.12,500 full-year completions at the upper end of guidance.",
+    "priority": "high",
+    "priority_reason": "Half-year results from a FTSE 100 housebuilder, with completions guidance nudged to the upper end and a 2027 margin warning.",
+    "figures": [
+      {
+        "metric": "Total completions",
+        "current": "5,189",
+        "prior": "not stated",
+        "change": "+13%",
+        "basis": "",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Underlying operating profit",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+10%",
+        "basis": "",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "New housing revenue",
+        "current": "£1.48bn",
+        "prior": "£1.31bn",
+        "change": "not stated",
+        "basis": "used as margin basis",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Net private sales rate",
+        "current": "0.75",
+        "prior": "0.70",
+        "change": "+7%",
+        "basis": "including bulk",
+        "note": "0.64 vs 0.62 excluding bulk"
+      },
+      {
+        "metric": "Private forward order book",
+        "current": "£1.31bn",
+        "prior": "£1.25bn",
+        "change": "+5%",
+        "basis": "",
+        "note": "current period vs 2025"
+      },
+      {
+        "metric": "Private average selling price",
+        "current": "c.£302,000",
+        "prior": "c.£292,800",
+        "change": "+3%",
+        "basis": "",
+        "note": "year on year"
+      },
+      {
+        "metric": "Net exceptional charge",
+        "current": "£nil",
+        "prior": "£16.2m",
+        "change": "not stated",
+        "basis": "",
+        "note": "per note 4"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Growth in 2026 in line with market expectations; full-year completions guidance range (upper end now c.12,500).",
+      "current": "c.12,500 completions for the full year, at the upper end of previous guidance; 2026 underlying profit before tax in line with market expectations; net debt/cash at year end in line with previous guidance.",
+      "commentary": "Full-year completions steered to the top of the existing range while profit guidance is reaffirmed against consensus (PBT £454m, operating profit £491m, volume 12,242). Management separately warned of additional build-cost inflation into 2027 that its efficiency actions may not fully offset."
+    },
+    "explainer": "These are half-year figures for the six months to 30 June 2026. Persimmon frames the result on an 'underlying' basis — that is, before a net exceptional charge (£nil this year versus £16.2m in 2025) and goodwill impairment/amortisation. The headline growth rates (completions +13%, underlying operating profit +10%) are versus the same period a year earlier. Note the company prints percentage changes and volumes but does not give absolute profit figures in this text, so the operating-profit money amount is not stated here.\n\nOn guidance, nothing has been cut. Persimmon reaffirmed that full-year underlying pre-tax profit will be 'in line with market expectations' and moved expected completions to 'around 12,500', described as the upper end of its previous guidance. Helpfully, it published the consensus it is measuring against (as at 2 August 2026): 12,242 homes, £491m underlying operating profit and £454m underlying PBT. So the volume steer is modestly ahead of where analysts sat, while profit is held in line.\n\nThe forward-looking caution sits in 2027, not 2026. Management flagged additional build-cost inflation next year — partly attributed to the conflict in the Middle East — and warned that its cost mitigations (procurement savings, design changes, vertical integration via Space4 timber frame) 'may not fully offset' the impact. Current trading also softened at the margin: although the net private sales rate is up year on year, open-market sales eased in recent weeks and July enquiries were weaker.\n\nThe medium-term targets — a 20% housing operating margin and 20% return on capital employed — are unchanged, and the group remains c.80% secured on private completions and fully secured on housing-association completions for the full year.",
+    "source_url": "https://uk.advfn.com/stock-market/london/persimmon-PSN/share-news/Persimmon-PLC-Half-Year-Results/99061051",
+    "related_news_url": "https://news.google.com/search?q=%22Persimmon%20Plc%22",
+    "added_at": "2026-08-06T07:40:13.585935"
+  },
+  {
     "company": "OSB Group PLC",
     "ticker": "OSB",
     "publish_date": "06 August 2026",
