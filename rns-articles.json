@@ -1,5 +1,31 @@
 [
   {
+    "company": "LGI Homes, Inc.",
+    "ticker": "LGIH",
+    "publish_date": "06 August 2026",
+    "date_iso": "2026-08-06",
+    "time_period": "July 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "July 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>LGI Homes, Inc.</strong> reported its <strong>July 2026</strong> home closings, but the scraped text does not contain the headline closings figure or any year-on-year comparative — content appears incomplete.</li><li>Only operational datum captured: <strong>152 active selling communities</strong> as of <strong>31 July 2026</strong>.</li><li>Context (company boilerplate): operates across <strong>36 markets in 21 states</strong>, having closed over <strong>80,000 homes</strong> since 2003.</li><li>Treat as a routine monthly volume update; key figures unavailable from this source text and should be verified against the full release.</li></ul>",
+    "source_format": "html",
+    "headline": "LGI Homes reports July 2026 home closings and had 152 active selling communities at month-end, though the scraped text omits the actual closings numbers.",
+    "priority": "medium",
+    "priority_reason": "Monthly home closings update is operationally relevant, but the scraped text omits the actual closings figures and LGI is a US-listed peripheral name.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/LGIH/share-news/LGI-Homes-Inc-Reports-July-2026-Home-Closings/99060102",
+    "related_news_url": "https://news.google.com/search?q=%22LGI%20Homes%2C%20Inc.%22",
+    "added_at": "2026-08-06T07:51:57.071702"
+  },
+  {
     "company": "Legacy Housing Corp",
     "ticker": "LEGH",
     "publish_date": "06 August 2026",
