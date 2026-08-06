@@ -1,5 +1,72 @@
 [
   {
+    "company": "Liquidity Services Inc",
+    "ticker": "LQDT",
+    "publish_date": "06 August 2026",
+    "date_iso": "2026-08-06",
+    "time_period": "Q3 FY2026 (quarter to 30 June 2026)",
+    "announcement_type": "Quarterly results",
+    "period_detail": "Q3 FY2026 (quarter to 30 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>GMV</strong> of <strong>$453.0m</strong> in Q3 FY26, a quarterly record and <strong>+10%</strong> on <strong>$413.0m</strong> a year earlier.</li><li><strong>Revenue</strong> <strong>$129.6m</strong>, up <strong>8%</strong> from <strong>$119.9m</strong> in Q3 FY25, driven by asset-light marketplace growth and improved transaction margins.</li><li><strong>Completed transactions</strong> up <strong>17%</strong>, with management citing expanded margins and strong free cash flow across GovDeals, RSCG and CAG segments.</li><li>Balance sheet held <strong>$219.8m</strong> cash and equivalents plus <strong>$11.3m</strong> short-term investments.</li><li><strong>Q4 FY26 outlook</strong> (new): continued strong profitability led by RSCG and GovDeals; consignment GMV expected in the <strong>mid-eighties %</strong> of total GMV, revenue <strong>mid-twenties %</strong> of GMV and segment direct profit <strong>mid-fifties %</strong> of revenue, with sequentially lower Retail GMV/revenue.</li><li><strong>CEO Bill Angrick</strong> flagged progress toward the <strong>$2bn annual GMV</strong> target under the RISE strategy; note EPS and net income figures were not stated in the supplied text.</li></ul>",
+    "source_format": "html",
+    "headline": "Liquidity Services posts record Q3 FY26 GMV of **$453.0m**, up **10%**, with revenue up **8%** to **$129.6m**.",
+    "priority": "high",
+    "priority_reason": "Quarterly results with record GMV, revenue growth and forward Q4 outlook — market-moving for holders.",
+    "figures": [
+      {
+        "metric": "GMV",
+        "current": "$453.0m",
+        "prior": "$413.0m",
+        "change": "+10%",
+        "basis": "reported",
+        "note": "Q3 FY26 vs Q3 FY25; new quarterly record"
+      },
+      {
+        "metric": "Revenue",
+        "current": "$129.6m",
+        "prior": "$119.9m",
+        "change": "+8%",
+        "basis": "reported",
+        "note": "Q3 FY26 vs Q3 FY25"
+      },
+      {
+        "metric": "Completed transactions",
+        "current": "+17% YoY",
+        "prior": "not stated",
+        "change": "+17%",
+        "basis": "reported",
+        "note": "growth rate only stated"
+      },
+      {
+        "metric": "Cash and equivalents",
+        "current": "$219.8m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "plus $11.3m short-term investments"
+      },
+      {
+        "metric": "Diluted EPS",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "GAAP/non-GAAP referenced but figures not in supplied text",
+        "note": "figure not printed in excerpt"
+      }
+    ],
+    "guidance": {
+      "status": "new",
+      "previous": "",
+      "current": "Q4 FY26: continued strong profitability led by RSCG and GovDeals; consignment GMV in the mid-eighties as a percentage of total GMV; consolidated revenue in the mid-twenties as a percentage of GMV; total segment direct profit in the mid-fifty percent range of consolidated revenue; sequentially lower GMV and revenue in Retail; strong sequential CAG performance subject to project timing.",
+      "commentary": "The company issued a qualitative Q4 FY26 business outlook rather than hard revenue/EPS ranges. It expects an improved direct-profit margin mix but flags sequentially lower Retail GMV and revenue, offset by CAG's international project pipeline and North American heavy-equipment momentum."
+    },
+    "explainer": "GMV (gross merchandise value) is the total sale value of everything transacted across Liquidity Services' marketplaces — it measures activity volume, not the company's own revenue. Record GMV of $453.0m (+10%) alongside revenue of $129.6m (+8%) shows the platform is handling more goods while taking a broadly stable cut; the faster 17% rise in completed transactions points to more, smaller deals and growing buyer/seller adoption.\n\nThe growth is 'reported' year-on-year (Q3 FY26 vs Q3 FY25). Management stresses an asset-light model, where more goods are sold on consignment rather than bought and resold — this lifts margins but can make revenue grow more slowly than GMV.\n\nThe Q4 FY26 outlook is qualitative only: no dollar ranges, but ratio guidance implying consignment GMV in the mid-eighties percent of total, revenue at mid-twenties percent of GMV and segment direct profit at mid-fifties percent of revenue — a richer margin mix. Notably, the company expects sequentially lower GMV and revenue in Retail, cushioned by stronger Capital Assets Group project work. The supplied text omitted the GAAP/non-GAAP EPS and net income tables, so profit-per-share cannot be verified here.",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/LQDT/share-news/Liquidity-Services-Announces-Third-Quarter-Fiscal/99064406",
+    "related_news_url": "https://news.google.com/search?q=%22Liquidity%20Services%2C%20Inc.%22",
+    "added_at": "2026-08-06T16:22:33.019258"
+  },
+  {
     "company": "Senior plc",
     "ticker": "SNR",
     "publish_date": "06 August 2026",
