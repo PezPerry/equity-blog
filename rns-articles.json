@@ -1,5 +1,31 @@
 [
   {
+    "company": "HSBC Holdings PLC",
+    "ticker": "HSBA",
+    "publish_date": "06 August 2026",
+    "date_iso": "2026-08-06",
+    "time_period": "",
+    "announcement_type": "Financing / refinancing",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>HSBC Holdings plc</strong> has increased the <strong>Maximum Tender Amount</strong> on its cash tender offers for four series of USD senior unsecured notes from <strong>$5.0bn</strong> to <strong>$6.75bn</strong> (aggregate purchase price, excluding accrued interest).</li><li>The <strong>May 2028 Notes Sub-Cap</strong> is raised from <strong>$750m</strong> to <strong>$1.0bn</strong>; the March 2028 Notes Sub-Cap and all other terms are unchanged.</li><li>Offers cover the September 2028, November 2028, May 2028 and March 2028 notes; they expire <strong>12 August 2026</strong> with expected settlement on <strong>17 August 2026</strong>.</li><li>To be funded from a new <strong>$6.75bn</strong> three-tranche note issuance priced 5 August 2026, plus cash on hand; undertaken to proactively manage HSBC's debt portfolio.</li><li>Routine liability-management exercise with <strong>no impact</strong> on equity trading or earnings guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "HSBC raises the maximum tender amount on its cash tender offers for four series of USD senior notes from $5bn to $6.75bn.",
+    "priority": "low",
+    "priority_reason": "Routine liability-management exercise (debt tender offer) with no impact on equity trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/hsbc-HSBA/share-news/HSBC-Holdings-PLC-HSBC-tender-offers-increase-of/99064642",
+    "related_news_url": "https://news.google.com/search?q=%22HSBC%20Holdings%20plc%22",
+    "added_at": "2026-08-06T16:21:02.786138"
+  },
+  {
     "company": "Tractor Supply Company",
     "ticker": null,
     "publish_date": "06 August 2026",
