@@ -1,5 +1,57 @@
 [
   {
+    "company": "Harbour Energy PLC",
+    "ticker": "HBR",
+    "publish_date": "06 August 2026",
+    "date_iso": "2026-08-06",
+    "time_period": "",
+    "announcement_type": "Buyback programme launch",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Harbour Energy plc</strong> has launched a new share buyback programme of up to <strong>$250 million</strong> aggregate consideration.</li><li>Programme commences <strong>6 August 2026</strong> and ends no later than <strong>5 March 2027</strong>; all purchased shares will be <strong>cancelled</strong> to reduce share capital.</li><li>Executed on an irrevocable, non-discretionary basis by <strong>Barclays</strong> on Harbour's behalf.</li><li>Maximum <strong>236,805,964</strong> ordinary shares may be purchased, under authority granted at the AGM held on <strong>7 May 2026</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Harbour Energy launches a **$250 million** share buyback programme, running from **6 August 2026** to no later than **5 March 2027**, with shares to be cancelled.",
+    "priority": "medium",
+    "priority_reason": "Launch of a new $250m buyback programme is a material capital-return event, but not a results or M&A announcement.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/harbour-energy--hbr/-250-million-share-buyback-programme/9707479",
+    "related_news_url": "https://news.google.com/search?q=%22Harbour%20Energy%20plc%22",
+    "added_at": "2026-08-06T07:28:39.172511"
+  },
+  {
+    "company": "Ferrexpo PLC",
+    "ticker": "FXPO",
+    "publish_date": "06 August 2026",
+    "date_iso": "2026-08-06",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li>Ukrainian tax authorities issued a report dated <strong>14 July 2026</strong> assessing a penalty of approximately <strong>UAH 35.3 billion (approximately US$788 million)</strong> against subsidiary <strong>Ferrexpo Poltava Mining (FPM)</strong>.</li><li>The assessment follows an <strong>unscheduled documentary internal review</strong> (no on-site inspection) of FPM's compliance with currency-control regulations covering the period <strong>1 July 2021 to 31 December 2025</strong>, introduced after Russia's invasion and the National Bank of Ukraine's tightened export/import settlement rules.</li><li>FPM calls the review <strong>irregular</strong>, citing multiple procedural violations and the tax authority's failure to consider <strong>arbitration awards</strong> which it says procedurally preclude penalties on the majority of the contracts assessed.</li><li>FPM has filed <strong>formal objections</strong>; if not amended, the authority must issue tax notices-decisions (TNDs), which FPM intends to challenge through administrative proceedings and/or the Ukrainian courts.</li><li>Pending completion of that review process, the liabilities remain <strong>unconfirmed and unenforceable</strong>; announcement contains <strong>inside information</strong>, released by Group Company Secretary <strong>Mark Gregory</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Ukrainian tax authorities have assessed a penalty of roughly UAH 35.3bn (~US$788m) against Ferrexpo's subsidiary FPM over alleged currency-control breaches.",
+    "priority": "high",
+    "priority_reason": "Ukrainian tax authorities have assessed a ~US$788m currency-control penalty against Ferrexpo's main operating subsidiary — a material contingent liability disclosed as inside information.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/ferrexpo--fxpo/update-regarding-ukrainian-subsidiary/9707307",
+    "related_news_url": "https://news.google.com/search?q=%22Ferrexpo%20plc%22",
+    "added_at": "2026-08-06T07:28:39.152594"
+  },
+  {
     "company": "Serco Group PLC",
     "ticker": "SRP",
     "publish_date": "06 August 2026",
