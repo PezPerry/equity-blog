@@ -1137,6 +1137,83 @@
     "added_at": "2026-08-06T07:28:05.741872"
   },
   {
+    "company": "Quilter plc",
+    "ticker": "QLT",
+    "publish_date": "05 August 2026",
+    "date_iso": "2026-08-05",
+    "time_period": "H1 2026 (six months to 30 June 2026)",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 2026 (six months to 30 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Quilter plc</strong> released <strong>Part 2</strong> of its <strong>2026 Half Year Results</strong> — the condensed consolidated financial statements, independent review report and notes for the six months to <strong>30 June 2026</strong>.</li><li>Interim accounts are unaudited but reviewed by <strong>PricewaterhouseCoopers LLP</strong>, whose review report flags <strong>no matters</strong> and no going-concern uncertainties; statements approved by the Board on <strong>5 August 2026</strong>.</li><li>Under the <strong>£100 million</strong> Share Buyback Programme launched on <strong>4 March 2026</strong>, Quilter acquired <strong>32,088,808 shares</strong> for <strong>£59 million</strong> (incl. costs), of which <strong>£53 million</strong> settled in cash in the period; <strong>£11 million</strong> of committed remaining buyback accrued as a liability at period-end.</li><li>Movements in employee benefit trusts include <strong>£24 million</strong> purchase of own shares (<strong>H1 2025: £13 million</strong>); total interest paid <strong>£10 million</strong> (H1 2025: £10 million).</li><li>Note: this scraped Part 2 text lists the income-statement and balance-sheet line items but does <strong>not</strong> print the actual figures for revenue, profit, EPS or dividend — those headline numbers sit in Part 1, not in this document.</li></ul>",
+    "source_format": "html",
+    "headline": "Quilter's H1 2026 interim financial statements (Part 2) published, unaudited but reviewed by PwC, with £59m of shares bought back under its £100m programme.",
+    "priority": "high",
+    "priority_reason": "Half-year results are market-moving, though this Part 2 carries the financial statements and auditor review rather than the headline P&L numbers.",
+    "figures": [
+      {
+        "metric": "Buyback shares acquired",
+        "current": "32,088,808 shares for £59m (incl. costs)",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "£100m programme launched 4 March 2026",
+        "note": "Six months to 30 June 2026; £53m settled in cash, £11m committed remaining accrued"
+      },
+      {
+        "metric": "EBT purchase of own shares",
+        "current": "£24m",
+        "prior": "£13m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "Interest paid",
+        "current": "£10m",
+        "prior": "£10m",
+        "change": "flat",
+        "basis": "reported",
+        "note": "Includes finance costs on borrowings and lease liability interest"
+      }
+    ],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "This is Part 2 of Quilter's half-year results, covering the six months to 30 June 2026. It contains the technical machinery of the accounts — the condensed income statement, balance sheet, cash flow and changes-in-equity statements, plus the auditor's review report and explanatory notes. The headline trading figures (revenue, adjusted profit, earnings per share and the interim dividend) are carried in Part 1 of the announcement, not here; in this scraped text the statement line items are listed but the numbers themselves are not printed, so no P&L comparison can be drawn from this document alone.\n\nThe accounts are described as unaudited but subject to a review by PricewaterhouseCoopers under ISRE (UK) 2410. A review is a lighter-touch check than a full audit — the auditor makes enquiries and applies analytical procedures rather than gathering audit-level assurance — but PwC reports nothing to suggest the statements are misstated and no undisclosed going-concern uncertainties.\n\nThe most substantive news in this part is the buyback. Quilter's £100m programme, announced on 4 March 2026, had by 30 June bought back 32,088,808 shares for £59m including costs, of which £53m had been paid in cash. A further £11m of irrevocably committed purchases was accrued as a liability, indicating the programme was still running at period-end. Separately, £24m of own shares were bought for employee share schemes, up from £13m a year earlier.\n\nThere is no change to guidance in this document; any outlook statement would appear in Part 1.",
+    "source_url": "https://uk.advfn.com/stock-market/london/quilter-QLT/share-news/Quilter-PLC-Quilter-plc-2026-Half-Year-Results/99061138",
+    "related_news_url": "https://news.google.com/search?q=%22Quilter%20plc%22",
+    "added_at": "2026-08-06T07:49:11.827704"
+  },
+  {
+    "company": "Ithaca Energy plc",
+    "ticker": "ITH",
+    "publish_date": "05 August 2026",
+    "date_iso": "2026-08-05",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Luca Vignati</strong> appointed <strong>Non-Executive Director</strong> and member of the Nomination and Governance Committee, effective <strong>5 August 2026</strong>.</li><li>Vignati is currently <strong>Upstream Director at Eni S.p.A.</strong>, overseeing Eni's global upstream business across more than 30 countries; he has held senior roles across Sub-Saharan Africa, Central Asia, Turkmenistan, Egypt and Kazakhstan.</li><li>He succeeds <strong>Guido Brusco</strong>, who has stepped down from the Board and committee on the same date to focus on his executive responsibilities.</li><li>Routine board disclosure with <strong>no impact</strong> on trading or guidance; no further details required under Listing Rule 6.4.8R.</li></ul>",
+    "source_format": "html",
+    "headline": "Ithaca Energy appoints Luca Vignati as Non-Executive Director, succeeding Guido Brusco, both effective 5 August 2026.",
+    "priority": "medium",
+    "priority_reason": "Non-executive director change: Luca Vignati joins as Guido Brusco steps down, no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/ithaca-energy-ITH/share-news/Ithaca-Energy-PLC-Directorate-Changes-Non-Executi/99061102",
+    "related_news_url": "https://news.google.com/search?q=%22Ithaca%20Energy%20plc%22",
+    "added_at": "2026-08-06T07:49:11.787860"
+  },
+  {
     "company": "WPP plc",
     "ticker": "WPP",
     "publish_date": "05 August 2026",
