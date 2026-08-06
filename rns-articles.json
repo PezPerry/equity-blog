@@ -1,5 +1,96 @@
 [
   {
+    "company": "Trekor Metals",
+    "ticker": "TKO",
+    "publish_date": "06 August 2026",
+    "date_iso": "2026-08-06",
+    "time_period": "Q2 2026",
+    "announcement_type": "Interim results",
+    "period_detail": "Q2 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Adjusted EBITDA of $125m</strong> and <strong>operating cash flow of $183m</strong> in Q2, driven by record copper prices and strong Gibraltar production.</li><li>Consolidated copper production reached <strong>36m lb</strong>, an <strong>80% increase</strong> on the same period in <strong>2025</strong>, from higher Gibraltar output plus early <strong>Florence Copper</strong> ramp-up.</li><li><strong>Gibraltar</strong> produced <strong>30.3m lb</strong> copper (incl. 0.6m lb cathode); Q2 cathode was temporarily curbed by planned <strong>SX/EW plant downtime in April</strong> to integrate a second leach pad.</li><li><strong>Florence Copper</strong> produced <strong>5.2m lb</strong> in its first full quarter, up from <strong>1.5m lb</strong> in Q1, with 110 wells operating and flow rates averaging 3,400 gpm at quarter-end.</li><li>Total operating costs (C1) fell to <strong>US$2.41/lb</strong> from <strong>US$3.14/lb</strong> a year earlier, aided by higher output and stronger molybdenum by-product credits, partly offset by higher diesel and explosives costs.</li><li><strong>2026 production guidance unchanged</strong>: Gibraltar <strong>110–115m lb</strong> and Florence Copper <strong>30–35m lb</strong>; management notes upside as the <strong>US$5.40 copper collars matured in June</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Trekor posted **$125m** adjusted EBITDA and **$183m** operating cash flow in Q2, with consolidated copper output up **80%** to **36m lb**.",
+    "priority": "high",
+    "priority_reason": "Quarterly results with production, cost, cash-flow and guidance detail — market-moving for the stock.",
+    "figures": [
+      {
+        "metric": "Adjusted EBITDA",
+        "current": "$125m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "Non-GAAP",
+        "note": "Q2 2026"
+      },
+      {
+        "metric": "Operating cash flow",
+        "current": "$183m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "Q2 2026"
+      },
+      {
+        "metric": "Consolidated copper production",
+        "current": "36m lb",
+        "prior": "not stated",
+        "change": "+80%",
+        "basis": "",
+        "note": "vs Q2 2025"
+      },
+      {
+        "metric": "Gibraltar copper production",
+        "current": "30.3m lb",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "incl. 0.6m lb cathode",
+        "note": "Q2 2026"
+      },
+      {
+        "metric": "Florence Copper production",
+        "current": "5.2m lb",
+        "prior": "1.5m lb",
+        "change": "not stated",
+        "basis": "sequential (Q1 2026)",
+        "note": "first full quarter of operations"
+      },
+      {
+        "metric": "Total operating costs (C1)",
+        "current": "US$2.41/lb",
+        "prior": "US$3.14/lb",
+        "change": "-23%",
+        "basis": "Non-GAAP, per lb copper",
+        "note": "vs Q2 2025"
+      },
+      {
+        "metric": "Off-property costs",
+        "current": "US$0.25/lb",
+        "prior": "US$0.18/lb",
+        "change": "not stated",
+        "basis": "per lb copper",
+        "note": "vs Q2 2025"
+      },
+      {
+        "metric": "Molybdenum production",
+        "current": "559 thousand lb",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "by-product credit US$0.65/lb copper",
+        "note": "realised price US$29.63/lb"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Gibraltar 110–115m lb; Florence Copper 30–35m lb for 2026",
+      "current": "Gibraltar 110–115m lb; Florence Copper 30–35m lb for 2026 (unchanged)",
+      "commentary": "Full-year 2026 production guidance is reaffirmed for both operations. Management flags margin upside now the US$5.40 copper collars have matured (June) and continued strong molybdenum by-product credits, partly offset by roughly US$0.15/lb higher H2 Gibraltar costs from elevated diesel prices."
+    },
+    "explainer": "This is a quarterly (Q2 2026) operating and financial update from a copper producer whose main revenue comes from the Gibraltar mine, with the new Florence Copper in-situ recovery operation in Arizona now ramping up. Adjusted EBITDA (a non-GAAP measure of underlying cash earnings) of $125m and $183m of operating cash flow reflect record copper prices rather than a like-for-like comparative, which the announcement does not print — so no year-on-year change can be verified for those headline figures.\n\nThe standout comparative is consolidated copper production of 36m lb, up 80% on Q2 2025, split between steadier Gibraltar output and Florence Copper's first full production quarter (5.2m lb, up from 1.5m lb in the previous quarter). Note the Florence comparison is sequential (quarter-on-quarter), not year-on-year, because the plant only recently started up.\n\nUnit costs improved markedly: C1 cash costs fell to US$2.41/lb from US$3.14/lb a year earlier, mainly because higher volumes and larger molybdenum by-product credits (moly is sold alongside copper and its revenue is netted off the copper cost) outweighed higher diesel and explosives prices linked to Middle East conflict.\n\nGuidance is maintained: 2026 targets of 110–115m lb (Gibraltar) and 30–35m lb (Florence) are unchanged. The key forward signal is margin leverage — the US$5.40/lb copper price collars that had capped upside matured in June, so realisations should now track spot copper more fully, though H2 Gibraltar costs are expected to run about US$0.15/lb higher on diesel.",
+    "source_url": "https://uk.advfn.com/stock-market/london/trekor-metals-TKO/share-news/Trekor-Announces-125-Million-of-Adjusted-EBITDA-i/99060475",
+    "related_news_url": "https://news.google.com/search?q=%22Trekor%20Metals%22",
+    "added_at": "2026-08-06T07:50:24.892988"
+  },
+  {
     "company": "IMI plc",
     "ticker": "IMI",
     "publish_date": "06 August 2026",
