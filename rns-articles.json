@@ -1,5 +1,96 @@
 [
   {
+    "company": "Diageo PLC",
+    "ticker": "DGE",
+    "publish_date": "06 August 2026",
+    "date_iso": "2026-08-06",
+    "time_period": "FY27 to 30 June 2027 and medium term (FY27–FY29)",
+    "announcement_type": "Trading update",
+    "period_detail": "FY27 to 30 June 2027 and medium term",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Diageo</strong> Capital Markets Day sets out <strong>FY27</strong> and medium-term (<strong>FY27–FY29</strong>) guidance alongside a <strong>c.$1 billion</strong> three-year cost-savings programme.</li><li>Savings split <strong>c.$850m</strong> from operating framework redesign (c.40% in FY27, balance FY28) and <strong>c.$150m</strong> from supply chain (c.25% in FY27); total restructuring costs <strong>c.$1.2bn</strong>, of which <strong>c.$752m</strong> was incurred in FY26.</li><li><strong>FY27</strong> guidance: <strong>broadly flat</strong> organic net sales (North America down mid-single-digit, assuming the market down c.3%), organic operating profit up <strong>low-to-mid-single-digit</strong>, and free cash flow of <strong>c.$2bn</strong>.</li><li>Medium-term (FY27–FY29) CAGR guidance: <strong>low-single-digit</strong> organic net sales growth, <strong>mid-single-digit</strong> organic operating profit growth, EPS growth ahead of profit growth, and cumulative free cash flow of <strong>c.$8bn</strong>.</li><li>Expects to end FY27 around the mid-point of its <strong>2.5–3.0x</strong> net debt/EBITDA leverage range, assuming completion of the <strong>EABL</strong> and <strong>Royal Challengers Bengaluru</strong> transactions.</li><li>CEO <strong>Sir Dave Lewis</strong> flags North America as the key priority, targeting improved performance \"without taking a step back in operating profit\".</li></ul>",
+    "source_format": "html",
+    "headline": "Diageo unveils c.$1bn three-year savings plan and guides to broadly flat FY27 organic net sales with low-to-mid-single-digit operating profit growth.",
+    "priority": "high",
+    "priority_reason": "Capital Markets Day sets out new FY27 and medium-term guidance, a c.$1bn cost-savings programme and leverage targets — all market-moving.",
+    "figures": [
+      {
+        "metric": "FY27 organic net sales growth",
+        "current": "broadly flat",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "organic",
+        "note": "North America down mid-single-digit"
+      },
+      {
+        "metric": "FY27 organic operating profit growth",
+        "current": "low-to-mid-single-digit",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "organic",
+        "note": "includes c.40% of c.$850m operating framework savings"
+      },
+      {
+        "metric": "FY27 free cash flow",
+        "current": "c.$2bn",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "after c.$800m + c.$50m exceptional cash costs",
+        "note": "FY to 30 June 2027"
+      },
+      {
+        "metric": "Three-year cost savings",
+        "current": "c.$1bn",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "c.$850m operating framework + c.$150m supply chain",
+        "note": "over FY27–FY29"
+      },
+      {
+        "metric": "Medium-term organic net sales CAGR",
+        "current": "low-single-digit",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "organic",
+        "note": "FY27–FY29"
+      },
+      {
+        "metric": "Medium-term organic operating profit CAGR",
+        "current": "mid-single-digit",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "organic",
+        "note": "FY27–FY29"
+      },
+      {
+        "metric": "Cumulative free cash flow",
+        "current": "c.$8bn",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "after c.$850m exceptional cash costs",
+        "note": "FY27–FY29"
+      },
+      {
+        "metric": "Net debt/EBITDA leverage",
+        "current": "mid-point of 2.5–3.0x by end FY27",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "assumes EABL and Royal Challengers Bengaluru transactions complete",
+        "note": ""
+      }
+    ],
+    "guidance": {
+      "status": "new",
+      "previous": "No formal FY27 or medium-term financial guidance previously quantified in this announcement; three strategic priorities set out at the half year.",
+      "current": "FY27: broadly flat organic net sales, organic operating profit up low-to-mid-single-digit, free cash flow c.$2bn, leverage around mid-point of 2.5–3.0x. Medium term (FY27–FY29 CAGR): low-single-digit organic net sales growth, mid-single-digit organic operating profit growth, EPS growth ahead of operating profit (currency neutral), cumulative free cash flow c.$8bn.",
+      "commentary": "Diageo introduces fresh quantified FY27 and three-year targets, underpinned by a c.$1bn cost-savings programme, while flagging continued weakness in North America (organic net sales down mid-single-digit in FY27) as the drag on group growth."
+    },
+    "explainer": "This is guidance from Diageo's Capital Markets Day rather than a set of results, so the numbers are forward-looking targets, not reported figures. \"Organic\" growth strips out the effect of acquisitions, disposals and currency movements, giving a like-for-like view of the underlying business. On that basis Diageo expects FY27 (its financial year to 30 June 2027) group net sales to be broadly flat, held back by North America — its largest market — where it assumes the overall market shrinks about 3% but its own share performance improves.\n\nThe headline self-help measure is roughly $1bn of cost savings over three years: about $850m from redesigning the operating model and about $150m from the supply chain. Delivering these carries a cash cost — c.$1.2bn of restructuring, much of it (c.$752m) already booked in FY26 — which is why free cash flow guidance of c.$2bn in FY27 and c.$8bn cumulatively over FY27–FY29 is stated after those exceptional cash outflows.\n\nThe medium-term framework (FY27–FY29 compound annual growth rates) points to a gradual recovery: low-single-digit organic net sales growth accelerating as North America stabilises, mid-single-digit operating profit growth helped by the cost savings and better product mix, and EPS growing faster still on a currency-neutral basis. Leverage is targeted around the middle of the 2.5–3.0x net debt/EBITDA range by the end of FY27, conditional on completing the EABL and Royal Challengers Bengaluru disposals.\n\nIn short, Diageo is asking investors to accept a near-flat FY27 top line in exchange for margin-led profit growth from cost cutting, with the North American turnaround the key swing factor for whether the medium-term targets are met.",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/diageo--dge/diageo-capital-markets-day-and-outlook/9708741",
+    "related_news_url": "https://news.google.com/search?q=%22Diageo%20plc%22",
+    "added_at": "2026-08-06T11:16:11.255111"
+  },
+  {
     "company": "Land Securities Group PLC",
     "ticker": "LAND",
     "publish_date": "06 August 2026",
