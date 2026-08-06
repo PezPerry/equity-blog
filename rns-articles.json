@@ -1,5 +1,96 @@
 [
   {
+    "company": "Admiral Group PLC",
+    "ticker": "ADM",
+    "publish_date": "06 August 2026",
+    "date_iso": "2026-08-06",
+    "time_period": "H1 2026 (six months to 30 June 2026)",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 2026 (six months to 30 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Admiral Group</strong> reported H1 2026 <strong>Group profit of £429m</strong>, serving more than <strong>12 million customers</strong>, with continued growth described as 'good' against tougher market conditions.</li><li>Interim dividend cut to <strong>70.5p per share</strong> (H1 2025: <strong>115.0p</strong>), a normal dividend at <strong>65%</strong> of post-tax profits, plus a <strong>£45m share buyback</strong>; total H1 shareholder distributions of <strong>£258.8m</strong>.</li><li><strong>EPS</strong> from continuing operations <strong>109.0p</strong> (H1 2025: <strong>132.5p</strong>); <strong>return on equity 45%</strong> versus <strong>57%</strong>, reflecting lower post-tax profits.</li><li><strong>UK Motor profit £456.9m</strong>, down <strong>18%</strong> on H1 2025 (<strong>£559.3m</strong>), following earlier rate reductions, though broadly flat versus H2 2025; prior-period reserve releases rose to <strong>17.3%</strong> of premium (H1 2025: 12.6%).</li><li>Acquisition of <strong>Flock</strong> complete and integrating; EV book up <strong>27%</strong> year-on-year; full-year 2026 claims cost inflation guided at <strong>5%–7%</strong>, consistent with 2025.</li><li>Over <strong>13,000 employees</strong> to receive free share awards worth up to <strong>£1,800</strong> each. Dividend payable 2 October 2026, ex-dividend 3 September 2026.</li></ul>",
+    "source_format": "html",
+    "headline": "Admiral posts H1 2026 Group profit of £429m with over 12 million customers, but cuts the interim dividend to 70.5p from 115.0p as motor earnings fall.",
+    "priority": "high",
+    "priority_reason": "Half-year results from a FTSE 100 insurer, with earnings, dividend and buyback all material to the share.",
+    "figures": [
+      {
+        "metric": "Group profit",
+        "current": "£429m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "H1 2026"
+      },
+      {
+        "metric": "EPS (continuing)",
+        "current": "109.0p",
+        "prior": "132.5p",
+        "change": "-18%",
+        "basis": "",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "Interim dividend",
+        "current": "70.5p",
+        "prior": "115.0p",
+        "change": "-39% (total); -18% on normal dividend",
+        "basis": "",
+        "note": "per share"
+      },
+      {
+        "metric": "Return on equity",
+        "current": "45%",
+        "prior": "57%",
+        "change": "-12 points",
+        "basis": "",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "UK Motor profit before tax",
+        "current": "£456.9m",
+        "prior": "£559.3m",
+        "change": "-18%",
+        "basis": "",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "Core Motor loss ratio",
+        "current": "60.3%",
+        "prior": "59.7%",
+        "change": "+0.6pts",
+        "basis": "discounted, net of XoL",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "Net investment income",
+        "current": "£36.8m",
+        "prior": "£40.7m",
+        "change": "-9.6%",
+        "basis": "",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "Total shareholder distributions",
+        "current": "£258.8m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "79% payout of post-tax profit",
+        "note": "relating to H1 earnings"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "FY 2025 claims cost inflation of 5%–7%",
+      "current": "FY 2026 average claims cost inflation of 5%–7%, with observed claims frequency flat",
+      "commentary": "Claims inflation guidance is unchanged year-on-year; the group also flagged a move of its UK Motor reserve risk adjustment towards the middle of its 85th–95th percentile corridor, now at the 93rd percentile (94th at end-2025)."
+    },
+    "explainer": "Admiral's headline profit fell versus a strong H1 2025 largely because it cut motor premium rates through late 2024 and H1 2025, so earned premium is lower now even though underlying claims are stable. That squeezes the current-period loss and expense ratios, but the hit is cushioned by larger prior-year reserve releases — money set aside for past claims that is no longer needed — which rose to 17.3% of premium from 12.6%.\n\nThe dividend cut looks dramatic (70.5p versus 115.0p) but reflects two things: lower earnings per share (the normal dividend is down 18%, in line with EPS), and a change in how Admiral returns cash. From 2026 it splits distributions between a normal dividend (65% of post-tax profit), a £45m buyback, and shares bought for employee schemes, rather than paying it all as dividend. Total distributions still equal 79% of post-tax profit (94% including employee-scheme purchases).\n\nOn guidance, nothing was tightened or loosened: Admiral expects full-year 2026 claims cost inflation of 5%–7%, the same as 2025, with claims frequency flat. It has modestly lowered its UK Motor reserve prudence (93rd percentile versus 94th at year-end), a deliberate drift toward the middle of its stated 85th–95th corridor rather than a signal of weakening reserves.\n\nNote a one-off European Motor gain of £13.1m in H1 2026 and, in the prior-year comparatives, a circa £15m H1 2025 benefit from the Ogden discount-rate change — both distort straight year-on-year segment comparisons.",
+    "source_url": "https://uk.advfn.com/stock-market/london/admiral-ADM/share-news/Half-year-Financial-Report/99061009",
+    "related_news_url": "https://news.google.com/search?q=%22Admiral%20Group%20plc%22",
+    "added_at": "2026-08-06T07:40:55.519885"
+  },
+  {
     "company": "Persimmon PLC",
     "ticker": "PSN",
     "publish_date": "06 August 2026",
