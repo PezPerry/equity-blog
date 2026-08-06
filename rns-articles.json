@@ -1,5 +1,104 @@
 [
   {
+    "company": "Derwent London PLC",
+    "ticker": "DLN",
+    "publish_date": "06 August 2026",
+    "date_iso": "2026-08-06",
+    "time_period": "H1 to 30 June 2026",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Interim results H1 2026</strong>: <strong>EPRA EPS 48.7p</strong> (H1 2025: <strong>52.2p</strong>), described as <strong>slightly ahead of expectations</strong>, helped by <strong>£1.5m</strong> of Group cost reductions.</li><li><strong>2026 EPRA EPS guidance upgraded to '0% to -3%'</strong> (from <strong>'-3% to -5%'</strong>); 2027 (5-10% vs 2025) and 2030 (25-30% vs 2025) guidance unchanged; portfolio ERV guidance maintained at <strong>4-7%</strong> (H1: <strong>2.6%</strong>).</li><li><strong>Interim dividend +2.0% to 26.0p</strong> (H1 2025: <strong>25.5p</strong>); <strong>NTA 3,157p</strong>, down <strong>2.1%</strong> from 3,225p; H1 <strong>total accounting return -0.4%</strong>.</li><li><strong>£45.8m provision</strong> recognised at <strong>Old Street Quarter EC1</strong> ahead of an early-2027 planning application; capital values otherwise broadly stable.</li><li><strong>£279.3m</strong> of disposals completed/exchanged YTD at a <strong>3% discount</strong> to book value, towards a <strong>£400m</strong> 2026 / <strong>£1bn</strong> three-year target; net debt cut to <strong>£1.38bn</strong> (from £1.43bn), EPRA LTV <strong>28.8%</strong>.</li><li><strong>£50m share buyback</strong> launched in May; <strong>£18.1m</strong> repurchased in H1 at avg <strong>1,833p</strong> (£33.4m to date at avg 1,921p). CEO <strong>Paul Williams</strong> retires 1 September 2026, succeeded by <strong>Jonathan Murphy</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Derwent London upgrades 2026 EPRA EPS guidance to 0% to -3% as H1 EPS beats expectations, despite a £45.8m Old Street Quarter provision.",
+    "priority": "high",
+    "priority_reason": "Half-year results with an upgrade to 2026 EPRA EPS guidance.",
+    "figures": [
+      {
+        "metric": "EPRA EPS",
+        "current": "48.7p",
+        "prior": "52.2p",
+        "change": "not stated",
+        "basis": "",
+        "note": "H1 to 30 June 2026 vs H1 2025"
+      },
+      {
+        "metric": "Interim dividend",
+        "current": "26.0p",
+        "prior": "25.5p",
+        "change": "+2.0%",
+        "basis": "",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "NTA per share",
+        "current": "3,157p",
+        "prior": "3,225p",
+        "change": "-2.1%",
+        "basis": "",
+        "note": "30 June 2026 vs 31 December 2025"
+      },
+      {
+        "metric": "Total accounting return",
+        "current": "-0.4%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "H1 2026; ~3.7% adjusting for yield shift, Old Street provision and buyback accretion"
+      },
+      {
+        "metric": "Net debt",
+        "current": "£1.38bn",
+        "prior": "£1.43bn",
+        "change": "not stated",
+        "basis": "",
+        "note": "vs 2025"
+      },
+      {
+        "metric": "EPRA LTV",
+        "current": "28.8%",
+        "prior": "29.4%",
+        "change": "not stated",
+        "basis": "",
+        "note": "vs 2025"
+      },
+      {
+        "metric": "Net debt/EBITDA",
+        "current": "8.6x",
+        "prior": "8.8x",
+        "change": "not stated",
+        "basis": "",
+        "note": "vs 2025"
+      },
+      {
+        "metric": "EPRA vacancy rate",
+        "current": "4.4%",
+        "prior": "4.1%",
+        "change": "not stated",
+        "basis": "",
+        "note": "H1 2026 vs December 2025; 3.5% excluding a property under offer for disposal"
+      },
+      {
+        "metric": "Portfolio ERV growth",
+        "current": "2.6%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "H1 2026; strongest six-month growth since 2016"
+      }
+    ],
+    "guidance": {
+      "status": "raised",
+      "previous": "2026 EPRA EPS growth of '-3% to -5%'",
+      "current": "2026 EPRA EPS growth of '0% to -3%'",
+      "commentary": "Derwent upgraded its 2026 EPRA EPS guidance on the back of stronger-than-expected leasing, rental growth and cost reductions. Portfolio ERV guidance (4-7%), 2027 and 2030 EPS guidance, and the medium-term 7-10% pa total accounting return target were all maintained."
+    },
+    "explainer": "Derwent is a central London office REIT, so its results are read through property-sector metrics. EPRA EPS is the recurring earnings measure the sector uses; at 48.7p it fell from 52.2p a year earlier but still came in slightly ahead of analysts' expectations. NTA (net tangible assets) per share of 3,157p is the book value of the portfolio per share, down 2.1% over the half as a modest outward yield shift and the Old Street provision outweighed rental growth. Total accounting return combines NTA movement plus dividends; it was -0.4% for H1, or roughly 3.7% before the yield shift and provision.\n\nThe key news is the guidance upgrade. Derwent now expects 2026 EPRA EPS to land between flat and 3% below 2025 (previously it guided to a 3-5% decline), reflecting strong leasing — new open-market lettings signed 5.1% above December 2025 ERV — plus £1.5m of cost savings. Its ERV (estimated rental value) growth guidance of 4-7% for the year was left unchanged after a strong 2.6% in H1, as were the longer-dated 2027 and 2030 earnings targets.\n\nThe standout drag is a £45.8m provision on Old Street Quarter EC1, a site Derwent conditionally agreed to buy for £239m in 2022 with completion now expected in late 2027. The provision is a probability-weighted mark against a range of outcomes ahead of a 2027 planning application, not a cash cost yet, and will be reassessed at future results. Alongside this, capital recycling is running ahead: £279.3m of disposals completed or exchanged at a 3% discount to book, funding development and a £50m buyback, with net debt and gearing both edging lower.",
+    "source_url": "https://uk.advfn.com/stock-market/london/derwent-london-DLN/share-news/Derwent-London-PLC-Interim-Results-2026-announceme/99061068",
+    "related_news_url": "https://news.google.com/search?q=%22Derwent%20London%20plc%22",
+    "added_at": "2026-08-06T07:44:05.056374"
+  },
+  {
     "company": "METLEN Energy & Metals PLC",
     "ticker": "MTLN",
     "publish_date": "06 August 2026",
