@@ -1228,6 +1228,57 @@
     "added_at": "2026-08-06T07:28:05.741872"
   },
   {
+    "company": "eBay Inc",
+    "ticker": "EBAY",
+    "publish_date": "05 August 2026",
+    "date_iso": "2026-08-05",
+    "time_period": "Q2 2026 (quarter ended 30 June 2026)",
+    "announcement_type": "Quarterly results",
+    "period_detail": "Q2 2026 (quarter ended 30 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>eBay Inc.</strong> reported <strong>Q2 2026</strong> results (quarter ended <strong>30 June 2026</strong>), citing broad-based momentum, continued <strong>GMV</strong> growth and strong growth in operating income and EPS.</li><li>Management is <strong>raising full-year 2026 guidance</strong> on both revenue and earnings, citing strong business momentum; the outlook includes the expected impact of <strong>Depop</strong>.</li><li>Declared a <strong>Q3 2026 cash dividend of $0.31 per share</strong>, payable <strong>11 September 2026</strong> to holders of record on <strong>28 August 2026</strong>.</li><li>Completed the acquisition of <strong>Depop</strong> from <strong>Etsy, Inc.</strong> on <strong>30 July 2026</strong>, paying <strong>$1.4bn</strong> in cash inclusive of preliminary purchase price adjustments (vs the <strong>$1.2bn</strong> headline agreed in February 2026).</li><li>Non-GAAP effective tax rate assumption raised to <strong>17.5%</strong> for 2026, up from <strong>16.5%</strong> in 2025.</li><li>Note: the scraped press release contains the narrative and table headings only — the actual Q2 revenue, EPS and GMV figures and the specific guidance numbers are <strong>not present</strong> in the text provided, so cannot be reported here.</li></ul>",
+    "source_format": "html",
+    "headline": "eBay reports Q2 2026 results with broad-based GMV growth and raises its full-year top- and bottom-line outlook.",
+    "priority": "high",
+    "priority_reason": "Quarterly results with a raised full-year outlook — market-moving for a widely-held large-cap.",
+    "figures": [
+      {
+        "metric": "Q3 2026 dividend per share",
+        "current": "$0.31",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "declared cash dividend",
+        "note": "payable 11 September 2026"
+      },
+      {
+        "metric": "Non-GAAP effective tax rate",
+        "current": "17.5%",
+        "prior": "16.5%",
+        "change": "+1.0pp",
+        "basis": "assumption for evaluating operating results",
+        "note": "2026 vs 2025"
+      },
+      {
+        "metric": "Depop acquisition consideration",
+        "current": "$1.4bn",
+        "prior": "$1.2bn",
+        "change": "not stated",
+        "basis": "cash paid incl. preliminary adjustments vs agreed price",
+        "note": "closed 30 July 2026"
+      }
+    ],
+    "guidance": {
+      "status": "raised",
+      "previous": "Not quantified in the scraped text",
+      "current": "Increasing full-year top- and bottom-line (revenue and earnings) outlook; Q3 2026 outlook includes expected Depop impact — specific figures not present in the scraped text",
+      "commentary": "CFO Peggy Alford said the full-year revenue and earnings outlook is being increased on strong business momentum. The precise revised guidance figures are not contained in the provided text."
+    },
+    "explainer": "This is eBay's second-quarter 2026 report. The company frames the quarter around growth in gross merchandise volume (GMV — the total value of goods transacted on its marketplaces) plus growth in operating income and non-GAAP earnings per share. All growth rates are year-over-year unless stated, and eBay presents many metrics on a non-GAAP and FX-neutral basis, which strips out foreign-currency swings to show underlying momentum.\n\nThe most trading-relevant point is the guidance change: eBay is raising its full-year 2026 outlook for both revenue and earnings, citing business momentum. A raise on both the top and bottom line is generally read positively, though the specific new numbers are not included in the scraped text supplied here.\n\nTwo one-off items colour the results. First, eBay closed its acquisition of Depop (a C2C fashion resale marketplace) from Etsy on 30 July 2026, paying $1.4bn in cash versus the $1.2bn headline agreed in February — the higher figure reflects preliminary purchase-price adjustments, still to be finalised. Guidance now includes Depop's expected impact. Second, the assumed non-GAAP tax rate rises to 17.5% from 16.5%, a modest headwind to reported non-GAAP earnings.\n\nA caveat: the provided text includes the CEO/CFO commentary, the dividend, the Depop detail and the table headings, but not the populated financial tables. The actual Q2 revenue, EPS and GMV figures — and the exact revised guidance — are therefore not reproduced above because they are absent from the source, not because they were omitted.",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/EBAY/share-news/eBay-Inc-Reports-Second-Quarter-2026-Results/99058157",
+    "related_news_url": "https://news.google.com/search?q=%22eBay%20Inc.%22",
+    "added_at": "2026-08-06T07:51:01.693696"
+  },
+  {
     "company": "Quilter plc",
     "ticker": "QLT",
     "publish_date": "05 August 2026",
