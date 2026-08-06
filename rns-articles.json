@@ -994,6 +994,81 @@
     "added_at": "2026-08-06T07:28:05.741872"
   },
   {
+    "company": "WPP plc",
+    "ticker": "WPP",
+    "publish_date": "05 August 2026",
+    "date_iso": "2026-08-05",
+    "time_period": "H1 to 30 June 2026",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>H1 revenue £6,373m</strong>, down <strong>4.4%</strong> reported and down <strong>3.2% LFL</strong>; revenue less pass-through costs <strong>£4,745m</strong>, down <strong>4.7% LFL</strong>, with Q2 improving to <strong>-2.8% LFL</strong>.</li><li><strong>Headline operating profit £398m</strong> (<strong>H1 2025: £412m</strong>) at an <strong>8.4%</strong> margin (<strong>H1 2025: 8.2%</strong>), up <strong>0.2pt LFL</strong>; reported operating profit <strong>£261m</strong>, up <strong>18.1%</strong> on lower impairments.</li><li>Interim dividend held at <strong>7.5p</strong>, in line with intention to maintain the <strong>15.0p</strong> full-year total.</li><li><strong>Adjusted net debt £2,935m</strong> at 30 June (<strong>H1 2025: £3,261m</strong>), down <strong>£326m</strong> YoY, including a <strong>£125m</strong> IFRS 9 benefit.</li><li>CEO <strong>Cindy Rose</strong> says <strong>Elevate28</strong> \"Stabilise\" phase on track; on course for <strong>£100m</strong> in-year savings in 2026 towards <strong>£500m</strong> gross annualised by 2028, with FY disposal proceeds expected over <strong>£200m</strong>.</li><li>Guidance maintained: H2 revenue less pass-through costs to decline low-to-mid single digits LFL, <strong>FY headline operating margin 12%-13%</strong>, adjusted operating cash flow before working capital of <strong>£800m-£900m</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "WPP H1 revenue fell 4.4% to £6,373m (down 3.2% LFL) but headline margin edged up to 8.4%, with FY guidance maintained.",
+    "priority": "high",
+    "priority_reason": "Half-year results from a FTSE 100 company, including margin and cash-flow guidance for FY2026.",
+    "figures": [
+      {
+        "metric": "Revenue",
+        "current": "£6,373m",
+        "prior": "£6,663m",
+        "change": "-4.4% reported / -3.2% LFL",
+        "basis": "reported and like-for-like",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Revenue less pass-through costs",
+        "current": "£4,745m",
+        "prior": "£5,026m",
+        "change": "-5.6% reported / -4.7% LFL",
+        "basis": "reported and like-for-like",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Headline operating profit",
+        "current": "£398m",
+        "prior": "£412m",
+        "change": "not stated",
+        "basis": "headline",
+        "note": "margin 8.4% vs 8.2%, +0.2pt LFL"
+      },
+      {
+        "metric": "Reported operating profit",
+        "current": "£261m",
+        "prior": "not stated",
+        "change": "+18.1%",
+        "basis": "reported",
+        "note": "helped by lower impairment charges"
+      },
+      {
+        "metric": "Interim dividend",
+        "current": "7.5p",
+        "prior": "7.5p",
+        "change": "unchanged",
+        "basis": "per share",
+        "note": "FY total intended to remain 15.0p"
+      },
+      {
+        "metric": "Adjusted net debt",
+        "current": "£2,935m",
+        "prior": "£3,261m",
+        "change": "-£326m",
+        "basis": "at 30 June",
+        "note": "includes £125m IFRS 9 benefit; 31 Dec 2025: £2,167m"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "FY headline operating margin 12% to 13%; adjusted operating cash flow before working capital of £800m to £900m; improving LFL trajectory in H2",
+      "current": "FY headline operating margin maintained at 12% to 13%; H2 LFL revenue less pass-through costs to decline low to mid-single digits; adjusted operating cash flow before working capital of £800m to £900m",
+      "commentary": "Full-year guidance was reaffirmed rather than changed. WPP expects an improving LFL trajectory in H2, with second-half margins down up to c.200bps year-on-year due to the phasing of growth investment and rebuilt incentives."
+    },
+    "explainer": "WPP reports on a like-for-like (LFL) basis, which strips out currency movements and the effect of acquisitions and disposals to show underlying trading. On that basis H1 revenue fell 3.2%, a smaller drop than the 4.4% reported (sterling) decline. The company's preferred profitability measure is 'revenue less pass-through costs' — net revenue after billed-through media and production costs — which fell 4.7% LFL to £4,745m. The key story is sequential improvement: the Q2 net-revenue decline of 2.8% LFL was better than Q1, helped by easing prior-year comparisons and a smaller drag from lost accounts, particularly at WPP Media.\n\nMargins moved in opposite directions depending on the measure. The 'headline' margin (which excludes items like severance and impairments) edged up 0.2 points to 8.4% on lower staff and severance costs. Reported operating profit jumped 18.1% to £261m, but that was largely because the prior period carried much heavier impairment charges rather than a genuine trading gain.\n\nOn guidance, nothing changed: WPP reaffirmed a full-year headline operating margin of 12%-13% and cash flow before working capital of £800m-£900m. Management flagged that H2 margins could fall by up to around 200 basis points year-on-year as it phases in spending on growth initiatives and rebuilds employee incentives — so the full-year figure implies a stronger-margin first half offset by a heavier-investment second half.\n\nThe dividend was held flat at 7.5p interim (15.0p intended for the full year), signalling the board's confidence in cash generation despite falling revenue, while the Elevate28 restructuring targets £500m of gross annualised cost savings by 2028 and over £200m of disposal proceeds this year.",
+    "source_url": "https://uk.advfn.com/stock-market/london/wpp-WPP/share-news/WPP-PLC-2026-Interim-Results/99061061",
+    "related_news_url": "https://news.google.com/search?q=%22WPP%20plc%22",
+    "added_at": "2026-08-06T07:45:50.658032"
+  },
+  {
     "company": "TP ICAP Group plc",
     "ticker": "TCAP",
     "publish_date": "05 August 2026",
