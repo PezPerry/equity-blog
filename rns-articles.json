@@ -1,5 +1,112 @@
 [
   {
+    "company": "Wizz Air Holdings PLC",
+    "ticker": "WIZZ",
+    "publish_date": "06 August 2026",
+    "date_iso": "2026-08-06",
+    "time_period": "Q1 F27 (three months to 30 June 2026)",
+    "announcement_type": "Interim results",
+    "period_detail": "Q1 F27 (three months to 30 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Wizz Air</strong> reported a <strong>net loss</strong> for <strong>Q1 F27</strong> (three months to <strong>30 June 2026</strong>), driven by a <strong>21% rise in unit fuel costs</strong>.</li><li>Revenue <strong>€1,507.4m</strong>, up <strong>5.5% YoY</strong>; passengers carried <strong>21.2m</strong>, up <strong>25.1% YoY</strong>; <strong>ASKs up 14.9%</strong>, seats up <strong>25.4%</strong>.</li><li><strong>RASK down 8% YoY</strong> reflecting rapid capacity growth; <strong>ex-fuel CASK down circa 2%</strong>.</li><li>Strong balance sheet: cash <strong>€2,212.2m</strong> (up <strong>4.0%</strong> vs 31 March 2026), liquidity ratio <strong>36.9%</strong>; net debt <strong>€5,134.5m</strong>, leverage <strong>4.4x</strong> (vs 3.7x at F26 year-end).</li><li>Guidance: <strong>Q2 RASK down low single digits</strong>, <strong>Q2 ASKs up circa 20% YoY</strong>, <strong>Q2 fuel CASK up mid-to-high single digits</strong>.</li><li><strong>Moody's</strong> cut the rating to <strong>Ba3</strong> (from Ba2, stable); GTF-grounded aircraft down to <strong>27</strong> (from 41), expected <strong>15-20</strong> by end-F27 and zero by end-2027.</li></ul>",
+    "source_format": "html",
+    "headline": "Wizz Air posts a Q1 net loss as a 21% rise in unit fuel costs and 8% RASK decline offset 25% passenger growth to 21.2m.",
+    "priority": "high",
+    "priority_reason": "Quarterly results showing a net loss, with near-term RASK and fuel cost guidance for Q2.",
+    "figures": [
+      {
+        "metric": "Revenue",
+        "current": "€1,507.4m",
+        "prior": "not stated",
+        "change": "+5.5%",
+        "basis": "reported YoY",
+        "note": "Q1 F27, three months to 30 June 2026"
+      },
+      {
+        "metric": "Passengers",
+        "current": "21.2m",
+        "prior": "not stated",
+        "change": "+25.1%",
+        "basis": "reported YoY",
+        "note": "Q1 F27"
+      },
+      {
+        "metric": "ASKs",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+14.9%",
+        "basis": "reported YoY",
+        "note": "Q1 F27"
+      },
+      {
+        "metric": "Seats",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+25.4%",
+        "basis": "reported YoY",
+        "note": "Q1 F27"
+      },
+      {
+        "metric": "RASK",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "-8%",
+        "basis": "reported YoY",
+        "note": "Q1 F27"
+      },
+      {
+        "metric": "Ex-fuel CASK",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "circa -2%",
+        "basis": "reported YoY",
+        "note": "Q1 F27"
+      },
+      {
+        "metric": "Net (loss)/profit",
+        "current": "net loss (amount not stated in text)",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "Q1 F27"
+      },
+      {
+        "metric": "Total cash",
+        "current": "€2,212.2m",
+        "prior": "not stated",
+        "change": "+4.0%",
+        "basis": "vs 31 March 2026",
+        "note": "at 30 June 2026"
+      },
+      {
+        "metric": "Net debt",
+        "current": "€5,134.5m",
+        "prior": "€4,941.5m",
+        "change": "not stated",
+        "basis": "vs 31 March 2026",
+        "note": "at 30 June 2026"
+      },
+      {
+        "metric": "Leverage (net debt/EBITDA)",
+        "current": "4.4x",
+        "prior": "3.7x",
+        "change": "not stated",
+        "basis": "vs F26 year-end",
+        "note": "at 30 June 2026"
+      }
+    ],
+    "guidance": {
+      "status": "new",
+      "previous": "",
+      "current": "Q2 ASKs up circa 20% YoY, seats up high twenties percent; Q2 RASK down low single digits (supported by stage length reduction); Q2 fuel CASK up mid-to-high single digits (based on current market prices).",
+      "commentary": "Wizz Air issued near-term Q2 F27 guidance pointing to continued strong capacity growth but softer unit revenue and rising fuel unit costs. Current trading indicates Q2 RASK down low single digits, an improvement on Q1's 8% decline, helped by shorter average stage lengths."
+    },
+    "explainer": "This is a first-quarter update covering the three months to 30 June 2026, Wizz Air's F27 financial year. The headline tension is that traffic is growing fast — passengers up 25% and seats up over 25% — but revenue only rose 5.5%, because RASK (revenue per available seat kilometre, a measure of how much each unit of capacity earns) fell around 8%. Adding lots of capacity into a volatile market dilutes yields, so revenue grows far more slowly than passenger numbers.\n\nThe reported net loss was driven mainly by fuel: unit fuel costs rose 21% year-on-year, reflecting higher jet-fuel prices and Middle East disruption. Encouragingly, ex-fuel CASK (cost per seat kilometre excluding fuel) fell about 2%, showing the underlying cost base is improving as airport and labour costs per unit come down with scale.\n\nThe balance sheet remains a strength: over €2.2bn of cash and a 36.9% liquidity ratio, among the strongest in the sector. However, net debt rose to €5.13bn and leverage climbed to 4.4x (from 3.7x) as ten new aircraft were delivered, and Moody's downgraded the rating one notch to Ba3 citing weaker FY2026 profitability and GTF-related inefficiencies.\n\nOn guidance, this is fresh near-term outlook rather than a change to a prior number. For Q2, Wizz expects capacity (ASKs) up around 20%, RASK down only low single digits — a smaller decline than Q1 — helped by shorter stage lengths as it shifts flying from the Middle East to European routes, while fuel unit costs are still expected to rise mid-to-high single digits.",
+    "source_url": "https://uk.advfn.com/stock-market/london/wizz-air-WIZZ/share-news/Wizz-Air-Holdings-PLC-F27-Q1-Results/99061049",
+    "related_news_url": "https://news.google.com/search?q=%22Wizz%20Air%20Holdings%20plc%22",
+    "added_at": "2026-08-06T07:41:22.307059"
+  },
+  {
     "company": "Admiral Group PLC",
     "ticker": "ADM",
     "publish_date": "06 August 2026",
