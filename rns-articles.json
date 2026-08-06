@@ -1,5 +1,80 @@
 [
   {
+    "company": "METLEN Energy & Metals PLC",
+    "ticker": "MTLN",
+    "publish_date": "06 August 2026",
+    "date_iso": "2026-08-06",
+    "time_period": "H1 2026",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Record H1</strong> across all key metrics: <strong>revenue €3,987m</strong> (+11% vs €3,608m), <strong>EBITDA €550m</strong> (+23% vs €445m), <strong>net profit €313m</strong> (+23% vs €254m), <strong>EPS €2.18</strong> (from €1.81).</li><li><strong>Adjusted net debt cut by €728m</strong>, driving <strong>net leverage down to 1.7x</strong> from <strong>3.1x</strong> at FY 2025, via the Asset Rotation model and strong cash generation.</li><li>Guidance reaffirmed: <strong>2026 EBITDA €1.00-1.15bn</strong> and <strong>medium-term EBITDA target c.€1,920-2,080m</strong>.</li><li>Energy Sector revenue <strong>€3,134m</strong> (79% of group) driven by gas trading (<strong>€853m</strong> from €618m); <strong>Metals EBITDA €149m</strong>; <strong>Infrastructure & Concessions EBITDA more than doubled to €82m</strong> with backlog approaching €2bn.</li><li>First <strong>Gallium offtake agreement</strong> signed with a leading U.S. technology company covering <strong>25%</strong> of production; <strong>c.0.4GW of storage (BESS)</strong> energised across Greece and Italy with <strong>c.1.6GW</strong> more advancing.</li><li>Progress on three legacy contracts (<strong>Protos, Grudziądz, Drax</strong>) that weighed on 2025, but <strong>additional completion costs</strong> recognised in the period as works near completion.</li></ul>",
+    "source_format": "html",
+    "headline": "METLEN posts record H1 2026 with revenue up 11% to €3,987m and EBITDA up 23% to €550m, reaffirming full-year and medium-term guidance.",
+    "priority": "high",
+    "priority_reason": "Half-year results with record earnings across all key metrics and reaffirmed guidance.",
+    "figures": [
+      {
+        "metric": "Revenue",
+        "current": "€3,987m",
+        "prior": "€3,608m",
+        "change": "+11%",
+        "basis": "reported",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "EBITDA",
+        "current": "€550m",
+        "prior": "€445m",
+        "change": "+23%",
+        "basis": "adjusted, record first-half level",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "Net profit after minorities",
+        "current": "€313m",
+        "prior": "€254m",
+        "change": "+23%",
+        "basis": "reported",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "EPS",
+        "current": "€2.18",
+        "prior": "€1.81",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "Net leverage",
+        "current": "1.7x",
+        "prior": "3.1x",
+        "change": "not stated",
+        "basis": "adjusted, excluding non-recourse debt",
+        "note": "H1 2026 vs FY 2025"
+      },
+      {
+        "metric": "Adjusted net debt reduction",
+        "current": "€728m reduction",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "adjusted",
+        "note": "achieved in H1 2026"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "2026 EBITDA guidance of €1.00-1.15bn; medium-term EBITDA target of c.€1,920-2,080m",
+      "current": "2026 EBITDA guidance of €1.00-1.15bn; medium-term EBITDA target of c.€1,920-2,080m (both reaffirmed)",
+      "commentary": "Guidance was reaffirmed unchanged, with management stating the company has returned to its medium-term growth trajectory after the challenges of 2025. Disciplined execution brought part of the 2026 investment programme forward into 2025, reducing expected 2026 CAPEX below the April 2025 Capital Markets Day assumption."
+    },
+    "explainer": "The comparatives are half-year-to-half-year (H1 2026 vs H1 2025) and reported on a euro basis, so the 11% revenue rise and 23% EBITDA rise reflect actual growth rather than a currency effect. The revenue increase was driven largely by higher natural gas trading volumes in the Energy Sector, where gas trading revenue jumped to €853m from €618m — a lower-margin activity, which is why EBITDA (the profit measure) grew faster than revenue thanks to the integrated utility and stronger metals margins.\n\nNet debt and leverage are shown on an 'adjusted' basis, meaning they exclude non-recourse (project-level) debt, the related cash and its associated EBITDA. On that basis net leverage fell sharply to 1.7x from 3.1x at the December 2025 year-end, helped by asset sales under METLEN's 'Asset Rotation' model (selling matured renewable projects, such as a 283MW UK solar portfolio) and strong operating cash flow.\n\nOn guidance, nothing changed: METLEN reaffirmed both its 2026 EBITDA range of €1.00-1.15bn and its medium-term target of roughly €1.92-2.08bn. Management flags that Asset Rotation transactions are weighted to H2, so a stronger second-half contribution is expected. Note that additional completion costs on the legacy Protos, Grudziądz and Drax contracts were absorbed in the period as those projects near handover.",
+    "source_url": "https://uk.advfn.com/stock-market/london/metlen-energy-and-metals-MTLN/share-news/Metlen-Energy-Metals-PLC-FINANCIAL-RESULTS-H1-20/99061076",
+    "related_news_url": "https://news.google.com/search?q=%22METLEN%20Energy%20%26%20Metals%20PLC%22",
+    "added_at": "2026-08-06T07:43:21.789740"
+  },
+  {
     "company": "Morgan Advanced Materials Plc",
     "ticker": "MGAM",
     "publish_date": "06 August 2026",
