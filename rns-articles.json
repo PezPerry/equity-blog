@@ -1,5 +1,146 @@
 [
   {
+    "company": "Quilter plc",
+    "ticker": "QLT",
+    "publish_date": "06 August 2026",
+    "date_iso": "2026-08-06",
+    "time_period": "H1 2026 (six months to 30 June 2026)",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 2026 (six months to 30 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Adjusted pre-tax profit</strong> up <strong>12%</strong> to <strong>£112m</strong> (H1 2025: £100m); operating margin stable at <strong>30%</strong>.</li><li><strong>Core net inflows</strong> of <strong>£6.0bn</strong>, up <strong>32%</strong> and equal to <strong>9%</strong> of opening AuMA annualised; <strong>AuMA</strong> up <strong>11%</strong> to <strong>£157.4bn</strong> since 31 December 2025.</li><li><strong>Revenue</strong> up <strong>12%</strong> to <strong>£379m</strong>; <strong>adjusted diluted EPS 6.1p</strong>, up <strong>13%</strong>; <strong>IFRS profit after tax £45m</strong> (H1 2025: £46m).</li><li><strong>Interim dividend 2.1p</strong>, up <strong>5%</strong>; <strong>£68.4m</strong> of the planned <strong>£100m</strong> buyback completed by 31 July 2026 at an average <strong>186p</strong>.</li><li>Guidance: net-inflows target <strong>raised</strong> from <strong>4-5% through a cycle</strong> to an expectation of <strong>continuing peer-leading performance</strong>.</li><li><strong>Platform net inflows £5.4bn</strong> (+28%); <strong>WealthSelect MPS</strong> AuM up <strong>15%</strong> to <strong>£29.3bn</strong>; Solvency II ratio (pro forma) <strong>202%</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Quilter posts record core net inflows of £6.0bn (+32%) and adjusted pre-tax profit of £112m (+12%) for H1 2026, and lifts its net-inflows target.",
+    "priority": "high",
+    "priority_reason": "Half-year results with profit growth, record net flows and a raised net-inflows target.",
+    "figures": [
+      {
+        "metric": "Adjusted profit before tax",
+        "current": "£112m",
+        "prior": "£100m",
+        "change": "+12%",
+        "basis": "adjusted",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "Core net inflows",
+        "current": "£6.0bn",
+        "prior": "£4.5bn",
+        "change": "+32%",
+        "basis": "9% of opening AuMA annualised",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "Revenue",
+        "current": "£379m",
+        "prior": "£337m",
+        "change": "+12%",
+        "basis": "reported",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "Adjusted diluted EPS",
+        "current": "6.1p",
+        "prior": "5.4p",
+        "change": "+13%",
+        "basis": "adjusted diluted",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "IFRS profit after tax",
+        "current": "£45m",
+        "prior": "£46m",
+        "change": "-2%",
+        "basis": "IFRS",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "IFRS basic EPS",
+        "current": "3.3p",
+        "prior": "3.4p",
+        "change": "not stated",
+        "basis": "IFRS basic",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "Interim dividend",
+        "current": "2.1p",
+        "prior": "2.0p",
+        "change": "+5%",
+        "basis": "per share",
+        "note": "one third of prior-year total dividend"
+      },
+      {
+        "metric": "AuMA",
+        "current": "£157.4bn",
+        "prior": "£141.8bn (implied, +11% since 31 Dec 2025)",
+        "change": "+11%",
+        "basis": "since 31 December 2025",
+        "note": "prior figure derived from stated +11%; source prints growth rate not base figure"
+      },
+      {
+        "metric": "Operating margin",
+        "current": "30%",
+        "prior": "30%",
+        "change": "flat",
+        "basis": "adjusted",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "Expense base",
+        "current": "£267m",
+        "prior": "£237m",
+        "change": "+13%",
+        "basis": "reported",
+        "note": "in line with guidance"
+      },
+      {
+        "metric": "Solvency II ratio (pro forma)",
+        "current": "202%",
+        "prior": "200%",
+        "change": "+2pts",
+        "basis": "after interim dividend",
+        "note": "vs 31 December 2025"
+      }
+    ],
+    "guidance": {
+      "status": "raised",
+      "previous": "Net inflows target of 4-5% of opening assets through a cycle",
+      "current": "An expectation of continuing to deliver peer-leading net-inflows performance",
+      "commentary": "Quilter lifted its through-the-cycle net-inflows target, citing sustained above-market flows and market-share gains; H1 2026 core net inflows ran at 9% annualised of opening assets. Cost guidance was reaffirmed, with the 13% rise in the expense base described as in line with guidance."
+    },
+    "explainer": "These are half-year figures for the six months to 30 June 2026, compared with the same period a year earlier. Quilter is a UK wealth manager, so the key operating measure is net flows — the new client money coming onto its platform and into its investment services, net of withdrawals. Core net inflows of £6.0bn (up 32%) represent 9% of opening assets on an annualised basis, which the company stresses is ahead of peers.\n\nThe headline profit number, adjusted pre-tax profit of £112m, strips out items management regards as one-off or non-operating — chiefly intangible amortisation, interest expense, policyholder tax effects and business-transformation costs. On a full statutory (IFRS) basis, profit after tax was slightly lower at £45m versus £46m, mainly because of a higher policyholder tax charge following the March 2026 change in the policyholder tax rate and rising markets, partly offset by higher adjusted profit and a £5m release from a customer-remediation provision.\n\nThe operating margin held at 30% despite planned investment spending (costs up 13%) and lower interest income on shareholder funds as rates fell — so profit growth came from higher management fees on rising assets rather than margin expansion.\n\nOn guidance, the important change is the net-inflows target: Quilter has moved from a fixed 4-5%-through-the-cycle goal to an open-ended aim of continuing to beat peers, reflecting its recent share gains. The dividend policy is unchanged — the 2.1p interim equals one third of the prior year's total payout — and the £100m buyback remains on track, with £68.4m completed by end-July.",
+    "source_url": "https://uk.advfn.com/stock-market/london/quilter-QLT/share-news/Quilter-PLC-Quilter-plc-2026-Half-Year-Results/99061055",
+    "related_news_url": "https://news.google.com/search?q=%22Quilter%20plc%22",
+    "added_at": "2026-08-06T07:44:38.383658"
+  },
+  {
+    "company": "British American Tobacco p.l.c.",
+    "ticker": "BATS",
+    "publish_date": "06 August 2026",
+    "date_iso": "2026-08-06",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Luciano Comin</strong> will step down as <strong>Chief Marketing Officer</strong> and from the Management Board on <strong>28 February 2027</strong>, ending a <strong>34-year</strong> career with the Group.</li><li><strong>Pascale Meulemeester</strong>, currently Regional Director APMEA, becomes <strong>CMO Designate</strong> from <strong>1 January 2027</strong> and takes the role on <strong>1 March 2027</strong>.</li><li><strong>Celina Li</strong> joins from <strong>Ocean Spray Cranberries</strong> on <strong>1 September 2026</strong> as Regional Director Designate, APMEA, becoming Regional Director and a Management Board member on <strong>1 January 2027</strong>.</li><li>Routine Management Board succession disclosure with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "BAT's Chief Marketing Officer Luciano Comin to retire on 28 February 2027 after 34 years, with Pascale Meulemeester to succeed him.",
+    "priority": "medium",
+    "priority_reason": "Senior executive and Management Board changes at CMO and regional director level, but no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/british-american-tobacco-BATS/share-news/British-American-Tobacco-PLC-BAT-Announces-Managem/99061092",
+    "related_news_url": "https://news.google.com/search?q=%22British%20American%20Tobacco%20p.l.c.%22",
+    "added_at": "2026-08-06T07:44:38.337622"
+  },
+  {
     "company": "Derwent London PLC",
     "ticker": "DLN",
     "publish_date": "06 August 2026",
