@@ -1,5 +1,57 @@
 [
   {
+    "company": "JPMorgan European Growth & Income plc",
+    "ticker": "JEGI",
+    "publish_date": "06 August 2026",
+    "date_iso": "2026-08-06",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li>Director <strong>Guy Walker</strong> has been appointed a non-executive director of <strong>Strategic Equity Capital plc</strong>, effective <strong>1 September 2026</strong>.</li><li>Routine disclosure under <strong>UK Listing Rule 6.4.9R</strong> on an external directorship, with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Director Guy Walker appointed a non-executive director of Strategic Equity Capital plc from 1 September 2026.",
+    "priority": "low",
+    "priority_reason": "Routine Listing Rule 6.4.9R disclosure of a director's external appointment, with no bearing on the company's trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/jpmorgan-european-growth-JEGI/share-news/JPMorgan-European-Grwth-Inc-PLC-Director-Declara/99055584",
+    "related_news_url": "https://news.google.com/search?q=%22JPMorgan%20European%20Growth%20%26%20Income%20plc%22",
+    "added_at": "2026-08-06T07:54:22.500959"
+  },
+  {
+    "company": "Bodycote plc",
+    "ticker": "BOY",
+    "publish_date": "06 August 2026",
+    "date_iso": "2026-08-06",
+    "time_period": "",
+    "announcement_type": "M&A / takeover approach",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Bodycote plc</strong> confirms it has received <strong>two separate conditional proposals</strong> for a possible cash offer for the entire share capital, following recent media speculation — the shares are now in an <strong>offer period</strong>.</li><li><strong>CVC Advisers Limited</strong> proposal: up to <strong>915 pence per share</strong>, comprising <strong>907.8p cash</strong> plus a <strong>7.2p</strong> interim dividend for FY to 31 December 2026.</li><li><strong>Veritas Capital Fund IX, L.P.</strong> proposal: up to <strong>914 pence per share</strong>, comprising <strong>906.8p cash</strong> plus the same <strong>7.2p</strong> interim dividend.</li><li>The Board would be <strong>minded to recommend unanimously</strong> either proposal at these financial terms, and has granted <strong>both</strong> CVC and Veritas access to confirmatory due diligence.</li><li>Proposals remain subject to customary pre-conditions (due diligence, definitive documentation); <strong>no certainty</strong> an offer will be made.</li><li>Under Rule 2.6(a), CVC and Veritas must announce a firm intention to bid or walk away by <strong>5.00 p.m. on 2 September 2026</strong> (a 'put up or shut up' deadline, extendable with Panel consent).</li></ul>",
+    "source_format": "html",
+    "headline": "Bodycote confirms two rival conditional cash bid proposals — CVC at up to 915p and Veritas at up to 914p per share — both of which the Board would be minded to recommend.",
+    "priority": "high",
+    "priority_reason": "Rule 2.4 announcement confirming two rival conditional cash takeover proposals the Board would be minded to recommend.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/bodycote-BOY/share-news/Bodycote-PLC-Statement-Regarding-Possible-Offers-f/99056516",
+    "related_news_url": "https://news.google.com/search?q=%22Bodycote%20plc%22",
+    "added_at": "2026-08-06T07:54:22.398555"
+  },
+  {
     "company": "Warner Music Group Corp",
     "ticker": "WMG",
     "publish_date": "06 August 2026",
@@ -1419,6 +1471,32 @@
     "source_url": "https://www.investegate.co.uk/announcement/rns/serco-group--srp/directorate-change/9707476",
     "related_news_url": "https://news.google.com/search?q=%22Serco%20Group%20plc%22",
     "added_at": "2026-08-06T07:28:05.741872"
+  },
+  {
+    "company": "Tritax Big Box REIT PLC",
+    "ticker": "BBOX",
+    "publish_date": "05 August 2026",
+    "date_iso": "2026-08-05",
+    "time_period": "",
+    "announcement_type": "Acquisition / deal",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Tritax Big Box REIT</strong> announces a conditional <strong>retail offer</strong> of new ordinary shares via <strong>RetailBook</strong>, running alongside a non-pre-emptive institutional <strong>Placing</strong> and a director/PDMR <strong>Subscription</strong> (together the Equity Issue).</li><li>Issue price set after the close of the accelerated <strong>bookbuild</strong>; retail offer minimum subscription <strong>£250</strong> per investor, with <strong>no RetailBook commission</strong> and access via ISAs, SIPPs and GIAs.</li><li>Proceeds to fund an enlarged <strong>data centre</strong> development pipeline, further <strong>logistics</strong> acquisition/development, and medium-term capital recycling as the UKCM disposal programme completes.</li><li>Conditional on shareholder approval at a general meeting at <strong>10.00 a.m. on 24 August 2026</strong> and Admission expected <strong>8.00 a.m. on 26 August 2026</strong>; retail offer conditional on the Placing completing but not vice versa.</li><li>Retail offer expected to close <strong>9.00 p.m. on 5 August 2026</strong>; new shares carry the <strong>Q3 dividend (2p per share expected)</strong> but not the <strong>Q2 dividend (2p declared today)</strong>.</li><li>Company separately released <strong>unaudited HY26 results</strong> for the six months ended <strong>30 June 2026</strong> today.</li></ul>",
+    "source_format": "html",
+    "headline": "Tritax Big Box REIT launches a conditional retail offer of new ordinary shares via RetailBook, alongside an institutional placing and director subscription.",
+    "priority": "high",
+    "priority_reason": "Equity fundraising via retail offer alongside an institutional placing to fund data centre and logistics development.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/tritax-big-box-reit-BBOX/share-news/Tritax-Big-Box-REIT-plc-Retail-Offer/99056726",
+    "related_news_url": "https://news.google.com/search?q=%22Tritax%20Big%20Box%20REIT%20plc%22",
+    "added_at": "2026-08-06T07:54:22.359874"
   },
   {
     "company": "eBay Inc",
