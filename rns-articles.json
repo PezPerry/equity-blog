@@ -1,5 +1,31 @@
 [
   {
+    "company": "CME Group Inc",
+    "ticker": "CME",
+    "publish_date": "06 August 2026",
+    "date_iso": "2026-08-06",
+    "time_period": "H1 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "H1 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>CME Group</strong> reports record <strong>average daily volume (ADV)</strong> and <strong>open interest (OI)</strong> for its <strong>Mexican peso</strong> and <strong>Brazilian real</strong> futures and options in <strong>H1 2026</strong>.</li><li>The scraped text lists no specific volume or open-interest figures — the 'H1 2026 highlights' section and the closing Itau Unibanco quote are truncated/garbled, so the actual numbers are unavailable.</li><li>Promotional exchange-activity release highlighting demand for exchange-traded Latin American FX contracts alongside OTC activity; <strong>no impact</strong> on CME Group's earnings guidance.</li><li>US-listed (NASDAQ: CME) product-volume statistic, not an LSE/RNS company announcement.</li></ul>",
+    "source_format": "html",
+    "headline": "CME Group's Mexican peso and Brazilian real futures and options hit record average daily volume and open interest in H1 2026.",
+    "priority": "low",
+    "priority_reason": "Routine promotional volume-statistics release for a niche product line, not a material earnings, guidance or corporate event.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/CME/share-news/CME-Group-Latin-American-FX-Futures-and-Options-Hi/99066673",
+    "related_news_url": "https://news.google.com/search?q=%22CME%20Group%20Inc.%22",
+    "added_at": "2026-08-06T16:19:04.924930"
+  },
+  {
     "company": "easyJet PLC",
     "ticker": "EZJ",
     "publish_date": "06 August 2026",
@@ -1666,6 +1692,32 @@
     "source_url": "https://www.investegate.co.uk/announcement/rns/serco-group--srp/directorate-change/9707476",
     "related_news_url": "https://news.google.com/search?q=%22Serco%20Group%20plc%22",
     "added_at": "2026-08-06T07:28:05.741872"
+  },
+  {
+    "company": "Glencore PLC",
+    "ticker": "GLEN",
+    "publish_date": "05 August 2026",
+    "date_iso": "2026-08-05",
+    "time_period": "",
+    "announcement_type": "Dividend declaration",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li>Board has declared a <strong>further cash distribution</strong> of <strong>$0.085 per ordinary share</strong> from capital contribution reserves, amounting to <strong>c.$1 billion</strong>.</li><li>To be paid concurrently with the <strong>$0.085 per share second tranche</strong> of the distribution approved at the <strong>28 May 2026 AGM</strong>.</li><li>Distributions declared and paid in <strong>US dollars</strong>; Jersey-register holders may elect <strong>Sterling, Euros or Swiss Francs</strong>, Johannesburg-register holders receive <strong>South African Rand</strong>.</li><li>Follows the timetable for the second tranche originally announced on <strong>18 February 2026</strong>; further JSE Listing Requirements information due <strong>18 August 2026</strong>.</li><li>Routine distribution-mechanics announcement — a capital return with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Glencore declares a further $0.085 per share cash distribution, worth about $1 billion, to be paid alongside the second tranche of its previously approved AGM distribution.",
+    "priority": "medium",
+    "priority_reason": "Board has declared a further ~$1bn cash distribution and set the payment timetable, a shareholder-relevant capital return.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/glencore-GLEN/share-news/Glencore-PLC-Additional-Distribution-Timetable/99065552",
+    "related_news_url": "https://news.google.com/search?q=%22Glencore%20plc%22",
+    "added_at": "2026-08-06T16:19:04.887013"
   },
   {
     "company": "Trekor Metals Limited",
