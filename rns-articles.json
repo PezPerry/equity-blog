@@ -1,5 +1,57 @@
 [
   {
+    "company": "Legacy Housing Corp",
+    "ticker": "LEGH",
+    "publish_date": "06 August 2026",
+    "date_iso": "2026-08-06",
+    "time_period": "Q2 2026",
+    "announcement_type": "Interim results",
+    "period_detail": "Q2 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Legacy Housing Corporation</strong> reports <strong>record net income</strong> for <strong>Q2 2026</strong>, per CEO <strong>Kenneth E. Shipley</strong> — the scraped text carries only management commentary, with <strong>no revenue, profit, EPS or dividend figures printed</strong>.</li><li><strong>Strong backlog</strong> cited and <strong>first deliveries</strong> made under the company's <strong>2026 workforce housing order</strong>, with management flagging improved lead volume and quality.</li><li>Co-founder <strong>Curt Hodgson retired in July 2026</strong>; company notes it has <strong>never had a losing quarter</strong>.</li><li>Conference call scheduled for <strong>11:00 AM Central Time, Thursday 6 August 2026</strong>. Note: this is a <strong>US NASDAQ-listed</strong> manufactured-housing group (ticker <strong>LEGH</strong>), not a UK RNS issuer.</li></ul>",
+    "source_format": "html",
+    "headline": "Legacy Housing reports record net income for Q2 2026 alongside a strong backlog and first deliveries under its 2026 workforce housing order.",
+    "priority": "high",
+    "priority_reason": "Quarterly results announcement, which is high priority under the rules.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "The scraped page contains only CEO commentary and boilerplate — it references \"record net income\" and a \"strong backlog\" but does not print any actual financial figures (revenue, net income, EPS or dividend) or prior-year comparatives, so no metrics can be reported here without inventing them.\n\nManagement offers a qualitative second-half tone that is positive (rising lead quality, first deliveries under the 2026 workforce housing order), but no numerical guidance is given, so guidance status is 'none'. The full quarterly numbers would be in the results tables not captured in this text.",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/LEGH/share-news/Legacy-Housing-Corporation-Reports-Second-Quarter/99058106",
+    "related_news_url": "https://news.google.com/search?q=%22Legacy%20Housing%20Corporation%22",
+    "added_at": "2026-08-06T07:51:34.483450"
+  },
+  {
+    "company": "Gamma Communications plc",
+    "ticker": "GAMA",
+    "publish_date": "06 August 2026",
+    "date_iso": "2026-08-06",
+    "time_period": "",
+    "announcement_type": "M&A / takeover approach",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Gamma Communications</strong> has, with Takeover Panel consent, extended the PUSU deadline for <strong>Epiris LLP</strong> to <strong>5:00pm on 2 September 2026</strong> (the 'Extended Deadline').</li><li>By that date Epiris must either announce a firm intention to make an offer under Rule 2.7 or state it does not intend to bid; <strong>discussions between the two remain ongoing</strong>.</li><li>This is the third extension: the original <strong>12 June 2026</strong> deadline was pushed to <strong>8 July</strong>, then <strong>5 August</strong>, and now <strong>2 September 2026</strong>; talks trace back to Gamma's <strong>7 April 2026</strong> announcement.</li><li>Gamma says <strong>discussions with other potential offerors also remain ongoing</strong>; there is no certainty any offer will be made or on what terms.</li><li>Advisers to Gamma: <strong>Barclays</strong>, <strong>Investec</strong> and <strong>Peel Hunt</strong>. Announcement made under Rule 2.4 of the Takeover Code, containing inside information.</li></ul>",
+    "source_format": "html",
+    "headline": "Gamma extends Epiris's 'put up or shut up' deadline to 2 September 2026 as takeover talks continue.",
+    "priority": "high",
+    "priority_reason": "Keeps a live takeover situation alive by extending Epiris's deadline to make a firm offer for Gamma.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/gamma-communications-GAMA/share-news/Gamma-Communications-PLC-Extension-of-PUSU-deadlin/99056521",
+    "related_news_url": "https://news.google.com/search?q=%22Gamma%20Communications%20plc%22",
+    "added_at": "2026-08-06T07:51:34.443209"
+  },
+  {
     "company": "Trekor Metals",
     "ticker": "TKO",
     "publish_date": "06 August 2026",
