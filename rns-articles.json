@@ -1,5 +1,96 @@
 [
   {
+    "company": "Oxford Biomedica plc",
+    "ticker": "OXB",
+    "publish_date": "07 August 2026",
+    "date_iso": "2026-08-07",
+    "time_period": "H1 to 30 June 2026 (with FY 2026 guidance)",
+    "announcement_type": "Trading update",
+    "period_detail": "H1 to 30 June 2026 (with FY 2026 guidance)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Oxford Biomedica</strong> lowers <strong>FY 2026</strong> revenue guidance to <strong>£180-200 million</strong>, citing short-term shifts in client ordering behaviour and a <strong>6-month delay</strong> to operational readiness at its <strong>Durham, NC</strong> site.</li><li><strong>H1 2026</strong> revenues grew <strong>+c.9%</strong> to approximately <strong>£80 million</strong>, reflecting previously communicated second-half weighting and continuing underlying demand.</li><li>Record new-client activity with <strong>17 new clients</strong> signed in H1, <strong>more than 30% above</strong> the total for FY 2025; non-risk-adjusted pipeline up <strong>c.30%</strong> year-on-year to <strong>c.$713 million</strong>.</li><li>Revenue backlog of <strong>c.£193 million</strong> and contracted client orders of <strong>c.£97 million</strong>, with c.£165m of 2026 forecast revenues covered by contracted orders.</li><li><strong>FY 2026</strong> EBITDA margin now expected at <strong>mid-single-digit %</strong> excluding one-offs (<strong>low-single-digit %</strong> reported), reflecting lower revenues and cost absorption.</li><li>Medium/long-term ambitions unchanged: <strong>FY 2027</strong> revenue growth of <strong>25-30%</strong> with at least double-digit EBITDA margins, and c.<strong>£500m</strong> revenue targeted by <strong>2030</strong>; gross cash <strong>£75m</strong>, net cash <strong>£21m</strong> at 30 June 2026. Interim results due <strong>22 September 2026</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "OXB cuts FY 2026 revenue guidance to £180-200m on deferred client orders and a delayed Durham site, despite +c.9% H1 revenue growth.",
+    "priority": "high",
+    "priority_reason": "Trading update cutting FY 2026 revenue guidance on shifting client ordering behaviour and a site delay.",
+    "figures": [
+      {
+        "metric": "Revenue (H1)",
+        "current": "c.£80m",
+        "prior": "not stated",
+        "change": "+c.9%",
+        "basis": "reported",
+        "note": "six months to 30 June 2026"
+      },
+      {
+        "metric": "FY 2026 revenue guidance",
+        "current": "£180-200m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "guidance",
+        "note": "lowered on client ordering shifts and Durham NC delay"
+      },
+      {
+        "metric": "FY 2026 EBITDA margin guidance",
+        "current": "mid-single-digit % (ex one-offs); low-single-digit % reported",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "guidance",
+        "note": ""
+      },
+      {
+        "metric": "Revenue backlog",
+        "current": "c.£193m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "ordered gross value of CDMO revenues"
+      },
+      {
+        "metric": "Contracted client orders",
+        "current": "c.£97m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "reported",
+        "note": ""
+      },
+      {
+        "metric": "New business pipeline (non-risk-adjusted)",
+        "current": "c.$713m",
+        "prior": "not stated",
+        "change": "+c.30%",
+        "basis": "year-on-year",
+        "note": "multi-year potential gross value"
+      },
+      {
+        "metric": "Gross cash",
+        "current": "£75m",
+        "prior": "£97m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "30 June 2026 vs 31 December 2025"
+      },
+      {
+        "metric": "Net cash",
+        "current": "£21m",
+        "prior": "£55m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "30 June 2026 vs 31 December 2025"
+      }
+    ],
+    "guidance": {
+      "status": "lowered",
+      "previous": "FY 2026 revenue guidance as previously communicated (specific prior figure not stated in this announcement)",
+      "current": "FY 2026 revenues now expected to be £180-200 million; FY 2026 EBITDA margin mid-single-digit % excluding one-off costs (low-single-digit % reported). FY 2027 unchanged at 25-30% revenue growth with at least double-digit EBITDA margins; c.£500m revenue ambition for 2030.",
+      "commentary": "FY 2026 revenue guidance has been cut, driven by clients deferring or delaying selected programmes, a larger client changing its procurement strategy and approval pathway, and a 6-month delay to operational readiness at the Durham, NC site. Lower revenues also compress the FY 2026 EBITDA margin via reduced cost absorption; medium and long-term ambitions are reiterated unchanged."
+    },
+    "explainer": "Oxford Biomedica is a contract manufacturer (a CDMO) for cell and gene therapies. Its revenue depends on clients placing and ramping up orders, so timing shifts in a handful of large programmes can move the full-year outturn materially. H1 revenue still grew about 9% to c.£80m, and the company stresses that demand indicators — 17 new clients, a c.£193m backlog and a pipeline up c.30% — remain strong. The issue is timing, not lost demand: some clients are taking a staged approach and taking longer to convert contracts into billed work.\n\nThe key change is the FY 2026 revenue guidance, now set at £180-200m. Management attributes the cut to deferred or delayed programmes, one larger client altering its procurement and approval route, and a six-month delay in getting the Durham, North Carolina site operational (now said to be back on track with its first GMP run underway).\n\nBecause a manufacturing business carries largely fixed operating costs, lower revenue means those costs are spread over a smaller base, so the FY 2026 EBITDA margin is guided to only mid-single-digit % excluding one-offs (low-single-digit % on a reported basis). This still represents progress on profitability, just less than previously expected.\n\nImportantly, the medium and long-term targets are unchanged: FY 2027 revenue growth of 25-30% with at least double-digit EBITDA margins, and an ambition for around £500m of revenue by 2030 with margins trending toward c.30%. Full detail follows at the interim results on 22 September 2026.",
+    "source_url": "https://uk.advfn.com/stock-market/london/oxford-biomedica-OXB/share-news/Oxford-Biomedica-PLC-Half-Year-Trading-Update-and/99072189",
+    "related_news_url": "https://news.google.com/search?q=%22Oxford%20Biomedica%20plc%22",
+    "added_at": "2026-08-07T08:17:00.271621"
+  },
+  {
     "company": "Goodwin PLC",
     "ticker": "GDWN",
     "publish_date": "07 August 2026",
