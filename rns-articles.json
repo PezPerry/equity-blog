@@ -1,5 +1,31 @@
 [
   {
+    "company": "Harworth Group PLC",
+    "ticker": "HWG",
+    "publish_date": "07 August 2026",
+    "date_iso": "2026-08-07",
+    "time_period": "",
+    "announcement_type": "Acquisition / deal",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Harworth</strong> board unanimously rejects <strong>Peel Pepper (UK) Limited's</strong> unsolicited firm cash offer of <strong>172.5p per share</strong>, saying it fundamentally undervalues the Group.</li><li><strong>Peel Pepper</strong> is indirectly wholly owned by <strong>Peel Holdings Group Limited</strong>; the board had no substantive prior engagement and calls the offer opportunistically timed to exploit a dislocation between share price and asset value.</li><li>Board points to a five-year average <strong>8.1% Total Accounting Return</strong> and embedded value in its <strong>0.8GW</strong> power-enabled land bank still to be realised.</li><li><strong>5 August 2026</strong> half-year update flagged advanced negotiations on a second hyperscale data centre deal and momentum across a <strong>35m sq ft</strong> industrial & logistics pipeline; a medium-term plan with cost reductions approved in principle.</li><li>Half-year results due <strong>15 September 2026</strong>; a formal response will follow once the offer document is posted — shareholders advised to take no action.</li></ul>",
+    "source_format": "html",
+    "headline": "Harworth's board unanimously rejects Peel Pepper's unsolicited 172.5p-per-share cash offer as fundamentally undervaluing the company.",
+    "priority": "high",
+    "priority_reason": "Board response to an unsolicited firm cash takeover offer — a live M&A situation directly affecting the share price.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/harworth-group--hwg/response-to-unsolicited-offer/9711526",
+    "related_news_url": "https://news.google.com/search?q=%22Harworth%20Group%20plc%22",
+    "added_at": "2026-08-07T19:05:15.734889"
+  },
+  {
     "company": "Man Group PLC",
     "ticker": "EMG",
     "publish_date": "07 August 2026",
