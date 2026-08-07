@@ -1,5 +1,31 @@
 [
   {
+    "company": "Man Group PLC",
+    "ticker": "EMG",
+    "publish_date": "07 August 2026",
+    "date_iso": "2026-08-07",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Dixit Joshi</strong> has resigned as a <strong>non-executive director</strong> of <strong>Man Group plc</strong> with <strong>immediate effect</strong>, stepping down as a member of the Audit and Risk Committee and the Nomination and Governance Committee.</li><li>He is leaving to take on a <strong>full-time executive role with an asset management firm in the Middle East</strong>.</li><li>Routine Listing Rule 6.4.6R disclosure with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Non-executive director Dixit Joshi has resigned from Man Group with immediate effect to take a full-time executive role at a Middle East asset manager.",
+    "priority": "medium",
+    "priority_reason": "Board change: a non-executive director has resigned with immediate effect, but it has no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/man-group--emg/directorate-change/9711554",
+    "related_news_url": "https://news.google.com/search?q=%22Man%20Group%20plc%22",
+    "added_at": "2026-08-07T15:15:31.644574"
+  },
+  {
     "company": "THG PLC",
     "ticker": "THG",
     "publish_date": "07 August 2026",
