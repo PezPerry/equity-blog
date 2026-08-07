@@ -1,5 +1,57 @@
 [
   {
+    "company": "Marshalls PLC",
+    "ticker": "MSLH",
+    "publish_date": "07 August 2026",
+    "date_iso": "2026-08-07",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>Marshalls plc</strong> to host a live investor presentation on the <strong>Engage Investor</strong> platform on <strong>21 August 2026 at 9:00am BST</strong>, led by CEO <strong>Simon Bourne</strong> and CFO <strong>Justin Lockwood</strong>.</li><li>Open to all shareholders and interested investors; questions can be pre-submitted or asked live — routine investor-relations notice with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Marshalls will host a live interactive investor presentation on the Engage Investor platform on 21 August 2026 at 9:00am BST.",
+    "priority": "low",
+    "priority_reason": "Routine notice of an investor presentation with no financial or trading content.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/marshalls--mslh/notice-of-investor-presentation/9710864",
+    "related_news_url": "https://news.google.com/search?q=%22Marshalls%20plc%22",
+    "added_at": "2026-08-07T10:35:37.370723"
+  },
+  {
+    "company": "Essentra PLC",
+    "ticker": "ESNT",
+    "publish_date": "07 August 2026",
+    "date_iso": "2026-08-07",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>Essentra plc</strong> has re-appointed <strong>PricewaterhouseCoopers LLP (PwC)</strong> as external auditor, effective from the financial year ending <strong>31 December 2027</strong>, following a competitive audit tender.</li><li>PwC was originally appointed in <strong>2017</strong>; UK rules require tendering every 10 years, and the tender was run in <strong>Q2 2026</strong> by the Audit and Risk Committee under the FRC Minimum Standard.</li><li>Re-appointment is subject to shareholder approval at the <strong>2027 AGM</strong>; routine governance disclosure with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Essentra re-appoints PwC as external auditor from FY2027 following a competitive audit tender, subject to 2027 AGM approval.",
+    "priority": "low",
+    "priority_reason": "Routine audit tender outcome re-appointing the existing auditor, with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/essentra-ESNT/share-news/Essentra-plc-Outcome-of-Audit-Tender/99072155",
+    "related_news_url": "https://news.google.com/search?q=%22Essentra%20plc%22",
+    "added_at": "2026-08-07T10:35:37.356641"
+  },
+  {
     "company": "Dorchester Minerals LP",
     "ticker": "DMLP",
     "publish_date": "07 August 2026",
