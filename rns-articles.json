@@ -1,5 +1,57 @@
 [
   {
+    "company": "Schroder European Real Estate Investment Trust Ltd",
+    "ticker": "SERE",
+    "publish_date": "07 August 2026",
+    "date_iso": "2026-08-07",
+    "time_period": "",
+    "announcement_type": "Managed wind-down / circular",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Schroder European Real Estate Investment Trust plc</strong> to publish a circular today convening a <strong>General Meeting on 3 September 2026</strong> to approve a <strong>Managed Wind-Down</strong>, following the <strong>24 June 2026</strong> announcement.</li><li>Board will realise all investments, repay borrowings and return capital to shareholders; process expected to take <strong>approximately two to three years</strong>.</li><li>Requires an <strong>ordinary resolution</strong> (simple majority) to change the investment objective/policy and a <strong>special resolution</strong> (<strong>75%</strong> of votes cast) to amend the Articles; <strong>Board unanimously recommends</strong> voting in favour.</li><li>Portfolio currently <strong>14 properties</strong> across <strong>France, Germany and the Netherlands</strong>; Board expects to later propose <strong>voluntary liquidation</strong> once the company becomes too small to justify a listing.</li><li>Investment Management Agreement to be amended: management fee <strong>0.9% of NAV</strong> (min <strong>€500,000</strong> p.a.), plus disposal fees of <strong>0.7%</strong> of net realised value (rising to <strong>0.85%</strong> if the <strong>70%</strong> Milestone is met), a <strong>0.15%</strong> Milestone fee and a <strong>0.10%</strong> Portfolio fee if realisation completes within three years; total fee capped at <strong>4.99%</strong> of 30 June 2026 NAV.</li><li><strong>Panmure Liberum</strong> advises the amended IMA is fair and reasonable as a related party transaction under UK Listing Rule 11.5.4R(1).</li></ul>",
+    "source_format": "html",
+    "headline": "SEREIT publishes circular and convenes 3 September GM seeking shareholder approval for a managed wind-down and orderly realisation of its portfolio over two to three years.",
+    "priority": "high",
+    "priority_reason": "Board is proposing a managed wind-down and eventual liquidation of the trust — a fundamental strategic change with capital returns to shareholders.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/schroder-european-real-estate-investment-trust--sere/publication-of-circular-and-notice-of-gm/9709674",
+    "related_news_url": "https://news.google.com/search?q=%22Schroder%20European%20Real%20Estate%20Investment%20Trust%20plc%22",
+    "added_at": "2026-08-07T07:35:57.036475"
+  },
+  {
+    "company": "JD Sports Fashion PLC",
+    "ticker": "JD.",
+    "publish_date": "07 August 2026",
+    "date_iso": "2026-08-07",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Peter Agnefjäll</strong> appointed Chair of the Board, effective <strong>1 September 2026</strong>.</li><li>Succeeds <strong>Darren Shapland</strong>, Interim Chair since the <strong>21 July 2026</strong> AGM; Shapland remains on the Board as an Independent Director.</li><li>Agnefjäll is former President and CEO of <strong>IKEA Group</strong> (2013-2017) and ex-Chair of <strong>Ahold Delhaize</strong> (2021-2025); currently NED at <strong>WPP</strong>.</li><li>Appointment made under <strong>UKLR 6.4.6R</strong>; no further disclosable information under UKLR 6.4.8R — <strong>no impact</strong> on current trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "JD Sports names former IKEA CEO Peter Agnefjäll as Chair from 1 September 2026, succeeding interim Chair Darren Shapland.",
+    "priority": "medium",
+    "priority_reason": "Appointment of a new permanent Chair is a material board change but has no immediate impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/jd-sports-fashion--jd./appointment-of-peter-agnefj-ll-as-chair/9709653",
+    "related_news_url": "https://news.google.com/search?q=%22JD%20Sports%20Fashion%20plc%22",
+    "added_at": "2026-08-07T07:35:57.008101"
+  },
+  {
     "company": "Franchise Brands PLC",
     "ticker": "FRAN",
     "publish_date": "07 August 2026",
