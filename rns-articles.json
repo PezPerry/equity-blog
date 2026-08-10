@@ -1,5 +1,112 @@
 [
   {
+    "company": "Plus500 Ltd",
+    "ticker": "PLUS",
+    "publish_date": "10 August 2026",
+    "date_iso": "2026-08-10",
+    "time_period": "H1 2026 (six months ended 30 June 2026)",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 2026 (six months ended 30 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Plus500</strong> delivered record H1 2026 results: <strong>revenue +12%</strong> YoY to <strong>$462.9m</strong> (H1 2025: $415.1m), a three-year high for a six-month period, with <strong>Customer Income +24%</strong> to <strong>$460.8m</strong>, a five-year high.</li><li><strong>EBITDA</strong> rose just <strong>1%</strong> to <strong>$187.5m</strong> (H1 2025: $185.1m), reflecting stepped-up customer-acquisition spend, scaling US revenue-linked costs and an <strong>Israeli Shekel FX headwind</strong>; <strong>basic EPS +6%</strong> to <strong>$2.17</strong>.</li><li><strong>$182.5m</strong> of shareholder returns announced: <strong>$100.0m</strong> in new <strong>share buybacks</strong> plus <strong>$82.5m</strong> of dividends (<strong>$1.2001 per share</strong>), taking 2026 returns to <strong>$370.0m</strong> and lifetime returns since 2013 IPO to <strong>c.$3.1bn</strong>.</li><li>Non-OTC (US) revenue grew <strong>c.30%</strong> YoY to c.15% of Group revenue; launched CFTC-regulated B2C prediction markets and single stock futures, added B2B partners <strong>Wealthsimple</strong> and <strong>Nelogica</strong>, and completed the <strong>Mehta</strong> acquisition in India.</li><li>OTC business expanded into <strong>Canada</strong> and <strong>Latin America</strong> and launched <strong>24/5 trading</strong> on stocks and ETFs; New Customers <strong>+17%</strong> to 65,723 and Active Customers <strong>+10%</strong> to 197,294.</li><li>Board expects <strong>FY 2026 revenue and EBITDA in-line with current market expectations</strong>, following several upgrades earlier this year; cash balances over <strong>$860m</strong> and 99% operating cash conversion.</li></ul>",
+    "source_format": "html",
+    "headline": "Plus500 posts record H1 2026 with revenue up 12% to $462.9m, and announces $182.5m of shareholder returns while reaffirming FY 2026 guidance.",
+    "priority": "high",
+    "priority_reason": "Half-year results from a FTSE 250 fintech, with record revenue, EPS growth, a large shareholder-return package and reaffirmed full-year guidance.",
+    "figures": [
+      {
+        "metric": "Revenue",
+        "current": "$462.9m",
+        "prior": "$415.1m",
+        "change": "+12%",
+        "basis": "reported YoY",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "EBITDA",
+        "current": "$187.5m",
+        "prior": "$185.1m",
+        "change": "+1%",
+        "basis": "reported YoY",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "Customer Income",
+        "current": "$460.8m",
+        "prior": "$371.5m",
+        "change": "+24%",
+        "basis": "reported YoY",
+        "note": "five-year H1 high"
+      },
+      {
+        "metric": "Trading income",
+        "current": "$441.8m",
+        "prior": "$385.5m",
+        "change": "+15%",
+        "basis": "reported YoY",
+        "note": "primary revenue driver"
+      },
+      {
+        "metric": "Basic EPS",
+        "current": "$2.17",
+        "prior": "not stated",
+        "change": "+6%",
+        "basis": "reported YoY",
+        "note": "aided by buybacks"
+      },
+      {
+        "metric": "ARPU",
+        "current": "$2,346",
+        "prior": "$2,307",
+        "change": "+2%",
+        "basis": "reported YoY",
+        "note": "H1 2026"
+      },
+      {
+        "metric": "Active Customers",
+        "current": "197,294",
+        "prior": "179,931",
+        "change": "+10%",
+        "basis": "reported YoY",
+        "note": "H1 2026"
+      },
+      {
+        "metric": "New Customers",
+        "current": "65,723",
+        "prior": "56,165",
+        "change": "+17%",
+        "basis": "reported YoY",
+        "note": "H1 2026"
+      },
+      {
+        "metric": "Total customer deposits",
+        "current": "$3.4bn",
+        "prior": "$3.1bn",
+        "change": "+10%",
+        "basis": "reported YoY",
+        "note": "H1 2026"
+      },
+      {
+        "metric": "Total shareholder returns announced",
+        "current": "$182.5m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "$100.0m buyback + $82.5m dividends",
+        "note": "$1.2001 per share"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "FY 2026 expectations upgraded several times earlier in the year",
+      "current": "FY 2026 revenue and EBITDA expected to be in-line with current market expectations",
+      "commentary": "Guidance is reaffirmed rather than changed: the Board confirms full-year revenue and EBITDA in line with current consensus, which already reflects several upgrades made earlier in 2026. The non-OTC (US) business is on track for c.$140m of annualised revenue in FY 2026."
+    },
+    "explainer": "These are reported (not currency-adjusted or organic) year-on-year comparisons for the six months to 30 June 2026 against the same period in 2025. Note the distinction Plus500 draws between three top-line measures: Customer Income (+24% to $460.8m) is the gross income generated from customers, Trading income (+15% to $441.8m) is the main component, and statutory Revenue (+12% to $462.9m) is the headline figure — the differing growth rates reflect the mix of trading versus other income lines.\n\nThe striking gap this half is between fast revenue growth (+12%) and near-flat EBITDA (+1%). Management attributes this to deliberate choices and one external factor: heavier spending on acquiring customers, naturally rising revenue-linked costs as the US business scales, and a foreign-exchange headwind from a materially stronger Israeli Shekel against the US Dollar (much of the cost base is in Israel). So the profit softness is largely investment- and FX-driven rather than a demand problem.\n\nOn guidance, nothing has been raised or cut today — the Board is simply confirming that full-year 2026 revenue and EBITDA should land in line with current market expectations. The important context is that those expectations were already lifted through several upgrades earlier in the year, so 'in-line' sits against a raised bar, not the original one.\n\nThe $182.5m of shareholder returns (a $100m buyback plus $82.5m of dividends, $1.2001 per share) is a capital-return decision funded by the group's strong cash position (over $860m) and 99% cash conversion; buybacks also flatter EPS, which helps explain the 6% EPS rise outpacing the 1% EBITDA growth.",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/plus500-ltd-di---plus/plus500-h1-2026-interim-results/9711890",
+    "related_news_url": "https://news.google.com/search?q=%22Plus500%20Ltd.%22",
+    "added_at": "2026-08-10T07:45:44.089996"
+  },
+  {
     "company": "International Workplace Group PLC",
     "ticker": "IWG",
     "publish_date": "10 August 2026",
