@@ -1,5 +1,31 @@
 [
   {
+    "company": "Standard Lithium Ltd.",
+    "ticker": null,
+    "publish_date": "10 August 2026",
+    "date_iso": "2026-08-10",
+    "time_period": "Q2 2026 (three months to 30 June 2026)",
+    "announcement_type": "Quarterly results",
+    "period_detail": "Q2 2026 (three months to 30 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Standard Lithium</strong> reported its <strong>Q2 2026</strong> (three months to <strong>30 June 2026</strong>) results, dominated by operational milestones rather than financials — no revenue, profit or EPS figures are stated in the release.</li><li>Two of four primary pre-FID deliverables at the <strong>SWA Project</strong> (Arkansas, with partner <strong>Equinor</strong>) are complete: the <strong>EPCC</strong> and <strong>EPCM</strong> construction vendor contracts, plus <strong>NEPA</strong> approval from US federal regulators.</li><li>Remaining deliverables — customer offtakes and project financing — are in advanced discussions, with offtake agreements targeted for conclusion by <strong>Q3</strong>.</li><li>Reiterated target of a <strong>Final Investment Decision later in 2026</strong>, with construction to follow and first commercial production of battery-quality lithium carbonate in <strong>2029</strong>.</li><li>Intends to release a Preliminary Economic Assessment for the <strong>Franklin project</strong> (East Texas) in <strong>Q3 2026</strong>; earnings webcast scheduled for <strong>12 August 2026</strong>.</li><li>Development-stage company (dual-listed TSXV / NYSE American, symbol <strong>SLI</strong>); this release contains no printed financial figures — full statements are on SEDAR+ and EDGAR.</li></ul>",
+    "source_format": "html",
+    "headline": "Standard Lithium completed two of four pre-FID deliverables at the SWA Project, executing construction vendor contracts and clearing NEPA federal environmental review.",
+    "priority": "medium",
+    "priority_reason": "Quarterly results release, but content is operational FID-milestone progress with no financial figures disclosed in the text.",
+    "figures": [],
+    "guidance": {
+      "status": "maintained",
+      "previous": "FID at the SWA Project expected in 2026; first commercial production in 2029",
+      "current": "Continues to target FID later in 2026, with construction promptly following and first commercial production of battery-quality lithium carbonate in 2029",
+      "commentary": "Timeline targets are reaffirmed rather than changed; the company reports progress on two of four pre-FID deliverables and expects the remaining offtake and financing workstreams to conclude around Q3."
+    },
+    "explainer": "This is Standard Lithium's second-quarter 2026 release, but as a near-commercial development company it has no lithium sales yet, so the announcement prints no revenue, profit, earnings or dividend numbers. The substance is progress toward a Final Investment Decision (FID) — the point at which the company and partner Equinor formally commit to building the SWA lithium-brine project in Arkansas.\n\nThe company had flagged four things it must lock down before FID. Two are now done: signing the main engineering/construction contracts (EPCC and EPCM) and clearing the US federal environmental review under NEPA. The two still outstanding are customer offtake agreements (contracts to buy the future lithium) and project financing (the debt package), both said to be well advanced and targeted for around Q3.\n\nOn guidance, nothing has changed rather than improved or worsened: the company still expects to approve FID later in 2026 and to reach first commercial production in 2029. It also plans a Preliminary Economic Assessment on its Franklin project in East Texas in Q3, and will host an earnings webcast on 12 August 2026 where the actual financial statements (available on SEDAR+ and EDGAR) will be discussed.",
+    "source_url": "https://uk.advfn.com/stock-market/AMEX/SLI/share-news/Standard-Lithium-Reports-Second-Quarter-2026-Resul/99085281",
+    "related_news_url": "https://news.google.com/search?q=%22Standard%20Lithium%20Ltd.%22",
+    "added_at": "2026-08-10T15:18:10.322349"
+  },
+  {
     "company": "Alfa Financial Software Holdings PLC",
     "ticker": "ALFA",
     "publish_date": "10 August 2026",
