@@ -1,5 +1,31 @@
 [
   {
+    "company": "WPP plc",
+    "ticker": "WPP",
+    "publish_date": "10 August 2026",
+    "date_iso": "2026-08-10",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Peter Agnefjäll</strong>, Non-Executive Director of <strong>WPP plc</strong>, has been appointed Chair of the Board of <strong>JD Sports Fashion plc</strong> (LSE:JD.), effective <strong>1 September 2026</strong>.</li><li>Routine disclosure under <strong>FCA Listing Rule 6.4.9R</strong> of a director's other appointment — <strong>no impact</strong> on WPP's trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "WPP non-executive director Peter Agnefjäll appointed Chair of JD Sports Fashion, effective 1 September 2026.",
+    "priority": "low",
+    "priority_reason": "Routine Listing Rule 6.4.9R disclosure of a WPP non-executive director taking an external chairmanship, with no impact on WPP's operations.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/wpp-WPP/share-news/WPP-PLC-Director-Declaration/99073364",
+    "related_news_url": "https://news.google.com/search?q=%22WPP%20plc%22",
+    "added_at": "2026-08-10T07:43:59.316583"
+  },
+  {
     "company": "Harworth Group PLC",
     "ticker": "HWG",
     "publish_date": "10 August 2026",
@@ -76,6 +102,32 @@
     "source_url": "https://uk.advfn.com/stock-market/london/thg-THG/share-news/THG-PLC-Capital-Reduction-Becomes-Effective/99076531",
     "related_news_url": "https://news.google.com/search?q=%22THG%20PLC%22",
     "added_at": "2026-08-10T07:42:05.274538"
+  },
+  {
+    "company": "Intel Corp",
+    "ticker": "INTC",
+    "publish_date": "07 August 2026",
+    "date_iso": "2026-08-07",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Intel Corporation</strong> has appointed <strong>Dean Jarnac</strong> as <strong>executive vice president and chief sales officer</strong>, leading global sales across client, data centre, AI, networking and ASICs.</li><li>Jarnac joins from <strong>Marvell</strong> (previously <strong>Broadcom</strong> and <strong>AMD</strong>), bringing over <strong>30 years</strong> of semiconductor sales experience, and will report directly to CEO <strong>Lip-Bu Tan</strong>, starting in <strong>September</strong>.</li><li><strong>Greg Ernst</strong> is leaving Intel after <strong>27 years</strong> as part of the transition.</li><li>Routine management change with <strong>no impact</strong> on current trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Intel appoints Dean Jarnac as executive vice president and chief sales officer, joining in September from Marvell.",
+    "priority": "medium",
+    "priority_reason": "Senior executive appointment (chief sales officer) plus a long-serving executive departure, but no impact on results or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/INTC/share-news/Intel-Announces-Leadership-Appointment-to-Strength/99077967",
+    "related_news_url": "https://news.google.com/search?q=%22Intel%20Corporation%22",
+    "added_at": "2026-08-10T07:43:59.249845"
   },
   {
     "company": "Construction Partners Inc",
