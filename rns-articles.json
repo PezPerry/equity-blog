@@ -1,5 +1,31 @@
 [
   {
+    "company": "Intel Corp",
+    "ticker": "INTC",
+    "publish_date": "10 August 2026",
+    "date_iso": "2026-08-10",
+    "time_period": "",
+    "announcement_type": "Fundraising / equity offering",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Intel Corporation</strong> announced a <strong>$15 billion</strong> underwritten public offering of common stock.</li><li>Underwriters granted a 30-day option to purchase up to a further <strong>$2.25 billion</strong> of shares at the offering price, less discounts.</li><li>Net proceeds earmarked for <strong>general corporate purposes</strong>, including <strong>capital expenditures and working capital</strong>, citing AI-driven demand for compute.</li><li>Intel says the raise supports growth while <strong>maintaining a strong balance sheet</strong> and its commitment to an <strong>investment-grade rating</strong>.</li><li>Joint book-running managers: <strong>J.P. Morgan</strong>, <strong>Goldman Sachs</strong>, <strong>Morgan Stanley</strong> and <strong>Citigroup</strong>; offered via a Form S-3 registration filed with the SEC.</li><li>Offering price and share count not stated in the release; scale of the raise implies meaningful dilution for existing shareholders.</li></ul>",
+    "source_format": "html",
+    "headline": "Intel launches a $15bn underwritten public offering of common stock to fund general corporate purposes, including capex and working capital.",
+    "priority": "high",
+    "priority_reason": "A $15bn underwritten public share offering is a major equity fundraising that is dilutive and materially affects the capital structure.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/INTC/share-news/Intel-Announces-Proposed-15-Billion-Common-Stock/99085151",
+    "related_news_url": "https://news.google.com/search?q=%22Intel%20Corporation%22",
+    "added_at": "2026-08-10T19:05:36.121176"
+  },
+  {
     "company": "Standard Lithium Ltd.",
     "ticker": null,
     "publish_date": "10 August 2026",
