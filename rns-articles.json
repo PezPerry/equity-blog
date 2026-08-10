@@ -1,5 +1,31 @@
 [
   {
+    "company": "THG PLC",
+    "ticker": "THG",
+    "publish_date": "10 August 2026",
+    "date_iso": "2026-08-10",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>THG PLC</strong>'s <strong>Capital Reduction</strong> became effective after the Court order and statement of capital were registered by the Registrar of Companies.</li><li>Cancels the <strong>share premium account</strong> and <strong>capital redemption reserve</strong>; the High Court order was issued on <strong>28 July 2026</strong> and shareholders approved it on <strong>24 June 2026</strong>.</li><li>Routine balance-sheet housekeeping — involves <strong>no distribution or payment of capital</strong>, with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "THG's court-approved capital reduction, cancelling its share premium account and capital redemption reserve, has become effective following registration.",
+    "priority": "low",
+    "priority_reason": "Routine court-approved capital reduction with no distribution, cash movement or impact on trading.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/thg-THG/share-news/THG-PLC-Capital-Reduction-Becomes-Effective/99076531",
+    "related_news_url": "https://news.google.com/search?q=%22THG%20PLC%22",
+    "added_at": "2026-08-10T07:42:05.274538"
+  },
+  {
     "company": "Harworth Group PLC",
     "ticker": "HWG",
     "publish_date": "07 August 2026",
