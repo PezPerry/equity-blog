@@ -1,5 +1,57 @@
 [
   {
+    "company": "Harworth Group PLC",
+    "ticker": "HWG",
+    "publish_date": "10 August 2026",
+    "date_iso": "2026-08-10",
+    "time_period": "",
+    "announcement_type": "Acquisition / deal",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Harworth Group PLC</strong> board unanimously rejects an unsolicited firm cash offer from <strong>Peel Pepper (UK) Limited</strong>, indirectly wholly owned by <strong>Peel Holdings Group Limited</strong>, at <strong>172.5p per share</strong>.</li><li>Board says the offer <strong>fundamentally undervalues</strong> Harworth and was <strong>opportunistically timed</strong> to exploit a dislocation between the share price and underlying asset value driven by macroeconomic factors; there was no substantive prior engagement with Peel.</li><li>Board points to an average <strong>8.1% Total Accounting Return</strong> over the past five years and embedded value in its <strong>0.8GW</strong> power-enabled land bank still to be realised.</li><li>Cites its <strong>5 August 2026</strong> half-year update: advanced negotiations on a <strong>second hyperscale data centre</strong> transaction and increased momentum across a <strong>35m sq ft</strong> industrial & logistics pipeline, plus a Board-approved medium-term plan with cost reductions.</li><li>Half-year results due <strong>15 September 2026</strong>; shareholders <strong>strongly advised to take no action</strong> pending the board's formal response once Peel Pepper's offer document is posted.</li><li>Advisers: <strong>Barclays</strong> and <strong>Peel Hunt</strong> (joint financial advisers and corporate brokers); <strong>Allen Overy Shearman Sterling LLP</strong> as legal adviser.</li></ul>",
+    "source_format": "html",
+    "headline": "Harworth's board unanimously rejects an unsolicited 172.5p-per-share cash offer from Peel Pepper, saying it fundamentally undervalues the company.",
+    "priority": "high",
+    "priority_reason": "Response to an unsolicited firm cash takeover offer, which puts the company in a formal offer period.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/harworth-HWG/share-news/Harworth-Group-PLC-Response-to-unsolicited-offer/99076835",
+    "related_news_url": "https://news.google.com/search?q=%22Harworth%20Group%20PLC%22",
+    "added_at": "2026-08-10T07:43:25.702962"
+  },
+  {
+    "company": "Man Group PLC",
+    "ticker": "EMG",
+    "publish_date": "10 August 2026",
+    "date_iso": "2026-08-10",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Dixit Joshi</strong> has resigned as a non-executive director of <strong>Man Group plc</strong> with immediate effect, stepping down from the <strong>Audit and Risk Committee</strong> and the <strong>Nomination and Governance Committee</strong>.</li><li>He leaves to take a full-time executive role with an asset management firm in the <strong>Middle East</strong>.</li><li>Routine Listing Rule <strong>6.4.6R</strong> disclosure with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Non-executive director Dixit Joshi has resigned from Man Group with immediate effect to take a full-time executive role in the Middle East.",
+    "priority": "medium",
+    "priority_reason": "Board change: a non-executive director has resigned, but with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/man-EMG/share-news/Man-Group-plc-Directorate-change/99076920",
+    "related_news_url": "https://news.google.com/search?q=%22Man%20Group%20plc%22",
+    "added_at": "2026-08-10T07:43:25.675008"
+  },
+  {
     "company": "THG PLC",
     "ticker": "THG",
     "publish_date": "10 August 2026",
@@ -24,6 +76,89 @@
     "source_url": "https://uk.advfn.com/stock-market/london/thg-THG/share-news/THG-PLC-Capital-Reduction-Becomes-Effective/99076531",
     "related_news_url": "https://news.google.com/search?q=%22THG%20PLC%22",
     "added_at": "2026-08-10T07:42:05.274538"
+  },
+  {
+    "company": "Construction Partners Inc",
+    "ticker": "ROAD",
+    "publish_date": "07 August 2026",
+    "date_iso": "2026-08-07",
+    "time_period": "Q3 FY26 (quarter ended 30 June 2026)",
+    "announcement_type": "Quarterly results",
+    "period_detail": "Q3 FY26 (quarter ended 30 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Revenue</strong> of <strong>$999.4m</strong> for Q3 FY26, up <strong>28.2%</strong> from <strong>$779.3m</strong> a year earlier.</li><li><strong>Adjusted net income</strong> up <strong>34%</strong> to <strong>$60.6m</strong> (<strong>$45.2m</strong> prior); adjusted diluted <strong>EPS $1.08</strong> vs <strong>$0.81</strong>.</li><li><strong>Adjusted EBITDA</strong> up <strong>23.8%</strong> to <strong>$163.0m</strong> (<strong>$131.7m</strong> prior); reported net income <strong>$59.6m</strong> vs <strong>$44.0m</strong>.</li><li>Project <strong>backlog</strong> a record <strong>$3.36bn</strong> at 30 June 2026, vs <strong>$2.94bn</strong> a year earlier and <strong>$3.14bn</strong> at 31 March 2026.</li><li>Company <strong>raising FY26 guidance</strong> for revenue, net income, adjusted net income, adjusted EBITDA and adjusted EBITDA margin, citing strong Q3 and the recent <strong>Ellsworth Construction</strong> acquisition in Oklahoma.</li><li>Note: the specific new guidance figures are referenced in the text (\"as follows:\") but the numeric table was not captured in the scraped article.</li></ul>",
+    "source_format": "html",
+    "headline": "Construction Partners posted Q3 FY26 revenue up 28% to $999.4m, adjusted EBITDA up 24%, a record $3.36bn backlog, and raised FY26 guidance.",
+    "priority": "high",
+    "priority_reason": "Quarterly results with double-digit revenue and earnings growth, a record backlog and a raised full-year guidance.",
+    "figures": [
+      {
+        "metric": "Revenue",
+        "current": "$999.4m",
+        "prior": "$779.3m",
+        "change": "+28.2%",
+        "basis": "reported",
+        "note": "Q3 FY26, quarter ended 30 June 2026"
+      },
+      {
+        "metric": "Gross profit",
+        "current": "$168.4m",
+        "prior": "$131.8m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "Q3 FY26"
+      },
+      {
+        "metric": "Net income",
+        "current": "$59.6m",
+        "prior": "$44.0m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "Q3 FY26"
+      },
+      {
+        "metric": "Adjusted net income",
+        "current": "$60.6m",
+        "prior": "$45.2m",
+        "change": "+34%",
+        "basis": "non-GAAP",
+        "note": "Q3 FY26"
+      },
+      {
+        "metric": "Adjusted diluted EPS",
+        "current": "$1.08",
+        "prior": "$0.81",
+        "change": "not stated",
+        "basis": "non-GAAP",
+        "note": "Q3 FY26"
+      },
+      {
+        "metric": "Adjusted EBITDA",
+        "current": "$163.0m",
+        "prior": "$131.7m",
+        "change": "+23.8%",
+        "basis": "non-GAAP",
+        "note": "Q3 FY26"
+      },
+      {
+        "metric": "Project backlog",
+        "current": "$3.36bn",
+        "prior": "$2.94bn",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "at 30 June 2026 vs 30 June 2025; $3.14bn at 31 March 2026"
+      }
+    ],
+    "guidance": {
+      "status": "raised",
+      "previous": "not stated in the captured text",
+      "current": "not stated in the captured text (numeric guidance table not included in the scrape)",
+      "commentary": "Management is raising FY26 guidance for revenue, net income, adjusted net income, adjusted EBITDA and adjusted EBITDA margin, driven by the strong Q3 performance and the expected contribution from the newly acquired Ellsworth Construction. The specific revised numbers were not present in the scraped article body."
+    },
+    "explainer": "This is a US filer (NASDAQ: ROAD) reporting its fiscal third quarter, the three months to 30 June 2026. All comparatives are versus the same quarter of fiscal 2025, so the growth rates are year-on-year rather than versus the prior quarter. Figures are in US dollars.\n\nThe company reports both GAAP and non-GAAP measures. \"Adjusted\" net income and adjusted EBITDA strip out items such as interest, tax, depreciation/depletion/amortisation, share-based compensation and one-off costs tied to large (\"transformative\") acquisitions. That is why adjusted net income growth (+34%) outpaces the smaller gap between reported net income figures ($59.6m vs $44.0m) — acquisition-related and other adjustments flatter the non-GAAP number. Revenue growth of 28% is a mix of organic demand and acquisitions, and management flags energy-cost inflation and unusually wet May weather as headwinds it absorbed.\n\nBacklog of $3.36bn is a record and is up sequentially from $3.14bn at 31 March, which management presents as forward visibility on work already won.\n\nOn guidance: the announcement explicitly states it is raising the full-year FY26 outlook across revenue, net income, adjusted net income, adjusted EBITDA and adjusted EBITDA margin, attributing this to the strong quarter and the incremental contribution from the Ellsworth Construction acquisition (which also expands exposure to data-centre construction). However, the actual revised numeric ranges were not captured in the scraped text, so the size of the upgrade cannot be quantified from this source alone — worth checking the original release for the guidance table.",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/ROAD/share-news/Construction-Partners-Inc-Announces-Fiscal-2026/99075465",
+    "related_news_url": "https://news.google.com/search?q=%22Construction%20Partners%2C%20Inc.%22",
+    "added_at": "2026-08-10T07:43:25.650581"
   },
   {
     "company": "Harworth Group PLC",
