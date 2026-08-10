@@ -1,5 +1,154 @@
 [
   {
+    "company": "International Workplace Group PLC",
+    "ticker": "IWG",
+    "publish_date": "10 August 2026",
+    "date_iso": "2026-08-10",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>International Workplace Group plc</strong> has published its <strong>2025 Sustainability Report</strong>, described as the company's first such report.</li><li>IWG operates the world's largest hybrid workspace platform across <strong>over 120 countries</strong> via brands including <strong>Regus</strong>, <strong>Spaces</strong>, <strong>HQ</strong> and <strong>Signature</strong>.</li><li>Routine disclosure only — <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "IWG publishes its first Sustainability Report, covering 2025, with no financial or trading content.",
+    "priority": "low",
+    "priority_reason": "Routine publication of a corporate sustainability report with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/iwg--iwg/publication-of-iwg-s-first-sustainability-report/9711928",
+    "related_news_url": "https://news.google.com/search?q=%22International%20Workplace%20Group%20plc%22",
+    "added_at": "2026-08-10T07:45:00.968447"
+  },
+  {
+    "company": "Caledonia Mining Corporation Plc",
+    "ticker": "CMCL",
+    "publish_date": "10 August 2026",
+    "date_iso": "2026-08-10",
+    "time_period": "Q2 and H1 to 30 June 2026",
+    "announcement_type": "Interim results",
+    "period_detail": "Q2 and H1 to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Caledonia Mining</strong> Q2 2026 revenue up <strong>16%</strong> to <strong>US$75.9m</strong> (Q2 2025: US$65.3m), driven by a <strong>34%</strong> higher realised gold price of <strong>US$4,259/oz</strong>; Blanket gold production <strong>17,360oz</strong>, up <strong>18%</strong> on Q1 2026.</li><li>Adjusted profit after tax up <strong>23%</strong> to <strong>US$18.5m</strong> (Q2 2025: US$15.0m); basic EPS <strong>US$1.36</strong> vs <strong>US$1.06</strong>; EBITDA <strong>US$45.8m</strong> including a <strong>US$11.5m</strong> derivative fair-value gain.</li><li>2026 production guidance <strong>re-affirmed at 72,000-76,500oz</strong>, but cost guidance <strong>raised</strong>: on-mine costs to <strong>US$1,600-1,800/oz</strong> (from US$1,500-1,700) and AISC to <strong>US$2,500-2,700/oz</strong> (from US$2,100-2,300).</li><li>2026 group capex <strong>cut to US$103.3m</strong> from <strong>US$178.9m</strong>, mainly on <strong>Bilboes</strong> timing (growth capex there reduced to US$48.0m from US$132.1m); company says no change to project scope, cost or timetable.</li><li>Net cash <strong>US$167.8m</strong> vs <strong>US$8.2m</strong> a year earlier, boosted by January 2026 Convertible Senior Notes (net <strong>US$130m</strong>); quarterly dividend of <strong>US$0.14</strong> declared, payable <strong>4 September 2026</strong>.</li><li>Management guides 2027 Blanket production to <strong>exceed</strong> current 72,000-76,500oz range on the seven-day shift and possible K-pits oxide mining; <strong>Capital Markets Day</strong> set for <strong>16 September 2026</strong> in New York.</li></ul>",
+    "source_format": "html",
+    "headline": "Caledonia Q2 revenue up 16% to US$75.9m on a stronger gold price, with 2026 cost guidance raised, capex cut and production re-affirmed.",
+    "priority": "high",
+    "priority_reason": "Half-year and Q2 results with revised cost, capex and dividend news for an AIM/NYSE gold miner.",
+    "figures": [
+      {
+        "metric": "Revenue",
+        "current": "US$75.9m",
+        "prior": "US$65.3m",
+        "change": "+16%",
+        "basis": "reported",
+        "note": "Q2 2026 vs Q2 2025"
+      },
+      {
+        "metric": "Gross profit",
+        "current": "US$39.2m",
+        "prior": "US$33.8m",
+        "change": "+16%",
+        "basis": "reported",
+        "note": "Q2 2026 vs Q2 2025"
+      },
+      {
+        "metric": "EBITDA",
+        "current": "US$45.8m",
+        "prior": "US$39.5m",
+        "change": "+16%",
+        "basis": "includes US$11.5m derivative fair-value gain",
+        "note": "Q2 2026 vs Q2 2025"
+      },
+      {
+        "metric": "Profit after tax (adjusted)",
+        "current": "US$18.5m",
+        "prior": "US$15.0m",
+        "change": "+23%",
+        "basis": "excluding US$11.5m fair-value gain and prior-year US$8.5m solar-plant sale gain",
+        "note": "Q2 2026 vs Q2 2025"
+      },
+      {
+        "metric": "Basic EPS",
+        "current": "US$1.36",
+        "prior": "US$1.06",
+        "change": "+28%",
+        "basis": "reported",
+        "note": "Q2 2026 vs Q2 2025"
+      },
+      {
+        "metric": "Average realised gold price",
+        "current": "US$4,259/oz",
+        "prior": "not stated",
+        "change": "+34%",
+        "basis": "vs comparable quarter",
+        "note": "12% lower than Q1 2026"
+      },
+      {
+        "metric": "Blanket gold production",
+        "current": "17,360oz",
+        "prior": "not stated",
+        "change": "+18%",
+        "basis": "vs preceding quarter (Q1 2026)",
+        "note": "Q2 2026"
+      },
+      {
+        "metric": "On-mine costs",
+        "current": "US$1,675/oz sold",
+        "prior": "US$1,740/oz sold",
+        "change": "-3.7%",
+        "basis": "vs Q1 2026; +49% vs Q2 2025",
+        "note": "Q2 2026"
+      },
+      {
+        "metric": "AISC",
+        "current": "US$2,678/oz sold",
+        "prior": "not stated",
+        "change": "-3%",
+        "basis": "vs preceding quarter",
+        "note": "Q2 2026"
+      },
+      {
+        "metric": "Net cash generated from operating activities",
+        "current": "US$28.4m",
+        "prior": "US$28.1m",
+        "change": "+1%",
+        "basis": "reported",
+        "note": "Q2 2026 vs Q2 2025"
+      },
+      {
+        "metric": "Net cash and cash equivalents",
+        "current": "US$167.8m",
+        "prior": "US$8.2m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "at 30 June 2026 vs 30 June 2025"
+      },
+      {
+        "metric": "Quarterly dividend",
+        "current": "US$0.14",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "per share",
+        "note": "payment date 4 September 2026"
+      }
+    ],
+    "guidance": {
+      "status": "raised",
+      "previous": "On-mine costs US$1,500-1,700/oz sold; AISC US$2,100-2,300/oz sold; 2026 group capex US$178.9m; Blanket production 72,000-76,500oz.",
+      "current": "On-mine costs US$1,600-1,800/oz sold; AISC US$2,500-2,700/oz sold; 2026 group capex reduced to US$103.3m; Blanket production re-affirmed at 72,000-76,500oz.",
+      "commentary": "Cost guidance was raised — most notably AISC by around US$400/oz — reflecting higher royalties, US$4m of preparation for possible Blanket oxide mining, treatment of Blanket employee-trust dividends as labour costs, and power-line spend. Production guidance was maintained and 2026 capex was cut sharply, chiefly because Bilboes long-lead-equipment deposit timing pushes spend out; the company stresses this is timing, not a change to Bilboes' scope, cost or schedule."
+    },
+    "explainer": "The headline growth is largely price-driven: the average realised gold price jumped 34% year on year to US$4,259/oz, lifting revenue, gross profit and EBITDA by 16% even though the number of ounces sold was lower than the record Q2 2025 quarter. The sequential story is more operational — production rose 18% versus Q1 2026 as Blanket accessed higher-grade areas, and management expects further improvement in H2 2026.\n\nBe careful comparing the profit lines. Reported EBITDA of US$45.8m includes an US$11.5m non-cash gain from revaluing derivatives, and last year's comparative included a one-off US$8.5m gain on selling a solar plant. Stripping both out, underlying profit after tax rose 23% to US$18.5m — a cleaner measure of the trading performance.\n\nOn guidance, costs are heading higher: AISC guidance rose about US$400/oz to US$2,500-2,700/oz and on-mine costs to US$1,600-1,800/oz. Some of this is presentational — dividends to the Blanket employee ownership trust (which holds 10%) are now booked as labour costs — but there is also real spend on royalties, oxide-mining preparation and power infrastructure. Production guidance for 2026 is unchanged at 72,000-76,500oz.\n\nThe 2026 capex cut, from US$178.9m to US$103.3m, looks large but is mostly deferred Bilboes growth spend (down to US$48.0m from US$132.1m) driven by the timing of equipment deposits rather than any reduction in the project. Net cash of US$167.8m, up from just US$8.2m a year ago after the US$130m convertible note issue, gives Caledonia flexibility to fund Bilboes, and a quarterly dividend of 14 US cents was maintained.",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/caledonia-mining-corporation-di---cmcl/results-for-q2-and-half-year-ended-june-30-2026/9711895",
+    "related_news_url": "https://news.google.com/search?q=%22Caledonia%20Mining%20Corporation%20Plc%22",
+    "added_at": "2026-08-10T07:45:00.886811"
+  },
+  {
     "company": "WPP plc",
     "ticker": "WPP",
     "publish_date": "10 August 2026",
