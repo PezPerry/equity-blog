@@ -1,5 +1,31 @@
 [
   {
+    "company": "Johnson Matthey PLC",
+    "ticker": "JMAT",
+    "publish_date": "11 August 2026",
+    "date_iso": "2026-08-11",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li>All six resolutions passed on a poll at the <strong>11 August 2026</strong> General Meeting.</li><li>Resolution 1: <strong>special dividend of 476.5 pence</strong> per existing ordinary share approved with <strong>99.97%</strong> in favour.</li><li>Resolution 2: <strong>share consolidation</strong> — 4 existing ordinary shares into one intermediate share, then divided into 3 new ordinary shares — approved with <strong>99.88%</strong> in favour.</li><li>Standard authorities to allot shares, disapply pre-emption rights and make market purchases of own shares also passed (<strong>91.78%–98.12%</strong> for).</li><li>Application made to admit <strong>126,126,498 new ordinary shares</strong> of <strong>147 pence</strong> each to the Official List and LSE main market.</li><li>Total voting rights: <strong>168,168,664</strong> ordinary shares of 110 pence; turnout around <strong>73.5%</strong> of issued share capital.</li></ul>",
+    "source_format": "html",
+    "headline": "Johnson Matthey shareholders approved all resolutions at today's General Meeting, including a **476.5p** special dividend and a **4-for-3** share consolidation.",
+    "priority": "medium",
+    "priority_reason": "Shareholders approved a large special dividend and share consolidation, a material return of capital, though the vote outcome itself was expected.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/johnson-matthey--jmat/result-of-general-meeting/9715825",
+    "related_news_url": "https://news.google.com/search?q=%22Johnson%20Matthey%20Plc%22",
+    "added_at": "2026-08-11T11:36:14.668238"
+  },
+  {
     "company": "Serco Group PLC",
     "ticker": "SRP",
     "publish_date": "11 August 2026",
