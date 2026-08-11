@@ -1,5 +1,56 @@
 [
   {
+    "company": "Target Healthcare REIT Ltd",
+    "ticker": "THRL",
+    "publish_date": "11 August 2026",
+    "date_iso": "2026-08-11",
+    "time_period": "FY26 (Q426)",
+    "announcement_type": "Trading update",
+    "period_detail": "FY26",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Edison Investment Research</strong> issued a report on <strong>Target Healthcare REIT (LSE: THRL)</strong> — a paid-for third-party research note, not a primary company RNS.</li><li>Reports a <strong>Q426</strong> accounting total return of <strong>2.5%</strong>, taking the <strong>FY26</strong> total to <strong>11.6%</strong>.</li><li>Achieved with low gearing — end-<strong>Q426</strong> net LTV of <strong>16.1%</strong> — as the REIT redeploys proceeds from its <strong>late-2025</strong> portfolio sale.</li><li>Edison expects organic, inflation-indexed rental growth and accretive capital recycling to drive earnings; no new company guidance in this note.</li></ul>",
+    "source_format": "html",
+    "headline": "Edison research note flags Target Healthcare REIT's FY26 accounting total return of 11.6% achieved with low gearing (net LTV 16.1%).",
+    "priority": "low",
+    "priority_reason": "Third-party (Edison) promotional research note summarising already-reported FY26 performance, not a primary company announcement.",
+    "figures": [
+      {
+        "metric": "Q426 accounting total return",
+        "current": "2.5%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "not stated",
+        "note": "Q4 FY26, per Edison"
+      },
+      {
+        "metric": "FY26 accounting total return",
+        "current": "11.6%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "not stated",
+        "note": "FY26 total, per Edison"
+      },
+      {
+        "metric": "Net LTV",
+        "current": "16.1%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "not stated",
+        "note": "end-Q426"
+      }
+    ],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "This is a sponsored research note from Edison, not an announcement issued by Target Healthcare REIT itself, so the figures are Edison's presentation of the company's already-reported performance rather than fresh company disclosure.\n\nThe headline numbers are accounting total returns — the combination of income (rent-driven earnings and dividends) and any change in net asset value, expressed as a percentage. The 2.5% is for the fourth quarter of FY26 and the 11.6% is the full-year figure; the note does not print prior-year comparatives, so no year-on-year change can be stated.\n\nNet loan-to-value (LTV) of 16.1% measures borrowings against portfolio value net of cash — a low level of gearing for a REIT, which Edison frames positively because it leaves headroom to redeploy the proceeds of the late-2025 portfolio sale. No formal earnings or dividend guidance is set or changed in this note.",
+    "source_url": "https://www.investegate.co.uk/announcement/eqs/target-healthcare-reit-ltd--thrl/edison-issues-report-on-target-healthcare-rei-/9716458",
+    "related_news_url": "https://news.google.com/search?q=%22Target%20Healthcare%20REIT%20plc%22",
+    "added_at": "2026-08-11T16:16:23.968743"
+  },
+  {
     "company": "Berkeley Group Holdings PLC",
     "ticker": "BKG",
     "publish_date": "11 August 2026",
