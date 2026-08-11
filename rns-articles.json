@@ -1,5 +1,112 @@
 [
   {
+    "company": "InterContinental Hotels Group PLC",
+    "ticker": "IHG",
+    "publish_date": "11 August 2026",
+    "date_iso": "2026-08-11",
+    "time_period": "H1 to 30 June 2026",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Operating profit</strong> from reportable segments <strong>$665m</strong>, up <strong>+10%</strong>; <strong>Adjusted EPS 274.7¢</strong>, up <strong>+13%</strong> (2025: 242.5¢).</li><li><strong>H1 global RevPAR +4.1%</strong> — <strong>Americas +4.8%</strong>, <strong>EMEAA +3.0%</strong>, <strong>Greater China +3.1%</strong>; ADR +2.5%, occupancy +1.0%pts.</li><li>Revenue from reportable segments <strong>$1,255m</strong>, up <strong>+7%</strong>; IFRS total revenue <strong>$2,659m</strong> (+6%); IFRS basic EPS <strong>283.3¢</strong>, down <strong>(6)%</strong> on prior-year FX swing.</li><li><strong>Interim dividend 64.5¢</strong>, up <strong>+10%</strong>; <strong>$950m buyback</strong> for 2026 42% complete at 30 June; on track to return <strong>$1.2bn+</strong> to shareholders (5.8% of start-year market cap).</li><li>Record development: opened <strong>31.5k rooms (197 hotels)</strong> and signed <strong>49.2k rooms (352 hotels)</strong>, both <strong>+8% YOY</strong> organic; global estate <strong>1,049k rooms (7,109 hotels)</strong>, pipeline <strong>348k rooms</strong>.</li><li><strong>Net debt $3,663m</strong> (+9%), net debt:adjusted EBITDA <strong>2.63x</strong>; management remains on track to meet <strong>full-year consensus</strong> profit and earnings expectations.</li></ul>",
+    "source_format": "html",
+    "headline": "IHG delivers +10% operating profit and +13% adjusted EPS in H1 2026 on +4.1% global RevPAR, remaining on track to return $1.2bn+ to shareholders.",
+    "priority": "high",
+    "priority_reason": "Half-year results from a FTSE 100 hotel group, with profit, EPS, dividend and capital-return detail.",
+    "figures": [
+      {
+        "metric": "Revenue (reportable segments)",
+        "current": "$1,255m",
+        "prior": "$1,175m",
+        "change": "+7%",
+        "basis": "reported (+6% underlying)",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Operating profit (reportable segments)",
+        "current": "$665m",
+        "prior": "$604m",
+        "change": "+10%",
+        "basis": "reported",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "IFRS total revenue",
+        "current": "$2,659m",
+        "prior": "$2,519m",
+        "change": "+6%",
+        "basis": "IFRS",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "IFRS operating profit",
+        "current": "$671m",
+        "prior": "$623m",
+        "change": "+8%",
+        "basis": "IFRS",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Adjusted EPS",
+        "current": "274.7¢",
+        "prior": "242.5¢",
+        "change": "+13%",
+        "basis": "adjusted",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "IFRS basic EPS",
+        "current": "283.3¢",
+        "prior": "300.1¢",
+        "change": "(6)%",
+        "basis": "IFRS",
+        "note": "reflects FX losses of $7m vs gains of $79m in 2025"
+      },
+      {
+        "metric": "Interim dividend per share",
+        "current": "64.5¢",
+        "prior": "58.6¢",
+        "change": "+10%",
+        "basis": "reported",
+        "note": "per share"
+      },
+      {
+        "metric": "Net debt",
+        "current": "$3,663m",
+        "prior": "$3,361m",
+        "change": "+9%",
+        "basis": "reported",
+        "note": "vs 30 June 2025"
+      },
+      {
+        "metric": "Fee margin",
+        "current": "65.9%",
+        "prior": "64.7%",
+        "change": "+1.2%pts",
+        "basis": "reportable segments",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Adjusted free cash flow",
+        "current": "$360m",
+        "prior": "$302m",
+        "change": "not stated",
+        "basis": "adjusted",
+        "note": "H1 to 30 June 2026"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "not stated",
+      "current": "On track to meet full-year consensus profit and earnings expectations; on track to return $1.2bn+ to shareholders in 2026; FIFA World Cup estimated to contribute approximately 0.4%pts to Americas RevPAR growth for full-year 2026.",
+      "commentary": "IHG reaffirmed rather than changed guidance, saying it remains on track to meet full-year consensus. It continues to expect Middle East conflict disruption to be fully offset by demand growth elsewhere."
+    },
+    "explainer": "IHG runs an asset-light, fee-based hotel franchising and management model, so the headline profit metric is operating profit from 'reportable segments' ($665m, +10%) rather than the larger IFRS total revenue figure ($2,659m), which is inflated by 'System Fund' and reimbursable costs passed through on behalf of hotel owners. The 'underlying' percentages strip out currency movements, and here they are broadly in line with reported growth, meaning FX was not a major distorting factor at the segment level.\n\nThe standout divergence is IFRS basic EPS falling (6)% to 283.3¢ while adjusted EPS rose +13% to 274.7¢. This is almost entirely an accounting/FX artefact: the prior year benefited from $79m of foreign-exchange gains on intra-group balances, versus a $7m loss this year. Adjusted EPS, which excludes these one-offs and exceptional items, is the cleaner read on trading performance, helped by a 4.0% reduction in the share count from buybacks.\n\nRevPAR (revenue per available room) rose +4.1%, driven more by rate (+2.5%) than occupancy (+1.0%pts). Regionally, the US accelerated into Q2 (+5.2%), partly aided by a temporary FIFA World Cup boost, while the Middle East sub-region fell sharply (-19% in Q2) — though it is only about 5% of the group, so the impact is contained.\n\nGuidance was effectively reaffirmed, not upgraded: management stated it remains on track to meet full-year consensus profit and earnings, and to return $1.2bn+ of capital to shareholders in 2026 via the $950m buyback (42% done) and the 10%-higher interim dividend.",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/intercontinental-hotels-group--ihg/half-year-financial-report/9714355",
+    "related_news_url": "https://news.google.com/search?q=%22InterContinental%20Hotels%20Group%20PLC%22",
+    "added_at": "2026-08-11T07:42:28.794940"
+  },
+  {
     "company": "Aberdeen Group PLC",
     "ticker": "ABDN",
     "publish_date": "11 August 2026",
