@@ -1,5 +1,31 @@
 [
   {
+    "company": "Aberdeen Group PLC",
+    "ticker": "ABDN",
+    "publish_date": "11 August 2026",
+    "date_iso": "2026-08-11",
+    "time_period": "Five years to 31 July 2026",
+    "announcement_type": "Corporate update",
+    "period_detail": "Five years to 31 July 2026",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>Aberdeen Asia Focus PLC</strong> satisfied its five-year performance-linked conditional tender test, so <strong>no tender offer is required</strong>.</li><li><strong>NAV total return</strong> of <strong>67.2%</strong> over <strong>1 August 2021 to 31 July 2026</strong> beat the <strong>MSCI AC Asia ex Japan Small Cap Index</strong> return of <strong>37.8%</strong>, an outperformance of <strong>29.4%</strong>.</li><li>Board will renew the tender mechanism on materially the same terms for a further five years to <strong>July 2031</strong>, with a tender capped at <strong>25%</strong> of issued share capital if NAV lags the benchmark.</li><li>Routine discount-control disclosure by an investment trust with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Aberdeen Asia Focus passed its five-year performance-linked tender test and will renew the mechanism for another five years, so no tender offer is required.",
+    "priority": "low",
+    "priority_reason": "Routine discount-control mechanism outcome for an investment trust; no tender required and no impact on trading.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/aberdeen-asia-focus--aas/performance-linked-tender-test-satisfied-renewed/9714387",
+    "related_news_url": "https://news.google.com/search?q=%22Aberdeen%20Asia%20Focus%20PLC%22",
+    "added_at": "2026-08-11T07:40:11.113174"
+  },
+  {
     "company": "HighPeak Energy Inc",
     "ticker": "HPK",
     "publish_date": "11 August 2026",
