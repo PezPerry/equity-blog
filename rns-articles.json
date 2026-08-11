@@ -1,5 +1,114 @@
 [
   {
+    "company": "HighPeak Energy Inc",
+    "ticker": "HPK",
+    "publish_date": "11 August 2026",
+    "date_iso": "2026-08-11",
+    "time_period": "Q2 2026 (three months to 30 June 2026)",
+    "announcement_type": "Quarterly results",
+    "period_detail": "Q2 2026 (three months to 30 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>HighPeak Energy</strong> reported Q2 2026 net income of <strong>$82.3m</strong>, or <strong>$0.59</strong> per diluted share, and EBITDAX of <strong>$147.6m</strong> ($1.06 per diluted share).</li><li>Sales volumes averaged <strong>45.3 MBoe/d</strong> (approx. <strong>64% crude oil</strong>, <strong>83% liquids</strong>); H1 production ran <strong>7% above</strong> the midpoint of guidance.</li><li>H1 operating expenses came in <strong>13% below</strong> the guidance midpoint; Q2 cash costs were <strong>$17.02/Boe</strong>, giving unhedged EBITDAX of <strong>$49.09/Boe</strong>.</li><li>Q2 realised prices (excl. derivatives): <strong>$98.82/Bbl</strong> crude, <strong>$24.14/Bbl</strong> NGL and <strong>negative $1.50/Mcf</strong> gas — an overall <strong>$66.11/Boe</strong>; capex ex-acquisitions was <strong>$107.5m</strong>.</li><li>Company confirms a <strong>strategic review</strong> by the Board that may or may not result in a sale; no assurance any transaction will occur.</li><li>No prior-year comparative figures are printed in this announcement, so year-on-year changes cannot be verified from the text.</li></ul>",
+    "source_format": "html",
+    "headline": "HighPeak Energy posted Q2 2026 net income of $82.3m ($0.59 diluted EPS) with production 7% above guidance midpoint, amid a strategic review.",
+    "priority": "high",
+    "priority_reason": "Quarterly financial and operating results, plus disclosure of an ongoing strategic review that could lead to a sale of the company.",
+    "figures": [
+      {
+        "metric": "Net income",
+        "current": "$82.3m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "Q2 2026"
+      },
+      {
+        "metric": "Diluted EPS",
+        "current": "$0.59",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "Q2 2026"
+      },
+      {
+        "metric": "EBITDAX (non-GAAP)",
+        "current": "$147.6m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "non-GAAP",
+        "note": "Q2 2026; $1.06 per diluted share"
+      },
+      {
+        "metric": "Sales volumes",
+        "current": "45.3 MBoe/d",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "Q2 2026; ~64% crude, 83% liquids"
+      },
+      {
+        "metric": "Overall realised price",
+        "current": "$66.11/Boe",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "excluding derivatives",
+        "note": "Q2 2026; $52.82/Boe including derivatives"
+      },
+      {
+        "metric": "Cash costs",
+        "current": "$17.02/Boe",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "Q2 2026"
+      },
+      {
+        "metric": "Capital expenditure (ex-acquisitions)",
+        "current": "$107.5m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "Q2 2026"
+      }
+    ],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": "No revised 2026 guidance figures are given. Management notes H1 production ran 7% above the midpoint of guidance and H1 operating expenses 13% below the midpoint, but does not restate or change the guidance ranges themselves."
+    },
+    "explainer": "These are US-GAAP quarterly results from a Midland Basin (West Texas) oil and gas producer reported in US dollars, not sterling. The headline profit measure, net income of $82.3m ($0.59 per diluted share), is a bottom-line accounting figure, while EBITDAX of $147.6m is a non-GAAP cash-earnings proxy widely used in the sector that strips out interest, tax, depreciation and exploration costs. The announcement does not print prior-year comparatives for any of these numbers, so no year-on-year change can be stated with confidence from this text alone.\n\nRealised pricing is shown two ways. Excluding derivatives, the company achieved $66.11/Boe (about 71% of the NYMEX crude benchmark, reflecting the drag from a negative gas price of $1.50/Mcf); including hedges the overall realised price falls to $52.82/Boe, meaning HighPeak's derivatives were a net negative to revenue this quarter as spot crude prices sat above hedge levels. Cash costs of $17.02/Boe left an unhedged cash margin (EBITDAX) of $49.09/Boe.\n\nOn guidance, management is reporting performance against its existing 2026 targets rather than changing them: first-half output was 7% above the guidance midpoint and first-half operating expenses 13% below, which it says is feeding stronger free cash flow and a stronger balance sheet. The guidance ranges are not restated, so this is best read as favourable execution against an unchanged plan rather than a formal upgrade.\n\nThe most market-sensitive item is not a number: the company confirms its Board is running a strategic review that may result in a sale of the company, though it stresses no transaction is assured and any deal may not increase shareholder value. Traders should treat the results as solid operational delivery, with the strategic-review overhang the key swing factor for the shares.",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/HPK/share-news/HighPeak-Energy-Inc-Announces-Second-Quarter-20/99088362",
+    "related_news_url": "https://news.google.com/search?q=%22HighPeak%20Energy%2C%20Inc.%22",
+    "added_at": "2026-08-11T07:39:18.221124"
+  },
+  {
+    "company": "Lion Finance Group PLC",
+    "ticker": "BGEO",
+    "publish_date": "11 August 2026",
+    "date_iso": "2026-08-11",
+    "time_period": "",
+    "announcement_type": "Buyback programme launch",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Lion Finance Group PLC</strong> (LSE: BGEO) has approved a <strong>GEL 59.0 million</strong> extension to its share <strong>buyback and cancellation programme</strong>.</li><li>Maximum of <strong>4,220,498 shares</strong> may be repurchased in the open market, with treasury shares cancelled <strong>monthly</strong>.</li><li>Programme commences shortly and ends <strong>no later than the 2027 AGM</strong> (expected <strong>May 2027</strong>); <strong>Cavendish Capital Markets</strong> appointed to manage it.</li><li>Consistent with the Group's capital return policy targeting a dividend/buyback payout ratio of <strong>30-50%</strong> of annual profits.</li></ul>",
+    "source_format": "html",
+    "headline": "Lion Finance Group's board has approved a GEL 59.0 million extension to its buyback and cancellation programme, running to no later than the May 2027 AGM.",
+    "priority": "medium",
+    "priority_reason": "Extension of a share buyback and cancellation programme is a capital-return action rather than routine daily dealing.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/lion-finance-group-plc--bgeo/gel-59-0-million-share-buyback-programme-extension/9714395",
+    "related_news_url": "https://news.google.com/search?q=%22Lion%20Finance%20Group%20PLC%22",
+    "added_at": "2026-08-11T07:39:18.176242"
+  },
+  {
     "company": "Cairn Homes PLC",
     "ticker": "CRN",
     "publish_date": "11 August 2026",
