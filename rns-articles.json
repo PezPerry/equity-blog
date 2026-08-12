@@ -1,5 +1,31 @@
 [
   {
+    "company": "Savills PLC",
+    "ticker": "SVS",
+    "publish_date": "12 August 2026",
+    "date_iso": "2026-08-12",
+    "time_period": "",
+    "announcement_type": "Acquisition completed",
+    "period_detail": "",
+    "type_workings": "Rule 'M&A completion': opening bullets lead with 'acquisition of eastdil secured holdings llc , which complete' [rns.json record]",
+    "body": "<ul><li><strong>27,658,792</strong> new ordinary shares of 2.5p admitted to trading on the <strong>London Stock Exchange Main Market</strong>, issued on <strong>4 August 2026</strong>.</li><li>Shares issued pursuant to the acquisition of <strong>Eastdil Secured Holdings LLC</strong>, which completed on <strong>31 July 2026</strong>.</li><li>Total shares in issue following admission: <strong>174,018,218</strong> as at <strong>12 August 2026</strong>; new shares fully fungible with existing ordinary shares.</li><li>Routine admission notification under the Public Offers and Admissions to Trading Regulations 2024 — <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Savills admits 27,658,792 new ordinary shares to the LSE Main Market, issued to fund its Eastdil Secured acquisition, taking shares in issue to 174,018,218.",
+    "priority": "low",
+    "priority_reason": "Routine technical admission notice, though it relates to the previously-announced Eastdil Secured acquisition.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/savills--svs/admission-to-trading/9718497",
+    "related_news_url": "https://news.google.com/search?q=%22Savills%20plc%22",
+    "added_at": "2026-08-12T13:35:55.595720"
+  },
+  {
     "company": "Investec PLC",
     "ticker": "INVP",
     "publish_date": "12 August 2026",
