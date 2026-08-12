@@ -1,5 +1,57 @@
 [
   {
+    "company": "Yellow Cake PLC",
+    "ticker": "YCA",
+    "publish_date": "12 August 2026",
+    "date_iso": "2026-08-12",
+    "time_period": "",
+    "announcement_type": "Contract / commercial win",
+    "period_detail": "",
+    "type_workings": "Rule 'commercial': opening bullets say 'framework agreement' [rns.json record]",
+    "body": "<ul><li>Took delivery on <strong>11 August 2026</strong> of <strong>1,160,766 lb</strong> of U3O8 from <strong>Kazatomprom</strong> at the <strong>Orano</strong> storage facility in France.</li><li>Delivery completes the previously announced <strong>2026 uranium purchase option</strong> under the Kazatomprom Framework Agreement, at <strong>USD86.15/lb</strong> for total consideration of <strong>USD100.0m</strong>.</li><li>Yellow Cake now holds <strong>24,374,996 lb</strong> of U3O8 in storage in Canada and France.</li><li>Routine execution of an existing agreement, with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Yellow Cake took delivery of 1,160,766 lb of U3O8 from Kazatomprom for USD100.0m, taking total holdings to 24.4m lb.",
+    "priority": "low",
+    "priority_reason": "Routine delivery of previously announced uranium purchase under an existing framework agreement, with no new financial or guidance impact.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/yellow-cake--yca/delivery-of-uranium/9716767",
+    "related_news_url": "https://news.google.com/search?q=%22Yellow%20Cake%20plc%22",
+    "added_at": "2026-08-12T07:35:46.289073"
+  },
+  {
+    "company": "NatWest Group PLC",
+    "ticker": "NWG",
+    "publish_date": "12 August 2026",
+    "date_iso": "2026-08-12",
+    "time_period": "H1 2026",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 2026",
+    "type_workings": "Rule 'period line': period line gives half-year period 'H1 2026' [rns.json record]",
+    "body": "<ul><li><strong>NatWest Group</strong> has published its <strong>H1 2026 Pillar 3</strong> regulatory disclosure documents.</li><li>Covers five large subsidiaries: <strong>NatWest Holdings Limited</strong>, <strong>NatWest Markets Plc</strong>, <strong>National Westminster Bank Plc</strong>, <strong>The Royal Bank of Scotland plc</strong> and <strong>Coutts & Company</strong>.</li><li>Routine regulatory disclosure with <strong>no impact</strong> on trading or guidance; documents available on the NatWest Group investor website.</li></ul>",
+    "source_format": "html",
+    "headline": "**NatWest Group** has published its **H1 2026 Pillar 3** documents for five large subsidiaries.",
+    "priority": "low",
+    "priority_reason": "Routine publication of Pillar 3 regulatory disclosure documents with no new trading or financial content.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/natwest-group--nwg/h1-2026-pillar-3-/9716764",
+    "related_news_url": "https://news.google.com/search?q=%22NatWest%20Group%20plc%22",
+    "added_at": "2026-08-12T07:35:46.271151"
+  },
+  {
     "company": "Target Healthcare REIT Ltd",
     "ticker": "THRL",
     "publish_date": "11 August 2026",
