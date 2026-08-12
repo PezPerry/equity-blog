@@ -1,5 +1,112 @@
 [
   {
+    "company": "CLS Holdings PLC",
+    "ticker": "CLI",
+    "publish_date": "12 August 2026",
+    "date_iso": "2026-08-12",
+    "time_period": "H1 to 30 June 2026",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>CLS Holdings plc</strong> reported a <strong>statutory loss after tax of £69.6m</strong> for <strong>H1 to 30 June 2026</strong> (H1 2025: £24.4m loss), driven mainly by <strong>£84.2m</strong> of investment-property valuation declines.</li><li><strong>EPRA earnings</strong> fell <strong>32.3% to £10.9m</strong> and <strong>EPRA EPS fell 32.5% to 2.7p</strong> (H1 2025: 4.0p) on lower rental income from asset sales and tenant departures.</li><li><strong>No interim dividend</strong> declared (H1 2025: 1.30p); the Board will consider a single final dividend for 2026 based on full-year earnings.</li><li><strong>EPRA NTA per share fell 11.5% to 177.7p</strong> (31 Dec 2025: 200.7p); portfolio valuation down <strong>4.6%</strong> in local currency (UK -7.2%, Germany -2.5%, France -3.7%).</li><li><strong>Net debt</strong> fell <strong>£44.2m</strong> on disposals, but <strong>LTV rose to 51.6%</strong> (31 Dec 2025: 50.0%) as property values fell faster; <strong>89%</strong> of 2026 refinancing completed or agreed.</li><li>Board now expects <strong>2026 full-year EPS of 4.6-5.5p</strong>, following the earnings pressure flagged in the <strong>4 August 2026</strong> trading update.</li></ul>",
+    "source_format": "html",
+    "headline": "CLS Holdings swung to a first-half statutory loss of £69.6m on £84.2m of property writedowns, scrapped its interim dividend and guided to 2026 EPS of 4.6-5.5p.",
+    "priority": "high",
+    "priority_reason": "Half-year results with a statutory loss, scrapped interim dividend and a fresh full-year EPS guidance range.",
+    "figures": [
+      {
+        "metric": "EPRA earnings",
+        "current": "£10.9m",
+        "prior": "£16.1m",
+        "change": "-32.3%",
+        "basis": "",
+        "note": "H1 to 30 June 2026 vs H1 2025"
+      },
+      {
+        "metric": "EPRA earnings per share",
+        "current": "2.7p",
+        "prior": "4.0p",
+        "change": "-32.5%",
+        "basis": "",
+        "note": "H1 to 30 June 2026 vs H1 2025"
+      },
+      {
+        "metric": "Statutory (IFRS) loss after tax",
+        "current": "£(69.6)m",
+        "prior": "£(24.4)m",
+        "change": "not stated (Nm)",
+        "basis": "",
+        "note": "H1 to 30 June 2026 vs H1 2025"
+      },
+      {
+        "metric": "Statutory (IFRS) EPS",
+        "current": "(17.5)p",
+        "prior": "(6.1)p",
+        "change": "not stated (Nm)",
+        "basis": "",
+        "note": "H1 to 30 June 2026 vs H1 2025"
+      },
+      {
+        "metric": "Dividend per share",
+        "current": "nil",
+        "prior": "1.30p",
+        "change": "not stated (Nm)",
+        "basis": "",
+        "note": "No interim dividend declared"
+      },
+      {
+        "metric": "Net rental income",
+        "current": "£46.3m",
+        "prior": "£53.3m",
+        "change": "-13.1%",
+        "basis": "",
+        "note": "like-for-like -4.7%; also reflects disposals"
+      },
+      {
+        "metric": "EPRA NTA per share",
+        "current": "177.7p",
+        "prior": "200.7p",
+        "change": "-11.5%",
+        "basis": "",
+        "note": "30 June 2026 vs 31 December 2025"
+      },
+      {
+        "metric": "Statutory NAV per share",
+        "current": "164.2p",
+        "prior": "186.4p",
+        "change": "-11.9%",
+        "basis": "",
+        "note": "30 June 2026 vs 31 December 2025"
+      },
+      {
+        "metric": "Loan-to-value (LTV)",
+        "current": "51.6%",
+        "prior": "50.0%",
+        "change": "+1.6ppt",
+        "basis": "",
+        "note": "30 June 2026 vs 31 December 2025"
+      },
+      {
+        "metric": "Total accounting return per share",
+        "current": "-9.5%",
+        "prior": "-1.3%",
+        "change": "not stated (Nm)",
+        "basis": "",
+        "note": "period return vs H1 2025"
+      }
+    ],
+    "guidance": {
+      "status": "lowered",
+      "previous": "Not stated in this announcement; earnings pressure was flagged in the Trading Update on 4 August 2026",
+      "current": "Board now expects 2026 full-year EPS in the range of 4.6 to 5.5 pence per share",
+      "commentary": "The company reiterated the downgrade set out in its 4 August trading update, citing pressure from asset sales and the departure of its largest tenant. It also expects around £100m of disposals for the year and 89% of 2026 refinancing completed or agreed."
+    },
+    "explainer": "CLS is an office landlord with a £1.6bn portfolio in the UK, Germany and France, so its results are dominated by property valuations. The £69.6m statutory loss is largely non-cash: it reflects an £84.2m markdown in the value of its buildings as property yields expanded (up 27bps) and estimated rental values (ERVs) slipped 1.8%. The underlying cash-generating measure, EPRA earnings, was still positive at £10.9m but fell a third as rent was lost to disposals and tenant departures.\n\nThe two 'per share' asset measures — EPRA NTA (177.7p) and statutory NAV (164.2p) — are compared with the year-end (31 December 2025) rather than the prior half, and both fell about 11-12%, chiefly on the valuation declines plus a small currency drag from a stronger pound against the euro. LTV rose to 51.6% not because debt increased (net debt actually fell £44.2m) but because the property value it is measured against fell faster.\n\nThe dividend has effectively been paused: no interim payout (versus 1.30p last year), with the Board deferring any decision to a single final dividend once full-year earnings are known, prioritising deleveraging and refinancing.\n\nOn guidance, CLS confirmed the downgrade first signalled in its 4 August trading update, now framing 2026 full-year EPS as 4.6-5.5p. The drivers are lower income from around £100m of planned asset sales and the loss of its largest tenant. Management stresses it has completed or agreed 89% of this year's refinancing and kept disposals at book value, positioning the business for when market conditions improve.",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/cls-holdings--cli/half-yearly-results-announcement-2026/9716731",
+    "related_news_url": "https://news.google.com/search?q=%22CLS%20Holdings%20plc%22",
+    "added_at": "2026-08-12T07:36:31.827304"
+  },
+  {
     "company": "Yellow Cake PLC",
     "ticker": "YCA",
     "publish_date": "12 August 2026",
