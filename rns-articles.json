@@ -1,5 +1,57 @@
 [
   {
+    "company": "Segro PLC",
+    "ticker": "SGRO",
+    "publish_date": "12 August 2026",
+    "date_iso": "2026-08-12",
+    "time_period": "",
+    "announcement_type": "Acquisition / deal",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>SEGRO plc</strong> has published a revised version of the <strong>4 August 2026</strong> Rule 2.7 announcement covering the <strong>recommended best and final share offer with a partial cash alternative from Prologis, Inc.</strong></li><li>The <strong>sole amendment</strong> concerns the wording on the independent financial advice under Rule 3 received by SEGRO's directors from <strong>Evercore</strong> and <strong>Morgan Stanley</strong>: it now states the directors' commercial assessments were <strong>taken into account</strong>, rather than <strong>relied upon</strong>, by the advisers.</li><li>The <strong>financial terms of the Combination remain final</strong> and will not be increased, save for the customary Code exceptions (a third-party offer or Panel consent).</li><li>Routine Rule 2.7 amendment with <strong>no change to the offer terms</strong> or to trading and guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "SEGRO republishes the 4 August Rule 2.7 announcement of Prologis's recommended offer, amending only the wording on independent financial advice.",
+    "priority": "medium",
+    "priority_reason": "Amendment to a live recommended takeover, but a technical wording clarification only with no change to financial terms.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/segro--sgro/amendment-to-rule-2-7-announcement-/9716726",
+    "related_news_url": "https://news.google.com/search?q=%22SEGRO%20plc%22",
+    "added_at": "2026-08-12T09:15:45.086880"
+  },
+  {
+    "company": "Legal & General Group PLC",
+    "ticker": "LGEN",
+    "publish_date": "12 August 2026",
+    "date_iso": "2026-08-12",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Legal & General Group Plc</strong> appoints <strong>Kirsty Cooper CBE</strong> as an independent non-executive director, effective <strong>1 November 2026</strong>.</li><li>She joins the <strong>Group Remuneration</strong> and <strong>Group Enterprise Transformation</strong> Committees on appointment.</li><li>Cooper is currently a NED and Risk & Compliance Committee Chair at <strong>Aon UK Limited</strong> and NED at <strong>Scottish Widows Group</strong> (standing down 31 October 2026); previously Group General Counsel and Company Secretary at <strong>Aviva plc</strong> until December 2023.</li><li>Routine board appointment; no other matters require disclosure under Listing Rule 6.4.8R and <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Legal & General appoints Kirsty Cooper CBE as an independent non-executive director with effect from 1 November 2026.",
+    "priority": "medium",
+    "priority_reason": "Non-executive board appointment; a governance change with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/legal-general-group--lgen/directorate-change/9717814",
+    "related_news_url": "https://news.google.com/search?q=%22Legal%20%26%20General%20Group%20Plc%22",
+    "added_at": "2026-08-12T09:15:45.067934"
+  },
+  {
     "company": "CLS Holdings PLC",
     "ticker": "CLI",
     "publish_date": "12 August 2026",
