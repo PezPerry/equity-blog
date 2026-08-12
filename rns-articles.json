@@ -1,5 +1,31 @@
 [
   {
+    "company": "Investec PLC",
+    "ticker": "INVP",
+    "publish_date": "12 August 2026",
+    "date_iso": "2026-08-12",
+    "time_period": "",
+    "announcement_type": "Buyback programme update",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Investec Limited</strong> repurchased <strong>401,798</strong> preference shares between <strong>19 March</strong> and <strong>5 August 2026</strong>, or <strong>1.62%</strong> of issued preference share capital, for an aggregate <strong>R38,686,679.53</strong> (average <strong>R96.28</strong>, range <strong>R93.46–R100.50</strong>).</li><li>Total repurchased under the current general authority now <strong>1,892,608</strong> shares (<strong>7.62%</strong>), leaving <strong>22,943,235</strong> preference shares in issue.</li><li>The <strong>Programme has been closed</strong> — the general authority expired on <strong>5 August 2026</strong> and no further repurchases will occur; application will be made to the JSE to de-list and cancel the shares.</li><li>Shares bought from excess cash; Board states the impact on financial information is <strong>immaterial</strong> — a routine disclosure with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Investec repurchased 401,798 preference shares for R38.7m, closing its buy-back programme after the general authority expired on 5 August 2026.",
+    "priority": "low",
+    "priority_reason": "Routine preference-share buy-back update with immaterial financial impact; the programme is now closed.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/investec--invp/inpr-repurchase-programme/9718461",
+    "related_news_url": "https://news.google.com/search?q=%22Investec%20plc%22",
+    "added_at": "2026-08-12T13:16:02.082530"
+  },
+  {
     "company": "Shaftesbury Capital PLC",
     "ticker": "SHC",
     "publish_date": "12 August 2026",
