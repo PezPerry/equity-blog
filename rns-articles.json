@@ -1,5 +1,57 @@
 [
   {
+    "company": "Shaftesbury Capital PLC",
+    "ticker": "SHC",
+    "publish_date": "12 August 2026",
+    "date_iso": "2026-08-12",
+    "time_period": "H1 2026",
+    "announcement_type": "Dividend declaration",
+    "period_detail": "H1 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Shaftesbury Capital PLC</strong> sets the ZAR exchange rate for its <strong>2026 interim cash dividend</strong> of <strong>2.2 pence</strong> per share at <strong>21.9534 ZAR to 1 GBP</strong>, fixed on <strong>11 August 2026</strong>.</li><li>Dividend paid wholly as a <strong>property income distribution (PID)</strong>, subject to <strong>20% UK withholding tax</strong>; net PID of <strong>1.76p</strong> per share.</li><li>South African register holders receive <strong>48.29748 ZAR cents</strong> gross (<strong>38.63798 ZAR cents</strong> net of UK withholding tax) per share.</li><li>Payment date <strong>23 September 2026</strong> to shareholders on the register at <strong>28 August 2026</strong>; timetable from the 29 July 2026 interim results unchanged.</li><li>Routine administrative disclosure with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Shaftesbury Capital confirms a ZAR exchange rate of 21.9534 for its previously declared 2.2p interim dividend, payable 23 September 2026.",
+    "priority": "low",
+    "priority_reason": "Routine administrative confirmation of the ZAR exchange rate for an already-declared interim dividend, with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/shaftesbury-capital--shc/2026-interim-dividend-exchange-rate/9717812",
+    "related_news_url": "https://news.google.com/search?q=%22Shaftesbury%20Capital%20PLC%22",
+    "added_at": "2026-08-12T09:35:44.548151"
+  },
+  {
+    "company": "Ryanair Holdings PLC",
+    "ticker": "RYA",
+    "publish_date": "12 August 2026",
+    "date_iso": "2026-08-12",
+    "time_period": "",
+    "announcement_type": "AGM notice",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Ryanair Holdings plc</strong> has posted the notice of its <strong>Annual General Meeting</strong>, to be held on <strong>Thursday 10 September 2026</strong> at <strong>9.00 a.m. (Irish time)</strong> at the Ryanair Trident Building, Airside Business Park, Swords, Co. Dublin.</li><li>Letter from the Chairman, notice of AGM and Form of Proxy posted to shareholders and on the company website; <strong>Annual Report and Financial Statements</strong> for the year ended <strong>31 March 2026</strong> available online.</li><li>Routine administrative notice with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Ryanair to hold its Annual General Meeting in Swords, Co. Dublin on Thursday 10 September 2026 at 9.00 a.m. Irish time.",
+    "priority": "low",
+    "priority_reason": "Routine administrative notice of AGM date with no trading, financial or guidance content.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/ryanair-holdings-cdi---0rya/notice-of-annual-general-meeting/9717826",
+    "related_news_url": "https://news.google.com/search?q=%22Ryanair%20Holdings%20plc%22",
+    "added_at": "2026-08-12T09:35:44.534586"
+  },
+  {
     "company": "Segro PLC",
     "ticker": "SGRO",
     "publish_date": "12 August 2026",
