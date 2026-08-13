@@ -1,5 +1,31 @@
 [
   {
+    "company": "Segro PLC",
+    "ticker": "SGRO",
+    "publish_date": "13 August 2026",
+    "date_iso": "2026-08-13",
+    "time_period": "",
+    "announcement_type": "Acquisition / deal",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>SEGRO</strong> has issued an amendment to the <strong>Rule 2.7</strong> announcement of the recommended <strong>best and final</strong> share offer with partial cash alternative from <strong>Prologis</strong>, first announced on <strong>4 August 2026</strong>.</li><li>Sole change: the revised announcement confirms the SEGRO Directors' commercial assessments were <strong>taken into account</strong> (not <strong>relied upon</strong>) by <strong>Evercore</strong> and <strong>Morgan Stanley</strong> in providing their Rule 3 independent financial advice.</li><li>Financial terms of the Combination remain <strong>final and will not be increased</strong>, save for the standard carve-outs (a competing offer for SEGRO or Panel consent).</li><li>Technical/procedural amendment only — <strong>no change</strong> to offer value, structure or recommendation.</li></ul>",
+    "source_format": "html",
+    "headline": "SEGRO republishes its 4 August Rule 2.7 offer announcement with a single wording change on the independent financial advice given to directors, terms unchanged.",
+    "priority": "medium",
+    "priority_reason": "Relates to the live Prologis takeover of SEGRO but is only a technical wording amendment with no change to terms.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/segro-SGRO/share-news/SEGRO-PLC-Amendment-to-Rule-2-7-Announcement/99100871",
+    "related_news_url": "https://news.google.com/search?q=%22SEGRO%20plc%22",
+    "added_at": "2026-08-13T09:41:07.730959"
+  },
+  {
     "company": "Legal & General Group PLC",
     "ticker": "LGEN",
     "publish_date": "13 August 2026",
@@ -157,6 +183,105 @@
     "source_url": "https://uk.advfn.com/stock-market/london/antofagasta-ANTO/share-news/Antofagasta-PLC-DIRECTOR-CHANGE-AND-CHANGES-TO-BOA/99106230",
     "related_news_url": "https://news.google.com/search?q=%22Antofagasta%20plc%22",
     "added_at": "2026-08-13T09:39:32.630690"
+  },
+  {
+    "company": "Balfour Beatty PLC",
+    "ticker": "BBY",
+    "publish_date": "12 August 2026",
+    "date_iso": "2026-08-12",
+    "time_period": "H1 2026 (half year ended 26 June 2026)",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 2026 (half year ended 26 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Balfour Beatty</strong> half-year results (to <strong>26 June 2026</strong>): underlying PFO from earnings-based businesses up <strong>42%</strong> to <strong>£153m</strong> (2025: £108m); Group underlying PFO <strong>£119m</strong> (2025: £77m).</li><li>Underlying EPS <strong>21.7p</strong> (2025: 14.4p); interim dividend up <strong>12%</strong> to <strong>4.7p</strong> (2025: 4.2p); <strong>£102m</strong> of buyback completed in the half within the <strong>£200m</strong> 2026 programme.</li><li>Guidance raised: full-year earnings-based PFO now expected to grow <strong>low double digit percent</strong>, <strong>slightly ahead of prior guidance</strong>; average net cash guidance lifted <strong>£200m</strong> to <strong>£1.5–£1.7bn</strong>; net finance income now <strong>£35–£40m</strong>.</li><li>Average net cash rose to <strong>£1,616m</strong> (FY2025: £1,212m); order book <strong>£22.9bn</strong> (FY2025: £22.7bn); Investments portfolio valuation maintained at <strong>£1.1bn</strong>.</li><li>Divisional: <strong>US Construction £22m PFO</strong> (2025: £11m loss) on Buildings growth and reduced Civils losses; <strong>Support Services £66m</strong> (2025: £46m) on power transmission; UK Construction margin <strong>3.4%</strong> (2025: 3.6%).</li><li>Non-underlying items were an <strong>£8m</strong> charge after tax (2025: £28m gain), largely a higher Building Safety Act provision; US military housing monitorship concluded in June.</li></ul>",
+    "source_format": "html",
+    "headline": "Balfour Beatty posts strong H1 with earnings-based PFO up 42% to £153m and lifts full-year guidance slightly above prior expectations.",
+    "priority": "high",
+    "priority_reason": "Half-year results with an upgraded full-year outlook, higher dividend and continuing buyback.",
+    "figures": [
+      {
+        "metric": "Underlying PFO – earnings-based businesses",
+        "current": "£153m",
+        "prior": "£108m",
+        "change": "+42%",
+        "basis": "underlying",
+        "note": "H1 to 26 June 2026 vs H1 2025"
+      },
+      {
+        "metric": "Group underlying PFO",
+        "current": "£119m",
+        "prior": "£77m",
+        "change": "not stated",
+        "basis": "underlying",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "Underlying EPS",
+        "current": "21.7p",
+        "prior": "14.4p",
+        "change": "not stated",
+        "basis": "underlying",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "Interim dividend",
+        "current": "4.7p",
+        "prior": "4.2p",
+        "change": "+12%",
+        "basis": "per share",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "Average net cash",
+        "current": "£1,616m",
+        "prior": "£1,212m",
+        "change": "not stated",
+        "basis": "excluding non-recourse net borrowings",
+        "note": "H1 2026 vs FY 2025"
+      },
+      {
+        "metric": "Order book",
+        "current": "£22.9bn",
+        "prior": "£22.7bn",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "H1 2026 vs FY 2025"
+      },
+      {
+        "metric": "US Construction PFO",
+        "current": "£22m",
+        "prior": "£11m loss",
+        "change": "not stated",
+        "basis": "underlying",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "Support Services PFO",
+        "current": "£66m",
+        "prior": "£46m",
+        "change": "not stated",
+        "basis": "underlying",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "Investments portfolio – Directors' valuation",
+        "current": "£1.1bn",
+        "prior": "£1.1bn",
+        "change": "maintained",
+        "basis": "Directors' valuation",
+        "note": "H1 2026 vs FY 2025"
+      }
+    ],
+    "guidance": {
+      "status": "raised",
+      "previous": "Prior guidance for earnings-based business PFO growth (unquantified in this release); average net cash guidance of c.£1.3–£1.5bn range (previous figure not printed, increase stated as £200m).",
+      "current": "Earnings-based business PFO: low double digit percentage growth, slightly ahead of prior guidance. Average net cash increased by £200m to £1.5–£1.7bn. Net finance income of £35–£40m. Gain on disposals of £5–£15m.",
+      "commentary": "Balfour Beatty upgraded 2026 guidance on the back of a strong first half, nudging expected earnings-based PFO growth above the prior view and lifting average net cash guidance by £200m. Net finance income guidance of £35–£40m reflects the higher anticipated cash performance."
+    },
+    "explainer": "Balfour Beatty splits its performance into 'earnings-based businesses' (Construction Services and Support Services) and Infrastructure Investments. The headline 42% growth in profit from operations (PFO) applies to those earnings-based businesses, driven by strong Support Services (UK power transmission) and a swing to profit in US Construction as Buildings volumes rose and US Civils losses shrank. UK Construction's underlying profit grew 17% once you strip out a £10m insurance recovery that flattered the 2025 comparative — a reminder that year-on-year moves here include a one-off in the base.\n\nGroup underlying PFO of £119m sits below the £153m earnings-based figure because it includes a £9m loss in Infrastructure Investments, largely legal and monitor costs tied to US military housing that ceased in June. Separately, statutory profit is dragged by an £8m after-tax non-underlying charge, mainly a higher Building Safety Act provision — versus a £28m non-underlying gain a year earlier — so reported and underlying numbers diverge this period.\n\nOn guidance, the key change is direction: full-year earnings-based PFO growth is now expected to be 'slightly ahead' of what the company previously flagged, and average net cash guidance has been raised by £200m to a £1.5–£1.7bn range, with net finance income of £35–£40m to match. The dividend was raised 12% to 4.7p and the £200m 2026 buyback is on track to complete by year-end, both signalling management confidence in cash generation.",
+    "source_url": "https://uk.advfn.com/stock-market/london/balfour-beatty-BBY/share-news/Balfour-Beatty-PLC-BALFOUR-BEATTY-2026-HALF-YEAR-R/99100870",
+    "related_news_url": "https://news.google.com/search?q=%22Balfour%20Beatty%20plc%22",
+    "added_at": "2026-08-13T09:41:07.696036"
   },
   {
     "company": "Rio Tinto PLC",
