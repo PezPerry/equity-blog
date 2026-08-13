@@ -1,5 +1,96 @@
 [
   {
+    "company": "Costain Group PLC",
+    "ticker": "COST",
+    "publish_date": "13 August 2026",
+    "date_iso": "2026-08-13",
+    "time_period": "H1 to 30 June 2026",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Costain Group plc</strong> H1 26 revenue up <strong>3.4% to £543.1m</strong> (H1 25: £525.4m), with <strong>FY 26 expectations unchanged</strong> and a sixth consecutive year of profit growth flagged.</li><li>Adjusted operating profit up <strong>3.0% to £17.3m</strong>, adjusted operating margin maintained at <strong>3.2%</strong>; adjusted EPS up <strong>3.6% to 5.7p</strong>.</li><li>Interim dividend <strong>doubled to 2.0p</strong> (H1 25: 1.0p), on a new target dividend cover of <strong>2.5x</strong> adjusted earnings (previously 3x).</li><li>Net cash of <strong>£164.4m</strong> (H1 25: £144.9m; FY 25: £189.3m) after <strong>£8.2m</strong> dividends and <strong>£7.6m</strong> of the £20m FY 26 buyback; FY 26 year-end net cash guided to <strong>~£170m</strong>.</li><li>Forward work held at a record <strong>£7.0bn</strong> (H1 25: £5.6bn), giving <strong>91%</strong> revenue visibility of both FY 26 and FY 27 consensus.</li><li>Management guides to <strong>revenue growth in H2 26</strong> (led by Water/AMP8, Heathrow, M60) and a <strong>step change in FY 27</strong> performance.</li></ul>",
+    "source_format": "html",
+    "headline": "Costain grew H1 revenue 3.4% to £543.1m and doubled its interim dividend to 2.0p, keeping FY26 expectations unchanged.",
+    "priority": "high",
+    "priority_reason": "Half-year results from a listed infrastructure contractor, including a doubled interim dividend and reaffirmed FY26 guidance.",
+    "figures": [
+      {
+        "metric": "Revenue",
+        "current": "£543.1m",
+        "prior": "£525.4m",
+        "change": "+3.4%",
+        "basis": "reported",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Adjusted operating profit",
+        "current": "£17.3m",
+        "prior": "£16.8m",
+        "change": "+3.0%",
+        "basis": "adjusted",
+        "note": "margin maintained at 3.2%"
+      },
+      {
+        "metric": "Reported operating profit",
+        "current": "£17.3m",
+        "prior": "£16.4m",
+        "change": "+5.5%",
+        "basis": "reported",
+        "note": "no adjusting items in H1 26 (H1 25: £0.4m)"
+      },
+      {
+        "metric": "Adjusted profit before tax",
+        "current": "£19.2m",
+        "prior": "£18.6m",
+        "change": "+3.2%",
+        "basis": "adjusted",
+        "note": ""
+      },
+      {
+        "metric": "Adjusted EPS",
+        "current": "5.7p",
+        "prior": "5.5p",
+        "change": "+3.6%",
+        "basis": "adjusted",
+        "note": "reported EPS 5.7p vs 5.4p, +5.6%"
+      },
+      {
+        "metric": "Interim dividend",
+        "current": "2.0p",
+        "prior": "1.0p",
+        "change": "+100%",
+        "basis": "per ordinary share",
+        "note": "cash or scrip; paid 23 October 2026"
+      },
+      {
+        "metric": "Net cash",
+        "current": "£164.4m",
+        "prior": "£144.9m",
+        "change": "+£19.5m",
+        "basis": "period end",
+        "note": "FY 25: £189.3m; includes JV cash £69.6m"
+      },
+      {
+        "metric": "Forward work position",
+        "current": "£7.0bn",
+        "prior": "£5.6bn",
+        "change": "+25%",
+        "basis": "order book plus preferred bidder book",
+        "note": "order book £3.5bn, preferred bidder book £3.5bn"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "FY 26 revenue, operating profit and margin in line with the Board's expectations",
+      "current": "FY 26 revenue, operating profit and margin unchanged and in line with the Board's expectations; FY 26 year-end net cash approximately £170m; step change in financial performance expected in FY 27 and beyond",
+      "commentary": "FY 26 profit expectations are held rather than upgraded. Separately, the Board cut its target dividend cover to 2.5x adjusted earnings (from 3x) after removing a pension-linked dividend constraint, funding the doubled interim payout."
+    },
+    "explainer": "Costain reports both statutory (\"reported\") and \"adjusted\" figures. In H1 26 the two are almost identical because there were no adjusting items in the period, versus £0.4m in H1 25 — that is why reported profit growth (+5.5%) looks a little faster than adjusted growth (+3.0%), rather than reflecting any change in the underlying business. Revenue growth of 3.4% is on a reported basis, with Transportation down 3.2% (tough prior-year comparatives on road frameworks) offset by Natural Resources up 13.3% as the water sector moves into the construction-heavy AMP8 cycle.\n\nOn guidance, the key message is continuity: FY 26 revenue, operating profit and margin expectations are left unchanged, and the company points to 91% of both FY 26 and FY 27 consensus revenue already covered by its record £7.0bn forward work. Because construction earnings are second-half weighted, management expects H2 26 revenue and free cash flow to be stronger than H1.\n\nThe standout capital-return change is the dividend. After a January 2026 pension agreement removed a \"dividend parity\" constraint, the Board lowered its target dividend cover to 2.5x adjusted earnings (from 3x), split roughly one-third in H1 and two-thirds in H2. This mechanically allows the interim dividend to double to 2.0p even though earnings rose only modestly. Year-end net cash is guided to fall to about £170m (from £189.3m at FY 25) as working-capital benefits partly unwind and cash is returned via the £20m buyback and higher dividends.",
+    "source_url": "https://uk.advfn.com/stock-market/london/costain-COST/share-news/Costain-Group-PLC-Half-year-Financial-Results/99110618",
+    "related_news_url": "https://news.google.com/search?q=%22Costain%20Group%20plc%22",
+    "added_at": "2026-08-13T09:43:53.017505"
+  },
+  {
     "company": "Yellow Cake PLC",
     "ticker": "YCA",
     "publish_date": "13 August 2026",
