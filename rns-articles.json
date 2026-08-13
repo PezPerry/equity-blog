@@ -1,5 +1,57 @@
 [
   {
+    "company": "Roadside Real Estate PLC",
+    "ticker": null,
+    "publish_date": "13 August 2026",
+    "date_iso": "2026-08-13",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Tarncourt Investments LLP</strong>, controlled by CEO <strong>Charles Dickson</strong>, intends to purchase <strong>18,666,666 ordinary shares</strong> from <strong>Davina Dickson</strong> and <strong>James Dickson</strong>.</li><li>Following the purchase, the <strong>Concert Party</strong> would hold <strong>94,450,354 shares (53.0%)</strong> of issued share capital, retaining more than 50% of voting rights; <strong>no Rule 9 offer obligation</strong> normally arises.</li><li>Post-deal holdings: <strong>Charles Dickson 23.6%</strong>, <strong>Tarncourt Capital Ltd 16.6%</strong>, <strong>David Holdsworth 6.2%</strong>, <strong>Davina Dickson 4.8%</strong>, <strong>James Dickson 1.9%</strong>.</li><li>Routine dealing/concert party disclosure with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Tarncourt Investments LLP, controlled by CEO Charles Dickson, to buy 18,666,666 Roadside shares from Davina and James Dickson, with concert party still holding 53.0%.",
+    "priority": "low",
+    "priority_reason": "Routine intra-family share purchase and concert party update with no impact on trading, guidance or control.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/roadside-real-estate--road/intention-to-deal/9719906",
+    "related_news_url": "https://news.google.com/search?q=%22Roadside%20Real%20Estate%20PLC%22",
+    "added_at": "2026-08-13T09:49:45.709051"
+  },
+  {
+    "company": "International Workplace Group PLC",
+    "ticker": "IWG",
+    "publish_date": "13 August 2026",
+    "date_iso": "2026-08-13",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>International Workplace Group plc</strong> has appointed <strong>J.P. Morgan Cazenove</strong> as joint corporate broker with immediate effect.</li><li>It joins existing brokers <strong>Barclays</strong> and <strong>Investec</strong>.</li><li>Routine corporate disclosure with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "IWG appoints **J.P. Morgan Cazenove** as joint corporate broker, alongside existing brokers **Barclays** and **Investec**, with immediate effect.",
+    "priority": "low",
+    "priority_reason": "Routine appointment of an additional corporate broker with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/iwg--iwg/appointment-of-joint-broker/9719087",
+    "related_news_url": "https://news.google.com/search?q=%22International%20Workplace%20Group%20plc%22",
+    "added_at": "2026-08-13T09:49:45.589759"
+  },
+  {
     "company": "Supermarket Income Reit PLC",
     "ticker": "SUPR",
     "publish_date": "13 August 2026",
