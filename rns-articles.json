@@ -1,5 +1,31 @@
 [
   {
+    "company": "HSBC Holdings PLC",
+    "ticker": "HSBA",
+    "publish_date": "13 August 2026",
+    "date_iso": "2026-08-13",
+    "time_period": "",
+    "announcement_type": "Financing / refinancing",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>HSBC Holdings plc</strong> announced results of its <strong>four</strong> cash tender offers for outstanding <strong>2028</strong> senior unsecured notes, with an aggregate consideration of <strong>$4,897,778,802.80</strong> (excluding accrued interest).</li><li>Offers expired <strong>12 August 2026</strong>; total tendered was within the raised <strong>Maximum Tender Amount of $6.75bn</strong> (up from $5bn), so all valid tenders were accepted without proration except one series.</li><li><strong>May 2028 Notes</strong> were oversubscribed against their <strong>$1.0bn</strong> sub-cap and accepted on a prorated basis at a <strong>66.967081%</strong> proration factor.</li><li>Amounts accepted: <strong>September 2028</strong> $1,518,795,000; <strong>November 2028</strong> $973,368,000; <strong>May 2028</strong> $1,000,000,000; <strong>March 2028</strong> $1,402,621,000.</li><li>Funded by the previously priced new issue of <strong>$2.5bn</strong> 5.243% notes due 2032, <strong>$3.25bn</strong> 5.729% notes due 2037 and <strong>$1.0bn</strong> floating rate notes due 2032, satisfying the New Issue Condition; <strong>settlement 17 August 2026</strong>.</li><li>Routine liability management exercise with <strong>no impact</strong> on trading or guidance; accepted notes will be cancelled and retired.</li></ul>",
+    "source_format": "html",
+    "headline": "HSBC accepted approximately US$4.9bn of four series of 2028 senior unsecured notes for repurchase under its cash tender offers, well within the raised US$6.75bn cap.",
+    "priority": "medium",
+    "priority_reason": "Liability management exercise: HSBC repurchased c.$4.9bn of senior notes funded by a prior new issue, a routine but sizeable balance-sheet action with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/hsbc-holdings--hsba/hsbc-tender-offers-for-4-series-of-notes-results/9720607",
+    "related_news_url": "https://news.google.com/search?q=%22HSBC%20Holdings%20plc%22",
+    "added_at": "2026-08-13T11:16:02.922686"
+  },
+  {
     "company": "Standard Chartered PLC",
     "ticker": "STAN",
     "publish_date": "13 August 2026",
