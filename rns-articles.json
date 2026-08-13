@@ -1,5 +1,164 @@
 [
   {
+    "company": "Legal & General Group PLC",
+    "ticker": "LGEN",
+    "publish_date": "13 August 2026",
+    "date_iso": "2026-08-13",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Legal & General Group Plc</strong> to appoint <strong>Kirsty Cooper CBE</strong> as an independent non-executive director from <strong>1 November 2026</strong>.</li><li>She joins the Group Remuneration and Group Enterprise Transformation Committees on appointment.</li><li>Cooper is currently a NED at <strong>Aon UK Limited</strong> and <strong>Scottish Widows Group</strong> (standing down there on <strong>31 October 2026</strong>); formerly Group General Counsel and Company Secretary at <strong>Aviva plc</strong> until December 2023.</li><li>Routine Board appointment with <strong>no impact</strong> on trading or guidance; no other matters requiring disclosure under UK Listing Rule 6.4.8R.</li></ul>",
+    "source_format": "html",
+    "headline": "Legal & General appoints Kirsty Cooper CBE as an independent non-executive director with effect from 1 November 2026.",
+    "priority": "medium",
+    "priority_reason": "Appointment of a new independent non-executive director — routine board change with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/legal-and-general-LGEN/share-news/Legal-General-Group-Plc-Directorate-change/99101939",
+    "related_news_url": "https://news.google.com/search?q=%22Legal%20%26%20General%20Group%20Plc%22",
+    "added_at": "2026-08-13T09:39:32.773358"
+  },
+  {
+    "company": "Hill & Smith Holdings PLC",
+    "ticker": "HILS",
+    "publish_date": "13 August 2026",
+    "date_iso": "2026-08-13",
+    "time_period": "H1 to 30 June 2026",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Hill & Smith PLC</strong> raised <strong>FY26</strong> guidance: underlying operating profit now expected <strong>modestly ahead</strong> of previous expectations, with a small full-year margin progression versus 2025.</li><li>Group <strong>organic constant currency (OCC) revenue up 5%</strong>, with overall constant currency revenue and underlying operating profit both <strong>up 7%</strong>; Group now reports in <strong>US dollars</strong>.</li><li><strong>US businesses grew 14% OCC</strong>, delivering <strong>66%</strong> of Group revenue and <strong>84%</strong> of underlying operating profit; US Engineered Solutions revenue up <strong>18%</strong> and profit up <strong>20%</strong> in constant currency.</li><li><strong>UK & India Engineered Solutions OCC revenue fell 13%</strong>, margins down to <strong>5.3%</strong> (2025: 9.6%); UK permanent steel road barrier business disposed in May 2026 for <strong>$7.1m (£5.3m)</strong>.</li><li>Group underlying operating margin flat at <strong>17.0%</strong>; <strong>interim dividend up 7% to 25.0c</strong> (2025: 23.4c); <strong>ROIC 26.7%</strong> and covenant leverage low at <strong>0.4x</strong>.</li><li><strong>£58.6m</strong> of the <strong>£100m share buyback</strong> completed as at <strong>10 August 2026</strong>; <strong>Freeberg</strong> and <strong>Hentech</strong> acquired for combined <strong>$45.8m</strong> and performing well.</li></ul>",
+    "source_format": "html",
+    "headline": "Hill & Smith raised FY26 underlying operating profit expectations after H1 organic revenue grew 5%, driven by 14% US growth.",
+    "priority": "high",
+    "priority_reason": "Half-year results accompanied by a raised FY26 profit outlook.",
+    "figures": [
+      {
+        "metric": "Group OCC revenue growth",
+        "current": "+5%",
+        "prior": "not stated",
+        "change": "+5%",
+        "basis": "organic constant currency",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "US OCC revenue growth",
+        "current": "+14%",
+        "prior": "not stated",
+        "change": "+14%",
+        "basis": "organic constant currency",
+        "note": "US businesses"
+      },
+      {
+        "metric": "Underlying operating margin",
+        "current": "17.0%",
+        "prior": "17.0%",
+        "change": "flat",
+        "basis": "underlying",
+        "note": "Group, H1"
+      },
+      {
+        "metric": "Interim dividend",
+        "current": "25.0c",
+        "prior": "23.4c",
+        "change": "+7%",
+        "basis": "as reported",
+        "note": "per share"
+      },
+      {
+        "metric": "ROIC",
+        "current": "26.7%",
+        "prior": "25.8%",
+        "change": "+0.9pp",
+        "basis": "return on invested capital",
+        "note": "vs H1 2025"
+      },
+      {
+        "metric": "US Engineered Solutions margin",
+        "current": "18.1%",
+        "prior": "17.9%",
+        "change": "+20bps",
+        "basis": "operating margin",
+        "note": "division"
+      },
+      {
+        "metric": "UK & India Engineered Solutions margin",
+        "current": "5.3%",
+        "prior": "9.6%",
+        "change": "-430bps",
+        "basis": "operating margin",
+        "note": "division"
+      },
+      {
+        "metric": "Galvanizing Services margin",
+        "current": "25.6%",
+        "prior": "24.5%",
+        "change": "+110bps",
+        "basis": "operating margin",
+        "note": "revenue +11% OCC"
+      },
+      {
+        "metric": "Cash conversion",
+        "current": "50%",
+        "prior": "85%",
+        "change": "-35pp",
+        "basis": "as reported",
+        "note": "working capital build; expected to reverse in H2"
+      },
+      {
+        "metric": "Priority end markets share",
+        "current": "39%",
+        "prior": "34%",
+        "change": "+5pp",
+        "basis": "% of Group revenue",
+        "note": "FY25 comparative"
+      }
+    ],
+    "guidance": {
+      "status": "raised",
+      "previous": "Previous FY26 expectations for underlying operating profit (level not quantified in the announcement).",
+      "current": "FY26 underlying operating profit now expected to be modestly ahead of previous expectations, with a small FY margin progression compared to 2025.",
+      "commentary": "The upgrade follows a strong first half and sustained momentum in the US businesses. Management retains confidence in the medium-term outlook and its 18%+ margin target over time."
+    },
+    "explainer": "Hill & Smith reports these results in US dollars for the first time, having switched its reporting currency in 2026, so the prior-year comparatives have been restated into dollars. The headline growth numbers are quoted on an organic constant currency (OCC) basis, which strips out both currency movements and the effect of acquisitions and disposals — so the 5% group figure reflects underlying demand rather than the boost from the Freeberg and Hentech deals or currency swings.\n\nThe story is a two-speed group. US operations grew OCC revenue 14% on strong infrastructure demand — power transmission and distribution, data centres and galvanizing — and now generate the bulk of group profit. Against that, UK & India Engineered Solutions saw OCC revenue fall 13% as UK roads, industrial and residential markets stayed weak, and the prior year had benefited from one-off UK transport project work, so the division's margin more than halved to 5.3%.\n\nCash conversion dropped to 50% from 85%, but this is presented as timing rather than deterioration: working capital was built up to support fast-growing US businesses and is expected to unwind in the second half, with the group still targeting 80%+ over time.\n\nOn guidance, the key change is that FY26 underlying operating profit is now expected to be modestly ahead of what the company previously guided, thanks to the strong first half and continued US momentum. The company does not put a specific number on either the old or new expectation, so the upgrade is directional rather than quantified.",
+    "source_url": "https://uk.advfn.com/stock-market/london/hill-smith-HILS/share-news/Hill-Smith-PLC-Half-Year-Results/99100863",
+    "related_news_url": "https://news.google.com/search?q=%22Hill%20%26%20Smith%20PLC%22",
+    "added_at": "2026-08-13T09:39:32.701367"
+  },
+  {
+    "company": "Antofagasta PLC",
+    "ticker": "ANTO",
+    "publish_date": "13 August 2026",
+    "date_iso": "2026-08-13",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Juan Claro</strong>, a Non-Executive Director since <strong>2005</strong>, will resign from the Board with effect from <strong>31 August 2026</strong>, also stepping down from the Sustainability and Stakeholder Management Committee.</li><li>From <strong>1 September 2026</strong>, <strong>Ignacio Bustamante</strong> (Independent NED since 1 July 2025) becomes <strong>Chair of the Remuneration and Talent Management Committee</strong>, with <strong>Francisca Castro</strong> rotating off that committee.</li><li>Chairman <strong>Jean-Paul Luksic</strong> thanked Mr Claro for his contribution over the last twenty years; Claro receives <strong>no loss-of-office payment</strong> and no further remuneration beyond accruals to 31 August 2026.</li><li>Routine Listing Rule 6.4.6R board disclosure with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Non-Executive Director Juan Claro to resign from the Antofagasta board on 31 August 2026 after twenty years, with committee membership changes from 1 September.",
+    "priority": "medium",
+    "priority_reason": "Long-serving non-executive director resignation plus routine board committee reshuffle; no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/antofagasta-ANTO/share-news/Antofagasta-PLC-DIRECTOR-CHANGE-AND-CHANGES-TO-BOA/99106230",
+    "related_news_url": "https://news.google.com/search?q=%22Antofagasta%20plc%22",
+    "added_at": "2026-08-13T09:39:32.630690"
+  },
+  {
     "company": "Rio Tinto PLC",
     "ticker": "RIO",
     "publish_date": "12 August 2026",
