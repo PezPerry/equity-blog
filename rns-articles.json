@@ -1,5 +1,31 @@
 [
   {
+    "company": "Sirius Real Estate Ltd",
+    "ticker": "SRE",
+    "publish_date": "13 August 2026",
+    "date_iso": "2026-08-13",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li>Routine PDMR disclosure: <strong>Ian Watson</strong>, <strong>Senior Independent Director</strong>, reinvested the cash dividend for the period ended <strong>31 March 2026</strong> into Sirius shares via his investment platform.</li><li>Bought <strong>1,505 ordinary shares</strong> at <strong>0.9785 GBP</strong> each, total <strong>£1,472.65</strong>, on <strong>12 August 2026</strong> on the London Stock Exchange.</li><li>Following the transaction he holds <strong>54,290 shares</strong>, representing <strong>0.0034%</strong> of issued share capital — <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Sirius Real Estate SID Ian Watson reinvested his cash dividend into 1,505 shares, lifting his holding to 54,290 shares.",
+    "priority": "low",
+    "priority_reason": "Routine PDMR dividend reinvestment of a trivial sum with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/sirius-real-estate-ltd---sre/notification-of-a-transaction-by-a-pdmr/9720830",
+    "related_news_url": "https://news.google.com/search?q=%22Sirius%20Real%20Estate%20Limited%22",
+    "added_at": "2026-08-13T12:15:41.926360"
+  },
+  {
     "company": "Aberdeen Group PLC",
     "ticker": "ABDN",
     "publish_date": "13 August 2026",
