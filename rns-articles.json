@@ -1,5 +1,31 @@
 [
   {
+    "company": "Standard Chartered PLC",
+    "ticker": "STAN",
+    "publish_date": "13 August 2026",
+    "date_iso": "2026-08-13",
+    "time_period": "HY 2026",
+    "announcement_type": "Corporate update",
+    "period_detail": "HY 2026",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>Standard Chartered PLC</strong> has submitted its <strong>HY 2026 Pillar 3 Disclosures</strong> to the <strong>Financial Conduct Authority</strong>.</li><li>Routine regulatory capital/risk disclosure — document available via the FCA National Storage Mechanism and the company website, with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Standard Chartered has submitted its HY 2026 Pillar 3 Disclosures to the FCA, now available via the National Storage Mechanism and the company website.",
+    "priority": "low",
+    "priority_reason": "Routine regulatory Pillar 3 capital disclosure filing with no trading or news content.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/standard-chartered--stan/hy-2026-pillar-3-disclosures/9720575",
+    "related_news_url": "https://news.google.com/search?q=%22Standard%20Chartered%20PLC%22",
+    "added_at": "2026-08-13T10:55:42.017483"
+  },
+  {
     "company": "United Utilities Group PLC",
     "ticker": "UTG",
     "publish_date": "13 August 2026",
