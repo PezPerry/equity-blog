@@ -1,5 +1,248 @@
 [
   {
+    "company": "Savills PLC",
+    "ticker": "SVS",
+    "publish_date": "13 August 2026",
+    "date_iso": "2026-08-13",
+    "time_period": "H1 to 30 June 2026",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Savills plc</strong> H1 to <strong>30 June 2026</strong>: Group revenue up <strong>9%</strong> (same in constant currency) to <strong>£1,225.5m</strong> (H1 25: <strong>£1,127.8m</strong>), with growth across all segments.</li><li>Group <strong>underlying</strong> profit before tax up <strong>47%</strong> (<strong>49%</strong> constant currency) to <strong>£34.3m</strong> (H1 25: <strong>£23.3m</strong>), margin up to <strong>2.8%</strong> from <strong>2.1%</strong>; but <strong>reported</strong> PBT fell to <strong>£7.0m</strong> (H1 25: <strong>£15.8m</strong>) on one-off Eastdil Secured acquisition costs.</li><li>Interim dividend raised <strong>5%</strong> to <strong>7.8p</strong> (H1 25: <strong>7.4p</strong>).</li><li>Transactional business revenue up <strong>14%</strong> to <strong>£449.6m</strong>, underlying loss cut to <strong>£2.4m</strong> (H1 25: <strong>£7.8m</strong> loss); Less Transactional revenue up <strong>6%</strong>, underlying PBT up <strong>27%</strong>.</li><li>Acquisition of <strong>Eastdil Secured</strong> (US real estate investment banking) completed <strong>31 July 2026</strong>; it delivered H1 revenue of <strong>US$302m (£225m)</strong> and EBITDA of <strong>US$51m (£38m)</strong>, with a 5-month contribution to be consolidated in FY26.</li><li>Board's <strong>expectations for the enlarged Group for 2026 are unchanged</strong>; strong pipelines but macro volatility makes timing of Transactional conversion hard to predict.</li></ul>",
+    "source_format": "html",
+    "headline": "Savills H1 revenue rose 9% to £1,225.5m and underlying pre-tax profit jumped 47% to £34.3m, with 2026 expectations for the enlarged Group unchanged.",
+    "priority": "high",
+    "priority_reason": "Half-year results with a 47% jump in underlying profit, dividend increase and a transformational US acquisition.",
+    "figures": [
+      {
+        "metric": "Group revenue",
+        "current": "£1,225.5m",
+        "prior": "£1,127.8m",
+        "change": "+9%",
+        "basis": "same in constant currency",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Underlying profit before tax",
+        "current": "£34.3m",
+        "prior": "£23.3m",
+        "change": "+47% (+49% constant currency)",
+        "basis": "underlying",
+        "note": "margin 2.8% vs 2.1%"
+      },
+      {
+        "metric": "Reported profit before tax",
+        "current": "£7.0m",
+        "prior": "£15.8m",
+        "change": "down",
+        "basis": "reported",
+        "note": "impacted by one-off Eastdil acquisition costs"
+      },
+      {
+        "metric": "Interim dividend",
+        "current": "7.8p",
+        "prior": "7.4p",
+        "change": "+5%",
+        "basis": "per share",
+        "note": ""
+      },
+      {
+        "metric": "Transaction Advisory revenue",
+        "current": "£449.6m",
+        "prior": "£394.6m",
+        "change": "+14% (+15% constant currency)",
+        "basis": "not stated",
+        "note": "underlying loss £2.4m vs £7.8m loss"
+      },
+      {
+        "metric": "Commercial Transaction Advisory revenue",
+        "current": "£317.8m",
+        "prior": "£266.5m",
+        "change": "+19% (+21% constant currency)",
+        "basis": "not stated",
+        "note": "underlying loss £4.5m vs £11.9m loss"
+      },
+      {
+        "metric": "Eastdil Secured revenue (H1)",
+        "current": "US$302m (£225m)",
+        "prior": "US$232m (£178m)",
+        "change": "up",
+        "basis": "not stated",
+        "note": "acquired business; EBITDA US$51m (£38m)"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "not stated",
+      "current": "the Board's expectations for the enlarged Group for 2026 are unchanged",
+      "commentary": "Guidance for the enlarged Group (including Eastdil Secured) for 2026 is reaffirmed despite market uncertainty. The Board flags that transactional pipelines are strong but macro volatility, notably Middle East conflict and UK political change, makes the timing of pipeline conversion difficult to predict."
+    },
+    "explainer": "Savills reports two profit measures. 'Underlying' profit before tax, which strips out one-off items, rose 47% to £34.3m — the number that best reflects trading. 'Reported' profit before tax fell to £7.0m because it includes sizeable one-off costs tied to buying Eastdil Secured, so the two figures moving in opposite directions is a timing/accounting effect rather than a deterioration in the core business.\n\nRevenue growth of 9% was the same in constant currency, meaning exchange-rate movements had a negligible effect — the growth is real, not a currency artefact. The business splits into Transactional work (buying, selling and leasing property, which is cyclical and made a small loss in the seasonally weaker first half) and Less Transactional work (consultancy and property management, which is steadier). Both grew, and prior restructuring is now feeding through to better profitability.\n\nThe Eastdil Secured acquisition completed on 31 July 2026, after the period end, so its results are shown separately for now; only a five-month contribution will appear in the full-year figures. Eastdil is a US real estate investment banking leader and materially increases Savills' exposure to the recovering US market.\n\nOn guidance, nothing has changed: the Board says its expectations for the enlarged Group in 2026 are unchanged. The caution is around timing — strong pipelines exist, but geopolitical and UK political uncertainty make it hard to predict when deals will convert to revenue in the second half.",
+    "source_url": "https://uk.advfn.com/stock-market/london/savills-SVS/share-news/Savills-PLC-Half-year-Report/99110597",
+    "related_news_url": "https://news.google.com/search?q=%22Savills%20plc%22",
+    "added_at": "2026-08-13T09:46:27.676425"
+  },
+  {
+    "company": "Rio Tinto PLC",
+    "ticker": "RIO",
+    "publish_date": "13 August 2026",
+    "date_iso": "2026-08-13",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>Tomago Aluminium</strong> — Australia's largest smelter, <strong>51.55%</strong> owned by <strong>Rio Tinto</strong> — has secured a <strong>10-year power purchase agreement</strong> running to <strong>2038</strong>, starting after the current contract expires on <strong>31 December 2028</strong>.</li><li>Power to be <strong>100% renewable from 2033</strong>, cutting the smelter's Scope 1 and 2 emissions by <strong>7.1 million tonnes per year</strong>.</li><li><strong>Tomago</strong> will invest <strong>A$1.1bn</strong> (real terms) in the smelter to 2038, including <strong>A$100m</strong> for decarbonisation.</li><li>Follows a <strong>March 2026</strong> deal securing the <strong>Boyne</strong> smelter at Gladstone, giving Australia's two largest smelters a secured low-carbon power pathway.</li><li>Smelter produces up to <strong>590,000 tonnes</strong> a year (~<strong>40%</strong> of Australian output) and directly employs around <strong>1,000 people</strong>; JV also owned by <strong>Gove Aluminium Finance (36.05%)</strong> and <strong>Norsk Hydro (12.4%)</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Rio Tinto welcomes a deal with Australian and NSW governments securing power for the Tomago aluminium smelter to 2038, backed by A$1.1bn of investment.",
+    "priority": "medium",
+    "priority_reason": "Strategic operational agreement securing long-term power for a major smelter, but not results, M&A or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/rio-tinto-RIO/share-news/Rio-Tinto-PLC-Agreement-to-secure-long-term-future/99110699",
+    "related_news_url": "https://news.google.com/search?q=%22Rio%20Tinto%20PLC%22",
+    "added_at": "2026-08-13T09:46:27.634804"
+  },
+  {
+    "company": "Pennon Group plc",
+    "ticker": "PNN",
+    "publish_date": "13 August 2026",
+    "date_iso": "2026-08-13",
+    "time_period": "FY27/28 to end of AMP 8",
+    "announcement_type": "Trading update",
+    "period_detail": "FY27/28 to end of AMP 8",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Ofwat</strong> has published its Draft Determination on Pennon's Cost Change submissions made in <strong>May 2026</strong>, confirming <strong>£190m</strong> of additional investment for <strong>FY27/28</strong> through to the end of <strong>AMP 8</strong>.</li><li>The draft determinations reflect the core business cases proposed and, per Pennon, the strength of its submissions.</li><li>Pennon will review the determinations in detail and respond with representations by the due date of <strong>24 September 2026</strong>.</li><li>Figure as stated in the source; the announcement does not quantify the impact on earnings or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Ofwat's draft determination allows Pennon £190m of additional investment for FY27/28 through to the end of AMP 8.",
+    "priority": "high",
+    "priority_reason": "Ofwat draft determination confirms a material uplift in allowed investment for Pennon, directly affecting the regulated capital programme.",
+    "figures": [
+      {
+        "metric": "Additional allowed investment",
+        "current": "£190m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "Ofwat Draft Determination",
+        "note": "FY27/28 to end of AMP 8"
+      }
+    ],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "Ofwat is the economic regulator for the water sector in England and Wales. Water companies operate within five-year price control periods known as Asset Management Plans (AMP); AMP 8 covers 2025–2030. A 'Cost Change' submission is a mechanism for a company to request an adjustment to its allowed spending within the period, which Ofwat assesses and rules on via a Draft Determination.\n\nThe £190m figure is additional investment Ofwat is proposing to allow Pennon to make from FY27/28 to the end of AMP 8. In regulated water, allowed investment (totex) feeds the regulatory capital value on which the company earns a return, so a larger allowance can support future revenue and returns — though the announcement does not translate the £190m into any earnings or dividend figure.\n\nThis is a draft, not final. Pennon will submit representations by 24 September 2026 before Ofwat issues its final determination, so the number could still change. No trading guidance was issued or altered in this announcement.",
+    "source_url": "https://uk.advfn.com/stock-market/london/pennon-PNN/share-news/Pennon-Group-PLC-Cost-Change-Draft-Determination/99110975",
+    "related_news_url": "https://news.google.com/search?q=%22Pennon%20Group%20plc%22",
+    "added_at": "2026-08-13T09:46:27.578287"
+  },
+  {
+    "company": "Entain plc",
+    "ticker": "ENT",
+    "publish_date": "13 August 2026",
+    "date_iso": "2026-08-13",
+    "time_period": "H1 to 30 June 2026",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>H1 to 30 June 2026</strong>: Group NGR <strong>+5%cc</strong> (Online <strong>+7%cc</strong>, Retail <strong>+1%cc</strong>), ahead of expectations, with strong World Cup engagement across the portfolio.</li><li>Group Underlying EBITDA <strong>£479m, -2% YoY</strong> (<strong>£473m -3%</strong> excl. Parent Fees), ahead of expectations as NGR outperformance was offset by higher UK online gambling tax.</li><li>Group <strong>loss after tax of £11.4m</strong>, improved <strong>£74m YoY</strong>; adjusted diluted EPS <strong>20.3p, -19% YoY</strong>. Net debt <strong>£3,599m</strong>, leverage <strong>3.1x</strong> (flat YoY).</li><li>Declared interim dividend of <strong>10.3p, +5% YoY</strong> in line with progressive policy; UK&I NGR <strong>+8%cc</strong> and Australia Online <strong>+13%cc</strong> both ahead of expectations.</li><li>Announced phased exit of <strong>Entain CEE</strong>: initial <strong>20% divestment agreed at €425m</strong> (total EV <strong>€2.1bn, c.10x EBITDA</strong>), completion expected early Q4 2026, with proceeds to cut leverage below 3x and return excess capital.</li><li><strong>Reiterated FY26 guidance</strong>: Online NGR growth <strong>5-7%cc</strong> and Group Underlying EBITDA (excl. Parent fees) <strong>£910m-£960m</strong>, midpoint in line with market; reaffirmed <strong>£500m</strong> annual adjusted cashflow target for 2028.</li></ul>",
+    "source_format": "html",
+    "headline": "Entain reports H1 NGR up 5% cc and underlying EBITDA of £479m, both ahead of expectations, reiterating FY26 guidance and progressing its phased Entain CEE exit.",
+    "priority": "high",
+    "priority_reason": "Half-year results from a FTSE 100 company with earnings, dividend and reaffirmed FY26 guidance, plus a CEE divestment.",
+    "figures": [
+      {
+        "metric": "Group NGR growth",
+        "current": "+5%cc",
+        "prior": "not stated",
+        "change": "+5%cc",
+        "basis": "constant currency",
+        "note": "H1 to 30 June 2026, continuing operations excl. CEE"
+      },
+      {
+        "metric": "Online NGR growth",
+        "current": "+7%cc",
+        "prior": "not stated",
+        "change": "+7%cc",
+        "basis": "constant currency",
+        "note": "Gaming +9%cc, Sports +4%cc"
+      },
+      {
+        "metric": "Group Underlying EBITDA",
+        "current": "£479m",
+        "prior": "not stated",
+        "change": "-2% YoY",
+        "basis": "underlying, continuing operations",
+        "note": "£473m -3% excl. Parent Fees"
+      },
+      {
+        "metric": "Online Underlying EBITDA",
+        "current": "£395m",
+        "prior": "not stated",
+        "change": "-5% YoY",
+        "basis": "underlying",
+        "note": "margin 21.4%"
+      },
+      {
+        "metric": "Retail Underlying EBITDA",
+        "current": "£142m",
+        "prior": "not stated",
+        "change": "+6% YoY",
+        "basis": "underlying",
+        "note": "H1 2026"
+      },
+      {
+        "metric": "Loss after tax",
+        "current": "£11.4m loss",
+        "prior": "not stated",
+        "change": "improved £74m YoY",
+        "basis": "continuing operations",
+        "note": "loss inc. CEE £5.6m"
+      },
+      {
+        "metric": "Adjusted diluted EPS",
+        "current": "20.3p",
+        "prior": "not stated",
+        "change": "-19% YoY",
+        "basis": "continuing operations",
+        "note": "27.7p inc. Entain CEE"
+      },
+      {
+        "metric": "Interim dividend",
+        "current": "10.3p",
+        "prior": "not stated",
+        "change": "+5% YoY",
+        "basis": "per share",
+        "note": "c.£65.9m, payable 28 September 2026"
+      },
+      {
+        "metric": "Net debt",
+        "current": "£3,599m",
+        "prior": "not stated",
+        "change": "leverage 3.1x flat YoY",
+        "basis": "reported",
+        "note": "as at 30 June 2026; available cash £0.9bn"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "FY26 Online NGR growth 5-7%cc; FY26 Group Underlying EBITDA (excl. Parent fees) £910m-£960m; £500m annual adjusted cashflow in 2028",
+      "current": "FY26 Online NGR growth 5-7%cc; FY26 Group Underlying EBITDA (excl. Parent fees) £910m-£960m with midpoint in line with market; Online EBITDA margin 21-22%; £500m annual adjusted cashflow in 2028 reaffirmed",
+      "commentary": "Entain reiterated the FY26 guidance set alongside its planned CEE exit. Company-compiled consensus (17 July 2026) for FY26 Group EBITDA was £934m, near the midpoint of the range. FY26 Online EBITDA margin guidance of 21-22% reflects the 20% CEE divestment and mitigation of about 25% of the increased UK online gambling tax."
+    },
+    "explainer": "These are half-year figures for the six months to 30 June 2026. Growth is quoted on a constant-currency (cc) basis, meaning both the current and prior periods are translated at 2026 exchange rates so movements reflect underlying trading rather than currency swings. Figures are for continuing operations, which now exclude Entain's Central and Eastern European (CEE) business — that unit is treated as discontinued because Entain has agreed to sell an initial 20% stake and is pursuing a full phased exit.\n\nRevenue is measured as Net Gaming Revenue (NGR), stakes less winnings before certain taxes. NGR rose 5% cc, ahead of expectations, but underlying EBITDA (earnings before interest, tax, depreciation, amortisation and various one-offs) fell 2% to £479m because the increased UK online gambling tax more than offset the revenue outperformance. The statutory result was a small loss after tax of £11.4m, though that was £74m better than a year earlier, helped by favourable movements on financial instruments and foreign exchange rather than trading.\n\nOn guidance, nothing was changed — Entain maintained its FY26 targets of 5-7% cc Online NGR growth and Group underlying EBITDA of £910m-£960m (excluding BetMGM parent fees), with the midpoint said to be in line with consensus of £934m. It also reaffirmed a longer-term goal of £500m of annual adjusted cashflow by 2028. The CEE disposal is the main strategic change: the 20% sale values the unit at an enterprise value of about €2.1bn (roughly 10x EBITDA), and a full exit is intended to bring group leverage below 3x with surplus capital returned to shareholders.",
+    "source_url": "https://uk.advfn.com/stock-market/london/entain-ENT/share-news/Entain-PLC-Interim-Results/99110645",
+    "related_news_url": "https://news.google.com/search?q=%22Entain%20plc%22",
+    "added_at": "2026-08-13T09:46:27.453990"
+  },
+  {
     "company": "Costain Group PLC",
     "ticker": "COST",
     "publish_date": "13 August 2026",
