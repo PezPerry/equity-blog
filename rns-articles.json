@@ -1,5 +1,57 @@
 [
   {
+    "company": "Supermarket Income Reit PLC",
+    "ticker": "SUPR",
+    "publish_date": "13 August 2026",
+    "date_iso": "2026-08-13",
+    "time_period": "FY to 30 June 2026",
+    "announcement_type": "Notice of results",
+    "period_detail": "FY to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Supermarket Income REIT plc</strong> will publish <strong>full year results</strong> for the year ended <strong>30 June 2026</strong> on <strong>Wednesday, 16 September 2026</strong>.</li><li>Analyst and investor presentation at <strong>8:30 a.m. BST</strong> on results day, with webcast and Q&A; separate Investor Meet Company presentation by <strong>Rob Abraham (CEO)</strong> and <strong>Mike Perkins (CFO)</strong> on <strong>Thursday, 17 September 2026 at 2:30 p.m. BST</strong>.</li><li>Routine scheduling notice with <strong>no impact</strong> on trading or guidance; portfolio valued at <strong>£2.1 billion</strong> as at 31 December 2025.</li></ul>",
+    "source_format": "html",
+    "headline": "Supermarket Income REIT will report full-year results for the year ended 30 June 2026 on Wednesday 16 September 2026.",
+    "priority": "low",
+    "priority_reason": "Routine notice of a future results date and investor presentations, with no financial content.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/supermarket-income-reit--supr/notice-of-results-and-investor-meet-presentation/9719088",
+    "related_news_url": "https://news.google.com/search?q=%22Supermarket%20Income%20REIT%20plc%22",
+    "added_at": "2026-08-13T09:49:06.963227"
+  },
+  {
+    "company": "Schroders PLC",
+    "ticker": "SDR",
+    "publish_date": "13 August 2026",
+    "date_iso": "2026-08-13",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>Schroders Capital Global Innovation Trust plc</strong> has appointed <strong>BDO LLP</strong> as auditor for the financial year ending <strong>31 December 2026</strong>, following a competitive tender led by its Audit, Risk and Valuation Committee.</li><li><strong>EY</strong> has ceased to be auditor and has confirmed there are no matters needing to be brought to members' or creditors' attention under <strong>section 519 of the Companies Act 2006</strong>.</li><li>The appointment is subject to shareholder approval at the next AGM, to be held in the <strong>first half of 2027</strong>.</li><li>Routine governance disclosure with <strong>no impact</strong> on trading, NAV or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Schroders Capital Global Innovation Trust appoints BDO LLP as auditor for FY2026, replacing EY following a competitive tender.",
+    "priority": "low",
+    "priority_reason": "Routine auditor change following a tender process, with no impact on trading, NAV or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/schroders-capital-global-innovation-trust--inov/change-of-auditor/9719094",
+    "related_news_url": "https://news.google.com/search?q=%22Schroders%20Capital%20Global%20Innovation%20Trust%20plc%22",
+    "added_at": "2026-08-13T09:49:06.714315"
+  },
+  {
     "company": "The Rank Group Plc",
     "ticker": "RNK",
     "publish_date": "13 August 2026",
