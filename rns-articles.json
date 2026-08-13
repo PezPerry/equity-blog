@@ -1,5 +1,31 @@
 [
   {
+    "company": "Aberdeen Group PLC",
+    "ticker": "ABDN",
+    "publish_date": "13 August 2026",
+    "date_iso": "2026-08-13",
+    "time_period": "FY to 31 July 2026",
+    "announcement_type": "Dividend declaration",
+    "period_detail": "FY to 31 July 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Aberdeen Asia Focus plc</strong> declares a <strong>fourth interim dividend of 1.64p</strong> net for the year ended <strong>31 July 2026</strong> (2025: <strong>1.63p</strong>).</li><li>Payable <strong>22 September 2026</strong> to shareholders on the register on <strong>21 August 2026</strong>; ex-dividend date <strong>20 August 2026</strong>.</li><li>Total four interim dividends of <strong>6.44p</strong> per ordinary 5p share for FY2026, up <strong>0.16%</strong> on the prior year (2025: <strong>6.43p</strong>).</li><li>Routine dividend declaration by an investment trust with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Aberdeen Asia Focus declares fourth interim dividend of 1.64p, taking full-year distributions to 6.44p, up 0.16% on 2025.",
+    "priority": "low",
+    "priority_reason": "Routine interim dividend declaration by an investment trust, marginally up on the prior year.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/aberdeen-asia-focus--aas/fourth-interim-dividend/9720689",
+    "related_news_url": "https://news.google.com/search?q=%22Aberdeen%20Asia%20Focus%20plc%22",
+    "added_at": "2026-08-13T11:55:39.661213"
+  },
+  {
     "company": "HSBC Holdings PLC",
     "ticker": "HSBA",
     "publish_date": "13 August 2026",
