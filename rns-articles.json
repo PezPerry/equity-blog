@@ -213,6 +213,129 @@
     "added_at": "2026-08-14T07:24:24.593186"
   },
   {
+    "company": "JD.com Inc",
+    "ticker": "JD",
+    "publish_date": "13 August 2026",
+    "date_iso": "2026-08-13",
+    "time_period": "Q2 and H1 2026 (to 30 June 2026)",
+    "announcement_type": "Interim results",
+    "period_detail": "Q2 and H1 2026 (to 30 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Q2 2026</strong> net revenues <strong>down 2.9%</strong> to <strong>RMB346.4bn (US$51.1bn)</strong> from <strong>RMB356.7bn</strong>, as net product revenue fell <strong>5.4%</strong> on a high 2025 base while net service revenue rose <strong>6.8%</strong>.</li><li>Income from operations swung to a profit of <strong>RMB4.5bn (US$0.7bn)</strong> from a <strong>RMB0.9bn loss</strong> a year earlier; operating margin <strong>1.3%</strong> vs <strong>-0.2%</strong>; non-GAAP EBITDA <strong>RMB7.9bn</strong> vs <strong>RMB3.0bn</strong>.</li><li>Net income attributable to shareholders rose to <strong>RMB7.1bn (US$1.1bn)</strong> from <strong>RMB6.2bn</strong>; diluted EPS per ADS <strong>RMB5.01</strong> vs <strong>RMB4.15</strong>; non-GAAP diluted EPS per ADS <strong>RMB6.29</strong> vs <strong>RMB4.97</strong>.</li><li><strong>JD Retail</strong> operating income <strong>RMB13.5bn</strong> (margin <strong>4.6%</strong> vs <strong>4.5%</strong>), described as a record high for peak promotional seasons; <strong>New Businesses</strong> losses narrowed on reduced <strong>JD Food Delivery</strong> loss.</li><li>Marketing spend cut <strong>24.8%</strong> to <strong>RMB20.3bn</strong>; <strong>R&D up 37.7%</strong> to <strong>RMB7.3bn</strong>; cash and short-term investments <strong>RMB235.1bn (US$34.6bn)</strong> at 30 June 2026.</li><li>Repurchased ~<strong>2.5%</strong> of ordinary shares (<strong>69.9m</strong> Class A shares / <strong>34.9m</strong> ADSs) for <strong>US$1.0bn</strong> in H1 2026 under the <strong>US$5.0bn</strong> buyback programme; <strong>US$1.0bn</strong> remaining.</li></ul>",
+    "source_format": "html",
+    "headline": "JD.com Q2 2026 revenue fell 2.9% to RMB346.4bn but net income rose to RMB7.1bn as JD Retail margins hit record peak-season highs.",
+    "priority": "high",
+    "priority_reason": "Quarterly and interim results from a major listed retailer, with a clear profit inflection despite falling revenue.",
+    "figures": [
+      {
+        "metric": "Net revenues",
+        "current": "RMB346.4bn (US$51.1bn)",
+        "prior": "RMB356.7bn",
+        "change": "-2.9%",
+        "basis": "reported",
+        "note": "Q2 2026 vs Q2 2025"
+      },
+      {
+        "metric": "Income from operations",
+        "current": "RMB4.5bn (US$0.7bn)",
+        "prior": "-RMB0.9bn",
+        "change": "not stated",
+        "basis": "GAAP",
+        "note": "Q2 2026 vs Q2 2025"
+      },
+      {
+        "metric": "Operating margin",
+        "current": "1.3%",
+        "prior": "-0.2%",
+        "change": "not stated",
+        "basis": "GAAP",
+        "note": "Q2 2026 vs Q2 2025"
+      },
+      {
+        "metric": "Non-GAAP EBITDA",
+        "current": "RMB7.9bn (US$1.2bn)",
+        "prior": "RMB3.0bn",
+        "change": "not stated",
+        "basis": "non-GAAP",
+        "note": "Q2 2026 vs Q2 2025"
+      },
+      {
+        "metric": "Net income attributable to ordinary shareholders",
+        "current": "RMB7.1bn (US$1.1bn)",
+        "prior": "RMB6.2bn",
+        "change": "not stated",
+        "basis": "GAAP",
+        "note": "Q2 2026 vs Q2 2025"
+      },
+      {
+        "metric": "Non-GAAP net income attributable to ordinary shareholders",
+        "current": "RMB8.9bn (US$1.3bn)",
+        "prior": "RMB7.4bn",
+        "change": "not stated",
+        "basis": "non-GAAP",
+        "note": "Q2 2026 vs Q2 2025"
+      },
+      {
+        "metric": "Diluted EPS per ADS",
+        "current": "RMB5.01 (US$0.74)",
+        "prior": "RMB4.15",
+        "change": "not stated",
+        "basis": "GAAP",
+        "note": "Q2 2026 vs Q2 2025"
+      },
+      {
+        "metric": "Non-GAAP diluted EPS per ADS",
+        "current": "RMB6.29 (US$0.93)",
+        "prior": "RMB4.97",
+        "change": "not stated",
+        "basis": "non-GAAP",
+        "note": "Q2 2026 vs Q2 2025"
+      },
+      {
+        "metric": "JD Retail operating income",
+        "current": "RMB13.5bn (US$2.0bn)",
+        "prior": "RMB13.9bn",
+        "change": "not stated",
+        "basis": "GAAP",
+        "note": "Q2 2026 vs Q2 2025; margin 4.6% vs 4.5%"
+      },
+      {
+        "metric": "Marketing expenses",
+        "current": "RMB20.3bn (US$3.0bn)",
+        "prior": "RMB27.0bn",
+        "change": "-24.8%",
+        "basis": "reported",
+        "note": "Q2 2026 vs Q2 2025"
+      },
+      {
+        "metric": "R&D expenses",
+        "current": "RMB7.3bn (US$1.1bn)",
+        "prior": "RMB5.3bn",
+        "change": "+37.7%",
+        "basis": "reported",
+        "note": "Q2 2026 vs Q2 2025"
+      },
+      {
+        "metric": "Cash and short-term investments",
+        "current": "RMB235.1bn (US$34.6bn)",
+        "prior": "RMB225.4bn",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "30 June 2026 vs 31 December 2025"
+      }
+    ],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": "The announcement gives qualitative outlook comments but no numerical guidance for future periods."
+    },
+    "explainer": "JD.com's second-quarter revenue dipped 2.9% year-on-year, which the company attributes largely to a 'high base effect' — Q2 2025 was unusually strong, so the comparison flatters the decline rather than signalling a collapse in demand. Product sales (goods JD buys and resells) fell 5.4%, while higher-margin service revenue (marketplace commissions and advertising) grew 6.8%, shifting the revenue mix toward more profitable activity.\n\nDespite the softer top line, profitability improved sharply. The business swung from an operating loss of RMB0.9bn a year ago to a RMB4.5bn profit, driven by record peak-season margins at the core JD Retail unit, a 24.8% cut in marketing spend, and narrower losses in the New Businesses segment — chiefly reduced losses at JD Food Delivery. Note the gap between the RMB5.01 reported EPS per ADS and the RMB6.29 non-GAAP figure: the non-GAAP number strips out items like share-based compensation and acquisition amortisation, so it is management's preferred, flattering measure.\n\nThe company issued no numerical guidance; comments about 'a healthy financial trajectory' are directional only. Investors should also weigh the RMB1.0bn of H1 buybacks (about 2.5% of shares) as a supportive factor for per-share metrics, with a further US$1.0bn still available under the programme through August 2027.\n\nFigures are in Chinese renminbi (RMB) with US dollar conversions provided by the company; there is no sterling figure in the announcement.",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/JD/share-news/JD-com-Announces-Second-Quarter-and-Interim-2026-R/99113475",
+    "related_news_url": "https://news.google.com/search?q=%22JD.com%2C%20Inc.%22",
+    "added_at": "2026-08-14T07:55:57.949409"
+  },
+  {
     "company": "Haleon plc",
     "ticker": "HLN",
     "publish_date": "13 August 2026",
