@@ -1,5 +1,31 @@
 [
   {
+    "company": "Next PLC",
+    "ticker": "NXT",
+    "publish_date": "14 August 2026",
+    "date_iso": "2026-08-14",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>Next 15 Group plc</strong> has applied to admit <strong>36,389 new ordinary shares</strong> of 2.5p each to <strong>AIM</strong>, issued on vesting of long-term incentives for <strong>M Booth Health LLC</strong>.</li><li>Admission expected to be effective by <strong>19 August 2026</strong>; new shares rank pari passu with existing ordinary shares.</li><li>Total shares in issue following admission: <strong>102,167,628</strong>, with no shares held in treasury.</li><li>Routine additional listing with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Next 15 applies to admit 36,389 new AIM shares from long-term incentive vesting, taking shares in issue to 102,167,628.",
+    "priority": "low",
+    "priority_reason": "Routine additional listing of a small number of shares from long-term incentive vesting, with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/bzw/next-15-group--nfg/additional-listing/9723184",
+    "related_news_url": "https://news.google.com/search?q=%22Next%2015%20Group%20plc%22",
+    "added_at": "2026-08-14T13:55:45.641364"
+  },
+  {
     "company": "Sirius Real Estate Ltd",
     "ticker": "SRE",
     "publish_date": "14 August 2026",
