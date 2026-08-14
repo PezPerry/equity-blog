@@ -1,5 +1,31 @@
 [
   {
+    "company": "Sirius Real Estate Ltd",
+    "ticker": "SRE",
+    "publish_date": "14 August 2026",
+    "date_iso": "2026-08-14",
+    "time_period": "",
+    "announcement_type": "Dividend declaration",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li>Results of the <strong>Dividend Reinvestment Plan (DRIP)</strong> for the cash dividend covering the <strong>six months ended 31 March 2026</strong>.</li><li>UK register: holders of <strong>15.19 million shares (0.95%)</strong> elected for DRIP, giving purchase of <strong>418,910 shares</strong> at an average <strong>£0.99696</strong> each.</li><li>SA register: holders of <strong>107.86 million shares (6.78%)</strong> elected for DRIP, giving purchase of <strong>2,891,945 shares</strong> at an average <strong>R22.31985</strong> each.</li><li>Shares were <strong>bought in the market, not newly issued</strong>, so total issued share capital is unchanged at <strong>1,591,588,877 shares</strong>; no shares held in treasury.</li><li>In total the cash equivalent of <strong>€3,962,303.31</strong> was satisfied through delivery of shares; routine disclosure with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Sirius Real Estate reports DRIP take-up for its H1 dividend, with shares bought in the market rather than newly issued, leaving issued capital unchanged.",
+    "priority": "low",
+    "priority_reason": "Routine administrative disclosure of DRIP take-up; shares bought in the market, no new issuance and no change to issued share capital.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/sirius-real-estate-ltd---sre/results-of-dividend-reinvestment-plan/9722647",
+    "related_news_url": "https://news.google.com/search?q=%22Sirius%20Real%20Estate%20Limited%22",
+    "added_at": "2026-08-14T11:15:43.852924"
+  },
+  {
     "company": "Hiscox Ltd",
     "ticker": "HSX",
     "publish_date": "14 August 2026",
