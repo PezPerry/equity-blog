@@ -1,5 +1,31 @@
 [
   {
+    "company": "Rentokil Initial PLC",
+    "ticker": "RTO",
+    "publish_date": "14 August 2026",
+    "date_iso": "2026-08-14",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Rentokil Initial plc</strong> formalises its operating structure into two divisions — <strong>North America</strong> and <strong>International</strong> — to sharpen accountability and simplify the operating model.</li><li><strong>Phill Wood</strong> appointed <strong>CEO of the International Division</strong> with immediate effect, adding to his existing UK, Ireland & Sub-Saharan Africa remit; with the Company since <strong>2006</strong>.</li><li><strong>Matt Jochim</strong> appointed <strong>Group Chief Transformation Officer</strong> effective <strong>7 September 2026</strong>, joining from <strong>McKinsey</strong> where he led the UK & Ireland Operations Practice; reports to the CEO.</li><li><strong>Rafael 'Rafa' Carrasco</strong> (ex-<strong>WM / Waste Management</strong>) already joined as <strong>CEO, North America</strong> on <strong>3 August</strong>, as previously announced.</li><li>CEO <strong>Mike Duffy</strong> frames the changes as executing the priorities set out at the Interims; <strong>no impact</strong> on trading or guidance stated.</li></ul>",
+    "source_format": "html",
+    "headline": "Rentokil Initial formalises a two-division structure and names Phill Wood CEO of the new International Division plus Matt Jochim as Group Chief Transformation Officer.",
+    "priority": "medium",
+    "priority_reason": "Executive leadership appointments and a divisional restructure, but no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/rentokil-initial-RTO/share-news/Rentokil-Initial-PLC-Organisational-Changes-Lead/99111892",
+    "related_news_url": "https://news.google.com/search?q=%22Rentokil%20Initial%20plc%22",
+    "added_at": "2026-08-14T07:41:44.487298"
+  },
+  {
     "company": "Frasers Group PLC",
     "ticker": "FRAS",
     "publish_date": "14 August 2026",
@@ -185,6 +211,32 @@
     "source_url": "https://www.investegate.co.uk/announcement/rns/touchstone-exploration-inc-npv-di---txp/second-quarter-2026-results-and-operational-update/9721537",
     "related_news_url": "https://news.google.com/search?q=%22Touchstone%20Exploration%20Inc.%22",
     "added_at": "2026-08-14T07:24:24.593186"
+  },
+  {
+    "company": "Haleon plc",
+    "ticker": "HLN",
+    "publish_date": "13 August 2026",
+    "date_iso": "2026-08-13",
+    "time_period": "",
+    "announcement_type": "Fundraising / debt issuance",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Haleon plc</strong> priced a <strong>$2bn</strong> three-tranche, SEC-registered senior fixed-rate USD bond offering via subsidiary <strong>Haleon US Capital LLC</strong> on <strong>12 August 2026</strong>, settling <strong>21 August 2026</strong>.</li><li>Tranches: <strong>$600m at 4.625%</strong> due <strong>2029</strong>, <strong>$600m at 4.875%</strong> due <strong>2031</strong>, and <strong>$800m at 5.375%</strong> due <strong>2036</strong>; principal and interest fully guaranteed by <strong>Haleon plc</strong>.</li><li>Net proceeds, plus cash on hand if needed, to fund the concurrent tender offer to repurchase the outstanding <strong>$1,999,350,000 3.375% Senior Notes due March 2027</strong> (announced <strong>11 August 2026</strong>), and for general corporate purposes.</li><li>Joint Book-Running Managers: <strong>Barclays</strong>, <strong>BofA Securities</strong>, <strong>Deutsche Bank</strong>, <strong>Goldman Sachs</strong> and <strong>Mizuho</strong>.</li><li>Routine refinancing exercise with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Haleon has priced a $2bn three-tranche USD bond offering, largely to refinance its outstanding $2bn 3.375% notes due March 2027.",
+    "priority": "medium",
+    "priority_reason": "A $2bn bond issuance is a material financing event, but proceeds are largely refinancing existing 2027 notes rather than raising new capital.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/haleon-HLN/share-news/Haleon-PLC-Launch-price-2bn-three-tranche-bond/99111974",
+    "related_news_url": "https://news.google.com/search?q=%22Haleon%20plc%22",
+    "added_at": "2026-08-14T07:41:44.415137"
   },
   {
     "company": "Golar LNG Ltd",
