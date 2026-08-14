@@ -1,5 +1,31 @@
 [
   {
+    "company": "Hiscox Ltd",
+    "ticker": "HSX",
+    "publish_date": "14 August 2026",
+    "date_iso": "2026-08-14",
+    "time_period": "2024 and 2025 syndicate accounts",
+    "announcement_type": "Trading update",
+    "period_detail": "2024 and 2025 syndicate accounts",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Hiscox Ltd</strong> publishes current estimates for <strong>Syndicate 33</strong> and <strong>Syndicate 6104</strong> on their <strong>2024</strong> and <strong>2025</strong> underwriting accounts, expressed as a percentage of capacity.</li><li>The scraped text does <strong>not include the estimates table</strong>, so the actual percentage-of-capacity figures could not be captured from this source.</li><li>Estimates are stated after standard personal expenses (Managing Agent fees, profit commission and Lloyd's charges) but before Members' Agents' charges.</li><li>Routine Lloyd's syndicate disclosure with <strong>no stated impact</strong> on group trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Hiscox releases current estimates for Lloyd's Syndicates 33 and 6104 on their 2024 and 2025 accounts, expressed as a percentage of capacity.",
+    "priority": "low",
+    "priority_reason": "Routine Lloyd's syndicate capacity-return estimates with no group-level financial impact stated, and the figures table was not captured in the scrape.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/hiscox-HSX/share-news/Hiscox-Ltd-Syndicates-33-and-6104-results-and-e/99122076",
+    "related_news_url": "https://news.google.com/search?q=%22Hiscox%20Ltd%22",
+    "added_at": "2026-08-14T09:36:00.135078"
+  },
+  {
     "company": "Roadside Real Estate PLC",
     "ticker": null,
     "publish_date": "14 August 2026",
