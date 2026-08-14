@@ -1,5 +1,31 @@
 [
   {
+    "company": "Roadside Real Estate PLC",
+    "ticker": null,
+    "publish_date": "14 August 2026",
+    "date_iso": "2026-08-14",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Tarncourt Capital Ltd</strong>, controlled by CEO <strong>Charles Dickson</strong>, purchased an aggregate <strong>19,766,666 ordinary shares</strong> at <strong>57.5 pence</strong> each on <strong>13 August 2026</strong> — 18,666,666 shares plus a further 1,100,000.</li><li>Of the larger tranche, <strong>13,066,666 shares</strong> were bought from <strong>Davina Dickson</strong> and <strong>5,600,000</strong> from <strong>James Dickson</strong> — an intra-family transfer rather than open-market accumulation.</li><li>Following the purchases, the <strong>Dickson family concert party</strong> holds <strong>95,550,354 shares</strong>, or <strong>54.56%</strong> of issued share capital; Charles Dickson personally holds 23.55% and Tarncourt a further 17.17%.</li><li>Concert party remains above 50% of voting rights, so no <strong>Rule 9</strong> mandatory offer obligation normally arises from further acquisitions by members.</li><li>Routine MAR/PDMR disclosure with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "CEO Charles Dickson's vehicle Tarncourt bought 19.77m Roadside shares at 57.5p, taking the Dickson concert party to 54.56% of the company.",
+    "priority": "medium",
+    "priority_reason": "CEO-controlled vehicle bought a large stake at a set price and the concert party update lifts holdings above 54%, though it is an intra-family transfer.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/roadside-real-estate--road/director-dealings-and-changes-to-the-concert-party/9722206",
+    "related_news_url": "https://news.google.com/search?q=%22Roadside%20Real%20Estate%20PLC%22",
+    "added_at": "2026-08-14T07:56:20.831806"
+  },
+  {
     "company": "Rentokil Initial PLC",
     "ticker": "RTO",
     "publish_date": "14 August 2026",
