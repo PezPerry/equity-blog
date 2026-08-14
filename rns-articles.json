@@ -1,5 +1,88 @@
 [
   {
+    "company": "Touchstone Exploration Inc",
+    "ticker": "TXP",
+    "publish_date": "14 August 2026",
+    "date_iso": "2026-08-14",
+    "time_period": "Q2 2026 (three and six months ended 30 June 2026)",
+    "announcement_type": "Interim results",
+    "period_detail": "Q2 2026 (three and six months ended 30 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Touchstone Exploration Inc.</strong> (AIM/TSX: TXP) posted Q2 2026 net income of <strong>$2.34m</strong> (<strong>$0.01</strong> per basic and diluted share), reversing the Q1 2026 loss of <strong>$2.38m</strong>; all figures in <strong>US dollars</strong>.</li><li>Funds flow from operations rose to <strong>$7.13m</strong> from <strong>$1.85m</strong> in Q1 2026, and petroleum and natural gas sales climbed <strong>39%</strong> sequentially to <strong>$17.47m</strong> on higher realised pricing across all streams.</li><li>Operating netback improved <strong>77%</strong> quarter-on-quarter to <strong>$24.37/boe</strong>; realised crude and liquids averaged <strong>$70.13/bbl</strong> and natural gas <strong>$4.93/Mcf</strong>.</li><li>Production dipped <strong>5%</strong> sequentially to <strong>4,433 boe/d</strong> on planned third-party maintenance at <strong>Atlantic LNG</strong> Train 4; the <strong>Cascadura</strong> booster compressor entered service on <strong>9 July 2026</strong> at ~<strong>16.5 MMcf/d</strong> gross.</li><li>Net debt cut <strong>10%</strong> sequentially to <strong>$68.71m</strong>; post-quarter the <strong>$8.4m</strong> debenture was repaid and converted into equity via a <strong>Purebond</strong> share subscription of <strong>89,765,000</strong> shares.</li><li>The interim accounts include a <strong>material uncertainty / going-concern</strong> note, with a <strong>$28.7m</strong> working capital deficit, a covenant waiver secured for 2026, and <strong>$14.2m</strong> of bank debt repayments due over the next 12 months.</li></ul>",
+    "source_format": "html",
+    "headline": "Touchstone returned to profit in Q2 2026 with net income of $2.34m as funds flow more than tripled to $7.13m on stronger pricing.",
+    "priority": "high",
+    "priority_reason": "Quarterly results with a return to profit, but the accounts carry a material going-concern uncertainty.",
+    "figures": [
+      {
+        "metric": "Net income (loss)",
+        "current": "$2.34m",
+        "prior": "-$2.38m",
+        "change": "n/a",
+        "basis": "vs prior quarter (Q1 2026)",
+        "note": "vs -$0.71m in Q2 2025; $0.01 per share"
+      },
+      {
+        "metric": "Funds flow from operations",
+        "current": "$7.13m",
+        "prior": "$1.85m",
+        "change": "not stated",
+        "basis": "vs prior quarter (Q1 2026)",
+        "note": "vs $1.43m in Q2 2025"
+      },
+      {
+        "metric": "Petroleum and natural gas sales",
+        "current": "$17.47m",
+        "prior": "$12.54m",
+        "change": "+39%",
+        "basis": "vs prior quarter (Q1 2026)",
+        "note": "vs $11.01m in Q2 2025 (+59%)"
+      },
+      {
+        "metric": "Operating netback",
+        "current": "$24.37/boe",
+        "prior": "$13.73/boe",
+        "change": "+77%",
+        "basis": "vs prior quarter (Q1 2026)",
+        "note": "vs $12.59/boe in Q2 2025 (+94%)"
+      },
+      {
+        "metric": "Average daily production",
+        "current": "4,433 boe/d",
+        "prior": "4,657 boe/d",
+        "change": "-5%",
+        "basis": "vs prior quarter (Q1 2026)",
+        "note": "vs 4,399 boe/d in Q2 2025 (+1%)"
+      },
+      {
+        "metric": "Net debt",
+        "current": "$68.71m",
+        "prior": "not stated",
+        "change": "-10%",
+        "basis": "sequential (quarter-end)",
+        "note": "vs $63.89m at 30 June 2025"
+      },
+      {
+        "metric": "Capital expenditures",
+        "current": "$1.52m",
+        "prior": "$4.66m",
+        "change": "-67%",
+        "basis": "vs Q2 2025",
+        "note": "three months ended 30 June"
+      }
+    ],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": "No formal production or financial guidance figures provided; management flags near-term production optimisation opportunities as pipeline constraints normalise after the Atlantic Train 4 outage."
+    },
+    "explainer": "Touchstone reports in US dollars, and its headline highlights compare Q2 2026 against the prior quarter (Q1 2026), whereas the results table compares against Q2 2025 a year earlier. The sequential comparison is the more flattering one: Q1 2026 was a weak, loss-making quarter, so the jump in funds flow (to $7.13m from $1.85m) and the 77% rise in operating netback largely reflect a recovery in realised oil and gas prices rather than higher volumes. Production actually fell 5% quarter-on-quarter to 4,433 boe/d because planned maintenance at the third-party Atlantic LNG Train 4 facility constrained gas output.\n\nThe return to profit — net income of $2.34m, or $0.01 a share — reverses the $2.38m loss booked in Q1 2026. Higher realised gas pricing was helped by redirecting Central block volumes to Atlantic LNG Trains 2/3, which carry a structurally higher price formula, during the Train 4 outage.\n\nThe most important caveat is the balance sheet. The interim statements carry a material-uncertainty note casting significant doubt on Touchstone's ability to continue as a going concern. The company reported a $28.7m working capital deficit, has $14.2m of bank debt repayments due over the next 12 months, and is chasing $11.1m of VAT receivables. It secured a waiver of its 2026 debt-service-coverage covenant and, after quarter-end, repaid an $8.4m short-term debenture by converting it into equity via a Purebond share subscription, which reduces near-term debt but dilutes shareholders. No formal forward guidance figures were given.",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/touchstone-exploration-inc-npv-di---txp/second-quarter-2026-results-and-operational-update/9721537",
+    "related_news_url": "https://news.google.com/search?q=%22Touchstone%20Exploration%20Inc.%22",
+    "added_at": "2026-08-14T07:24:24.593186"
+  },
+  {
     "company": "Frasers Group PLC",
     "ticker": "FRAS",
     "publish_date": "13 August 2026",
