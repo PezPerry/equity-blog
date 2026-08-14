@@ -1,5 +1,31 @@
 [
   {
+    "company": "GB Group plc",
+    "ticker": "GBG",
+    "publish_date": "14 August 2026",
+    "date_iso": "2026-08-14",
+    "time_period": "FY27",
+    "announcement_type": "Trading update",
+    "period_detail": "FY27",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>GBG</strong> now expects <strong>FY27 total group revenue growth of 1-3%</strong>, down from previous guidance of <strong>mid-single digit</strong>, citing <strong>higher than expected volume attrition on a few material Americas Identity customers</strong>.</li><li>Q2 growth has not improved and the attrition impact is <strong>unlikely to be mitigated within the current financial year</strong> given the normal sales cycle; Q1 was in line with Board expectations, supported by strong <strong>EMEA Identity</strong> trading and <strong>GBG Go</strong> momentum.</li><li><strong>FY27 adjusted operating profit margin</strong> guided to <strong>approximately 21%</strong>, with cost control offsetting the headwind; the <strong>one-off £6 million investment</strong> in GBG Go announced in June continues.</li><li><strong>Tom Schutz</strong> (Chief Revenue Officer, Americas) has left the business; COO <strong>James Gothard</strong> assumes interim responsibility for the Americas.</li><li>Q1 Americas Identity revenue was only marginally below plan, but the sales pipeline remains described as strong.</li></ul>",
+    "source_format": "html",
+    "headline": "GBG cuts FY27 group revenue growth guidance to 1-3% (from mid-single digit) after higher-than-expected customer attrition in its Americas Identity business.",
+    "priority": "high",
+    "priority_reason": "Guidance cut on weaker Americas Identity trading plus a senior departure — a profit-warning-style update from a FTSE 250 name.",
+    "figures": [],
+    "guidance": {
+      "status": "lowered",
+      "previous": "Mid-single digit total group revenue growth for FY27",
+      "current": "FY27 total group revenue growth of 1-3%; FY27 adjusted operating profit margin of approximately 21%",
+      "commentary": "GBG has cut its full-year revenue growth outlook because a small number of material Americas Identity customers reduced volumes more than expected, and the shortfall cannot be recovered this year given the length of the sales cycle. Management is holding margin near 21% through cost control while pressing ahead with the £6m GBG Go investment."
+    },
+    "explainer": "This is a mid-year trading update, not full results. GBG had told the market at its 21 July AGM that Q1 was in line with expectations, helped by strong Identity trading in EMEA. The change here is that the Americas Identity business has deteriorated in Q2, with several sizeable customers cutting usage volumes by more than the company planned for.\n\nThe key figure is the downgrade to guidance: group revenue growth for the year to March 2027 is now expected at 1-3%, versus the 'mid-single digit' (broadly 4-6%) previously indicated. Because GBG recognises revenue over a normal sales cycle, new pipeline wins take time to convert, so the lost volume cannot be made up before the financial year ends.\n\nOn profitability, GBG still expects an adjusted operating margin of about 21%, protected by cost control, and is keeping the separate one-off £6m investment in its AI-powered GBG Go platform that it announced in June. 'Adjusted' means before certain one-off or non-cash items, so the reported margin could differ.\n\nAlongside the numbers, the head of the Americas revenue function, Tom Schutz, has departed, with COO James Gothard stepping in on an interim basis — a leadership change directly tied to the region under pressure.",
+    "source_url": "https://uk.advfn.com/stock-market/london/gb-GBG/share-news/GB-Group-PLC-Americas-Identity-trading-update/99121164",
+    "related_news_url": "https://news.google.com/search?q=%22GB%20Group%20plc%22",
+    "added_at": "2026-08-14T07:37:58.572146"
+  },
+  {
     "company": "Touchstone Exploration Inc",
     "ticker": "TXP",
     "publish_date": "14 August 2026",
