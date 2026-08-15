@@ -198,7 +198,11 @@ function render() {
   $('companyMeta').textContent = [c.industry, c.supersector, c.subsector].filter(Boolean).join(' › ');
 
   // KPIs
-  $('kpiPrice').textContent = c.price !== null ? `${cur}${fmt(c.price, 2)}` : '—';
+  // EMI-20260810-006 item 1: share price shows the bare number — no currency symbol.
+  // Listings mix GBp and USD, so a symbol made 1027 ambiguous (£10.27 vs $1,027).
+  // Mickey's decision, 6 Aug 2026; decimals confirmed 15 Aug 2026 (£2,785.00 → 2,785.00).
+  // Scope is the share price only — every other currency symbol on the page is unchanged.
+  $('kpiPrice').textContent = c.price !== null ? fmt(c.price, 2) : '—';
   const ch = c.changePct;
   const chEl = $('kpiChange');
   chEl.textContent = ch !== null ? `${ch > 0 ? '+' : ''}${fmt(ch, 2)}% today` : '—';
