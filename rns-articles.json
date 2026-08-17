@@ -1,5 +1,57 @@
 [
   {
+    "company": "Hiscox Ltd",
+    "ticker": "HSX",
+    "publish_date": "17 August 2026",
+    "date_iso": "2026-08-17",
+    "time_period": "",
+    "announcement_type": "Buyback programme update",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Hiscox Ltd</strong> has completed the initial tranche of its <strong>$300 million</strong> share repurchase programme (announced <strong>25 February 2026</strong>), finishing on <strong>14 August 2026</strong>.</li><li><strong>6,608,372</strong> Ordinary Shares were purchased between <strong>25 February</strong> and <strong>14 August 2026</strong> under the up-to-<strong>$150 million</strong> first tranche run by <strong>Peel Hunt LLP</strong>.</li><li>A second tranche of up to <strong>$150 million</strong> begins <strong>today (17 August 2026)</strong> and will end no later than the end of 2026, conducted by <strong>Citigroup Global Markets Limited (Citi)</strong> acting as principal.</li><li>Up to <strong>25,859,658</strong> Ordinary Shares remain available under the second tranche (of a maximum <strong>32,468,030</strong> shares authorised at the <strong>14 May 2026</strong> AGM).</li><li>Purchased shares will be <strong>cancelled</strong> to reduce issued share capital; purchases will be announced weekly.</li></ul>",
+    "source_format": "html",
+    "headline": "Hiscox has completed the initial $150m tranche of its $300m buyback and launched a second $150m tranche with Citi, running to end-2026.",
+    "priority": "medium",
+    "priority_reason": "Completion of the first tranche and launch of a new $150m second tranche of an ongoing buyback is a corporate capital-return event, not a routine daily dealing form.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/hiscox-limited-di---hsx/update-on-share-repurchase-programme/9723844",
+    "related_news_url": "https://news.google.com/search?q=%22Hiscox%20Ltd%22",
+    "added_at": "2026-08-17T07:19:39.358993"
+  },
+  {
+    "company": "AstraZeneca PLC",
+    "ticker": "AZN",
+    "publish_date": "17 August 2026",
+    "date_iso": "2026-08-17",
+    "time_period": "",
+    "announcement_type": "Clinical trial results",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>SAFFRON</strong> Phase III trial met its endpoints: <strong>Tagrisso</strong> (osimertinib) plus <strong>Orpathys</strong> (savolitinib) delivered statistically significant, clinically meaningful improvements in <strong>progression-free survival</strong> and <strong>overall survival</strong> versus doublet platinum-based chemotherapy.</li><li>First global Phase III to show both <strong>PFS and OS</strong> benefit in EGFRm NSCLC patients with high <strong>MET</strong> overexpression/amplification who progressed on prior Tagrisso — a resistance mechanism affecting roughly <strong>one in three</strong> patients.</li><li>Trial enrolled <strong>338 patients</strong> across <strong>230 centres in 29 countries</strong>; safety profile consistent with each medicine's known profile, with <strong>no new safety findings</strong>.</li><li>Data to be presented at a forthcoming medical meeting and shared with global regulators to support registrations; <strong>Orpathys</strong> is co-developed with <strong>HUTCHMED</strong> and commercialised by AstraZeneca.</li><li>Combination already approved in China (SACHI trial) and granted temporary authorisation in Switzerland; positions the all-oral, biomarker-directed combination for broader global approval.</li></ul>",
+    "source_format": "html",
+    "headline": "AstraZeneca's SAFFRON Phase III trial showed Tagrisso plus Orpathys significantly improved progression-free and overall survival in MET-driven, EGFR-mutated lung cancer after Tagrisso progression.",
+    "priority": "high",
+    "priority_reason": "Positive Phase III trial data on a major franchise drug (Tagrisso) addressing resistance in EGFR-mutated lung cancer, supporting global registrations.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/astrazeneca-AZN/share-news/AstraZeneca-PLC-Tagrisso-Orpathys-improved-PFS-O/99132141",
+    "related_news_url": "https://news.google.com/search?q=%22AstraZeneca%20PLC%22",
+    "added_at": "2026-08-17T07:19:39.340864"
+  },
+  {
     "company": "Telecom Plus PLC",
     "ticker": "TEP",
     "publish_date": "17 August 2026",
