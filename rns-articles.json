@@ -1,5 +1,72 @@
 [
   {
+    "company": "Telecom Plus PLC",
+    "ticker": "TEP",
+    "publish_date": "17 August 2026",
+    "date_iso": "2026-08-17",
+    "time_period": "First four months of FY27 (April to July 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "First four months of FY27 (April to July 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Telecom Plus PLC</strong> (Utility Warehouse) reiterates FY27 guidance for adjusted profit before tax of <strong>£80m to £90m</strong> at its AGM trading statement.</li><li>Annualised multiservice customer growth in the first four months of FY27 is running <strong>slightly ahead of the 10% full-year target</strong> and more than <strong>2.5x</strong> the <strong>3.9%</strong> rate achieved in FY26.</li><li>Partner network at record activity: <strong>c.4.9k</strong> average monthly active Partners (up from <strong>c.4.2k</strong> in H2 FY26) and total Partners over <strong>85k</strong> at end-July (up from <strong>c.77k</strong> at end-FY26).</li><li>In-life cross-selling ramping up with <strong>c.17,000</strong> core services cross-sold so far, on track for the <strong>50,000</strong> FY27 target; motor insurance launch on OpenGI planned for <strong>H2 FY27</strong>.</li><li>FY27 adjusted PBT phasing weighted <strong>15%/85%</strong> H1/H2 (vs c.25%/75% last year); net debt to adjusted EBITDA expected to peak at <strong>c.1.5x</strong>.</li><li><strong>£40m</strong> buyback: <strong>c.2.44m</strong> shares bought back by <strong>14 August 2026</strong> at average <strong>818.66p</strong>, with <strong>£20m</strong> remaining; final FY26 dividend of <strong>12p</strong> payable <strong>28 August</strong>.</li><li>Long-term goal reaffirmed of <strong>£175m</strong> adjusted PBT by FY31.</li></ul>",
+    "source_format": "html",
+    "headline": "Telecom Plus reiterates FY27 adjusted PBT guidance of £80m-£90m after encouraging start, with multiservice customer growth running at 2.5x the FY26 rate.",
+    "priority": "high",
+    "priority_reason": "AGM trading statement with a full-year guidance reiteration and detailed early trading momentum, directly relevant to the shares.",
+    "figures": [
+      {
+        "metric": "Annualised multiservice customer growth",
+        "current": "slightly ahead of 10% target",
+        "prior": "3.9%",
+        "change": "more than 2.5x",
+        "basis": "annualised",
+        "note": "first four months of FY27 vs FY26"
+      },
+      {
+        "metric": "Average monthly active Partners",
+        "current": "c.4.9k",
+        "prior": "c.4.2k",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "first four months of FY27 vs H2 FY26"
+      },
+      {
+        "metric": "Total Partners",
+        "current": "over 85k",
+        "prior": "c.77k",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "end July 2026 vs end FY26"
+      },
+      {
+        "metric": "Core services cross-sold",
+        "current": "c.17,000",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "first four months of FY27; FY27 target 50,000"
+      },
+      {
+        "metric": "Final dividend (FY26)",
+        "current": "12p",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "per share",
+        "note": "payable 28 August 2026, record date 7 August 2026"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Adjusted profit before tax of £80m to £90m for FY27 (as set at 23 June 2026 strategy update)",
+      "current": "Adjusted profit before tax of £80m to £90m for FY27, reiterated",
+      "commentary": "Full-year adjusted PBT guidance is unchanged. The company reconfirmed the heavier H2 profit weighting (c.15%/85% H1/H2 vs c.25%/75% last year) reflecting phasing of the five-year investment programme, and net debt to adjusted EBITDA peaking at c.1.5x in FY27."
+    },
+    "explainer": "This is an AGM trading update covering the first four months of the new financial year (FY27, April to July 2026), the opening period of the five-year growth plan announced on 23 June 2026. It is a narrative statement rather than full accounts, so most metrics are operational (customer growth, Partner numbers, cross-selling) rather than audited financials.\n\nThe key headline metric is multiservice customer growth, which is running slightly ahead of the 10% full-year target and more than 2.5 times the 3.9% rate delivered in FY26. Partner numbers — the self-employed distributors who sell Utility Warehouse services — are at record levels on both activity (c.4.9k monthly active, up from c.4.2k) and total headcount (over 85k, up from c.77k), which management links directly to the improved customer proposition.\n\nOn guidance, nothing has changed at the full-year level: adjusted profit before tax of £80m-£90m for FY27 is reiterated. What is worth noting is the phasing — because the investment programme is front-loaded, profit is skewed even more heavily to the second half (c.15%/85% split versus c.25%/75% last year), so a soft-looking H1 in November should not be read as a downgrade. Net debt to adjusted EBITDA is expected to peak at around 1.5x this year before falling to about 1x over the plan.\n\nSeparately, the £40m buyback is roughly half complete (c.2.44m shares at an average 818.66p, £20m still to deploy), the 12p FY26 final dividend is paid on 28 August, and the company flagged an interim dividend and likely buyback extension alongside November's half-year results.",
+    "source_url": "https://uk.advfn.com/stock-market/london/telecom-plus-TEP/share-news/Telecom-Plus-PLC-AGM-Trading-Statement/99132076",
+    "related_news_url": "https://news.google.com/search?q=%22Telecom%20Plus%20PLC%22",
+    "added_at": "2026-08-17T07:18:35.984382"
+  },
+  {
     "company": "Capricorn Energy PLC",
     "ticker": "CNE",
     "publish_date": "17 August 2026",
