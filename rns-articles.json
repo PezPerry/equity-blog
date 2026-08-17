@@ -1,5 +1,57 @@
 [
   {
+    "company": "HSBC Holdings PLC",
+    "ticker": "HSBA",
+    "publish_date": "17 August 2026",
+    "date_iso": "2026-08-17",
+    "time_period": "",
+    "announcement_type": "Debt issuance",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>HSBC Holdings plc</strong> has issued <strong>US$6.75bn</strong> of senior unsecured notes in three tranches under its existing indenture dated <strong>26 August 2009</strong>.</li><li>Tranches: <strong>US$2.5bn 5.243%</strong> fixed/floating notes due <strong>2032</strong>, <strong>US$3.25bn 5.729%</strong> fixed/floating notes due <strong>2037</strong>, and <strong>US$1bn</strong> floating rate notes due <strong>2032</strong>.</li><li>Application will be made to list the notes on the <strong>New York Stock Exchange</strong>; the offering was made under an effective SEC shelf registration on Form F-3.</li><li>Routine debt-funding exercise with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "HSBC has issued US$6.75bn of senior unsecured notes across three tranches maturing in 2032 and 2037.",
+    "priority": "low",
+    "priority_reason": "Routine senior unsecured note issuance under an existing shelf registration, with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/hsbc-HSBA/share-news/HSBC-Holdings-PLC-Issuance-of-senior-unsecured-not/99127811",
+    "related_news_url": "https://news.google.com/search?q=%22HSBC%20Holdings%20plc%22",
+    "added_at": "2026-08-17T07:17:40.306993"
+  },
+  {
+    "company": "Steel Dynamics Inc",
+    "ticker": "STLD",
+    "publish_date": "14 August 2026",
+    "date_iso": "2026-08-14",
+    "time_period": "Q3 2026",
+    "announcement_type": "Dividend declaration",
+    "period_detail": "Q3 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Steel Dynamics, Inc.</strong> board declared a Q3 cash dividend of <strong>$0.53 per common share</strong>.</li><li>Payable to shareholders of record at close of business on <strong>30 September 2026</strong>, payable on or about <strong>9 October 2026</strong>.</li><li>Routine dividend declaration with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Steel Dynamics declares a third-quarter 2026 cash dividend of $0.53 per common share, payable on or about 9 October 2026.",
+    "priority": "medium",
+    "priority_reason": "Routine quarterly cash dividend declaration with no change to trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/STLD/share-news/Steel-Dynamics-Announces-Third-Quarter-2026-Cash-D/99127217",
+    "related_news_url": "https://news.google.com/search?q=%22Steel%20Dynamics%2C%20Inc.%22",
+    "added_at": "2026-08-17T07:17:40.270002"
+  },
+  {
     "company": "Next PLC",
     "ticker": "NXT",
     "publish_date": "14 August 2026",
