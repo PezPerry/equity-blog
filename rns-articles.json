@@ -1,5 +1,31 @@
 [
   {
+    "company": "NVIDIA Corp",
+    "ticker": "NVDA",
+    "publish_date": "17 August 2026",
+    "date_iso": "2026-08-17",
+    "time_period": "",
+    "announcement_type": "Acquisition / deal",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>NVIDIA</strong> is securing capacity at <strong>SB Energy's</strong> PORTS-Pike Technology Campus in <strong>Pike County, Ohio</strong> to exclusively host NVIDIA AI factories, with <strong>OpenAI</strong> using the capacity via the full-stack <strong>DSX AI factory platform</strong>.</li><li>Initial deployment designed to support <strong>4.25 IT-GW</strong> of AI factory capacity, with an option to extend; planned capacity comes online in phases from <strong>2028</strong>.</li><li><strong>NVIDIA</strong> will invest <strong>$1.5 billion</strong> in <strong>SB Energy</strong>, joining existing investors <strong>SoftBank Group</strong> and <strong>OpenAI</strong>.</li><li><strong>SB Energy</strong> and <strong>SoftBank</strong> to build at least <strong>10 GW</strong> of new generation (<strong>8 IT-GW</strong> of AI factory capacity) and invest at least <strong>$4.2 billion</strong> in regional grid infrastructure with <strong>AEP Ohio</strong>.</li><li><strong>OpenAI</strong> to add an incremental <strong>$40 million</strong> to SB Energy's existing <strong>$40 million</strong> community benefits fund; developed with the <strong>US Department of Energy</strong> and <strong>Department of Commerce</strong>.</li><li>Note: this is a <strong>US-listed NVIDIA (NASDAQ: NVDA)</strong> press release, not a UK RNS filing — relevant to UK traders given NVIDIA's index weight and AI-infrastructure read-across.</li></ul>",
+    "source_format": "html",
+    "headline": "NVIDIA will exclusively host its AI compute at SB Energy's Ohio PORTS-Pike campus and invest $1.5bn in SB Energy, with OpenAI as customer.",
+    "priority": "high",
+    "priority_reason": "Major AI infrastructure deal with a $1.5bn NVIDIA equity investment and multi-gigawatt compute commitment tied to OpenAI and SoftBank.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/NVDA/share-news/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology/99137836",
+    "related_news_url": "https://news.google.com/search?q=%22NVIDIA%20Corporation%22",
+    "added_at": "2026-08-17T14:16:03.284648"
+  },
+  {
     "company": "Mitie Group plc",
     "ticker": "MTO",
     "publish_date": "17 August 2026",
