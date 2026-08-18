@@ -1,5 +1,57 @@
 [
   {
+    "company": "Mobico Group PLC",
+    "ticker": "MCG",
+    "publish_date": "18 August 2026",
+    "date_iso": "2026-08-18",
+    "time_period": "",
+    "announcement_type": "Acquisition / deal",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Mobico Group PLC</strong> has agreed in principle to sell its <strong>West Midlands UK Bus</strong> operations to the <strong>West Midlands Combined Authority (WMCA)</strong> for expected upfront residual proceeds of approximately <strong>£24 million</strong> after deductions.</li><li>Headline asset value of approximately <strong>£102 million</strong> (depots and diesel fleet, broadly in line with book value) less total deductions of approximately <strong>£78 million</strong> for transferred liabilities, primarily the UK Bus pension and electric-vehicle contracts.</li><li>Further deferred consideration of <strong>£5.5 million</strong> — half at end <strong>2027</strong>, half on vacant possession of the Birmingham Central depot expected end <strong>2029</strong> — plus <strong>£9.9 million</strong> contingent consideration if WMCA reverses franchising before <strong>May 2028</strong>.</li><li>Deal <strong>substantially de-risks</strong> the Group from the West Midlands franchising transition (full rollout by end 2029); UK Bus has run at broadly break-even for years and is expected to be <strong>broadly neutral to earnings</strong> and to 2026 covenant gearing.</li><li>For the 15 months to <strong>31 March 2026</strong>, UK Bus generated revenue of <strong>£338 million</strong>, Adj. EBITDA of <strong>£23 million</strong> and Adj. Operating Profit of <strong>£2 million</strong> (marginally loss-making excluding disposal profits); net assets ~<strong>£31 million</strong> with an IAS19 pension deficit of <strong>£53 million</strong>.</li><li>Notifiable under <strong>UKLR 7</strong>; Board unanimously approved; Completion expected around <strong>November 2026</strong>, subject to an internal reorganisation. <strong>BofA Securities</strong> (financial adviser) and <strong>Freshfields</strong> (legal adviser) acting for Mobico. Group trading since 31 March 2026 remains in line with Board expectations.</li></ul>",
+    "source_format": "html",
+    "headline": "Mobico agrees in-principle sale of its West Midlands UK Bus business to the West Midlands Combined Authority for around £24m upfront residual proceeds.",
+    "priority": "high",
+    "priority_reason": "Notifiable disposal of the West Midlands UK Bus business under UKLR 7, a significant strategic transaction for the Group.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/mobico-MCG/share-news/Mobico-Group-PLC-Proposed-Sale-of-UK-Bus/99143307",
+    "related_news_url": "https://news.google.com/search?q=%22Mobico%20Group%20PLC%22",
+    "added_at": "2026-08-18T09:15:59.569179"
+  },
+  {
+    "company": "IG Group Holdings PLC",
+    "ticker": "IGG",
+    "publish_date": "18 August 2026",
+    "date_iso": "2026-08-18",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>IG Group Holdings plc</strong> has changed its registered and principal business address to <strong>88 Wood Street, London EC2V 7DA</strong>, with <strong>immediate effect</strong>.</li><li>Routine administrative disclosure with <strong>no impact</strong> on trading, results or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "IG Group has moved its registered and principal business address to 88 Wood Street, London EC2V 7DA with immediate effect.",
+    "priority": "low",
+    "priority_reason": "Routine administrative change of registered office with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/ig-group-holdings--igg/change-of-registered-office/9727254",
+    "related_news_url": "https://news.google.com/search?q=%22IG%20Group%20Holdings%20plc%22",
+    "added_at": "2026-08-18T09:15:59.554216"
+  },
+  {
     "company": "Lloyds Banking Group PLC",
     "ticker": "LLOY",
     "publish_date": "18 August 2026",
