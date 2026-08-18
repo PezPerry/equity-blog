@@ -1,5 +1,31 @@
 [
   {
+    "company": "Vodafone Group PLC",
+    "ticker": "VOD",
+    "publish_date": "18 August 2026",
+    "date_iso": "2026-08-18",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>Vodafone Group plc</strong> has made beneficial amendments to the conditions of four series of previously issued subordinated <strong>Securities</strong> to align their subordination provisions.</li><li>Affected: <strong>€500m Capital Securities due 2078</strong>, <strong>€1,000m Capital Securities due 2080</strong>, <strong>€750m Notes due 2084</strong> and <strong>£500m Notes due 2086</strong> — now ranking <strong>pari passu</strong> with each other and Vodafone's <strong>€700m + €700m Ordinary Subordinated Notes due 2055</strong>.</li><li>Supplemental trust deeds executed and amended final terms published for the 2084 and 2086 Notes; a routine debt-documentation matter with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Vodafone amends terms of four subordinated bond series so they rank pari passu with each other and its 2055 subordinated notes.",
+    "priority": "low",
+    "priority_reason": "Technical amendment to subordinated bond terms to align ranking; no impact on equity, trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/vodafone-group--vod/publication-of-amended-documents/9727967",
+    "related_news_url": "https://news.google.com/search?q=%22Vodafone%20Group%20plc%22",
+    "added_at": "2026-08-18T13:35:36.609947"
+  },
+  {
     "company": "Ocado Group PLC",
     "ticker": "OCDO",
     "publish_date": "18 August 2026",
