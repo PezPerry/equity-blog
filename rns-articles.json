@@ -1,5 +1,104 @@
 [
   {
+    "company": "BHP Group Ltd",
+    "ticker": "BHP",
+    "publish_date": "18 August 2026",
+    "date_iso": "2026-08-18",
+    "time_period": "FY to 30 June 2026",
+    "announcement_type": "Annual results",
+    "period_detail": "FY to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>BHP Group Limited</strong> FY26 (year to <strong>30 June 2026</strong>): <strong>Underlying EBITDA ~US$33bn</strong> (up <strong>~US$7bn</strong>), with <strong>Copper</strong> contributing a record <strong>>US$18bn</strong> — <strong>54%</strong> of group EBITDA and the first year the majority of earnings came from copper.</li><li><strong>Underlying attributable profit US$13.2bn</strong>, up <strong>30%</strong> on FY25; <strong>Attributable profit ~US$10bn</strong> (up <strong>9%</strong>), after a <strong>US$2.3bn</strong> Jansen impairment and <strong>US$1.1bn</strong> Samarco charge.</li><li><strong>Final dividend of 99 US cents per share</strong> (<strong>US$5.0bn</strong>), the largest in four years; total FY26 cash returns of <strong>US$8.7bn</strong> (<strong>US$1.72/share</strong>, fully franked).</li><li><strong>Net debt US$8.7bn</strong> (FY25: <strong>US$12.9bn</strong>), below the <strong>US$10-20bn</strong> target range; net debt/EBITDA <strong>0.3x</strong>, gearing <strong>13.4%</strong>; <strong>free cash flow up 83% to US$9.8bn</strong>.</li><li><strong>Record iron ore</strong> production at WAIO and <strong>~2 Mt of copper</strong> for a second year; unit costs <strong>6.1%</strong> lower across major assets; <strong>ROCE 26.1%</strong>.</li><li>Growth pipeline advancing: <strong>Escondida</strong> US$0.5bn pre-commitment for a new concentrator, <strong>Jansen</strong> Stage 1 <strong>84%</strong> complete (first production mid-CY27), and a potential <strong>Vicuña</strong> Stage 1 FID as early as end-CY26.</li></ul>",
+    "source_format": "html",
+    "headline": "BHP posts ~US$33bn Underlying EBITDA and US$13.2bn Underlying attributable profit for FY26, with copper contributing over half of group earnings for the first time.",
+    "priority": "high",
+    "priority_reason": "Full-year results from a FTSE 100 mega-cap with record earnings, a large dividend and capital-return update.",
+    "figures": [
+      {
+        "metric": "Underlying EBITDA",
+        "current": "~US$33bn",
+        "prior": "not stated",
+        "change": "+~US$7bn",
+        "basis": "",
+        "note": "FY26; Copper 54% (FY25: 45%)"
+      },
+      {
+        "metric": "Underlying attributable profit",
+        "current": "US$13.2bn",
+        "prior": "not stated",
+        "change": "+30%",
+        "basis": "",
+        "note": "FY26"
+      },
+      {
+        "metric": "Attributable profit",
+        "current": "~US$10bn",
+        "prior": "not stated",
+        "change": "+9%",
+        "basis": "",
+        "note": "FY26"
+      },
+      {
+        "metric": "Net debt",
+        "current": "US$8.7bn",
+        "prior": "US$12.9bn",
+        "change": "not stated",
+        "basis": "",
+        "note": "at 30 June 2026 vs 30 June 2025"
+      },
+      {
+        "metric": "Free cash flow",
+        "current": "US$9.8bn",
+        "prior": "not stated",
+        "change": "+83%",
+        "basis": "",
+        "note": "FY26"
+      },
+      {
+        "metric": "Final dividend",
+        "current": "99 US cents/share (US$5.0bn)",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "fully franked",
+        "note": "total FY26 returns US$1.72/share (US$8.7bn)"
+      },
+      {
+        "metric": "Underlying EBITDA margin",
+        "current": "59%",
+        "prior": "not stated",
+        "change": "+6 percentage points",
+        "basis": "",
+        "note": "Copper margin 70% (+11pts)"
+      },
+      {
+        "metric": "Underlying ROCE",
+        "current": "26.1%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "FY26"
+      },
+      {
+        "metric": "Total payments to governments",
+        "current": "US$12.4bn",
+        "prior": "US$10.4bn",
+        "change": "not stated",
+        "basis": "",
+        "note": "FY26 vs FY25"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Capital and exploration expenditure guidance ~US$11bn in FY27",
+      "current": "Capital and exploration expenditure ~US$11bn in FY27, now also ~US$11bn in FY28 and on average each year FY29-FY31; FY27 adjusted effective tax rate 35-40%",
+      "commentary": "FY27 capex guidance is unchanged at ~US$11bn. The FY28 and FY29-FY31 average figures reflect the higher cost of completing Jansen Stage 2 and adverse FX, partly offset by capital efficiency. Group copper-equivalent production is guided to a 3-4% CAGR between FY27 and FY35."
+    },
+    "explainer": "This is BHP's full-year result for the 12 months to 30 June 2026. Headline earnings are quoted in US dollars because that is BHP's reporting currency. 'Underlying' profit strips out exceptional items — here a US$2.3bn impairment on the Jansen potash project and US$1.1bn related to the Samarco dam failure — so Underlying attributable profit (US$13.2bn, +30%) is much higher than the statutory Attributable profit (~US$10bn, +9%). The gap is the one-off charges, not trading performance.\n\nThe standout structural change is that copper generated more than half of group EBITDA (54%) for the first time, overtaking iron ore. Higher realised prices for copper, iron ore and coal, plus lower unit costs (down 6.1% across major assets despite ~4% inflation), drove EBITDA up around US$7bn to ~US$33bn. Escondida cut unit costs 10% and Copper SA 73%, the latter helped by gold and silver by-product credits.\n\nThe balance sheet strengthened sharply: net debt fell to US$8.7bn from US$12.9bn, below the bottom of the US$10-20bn target range, aided by the US$4.3bn Antamina silver-streaming proceeds and asset sales. That, plus 83% higher free cash flow of US$9.8bn, funded a 99 US-cent final dividend — the largest in four years — and total shareholder returns of US$1.72 per share.\n\nOn guidance, capital and exploration spend is essentially held flat at ~US$11bn a year: FY27 is unchanged, while the new FY28 and FY29-FY31 figures reflect the added cost of Jansen Stage 2 and higher FX, offset by efficiencies. Production guidance is for 3-4% copper-equivalent growth CAGR to FY35, so this is a 'maintained' capex outlook rather than an upgrade or cut.",
+    "source_url": "https://uk.advfn.com/stock-market/london/bhp-BHP/share-news/BHP-Group-Limited-BHP-FY2026-Results-Announcement/99142213",
+    "related_news_url": "https://news.google.com/search?q=%22BHP%20Group%20Limited%22",
+    "added_at": "2026-08-18T07:17:17.626206"
+  },
+  {
     "company": "NVIDIA Corp",
     "ticker": "NVDA",
     "publish_date": "17 August 2026",
