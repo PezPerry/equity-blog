@@ -1,5 +1,31 @@
 [
   {
+    "company": "Ocado Group PLC",
+    "ticker": "OCDO",
+    "publish_date": "18 August 2026",
+    "date_iso": "2026-08-18",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>Ocado Group plc</strong> notifies admission of <strong>871,451</strong> new ordinary shares of 2p to trading on the <strong>London Stock Exchange</strong>, allotted under the <strong>Ocado Share Incentive Plan</strong> and <strong>Restricted Share Plan</strong>.</li><li>Total shares in issue following issuance: <strong>846,128,721</strong>; covering the period <strong>8 July 2026 - 17 August 2026</strong>.</li><li>Routine share-plan admission disclosure with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Ocado admits 871,451 new ordinary shares issued under its employee share incentive and restricted share plans to the London Stock Exchange.",
+    "priority": "low",
+    "priority_reason": "Routine admission of shares issued under employee share plans, with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/ocado-group--ocdo/admission-to-trading/9727734",
+    "related_news_url": "https://news.google.com/search?q=%22Ocado%20Group%20plc%22",
+    "added_at": "2026-08-18T11:55:43.457668"
+  },
+  {
     "company": "Metlen Energy & Metals Plc",
     "ticker": "MTLN",
     "publish_date": "18 August 2026",
