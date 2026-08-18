@@ -1,5 +1,100 @@
 [
   {
+    "company": "RHI Magnesita NV",
+    "ticker": "RHIM",
+    "publish_date": "18 August 2026",
+    "date_iso": "2026-08-18",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Stefan Borgas</strong> will step down as CEO and Executive Director on <strong>31 October 2026</strong> and retire from executive roles after around a decade leading the group.</li><li><strong>Gustavo Franco</strong>, currently Chief Customer Officer, appointed CEO effective <strong>1 November 2026</strong> following a planned succession process.</li><li>Franco joined <strong>Magnesita in 2001</strong>, has over two decades in refractories, and has been on the Executive Management Team since 2019; he helped integrate <strong>RHI and Magnesita</strong> after the 2017 merger.</li><li>Structured handover planned ahead of the transition, with Borgas staying available as an advisor afterwards.</li><li>Franco's appointment as executive director to be submitted for shareholder approval at the <strong>May 2027 AGM</strong>; routine management change with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "CEO Stefan Borgas to step down on 31 October 2026, with Chief Customer Officer Gustavo Franco appointed CEO from 1 November 2026.",
+    "priority": "medium",
+    "priority_reason": "A planned CEO succession is a significant management change but not a trading or guidance event.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/rhi-magnesita-nv-RHIM/share-news/RHI-Magnesita-N-V-Board-Changes-CEO-Succession/99142285",
+    "related_news_url": "https://news.google.com/search?q=%22RHI%20Magnesita%20N.V.%22",
+    "added_at": "2026-08-18T07:17:47.857930"
+  },
+  {
+    "company": "Kainos Group plc",
+    "ticker": "KNOS",
+    "publish_date": "18 August 2026",
+    "date_iso": "2026-08-18",
+    "time_period": "FY to 31 March 2027",
+    "announcement_type": "Trading update",
+    "period_detail": "FY to 31 March 2027",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Kainos Group plc</strong> now expects <strong>FY27</strong> (year ending <strong>31 March 2027</strong>) revenue and adjusted PBT to be <strong>comfortably ahead of current market expectations</strong>, following a strong start to the year.</li><li>Company-compiled consensus stands at <strong>revenue £509.3m</strong> (range <strong>£498.0m–£514.0m</strong>) and <strong>adjusted PBT £77.1m</strong> (range <strong>£75.0m–£84.0m</strong>).</li><li>FY26 (year ended <strong>31 March 2026</strong>) delivered <strong>double-digit percentage revenue growth</strong>, a very strong sales performance and <strong>record backlog</strong>, with momentum continuing into the current year.</li><li><strong>Digital Services</strong> growing strongly on significant contracts secured in H2/FY26 and further wins since year-start; <strong>Workday Services</strong> and <strong>Workday Products</strong> both up <strong>double-digit</strong> year-on-year.</li><li>Board cites a robust pipeline and significant multi-year contracted backlog despite a volatile macro environment.</li><li>Interim results for the six months to <strong>30 September 2026</strong> due on <strong>Monday 9 November 2026</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Kainos raised FY27 guidance, expecting revenue and adjusted PBT comfortably ahead of market expectations after a strong start to the year.",
+    "priority": "high",
+    "priority_reason": "Trading update raising FY27 guidance above market expectations — clear share-price sensitive news.",
+    "figures": [
+      {
+        "metric": "FY27 revenue (consensus)",
+        "current": "£509.3m",
+        "prior": "not stated",
+        "change": "guidance ahead of this",
+        "basis": "company-compiled consensus",
+        "note": "range £498.0m–£514.0m"
+      },
+      {
+        "metric": "FY27 adjusted PBT (consensus)",
+        "current": "£77.1m",
+        "prior": "not stated",
+        "change": "guidance ahead of this",
+        "basis": "company-compiled consensus",
+        "note": "range £75.0m–£84.0m"
+      }
+    ],
+    "guidance": {
+      "status": "raised",
+      "previous": "Consensus for FY27: revenue £509.3m and adjusted PBT £77.1m (ranges £498.0m–£514.0m and £75.0m–£84.0m)",
+      "current": "Board now anticipates FY27 revenue and adjusted PBT comfortably ahead of current market expectations",
+      "commentary": "Kainos upgraded its FY27 outlook after double-digit FY26 revenue growth, record backlog and a strong start to the current year, with all three divisions performing well."
+    },
+    "explainer": "This is a trading update rather than a set of results, so it contains no full accounts. Kainos is telling the market that the year ending 31 March 2027 is running ahead of what analysts currently expect. The key benchmark it cites is a company-compiled consensus — an average of sell-side analyst forecasts that Kainos itself has gathered — of £509.3m of revenue and £77.1m of adjusted pre-tax profit (PBT). \"Comfortably ahead\" of those numbers is the substance of the upgrade.\n\nAdjusted PBT strips out certain one-off or non-cash items to show underlying profitability. The double-digit growth figures refer to FY26 (the year just ended, to 31 March 2026) and the opening months of FY27 versus the same period a year earlier — organic trading momentum rather than a currency or acquisition effect.\n\nThe upgrade is underpinned by contract wins in the Digital Services division and a large multi-year contracted backlog, which gives visibility on future revenue. Full first-half results are scheduled for 9 November 2026, which is when investors will see the actual figures behind this confident tone.",
+    "source_url": "https://uk.advfn.com/stock-market/london/kainos-KNOS/share-news/Kainos-Group-plc-Trading-Update/99142267",
+    "related_news_url": "https://news.google.com/search?q=%22Kainos%20Group%20plc%22",
+    "added_at": "2026-08-18T07:17:47.805348"
+  },
+  {
+    "company": "Diageo PLC",
+    "ticker": "DGE",
+    "publish_date": "18 August 2026",
+    "date_iso": "2026-08-18",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Diageo plc</strong> has appointed <strong>R. Alexandra (\"Alex\") Keith</strong> as a <strong>Non-Executive Director</strong>, effective <strong>5 November 2026</strong>, subject to shareholder approval at the AGM.</li><li>Keith will join the Board's <strong>Remuneration and Nomination Committees</strong> from the same date.</li><li>She most recently served as <strong>CEO of Procter & Gamble's Beauty business</strong> and has over <strong>35 years</strong> of international consumer goods experience; since <strong>2020</strong> she has been a non-executive director of <strong>Thermo Fisher Scientific Inc.</strong></li><li>Routine governance appointment with <strong>no impact</strong> on current trading or guidance; Diageo confirms no further details are disclosable under <strong>Listing Rule 6.4.8</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Diageo appoints former P&G Beauty CEO R. Alexandra Keith as a Non-Executive Director, effective 5 November 2026 subject to shareholder approval.",
+    "priority": "medium",
+    "priority_reason": "Board appointment of a new Non-Executive Director — a governance change with no immediate impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/diageo-DGE/share-news/Diageo-PLC-Diageo-announces-appointment-to-Board-o/99142272",
+    "related_news_url": "https://news.google.com/search?q=%22Diageo%20plc%22",
+    "added_at": "2026-08-18T07:17:47.676109"
+  },
+  {
     "company": "BHP Group Ltd",
     "ticker": "BHP",
     "publish_date": "18 August 2026",
