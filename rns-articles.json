@@ -1,5 +1,31 @@
 [
   {
+    "company": "Aberdeen Group PLC",
+    "ticker": "ABDN",
+    "publish_date": "18 August 2026",
+    "date_iso": "2026-08-18",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>Aberdeen New India Investment Trust PLC</strong> will hold an online presentation for existing and potential shareholders on <strong>Wednesday 9 September 2026, 11:00–12:00</strong>.</li><li>Format: introduction by the Chairman, followed by an address from portfolio managers <strong>James Thom</strong> and <strong>Rita Tahilramani</strong>, with live and pre-submitted Q&A.</li><li>Routine investor-engagement notice with <strong>no impact</strong> on trading or guidance; registration via WorkCast or questions to new.india@aberdeenplc.com.</li></ul>",
+    "source_format": "html",
+    "headline": "Aberdeen New India Investment Trust to hold an online shareholder presentation from 11:00 to 12:00 on 9 September 2026.",
+    "priority": "low",
+    "priority_reason": "Routine notice of an online shareholder presentation with no trading or NAV content.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/aberdeen-new-india-investment-trust--anii/investor-presentation-11am-9-september-2026/9726209",
+    "related_news_url": "https://news.google.com/search?q=%22Aberdeen%20New%20India%20Investment%20Trust%20PLC%22",
+    "added_at": "2026-08-18T07:35:51.908850"
+  },
+  {
     "company": "Frasers Group PLC",
     "ticker": "FRAS",
     "publish_date": "18 August 2026",
