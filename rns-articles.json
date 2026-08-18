@@ -1,5 +1,31 @@
 [
   {
+    "company": "Lloyds Banking Group PLC",
+    "ticker": "LLOY",
+    "publish_date": "18 August 2026",
+    "date_iso": "2026-08-18",
+    "time_period": "",
+    "announcement_type": "Debt redemption notice",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Lloyds Banking Group plc</strong> has issued a notice of redemption for the entire outstanding <strong>£500,000,000 1.985% Fixed Rate Reset Subordinated Debt Securities due 2031</strong> (ISIN XS2351166421).</li><li>Securities to be redeemed on <strong>15 September 2026</strong> at <strong>100%</strong> of principal plus accrued but unpaid interest; NYSE listing to be cancelled on or shortly after that date.</li><li>Routine capital-markets debt redemption with <strong>no impact</strong> on equity trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Lloyds Banking Group has issued notice to redeem its entire £500m 1.985% Fixed Rate Reset Subordinated Debt Securities due 2031 on 15 September 2026 at par.",
+    "priority": "low",
+    "priority_reason": "Routine redemption of a subordinated debt security at par with no impact on equity trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/lloyds-banking-group--lloy/notification-of-redemption/9727207",
+    "related_news_url": "https://news.google.com/search?q=%22Lloyds%20Banking%20Group%20plc%22",
+    "added_at": "2026-08-18T08:55:35.164721"
+  },
+  {
     "company": "Aberdeen Group PLC",
     "ticker": "ABDN",
     "publish_date": "18 August 2026",
