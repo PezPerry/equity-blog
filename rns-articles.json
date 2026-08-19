@@ -1,5 +1,112 @@
 [
   {
+    "company": "Ithaca Energy PLC",
+    "ticker": "ITH",
+    "publish_date": "19 August 2026",
+    "date_iso": "2026-08-19",
+    "time_period": "H1 2026 (six months to 30 June 2026)",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 2026 (six months to 30 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Ithaca Energy</strong> H1 2026 results: <strong>record Q2 production of 131 kboe/d</strong>, with H1 average of <strong>128 kboe/d</strong> (H1 2025: <strong>124 kboe/d</strong>) and FY guidance reaffirmed at <strong>120-130 kboe/d</strong>.</li><li><strong>Upgraded FY 2026 dividend guidance to $500-530m</strong> (from <strong>$470-520m</strong>); <strong>first interim dividend of $255m</strong> ($0.1542/share) declared today, payable September.</li><li>H1 adjusted <strong>EBITDAX ~$1.1bn</strong> (flat YoY) and <strong>net operating cash flow ~$1.0bn</strong>; <strong>profit for the period of $127m</strong> vs a <strong>$217m loss</strong> in H1 2025.</li><li>FY 2026 <strong>net operating cost guidance cut to $800-840m</strong> (from <strong>$820-860m</strong>); Rosebank capex guidance reduced to <strong>$250-280m</strong> (from <strong>$280-320m</strong>) on rephasing into 2027.</li><li><strong>Rosebank</strong> first production window narrowed to <strong>H1 2027</strong>, FPSO moored on station June 2026; adjusted net debt down to <strong>$1.0bn</strong> (0.49x leverage) with <strong>$1.9bn liquidity</strong> after <strong>€155m</strong> bond tap.</li><li>Executive Chairman <strong>Yaniv Friedman</strong> cites record production, cost reductions and increased dividend outlook; over <strong>200 mmboe</strong> being advanced towards FID in 2026-2027.</li></ul>",
+    "source_format": "html",
+    "headline": "Ithaca Energy posts record Q2 production of 131 kboe/d, reaffirms output guidance and upgrades FY 2026 dividend guidance to $500-530m.",
+    "priority": "high",
+    "priority_reason": "First-half results with upgraded FY 2026 dividend guidance, reduced opex guidance and a record production quarter.",
+    "figures": [
+      {
+        "metric": "Production",
+        "current": "128 kboe/d",
+        "prior": "124 kboe/d",
+        "change": "+3.2%",
+        "basis": "H1 average",
+        "note": "Q2 record of 131 kboe/d; FY guidance 120-130 kboe/d"
+      },
+      {
+        "metric": "Adjusted EBITDAX",
+        "current": "$1.1bn",
+        "prior": "$1.1bn",
+        "change": "flat",
+        "basis": "adjusted",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "Net cash flow from operating activities",
+        "current": "$1.0bn",
+        "prior": "$1.0bn",
+        "change": "flat",
+        "basis": "reported",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "Profit before tax",
+        "current": "$494m",
+        "prior": "$513m",
+        "change": "-3.7%",
+        "basis": "reported",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "Profit/(loss) for the period",
+        "current": "$127m profit",
+        "prior": "$217m loss",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "H1 2025 loss reflected one-off deferred tax charge"
+      },
+      {
+        "metric": "Adjusted net income",
+        "current": "$128m",
+        "prior": "$129m",
+        "change": "-0.8%",
+        "basis": "adjusted",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "Unit operating expenditure",
+        "current": "$18.0/boe",
+        "prior": "$17.5/boe",
+        "change": "+2.9%",
+        "basis": "reported",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "Operating costs",
+        "current": "$419m",
+        "prior": "$391m",
+        "change": "+7.2%",
+        "basis": "reported",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "Adjusted net debt",
+        "current": "$1.0bn",
+        "prior": "$1.3bn",
+        "change": "not stated",
+        "basis": "pro forma leverage 0.49x",
+        "note": "30 June 2026 vs 31 December 2025"
+      },
+      {
+        "metric": "Interim dividend",
+        "current": "$255m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "$0.1542/share",
+        "note": "first interim 2026, payable September"
+      }
+    ],
+    "guidance": {
+      "status": "raised",
+      "previous": "FY 2026 dividend guidance of $470-520m; net operating cost guidance $820-860m; Rosebank net capital cost guidance $280-320m (all as provided 19 March 2026)",
+      "current": "FY 2026 dividend guidance upgraded to $500-530m (30% post-tax CFFO); net operating cost guidance reduced to $800-840m; Rosebank net capital cost guidance reduced to $250-280m; production reaffirmed at 120-130 kboe/d; producing asset capex, decommissioning and cash tax guidance all reaffirmed",
+      "commentary": "Dividend outlook was raised on strong H1 cash generation, while operating cost and Rosebank capex guidance were cut, the latter reflecting deferral of ~$35m of drilling activity into 2027. Production, decommissioning and cash tax guidance were left unchanged."
+    },
+    "explainer": "These are half-year figures for the six months to 30 June 2026, reported in US dollars. Headline production and cash generation held up well: Ithaca averaged 128 kboe/d in the half (up from 124 a year earlier) and hit a record 131 kboe/d in the second quarter, giving management confidence to reaffirm the full-year range of 120-130 kboe/d. Adjusted EBITDAX and operating cash flow were both broadly flat year-on-year at about $1.1bn and $1.0bn respectively.\n\nThe swing from a $217m loss in H1 2025 to a $127m profit this year is flattered by the prior-year comparison: the 2025 period carried a one-off, non-cash deferred tax charge of $327.6m tied to the extension of the Energy Profits Levy. On a cleaner basis, adjusted net income was essentially unchanged at $128m versus $129m. Realised prices were $83/boe before hedging but only $69/boe after hedging losses, so a strong price environment was partly given back through the hedge book.\n\nThe key change is guidance. The FY 2026 dividend target has been raised to $500-530m from $470-520m (still pegged to 30% of post-tax operating cash flow), and a first interim dividend of $255m was declared. At the same time, full-year net operating cost guidance was trimmed to $800-840m and Rosebank capex guidance cut to $250-280m — the latter mainly a timing effect, with roughly $35m of drilling spend rephased from 2026 into 2027 rather than a genuine cost saving. Production, producing-asset capex, decommissioning and cash tax guidance were all left unchanged.\n\nFor context, Rosebank is the major growth project: the FPSO is now moored on station and first production has been narrowed to H1 2027, ramping to plateau over summer 2027, subject to regulatory approval. The balance sheet strengthened over the half, with adjusted net debt falling to $1.0bn (0.49x leverage) and liquidity of $1.9bn helped by a €155m bond tap.",
+    "source_url": "https://uk.advfn.com/stock-market/london/ithaca-energy-ITH/share-news/Ithaca-Energy-PLC-First-Half-Results-Six-Months-t/99152023",
+    "related_news_url": "https://news.google.com/search?q=%22Ithaca%20Energy%20PLC%22",
+    "added_at": "2026-08-19T07:19:08.189776"
+  },
+  {
     "company": "Oxford Nanopore Technologies plc",
     "ticker": "ONT",
     "publish_date": "19 August 2026",
