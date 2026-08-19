@@ -1,5 +1,31 @@
 [
   {
+    "company": "Smith & Nephew plc",
+    "ticker": null,
+    "publish_date": "19 August 2026",
+    "date_iso": "2026-08-19",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Smith & Nephew plc</strong> CFO <strong>John Rogers</strong> to step down on <strong>30 September 2026</strong> to take up an external position in the <strong>US</strong>; he leaves the Board with immediate effect.</li><li><strong>Pierre Palassian</strong>, SVP Finance and Group Controller, appointed <strong>interim CFO</strong> until a permanent successor is found; a search has been initiated.</li><li>Rogers served three years, overseeing the 12-Point Plan and RISE strategy; departure follows completion of first-half results.</li><li><strong>No severance payment</strong>; all outstanding incentive awards (AIP, PSP, RSP) lapse on 30 September 2026 under ordinary-leaver terms.</li><li>Routine board disclosure with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Smith+Nephew CFO John Rogers to leave on 30 September 2026 for a US role, with Pierre Palassian appointed interim CFO.",
+    "priority": "medium",
+    "priority_reason": "CFO departure is a senior board change but with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/smith-and-nephew-SN./share-news/Smith-Nephew-Plc-Directorate-change/99152027",
+    "related_news_url": "https://news.google.com/search?q=%22Smith%20%26%20Nephew%20plc%22",
+    "added_at": "2026-08-19T07:19:29.685159"
+  },
+  {
     "company": "Ithaca Energy PLC",
     "ticker": "ITH",
     "publish_date": "19 August 2026",
