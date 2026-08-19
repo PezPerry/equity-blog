@@ -272,8 +272,10 @@ function trimTearsheet(ts, n) {
 
 function getTearsheet(c) {
   if (typeof TEARSHEETS === 'undefined') return null;
-  const key = normaliseTidm(c.tidm);
-  return TEARSHEETS[key] || null;
+  // tearsheetKey is exchange-qualified ("LSE:COST") only where a TIDM is listed
+  // on more than one exchange; everywhere else it is just the TIDM.
+  const key = c.tearsheetKey || normaliseTidm(c.tidm);
+  return TEARSHEETS[key] || TEARSHEETS[normaliseTidm(c.tidm)] || null;
 }
 
 function cagr(start, end, years) {
