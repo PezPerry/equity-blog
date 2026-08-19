@@ -1,5 +1,31 @@
 [
   {
+    "company": "Trainline PLC",
+    "ticker": "TRN",
+    "publish_date": "19 August 2026",
+    "date_iso": "2026-08-19",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>Trainline</strong> notes the <strong>CMA</strong>'s opening of an investigation under the <strong>Digital Markets, Competition and Consumers Act 2024</strong> into the presentation of certain <strong>UK fees</strong> throughout its booking flow.</li><li>Company says it has <strong>proactively engaged</strong> with the CMA over several months and is taking steps to <strong>enhance the presentation of certain fees</strong>.</li><li>Trainline states it will <strong>cooperate fully</strong> and is committed to full compliance with the DMCCA and all applicable consumer laws.</li><li>No financial impact, guidance change or timeline for the investigation is quantified in the statement.</li></ul>",
+    "source_format": "html",
+    "headline": "Trainline responds to CMA opening a DMCCA investigation into how it presents certain UK booking fees throughout its booking flow.",
+    "priority": "high",
+    "priority_reason": "A CMA investigation into Trainline's fee presentation is a regulatory overhang that could affect the business and share price.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/trainline-TRN/share-news/Trainline-PLC-Response-to-CMA-Announcement/99152363",
+    "related_news_url": "https://news.google.com/search?q=%22Trainline%20plc%22",
+    "added_at": "2026-08-19T07:17:06.060423"
+  },
+  {
     "company": "Capricorn Energy PLC",
     "ticker": "CNE",
     "publish_date": "18 August 2026",
