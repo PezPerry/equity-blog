@@ -1,5 +1,57 @@
 [
   {
+    "company": "Touchstone Exploration Inc",
+    "ticker": "TXP",
+    "publish_date": "19 August 2026",
+    "date_iso": "2026-08-19",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Touchstone Exploration Inc.</strong> made its annual long-term incentive grant on <strong>18 August 2026</strong>, issuing <strong>2,082,040 RSUs</strong> and <strong>2,082,040 PSUs</strong> to executive officers and certain employees, plus <strong>978,500 DSUs</strong> to independent non-executive directors.</li><li>Executive awards: <strong>Paul R. Baay</strong> (CEO) <strong>437,500</strong> RSUs and <strong>437,500</strong> PSUs; <strong>Scott Budau</strong> (CFO) <strong>315,000</strong> each; <strong>Brian Hollingshead</strong> (EVP) <strong>275,625</strong> each; employees <strong>1,053,915</strong> each.</li><li>RSUs vest in equal thirds over three years; PSUs cliff-vest on the third anniversary with a performance multiplier of <strong>0x to 1.75x</strong>; DSUs vest immediately but redeem only after a director leaves the Board.</li><li>Award numbers calculated using a <strong>C$0.40</strong> price floor (above market), which the Board notes results in fewer share awards being issued than the standard VWAP method.</li><li>Routine MAR PDMR disclosure with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Touchstone Exploration granted 2,082,040 RSUs and 2,082,040 PSUs to executives and staff, plus 978,500 DSUs to non-executive directors, dated 18 August 2026.",
+    "priority": "low",
+    "priority_reason": "Routine annual long-term incentive grant of share units to directors, executives and employees, with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/touchstone-exploration-inc-npv-di---txp/annual-long-term-incentive-grant/9728533",
+    "related_news_url": "https://news.google.com/search?q=%22Touchstone%20Exploration%20Inc.%22",
+    "added_at": "2026-08-19T07:35:57.060816"
+  },
+  {
+    "company": "discoverIE Group plc",
+    "ticker": "DSCV",
+    "publish_date": "19 August 2026",
+    "date_iso": "2026-08-19",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>discoverIE Group plc</strong> has opened a new manufacturing facility in <strong>Jigani, Bangalore, India</strong>, part of its previously announced capacity expansion programme in high-growth markets.</li><li>The <strong>9,000m²</strong> site <strong>more than doubles</strong> the footprint of the existing Bangalore operation and provides <strong>three times the capacity</strong>.</li><li>Operation forms part of the <strong>Noratel</strong> business, making specialised power transformers and magnetic components for electrification; approximately <strong>70%</strong> of current production serves customers in India.</li><li>Opening follows the <strong>UK-India Free Trade Agreement</strong> coming into force in <strong>July 2026</strong>; discoverIE employs over <strong>400 people</strong> across its Trivandrum and Bangalore operations.</li><li>Routine strategic/operational update — no financial figures, investment cost or guidance provided; <strong>no stated impact</strong> on current trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "discoverIE opens new 9,000m² manufacturing facility in Jigani, Bangalore, more than doubling its existing Indian footprint and tripling capacity.",
+    "priority": "medium",
+    "priority_reason": "Capacity expansion supporting long-term growth strategy, but no financial figures, contract values or guidance change disclosed.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/discoverie-DSCV/share-news/discoverIE-Group-plc-Major-Expansion-of-Manufactur/99152046",
+    "related_news_url": "https://news.google.com/search?q=%22discoverIE%20Group%20plc%22",
+    "added_at": "2026-08-19T07:35:57.018082"
+  },
+  {
     "company": "RTW Biotech Opportunities Ltd",
     "ticker": "RTW",
     "publish_date": "19 August 2026",
