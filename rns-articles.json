@@ -1,5 +1,96 @@
 [
   {
+    "company": "Kenmare Resources PLC",
+    "ticker": "KMR",
+    "publish_date": "19 August 2026",
+    "date_iso": "2026-08-19",
+    "time_period": "H1 to 30 June 2026",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Kenmare Resources</strong> reported <strong>H1 2026</strong> results hit by weak product markets and slower-than-expected commissioning of <strong>Wet Concentrator Plant (WCP) A</strong>; ilmenite production fell <strong>39% YoY</strong> to <strong>273,100 tonnes</strong>.</li><li>2026 ilmenite production guidance <strong>moderated to approximately 800,000 tonnes</strong>, from <strong>more than 800,000 tonnes</strong> previously; shipments guidance of <strong>at least 1.1 million tonnes</strong> maintained, with <strong>555,600 tonnes</strong> shipped year-to-date (<strong>up 14% YoY</strong>).</li><li>Average price received fell <strong>26%</strong> to <strong>$242/t</strong> (H1 2025: <strong>$326/t</strong>); zircon market strengthened in H1 with higher Q2 prices, and the order book for Q3 is described as healthy.</li><li><strong>HMC production</strong> down <strong>34%</strong> to <strong>442,200 tonnes</strong> on a <strong>26%</strong> drop in excavated ore grades and slower WCP A commissioning; WCP A averaged <strong>2,800 tph</strong> vs <strong>3,500 tph</strong> design nameplate, though throughput improved in July/early August.</li><li>Capex on WCP A now substantially complete (<strong>~$23m</strong> of the planned <strong>$30m</strong> spent in H1); second Selective Mining Operation (<strong>SMO 2</strong>, ~<strong>$13m</strong>) under construction, first phase due Q4 2026.</li><li>Constructive discussions continue with the <strong>Government of Mozambique</strong> on Moma's Implementation Agreement, with significant progress reported in recent weeks. Note: the source article text is truncated mid-sentence at the end.</li><li>No revenue, profit, EPS or dividend figures are stated in the scraped text — this summary covers the operational/guidance content only.</li></ul>",
+    "source_format": "html",
+    "headline": "Kenmare's H1 output fell sharply on weak markets and slow WCP A commissioning, and it trimmed 2026 ilmenite production guidance to about 800,000 tonnes.",
+    "priority": "high",
+    "priority_reason": "Half-yearly results with a moderated 2026 production guidance figure and a sharp fall in output and realised prices.",
+    "figures": [
+      {
+        "metric": "Ilmenite production",
+        "current": "273,100 tonnes",
+        "prior": "not stated",
+        "change": "-39%",
+        "basis": "YoY",
+        "note": "H1 2026"
+      },
+      {
+        "metric": "HMC production",
+        "current": "442,200 tonnes",
+        "prior": "not stated",
+        "change": "-34%",
+        "basis": "YoY",
+        "note": "H1 2026"
+      },
+      {
+        "metric": "HMC processed",
+        "current": "433,600 tonnes",
+        "prior": "not stated",
+        "change": "-35%",
+        "basis": "YoY",
+        "note": "H1 2026"
+      },
+      {
+        "metric": "Primary zircon production",
+        "current": "18,600 tonnes",
+        "prior": "not stated",
+        "change": "-32%",
+        "basis": "YoY",
+        "note": "H1 2026"
+      },
+      {
+        "metric": "Rutile production",
+        "current": "2,700 tonnes",
+        "prior": "not stated",
+        "change": "-44%",
+        "basis": "YoY",
+        "note": "H1 2026"
+      },
+      {
+        "metric": "Concentrates (ZrTi) production",
+        "current": "135,700 tonnes",
+        "prior": "not stated",
+        "change": "+599%",
+        "basis": "YoY",
+        "note": "boosted by conversion of 102,200t tailings stockpile"
+      },
+      {
+        "metric": "Total shipments",
+        "current": "555,600 tonnes",
+        "prior": "not stated",
+        "change": "+14%",
+        "basis": "YoY",
+        "note": "H1 2026, including ZrTi"
+      },
+      {
+        "metric": "Average price received",
+        "current": "$242/t",
+        "prior": "$326/t",
+        "change": "-26%",
+        "basis": "reported",
+        "note": "H1 2026 vs H1 2025"
+      }
+    ],
+    "guidance": {
+      "status": "lowered",
+      "previous": "Ilmenite production of more than 800,000 tonnes in 2026; shipments of at least 1.1 million tonnes",
+      "current": "Ilmenite production of approximately 800,000 tonnes in 2026; shipments guidance of at least 1.1 million tonnes maintained; annual operating and capital cost guidance expected to be achieved",
+      "commentary": "Softer-than-expected ilmenite production in H1 led Kenmare to moderate its 2026 ilmenite production guidance from 'more than 800,000 tonnes' to 'approximately 800,000 tonnes'. Shipments guidance — the company's key metric for the year — was maintained, with output said to have improved in July and early August."
+    },
+    "explainer": "Kenmare mines heavy mineral concentrate (HMC) at Moma in Mozambique and processes it into finished titanium products — mainly ilmenite, plus zircon and rutile — and a newer concentrates product, ZrTi. The H1 figures are compared year-on-year against H1 2025. Production of nearly every product fell heavily: ilmenite was down 39%, largely because the ageing WCP A plant hit lower ore grades as it reaches the end of its current mine path, and because the plant's upgrade commissioning has run slower than planned, averaging 2,800 tonnes per hour against a 3,500 tph design.\n\nThe headline guidance change is that 2026 ilmenite production is now expected to be 'approximately 800,000 tonnes' rather than 'more than 800,000 tonnes' — a modest downgrade reflecting the weak first half. Crucially, the company kept its full-year shipments guidance of at least 1.1 million tonnes, which it calls its key metric; it has been meeting shipments partly by drawing down high product stockpiles (finished-product stock fell from 344,000 tonnes at end-2025 to 233,500 tonnes).\n\nPrices are the other pressure point: the average realised price fell 26% to $242 a tonne as Chinese ilmenite supply kept the titanium feedstock market soft. Against that, the zircon market strengthened through H1 with higher Q2 prices, and demand for the new ZrTi concentrate has run well ahead of the company's initial expectations, which is why concentrates 'production' jumped 599% — largely a one-off conversion of a 102,200-tonne tailings stockpile rather than underlying growth.\n\nNote the scraped text contains no revenue, profit, earnings or dividend figures and is cut off mid-sentence at the end, so this summary reflects only the operational and guidance detail actually present.",
+    "source_url": "https://uk.advfn.com/stock-market/london/kenmare-resources-KMR/share-news/Half-Yearly-Financial-Report-for-the-six-months-to/99151941",
+    "related_news_url": "https://news.google.com/search?q=%22Kenmare%20Resources%20plc%22",
+    "added_at": "2026-08-19T07:17:44.851030"
+  },
+  {
     "company": "Trainline PLC",
     "ticker": "TRN",
     "publish_date": "19 August 2026",
