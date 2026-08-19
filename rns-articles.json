@@ -1,5 +1,106 @@
 [
   {
+    "company": "Oxford Nanopore Technologies plc",
+    "ticker": "ONT",
+    "publish_date": "19 August 2026",
+    "date_iso": "2026-08-19",
+    "time_period": "H1 to 30 June 2026",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Revenue £116.7m</strong>, up <strong>12.3%</strong> constant currency (<strong>+10.5%</strong> reported), led by <strong>EMEAI (+23.8% CC)</strong> and <strong>AMR (+12.5% CC)</strong>, offset by <strong>APAC -8.4%</strong> and <strong>China -15.7%</strong>.</li><li><strong>Gross margin +400bps to 62.2%</strong> (H1 2025: 58.2%); <strong>adjusted EBITDA loss more than halved to £(22.1)m</strong> from <strong>£(48.3)m</strong>, with adjusted operating costs down <strong>6.9%</strong> year-on-year.</li><li><strong>Loss for the period reduced to £(48.0)m</strong> (H1 2025: £(71.8)m); cash and liquid investments <strong>£234.5m</strong> at 30 June 2026 (£302.8m at 31 Dec 2025).</li><li>End-market growth broad-based: <strong>Clinical +35.4%</strong>, <strong>BioPharma +25.0%</strong>, <strong>Industrial +6.2%</strong>, <strong>Research +5.4%</strong>; <strong>PromethION +15.7%</strong>, <strong>MinION +4.3%</strong>.</li><li>FY26 adjusted operating cost guidance <strong>improved to (2)% to 0%</strong> growth (from 0% to 5%); FY26 revenue (16-20% CC) and gross margin (~62%) maintained; <strong>adjusted EBITDA breakeven in FY27</strong> reaffirmed.</li><li>New <strong>global cross-licensing agreement</strong> with a diagnostics company: <strong>$20m licensing fee</strong> in H2 FY26 plus <strong>$15m</strong> committed product purchases over FY27-28 and ongoing royalties; new <strong>>$700m revenue by 2030</strong> and <strong>>15% adjusted EBITDA margin by 2030</strong> targets set.</li></ul>",
+    "source_format": "html",
+    "headline": "Oxford Nanopore H1 revenue rose 12.3% CC to £116.7m, gross margin up 400bps to 62.2% and adjusted EBITDA loss more than halved to £22.1m.",
+    "priority": "high",
+    "priority_reason": "Half-year results with an operating-cost guidance update, new 2030 targets and a new cross-licensing deal.",
+    "figures": [
+      {
+        "metric": "Revenue",
+        "current": "£116.7m",
+        "prior": "not stated",
+        "change": "+12.3%",
+        "basis": "constant currency (+10.5% reported)",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Gross margin",
+        "current": "62.2%",
+        "prior": "58.2%",
+        "change": "+400bps",
+        "basis": "reported",
+        "note": "H1 2025 comparative"
+      },
+      {
+        "metric": "Adjusted EBITDA",
+        "current": "£(22.1)m",
+        "prior": "£(48.3)m",
+        "change": "loss more than halved",
+        "basis": "adjusted",
+        "note": "H2 2025 was £(38.4)m"
+      },
+      {
+        "metric": "Loss for the period",
+        "current": "£(48.0)m",
+        "prior": "£(71.8)m",
+        "change": "reduced",
+        "basis": "reported",
+        "note": "H1 2025 comparative"
+      },
+      {
+        "metric": "Cash, equivalents & liquid investments",
+        "current": "£234.5m",
+        "prior": "£302.8m",
+        "change": "-£68.3m",
+        "basis": "reported",
+        "note": "30 June 2026 vs 31 Dec 2025"
+      },
+      {
+        "metric": "Adjusted operating costs",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "-6.9%",
+        "basis": "year-on-year (-9.6% vs H2 2025)",
+        "note": "H1 2026"
+      }
+    ],
+    "guidance": {
+      "status": "raised",
+      "previous": "FY26 adjusted operating cost year-on-year growth of 0% to 5%.",
+      "current": "FY26 adjusted operating cost year-on-year growth of (2)% to 0%. FY26 revenue growth 16-20% CC and gross margin ~62% maintained (both excluding the $20m non-recurring licensing revenue); adjusted EBITDA breakeven in FY27 and positive free cash flow in FY28 unchanged. New long-term targets: >$700m revenue by 2030 and >15% adjusted EBITDA margin by 2030.",
+      "commentary": "Cost guidance was tightened lower on disciplined cost control, implying better FY26 EBITDA; revenue and margin guidance were reaffirmed. New 2030 revenue and margin targets were introduced alongside a cross-licensing deal that adds $20m non-recurring FY26 revenue."
+    },
+    "explainer": "Constant currency (CC) strips out exchange-rate moves so the 12.3% CC revenue figure reflects underlying volume and pricing growth; the lower 10.5% reported figure includes an adverse currency effect. The gross-margin gain of 400 basis points (four percentage points) is flattered by roughly 315bps from the absence of a £3.3m non-cash inventory charge taken in H1 2025 — underlying improvement from yield gains, scale and new pricing was about 305bps, partly offset by product mix and FX.\n\nThe adjusted EBITDA loss narrowing from £48.3m to £22.1m shows the loss-making business moving towards breakeven, driven by both higher gross profit and a 6.9% cut in operating costs. Management reiterated adjusted EBITDA breakeven in FY27 and positive free cash flow in FY28. The cash fall to £234.5m largely reflects a seasonal first-half working-capital outflow including £25.7m of FY25 bonus payments, and management expects cash conversion to improve in H2.\n\nOn guidance, the only change to numeric targets is FY26 adjusted operating cost growth, cut to (2)% to 0% from 0% to 5% — a modest tightening that signals tighter cost discipline. FY26 revenue (16-20% CC) and gross margin (~62%) guidance are unchanged, both stated excluding a one-off $20m licensing fee that, if included, lifts FY26 CC growth to ~23-27% and margin to ~64%. New medium-term targets of over $700m revenue and a >15% adjusted EBITDA margin by 2030 were introduced for the first time.",
+    "source_url": "https://uk.advfn.com/stock-market/london/oxford-nanopore-technolo-ONT/share-news/Oxford-Nanopore-Technologies-plc-Interim-results-f/99152022",
+    "related_news_url": "https://news.google.com/search?q=%22Oxford%20Nanopore%20Technologies%20plc%22",
+    "added_at": "2026-08-19T07:18:31.954560"
+  },
+  {
+    "company": "Oakley Capital Investments Limited",
+    "ticker": "OCI",
+    "publish_date": "19 August 2026",
+    "date_iso": "2026-08-19",
+    "time_period": "",
+    "announcement_type": "Acquisition / deal",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Oakley Capital Fund VI</strong> has agreed to acquire a majority stake in <strong>Graphwise</strong>, a knowledge graph and semantic data technology business enabling enterprise AI.</li><li><strong>OCI's</strong> indirect contribution via Fund VI is anticipated to be up to <strong>c.£20 million</strong>, reflecting its share of Oakley's investment.</li><li><strong>Graphwise</strong> serves more than <strong>200</strong> blue-chip customers and has delivered organic ARR growth of over <strong>30%</strong> a year; it was formed in <strong>2024</strong> from the merger of <strong>Ontotext</strong> and <strong>Semantic Web Company</strong>.</li><li>Oakley will partner with the founders to expand commercial capabilities, international footprint and pursue selective acquisitions; <strong>Deutsche Numis</strong> acted as financial adviser and broker.</li><li>Routine portfolio investment disclosure with <strong>no impact</strong> on OCI's guidance; deal value and financial terms otherwise not stated.</li></ul>",
+    "source_format": "html",
+    "headline": "Oakley Capital Fund VI has agreed to acquire a majority stake in Graphwise, with OCI's indirect contribution up to c.£20m.",
+    "priority": "medium",
+    "priority_reason": "A portfolio-level investment via an underlying fund; material as news but a small indirect commitment relative to OCI's overall NAV.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/oakley-capital-investments-OCI/share-news/Oakley-Capital-Investments-Limited-Oakley-Capital/99151975",
+    "related_news_url": "https://news.google.com/search?q=%22Oakley%20Capital%20Investments%20Limited%22",
+    "added_at": "2026-08-19T07:18:31.917461"
+  },
+  {
     "company": "Kenmare Resources PLC",
     "ticker": "KMR",
     "publish_date": "19 August 2026",
