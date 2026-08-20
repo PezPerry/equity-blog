@@ -1,5 +1,82 @@
 [
   {
+    "company": "Franchise Brands PLC",
+    "ticker": "FRAN",
+    "publish_date": "20 August 2026",
+    "date_iso": "2026-08-20",
+    "time_period": "",
+    "announcement_type": "Director / PDMR dealing",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Neil Miller</strong>, director and Chief Financial Officer, bought <strong>8,000 ordinary shares</strong> in <strong>Franchise Brands plc</strong> at <strong>153p</strong> per share on <strong>20 August 2026</strong>.</li><li>Following the purchase Mr Miller holds <strong>43,000 ordinary shares</strong>, equating to <strong>0.02%</strong> of the issued share capital.</li><li>Routine PDMR dealing disclosure under the UK Market Abuse Regulation, with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "CFO Neil Miller bought 8,000 Franchise Brands shares at 153p, lifting his holding to 43,000 shares (0.02% of capital).",
+    "priority": "low",
+    "priority_reason": "Routine PDMR share purchase of a small size with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/franchise-brands--fran/director-s-dealing/9731905",
+    "related_news_url": "https://news.google.com/search?q=%22Franchise%20Brands%20plc%22",
+    "added_at": "2026-08-20T10:16:35.135428"
+  },
+  {
+    "company": "Aberdeen Group PLC",
+    "ticker": "ABDN",
+    "publish_date": "20 August 2026",
+    "date_iso": "2026-08-20",
+    "time_period": "Assessment period 1 April 2022 to 31 July 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "Assessment period 1 April 2022 to 31 July 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Aberdeen New India Investment Trust PLC</strong> update on its performance-related <strong>conditional tender offer</strong>, measured to <strong>31 July 2026</strong>.</li><li>Adjusted NAV per share total return of <strong>24.2%</strong> over the assessment period, versus <strong>20.4%</strong> from the <strong>MSCI India Index (sterling adjusted)</strong> benchmark — <strong>3.8%</strong> ahead.</li><li>Unaudited NAV per share <strong>812.3p</strong>; unaudited Adjusted NAV per share <strong>866.3p</strong> (Adjusted NAV adds back Indian capital gains tax for a like-for-like comparison).</li><li>The five-year assessment period runs <strong>1 April 2022 to 31 March 2027</strong>; if Adjusted NAV total return fails to match the benchmark, the Board will propose a tender for <strong>25%</strong> of issued share capital at <strong>98% of NAV</strong>.</li><li>On current performance the tender condition is <strong>not triggered</strong>; no impact on trading.</li></ul>",
+    "source_format": "html",
+    "headline": "Aberdeen New India's Adjusted NAV total return of 24.2% is 3.8% ahead of its MSCI India benchmark at 31 July 2026, keeping the conditional tender offer off the table.",
+    "priority": "low",
+    "priority_reason": "Routine interim performance update on a conditional tender offer; the trust is currently ahead of benchmark so no tender is triggered.",
+    "figures": [
+      {
+        "metric": "Adjusted NAV total return",
+        "current": "24.2%",
+        "prior": "20.4% (benchmark)",
+        "change": "+3.8% relative",
+        "basis": "1 April 2022 to 31 July 2026",
+        "note": "vs MSCI India Index (sterling adjusted)"
+      },
+      {
+        "metric": "NAV per share",
+        "current": "812.3p",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "unaudited",
+        "note": "as at 31 July 2026"
+      },
+      {
+        "metric": "Adjusted NAV per share",
+        "current": "866.3p",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "unaudited",
+        "note": "adds back Indian capital gains tax"
+      }
+    ],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "This is an interim scorecard on a shareholder-protection mechanism, not a set of results. The trust has committed that if, over the five years to 31 March 2027, its net asset value fails to keep pace with the MSCI India Index (in sterling), the board will offer to buy back a quarter of the shares at 98% of NAV. This update simply reports where that race stands at 31 July 2026.\n\nThe \"Adjusted NAV\" figure of 866.3p is higher than the reported NAV of 812.3p because it adds back Indian capital gains tax paid or accrued on investments. That adjustment is made so the trust is compared like-for-like with the benchmark index, which does not bear such tax.\n\nAt this point the trust is ahead: a 24.2% Adjusted NAV total return against 20.4% for the benchmark, an outperformance of 3.8%. On that basis the conditional tender offer would not be triggered, though the outcome is only settled at the end of the assessment period on 31 March 2027.",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/aberdeen-new-india-investment-trust--anii/conditional-tender-offer-performance-update/9731980",
+    "related_news_url": "https://news.google.com/search?q=%22Aberdeen%20New%20India%20Investment%20Trust%20PLC%22",
+    "added_at": "2026-08-20T10:16:35.092178"
+  },
+  {
     "company": "Londonmetric Property PLC",
     "ticker": "LMP",
     "publish_date": "20 August 2026",
