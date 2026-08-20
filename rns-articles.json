@@ -1,5 +1,96 @@
 [
   {
+    "company": "JD Sports Fashion PLC",
+    "ticker": "JD.",
+    "publish_date": "20 August 2026",
+    "date_iso": "2026-08-20",
+    "time_period": "Q2 FY27 (2026/27)",
+    "announcement_type": "Trading update",
+    "period_detail": "Q2 FY27 (2026/27)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>JD Sports Fashion plc</strong> lowered <strong>FY27 profit before tax and adjusting items</strong> guidance to <strong>£700m-£800m</strong> (previously <strong>£750m-£850m</strong>), citing weak H1 sales and a promotional market that may persist into H2.</li><li><strong>Q2 Group organic sales -1.3%</strong> (Q1: -0.1%) and <strong>LFL -3.1%</strong> (Q1: -2.5%); <strong>online sales +2.6%</strong>.</li><li><strong>North America</strong> (35% of Q2 sales) worst hit: <strong>organic sales -4.5%</strong>, <strong>LFL -6.8%</strong>; excluding Finish Line organic -1.0%, on weaker consumer sentiment, slower high-heat footwear and deferred 'back-to-school' demand.</li><li><strong>UK</strong> improved (organic -0.2%, LFL +0.8%) on strong football replica kit and Outdoor; <strong>Europe</strong> organic -0.4%, LFL -2.7%; <strong>Asia Pacific</strong> organic +10.2%.</li><li><strong>FY27 free cash flow</strong> guidance unchanged at <strong>£460m-£520m</strong>; Group in <strong>net cash</strong> as of 1 August 2026 (vs prior-year net debt).</li><li>Commenced second <strong>£100m</strong> tranche of the <strong>£200m</strong> annual share buyback on <strong>3 August</strong>; H1 results due <strong>23 September 2026</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "JD Sports cuts FY27 pre-tax profit guidance to £700m-£800m from £750m-£850m after tough Q2 trading, with North America hardest hit.",
+    "priority": "high",
+    "priority_reason": "Q2 trading statement with a cut to FY27 profit guidance — a de facto profit warning.",
+    "figures": [
+      {
+        "metric": "Group organic sales growth",
+        "current": "-1.3%",
+        "prior": "-0.1%",
+        "change": "not stated",
+        "basis": "constant FX",
+        "note": "Q2 FY27 vs Q1 FY27"
+      },
+      {
+        "metric": "Group LFL sales",
+        "current": "-3.1%",
+        "prior": "-2.5%",
+        "change": "not stated",
+        "basis": "constant FX",
+        "note": "Q2 FY27 vs Q1 FY27"
+      },
+      {
+        "metric": "Online sales growth",
+        "current": "+2.6%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "Q2 FY27"
+      },
+      {
+        "metric": "North America organic sales",
+        "current": "-4.5%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "constant FX",
+        "note": "Q2 FY27; -1.0% excluding Finish Line"
+      },
+      {
+        "metric": "North America LFL",
+        "current": "-6.8%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "constant FX",
+        "note": "Q2 FY27"
+      },
+      {
+        "metric": "UK organic sales",
+        "current": "-0.2%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "constant FX",
+        "note": "Q2 FY27; LFL +0.8%"
+      },
+      {
+        "metric": "Europe organic sales",
+        "current": "-0.4%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "constant FX",
+        "note": "Q2 FY27; LFL -2.7%"
+      },
+      {
+        "metric": "Asia Pacific organic sales",
+        "current": "+10.2%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "constant FX",
+        "note": "Q2 FY27; LFL +1.4%"
+      }
+    ],
+    "guidance": {
+      "status": "lowered",
+      "previous": "FY27 profit before tax and adjusting items of £750m to £850m; free cash flow of £460m to £520m",
+      "current": "FY27 profit before tax and adjusting items of £700m to £800m; free cash flow unchanged at £460m to £520m",
+      "commentary": "JD cut its FY27 PBT (pre-adjusting items) guidance by £50m at both ends of the range, reflecting soft H1 sales trends and a promotional market it expects may persist into H2. Free cash flow guidance was left unchanged, supported by cost, capital and working-capital discipline."
+    },
+    "explainer": "This is a second-quarter trading statement, not full results — it reports sales momentum by region rather than audited profit. JD quotes 'organic' and 'like-for-like' (LFL) sales at constant exchange rates: LFL strips out new and closed stores to show underlying trading, while organic also captures space growth from existing operations. Group LFL of -3.1% means underlying volumes fell, partly masked by new selling space (+2.1% to H1 sales).\n\nThe key news is the guidance cut. JD now expects FY27 profit before tax and adjusting items of £700m-£800m, down from £750m-£850m — roughly a £50m reduction at each end. 'Adjusting items' are one-off costs (such as the Finish Line-to-JD conversion) excluded from this underlying profit measure. North America, JD's largest region at 35% of sales, drove the downgrade, hurt by a cautious core consumer, a weaker quarter for 'high-heat' (hyped, limited-release) footwear, and 'back-to-school' spending slipping from July into August.\n\nImportantly, free cash flow guidance of £460m-£520m is unchanged, and JD moved into a net cash position (before lease liabilities), versus net debt a year earlier. It also began the second £100m tranche of its £200m annual buyback on 3 August, signalling balance-sheet confidence despite the softer profit outlook.\n\nHalf-year results, which will confirm the actual H1 profit figures behind these sales trends, are scheduled for 23 September 2026.",
+    "source_url": "https://uk.advfn.com/stock-market/london/jd-sports-fashion-JD./share-news/JD-Sports-Fashion-PLC-Q2-2026-27-TRADING-STATEMENT/99160696",
+    "related_news_url": "https://news.google.com/search?q=%22JD%20Sports%20Fashion%20plc%22",
+    "added_at": "2026-08-20T07:16:25.900984"
+  },
+  {
     "company": "Trekor Metals",
     "ticker": "TKO",
     "publish_date": "19 August 2026",
