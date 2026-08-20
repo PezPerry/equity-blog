@@ -1,5 +1,31 @@
 [
   {
+    "company": "Londonmetric Property PLC",
+    "ticker": "LMP",
+    "publish_date": "20 August 2026",
+    "date_iso": "2026-08-20",
+    "time_period": "Q1 FY 2026/27",
+    "announcement_type": "Dividend declaration",
+    "period_detail": "Q1 FY 2026/27",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>LondonMetric Property Plc</strong> declares a first quarterly interim dividend for <strong>FY 2026/27</strong> of <strong>3.15 pence per share</strong>, a <strong>3.3% increase</strong> on Q1 2025/26.</li><li>Marks the first quarterly payout in what is expected to be LondonMetric's <strong>twelfth year of dividend progression</strong>; paid as a <strong>Property Income Distribution (PID)</strong>.</li><li>Ex-dividend <strong>27 August 2026</strong>, record date <strong>28 August 2026</strong>, payment <strong>6 October 2026</strong>; a <strong>scrip dividend alternative</strong> is intended to be available.</li><li>Routine dividend declaration with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "LondonMetric declares first quarterly interim dividend for FY 2026/27 of 3.15 pence per share, up 3.3% year on year.",
+    "priority": "medium",
+    "priority_reason": "Routine quarterly dividend declaration, though it confirms continued dividend progression.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/londonmetric-property--lmp/dividend-declaration/9731802",
+    "related_news_url": "https://news.google.com/search?q=%22LondonMetric%20Property%20Plc%22",
+    "added_at": "2026-08-20T09:55:35.204685"
+  },
+  {
     "company": "JTC plc",
     "ticker": "JTC",
     "publish_date": "20 August 2026",
