@@ -1,5 +1,56 @@
 [
   {
+    "company": "Ashtead Group PLC",
+    "ticker": "AHT",
+    "publish_date": "20 August 2026",
+    "date_iso": "2026-08-20",
+    "time_period": "FY 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "FY 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Profit warning:</strong> Board now expects <strong>FY26 revenue around 5% below</strong> current market consensus and <strong>Adjusted EBITA around 15% below</strong> consensus.</li><li>Company-compiled consensus (as at <strong>19 August 2026</strong>) is revenue of <strong>£214.2m</strong> and Adjusted EBITA of <strong>£59.2m</strong>.</li><li>Downgrade driven by no easing of the <strong>Middle East</strong> conflict, with H2 2026 regional projects <strong>postponed to 2027</strong>, plus vessel-scheduling and economic-uncertainty delays in <strong>Europe and the Americas</strong>.</li><li>Deferral of <strong>rental revenues</strong> worsens revenue mix; combined with operating leverage this drives <strong>lower margins</strong>.</li><li>Balance sheet described as strong, with <strong>leverage around 1.3x</strong> expected at year end (net debt / LTM Adjusted Proforma EBITDA).</li><li>Follows the <strong>15 July 2026</strong> update, which had flagged full-year delivery as contingent on the Middle East situation easing.</li></ul>",
+    "source_format": "html",
+    "headline": "Ashtead Technology warns FY26 revenue will be around 5% below consensus and Adjusted EBITA around 15% below, as Middle East and other project delays bite.",
+    "priority": "high",
+    "priority_reason": "Profit warning: revenue and Adjusted EBITA now guided materially below market consensus.",
+    "figures": [
+      {
+        "metric": "FY26 revenue vs consensus",
+        "current": "around 5% below consensus",
+        "prior": "consensus £214.2m",
+        "change": "-5% approx",
+        "basis": "company-compiled analyst consensus",
+        "note": "consensus as at 19 August 2026"
+      },
+      {
+        "metric": "FY26 Adjusted EBITA vs consensus",
+        "current": "around 15% below consensus",
+        "prior": "consensus £59.2m",
+        "change": "-15% approx",
+        "basis": "company-compiled analyst consensus",
+        "note": "consensus as at 19 August 2026"
+      },
+      {
+        "metric": "Year-end leverage",
+        "current": "around 1.3x",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "net debt / LTM Adjusted Proforma EBITDA",
+        "note": "expected at year end 2026"
+      }
+    ],
+    "guidance": {
+      "status": "lowered",
+      "previous": "Delivery of full-year market expectations (revenue £214.2m, Adjusted EBITA £59.2m consensus) was contingent on easing of the Middle East conflict and no major changes to project scheduling (per 15 July 2026 update).",
+      "current": "FY26 revenue around 5% below consensus and Adjusted EBITA around 15% below consensus; leverage around 1.3x at year end.",
+      "commentary": "Guidance cut because the Middle East conflict has not eased and regional H2 projects have slipped into 2027, with further delays in Europe and the Americas. Deferred rental revenue hurts the revenue mix and, via operating leverage, disproportionately reduces profit — hence the larger EBITA downgrade than revenue downgrade."
+    },
+    "explainer": "This is a profit warning. On 15 July Ashtead Technology said it could still hit full-year forecasts, but only if the Middle East conflict eased and project timings held. Neither happened: several second-half projects in the region have been pushed into 2027, and vessel-scheduling and broader economic uncertainty have delayed work in Europe and the Americas too.\n\nThe company benchmarks itself against a self-compiled analyst consensus of £214.2m revenue and £59.2m Adjusted EBITA for FY26. Revenue is now expected to land about 5% below that, but profit (Adjusted EBITA) about 15% below. The gap between the two is the key point: much of the deferred work is rental revenue, which is high-margin, so losing it hits profit far harder than sales — this is the operating leverage the Board refers to.\n\nDespite the profit hit, the balance sheet is presented as sound, with net debt around 1.3x LTM Adjusted Proforma EBITDA at year end. The Board frames the delays as timing rather than lost demand, pointing to energy-security tailwinds and a strong customer backlog.",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/ashtead-technology-holdings--at./trading-update/9730765",
+    "related_news_url": "https://news.google.com/search?q=%22Ashtead%20Technology%20Holdings%20plc%22",
+    "added_at": "2026-08-20T07:36:00.485458"
+  },
+  {
     "company": "Standard Life PLC",
     "ticker": "SDLF",
     "publish_date": "20 August 2026",
