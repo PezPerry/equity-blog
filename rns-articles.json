@@ -1,5 +1,74 @@
 [
   {
+    "company": "Standard Life PLC",
+    "ticker": "SDLF",
+    "publish_date": "20 August 2026",
+    "date_iso": "2026-08-20",
+    "time_period": "",
+    "announcement_type": "Acquisition / deal",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Standard Life plc</strong> launches a strategic UK Pension Risk Transfer (PRT) partnership with <strong>CVC Capital Partners</strong>, <strong>Prudential Financial, Inc.</strong>, <strong>The Goldman Sachs Group</strong> and <strong>MS&AD</strong>, to target the largest and most complex defined benefit schemes, subject to regulatory approval.</li><li>Combined initial capital commitment of <strong>up to £2bn</strong>, expected to be drawn over five years, including <strong>£500m from Standard Life</strong> with the balance from the Consortium, led by <strong>CVC</strong> and <strong>PFI</strong>.</li><li>To be branded <strong>Standard Life PRT Solutions</strong>, delivered via existing regulated insurer <strong>SLAL</strong>; Standard Life retains full operational control and <strong>51%</strong> of shareholder voting rights at completion.</li><li>Targets a share of the projected <strong>£350bn-£550bn</strong> of UK PRT transaction volumes over the next decade; Standard Life de-risked <strong>£32bn</strong> of DB liabilities in the ten years to December 2025.</li><li>Expected to support <strong>mid-single digit %</strong> yearly Operating Cash Generation growth and add fee-based revenues; near-term impacts on SCCR and Solvency II debt leverage described as minor.</li><li>Accelerates Standard Life's vision to become the UK's leading retirement savings and income business, alongside its previously announced acquisition of <strong>Aegon UK</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Standard Life launches UK Pension Risk Transfer partnership with CVC, Prudential Financial, Goldman Sachs and MS&AD, backed by up to £2bn initial capital.",
+    "priority": "high",
+    "priority_reason": "Major strategic partnership with up to £2bn of new capital that materially expands Standard Life's PRT business and creates a new fee-based revenue stream.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/standard-life-SDLF/share-news/Standard-Life-plc-Launch-of-UK-Pension-Risk-Transf/99160703",
+    "related_news_url": "https://news.google.com/search?q=%22Standard%20Life%20plc%22",
+    "added_at": "2026-08-20T07:17:05.948659"
+  },
+  {
+    "company": "Hays plc",
+    "ticker": "HAS",
+    "publish_date": "20 August 2026",
+    "date_iso": "2026-08-20",
+    "time_period": "FY to 30 June 2026",
+    "announcement_type": "Annual results",
+    "period_detail": "FY to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Hays plc</strong> publishes <strong>preliminary results</strong> for the year ended <strong>30 June 2026</strong>; the detailed financials are in the linked RNS PDF and are not reproduced in this announcement text.</li><li>Proposed <strong>final dividend of 0.29 pence</strong> per share, <strong>unchanged</strong> from the FY25 final, taking the <strong>full-year payment to 0.44 pence</strong> per share.</li><li>Dividend covered <strong>2.8x</strong> by FY26 pre-exceptional earnings, on the historic one-third/two-thirds interim/final split.</li><li>Final dividend payable <strong>26 November 2026</strong> to shareholders on the register on <strong>16 October 2026</strong>; DRIP election deadline <strong>3 November 2026</strong>.</li><li>Results webcast held at <strong>9.00am on 20 August 2026</strong>; recording and presentation materials to follow on the Hays website.</li><li>Note: this scraped text carries only dividend and admin detail — revenue, profit, EPS and net cash figures are not stated here.</li></ul>",
+    "source_format": "html",
+    "headline": "Hays reports FY26 preliminary results, holding the final dividend at 0.29p and full-year payout at 0.44p per share.",
+    "priority": "high",
+    "priority_reason": "Full-year preliminary results from a FTSE-listed recruiter, market-moving by nature.",
+    "figures": [
+      {
+        "metric": "Final dividend",
+        "current": "0.29p",
+        "prior": "0.29p (FY25 final)",
+        "change": "unchanged",
+        "basis": "per share",
+        "note": "FY to 30 June 2026"
+      },
+      {
+        "metric": "Full-year dividend",
+        "current": "0.44p",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "per share",
+        "note": "one-third/two-thirds interim/final split; 2.8x pre-exceptional earnings cover"
+      }
+    ],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "This is Hays's full-year (preliminary) results statement for the 12 months to 30 June 2026. The scraped page, however, contains only the dividend declaration and administrative details — the headline figures for revenue, fees, operating profit, earnings per share and net cash sit in the linked London Stock Exchange PDF, not in this text.\n\nOn dividends, the proposed final of 0.29p per share is flat on last year's final, giving a full-year total of 0.44p. Hays pays roughly one-third of the annual dividend at the half-year and two-thirds at the full-year, and the payout is covered 2.8 times by pre-exceptional earnings — a comfortable margin that leaves room to keep paying even if profits soften.\n\nNo forward guidance is quoted in this text, so the outlook and trading commentary should be read from the full results document. Traders should treat the numbers above as the dividend detail only, and refer to the PDF for the operational results.",
+    "source_url": "https://uk.advfn.com/stock-market/london/hays-HAS/share-news/Hays-PLC-Preliminary-Results-2026/99160733",
+    "related_news_url": "https://news.google.com/search?q=%22Hays%20plc%22",
+    "added_at": "2026-08-20T07:17:05.933551"
+  },
+  {
     "company": "JD Sports Fashion PLC",
     "ticker": "JD.",
     "publish_date": "20 August 2026",
