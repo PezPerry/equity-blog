@@ -1,5 +1,138 @@
 [
   {
+    "company": "PPHE Hotel Group Ltd",
+    "ticker": "PPH",
+    "publish_date": "21 August 2026",
+    "date_iso": "2026-08-21",
+    "time_period": "",
+    "announcement_type": "Disposal",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>PPHE Hotel Group</strong> has completed the sale of its <strong>Manhattan, New York</strong> freehold development site to a <strong>US real estate developer</strong> for <strong>$33.5m</strong>.</li><li>Proceeds used to repay associated debt of <strong>$6.75m</strong>; the balance to be deployed per the Group's capital allocation strategy.</li><li>Completes the process first flagged on <strong>18 February 2026</strong>, exiting a non-core US development asset.</li><li>Group retains a <strong>£2.2bn</strong> portfolio (Savills/ZANE valuation, December 2025) of primarily prime European freehold and long leasehold assets.</li><li>Routine disposal completion with <strong>no impact</strong> stated on current trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "PPHE Hotel Group has completed the sale of its Manhattan development site to a US developer for **$33.5m**.",
+    "priority": "medium",
+    "priority_reason": "Completion of a non-core asset disposal that crystallises cash but is not material to group earnings or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/pphe-hotel-PPH/share-news/PPHE-Hotel-Group-Limited-Completed-Sale-of-New-Yor/99168318",
+    "related_news_url": "https://news.google.com/search?q=%22PPHE%20Hotel%20Group%20Limited%22",
+    "added_at": "2026-08-21T07:23:06.510294"
+  },
+  {
+    "company": "Hunting PLC",
+    "ticker": "HTG",
+    "publish_date": "21 August 2026",
+    "date_iso": "2026-08-21",
+    "time_period": "H1 to 30 June 2026",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Hunting PLC</strong> cut its <strong>2026 EBITDA guidance</strong> to <strong>$138-141m</strong>, slightly below previous guidance, after the <strong>Kuwait Oil Company (KOC)</strong> OCTG tender delay knocks c.<strong>$10m</strong> off 2026 EBITDA.</li><li>H1 2026 revenue fell <strong>6%</strong> to <strong>$497.0m</strong> (H1 2025: $528.6m); <strong>EBITDA</strong> down <strong>12%</strong> to <strong>$62.1m</strong> (H1 2025: $70.2m), reflecting the non-recurrence of prior-year KOC orders and slower Advanced Manufacturing activity.</li><li><strong>Adjusted profit before tax</strong> of <strong>$34.5m</strong> (H1 2025: $43.7m); <strong>adjusted diluted EPS</strong> <strong>15.2c</strong> (H1 2025: 19.6c); IFRS profit before tax up to <strong>$34.2m</strong> from $30.6m.</li><li>Interim dividend raised <strong>13%</strong> to <strong>7.0c</strong> per share (H1 2025: 6.2c); Directors project <strong>13% per annum</strong> dividend growth through to end-decade; <strong>$40m</strong> second buyback underway.</li><li>Moved to <strong>net debt of $51.4m</strong> (H1 2025: net cash $44.7m) after a <strong>$58.0m</strong> working-capital outflow; free cash flow <strong>-$27.8m</strong>; management expects working capital to unwind in H2.</li><li>Strong <strong>Subsea</strong> and <strong>Perforating Systems</strong> performance; <strong>$63.5m</strong> titanium stress joint orders secured for <strong>ExxonMobil</strong> in Guyana; CEO <strong>Jim Johnson</strong> to retire, search underway.</li></ul>",
+    "source_format": "html",
+    "headline": "Hunting posts a 6% H1 revenue fall to $497.0m and trims 2026 EBITDA guidance to $138-141m after a Kuwait tender delay.",
+    "priority": "high",
+    "priority_reason": "Half-year results accompanied by a lowered full-year EBITDA guidance range following a Middle East tender delay.",
+    "figures": [
+      {
+        "metric": "Revenue",
+        "current": "$497.0m",
+        "prior": "$528.6m",
+        "change": "-6%",
+        "basis": "reported",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "EBITDA",
+        "current": "$62.1m",
+        "prior": "$70.2m",
+        "change": "-12%",
+        "basis": "non-GAAP",
+        "note": "EBITDA margin 12% vs 13%"
+      },
+      {
+        "metric": "Adjusted profit before tax",
+        "current": "$34.5m",
+        "prior": "$43.7m",
+        "change": "not stated",
+        "basis": "adjusted",
+        "note": "before one-off adjusting items"
+      },
+      {
+        "metric": "Profit before tax (IFRS)",
+        "current": "$34.2m",
+        "prior": "$30.6m",
+        "change": "not stated",
+        "basis": "IFRS",
+        "note": ""
+      },
+      {
+        "metric": "Adjusted diluted EPS",
+        "current": "15.2c",
+        "prior": "19.6c",
+        "change": "not stated",
+        "basis": "adjusted",
+        "note": "IFRS diluted EPS 15.0c vs 12.1c"
+      },
+      {
+        "metric": "Interim dividend",
+        "current": "7.0c",
+        "prior": "6.2c",
+        "change": "+13%",
+        "basis": "per share",
+        "note": "paid in Sterling on 30 October 2026"
+      },
+      {
+        "metric": "Net cash / (debt)",
+        "current": "-$51.4m",
+        "prior": "$44.7m",
+        "change": "not stated",
+        "basis": "non-GAAP",
+        "note": "moved from net cash to net debt"
+      },
+      {
+        "metric": "Free cash flow",
+        "current": "-$27.8m",
+        "prior": "$66.2m",
+        "change": "not stated",
+        "basis": "non-GAAP",
+        "note": "$58.0m working-capital outflow in H1"
+      },
+      {
+        "metric": "Sales order book",
+        "current": "$386.5m",
+        "prior": "$451.5m",
+        "change": "not stated",
+        "basis": "non-GAAP",
+        "note": ""
+      },
+      {
+        "metric": "ROCE",
+        "current": "9.1%",
+        "prior": "10.5%",
+        "change": "not stated",
+        "basis": "non-GAAP",
+        "note": ""
+      }
+    ],
+    "guidance": {
+      "status": "lowered",
+      "previous": "Prior 2026 EBITDA guidance (not quoted as a figure in this announcement) and 2027 EBITDA consensus of $165m (Bloomberg, prior to release); year-end total cash and bank position guidance c.$50-60m.",
+      "current": "Revised 2026 EBITDA guidance range of $138-141m, slightly below previous guidance; projected year-end total cash and bank position broadly unchanged at c.$50-60m. KOC tender could have a maximum adverse impact of c.$10m on current 2027 EBITDA consensus.",
+      "commentary": "The KOC OCTG tender delay reduces 2026 EBITDA by c.$10m, prompting the trim to $138-141m. 2026 earnings remain H2-weighted; management still expects year-on-year growth into 2027, with the KOC outcome the key swing factor against the $165m 2027 consensus."
+    },
+    "explainer": "Hunting reports in US dollars. Headline H1 revenue fell 6% to $497.0m and EBITDA fell 12% to $62.1m, but the decline is largely a comparative effect: the prior year (H1 2025) included large one-off orders for Kuwait Oil Company that did not repeat, plus slower Advanced Manufacturing work. Underneath that, the Subsea and Perforating Systems product groups grew organically, so the mix of earnings is shifting towards higher-margin, more durable lines.\n\nThe swing from net cash of $44.7m to net debt of $51.4m, and the negative free cash flow, are driven by a $58.0m working-capital outflow — chiefly forward material purchases and higher receivables in the Hunting Titan and Subsea segments. Management expects this to unwind in H2, hence the year-end cash guidance is broadly unchanged at c.$50-60m. This is a timing effect rather than a deterioration in profitability.\n\nOn guidance, the key change is 2026 EBITDA. Kuwait Oil Company has indicated it will re-run its OCTG tender (originally issued April 2026), pushing any award into 2027 recognition. That c.$10m hit lowers the 2026 EBITDA range to $138-141m, described as slightly below the previous range. For 2027, the same tender uncertainty represents a maximum c.$10m adverse impact against the pre-announcement Bloomberg consensus of $165m.\n\nThe adjusted figures strip out one-off items agreed by the Audit and Risk Committee; note IFRS profit before tax actually rose (to $34.2m from $30.6m) because the prior period carried $13.1m of adjusting items versus just $0.3m this half. The 13% dividend increase and the ongoing $40m buyback signal continued confidence in cash returns despite the softer near-term earnings.",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/hunting--htg/results-for-the-six-months-ended-30-june-2026/9733026",
+    "related_news_url": "https://news.google.com/search?q=%22Hunting%20PLC%22",
+    "added_at": "2026-08-21T07:23:06.476405"
+  },
+  {
     "company": "Credit Acceptance Corp",
     "ticker": "CACC",
     "publish_date": "21 August 2026",
