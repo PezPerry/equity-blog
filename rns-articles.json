@@ -1,5 +1,31 @@
 [
   {
+    "company": "TBC Bank Group PLC",
+    "ticker": "TBCG",
+    "publish_date": "21 August 2026",
+    "date_iso": "2026-08-21",
+    "time_period": "1Q 2026",
+    "announcement_type": "Dividend declaration",
+    "period_detail": "1Q 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>TBC Bank Group PLC</strong> sets the <strong>GEL/GBP</strong> conversion rate for its <strong>1Q 2026</strong> quarterly dividend at <strong>3.5469</strong>.</li><li>Rate is the <strong>National Bank of Georgia</strong> average for <strong>17-21 August 2026</strong> (5-day average).</li><li>Routine mechanical disclosure with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "TBC Bank sets a Georgian Lari to Sterling conversion rate of 3.5469 for its 1Q 2026 quarterly dividend payment.",
+    "priority": "low",
+    "priority_reason": "Routine mechanical disclosure of the FX conversion rate for an already-declared quarterly dividend; no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/tbc-bank-group--tbcg/dividend-currency-conversion-rate/9734029",
+    "related_news_url": "https://news.google.com/search?q=%22TBC%20Bank%20Group%20PLC%22",
+    "added_at": "2026-08-21T09:15:42.693169"
+  },
+  {
     "company": "PPHE Hotel Group Ltd",
     "ticker": "PPH",
     "publish_date": "21 August 2026",
