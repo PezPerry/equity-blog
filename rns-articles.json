@@ -1,5 +1,31 @@
 [
   {
+    "company": "Credit Acceptance Corp",
+    "ticker": "CACC",
+    "publish_date": "21 August 2026",
+    "date_iso": "2026-08-21",
+    "time_period": "",
+    "announcement_type": "Financing / refinancing",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Credit Acceptance Corporation</strong> has completed a <strong>$600 million</strong> asset-backed financing, <strong>matching the largest ABS transaction in its history</strong>.</li><li><strong>Jay Brinkley</strong>, Treasurer, said strong investor demand secured the company's <strong>lowest credit spreads since late 2021</strong>, though all-in cost rose modestly versus the <strong>May</strong> securitisation on <strong>higher Treasury rates</strong>.</li><li>The company will retain <strong>4.0%</strong> of underlying consumer loan cash flows for servicing; the remaining <strong>96.0%</strong> (less dealer holdback) services principal, interest and costs of the financing.</li><li>Post-completion, Credit Acceptance retained roughly <strong>$1.8 billion</strong> in unused, available borrowing capacity on revolving credit facilities and unrestricted cash.</li><li>Notes are unregistered under the <strong>Securities Act of 1933</strong>; release issued under <strong>Rule 135c</strong> and is not an offer to sell — <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Credit Acceptance completes **$600.0m** asset-backed securitisation, matching the largest ABS deal in its history.",
+    "priority": "medium",
+    "priority_reason": "Completion of a $600m asset-backed securitisation is a material financing event but not a trading or guidance change.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/CACC/share-news/Credit-Acceptance-Announces-Completion-Of-600-0-M/99166462",
+    "related_news_url": "https://news.google.com/search?q=%22Credit%20Acceptance%20Corporation%22",
+    "added_at": "2026-08-21T07:18:06.736415"
+  },
+  {
     "company": "Gore Street Energy Storage Fund PLC",
     "ticker": "GSF",
     "publish_date": "21 August 2026",
@@ -24,6 +50,65 @@
     "source_url": "https://uk.advfn.com/stock-market/london/gore-street-energy-storage-GSF/share-news/Gore-Street-Energy-Storage-Fund-PLC-Sale-of-Kilman/99165145",
     "related_news_url": "https://news.google.com/search?q=%22Gore%20Street%20Energy%20Storage%20Fund%20plc%22",
     "added_at": "2026-08-21T07:17:17.505792"
+  },
+  {
+    "company": "Hunting PLC",
+    "ticker": "HTG",
+    "publish_date": "20 August 2026",
+    "date_iso": "2026-08-20",
+    "time_period": "H1 to 30 June 2026",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Hunting PLC</strong> H1 2026 revenue down <strong>6% to $497.0m</strong>, with <strong>EBITDA down 12% to $62.1m</strong> (H1 2025: <strong>$70.2m</strong>), reflecting the non-recurrence of <strong>Kuwait Oil Company</strong> orders and slower Advanced Manufacturing activity.</li><li>2026 EBITDA guidance revised down to <strong>$138-141m</strong>, slightly below previous, as the <strong>KOC OCTG tender delay</strong> hits full-year EBITDA by <strong>c.$10m</strong>; year-end cash broadly unchanged at <strong>c.$50-60m</strong>.</li><li>KOC has verbally indicated it will re-run its OCTG tender, expected to be re-issued in <strong>Q3 2026</strong>; any awards would only be recognised from <strong>2027</strong>, with a maximum c.$10m adverse impact on 2027 EBITDA consensus (previously <strong>$165m</strong>).</li><li>Interim dividend raised <strong>13% to 7.0 cents</strong> per share (H1 2025: <strong>6.2 cents</strong>); Directors project 13% annual dividend growth to the end of the decade.</li><li>Strong showings from <strong>Subsea Technologies</strong> and <strong>Perforating Systems</strong>; $63.5m of titanium stress joint orders secured for <strong>ExxonMobil</strong> in Guyana; $40m second buyback programme underway to March 2028.</li><li>CEO <strong>Jim Johnson</strong> has given notice to retire; an international search firm has been appointed to find a successor.</li></ul>",
+    "source_format": "html",
+    "headline": "Hunting posts a 6% revenue fall to $497.0m in H1 2026 and trims 2026 EBITDA guidance to $138-141m after a KOC tender delay.",
+    "priority": "high",
+    "priority_reason": "Half-year results accompanied by a downgrade to 2026 EBITDA guidance following a Middle East tender delay.",
+    "figures": [
+      {
+        "metric": "Revenue",
+        "current": "$497.0m",
+        "prior": "not stated",
+        "change": "-6%",
+        "basis": "reported",
+        "note": "H1 to 30 June 2026 vs H1 2025"
+      },
+      {
+        "metric": "EBITDA",
+        "current": "$62.1m",
+        "prior": "$70.2m",
+        "change": "-12%",
+        "basis": "adjusted",
+        "note": "H1 to 30 June 2026 vs H1 2025"
+      },
+      {
+        "metric": "Interim dividend",
+        "current": "7.0 cents",
+        "prior": "6.2 cents",
+        "change": "+13%",
+        "basis": "per share",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "Working capital movement",
+        "current": "$58.0m outflow",
+        "prior": "$25.8m inflow",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "H1 2026 vs H1 2025; expected to unwind in H2"
+      }
+    ],
+    "guidance": {
+      "status": "lowered",
+      "previous": "Previous 2026 EBITDA guidance (figure not restated), described as 'slightly' above the revised range; 2027 EBITDA consensus of $165m (Bloomberg)",
+      "current": "Revised 2026 EBITDA guidance range of $138-141m; year-end total cash and bank position c.$50-60m; maximum c.$10m adverse impact on 2027 EBITDA consensus depending on the KOC tender",
+      "commentary": "The delay to the Kuwait Oil Company OCTG tender knocks c.$10m off 2026 EBITDA, prompting the modestly lowered 2026 range. Management still expects a second-half-weighted year and continued growth into 2027, subject to the timing and outcome of the re-run KOC tender."
+    },
+    "explainer": "Hunting reports in US dollars. Revenue fell 6% to $497.0m and adjusted EBITDA fell 12% to $62.1m, largely because a large batch of Kuwait Oil Company (KOC) orders that boosted the comparable H1 2025 period did not repeat, and because the Advanced Manufacturing unit was quieter. Underneath the headline decline, the Subsea Technologies and Perforating Systems units grew strongly, so the weakness is concentrated in specific product groups rather than across the board.\n\nThe key change is guidance. Hunting has trimmed its 2026 EBITDA outlook to $138-141m, a modest cut it attributes to a roughly $10m hit from a delayed KOC tender in the Middle East. KOC has verbally signalled it will re-run the tender in Q3 2026, but any resulting contracts would not be booked until 2027 — hence a possible c.$10m drag on the 2027 EBITDA consensus, which stood at $165m before this release.\n\nThe $58.0m working capital outflow (versus a $25.8m inflow a year earlier) reflects forward material purchases and higher receivables in the Hunting Titan and Subsea units; management expects this to reverse in the second half, keeping projected year-end cash at c.$50-60m. As guided, earnings are weighted to H2.\n\nThe interim dividend rises 13% to 7.0 cents, with the Board reiterating an ambition of at least 10% annual increases and projecting 13% per year to the end of the decade. A $40m buyback (the second programme) is running to March 2028, by which point Hunting will have returned $100m across two programmes.",
+    "source_url": "https://uk.advfn.com/stock-market/london/hunting-HTG/share-news/Hunting-PLC-Results-for-the-six-months-ended-30-Ju/99168300",
+    "related_news_url": "https://news.google.com/search?q=%22Hunting%20PLC%22",
+    "added_at": "2026-08-21T07:18:06.667425"
   },
   {
     "company": "Glenveagh Properties PLC",
