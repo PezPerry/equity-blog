@@ -1,5 +1,57 @@
 [
   {
+    "company": "IP Group PLC",
+    "ticker": "IPO",
+    "publish_date": "24 August 2026",
+    "date_iso": "2026-08-24",
+    "time_period": "",
+    "announcement_type": "Disposal",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>One Media iP Group Plc</strong> has completed the disposal of its <strong>entire equity interest</strong> in <strong>Round Group Limited</strong>, representing approximately <strong>4.6%</strong> of Round's fully diluted share capital, for <strong>cash consideration</strong> (amount not disclosed).</li><li>Buyer was <strong>Round</strong> itself, which purchased the stake back.</li><li>Existing loan arrangements varied: a portion redrawn by Round, leaving aggregate principal outstanding of <strong>£175,000</strong>.</li><li>CEO <strong>Michael Infante</strong> said the deal is \"crystallising value for One Media and its shareholders.\"</li><li>Note: cash consideration figure is <strong>not stated</strong> in the announcement, so financial impact cannot be quantified.</li></ul>",
+    "source_format": "html",
+    "headline": "One Media iP Group has completed the disposal of its entire circa 4.6% equity interest in Round Group Limited for undisclosed cash consideration.",
+    "priority": "medium",
+    "priority_reason": "A completed disposal of an equity interest with loan variation, but a small minority stake with cash consideration not disclosed.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/one-media-ip-group--omip/disposal-of-interest-in-round-group-limited/9736262",
+    "related_news_url": "https://news.google.com/search?q=%22One%20Media%20iP%20Group%20Plc%22",
+    "added_at": "2026-08-24T12:35:42.576991"
+  },
+  {
+    "company": "Tritax Big Box REIT PLC",
+    "ticker": "BBOX",
+    "publish_date": "24 August 2026",
+    "date_iso": "2026-08-24",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li>Shareholders of <strong>Tritax Big Box REIT plc</strong> passed the resolution approving the issue of New Ordinary Shares under the <strong>approximately £350 million</strong> Equity Issue at a discount to NAV, carried on a show of hands.</li><li>Proxy votes were <strong>97.27%</strong> in favour (<strong>2,021,862,215</strong> votes) versus <strong>2.73%</strong> against (<strong>56,801,930</strong> votes); <strong>59,371,331</strong> votes withheld.</li><li>Admission and dealings in the New Ordinary Shares expected to commence at or shortly after <strong>8.00 a.m. on Wednesday, 26 August 2026</strong>.</li><li>The <strong>£350m</strong> raise itself was announced on <strong>6 August 2026</strong>; this announcement confirms the enabling shareholder vote.</li></ul>",
+    "source_format": "html",
+    "headline": "Shareholders approve issue of new ordinary shares for BBOX's approximately **£350 million** equity raise at a discount to net asset value.",
+    "priority": "medium",
+    "priority_reason": "Shareholder approval of a £350m equity issue at a discount to NAV; enables new share admission but the raise itself was already announced.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/tritax-big-box-reit--bbox/result-of-general-meeting/9736934",
+    "related_news_url": "https://news.google.com/search?q=%22Tritax%20Big%20Box%20REIT%20plc%22",
+    "added_at": "2026-08-24T12:35:42.552222"
+  },
+  {
     "company": "FirstGroup PLC",
     "ticker": "FGP",
     "publish_date": "24 August 2026",
