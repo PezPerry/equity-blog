@@ -1,5 +1,31 @@
 [
   {
+    "company": "FirstGroup PLC",
+    "ticker": "FGP",
+    "publish_date": "24 August 2026",
+    "date_iso": "2026-08-24",
+    "time_period": "",
+    "announcement_type": "Disposal",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>FirstGroup plc</strong> has completed the sale of <strong>Mistral Data Limited</strong> to <strong>Tracsis plc</strong> (AIM: TRCS) on <strong>23 August 2026</strong>.</li><li>Consideration of <strong>£48m</strong> was paid to the Group on completion, subject to customary adjustments.</li><li>Deal was first announced on <strong>29 July 2026</strong>; <strong>Panmure Liberum</strong> acted as financial adviser to FirstGroup.</li><li>Context: FirstGroup reported revenue of <strong>£1.72 billion</strong> in FY 2026 — the disposal is small relative to group scale, with <strong>no impact</strong> on trading guidance stated.</li></ul>",
+    "source_format": "html",
+    "headline": "FirstGroup completes £48m sale of Mistral Data Limited to AIM-listed Tracsis plc, first announced on 29 July 2026.",
+    "priority": "medium",
+    "priority_reason": "Completion of a previously-announced disposal for £48m; a corporate transaction but modest relative to group scale and already flagged.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/firstgroup-FGP/share-news/FirstGroup-Plc-Completion-of-sale-of-Mistral-Dat/99175637",
+    "related_news_url": "https://news.google.com/search?q=%22FirstGroup%20plc%22",
+    "added_at": "2026-08-24T08:36:09.432346"
+  },
+  {
     "company": "GSK plc",
     "ticker": "GSK",
     "publish_date": "24 August 2026",
