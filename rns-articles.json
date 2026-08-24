@@ -1,5 +1,31 @@
 [
   {
+    "company": "GSK plc",
+    "ticker": "GSK",
+    "publish_date": "24 August 2026",
+    "date_iso": "2026-08-24",
+    "time_period": "",
+    "announcement_type": "Regulatory / pipeline update",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>FDA</strong> has accepted for <strong>priority review</strong> a supplemental Biologics License Application for <strong>Jemperli (dostarlimab)</strong> in previously untreated stage II/III <strong>dMMR/MSI-H</strong> locally advanced rectal cancer.</li><li><strong>PDUFA action date</strong> set for <strong>February 2027</strong>; application also eligible for further expedited review under the <strong>National Priority Voucher</strong> programme.</li><li>Submission accepted under <strong>Project Orbis</strong>, enabling coordinated international regulatory review, potentially speeding decisions in other markets.</li><li>Backed by <strong>AZUR-1</strong> phase II data showing a sustained clinical complete response at 12 months, with no detectable cancer signs in a significant proportion of participants after one year or more.</li><li>If approved, <strong>Jemperli</strong> could become the first immunotherapy to eliminate or delay the need for chemotherapy, radiation and surgery in some patients; drug is <strong>not currently approved anywhere</strong> for this indication.</li><li>Dostarlimab already holds <strong>Fast Track</strong> and <strong>Breakthrough Therapy</strong> designations in this setting; no impact on current-year guidance stated in the announcement.</li></ul>",
+    "source_format": "html",
+    "headline": "US FDA accepts priority review of GSK's Jemperli for previously untreated dMMR/MSI-H locally advanced rectal cancer, PDUFA date February 2027.",
+    "priority": "medium",
+    "priority_reason": "FDA priority review acceptance is a meaningful pipeline milestone but not yet an approval or financial update.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/gsk-GSK/share-news/GSK-PLC-US-FDA-to-review-Jemperli-for-rectal-cance/99175542",
+    "related_news_url": "https://news.google.com/search?q=%22GSK%20plc%22",
+    "added_at": "2026-08-24T08:21:51.917260"
+  },
+  {
     "company": "Baillie Gifford US Growth Trust plc",
     "ticker": "USA",
     "publish_date": "24 August 2026",
