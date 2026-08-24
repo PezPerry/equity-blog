@@ -1,5 +1,31 @@
 [
   {
+    "company": "Ashtead Group PLC",
+    "ticker": "AHT",
+    "publish_date": "24 August 2026",
+    "date_iso": "2026-08-24",
+    "time_period": "H1 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "H1 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Ashtead Technology Holdings plc</strong> will report results for the <strong>six months ended 30 June 2026</strong> on <strong>Tuesday 1 September 2026</strong>.</li><li>Analyst/institutional presentation at <strong>8.00am BST</strong> on results day, hosted at <strong>Peel Hunt, 100 Liverpool St, London</strong>, with a virtual option.</li><li>Separate retail investor webinar via <strong>BRR Engage</strong> at <strong>10:30am BST</strong> on <strong>Friday 4 September 2026</strong>, open to all shareholders.</li><li>Routine calendar notice with <strong>no financial figures</strong> disclosed; <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Ashtead Technology confirms it will report half year results on 1 September 2026.",
+    "priority": "medium",
+    "priority_reason": "Confirms date of upcoming half year results rather than delivering financial content itself.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/ashtead-technology-holdings--at./notice-of-half-year-results/9735283",
+    "related_news_url": "https://news.google.com/search?q=%22Ashtead%20Technology%20Holdings%20plc%22",
+    "added_at": "2026-08-24T07:38:57.492680"
+  },
+  {
     "company": "Gamma Communications PLC",
     "ticker": "GAMA",
     "publish_date": "21 August 2026",
