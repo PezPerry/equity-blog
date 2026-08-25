@@ -1,5 +1,96 @@
 [
   {
+    "company": "Chesnara PLC",
+    "ticker": "CSN",
+    "publish_date": "25 August 2026",
+    "date_iso": "2026-08-25",
+    "time_period": "H1 2026 (six months to 30 June 2026)",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 2026 (six months to 30 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Operating Capital Generation of £96m</strong>, up <strong>79%</strong> (HY25: £54m), of which <strong>£51m</strong> is acquisition-related, <strong>£33m</strong> from business-unit surplus emergence and <strong>£12m</strong> from Group Centre capital optimisation.</li><li>Interim dividend raised <strong>6% to 8.16p</strong> per share, including a one-off <strong>3% step-up</strong>; extends Chesnara's dividend-increase run to <strong>21 years</strong> — payable <strong>16 October 2026</strong>, ex-div <strong>3 September 2026</strong>.</li><li><strong>Cash Remittances of £73m</strong>, up <strong>31%</strong> (HY25: £56m); <strong>Adjusted Operating Profit of £31m</strong>, up <strong>46%</strong> (HY25: £21m); <strong>Own Funds of £976m</strong>, up <strong>14%</strong> (FY25: £859m).</li><li><strong>Solvency Coverage Ratio of 185%</strong> (FY25: 257%), reflecting completion of the <strong>HSBC Life (UK)</strong> deal — now <strong>Chesnara Life UK</strong> — and well above the 140-160% operating range; <strong>AuA of £21bn</strong>, up <strong>38%</strong>.</li><li><strong>Chesnara Life UK</strong> (largest deal to date) completed January 2026; proposed acquisition of <strong>Scottish Widows Europe SA</strong> expected to complete around end-2026, adding ~<strong>€1.7bn</strong> AuA, ~46,000 policies and <strong>€250m</strong> lifetime cash generation.</li><li><strong>Total New Business Contribution of £12m</strong>, up <strong>152%</strong> (HY25: £5m), driven by UK onshore bond demand across Countrywide Assured and Chesnara Life UK.</li></ul>",
+    "source_format": "html",
+    "headline": "Chesnara posts strong H1 2026 with Operating Capital Generation up 79% to £96m and a 6% rise in the interim dividend to 8.16p.",
+    "priority": "high",
+    "priority_reason": "Half-year results from a FTSE 250 life insurer, with OCG up 79%, a dividend increase and M&A progress.",
+    "figures": [
+      {
+        "metric": "Operating Capital Generation (OCG)",
+        "current": "£96m",
+        "prior": "£54m",
+        "change": "+79%",
+        "basis": "reported",
+        "note": "HY26 vs HY25"
+      },
+      {
+        "metric": "Cash Remittances",
+        "current": "£73m",
+        "prior": "£56m",
+        "change": "+31%",
+        "basis": "reported",
+        "note": "HY26 vs HY25"
+      },
+      {
+        "metric": "Adjusted Operating Profit (AOP)",
+        "current": "£31m",
+        "prior": "£21m",
+        "change": "+46%",
+        "basis": "reported",
+        "note": "HY26 vs HY25"
+      },
+      {
+        "metric": "Own Funds",
+        "current": "£976m",
+        "prior": "£859m",
+        "change": "+14%",
+        "basis": "reported",
+        "note": "HY26 vs FY25"
+      },
+      {
+        "metric": "Solvency Coverage Ratio",
+        "current": "185%",
+        "prior": "257%",
+        "change": "not stated",
+        "basis": "Solvency II",
+        "note": "HY26 vs FY25; 5ppts above c.180% FY25 proforma"
+      },
+      {
+        "metric": "Assets under Administration (AuA)",
+        "current": "£21bn",
+        "prior": "£15bn",
+        "change": "+38%",
+        "basis": "reported, incl. proforma second Canada Life portfolio",
+        "note": "HY26 vs FY25"
+      },
+      {
+        "metric": "Total New Business Contribution",
+        "current": "£12m",
+        "prior": "£5m",
+        "change": "+152%",
+        "basis": "reported",
+        "note": "HY26 vs HY25"
+      },
+      {
+        "metric": "Interim dividend",
+        "current": "8.16p",
+        "prior": "not stated",
+        "change": "+6%",
+        "basis": "per share, incl. one-off 3% step-up",
+        "note": "HY26 vs HY25"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "6% increase in interim dividend guided at the time of the HSBC Life (UK) acquisition announcement",
+      "current": "Interim dividend increased 6% to 8.16p per share, in line with prior guidance; Solvency Coverage Ratio expected to remain above the upper end of the 140-160% operating range after the Scottish Widows Europe SA acquisition completes",
+      "commentary": "The dividend rise delivers exactly the 6% (including a one-off 3% step-up) previously guided at the HSBC Life (UK) deal. Chesnara reaffirms solvency will stay above its operating range post the Scottish Widows Europe acquisition, expected around end-2026."
+    },
+    "explainer": "Chesnara is a life and pensions consolidator, so its headline measures are cash- and capital-based rather than the usual revenue/profit lines. Operating Capital Generation (OCG) — the Solvency II capital produced by the business — jumped 79% to £96m, but £51m of that came from the newly acquired Chesnara Life UK (the former HSBC Life (UK)), meaning about £45m was underlying (£33m surplus emergence plus £12m of Group Centre optimisation). Cash Remittances of £73m are the cash the operating units actually paid up to the parent, up 31%.\n\nThe Solvency Coverage Ratio fell to 185% from 257% at FY25, which sounds alarming but simply reflects paying for the HSBC Life (UK) deal and the extra capital it requires; management partly offset this with mass-lapse reinsurance and FX hedging. At 185% the ratio is still comfortably above the 140-160% target range and 5 percentage points ahead of the c.180% proforma the group flagged at year-end, leaving headroom for further M&A.\n\nAuA of £21bn (up 38%) includes £5bn from Chesnara Life UK plus a proforma allowance for the second Canada Life portfolio and strong Swedish markets, so growth is largely acquisition- and market-driven rather than organic. New business nearly tripled to £12m, helped by demand for UK onshore bonds.\n\nOn guidance, the 6% dividend increase to 8.16p — with a one-off 3% step-up — is exactly what was promised when the HSBC Life (UK) deal was announced, so the position is maintained rather than upgraded. Chesnara also reiterated that solvency will stay above the top of its operating range even after the Scottish Widows Europe SA acquisition, which is expected to complete around the end of 2026 subject to regulatory Change in Control approval.",
+    "source_url": "https://uk.advfn.com/stock-market/london/chesnara-CSN/share-news/Chesnara-PLC-Half-year-Financial-Report/99184343",
+    "related_news_url": "https://news.google.com/search?q=%22Chesnara%20plc%22",
+    "added_at": "2026-08-25T07:25:12.554896"
+  },
+  {
     "company": "easyJet PLC",
     "ticker": "EZJ",
     "publish_date": "25 August 2026",
