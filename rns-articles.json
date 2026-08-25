@@ -1,5 +1,31 @@
 [
   {
+    "company": "easyJet PLC",
+    "ticker": "EZJ",
+    "publish_date": "25 August 2026",
+    "date_iso": "2026-08-25",
+    "time_period": "",
+    "announcement_type": "Acquisition / deal",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li>Deadline for publishing the <strong>Scheme Document</strong> for <strong>Apollo</strong>'s recommended cash acquisition of <strong>easyJet</strong> extended to <strong>on or before 15 October 2026</strong>, replacing the original 28-day deadline from <strong>6 August 2026</strong>.</li><li>Extension agreed to allow continued engagement with aviation regulators after the summer period; the <strong>Takeover Panel</strong> has consented under paragraph 3(a) of Appendix 7 of the Code.</li><li><strong>Court Meeting</strong> and <strong>General Meeting</strong> now expected in or around the week commencing <strong>9 November 2026</strong>.</li><li>Deal still expected to complete by the <strong>end of Q1 2027</strong>, subject to conditions.</li><li>Acquisition to be implemented via a court-sanctioned <strong>scheme of arrangement</strong> under Part 26 of the Companies Act 2006.</li></ul>",
+    "source_format": "html",
+    "headline": "easyJet and Apollo's Bidco extend the deadline for publishing the scheme document for the recommended cash takeover to on or before 15 October 2026.",
+    "priority": "high",
+    "priority_reason": "Timetable update to Apollo's recommended cash takeover of easyJet — a live M&A situation.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/easyjet-EZJ/share-news/Offer-Update/99184530",
+    "related_news_url": "https://news.google.com/search?q=%22easyJet%20plc%22",
+    "added_at": "2026-08-25T07:24:41.009657"
+  },
+  {
     "company": "Metlen Energy & Metals PLC",
     "ticker": "MTLN",
     "publish_date": "25 August 2026",
@@ -24,6 +50,32 @@
     "source_url": "https://uk.advfn.com/stock-market/london/metlen-energy-and-metals-MTLN/share-news/Metlen-Energy-Metals-PLC-Concessions-PPP-Busin/99181047",
     "related_news_url": "https://news.google.com/search?q=%22Metlen%20Energy%20%26%20Metals%20PLC%22",
     "added_at": "2026-08-25T07:24:17.102660"
+  },
+  {
+    "company": "Interactive Brokers Group Inc",
+    "ticker": "IBKR",
+    "publish_date": "24 August 2026",
+    "date_iso": "2026-08-24",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>Interactive Brokers</strong> (Nasdaq: IBKR) has agreed a strategic collaboration with <strong>Daol Investment & Securities</strong> to provide eligible <strong>Korean</strong> investors with cost-effective access to global equities through Daol's platform.</li><li>Deal uses IBKR's trading infrastructure and <strong>white-label / introducing-broker</strong> technology; commentary flags plans to expand accessible markets, derivatives and direct investment services over time.</li><li><strong>No financial terms, revenue contribution or guidance impact</strong> were disclosed — routine business-development news with no immediate impact on trading or guidance.</li><li>US-listed (S&P 500) name, not a UK RNS; <strong>David Friedland</strong> (MD APAC, IBKR) and <strong>BC Lee</strong> (Chairman, Daol) provided supporting quotes.</li></ul>",
+    "source_format": "html",
+    "headline": "Interactive Brokers agrees a strategic collaboration with Daol Investment & Securities to give eligible Korean investors access to global equities via Daol's platform.",
+    "priority": "low",
+    "priority_reason": "Routine commercial partnership with no financial terms, guidance impact or near-term earnings implication disclosed.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/IBKR/share-news/Interactive-Brokers-Announces-Strategic-Collaborat/99184040",
+    "related_news_url": "https://news.google.com/search?q=%22Interactive%20Brokers%20Group%2C%20Inc.%22",
+    "added_at": "2026-08-25T07:24:40.998336"
   },
   {
     "company": "One Media IP Group",
