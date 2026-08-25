@@ -1,5 +1,31 @@
 [
   {
+    "company": "Standard Chartered PLC",
+    "ticker": "STAN",
+    "publish_date": "25 August 2026",
+    "date_iso": "2026-08-25",
+    "time_period": "",
+    "announcement_type": "Debt redemption",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Standard Chartered PLC</strong> will exercise its call option to fully redeem the outstanding <strong>EUR1,000,000,000 1.200% Fixed Rate Reset Dated Subordinated Notes due 2031</strong> (ISIN <strong>XS2319954710</strong>) on <strong>23 September 2026</strong> at the Call Option Redemption Amount plus accrued but unpaid interest.</li><li>Notes will be cancelled, leaving none in issue; listing on the FCA Official List and admission to trading on the LSE Main Market will be cancelled on or shortly after <strong>24 September 2026</strong>.</li><li>Routine bondholder notice — <strong>no impact</strong> on equity trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Standard Chartered will fully redeem its **EUR1bn 1.200% Fixed Rate Reset subordinated notes due 2031** on **23 September 2026** at the call option amount plus accrued interest.",
+    "priority": "low",
+    "priority_reason": "Routine early redemption of a subordinated bond at the issuer's call date, with no impact on equity trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/standard-chartered--stan/notice-of-redemption-/9739078",
+    "related_news_url": "https://news.google.com/search?q=%22Standard%20Chartered%22",
+    "added_at": "2026-08-25T11:35:37.262450"
+  },
+  {
     "company": "London Stock Exchange Group plc",
     "ticker": "LSEG",
     "publish_date": "25 August 2026",
