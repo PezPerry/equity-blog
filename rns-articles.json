@@ -304,6 +304,32 @@
     "added_at": "2026-08-25T07:24:17.102660"
   },
   {
+    "company": "Lloyds Banking Group PLC",
+    "ticker": "LLOY",
+    "publish_date": "24 August 2026",
+    "date_iso": "2026-08-24",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>Lloyds Bank plc</strong> published Final Terms for <strong>U.S.$1,500,000,000</strong> Series 2026-6 <strong>4.478%</strong> Fixed Rate Covered Bonds due <strong>August 2029</strong> under its <strong>€60bn</strong> Global Covered Bond Programme.</li><li>Routine debt-issuance documentation submitted to the National Storage Mechanism; <strong>no impact</strong> on equity trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Lloyds Bank has published Final Terms for a US$1.5bn 4.478% fixed-rate covered bond due August 2029 under its €60bn Global Covered Bond Programme.",
+    "priority": "low",
+    "priority_reason": "Routine debt programme documentation with no impact on equity trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/lloyds-banking-group--lloy/publication-of-final-terms-/9737522",
+    "related_news_url": "https://news.google.com/search?q=%22Lloyds%20Banking%20Group%22",
+    "added_at": "2026-08-25T07:26:59.023464"
+  },
+  {
     "company": "AstraZeneca PLC",
     "ticker": "AZN",
     "publish_date": "24 August 2026",
