@@ -1,5 +1,88 @@
 [
   {
+    "company": "Savannah Energy PLC",
+    "ticker": "SAVE",
+    "publish_date": "25 August 2026",
+    "date_iso": "2026-08-25",
+    "time_period": "7M to 31 July 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "7M to 31 July 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Trading update for 7M to 31 July 2026</strong> (unaudited): <strong>Uquo 13</strong> (formerly Uquo NE) achieved <strong>first gas</strong> in July, tested at approximately <strong>50 MMscfd</strong> and now on stream; <strong>Uquo South</strong> exploration well being completed with gas confirmed in most targeted reservoirs (unrisked gross GIIP <strong>131 Bscf</strong>).</li><li><strong>Stubb Creek</strong> average gross daily production up <strong>29% YoY to 3.7 Kbopd</strong> (7M 2025: 2.8 Kbopd), exceeding <strong>5.0 Kbopd</strong> in July; full programme targets up to <strong>4.7 Kbopd</strong>.</li><li>Group average gross daily production <strong>16.3 Kboepd</strong> for 7M 2026 (FY 2025: 18.8 Kboepd); expected to exceed <strong>20 Kboepd</strong> over the remaining five months, with <strong>FY 2026 guidance of 18-20 Kboepd</strong>.</li><li><strong>7M 2026 revenue +10% YoY to US$160.6m</strong> (7M 2025: US$146.0m); cash collections <strong>+13% to US$247.9m</strong>; Trade Receivables cut <strong>22% to US$394.6m</strong> since year-end 2025.</li><li><strong>Stubb Creek RBL Facility</strong> increased to <strong>US$130.0m</strong>, tenor extended to <strong>August 2031</strong>, margin reduced to <strong>7.5%</strong>; cash <strong>US$62.0m</strong>, net debt <strong>US$672.0m</strong> at 31 July 2026 (of gross debt US$734.0m, only 8% recourse to the Company).</li><li>Chad/Cameroon arbitration proceedings (claims in excess of <strong>US$775m</strong> plus interest, and a further ~<strong>US$330m</strong> COTCo claim) expected to conclude in H2 2026; AIM shares remain suspended pending the FY 2025 Annual Report due <strong>September 2026</strong>, and the AIM listing review is ongoing.</li></ul>",
+    "source_format": "html",
+    "headline": "Savannah Energy delivers 29% higher Stubb Creek output and Uquo 13 first gas, raising 7M revenue 10% to US$160.6m, with FY26 production guided at 18-20 Kboepd.",
+    "priority": "high",
+    "priority_reason": "Operational and financial trading update with production, revenue, guidance and balance-sheet detail — market-moving for holders.",
+    "figures": [
+      {
+        "metric": "Revenue",
+        "current": "US$160.6m",
+        "prior": "US$146.0m",
+        "change": "+10%",
+        "basis": "reported",
+        "note": "7M to 31 July 2026 vs 7M 2025"
+      },
+      {
+        "metric": "Cash collections",
+        "current": "US$247.9m",
+        "prior": "US$219.2m",
+        "change": "+13%",
+        "basis": "reported",
+        "note": "7M 2026 vs 7M 2025"
+      },
+      {
+        "metric": "Group avg gross daily production",
+        "current": "16.3 Kboepd",
+        "prior": "18.8 Kboepd",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "7M 2026 vs FY 2025"
+      },
+      {
+        "metric": "Stubb Creek avg gross daily production",
+        "current": "3.7 Kbopd",
+        "prior": "2.8 Kbopd",
+        "change": "+29%",
+        "basis": "reported",
+        "note": "7M 2026 vs 7M 2025"
+      },
+      {
+        "metric": "Cash balances",
+        "current": "US$62.0m",
+        "prior": "US$42.7m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "31 July 2026 vs 31 December 2025"
+      },
+      {
+        "metric": "Net debt",
+        "current": "US$672.0m",
+        "prior": "US$658.8m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "31 July 2026 vs 31 December 2025"
+      },
+      {
+        "metric": "Trade Receivables",
+        "current": "US$394.6m",
+        "prior": "US$508.5m",
+        "change": "-22%",
+        "basis": "reported",
+        "note": "31 July 2026 vs 31 December 2025"
+      }
+    ],
+    "guidance": {
+      "status": "new",
+      "previous": "not stated",
+      "current": "FY 2026 average gross daily production anticipated in the range of 18-20 Kboepd, with average gross daily production expected to exceed 20 Kboepd over the remaining five months of the year",
+      "commentary": "Savannah sets FY 2026 group production guidance of 18-20 Kboepd, supported by Uquo 13 now on stream and the Stubb Creek expansion, with further upside dependent on the Uquo South exploration well."
+    },
+    "explainer": "This is a seven-month trading update (to 31 July 2026), not audited results — figures are unaudited and compared either with the same period a year earlier (7M 2025) or with the full 2025 year-end. Note that revenue and collections are quoted in US dollars, and cash collections (up 13%) differ from revenue (up 10%) because collections reflect take-or-pay provisions and the timing of receipts, whereas revenue tracks recognised sales.\n\nOperationally the key positives are Uquo 13 reaching first gas and the Stubb Creek oil expansion lifting production 29% year-on-year. Group production of 16.3 Kboepd for the seven months sits below the 18.8 Kboepd full-year 2025 average, but that is a period-versus-year comparison; with Uquo 13 on stream, the company expects output above 20 Kboepd for the rest of the year.\n\nOn guidance, Savannah frames FY 2026 group production at 18-20 Kboepd. The balance sheet improved on cash (up to US$62.0m) though net debt edged higher to US$672.0m; management stresses only 8% of gross debt is recourse to the parent. The 22% fall in trade receivables signals better cash conversion in Nigeria, a stated focus area.\n\nInvestors should also weigh the ongoing overhangs: AIM trading remains suspended until the delayed FY 2025 Annual Report (due September 2026), the board's review of Savannah's AIM listing continues, and large Chad/Cameroon arbitration claims (over US$775m plus a ~US$330m COTCo claim, against which Chad has filed counterclaims) are expected to conclude in H2 2026.",
+    "source_url": "https://uk.advfn.com/stock-market/london/savannah-energy-SAVE/share-news/Savannah-Energy-Plc-Operational-and-Financial-Upda/99184350",
+    "related_news_url": "https://news.google.com/search?q=%22Savannah%20Energy%20PLC%22",
+    "added_at": "2026-08-25T07:25:43.821022"
+  },
+  {
     "company": "Chesnara PLC",
     "ticker": "CSN",
     "publish_date": "25 August 2026",
