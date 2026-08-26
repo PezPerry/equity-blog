@@ -1,5 +1,31 @@
 [
   {
+    "company": "Tritax Big Box REIT PLC",
+    "ticker": "BBOX",
+    "publish_date": "26 August 2026",
+    "date_iso": "2026-08-26",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>213,414,634</strong> further ordinary shares of <strong>£0.01</strong> each admitted to trading on the <strong>London Stock Exchange</strong> Main Market on <strong>26 August 2026</strong>.</li><li>Total shares admitted rises to <strong>2,927,912,135</strong>; new shares confirmed <strong>fungible</strong> with existing shares (ISIN <strong>GB00BG49KP99</strong>).</li><li>Routine admission notice under FCA Prospectus Rule 1.6.4R — <strong>no impact</strong> on trading or guidance; the announcement gives no detail on the related issuance or pricing.</li></ul>",
+    "source_format": "html",
+    "headline": "Tritax Big Box admits **213,414,634** new ordinary shares to trading, taking total shares in issue to **2,927,912,135**.",
+    "priority": "low",
+    "priority_reason": "Routine regulatory admission-to-trading notice confirming fungible new shares are listed; no trading or guidance impact.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/tritax-big-box-reit--bbox/admission-to-trading/9740818",
+    "related_news_url": "https://news.google.com/search?q=%22Tritax%20Big%20Box%20Reit%22",
+    "added_at": "2026-08-26T08:35:53.557780"
+  },
+  {
     "company": "Harworth Group PLC",
     "ticker": "HWG",
     "publish_date": "26 August 2026",
