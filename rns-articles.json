@@ -1,5 +1,254 @@
 [
   {
+    "company": "S&U plc",
+    "ticker": "SUS",
+    "publish_date": "26 August 2026",
+    "date_iso": "2026-08-26",
+    "time_period": "Q2 2026/27 (1 May to 5 August 2026); H1 results due 29 September",
+    "announcement_type": "Trading update",
+    "period_detail": "Q2 2026/27 (1 May to 5 August 2026); H1 results due 29 September",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>S&U plc</strong> trading update for <strong>Q2 2026/27</strong> (1 May–5 August): group capital receivables at a record <strong>£616m</strong> vs <strong>£512m</strong> last year, a <strong>20%</strong> increase.</li><li>Motor finance arm <strong>Advantage</strong>: year-to-date deal numbers <strong>up 50%</strong>, advances of <strong>£105m</strong> for the half-year despite a <strong>3%</strong> fall in the UK car finance market; capital receivables now <strong>£408m</strong>.</li><li>Advantage debt quality: up-to-date receivables at <strong>73%</strong> of the book vs <strong>69%</strong> last year; collections against due <strong>92%</strong> vs <strong>90%</strong>, with bad debt/write-offs down nearly a fifth.</li><li>Property lender <strong>Aspen</strong>: capital receivables <strong>£208m</strong>, almost a third higher, but slower growth and longer loan terms weigh on near-term profitability; late/beyond-term customers steady at <strong>7%</strong> of the book.</li><li>Group borrowings <strong>£285m</strong> against <strong>£330m</strong> of facilities; a major refinancing and <strong>securitisation project</strong> is to be unveiled at the <strong>29 September</strong> half-year results.</li><li>Chairman <strong>Anthony Coombs</strong> cautiously optimistic; notes FCA broker commission redress scheme is under judicial review, with minimal expected financial impact on Advantage.</li></ul>",
+    "source_format": "html",
+    "headline": "S&U reports record group capital receivables of £616m, up 20% year on year, with half-year results and a securitisation refinancing due 29 September.",
+    "priority": "high",
+    "priority_reason": "Quarterly trading update from a listed lender with record receivables and a pending refinancing/securitisation announcement.",
+    "figures": [
+      {
+        "metric": "Group capital receivables",
+        "current": "£616m",
+        "prior": "£512m",
+        "change": "+20%",
+        "basis": "reported",
+        "note": "record; as at 5 August"
+      },
+      {
+        "metric": "Advantage capital receivables",
+        "current": "£408m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "motor finance"
+      },
+      {
+        "metric": "Advantage advances (H1)",
+        "current": "£105m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "deal numbers up 50% YTD"
+      },
+      {
+        "metric": "Advantage up-to-date receivables",
+        "current": "73%",
+        "prior": "69%",
+        "change": "+4pp",
+        "basis": "% of book",
+        "note": ""
+      },
+      {
+        "metric": "Advantage collections against due",
+        "current": "92%",
+        "prior": "90%",
+        "change": "+2pp",
+        "basis": "year to date",
+        "note": ""
+      },
+      {
+        "metric": "Aspen capital receivables",
+        "current": "£208m",
+        "prior": "not stated",
+        "change": "almost +33%",
+        "basis": "reported",
+        "note": "property finance"
+      },
+      {
+        "metric": "Aspen late/beyond-term customers",
+        "current": "7%",
+        "prior": "7%",
+        "change": "unchanged",
+        "basis": "% of book",
+        "note": ""
+      },
+      {
+        "metric": "Group borrowings",
+        "current": "£285m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "against £330m of facilities"
+      }
+    ],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": "No numeric guidance figures given; management notes Advantage's growth will be more significantly reflected in profitability in H2 and 2027/28, and flags a refinancing/securitisation to be unveiled on 29 September."
+    },
+    "explainer": "S&U is a specialist lender with two arms: Advantage (motor finance) and Aspen (property/bridging finance). \"Capital receivables\" is the value of loans outstanding to customers — the closest thing to a top-line for a lender — so the record £616m group figure, up 20%, signals continued balance-sheet growth rather than a profit number. The company has not reported profit or EPS in this update; those come with the half-year results on 29 September.\n\nThe quality metrics matter as much as growth for a lender. Advantage's up-to-date receivables rising to 73% (from 69%) and collections at 92% of amounts due (from 90%) indicate the loan book is performing slightly better than a year ago, with bad debt and write-offs down nearly a fifth. Aspen is the softer spot: receivables are up sharply but slower repayments and a shift to longer loan terms delay income, and the prior-year comparison is flattered by a large one-off recovery in July 2025.\n\nOn funding, group borrowings of £285m sit below the £330m of existing facilities, but management says growth requires larger, cheaper and more flexible funding — hence a securitisation and refinancing project due to be announced with the September results. That is the key forward catalyst to watch.\n\nThere is no formal guidance change here. The FCA's motor-finance broker commission redress scheme is under judicial review, but S&U states the expected financial impact on Advantage is minimal.",
+    "source_url": "https://uk.advfn.com/stock-market/london/s-and-u-SUS/share-news/S-U-PLC-Trading-Statement-and-Notice-of-Results/99192102",
+    "related_news_url": "https://news.google.com/search?q=%22S%26U%20plc%22",
+    "added_at": "2026-08-26T07:18:22.392267"
+  },
+  {
+    "company": "Hochschild Mining PLC",
+    "ticker": "HOC",
+    "publish_date": "26 August 2026",
+    "date_iso": "2026-08-26",
+    "time_period": "H1 to 30 June 2026",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Revenue</strong> up <strong>62%</strong> to <strong>$844.4m</strong> (H1 2025: $520.0m); <strong>adjusted EBITDA</strong> up <strong>119%</strong> to <strong>$491.5m</strong> (H1 2025: $224.5m).</li><li><strong>Profit before tax</strong> of <strong>$365.8m</strong> (H1 2025: $109.3m); <strong>basic EPS</strong> of <strong>$0.37</strong> (H1 2025: $0.12).</li><li>Moved to <strong>net cash of $51.1m</strong> at 30 June 2026 (31 Dec 2025: net debt of $20.0m); <strong>interim dividend</strong> raised to <strong>4.0 cents/share</strong> (H1 2025: 1.0 cent).</li><li><strong>Attributable production</strong> of <strong>151,830 gold-equivalent ounces</strong>, down from 165,176 a year earlier on budgeted lower grades at Inmaculada and San Jose.</li><li><strong>Full-year AISC guidance raised to $2,380–$2,500/oz</strong> (previously $2,157–$2,320) on higher prices, taxes, profit-sharing and stronger local currencies; production target of <strong>300,000–328,000 GEO</strong> and capex of <strong>$210–225m</strong> reiterated.</li><li><strong>Fatality</strong> of a contractor at <strong>Inmaculada</strong> in June (FY 2025: zero); investment decision on <strong>Monte Do Carmo</strong> expected by year-end and <strong>Royropata</strong> MEIA submitted to the Peruvian government.</li></ul>",
+    "source_format": "html",
+    "headline": "Hochschild H1 2026 revenue up 62% to $844.4m and adjusted EBITDA up 119% to $491.5m on higher precious-metal prices, though full-year cost guidance raised.",
+    "priority": "high",
+    "priority_reason": "Half-year results from an LSE-listed precious metals producer, with a cost-guidance revision and a raised interim dividend.",
+    "figures": [
+      {
+        "metric": "Revenue",
+        "current": "$844.4m",
+        "prior": "$520.0m",
+        "change": "+62%",
+        "basis": "reported",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Adjusted EBITDA",
+        "current": "$491.5m",
+        "prior": "$224.5m",
+        "change": "+119%",
+        "basis": "non-IFRS",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Profit before income tax",
+        "current": "$365.8m",
+        "prior": "$109.3m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Basic EPS",
+        "current": "$0.37",
+        "prior": "$0.12",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Interim dividend",
+        "current": "4.0 cents/share ($20.6m)",
+        "prior": "1.0 cent/share",
+        "change": "not stated",
+        "basis": "per share",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Net cash / (net debt)",
+        "current": "net cash $51.1m",
+        "prior": "net debt $20.0m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "at 30 June 2026 vs 31 Dec 2025"
+      },
+      {
+        "metric": "Attributable production",
+        "current": "151,830 gold-equivalent oz",
+        "prior": "165,176 gold-equivalent oz",
+        "change": "not stated",
+        "basis": "attributable",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "Attributable AISC",
+        "current": "$2,448/GEO oz",
+        "prior": "$1,873/GEO oz",
+        "change": "not stated",
+        "basis": "all-in sustaining cost",
+        "note": "H1 2026 vs H1 2025"
+      }
+    ],
+    "guidance": {
+      "status": "lowered",
+      "previous": "Operations attributable AISC of $2,157–$2,320 per gold equivalent ounce",
+      "current": "Operations attributable AISC of $2,380–$2,500 per gold equivalent ounce; production target reiterated at 300,000–328,000 GEO; sustaining and development capex reiterated at approximately $210–225m",
+      "commentary": "The cost outlook has deteriorated: full-year AISC guidance was revised upward by roughly $200–225/oz, driven by higher precious-metal prices lifting royalties, workers' profit sharing and selling/export costs (notably in Argentina), stronger-than-expected local currencies across all three jurisdictions and continued Argentine cost inflation. Production and capex guidance were both left unchanged."
+    },
+    "explainer": "Hochschild's headline gains are almost entirely price-driven rather than volume-driven. Revenue rose 62% and adjusted EBITDA more than doubled even though attributable production actually fell (151,830 gold-equivalent ounces versus 165,176 a year earlier), because record gold and silver prices lifted the value of each ounce sold. The lower output was planned, reflecting budgeted lower ore grades at the Inmaculada and San Jose mines. Adjusted EBITDA is a non-IFRS measure that strips out finance costs, tax, FX and non-cash items, so it flatters the operating picture relative to statutory profit.\n\nThe cost figures cut the other way. All-in sustaining costs (AISC) — the industry's fuller measure of what it costs to produce an ounce, including sustaining capital — jumped to $2,448/oz from $1,873/oz. Ironically, part of this is a side-effect of the strong prices: higher metal values increase price-linked charges such as royalties, workers' profit sharing and Argentine export taxes, while stronger local currencies raise dollar-denominated costs.\n\nOn guidance, the practical change is that the full-year AISC target has been raised to $2,380–$2,500/oz from $2,157–$2,320/oz — a negative revision, meaning costs will run higher than first budgeted. Crucially, the full-year production target (300,000–328,000 GEO) and the $210–225m capital spending plan were both reiterated, so the change is about margins per ounce rather than volumes.\n\nBalance-sheet strength improved materially: the group swung to net cash of $51.1m from net debt of $20.0m at the year-end, and lifted the interim dividend fourfold to 4.0 cents per share. A fatality at Inmaculada in June is a serious operational and safety event, and management flags an ongoing investigation.",
+    "source_url": "https://uk.advfn.com/stock-market/london/hochschild-mining-HOC/share-news/Hochschild-Mining-PLC-Interim-Results/99192156",
+    "related_news_url": "https://news.google.com/search?q=%22Hochschild%20Mining%20PLC%22",
+    "added_at": "2026-08-26T07:18:22.347854"
+  },
+  {
+    "company": "Applied Nutrition plc",
+    "ticker": "APN",
+    "publish_date": "26 August 2026",
+    "date_iso": "2026-08-26",
+    "time_period": "FY to 31 July 2026, with FY27 outlook",
+    "announcement_type": "Trading update",
+    "period_detail": "FY to 31 July 2026, with FY27 outlook",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>FY26 adjusted EBITDA</strong> now expected <strong>ahead of consensus</strong>, up <strong>40%</strong> year-on-year to approximately <strong>£43.3m</strong> (FY25: <strong>£30.9m</strong>), excluding any contribution from the acquired <strong>Nutrablend</strong> trade and assets.</li><li><strong>FY26 revenue</strong> up <strong>50%</strong> year-on-year to <strong>£160m</strong> (FY25: <strong>£107m</strong>), also ahead of market expectations.</li><li><strong>Net cash</strong> (excluding IFRS 16) at FY26 close of <strong>£15.9m</strong>, after the <strong>Nutrablend</strong> acquisition, production-extension capex and higher working capital.</li><li><strong>FY27 guidance</strong> above consensus: adjusted EBITDA of approximately <strong>£49m</strong> (<strong>+13%</strong> year-on-year) and revenue of approximately <strong>£205m</strong>.</li><li><strong>FY27 EBITDA margin</strong> expected to decrease slightly, reflecting greater <strong>US</strong> revenue mix, higher <strong>whey protein</strong> costs and more whey-based sales following the <strong>Critical Whey</strong> relaunch.</li><li>FY26 results due on or around <strong>16 November 2026</strong>; all FY26 figures remain subject to audit.</li></ul>",
+    "source_format": "html",
+    "headline": "Applied Nutrition expects FY26 adjusted EBITDA up 40% to about £43.3m and revenue up 50% to £160m, both ahead of consensus, with FY27 guidance above consensus.",
+    "priority": "high",
+    "priority_reason": "Full-year trading update with results ahead of consensus and FY27 guidance above market expectations.",
+    "figures": [
+      {
+        "metric": "Revenue",
+        "current": "£160m",
+        "prior": "£107m",
+        "change": "+50%",
+        "basis": "reported",
+        "note": "FY26 (year to 31 July 2026), ahead of consensus, subject to audit"
+      },
+      {
+        "metric": "Adjusted EBITDA",
+        "current": "approximately £43.3m",
+        "prior": "£30.9m",
+        "change": "+40%",
+        "basis": "excludes Nutrablend contribution",
+        "note": "FY26, ahead of consensus, subject to audit"
+      },
+      {
+        "metric": "Net cash (excluding IFRS 16)",
+        "current": "£15.9m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "at FY26 close, after Nutrablend acquisition and capex"
+      },
+      {
+        "metric": "Revenue (FY27 guidance)",
+        "current": "approximately £205m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "guidance",
+        "note": "FY ending 31 July 2027, ahead of consensus"
+      },
+      {
+        "metric": "Adjusted EBITDA (FY27 guidance)",
+        "current": "approximately £49m",
+        "prior": "£43.3m",
+        "change": "+13%",
+        "basis": "guidance",
+        "note": "FY27, ahead of consensus"
+      }
+    ],
+    "guidance": {
+      "status": "new",
+      "previous": "No prior FY27 guidance figures stated; prior reference is the 1 June 2026 trading announcement.",
+      "current": "FY27 adjusted EBITDA of approximately £49m (+13% year-on-year) and revenue of approximately £205m, both ahead of current consensus market expectations; FY27 EBITDA margin expected to decrease slightly from FY26 levels.",
+      "commentary": "The Group has set FY27 targets above consensus following strong FY26 momentum, while flagging a slightly lower FY27 margin driven by a higher US revenue mix and significantly higher whey protein costs alongside more whey-based sales after the Critical Whey relaunch."
+    },
+    "explainer": "This is a pre-close trading update: the FY26 numbers (year to 31 July 2026) are unaudited estimates the company is flagging ahead of full results on around 16 November 2026. Both revenue (up 50% to £160m) and adjusted EBITDA (up 40% to about £43.3m) are said to be ahead of the market consensus the company itself compiles and publishes. Importantly, the EBITDA figure excludes any contribution from the Nutrablend trade and assets acquired in June, so the underlying business is driving the beat.\n\nAdjusted EBITDA strips out items such as interest, tax, depreciation, amortisation and one-off adjustments, so it is a proxy for operating cash profitability rather than statutory profit. Net cash of £15.9m is lower than it might otherwise have been because the period included the Nutrablend acquisition, capital spending on a production extension and extra working capital to fund growth.\n\nOn guidance, the company has introduced FY27 targets that are above consensus: roughly £205m revenue and about £49m adjusted EBITDA (+13%). The catch is margin: FY27 EBITDA margin is expected to dip slightly versus FY26. That reflects a bigger share of sales coming from the lower-margin US market and from whey-based products, plus significantly higher whey protein input costs, partly a consequence of the successful Critical Whey relaunch.",
+    "source_url": "https://uk.advfn.com/stock-market/london/applied-nutrition-APN/share-news/Applied-Nutrition-PLC-FY26-Trading-Update/99192133",
+    "related_news_url": "https://news.google.com/search?q=%22Applied%20Nutrition%20plc%22",
+    "added_at": "2026-08-26T07:18:22.327991"
+  },
+  {
     "company": "Gore Street Energy Storage Fund PLC",
     "ticker": "GSF",
     "publish_date": "25 August 2026",
