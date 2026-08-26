@@ -203,7 +203,9 @@ def add_article(path, date):
 
     def meta(name):
         match = re.search(r'<meta\s+name="%s"\s+content="([^"]*)"' % re.escape(name), source)
-        return match.group(1) if match else None
+        # Page sources carry HTML entities (&amp;, &mdash;). The registry stores plain
+        # text and the renderer escapes on output, so decode here or entities double-escape.
+        return html.unescape(match.group(1)) if match else None
 
     slug = os.path.splitext(os.path.basename(path))[0]
 
@@ -222,9 +224,9 @@ def add_article(path, date):
         "date": date,
         "kind": meta("tile-kind") or "analysis",
         "cover": meta("tile-cover") or default_cover(slug),
-        "alt": meta("tile-alt") or (title.group(1).strip() if title else slug),
+        "alt": meta("tile-alt") or (html.unescape(title.group(1).strip()) if title else slug),
         "cat": meta("tile-cat") or "Analysis",
-        "headline": meta("tile-headline") or (title.group(1).strip() if title else slug),
+        "headline": meta("tile-headline") or (html.unescape(title.group(1).strip()) if title else slug),
         "pill": meta("tile-pill") or "watch",
         "pill_label": meta("tile-pill-label") or "Analysis",
     }
