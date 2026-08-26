@@ -1,5 +1,31 @@
 [
   {
+    "company": "Hammerson PLC",
+    "ticker": "HMSO",
+    "publish_date": "26 August 2026",
+    "date_iso": "2026-08-26",
+    "time_period": "Interim 2026 dividend, period ending 31 December 2026",
+    "announcement_type": "Dividend declaration",
+    "period_detail": "Interim 2026 dividend, period ending 31 December 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Hammerson plc</strong> confirms the <strong>South African Rand rate</strong> of <strong>ZAR 21.7444 to GBP 1</strong> (set on <strong>25 August 2026</strong>) for its interim 2026 dividend.</li><li>Interim dividend of <strong>9.67 pence per share</strong>, first declared on <strong>30 July 2026</strong>, is treated as a <strong>Property Income Distribution (PID)</strong> subject to <strong>20% UK withholding tax</strong> (net <strong>7.73p</strong> for UK shareholders).</li><li>Payable <strong>15 October 2026</strong>; record date <strong>4 September 2026</strong>. No scrip alternative, but a <strong>DRIP</strong> is available.</li><li>Routine currency-conversion and tax-guidance disclosure — <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Hammerson confirms the ZAR conversion rate for its previously declared 9.67p interim 2026 dividend, payable 15 October 2026.",
+    "priority": "low",
+    "priority_reason": "Routine currency-conversion and tax mechanics for an already-declared interim dividend, with no new financial or trading information.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/hammerson--hmso/dividend-currency-conversion-announcement/9740884",
+    "related_news_url": "https://news.google.com/search?q=%22Hammerson%22",
+    "added_at": "2026-08-26T09:15:48.668805"
+  },
+  {
     "company": "Tritax Big Box REIT PLC",
     "ticker": "BBOX",
     "publish_date": "26 August 2026",
