@@ -237,8 +237,11 @@ def add_article(path, date):
 
     cover_path = os.path.join(HERE, tile["cover"])
     if not os.path.exists(cover_path):
-        print("  WARNING: cover '%s' is not in the repo. The tile will show a broken image."
-              % tile["cover"])
+        # A cover-less tile would take a grid slot (or the hero) with a broken image.
+        # Hold the article off the front page; re-run --add once its cover is pushed.
+        print("  HELD OFF the front page: cover '%s' is not in the repo. "
+              "Re-run --add for '%s' after the cover is pushed." % (tile["cover"], slug))
+        return
 
     data["tiles"].insert(0, tile)
     with open(REGISTRY, "w", encoding="utf-8", newline="\n") as fh:
