@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Morning Movements: The Four-Week Shake-Out</title>
+<meta name="description" content="Four weeks of unusually wide dispersion: the FTSE 100 moved about 0.5% while individual names in the coverage universe moved more than thirty percent in both directions. Verified movers, 29 July to 24 August 2026.">
+<meta name="keywords" content="trading log, morning movements, FTSE 100, market movements, risers and fallers, UK shares, equity markets">
+<meta name="tile-title" content="The Four-Week Shake-Out">
+<meta name="tile-kicker" content="Trading Log">
+<meta name="tile-subtitle" content="Verified movers, 29 July to 24 August 2026">
+<meta name="tile-variant" content="trading-log">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--navy:#1B2A4A;--red:#E8453C;--gold:#D4A853;--cream:#FBFAF7;--ink:#1B2A4A;--muted:#6E7689;--line:#E6E1D6;--card:#fff;--green:#1f8a52;}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'DM Sans',sans-serif;background:var(--cream);color:var(--ink);-webkit-font-smoothing:antialiased;line-height:1.62;padding:40px 20px 80px}
+.wrap{max-width:780px;margin:0 auto}
+.eyebrow{font-family:'DM Mono',monospace;font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--red);font-weight:500;margin-bottom:14px}
+h1{font-family:'Playfair Display',serif;font-weight:800;font-size:clamp(30px,5vw,48px);line-height:1.06;letter-spacing:-.01em;margin-bottom:18px}
+.lede{font-size:18px;color:#3a4258;margin-bottom:10px;line-height:1.55}
+.byline{font-family:'DM Mono',monospace;font-size:12.5px;color:var(--muted);margin:18px 0 0;padding-bottom:26px;border-bottom:2px solid var(--line)}
+h2{font-family:'Playfair Display',serif;font-weight:700;font-size:25px;margin:38px 0 14px;letter-spacing:-.005em;line-height:1.15}
+p{font-size:17px;margin-bottom:18px;color:#26304a}
+p .em{font-weight:600}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:30px 0}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px}
+.stat .k{font-family:'DM Mono',monospace;font-size:10.5px;letter-spacing:.07em;text-transform:uppercase;color:var(--muted);line-height:1.3}
+.stat .v{font-family:'Playfair Display',serif;font-weight:700;font-size:25px;margin-top:8px;line-height:1;color:var(--navy)}
+.stat .v.dn{color:var(--red)}
+.stat .s{font-size:11.5px;color:var(--muted);margin-top:6px;line-height:1.35}
+.pull{border-left:4px solid var(--gold);background:#fff;padding:18px 22px;margin:28px 0;border-radius:0 12px 12px 0;box-shadow:0 6px 28px -22px rgba(27,42,74,.5)}
+.pull p{font-family:'Playfair Display',serif;font-style:italic;font-size:20px;line-height:1.4;color:var(--navy);margin:0}
+figure{margin:24px 0;position:relative}
+figure img{width:100%;border:1px solid var(--line);border-radius:12px;display:block}
+figcaption{font-family:'DM Mono',monospace;font-size:11.5px;color:var(--muted);margin-top:8px}
+.zoom-btn{position:absolute;top:10px;right:10px;width:34px;height:34px;border:none;border-radius:9px;
+  background:rgba(27,42,74,.78);color:#fff;cursor:pointer;display:flex;align-items:center;justify-content:center;
+  transition:background .15s, transform .15s;backdrop-filter:blur(2px);z-index:2}
+.zoom-btn:hover{background:rgba(27,42,74,.95);transform:scale(1.06)}
+.zoom-btn svg{width:17px;height:17px;display:block}
+.lightbox{position:fixed;inset:0;background:rgba(15,20,35,.88);display:none;align-items:center;justify-content:center;z-index:1000;padding:24px;cursor:zoom-out}
+.lightbox.open{display:flex}
+.lightbox img{max-width:96vw;max-height:92vh;border-radius:10px;box-shadow:0 20px 70px -20px rgba(0,0,0,.7);cursor:default}
+.lightbox .close{position:absolute;top:18px;right:22px;width:40px;height:40px;border:none;border-radius:10px;background:rgba(255,255,255,.14);color:#fff;font-size:22px;line-height:1;cursor:pointer;display:flex;align-items:center;justify-content:center}
+.lightbox .close:hover{background:rgba(255,255,255,.26)}
+.table-scroll{overflow-x:auto;margin:6px 0 26px;border-radius:12px}
+table.movers{width:100%;min-width:430px;border-collapse:collapse;background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden;font-size:14.5px}
+table.movers th{font-family:'DM Mono',monospace;font-size:10.5px;letter-spacing:.07em;text-transform:uppercase;color:var(--muted);text-align:left;font-weight:500;padding:10px 14px;border-bottom:1px solid var(--line)}
+table.movers td{padding:9px 14px;border-bottom:1px solid var(--line);color:#26304a}
+table.movers tr:last-child td{border-bottom:none}
+table.movers .num{text-align:right;font-variant-numeric:tabular-nums}
+table.movers .mono{font-family:'DM Mono',monospace;font-size:12.5px;color:var(--muted)}
+table.movers td.dn{color:var(--red);font-weight:600}
+.foot{font-size:13px;color:var(--muted);margin-top:40px;padding-top:22px;border-top:1px solid var(--line);line-height:1.6}
+.foot b{color:var(--ink)}
+a{color:var(--red);text-decoration:none}a:hover{text-decoration:underline}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="eyebrow">Equity &amp; Markets Insight · Morning Movements</div>
+  <h1>The four-week shake-out</h1>
+  <p class="lede">The FTSE 100 barely moved between late July and late August — about
+  0.5% from close to close. Underneath that calm surface, names in my
+  coverage universe moved more than thirty percent in both directions. This piece sets out the
+  verified movers and what I take from the dispersion.</p>
+  <p class="byline">26 August 2026 · 2 min read · window: 29 Jul to 24 Aug 2026, closing prices</p>
+
+  <p>With the summer results season winding down, I wanted to take stock of the last four weeks
+  rather than a single morning. Between the close on 29 July and the close on 24 August the
+  FTSE 100 moved from 10,908 to 10,854 — a change of about
+  0.5% lower. The index level tells
+  you very little on its own, though. Underneath it, the dispersion between individual names over
+  those four weeks has been unusually wide, and that is the real story of this piece.</p>
+
+  <div class="stats">
+    <div class="stat"><div class="k">FTSE 100 · 29 Jul to 24 Aug</div><div class="v dn">−0.5%</div><div class="s">10,908 to 10,854, closing levels</div></div>
+    <div class="stat"><div class="k">Standout riser</div><div class="v">+47.0%</div><div class="s">SanDisk Corp (SNDK)</div></div>
+    <div class="stat"><div class="k">Standout faller</div><div class="v dn">−31.9%</div><div class="s">Vanquis Banking Group PLC (VANQ)</div></div>
+  </div>
+
+  <h2>The index in context</h2>
+  <p>The two charts below show the FTSE 100 over the last twelve months and the last six months,
+  with the start of the four-week window marked in gold. The twelve-month picture is one of a
+  market that has ground higher with two visible setbacks along the way; over the last six months
+  the climb has been steadier, and the late-August level sits near the top of the year's range of
+  roughly 9,117 to 10,911.</p>
+
+  <figure>
+    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNTYwIiBoZWlnaHQ9Ijc2MCIgdmlld0JveD0iMCAwIDE1NjAgNzYwIiBmb250LWZhbWlseT0iQ29uc29sYXMsIE1lbmxvLCBtb25vc3BhY2UiPjxyZWN0IHdpZHRoPSIxNTYwIiBoZWlnaHQ9Ijc2MCIgZmlsbD0iI2ZmZmZmZiIvPjxsaW5lIHgxPSIxMTAiIHkxPSI2ODcuMiIgeDI9IjE0MTAiIHkyPSI2ODcuMiIgc3Ryb2tlPSIjRTZFMUQ2IiBzdHJva2Utd2lkdGg9IjEiLz48dGV4dCB4PSI5OCIgeT0iNjk0LjIiIHRleHQtYW5jaG9yPSJlbmQiIGZvbnQtc2l6ZT0iMjIiIGZpbGw9IiM2RTc2ODkiPjksMDAwPC90ZXh0PjxsaW5lIHgxPSIxMTAiIHkxPSI1MjguMyIgeDI9IjE0MTAiIHkyPSI1MjguMyIgc3Ryb2tlPSIjRTZFMUQ2IiBzdHJva2Utd2lkdGg9IjEiLz48dGV4dCB4PSI5OCIgeT0iNTM1LjMiIHRleHQtYW5jaG9yPSJlbmQiIGZvbnQtc2l6ZT0iMjIiIGZpbGw9IiM2RTc2ODkiPjksNTAwPC90ZXh0PjxsaW5lIHgxPSIxMTAiIHkxPSIzNjkuMyIgeDI9IjE0MTAiIHkyPSIzNjkuMyIgc3Ryb2tlPSIjRTZFMUQ2IiBzdHJva2Utd2lkdGg9IjEiLz48dGV4dCB4PSI5OCIgeT0iMzc2LjMiIHRleHQtYW5jaG9yPSJlbmQiIGZvbnQtc2l6ZT0iMjIiIGZpbGw9IiM2RTc2ODkiPjEwLDAwMDwvdGV4dD48bGluZSB4MT0iMTEwIiB5MT0iMjEwLjQiIHgyPSIxNDEwIiB5Mj0iMjEwLjQiIHN0cm9rZT0iI0U2RTFENiIgc3Ryb2tlLXdpZHRoPSIxIi8+PHRleHQgeD0iOTgiIHk9IjIxNy40IiB0ZXh0LWFuY2hvcj0iZW5kIiBmb250LXNpemU9IjIyIiBmaWxsPSIjNkU3Njg5Ij4xMCw1MDA8L3RleHQ+PGxpbmUgeDE9IjExMCIgeTE9IjUxLjUiIHgyPSIxNDEwIiB5Mj0iNTEuNSIgc3Ryb2tlPSIjRTZFMUQ2IiBzdHJva2Utd2lkdGg9IjEiLz48dGV4dCB4PSI5OCIgeT0iNTguNSIgdGV4dC1hbmNob3I9ImVuZCIgZm9udC1zaXplPSIyMiIgZmlsbD0iIzZFNzY4OSI+MTEsMDAwPC90ZXh0Pjx0ZXh0IHg9IjIzOC45IiB5PSI3MjQiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iMjIiIGZpbGw9IiM2RTc2ODkiPk9jdCAyNTwvdGV4dD48dGV4dCB4PSI0NTcuNCIgeT0iNzI0IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXNpemU9IjIyIiBmaWxsPSIjNkU3Njg5Ij5EZWMgMjU8L3RleHQ+PHRleHQgeD0iNjgzLjAiIHk9IjcyNCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSIyMiIgZmlsbD0iIzZFNzY4OSI+RmViIDI2PC90ZXh0Pjx0ZXh0IHg9Ijg5MC43IiB5PSI3MjQiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iMjIiIGZpbGw9IiM2RTc2ODkiPkFwciAyNjwvdGV4dD48dGV4dCB4PSIxMTA5LjIiIHk9IjcyNCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSIyMiIgZmlsbD0iIzZFNzY4OSI+SnVuIDI2PC90ZXh0Pjx0ZXh0IHg9IjEzMzQuOCIgeT0iNzI0IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXNpemU9IjIyIiBmaWxsPSIjNkU3Njg5Ij5BdWcgMjY8L3RleHQ+PGxpbmUgeDE9IjEzMTYuOSIgeTE9IjQwIiB4Mj0iMTMxNi45IiB5Mj0iNjkwIiBzdHJva2U9IiNENEE4NTMiIHN0cm9rZS13aWR0aD0iMi41IiBzdHJva2UtZGFzaGFycmF5PSI3IDYiLz48dGV4dCB4PSIxMzI1LjkiIHk9IjY2IiBmb250LXNpemU9IjIxIiBmaWxsPSIjRDRBODUzIiBmb250LXdlaWdodD0iYm9sZCI+MjkgSnVsPC90ZXh0PjxwYXRoIGQ9Ik0xMTAuMCw2MDIuNyBMMTEzLjYsNjA2LjAgTDExNy4yLDYxOC4zIEwxMjAuNyw2MjcuNiBMMTMxLjUsNjI0LjggTDEzNS4xLDY1MC4xIEwxMzguNyw2MzAuNiBMMTQyLjIsNjE4LjIgTDE0NS44LDYyMS4wIEwxNTYuNiw2MTYuOCBMMTYwLjEsNjEwLjEgTDE2My43LDYxNS41IEwxNjcuMyw1OTIuNiBMMTcwLjksNTk3LjEgTDE4MS42LDU5OS4xIEwxODUuMiw2MjUuMCBMMTg4LjgsNjIwLjkgTDE5Mi40LDYxNC43IEwxOTYuMCw2MTguMyBMMjA2LjcsNjE1LjEgTDIxMC4zLDYxNi4yIEwyMTMuOSw2MDcuNiBMMjE3LjQsNjE5LjIgTDIyMS4wLDU5Ni43IEwyMzEuOCw1OTEuOSBMMjM1LjMsNTc1LjggTDIzOC45LDU0NS4zIEwyNDIuNSw1NTEuMiBMMjQ2LjEsNTMxLjAgTDI1Ni44LDUzNC45IEwyNjAuNCw1MzMuNSBMMjY0LjAsNTEyLjcgTDI2Ny42LDUyNS4zIEwyNzEuMiw1NTEuMyBMMjgxLjksNTQ2LjQgTDI4NS41LDU0My4zIEwyODkuMSw1NTIuMiBMMjkyLjYsNTQ4LjYgTDI5Ni4yLDU3NC41IEwzMDcuMCw1NTguOSBMMzEwLjYsNTUxLjUgTDMxNC4xLDUyMy41IEwzMTcuNyw1MDMuMyBMMzIxLjMsNDgyLjAgTDMzMi4wLDQ3OS40IEwzMzUuNiw0NjUuNyBMMzM5LjIsNDQ2LjkgTDM0Mi44LDQ0NS42IEwzNDYuNCw0NTkuMiBMMzU3LjEsNDY0LjIgTDM2MC43LDQ1OS45IEwzNjQuMyw0NDAuMiBMMzY3LjksNDUzLjMgTDM3MS40LDQ3MC4yIEwzODIuMiw0MzcuMCBMMzg1LjgsNDAxLjIgTDM4OS4zLDM5Ny41IEwzOTIuOSw0MzAuNSBMMzk2LjUsNDY1LjIgTDQwNy4yLDQ3Mi41IEw0MTAuOCw1MTEuNiBMNDE0LjQsNTI1LjkgTDQxOC4wLDUxOS41IEw0MjEuNiw1MTUuNiBMNDMyLjMsNTE3LjIgTDQzNS45LDQ5My41IEw0MzkuNSw0NjcuNCBMNDQzLjEsNDY2LjYgTDQ0Ni42LDQ1OC4yIEw0NTcuNCw0NjMuOSBMNDYxLjAsNDY0LjEgTDQ2NC41LDQ2Ny4yIEw0NjguMSw0NjEuMiBMNDcxLjcsNDc1LjIgTDQ4Mi41LDQ4Mi4xIEw0ODYuMCw0ODMuMSBMNDg5LjYsNDc4LjggTDQ5My4yLDQ2My43IEw0OTYuOCw0ODAuOSBMNTA3LjUsNDQ4LjQgTDUxMS4xLDQ2OS41IEw1MTQuNyw0NDEuMSBMNTE4LjMsNDIwLjkgTDUyMS44LDQwMS45IEw1MzIuNiw0MTEuOSBMNTM2LjIsNDA0LjYgTDUzOS44LDQxMC40IEw1NTcuNyw0MTEuOCBMNTYxLjIsMzg4LjIgTDU2NC44LDM5MS4xIEw1NzIuMCwzODQuOSBMNTgyLjcsMzY3LjkgTDU4Ni4zLDMzMC4zIEw1ODkuOSwzNTQuMCBMNTkzLjUsMzU1LjEgTDU5Ny4xLDMyOS43IEw2MDcuOCwzMjQuNiBMNjExLjQsMzI1LjcgTDYxNS4wLDMxMC43IEw2MTguNSwyOTMuNCBMNjIyLjEsMjk0LjYgTDYzMi45LDMwNy4yIEw2MzYuNCwzMjkuMCBMNjQwLjAsMzI1LjQgTDY0My42LDMyMS42IEw2NDcuMiwzMjMuOCBMNjU3LjksMzIyLjAgTDY2MS41LDMwMy4zIEw2NjUuMSwzMjAuMyBMNjY4LjcsMzE0LjcgTDY3Mi4zLDI5OC4zIEw2ODMuMCwyNjAuOCBMNjg2LjYsMjY5LjMgTDY5MC4yLDI0MS41IEw2OTMuNywyNzEuMSBMNjk3LjMsMjUxLjggTDcwOC4xLDI0Ni42IEw3MTEuNywyNTYuOSBMNzE1LjIsMjE5LjMgTDcxOC44LDI0MS40IEw3MjIuNCwyMjcuNSBMNzMzLjEsMjE4LjggTDczNi43LDE5Mi42IEw3NDAuMywxNTEuMiBMNzQzLjksMTcwLjEgTDc0Ny41LDE1MS4wIEw3NTguMiwxNTEuNyBMNzYxLjgsMTUzLjAgTDc2NS40LDExMy4wIEw3NjkuMCwxMDAuMiBMNzcyLjUsNzkuOSBMNzgzLjMsMTIxLjQgTDc4Ni45LDIxNS41IEw3OTAuNCwxODguOSBMNzk0LjAsMjM3LjggTDc5Ny42LDI3OC44IEw4MDguMywyOTAuMCBMODExLjksMjM4LjMgTDgxNS41LDI1Ni45IEw4MTkuMSwyNzIuMyBMODIyLjcsMjg2LjMgTDgzMy40LDI2OC40IEw4MzcuMCwyNDEuMSBMODQwLjYsMjcyLjMgTDg0NC4yLDM0OS4yIEw4NDcuNywzOTUuMyBMODU4LjUsNDAzLjAgTDg2Mi4xLDM4MC40IEw4NjUuNiwzMzUuNCBMODY5LjIsMzc4LjIgTDg3Mi44LDM3OS43IEw4ODMuNiwzMjguNyBMODg3LjEsMzEzLjIgTDg5MC43LDI1My40IEw4OTQuMywyMzAuNyBMOTEyLjIsMjU4LjUgTDkxNS44LDE3NS44IEw5MTkuNCwxNzcuNSBMOTIyLjksMTc4LjUgTDkzMy43LDE4NC4wIEw5MzcuMywxNzUuNyBMOTQwLjksMTkxLjUgTDk0NC40LDE4MS44IEw5NDguMCwxNTcuMSBMOTU4LjgsMTc1LjcgTDk2Mi4zLDIxMS4wIEw5NjUuOSwyMTcuOSBMOTY5LjUsMjI0LjEgTDk3My4xLDI0OC44IEw5ODMuOCwyNjcuMyBMOTg3LjQsMjYzLjYgTDk5MS4wLDMwMS42IEw5OTQuNiwyNDguOSBMOTk4LjIsMjUzLjcgTDEwMTIuNSwyOTkuNyBMMTAxNi4xLDIyOS45IEwxMDE5LjYsMjgxLjMgTDEwMjMuMiwyOTUuMiBMMTAzNC4wLDI4My43IEwxMDM3LjUsMjg1LjAgTDEwNDEuMSwyNjUuOSBMMTA0NC43LDI1MC44IEwxMDQ4LjMsMzA3LjIgTDEwNTkuMCwyNjYuNCBMMTA2Mi42LDI2NC4zIEwxMDY2LjIsMjMxLjkgTDEwNjkuOCwyMjguNCBMMTA3My40LDIyMS4xIEwxMDg3LjcsMjEzLjIgTDEwOTEuMywyMDguOCBMMTA5NC44LDIzMy45IEwxMDk4LjQsMjM5LjIgTDExMDkuMiwyNjEuNiBMMTExMi44LDI1MC42IEwxMTE2LjMsMjYzLjcgTDExMTkuOSwyNTQuOCBMMTEyMy41LDI1Mi4zIEwxMTM0LjIsMjUwLjcgTDExMzcuOCwyOTcuMSBMMTE0MS40LDI4OC40IEwxMTQ1LjAsMjcyLjcgTDExNDguNiwyMTkuNCBMMTE1OS4zLDIzMi41IEwxMTYyLjksMjEyLjMgTDExNjYuNSwyMDcuNyBMMTE3MC4xLDI0Mi4zIEwxMTczLjYsMjUzLjkgTDExODQuNCwyMzAuMiBMMTE4OC4wLDIzMy4wIEwxMTkxLjUsMjIyLjYgTDExOTUuMSwyMDAuOSBMMTE5OC43LDIwNy45IEwxMjA5LjQsMjE1LjQgTDEyMTMuMCwyMTEuMyBMMTIxNi42LDIxNy4zIEwxMjIwLjIsMTYxLjggTDEyMjMuOCwxNTMuNSBMMTIzNC41LDE2Mi4yIEwxMjM4LjEsMTU3LjcgTDEyNDEuNywyMTMuOSBMMTI0NS4zLDIxOS4yIEwxMjQ4LjgsMjExLjMgTDEyNTkuNiwyMTEuMCBMMTI2My4yLDIwMS4xIEwxMjY2LjcsMjA1LjQgTDEyNzAuMywxODcuNSBMMTI3My45LDE3OC41IEwxMjg0LjcsMjAyLjUgTDEyODguMiwxODMuMSBMMTI5MS44LDE0MS40IEwxMjk1LjQsMTY2LjIgTDEyOTkuMCwxMzUuMyBMMTMwOS43LDEyMC45IEwxMzEzLjMsOTIuNSBMMTMxNi45LDgwLjYgTDEzMjAuNSw4NC4xIEwxMzI0LjAsOTMuNCBMMTMzNC44LDk2LjcgTDEzMzguNCw4OS44IEwxMzQyLjAsODcuMCBMMTM0NS41LDkzLjUgTDEzNDkuMSw4Mi45IEwxMzU5LjksOTUuMiBMMTM2My40LDEwMS4wIEwxMzY3LjAsMTA0LjUgTDEzNzAuNiwxMjMuNyBMMTM3NC4yLDEzMC45IEwxMzg0LjksMTQwLjQgTDEzODguNSwxMzcuOSBMMTM5Mi4xLDEzMy4xIEwxMzk1LjcsMTMxLjUgTDEzOTkuMywxMDkuOCBMMTQxMC4wLDk3LjgiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzFCMkE0QSIgc3Ryb2tlLXdpZHRoPSIzLjUiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjxjaXJjbGUgY3g9IjE0MTAuMCIgY3k9Ijk3LjgiIHI9IjciIGZpbGw9IiMxQjJBNEEiLz48dGV4dCB4PSIxNDI0LjAiIHk9IjEwNS44IiBmb250LXNpemU9IjIzIiBmaWxsPSIjMUIyQTRBIiBmb250LXdlaWdodD0iYm9sZCI+MTAsODU0PC90ZXh0Pjx0ZXh0IHg9IjExMC4wIiB5PSI1ODguNyIgZm9udC1zaXplPSIyMSIgZmlsbD0iIzZFNzY4OSI+OSwyNjY8L3RleHQ+PHRleHQgeD0iMTEwIiB5PSIyOCIgZm9udC1zaXplPSIyMiIgZmlsbD0iIzZFNzY4OSI+RlRTRSAxMDAgLSBsYXN0IDEyIG1vbnRocyAoZGFpbHkgY2xvc2VzIHRvIDI0IEF1ZyAyMDI2KTwvdGV4dD48L3N2Zz4=" alt="FTSE 100 daily closing levels over the last twelve months, ranging between roughly 9,117 and 10,911, with the 29 July window start marked and the latest close at 10,854">
+    <button class="zoom-btn" aria-label="Enlarge image" onclick="openLightbox(this)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 3h6v6"/><path d="M9 21H3v-6"/><path d="M21 3l-7 7"/><path d="M3 21l7-7"/></svg></button>
+    <figcaption>FTSE 100, last 12 months. Source: Yahoo Finance daily closes, retrieved 26 August 2026.</figcaption>
+  </figure>
+
+  <figure>
+    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNTYwIiBoZWlnaHQ9Ijc2MCIgdmlld0JveD0iMCAwIDE1NjAgNzYwIiBmb250LWZhbWlseT0iQ29uc29sYXMsIE1lbmxvLCBtb25vc3BhY2UiPjxyZWN0IHdpZHRoPSIxNTYwIiBoZWlnaHQ9Ijc2MCIgZmlsbD0iI2ZmZmZmZiIvPjxsaW5lIHgxPSIxMTAiIHkxPSI1OTAuNyIgeDI9IjE0MTAiIHkyPSI1OTAuNyIgc3Ryb2tlPSIjRTZFMUQ2IiBzdHJva2Utd2lkdGg9IjEiLz48dGV4dCB4PSI5OCIgeT0iNTk3LjciIHRleHQtYW5jaG9yPSJlbmQiIGZvbnQtc2l6ZT0iMjIiIGZpbGw9IiM2RTc2ODkiPjEwLDAwMDwvdGV4dD48bGluZSB4MT0iMTEwIiB5MT0iNDUwLjUiIHgyPSIxNDEwIiB5Mj0iNDUwLjUiIHN0cm9rZT0iI0U2RTFENiIgc3Ryb2tlLXdpZHRoPSIxIi8+PHRleHQgeD0iOTgiIHk9IjQ1Ny41IiB0ZXh0LWFuY2hvcj0iZW5kIiBmb250LXNpemU9IjIyIiBmaWxsPSIjNkU3Njg5Ij4xMCwyNTA8L3RleHQ+PGxpbmUgeDE9IjExMCIgeTE9IjMxMC4yIiB4Mj0iMTQxMCIgeTI9IjMxMC4yIiBzdHJva2U9IiNFNkUxRDYiIHN0cm9rZS13aWR0aD0iMSIvPjx0ZXh0IHg9Ijk4IiB5PSIzMTcuMiIgdGV4dC1hbmNob3I9ImVuZCIgZm9udC1zaXplPSIyMiIgZmlsbD0iIzZFNzY4OSI+MTAsNTAwPC90ZXh0PjxsaW5lIHgxPSIxMTAiIHkxPSIxNzAuMCIgeDI9IjE0MTAiIHkyPSIxNzAuMCIgc3Ryb2tlPSIjRTZFMUQ2IiBzdHJva2Utd2lkdGg9IjEiLz48dGV4dCB4PSI5OCIgeT0iMTc3LjAiIHRleHQtYW5jaG9yPSJlbmQiIGZvbnQtc2l6ZT0iMjIiIGZpbGw9IiM2RTc2ODkiPjEwLDc1MDwvdGV4dD48dGV4dCB4PSIxMTAuMCIgeT0iNzI0IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXNpemU9IjIyIiBmaWxsPSIjNkU3Njg5Ij5GZWIgMjY8L3RleHQ+PHRleHQgeD0iMTYwLjAiIHk9IjcyNCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSIyMiIgZmlsbD0iIzZFNzY4OSI+TWFyIDI2PC90ZXh0Pjx0ZXh0IHg9IjM3NC4zIiB5PSI3MjQiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iMjIiIGZpbGw9IiM2RTc2ODkiPkFwciAyNjwvdGV4dD48dGV4dCB4PSI1ODguNiIgeT0iNzI0IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXNpemU9IjIyIiBmaWxsPSIjNkU3Njg5Ij5NYXkgMjY8L3RleHQ+PHRleHQgeD0iODEwLjAiIHk9IjcyNCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSIyMiIgZmlsbD0iIzZFNzY4OSI+SnVuIDI2PC90ZXh0Pjx0ZXh0IHg9IjEwMjQuMyIgeT0iNzI0IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXNpemU9IjIyIiBmaWxsPSIjNkU3Njg5Ij5KdWwgMjY8L3RleHQ+PHRleHQgeD0iMTI2MC4wIiB5PSI3MjQiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iMjIiIGZpbGw9IiM2RTc2ODkiPkF1ZyAyNjwvdGV4dD48bGluZSB4MT0iMTIyNC4zIiB5MT0iNDAiIHgyPSIxMjI0LjMiIHkyPSI2OTAiIHN0cm9rZT0iI0Q0QTg1MyIgc3Ryb2tlLXdpZHRoPSIyLjUiIHN0cm9rZS1kYXNoYXJyYXk9IjcgNiIvPjx0ZXh0IHg9IjEyMzMuMyIgeT0iNjYiIGZvbnQtc2l6ZT0iMjEiIGZpbGw9IiNENEE4NTMiIGZvbnQtd2VpZ2h0PSJib2xkIj4yOSBKdWw8L3RleHQ+PHBhdGggZD0iTTExMC4wLDIwNi42IEwxMTcuMSwyMDguOSBMMTI0LjMsMTM4LjQgTDEzMS40LDExNS44IEwxMzguNiw3OS45IEwxNjAuMCwxNTMuMSBMMTY3LjEsMzE5LjIgTDE3NC4zLDI3Mi4zIEwxODEuNCwzNTguNSBMMTg4LjYsNDMxLjAgTDIxMC4wLDQ1MC44IEwyMTcuMSwzNTkuNSBMMjI0LjMsMzkyLjMgTDIzMS40LDQxOS41IEwyMzguNiw0NDQuMiBMMjYwLjAsNDEyLjUgTDI2Ny4xLDM2NC4zIEwyNzQuMyw0MTkuNSBMMjgxLjQsNTU1LjEgTDI4OC42LDYzNi42IEwzMTAuMCw2NTAuMSBMMzE3LjEsNjEwLjMgTDMyNC4zLDUzMC44IEwzMzEuNCw2MDYuMyBMMzM4LjYsNjA5LjAgTDM2MC4wLDUxOC45IEwzNjcuMSw0OTEuNyBMMzc0LjMsMzg2LjEgTDM4MS40LDM0Ni4wIEw0MTcuMSwzOTUuMSBMNDI0LjMsMjQ5LjIgTDQzMS40LDI1Mi4yIEw0MzguNiwyNTMuOSBMNDYwLjAsMjYzLjcgTDQ2Ny4xLDI0OS4wIEw0NzQuMywyNzYuOCBMNDgxLjQsMjU5LjggTDQ4OC42LDIxNi4yIEw1MTAuMCwyNDkuMCBMNTE3LjEsMzExLjMgTDUyNC4zLDMyMy40IEw1MzEuNCwzMzQuNCBMNTM4LjYsMzc4LjEgTDU2MC4wLDQxMC42IEw1NjcuMSw0MDQuMCBMNTc0LjMsNDcxLjIgTDU4MS40LDM3OC4yIEw1ODguNiwzODYuNiBMNjE3LjEsNDY3LjggTDYyNC4zLDM0NC42IEw2MzEuNCw0MzUuMyBMNjM4LjYsNDYwLjAgTDY2MC4wLDQzOS42IEw2NjcuMSw0NDEuOSBMNjc0LjMsNDA4LjIgTDY4MS40LDM4MS41IEw2ODguNiw0ODEuMSBMNzEwLjAsNDA5LjEgTDcxNy4xLDQwNS4zIEw3MjQuMywzNDguMiBMNzMxLjQsMzQxLjkgTDczOC42LDMyOS4yIEw3NjcuMSwzMTUuMSBMNzc0LjMsMzA3LjQgTDc4MS40LDM1MS44IEw3ODguNiwzNjEuMSBMODEwLjAsNDAwLjYgTDgxNy4xLDM4MS4yIEw4MjQuMyw0MDQuMyBMODMxLjQsMzg4LjYgTDgzOC42LDM4NC4yIEw4NjAuMCwzODEuNCBMODY3LjEsNDYzLjIgTDg3NC4zLDQ0Ny44IEw4ODEuNCw0MjAuMyBMODg4LjYsMzI2LjEgTDkxMC4wLDM0OS4yIEw5MTcuMSwzMTMuNSBMOTI0LjMsMzA1LjQgTDkzMS40LDM2Ni41IEw5MzguNiwzODYuOSBMOTYwLjAsMzQ1LjEgTDk2Ny4xLDM1MC4xIEw5NzQuMywzMzEuOCBMOTgxLjQsMjkzLjUgTDk4OC42LDMwNS44IEwxMDEwLjAsMzE5LjEgTDEwMTcuMSwzMTEuOSBMMTAyNC4zLDMyMi40IEwxMDMxLjQsMjI0LjUgTDEwMzguNiwyMDkuOCBMMTA2MC4wLDIyNS4xIEwxMDY3LjEsMjE3LjIgTDEwNzQuMywzMTYuNCBMMTA4MS40LDMyNS43IEwxMDg4LjYsMzExLjggTDExMTAuMCwzMTEuMiBMMTExNy4xLDI5My44IEwxMTI0LjMsMzAxLjMgTDExMzEuNCwyNjkuNyBMMTEzOC42LDI1My45IEwxMTYwLjAsMjk2LjMgTDExNjcuMSwyNjIuMSBMMTE3NC4zLDE4OC41IEwxMTgxLjQsMjMyLjIgTDExODguNiwxNzcuNyBMMTIxMC4wLDE1Mi4yIEwxMjE3LjEsMTAyLjEgTDEyMjQuMyw4MS4xIEwxMjMxLjQsODcuNCBMMTIzOC42LDEwMy44IEwxMjYwLjAsMTA5LjYgTDEyNjcuMSw5Ny40IEwxMjc0LjMsOTIuNCBMMTI4MS40LDEwMy45IEwxMjg4LjYsODUuMiBMMTMxMC4wLDEwNi45IEwxMzE3LjEsMTE3LjIgTDEzMjQuMywxMjMuMyBMMTMzMS40LDE1Ny4zIEwxMzM4LjYsMTY5LjkgTDEzNjAuMCwxODYuNyBMMTM2Ny4xLDE4Mi4zIEwxMzc0LjMsMTczLjcgTDEzODEuNCwxNzEuMCBMMTM4OC42LDEzMi42IEwxNDEwLjAsMTExLjUiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzFCMkE0QSIgc3Ryb2tlLXdpZHRoPSIzLjUiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjxjaXJjbGUgY3g9IjE0MTAuMCIgY3k9IjExMS41IiByPSI3IiBmaWxsPSIjMUIyQTRBIi8+PHRleHQgeD0iMTQyNC4wIiB5PSIxMTkuNSIgZm9udC1zaXplPSIyMyIgZmlsbD0iIzFCMkE0QSIgZm9udC13ZWlnaHQ9ImJvbGQiPjEwLDg1NDwvdGV4dD48dGV4dCB4PSIxMTAuMCIgeT0iMTkyLjYiIGZvbnQtc2l6ZT0iMjEiIGZpbGw9IiM2RTc2ODkiPjEwLDY4NTwvdGV4dD48dGV4dCB4PSIxMTAiIHk9IjI4IiBmb250LXNpemU9IjIyIiBmaWxsPSIjNkU3Njg5Ij5GVFNFIDEwMCAtIGxhc3QgNiBtb250aHMgKGRhaWx5IGNsb3NlcyB0byAyNCBBdWcgMjAyNik8L3RleHQ+PC9zdmc+" alt="FTSE 100 daily closing levels over the last six months, showing a steadier climb with the 29 July window start marked and the latest close at 10,854">
+    <button class="zoom-btn" aria-label="Enlarge image" onclick="openLightbox(this)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 3h6v6"/><path d="M9 21H3v-6"/><path d="M21 3l-7 7"/><path d="M3 21l7-7"/></svg></button>
+    <figcaption>FTSE 100, last 6 months. Source: Yahoo Finance daily closes, retrieved 26 August 2026.</figcaption>
+  </figure>
+
+  <h2>The four-week risers</h2>
+  <p>Among the companies I track, the standout verified risers over the window were led by the
+  memory and AI-infrastructure names on the US side, with SanDisk Corp up
+  47.0% and Harworth Group PLC up 39.8%. On the UK
+  side, Greatland Resources Ltd and RWS Holdings PLC both put in strong four-week runs. Every figure
+  in these tables is taken from the same source at both ends of the window — the 29 July and
+  24 August closing prices — rather than from mixed intraday snapshots.</p>
+  <div class="table-scroll"><table class="movers"><thead><tr><th>Company</th><th>TIDM</th><th class="num">29 Jul</th><th class="num">24 Aug</th><th class="num">Move</th></tr></thead><tbody><tr><td>SanDisk Corp</td><td class="mono">SNDK</td><td class="num">$1,015.89</td><td class="num">$1,493.12</td><td class="num">+47.0%</td></tr><tr><td>Palantir Technologies Inc</td><td class="mono">PLTR</td><td class="num">$123.00</td><td class="num">$175.89</td><td class="num">+43.0%</td></tr><tr><td>Harworth Group PLC</td><td class="mono">HWG</td><td class="num">128.8p</td><td class="num">180p</td><td class="num">+39.8%</td></tr><tr><td>Greatland Resources Ltd</td><td class="mono">GGP</td><td class="num">517.5p</td><td class="num">718p</td><td class="num">+38.7%</td></tr><tr><td>Lumentum Holdings Inc</td><td class="mono">LITE</td><td class="num">$602.35</td><td class="num">$830.17</td><td class="num">+37.8%</td></tr><tr><td>RWS Holdings PLC</td><td class="mono">RWS</td><td class="num">93.6p</td><td class="num">123.1p</td><td class="num">+31.5%</td></tr></tbody></table></div>
+
+  <h2>The four-week fallers</h2>
+  <p>The fallers are led by Vanquis Banking Group PLC, down 31.9% over the four
+  weeks, with GB Group PLC close behind. It is worth saying plainly that a four-week fall
+  of this size is information, not a verdict: some of these are results reactions, and some are
+  sentiment. I have deliberately not attributed a cause to each name here — that is work for the
+  individual company notes, not a movements piece.</p>
+  <div class="table-scroll"><table class="movers"><thead><tr><th>Company</th><th>TIDM</th><th class="num">29 Jul</th><th class="num">24 Aug</th><th class="num">Move</th></tr></thead><tbody><tr><td>Vanquis Banking Group PLC</td><td class="mono">VANQ</td><td class="num">115.2p</td><td class="num">78.5p</td><td class="num dn">−31.9%</td></tr><tr><td>GB Group PLC</td><td class="mono">GBG</td><td class="num">228p</td><td class="num">155.4p</td><td class="num dn">−31.8%</td></tr><tr><td>Applovin Corp</td><td class="mono">APP</td><td class="num">$399.46</td><td class="num">$298.59</td><td class="num dn">−25.3%</td></tr><tr><td>Rentokil Initial PLC</td><td class="mono">RTO</td><td class="num">443.3p</td><td class="num">348.7p</td><td class="num dn">−21.3%</td></tr><tr><td>IG Group Holdings PLC</td><td class="mono">IGG</td><td class="num">1,689p</td><td class="num">1,354p</td><td class="num dn">−19.8%</td></tr><tr><td>Alnylam Pharmaceuticals Inc</td><td class="mono">ALNY</td><td class="num">$286.62</td><td class="num">$236.01</td><td class="num dn">−17.7%</td></tr></tbody></table></div>
+
+  <div class="pull"><p>The index moved about 0.5% in four weeks; the widest
+  individual moves were more than thirty points of percentage apart. Averages hide almost
+  everything interesting.</p></div>
+
+  <h2>What I take from it</h2>
+  <p>Two things. First, dispersion this wide usually means the market is repricing individual
+  business models rather than expressing a single macro view — which suits the way I work, because
+  it is exactly when company-by-company analysis earns its keep. Second, the four-week window is a
+  reminder that a calm index can coexist with violent moves underneath it. I will pick up several
+  of the names above in their own company notes rather than stretch this piece into analysis it
+  has not done.</p>
+
+<p class="foot"><b>Sources &amp; method.</b> Company moves are closing prices on
+29 July and 24 August 2026 from Yahoo Finance daily data, retrieved 26 August 2026; candidates were
+screened from the Equity &amp; Markets coverage universe (ShareScope-derived valuation dataset,
+exports of 29 July and 24 August 2026) and every printed figure was then verified against the two
+closing prices from the single independent source. One name (Monster Beverage) was excluded
+because a 2-for-1 share split inside the window makes its raw price change meaningless. FTSE 100
+chart levels are daily closes to 24 August 2026. UK prices are in pence; US
+prices in dollars. This edition was published as a system test of the automated trading-log
+pipeline and may be removed. It reflects my personal opinions and is not investment advice. I may
+hold positions in instruments mentioned. Always do your own research.</p>
+</div>
+  <div class="lightbox" id="lightbox" onclick="closeLightbox(event)">
+    <button class="close" aria-label="Close" onclick="closeLightbox(event)">&times;</button>
+    <img id="lightbox-img" src="" alt="Enlarged chart">
+  </div>
+  <script>
+    function openLightbox(btn){var fig=btn.closest('figure');var img=fig.querySelector('img');var lb=document.getElementById('lightbox');document.getElementById('lightbox-img').src=img.src;lb.classList.add('open');document.body.style.overflow='hidden';}
+    function closeLightbox(e){if(e&&e.target&&e.target.id==='lightbox-img')return;document.getElementById('lightbox').classList.remove('open');document.body.style.overflow='';}
+    document.addEventListener('keydown',function(e){if(e.key==='Escape')closeLightbox();});
+  </script>
+</body>
+</html>
