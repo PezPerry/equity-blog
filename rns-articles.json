@@ -1,5 +1,31 @@
 [
   {
+    "company": "Prudential PLC",
+    "ticker": "PRU",
+    "publish_date": "26 August 2026",
+    "date_iso": "2026-08-26",
+    "time_period": "",
+    "announcement_type": "Disposal",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li>Prudential subsidiary <strong>PCHL</strong> to sell up to a <strong>2.0%</strong> stake in <strong>ICICI Prudential Asset Management Company (IPAMC)</strong> via open market sale.</li><li>Sale intended to help IPAMC meet <strong>India's minimum 15% public float requirement</strong> within five years of its <strong>19 December 2025</strong> IPO.</li><li>Expected to be executed on <strong>27 August 2026</strong>; PCHL will retain a <strong>32.6%</strong> stake with governance rights unchanged.</li><li>No sale proceeds or financial impact stated in the announcement.</li></ul>",
+    "source_format": "html",
+    "headline": "Prudential to sell up to a **2.0%** stake in **ICICI Prudential Asset Management**, retaining **32.6%**, to support India's public float rules.",
+    "priority": "medium",
+    "priority_reason": "A minority stake sale that is small in scale and driven by regulatory float requirements, with no change to control or governance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/prudential--pru/sale-of-stake-in-icici-prudential-asset-management/9741252",
+    "related_news_url": "https://news.google.com/search?q=%22Prudential%22",
+    "added_at": "2026-08-26T11:35:44.589609"
+  },
+  {
     "company": "Ceres Power Holdings plc",
     "ticker": "CWR",
     "publish_date": "26 August 2026",
