@@ -1,5 +1,72 @@
 [
   {
+    "company": "NVIDIA Corp",
+    "ticker": "NVDA",
+    "publish_date": "27 August 2026",
+    "date_iso": "2026-08-27",
+    "time_period": "Q2 FY2027 (second quarter fiscal 2027)",
+    "announcement_type": "Quarterly results",
+    "period_detail": "Q2 FY2027 (second quarter fiscal 2027)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>NVIDIA</strong> reported <strong>second quarter fiscal 2027</strong> results, but the scraped article text does <strong>not</strong> contain the headline revenue, gross margin, net income or EPS figures or their comparatives — these could not be captured.</li><li>Returned approximately <strong>$26.0bn</strong> to shareholders in the quarter via buybacks and dividends; approximately <strong>$99.0bn</strong> remains under the share repurchase authorisation.</li><li>Next quarterly cash dividend of <strong>$0.25 per share</strong> payable <strong>1 October 2026</strong> to holders of record on <strong>10 September 2026</strong>.</li><li>Q3 FY2027 outlook stated but the specific revenue/margin guidance figures are missing from the scraped text; full-year FY2027 GAAP and non-GAAP tax rate expected at <strong>16.0%–18.0%</strong>.</li><li>CEO <strong>Jensen Huang</strong> said AI has reached its inflection point and that <strong>Vera Rubin</strong> is now in full production; from Q1 FY2027 non-GAAP measures no longer exclude stock-based compensation.</li><li>Note: figures unclear — the source page appears to be missing the financial statement tables, so key metrics and comparatives are not verifiable here.</li></ul>",
+    "source_format": "html",
+    "headline": "NVIDIA reports Q2 fiscal 2027 results, returns **$26.0bn** to shareholders and issues Q3 outlook, though scraped text omits the headline revenue and profit figures.",
+    "priority": "high",
+    "priority_reason": "Quarterly results from a bellwether AI chipmaker with forward guidance, capital returns and dividend — market-moving globally.",
+    "figures": [
+      {
+        "metric": "Capital returned to shareholders",
+        "current": "$26.0bn",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "buybacks and dividends",
+        "note": "Q2 FY2027"
+      },
+      {
+        "metric": "Remaining buyback authorisation",
+        "current": "$99.0bn",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "as at end of Q2 FY2027"
+      },
+      {
+        "metric": "Quarterly dividend",
+        "current": "$0.25 per share",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "payable 1 October 2026"
+      },
+      {
+        "metric": "Revenue",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "not printed in scraped text"
+      },
+      {
+        "metric": "EPS",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "not printed in scraped text"
+      }
+    ],
+    "guidance": {
+      "status": "new",
+      "previous": "not stated",
+      "current": "Q3 FY2027 outlook referenced but specific revenue/margin figures not present in scraped text; full-year FY2027 GAAP and non-GAAP tax rate expected at 16.0%–18.0%, excluding discrete items",
+      "commentary": "A Q3 FY2027 outlook was issued but the scraped page does not contain the guidance figures themselves, so the numbers cannot be reported. Only the full-year tax-rate expectation of 16.0%–18.0% is quoted."
+    },
+    "explainer": "This is NVIDIA's second-quarter fiscal 2027 earnings release. Note that NVIDIA's fiscal year runs ahead of the calendar year, so \"Q2 FY2027\" refers to a quarter ending in mid-2026, not 2027.\n\nThe scraped text is incomplete: it captures management commentary, capital returns, the dividend and the outlook framing, but it does not include the actual financial tables — revenue, gross margin, operating income, net income and earnings per share are all absent. As a result, none of the headline growth figures or their year-on-year comparatives can be reported or verified here, and readers should refer to NVIDIA's investor relations site for the full numbers.\n\nOne accounting change worth flagging: from Q1 FY2027, NVIDIA's non-GAAP measures no longer exclude stock-based compensation, and historical non-GAAP figures have been restated to include it. This makes non-GAAP profit and margin appear lower than under the old methodology, so any comparison with prior-year non-GAAP numbers must be on a like-for-like (restated) basis to be meaningful.\n\nOn capital and guidance: NVIDIA returned about $26.0bn to shareholders in the quarter and has roughly $99.0bn of buyback authorisation left, signalling continued heavy shareholder returns. A Q3 FY2027 outlook was issued but its specific revenue and margin figures are not present in this text; only the full-year tax-rate guidance of 16.0%–18.0% is quoted.",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/NVDA/share-news/NVIDIA-Announces-Financial-Results-for-Second-Quar/99198749",
+    "related_news_url": "https://news.google.com/search?q=%22NVIDIA%20Corporation%22",
+    "added_at": "2026-08-27T07:17:24.284883"
+  },
+  {
     "company": "Harbour Energy PLC",
     "ticker": "HBR",
     "publish_date": "26 August 2026",
