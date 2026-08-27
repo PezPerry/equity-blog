@@ -1,5 +1,57 @@
 [
   {
+    "company": "Rentokil Initial PLC",
+    "ticker": "RTO",
+    "publish_date": "27 August 2026",
+    "date_iso": "2026-08-27",
+    "time_period": "H1 to 30 June 2026",
+    "announcement_type": "Dividend declaration",
+    "period_detail": "H1 to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Rentokil Initial plc</strong> confirmed the pence sterling amount payable on its <strong>interim dividend</strong> for the six months ending <strong>30 June 2026</strong> at <strong>3.29 pence per ordinary share</strong>.</li><li>Sterling figure converted from the declared <strong>4.48 cents per share</strong> (announced <strong>30 July 2026</strong>) at an applicable rate of <strong>GBP1:USD1.3624</strong>, the average of closing spot rates over the three working days from <strong>24 August 2026</strong>.</li><li>Dividend to be paid on <strong>21 September 2026</strong> to shareholders on the register at close of business on <strong>14 August 2026</strong>.</li><li>Routine currency-conversion disclosure with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Rentokil Initial sets sterling value of its 4.48 cents interim dividend at 3.29 pence per share, payable 21 September 2026.",
+    "priority": "medium",
+    "priority_reason": "Confirms the sterling cash amount payable on an already-declared interim dividend, relevant to income but not price-sensitive.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/rentokil-initial--rto/interim-dividend-pence-sterling-amount-payable/9744059",
+    "related_news_url": "https://news.google.com/search?q=%22Rentokil%20Initial%22",
+    "added_at": "2026-08-27T15:36:08.605399"
+  },
+  {
+    "company": "International Consolidated Airlines Group SA",
+    "ticker": "IAG",
+    "publish_date": "27 August 2026",
+    "date_iso": "2026-08-27",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>International Consolidated Airlines Group, S.A.</strong> confirms completion of the conversion and cancellation of its outstanding <strong>1.125% Senior Unsecured Convertible Bonds due 2028</strong> (ISIN XS2343113101).</li><li>Following the <strong>5 June 2026</strong> Optional Redemption Notice (redemption set for <strong>21 July 2026</strong>), bondholders exercised Conversion Rights and IAG used its <strong>Cash Alternative Election</strong> to settle in cash.</li><li>The final Cash Alternative Amount has now been paid; <strong>no Bonds remain outstanding as of 27 August 2026</strong>.</li><li>Routine completion of a previously announced process — <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "IAG confirms its 1.125% senior unsecured convertible bonds due 2028 have been fully converted, cash-settled and cancelled, with none now outstanding.",
+    "priority": "low",
+    "priority_reason": "Administrative completion of a previously announced convertible bond redemption/conversion, with no new trading or guidance impact.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/international-consolidated-airlines-group-sa-cdi---iag/completion-of-bond-conversion-and-cancellation/9744081",
+    "related_news_url": "https://news.google.com/search?q=%22International%20Consolidated%20Airlines%20Group%20SA%20(CDI)%22",
+    "added_at": "2026-08-27T15:36:08.576217"
+  },
+  {
     "company": "Metro Bank Holdings PLC",
     "ticker": "MTRO",
     "publish_date": "27 August 2026",
