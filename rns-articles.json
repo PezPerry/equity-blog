@@ -1,5 +1,112 @@
 [
   {
+    "company": "Materialise NV",
+    "ticker": "MTLS",
+    "publish_date": "27 August 2026",
+    "date_iso": "2026-08-27",
+    "time_period": "Q2 and H1 to 30 June 2026",
+    "announcement_type": "Interim results",
+    "period_detail": "Q2 and H1 to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Materialise NV</strong> raised full-year <strong>2026 Adjusted EBIT guidance</strong> to <strong>EUR12,000-14,000k</strong> from <strong>EUR10,000-12,000k</strong>, while reaffirming revenue guidance of <strong>EUR273,000-283,000k</strong>.</li><li>Q2 2026 revenue up <strong>8.1%</strong> to <strong>EUR70,073k</strong> (Q2 2025: EUR64,831k); Q2 net profit jumped to <strong>EUR3,331k</strong> from <strong>EUR199k</strong>.</li><li>Q2 Adjusted EBIT up <strong>26.9%</strong> to <strong>EUR3,880k</strong> (margin <strong>5.5%</strong> vs 4.7%); Adjusted EBITDA up <strong>15.7%</strong> to <strong>EUR9,593k</strong>.</li><li>H1 2026 revenue up <strong>3.9%</strong> to <strong>EUR136,349k</strong>; H1 net profit <strong>EUR5,152k</strong> vs a prior-year net loss of <strong>(EUR337k)</strong>; H1 Adjusted EBIT up <strong>71.4%</strong> to <strong>EUR6,351k</strong>.</li><li><strong>Materialise Medical</strong> Q2 revenue up <strong>12.2%</strong> to <strong>EUR36,873k</strong>; net cash position rose to <strong>EUR74,214k</strong>; <strong>1,070,797</strong> shares bought back for <strong>EUR5,212k</strong> under the buyback programme.</li><li>Completed <strong>RapidFit</strong> and <strong>Eyewear</strong> divestitures and invested in <strong>Replasia</strong>; guidance fully absorbs the divestment revenue impact.</li></ul>",
+    "source_format": "html",
+    "headline": "Materialise lifted Q2 revenue 8.1% to EUR70.1m, swung H1 net profit to EUR5.2m and raised full-year Adjusted EBIT guidance.",
+    "priority": "high",
+    "priority_reason": "Half-year and Q2 results with a raised full-year Adjusted EBIT guidance range.",
+    "figures": [
+      {
+        "metric": "Revenue",
+        "current": "EUR70,073k",
+        "prior": "EUR64,831k",
+        "change": "+8.1%",
+        "basis": "reported",
+        "note": "Q2 2026 vs Q2 2025"
+      },
+      {
+        "metric": "Adjusted EBIT",
+        "current": "EUR3,880k",
+        "prior": "EUR3,058k",
+        "change": "+26.9%",
+        "basis": "non-IFRS",
+        "note": "Q2 2026 vs Q2 2025; margin 5.5% vs 4.7%"
+      },
+      {
+        "metric": "Adjusted EBITDA",
+        "current": "EUR9,593k",
+        "prior": "EUR8,288k",
+        "change": "+15.7%",
+        "basis": "non-IFRS",
+        "note": "Q2 2026 vs Q2 2025"
+      },
+      {
+        "metric": "Net profit",
+        "current": "EUR3,331k",
+        "prior": "EUR199k",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "Q2 2026 vs Q2 2025"
+      },
+      {
+        "metric": "Revenue",
+        "current": "EUR136,349k",
+        "prior": "EUR131,210k",
+        "change": "+3.9%",
+        "basis": "reported",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "Adjusted EBIT",
+        "current": "EUR6,351k",
+        "prior": "EUR3,703k",
+        "change": "+71.4%",
+        "basis": "non-IFRS",
+        "note": "H1 2026 vs H1 2025; margin 4.7% vs 2.8%"
+      },
+      {
+        "metric": "Adjusted EBITDA",
+        "current": "EUR17,642k",
+        "prior": "EUR14,434k",
+        "change": "+22.2%",
+        "basis": "non-IFRS",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "Net profit / (loss)",
+        "current": "EUR5,152k",
+        "prior": "(EUR337k)",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "Net cash position",
+        "current": "EUR74,214k",
+        "prior": "EUR70,805k",
+        "change": "+EUR3,409k",
+        "basis": "reported",
+        "note": "30 June 2026 vs 31 December 2025"
+      },
+      {
+        "metric": "Cash from operating activities (H1)",
+        "current": "EUR15,060k",
+        "prior": "EUR9,686k",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "H1 2026 vs H1 2025"
+      }
+    ],
+    "guidance": {
+      "status": "raised",
+      "previous": "Full-year 2026 Adjusted EBIT of EUR10,000-12,000k; revenue of EUR273,000-283,000k",
+      "current": "Full-year 2026 Adjusted EBIT raised to EUR12,000-14,000k; revenue reaffirmed at EUR273,000-283,000k",
+      "commentary": "Materialise lifted its Adjusted EBIT guidance range by EUR2,000k at both ends, citing strong execution and cost/capital discipline, while leaving revenue guidance unchanged despite the RapidFit and Eyewear divestments."
+    },
+    "explainer": "Materialise reports in euros and in thousands (kEUR); figures are on a reported IFRS basis except for Adjusted EBIT and Adjusted EBITDA, which are non-IFRS measures that strip out share-based pay, deal/divestiture costs, impairments from business combinations, and non-recurring restructuring charges. The company splits into three segments — Medical, Software and Manufacturing — with Medical the growth driver (Q2 revenue +12.2%) and Software slightly down.\n\nThe profit swing is the standout: Q2 net profit rose to EUR3,331k from just EUR199k a year earlier, and H1 turned a EUR337k loss into a EUR5,152k profit. A large part of that comes from the net financial result flipping from negative to positive (Q2 EUR242k vs (EUR3,052k)), reflecting the absence of the heavy adverse foreign-exchange hit that dragged on 2025 rather than a pure operating gain. Q2 also carried a one-off EUR689k impairment tied to transferring the Eyewear assets.\n\nOn guidance, the key change is that full-year Adjusted EBIT guidance was raised to EUR12,000-14,000k from EUR10,000-12,000k — a EUR2,000k uplift at each end. Revenue guidance of EUR273,000-283,000k was reaffirmed, and management stressed this range now fully absorbs the lost revenue from selling the RapidFit and Eyewear business lines, so the underlying business is running slightly ahead of the earlier plan on profitability.",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/MTLS/share-news/Materialise-Reports-Second-Quarter-and-Half-Year-2/99200015",
+    "related_news_url": "https://news.google.com/search?q=%22Materialise%20NV%22",
+    "added_at": "2026-08-27T07:17:59.166050"
+  },
+  {
     "company": "NVIDIA Corp",
     "ticker": "NVDA",
     "publish_date": "27 August 2026",
