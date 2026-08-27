@@ -1,5 +1,57 @@
 [
   {
+    "company": "Plus500 Ltd",
+    "ticker": "PLUS",
+    "publish_date": "27 August 2026",
+    "date_iso": "2026-08-27",
+    "time_period": "",
+    "announcement_type": "Buyback programme launch",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Plus500</strong> commences a new <strong>share buyback programme</strong> to purchase up to <strong>$100.0m</strong> of its shares, starting <strong>27 August 2026</strong>.</li><li>Forms part of the <strong>$182.5m</strong> of shareholder returns announced in the <strong>H1 2026 Interim Results on 10 August 2026</strong>, which also included total dividends of <strong>$82.5m</strong>.</li><li>Maximum of <strong>5,759,572 shares</strong> may be repurchased under the AGM authority granted on <strong>5 May 2026</strong>; shares to be held in treasury.</li><li><strong>Panmure Liberum</strong> will run the irrevocable, non-discretionary programme, which may continue through closed periods until no later than the H1 2027 interims announcement.</li><li>Group held over <strong>$860m</strong> of its own cash on balance sheet as at <strong>30 June 2026</strong>, supporting continued organic and inorganic growth alongside returns.</li></ul>",
+    "source_format": "html",
+    "headline": "Plus500 launches a new share buyback of up to $100.0m, part of the $182.5m shareholder returns announced with its H1 2026 results.",
+    "priority": "medium",
+    "priority_reason": "Launch of a new $100m buyback programme is a capital-return event, but forms part of already-announced H1 2026 shareholder returns.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/plus500-ltd-di---plus/share-buyback-programme/9742172",
+    "related_news_url": "https://news.google.com/search?q=%22Plus500%20Ltd%20(DI)%22",
+    "added_at": "2026-08-27T07:36:53.845804"
+  },
+  {
+    "company": "AstraZeneca PLC",
+    "ticker": "AZN",
+    "publish_date": "27 August 2026",
+    "date_iso": "2026-08-27",
+    "time_period": "",
+    "announcement_type": "Clinical trial results",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Tezspire (tezepelumab)</strong>, partnered with <strong>Amgen</strong>, hit both co-primary endpoints — <strong>histologic remission</strong> and <strong>dysphagia frequency/severity</strong> — plus all key secondary endpoints at <strong>week 24</strong>, sustained through <strong>week 52</strong>.</li><li>Results in <strong>eosinophilic oesophagitis (EoE)</strong> mark a <strong>third</strong> epithelial-driven inflammatory disease where Tezspire has shown clinically meaningful efficacy, alongside severe asthma and CRSwNP.</li><li>Phase III <strong>CROSSING</strong> randomised <strong>368 patients</strong> aged 12-80 to low-dose, high-dose or placebo; safety was generally consistent with approved indications.</li><li>EoE affects more than <strong>470,000 people</strong> in the US, with prevalence up five-fold since 2009; Tezspire holds FDA <strong>Orphan Drug Designation</strong> for EoE (granted October 2021).</li><li>Full results to be shared at an upcoming medical meeting and with regulatory authorities; Phase III <strong>JOURNEY</strong> and <strong>EMBARK</strong> trials in COPD are ongoing.</li><li>No financial figures or guidance impact disclosed in this announcement.</li></ul>",
+    "source_format": "html",
+    "headline": "AstraZeneca's Tezspire met both co-primary and all key secondary endpoints in the Phase III CROSSING trial in eosinophilic oesophagitis, sustained through week 52.",
+    "priority": "high",
+    "priority_reason": "Positive Phase III pivotal trial data in a new indication expands Tezspire's addressable market and supports regulatory filings, a material catalyst for a major index constituent.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/astrazeneca-AZN/share-news/AstraZeneca-PLC-Tezspire-CROSSING-trial-met-primar/99200232",
+    "related_news_url": "https://news.google.com/search?q=%22AstraZeneca%20PLC%22",
+    "added_at": "2026-08-27T07:36:53.817016"
+  },
+  {
     "company": "Convatec Group PLC",
     "ticker": "CTEC",
     "publish_date": "27 August 2026",
