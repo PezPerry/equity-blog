@@ -1,5 +1,31 @@
 [
   {
+    "company": "Prudential PLC",
+    "ticker": "PRU",
+    "publish_date": "27 August 2026",
+    "date_iso": "2026-08-27",
+    "time_period": "2026 first interim",
+    "announcement_type": "Dividend declaration",
+    "period_detail": "2026 first interim",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Prudential plc</strong> declares its <strong>2026 first interim dividend</strong> of <strong>8.88 US cents</strong> per ordinary share.</li><li>Ex-dividend date <strong>10 September 2026</strong>; payment date <strong>22 October 2026</strong>; sterling/HK dollar amounts to be announced on or around <strong>9 October 2026</strong>.</li><li>A <strong>scrip dividend alternative</strong> (Hong Kong line only) and, for UK holders, a <strong>Dividend Reinvestment Plan (DRIP)</strong> are offered; currency and scrip election deadline <strong>2 October 2026</strong>.</li><li>Routine dividend declaration with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Prudential declares 2026 first interim dividend of 8.88 US cents per ordinary share, with scrip and currency-election alternatives offered.",
+    "priority": "medium",
+    "priority_reason": "Routine dividend declaration with a stated per-share amount but no trading or guidance content.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/prudential-PRU/share-news/Prudential-PLC-Dividend-Declaration/99200237",
+    "related_news_url": "https://news.google.com/search?q=%22Prudential%20plc%22",
+    "added_at": "2026-08-27T07:20:38.422343"
+  },
+  {
     "company": "PPHE Hotel Group Ltd",
     "ticker": "PPH",
     "publish_date": "27 August 2026",
