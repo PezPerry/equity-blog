@@ -1,5 +1,114 @@
 [
   {
+    "company": "PPHE Hotel Group Ltd",
+    "ticker": "PPH",
+    "publish_date": "27 August 2026",
+    "date_iso": "2026-08-27",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>PPHE Hotel Group Limited</strong> appoints <strong>Yoav Papouchado</strong> as <strong>Non-Executive Director</strong>, effective <strong>27 August 2026</strong>.</li><li>Papouchado is <strong>Chairman of Red Sea Hotels Limited</strong> and Vice Chairman of the Supervisory Board of <strong>Arena Hospitality Group</strong>, PPHE's Zagreb-listed subsidiary; he brings over <strong>30 years</strong> of experience in residential developments and data centres.</li><li>He becomes the second Red Sea representative director alongside <strong>Roni Hisch</strong>, under Red Sea's contractual rights in the Relationship Agreement; <strong>Red Sea</strong>, controlled by <strong>Eli Papouchado</strong>, holds <strong>32.87 per cent</strong> of PPHE's issued share capital.</li><li>Chairman <strong>Kenneth Bradley</strong> said the Board will review its overall composition and balance following the appointment, with a further update in due course.</li><li>Routine board disclosure with <strong>no impact</strong> on trading or guidance; no further information required under UKLR 6.4.8R.</li></ul>",
+    "source_format": "html",
+    "headline": "PPHE Hotel Group appoints Yoav Papouchado, Chairman of Red Sea Hotels, as Non-Executive Director, effective today.",
+    "priority": "medium",
+    "priority_reason": "Board appointment of a new Non-Executive Director; a routine governance change with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/pphe-hotel-PPH/share-news/PPHE-Hotel-Group-Limited-Appointment-of-Non-Execut/99200202",
+    "related_news_url": "https://news.google.com/search?q=%22PPHE%20Hotel%20Group%20Limited%22",
+    "added_at": "2026-08-27T07:19:26.650495"
+  },
+  {
+    "company": "Greatland Resources Ltd",
+    "ticker": "GRR",
+    "publish_date": "27 August 2026",
+    "date_iso": "2026-08-27",
+    "time_period": "FY to 30 June 2026",
+    "announcement_type": "Annual results",
+    "period_detail": "FY to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Net profit after tax of $862m</strong> (~$1.28/share) and <strong>EBITDA of $1,332m</strong> for <strong>FY26</strong> (year ended <strong>30 June 2026</strong>), the first full year of <strong>Telfer</strong> ownership.</li><li><strong>Revenue of $2,259m</strong> from <strong>326,859oz gold</strong> sold at an average <strong>$6,223/oz</strong> and <strong>14,730t copper</strong> at <strong>$14,895/t</strong>; <strong>free cash flow of $737m</strong>.</li><li><strong>Closing cash of $1,289m</strong> (net cash ~$1.3bn) and total liquidity of <strong>$1,764m</strong> including <strong>$475m</strong> of undrawn facilities.</li><li>Produced <strong>328,987oz gold</strong> and <strong>14,594t copper</strong> at <strong>AISC of $2,179/oz</strong>; TRIFR safety rate cut to <strong>4.5</strong> from 5.9.</li><li><strong>FY27 guidance</strong>: gold production <strong>260-300koz</strong> at <strong>AISC $2,900-$3,330/oz</strong>, with growth capital of <strong>$315-335m</strong> at Telfer and <strong>$365-435m</strong> at Havieron.</li><li><strong>Havieron FID approved in June 2026</strong> after primary environmental approvals and execution of <strong>$500m</strong> of corporate debt facilities (ANZ, ING, HSBC, NAB, Westpac); first gold expected <strong>FY29</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Greatland reports **$862m** net profit in its first full year of Telfer ownership and guides to **260-300koz** gold in FY27.",
+    "priority": "high",
+    "priority_reason": "Full-year results with maiden full-year of Telfer ownership plus FY27 production and capital guidance.",
+    "figures": [
+      {
+        "metric": "Net profit after tax",
+        "current": "$862m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "FY26; ~$1.28 per share"
+      },
+      {
+        "metric": "EBITDA",
+        "current": "$1,332m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "FY26"
+      },
+      {
+        "metric": "Revenue",
+        "current": "$2,259m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "FY26"
+      },
+      {
+        "metric": "Free cash flow",
+        "current": "$737m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "FY26; ~$1.10 per share"
+      },
+      {
+        "metric": "Closing cash",
+        "current": "$1,289m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "net cash at 30 June 2026",
+        "note": "total liquidity $1,764m incl. $475m undrawn facilities"
+      },
+      {
+        "metric": "Gold produced",
+        "current": "328,987oz",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "AISC $2,179/oz",
+        "note": "FY26"
+      },
+      {
+        "metric": "Copper produced",
+        "current": "14,594t",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "FY26"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "As previously announced, FY27 gold production of 260-300koz at AISC of $2,900-$3,330/oz gold produced",
+      "current": "FY27 gold production 260-300koz at AISC $2,900-$3,330/oz; FY27 growth capital $315-335m (Telfer) and $365-435m (Havieron), plus $70-80m resource development and exploration",
+      "commentary": "FY27 production guidance is reaffirmed and sits below FY26 output of ~329koz, with a higher AISC reflecting open-pit scheduling, a 15-day planned plant shutdown and a ramp-up in growth investment. FY27 is framed as an investment year as Havieron construction begins."
+    },
+    "explainer": "These are Greatland's first full-year results covering 12 months of owning the Telfer gold-copper operation in Western Australia, which it acquired in December 2024. Because the prior year (FY25) only captured roughly seven months of ownership, the announcement does not print like-for-like prior-year comparatives, so year-on-year percentage moves are not directly available — the figures reflect a maiden full-year benefiting from strong gold prices (an average $6,223/oz realised).\n\nThe company generated $862m of net profit and $737m of free cash flow, leaving it with net cash of about $1.3bn. That balance sheet strength underpins a heavy reinvestment programme rather than large returns to shareholders: FY27 is explicitly an investment year.\n\nOn guidance, FY27 gold production of 260-300koz is lower than the ~329koz produced in FY26, and unit costs (AISC) step up materially to $2,900-$3,330/oz from $2,179/oz. Management attributes this to open-pit mine scheduling, a planned 15-day process plant shutdown in Q1, and second-half weighting — not a deterioration in the asset. Alongside, Greatland has taken a final investment decision on the Havieron project (first gold expected FY29), funded partly by $500m of new bank debt, marking the start of a multi-year growth phase in the Paterson region.\n\nNote figures are reported in dollars as printed in the announcement; Havieron study economics are quoted separately in Australian dollars (e.g. A$4,500/oz long-term gold base case).",
+    "source_url": "https://uk.advfn.com/stock-market/london/greatland-resources-GGP/share-news/Greatland-Resources-Limited-Financial-Results-Year/99200192",
+    "related_news_url": "https://news.google.com/search?q=%22Greatland%20Resources%20Limited%22",
+    "added_at": "2026-08-27T07:19:26.597397"
+  },
+  {
     "company": "Vertu Motors PLC",
     "ticker": "VTU",
     "publish_date": "27 August 2026",
