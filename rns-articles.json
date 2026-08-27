@@ -1,5 +1,91 @@
 [
   {
+    "company": "Vertu Motors PLC",
+    "ticker": "VTU",
+    "publish_date": "27 August 2026",
+    "date_iso": "2026-08-27",
+    "time_period": "FY27 (year ending 28 February 2027); 5-month period to 31 July 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "FY27 (year ending 28 February 2027); 5-month period to 31 July 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Vertu Motors</strong> expects <strong>FY27</strong> full-year results to be <strong>ahead of current market expectations</strong>, driven by strong trading in the five months to <strong>31 July 2026</strong>.</li><li>Current consensus (three sell-side analysts, at <strong>26 August 2026</strong>) for <strong>FY27 adjusted profit before tax</strong> is <strong>£25.5m</strong>, range <strong>£24.5m–£26.1m</strong>.</li><li>Positive contributions from new and used vehicles, <strong>increased fleet market share</strong> and continued momentum in high-margin <strong>aftersales</strong>; Group gross margins stable and opex well controlled.</li><li><strong>September</strong> plate-change order-take running ahead of prior year; <strong>July–September</strong> quarter order-take also ahead, giving the Board confidence.</li><li>Net debt expected at <strong>£74.0m–£77.0m</strong> at end-August (H1 2026: <strong>£78.3m</strong>), excluding IFRS 16; FY capex to rise <strong>£2.0m</strong> on portfolio changes.</li><li>Share buyback continues: <strong>2.4m shares</strong> repurchased YTD for <strong>£1.7m</strong> (0.8% of opening capital); <strong>£10.3m</strong> remains of the <strong>£12m</strong> programme announced 5 March 2026. Interim results due <strong>14 October 2026</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Vertu Motors expects FY27 results ahead of market expectations after a strong five-month trading period, with consensus adjusted PBT at £25.5m.",
+    "priority": "high",
+    "priority_reason": "Positive trading update guiding full-year results ahead of market expectations, with a stated consensus figure.",
+    "figures": [
+      {
+        "metric": "Net debt (end-August)",
+        "current": "£74.0m to £77.0m",
+        "prior": "£78.3m",
+        "change": "not stated",
+        "basis": "excluding IFRS 16 liabilities",
+        "note": "H1 2026 comparative"
+      },
+      {
+        "metric": "FY27 adjusted PBT (consensus)",
+        "current": "£25.5m (range £24.5m–£26.1m)",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "three sell-side analysts at 26 August 2026",
+        "note": "Board expects results ahead of this"
+      }
+    ],
+    "guidance": {
+      "status": "raised",
+      "previous": "Consensus FY27 adjusted profit before tax of £25.5m (range £24.5m to £26.1m)",
+      "current": "Board anticipates full-year FY27 results will be ahead of current market expectations",
+      "commentary": "Vertu has effectively upgraded expectations, saying FY27 results will beat the £25.5m consensus adjusted PBT on the back of strong new/used vehicle sales, higher fleet share, robust aftersales and strong September order-take."
+    },
+    "explainer": "This is a pre-close trading update covering the first five months (to 31 July 2026) of Vertu's financial half-year, which ends 31 August 2026. The company is not reporting audited numbers yet — interim results follow on 14 October — but it is signalling that full-year FY27 profit will come in above what analysts currently expect.\n\nThe key reference point is the stated consensus: three sell-side analysts pencil in £25.5m of adjusted profit before tax for FY27, within a range of £24.5m to £26.1m. \"Adjusted\" means before certain one-off or non-underlying items. By saying results will be \"ahead\" of this, Vertu is effectively guiding to a beat, though it does not quantify by how much.\n\nThe profit strength is broad-based — new retail and fleet vehicles, used cars (helped by the new 'Value Cars by Vertu' initiative) and high-margin aftersales — with stable gross margins and controlled costs. September is the critical UK plate-change month, and order-take running ahead of last year underpins the confidence.\n\nNet debt is expected to improve to £74.0m–£77.0m from £78.3m a year earlier (excluding lease liabilities under IFRS 16), reflecting careful working-capital management. Note this is offset slightly by a £2.0m rise in planned full-year capex tied to franchise portfolio changes, including new Chinese-brand outlets.",
+    "source_url": "https://uk.advfn.com/stock-market/london/vertu-motors-VTU/share-news/Vertu-Motors-PLC-Trading-Statement/99200176",
+    "related_news_url": "https://news.google.com/search?q=%22Vertu%20Motors%20plc%22",
+    "added_at": "2026-08-27T07:18:46.943124"
+  },
+  {
+    "company": "Halfords Group PLC",
+    "ticker": "HFD",
+    "publish_date": "27 August 2026",
+    "date_iso": "2026-08-27",
+    "time_period": "FY27 (year to 3 April 2027)",
+    "announcement_type": "Trading update",
+    "period_detail": "FY27 (year to 3 April 2027)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Halfords Group plc</strong> now expects <strong>FY27 underlying profit before tax of £55m–£65m</strong>, ahead of current consensus of <strong>£52.6m</strong> (range <strong>£48.9m–£55.1m</strong>).</li><li>Upgrade reflects continued outperformance and momentum against strategic priorities, plus a very strong performance in <strong>seasonal categories</strong> helped by unusually warm summer weather.</li><li>Heightened seasonal demand is estimated to have delivered <strong>incremental profit in the mid-single-digit millions of pounds</strong>.</li><li>FY27 performance now expected to be <strong>further weighted to the first half</strong>, as the Group accelerates technology and marketing investment in H2.</li><li><strong>AGM on 10 September 2026</strong>; <strong>HY27 trading update</strong> (26 weeks ending 2 October 2026) scheduled for <strong>21 October 2026</strong>.</li><li>Announcement contains inside information; company notes nothing herein should be construed as a profit forecast.</li></ul>",
+    "source_format": "html",
+    "headline": "Halfords upgrades FY27 underlying pre-tax profit guidance to £55m–£65m, ahead of consensus of £52.6m, on strong trading and warm-weather seasonal demand.",
+    "priority": "high",
+    "priority_reason": "Profit guidance upgrade ahead of consensus is share-price sensitive inside information.",
+    "figures": [
+      {
+        "metric": "FY27 underlying profit before tax (new guidance)",
+        "current": "£55m–£65m",
+        "prior": "consensus £52.6m (range £48.9m–£55.1m)",
+        "change": "not stated",
+        "basis": "underlying",
+        "note": "FY27 forecast upgrade"
+      },
+      {
+        "metric": "Estimated incremental seasonal profit",
+        "current": "mid-single-digit millions of pounds",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "from heightened warm-weather seasonal demand"
+      }
+    ],
+    "guidance": {
+      "status": "raised",
+      "previous": "Current consensus FY27 underlying profit before tax of £52.6m (range £48.9m–£55.1m)",
+      "current": "FY27 underlying profit before tax expected between £55m and £65m",
+      "commentary": "Halfords has upgraded its FY27 profit outlook, with the new range sitting above the current consensus, driven by continued trading momentum and a strong seasonal performance boosted by unusually warm summer weather."
+    },
+    "explainer": "Halfords is telling the market it now expects to make more profit this financial year (FY27) than analysts had been forecasting. The key measure is underlying profit before tax — 'underlying' strips out one-off items to show the core trading performance. The new guided range of £55m–£65m sits above the prior consensus of £52.6m, so this is a genuine upgrade rather than a reiteration.\n\nA chunk of the improvement is weather-related and therefore may not repeat: an unusually warm summer lifted demand for seasonal products, which the company estimates added incremental profit in the mid-single-digit millions of pounds. The rest is attributed to ongoing momentum in the underlying business as management delivers on its strategy.\n\nHalfords also flags that profit will be more skewed to the first half of the year than usual, because it plans to step up spending on technology and marketing in the second half. That means investors should not simply double the H1 result to estimate the full year.\n\nThe next scheduled checkpoints are the AGM on 10 September 2026 and the HY27 trading update on 21 October 2026, covering the 26 weeks to 2 October 2026.",
+    "source_url": "https://uk.advfn.com/stock-market/london/halfords-HFD/share-news/Halfords-Group-PLC-Trading-update/99200501",
+    "related_news_url": "https://news.google.com/search?q=%22Halfords%20Group%20plc%22",
+    "added_at": "2026-08-27T07:18:46.928350"
+  },
+  {
     "company": "Materialise NV",
     "ticker": "MTLS",
     "publish_date": "27 August 2026",
