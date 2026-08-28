@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-27",
+  "generated": "2026-08-28",
   "by_ticker": {
     "ABF": {
       "date": "2026-08-31",
@@ -14,16 +14,12 @@
       "event": "Q4 div payment"
     },
     "CURY": {
-      "date": "2026-08-27",
-      "event": "Special ex-div"
+      "date": "2026-09-10",
+      "event": "AGM (Conf)"
     },
     "FRAS": {
       "date": "2026-08-29",
       "event": "Annual report (Est)"
-    },
-    "GLEN": {
-      "date": "2026-08-27",
-      "event": "Q4 ex-div"
     },
     "GOOGL": {
       "date": "2026-09-04",
@@ -56,10 +52,6 @@
     "WOSG": {
       "date": "2026-09-03",
       "event": "AGM (Est)"
-    },
-    "ZIG": {
-      "date": "2026-08-27",
-      "event": "Q4 ex-div"
     }
   }
 }
