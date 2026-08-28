@@ -1,5 +1,31 @@
 [
   {
+    "company": "BHP Group Ltd",
+    "ticker": "BHP",
+    "publish_date": "28 August 2026",
+    "date_iso": "2026-08-28",
+    "time_period": "FY to 30 June 2026",
+    "announcement_type": "Dividend declaration",
+    "period_detail": "FY to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li>Routine JSE-required notice: sets the <strong>ZAR</strong> conversion rate for BHP's <strong>99 US cents</strong> per share final dividend for the year ended <strong>30 June 2026</strong>, with <strong>no impact</strong> on trading or guidance.</li><li>Gross dividend of <strong>1,580.51520 South African cents</strong> per share, based on the average rate of <strong>15.96480</strong> on <strong>27 August 2026</strong>; net of 20% Dividend Tax, <strong>1,264.41216 cents</strong> per share.</li><li>Applies only to shareholders on the <strong>South African branch register</strong>; rates for other currencies to be announced on <strong>7 September 2026</strong> (record date <strong>4 September 2026</strong>).</li><li>Dividend payable <strong>Wednesday, 23 September 2026</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "BHP sets the South African rand exchange rate for its previously declared 99 US cents final dividend, paid on 23 September 2026.",
+    "priority": "low",
+    "priority_reason": "Routine JSE-required currency conversion notice for an already-declared final dividend; no new financial information.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/bhp-group-limited-npv-di---bhp/dividend-currency-exchange-rate-south-african-rand/9744312",
+    "related_news_url": "https://news.google.com/search?q=%22BHP%20Group%20Limited%20NPV%20(DI)%22",
+    "added_at": "2026-08-28T07:36:50.642609"
+  },
+  {
     "company": "Mortgage Advice Bureau (Holdings) PLC",
     "ticker": "MAB1",
     "publish_date": "28 August 2026",
