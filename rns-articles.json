@@ -1,5 +1,31 @@
 [
   {
+    "company": "Man Group PLC",
+    "ticker": "EMG",
+    "publish_date": "28 August 2026",
+    "date_iso": "2026-08-28",
+    "time_period": "FY to 31 December 2026",
+    "announcement_type": "Dividend declaration",
+    "period_detail": "FY to 31 December 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Man Group plc</strong> confirmed the sterling amount for its already-declared interim dividend of <strong>5.7 US cents</strong> per share at <strong>4.19 pence</strong> per ordinary share.</li><li>Conversion uses an applicable exchange rate of <strong>£1: US$1.36013</strong>, the average of market rates over the three working days from <strong>25 August 2026</strong>.</li><li>Payable on <strong>18 September 2026</strong> to shareholders on the register at close of business on <strong>7 August 2026</strong>.</li><li>Routine currency-conversion disclosure following the 28 July 2026 declaration — <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Man Group sets the sterling equivalent of its previously declared 5.7 US cents interim dividend at 4.19 pence per share.",
+    "priority": "low",
+    "priority_reason": "Routine sterling conversion of a previously declared interim dividend, with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/man-group--emg/interim-dividend-sterling-conversion-rate/9745452",
+    "related_news_url": "https://news.google.com/search?q=%22Man%20Group%22",
+    "added_at": "2026-08-28T09:15:46.731482"
+  },
+  {
     "company": "BHP Group Ltd",
     "ticker": "BHP",
     "publish_date": "28 August 2026",
