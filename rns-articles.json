@@ -1,5 +1,31 @@
 [
   {
+    "company": "Investec PLC",
+    "ticker": "INVP",
+    "publish_date": "28 August 2026",
+    "date_iso": "2026-08-28",
+    "time_period": "Quarter to 30 June 2026",
+    "announcement_type": "Corporate update",
+    "period_detail": "Quarter to 30 June 2026",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li>Routine <strong>Pillar III</strong> quarterly capital, leverage and liquidity disclosure at <strong>30 June 2026</strong> — <strong>no impact</strong> on trading or guidance.</li><li><strong>Investec plc</strong> group: CET1 ratio <strong>12.7%</strong>, Tier 1 <strong>14.4%</strong>, total capital ratio <strong>17.9%</strong>, leverage ratio <strong>8.9%</strong>, RWAs <strong>£20,530m</strong> (excludes unverified quarterly profits).</li><li><strong>Investec Limited</strong> group: CET1 ratio <strong>14.2%</strong>, total capital ratio <strong>18.0%</strong>; <strong>Investec Bank Limited</strong> group CET1 <strong>15.9%</strong>.</li><li>Liquidity: Investec plc LCR <strong>354%</strong> (12-month avg) and NSFR <strong>140%</strong> (4-quarter avg); IBL Group LCR <strong>161%</strong>, NSFR <strong>114%</strong>.</li><li>Full detailed disclosures available in the quarterly Pillar 3 reports on the Investec website.</li></ul>",
+    "source_format": "html",
+    "headline": "Investec published its Pillar III quarterly capital disclosures at 30 June 2026, with an Investec plc CET1 ratio of **12.7%**.",
+    "priority": "low",
+    "priority_reason": "Routine Pillar III quarterly capital, leverage and liquidity disclosure with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/investec--invp/quarterly-capital-disclosure-30-june-2026/9745782",
+    "related_news_url": "https://news.google.com/search?q=%22Investec%22",
+    "added_at": "2026-08-28T11:16:16.401751"
+  },
+  {
     "company": "Man Group PLC",
     "ticker": "EMG",
     "publish_date": "28 August 2026",
