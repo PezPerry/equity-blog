@@ -1,5 +1,72 @@
 [
   {
+    "company": "Goodwin PLC",
+    "ticker": "GDWN",
+    "publish_date": "28 August 2026",
+    "date_iso": "2026-08-28",
+    "time_period": "FY to 30 April 2026",
+    "announcement_type": "Annual results",
+    "period_detail": "FY to 30 April 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Goodwin PLC</strong> reports record FY26 (year ended <strong>30 April 2026</strong>) trading profit of <strong>£77.5m</strong> (2025: <strong>£35.5m</strong>), up <strong>118%</strong>, on revenue of <strong>£280m</strong>, up <strong>27%</strong>.</li><li>Ordinary dividend raised <strong>18%</strong> to <strong>330p</strong> (2025: <strong>280p</strong>).</li><li>Board committed to a potential disposal of a substantial part of the <strong>Mechanical Engineering Division</strong>, with <strong>Rothschild & Co</strong> appointed adviser (announced post period-end <strong>7 August 2026</strong>); assets for sale include <strong>Goodwin Steel Castings</strong>, <strong>Goodwin International</strong>, <strong>Noreva GmbH</strong>, <strong>Easat Group</strong> and <strong>Pumps</strong>; targeted completion within <strong>twelve months</strong>.</li><li>Board expects a substantial part of any disposal proceeds to be <strong>paid to shareholders</strong>, and is reviewing capital allocation and dividend policy.</li><li>Mechanical Engineering growth driven by high-integrity castings for <strong>UK and US Navy</strong> frigate and submarine programmes; <strong>Easat</strong> profits rose from breakeven to <strong>£4.5m</strong>; <strong>Refractory Division</strong> subsidiary trading profits up <strong>15%</strong>.</li><li>New <strong>Technological Division</strong> (Duvelco and Internet Central) created; Duvelco production finalisation running behind schedule but progressing, with a partner agreement to manufacture stock shapes.</li></ul>",
+    "source_format": "html",
+    "headline": "Goodwin reports record FY26 trading profit of £77.5m, up 118%, on revenue of £280m, and lifts the dividend 18% to 330p while pursuing a Mechanical Engineering disposal.",
+    "priority": "high",
+    "priority_reason": "Record full-year results with a 118% jump in trading profit, plus an active sale process for a substantial part of the Mechanical Engineering Division.",
+    "figures": [
+      {
+        "metric": "Trading profit",
+        "current": "£77.5m",
+        "prior": "£35.5m",
+        "change": "+118%",
+        "basis": "reported",
+        "note": "FY to 30 April 2026"
+      },
+      {
+        "metric": "Revenue",
+        "current": "£280m",
+        "prior": "not stated",
+        "change": "+27%",
+        "basis": "reported",
+        "note": "FY to 30 April 2026"
+      },
+      {
+        "metric": "Ordinary dividend per share",
+        "current": "330p",
+        "prior": "280p",
+        "change": "+18%",
+        "basis": "reported",
+        "note": "proposed"
+      },
+      {
+        "metric": "Refractory Division subsidiary trading profits",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+15%",
+        "basis": "reported",
+        "note": "year-on-year"
+      },
+      {
+        "metric": "Easat Group profit",
+        "current": "£4.5m",
+        "prior": "approximately breakeven",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "turnaround"
+      }
+    ],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": "No formal earnings guidance issued; the Board flags that capital allocation and dividend policy will be reviewed and that a substantial part of any Mechanical Engineering disposal proceeds is expected to be returned to shareholders."
+    },
+    "explainer": "These are preliminary (unaudited) full-year results for the twelve months to 30 April 2026. The headline figure is trading profit — operating profit before certain items — which more than doubled to £77.5m, well ahead of the prior year's £35.5m, on revenue up 27% to £280m. Goodwin attributes the step-change largely to its Mechanical Engineering division, which supplies precision-machined, high-integrity castings for UK and US naval submarine and frigate programmes; defence milestone payments also improved cash generation. The proposed dividend rises 18% to 330p.\n\nThe most market-relevant development is corporate rather than purely financial: the Board has committed to selling a substantial part of the Mechanical Engineering Division — the very division driving the profit surge — and has appointed Rothschild & Co to run a sale process, targeting completion within twelve months. The businesses earmarked for sale (Goodwin Steel Castings, Goodwin International, Noreva, Easat and Pumps) are now classed as assets held for sale.\n\nBecause the group's composition will change materially if the disposal completes, management has restated its internal reporting and carved out a new Technological Division (Duvelco and Internet Central), which is being retained. The Board indicates dividend policy and capital allocation are under review and that much of any sale proceeds would be returned to shareholders — so investors should treat the current dividend trajectory and divisional earnings mix as subject to change pending the outcome of the sale.\n\nNote several figures (revenue prior-year comparative, Easat's change, precise divisional profits) are not fully quantified in this preliminary statement, with the full financial statements to follow shortly.",
+    "source_url": "https://uk.advfn.com/stock-market/london/goodwin-GDWN/share-news/Goodwin-PLC-Preliminary-results-for-the-year-ended/99207770",
+    "related_news_url": "https://news.google.com/search?q=%22Goodwin%20PLC%22",
+    "added_at": "2026-08-28T07:17:45.227489"
+  },
+  {
     "company": "Caledonia Mining Corporation Plc",
     "ticker": "CMCL",
     "publish_date": "28 August 2026",
