@@ -1,5 +1,56 @@
 [
   {
+    "company": "Caledonia Mining Corporation Plc",
+    "ticker": "CMCL",
+    "publish_date": "28 August 2026",
+    "date_iso": "2026-08-28",
+    "time_period": "Effective date 30 June 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "Effective date 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Blanket Mine</strong> underground M&I resources up <strong>22%</strong> to <strong>2.178 million ounces</strong> of gold (17.7Mt at <strong>3.83 g/t</strong>), from <strong>1.789Moz</strong> at 31 December 2023 — driven by a <strong>16%</strong> rise in tonnes and <strong>5%</strong> higher grade.</li><li>Inferred underground resources down <strong>30%</strong> to <strong>0.748Moz</strong> (from <strong>1.061Moz</strong>), largely reflecting conversion into higher-confidence M&I categories rather than depletion.</li><li>Maiden <strong>surface mineral resource</strong> declared for oxide, transitional and sulphide material; oxide heap-leach test work shows recoveries of up to <strong>67%</strong>, with oxide mining potentially starting <strong>first half of 2027</strong> at a target <strong>40,000 tonnes/month</strong>.</li><li>CEO <strong>Mark Learmonth</strong>: <strong>$3.733m</strong> invested in deep drilling over 6 years added <strong>1.279Moz</strong> M&I (before depletion) at a discovery cost of <strong>$2.92 per ounce</strong>; a study to deepen operations below <strong>1,100m</strong> is due late 2026.</li><li>NI 43-101 technical report, including a restated Life of Mine Plan and new reserve estimate, to be filed on SEDAR+ within <strong>45 days</strong>.</li><li>Resource comparison tables referenced in the announcement are not reproduced in the scraped text; <strong>Blanket</strong> is <strong>64%-owned</strong> by Caledonia.</li></ul>",
+    "source_format": "html",
+    "headline": "Caledonia reports a **22% increase** in Blanket Mine underground measured and indicated resources to **2.178 million ounces** of gold, plus a maiden surface resource.",
+    "priority": "high",
+    "priority_reason": "Material resource upgrade and maiden surface resource at the company's principal mine, with potential to extend mine-life and add near-term production.",
+    "figures": [
+      {
+        "metric": "Underground M&I resources",
+        "current": "2.178Moz gold",
+        "prior": "1.789Moz gold",
+        "change": "+22%",
+        "basis": "NI 43-101, 100% project basis",
+        "note": "17.7Mt at 3.83 g/t; effective date 30 June 2026 vs 31 December 2023"
+      },
+      {
+        "metric": "Underground inferred resources",
+        "current": "0.748Moz gold",
+        "prior": "1.061Moz gold",
+        "change": "-30%",
+        "basis": "NI 43-101",
+        "note": "tonnes -21%, grade -10%"
+      },
+      {
+        "metric": "Surface mineral resource",
+        "current": "maiden estimate declared",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "NI 43-101",
+        "note": "oxide, transitional and sulphide; no comparison as first estimate"
+      }
+    ],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "Mineral resource estimates classify how confident a miner is that gold is actually in the ground. \"Measured and indicated\" (M&I) resources carry enough geological evidence to support mine planning, while \"inferred\" resources are lower confidence. Caledonia's underground M&I ounces at Blanket rose 22% to 2.178 million ounces, and much of the 30% fall in inferred ounces reflects that material being upgraded into the more reliable M&I categories through further drilling — not gold being mined away. The figures are reported under Canada's NI 43-101 standard on a 100% project basis, though Caledonia owns 64% of Blanket.\n\nSeparately, the company declared a maiden (first-ever) surface resource. This covers near-surface oxide material that could be processed cheaply by heap leaching (test recoveries up to 67%), potentially adding incremental gold production from the first half of 2027, plus transitional and an unexpected shallow sulphide zone requiring further work.\n\nThis is an exploration and resource update rather than an earnings statement, so it does not change financial guidance. However, it raises the prospect of a longer mine-life and additional low-cost ounces. A full NI 43-101 technical report, with a restated Life of Mine Plan and a new reserve estimate, is due within 45 days and will convert some of these resources into economically mineable reserves.",
+    "source_url": "https://uk.advfn.com/stock-market/london/caledonia-mining-CMCL/share-news/Caledonia-Mining-Corporation-PLC-Blanket-Mine-M-I/99207767",
+    "related_news_url": "https://news.google.com/search?q=%22Caledonia%20Mining%20Corporation%20Plc%22",
+    "added_at": "2026-08-28T07:16:46.956244"
+  },
+  {
     "company": "Morgan Advanced Materials plc",
     "ticker": "MGAM",
     "publish_date": "28 August 2026",
