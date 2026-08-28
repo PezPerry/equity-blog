@@ -1,5 +1,31 @@
 [
   {
+    "company": "LSL Property Services PLC",
+    "ticker": "LSL",
+    "publish_date": "28 August 2026",
+    "date_iso": "2026-08-28",
+    "time_period": "H1 to 30 June 2026",
+    "announcement_type": "Notice of results",
+    "period_detail": "H1 to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>LSL Property Services plc</strong> will report <strong>interim results</strong> for the six months ended <strong>30 June 2026</strong> on <strong>15 September 2026</strong>.</li><li>Sell-side analyst presentation at <strong>9:30am BST on 15 September 2026</strong>, hosted by CEO <strong>Adam Castleton</strong> and CFO <strong>David Tilak</strong>; retail investor presentation at <strong>3:00pm BST on 22 September 2026</strong> via BRR Media's Engage Investor platform.</li><li>Routine scheduling notice with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "LSL Property Services will publish interim results for the six months to 30 June 2026 on 15 September 2026.",
+    "priority": "low",
+    "priority_reason": "Administrative notice of a future results date, containing no financial figures or trading detail.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/lsl-property-services--lsl/notice-of-interim-results/9745956",
+    "related_news_url": "https://news.google.com/search?q=%22LSL%20Property%20Services%22",
+    "added_at": "2026-08-28T12:16:37.164696"
+  },
+  {
     "company": "Investec PLC",
     "ticker": "INVP",
     "publish_date": "28 August 2026",
