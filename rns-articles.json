@@ -1,5 +1,31 @@
 [
   {
+    "company": "FirstCash Inc",
+    "ticker": "FCFS",
+    "publish_date": "31 August 2026",
+    "date_iso": "2026-08-31",
+    "time_period": "",
+    "announcement_type": "Financing / refinancing",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>FirstCash</strong> has amended and extended its revolving unsecured credit facility, increasing committed size from <strong>$700 million</strong> to <strong>$1.055 billion</strong> and extending maturity from <strong>August 2029</strong> to <strong>August 2031</strong>.</li><li>Amendment lifts the permitted net leverage ratio to <strong>up to 3.5x consolidated EBITDA</strong> for the full term, reduces the unused facility fee, and allows direct sterling borrowings of up to a <strong>$500 million</strong> USD equivalent.</li><li>CEO <strong>Rick Wessel</strong> said the extra capacity facilitates funding of the expected <strong>Ramsdens</strong> pawn acquisition in the UK — approved by Ramsdens' shareholders and pending final regulatory approval — plus other pipeline deals.</li><li>Upsizing adds <strong>two new banks</strong> to the syndicate, with most existing lenders increasing commitments; funds also support ongoing dividends and share repurchases.</li><li>Refinancing only — <strong>no impact</strong> on current trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "FirstCash upsizes its unsecured revolving credit facility from $700m to $1.055bn and extends maturity to August 2031, part-funding the pending Ramsdens acquisition.",
+    "priority": "medium",
+    "priority_reason": "Refinancing that upsizes committed capital and explicitly funds the pending UK Ramsdens pawn acquisition.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/FCFS/share-news/FirstCash-Upsizes-and-Extends-Term-of-Unsecured-Ba/99216007",
+    "related_news_url": "https://news.google.com/search?q=%22FirstCash%20Holdings%2C%20Inc.%22",
+    "added_at": "2026-08-31T11:16:25.502720"
+  },
+  {
     "company": "Shell PLC",
     "ticker": "SHEL",
     "publish_date": "28 August 2026",
