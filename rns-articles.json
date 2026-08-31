@@ -1,5 +1,31 @@
 [
   {
+    "company": "Shell PLC",
+    "ticker": "SHEL",
+    "publish_date": "28 August 2026",
+    "date_iso": "2026-08-28",
+    "time_period": "",
+    "announcement_type": "Acquisition / deal",
+    "period_detail": "",
+    "type_workings": "Rule 'M&A': opening bullets lead with 'acquisition of' [rns.json record]",
+    "body": "<ul><li><strong>FTSE Russell</strong> index-maintenance notice tied to <strong>Shell plc's</strong> cash-and-stock acquisition of <strong>Arc Resources</strong> (Canada, non-constituent).</li><li>Changes affect the <strong>FTSE 100</strong>, <strong>FTSE 350</strong>, <strong>FTSE All-Share</strong>, <strong>FTSE 350 Higher Yield</strong> and <strong>FTSE UK Dividend+</strong> indexes, all effective from start of trading on <strong>3 September 2026</strong>.</li><li>Routine index administrative disclosure — <strong>no impact</strong> on Shell's trading or guidance; the acquisition remains subject to completion.</li></ul>",
+    "source_format": "html",
+    "headline": "FTSE Russell confirms index changes across the FTSE UK series effective 3 September 2026 following Shell's cash-and-stock acquisition of Canada's Arc Resources.",
+    "priority": "low",
+    "priority_reason": "Routine FTSE Russell index-maintenance notice confirming effective dates following Shell's acquisition of Arc Resources — no new company disclosure.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/shell--shel/shell/9746549",
+    "related_news_url": "https://news.google.com/search?q=%22Shell%22",
+    "added_at": "2026-08-31T07:35:47.540479"
+  },
+  {
     "company": "Mitie Group plc",
     "ticker": "MTO",
     "publish_date": "28 August 2026",
