@@ -1,5 +1,31 @@
 [
   {
+    "company": "Bellway PLC",
+    "ticker": "BWY",
+    "publish_date": "01 September 2026",
+    "date_iso": "2026-09-01",
+    "time_period": "",
+    "announcement_type": "Buyback programme launch",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li>Second <strong>£75 million</strong> tranche of the <strong>£150 million</strong> Initial Buyback Programme (announced <strong>14 October 2025</strong>) has completed; as of <strong>28 August 2026</strong>, <strong>3,894,531 shares</strong> had been bought for cancellation at a cost of <strong>£75 million</strong>.</li><li>Board has approved a new <strong>£50 million</strong> Second Buyback Programme — the initial tranche of anticipated <strong>FY27</strong> shareholder returns — commencing <strong>today</strong>.</li><li><strong>Citigroup Global Markets Limited</strong> appointed to run the new programme on a non-discretionary basis; all repurchased shares to be cancelled.</li><li>Initial tranche expected to complete by <strong>30 April 2027</strong>; maximum shares purchasable under the second programme is <strong>8,004,895</strong> ordinary shares.</li><li>Total FY27 shareholder returns to be announced with <strong>Full Year Results in October 2026</strong> following the Board's capital-allocation review.</li></ul>",
+    "source_format": "html",
+    "headline": "Bellway completes second £75m tranche of its £150m initial buyback and launches a new £50m buyback as the first tranche of FY27 shareholder returns.",
+    "priority": "medium",
+    "priority_reason": "Launch of a new £50m buyback programme and completion of an existing tranche — a capital-return event, not a routine daily buyback transaction.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/bellway--bwy/share-buyback-programme-update/9747524",
+    "related_news_url": "https://news.google.com/search?q=%22Bellway%22",
+    "added_at": "2026-09-01T07:25:49.790039"
+  },
+  {
     "company": "Hollywood Bowl Group PLC",
     "ticker": "BOWL",
     "publish_date": "01 September 2026",
