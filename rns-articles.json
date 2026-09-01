@@ -202,6 +202,153 @@
     "added_at": "2026-09-01T07:23:38.866251"
   },
   {
+    "company": "Old Mutual Ltd",
+    "ticker": "OMU",
+    "publish_date": "31 August 2026",
+    "date_iso": "2026-08-31",
+    "time_period": "H1 to 30 June 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "H1 to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Old Mutual Limited</strong> issues a voluntary operating update and JSE trading statement for the <strong>six months ended 30 June 2026</strong>, ahead of interim results on <strong>8 September 2026</strong>.</li><li><strong>Adjusted headline earnings</strong> — the Group's primary profit metric — expected down <strong>35% to 25%</strong> at <strong>R2,733m-R3,153m</strong> (prior <strong>R4,204m</strong>), with adjusted HEPS down <strong>32% to 22%</strong> at <strong>65.7-75.3 cents</strong>, driven by lower shareholder investment returns amid risk-off markets.</li><li><strong>Results from operations</strong> expected up <strong>2% to 12%</strong> at <strong>R5,039m-R5,533m</strong> (prior <strong>R4,940m</strong>), aided by stronger Wealth Management and Old Mutual Investments revenue and lower central costs.</li><li><strong>Headline earnings</strong> guided <strong>-11% to -1%</strong> (R3,704m-R4,120m) and <strong>IFRS profit</strong> -10% to 0%, both supported by a strong performance in <strong>Zimbabwe</strong> not included in adjusted headline earnings.</li><li>Operating metrics strong: <strong>Life APE sales +21%</strong> (R7,857m), <strong>gross flows +21%</strong> (R128,911m), <strong>value of new business +32%</strong> (R569m); <strong>Old Mutual Insure net underwriting margin</strong> fell 210bps to <strong>7.6%</strong> on catastrophe losses but stayed within the 5%-8% target.</li><li>Weighted average share count reduced to <strong>4,179m</strong> (from 4,352m) following completion of the <strong>2025 share repurchase programme</strong> in early May 2026.</li></ul>",
+    "source_format": "html",
+    "headline": "Old Mutual guides H1 adjusted headline EPS down 32%-22% on weaker shareholder investment returns, despite 21% higher life sales and robust operating earnings.",
+    "priority": "high",
+    "priority_reason": "Voluntary operating update and JSE trading statement flagging a sharp fall in adjusted headline earnings ahead of interim results on 8 September.",
+    "figures": [
+      {
+        "metric": "Life APE sales",
+        "current": "R7,857m",
+        "prior": "R6,470m",
+        "change": "+21%",
+        "basis": "reported",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Gross flows",
+        "current": "R128,911m",
+        "prior": "R106,759m",
+        "change": "+21%",
+        "basis": "reported",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Net client cash flow",
+        "current": "R(3,128)m",
+        "prior": "R(10,125)m",
+        "change": "+69%",
+        "basis": "reported",
+        "note": "outflow narrowed"
+      },
+      {
+        "metric": "Gross written premiums",
+        "current": "R14,934m",
+        "prior": "R14,511m",
+        "change": "+3%",
+        "basis": "reported",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Value of new business",
+        "current": "R569m",
+        "prior": "R432m",
+        "change": "+32%",
+        "basis": "reported",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "VNB margin",
+        "current": "1.4%",
+        "prior": "1.3%",
+        "change": "+10 bps",
+        "basis": "reported",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Old Mutual Insure net underwriting margin",
+        "current": "7.6%",
+        "prior": "9.7%",
+        "change": "-210 bps",
+        "basis": "reported",
+        "note": "within 5%-8% target"
+      },
+      {
+        "metric": "Results from operations",
+        "current": "R5,039m-R5,533m (est)",
+        "prior": "R4,940m",
+        "change": "+2% to +12%",
+        "basis": "estimated range",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Results from operations per share",
+        "current": "120.3-131.7 cents (est)",
+        "prior": "113.5 cents",
+        "change": "+6% to +16%",
+        "basis": "estimated range",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Adjusted headline earnings",
+        "current": "R2,733m-R3,153m (est)",
+        "prior": "R4,204m",
+        "change": "-35% to -25%",
+        "basis": "estimated range",
+        "note": "Group primary profit metric"
+      },
+      {
+        "metric": "Adjusted headline EPS",
+        "current": "65.7-75.3 cents (est)",
+        "prior": "96.6 cents",
+        "change": "-32% to -22%",
+        "basis": "estimated range",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Headline earnings",
+        "current": "R3,704m-R4,120m (est)",
+        "prior": "R4,162m",
+        "change": "-11% to -1%",
+        "basis": "estimated range",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Headline EPS",
+        "current": "91.6-101.4 cents (est)",
+        "prior": "97.5 cents",
+        "change": "-6% to +4%",
+        "basis": "estimated range",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "IFRS profit after tax",
+        "current": "R3,692m-R4,102m (est)",
+        "prior": "R4,102m",
+        "change": "-10% to 0%",
+        "basis": "estimated range",
+        "note": "attributable to parent"
+      },
+      {
+        "metric": "Basic EPS",
+        "current": "91.3-100.9 cents (est)",
+        "prior": "96.1 cents",
+        "change": "-5% to +5%",
+        "basis": "estimated range",
+        "note": "H1 to 30 June 2026"
+      }
+    ],
+    "guidance": {
+      "status": "new",
+      "previous": "Not applicable — this is a JSE Listings Requirements trading statement giving earnings ranges ahead of results.",
+      "current": "Results from operations up 2% to 12% (R5,039m-R5,533m); adjusted headline earnings down 35% to 25% (R2,733m-R3,153m); adjusted HEPS down 32% to 22% (65.7-75.3 cents); headline earnings -11% to -1%; IFRS profit -10% to 0%.",
+      "commentary": "The trading statement flags a sharp decline in the Group's primary profit metric, adjusted headline earnings, driven by lower shareholder investment returns as the portfolio tracked weaker equity and bond indices amid geopolitical risk-off conditions. Underlying operating performance, however, remained robust with results from operations rising."
+    },
+    "explainer": "This is a JSE-mandated trading statement, which South African listing rules require once a company knows its earnings will differ materially (typically 20%+) from the prior period. Old Mutual has given ranges rather than final numbers because the actual interim results are still being finalised for release on 8 September 2026. The figures are unaudited and include non-IFRS measures.\n\nThe headline weakness is in adjusted headline earnings — the Group's preferred profit measure — expected down 22%-32% per share. This is not an operating problem: results from operations, which strip out investment market noise, are actually up 2%-12%. The gap is explained by shareholder investment returns, where Old Mutual's own capital portfolio followed sharply lower equity and bond markets driven by Middle East geopolitical conflict, versus a strong prior-period comparative.\n\nNote the divergence between measures: headline earnings and IFRS profit fall far less (or are broadly flat) because they include a strong Zimbabwe contribution that is excluded from adjusted headline earnings. Per-share metrics also benefit from the completed 2025 buyback, which cut the weighted average share count from 4,352m to 4,179m, flattering the per-share numbers relative to the absolute earnings changes.\n\nOperationally the update is strong: life sales (APE) and gross flows both up 21%, value of new business up 32%, and net client outflows sharply reduced. The one soft spot is Old Mutual Insure, where catastrophe losses pushed the net underwriting margin down 210bps to 7.6%, though this remains at the top of its 5%-8% target range.",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/old-mutual-limited-npv-di---omu/h12026-voluntary-operating-update-trading-statemen/9747526",
+    "related_news_url": "https://news.google.com/search?q=%22Old%20Mutual%20Limited%20NPV%20(DI)%22",
+    "added_at": "2026-09-01T07:25:25.782111"
+  },
+  {
     "company": "Standard Lithium Ltd",
     "ticker": null,
     "publish_date": "31 August 2026",
