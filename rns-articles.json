@@ -1,5 +1,72 @@
 [
   {
+    "company": "Old Mutual Ltd",
+    "ticker": "OMU",
+    "publish_date": "01 September 2026",
+    "date_iso": "2026-09-01",
+    "time_period": "H1 2026 (six months ended 30 June 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "H1 2026 (six months ended 30 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Old Mutual Limited</strong> issued a voluntary operating update and trading statement for <strong>H1 2026 (six months ended 30 June 2026)</strong>, with full interim results due <strong>8 September 2026</strong>.</li><li><strong>Life APE sales up 21%</strong> (up <strong>12%</strong> excluding non-recurring Old Mutual Corporate risk sales); <strong>gross flows up 21%</strong>, aided by Wealth Management and the inclusion of <strong>10X Investments</strong>.</li><li><strong>Gross written premiums up 3%</strong>; net underwriting margin at Old Mutual Insure held at the upper end of its <strong>5%-8%</strong> medium-term target range despite elevated catastrophe losses.</li><li><strong>Adjusted headline earnings expected to decrease</strong>, driven by lower shareholder investment returns amid risk-off equity and bond conditions; results from operations grew on stronger Wealth Management and Old Mutual Investments revenue.</li><li>Per-share metrics benefited from the <strong>2025 share repurchase programme</strong> (completed early May 2026), cutting the adjusted weighted average share count to <strong>4,179m</strong> (from <strong>4,352m</strong>).</li><li>Note: the announcement's EPS/HEPS guidance ranges and KPI tables did not carry through in the scraped text, so specific figures are not available here.</li></ul>",
+    "source_format": "html",
+    "headline": "Old Mutual reports strong new business growth in H1 2026 but lower adjusted headline earnings on weaker shareholder investment returns, ahead of interim results.",
+    "priority": "high",
+    "priority_reason": "Pre-close voluntary operating update and trading statement flagging earnings ranges ahead of interim results on 8 September 2026.",
+    "figures": [
+      {
+        "metric": "Life APE sales",
+        "current": "not stated (level)",
+        "prior": "not stated",
+        "change": "+21% (+12% excl. non-recurring Corporate risk sales)",
+        "basis": "reported",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "Gross flows",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+21%",
+        "basis": "reported",
+        "note": "includes 10X Investments"
+      },
+      {
+        "metric": "Gross written premiums",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+3%",
+        "basis": "reported",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "Adjusted weighted average ordinary shares",
+        "current": "4,179m",
+        "prior": "4,352m",
+        "change": "-4.0%",
+        "basis": "as at 30 June",
+        "note": "post 2025 buyback"
+      },
+      {
+        "metric": "Adjusted headline earnings per share",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "expected decrease",
+        "basis": "range not printed in source",
+        "note": "lower shareholder investment returns"
+      }
+    ],
+    "guidance": {
+      "status": "new",
+      "previous": "",
+      "current": "Trading statement provides indicative ranges for headline EPS and basic EPS per JSE Listings Requirement 6.26; specific ranges were not captured in the scraped text.",
+      "commentary": "Results from operations grew on stronger Wealth Management and Old Mutual Investments revenue and lower central costs, but adjusted headline earnings are expected to fall on weaker shareholder investment returns. Headline earnings and IFRS profits benefited from a strong Zimbabwe performance excluded from adjusted headline earnings."
+    },
+    "explainer": "This is a pre-close trading statement: a South African-listed group is legally required (JSE rule 6.26) to flag likely earnings moves before publishing full results, here due on 8 September 2026. It signals direction and ranges rather than final audited figures, and the numbers are unaudited management estimates.\n\nOperationally the half was strong — new business (Life APE sales) and client inflows both rose 21%, helped by the acquisition of 10X Investments and buoyant Wealth Management flows. Underwriting at Old Mutual Insure held up well despite heavy catastrophe claims. 'Results from operations', the group's preferred measure of underlying trading, grew.\n\nHowever, adjusted headline earnings — the group's headline profit metric — are set to fall, because returns on the shareholder investment portfolio dropped as equity and bond markets sold off on Middle East geopolitical tensions. This is an investment-market effect rather than a deterioration in the core business.\n\nPer-share figures are flattered by the 2025 buyback, which cut the share count by about 4%, so per-share growth will look better than absolute profit growth. Note too that headline earnings and IFRS profit include a strong Zimbabwe contribution that is stripped out of the adjusted headline figure, so the different profit lines can move in different directions.",
+    "source_url": "https://uk.advfn.com/stock-market/london/old-mutual-OMU/share-news/Old-Mutual-Limited-H12026-Voluntary-operating-upda/99222136",
+    "related_news_url": "https://news.google.com/search?q=%22Old%20Mutual%20Limited%22",
+    "added_at": "2026-09-01T07:23:38.866251"
+  },
+  {
     "company": "Standard Lithium Ltd",
     "ticker": null,
     "publish_date": "31 August 2026",
