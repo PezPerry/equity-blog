@@ -1,5 +1,31 @@
 [
   {
+    "company": "Derwent London PLC",
+    "ticker": "DLN",
+    "publish_date": "01 September 2026",
+    "date_iso": "2026-09-01",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>Derwent London plc</strong> has admitted <strong>2,555</strong> new <strong>5p ordinary shares</strong> to trading on the <strong>London Stock Exchange</strong>, allotted under the <strong>Employee Share Option Plan 2018</strong> and <strong>Sharesave Plan 2018</strong>.</li><li>Total shares in issue rise to <strong>109,959,111</strong>; routine employee-scheme admission covering <strong>7 August to 1 September 2026</strong> with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Derwent London admits 2,555 new ordinary shares issued under its 2018 employee share and Sharesave plans, taking shares in issue to 109,959,111.",
+    "priority": "low",
+    "priority_reason": "Routine admission of a small number of employee-scheme shares with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/derwent-london--dln/admission-to-trading/9750134",
+    "related_news_url": "https://news.google.com/search?q=%22Derwent%20London%22",
+    "added_at": "2026-09-01T16:15:40.929815"
+  },
+  {
     "company": "Shell PLC",
     "ticker": "SHEL",
     "publish_date": "01 September 2026",
