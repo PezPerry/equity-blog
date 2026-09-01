@@ -1,5 +1,31 @@
 [
   {
+    "company": "Currys PLC",
+    "ticker": "CURY",
+    "publish_date": "01 September 2026",
+    "date_iso": "2026-09-01",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>Dan Homan</strong>, Director of Investor Relations, will present at the <strong>Yellowstone Advisory</strong> Private Investor Evening on <strong>16 September 2026</strong>, held at <strong>Hudson Sandler</strong>'s offices in London.</li><li>Session is aimed at those less familiar with Currys and open to all existing and potential shareholders; a routine IR event with <strong>no impact</strong> on trading or guidance.</li><li>Separate from the <strong>AGM trading update</strong> scheduled for <strong>10 September 2026</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Currys' Director of Investor Relations Dan Homan will present at the Yellowstone Advisory Private Investor Evening in London on 16 September 2026.",
+    "priority": "low",
+    "priority_reason": "Routine IR event notice with no trading or guidance content.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/currys--cury/yellowstone-advisory-presentation/9749383",
+    "related_news_url": "https://news.google.com/search?q=%22Currys%22",
+    "added_at": "2026-09-01T10:55:35.434433"
+  },
+  {
     "company": "Bodycote plc",
     "ticker": "BOY",
     "publish_date": "01 September 2026",
