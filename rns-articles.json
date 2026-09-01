@@ -1,5 +1,140 @@
 [
   {
+    "company": "Hollywood Bowl Group PLC",
+    "ticker": "BOWL",
+    "publish_date": "01 September 2026",
+    "date_iso": "2026-09-01",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Darren Shapland</strong>, Non-Executive Chair of <strong>Hollywood Bowl Group plc</strong>, has been appointed independent Non-Executive Director and Chair of the Board of <strong>A.G. BARR p.l.c.</strong> with effect from <strong>today</strong>.</li><li>Routine disclosure under <strong>UK Listing Rule 6.4.9(2)</strong> with <strong>no impact</strong> on Hollywood Bowl's trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Hollywood Bowl chair Darren Shapland appointed independent Non-Executive Chair of A.G. Barr, a routine external-directorship disclosure.",
+    "priority": "low",
+    "priority_reason": "Routine UKLR 6.4.9 disclosure of an external directorship, with no impact on Hollywood Bowl's trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/hollywood-bowl-group--bowl/director-declaration/9748600",
+    "related_news_url": "https://news.google.com/search?q=%22Hollywood%20Bowl%20Group%22",
+    "added_at": "2026-09-01T07:24:42.752454"
+  },
+  {
+    "company": "Bunzl plc",
+    "ticker": "BNZL",
+    "publish_date": "01 September 2026",
+    "date_iso": "2026-09-01",
+    "time_period": "H1 to 30 June 2026",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Bunzl plc</strong> reported a <strong>good first half</strong> for the six months to <strong>30 June 2026</strong>, upgraded its <strong>2026 outlook</strong> and announced a new <strong>£500m</strong> buyback to run over the next <strong>12 months</strong>.</li><li>Revenue rose <strong>2.9%</strong> at constant exchange rates (<strong>4.1%</strong> CER reported in the narrative); underlying revenue up <strong>3.2%</strong>, a <strong>fifth consecutive quarter</strong> of growth led by <strong>North America</strong>.</li><li>Operating margin expanded to <strong>7.3%</strong> from <strong>7.0%</strong>; adjusted operating profit up <strong>8.0%</strong> CER, reported operating profit up <strong>16.9%</strong>, and adjusted EPS up <strong>11.4%</strong>.</li><li>Interim dividend per share increased <strong>3.0%</strong>; adjusted net debt to EBITDA of <strong>1.8x</strong>, below the <strong>2.0-2.5x</strong> target range.</li><li><strong>North America Distribution</strong> delivered <strong>8%</strong> underlying revenue growth with restored service levels; two bolt-on acquisitions completed year-to-date (<strong>Scientifix</strong> in Australia, <strong>Ghessu Bath</strong> in Spain).</li><li>2026 guidance upgraded: now expects operating margin <strong>broadly flat</strong> year-on-year (vs <strong>7.6%</strong> in 2025) and <strong>modest</strong> adjusted operating profit growth at constant exchange rates.</li></ul>",
+    "source_format": "html",
+    "headline": "Bunzl posts a good H1 2026 with margins up, upgrades its 2026 outlook and launches a new £500m share buyback.",
+    "priority": "high",
+    "priority_reason": "Half-year results with a 2026 guidance upgrade and a new £500m buyback.",
+    "figures": [
+      {
+        "metric": "Revenue (constant FX)",
+        "current": "+2.9%",
+        "prior": "not stated",
+        "change": "+2.9%",
+        "basis": "constant exchange rates",
+        "note": "H1 to 30 June 2026; +4.1% CER cited in narrative"
+      },
+      {
+        "metric": "Underlying revenue",
+        "current": "+3.2%",
+        "prior": "not stated",
+        "change": "+3.2%",
+        "basis": "underlying",
+        "note": "fifth consecutive quarter of growth"
+      },
+      {
+        "metric": "Operating margin",
+        "current": "7.3%",
+        "prior": "7.0%",
+        "change": "+0.3pp",
+        "basis": "adjusted",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Adjusted operating profit",
+        "current": "+8.0%",
+        "prior": "not stated",
+        "change": "+8.0%",
+        "basis": "constant exchange rates",
+        "note": "reported operating profit +16.9%"
+      },
+      {
+        "metric": "Adjusted EPS",
+        "current": "+11.4%",
+        "prior": "not stated",
+        "change": "+11.4%",
+        "basis": "adjusted",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Interim dividend per share",
+        "current": "+3.0%",
+        "prior": "not stated",
+        "change": "+3.0%",
+        "basis": "reported",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Adjusted net debt to EBITDA",
+        "current": "1.8x",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "adjusted",
+        "note": "below 2.0-2.5x target range"
+      }
+    ],
+    "guidance": {
+      "status": "raised",
+      "previous": "Prior 2026 guidance not quoted in the announcement; group had guided to modest underlying revenue growth with a less favourable margin outlook.",
+      "current": "Continues to expect modest underlying revenue growth; now expects group operating margin to be broadly flat year-on-year versus the 7.6% reported in 2025 (excluding an £8m share-based payment credit), and modest adjusted operating profit growth year-on-year at constant exchange rates. Net adjusted finance expense of £125-£130m; full-year effective tax rate around 26.0%.",
+      "commentary": "Bunzl upgraded its 2026 outlook on the back of a robust first half, notably the stabilisation of North America Distribution and effective management of inflation. The margin outlook improved to broadly flat year-on-year, though management flags that much of the H1 margin gain is expected to be temporary."
+    },
+    "explainer": "Bunzl reports at constant exchange rates (stripping out currency swings) and on an 'underlying' basis, which excludes acquisitions and disposals to show like-for-like growth. Underlying revenue rose 3.2%, driven by both higher volumes (led by North America) and inflation feeding through product costs, particularly plastic-related items. The operating margin rose to 7.3% from 7.0%, but the company stresses that much of this improvement comes from a temporary inflation benefit rather than a permanent structural gain.\n\nThe guidance upgrade centres on margins. Bunzl now expects the full-year 2026 operating margin to be broadly flat against the 7.6% recorded in 2025, and modest adjusted operating profit growth at constant currency — an improvement on its earlier, more cautious stance. Note the group excludes an £8m share-based payment credit (a reversal of prior-year charges) from these comparisons to keep the underlying picture clean.\n\nAlongside the results, Bunzl launched a new £500m share buyback to be completed over the next 12 months. With leverage at 1.8x net debt to EBITDA — below its 2.0-2.5x target — the group says it has ample headroom to keep funding bolt-on acquisitions, which remain its priority, while returning excess cash to shareholders.",
+    "source_url": "https://uk.advfn.com/stock-market/london/bunzl-BNZL/share-news/Bunzl-PLC-Half-year-Financial-Report/99221666",
+    "related_news_url": "https://news.google.com/search?q=%22Bunzl%20plc%22",
+    "added_at": "2026-09-01T07:24:42.739145"
+  },
+  {
+    "company": "AstraZeneca PLC",
+    "ticker": "AZN",
+    "publish_date": "01 September 2026",
+    "date_iso": "2026-09-01",
+    "time_period": "",
+    "announcement_type": "Acquisition / deal",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>AstraZeneca</strong> has completed its previously announced exclusive global licence agreement with <strong>Dizal Pharmaceutical Co., Ltd</strong> for <strong>Zegfrovy (sunvozertinib)</strong>, an oral irreversible EGFR inhibitor for lung cancer, acquiring <strong>worldwide rights</strong> to develop and commercialise it.</li><li>Upfront payment of <strong>$600m</strong> to Dizal, plus up to <strong>$900m</strong> in development, regulatory and sales milestones, plus tiered royalties on global sales.</li><li><strong>Zegfrovy</strong> is already approved in the <strong>US and China</strong> for 2nd-line treatment of NSCLC with EGFR exon 20 insertion mutations; AstraZeneca will launch in the US in <strong>Q4 2026</strong>.</li><li>A supplemental NDA for 1st-line use has been accepted by the <strong>US FDA</strong> (Breakthrough Therapy Designation granted), supported by the Phase III <strong>WU-KONG28</strong> trial; also submitted in China.</li><li>Transaction <strong>does not impact</strong> AstraZeneca's financial guidance for 2026.</li></ul>",
+    "source_format": "html",
+    "headline": "AstraZeneca completes exclusive global licence with Dizal for oral EGFR inhibitor Zegfrovy, acquiring worldwide rights to develop and commercialise the lung-cancer drug.",
+    "priority": "high",
+    "priority_reason": "AstraZeneca has completed a global licensing deal acquiring worldwide rights to a cancer drug, with upfront and milestone payments totalling up to $1.5bn.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/astrazeneca-AZN/share-news/AstraZeneca-PLC-AstraZeneca-completes-agreement-fo/99222577",
+    "related_news_url": "https://news.google.com/search?q=%22AstraZeneca%20PLC%22",
+    "added_at": "2026-09-01T07:24:42.693450"
+  },
+  {
     "company": "Old Mutual Ltd",
     "ticker": "OMU",
     "publish_date": "01 September 2026",
