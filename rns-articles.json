@@ -1,5 +1,31 @@
 [
   {
+    "company": "Forterra PLC",
+    "ticker": "FORT",
+    "publish_date": "01 September 2026",
+    "date_iso": "2026-09-01",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>Forterra Employee Benefit Trust</strong> purchased <strong>75,000 ordinary shares</strong> at an average price of <strong>£1.422</strong> on <strong>1 September 2026</strong>.</li><li>Part of the pre-announced programme (<strong>13 October 2025</strong>) targeting <strong>150,000 shares</strong> per month to satisfy employee share-scheme awards.</li><li>Trust now holds <strong>3,253,285 ordinary shares</strong>, representing <strong>1.59%</strong> of voting rights.</li><li>Routine disclosure with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Forterra's Employee Benefit Trust bought 75,000 ordinary shares at an average price of £1.422 on 1 September 2026.",
+    "priority": "low",
+    "priority_reason": "Routine Employee Benefit Trust share purchase under a pre-announced monthly programme, with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/forterra--fort/employee-benefit-trust-share-purchase/9750118",
+    "related_news_url": "https://news.google.com/search?q=%22Forterra%22",
+    "added_at": "2026-09-01T16:16:03.340727"
+  },
+  {
     "company": "Derwent London PLC",
     "ticker": "DLN",
     "publish_date": "01 September 2026",
