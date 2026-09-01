@@ -1,5 +1,31 @@
 [
   {
+    "company": "Shell PLC",
+    "ticker": "SHEL",
+    "publish_date": "01 September 2026",
+    "date_iso": "2026-09-01",
+    "time_period": "",
+    "announcement_type": "Admission to trading",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Shell plc</strong> has applied to the <strong>London Stock Exchange</strong> for <strong>228,003,843 new ordinary shares</strong> of €0.07 each to be admitted to trading on the Main Market.</li><li>Shares are issued as part of the consideration for Shell's acquisition of <strong>ARC Resources Ltd</strong>, and will rank equally with existing ordinary shares.</li><li>Admission is expected on <strong>3 September 2026</strong> — a routine technical listing with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Shell has applied to admit 228,003,843 new ordinary shares to the LSE Main Market as part-consideration for its acquisition of ARC Resources Ltd.",
+    "priority": "low",
+    "priority_reason": "Routine technical admission of new shares issued as acquisition consideration, with no trading or guidance impact.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/gnw/shell--shel/admission-to-trading/9749933",
+    "related_news_url": "https://news.google.com/search?q=%22Shell%22",
+    "added_at": "2026-09-01T14:55:31.994811"
+  },
+  {
     "company": "Gaming and Leisure Properties Inc",
     "ticker": "GLPI",
     "publish_date": "01 September 2026",
