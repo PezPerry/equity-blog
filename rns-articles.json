@@ -1,5 +1,112 @@
 [
   {
+    "company": "Cairn Homes PLC",
+    "ticker": "CRN",
+    "publish_date": "02 September 2026",
+    "date_iso": "2026-09-02",
+    "time_period": "H1 to 30 June 2026",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Cairn Homes</strong> H1 2026 interim results: EPS up <strong>82%</strong> to <strong>9.3 cent</strong> (H1 2025: 5.1 cent) and profit after tax up <strong>84%</strong> to <strong>€58.4m</strong> (H1 2025: €31.7m).</li><li>Revenue up <strong>60%</strong> to <strong>€455.5m</strong> (H1 2025: €284.5m) on <strong>1,139 units</strong> delivered (H1 2025: 708); ASP up <strong>1.6%</strong> to <strong>€393,000</strong>.</li><li>FY26 ROE guidance upgraded to <strong>c.17.0%</strong> (from <strong>c.16.5%</strong>); new <strong>€50m share buyback</strong> launched today.</li><li>Interim dividend raised <strong>10%</strong> to <strong>4.5 cent</strong> per share, payable <strong>2 November 2026</strong> (record date 18 September 2026).</li><li>Record closed & forward order book of <strong>5,020 new homes</strong> (<strong>€1.89bn</strong>); net debt cut to <strong>€194.5m</strong> (H1 2025: €307.4m).</li><li>Gross margin <strong>21.3%</strong> (H1 2025: 22.2%) on sales-mix change; operating profit up <strong>75%</strong> to <strong>€74.8m</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Cairn Homes lifts FY26 ROE guidance to c.17%, launches €50m buyback and raises interim dividend 10% after H1 profit rose 84%.",
+    "priority": "high",
+    "priority_reason": "Interim results with a ROE guidance upgrade, new €50m buyback and 10% dividend increase.",
+    "figures": [
+      {
+        "metric": "Revenue",
+        "current": "€455.5m",
+        "prior": "€284.5m",
+        "change": "+60%",
+        "basis": "reported",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Gross profit",
+        "current": "€96.9m",
+        "prior": "€63.1m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "gross margin 21.3% vs 22.2%"
+      },
+      {
+        "metric": "Operating profit",
+        "current": "€74.8m",
+        "prior": "€42.7m",
+        "change": "+75%",
+        "basis": "reported",
+        "note": "operating margin 16.4% vs 15.0%"
+      },
+      {
+        "metric": "Profit after tax",
+        "current": "€58.4m",
+        "prior": "€31.7m",
+        "change": "+84%",
+        "basis": "reported",
+        "note": "H1 2026"
+      },
+      {
+        "metric": "Basic EPS",
+        "current": "9.3 cent",
+        "prior": "5.1 cent",
+        "change": "+82%",
+        "basis": "reported",
+        "note": "diluted EPS also 9.3 cent"
+      },
+      {
+        "metric": "Interim dividend per share",
+        "current": "4.5 cent",
+        "prior": "not stated",
+        "change": "+10%",
+        "basis": "reported",
+        "note": "payable 2 November 2026"
+      },
+      {
+        "metric": "Net debt",
+        "current": "€194.5m",
+        "prior": "€307.4m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "at 30 June 2026 vs 30 June 2025"
+      },
+      {
+        "metric": "Units delivered",
+        "current": "1,139",
+        "prior": "708",
+        "change": "+60%",
+        "basis": "reported",
+        "note": "H1 2026 across 19 developments"
+      },
+      {
+        "metric": "Average selling price",
+        "current": "€393,000",
+        "prior": "€387,000",
+        "change": "+1.6%",
+        "basis": "excl. VAT",
+        "note": "H1 2026"
+      },
+      {
+        "metric": "Closed & forward order book",
+        "current": "5,020 homes (€1.89bn)",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "net of VAT",
+        "note": "record, sales visibility to 2028"
+      }
+    ],
+    "guidance": {
+      "status": "raised",
+      "previous": "FY26 ROE guidance of c.16.5%",
+      "current": "FY26 ROE guidance of c.17.0%",
+      "commentary": "Cairn upgraded its full-year return on equity guidance, citing reducing capital intensity of growing output and enhanced capital recycling. The upgrade accompanies a new €50m buyback and a 10% interim dividend rise."
+    },
+    "explainer": "Cairn's headline figures are reported (not organic or currency-adjusted) and reflect a step-change in output: 1,139 homes delivered in the first half versus 708 a year earlier, a 60% increase that flows straight through to a 60% jump in revenue. Profit grew faster than revenue (PAT up 84%) because the larger, better-invested platform spread fixed operating costs over more sales — operating expenses fell to 4.8% of revenue from 7.2%.\n\nGross margin actually dipped slightly, to 21.3% from 22.2%, which the company attributes to a change in sales mix (more first-time-buyer and apartment product) rather than cost pressure; procurement savings and efficiencies partly offset the mix effect. Average selling prices rose only 1.6%, so the growth is driven by volume, not price inflation.\n\nOn guidance, the key change is the FY26 return-on-equity target being lifted to c.17.0% from c.16.5%. ROE is Cairn's primary performance measure (profit after tax over average equity), and the upgrade signals management expects to generate more profit per euro of shareholder capital as capital intensity falls. Alongside this, the balance sheet has strengthened markedly — net debt roughly halved year-on-year to €194.5m — giving room for the new €50m buyback and the 10% higher interim dividend to run concurrently with continued investment in growth.",
+    "source_url": "https://uk.advfn.com/stock-market/london/cairn-homes-CRN/share-news/Cairn-Homes-Plc-2026-Interim-Results/99233036",
+    "related_news_url": "https://news.google.com/search?q=%22Cairn%20Homes%20plc%22",
+    "added_at": "2026-09-02T07:17:24.014533"
+  },
+  {
     "company": "Interactive Brokers Group Inc",
     "ticker": "IBKR",
     "publish_date": "01 September 2026",
