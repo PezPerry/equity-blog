@@ -1,5 +1,74 @@
 [
   {
+    "company": "Motorpoint Group PLC",
+    "ticker": "MPGT",
+    "publish_date": "02 September 2026",
+    "date_iso": "2026-09-02",
+    "time_period": "FY27 (year ended 31 March 2027)",
+    "announcement_type": "Trading update",
+    "period_detail": "FY27 (year ended 31 March 2027)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Motorpoint Group PLC</strong> now expects <strong>FY27 PBT of £9.8m-£10.8m</strong>, ahead of current market consensus of <strong>£9.1m-£10.0m</strong>.</li><li>New guidance implies <strong>annual PBT growth of 30% to 44%</strong>, building on <strong>82.9%</strong> PBT growth in FY26.</li><li>Trading volumes <strong>stronger than anticipated</strong>, supported by accelerated investment in <strong>technology, data and AI</strong>, with higher profitability per unit.</li><li>Supply dynamics remain favourable; a <strong>further store secured to open in Spring 2027</strong>, adding to the current network of <strong>22 stores</strong>.</li><li>Further detail to come in the scheduled <strong>H1 trading update in early October 2026</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Motorpoint expects FY27 profit before tax of £9.8m-£10.8m, materially ahead of consensus, on stronger volumes and improved margins.",
+    "priority": "high",
+    "priority_reason": "Trading update with a profit upgrade — FY27 PBT now guided materially ahead of market consensus.",
+    "figures": [
+      {
+        "metric": "Profit before tax (FY27 guidance)",
+        "current": "£9.8m-£10.8m",
+        "prior": "consensus £9.1m-£10.0m",
+        "change": "+30% to +44% vs prior year",
+        "basis": "materially ahead of market consensus",
+        "note": "FY27, year ended 31 March 2027"
+      },
+      {
+        "metric": "PBT growth (FY26)",
+        "current": "82.9%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "prior-year comparator"
+      }
+    ],
+    "guidance": {
+      "status": "raised",
+      "previous": "Market consensus PBT of £9.1m-£10.0m for FY27",
+      "current": "PBT of £9.8m-£10.8m for FY27, materially ahead of consensus",
+      "commentary": "Motorpoint has upgraded FY27 profit expectations above consensus, citing stronger-than-expected trading volumes, margin improvements from its technology and AI strategy, and favourable vehicle supply conditions."
+    },
+    "explainer": "This is a positive profit upgrade. Motorpoint is telling the market that pre-tax profit for its year to 31 March 2027 will land at £9.8m-£10.8m, above the range analysts were expecting (£9.1m-£10.0m). Because the top of the old consensus range sits below the bottom of the new guidance would be an overstatement — the ranges overlap — but the midpoint is clearly higher, hence \"materially ahead\".\n\nThe growth figures compare against last year. The new guidance represents 30%-44% PBT growth on FY26, which itself grew 82.9%, so the company is layering strong growth on top of an already sharp prior-year improvement.\n\nManagement attributes the upgrade to higher sales volumes, better margin per vehicle from investment in technology, data and AI, and steady vehicle supply. A further store is due to open in Spring 2027. A fuller H1 update follows in early October 2026.",
+    "source_url": "https://uk.advfn.com/stock-market/london/motorpoint-MOTR/share-news/Motorpoint-Group-plc-Trading-Update/99232741",
+    "related_news_url": "https://news.google.com/search?q=%22Motorpoint%20Group%20PLC%22",
+    "added_at": "2026-09-02T07:19:28.093863"
+  },
+  {
+    "company": "BP PLC",
+    "ticker": "BP.",
+    "publish_date": "02 September 2026",
+    "date_iso": "2026-09-02",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>BP p.l.c.</strong> has appointed <strong>Ian Tyler</strong> as <strong>Chair</strong> with immediate effect, following an internal and external search; he had been <strong>Interim Chair since 26 May 2026</strong> and joined the board in <strong>April 2025</strong>.</li><li>Tyler is currently <strong>Chair of Grafton Group plc</strong> and <strong>Senior Independent Director of Anglo American plc</strong>, and previously chaired <strong>Cairn Energy plc</strong> and <strong>Vistry Group plc</strong>; he was <strong>CEO of Balfour Beatty plc</strong> from 2005 to 2013.</li><li><strong>Dame Amanda Blanc</strong>, Senior Independent Director, will <strong>not stand for re-election at the 2027 AGM</strong> and will step down once a successor SID is appointed, after four years on the board.</li><li>Routine governance and leadership change with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "BP appoints Ian Tyler, Interim Chair since May 2026, as permanent Chair with immediate effect; Dame Amanda Blanc to step down.",
+    "priority": "medium",
+    "priority_reason": "Appointment of a permanent Chair at a FTSE 100 major, plus the planned departure of the Senior Independent Director, is a governance change of note but no trading impact.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/bp-BP./share-news/BP-PLC-Ian-Tyler-appointed-bp-Chair/99232775",
+    "related_news_url": "https://news.google.com/search?q=%22BP%20p.l.c.%22",
+    "added_at": "2026-09-02T07:19:28.040721"
+  },
+  {
     "company": "Wizz Air Holdings PLC",
     "ticker": "WIZZ",
     "publish_date": "02 September 2026",
