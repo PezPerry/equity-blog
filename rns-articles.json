@@ -1,5 +1,104 @@
 [
   {
+    "company": "AEP Plantations Plc",
+    "ticker": "AEP",
+    "publish_date": "02 September 2026",
+    "date_iso": "2026-09-02",
+    "time_period": "H1 to 30 June 2026",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>H1 revenue +8.3% to $249.7m</strong> (2025: $230.5m) and <strong>profit before tax +5.1% to $65.8m</strong> (2025: $62.6m), including a <strong>$9.1m non-recurring bargain-purchase gain</strong> from Pinago; excluding that gain, <strong>underlying PBT was 9% lower</strong>.</li><li>Completed the <strong>$158.3m acquisition of Pinago</strong> in South Sumatra on <strong>4 May 2026</strong>, adding <strong>14,300 ha of mature plantation</strong> and taking total planted area to <strong>87,392 ha</strong>; funded entirely from cash.</li><li><strong>Basic EPS 12.71 cts</strong> (2025: 12.33 cts, +3.1%), adjusted for the <strong>10-for-1 share split</strong> on 25 June 2026; profit attributable to owners broadly flat at <strong>$48.9m</strong>.</li><li><strong>Cash $109.5m</strong> (2025: $244.7m) after the Pinago outlay; <strong>bank borrowings $13.2m</strong> (2025: nil) from consolidating Pinago debt.</li><li><strong>$25.9m returned to shareholders</strong> via dividends ($16.8m) and buybacks ($9.1m); Board intends to <strong>declare an interim dividend by end-Q3</strong>.</li><li>Guidance: Group <strong>remains confident of achieving market expectations for the full year</strong>, with CPO prices expected to stay firm and a full six months of Pinago in H2.</li></ul>",
+    "source_format": "html",
+    "headline": "AEP Plantations posts H1 revenue up 8.3% to $249.7m and PBT up 5.1% to $65.8m, lifted by its $158.3m Pinago acquisition.",
+    "priority": "high",
+    "priority_reason": "Interim results with revenue and profit growth, a $158.3m acquisition and shareholder returns.",
+    "figures": [
+      {
+        "metric": "Revenue",
+        "current": "$249.7m",
+        "prior": "$230.5m",
+        "change": "+8.3%",
+        "basis": "reported",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Profit before tax",
+        "current": "$65.8m",
+        "prior": "$62.6m",
+        "change": "+5.1%",
+        "basis": "reported, incl. $9.1m bargain-purchase gain",
+        "note": "underlying PBT 9% lower excluding the gain"
+      },
+      {
+        "metric": "Profit attributable to owners",
+        "current": "$48.9m",
+        "prior": "$48.8m",
+        "change": "broadly flat",
+        "basis": "reported",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Basic EPS",
+        "current": "12.71 cts",
+        "prior": "12.33 cts",
+        "change": "+3.1%",
+        "basis": "adjusted for 10-for-1 share split",
+        "note": ""
+      },
+      {
+        "metric": "Cash and cash equivalents",
+        "current": "$109.5m",
+        "prior": "$244.7m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "decrease reflects $158.3m Pinago consideration"
+      },
+      {
+        "metric": "Bank borrowings",
+        "current": "$13.2m",
+        "prior": "nil",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "from consolidation of Pinago borrowings"
+      },
+      {
+        "metric": "Net assets",
+        "current": "$579.4m",
+        "prior": "$584.8m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "impacted by $32.1m FX translation loss on weaker Rupiah"
+      },
+      {
+        "metric": "Average ex-mill CPO price",
+        "current": "$853/mt",
+        "prior": "not stated",
+        "change": "-1.2%",
+        "basis": "reported",
+        "note": ""
+      },
+      {
+        "metric": "CPO production",
+        "current": "223,600 mt",
+        "prior": "214,300 mt",
+        "change": "+4.3%",
+        "basis": "reported",
+        "note": ""
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Not restated in this announcement",
+      "current": "Remain confident of achieving market expectations for the full year",
+      "commentary": "The Board reaffirmed confidence in meeting full-year market expectations, expecting the production trend to improve in H2, CPO prices to remain firm, and a full six months' contribution from Pinago."
+    },
+    "explainer": "AEP reports in US dollars. Headline profit before tax rose 5.1% to $65.8m, but this was flattered by a one-off $9.1m 'gain on bargain purchase' — an accounting gain booked because Pinago's net assets were worth more than the price paid. Strip that out and underlying PBT was actually about 9% lower than a year earlier, held back by a delayed cropping cycle in North Sumatra and the replanting programme in Riau, partly offset by stronger Kalimantan output.\n\nThe defining event of the half was the $158.3m all-cash acquisition of Pinago in South Sumatra, completed on 4 May. It added 14,300 ha of mature plantation and pushed total planted area above 87,000 ha, but only contributed two months of trading — revenue of $18.3m and PBT of $3.5m — so its full earnings power will show in the second half. It also explains the sharp fall in cash (to $109.5m from $244.7m) and the appearance of $13.2m of bank debt consolidated from Pinago.\n\nEPS figures and the prior final dividend have been restated for the 10-for-1 share split completed on 25 June 2026, so per-share numbers are not comparable to earlier headline figures unless similarly adjusted. Net assets dipped slightly, dragged down by a $32.1m foreign-exchange translation loss as the Indonesian Rupiah weakened against the dollar.\n\nOn guidance, the Board maintained its stance, saying it remains confident of achieving market expectations for the full year. It expects production to recover in H2, CPO prices to stay firm on biodiesel and food demand, and Pinago to contribute a full six months — with an interim dividend to be declared by the end of Q3.",
+    "source_url": "https://uk.advfn.com/stock-market/london/aep-plantations-AEP/share-news/AEP-Plantations-PLC-Half-year-Financial-Report/99232712",
+    "related_news_url": "https://news.google.com/search?q=%22AEP%20Plantations%20Plc%22",
+    "added_at": "2026-09-02T07:18:41.056409"
+  },
+  {
     "company": "Halma plc",
     "ticker": "HLMA",
     "publish_date": "02 September 2026",
