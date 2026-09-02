@@ -43,12 +43,9 @@
             color: var(--cream);
         }
 
-        /* Masthead / Fixed Top Bar */
+        /* Masthead / Top Bar (scrolls with the page) */
         .masthead {
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
+            position: relative;
             height: 48px;
             display: flex;
             justify-content: space-between;
@@ -86,7 +83,6 @@
             color: white;
             padding: 120px 32px 64px;
             position: relative;
-            margin-top: 48px;
         }
 
         .header-content {
@@ -124,8 +120,7 @@
             background-color: var(--cream);
             border-top: 1px solid var(--rule);
             padding: 24px 32px;
-            position: sticky;
-            top: 48px;
+            position: relative;
             z-index: 50;
         }
 
