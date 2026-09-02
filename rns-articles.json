@@ -1,5 +1,31 @@
 [
   {
+    "company": "Hammerson PLC",
+    "ticker": "HMSO",
+    "publish_date": "02 September 2026",
+    "date_iso": "2026-09-02",
+    "time_period": "FY26",
+    "announcement_type": "Financing / refinancing",
+    "period_detail": "FY26",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Hammerson</strong> priced a <strong>GBP250m</strong> bond maturing <strong>8 June 2033</strong> at <strong>107bps</strong> over the 4.125% Treasury Gilt 2033, with an annual coupon of <strong>5.875%</strong>.</li><li>Issue was <strong>more than four times covered</strong>, with a peak order book above <strong>£1.1bn</strong>; bond to be issued <strong>8 September 2026</strong> under the 2024 EMTN programme.</li><li>Concurrent interest rate swaps convert the fixed coupon to <strong>SONIA plus 131bps</strong>, a <strong>net initial rate of 5.04%</strong>, cutting fixed-rate gross debt from <strong>95%</strong> to <strong>84%</strong>.</li><li>Proceeds boost cash (<strong>£500m at 30 June 2026</strong>) ahead of the <strong>EUR700m</strong> 1.75% sustainability-linked bond maturing in <strong>June 2027</strong>.</li><li>Expected ratings of <strong>A-</strong> (Fitch) and <strong>Baa1</strong> (Moody's); group issuer ratings <strong>BBB+</strong> (Fitch) and <strong>Baa1</strong> (Moody's).</li><li><strong>FY26 EPRA earnings guidance maintained at c.£132m</strong> — no impact on trading.</li></ul>",
+    "source_format": "html",
+    "headline": "Hammerson prices a **GBP250m** seven-year bond due June 2033 with a **5.875%** coupon, more than four times oversubscribed.",
+    "priority": "medium",
+    "priority_reason": "A GBP250m bond pricing is a financing event with no impact on trading guidance, which is reaffirmed.",
+    "figures": [],
+    "guidance": {
+      "status": "maintained",
+      "previous": "FY26 EPRA earnings guidance of c.£132m",
+      "current": "FY26 EPRA earnings guidance of c.£132m",
+      "commentary": "Guidance is reaffirmed; the bond is a refinancing/liquidity exercise and does not change the earnings outlook."
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/hammerson--hmso/successful-pricing-of-7-year-gbp250m-bond-issuance/9751221",
+    "related_news_url": "https://news.google.com/search?q=%22Hammerson%22",
+    "added_at": "2026-09-02T07:55:44.429220"
+  },
+  {
     "company": "Prudential PLC",
     "ticker": "PRU",
     "publish_date": "02 September 2026",
