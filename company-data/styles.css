@@ -1009,8 +1009,16 @@ body {
 }
 
 @media (max-width: 900px) {
-  .app { grid-template-columns: 1fr; }
-  .sidebar { display: none; }
+  /* The sidebar is the only company selector, so on a phone it stacks above the
+     dashboard as a full-width picker instead of being hidden. */
+  .app { grid-template-columns: 1fr; height: auto; min-height: 100vh; overflow: visible; }
+  .sidebar {
+    height: auto;
+    border-right: none;
+    border-bottom: 1px solid var(--border);
+  }
+  .brand { padding: 14px 16px 12px; }
+  .company-list { flex: none; max-height: 180px; }
   .kpi-row { grid-template-columns: repeat(2, 1fr); }
   .dashboard > .panel { grid-column: span 12; }
 }
