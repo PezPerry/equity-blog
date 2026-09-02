@@ -1,5 +1,31 @@
 [
   {
+    "company": "Prudential PLC",
+    "ticker": "PRU",
+    "publish_date": "02 September 2026",
+    "date_iso": "2026-09-02",
+    "time_period": "",
+    "announcement_type": "Buyback programme update",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Prudential plc</strong> has increased its buyback <strong>Programme</strong> from <strong>USD 1.2 billion</strong> to <strong>USD 1.472 billion</strong> (excluding fees, expenses and stamp duty).</li><li>Equivalent to <strong>GBP 1.087 billion</strong> / <strong>HKD 11.542 billion</strong> at 1 September 2026 exchange rates, now representing approximately <strong>4%</strong> of issued share capital at the 1 September closing price.</li><li>Increase was flagged in the <strong>2026 Half Year Results</strong> on <strong>27 August 2026</strong>; agreement with <strong>J.P. Morgan Securities plc</strong> amended accordingly.</li><li>Programme commenced <strong>6 January 2026</strong> and remains due for completion by no later than <strong>18 December 2026</strong>; all other terms unchanged.</li><li>No guarantee the Programme will be implemented in full.</li></ul>",
+    "source_format": "html",
+    "headline": "Prudential increases its share buyback programme from USD 1.2 billion to USD 1.472 billion, now about 4% of issued share capital.",
+    "priority": "medium",
+    "priority_reason": "Material increase to an existing buyback programme, not a routine daily dealing.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/prudential--pru/update-on-share-buyback-programme/9750393",
+    "related_news_url": "https://news.google.com/search?q=%22Prudential%22",
+    "added_at": "2026-09-02T07:37:11.331398"
+  },
+  {
     "company": "Avon Technologies plc",
     "ticker": "AVON",
     "publish_date": "02 September 2026",
