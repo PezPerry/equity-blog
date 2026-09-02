@@ -1,5 +1,40 @@
 [
   {
+    "company": "Interactive Brokers Group Inc",
+    "ticker": "IBKR",
+    "publish_date": "01 September 2026",
+    "date_iso": "2026-09-01",
+    "time_period": "August 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "August 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Interactive Brokers Group</strong> published its routine monthly Electronic Brokerage metrics for <strong>August 2026</strong>, covering DARTs, client balances and execution quality.</li><li>Rolling twelve months' average all-in cost of an <strong>IBKR PRO</strong> client US Reg.-NMS stock trade was <strong>2.5 basis points</strong>.</li><li>The scraped text contains no specific monthly figures (DARTs, accounts, commissions or margin balances) — these appear only in the linked multimedia release, so headline metrics are unclear from this page.</li><li>Routine monthly operational disclosure with <strong>no impact</strong> on guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "**Interactive Brokers** reported its **August 2026** electronic brokerage monthly performance metrics, including Reg.-NMS execution statistics.",
+    "priority": "low",
+    "priority_reason": "Routine monthly brokerage performance metrics with no headline figures printed in the article text.",
+    "figures": [
+      {
+        "metric": "All-in cost per IBKR PRO US Reg.-NMS stock trade (rolling 12m avg)",
+        "current": "2.5 basis points",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "rolling twelve months",
+        "note": "August 2026"
+      }
+    ],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/IBKR/share-news/Interactive-Brokers-Group-Reports-Brokerage-Metric/99229659",
+    "related_news_url": "https://news.google.com/search?q=%22Interactive%20Brokers%20Group%2C%20Inc.%22",
+    "added_at": "2026-09-02T07:16:59.211039"
+  },
+  {
     "company": "Forterra PLC",
     "ticker": "FORT",
     "publish_date": "01 September 2026",
