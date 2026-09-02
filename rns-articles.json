@@ -1,5 +1,98 @@
 [
   {
+    "company": "Halma plc",
+    "ticker": "HLMA",
+    "publish_date": "02 September 2026",
+    "date_iso": "2026-09-02",
+    "time_period": "",
+    "announcement_type": "Acquisition / deal",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Halma plc</strong> is acquiring <strong>Pyxis</strong>, a <strong>Houston, Texas</strong>-based specialist in water quality monitoring and analysis technology, for initial cash consideration of <strong>$170m (approximately £126m)</strong> on a cash- and debt-free basis.</li><li>Deal funded from <strong>Halma's existing facilities</strong>; additional earn-outs of up to <strong>$30m (approximately £22m)</strong> payable on the US business's performance over the two financial years to <strong>31 March 2028 and 2029</strong>.</li><li>Pyxis' unaudited revenue for the 12 months to <strong>31 March 2027</strong> is forecast at approximately <strong>$39m (approximately £29m)</strong>.</li><li>Pyxis will operate as a standalone business within Halma's <strong>Environmental & Analysis Sector</strong>, led by its current management team.</li><li>Structured as three companies: <strong>Pyxis Lab Inc.</strong> and <strong>Qipan Technology Development (Shanghai)</strong> acquired now; <strong>Pyxis Europe S.L.U.</strong> to close shortly.</li></ul>",
+    "source_format": "html",
+    "headline": "Halma is acquiring water-quality monitoring specialist Pyxis for an initial $170m cash, with up to $30m more in earn-outs.",
+    "priority": "high",
+    "priority_reason": "M&A: Halma is acquiring a water-quality technology business for up to $200m.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/halma-HLMA/share-news/Halma-PLC-Acquisition/99232719",
+    "related_news_url": "https://news.google.com/search?q=%22Halma%20plc%22",
+    "added_at": "2026-09-02T07:18:01.066441"
+  },
+  {
+    "company": "Custodian Property Income REIT plc",
+    "ticker": "CREI",
+    "publish_date": "02 September 2026",
+    "date_iso": "2026-09-02",
+    "time_period": "Q1 FY27 (quarter ended 30 June 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "Q1 FY27 (quarter ended 30 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Trading update</strong> for <strong>Q1 FY27</strong> (quarter ended <strong>30 June 2026</strong>): portfolio valued at <strong>£671.6m</strong>, described as resilient with stable valuations.</li><li>Unaudited <strong>NAV</strong> increased to <strong>£489.0m</strong>, or approximately <strong>100.0p per share</strong>, at 30 June 2026.</li><li><strong>Like-for-like ERV</strong> rose a further <strong>1.0%</strong> in the quarter (ERV up from <strong>£55.6m to £56.1m</strong>), lifting portfolio <strong>reversionary potential to 15%</strong>; rental growth now evident across all sectors including high street and regional offices.</li><li>Interim dividend of <strong>1.5p per share</strong> (FY27 Q1) paid on <strong>28 August 2026</strong>, fully covered by EPRA earnings; yield of <strong>c.7%</strong>.</li><li>Board is targeting a full-year dividend of <strong>no less than 6.0p</strong> for the year ending <strong>31 March 2027</strong>.</li><li><strong>Two rent reviews</strong> settled at an average <strong>22%</strong> ahead of previous passing rent; partially offset by the <strong>administration</strong> of an industrial tenant at <strong>Grangemouth</strong> (previously <strong>£438k</strong> annual rent), where units are expected to be re-let separately. Debt drawn of <strong>£185.0m</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Custodian Property Income REIT reports a fully covered 1.5p Q1 dividend, stable £671.6m portfolio and 1.0% like-for-like ERV growth in the quarter.",
+    "priority": "high",
+    "priority_reason": "Quarterly trading update with portfolio valuation, NAV, rental growth and dividend guidance.",
+    "figures": [
+      {
+        "metric": "Portfolio valuation",
+        "current": "£671.6m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "diversified portfolio",
+        "note": "at 30 June 2026"
+      },
+      {
+        "metric": "NAV",
+        "current": "£489.0m (c.100.0p/share)",
+        "prior": "not stated",
+        "change": "increased",
+        "basis": "IFRS, unaudited",
+        "note": "at 30 June 2026"
+      },
+      {
+        "metric": "ERV",
+        "current": "£56.1m",
+        "prior": "£55.6m",
+        "change": "+1.0% like-for-like",
+        "basis": "like-for-like",
+        "note": "during Q1 quarter to 30 June 2026"
+      },
+      {
+        "metric": "Interim dividend",
+        "current": "1.5p per share",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "fully covered PID",
+        "note": "FY27 Q1, paid 28 August 2026"
+      },
+      {
+        "metric": "Debt drawn",
+        "current": "£185.0m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "gross borrowings",
+        "note": "at 30 June 2026"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "",
+      "current": "Board targeting a dividend per share of no less than 6.0p for the year ending 31 March 2027",
+      "commentary": "The Company reaffirms its full-year dividend target of at least 6.0p for FY27, with the Q1 1.5p interim fully covered by EPRA earnings; it also signals ambitions to grow the dividend sustainably and scale via selective corporate acquisitions."
+    },
+    "explainer": "This is a first-quarter trading update rather than full results, so the key numbers are the independent portfolio valuation (£671.6m) and the unaudited net asset value (£489.0m, roughly 100.0p per share) at 30 June 2026. NAV is IFRS-based and reflects the payment of a 1.5p dividend during the quarter but excludes provision for the 1.5p dividend paid after quarter-end on 28 August 2026.\n\nRental growth is the central theme. Estimated rental value (ERV) — the market rent the portfolio should command — rose 1.0% on a like-for-like basis in the quarter, taking ERV from £55.6m to £56.1m, on top of 3.3% growth in the year to 31 March 2026. The gap between that market rent and current passing rent gives a 'reversionary potential' of 15%, which the manager aims to capture through rent reviews and lease events. Two rent reviews settled 22% above previous passing rent, though the administration of an industrial tenant at Grangemouth (£438k of rent) is a partial offset.\n\nOn income, the 1.5p quarterly dividend is fully covered by EPRA earnings and paid as a property income distribution. The Board maintains its target of at least 6.0p for the full year to 31 March 2027, equating to a yield of about 7%. There is no change to guidance here — it is a reaffirmation of the existing dividend policy.",
+    "source_url": "https://uk.advfn.com/stock-market/london/custodian-property-incom-CREI/share-news/Custodian-Property-Income-REIT-plc-Active-asset-m/99233035",
+    "related_news_url": "https://news.google.com/search?q=%22Custodian%20Property%20Income%20REIT%20plc%22",
+    "added_at": "2026-09-02T07:18:01.009038"
+  },
+  {
     "company": "Cairn Homes PLC",
     "ticker": "CRN",
     "publish_date": "02 September 2026",
