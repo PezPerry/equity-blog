@@ -1,5 +1,40 @@
 [
   {
+    "company": "CME Group Inc",
+    "ticker": "CME",
+    "publish_date": "02 September 2026",
+    "date_iso": "2026-09-02",
+    "time_period": "August 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "August 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>CME Group</strong> reported August 2026 average daily volume (ADV) of <strong>29.7 million contracts</strong>, its <strong>second-highest August on record</strong> and <strong>+6%</strong> versus <strong>August 2025</strong>.</li><li>Detailed asset-class breakdowns and product highlights referenced in the release are <strong>not included in the scraped text</strong>, so per-product figures cannot be summarised.</li><li>Full monthly volume detail is directed to CME Group's investor site; this is a <strong>routine monthly volume update</strong> with no guidance content.</li></ul>",
+    "source_format": "html",
+    "headline": "CME Group reported its second-highest August average daily volume on record at **29.7 million contracts**, up **6%** on August 2025.",
+    "priority": "medium",
+    "priority_reason": "Monthly volume statistics from a major exchange operator — market-relevant but routine operational data.",
+    "figures": [
+      {
+        "metric": "Average daily volume (ADV)",
+        "current": "29.7 million contracts",
+        "prior": "not stated",
+        "change": "+6%",
+        "basis": "vs August 2025",
+        "note": "August 2026, second-highest August on record"
+      }
+    ],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "Average daily volume (ADV) measures the number of futures and options contracts traded per day, averaged across the month. For an exchange operator like CME Group, ADV is the primary driver of transaction and clearing revenue, so higher volumes generally point to stronger fee income.\n\nThe figure quoted is a 6% increase on the same month a year earlier (August 2025), and CME describes it as its second-highest August on record. The scraped text does not include the per-asset-class breakdown (interest rates, equity indexes, FX, energy, metals, agriculture, crypto) or the individual product highlights, so those details are unavailable here.",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/CME/share-news/CME-Group-Reports-Second-Highest-August-ADV-of-29/99236132",
+    "related_news_url": "https://news.google.com/search?q=%22CME%20Group%20Inc.%22",
+    "added_at": "2026-09-02T13:16:02.337444"
+  },
+  {
     "company": "AJ Bell PLC",
     "ticker": "AJB",
     "publish_date": "02 September 2026",
