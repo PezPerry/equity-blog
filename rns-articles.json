@@ -1,5 +1,56 @@
 [
   {
+    "company": "Wizz Air Holdings PLC",
+    "ticker": "WIZZ",
+    "publish_date": "02 September 2026",
+    "date_iso": "2026-09-02",
+    "time_period": "August 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "August 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>8.70 million</strong> passengers carried in August, up <strong>25.9%</strong> year-on-year; capacity rose <strong>24.8%</strong> to <strong>9.10 million</strong> seats.</li><li>Load factor <strong>95.6%</strong>, up <strong>0.8ppts</strong> year-on-year.</li><li>Seat growth slowed from <strong>30.4%</strong> in July but remains consistent with guidance for high-twenties percent seat growth in the <strong>September quarter</strong>.</li><li>Third Spanish base confirmed at <strong>Santiago de Compostela</strong> (one aircraft from <strong>1 February 2027</strong>), following bases announced for Madrid and Valencia opening November 2026.</li><li>Redesigned <strong>My Journey</strong> mobile app launched under the Customer First Compass initiative.</li><li>Fleet of <strong>273</strong> Airbus A320/A321 aircraft; <strong>69.7 million</strong> passengers in FY2026.</li></ul>",
+    "source_format": "html",
+    "headline": "Wizz Air carried 8.70 million passengers in August 2026, up 25.9% year-on-year, with load factor at 95.6%.",
+    "priority": "medium",
+    "priority_reason": "Routine monthly traffic statistics, but confirms load factors and reaffirms September-quarter capacity guidance.",
+    "figures": [
+      {
+        "metric": "Passengers",
+        "current": "8.70m",
+        "prior": "not stated",
+        "change": "+25.9%",
+        "basis": "reported",
+        "note": "August 2026 vs August 2025"
+      },
+      {
+        "metric": "Capacity (seats)",
+        "current": "9.10m",
+        "prior": "not stated",
+        "change": "+24.8%",
+        "basis": "reported",
+        "note": "August 2026"
+      },
+      {
+        "metric": "Load factor",
+        "current": "95.6%",
+        "prior": "not stated",
+        "change": "+0.8ppts",
+        "basis": "reported",
+        "note": "August 2026"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Seat growth in the high twenties percent for the September quarter",
+      "current": "Seat growth in the high twenties percent for the September quarter",
+      "commentary": "August seat growth of 24.8% (down from 30.4% in July) remains consistent with the existing high-twenties percent capacity guidance for the September quarter; guidance is unchanged."
+    },
+    "explainer": "This is Wizz Air's routine monthly operating update, reporting passenger numbers, seat capacity and load factor rather than financial results. The figures compare August 2026 with the same month a year earlier: passengers up 25.9% and capacity up 24.8%, meaning the airline flew more seats and filled a slightly higher proportion of them (a 95.6% load factor, up 0.8 percentage points).\n\nThe main point for traders is the pace of capacity growth. Seat growth eased to 24.8% in August from 30.4% in July, but management stresses this is still within its existing guidance for high-twenties percent seat growth in the September quarter. In other words, capacity plans are on track and guidance is unchanged.\n\nThe update also flags network expansion in Spain, with a third base at Santiago de Compostela opening in February 2027, and a redesigned mobile app. The CO2 statistics quoted exclude any benefit from sustainable aviation fuel.",
+    "source_url": "https://uk.advfn.com/stock-market/london/wizz-air-WIZZ/share-news/Wizz-Air-Holdings-PLC-August-2026-Traffic-and-CO2/99232718",
+    "related_news_url": "https://news.google.com/search?q=%22Wizz%20Air%20Holdings%20Plc%22",
+    "added_at": "2026-09-02T07:19:03.315119"
+  },
+  {
     "company": "AEP Plantations Plc",
     "ticker": "AEP",
     "publish_date": "02 September 2026",
