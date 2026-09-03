@@ -1,5 +1,57 @@
 [
   {
+    "company": "Kingfisher PLC",
+    "ticker": "KGF",
+    "publish_date": "03 September 2026",
+    "date_iso": "2026-09-03",
+    "time_period": "",
+    "announcement_type": "Buyback update",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Kingfisher plc</strong> has completed the <strong>second tranche</strong> of its <strong>£300m</strong> share repurchase programme first announced on <strong>24 March 2026</strong>, buying shares for cancellation.</li><li><strong>Goldman Sachs International</strong> purchased <strong>16,124,103 shares</strong> for a total consideration of <strong>£50m</strong>; Kingfisher has now returned <strong>£125m</strong> of the <strong>£300m</strong> programme.</li><li>Details of the <strong>third tranche</strong> to be announced in due course — routine buyback progress update with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Kingfisher completes the second tranche of its **£300m** buyback, purchasing **16,124,103 shares** for **£50m**, taking total returned to **£125m**.",
+    "priority": "low",
+    "priority_reason": "Routine completion of a tranche within an already-announced buyback programme, not a new programme launch.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/kingfisher--kgf/second-tranche-of-share-repurchase-programme/9753146",
+    "related_news_url": "https://news.google.com/search?q=%22Kingfisher%22",
+    "added_at": "2026-09-03T07:35:44.600533"
+  },
+  {
+    "company": "Great Portland Estates PLC",
+    "ticker": "GPE",
+    "publish_date": "03 September 2026",
+    "date_iso": "2026-09-03",
+    "time_period": "",
+    "announcement_type": "Trading update",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Great Portland Estates</strong> has completed <strong>30 Duke Street St James's, SW1</strong>, its prime St James's development, <strong>on time and on budget</strong> with all office and retail space <strong>pre-let ahead of completion</strong>.</li><li><strong>CD&R</strong> committed to the office HQ in <strong>May 2025</strong>; retail units pre-let to <strong>M.J. Bale</strong> and <strong>L'Eto</strong>.</li><li>Leasing secured average rents <strong>6.7% ahead of ERV</strong>, supporting an anticipated development profit on cost of <strong>37.1%</strong> and an ungeared IRR of <strong>30.5%</strong>.</li><li><strong>78%</strong> of the steel frame reused from GPE's deconstructed City Place House, cutting frame carbon by around <strong>90%</strong> versus new steel.</li></ul>",
+    "source_format": "html",
+    "headline": "GPE completes its fully pre-let 30 Duke Street St James's development on time and on budget, securing rents 6.7% ahead of ERV.",
+    "priority": "medium",
+    "priority_reason": "Completion of a fully pre-let prime development with attractive stated returns, but the anchor pre-let was already known.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/great-portland-estates-GPE/share-news/Great-Portland-Estates-PLC-GPE-completes-pre-let-3/99241927",
+    "related_news_url": "https://news.google.com/search?q=%22Great%20Portland%20Estates%20plc%22",
+    "added_at": "2026-09-03T07:35:44.583273"
+  },
+  {
     "company": "Hilton Food Group PLC",
     "ticker": "HFG",
     "publish_date": "03 September 2026",
