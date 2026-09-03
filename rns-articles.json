@@ -1,5 +1,120 @@
 [
   {
+    "company": "Alfa Financial Software Holdings PLC",
+    "ticker": "ALFA",
+    "publish_date": "03 September 2026",
+    "date_iso": "2026-09-03",
+    "time_period": "H1 2026 (six months ended 30 June 2026)",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 2026 (six months ended 30 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Revenue</strong> up <strong>4%</strong> (5% at constant currency) to <strong>£65.1m</strong> (H1 2025: £62.5m), with <strong>subscription revenue up 14%</strong> to <strong>£24.1m</strong> and delivery revenue up 5% to £32.4m.</li><li><strong>Operating profit down 15%</strong> to <strong>£18.4m</strong> (H1 2025: £21.6m), hit by <strong>£1.6m severance costs</strong> (Product Engineering) and a swing in FX hedges from a £1.7m gain to a £0.3m loss.</li><li><strong>ARR up 17%</strong> to <strong>£48.5m</strong> and <strong>TCV up 17%</strong> to <strong>£247.0m</strong>; net revenue retention of <strong>110%</strong> (H1 2025: 112%).</li><li><strong>Software Engineering revenue down 17%</strong> to <strong>£8.6m</strong> versus a strong prior-year half, weighing on gross margin.</li><li>Net cash of <strong>£22.2m</strong> (31 Dec 2025: £26.4m), no bank debt; cash conversion 76% (H1 2025: 88%).</li><li><strong>Trading in line; on track to meet full-year expectations</strong> — slightly lower delivery revenue offset by improved software engineering revenue.</li></ul>",
+    "source_format": "html",
+    "headline": "Alfa's H1 revenue rose 4% to £65.1m with ARR up 17% to £48.5m, but operating profit fell 15% on severance and FX; full-year expectations reaffirmed.",
+    "priority": "high",
+    "priority_reason": "Half-year results with detailed financials and full-year guidance commentary.",
+    "figures": [
+      {
+        "metric": "Revenue",
+        "current": "£65.1m",
+        "prior": "£62.5m",
+        "change": "+4% (+5% constant currency)",
+        "basis": "reported/constant currency",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Subscription revenue",
+        "current": "£24.1m",
+        "prior": "£21.2m",
+        "change": "+14%",
+        "basis": "not stated",
+        "note": "H1 2026"
+      },
+      {
+        "metric": "Delivery revenue",
+        "current": "£32.4m",
+        "prior": "£31.0m",
+        "change": "+5%",
+        "basis": "not stated",
+        "note": "H1 2026"
+      },
+      {
+        "metric": "Software Engineering revenue",
+        "current": "£8.6m",
+        "prior": "£10.3m",
+        "change": "-17%",
+        "basis": "not stated",
+        "note": "H1 2026"
+      },
+      {
+        "metric": "Operating profit",
+        "current": "£18.4m",
+        "prior": "£21.6m",
+        "change": "-15%",
+        "basis": "reported",
+        "note": "H1 2026; £20.3m before severance and FX hedges"
+      },
+      {
+        "metric": "ARR (Annual Recurring Revenue)",
+        "current": "£48.5m",
+        "prior": "£41.6m",
+        "change": "+17%",
+        "basis": "not stated",
+        "note": "as at 30 June 2026"
+      },
+      {
+        "metric": "TCV (Total Contract Value)",
+        "current": "£247.0m",
+        "prior": "£210.7m",
+        "change": "+17%",
+        "basis": "not stated",
+        "note": "as at 30 June 2026"
+      },
+      {
+        "metric": "Next 12 months TCV",
+        "current": "£100.6m",
+        "prior": "£89.9m",
+        "change": "+12%",
+        "basis": "not stated",
+        "note": "as at 30 June 2026"
+      },
+      {
+        "metric": "Net Revenue Retention (NRR)",
+        "current": "110%",
+        "prior": "112%",
+        "change": "-2pp",
+        "basis": "not stated",
+        "note": "as at 30 June 2026"
+      },
+      {
+        "metric": "Net cash",
+        "current": "£22.2m",
+        "prior": "£26.4m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "30 June 2026 vs 31 Dec 2025"
+      },
+      {
+        "metric": "Software investment (capitalised)",
+        "current": "£19.6m",
+        "prior": "£19.4m",
+        "change": "+1%",
+        "basis": "not stated",
+        "note": "H1 2026"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Full year expectations (as previously communicated)",
+      "current": "Trading in line, on track to meet full year expectations",
+      "commentary": "Delivery revenue expectations for the year are slightly reduced due to some delays in moving projects to contract, but this is expected to be offset by improved software engineering revenues, so full-year expectations are unchanged. 2026 cash conversion guided to 80%-90%, with long-term average guidance of 90%-100%."
+    },
+    "explainer": "Alfa reported top-line growth driven by its higher-quality recurring revenues: subscription revenue rose 14% and ARR (the annualised run-rate of recurring contracts) climbed 17% to £48.5m. Reported revenue grew 4%, or 5% on a constant-currency basis, meaning currency movements shaved about one point off growth. NRR of 110% shows existing customers spent 10% more year-on-year net of any losses — a sign of a sticky base, though slightly below last year's 112%.\n\nThe 15% fall in operating profit is largely one-off and non-operational rather than a deterioration in the underlying business. It reflects £1.6m of severance costs from cutting Product Engineering capacity, plus a £2.0m swing in foreign-exchange hedges (from a £1.7m gain to a £0.3m loss). Stripping out severance and FX hedges, Alfa says operating profit would have edged up 2% to £20.3m. Software Engineering revenue, which depends on the amount of bespoke implementation work, fell 17% against a strong prior-year comparator and also weighed on margins.\n\nOn guidance, the company kept its full-year expectations unchanged. It flagged that some enterprise deals are slipping later into contract, trimming expected delivery revenue, but expects better-than-planned software engineering revenue to offset this. Cash conversion was a weaker 76% in the half — as expected, because strong receipts pulled into late 2025 reversed — with the full year guided at 80%-90%.",
+    "source_url": "https://uk.advfn.com/stock-market/london/alfa-financial-software-ALFA/share-news/Alfa-Financial-Software-Hldgs-PLC-2026-Half-Year-R/99241865",
+    "related_news_url": "https://news.google.com/search?q=%22Alfa%20Financial%20Software%20Holdings%20PLC%22",
+    "added_at": "2026-09-03T07:20:52.834593"
+  },
+  {
     "company": "Rosebank Industries plc",
     "ticker": "ROSE",
     "publish_date": "03 September 2026",
