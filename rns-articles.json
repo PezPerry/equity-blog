@@ -1,5 +1,98 @@
 [
   {
+    "company": "Londonmetric Property PLC",
+    "ticker": "LMP",
+    "publish_date": "03 September 2026",
+    "date_iso": "2026-09-03",
+    "time_period": "",
+    "announcement_type": "Acquisition / deal",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>£105 million</strong> of investment activity since the July trading update, part of a continued portfolio reshaping towards higher-quality <strong>NNN (triple net)</strong> income.</li><li>Sold <strong>seven assets for £85 million</strong> at a <strong>NIY of 5.3%</strong>, in line with March 2026 book values — including two <strong>Ramsay Health Care</strong> hospitals in <strong>Truro and Salford</strong> for <strong>£59.1 million</strong>, cutting Ramsay rental exposure to <strong>8.4%</strong> of total rent (from 9.1%).</li><li>Other sales: two logistics warehouses in <strong>Ripon and Normanton</strong> for <strong>£13.0m</strong>, a <strong>Lidl</strong> store in Basildon for <strong>£8.8m</strong>, and two <strong>Travelodge</strong> hotels in Chippenham for <strong>£4.1m</strong>; Travelodge exposure now <strong>4.1%</strong> of rent (from 4.9%).</li><li>Total disposals for the financial year: <strong>32 assets for £175 million</strong>; acquisitions total <strong>£62 million</strong> at a <strong>5.9%</strong> yield, including a <strong>£20m</strong> forward funding of a <strong>Tesco</strong>-let foodstore in Nuneaton.</li><li>Under offer on a further <strong>£140 million</strong> of acquisitions at a yield <strong>above 6%</strong>, primarily long-let assets with occupiers including <strong>Lidl, M&S, Tesco and Waitrose</strong>.</li><li>CEO <strong>Andrew Jones</strong> cited a challenging macro backdrop but heavy engagement on reinvestment opportunities, particularly from pension funds, expected to transact shortly.</li></ul>",
+    "source_format": "html",
+    "headline": "LondonMetric completes £105m of further investment activity, including the £59.1m sale of two Ramsay Health Care hospitals in Truro and Salford.",
+    "priority": "medium",
+    "priority_reason": "Portfolio reshaping through £105m of disposals and acquisitions, but no change to earnings guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/londonmetric-property-LMP/share-news/LondonMetric-Property-PLC-105-MILLION-OF-FURTHER/99241883",
+    "related_news_url": "https://news.google.com/search?q=%22LondonMetric%20Property%20Plc%22",
+    "added_at": "2026-09-03T07:19:21.304276"
+  },
+  {
+    "company": "Crest Nicholson Holdings Ltd",
+    "ticker": "CRST",
+    "publish_date": "03 September 2026",
+    "date_iso": "2026-09-03",
+    "time_period": "FY26",
+    "announcement_type": "Trading update",
+    "period_detail": "FY26",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Profit warning</strong>: FY26 EBIT now expected to be a loss of <strong>around £10m</strong>, versus previous guidance of an EBIT profit of <strong>£5m to £10m</strong>, on lower completions, competitive pricing and further NRV provisions on a small number of sites.</li><li>FY26 completions cut to <strong>1,350 to 1,400</strong> (previous guidance <strong>1,400 to 1,500</strong>) amid subdued summer trading, affordability constraints and competitive pricing, especially in bulk sales.</li><li>Net open market sales rate of <strong>0.35</strong> over the last six weeks, down from <strong>0.48</strong> in H1 and <strong>0.55</strong> a year earlier.</li><li>Year-end net debt now expected at <strong>£70m to £90m</strong>, c. <strong>£30m</strong> better than the previous <strong>£100m to £120m</strong> guidance, helped by a land disposal and a further <strong>fire remediation recovery</strong> to be booked as an exceptional profit item.</li><li>Build cost inflation in line at <strong>c.3-4%</strong>; new house types on track to contribute from end of <strong>FY27</strong> as the group repositions towards the mid-premium segment.</li><li>In <strong>constructive discussions with lenders</strong> to amend covenants, but now anticipates <strong>some slippage</strong> in the timetable, with a further update in due course.</li></ul>",
+    "source_format": "html",
+    "headline": "Crest Nicholson warns FY26 EBIT will be a loss of around £10m against prior £5m-£10m profit guidance, though year-end net debt to improve to £70m-£90m.",
+    "priority": "high",
+    "priority_reason": "Profit warning with EBIT swinging to a loss and completions cut, partly offset by better net debt guidance.",
+    "figures": [
+      {
+        "metric": "EBIT",
+        "current": "loss of around £10m",
+        "prior": "profit of £5m to £10m (previous guidance)",
+        "change": "not stated",
+        "basis": "guidance",
+        "note": "FY26"
+      },
+      {
+        "metric": "Completions",
+        "current": "1,350 to 1,400",
+        "prior": "1,400 to 1,500 (previous guidance)",
+        "change": "not stated",
+        "basis": "guidance",
+        "note": "FY26"
+      },
+      {
+        "metric": "Year-end net debt",
+        "current": "£70m to £90m",
+        "prior": "£100m to £120m (previous guidance)",
+        "change": "improvement of c. £30m",
+        "basis": "guidance",
+        "note": "FY26"
+      },
+      {
+        "metric": "Net open market sales rate",
+        "current": "0.35",
+        "prior": "0.55",
+        "change": "not stated",
+        "basis": "last six weeks vs same period last year",
+        "note": "H1 was 0.48"
+      },
+      {
+        "metric": "Build cost inflation",
+        "current": "c.3-4%",
+        "prior": "c.3-4%",
+        "change": "in line",
+        "basis": "mostly materials",
+        "note": ""
+      }
+    ],
+    "guidance": {
+      "status": "lowered",
+      "previous": "EBIT profit of £5m to £10m; completions of 1,400 to 1,500; year-end net debt of £100m to £120m",
+      "current": "EBIT loss of around £10m; completions of 1,350 to 1,400; year-end net debt of £70m to £90m",
+      "commentary": "Profit and completions guidance cut on weaker open-market demand and competitive bulk-sales pricing, with further NRV provisions on some sites. Net debt guidance improved by c. £30m, helped by a land disposal and a fire remediation recovery treated as an exceptional item."
+    },
+    "explainer": "This is a profit warning. Crest Nicholson now expects its full-year operating result (EBIT) to be a loss of about £10m, having previously guided to a profit of £5m-£10m. The main driver is weaker demand over a quiet summer — the net open market sales rate, a measure of how many homes each site sells per week, fell to 0.35 from 0.55 a year earlier — which reduces completions and forces the group to write down the value of some sites (NRV provisions).\n\nThere is a genuine offset on the balance sheet. Year-end net debt is now expected to be £70m-£90m rather than £100m-£120m, roughly £30m better. This comes from a completed land disposal and a further recovery of fire-remediation costs from a third party. That recovery will be shown as an exceptional (one-off) profit item in the full-year results, so it sits outside the underlying EBIT number.\n\nThe caveat for traders is funding. Crest is negotiating with lenders to amend its covenants, and it now expects some slippage in that timetable, promising a further update later. The new house types and mid-premium repositioning are only expected to contribute from the end of FY27, so any earnings recovery is a way off.",
+    "source_url": "https://uk.advfn.com/stock-market/london/crest-nicholson-CRST/share-news/Crest-Nicholson-Holdings-PLC-Trading-update/99241873",
+    "related_news_url": "https://news.google.com/search?q=%22Crest%20Nicholson%20Holdings%20plc%22",
+    "added_at": "2026-09-03T07:19:21.291497"
+  },
+  {
     "company": "Watches Of Switzerland Group PLC",
     "ticker": "WOSG",
     "publish_date": "03 September 2026",
