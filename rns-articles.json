@@ -1,5 +1,96 @@
 [
   {
+    "company": "Rosebank Industries plc",
+    "ticker": "ROSE",
+    "publish_date": "03 September 2026",
+    "date_iso": "2026-09-03",
+    "time_period": "H1 to 30 June 2026",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Rosebank Industries plc</strong> trading ahead of full-year 2026 market expectations, with adjusted operating profit and EPS expected above <strong>Company-compiled analysts' consensus</strong> (most recently raised in <strong>July 2026</strong>).</li><li>Group adjusted operating profit of <strong>$110m</strong> (2025: <strong>$3m loss</strong>), after <strong>$13m</strong> central costs and a <strong>$4m</strong> divisional LTIP charge; adjusted diluted EPS <strong>10.3 cents</strong>; adjusted profit after tax <strong>$74m</strong>.</li><li>Statutory revenue <strong>$733m</strong> with a statutory operating loss of <strong>$34m</strong>, after <strong>$144m</strong> of adjusting items tied to acquisition/disposal activity, restructuring and non-cash items.</li><li>Net debt of <strong>$1,069m</strong> — better than market expectations — with Group leverage of <strong>2.4x</strong> at 30 June 2026.</li><li>Maiden interim dividend of <strong>2.1 cents</strong> per share (approx <strong>1.55p</strong>), payable <strong>9 October 2026</strong>, ex-date <strong>10 September 2026</strong>.</li><li>Portfolio progress: <strong>ECI</strong> adjusted operating margin <strong>16.1%</strong> (+1.0pt YoY); <strong>CPM</strong> acquired <strong>CFE UK</strong>; <strong>MW Components</strong> agreed to buy a US precision components manufacturer, subject to regulatory approval.</li></ul>",
+    "source_format": "html",
+    "headline": "Rosebank posts H1 adjusted operating profit of $110m and says 2026 will beat recently upgraded market expectations, declaring a maiden dividend.",
+    "priority": "high",
+    "priority_reason": "Interim results with trading ahead of upgraded full-year expectations and a maiden dividend.",
+    "figures": [
+      {
+        "metric": "Revenue (statutory)",
+        "current": "$733m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "statutory",
+        "note": "H1 to 30 June 2026; prior period limited to head office costs, not comparable"
+      },
+      {
+        "metric": "Adjusted operating profit",
+        "current": "$110m",
+        "prior": "$3m loss",
+        "change": "not stated",
+        "basis": "adjusted",
+        "note": "after $13m central costs and $4m divisional LTIP charge"
+      },
+      {
+        "metric": "Statutory operating loss",
+        "current": "-$34m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "statutory",
+        "note": "after $144m adjusting items"
+      },
+      {
+        "metric": "Adjusted diluted EPS",
+        "current": "10.3 cents",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "adjusted",
+        "note": "H1 2026"
+      },
+      {
+        "metric": "Adjusted profit after tax",
+        "current": "$74m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "adjusted",
+        "note": "H1 2026"
+      },
+      {
+        "metric": "Net debt",
+        "current": "$1,069m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "leverage 2.4x at 30 June 2026"
+      },
+      {
+        "metric": "Interim dividend",
+        "current": "2.1 cents (approx 1.55p)",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "maiden first interim dividend",
+        "note": "paid 9 October 2026"
+      },
+      {
+        "metric": "ECI adjusted operating margin",
+        "current": "16.1%",
+        "prior": "15.1%",
+        "change": "+1.0pt",
+        "basis": "adjusted",
+        "note": "target of at least 18%"
+      }
+    ],
+    "guidance": {
+      "status": "raised",
+      "previous": "Full-year 2026 market expectations, most recently raised in July 2026; Company-compiled consensus adjusted operating profit of $314m for 2026 and $468m for 2027",
+      "current": "Adjusted operating profit and adjusted EPS for 2026 expected to be ahead of current (July 2026) market expectations",
+      "commentary": "Rosebank is now trading ahead of expectations that were themselves already upgraded in July 2026, driven by faster-than-forecast improvement plans across ECI, CPM and MW Components. Net debt also came in better than the market anticipated."
+    },
+    "explainer": "Rosebank is a young 'Buy, Improve, Sell' industrial group, so these interim figures are not directly comparable with last year. The prior period covered only head office costs before ECI was acquired in August 2025, and the accounts have been restated into US dollars. The current half includes a full six months of ECI plus only short stubs of trading from CPM (from 12 May) and MW Components (from 28 May), which is why the comparatives are largely 'not stated' or 'not comparable'.\n\nThe headline profit measure is the adjusted operating profit of $110m, which strips out $144m of adjusting items relating to acquisitions, disposals, restructuring and non-cash charges. On a statutory basis the Group made a $34m operating loss, reflecting those one-off deal and restructuring costs typical of a business rapidly acquiring and reshaping companies.\n\nOn guidance: the key point is that 2026 adjusted operating profit and EPS are expected to come in ahead of market expectations that were already raised in July 2026 — effectively an upgrade on top of an upgrade. Company-compiled consensus stands at $314m adjusted operating profit for 2026. Management attributes the outperformance to improvement plans being implemented faster than forecast, with ECI's margin already up to 16.1% against an 18%+ target.\n\nNet debt of $1,069m (2.4x leverage) was described as better than the market expected, and the Board declared a maiden interim dividend of 2.1 cents (about 1.55p), consistent with a progressive policy building towards roughly three times dividend cover.",
+    "source_url": "https://uk.advfn.com/stock-market/london/rosebank-industries-ROSE/share-news/Rosebank-Industries-PLC-Unaudited-Results-six-mon/99241899",
+    "related_news_url": "https://news.google.com/search?q=%22Rosebank%20Industries%20plc%22",
+    "added_at": "2026-09-03T07:20:16.302464"
+  },
+  {
     "company": "Jet2 PLC",
     "ticker": "JET2",
     "publish_date": "03 September 2026",
