@@ -1,5 +1,88 @@
 [
   {
+    "company": "Safestore Holdings PLC",
+    "ticker": "SAF",
+    "publish_date": "03 September 2026",
+    "date_iso": "2026-09-03",
+    "time_period": "Q3 FY2026 (1 May 2026 to 31 July 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "Q3 FY2026 (1 May 2026 to 31 July 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Group revenue</strong> for the quarter up <strong>4.1% at CER</strong>, with contribution from both like-for-like and new stores across all markets; <strong>LFL group revenue up 1.9%</strong>.</li><li>FY 2026 <strong>Adjusted Diluted EPRA EPS</strong> now expected in the <strong>lower half</strong> of the analyst range (company-compiled consensus <strong>41.4p</strong>, range <strong>39.6–42.4p</strong>).</li><li><strong>UK LFL revenue up 1.9%</strong>, aided by Domestic demand and unit partitioning; <strong>Expansion Markets LFL up 11.6%</strong> (Spain, Netherlands, Belgium plus Germany/Italy JVs).</li><li><strong>Paris LFL revenue down 2.5%</strong> as enquiries transfer to new non-LFL stores and large-unit occupancy falls; total France revenue up <strong>1.4%</strong> (non-LFL stores added <strong>€500k</strong>).</li><li><strong>LFL closing occupancy 79.6%</strong> of CLA (Q3 2025: <strong>80.4%</strong>); one new store opened in <strong>Watford</strong> (57,500 sq ft), remaining FY26 pipeline of 167,100 sq ft on track.</li><li>Reviewing phasing of the <strong>2027-28 UK pipeline</strong> under disciplined capital allocation; pipeline itself unchanged and FY 2026 openings unchanged.</li></ul>",
+    "source_format": "html",
+    "headline": "Safestore Q3 group revenue rose **4.1%** at constant exchange rates, but FY 2026 adjusted diluted EPRA EPS is now expected in the lower half of forecasts.",
+    "priority": "high",
+    "priority_reason": "Quarterly trading update with a guidance signal — FY26 EPRA EPS expected in the lower half of the analyst range.",
+    "figures": [
+      {
+        "metric": "Group revenue growth (CER)",
+        "current": "+4.1%",
+        "prior": "not stated",
+        "change": "+4.1%",
+        "basis": "constant exchange rate, year on year",
+        "note": "Q3 to 31 July 2026"
+      },
+      {
+        "metric": "LFL group revenue growth (CER)",
+        "current": "+1.9%",
+        "prior": "not stated",
+        "change": "+1.9%",
+        "basis": "like-for-like, CER",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "UK LFL revenue growth",
+        "current": "+1.9%",
+        "prior": "not stated",
+        "change": "+1.9%",
+        "basis": "like-for-like",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "Paris LFL revenue growth",
+        "current": "-2.5%",
+        "prior": "not stated",
+        "change": "-2.5%",
+        "basis": "like-for-like",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "Expansion Markets LFL revenue growth",
+        "current": "+11.6%",
+        "prior": "not stated",
+        "change": "+11.6%",
+        "basis": "like-for-like",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "Total France revenue growth",
+        "current": "+1.4%",
+        "prior": "not stated",
+        "change": "+1.4%",
+        "basis": "total, includes non-LFL stores",
+        "note": "non-LFL added €500k"
+      },
+      {
+        "metric": "LFL closing occupancy",
+        "current": "79.6% of CLA",
+        "prior": "80.4% of CLA",
+        "change": "-0.8pp",
+        "basis": "like-for-like",
+        "note": "Q3 2026 vs Q3 2025"
+      }
+    ],
+    "guidance": {
+      "status": "lowered",
+      "previous": "Company-compiled consensus for FY 2026 Adjusted Diluted EPRA EPS: 41.4p per share with a range of 39.6 - 42.4p per share",
+      "current": "FY 2026 Adjusted Diluted EPRA EPS expected to be in the lower half of the range of analyst forecasts",
+      "commentary": "Management guided FY26 EPRA EPS towards the lower half of the forecast range, citing the expected initial overlap between new and existing Paris stores and subdued market backdrops."
+    },
+    "explainer": "Safestore reports revenue at constant exchange rate (CER), meaning euro-denominated results from France and other European markets are retranslated at the prior year's rates so growth reflects trading rather than currency swings. It also splits growth into like-for-like (only stores open throughout both periods) and total (including newly opened stores). Group revenue rose 4.1% at CER overall but only 1.9% on a like-for-like basis, showing new-store openings are doing much of the heavy lifting.\n\nThe regional picture is mixed. The UK and the Expansion Markets (Spain, Netherlands, Belgium, plus German and Italian JVs) grew like-for-like, but Paris fell 2.5% like-for-like. That decline is largely self-inflicted: new Safestore stores in the Paris region are drawing enquiries away from older like-for-like stores, so total French revenue still grew 1.4% once those new stores (€500k of added revenue) are counted.\n\nOn guidance, the key change is the FY 2026 Adjusted Diluted EPRA EPS steer moving to the lower half of the analyst range. The company-compiled consensus is 41.4p with a 39.6–42.4p range, so 'lower half' points below roughly 41p. This is a modest softening rather than a formal profit warning, driven by the Paris store overlap and a subdued economic backdrop.\n\nSeparately, Safestore is reviewing the timing (phasing) of its 2027-28 UK store pipeline given the current macro and interest-rate environment, but stresses the pipeline itself and FY 2026 openings are unchanged.",
+    "source_url": "https://uk.advfn.com/stock-market/london/safestore-SAFE/share-news/Safestore-Holdings-plc-Third-Quarter-Trading-Updat/99241894",
+    "related_news_url": "https://news.google.com/search?q=%22Safestore%20Holdings%20plc%22",
+    "added_at": "2026-09-03T07:22:11.672275"
+  },
+  {
     "company": "M&G PLC",
     "ticker": "MNG",
     "publish_date": "03 September 2026",
