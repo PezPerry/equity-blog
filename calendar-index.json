@@ -1,41 +1,401 @@
 {
   "generated": "2026-09-03",
   "by_ticker": {
+    "AAL": {
+      "date": "2026-09-29",
+      "event": "Q2 div payment"
+    },
+    "AAPL": {
+      "date": "2026-09-30",
+      "event": "Year end"
+    },
+    "ABDN": {
+      "date": "2026-09-22",
+      "event": "Special div payment"
+    },
+    "ABF": {
+      "date": "2026-09-10",
+      "event": "Trading statement"
+    },
+    "ADM": {
+      "date": "2026-09-03",
+      "event": "Q2 ex-div"
+    },
+    "AJB": {
+      "date": "2026-09-30",
+      "event": "Year end"
+    },
+    "ANTO": {
+      "date": "2026-09-03",
+      "event": "Q2 ex-div"
+    },
+    "AO.": {
+      "date": "2026-09-24",
+      "event": "AGM (Conf)"
+    },
+    "ASHM": {
+      "date": "2026-09-18",
+      "event": "Annual report (Est)"
+    },
+    "ATG": {
+      "date": "2026-09-30",
+      "event": "Year end"
+    },
+    "BAB": {
+      "date": "2026-09-16",
+      "event": "AGM (Conf)"
+    },
+    "BARC": {
+      "date": "2026-09-15",
+      "event": "Q2 div payment"
+    },
+    "BBOX": {
+      "date": "2026-09-04",
+      "event": "Q2 div payment"
+    },
+    "BGEO": {
+      "date": "2026-09-10",
+      "event": "Q2 ex-div"
+    },
     "BKG": {
       "date": "2026-09-11",
       "event": "AGM (Conf)"
+    },
+    "BOWL": {
+      "date": "2026-09-30",
+      "event": "Year end"
+    },
+    "BP.": {
+      "date": "2026-09-18",
+      "event": "Q2 div payment"
+    },
+    "BPT": {
+      "date": "2026-09-17",
+      "event": "Q2 ex-div"
     },
     "BT.A": {
       "date": "2026-09-09",
       "event": "Q4 div payment"
     },
+    "BTRW": {
+      "date": "2026-10-02",
+      "event": "Annual report (Est)"
+    },
+    "CBG": {
+      "date": "2026-10-03",
+      "event": "Annual report (Est)"
+    },
+    "CKN": {
+      "date": "2026-09-11",
+      "event": "Q2 div payment"
+    },
+    "COST": {
+      "date": "2026-09-17",
+      "event": "Q2 ex-div"
+    },
+    "CPG": {
+      "date": "2026-09-30",
+      "event": "Year end"
+    },
+    "CRDA": {
+      "date": "2026-10-06",
+      "event": "Q2 div payment"
+    },
+    "CSN": {
+      "date": "2026-09-03",
+      "event": "Q2 ex-div"
+    },
     "CURY": {
       "date": "2026-09-10",
       "event": "AGM (Conf)"
     },
+    "DGE": {
+      "date": "2026-10-15",
+      "event": "Q4 ex-div"
+    },
+    "DLN": {
+      "date": "2026-09-03",
+      "event": "Q2 ex-div"
+    },
+    "DNLM": {
+      "date": "2026-10-09",
+      "event": "Annual report (Est)"
+    },
+    "DOM": {
+      "date": "2026-09-25",
+      "event": "Q2 div payment"
+    },
+    "EMG": {
+      "date": "2026-09-18",
+      "event": "Q2 div payment"
+    },
+    "EZJ": {
+      "date": "2026-09-30",
+      "event": "Year end"
+    },
+    "FRAS": {
+      "date": "2026-09-16",
+      "event": "AGM (Conf)"
+    },
+    "GFRD": {
+      "date": "2026-10-06",
+      "event": "Annual report (Est)"
+    },
+    "GLEN": {
+      "date": "2026-09-18",
+      "event": "Q4 div payment"
+    },
     "GOOGL": {
       "date": "2026-09-04",
+      "event": "Q2 ex-div"
+    },
+    "GRG": {
+      "date": "2026-09-10",
+      "event": "Q2 ex-div"
+    },
+    "GRI": {
+      "date": "2026-09-30",
+      "event": "Year end"
+    },
+    "HBR": {
+      "date": "2026-09-24",
+      "event": "Q2 div payment"
+    },
+    "HFD": {
+      "date": "2026-09-10",
+      "event": "AGM (Conf)"
+    },
+    "HMSO": {
+      "date": "2026-09-03",
+      "event": "Q2 ex-div"
+    },
+    "HOC": {
+      "date": "2026-09-03",
+      "event": "Q2 ex-div"
+    },
+    "HSBA": {
+      "date": "2026-09-25",
+      "event": "Q2 div payment"
+    },
+    "HSX": {
+      "date": "2026-09-21",
+      "event": "Q2 div payment"
+    },
+    "HTG": {
+      "date": "2026-10-01",
+      "event": "Q2 ex-div"
+    },
+    "HWDN": {
+      "date": "2026-10-15",
+      "event": "Q2 ex-div"
+    },
+    "IGG": {
+      "date": "2026-09-17",
+      "event": "Q2 div payment"
+    },
+    "IHG": {
+      "date": "2026-10-01",
+      "event": "Q2 div payment"
+    },
+    "IHP": {
+      "date": "2026-09-30",
+      "event": "Year end"
+    },
+    "INVP": {
+      "date": "2026-09-15",
+      "event": "Q4 div payment"
+    },
+    "IWG": {
+      "date": "2026-09-10",
+      "event": "Q2 ex-div"
+    },
+    "JDW": {
+      "date": "2026-10-03",
+      "event": "Annual report (Est)"
+    },
+    "KIE": {
+      "date": "2026-10-04",
+      "event": "Annual report (Est)"
+    },
+    "KLR": {
+      "date": "2026-09-11",
+      "event": "Q2 div payment"
+    },
+    "LGEN": {
+      "date": "2026-09-25",
+      "event": "Q2 div payment"
+    },
+    "LLOY": {
+      "date": "2026-09-15",
+      "event": "Q2 div payment"
+    },
+    "LMP": {
+      "date": "2026-10-06",
+      "event": "Special div payment"
+    },
+    "LRE": {
+      "date": "2026-09-04",
+      "event": "Q2 div payment"
+    },
+    "MAB": {
+      "date": "2026-09-30",
+      "event": "Year end"
+    },
+    "MGNS": {
+      "date": "2026-10-01",
       "event": "Q2 ex-div"
     },
     "MONY": {
       "date": "2026-09-07",
       "event": "Q2 div payment"
     },
+    "MOON": {
+      "date": "2026-09-16",
+      "event": "AGM (Conf)"
+    },
+    "MRO": {
+      "date": "2026-09-25",
+      "event": "Q2 div payment"
+    },
     "MSFT": {
       "date": "2026-09-10",
-      "event": "Special div payment"
+      "event": "Q4 div payment"
+    },
+    "NVDA": {
+      "date": "2026-09-10",
+      "event": "Special ex-div"
+    },
+    "NWG": {
+      "date": "2026-09-18",
+      "event": "Q2 div payment"
+    },
+    "OSB": {
+      "date": "2026-09-18",
+      "event": "Q2 div payment"
     },
     "PAF": {
       "date": "2026-09-10",
       "event": "Annual report (Est)"
     },
+    "PAG": {
+      "date": "2026-09-30",
+      "event": "Year end"
+    },
+    "PPH": {
+      "date": "2026-09-17",
+      "event": "Q2 ex-div"
+    },
+    "PRU": {
+      "date": "2026-09-10",
+      "event": "Q2 ex-div"
+    },
+    "PSN": {
+      "date": "2026-10-15",
+      "event": "Q2 ex-div"
+    },
+    "PYPL": {
+      "date": "2026-09-04",
+      "event": "Q2 ex-div"
+    },
+    "RAT": {
+      "date": "2026-09-03",
+      "event": "Q2 ex-div"
+    },
+    "RHIM": {
+      "date": "2026-09-24",
+      "event": "Special div payment"
+    },
+    "RIO": {
+      "date": "2026-09-24",
+      "event": "Q2 div payment"
+    },
+    "RR.": {
+      "date": "2026-09-18",
+      "event": "Q2 div payment"
+    },
+    "RTO": {
+      "date": "2026-09-21",
+      "event": "Q2 div payment"
+    },
+    "SAF": {
+      "date": "2026-09-03",
+      "event": "Trading statement"
+    },
+    "SBUX": {
+      "date": "2026-09-30",
+      "event": "Year end"
+    },
+    "SGRO": {
+      "date": "2026-09-17",
+      "event": "Special div payment"
+    },
+    "SHC": {
+      "date": "2026-09-23",
+      "event": "Q2 div payment"
+    },
+    "SHEL": {
+      "date": "2026-09-21",
+      "event": "Q2 div payment"
+    },
+    "SRP": {
+      "date": "2026-10-02",
+      "event": "Q2 div payment"
+    },
+    "SSPG": {
+      "date": "2026-09-30",
+      "event": "Year end"
+    },
+    "STAN": {
+      "date": "2026-09-29",
+      "event": "Q2 div payment"
+    },
+    "STJ": {
+      "date": "2026-09-18",
+      "event": "Q2 div payment"
+    },
+    "SUPR": {
+      "date": "2026-09-17",
+      "event": "Annual report (Est)"
+    },
+    "SVS": {
+      "date": "2026-09-25",
+      "event": "Q2 div payment"
+    },
     "TBCG": {
       "date": "2026-09-11",
       "event": "Q1 div payment"
     },
+    "THRL": {
+      "date": "2026-10-14",
+      "event": "Annual report (Est)"
+    },
+    "TPK": {
+      "date": "2026-10-01",
+      "event": "Q2 ex-div"
+    },
+    "TW.": {
+      "date": "2026-10-08",
+      "event": "Q2 ex-div"
+    },
+    "ULVR": {
+      "date": "2026-09-18",
+      "event": "Q2 div payment"
+    },
+    "UTG": {
+      "date": "2026-09-17",
+      "event": "Q2 ex-div"
+    },
+    "VCT": {
+      "date": "2026-09-30",
+      "event": "Year end"
+    },
     "WOSG": {
       "date": "2026-09-03",
-      "event": "AGM (Est)"
+      "event": "AGM"
+    },
+    "ZIG": {
+      "date": "2026-09-29",
+      "event": "AGM (Conf)"
     }
   }
 }
