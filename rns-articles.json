@@ -1,5 +1,31 @@
 [
   {
+    "company": "IG Group Holdings PLC",
+    "ticker": "IGG",
+    "publish_date": "03 September 2026",
+    "date_iso": "2026-09-03",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>IG Group Holdings plc</strong> shareholders approved the proposed <strong>scheme of arrangement</strong> at both the Court Meeting and the Extraordinary General Meeting held on <strong>3 September 2026</strong>.</li><li>The scheme inserts a new <strong>Jersey-incorporated, UK tax-resident</strong> holding company, <strong>Jenkins Topco plc</strong> (to be renamed IG Group Holdings plc), as the group's ultimate parent.</li><li>At the Court Meeting the resolution passed with <strong>99.22%</strong> of shares voted in favour (<strong>70.91%</strong> by number of shareholders).</li><li>EGM resolutions passed by wide margins, including <strong>delisting</strong> from the Official List and LSE main market (<strong>97.79%</strong> for) and re-registration as a private company, <strong>IG UK Holdings Limited</strong>.</li><li>Completion remains subject to <strong>High Court</strong> sanction, with the hearing expected in <strong>calendar Q4 2026</strong>; exact dates to be confirmed.</li><li>Routine reorganisation with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "IG Group shareholders approve scheme of arrangement inserting a new Jersey-incorporated, UK tax-resident holding company, with Court sanction expected in Q4 2026.",
+    "priority": "medium",
+    "priority_reason": "Shareholders approved a group reorganisation and delisting via scheme of arrangement, a material corporate event now awaiting Court sanction.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/ig-group-holdings--igg/result-of-meeting/9754950",
+    "related_news_url": "https://news.google.com/search?q=%22IG%20Group%20Holdings%22",
+    "added_at": "2026-09-03T19:05:28.060933"
+  },
+  {
     "company": "Bytes Technology Group plc",
     "ticker": "BYIT",
     "publish_date": "03 September 2026",
