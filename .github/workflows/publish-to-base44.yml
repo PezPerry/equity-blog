@@ -22,14 +22,29 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v5
         with:
-          fetch-depth: 2
+          fetch-depth: 0
           ref: ${{ github.ref_name }}
+
+      - name: Resolve the pushed commit range
+        run: |
+          # A push can carry several commits, and another push (the RNS/ONS pipeline is
+          # busy) can land seconds later, so diffing HEAD~1..HEAD misses articles. Diff
+          # the whole pushed range instead, falling back to the last commit when the
+          # "before" commit is unknown (first push, force push) or not an ancestor.
+          BEFORE="${{ github.event.before }}"
+          AFTER="${{ github.sha }}"
+          RANGE="HEAD~1..HEAD"
+          if [ -n "$BEFORE" ] && ! echo "$BEFORE" | grep -qE '^0+$' && git cat-file -e "$BEFORE^{commit}" 2>/dev/null && git cat-file -e "$AFTER^{commit}" 2>/dev/null && git merge-base --is-ancestor "$BEFORE" "$AFTER"; then
+            RANGE="$BEFORE..$AFTER"
+          fi
+          echo "Detecting new articles over $RANGE"
+          echo "RANGE=$RANGE" >> "$GITHUB_ENV"
 
       - name: Detect and publish new HTML articles
         env:
           BASE44_API_KEY: ${{ secrets.BASE44_API_KEY }}
         run: |
-          NEW_FILES=$(git diff --name-only --diff-filter=A HEAD~1 HEAD -- '*.html' ':!longreads/' | grep -vE '^(rns-news|guidance-tracker|tv-swipe|financial-calendar[^/]*|front-page|index)\.html$' || true)
+          NEW_FILES=$(git diff --name-only --diff-filter=A "$RANGE" -- '*.html' ':!longreads/' | grep -vE '^(rns-news|guidance-tracker|tv-swipe|financial-calendar[^/]*|front-page|index)\.html$' || true)
 
           if [ -z "$NEW_FILES" ]; then
             echo "No new HTML articles detected. Skipping."
@@ -170,7 +185,7 @@ jobs:
 
       - name: Rotate the front page
         run: |
-          NEW_FILES=$(git diff --name-only --diff-filter=A HEAD~1 HEAD -- '*.html' ':!longreads/' | grep -vE '^(rns-news|guidance-tracker|tv-swipe|financial-calendar[^/]*|front-page|index)\.html$' || true)
+          NEW_FILES=$(git diff --name-only --diff-filter=A "$RANGE" -- '*.html' ':!longreads/' | grep -vE '^(rns-news|guidance-tracker|tv-swipe|financial-calendar[^/]*|front-page|index)\.html$' || true)
 
           if [ -z "$NEW_FILES" ]; then
             echo "No new articles. Front page unchanged."
@@ -185,8 +200,11 @@ jobs:
           done
 
           if git diff --quiet -- front-page.html front-page-tiles.json; then
-            echo "Front page already up to date."
-            exit 0
+            # New articles were found but nothing was registered: either the slug was
+            # already in the registry or build-front-page.py held it off (cover missing).
+            # Fail loudly so a skipped rotation is never a silent green run.
+            echo "::warning::New article(s) detected but the front page did not change: $(echo "$NEW_FILES" | paste -sd ' ' -)"
+            exit 1
           fi
 
           git config user.name  "github-actions[bot]"
