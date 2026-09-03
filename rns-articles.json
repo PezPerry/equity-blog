@@ -1,5 +1,88 @@
 [
   {
+    "company": "Ferrexpo PLC",
+    "ticker": "FXPO",
+    "publish_date": "03 September 2026",
+    "date_iso": "2026-09-03",
+    "time_period": "FY to 31 December 2025",
+    "announcement_type": "Annual results",
+    "period_detail": "FY to 31 December 2025",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>FY2025 loss of US$224 million</strong> (2024: not stated as loss), driven largely by a <strong>non-cash impairment of US$154 million</strong> on operating assets, against a prior-year impairment of <strong>US$50 million</strong>.</li><li><strong>Revenue down 16% to US$787 million</strong> (2024: <strong>US$933 million</strong>) on lower realised prices and a higher mix of lower-priced iron ore concentrate; <strong>underlying EBITDA down 60% to US$28 million</strong> (2024: US$69 million), a <strong>3% margin</strong> (2024: 7%).</li><li>Company intends to launch an <strong>equity capital raise of approximately US$100 million</strong> via conditional placing and subscription to fund operations for the next <strong>18 months</strong> and continue as a <strong>going concern</strong>; a separate shareholder meeting to be convened.</li><li><strong>VAT refunds of US$61 million withheld</strong> by Ukrainian tax authorities forced pellet-line capacity cuts from <strong>50% to 25%</strong>; year-end cash fell to <strong>US$58 million</strong> from <strong>US$106 million</strong>, though net cash was <strong>US$47 million</strong> and the Group is essentially debt-free.</li><li>Total iron ore production <strong>6.1 million tonnes</strong>, down <strong>9%</strong> on 2024's 6.8mt; pivoted to record premium concentrate output of <strong>2.9 million tonnes</strong> (48% of mix vs 10% in 2024) as European pellet demand weakened.</li><li><strong>Poltava court opened bankruptcy proceedings against Ferrexpo Poltava Mining</strong> on 24 February 2026 over the <strong>Maxi Capital</strong> civil claim, which the Group disputes; transhipping vessel <strong>Iron Destiny</strong> sold for <strong>US$7.7 million</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Ferrexpo posts a **US$224m** FY2025 loss and flags a **US$100m** equity raise to fund operations amid VAT withholding and power disruption in Ukraine.",
+    "priority": "high",
+    "priority_reason": "Full-year results showing a heavy loss plus a flagged US$100m equity raise and going-concern pressures.",
+    "figures": [
+      {
+        "metric": "Revenue",
+        "current": "US$787m",
+        "prior": "US$933m",
+        "change": "-16%",
+        "basis": "reported",
+        "note": "FY to 31 December 2025"
+      },
+      {
+        "metric": "Underlying EBITDA",
+        "current": "US$28m",
+        "prior": "US$69m",
+        "change": "-60%",
+        "basis": "underlying",
+        "note": "margin 3% vs 7%"
+      },
+      {
+        "metric": "Net profit / (loss)",
+        "current": "US$(224)m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "includes US$154m non-cash impairment"
+      },
+      {
+        "metric": "Net cash from operating activities",
+        "current": "US$3m",
+        "prior": "US$92m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": ""
+      },
+      {
+        "metric": "Capital expenditure",
+        "current": "US$49m",
+        "prior": "US$102m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": ""
+      },
+      {
+        "metric": "Net cash position",
+        "current": "US$47m",
+        "prior": "US$101m",
+        "change": "not stated",
+        "basis": "as at 31 December",
+        "note": "essentially debt-free"
+      },
+      {
+        "metric": "Total iron ore production",
+        "current": "6.1mt",
+        "prior": "6.8mt",
+        "change": "-9%",
+        "basis": "reported",
+        "note": ""
+      }
+    ],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": "No formal quantitative guidance provided; the Group flags reduced operations for the next 18 months and the need for additional capital to continue as a going concern."
+    },
+    "explainer": "The 16% revenue fall reflects two things: lower realised iron ore prices (benchmark 65% Fe fell 7% on average, and the Atlantic blast furnace premium fell 24%), and a shift in sales mix. With European demand for premium pellets weak, Ferrexpo pivoted to selling iron ore concentrate to China. Concentrate is still a premium product but sells for less than pellets, so higher volumes brought in less revenue and squeezed margins — underlying EBITDA margin collapsed to 3% from 7%.\n\nThe headline US$224 million loss is dominated by a US$154 million non-cash impairment — a write-down of asset values, not a cash outflow. Cash generation was nonetheless very weak: operating cash flow was just US$3 million versus US$92 million a year earlier, largely because Ukrainian tax authorities withheld US$61 million of VAT refunds. Ferrexpo carries that US$61 million as a receivable; adding it back, it says liquidity would have been US$119 million, above the year's opening level.\n\nThe key forward-looking point is the planned equity raise of about US$100 million via a conditional placing and subscription. The Group needs additional capital to fund operations over the next 18 months and to continue as a going concern, having been forced to cut pellet capacity and, late in the year, shut down entirely for a period due to power shortages and infrastructure attacks. A separate shareholder meeting will be called to pass the necessary resolutions.",
+    "source_url": "https://uk.advfn.com/stock-market/london/ferrexpo-FXPO/share-news/Ferrexpo-PLC-Full-Year-Financial-Results-for-2025/99247228",
+    "related_news_url": "https://news.google.com/search?q=%22Ferrexpo%20plc%22",
+    "added_at": "2026-09-03T16:16:27.792591"
+  },
+  {
     "company": "Schroder European Real Estate Investment Trust Ltd",
     "ticker": "SERE",
     "publish_date": "03 September 2026",
