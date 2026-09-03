@@ -1,5 +1,72 @@
 [
   {
+    "company": "Jet2 PLC",
+    "ticker": "JET2",
+    "publish_date": "03 September 2026",
+    "date_iso": "2026-09-03",
+    "time_period": "FY to 31 March 2027 (Summer 2026 / Winter 2026-27)",
+    "announcement_type": "Trading update",
+    "period_detail": "FY to 31 March 2027 (Summer 2026 / Winter 2026-27)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Jet2 plc</strong> issues an AGM trading update and confirms its <strong>intention to move from AIM to the Main Market</strong> (ESCC category of the Official List), targeting Admission <strong>before the end of the current financial year</strong>.</li><li><strong>Summer 2026</strong> seat capacity <strong>+7.6%</strong> vs Summer 2025 at <strong>19.9m seats</strong>, with booked-to-date passengers <strong>+8.8%</strong>; combined booked average load factor to end-August <strong>1.5ppts ahead</strong> of prior year.</li><li><strong>London Gatwick</strong> performing ahead of expectations on a stronger package holiday mix; aircraft on sale from Gatwick raised to <strong>seven</strong> for Summer 2027.</li><li><strong>Winter 2026/27</strong> on-sale seat capacity <strong>+8.0%</strong> vs Winter 2025/26 at <strong>5.9m seats</strong>, mostly from Gatwick (<strong>+0.4m seats</strong>) plus <strong>0.6%</strong> growth at established bases.</li><li>Hedging: <strong>93%</strong> of full-year jet fuel hedged at an average <strong>$753</strong>, and over <strong>90%</strong> of foreign exchange hedged, giving high cost certainty.</li><li>Interim results to be announced on <strong>18 November 2026</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Jet2 reports Summer 2026 seat capacity up 7.6% and passengers up 8.8%, and announces intention to move to the LSE Main Market before its financial year-end.",
+    "priority": "high",
+    "priority_reason": "AGM trading update showing capacity and load-factor growth, plus intention to move from AIM to the Main Market.",
+    "figures": [
+      {
+        "metric": "Summer 2026 seat capacity",
+        "current": "19.9m seats (+7.6%)",
+        "prior": "Summer 2025",
+        "change": "+7.6%",
+        "basis": "",
+        "note": "Booked-to-date passengers +8.8%"
+      },
+      {
+        "metric": "Booked average load factor",
+        "current": "1.5ppts ahead",
+        "prior": "prior year",
+        "change": "+1.5ppts",
+        "basis": "combined, to end-August",
+        "note": ""
+      },
+      {
+        "metric": "Winter 2026/27 on-sale seat capacity",
+        "current": "5.9m seats (+8.0%)",
+        "prior": "Winter 2025/26",
+        "change": "+8.0%",
+        "basis": "",
+        "note": "Increase mainly at London Gatwick (+0.4m seats)"
+      },
+      {
+        "metric": "Jet fuel hedged",
+        "current": "93% at avg $753",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "full financial year",
+        "note": ""
+      },
+      {
+        "metric": "FX hedged",
+        "current": "over 90%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": ""
+      }
+    ],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": "No specific profit or numerical guidance issued; management notes confidence for the remainder of the financial year following sustained peak-summer demand."
+    },
+    "explainer": "This is Jet2's AGM trading update, covering how bookings are tracking rather than reported financial results. The figures compare the current Summer 2026 and Winter 2026/27 booking seasons with the equivalent prior-year seasons: seat capacity (seats put on sale) is up 7.6% for summer and 8.0% for winter, and passengers booked so far are up 8.8%. Load factor — the share of available seats sold — is running 1.5 percentage points ahead of last year to the end of August, which points to demand keeping pace with the extra capacity.\n\nCustomers continuing to \"book closer to departure\" means more sales are landing late in the cycle, so the current booked position understates where the season may finish. The hedging figures (93% of jet fuel at an average $753, over 90% of FX) lock in most of the group's fuel and currency costs for the year, reducing exposure to swings in oil prices and sterling.\n\nSeparately, Jet2 intends to move up from AIM to the Main Market of the London Stock Exchange (the ESCC category), which it expects to complete before its financial year-end. This is a listing change, not a fundraising, intended to reflect the group's scale and broaden its institutional investor base. No numerical profit guidance was given; the next update comes with interim results on 18 November 2026.",
+    "source_url": "https://uk.advfn.com/stock-market/london/jet2-JET2/share-news/Jet2-PLC-AGM-Statement-Intended-Move-to-the-Main/99241874",
+    "related_news_url": "https://news.google.com/search?q=%22Jet2%20plc%22",
+    "added_at": "2026-09-03T07:19:48.311015"
+  },
+  {
     "company": "Londonmetric Property PLC",
     "ticker": "LMP",
     "publish_date": "03 September 2026",
