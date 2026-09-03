@@ -1,5 +1,57 @@
 [
   {
+    "company": "Watches Of Switzerland Group PLC",
+    "ticker": "WOSG",
+    "publish_date": "03 September 2026",
+    "date_iso": "2026-09-03",
+    "time_period": "17 weeks to 30 August 2026 (FY27)",
+    "announcement_type": "Trading update",
+    "period_detail": "17 weeks to 30 August 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Trading momentum</strong> over the <strong>17 weeks to 30 August 2026</strong> remained consistent with positive trends reported at FY26 results; <strong>FY27 guidance reiterated</strong>.</li><li><strong>US trading remained strong</strong> and the <strong>UK showed further signs of market improvement</strong>, with broad-based demand across key luxury brands.</li><li>Strategic growth pillars — <strong>Luxury Jewellery, Certified Pre-Owned and Ecommerce</strong> — delivered diversified growth; <strong>Deutsch & Deutsch</strong> integration progressing well with a positive impact.</li><li>Showroom pipeline on track: new openings before Christmas including <strong>Rolex Glasgow</strong>, <strong>Betteridge Greenwich (Connecticut)</strong> and new <strong>Watches of Switzerland and Mayors showrooms in Marlton, New Jersey</strong>.</li><li>Group reiterated <strong>FY27 52-week guidance</strong> (organic, pre-IFRS 16 and IFRS 16 bases); <strong>note: the specific guidance figures were presented in tables that did not carry through in the scraped text</strong>.</li><li>Confident of <strong>another year of strong revenue growth and a return to EBIT margin expansion</strong>; FY26 actual average £/$ rate was <strong>$1.34</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Watches of Switzerland reports continued positive trading momentum over the 17 weeks to 30 August 2026 and reiterates its FY27 guidance.",
+    "priority": "high",
+    "priority_reason": "AGM trading update with reiterated full-year guidance from a listed retailer, directly relevant to trading.",
+    "figures": [],
+    "guidance": {
+      "status": "maintained",
+      "previous": "FY27 52-week guidance on organic pre-IFRS 16 and IFRS 16 bases (specific figures not carried through in the scraped text)",
+      "current": "Same FY27 guidance reiterated (specific figures not carried through in the scraped text)",
+      "commentary": "Guidance is unchanged/reiterated: management points to continued strong revenue growth and a return to adjusted EBIT margin expansion. The numeric guidance tables were not captured in the scraped article, so the exact figures cannot be quoted."
+    },
+    "explainer": "This is an AGM-day trading update covering the first 17 weeks of the FY27 financial year, to 30 August 2026. It is a narrative statement rather than a full set of results, so it contains commentary on trends rather than headline revenue or profit figures with prior-year comparatives.\n\nThe company says demand held up across its main markets — the US described as strong and the UK improving — and reiterated (kept unchanged) its full-year FY27 guidance. Guidance is given on two accounting bases: organic pre-IFRS 16 (which strips out the lease-accounting standard to show underlying trading) and an IFRS 16 equivalent. The specific numbers behind that guidance were set out in tables that did not carry through into the scraped text, so they cannot be quoted here.\n\nOne sensitivity to watch is currency: a large part of the group's profit comes from US operations, so the £/$ exchange rate affects the sterling result on translation. The FY26 actual average rate was $1.34.",
+    "source_url": "https://uk.advfn.com/stock-market/london/watches-of-switzerland-WOSG/share-news/Watches-of-Switzerland-Group-PLC-AGM-Trading-Updat/99241867",
+    "related_news_url": "https://news.google.com/search?q=%22Watches%20of%20Switzerland%20Group%20PLC%22",
+    "added_at": "2026-09-03T07:18:39.730972"
+  },
+  {
+    "company": "Galliford Try Holdings PLC",
+    "ticker": "GFRD",
+    "publish_date": "03 September 2026",
+    "date_iso": "2026-09-03",
+    "time_period": "",
+    "announcement_type": "Acquisition / deal",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Galliford Try</strong> appointed to a <strong>£110 million</strong> contract to deliver the <strong>River Mease Improvement project</strong> on behalf of <strong>Severn Trent Water</strong>.</li><li>Work sits within the group's <strong>Environment</strong> business and is driven by <strong>Water Industry National Environment Programme (WINEP)</strong> requirements.</li><li>Scope includes a <strong>23km cross-country pipeline</strong> conveying flows from the <strong>Packington and Measham</strong> treatment works.</li><li>Chief Executive <strong>Bill Hocking</strong> said the win strengthens a long-standing relationship with Severn Trent on large-scale water and wastewater infrastructure.</li></ul>",
+    "source_format": "html",
+    "headline": "Galliford Try's Environment business wins a £110 million contract to deliver the River Mease Improvement project for Severn Trent Water.",
+    "priority": "high",
+    "priority_reason": "Major contract win worth £110 million, material to the construction group's order book.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/galliford-try-GFRD/share-news/Galliford-Try-Holdings-PLC-Contract/99241837",
+    "related_news_url": "https://news.google.com/search?q=%22Galliford%20Try%20Holdings%20plc%22",
+    "added_at": "2026-09-03T07:18:39.717710"
+  },
+  {
     "company": "DCC Energy",
     "ticker": "DCC",
     "publish_date": "03 September 2026",
