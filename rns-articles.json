@@ -1,5 +1,96 @@
 [
   {
+    "company": "Tribal Group PLC",
+    "ticker": "TRB",
+    "publish_date": "03 September 2026",
+    "date_iso": "2026-09-03",
+    "time_period": "H1 to 30 June 2026",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Tribal Group plc</strong> posted <strong>H1 2026</strong> interim results (six months to <strong>30 June 2026</strong>), with total <strong>ARR up 9.7% to £66.5m</strong> (H1 2025: £60.6m) and <strong>NRR of 109%</strong> (105%), all figures constant currency.</li><li><strong>Student Information Systems revenue up 6.6% to £38.9m</strong> and <strong>Etio revenue up 9.4% to £10.0m</strong>; core ARR up 10.7% to £64.6m.</li><li><strong>Adjusted EBITDA stable at £8.7m</strong> but margin down <strong>1.2ppt to 17.8%</strong>, driven by a <strong>£0.9m adverse forex swing</strong> on intercompany balances.</li><li><strong>Statutory profit after tax fell to £3.9m</strong> (H1 2025: £4.3m), reflecting higher amortisation including a <strong>£0.7m one-off charge</strong>.</li><li><strong>Net cash of £0.6m</strong> at period-end, a <strong>£4.5m improvement</strong> from net debt of £3.9m, despite paying <strong>£6.0m of dividends</strong>.</li><li>Guidance maintained: FY26 revenue and adjusted EBITDA expected <strong>comfortably in line with market expectations</strong> (consensus revenue £93.6m, adjusted EBITDA £17.0m).</li></ul>",
+    "source_format": "html",
+    "headline": "Tribal grew H1 2026 ARR 9.7% to £66.5m with net cash restored, and expects FY26 comfortably in line with market expectations.",
+    "priority": "high",
+    "priority_reason": "Interim results with confirmation FY26 will be comfortably in line with market expectations.",
+    "figures": [
+      {
+        "metric": "Total ARR",
+        "current": "£66.5m",
+        "prior": "£60.6m",
+        "change": "+9.7%",
+        "basis": "constant currency",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Core ARR",
+        "current": "£64.6m",
+        "prior": "£58.3m",
+        "change": "+10.7%",
+        "basis": "constant currency",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Net Revenue Retention",
+        "current": "109%",
+        "prior": "105%",
+        "change": "+4ppt",
+        "basis": "not stated",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Student Information Systems revenue",
+        "current": "£38.9m",
+        "prior": "£36.5m",
+        "change": "+6.6%",
+        "basis": "constant currency",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Etio revenue",
+        "current": "£10.0m",
+        "prior": "£9.2m",
+        "change": "+9.4%",
+        "basis": "constant currency",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Adjusted EBITDA",
+        "current": "£8.7m",
+        "prior": "£8.7m",
+        "change": "stable",
+        "basis": "constant currency, continuing operations",
+        "note": "margin 17.8%, down 1.2ppt"
+      },
+      {
+        "metric": "Statutory profit after tax",
+        "current": "£3.9m",
+        "prior": "£4.3m",
+        "change": "-9.3%",
+        "basis": "not stated",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Net cash / (debt)",
+        "current": "£0.6m net cash",
+        "prior": "£3.9m net debt",
+        "change": "+£4.5m",
+        "basis": "not stated",
+        "note": "after £6.0m dividends paid"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "not stated",
+      "current": "Tribal expects to deliver revenue and adjusted EBITDA for FY26 comfortably in line with current market expectations",
+      "commentary": "Management reaffirmed full-year expectations. As at 2 September 2026, consensus FY26 stood at revenue £93.6m, adjusted EBITDA £17.0m and net cash (excluding leases) £9.4m."
+    },
+    "explainer": "All growth rates are stated on a constant-currency basis, meaning the prior-year figures have been restated at 2026 exchange rates so that reported changes strip out the effect of currency movements rather than underlying trading. ARR (annual recurring revenue) and NRR (net revenue retention, at 109%) point to a steadily expanding, sticky subscription base as Tribal shifts customers towards its cloud/SaaS model.\n\nAdjusted EBITDA was flat at £8.7m, and the 1.2 percentage-point margin dip to 17.8% was largely a £0.9m adverse foreign-exchange swing on intercompany balances rather than an operational deterioration. Statutory profit after tax slipped to £3.9m mainly because of higher amortisation of development costs, including a one-off £0.7m charge from a routine review that realigned the amortisation schedule to product go-live dates — a non-cash, accounting timing effect.\n\nThe balance sheet strengthened notably: the group moved from £3.9m net debt a year ago to £0.6m net cash, even after paying £6.0m of dividends, and management expects cash to keep building in H2 in line with the usual phasing of renewals.\n\nOn guidance, nothing changed — the company reaffirmed that FY26 revenue and adjusted EBITDA will be 'comfortably in line' with market expectations, which it helpfully quantified as consensus revenue of £93.6m and adjusted EBITDA of £17.0m.",
+    "source_url": "https://uk.advfn.com/stock-market/london/tribal-TRB/share-news/Tribal-Group-PLC-Results-for-the-six-months-ended/99241902",
+    "related_news_url": "https://news.google.com/search?q=%22Tribal%20Group%20plc%22",
+    "added_at": "2026-09-03T07:21:23.891969"
+  },
+  {
     "company": "Alfa Financial Software Holdings PLC",
     "ticker": "ALFA",
     "publish_date": "03 September 2026",
