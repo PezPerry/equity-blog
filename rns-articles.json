@@ -1,5 +1,31 @@
 [
   {
+    "company": "HSBC Holdings PLC",
+    "ticker": "HSBA",
+    "publish_date": "03 September 2026",
+    "date_iso": "2026-09-03",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li>Routine pre-stabilisation notice: <strong>HSBC Holdings plc</strong> to issue a <strong>GBP benchmark</strong> fixed-rate note <strong>due 11 September 2035 (NC 8)</strong>.</li><li><strong>HSBC Bank plc</strong> named as Stabilising Manager; stabilisation period expected to run <strong>3 September 2026</strong> to <strong>9 October 2026</strong> (source shows a garbled '026' year).</li><li>Over-allotment facility of up to <strong>5%</strong> of aggregate nominal amount; venue over-the-counter. Procedural disclosure only, with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "HSBC gives pre-stabilisation notice for a GBP benchmark fixed-rate note due 11 September 2035 (non-call 8), with stabilisation running to 9 October 2026.",
+    "priority": "low",
+    "priority_reason": "Routine procedural stabilisation notice for a sterling bond issue, with no financial results or price-sensitive news.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/hsbc-holdings--hsba/pre-stabilisation-notice/9753954",
+    "related_news_url": "https://news.google.com/search?q=%22HSBC%20Holdings%22",
+    "added_at": "2026-09-03T09:35:54.480816"
+  },
+  {
     "company": "Kingfisher PLC",
     "ticker": "KGF",
     "publish_date": "03 September 2026",
