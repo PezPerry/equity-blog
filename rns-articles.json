@@ -1,5 +1,40 @@
 [
   {
+    "company": "M&G PLC",
+    "ticker": "MNG",
+    "publish_date": "03 September 2026",
+    "date_iso": "2026-09-03",
+    "time_period": "H1 2026 (six months ended 30 June 2026)",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 2026 (six months ended 30 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>M&G plc</strong> has issued its <strong>2026 Interim Financial Report</strong> and interim results for the six months ended <strong>30 June 2026</strong>.</li><li>Declared an interim dividend of <strong>6.8 pence per share</strong>, payable in <strong>October 2026</strong>.</li><li>This is a <strong>DTR 6.3.5R(1A)</strong> notice — the full unedited report is on the M&G website and the FCA's National Storage Mechanism; <strong>no financial detail or comparatives are printed in this announcement itself</strong>.</li><li>Headline metrics (adjusted operating profit, capital, flows) are not available in the scraped text — refer to the full Interim Financial Report.</li></ul>",
+    "source_format": "html",
+    "headline": "M&G plc reports its half-year 2026 results for the six months ended 30 June 2026 and declares an interim dividend of 6.8 pence per share.",
+    "priority": "high",
+    "priority_reason": "Half-year results release with an interim dividend declaration for a FTSE 100 asset manager.",
+    "figures": [
+      {
+        "metric": "Interim dividend per share",
+        "current": "6.8p",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "not stated",
+        "note": "H1 to 30 June 2026, payable October 2026"
+      }
+    ],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "This announcement is the regulatory notice (under Disclosure Guidance & Transparency Rule 6.3.5R) that M&G has published its 2026 interim results. It confirms the reporting period — the six months to 30 June 2026 — and a declared interim dividend of 6.8 pence per share, to be paid in October.\n\nThe notice itself does not carry the substance of the results. It contains no revenue, profit, capital or net-flow figures, and no prior-year comparatives, so the change versus H1 2025 cannot be assessed from this text. The detailed numbers sit in the full Interim Financial Report on M&G's website and the FCA's National Storage Mechanism, which would need to be read to judge performance and any comparison with consensus.",
+    "source_url": "https://uk.advfn.com/stock-market/london/m-g-MNG/share-news/M-G-PLC-M-G-plc-Half-Year-2026-Results/99241898",
+    "related_news_url": "https://news.google.com/search?q=%22M%26G%20plc%22",
+    "added_at": "2026-09-03T07:21:45.068335"
+  },
+  {
     "company": "Tribal Group PLC",
     "ticker": "TRB",
     "publish_date": "03 September 2026",
