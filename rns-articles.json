@@ -1,5 +1,104 @@
 [
   {
+    "company": "Hilton Food Group PLC",
+    "ticker": "HFG",
+    "publish_date": "03 September 2026",
+    "date_iso": "2026-09-03",
+    "time_period": "H1 2026 (six months to end June 2026)",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 2026 (six months to end June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Hilton Food Group plc</strong> H1 2026 adjusted PBT from continuing operations <strong>£32.8m</strong>, <strong>down 5.2%</strong> vs H1 2025 (<strong>down 8.9%</strong> on constant currency) but <strong>ahead of expectations</strong>.</li><li>FY 2026 adjusted PBT guidance <strong>raised to £66m-£71m</strong> from <strong>£60m-£65m</strong>, reflecting removal of Dalco losses and favourable FX.</li><li>Volumes from continuing operations <strong>up 2.1%</strong>; revenue <strong>up 11.5%</strong> on constant currency (higher raw material prices); <strong>Foppen</strong> seafood margin pressure the main drag.</li><li>Statutory PBT (continuing) <strong>£11.8m</strong> after <strong>£21.0m</strong> exceptional items; total PBT also hit by <strong>£16.7m</strong> non-cash impairment on the agreed sale of <strong>Dalco</strong>.</li><li>Adjusted basic EPS <strong>25.7p</strong> (down 12.7% cc); interim dividend held at <strong>10.1p</strong>; net bank debt <strong>£194.4m</strong> (H1 2025: £202.4m).</li><li>Strategic progress: <strong>Dalco</strong> sale agreed, <strong>Saudi Arabia</strong> JV on track for Q4 2026, <strong>Canada</strong> facility launching January 2027; both projects to contribute to earnings from 2027.</li></ul>",
+    "source_format": "html",
+    "headline": "Hilton Foods raised full-year adjusted PBT guidance to £66m-£71m despite H1 adjusted PBT falling 5.2% to £32.8m on Foppen seafood weakness.",
+    "priority": "high",
+    "priority_reason": "Interim results with a raised full-year profit guidance range.",
+    "figures": [
+      {
+        "metric": "Adjusted PBT (continuing ops)",
+        "current": "£32.8m",
+        "prior": "not stated",
+        "change": "-5.2% (reported); -8.9% constant currency",
+        "basis": "continuing operations",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "Revenue (continuing ops)",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+11.5%",
+        "basis": "constant currency",
+        "note": "reflects higher average raw material prices"
+      },
+      {
+        "metric": "Volumes (continuing ops)",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+2.1%",
+        "basis": "not stated",
+        "note": "H1 2026"
+      },
+      {
+        "metric": "Statutory PBT (continuing ops)",
+        "current": "£11.8m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "statutory",
+        "note": "includes £21.0m exceptional items"
+      },
+      {
+        "metric": "Adjusted basic EPS (continuing ops)",
+        "current": "25.7p",
+        "prior": "not stated",
+        "change": "-12.7% constant currency",
+        "basis": "continuing operations",
+        "note": "H1 2026"
+      },
+      {
+        "metric": "Statutory basic EPS (continuing ops)",
+        "current": "7.7p",
+        "prior": "22.1p",
+        "change": "not stated",
+        "basis": "statutory",
+        "note": "H1 2025: 22.1p"
+      },
+      {
+        "metric": "Interim dividend",
+        "current": "10.1p",
+        "prior": "10.1p",
+        "change": "unchanged",
+        "basis": "not stated",
+        "note": "2025 interim dividend also 10.1p"
+      },
+      {
+        "metric": "Net bank debt",
+        "current": "£194.4m",
+        "prior": "£202.4m",
+        "change": "not stated",
+        "basis": "not stated",
+        "note": "H1 2025: £202.4m; FY 2025: £126.7m"
+      },
+      {
+        "metric": "Adjusted free cash flow",
+        "current": "£10.4m",
+        "prior": "-£30.8m",
+        "change": "not stated",
+        "basis": "not stated",
+        "note": "H1 2025 was an outflow of £30.8m"
+      }
+    ],
+    "guidance": {
+      "status": "raised",
+      "previous": "FY 2026 adjusted PBT from continuing operations of £60m-£65m",
+      "current": "FY 2026 adjusted PBT from continuing operations of £66m-£71m",
+      "commentary": "Guidance was lifted by roughly £6m at both ends of the range, driven by the removal of loss-making Dalco (now held for sale) and favourable year-on-year FX movements, despite continuing challenges at Foppen. Core capex guidance is unchanged at around £100m, with core spend at the lower end of the previously guided £50m-£55m range."
+    },
+    "explainer": "Hilton's headline profit measure is adjusted PBT from continuing operations, which strips out already-sold Fairfax Meadow and the Dalco vegan/vegetarian business now held for sale. On that basis first-half profit of £32.8m was down 5.2% as reported, or 8.9% on a constant-currency basis, which removes the distorting effect of a stronger Australian dollar. Revenue rose 11.5% at constant currency but this largely reflects higher raw material (meat) prices being passed through rather than underlying growth; volumes, a cleaner gauge, rose 2.1%.\n\nThe weakness was concentrated in seafood, specifically Foppen smoked salmon, where regulatory restrictions on exports from Greece to the US hit margins. Core meat and fresh prepared food traded well, with Central European fresh prepared food volumes up 26%. Statutory PBT of £11.8m is far below the adjusted figure because it carries £21.0m of one-off exceptional and restructuring costs, plus a separate £16.7m non-cash impairment tied to the agreed Dalco disposal.\n\nThe key positive is the upgraded full-year outlook. Management now expects adjusted PBT of £66m-£71m, up from £60m-£65m. Importantly this upgrade is largely mechanical — it comes from stripping out Dalco's losses and from currency tailwinds — rather than from stronger underlying trading, which management notes still faces high raw material prices and ongoing Foppen difficulties. The interim dividend is held flat at 10.1p, and net debt is expected to rise over the year due to elevated capex on the Canada and Saudi Arabia projects plus extra frozen inventory purchases, though gearing should stay within the 1-2x net debt/EBITDA target.",
+    "source_url": "https://uk.advfn.com/stock-market/london/hilton-food-HFG/share-news/Hilton-Food-Group-PLC-Interim-Results/99241890",
+    "related_news_url": "https://news.google.com/search?q=%22Hilton%20Food%20Group%20plc%22",
+    "added_at": "2026-09-03T07:22:44.184547"
+  },
+  {
     "company": "Safestore Holdings PLC",
     "ticker": "SAF",
     "publish_date": "03 September 2026",
