@@ -1,5 +1,57 @@
 [
   {
+    "company": "Yellow Cake PLC",
+    "ticker": "YCA",
+    "publish_date": "04 September 2026",
+    "date_iso": "2026-09-04",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>CEO Andre Liebenberg</strong> granted nil-cost options over <strong>27,065</strong> ordinary shares and <strong>CFO Carole Whittall</strong> over <strong>11,502</strong> shares under the Yellow Cake plc Share Option Plan 2019.</li><li>Awards granted on <strong>3 September 2026</strong>, priced off a Commencement Price of <strong>£6.33</strong> (higher of NAV per share and mid-market close at 31 March 2026 year-end).</li><li>Vest on <strong>1 April 2029</strong> subject to three-year share price performance vs uranium comparators (SPUT, U3O8 spot, uranium ETF basket; 80% weight) and growth in uranium holdings/revenue (20%).</li><li>Routine Article 19 MAR PDMR notification and LTIP grant — <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Yellow Cake granted nil-cost LTIP options over 38,567 shares to its CEO and CFO, vesting April 2029 subject to performance conditions.",
+    "priority": "low",
+    "priority_reason": "Routine PDMR LTIP grant under Article 19 MAR with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/yellow-cake--yca/grant-of-awards-under-long-term-incentive-plan/9755170",
+    "related_news_url": "https://news.google.com/search?q=%22Yellow%20Cake%22",
+    "added_at": "2026-09-04T09:55:53.447073"
+  },
+  {
+    "company": "CLS Holdings PLC",
+    "ticker": "CLI",
+    "publish_date": "04 September 2026",
+    "date_iso": "2026-09-04",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li>Non-executive director <strong>Johannes Conradi</strong> appointed to the Supervisory Board of <strong>Branicks Group AG</strong> (effective <strong>1 September 2026</strong>) and of subsidiary <strong>VIB Vermögen AG</strong> (effective <strong>31 August 2026</strong>), both listed on the <strong>Frankfurt Stock Exchange</strong>.</li><li>The Branicks appointment is subject to a shareholder vote at its General Meeting on <strong>9 October 2026</strong>.</li><li>Routine disclosure under <strong>Listing Rule 6.4.9(2)R</strong>, with <strong>no impact</strong> on CLS Holdings' trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "CLS Holdings non-executive director Johannes Conradi appointed to the supervisory boards of Frankfurt-listed Branicks Group AG and subsidiary VIB Vermögen AG.",
+    "priority": "low",
+    "priority_reason": "Routine Listing Rule 6.4.9 disclosure of a non-executive director's external appointments, with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/cls-holdings--cli/notification-of-director-details/9756296",
+    "related_news_url": "https://news.google.com/search?q=%22CLS%20Holdings%22",
+    "added_at": "2026-09-04T09:55:53.444570"
+  },
+  {
     "company": "Ferrexpo PLC",
     "ticker": "FXPO",
     "publish_date": "04 September 2026",
