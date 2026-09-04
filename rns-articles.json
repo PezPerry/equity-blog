@@ -1,5 +1,66 @@
 [
   {
+    "company": "LGI Homes, Inc.",
+    "ticker": "LGIH",
+    "publish_date": "04 September 2026",
+    "date_iso": "2026-09-04",
+    "time_period": "August 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "August 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>LGI Homes, Inc.</strong> issued its <strong>August 2026</strong> monthly home closings report.</li><li><strong>153 active selling communities</strong> as of <strong>31 August 2026</strong> is the only operating metric present.</li><li>The scraped text does <strong>not</strong> contain the actual home-closings numbers or any year-on-year comparison — figures appear to be missing from the source.</li><li>Company operates across <strong>36 markets</strong> in <strong>21 states</strong> and has closed over <strong>80,000 homes</strong> since 2003 (background, not new news).</li></ul>",
+    "source_format": "html",
+    "headline": "LGI Homes reports August 2026 home closings, with **153 active selling communities** as of 31 August 2026 — closings totals absent from the scraped text.",
+    "priority": "medium",
+    "priority_reason": "Monthly home-closings operating update from a homebuilder, but the scraped text omits the actual closings figures.",
+    "figures": [
+      {
+        "metric": "Active selling communities",
+        "current": "153",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "as of 31 August 2026",
+        "note": "closings figures not present in scraped text"
+      }
+    ],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "This is LGI Homes' routine monthly home-closings release, which US homebuilders publish to give investors an early read on sales volumes ahead of quarterly results. The headline data point would normally be the number of homes closed (completed and sold) during the month, alongside the community count.\n\nThe scraped page here only carries the community count — 153 active selling communities as of 31 August 2026 — plus boilerplate corporate background. The actual closings total and any prior-year comparative are not in the captured text, so no like-for-like trend can be drawn. The bullets flag this gap rather than inferring a figure. No guidance is given or changed.",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/LGIH/share-news/LGI-Homes-Inc-Reports-August-2026-Home-Closings/99250252",
+    "related_news_url": "https://news.google.com/search?q=%22LGI%20Homes%2C%20Inc.%22",
+    "added_at": "2026-09-04T07:17:11.069181"
+  },
+  {
+    "company": "Adobe Inc",
+    "ticker": "ADBE",
+    "publish_date": "03 September 2026",
+    "date_iso": "2026-09-03",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Anil Chakravarthy</strong>, currently president of Adobe's Customer Experience Orchestration business and worldwide field operations, becomes president and CEO and joins the board effective <strong>1 December 2026</strong>.</li><li>Long-serving CEO <strong>Shantanu Narayen</strong> transitions to <strong>executive chair</strong> and will support the handover and Adobe's ongoing transformation.</li><li>Chakravarthy joined <strong>Adobe</strong> in <strong>January 2020</strong> and previously spent four years as CEO of <strong>Informatica</strong>, with earlier roles at Symantec, VeriSign and McKinsey.</li><li>Lead Independent Director <strong>Frank Calderoni</strong> said the board unanimously determined Chakravarthy is the right leader following a rigorous selection process.</li><li>Adobe reiterated it will host its <strong>Q3 FY2026 earnings call on 10 September 2026</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Adobe names **Anil Chakravarthy** as president and CEO from **1 December 2026**, with **Shantanu Narayen** moving to executive chair.",
+    "priority": "medium",
+    "priority_reason": "CEO succession at a major tech company is a significant leadership change but not a results or trading event.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/ADBE/share-news/Adobe-Announces-Anil-Chakravarthy-to-Become-Presid/99248908",
+    "related_news_url": "https://news.google.com/search?q=%22Adobe%20Inc.%22",
+    "added_at": "2026-09-04T07:17:11.058025"
+  },
+  {
     "company": "Concrete Pumping Holdings Inc",
     "ticker": "BBCP",
     "publish_date": "03 September 2026",
