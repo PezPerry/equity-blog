@@ -1,5 +1,88 @@
 [
   {
+    "company": "Concrete Pumping Holdings Inc",
+    "ticker": "BBCP",
+    "publish_date": "03 September 2026",
+    "date_iso": "2026-09-03",
+    "time_period": "Q3 FY2026 (quarter to 31 July 2026)",
+    "announcement_type": "Quarterly results",
+    "period_detail": "Q3 FY2026 (quarter to 31 July 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Q3 FY2026 revenue</strong> rose <strong>12.6%</strong> to <strong>$116.8m</strong> (Q3 FY2025: <strong>$103.7m</strong>), driven by US commercial and infrastructure demand, notably <strong>data centre</strong> projects, and more stable weather.</li><li><strong>Net income</strong> up <strong>33.3%</strong> to <strong>$4.9m</strong>; net income to common shareholders <strong>$4.5m</strong>, or <strong>$0.09</strong> per diluted share (prior year <strong>$0.07</strong>).</li><li><strong>Adjusted EBITDA</strong> up <strong>13.3%</strong> to <strong>$30.4m</strong>, margin <strong>26.0%</strong> (prior <strong>25.8%</strong>); at 31 July 2026 net debt was <strong>$382.0m</strong> with total liquidity of <strong>$357.3m</strong>.</li><li>Full-year <strong>guidance raised</strong>: revenue now <strong>$425.0m–$435.0m</strong> (was $410.0m–$425.0m), Adjusted EBITDA <strong>$103.0m–$108.0m</strong> (was $98.0m–$105.0m), free cash flow ~<strong>$50.0m</strong> (was $45.0m).</li><li>Board initiated a <strong>regular quarterly cash dividend</strong>, declaring an initial <strong>$0.13 per share</strong>, payable <strong>2 October 2026</strong> to holders of record on <strong>18 September 2026</strong>; buyback programme extended to <strong>30 November 2028</strong>.</li><li><strong>UK operations</strong> revenue up <strong>23.9%</strong> to <strong>$18.7m</strong> (helped by a <strong>$3.1m Templant</strong> contribution) but Adjusted EBITDA fell to <strong>$3.2m</strong> (prior <strong>$3.9m</strong>) on fuel inflation and higher repair costs; UK conditions described as subdued.</li></ul>",
+    "source_format": "html",
+    "headline": "Concrete Pumping Holdings lifted Q3 revenue 12.6% to $116.8m, raised full-year guidance and launched a maiden $0.13 quarterly dividend.",
+    "priority": "high",
+    "priority_reason": "Quarterly results with a full-year guidance raise and initiation of a maiden quarterly dividend.",
+    "figures": [
+      {
+        "metric": "Revenue",
+        "current": "$116.8m",
+        "prior": "$103.7m",
+        "change": "+12.6%",
+        "basis": "reported",
+        "note": "Q3 FY2026 vs Q3 FY2025"
+      },
+      {
+        "metric": "Gross profit",
+        "current": "$45.2m",
+        "prior": "$40.4m",
+        "change": "+12.0%",
+        "basis": "reported",
+        "note": "gross margin 38.7% vs 39.0%"
+      },
+      {
+        "metric": "Net income",
+        "current": "$4.9m",
+        "prior": "$3.7m",
+        "change": "+33.3%",
+        "basis": "reported",
+        "note": "total net income"
+      },
+      {
+        "metric": "Diluted EPS",
+        "current": "$0.09",
+        "prior": "$0.07",
+        "change": "not stated",
+        "basis": "net income attributable to common shareholders",
+        "note": "Q3 FY2026"
+      },
+      {
+        "metric": "Adjusted EBITDA",
+        "current": "$30.4m",
+        "prior": "$26.8m",
+        "change": "+13.3%",
+        "basis": "non-GAAP",
+        "note": "margin 26.0% vs 25.8%"
+      },
+      {
+        "metric": "Net debt",
+        "current": "$382.0m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "non-GAAP",
+        "note": "as at 31 July 2026; gross debt $425.0m"
+      },
+      {
+        "metric": "Dividend",
+        "current": "$0.13 per share",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "maiden quarterly dividend",
+        "note": "payable 2 October 2026, record date 18 September 2026"
+      }
+    ],
+    "guidance": {
+      "status": "raised",
+      "previous": "FY2026 revenue $410.0m–$425.0m, Adjusted EBITDA $98.0m–$105.0m, free cash flow ~$45.0m",
+      "current": "FY2026 revenue $425.0m–$435.0m, Adjusted EBITDA $103.0m–$108.0m, free cash flow ~$50.0m",
+      "commentary": "Management raised all three FY2026 metrics on strong year-to-date performance and confidence in the business, while still assuming light commercial and residential end markets do not meaningfully recover this year."
+    },
+    "explainer": "The comparatives here are versus the same quarter a year earlier (the three months to 31 July 2025). Growth is reported (actual) rather than organic, though the company notes that revenue growth in both US divisions was largely organic, driven by higher volumes and pricing on commercial and infrastructure work — especially data centre construction. US residential and light commercial construction remain weak because of high interest rates.\n\nAdjusted EBITDA is a non-GAAP profit measure that strips out interest, tax, depreciation and certain one-offs such as stock-based compensation; the company uses it, alongside net debt and free cash flow, as its headline operating gauge. Gross margin slipped slightly (38.7% from 39.0%) purely on fuel cost inflation, not weaker pricing.\n\nOn guidance, the company raised its full-year 2026 outlook for the second time: revenue guidance moved up to $425m–$435m from $410m–$425m, Adjusted EBITDA to $103m–$108m from $98m–$105m, and free cash flow to about $50m from about $45m. Importantly, this upgrade still assumes no meaningful recovery in the weaker residential and light-commercial markets, so it reflects strength in the commercial/infrastructure and waste-management sides.\n\nThe UK business (Camfaud, plus the recently acquired Templant) grew revenue but saw profit fall, as acquisition-driven revenue was offset by fuel inflation and higher repair and maintenance spend; management continues to describe UK market conditions as subdued. Separately, the initiation of a $0.13 quarterly dividend is a new capital-return signal reflecting confidence in recurring cash flow, alongside continued debt reduction and an extended buyback authority.",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/BBCP/share-news/Concrete-Pumping-Holdings-Reports-Strong-Third-Qua/99248728",
+    "related_news_url": "https://news.google.com/search?q=%22Concrete%20Pumping%20Holdings%20Inc%22",
+    "added_at": "2026-09-04T07:16:38.372916"
+  },
+  {
     "company": "IG Group Holdings PLC",
     "ticker": "IGG",
     "publish_date": "03 September 2026",
