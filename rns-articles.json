@@ -1,5 +1,31 @@
 [
   {
+    "company": "Londonmetric Property PLC",
+    "ticker": "LMP",
+    "publish_date": "04 September 2026",
+    "date_iso": "2026-09-04",
+    "time_period": "",
+    "announcement_type": "Dividend declaration",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Scrip Calculation Price</strong> for the scrip dividend alternative set at <strong>185.8 pence</strong> per Ordinary Share, the average closing mid-market price over the five business days from the ex-dividend date of <strong>27 August 2026</strong>.</li><li>Relates to the first quarterly interim dividend of <strong>3.15 pence</strong> per share declared on <strong>20 August 2026</strong>, payable <strong>6 October 2026</strong> to shareholders on the register at <strong>28 August 2026</strong>.</li><li>Final election date for the scrip alternative is <strong>11 September 2026</strong>; routine administrative disclosure with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "LondonMetric sets Scrip Calculation Price at 185.8 pence for its first quarterly interim dividend of 3.15 pence per share.",
+    "priority": "low",
+    "priority_reason": "Routine scrip calculation price for a previously declared dividend, with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/londonmetric-property--lmp/scrip-calculation-price-/9756682",
+    "related_news_url": "https://news.google.com/search?q=%22LondonMetric%20Property%22",
+    "added_at": "2026-09-04T12:15:51.793904"
+  },
+  {
     "company": "BHP Group Ltd",
     "ticker": "BHP",
     "publish_date": "04 September 2026",
