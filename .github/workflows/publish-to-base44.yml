@@ -12,6 +12,7 @@ on:
       - '!front-page.html'
       - '!index.html'
       - '!longreads/**'
+      - '!trading-log/**'
 
 jobs:
   publish:
@@ -44,7 +45,7 @@ jobs:
         env:
           BASE44_API_KEY: ${{ secrets.BASE44_API_KEY }}
         run: |
-          NEW_FILES=$(git diff --name-only --diff-filter=A "$RANGE" -- '*.html' ':!longreads/' | grep -vE '^(rns-news|guidance-tracker|tv-swipe|financial-calendar[^/]*|front-page|index)\.html$' || true)
+          NEW_FILES=$(git diff --name-only --diff-filter=A "$RANGE" -- '*.html' ':!longreads/' ':!trading-log/' | grep -vE '^(rns-news|guidance-tracker|tv-swipe|financial-calendar[^/]*|front-page|index)\.html$' || true)
 
           if [ -z "$NEW_FILES" ]; then
             echo "No new HTML articles detected. Skipping."
@@ -185,7 +186,7 @@ jobs:
 
       - name: Rotate the front page
         run: |
-          NEW_FILES=$(git diff --name-only --diff-filter=A "$RANGE" -- '*.html' ':!longreads/' | grep -vE '^(rns-news|guidance-tracker|tv-swipe|financial-calendar[^/]*|front-page|index)\.html$' || true)
+          NEW_FILES=$(git diff --name-only --diff-filter=A "$RANGE" -- '*.html' ':!longreads/' ':!trading-log/' | grep -vE '^(rns-news|guidance-tracker|tv-swipe|financial-calendar[^/]*|front-page|index)\.html$' || true)
 
           if [ -z "$NEW_FILES" ]; then
             echo "No new articles. Front page unchanged."
@@ -197,9 +198,12 @@ jobs:
             [ -z "$FILE" ] && continue
             echo "Adding $FILE to the front-page registry (date $TODAY)"
             python3 build-front-page.py --add "$FILE" --date "$TODAY"
+            # Trading Log entries (tile-variant=trading-log) also go into the log index
+            # and the front-page teaser; a no-op for every other article.
+            python3 build-trading-log.py --add "$FILE"
           done
 
-          if git diff --quiet -- front-page.html front-page-tiles.json; then
+          if git diff --quiet -- front-page.html front-page-tiles.json trading-log/; then
             # New articles were found but nothing was registered: either the slug was
             # already in the registry or build-front-page.py held it off (cover missing).
             # Fail loudly so a skipped rotation is never a silent green run.
@@ -209,7 +213,7 @@ jobs:
 
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add front-page.html front-page-tiles.json
+          git add front-page.html front-page-tiles.json trading-log/
           git commit -m "Front page: rotate tiles for new article(s)"
 
           # The RNS pipeline pushes to this repo often, so a plain push can lose a race.

@@ -1,0 +1,79 @@
+{
+  "_comment": "Trading Log registry. Newest first. Rebuild the index and the front-page teaser with: python build-trading-log.py. Register a new entry page (root HTML tagged tile-variant=trading-log) with: python build-trading-log.py --add <file.html>. 'url' is the branded address the row links to; 'source' is the Pages copy (null for entries stored only in Base44). 'time' is the UK time the note went live.",
+  "entries": [
+    {
+      "slug": "crest-nicholson-worse-figures-same-asset-case",
+      "date": "2026-09-03",
+      "time": "08:37",
+      "tag": "Comment",
+      "tickers": [
+        "CRST"
+      ],
+      "companies": "Crest Nicholson Holdings plc",
+      "title": "Crest Nicholson: worse figures, same asset case",
+      "why": "Profit guidance cut again and the covenant timetable slips, but net debt is £30m better than guided. My 160.97p asset valuation is unchanged.",
+      "url": "https://equityandmarketsinsight.com/TradeDetail?slug=crest-nicholson-worse-figures-same-asset-case",
+      "source": "crest-nicholson-worse-figures-same-asset-case.html",
+      "readMinutes": 4,
+      "related": {
+        "url": "https://equityandmarketsinsight.com/blog/crest-nicholson-CRST-HY2026-blog-page",
+        "label": "Full valuation, 16 Jul"
+      }
+    },
+    {
+      "slug": "morning-movements-tech-jitter",
+      "date": "2026-06-23",
+      "time": "22:01",
+      "tag": "Market view",
+      "tickers": [
+        "NASDAQ",
+        "FTSE 100"
+      ],
+      "companies": "Nasdaq Composite, FTSE 100",
+      "title": "A tech jitter, not a turning point",
+      "why": "The NASDAQ off around 2.6% overnight and Korea hit hard, but the names at the centre of it were not expensive going in. A positioning flush, not a re-rating.",
+      "url": "https://equityandmarketsinsight.com/TradeDetail?slug=morning-movements-tech-jitter",
+      "source": "morning-movements-tech-jitter.html",
+      "readMinutes": 5,
+      "related": null
+    },
+    {
+      "slug": "barclays-housebuilder-sector-note-may-2026",
+      "date": "2026-05-20",
+      "time": "07:43",
+      "tag": "Comment",
+      "tickers": [
+        "BKG",
+        "BTRW",
+        "BWY",
+        "VTY",
+        "TW",
+        "PSN",
+        "CRST"
+      ],
+      "companies": "Berkeley, Barratt Redrow, Bellway, Vistry, Taylor Wimpey, Persimmon, Crest Nicholson",
+      "title": "Barclays housebuilder sector note: the \"second wave\" cost inflation warning",
+      "why": "Barclays downgrades several UK housebuilders on a second wave of cost inflation, with price targets cut 26% to 49%. Berkeley is the sole overweight. The market barely moved.",
+      "url": "https://equityandmarketsinsight.com/TradeDetail?slug=barclays-housebuilder-sector-note-may-2026",
+      "source": null,
+      "readMinutes": 3,
+      "related": null
+    },
+    {
+      "slug": "nasdaq-long-march-2026",
+      "date": "2026-03-19",
+      "time": "10:23",
+      "tag": "Bought",
+      "tickers": [
+        "NASDAQ 100"
+      ],
+      "companies": "Nasdaq 100",
+      "title": "Buying the Nasdaq at support: a small bet that the storm passes",
+      "why": "The Nasdaq has bounced off the same support three times in three weeks. A small long at 24,373 with a tight stop at 24,139.",
+      "url": "https://equityandmarketsinsight.com/TradeDetail?slug=nasdaq-long-march-2026",
+      "source": null,
+      "readMinutes": 3,
+      "related": null
+    }
+  ]
+}

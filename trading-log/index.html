@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en-GB" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Trading Log | Equity &amp; Markets Insight</title>
+<meta name="description" content="Commentary on the most recent news hitting the markets: short dated notes on what I bought, sold, held or passed on, and why.">
+<meta name="robots" content="index,follow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:wght@100..900&family=Playfair+Display:wght@600;800&family=DM+Sans:wght@400;500&family=DM+Mono:wght@400&display=swap" rel="stylesheet">
+<style>
+:root{--navy:#112238;--gold:#A98A48;--gold-text:#81652E;--ivory:#F8F5EF;--body:#26304A;--muted:#526173;--faint:#8A8F99;--hair:rgba(17,34,56,.12);--hover:rgba(169,138,72,.06);
+  --paper:#FBF9F4;--gold-deep:#A9812E;--text:#141C2B;--text-dim:#4E5567;--line:rgba(27,42,74,.15);--nav-hair:rgba(27,42,74,.07);--accent:var(--gold-deep)}
+:root[data-theme="dark"]{--paper:#0E1626;--text:#F3ECDD;--text-dim:#A9B0BF;--line:rgba(212,168,83,.16);--nav-hair:rgba(255,255,255,.07);--accent:#D4A853}
+:root[data-theme="dark"] .brand-logo{filter:invert(1)}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%}
+body{background:var(--ivory);color:var(--navy);font-family:"Inter",system-ui,sans-serif;-webkit-font-smoothing:antialiased;line-height:1.5}
+a{color:inherit;text-decoration:none}
+img{display:block;max-width:100%}
+.wrap{max-width:1280px;margin:0 auto;padding:0 clamp(16px,4vw,44px)}
+/* site nav: copied from front-page.html, unchanged by design */
+.nav{border-bottom:1px solid var(--nav-hair);background:var(--paper);position:sticky;top:0;z-index:60}
+.nav-inner{display:flex;align-items:center;gap:26px;height:60px}
+.brand{display:flex;align-items:center;gap:12px;flex-shrink:0}
+.brand-logo{height:34px;width:auto;display:block}
+.brand-name{font-family:"Playfair Display",serif;font-weight:800;font-size:18px;letter-spacing:-.01em;line-height:1;color:var(--text);white-space:nowrap}
+.brand-name b{font-style:italic;font-weight:600;color:var(--accent)}
+.nav-links{display:flex;gap:26px;margin-left:auto;align-items:center}
+.nav-links a{font-family:"DM Sans",sans-serif;font-size:14px;font-weight:500;color:var(--text-dim);letter-spacing:.01em;position:relative;padding:4px 0;transition:color .2s;white-space:nowrap}
+.nav-links a::after{content:"";position:absolute;left:0;right:100%%;bottom:-2px;height:2px;background:var(--accent);transition:right .25s ease}
+.nav-links a:hover{color:var(--text)}
+.nav-links a:hover::after{right:0}
+.nav-links a.here{color:var(--text)}
+.nav-links a.here::after{right:0}
+.theme-btn{border:1px solid var(--line);background:transparent;color:var(--text-dim);font-family:"DM Mono",monospace;font-size:13px;padding:6px 11px;border-radius:999px;cursor:pointer;line-height:1}
+.theme-btn:hover{border-color:var(--accent);color:var(--accent)}
+html.embedded .nav{display:none}
+/* log */
+main{max-width:1280px;margin:0 auto}
+.log-head{padding:56px 48px 20px}
+.log-head h1{font-family:"Cormorant Garamond",Georgia,serif;font-weight:500;font-size:60px;line-height:1;letter-spacing:-.01em;color:var(--navy)}
+.log-head p{margin-top:16px;font-size:16px;line-height:1.6;color:var(--muted)}
+.cols,.row{display:grid;grid-template-columns:150px 120px 1fr 190px;gap:24px}
+.cols{margin:0 48px;padding:28px 0 12px;border-bottom:1px solid var(--navy);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--faint);font-weight:600}
+.cols .r{text-align:right}
+.rows{padding:0 48px 48px}
+.row{padding:22px 0;border-bottom:1px solid var(--hair);align-items:start;color:var(--navy);transition:background .15s}
+.row:hover{background:var(--hover)}
+.row .when{font-size:13px;font-variant-numeric:tabular-nums;color:var(--muted);padding-top:6px;line-height:1.5}
+.row .when span{color:var(--faint)}
+.row .act{padding-top:5px}
+.row .ttl{font-family:"Cormorant Garamond",Georgia,serif;font-size:27px;font-weight:500;line-height:1.15;color:var(--navy)}
+.row .why{font-size:14.5px;line-height:1.55;color:var(--muted);margin-top:6px;max-width:64ch}
+.row .cos{text-align:right;font-size:12.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--navy);font-weight:600;padding-top:8px;line-height:1.7}
+.pill{display:inline-block;font-family:"Inter",system-ui,sans-serif;font-size:11px;letter-spacing:.12em;text-transform:uppercase;font-weight:600;padding:4px 9px;border-radius:2px;line-height:1.3;white-space:nowrap}
+.pill-bought{background:var(--navy);color:var(--ivory)}
+.pill-sold{background:var(--gold);color:var(--navy)}
+.pill-held{background:transparent;color:var(--navy);border:1px solid var(--navy)}
+.pill-passed{background:transparent;color:var(--gold-text);border:1px solid var(--gold)}
+.pill-comment{background:transparent;color:var(--muted);border:1px solid rgba(17,34,56,.3)}
+.pill-view{background:rgba(17,34,56,.08);color:var(--navy)}
+.log-foot{display:flex;justify-content:space-between;padding-top:22px;font-size:13px;color:var(--muted)}
+.log-foot button{color:var(--gold-text);background:none;border:0;font:inherit;font-weight:600;cursor:pointer;padding:0}
+.log-foot button[hidden]{display:none}
+.row[hidden]{display:none}
+@media (max-width:920px){.nav-links{display:none}}
+@media (max-width:760px){
+  .log-head{padding:40px 20px 12px}
+  .log-head h1{font-size:44px}
+  .cols{display:none}
+  .rows{padding:0 20px 40px;border-top:1px solid var(--navy);margin-top:20px}
+  .row{grid-template-columns:1fr;gap:8px;padding:18px 0}
+  .row .when{display:flex;gap:10px;padding-top:0}
+  .row .act{padding-top:0}
+  .row .cos{text-align:left;padding-top:2px}
+}
+</style>
+</head>
+<body>
+<div class="nav">
+  <div class="wrap nav-inner">
+    <a class="brand" href="../front-page.html">
+      <img class="brand-logo" src="../emi-logo.png" alt="Equity &amp; Markets Insight logo">
+      <span class="brand-name">Equity <b>&amp;</b> Markets Insight</span>
+    </a>
+    <nav class="nav-links">
+      <a target="_top" href="https://equityandmarketsinsight.com/Companies">Company Analysis</a>
+      <a target="_top" href="https://equityandmarketsinsight.com/Articles">Macro</a>
+      <a target="_top" href="https://equityandmarketsinsight.com/InterestRates">Rates</a>
+      <a target="_top" class="here" href="https://equityandmarketsinsight.com/TradingLog">Investor Tools</a>
+    </nav>
+    <button class="theme-btn" id="themeBtn" aria-label="Toggle theme">&#9685;</button>
+  </div>
+</div>
+<main>
+  <div class="log-head">
+    <h1>Trading Log</h1>
+    <p>Commentary on the most recent news hitting the markets</p>
+  </div>
+  <div class="cols"><div>Date</div><div>Action</div><div>Note</div><div class="r">Companies</div></div>
+  <div class="rows" id="rows">
+    <a class="row" href="https://equityandmarketsinsight.com/TradeDetail?slug=crest-nicholson-worse-figures-same-asset-case" target="_top" data-slug="crest-nicholson-worse-figures-same-asset-case"><div class="when">3 Sep 2026<br><span>08:37</span></div><div class="act"><span class="pill pill-comment">Comment</span></div><div><div class="ttl">Crest Nicholson: worse figures, same asset case</div><div class="why">Profit guidance cut again and the covenant timetable slips, but net debt is £30m better than guided. My 160.97p asset valuation is unchanged.</div></div><div class="cos">CRST</div></a>
+    <a class="row" href="https://equityandmarketsinsight.com/TradeDetail?slug=morning-movements-tech-jitter" target="_top" data-slug="morning-movements-tech-jitter"><div class="when">23 Jun 2026<br><span>22:01</span></div><div class="act"><span class="pill pill-view">Market view</span></div><div><div class="ttl">A tech jitter, not a turning point</div><div class="why">The NASDAQ off around 2.6% overnight and Korea hit hard, but the names at the centre of it were not expensive going in. A positioning flush, not a re-rating.</div></div><div class="cos">NASDAQ · FTSE 100</div></a>
+    <a class="row" href="https://equityandmarketsinsight.com/TradeDetail?slug=barclays-housebuilder-sector-note-may-2026" target="_top" data-slug="barclays-housebuilder-sector-note-may-2026"><div class="when">20 May 2026<br><span>07:43</span></div><div class="act"><span class="pill pill-comment">Comment</span></div><div><div class="ttl">Barclays housebuilder sector note: the &quot;second wave&quot; cost inflation warning</div><div class="why">Barclays downgrades several UK housebuilders on a second wave of cost inflation, with price targets cut 26% to 49%. Berkeley is the sole overweight. The market barely moved.</div></div><div class="cos">BKG · BTRW · BWY · VTY · TW · PSN · CRST</div></a>
+    <a class="row" href="https://equityandmarketsinsight.com/TradeDetail?slug=nasdaq-long-march-2026" target="_top" data-slug="nasdaq-long-march-2026"><div class="when">19 Mar 2026<br><span>10:23</span></div><div class="act"><span class="pill pill-bought">Bought</span></div><div><div class="ttl">Buying the Nasdaq at support: a small bet that the storm passes</div><div class="why">The Nasdaq has bounced off the same support three times in three weeks. A small long at 24,373 with a tight stop at 24,139.</div></div><div class="cos">NASDAQ 100</div></a>
+    <div class="log-foot"><span id="count">Showing 4 of 4 entries</span></div>
+  </div>
+</main>
+<script>
+/* Framed by the Base44 shell (?embed=1, or inside an iframe): the shell supplies the site
+   chrome, so hide this page's own nav. The theme button only ever affects the nav. */
+(function(){
+  var framed=false;try{framed=window.self!==window.top}catch(e){framed=true}
+  if(framed||new URLSearchParams(location.search).has('embed')){document.documentElement.classList.add('embedded')}
+  var tb=document.getElementById('themeBtn');if(tb){tb.addEventListener('click',function(){
+    var r=document.documentElement;r.setAttribute('data-theme',r.getAttribute('data-theme')==='dark'?'light':'dark')})}
+  /* Tell a framing page how tall we are, so the shell can size the iframe. */
+  function tall(){try{window.parent.postMessage({type:'emi-height',page:'trading-log',height:document.documentElement.scrollHeight},'*')}catch(e){}}
+  if(framed){tall();window.addEventListener('load',tall);window.addEventListener('resize',tall);
+    if(window.ResizeObserver){new ResizeObserver(tall).observe(document.body)}}
+})();
+</script>
+<script>
+(function(){
+  var btn=document.getElementById('older');if(!btn)return;
+  btn.addEventListener('click',function(){
+    var hidden=document.querySelectorAll('.row[hidden]');
+    for(var i=0;i<hidden.length&&i<25;i++){hidden[i].hidden=false}
+    var left=document.querySelectorAll('.row[hidden]').length,all=document.querySelectorAll('.row').length;
+    document.getElementById('count').textContent='Showing '+(all-left)+' of '+all+' entries';
+    if(!left){btn.hidden=true}
+  });
+})();
+</script>
+</body>
+</html>
