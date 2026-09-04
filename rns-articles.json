@@ -1,5 +1,31 @@
 [
   {
+    "company": "BHP Group Ltd",
+    "ticker": "BHP",
+    "publish_date": "04 September 2026",
+    "date_iso": "2026-09-04",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>BHP</strong> acknowledges recent media speculation regarding a <strong>potential partnership</strong> involving part of its <strong>Western Australia Iron Ore (WAIO)</strong> business.</li><li>Says it has a long history of partnerships and <strong>regularly explores options</strong> that may create long-term value for shareholders.</li><li>Stresses <strong>WAIO remains central</strong> to its portfolio and that it is <strong>fully committed to WAIO and to Western Australia</strong> — no transaction confirmed.</li><li>Statement authorised for release by Group Company Secretary <strong>Stefanie Wilkinson</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "BHP notes media speculation about a potential partnership involving part of its Western Australia Iron Ore business but reaffirms full commitment to WAIO.",
+    "priority": "medium",
+    "priority_reason": "Response to takeover/partnership speculation, but no confirmed deal and a firm commitment to retaining WAIO.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/bhp-BHP/share-news/BHP-Group-Limited-Media-speculation-on-Western-Aus/99252777",
+    "related_news_url": "https://news.google.com/search?q=%22BHP%20Group%20Limited%22",
+    "added_at": "2026-09-04T11:16:03.037448"
+  },
+  {
     "company": "Yellow Cake PLC",
     "ticker": "YCA",
     "publish_date": "04 September 2026",
