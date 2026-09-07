@@ -1,5 +1,130 @@
 [
   {
+    "company": "Ferrexpo PLC",
+    "ticker": "FXPO",
+    "publish_date": "07 September 2026",
+    "date_iso": "2026-09-07",
+    "time_period": "",
+    "announcement_type": "Trading update",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Ferrexpo plc</strong> has restarted production at its <strong>Ukrainian</strong> operations, mobilising over the weekend and recommencing output using <strong>one pellet line</strong>.</li><li>Restart follows the <strong>US$100 million fundraising</strong> announced on <strong>4 September 2026</strong>.</li><li>Given attacks on Black Sea ports and vessels, the Company intends to focus exports on customers in <strong>Europe</strong>.</li><li><strong>Lucio Genovese</strong>, Interim Executive Chair, thanked the workforce for bringing the operation back online.</li><li>Announcement contains inside information; person responsible is <strong>Mark Gregory</strong>, Group Company Secretary.</li></ul>",
+    "source_format": "html",
+    "headline": "Ferrexpo has restarted iron ore production at its Ukrainian operations on one pellet line following last week's US$100m fundraising.",
+    "priority": "high",
+    "priority_reason": "Restart of Ukrainian production after a fundraising is a material operational development flagged as inside information.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/ferrexpo-FXPO/share-news/Ferrexpo-PLC-Restart-of-production-at-Ukrainian-op/99258051",
+    "related_news_url": "https://news.google.com/search?q=%22Ferrexpo%20plc%22",
+    "added_at": "2026-09-07T07:22:33.804726"
+  },
+  {
+    "company": "Ashmore Group PLC",
+    "ticker": "ASHM",
+    "publish_date": "07 September 2026",
+    "date_iso": "2026-09-07",
+    "time_period": "FY to 30 June 2026",
+    "announcement_type": "Annual results",
+    "period_detail": "FY to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Ashmore Group plc</strong> reported audited results for the <strong>year ended 30 June 2026</strong>: <strong>profit before tax up 17% to £126.9m</strong> and <strong>diluted EPS up 28% to 15.0p</strong>.</li><li><strong>Assets under management rose 13% to US$54.0bn</strong>, driven by <strong>net inflows of US$2.7bn</strong> (across fixed income, equities and alternatives) and <strong>US$3.7bn</strong> of investment performance.</li><li><strong>Adjusted net revenue fell 7% to £135.6m</strong>, largely on lower performance fees; excluding seed capital, adjusted EBITDA margin rose from <strong>37% to 40%</strong>.</li><li><strong>£82.5m gain on seed capital</strong> helped recycle 50% of seed capital; <strong>£173m</strong> of seed capital recycled in the year.</li><li><strong>Final ordinary dividend maintained at 12.1p</strong>, giving <strong>total dividends of 16.9p</strong> per share; balance sheet holds <strong>over £600m</strong> of financial resources.</li><li>Strategic progress: <strong>equities now 19% of AuM (US$10.0bn)</strong>, alternatives AuM up 25%, local office AuM up 13%; new US$1bn commitment from <strong>Japan Post Insurance</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Ashmore FY26 pre-tax profit rose 17% to £126.9m and diluted EPS 28% to 15.0p, with AuM up 13% to US$54.0bn on US$2.7bn net inflows.",
+    "priority": "high",
+    "priority_reason": "Full-year audited results from a listed asset manager, including AuM, profit, EPS and dividend.",
+    "figures": [
+      {
+        "metric": "Assets under management",
+        "current": "US$54.0bn",
+        "prior": "not stated",
+        "change": "+13%",
+        "basis": "",
+        "note": "at 30 June 2026"
+      },
+      {
+        "metric": "Net inflows",
+        "current": "US$2.7bn",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "FY to 30 June 2026"
+      },
+      {
+        "metric": "Gross subscriptions",
+        "current": "US$12.5bn",
+        "prior": "not stated",
+        "change": "+92%",
+        "basis": "",
+        "note": "FY to 30 June 2026"
+      },
+      {
+        "metric": "Gross redemptions",
+        "current": "US$9.8bn",
+        "prior": "not stated",
+        "change": "-20%",
+        "basis": "",
+        "note": "FY to 30 June 2026"
+      },
+      {
+        "metric": "Adjusted net revenue",
+        "current": "£135.6m",
+        "prior": "not stated",
+        "change": "-7%",
+        "basis": "",
+        "note": "YoY, mainly lower performance fees"
+      },
+      {
+        "metric": "Profit before tax",
+        "current": "£126.9m",
+        "prior": "not stated",
+        "change": "+17%",
+        "basis": "",
+        "note": "YoY"
+      },
+      {
+        "metric": "Diluted EPS",
+        "current": "15.0p",
+        "prior": "not stated",
+        "change": "+28%",
+        "basis": "",
+        "note": "YoY"
+      },
+      {
+        "metric": "Adjusted EBITDA margin (ex-seed capital)",
+        "current": "40%",
+        "prior": "37%",
+        "change": "not stated",
+        "basis": "excluding seed capital",
+        "note": "FY to 30 June 2026"
+      },
+      {
+        "metric": "Final ordinary dividend",
+        "current": "12.1p",
+        "prior": "12.1p",
+        "change": "maintained",
+        "basis": "",
+        "note": "total dividends 16.9p per share"
+      }
+    ],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "These are Ashmore's audited results for its financial year to 30 June 2026. Ashmore is a specialist emerging markets asset manager, so its earnings are driven by the level of assets under management (AuM) and the fees charged on them. AuM rose 13% to US$54.0bn, helped by both US$2.7bn of net client inflows and US$3.7bn of positive investment performance — a notable turnaround given subscriptions jumped 92% while redemptions fell 20%.\n\nRevenue and profit moved in opposite directions. Adjusted net revenue fell 7% to £135.6m because management earned fewer performance fees, but pre-tax profit still rose 17% to £126.9m and diluted EPS jumped 28% to 15.0p. The main reason is the seed capital programme — money Ashmore invests in its own funds — which delivered an £82.5m gain. Stripping seed capital out, the underlying EBITDA margin improved from 37% to 40%, showing the core fee business became more efficient.\n\nThe dividend was held flat: a final ordinary dividend of 12.1p, giving 16.9p for the full year. Management framed this as prudent capital management, with over £600m of financial resources and excess capital of 73p per share. The company gave no formal numerical guidance, but struck an upbeat tone on emerging markets, citing a weaker US dollar and investors rebalancing away from US assets.",
+    "source_url": "https://uk.advfn.com/stock-market/london/ashmore-ASHM/share-news/Ashmore-Group-PLC-Final-Results/99258054",
+    "related_news_url": "https://news.google.com/search?q=%22Ashmore%20Group%20plc%22",
+    "added_at": "2026-09-07T07:22:33.792182"
+  },
+  {
     "company": "Standard Life PLC",
     "ticker": "SDLF",
     "publish_date": "07 September 2026",
