@@ -1,5 +1,219 @@
 [
   {
+    "company": "Standard Life PLC",
+    "ticker": "SDLF",
+    "publish_date": "07 September 2026",
+    "date_iso": "2026-09-07",
+    "time_period": "H1 2026 (six months to 30 June 2026)",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 2026 (six months to 30 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Standard Life plc</strong> reported <strong>H1 2026</strong> IFRS adjusted operating profit up <strong>13% to £324m</strong> (H1 2025: £286m), with the group <strong>on track for its end-2026 financial targets</strong>.</li><li>Total <strong>Operating Cash Generation</strong> grew <strong>6% to £745m</strong>; group is <strong>c.£4.4bn</strong> into its <strong>£5.1bn</strong> 2024-26 cash target, and expects <strong>c.£500m of excess cash in 2026</strong>.</li><li>Fee-based business drove <strong>36% operating profit growth to £244m</strong> on <strong>10% AUA growth to £217bn</strong>; spread-based business OCG up <strong>5% to £466m</strong> with margin held at <strong>222bps</strong>.</li><li>Achieved its <strong>c.30% SII leverage ratio</strong> target early — improving <strong>4pts to 29%</strong> (FY 2025: 33%) — after repaying <strong>$350m Tier 2</strong> and <strong>£250m Tier 3</strong> notes in June 2026.</li><li><strong>£2bn Aegon UK acquisition</strong> on track to complete <strong>around end-2026</strong> (subject to approvals), making Standard Life the <strong>largest player</strong> in UK Pensions and Savings on a pro forma basis.</li><li>Launched an <strong>up to £2bn UK PRT partnership</strong> with <strong>CVC Capital Partners</strong>, <strong>Prudential Financial</strong>, <strong>Goldman Sachs</strong> and others; Standard Life to hold <strong>25% economic interest</strong> and contribute <strong>£500m over five years</strong>, launching <strong>H1 2027</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Standard Life posts 13% growth in H1 IFRS adjusted operating profit to £324m and reaffirms end-2026 targets, backed by its £2bn Aegon UK deal.",
+    "priority": "high",
+    "priority_reason": "Half-year results from a major UK retirement savings group, plus updates on the £2bn Aegon UK acquisition and a new PRT partnership.",
+    "figures": [
+      {
+        "metric": "IFRS adjusted operating profit (group)",
+        "current": "£324m",
+        "prior": "£286m",
+        "change": "+13%",
+        "basis": "",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "IFRS adjusted operating profit (fee-based)",
+        "current": "£244m",
+        "prior": "£179m",
+        "change": "+36%",
+        "basis": "capital-light fee-based business",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "Total Operating Cash Generation",
+        "current": "£745m",
+        "prior": "not stated",
+        "change": "+6% year-on-year",
+        "basis": "",
+        "note": "H1 2026"
+      },
+      {
+        "metric": "Operating Cash Generation (fee-based)",
+        "current": "£203m",
+        "prior": "£165m",
+        "change": "+23%",
+        "basis": "",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "Operating Cash Generation (spread-based)",
+        "current": "£466m",
+        "prior": "£443m",
+        "change": "+5%",
+        "basis": "",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "Average AUA (fee-based)",
+        "current": "£217bn",
+        "prior": "£198bn",
+        "change": "+10%",
+        "basis": "",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "Average AUA (spread-based)",
+        "current": "£42.0bn",
+        "prior": "£39.5bn",
+        "change": "+6%",
+        "basis": "",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "Fee margin",
+        "current": "22bps",
+        "prior": "18bps",
+        "change": "+4bps",
+        "basis": "",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "Spread-based OCG margin",
+        "current": "222bps",
+        "prior": "224bps",
+        "change": "-2bps",
+        "basis": "",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "SII leverage ratio",
+        "current": "29%",
+        "prior": "33%",
+        "change": "-4pts",
+        "basis": "",
+        "note": "30 June 2026 vs FY 2025"
+      },
+      {
+        "metric": "Cumulative run-rate cost savings",
+        "current": "£210m",
+        "prior": "£180m",
+        "change": "not stated",
+        "basis": "",
+        "note": "end-H1 2026 vs FY 2025"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "3-year strategy (set March 2024): c.£1.1bn IFRS adjusted operating profit in 2026, total cash generation of £5.1bn across 2024-26, £250m annual run-rate cost savings by end-2026, SII leverage ratio of c.30% by end-2026, mid-single-digit % p.a. OCG growth.",
+      "current": "Reaffirmed all end-2026 targets: on track for c.£1.1bn IFRS adjusted operating profit; c.£500m of excess cash expected in 2026; SII leverage target of c.30% already achieved at 29%; £210m of £250m cost savings delivered; c.£4.4bn of the £5.1bn cash target achieved to H1 2026.",
+      "commentary": "Guidance is unchanged and the group says it remains on track for all end-2026 targets, with the leverage target hit early. Further detail and new post-2026 financial guidance will be set out at a Capital Markets Update."
+    },
+    "explainer": "These are half-year results for the six months to 30 June 2026, with each figure compared against the same period a year earlier (H1 2025). Standard Life splits its business into a capital-light 'fee-based' arm (Workplace and Retail pensions and savings, earning a margin on assets under administration) and a capital-utilising 'spread-based' arm (annuities and Pension Risk Transfer, where it takes on insurance risk). Group IFRS adjusted operating profit — the underlying profit measure that strips out one-offs — rose 13% to £324m, with the fee-based side growing fastest at 36%.\n\nOperating Cash Generation (OCG) is the cash the business produces that can fund debt repayment, dividends and growth. Total OCG grew 6% to £745m, keeping the group on course for its three-year cash target of £5.1bn across 2024-26, of which £4.4bn has now been banked. The company also cut its Solvency II leverage ratio to 29%, hitting its c.30% end-2026 target early after repaying dollar and sterling subordinated notes in June.\n\nGuidance is maintained rather than changed: management reaffirmed every end-2026 target, including c.£1.1bn of operating profit and c.£500m of excess cash this year — 2026 being the final year it uses excess cash to reduce debt. Beyond that, two large deals dominate the outlook. The £2bn Aegon UK acquisition, due to complete around end-2026, would make Standard Life the largest UK pensions and savings player. The separate up to £2bn PRT partnership with CVC, Prudential Financial, Goldman Sachs and others — in which Standard Life keeps operational control and a 25% economic stake for a £500m commitment — targets the fast-growing market for pension schemes over £2bn and is due to launch in the first half of 2027.\n\nNew financial guidance for the period after 2026 has not yet been given; the company says it will provide this, along with plans for using excess cash from 2027, at a forthcoming Capital Markets Update.",
+    "source_url": "https://uk.advfn.com/stock-market/london/standard-life-SDLF/share-news/Standard-Life-plc-Interim-Results-Announcement/99258041",
+    "related_news_url": "https://news.google.com/search?q=%22Standard%20Life%20plc%22",
+    "added_at": "2026-09-07T07:21:45.664453"
+  },
+  {
+    "company": "Gamma Communications plc",
+    "ticker": "GAMA",
+    "publish_date": "07 September 2026",
+    "date_iso": "2026-09-07",
+    "time_period": "H1 2026 (six months to 30 June 2026)",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 2026 (six months to 30 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Interim results</strong> for the six months to <strong>30 June 2026</strong>: revenue up <strong>4% to £330.0m</strong> (<strong>£316.6m</strong>) and gross profit up <strong>4% to £178.1m</strong> (<strong>£172.0m</strong>); organic revenue growth <strong>2%</strong>, gross profit flat organically.</li><li>Overshadowed by a <strong>recommended all-cash offer from Epiris (Bradbury Bidco Ltd)</strong> announced <strong>1 September 2026</strong>; the Board has recommended it as a <strong>superior outcome to the standalone strategy</strong>.</li><li>As a result, Gamma will <strong>not declare or pay any further dividends</strong> before completion, and the <strong>£45m buyback programme (announced 13 January 2026) is suspended</strong>.</li><li><strong>Germany SME</strong> gross profit up <strong>30% to £44.8m</strong> (<strong>£34.4m</strong>), 11% organic, aided by full-period <strong>Starface</strong> contribution; <strong>UK SME</strong> gross profit down <strong>7% to £69.3m</strong> on market headwinds and pricing pressure plus prior-year non-recurring credits.</li><li><strong>Adjusted PBT down 3% to £59.2m</strong>; <strong>Adjusted EPS broadly flat at 47.7p</strong> (47.9p); statutory <strong>PBT up 15% to £50.1m</strong> and <strong>EPS up 18% to 40.2p</strong> (no exceptionals vs £7.3m).</li><li>Balance sheet strong: <strong>net debt £3.8m</strong> (31 Dec 2025: £9.3m), <strong>adjusted cash conversion 97%</strong> (90%); <strong>Webex for Gamma</strong> seats grown to <strong>c.90k</strong> (56k).</li></ul>",
+    "source_format": "html",
+    "headline": "Gamma posts 4% H1 revenue growth to £330.0m and confirms a recommended cash offer from Epiris, suspending dividends and its buyback.",
+    "priority": "high",
+    "priority_reason": "Half-year results published alongside a recommended all-cash takeover by Epiris, with dividends and buyback now suspended.",
+    "figures": [
+      {
+        "metric": "Revenue",
+        "current": "£330.0m",
+        "prior": "£316.6m",
+        "change": "+4%",
+        "basis": "reported (+2% organic)",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Gross profit",
+        "current": "£178.1m",
+        "prior": "£172.0m",
+        "change": "+4%",
+        "basis": "reported (flat organic)",
+        "note": "H1 2026"
+      },
+      {
+        "metric": "Adjusted EBITDA",
+        "current": "£72.5m",
+        "prior": "£70.9m",
+        "change": "+2%",
+        "basis": "reported (-1% organic)",
+        "note": "H1 2026"
+      },
+      {
+        "metric": "Adjusted PBT",
+        "current": "£59.2m",
+        "prior": "£61.0m",
+        "change": "-3%",
+        "basis": "as reported",
+        "note": "higher D&A and lower interest income"
+      },
+      {
+        "metric": "Profit before tax (statutory)",
+        "current": "£50.1m",
+        "prior": "£43.5m",
+        "change": "+15%",
+        "basis": "as reported",
+        "note": "no exceptionals vs £7.3m in H1 2025"
+      },
+      {
+        "metric": "Adjusted EPS (fully diluted)",
+        "current": "47.7p",
+        "prior": "47.9p",
+        "change": "flat",
+        "basis": "as reported",
+        "note": "buyback benefit offset PBT decline"
+      },
+      {
+        "metric": "EPS (fully diluted, statutory)",
+        "current": "40.2p",
+        "prior": "34.1p",
+        "change": "+18%",
+        "basis": "as reported",
+        "note": "H1 2026"
+      },
+      {
+        "metric": "Net debt",
+        "current": "£3.8m",
+        "prior": "£9.3m",
+        "change": "not stated",
+        "basis": "vs 31 December 2025",
+        "note": "rapid deleveraging since Starface acquisition"
+      },
+      {
+        "metric": "Adjusted cash conversion",
+        "current": "97%",
+        "prior": "90%",
+        "change": "not stated",
+        "basis": "as reported",
+        "note": "adjusted cash from operations +10% to £70.3m"
+      }
+    ],
+    "guidance": {
+      "status": "withdrawn",
+      "previous": "2025 final dividend of £13.4m paid in period; share buyback programme announced 13 January 2026 in progress (£21.1m completed by end June 2026)",
+      "current": "No further dividends to be declared or paid prior to the effective date of the acquisition; buyback programme suspended as the share price is outside pre-set parameters agreed with Investec",
+      "commentary": "No formal trading guidance is given. Following the recommended Epiris offer, Gamma has halted shareholder returns — pausing dividends and suspending the buyback — pending completion of the takeover."
+    },
+    "explainer": "The headline financials are solid but secondary to corporate events: on 1 September 2026 Gamma agreed a recommended all-cash takeover by private equity firm Epiris, and the Board is recommending shareholders accept. That decision drives everything else — dividends are paused and the buyback is suspended, so the investment case is now about the offer terms rather than trading momentum.\n\nOn the numbers, reported growth of 4% flatters the underlying picture: organic revenue rose just 2% and organic gross profit was flat, with much of the reported gain coming from a full six-month contribution from Starface (the German business acquired mid-February 2025). Germany is the growth engine (gross profit +30%), offsetting a 7% decline in UK SME gross profit, where pricing pressure and the absence of prior-year non-recurring credits weighed.\n\nThe gap between statutory and adjusted profit is worth noting. Statutory PBT jumped 15% and statutory EPS 18%, but that mostly reflects the absence of £7.3m of exceptional items booked in H1 2025 rather than trading improvement. Adjusted PBT actually fell 3% on higher depreciation/amortisation and lower interest income, while adjusted EPS was held flat by share buybacks shrinking the share count.\n\nCash generation was a genuine bright spot: adjusted cash conversion of 97% and net debt cut to just £3.8m, showing rapid deleveraging after the Starface deal even while returning cash to shareholders. With the Epiris offer on the table, however, further capital returns are now on hold.",
+    "source_url": "https://uk.advfn.com/stock-market/london/gamma-communications-GAMA/share-news/Gamma-Communications-PLC-Half-year-Report/99258039",
+    "related_news_url": "https://news.google.com/search?q=%22Gamma%20Communications%20plc%22",
+    "added_at": "2026-09-07T07:21:45.590900"
+  },
+  {
     "company": "Foresight Group Holdings Limited",
     "ticker": "FSG",
     "publish_date": "07 September 2026",
