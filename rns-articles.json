@@ -1,5 +1,31 @@
 [
   {
+    "company": "Ithaca Energy plc",
+    "ticker": "ITH",
+    "publish_date": "07 September 2026",
+    "date_iso": "2026-09-07",
+    "time_period": "FY2026 (first interim)",
+    "announcement_type": "Dividend declaration",
+    "period_detail": "FY2026 (first interim)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li>First interim dividend for 2026 of <strong>$255 million</strong>, equal to <strong>$0.1542 per ordinary share</strong>, first announced on <strong>19 August 2026</strong>.</li><li>Sterling cash amount set at <strong>11.4146 pence per share</strong>, converted at <strong>£1 = US$1.3509</strong> (average mid-point over 2, 3 and 4 September 2026).</li><li>Payable on <strong>24 September 2026</strong> to shareholders on the register at <strong>4 September 2026</strong>.</li><li>Routine sterling-conversion confirmation of a previously declared dividend — <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Ithaca Energy confirms its **$255 million** first interim 2026 dividend will pay **11.4146 pence per share** in sterling on **24 September 2026**.",
+    "priority": "medium",
+    "priority_reason": "Confirms the sterling conversion rate and cash amount of an already-declared 2026 first interim dividend.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/ithaca-energy-ITH/share-news/Ithaca-Energy-PLC-Payment-of-first-interim-dividen/99261479",
+    "related_news_url": "https://news.google.com/search?q=%22Ithaca%20Energy%20plc%22",
+    "added_at": "2026-09-07T16:16:04.402789"
+  },
+  {
     "company": "Standard Chartered PLC",
     "ticker": "STAN",
     "publish_date": "07 September 2026",
