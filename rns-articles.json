@@ -1,5 +1,57 @@
 [
   {
+    "company": "Standard Chartered PLC",
+    "ticker": "STAN",
+    "publish_date": "07 September 2026",
+    "date_iso": "2026-09-07",
+    "time_period": "",
+    "announcement_type": "Debt redemption",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Standard Chartered PLC</strong> will exercise its call to fully redeem the outstanding <strong>€500,000,000 Fixed Rate Reset Notes due 2027</strong> (ISIN XS1693281617) on <strong>3 October 2026</strong>, with the redemption payment made on <strong>5 October 2026</strong>.</li><li>Notes will be redeemed at the <strong>Call Option Redemption Amount plus accrued but unpaid interest</strong>, then cancelled, leaving no Notes in issue.</li><li>LSE listing and Main Market trading of the Notes will be cancelled on or shortly after <strong>6 October 2026</strong>; routine debt housekeeping with <strong>no impact</strong> on equity trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Standard Chartered will fully redeem its €500m Fixed Rate Reset Notes due 2027 on 3 October 2026 at the call option amount plus accrued interest.",
+    "priority": "low",
+    "priority_reason": "Routine call of a single wholesale bond, no impact on equity trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/standard-chartered--stan/notice-of-redemption/9759049",
+    "related_news_url": "https://news.google.com/search?q=%22Standard%20Chartered%22",
+    "added_at": "2026-09-07T11:55:49.000663"
+  },
+  {
+    "company": "Next PLC",
+    "ticker": "NXT",
+    "publish_date": "07 September 2026",
+    "date_iso": "2026-09-07",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>Next</strong> succeeded in its appeal to the <strong>Employment Appeal Tribunal</strong> on the key issue of <strong>Basic Pay</strong>, endorsing its position that shop assistants and warehouse operatives need not receive the same basic pay where markets and working conditions differ.</li><li>Tribunal confirmed it was justifiable for Next to rely on <strong>market forces</strong> to pay warehouse operatives more, given recruitment and retention pressures not present in stores.</li><li>Both the original Employment Tribunal and the Appeal Tribunal found <strong>no direct sex discrimination</strong>; the Claimants' cross-appeal on this issue was dismissed.</li><li>Next has now won the <strong>vast majority</strong> of terms challenged, including warehouse bonus pay (last year) and now Basic Pay.</li><li>Next intends to <strong>seek permission to appeal</strong> on a small number of remaining terms, including paid rest breaks, where it says the same principles apply.</li><li>No trading, financial or guidance figures provided; company frames outcome as removing a threat to the ongoing viability of many stores.</li></ul>",
+    "source_format": "html",
+    "headline": "**Next** wins Employment Appeal Tribunal ruling on Basic Pay in its long-running equal pay litigation, avoiding a potential threat to store viability.",
+    "priority": "medium",
+    "priority_reason": "Landmark equal pay ruling in Next's favour removes a material cost and store-viability threat, though it carries no direct financials or guidance change.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/next-NXT/share-news/Next-PLC-Important-Victory-For-NEXT-In-Equal-Pay-A/99260527",
+    "related_news_url": "https://news.google.com/search?q=%22Next%20plc%22",
+    "added_at": "2026-09-07T11:55:48.988493"
+  },
+  {
     "company": "AJ Bell PLC",
     "ticker": "AJB",
     "publish_date": "07 September 2026",
