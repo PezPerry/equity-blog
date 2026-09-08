@@ -1,5 +1,57 @@
 [
   {
+    "company": "Londonmetric Property PLC",
+    "ticker": "LMP",
+    "publish_date": "08 September 2026",
+    "date_iso": "2026-09-08",
+    "time_period": "",
+    "announcement_type": "Acquisition / deal",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li>The <strong>Court</strong> has granted the order sanctioning the scheme of arrangement for the recommended all-share acquisition of <strong>Picton Property Income Limited</strong> by the consortium of <strong>LondonMetric Property Plc</strong> and <strong>Schroder Real Estate Investment Trust Limited (SREIT)</strong>.</li><li>Scheme became capable of completion after Picton shareholders approved it at the Court Meeting and General Meeting on <strong>2 September 2026</strong>.</li><li>Scheme Record Time is <strong>6.00 p.m. on 9 September 2026</strong>, the expected last day of dealings in Picton shares.</li><li>Scheme expected to become Effective on <strong>10 September 2026</strong>, with Picton shares suspended at 7.30 a.m. that day and their listing on the Official List and Main Market cancelled shortly after.</li><li>This is a routine completion-stage announcement; deal terms are unchanged from the <strong>31 July 2026</strong> offer and <strong>10 August 2026</strong> scheme document.</li></ul>",
+    "source_format": "html",
+    "headline": "Court has sanctioned the scheme of arrangement for LondonMetric and Schroder REIT's recommended all-share takeover of Picton Property Income, with completion expected 10 September 2026.",
+    "priority": "high",
+    "priority_reason": "Court has sanctioned the scheme, clearing the way for LondonMetric and SREIT to complete their all-share takeover of Picton, with Picton shares set to be delisted.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/londonmetric-property--lmp/court-sanction-of-scheme-of-arrangement/9761150",
+    "related_news_url": "https://news.google.com/search?q=%22LondonMetric%20Property%22",
+    "added_at": "2026-09-08T13:16:20.873523"
+  },
+  {
+    "company": "AstraZeneca PLC",
+    "ticker": "AZN",
+    "publish_date": "08 September 2026",
+    "date_iso": "2026-09-08",
+    "time_period": "",
+    "announcement_type": "Clinical trial results",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Tozorakimab</strong> met primary and key secondary endpoints in the replicate Phase III <strong>OBERON</strong> and <strong>TITANIA</strong> trials, becoming the first biologic to show statistically significant, clinically meaningful reductions in COPD exacerbations across a broad patient population.</li><li>In former smokers (primary population), moderate and severe exacerbations fell <strong>29% (OBERON)</strong> and <strong>34% (TITANIA)</strong> versus placebo; in the overall population of current and former smokers, reductions were <strong>30% (OBERON)</strong> and <strong>29% (TITANIA)</strong>.</li><li>Pooled analysis showed benefit across all blood eosinophil subgroups: <strong>23%</strong> reduction below 150 cells/uL, <strong>34%</strong> at/above 150 and <strong>43%</strong> at/above 300.</li><li>Drug was generally well tolerated; only reported adverse drug reaction was <strong>injection-site reaction</strong>. Full results published in the <strong>New England Journal of Medicine</strong> and presented at the <strong>European Respiratory Society Congress 2026</strong>.</li><li>US <strong>FDA</strong> has accepted the Biologics License Application under <strong>Priority Review</strong> as add-on COPD maintenance therapy, with a PDUFA date anticipated in <strong>Q1 2027</strong>; also under review in the EU and China.</li><li>Positive high-level results were first flagged in <strong>March 2026</strong>; a total of <strong>2,306 patients</strong> were randomised across the two 52-week trials.</li></ul>",
+    "source_format": "html",
+    "headline": "AstraZeneca's tozorakimab hit primary endpoints in the Phase III OBERON and TITANIA COPD trials, cutting exacerbations by up to 34% versus placebo.",
+    "priority": "high",
+    "priority_reason": "Positive pivotal Phase III data for a potential first-in-class COPD biologic already under US Priority Review, a material pipeline catalyst.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/astrazeneca-AZN/share-news/Tozorakimab-demonstrated-statistically-significant/99264804",
+    "related_news_url": "https://news.google.com/search?q=%22AstraZeneca%20PLC%22",
+    "added_at": "2026-09-08T13:16:20.849648"
+  },
+  {
     "company": "CME Group Inc",
     "ticker": "CME",
     "publish_date": "08 September 2026",
