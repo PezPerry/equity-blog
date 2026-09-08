@@ -1,5 +1,31 @@
 [
   {
+    "company": "Hammerson PLC",
+    "ticker": "HMSO",
+    "publish_date": "08 September 2026",
+    "date_iso": "2026-09-08",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>Hammerson plc</strong> has admitted its <strong>£250,000,000 5.875 per cent Notes due 2033</strong> (ISIN: XS3489989866) to trading on the <strong>London Stock Exchange</strong> main market on <strong>8 September 2026</strong>.</li><li>Notes issued under the company's <strong>£5,000,000,000 Euro Medium Term Note Programme</strong>, per the base prospectus dated <strong>24 April 2026</strong> and final terms dated <strong>4 September 2026</strong>.</li><li>Routine listing disclosure with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Hammerson admits £250m 5.875% notes due 2033 to trading on the London Stock Exchange's main market.",
+    "priority": "low",
+    "priority_reason": "Routine technical admission-to-trading notice for an already-issued bond, with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/hammerson--hmso/admission-to-trading/9761375",
+    "related_news_url": "https://news.google.com/search?q=%22Hammerson%22",
+    "added_at": "2026-09-08T14:19:55.192640"
+  },
+  {
     "company": "Londonmetric Property PLC",
     "ticker": "LMP",
     "publish_date": "08 September 2026",
