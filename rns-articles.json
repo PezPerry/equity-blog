@@ -1,5 +1,31 @@
 [
   {
+    "company": "Intel Corp",
+    "ticker": "INTC",
+    "publish_date": "08 September 2026",
+    "date_iso": "2026-09-08",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>Intel Foundry</strong> and <strong>ASML</strong> highlighted progress on <strong>High NA EUV lithography</strong> at the SPIE Photomask Technology conference, building on years of collaboration.</li><li>Intel Foundry cited its lead role: first commercial <strong>EXE</strong> install in <strong>2024</strong>, tool qualification, and shipping the first high-volume logic product made with High NA.</li><li>Near-term focus is enabling High NA on <strong>6-inch masks</strong> with reticle stitching, ahead of a transition to larger <strong>6x12-inch masks</strong>.</li><li>Routine conference/PR update — <strong>no financial figures, guidance or trading impact</strong> stated.</li></ul>",
+    "source_format": "html",
+    "headline": "Intel Foundry and ASML detailed continued progress on bringing High NA EUV lithography into production, including reticle stitching on standard 6-inch masks.",
+    "priority": "low",
+    "priority_reason": "Routine industry collaboration and conference update with no financial or trading impact.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/INTC/share-news/Intel-Foundry-and-ASML-Collaborate-to-Accelerate-I/99262622",
+    "related_news_url": "https://news.google.com/search?q=%22Intel%20Corporation%22",
+    "added_at": "2026-09-08T07:17:07.742464"
+  },
+  {
     "company": "Ithaca Energy plc",
     "ticker": "ITH",
     "publish_date": "07 September 2026",
