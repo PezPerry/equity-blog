@@ -1,5 +1,112 @@
 [
   {
+    "company": "Old Mutual Ltd",
+    "ticker": "OMU",
+    "publish_date": "08 September 2026",
+    "date_iso": "2026-09-08",
+    "time_period": "H1 to 30 June 2026",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Results from operations per share up 11%</strong>, with return on group equity value rising to <strong>12.7%</strong> and normalised return on net asset value improving to <strong>12.6%</strong> (H1 2025: <strong>11.9%</strong>).</li><li><strong>Life APE sales and gross flows both up 21%</strong>; value of new business up <strong>32%</strong> and new business margin up <strong>10bps</strong> — though APE growth is <strong>12%</strong> excluding large non-recurring Old Mutual Corporate risk sales.</li><li>Interim dividend of <strong>40 cents per share</strong> declared, up <strong>8%</strong>, plus a new <strong>R1 billion share buyback</strong> approved.</li><li><strong>Adjusted headline earnings fell</strong>, driven by negative shareholder investment returns amid risk-off markets; group equity value per share up <strong>4% to R20.66</strong>.</li><li>Group shareholder solvency at <strong>172%</strong> (OMLACSA <strong>175%</strong>); discretionary capital cut to <strong>R3.1bn</strong> from <strong>R6.1bn</strong> after completing the earlier <strong>R3bn</strong> buyback.</li><li>Management flags H1 sales included non-recurring gains, so <strong>sales growth is likely to moderate in H2 2026</strong>; says it is on track for medium-term targets.</li></ul>",
+    "source_format": "html",
+    "headline": "Old Mutual posts 11% growth in results from operations per share for H1 2026, lifts the interim dividend 8% to 40 cents and launches a R1bn buyback.",
+    "priority": "high",
+    "priority_reason": "Half-year results with dividend and a new share buyback from a dual-listed insurer.",
+    "figures": [
+      {
+        "metric": "Results from operations per share",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+11%",
+        "basis": "",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Normalised return on net asset value",
+        "current": "12.6%",
+        "prior": "11.9%",
+        "change": "+0.7pp",
+        "basis": "",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Return on group equity value",
+        "current": "12.7%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "improved on higher operating earnings"
+      },
+      {
+        "metric": "Life APE sales",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+21% (+12% ex non-recurring)",
+        "basis": "",
+        "note": ""
+      },
+      {
+        "metric": "Value of new business",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+32%",
+        "basis": "",
+        "note": "margin +10bps"
+      },
+      {
+        "metric": "Gross flows",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+21%",
+        "basis": "",
+        "note": "incl. 10X Investments"
+      },
+      {
+        "metric": "Group equity value per share",
+        "current": "R20.66",
+        "prior": "not stated",
+        "change": "+4%",
+        "basis": "",
+        "note": "closing 4,498m shares"
+      },
+      {
+        "metric": "Interim dividend",
+        "current": "40 cents per share",
+        "prior": "not stated",
+        "change": "+8%",
+        "basis": "",
+        "note": "within medium-term target range"
+      },
+      {
+        "metric": "Group shareholder solvency ratio",
+        "current": "172%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "OMLACSA 175%"
+      },
+      {
+        "metric": "Discretionary capital",
+        "current": "R3.1bn",
+        "prior": "R6.1bn",
+        "change": "not stated",
+        "basis": "",
+        "note": "R3.1bn at 30 Jun 2026 vs R6.1bn at 31 Dec 2025 after R3bn buyback"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Cost savings target of R2.5 billion by end 2027; OM Bank pathway to profitability by FY2028; progressive dividend within medium-term target range.",
+      "current": "On track to deliver medium-term targets: R936 million cumulative cost savings achieved against the 2024 base; OM Bank still targeting profitability by FY2028; H1 2026 sales growth expected to moderate in H2 2026 due to non-recurring gains.",
+      "commentary": "Old Mutual reaffirms its medium-term targets and says it is on track, while cautioning that strong first-half sales included large non-recurring items so growth should slow in the second half."
+    },
+    "explainer": "These are unaudited South African interim results for the six months to 30 June 2026, reported in rand (ZAR). Old Mutual is primarily JSE-listed with a secondary London listing, so figures are in cents/rand rather than sterling. Most headline metrics are given as percentage changes rather than paired absolute numbers, and several are non-IFRS measures the company uses to show underlying operating performance.\n\nThe operating picture was strong: results from operations per share rose 11%, helped by 21% growth in life new-business (APE) sales and gross flows. However, the company notes that headline APE growth of 21% falls to 12% once you strip out some large Old Mutual Corporate risk contracts that are not expected to recur, which is why it warns second-half growth will moderate. Return on group equity value climbed to 12.7% and group equity value per share rose 4% to R20.66.\n\nIn contrast, adjusted headline earnings actually fell. This was not an operating problem but reflects negative shareholder investment returns — the group's own investment portfolio tracked weak equity and bond markets during a risk-off period tied to Middle East tensions. IFRS profit and headline earnings, which include Zimbabwe, looked better; adjusted headline earnings exclude Zimbabwe. Malawi is still treated as hyperinflationary.\n\nOn guidance, nothing was changed: the group reaffirmed its R2.5bn cost-savings target by 2027 (R936m banked so far), OM Bank's route to profitability by FY2028, and its progressive dividend policy. Capital returns stepped up — an 8% higher interim dividend of 40 cents plus a fresh R1bn buyback — though discretionary capital nearly halved to R3.1bn after completing the earlier R3bn buyback, with a R4bn OMLACSA dividend expected to replenish at least R2bn in H2.",
+    "source_url": "https://uk.advfn.com/stock-market/london/old-mutual-OMU/share-news/Old-Mutual-Limited-OML-Interim-Results-30-June-202/99262386",
+    "related_news_url": "https://news.google.com/search?q=%22Old%20Mutual%20Limited%22",
+    "added_at": "2026-09-08T07:19:18.383054"
+  },
+  {
     "company": "Johnson Service Group PLC",
     "ticker": "JSG",
     "publish_date": "08 September 2026",
