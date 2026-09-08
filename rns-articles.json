@@ -1,5 +1,31 @@
 [
   {
+    "company": "Hiscox Ltd",
+    "ticker": "HSX",
+    "publish_date": "08 September 2026",
+    "date_iso": "2026-09-08",
+    "time_period": "",
+    "announcement_type": "Dividend declaration",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li>Sterling equivalent of the <strong>16.8c</strong> interim dividend set at <strong>12.42p per share</strong>.</li><li>Rate based on the average USD/GBP exchange rate over the five business days from <strong>1 September 2026</strong> to <strong>7 September 2026</strong>.</li><li>Dividend paid in Sterling unless shareholders elect US Dollars; interim was declared <strong>5 August 2026</strong> for holders on register at <strong>14 August 2026</strong>.</li><li>Routine currency-conversion notice with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Hiscox confirms the Sterling equivalent of its previously declared 16.8c interim dividend is 12.42p per share.",
+    "priority": "low",
+    "priority_reason": "Routine confirmation of the Sterling conversion rate for an already-declared interim dividend, with no new financial information.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/hiscox-limited-di---hsx/notice-of-interim-dividend-currency-exchange-rate/9761489",
+    "related_news_url": "https://news.google.com/search?q=%22Hiscox%20Limited%20(DI)%22",
+    "added_at": "2026-09-08T15:36:03.755945"
+  },
+  {
     "company": "Hammerson PLC",
     "ticker": "HMSO",
     "publish_date": "08 September 2026",
