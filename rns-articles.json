@@ -1,5 +1,57 @@
 [
   {
+    "company": "Yellow Cake PLC",
+    "ticker": "YCA",
+    "publish_date": "08 September 2026",
+    "date_iso": "2026-09-08",
+    "time_period": "",
+    "announcement_type": "AGM statement",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>All resolutions passed</strong> at <strong>Yellow Cake plc's</strong> AGM held on <strong>8 September 2026</strong> — resolutions 1-12 as ordinary and 13-14 as special resolutions.</li><li><strong>Resolution 13</strong> (disapplication of pre-emption rights) passed but drew only <strong>78.64% in favour</strong> (21.36% against), below the 80% threshold; the Board will <strong>consult dissenting shareholders</strong> and publish an update within six months per the UK Corporate Governance Code.</li><li>Notable opposition also on <strong>Resolution 5</strong> (re-appoint Sofia Bianchi, <strong>93.16%</strong> for) and <strong>Resolution 12</strong> (authority to allot shares, <strong>91.43%</strong> for).</li><li>Routine AGM outcome with <strong>no impact</strong> on trading or guidance; the Group holds <strong>24.4 million pounds of U3O8</strong> in Canada and France.</li></ul>",
+    "source_format": "html",
+    "headline": "All 14 resolutions passed at Yellow Cake's 2026 AGM, though the pre-emption disapproval received only 78.64% support, prompting shareholder consultation.",
+    "priority": "medium",
+    "priority_reason": "Routine AGM outcome, but resolution 13 passed with under 80% support, triggering a shareholder consultation.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/yellow-cake--yca/results-of-2026-annual-general-meeting-/9760977",
+    "related_news_url": "https://news.google.com/search?q=%22Yellow%20Cake%22",
+    "added_at": "2026-09-08T10:56:00.613387"
+  },
+  {
+    "company": "BP PLC",
+    "ticker": "BP.",
+    "publish_date": "08 September 2026",
+    "date_iso": "2026-09-08",
+    "time_period": "Q2 2026",
+    "announcement_type": "Dividend declaration",
+    "period_detail": "Q2 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>BP p.l.c.</strong> confirms the sterling cash value of its <strong>Q2 2026</strong> interim dividend of <strong>US$0.0866 per ordinary share</strong> (declared <strong>4 August 2026</strong>) as <strong>6.4059 pence per share</strong>.</li><li>Converted at an average market rate over 2-4 September 2026 of <strong>£1 = US$1.35187</strong>; payable <strong>18 September 2026</strong> to holders on the register at <strong>14 August 2026</strong>.</li><li>Routine currency-conversion notice with <strong>no scrip alternative</strong> offered; <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "BP sets the sterling cash amount for its already-declared second-quarter 2026 interim dividend at **6.4059 pence per share**, payable **18 September 2026**.",
+    "priority": "low",
+    "priority_reason": "Routine sterling conversion rate for an already-declared Q2 2026 dividend, no new financial information.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/bp--bp./payment-of-dividends-in-sterling-/9760920",
+    "related_news_url": "https://news.google.com/search?q=%22BP%22",
+    "added_at": "2026-09-08T10:56:00.597095"
+  },
+  {
     "company": "Drax Group PLC",
     "ticker": "DRX",
     "publish_date": "08 September 2026",
