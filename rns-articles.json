@@ -1,5 +1,96 @@
 [
   {
+    "company": "Johnson Service Group PLC",
+    "ticker": "JSG",
+    "publish_date": "08 September 2026",
+    "date_iso": "2026-09-08",
+    "time_period": "H1 to 30 June 2026",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Adjusted operating profit +3.8% to GBP29.8m</strong> (H1 2025: GBP28.7m), margin up 50bps to <strong>11.6%</strong>; revenue broadly flat at <strong>GBP258.0m</strong> (+0.2%).</li><li><strong>Adjusted diluted EPS +8.7% to 5.0p</strong> (4.6p); adjusted PBT <strong>GBP25.3m</strong> (GBP24.9m), statutory PBT <strong>GBP20.8m</strong> (GBP19.9m).</li><li><strong>Interim dividend raised to 1.8p</strong> (1.6p), payable <strong>6 November 2026</strong>, ex-dividend <strong>8 October 2026</strong>; full-year cover maintained at 2.5x.</li><li><strong>Workwear revenue +2.6% to GBP74.0m</strong> (all organic), but <strong>HORECA organic revenue down 2.0%</strong> on softer hospitality volumes and a weaker seasonal uplift.</li><li><strong>Net debt (ex IFRS 16) rose to GBP135.9m</strong> (Dec 2025: GBP112.4m), leverage 1.11x, after <strong>GBP12.7m</strong> H1 buybacks; GBP55.0m buyback programme had returned <strong>GBP28.2m</strong> by 31 August.</li><li>FY 2026 <strong>adjusted operating margin of at least 14.0% remains on track</strong>, CEO <strong>Peter Egan</strong> expecting another year of progress.</li></ul>",
+    "source_format": "html",
+    "headline": "Johnson Service Group posted H1 adjusted operating profit up 3.8% to GBP29.8m and remains on track for its at-least-14% full-year adjusted operating margin.",
+    "priority": "high",
+    "priority_reason": "Half-year results with earnings, dividend and full-year margin guidance for a UK-listed company.",
+    "figures": [
+      {
+        "metric": "Revenue",
+        "current": "GBP258.0m",
+        "prior": "GBP257.5m",
+        "change": "+0.2%",
+        "basis": "reported",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Adjusted EBITDA",
+        "current": "GBP77.9m",
+        "prior": "GBP75.4m",
+        "change": "margin 30.2% vs 29.3%",
+        "basis": "adjusted",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Adjusted operating profit",
+        "current": "GBP29.8m",
+        "prior": "GBP28.7m",
+        "change": "+3.8%",
+        "basis": "adjusted; margin 11.6% vs 11.1%",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Adjusted profit before tax",
+        "current": "GBP25.3m",
+        "prior": "GBP24.9m",
+        "change": "not stated",
+        "basis": "adjusted",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Statutory profit before tax",
+        "current": "GBP20.8m",
+        "prior": "GBP19.9m",
+        "change": "not stated",
+        "basis": "statutory",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Adjusted diluted EPS",
+        "current": "5.0p",
+        "prior": "4.6p",
+        "change": "+8.7%",
+        "basis": "adjusted diluted",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Interim dividend",
+        "current": "1.8p",
+        "prior": "1.6p",
+        "change": "+12.5%",
+        "basis": "per share",
+        "note": "payable 6 November 2026"
+      },
+      {
+        "metric": "Net debt (ex IFRS 16)",
+        "current": "GBP135.9m",
+        "prior": "GBP112.4m",
+        "change": "not stated",
+        "basis": "vs December 2025; leverage 1.11x",
+        "note": "at 30 June 2026"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Full-year adjusted operating margin of at least 14.0%",
+      "current": "Full-year adjusted operating margin of at least 14.0% remains on track",
+      "commentary": "Group reiterated its full-year target of at least a 14.0% adjusted operating margin and expects another year of progress, despite a more modest than anticipated seasonal uplift in HORECA and softer hospitality volumes."
+    },
+    "explainer": "These are half-year (six months to 30 June 2026) figures. The headline profit numbers are 'adjusted' alternative performance measures that strip out items such as amortisation of acquired intangibles (GBP3.9m) and an exceptional charge (GBP0.6m). On a statutory basis, pre-tax profit was GBP20.8m versus the adjusted GBP25.3m, so the two measures move in the same direction but the adjusted figure is higher.\n\nRevenue was essentially flat year on year because the two divisions pulled in opposite directions: Workwear grew 2.6% (all organic, i.e. from existing operations rather than acquisitions), while HORECA — hotel, restaurant and catering linen — saw organic revenue fall 2.0% as hospitality customers cut back. Profit and margins still improved thanks to lower energy costs, operational efficiencies from earlier investment and tight cost control.\n\nOn guidance, nothing has changed: management continues to target a full-year adjusted operating margin of at least 14.0% and says it remains on track, even though the usual summer pick-up in hotel and restaurant linen was weaker than hoped.\n\nNet debt rose over the half to GBP135.9m (excluding lease liabilities), mainly reflecting the timing of dividend payments and an ongoing GBP55.0m share buyback, of which GBP28.2m had been returned by end-August. Leverage of 1.11x sits at the lower end of the company's 1.0x–1.5x target range.",
+    "source_url": "https://uk.advfn.com/stock-market/london/johnson-service-JSG/share-news/Johnson-Service-Group-PLC-Interim-Results-Six-Mon/99262391",
+    "related_news_url": "https://news.google.com/search?q=%22Johnson%20Service%20Group%20PLC%22",
+    "added_at": "2026-09-08T07:18:41.355858"
+  },
+  {
     "company": "Mobico Group PLC",
     "ticker": "MCG",
     "publish_date": "08 September 2026",
