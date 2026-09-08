@@ -1,5 +1,31 @@
 [
   {
+    "company": "CME Group Inc",
+    "ticker": "CME",
+    "publish_date": "08 September 2026",
+    "date_iso": "2026-09-08",
+    "time_period": "",
+    "announcement_type": "Acquisition / deal",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>CME Group</strong> and the <strong>European Energy Exchange (EEX)</strong> have agreed that EEX will transition its <strong>European dairy business</strong> to CME Group, phasing out its own dairy suite before the <strong>end of 2027</strong>.</li><li>Deal covers EEX's <strong>European butter and skimmed milk powder indices</strong>; CME plans to launch its own <strong>European dairy indices, futures and options</strong> thereafter.</li><li><strong>EEX</strong> will focus on core energy markets and the energy transition; existing EEX dairy futures remain tradable for listed maturities with <strong>no immediate changes</strong> to the pan-European butter and WECI indices.</li><li>Rationale: EU accounts for <strong>~20%</strong> of global cow's milk production and <strong>>30%</strong> of nonfat dry milk exports, much of it unhedged; US dairy volumes up <strong>73%</strong> over five years.</li><li>CME dairy open interest hit a record <strong>434,071 contracts</strong> on <strong>1 September 2026</strong>.</li><li>Transaction is subject to <strong>pending closing conditions</strong>; no financial terms disclosed.</li></ul>",
+    "source_format": "html",
+    "headline": "CME Group agrees to take over EEX's European dairy derivatives business, marking its entry into the European dairy market before end-2027.",
+    "priority": "medium",
+    "priority_reason": "Strategic market-entry deal for CME, but small relative to group scale and not financially material.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/CME/share-news/CME-Group-to-Enter-European-Dairy-Market-with-Tran/99264365",
+    "related_news_url": "https://news.google.com/search?q=%22CME%20Group%20Inc.%22",
+    "added_at": "2026-09-08T12:16:14.058127"
+  },
+  {
     "company": "Standard Lithium Ltd.",
     "ticker": null,
     "publish_date": "08 September 2026",
