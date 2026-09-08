@@ -1,5 +1,187 @@
 [
   {
+    "company": "Mobico Group PLC",
+    "ticker": "MCG",
+    "publish_date": "08 September 2026",
+    "date_iso": "2026-09-08",
+    "time_period": "Q2 2026 (three months ending 30 June 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "Q2 2026 (three months ending 30 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Group revenue</strong> up <strong>5.0% YoY</strong> in Q2 2026, reflecting momentum in <strong>Alsa</strong> and recovery in <strong>German Rail</strong>; full-year <strong>guidance remains unchanged</strong>.</li><li><strong>Alsa</strong> revenue up <strong>8.0% YoY</strong> (<strong>13.7%</strong> excluding UK Coach); Long Haul +7.0%, Regional +10.5%, Urban +6.4%.</li><li><strong>German Rail</strong> revenue up <strong>19.3% YoY</strong> on return to full operations following revised rail contracts; <strong>WeDriveU</strong> down <strong>11.8%</strong> after exiting loss-making contracts.</li><li><strong>UK Coach</strong> revenue down <strong>16.7%</strong> on lower passenger numbers, yields and targeted cuts to unprofitable routes.</li><li><strong>UK Bus</strong> revenue down <strong>1.8%</strong>; on <strong>18 August 2026</strong> Group agreed in principle to sell UK Bus to the <strong>West Midlands Combined Authority</strong>, completion expected <strong>November 2026</strong>.</li><li>Group positioned as a simplified business focused on margin expansion, cash generation and asset-light growth following WeDriveU exit and proposed UK Bus sale.</li></ul>",
+    "source_format": "html",
+    "headline": "Mobico grew group revenue **5.0%** year-on-year in Q2 2026, driven by Alsa and recovering German Rail, with full-year guidance unchanged.",
+    "priority": "high",
+    "priority_reason": "Quarterly trading update with divisional revenue detail and reaffirmed full-year guidance.",
+    "figures": [
+      {
+        "metric": "Group revenue",
+        "current": "+5.0% YoY",
+        "prior": "not stated",
+        "change": "+5.0%",
+        "basis": "reported",
+        "note": "Q2 2026 vs Q2 2025"
+      },
+      {
+        "metric": "Alsa revenue",
+        "current": "+8.0% YoY",
+        "prior": "not stated",
+        "change": "+8.0% (+13.7% ex-UK Coach)",
+        "basis": "reported",
+        "note": "Q2 2026"
+      },
+      {
+        "metric": "German Rail revenue",
+        "current": "+19.3% YoY",
+        "prior": "not stated",
+        "change": "+19.3%",
+        "basis": "reported",
+        "note": "Q2 2026"
+      },
+      {
+        "metric": "WeDriveU revenue",
+        "current": "-11.8% YoY",
+        "prior": "not stated",
+        "change": "-11.8%",
+        "basis": "reported",
+        "note": "Q2 2026"
+      },
+      {
+        "metric": "UK Coach revenue",
+        "current": "-16.7% YoY",
+        "prior": "not stated",
+        "change": "-16.7%",
+        "basis": "reported",
+        "note": "Q2 2026"
+      },
+      {
+        "metric": "UK Bus revenue",
+        "current": "-1.8% YoY",
+        "prior": "not stated",
+        "change": "-1.8%",
+        "basis": "reported",
+        "note": "Q2 2026"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Full-year guidance (not quantified in this update)",
+      "current": "Guidance for the year remains unchanged",
+      "commentary": "Mobico reaffirmed its full-year guidance despite portfolio restructuring, citing continued Alsa momentum and German Rail recovery offsetting weaker UK Coach and WeDriveU."
+    },
+    "explainer": "This is a Q2 (three months to 30 June 2026) revenue-only update; it reports year-on-year growth rates by division rather than profit or absolute figures. Alsa's Spanish coach and urban operations are the main engine, with an 8.0% headline rise flattered to 13.7% once the shrinking UK Coach business is stripped out. German Rail's 19.3% jump reflects a return to full running after revised contracts, not underlying demand growth.\n\nThe declines in WeDriveU (US employee shuttles) and UK Coach are largely deliberate — Mobico is exiting loss-making contracts and unprofitable routes to lift margins, so falling revenue there is presented as a positive for cash generation.\n\nOn guidance, nothing has changed: the full-year outlook is reaffirmed. The key strategic item is the agreed-in-principle sale of UK Bus to the West Midlands Combined Authority, expected to complete in November 2026, which monetises the assets and removes exposure to looming bus franchising in the region.",
+    "source_url": "https://uk.advfn.com/stock-market/london/mobico-MCG/share-news/Mobico-Group-PLC-Q2-Trading-Update/99262352",
+    "related_news_url": "https://news.google.com/search?q=%22Mobico%20Group%20PLC%22",
+    "added_at": "2026-09-08T07:18:05.182622"
+  },
+  {
+    "company": "Computacenter plc",
+    "ticker": "CCC",
+    "publish_date": "08 September 2026",
+    "date_iso": "2026-09-08",
+    "time_period": "H1 2026 (six months ended 30 June 2026)",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 2026 (six months ended 30 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Record</strong> first-half performance, significantly ahead of expectations; Group revenue up <strong>more than 70%</strong>, driven by <strong>North America</strong> Technology Sourcing.</li><li>Gross profit up <strong>30.5%</strong>; adjusted operating profit up <strong>87.6%</strong> in constant currency; <strong>North America</strong> operating profit up <strong>148.4%</strong>, now <strong>62%</strong> of Group adjusted operating profit (H1 2025: 44%).</li><li>Record committed product order backlog of <strong>£9.3bn</strong> at 30 June 2026, up <strong>323.2%</strong> year on year; <strong>Technology Sourcing</strong> revenue up <strong>88.8%</strong> in constant currency.</li><li>Interim dividend increased <strong>14.8%</strong> to <strong>27.1p</strong>; adjusted net funds of <strong>£308.7m</strong>; <strong>216</strong> major customers (H1 2025: 198).</li><li>Completed acquisitions of <strong>AgreeYa</strong> (US$120m EV) and <strong>GAI</strong> (up to US$92m EV), expanding North American professional services and opening the US federal government market.</li><li>Promoted to the <strong>FTSE 100</strong> in June; <strong>Germany</strong> robust but hit by earlier-than-expected efficiency costs; <strong>Western Europe</strong> loss reduced.</li></ul>",
+    "source_format": "html",
+    "headline": "Computacenter reports record H1 2026, guides FY26 adjusted PBT to no less than **£380m**, significantly ahead of the **£340.9m** consensus.",
+    "priority": "high",
+    "priority_reason": "Record half-year results with a raised FY26 profit outlook significantly ahead of consensus.",
+    "figures": [
+      {
+        "metric": "Group revenue",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+more than 70%",
+        "basis": "reported",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Gross profit",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+30.5%",
+        "basis": "not stated",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Adjusted operating profit",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+87.6%",
+        "basis": "constant currency",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Interim dividend",
+        "current": "27.1p",
+        "prior": "not stated",
+        "change": "+14.8%",
+        "basis": "reported",
+        "note": "per share"
+      },
+      {
+        "metric": "Adjusted net funds",
+        "current": "£308.7m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "at 30 June 2026"
+      },
+      {
+        "metric": "Product order backlog",
+        "current": "£9.3bn",
+        "prior": "not stated",
+        "change": "+323.2%",
+        "basis": "year on year",
+        "note": "committed, at 30 June 2026"
+      },
+      {
+        "metric": "Major customers (>£1m gross profit p.a.)",
+        "current": "216",
+        "prior": "198",
+        "change": "+18 net",
+        "basis": "trailing 12 months",
+        "note": "includes 8 added via AgreeYa and GAI"
+      },
+      {
+        "metric": "North America operating profit",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+148.4%",
+        "basis": "constant currency",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Services revenue (organic)",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+9.0%",
+        "basis": "organic",
+        "note": "Professional Services +23.9% organic"
+      },
+      {
+        "metric": "Technology Sourcing revenue",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+88.8%",
+        "basis": "constant currency",
+        "note": "H1 to 30 June 2026"
+      }
+    ],
+    "guidance": {
+      "status": "raised",
+      "previous": "Company-compiled analyst consensus for FY 2026 adjusted profit before tax of £340.9m (range £332.0m to £354.0m)",
+      "current": "Adjusted PBT for full-year 2026 now expected to be significantly ahead of current market expectations and no less than £380m",
+      "commentary": "Following a strong start to the second half and a further increase in the committed product order backlog, particularly in North America, management raised the FY26 adjusted PBT floor to at least £380m, well above the £340.9m consensus."
+    },
+    "explainer": "These are Computacenter's interim (first-half) results for the six months to 30 June 2026. The company reports several profit measures on an 'adjusted' basis (stripping out items like acquisition-related and exceptional costs) and quotes many growth rates in 'constant currency', which removes the effect of exchange-rate movements so the underlying business trend is clearer. Headline revenue rose more than 70%, largely because of very high-volume, lower-margin Technology Sourcing sales in North America — which is why gross margin fell even as gross profit and operating profit grew strongly.\n\nGrowth was heavily skewed to North America, now 62% of adjusted operating profit versus 44% a year earlier, helped by AI-related data-centre demand and the newly acquired AgreeYa and GAI businesses. The order backlog figure of £9.3bn is a committed product order book, not booked revenue, and its 323% jump signals strong future demand rather than current sales. Germany's profit was dented by efficiency costs pulled forward into the half.\n\nOn guidance, the key change is that management now expects full-year 2026 adjusted pre-tax profit of no less than £380m, described as significantly ahead of the £340.9m analyst consensus (range £332.0m–£354.0m). In effect the company has set a profit floor roughly 11% above the mid-point of prior expectations, reflecting momentum into the second half and continued backlog growth.",
+    "source_url": "https://uk.advfn.com/stock-market/london/computacenter-CCC/share-news/Computacenter-PLC-2026-Half-Year-Results/99262384",
+    "related_news_url": "https://news.google.com/search?q=%22Computacenter%20plc%22",
+    "added_at": "2026-09-08T07:18:05.170748"
+  },
+  {
     "company": "Intel Corp",
     "ticker": "INTC",
     "publish_date": "08 September 2026",
