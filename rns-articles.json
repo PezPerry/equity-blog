@@ -1,5 +1,31 @@
 [
   {
+    "company": "Rathbones Group",
+    "ticker": "RAT",
+    "publish_date": "09 September 2026",
+    "date_iso": "2026-09-09",
+    "time_period": "",
+    "announcement_type": "Financing / refinancing",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Rathbones Group Plc</strong> has successfully issued <strong>£60 million</strong> of <strong>Tier 2 debt</strong> for capital efficiency and general corporate purposes, including refinancing its existing <strong>£40 million</strong> Tier 2 notes issued in <strong>2021</strong>.</li><li>Notes carry a fixed coupon of <strong>8.125%</strong> to December 2031, then reset at <strong>336.9bps</strong> over 5-year Gilts if the call is not exercised; maturity <strong>9 December 2036</strong> with a par call from <strong>9 September 2031</strong>.</li><li>To be admitted to the LSE's International Securities Market under ticker <strong>'RATLN'</strong>; restricted to eligible counterparties and professional clients only.</li><li>CFO <strong>Iain Hooley</strong> cited strong investor demand reflecting Rathbones' capital position; routine capital-management action with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Rathbones issues £60 million of new Tier 2 notes at a fixed 8.125% coupon, partly to refinance its existing £40 million 2021 notes.",
+    "priority": "medium",
+    "priority_reason": "Debt issuance and refinancing of existing Tier 2 notes; capital-structure event with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/rathbones-group--rat/successful-issue-of-new-60-million-tier-2-notes/9764008",
+    "related_news_url": "https://news.google.com/search?q=%22Rathbones%20Group%22",
+    "added_at": "2026-09-09T15:55:35.727844"
+  },
+  {
     "company": "IMI plc",
     "ticker": "IMI",
     "publish_date": "09 September 2026",
