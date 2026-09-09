@@ -1,5 +1,31 @@
 [
   {
+    "company": "Derwent London PLC",
+    "ticker": "DLN",
+    "publish_date": "09 September 2026",
+    "date_iso": "2026-09-09",
+    "time_period": "",
+    "announcement_type": "Director dealing",
+    "period_detail": "",
+    "type_workings": "Rule 'routine': matched 'pdmr' [rns.json record]",
+    "body": "<ul><li><strong>5,253</strong> ordinary shares (including dividend equivalents) released from the Employee Benefit Trust to satisfy the vesting of <strong>Damian Wisniewski's</strong> 2019 Performance Share Plan award under the Derwent London Performance Share Plan 2014.</li><li>EBT now holds <strong>35,609</strong> ordinary shares, representing <strong>0.03%</strong> of issued share capital (total issued capital <strong>109,748,146</strong> as at <strong>9 September 2026</strong>).</li><li>Routine PDMR/EBT administrative disclosure with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Derwent London EBT released 5,253 shares to satisfy the vesting of Damian Wisniewski's 2019 Performance Share Plan award.",
+    "priority": "low",
+    "priority_reason": "Routine EBT share vesting under a legacy performance share plan with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/derwent-london--dln/employee-benefit-trust-ebt-/9763372",
+    "related_news_url": "https://news.google.com/search?q=%22Derwent%20London%22",
+    "added_at": "2026-09-09T10:55:41.521349"
+  },
+  {
     "company": "Touchstone Exploration Inc",
     "ticker": "TXP",
     "publish_date": "09 September 2026",
