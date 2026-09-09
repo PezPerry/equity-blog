@@ -546,6 +546,14 @@ function isWatchedCompany(name, ticker) {
     if (b && MY_MODE) { b.textContent = 'My companies (' + MY_TICKERS.length + ')'; b.classList.add('active'); }
   } catch (e) {}
 })();
+/* In account mode show the companies' full history rather than only the last 3 days */
+if (MY_MODE) setTimeout(function () {
+  try {
+    activeDateFilter = null;
+    const r = document.getElementById('btnRecent'); if (r) r.classList.remove('active');
+    if (typeof renderArticles === 'function') renderArticles();
+  } catch (e) {}
+}, 0);
 let currentView = 'feed';
 
 /* Feed tickers sometimes differ from analysis-page tickers (trailing dots,
