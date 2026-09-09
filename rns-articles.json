@@ -1,5 +1,56 @@
 [
   {
+    "company": "Victrex PLC",
+    "ticker": "VCT",
+    "publish_date": "09 September 2026",
+    "date_iso": "2026-09-09",
+    "time_period": "FY to 30 September 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "FY to 30 September 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Victrex plc</strong> now expects <strong>FY 2026 underlying PBT of £45m-£47m</strong>, ahead of prior guidance of <strong>£42m-£44m</strong>, in this pre-close update for the year ending <strong>30 September 2026</strong>.</li><li>Strong momentum continued into <strong>Q4</strong>, with year-on-year growth across end markets driven by <strong>Aerospace, Value Added Resellers and Electronics</strong>, and particularly strong growth in <strong>Asia Pacific</strong>.</li><li>Previously announced <strong>10% headcount reduction</strong> completed, contributing to <strong>at least £10m</strong> of annualised savings from the wider Profit Improvement Plan expected in <strong>FY 2027</strong>.</li><li>Completed divestment of US-based <strong>Kleiss Gears</strong> business to <strong>The Heico Companies'</strong> Industrial Technologies Group on <strong>7 August 2026</strong>; FY 2026 results to record an exceptional loss on disposal of <strong>approximately £3m</strong>.</li><li><strong>Chris Gilbert</strong> joined as <strong>Interim CFO</strong> on <strong>1 September 2026</strong> (not a Board appointment); Capital Markets Event scheduled for <strong>24 September 2026</strong> in London.</li></ul>",
+    "source_format": "html",
+    "headline": "Victrex raises FY 2026 underlying PBT guidance to £45m-£47m, ahead of the prior £42m-£44m range, on continued Q4 momentum.",
+    "priority": "high",
+    "priority_reason": "Pre-close trading update with an upgrade to full-year underlying PBT guidance.",
+    "figures": [
+      {
+        "metric": "Underlying PBT (FY 2026)",
+        "current": "£45m-£47m",
+        "prior": "£42m-£44m (prior guidance)",
+        "change": "not stated",
+        "basis": "underlying",
+        "note": "FY to 30 September 2026; upgraded guidance"
+      },
+      {
+        "metric": "Exceptional loss on Kleiss Gears disposal",
+        "current": "approximately £3m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "not stated",
+        "note": "to be recorded in FY 2026 results"
+      },
+      {
+        "metric": "Profit Improvement Plan annualised savings",
+        "current": "at least £10m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "annualised",
+        "note": "expected in FY 2027"
+      }
+    ],
+    "guidance": {
+      "status": "raised",
+      "previous": "FY 2026 underlying PBT of £42m to £44m",
+      "current": "FY 2026 underlying PBT of £45m to £47m",
+      "commentary": "The Board upgraded full-year underlying PBT guidance by around £3m at each end of the range, citing continued strong Q4 momentum with revenue growth across key end markets and all regions, plus early benefits from the completed 10% headcount reduction."
+    },
+    "explainer": "This is a pre-close trading update ahead of Victrex's financial year end on 30 September 2026, so the figures are the Board's latest expectations rather than audited results. The key change is an upgrade to underlying profit before tax: the company now sees £45m-£47m versus the £42m-£44m it had previously guided, roughly a £3m improvement. 'Underlying' means the figure strips out one-off items.\n\nOne such one-off is the roughly £3m exceptional loss on the disposal of the Kleiss Gears business, sold in August. That loss sits below the underlying PBT line, so it does not affect the upgraded guidance, but it will show up in the statutory FY 2026 results.\n\nThe upgrade is driven by continued Q4 growth across Aerospace, Value Added Resellers and Electronics and across all regions, plus early cost benefits from a completed 10% headcount cut. Those cost savings — at least £10m annualised — are flagged mainly for FY 2027, so more of the benefit lies ahead. Further detail is due at the Capital Markets Event on 24 September.",
+    "source_url": "https://uk.advfn.com/stock-market/london/victrex-VCT/share-news/Victrex-PLC-Pre-Close-Trading-Update/99270283",
+    "related_news_url": "https://news.google.com/search?q=%22Victrex%20plc%22",
+    "added_at": "2026-09-09T07:18:56.326503"
+  },
+  {
     "company": "The Gym Group PLC",
     "ticker": "GYM",
     "publish_date": "09 September 2026",
