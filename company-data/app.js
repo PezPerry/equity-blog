@@ -33,6 +33,11 @@ const fmtPct = (v, dp = 1) => (v === null || v === undefined || isNaN(v)) ? '—
 
 const currencySym = (cur) => ({ GBP: '£', EUR: '€', USD: '$', GBX: 'p' }[cur] || '');
 
+// Identity of a company row. Names are not unique — a dual-listed company appears
+// once per exchange (Cairn Homes PLC is both LSE:CRN and Euronext Dublin:C5HI), so
+// selection is keyed on TIDM with the name as a tie-break.
+const companyKey = (c) => `${c.tidm || ''}|${c.name}`;
+
 // === Company list render ===
 function renderCompanyList() {
   const q = state.search.toLowerCase().trim();
@@ -44,8 +49,8 @@ function renderCompanyList() {
 
   const list = $('companyList');
   list.innerHTML = filtered.slice(0, 300).map((c) => {
-    const isActive = state.selected && state.selected.name === c.name;
-    return `<div class="company-item ${isActive ? 'active' : ''}" data-name="${encodeURIComponent(c.name)}">
+    const isActive = state.selected && companyKey(state.selected) === companyKey(c);
+    return `<div class="company-item ${isActive ? 'active' : ''}" data-key="${encodeURIComponent(companyKey(c))}" data-tidm="${c.tidm || ''}">
       <div class="company-item-name">${c.name}</div>
       <div class="company-item-tidm">${c.tidm || '—'}</div>
     </div>`;
@@ -55,8 +60,7 @@ function renderCompanyList() {
 
   list.querySelectorAll('.company-item').forEach((el) => {
     el.addEventListener('click', () => {
-      const name = decodeURIComponent(el.dataset.name);
-      selectCompany(name);
+      selectCompany(decodeURIComponent(el.dataset.key));
     });
   });
 }
@@ -111,8 +115,12 @@ function valuation(c, inputs) {
 }
 
 // === Selection ===
-function selectCompany(name) {
-  const c = COMPANIES.find((x) => x.name === name);
+// Accepts a company object (preferred) or a key from companyKey(); a bare name is
+// still honoured for older callers but resolves to the first line of that name.
+function selectCompany(ref) {
+  const c = (ref && typeof ref === 'object')
+    ? ref
+    : COMPANIES.find((x) => companyKey(x) === ref) || COMPANIES.find((x) => x.name === ref);
   if (!c) return;
   state.selected = c;
 
@@ -1169,7 +1177,7 @@ function bindEvents() {
   $('outProbability').addEventListener('blur', () => updateInputLabels());
 
   $('resetBtn').addEventListener('click', () => {
-    if (state.selected) selectCompany(state.selected.name);
+    if (state.selected) selectCompany(state.selected);
   });
 
   // Chart expand buttons — delegated so dynamically-added buttons work too
@@ -1545,7 +1553,7 @@ function init() {
   renderCompanyList();
   bindEvents();
   // Auto-select first for instant visual feedback
-  if (COMPANIES.length) selectCompany(COMPANIES[0].name);
+  if (COMPANIES.length) selectCompany(COMPANIES[0]);
 }
 
 init();
