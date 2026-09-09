@@ -1,5 +1,31 @@
 [
   {
+    "company": "Bridgepoint Group PLC",
+    "ticker": "BPT",
+    "publish_date": "09 September 2026",
+    "date_iso": "2026-09-09",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>Bridgepoint Group plc</strong> to issue <strong>10 million</strong> new ordinary shares of <strong>£0.00005</strong> each after receiving exchange notices on OP Units held by the <strong>ECP Sellers</strong>.</li><li>Shares stem from the <strong>Up-C structure</strong> used to add <strong>Energy Capital Partners</strong> to the platform (185m OP Units on Closing, exchangeable one-for-one), approved by shareholders on <strong>19 October 2023</strong>.</li><li>New shares rank <strong>pari passu</strong> with existing shares; admission to the LSE main market expected on <strong>14 September 2026</strong> — a routine mechanical issue with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Bridgepoint to issue 10 million new ordinary shares following exchange notices on OP Units from the ECP transaction, admission expected 14 September 2026.",
+    "priority": "low",
+    "priority_reason": "Routine mechanical issue of new shares on exchange of OP Units under the pre-existing ECP Up-C structure, with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/bridgepoint-group-reg-s---bpt/issue-of-equity/9763796",
+    "related_news_url": "https://news.google.com/search?q=%22Bridgepoint%20Group%20%20(Reg%20S)%22",
+    "added_at": "2026-09-09T14:15:41.664412"
+  },
+  {
     "company": "HSBC Holdings PLC",
     "ticker": "HSBA",
     "publish_date": "09 September 2026",
