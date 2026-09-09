@@ -1,5 +1,31 @@
 [
   {
+    "company": "HSBC Holdings PLC",
+    "ticker": "HSBA",
+    "publish_date": "09 September 2026",
+    "date_iso": "2026-09-09",
+    "time_period": "",
+    "announcement_type": "Debt redemption notice",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>HSBC Holdings plc</strong> has given irrevocable notice to redeem all of its <strong>CHF 300,000,000 0.3200% Notes due 2027</strong> (ISIN CH1145096140) on the <strong>Redemption Date of 3 November 2026</strong>.</li><li>Redemption is at the issuer's option under Condition 6(c), at <strong>CHF200,000 per Calculation Amount</strong> plus accrued but unpaid interest; last day of trading on the <strong>SIX Swiss Exchange</strong> is <strong>30 October 2026</strong>.</li><li>Routine scheduled bond call — <strong>no impact</strong> on equity, trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "HSBC will redeem its CHF 300m 0.3200% Notes due 2027 in full on 3 November 2026 at par plus accrued interest.",
+    "priority": "low",
+    "priority_reason": "Routine scheduled call of a small CHF note issue with no impact on equity, trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/hsbc-holdings--hsba/notice-of-redemption/9763451",
+    "related_news_url": "https://news.google.com/search?q=%22HSBC%20Holdings%22",
+    "added_at": "2026-09-09T11:35:47.041465"
+  },
+  {
     "company": "Derwent London PLC",
     "ticker": "DLN",
     "publish_date": "09 September 2026",
