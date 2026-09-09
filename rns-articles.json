@@ -1,5 +1,31 @@
 [
   {
+    "company": "CME Group Inc",
+    "ticker": "CME",
+    "publish_date": "09 September 2026",
+    "date_iso": "2026-09-09",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>CME Group</strong> announced senior appointments in its finance and legal divisions.</li><li><strong>Jack Tobin</strong>, Chief Accounting Officer since 2015, promoted to <strong>Chief Financial Officer</strong> effective <strong>March 2027</strong>, when current President & CFO <strong>Lynne Fitzpatrick</strong> becomes CEO as previously announced; Tobin becomes Deputy CFO in <strong>November 2026</strong>.</li><li><strong>Matthew Render</strong> succeeds Tobin as <strong>Chief Accounting Officer</strong>.</li><li><strong>John Marchese</strong> promoted to <strong>General Counsel</strong> later this month, succeeding <strong>Jonathan Marcus</strong>, who is stepping down after serving since 2022.</li><li>Routine leadership disclosure with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "CME Group promotes Jack Tobin to CFO from March 2027 and John Marchese to General Counsel, part of its previously announced succession.",
+    "priority": "medium",
+    "priority_reason": "Senior leadership appointments (CFO and General Counsel succession) but no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/CME/share-news/CME-Group-Announces-New-Senior-Leadership-Appointm/99276628",
+    "related_news_url": "https://news.google.com/search?q=%22CME%20Group%20Inc.%22",
+    "added_at": "2026-09-09T16:16:01.460779"
+  },
+  {
     "company": "Rathbones Group",
     "ticker": "RAT",
     "publish_date": "09 September 2026",
