@@ -1,5 +1,56 @@
 [
   {
+    "company": "Mortgage Advice Bureau (Holdings) PLC",
+    "ticker": "MAB1",
+    "publish_date": "09 September 2026",
+    "date_iso": "2026-09-09",
+    "time_period": "FY to 31 December 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "FY to 31 December 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Mortgage Advice Bureau</strong> now guides FY2026 Adjusted profit before tax to approximately <strong>£38.0m</strong>, against company-compiled consensus of <strong>£43.4m</strong> — a downgrade of about <strong>£5.4m</strong>.</li><li>Downgrade principally reflects delayed new contractual lead flows into <strong>Fluent</strong>, whose 2026 contribution to Group Adjusted PBT is now expected to be around <strong>£5m lower</strong> than previously anticipated; profit growth pushed into <strong>2027</strong>.</li><li>Anticipated easing in interest rates and recovery in purchase activity has not materialised; UK purchase transactions down <strong>3%</strong> in the first seven months of 2026 and mortgage approvals for house purchase down <strong>15%</strong> year-on-year in July.</li><li>H1 2026 Adjusted PBT now expected at approximately <strong>£14.8m</strong> (previously guided <strong>£14.6m</strong> on 23 July 2026), versus <strong>£14.5m</strong> in H1 2025; market remains predominantly refinance-led and weighted towards Product Transfers.</li><li>Revised full-year guidance still represents Adjusted PBT growth of approximately <strong>5%</strong> versus 2025; interim results due <strong>22 September 2026</strong>.</li><li>CEO <strong>Peter Brodnicki</strong> cited softer market conditions since the July update and delays to Fluent lead flows, but pointed to upcoming fixed-rate maturities as a refinancing opportunity.</li></ul>",
+    "source_format": "html",
+    "headline": "MAB cuts 2026 adjusted PBT guidance to approximately **£38.0m**, well below **£43.4m** consensus, on delayed Fluent lead flows and a weaker mortgage market.",
+    "priority": "high",
+    "priority_reason": "Profit warning: full-year adjusted PBT guidance cut to £38.0m versus £43.4m consensus.",
+    "figures": [
+      {
+        "metric": "H1 2026 Adjusted PBT",
+        "current": "approx £14.8m",
+        "prior": "£14.5m",
+        "change": "not stated",
+        "basis": "",
+        "note": "H1 to 30 June 2026 vs H1 2025; up from £14.6m guided on 23 July 2026"
+      },
+      {
+        "metric": "FY2026 Adjusted PBT (guidance)",
+        "current": "approx £38.0m",
+        "prior": "£43.4m",
+        "change": "not stated",
+        "basis": "vs company-compiled consensus",
+        "note": "FY to 31 December 2026; ~5% growth vs 2025"
+      },
+      {
+        "metric": "Fluent contribution to Group Adjusted PBT",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "approx £5m lower",
+        "basis": "",
+        "note": "vs previously anticipated 2026 contribution"
+      }
+    ],
+    "guidance": {
+      "status": "lowered",
+      "previous": "Company-compiled market consensus of £43.4m Adjusted profit before tax for the year ending 31 December 2026",
+      "current": "Adjusted profit before tax for the year ending 31 December 2026 of approximately £38.0m",
+      "commentary": "Full-year guidance cut by about £5.4m below consensus, driven mainly by an approximately £5m shortfall in Fluent's expected contribution as new contractual lead flows were delayed, compounded by a weaker-than-expected housing and mortgage market with no near-term recovery in purchase activity anticipated."
+    },
+    "explainer": "This is a profit warning. MAB has told the market that its full-year 2026 adjusted profit before tax will come in around £38.0m, some £5.4m below the £43.4m that analysts (using the company's own compiled consensus) had been expecting. \"Adjusted\" means before certain one-off or non-underlying items, so it is the figure the market typically focuses on.\n\nThe bulk of the shortfall — about £5m — comes from Fluent, an acquired lending business that was expected to step up sharply in 2026 on the back of new contractual lead flows (agreements to supply customer enquiries). Those arrangements have been delayed, so Fluent has incurred pilot costs ahead of the revenue they were meant to generate, and the expected profit growth has slipped into 2027 rather than being lost outright.\n\nThe rest reflects a tougher market. The anticipated fall in interest rates and pick-up in house purchases has not happened: purchase transactions were down 3% over the first seven months of 2026 and mortgage approvals fell 15% year-on-year in July. Activity remains dominated by refinancing, and within that by Product Transfers (where borrowers switch to a new deal with their existing lender) rather than remortgages, which typically earn intermediaries less.\n\nDespite the downgrade, the revised guidance still implies roughly 5% profit growth over 2025, and management points to the large volume of fixed-rate mortgages maturing later this year as a refinancing opportunity. First-half adjusted PBT is now expected at about £14.8m, slightly ahead of the £14.6m flagged in July. Interim results are due on 22 September 2026.",
+    "source_url": "https://uk.advfn.com/stock-market/london/mortgage-advice-bureau-MAB1/share-news/Mortgage-Advice-Bureau-Hldgs-PLC-Trading-Update-an/99270290",
+    "related_news_url": "https://news.google.com/search?q=%22Mortgage%20Advice%20Bureau%20(Holdings)%20plc%22",
+    "added_at": "2026-09-09T07:35:49.082310"
+  },
+  {
     "company": "Playtech PLC",
     "ticker": "PTEC",
     "publish_date": "09 September 2026",
