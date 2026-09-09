@@ -1,5 +1,146 @@
 [
   {
+    "company": "Renew Holdings PLC",
+    "ticker": "RNWH",
+    "publish_date": "09 September 2026",
+    "date_iso": "2026-09-09",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Pete Raby</strong> joins as independent Non-executive Director and Chair designate with effect from <strong>5 October 2026</strong>.</li><li>He will succeed <strong>David Brown</strong> as Chair from the conclusion of the AGM on <strong>27 January 2027</strong>, when Brown steps down after over nine years.</li><li>Raby is currently NED of <strong>Hill & Smith plc</strong> and <strong>Chemring Group plc</strong>, and was CEO of <strong>Morgan Advanced Materials plc</strong> until July 2025; previously senior roles at Cobham plc and partner at McKinsey.</li><li>Routine board succession disclosure — <strong>no impact</strong> on trading or guidance; no further disclosure required under AIM Rules Schedule 2(g).</li></ul>",
+    "source_format": "html",
+    "headline": "Renew Holdings appoints Pete Raby as independent NED and Chair designate, succeeding David Brown after the January 2027 AGM.",
+    "priority": "medium",
+    "priority_reason": "Chair succession is a board change with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/renew-RNWH/share-news/Renew-Holdings-PLC-Appointment-of-NED-and-Chair-De/99270304",
+    "related_news_url": "https://news.google.com/search?q=%22Renew%20Holdings%20PLC%22",
+    "added_at": "2026-09-09T07:19:30.352213"
+  },
+  {
+    "company": "W.A.G payment solutions plc (Eurowag)",
+    "ticker": "EWG",
+    "publish_date": "09 September 2026",
+    "date_iso": "2026-09-09",
+    "time_period": "H1 2026 (six months to 30 June 2026)",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 2026 (six months to 30 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Total net revenue +10.7%</strong> to <strong>€179.5m</strong> (H1 2025: €162.2m), with growth across Toll (<strong>+26%</strong>), Core CRT Fleet Management (<strong>+15%</strong>), Navigation (<strong>+12%</strong>), Tax Refund (<strong>+12%</strong>) and Energy (<strong>+6%</strong>).</li><li><strong>Adjusted EBITDA +10.5%</strong> to <strong>€70.6m</strong> (margin <strong>39.3%</strong>); <strong>Adjusted cash EBITDA +13.2%</strong> to <strong>€55.7m</strong> (margin 31.0%).</li><li><strong>Statutory profit before tax down 46.5%</strong> to <strong>€8.4m</strong>, hit by an <strong>€8m largely non-cash FX loss</strong> on the appreciation of the Hungarian forint; basic EPS <strong>0.76c</strong> (H1 2025: 1.53c).</li><li><strong>FY2026 adjusted cash EBITDA guidance raised</strong>, floor lifted from <strong>€105m–€115m to €110m–€115m</strong>; all other guidance unchanged.</li><li><strong>More than 65%</strong> of customers now actively using the Eurowag Office platform (up from 35% at Q1 2026); <strong>active trucks +7.0%</strong> to <strong>334,800</strong>.</li><li><strong>Net leverage</strong> eased to <strong>1.8x</strong> (FY 2025: 1.9x); net debt rose to <strong>€253.3m</strong> on a €54.4m working capital outflow; <strong>special dividend of 1.5p</strong> (€12.1m) paid on <strong>22 July 2026</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Eurowag posts H1 net revenue up 10.7% to €179.5m and raises the floor of its FY2026 adjusted cash EBITDA guidance.",
+    "priority": "high",
+    "priority_reason": "Half-year results with double-digit revenue growth and an upgraded FY2026 adjusted cash EBITDA guidance range.",
+    "figures": [
+      {
+        "metric": "Total net revenue",
+        "current": "€179.5m",
+        "prior": "€162.2m",
+        "change": "+10.7%",
+        "basis": "reported",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Adjusted EBITDA",
+        "current": "€70.6m",
+        "prior": "€63.9m",
+        "change": "+10.5%",
+        "basis": "margin 39.3% vs 39.4%",
+        "note": "H1 2026"
+      },
+      {
+        "metric": "Adjusted cash EBITDA",
+        "current": "€55.7m",
+        "prior": "€49.2m",
+        "change": "+13.2%",
+        "basis": "margin 31.0% vs 30.4%",
+        "note": "H1 2026"
+      },
+      {
+        "metric": "Statutory profit before tax",
+        "current": "€8.4m",
+        "prior": "€15.7m",
+        "change": "-46.5%",
+        "basis": "reported",
+        "note": "includes €8m largely non-cash FX loss"
+      },
+      {
+        "metric": "Adjusted profit before tax",
+        "current": "€23.7m",
+        "prior": "€27.8m",
+        "change": "-14.7%",
+        "basis": "adjusted",
+        "note": "H1 2026"
+      },
+      {
+        "metric": "Basic EPS",
+        "current": "0.76 cents",
+        "prior": "1.53 cents",
+        "change": "not stated",
+        "basis": "statutory",
+        "note": "per share"
+      },
+      {
+        "metric": "Adjusted basic EPS",
+        "current": "2.53 cents",
+        "prior": "2.92 cents",
+        "change": "not stated",
+        "basis": "adjusted",
+        "note": "per share"
+      },
+      {
+        "metric": "Net debt",
+        "current": "€253.3m",
+        "prior": "€216.2m",
+        "change": "not stated",
+        "basis": "vs FY 2025",
+        "note": "€54.4m working capital outflow"
+      },
+      {
+        "metric": "Net leverage",
+        "current": "1.8x",
+        "prior": "1.9x",
+        "change": "not stated",
+        "basis": "vs FY 2025",
+        "note": "covenant basis"
+      },
+      {
+        "metric": "Active trucks",
+        "current": "334,800",
+        "prior": "313,000",
+        "change": "+7.0%",
+        "basis": "year-on-year",
+        "note": "H1 2025 comparative"
+      },
+      {
+        "metric": "Subscription-based revenue",
+        "current": "€40.8m",
+        "prior": "€39.5m",
+        "change": "+3.3%",
+        "basis": "22.7% of net revenue",
+        "note": "H1 2026"
+      }
+    ],
+    "guidance": {
+      "status": "raised",
+      "previous": "Adjusted cash EBITDA range of €105m–€115m for FY2026",
+      "current": "Adjusted cash EBITDA range of €110m–€115m for FY2026; capitalised R&D below the €50m cap; net leverage below 2.0x (target 1.5x–2.5x)",
+      "commentary": "Following a robust first half, Eurowag lifted the bottom of its adjusted cash EBITDA range by €5m, narrowing it to €110m–€115m. All other FY2026 guidance is maintained."
+    },
+    "explainer": "Eurowag reports in euros and its headline growth measure is net revenue (revenue less cost of goods sold), which rose 10.7% to €179.5m on a broad-based, reported basis across its Toll, Energy, Fleet, Navigation and Tax Refund lines. The 'adjusted' profit figures strip out one-off items and, for adjusted cash EBITDA, also account for capitalised R&D and share-based payments — these grew faster than statutory numbers.\n\nThe steep 46.5% fall in statutory pre-tax profit looks alarming but is largely optical: it reflects an €8m foreign-exchange loss that is predominantly unrealised (non-cash), driven by the Hungarian forint strengthening. Underlying operations remained profitable and cash-generative; interest costs actually fell as the average cost of borrowing declined.\n\nNet debt rose to €253.3m, but this stems from a €54.4m working capital outflow tied to timing of period-end collections after higher fuel prices, which management says is not structural — on a 12-month view working capital was broadly neutral, and net leverage actually improved to 1.8x.\n\nOn guidance, the change is a modest upgrade: the company raised the floor of its FY2026 adjusted cash EBITDA range from €105m to €110m (keeping the €115m ceiling), effectively narrowing and lifting expectations, while leaving R&D and leverage guidance unchanged.",
+    "source_url": "https://uk.advfn.com/stock-market/london/wag-payment-solutions-EWG/share-news/Eurowag-2026-Interim-Results/99270277",
+    "related_news_url": "https://news.google.com/search?q=%22W.A.G%20payment%20solutions%20plc%20(Eurowag)%22",
+    "added_at": "2026-09-09T07:19:30.341021"
+  },
+  {
     "company": "Victrex PLC",
     "ticker": "VCT",
     "publish_date": "09 September 2026",
