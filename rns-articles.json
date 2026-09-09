@@ -1,5 +1,31 @@
 [
   {
+    "company": "The Sage Group plc",
+    "ticker": "SGE",
+    "publish_date": "08 September 2026",
+    "date_iso": "2026-09-08",
+    "time_period": "",
+    "announcement_type": "Financing / refinancing",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>The Sage Group plc</strong> has priced a <strong>€500 million</strong> senior fixed-rate bond, a <strong>5.5-year</strong> note due <strong>10 March 2032</strong> carrying an annual coupon of <strong>4.2805%</strong>.</li><li>The notes are rated <strong>BBB+</strong> by <strong>S&P</strong> and were more than <strong>5x oversubscribed</strong>, which Sage cites as evidence of strong investor demand.</li><li>Issued under Sage's <strong>£3bn Euro Medium Term Note Programme</strong> and guaranteed by <strong>Sage Treasury Company Limited</strong>; Final Terms dated <strong>8 September 2026</strong> have been filed with the National Storage Mechanism.</li><li>Routine financing disclosure with <strong>no impact</strong> on current trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Sage prices a **€500m** 5.5-year senior fixed-rate bond at a **4.2805%** coupon, rated BBB+ and more than **5x** oversubscribed.",
+    "priority": "medium",
+    "priority_reason": "A €500m senior bond issuance is a financing event, material to the balance sheet but not to trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/sage-SGE/share-news/Sage-Group-PLC-The-00m-bond-issuance-and-publica/99267058",
+    "related_news_url": "https://news.google.com/search?q=%22The%20Sage%20Group%20plc%22",
+    "added_at": "2026-09-09T07:17:01.890371"
+  },
+  {
     "company": "Hiscox Ltd",
     "ticker": "HSX",
     "publish_date": "08 September 2026",
