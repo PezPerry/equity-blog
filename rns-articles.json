@@ -1,5 +1,88 @@
 [
   {
+    "company": "The Gym Group PLC",
+    "ticker": "GYM",
+    "publish_date": "09 September 2026",
+    "date_iso": "2026-09-09",
+    "time_period": "H1 to 30 June 2026",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Revenue up 10%</strong> in the six months to <strong>30 June 2026</strong>, with average members up <strong>5% to 1 million</strong> and ARPMM up <strong>5% to £22.14</strong>; like-for-like revenue grew <strong>3%</strong>.</li><li><strong>Group Adjusted EBITDA Less Normalised Rent of £30.8m</strong>, <strong>12% ahead</strong> of the prior-year period as revenue growth outpaced cost inflation.</li><li><strong>Free cash flow up 10% to £27.7m</strong>, funding new sites, refurbishments, technology and a <strong>£10m</strong> share buyback (<strong>£3.8m</strong> completed in H1).</li><li><strong>Non-Property Net Debt of £58.0m</strong>, down <strong>£1.3m</strong> from <strong>£59.3m</strong> at Dec 2025; adjusted leverage held at <strong>1.0x</strong>; bank facilities raised to <strong>£117m</strong> (from £102m) in June 2026.</li><li><strong>Four new sites</strong> opened in H1 with <strong>11</strong> more on site; expects <strong>at least 20 openings in 2026</strong>, part of a plan for c.75 sites over three years funded from free cash flow.</li><li>On track for <strong>3% full-year like-for-like revenue growth</strong>; FY Adjusted EBITDA Less Normalised Rent expected at the <strong>top end of analysts' forecast range</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "The Gym Group reported 10% H1 revenue growth and a 12% rise in Adjusted EBITDA less normalised rent to £30.8m, reaching one million average members.",
+    "priority": "high",
+    "priority_reason": "Half-year results with FY guidance commentary from a listed operator.",
+    "figures": [
+      {
+        "metric": "Revenue",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+10%",
+        "basis": "reported",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Like-for-like revenue",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+3%",
+        "basis": "sites open at 31 December 2023",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Group Adjusted EBITDA Less Normalised Rent",
+        "current": "£30.8m",
+        "prior": "not stated",
+        "change": "+12%",
+        "basis": "adjusted",
+        "note": "vs prior-year period"
+      },
+      {
+        "metric": "Free cash flow",
+        "current": "£27.7m",
+        "prior": "not stated",
+        "change": "+10%",
+        "basis": "reported",
+        "note": "H1"
+      },
+      {
+        "metric": "Non-Property Net Debt",
+        "current": "£58.0m",
+        "prior": "£59.3m",
+        "change": "-£1.3m",
+        "basis": "as at period end",
+        "note": "prior = Dec 2025"
+      },
+      {
+        "metric": "Average revenue per member per month (ARPMM)",
+        "current": "£22.14",
+        "prior": "not stated",
+        "change": "+5%",
+        "basis": "reported",
+        "note": "H1"
+      },
+      {
+        "metric": "Average members",
+        "current": "1 million",
+        "prior": "not stated",
+        "change": "+5%",
+        "basis": "average",
+        "note": "H1"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Full-year like-for-like revenue growth of 3%; like-for-like cost growth of 3-4%; FY Group Adjusted EBITDA Less Normalised Rent in line with analysts' forecast range.",
+      "current": "Remains on track for 3% full-year like-for-like revenue growth; like-for-like cost growth now expected at the lower end of the 3-4% range; FY Group Adjusted EBITDA Less Normalised Rent expected at the top end of the current analysts' forecast range.",
+      "commentary": "Headline targets are reaffirmed but with a positive tilt: costs are guided to the lower end of the range and full-year EBITDA to the top end of forecasts, reflecting revenue growth outpacing cost inflation."
+    },
+    "explainer": "These are half-year (H1) results covering the six months to 30 June 2026, compared with the same period a year earlier. Revenue rose 10% on a reported basis, but the more comparable measure — like-for-like growth, which strips out newly opened sites and counts only gyms open since end-2023 — was 3%. The gap between the two reflects the contribution of recently opened and still-maturing gyms.\n\nThe key profit measure, Group Adjusted EBITDA Less Normalised Rent, grew 12% to £30.8m. \"Adjusted\" means one-off or non-recurring items are excluded, and \"less normalised rent\" reflects a standardised rent charge rather than accounting lease treatment; it is the metric the company uses to track underlying trading. Profit grew faster than revenue because pricing and yield gains outran cost inflation.\n\nOn guidance, the full-year like-for-like revenue target of 3% is unchanged, but the outlook has firmed at the edges: cost growth is now expected at the lower end of the previously guided 3-4% range, and full-year Adjusted EBITDA Less Normalised Rent is now expected at the top end of the range of analysts' forecasts, rather than simply in line.\n\nNote that headline revenue and EBITDA comparatives are given largely as percentage changes; the announcement does not print prior-year cash figures for revenue, EBITDA, free cash flow or ARPMM, so those prior values are shown as not stated.",
+    "source_url": "https://uk.advfn.com/stock-market/london/gym-GYM/share-news/Gym-Group-PLC-The-2026-Interim-Results/99270255",
+    "related_news_url": "https://news.google.com/search?q=%22The%20Gym%20Group%20plc%22",
+    "added_at": "2026-09-09T07:18:07.036655"
+  },
+  {
     "company": "Picton Property Income Limited",
     "ticker": "LMP",
     "publish_date": "09 September 2026",
