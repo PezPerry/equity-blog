@@ -1,5 +1,57 @@
 [
   {
+    "company": "Picton Property Income Limited",
+    "ticker": "LMP",
+    "publish_date": "09 September 2026",
+    "date_iso": "2026-09-09",
+    "time_period": "",
+    "announcement_type": "Acquisition / deal",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li>The <strong>Court</strong> has granted the order sanctioning the <strong>scheme of arrangement</strong> under which <strong>LondonMetric Property PLC</strong> and <strong>Schroder Real Estate Investment Trust Limited (SREIT)</strong> acquire the entire issued and to be issued share capital of <strong>Picton Property Income Limited</strong>.</li><li>Scheme Record Time is <strong>6.00 p.m. on 9 September 2026</strong>; last day for dealings in Picton shares is <strong>9 September 2026</strong>.</li><li>The Scheme is expected to become Effective on <strong>10 September 2026</strong> once the Court Order is delivered to the Guernsey Registry, with Picton shares suspended from trading at <strong>7.30 a.m.</strong> on that date.</li><li>Applications made to cancel trading of Picton shares on the Main Market and their listing on the Official List, effective by no later than <strong>8.00 a.m.</strong> on the business day following the Effective Date.</li><li>Deal implemented as a recommended all-share offer first agreed on <strong>31 July 2026</strong>; Picton shareholders approved the Scheme and Resolution on <strong>2 September 2026</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Court sanctions the scheme of arrangement for the recommended all-share takeover of Picton Property Income by LondonMetric and Schroder Real Estate Investment Trust.",
+    "priority": "high",
+    "priority_reason": "Court sanction of the scheme completes the recommended all-share takeover of Picton by LondonMetric and SREIT, leading to cancellation of Picton's listing.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/londonmetric-property-LMP/share-news/Picton-Property-Income-Limited-Court-Sanction-of-S/99264217",
+    "related_news_url": "https://news.google.com/search?q=%22Picton%20Property%20Income%20Limited%22",
+    "added_at": "2026-09-09T07:17:33.114674"
+  },
+  {
+    "company": "Glencore PLC",
+    "ticker": "GLEN",
+    "publish_date": "09 September 2026",
+    "date_iso": "2026-09-09",
+    "time_period": "FY to 31 December 2025",
+    "announcement_type": "Dividend declaration",
+    "period_detail": "FY to 31 December 2025",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Glencore plc</strong> will pay a combined distribution of <strong>US$0.17 per ordinary share</strong> on <strong>18 September 2026</strong> from capital contribution reserves.</li><li>Combines the second <strong>US$0.085</strong> tranche of the FY2025 distribution (approved by shareholders on <strong>28 May 2026</strong>) with a further special distribution of <strong>US$0.085</strong> per share declared by the Board on <strong>5 August 2026</strong>.</li><li>Non-US dollar payments (Sterling, Euro, Swiss Franc) are set by reference to the <strong>LSEG WM/Reuters 4:00 PM London closing spot rate on 7 September 2026</strong>; the source text does not print the resulting per-share rates.</li><li>Routine distribution-mechanics notice with <strong>no impact</strong> on trading or guidance; distributions may qualify as \"qualified dividends\" for US Federal income tax purposes.</li></ul>",
+    "source_format": "html",
+    "headline": "Glencore confirms a combined H2 distribution of US$0.17 per share, payable 18 September 2026, comprising the second tranche of the FY2025 distribution plus a special distribution.",
+    "priority": "medium",
+    "priority_reason": "Currency-conversion detail for a previously declared distribution plus an already-announced special distribution; a routine dividend/distribution mechanics notice.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/glencore-GLEN/share-news/Glencore-PLC-2026-H2-Distribution/99266978",
+    "related_news_url": "https://news.google.com/search?q=%22Glencore%20plc%22",
+    "added_at": "2026-09-09T07:17:33.081124"
+  },
+  {
     "company": "The Sage Group plc",
     "ticker": "SGE",
     "publish_date": "08 September 2026",
