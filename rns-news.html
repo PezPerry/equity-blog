@@ -277,6 +277,7 @@
   .signal-low { background: var(--border); color: var(--text-muted); }
 
   /* Quick filter buttons */
+  .quick-link { text-decoration: none; display: inline-flex; align-items: center; }
   .quick-filters {
     max-width: 1100px; margin: 1rem auto 0; padding: 0 1rem;
     display: flex; gap: 0.5rem; flex-wrap: wrap;
@@ -484,6 +485,8 @@
     <button class="quick-btn" id="btnImportant" onclick="toggleSignalFilter()">High priority</button>
     <button class="quick-btn" id="btnGuidance" onclick="toggleGuidanceFilter()">Guidance changes</button>
     <button class="quick-btn" id="btnWatch" onclick="toggleWatchFilter()">My companies &#9733;</button>
+    <a class="quick-btn quick-link" id="lnkManage" href="https://equityandmarketsinsight.com/MyCompanies" target="_top" title="Keep your companies with your account">Manage my companies</a>
+    <a class="quick-btn quick-link" id="lnkMyNews" href="https://equityandmarketsinsight.com/MyNews" target="_top" title="Announcements for your companies">My news</a>
   </div>
 </div>
 
@@ -522,6 +525,27 @@ let activeDateFilter = 'recent';
 let signalFilterActive = false;
 let guidanceFilterActive = false;
 let watchFilterActive = false;
+/* Account mode: ?my=TICKER,TICKER (set by the My news page) filters by ticker and hides the device stars */
+const MY_TICKERS = (new URLSearchParams(location.search).get('my') || '').split(',').map(s => s.trim().toUpperCase()).filter(Boolean);
+const MY_MODE = MY_TICKERS.length > 0;
+if (MY_MODE) watchFilterActive = true;
+function isWatchedArticle(a) {
+  return MY_MODE ? !!(a.ticker && MY_TICKERS.includes(String(a.ticker).toUpperCase())) : getWatchlist().includes(a.company);
+}
+function isWatchedCompany(name, ticker) {
+  return MY_MODE ? !!(ticker && MY_TICKERS.includes(String(ticker).toUpperCase())) : getWatchlist().includes(name);
+}
+(function initAccountLinks() {
+  try {
+    const names = getWatchlist();
+    const m = document.getElementById('lnkManage');
+    if (m && names.length) m.href += '#import=' + encodeURIComponent(names.join('|'));
+    const n = document.getElementById('lnkMyNews');
+    if (n && MY_MODE) n.style.display = 'none';
+    const b = document.getElementById('btnWatch');
+    if (b && MY_MODE) { b.textContent = 'My companies (' + MY_TICKERS.length + ')'; b.classList.add('active'); }
+  } catch (e) {}
+})();
 let currentView = 'feed';
 
 /* Feed tickers sometimes differ from analysis-page tickers (trailing dots,
@@ -903,7 +927,7 @@ function getFiltered() {
     if (activeDateFilter === 'today' && iso !== today) return false;
     if (signalFilterActive && effectivePriority(a) !== 'high') return false;
     if (guidanceFilterActive && !hasGuidanceChange(a)) return false;
-    if (watchFilterActive && !getWatchlist().includes(a.company)) return false;
+    if (watchFilterActive && !isWatchedArticle(a)) return false;
     return true;
   });
 }
@@ -979,8 +1003,8 @@ function renderCompanies() {
     const reg = (rec.ticker && registry[rec.ticker]) ? registry[rec.ticker] : {};
     const tickerBadge = rec.ticker ? ` <span class="ticker-badge">${esc(rec.ticker)}</span>` : '';
     const sector = reg.sector ? ` <span class="company-sector">${esc(reg.sector)}</span>` : '';
-    const watched = getWatchlist().includes(company);
-    const star = `<span class="watch-star ${watched ? '' : 'off'}" data-company="${esc(company)}" title="${watched ? 'Remove from' : 'Add to'} My companies">&#9733;</span>`;
+    const watched = isWatchedCompany(company, rec.ticker);
+    const star = MY_MODE ? '' : `<span class="watch-star ${watched ? '' : 'off'}" data-company="${esc(company)}" title="${watched ? 'Remove from' : 'Add to'} My companies">&#9733;</span>`;
     const latest = rec.latest
       ? new Date(rec.latest).toLocaleDateString('en-GB', { day: '2-digit', month: 'short', year: 'numeric' })
       : '';
