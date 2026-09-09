@@ -1,5 +1,136 @@
 [
   {
+    "company": "Energean plc",
+    "ticker": "ENOG",
+    "publish_date": "09 September 2026",
+    "date_iso": "2026-09-09",
+    "time_period": "H1 2026 (six months to 30 June 2026)",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 2026 (six months to 30 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li>H1 2026 <strong>profit after tax up 45%</strong> to <strong>$160m</strong> (H1 2025: $110m), aided by a lower effective tax rate from recognising deferred tax assets in Italy; <strong>free cash flow up 35%</strong> to <strong>$250m</strong>.</li><li>Total revenue from production activities <strong>$743m</strong> (H1 2025: $804m) and adjusted EBITDAX <strong>$478m</strong> (H1 2025: $505m); production hit by a <strong>41-day mandated suspension in Israel</strong> and weaker Cassiopea output.</li><li>Group working interest production <strong>124 Kboe/d</strong> in H1 (H1 2025: 138 Kboe/d), recovering to <strong>135 Kboe/d</strong> over eight months and over <strong>180 Kboe/d in August</strong>; <strong>full-year guidance of 130-140 Kboe/d reiterated</strong>.</li><li><strong>Net debt $3,227m</strong>, down $97m since Q1 (31 Mar 2026: $3,325m); leverage <strong>3.0x</strong>; total liquidity $404m.</li><li><strong>Q2 2026 dividend of 10 US cents/share</strong> declared, payable <strong>30 September 2026</strong>.</li><li>Post-period: principal terms agreed with <strong>EGPC</strong> to merge three Egyptian concessions on improved fiscal terms with an initial <strong>$150m</strong> investment; <strong>~$1.4bn GSPA signed with Sorek</strong> in Israel; Katlan first gas on track for H1 2027.</li></ul>",
+    "source_format": "html",
+    "headline": "Energean profit after tax rose 45% to $160m and free cash flow up 35% to $250m in H1 2026, with full-year production guidance of 130-140 Kboe/d reiterated.",
+    "priority": "high",
+    "priority_reason": "Half-year results from a FTSE gas producer, with full-year guidance reiterated, a dividend declared and material corporate developments.",
+    "figures": [
+      {
+        "metric": "Revenue from production activities",
+        "current": "$743m",
+        "prior": "$804m",
+        "change": "-7.6%",
+        "basis": "reported",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "Adjusted EBITDAX",
+        "current": "$478m",
+        "prior": "$505m",
+        "change": "-5.3%",
+        "basis": "reported",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "Profit after tax",
+        "current": "$160m",
+        "prior": "$110m",
+        "change": "+45%",
+        "basis": "reported",
+        "note": "aided by lower effective tax rate (Italy deferred tax assets)"
+      },
+      {
+        "metric": "Free cash flow",
+        "current": "$250m",
+        "prior": "$185m",
+        "change": "+35%",
+        "basis": "reported",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "Cash flow from operating activities",
+        "current": "$476m",
+        "prior": "$555m",
+        "change": "-14%",
+        "basis": "reported",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "Working interest production",
+        "current": "124 Kboe/d",
+        "prior": "138 Kboe/d",
+        "change": "-10%",
+        "basis": "reported",
+        "note": "H1 2026 vs H1 2025; 83% gas"
+      },
+      {
+        "metric": "Sales volumes",
+        "current": "20.17 mmboe",
+        "prior": "22.81 mmboe",
+        "change": "-11.6%",
+        "basis": "reported",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "Cash cost of production",
+        "current": "$259m",
+        "prior": "$272m",
+        "change": "-5%",
+        "basis": "reported",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "Net debt (incl. restricted cash)",
+        "current": "$3,227m",
+        "prior": "$3,255m",
+        "change": "-$28m vs year-end; -$97m vs 31 Mar 2026",
+        "basis": "reported",
+        "note": "31 Dec 2025: $3,255m; 31 Mar 2026: $3,325m"
+      },
+      {
+        "metric": "Leverage (Net Debt/Adjusted EBITDAX)",
+        "current": "3.0x",
+        "prior": "2.9x",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "31 Dec 2025: 2.9x; 31 Mar 2026: 3.2x"
+      },
+      {
+        "metric": "Dividend",
+        "current": "10 US cents/share (Q2 2026)",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "payable 30 September 2026"
+      },
+      {
+        "metric": "Liquids revenue",
+        "current": "$267m",
+        "prior": "$234m",
+        "change": "+14%",
+        "basis": "reported",
+        "note": "driven by 29% higher realised liquids prices"
+      },
+      {
+        "metric": "Production & development capex",
+        "current": "$350m",
+        "prior": "$299m",
+        "change": "+17%",
+        "basis": "reported",
+        "note": "peak year of Katlan expenditure"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Full year 2026 production guidance of 130-140 Kboe/d",
+      "current": "Full year 2026 production guidance of 130-140 Kboe/d re-iterated; all other FY2026 guidance re-iterated except exploration and decommissioning expenditure, both reduced",
+      "commentary": "All full-year 2026 guidance was reiterated, with exploration and decommissioning spend the only items lowered. Strong post-period production, including August output above 180 Kboe/d and the second oil train coming onstream, reinforces management confidence in the 130-140 Kboe/d range."
+    },
+    "explainer": "These are underlying comparisons against the same six months of 2025, reported in US dollars. H1 2026 was distorted by a 41-day government-mandated shutdown of Israeli production (28 February to 9 April) prompted by regional conflict, plus weaker output from the Cassiopea field in Italy. That cut group production and sales volumes and pushed revenue and EBITDAX below the prior year, even though higher realised liquids prices (up 29%) lifted liquids revenue.\n\nDespite lower revenue, profit after tax jumped 45%. This was largely a tax effect rather than trading strength: Energean recognised previously unrecognised deferred tax assets in Italy, cutting its effective tax rate. Free cash flow rose because capital spending on a cash basis fell sharply year-on-year, more than offsetting lower operating cash flow.\n\nOn guidance, Energean has held its full-year 2026 production target of 130-140 Kboe/d and reiterated all other guidance except exploration and decommissioning spend, which have been reduced. Production has recovered strongly since the Israeli restart — eight-month output of 135 Kboe/d and August above 180 Kboe/d — supporting the unchanged range.\n\nSeparately, several items are post-period developments (after 30 June): agreed principal terms with EGPC to merge three Egyptian concessions on better fiscal terms, a ~$1.4bn gas supply deal with Sorek in Israel, and completion of the second oil train. Note also Energean's proposed acquisition of Chevron's Angola Block 14/14K interests is now subject to a third-party pre-emption right exercised by Etu Energias.",
+    "source_url": "https://uk.advfn.com/stock-market/london/energean-ENOG/share-news/Energean-PLC-Results-for-Half-Year-Ended-30-June-2/99270293",
+    "related_news_url": "https://news.google.com/search?q=%22Energean%20plc%22",
+    "added_at": "2026-09-09T07:20:58.503580"
+  },
+  {
     "company": "Harworth Group PLC",
     "ticker": "HWG",
     "publish_date": "09 September 2026",
