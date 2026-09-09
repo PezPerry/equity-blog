@@ -1,5 +1,80 @@
 [
   {
+    "company": "Harworth Group PLC",
+    "ticker": "HWG",
+    "publish_date": "09 September 2026",
+    "date_iso": "2026-09-09",
+    "time_period": "H1 to 30 June 2026",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Half-year results to 30 June 2026</strong> show a <strong>Total Accounting Return of (3.7)%</strong> (H1 2025: 1.1%), driven principally by <strong>residential market headwinds</strong>; statutory net assets down <strong>4.0% to GBP670.8m</strong> (31 Dec 2025: GBP699.0m).</li><li>Announced acceleration of strategy to <strong>exit the residential sector entirely</strong> and become a <strong>pure-play powered land and industrial & logistics specialist</strong>, aligning capital and cutting the cost base.</li><li>Data centre pipeline with <strong>accepted power offers of 0.8GW</strong>: final plot sale to <strong>Microsoft</strong> at Skelton Grange progressing, exclusivity agreed on a second powered-land sale, plus four further hyperscale opportunities; estimated potential future profits of <strong>GBP293m</strong> from powered-land sales.</li><li>Published today alongside its <strong>response document to the unrecommended offer from Peel Pepper (UK) Limited</strong> (part of <strong>Peel Holdings Group</strong>); Board may return surplus capital to shareholders following material asset sales.</li><li><strong>Interim dividend raised 10% to 0.592p</strong> per share; <strong>available liquidity GBP99.5m</strong> (H1 2025: GBP59.8m) and low <strong>LTV of 20.3%</strong> (17.1% at 31 August 2026).</li><li>Largest-ever <strong>substantially construction-ready land bank of 3.8m sq ft</strong> offering c.<strong>GBP600m of GDV</strong> potential over 3-5 years; three pre-lets adding <strong>GBP3.7m</strong> annualised rent at a <strong>17% premium to ERV</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Harworth posts H1 loss on residential-driven valuation falls, announces full exit from residential to become a pure-play industrial & logistics and powered-land specialist.",
+    "priority": "high",
+    "priority_reason": "Half-year results paired with a strategic pivot to exit residential entirely, published alongside a defence response to an unrecommended takeover offer from Peel.",
+    "figures": [
+      {
+        "metric": "Total Accounting Return",
+        "current": "(3.7)%",
+        "prior": "1.1%",
+        "change": "not stated",
+        "basis": "",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "Statutory net assets",
+        "current": "£670.8m",
+        "prior": "£699.0m",
+        "change": "-4.0%",
+        "basis": "",
+        "note": "30 June 2026 vs 31 December 2025"
+      },
+      {
+        "metric": "Interim dividend",
+        "current": "0.592p",
+        "prior": "not stated",
+        "change": "+10%",
+        "basis": "per share",
+        "note": "in line with dividend policy"
+      },
+      {
+        "metric": "Available liquidity",
+        "current": "£99.5m",
+        "prior": "£59.8m",
+        "change": "not stated",
+        "basis": "",
+        "note": "30 June 2026 vs 30 June 2025"
+      },
+      {
+        "metric": "Loan-to-value (LTV)",
+        "current": "20.3%",
+        "prior": "19.0%",
+        "change": "not stated",
+        "basis": "",
+        "note": "30 June 2026 vs 30 June 2025; 17.1% at 31 Aug 2026"
+      },
+      {
+        "metric": "Investment Portfolio value",
+        "current": "£301.4m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "77% Grade A by value at 30 June 2026"
+      }
+    ],
+    "guidance": {
+      "status": "new",
+      "previous": "In 2024, Harworth targeted an 85% industrial & logistics portfolio weighting and residential exposure below 15% by 2029; Investment Portfolio managed to a target size.",
+      "current": "Intention to exit the residential sector entirely and become a pure-play powered land and industrial & logistics specialist; Investment Portfolio no longer managed to a target size but expected to reach a stabilised medium-term value of £500m-£600m; material cost savings to be quantified.",
+      "commentary": "Harworth is accelerating and extending its 2024 repositioning plan, moving from a target of below 15% residential to a full exit of residential in order to reallocate capital to higher-returning industrial & logistics and powered land. Detailed cost savings are to be set out in a forthcoming Quantified statement."
+    },
+    "explainer": "Total Accounting Return measures the growth in net asset value plus dividends paid over the period, expressed as a percentage. Harworth's swing to (3.7)% from a positive 1.1% a year earlier reflects write-downs concentrated in its residential land, where housebuilder demand has softened and build costs have risen. Its industrial & logistics valuations were broadly stable and its Natural Resources and agricultural land rose, so the loss is essentially a residential-market story rather than a business-wide decline.\n\nThe headline strategic change is a shift from partially reducing residential exposure (the 2024 target of below 15% by 2029) to exiting residential altogether. Capital freed up will be redirected into industrial & logistics and powered land — sites with secured or in-progress electricity connections that can be sold as serviced land for data centres. The company cites 0.8GW of accepted power offers and estimates GBP293m of potential future profit from converting that powered land, though this is a JLL estimate separate from the formal Red Book valuation and assumes full ownership, planning and power are secured.\n\nThe results are also being read in the context of the unrecommended takeover approach from Peel: Harworth published a defence response document the same day, and the strategy update — including a possible return of surplus capital from asset sales — forms part of the case it is making to shareholders on standalone value. The Investment Portfolio will no longer be run to a fixed target size but is now guided towards a stabilised GBP500m-GBP600m, with material cost savings still to be quantified in a separate statement.",
+    "source_url": "https://uk.advfn.com/stock-market/london/harworth-HWG/share-news/Harworth-Group-PLC-Half-Year-Results/99270300",
+    "related_news_url": "https://news.google.com/search?q=%22Harworth%20Group%20plc%22",
+    "added_at": "2026-09-09T07:20:24.338723"
+  },
+  {
     "company": "Aberdeen Group PLC",
     "ticker": "ABDN",
     "publish_date": "09 September 2026",
