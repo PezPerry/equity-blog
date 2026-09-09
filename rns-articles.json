@@ -1,5 +1,31 @@
 [
   {
+    "company": "Lion Finance Group PLC",
+    "ticker": "BGEO",
+    "publish_date": "09 September 2026",
+    "date_iso": "2026-09-09",
+    "time_period": "",
+    "announcement_type": "Share buyback",
+    "period_detail": "",
+    "type_workings": "Rule 'capital returns': opening bullets announce a share buyback [rns.json record]",
+    "body": "<ul><li><strong>Lion Finance Group PLC</strong> (LSE: <strong>BGEO</strong>) cancelled <strong>33,539</strong> treasury shares bought back under its ongoing <strong>GEL 59 million</strong> buyback and cancellation programme (extended <strong>11 August 2026</strong>).</li><li>Total shares cancelled since the programme launched in August 2025 now stand at <strong>811,080</strong>; treasury shares held fall to <strong>nil</strong>.</li><li>Total voting rights in issue following cancellation: <strong>43,052,496</strong> — the figure shareholders use as the DTR notification denominator.</li><li>Routine UK Listing Rule 9.8.2 disclosure with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Lion Finance Group has cancelled 33,539 treasury shares under its buyback programme, leaving 43,052,496 voting rights in issue.",
+    "priority": "low",
+    "priority_reason": "Routine capital-management admin: cancellation of treasury shares under an existing buyback programme, with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/lion-finance-group-plc--bgeo/cancellation-of-treasury-shares-/9763807",
+    "related_news_url": "https://news.google.com/search?q=%22Lion%20Finance%20Group%20PLC%22",
+    "added_at": "2026-09-09T14:35:46.327560"
+  },
+  {
     "company": "Bridgepoint Group PLC",
     "ticker": "BPT",
     "publish_date": "09 September 2026",
