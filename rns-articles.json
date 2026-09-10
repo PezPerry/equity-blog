@@ -1,5 +1,104 @@
 [
   {
+    "company": "Playtech PLC",
+    "ticker": "PTEC",
+    "publish_date": "10 September 2026",
+    "date_iso": "2026-09-10",
+    "time_period": "H1 to 30 June 2026",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Adjusted EBITDA €162.5m</strong> (H1 2025: <strong>€91.6m</strong>), significantly ahead of analyst expectations prior to the <strong>9 July</strong> trading update; Group Adjusted EBITDA margin expanded to <strong>38%</strong> (H1 2025: <strong>24%</strong>).</li><li><strong>B2B revenue up 14%</strong> to <strong>€394.8m</strong> (H1 2025: €347.6m), or <strong>17% underlying</strong>; B2B Adjusted EBITDA up <strong>75%</strong> to <strong>€128.1m</strong> with margin at <strong>32%</strong> (H1 2025: 21%).</li><li>Exceptional Americas progress: <strong>US and Canada revenue up over 160% YoY</strong>, driven by Games powered by PMR with <strong>Hard Rock Bet</strong> in Florida (due to normalise in H2); Latin America up <strong>29%</strong> underlying.</li><li><strong>Free Cash Flow of €101.0m</strong> (Dec 2025: €29.5m) delivered a Group <strong>net cash position of €39.2m</strong> after a <strong>€25m share buyback</strong>; <strong>Adjusted profit after tax €95.0m</strong> (H1 2025: €16.6m).</li><li><strong>Full provision of €28.9m</strong> taken against a guarantee of a loan to <strong>NorthStar</strong>; <strong>B2C revenue fell to €32.0m</strong> (H1 2025: €41.0m) as HAPPYBET Germany winds down.</li><li><strong>On track for FY 2026 Adjusted EBITDA of more than €270m</strong>, and to reach the top end of the €250-300m medium-term range far earlier than anticipated.</li></ul>",
+    "source_format": "html",
+    "headline": "Playtech H1 2026 Adjusted EBITDA jumped to €162.5m from €91.6m, driven by 160%+ US and Canada revenue growth, with FY guidance of more than €270m reaffirmed.",
+    "priority": "high",
+    "priority_reason": "Half-year results with exceptional profit growth, a step-change in EBITDA and reaffirmed full-year guidance.",
+    "figures": [
+      {
+        "metric": "Group Adjusted EBITDA",
+        "current": "€162.5m",
+        "prior": "€91.6m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "H1 to 30 June 2026; margin 38% vs 24%"
+      },
+      {
+        "metric": "B2B revenue",
+        "current": "€394.8m",
+        "prior": "€347.6m",
+        "change": "+14% (+17% underlying)",
+        "basis": "reported",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "B2B Adjusted EBITDA",
+        "current": "€128.1m",
+        "prior": "€73.3m",
+        "change": "+75%",
+        "basis": "reported",
+        "note": "margin 32% vs 21%"
+      },
+      {
+        "metric": "US and Canada revenue",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+161% YoY",
+        "basis": "reported",
+        "note": "driven by Games powered by PMR with Hard Rock Bet, Florida"
+      },
+      {
+        "metric": "Adjusted profit after tax",
+        "current": "€95.0m",
+        "prior": "€16.6m",
+        "change": "not stated",
+        "basis": "adjusted",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Free Cash Flow",
+        "current": "€101.0m",
+        "prior": "€29.5m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "prior comparative stated as at 31 December 2025"
+      },
+      {
+        "metric": "Net cash / (debt)",
+        "current": "€39.2m net cash",
+        "prior": "€28.5m net cash",
+        "change": "not stated",
+        "basis": "excludes IFRS 16 leases",
+        "note": "at 30 June 2026 vs 31 December 2025"
+      },
+      {
+        "metric": "Adjusted investment income",
+        "current": "€34.2m",
+        "prior": "€19.8m",
+        "change": "not stated",
+        "basis": "adjusted",
+        "note": "driven by 30.8% holding in Caliente Interactive"
+      },
+      {
+        "metric": "B2C revenue",
+        "current": "€32.0m",
+        "prior": "€41.0m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "predominantly Sun Bingo; B2C Adjusted EBITDA €0.2m vs loss of €1.5m"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "FY 2026 Adjusted EBITDA of more than €270 million, within the medium-term target range of €250-300 million set in early 2025",
+      "current": "On track to deliver FY 2026 Adjusted EBITDA of more than €270 million, and to achieve the top end of the medium-term target ranges of Adjusted EBITDA of €250-300 million and Free Cash Flow of €70-100 million far earlier than anticipated",
+      "commentary": "Full-year Adjusted EBITDA guidance of more than €270m is reaffirmed. Management flags that H2 Adjusted EBITDA will be lower than H1 due to normalising Hard Rock Digital revenue, continued investment in a major Brazil partnership expected to sign in late 2026, and a full half-year of UK remote gaming duty."
+    },
+    "explainer": "Playtech's headline profit numbers are struck on an \"Adjusted\" basis, which the Board says better reflects underlying trading. Group Adjusted EBITDA of €162.5m includes not just the operating B2B and B2C divisions but also investment income — its share of profits from associate Caliente Interactive (a 30.8% stake) and dividends from equity investments such as Hard Rock Digital. So part of the profit surge reflects returns on past investments rather than pure operating trade.\n\nThe standout driver is the US and Canada, where revenue rose more than 160%, largely from Games powered by Past Motor Racing (PMR) with Hard Rock Bet in Florida. Management explicitly warns this Florida strength is unusually high and will \"normalise\" to a more sustainable level in H2 — a key reason H2 EBITDA is expected to be lower than H1. \"Underlying\" growth figures strip out the effect of the revised Caliente Interactive contract terms from 2025, giving a cleaner like-for-like comparison.\n\nThe cash position swung to a €39.2m net cash surplus even after €25m was spent on buybacks, with €101.0m of Free Cash Flow generated. Note the FCF comparative (€29.5m) is stated against 31 December 2025 rather than the prior H1, so it is not a clean half-on-half comparison. A one-off €28.9m provision was booked against a loan guarantee to NorthStar.\n\nOn guidance, nothing was raised in headline terms: full-year Adjusted EBITDA is still guided to \"more than €270m\". The positive nuance is that Playtech now expects to hit the top end of its €250-300m medium-term EBITDA range and €70-100m FCF range far sooner than planned. The offsetting caution is a weaker second half from normalising Florida revenue, Brazil investment costs, and a full six months of the UK's higher remote gaming duty.",
+    "source_url": "https://uk.advfn.com/stock-market/london/playtech-PTEC/share-news/Playtech-PLC-2026-Half-Year-Results/99280105",
+    "related_news_url": "https://news.google.com/search?q=%22Playtech%20plc%22",
+    "added_at": "2026-09-10T07:24:24.803246"
+  },
+  {
     "company": "GSK plc",
     "ticker": "GSK",
     "publish_date": "10 September 2026",
