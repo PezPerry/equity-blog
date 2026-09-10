@@ -1,5 +1,31 @@
 [
   {
+    "company": "IP Group PLC",
+    "ticker": "IPO",
+    "publish_date": "10 September 2026",
+    "date_iso": "2026-09-10",
+    "time_period": "H1 to 30 June 2026",
+    "announcement_type": "Notice of results",
+    "period_detail": "H1 to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>IP Group plc</strong> will publish <strong>H1 results</strong> for the six months ended <strong>30 June 2026</strong> on <strong>Tuesday 15 September 2026</strong>.</li><li>Leadership team to give a live presentation via <strong>Investor Meet Company</strong> at <strong>10am</strong> on the day.</li><li>Routine notice of results — <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "IP Group will publish its half-year results for the six months to 30 June 2026 on Tuesday 15 September 2026.",
+    "priority": "low",
+    "priority_reason": "Routine diary notice flagging the date of interim results, with no financial content.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/ip-group--ipo/notice-of-results/9765155",
+    "related_news_url": "https://news.google.com/search?q=%22IP%20Group%22",
+    "added_at": "2026-09-10T07:55:37.033334"
+  },
+  {
     "company": "Distribution Finance Capital Holdings PLC",
     "ticker": "DFCH",
     "publish_date": "10 September 2026",
