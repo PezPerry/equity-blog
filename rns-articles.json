@@ -1,5 +1,72 @@
 [
   {
+    "company": "Fevertree Drinks PLC",
+    "ticker": "FEVR",
+    "publish_date": "10 September 2026",
+    "date_iso": "2026-09-10",
+    "time_period": "H1 FY26 to 30 June 2026",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 FY26 to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Fever-Tree</strong> H1 FY26 brand revenue up <strong>8%</strong> at constant currency to <strong>£183.6m</strong>, with the <strong>UK</strong> returning to growth and <strong>US</strong> momentum building under the <strong>Molson Coors</strong> partnership.</li><li>Adjusted EBITDA up <strong>9%</strong> to <strong>£20.1m</strong> (H1 2025: <strong>£18.4m</strong>), including a step-change in <strong>US</strong> marketing investment.</li><li>Regional constant-currency revenue: <strong>US +11%</strong>, <strong>UK +3%</strong>, <strong>Europe +10%</strong>, <strong>Rest of World +5%</strong>; products beyond Tonic now <strong>47%</strong> of Group sales vs <strong>39%</strong> three years ago.</li><li>Interim dividend of <strong>6.09p</strong> declared, up <strong>2%</strong> year-on-year; <strong>£60m</strong> buyback underway in 2026 (extended by <strong>£30m</strong> in June) following the <strong>£100m</strong> programme completed in FY25, with a <strong>£68m</strong> cash position.</li><li>US segment adjusted EBITDA <strong>£4.1m</strong> (H1 2025: <strong>£5.0m</strong>), margin <strong>6.2%</strong> (8.1%); Rest of Group adjusted EBITDA up <strong>10%</strong> to <strong>£28.8m</strong>, margin <strong>24.5%</strong> (23.8%).</li><li>FY26 expectations <strong>unchanged</strong> and <strong>in line with market expectations</strong>; commodity requirements substantially hedged into <strong>2028</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Fever-Tree H1 brand revenue up 8% at constant currency to £183.6m and adjusted EBITDA up 9% to £20.1m, with FY26 guidance reaffirmed.",
+    "priority": "high",
+    "priority_reason": "Half-year results from a FTSE-listed consumer brand, including EBITDA, dividend, buyback and reaffirmed full-year guidance.",
+    "figures": [
+      {
+        "metric": "Brand revenue (adjusted)",
+        "current": "£183.6m",
+        "prior": "not stated",
+        "change": "+8%",
+        "basis": "constant currency",
+        "note": "H1 FY26 to 30 June 2026"
+      },
+      {
+        "metric": "Adjusted EBITDA",
+        "current": "£20.1m",
+        "prior": "£18.4m",
+        "change": "+9%",
+        "basis": "reported",
+        "note": "H1 2025 comparative"
+      },
+      {
+        "metric": "US adjusted EBITDA",
+        "current": "£4.1m",
+        "prior": "£5.0m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "margin 6.2% vs 8.1%"
+      },
+      {
+        "metric": "Rest of Group adjusted EBITDA",
+        "current": "£28.8m",
+        "prior": "£26.2m",
+        "change": "+10%",
+        "basis": "reported",
+        "note": "margin 24.5% vs 23.8%"
+      },
+      {
+        "metric": "Interim dividend",
+        "current": "6.09p",
+        "prior": "not stated",
+        "change": "+2%",
+        "basis": "per share",
+        "note": "progressive dividend policy"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "In line with market expectations",
+      "current": "Our expectations for FY26 remain unchanged and in line with market expectations",
+      "commentary": "Management reaffirmed full-year guidance, citing good trading through the summer and continued post-period momentum, supported by a well-hedged cost base with key commodities hedged into 2028."
+    },
+    "explainer": "Fever-Tree reports brand revenue growth at constant currency, which strips out the effect of exchange-rate movements to show the underlying trading trend; the headline 8% figure reflects genuine volume and share gains rather than currency swings. The US and Europe numbers are also stated at constant currency, while Europe's reported 10% was flattered by favourable order phasing, with underlying growth of around 4%.\n\nThe fall in US segment profitability (EBITDA £4.1m vs £5.0m, margin 6.2% vs 8.1%) is not a sign of weakness but reflects two things: a deliberate step-up in marketing investment behind the first national US campaign, and a tougher comparative, because the prior-year period included an extra month of full US profitability before the February 2025 switch to the Molson Coors distribution model. Management expects US profitability to step up over the medium term as production is on-shored and marketing normalises.\n\nOn guidance, nothing has changed: the Board reiterated that FY26 expectations remain unchanged and in line with market consensus. The combination of a reaffirmed outlook, a 2% dividend increase to 6.09p and a £60m buyback signals confidence in cash generation rather than any shift in the financial trajectory.",
+    "source_url": "https://uk.advfn.com/stock-market/london/fevertree-drinks-FEVR/share-news/Fevertree-Drinks-PLC-FY26-Interim-Results-to-30-Ju/99279948",
+    "related_news_url": "https://news.google.com/search?q=%22Fevertree%20Drinks%20PLC%22",
+    "added_at": "2026-09-10T07:18:59.212946"
+  },
+  {
     "company": "Rio Tinto PLC",
     "ticker": "RIO",
     "publish_date": "10 September 2026",
