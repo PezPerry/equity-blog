@@ -1,5 +1,88 @@
 [
   {
+    "company": "Oakley Capital Investments Limited",
+    "ticker": "OCI",
+    "publish_date": "10 September 2026",
+    "date_iso": "2026-09-10",
+    "time_period": "H1 to 30 June 2026",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Oakley Capital Investments</strong> reported a <strong>Total NAV Return of 6.0%</strong> (+44 pence) per share for the <strong>six months to 30 June 2026</strong>, or <strong>6.5%</strong> (+48 pence) excluding FX, with <strong>NAV per share of 782 pence</strong> and total NAV of <strong>£1,289 million</strong>.</li><li><strong>Total Shareholder Return of -16%</strong> vs a <strong>-18%</strong> weighted average across the listed private equity sector, largely reflecting Q1 stock market weakness; ten-year annual compounding Total NAV return of <strong>15%</strong>.</li><li>Portfolio drivers: <strong>Phenna Group (+13p)</strong>, <strong>North Sails (+9p)</strong>, <strong>TechInsights (+8p)</strong> and <strong>Exaforce (+5p)</strong>, the last following a <strong>$125m Series B</strong> that more than doubled its value; c.80% of value uplift from EBITDA growth, c.20% from multiple expansion.</li><li>Weighted average organic LTM EBITDA growth of <strong>9%</strong> (FY2025: 11%); average EV/EBITDA multiple <strong>16.4x</strong> (16.3x); average net debt/EBITDA <strong>4.4x</strong> (4.1x).</li><li>Total look-through investments of <strong>£43m</strong> (£19m new platforms, £24m follow-ons); commenced a <strong>£20m+ share buyback</strong> for 2026, having repurchased c.1.9m shares for <strong>£9.4m</strong> to 30 June, adding <strong>3 pence</strong> to NAV per share.</li><li><strong>Christopher Samuel</strong> appointed Independent Chair on <strong>13 March 2026</strong>; Board calls the discount a clear priority and is progressing strategic initiatives; <strong>Q3 2026 trading update</strong> due <strong>28 October 2026</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Oakley Capital Investments posted a 6.0% Total NAV Return for H1 2026, lifting NAV per share to 782p, driven principally by portfolio earnings growth.",
+    "priority": "high",
+    "priority_reason": "Half-year results from a listed private equity investment company, with NAV, portfolio performance and buyback detail.",
+    "figures": [
+      {
+        "metric": "NAV per share",
+        "current": "782p",
+        "prior": "not stated",
+        "change": "+44p (6.0% Total NAV Return)",
+        "basis": "reported",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "NAV (total)",
+        "current": "£1,289m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "at 30 June 2026"
+      },
+      {
+        "metric": "Total NAV Return per share",
+        "current": "6.0% (+44p)",
+        "prior": "not stated",
+        "change": "6.5% (+48p) excluding FX",
+        "basis": "reported",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Total Shareholder Return",
+        "current": "-16%",
+        "prior": "not stated",
+        "change": "vs -18% listed PE sector weighted average",
+        "basis": "reported",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Organic LTM EBITDA growth (weighted avg)",
+        "current": "9%",
+        "prior": "11%",
+        "change": "not stated",
+        "basis": "underlying portfolio",
+        "note": "FY2025 comparative"
+      },
+      {
+        "metric": "Average EV/EBITDA multiple",
+        "current": "16.4x",
+        "prior": "16.3x",
+        "change": "not stated",
+        "basis": "portfolio average",
+        "note": "FY2025 comparative"
+      },
+      {
+        "metric": "Average net debt/EBITDA",
+        "current": "4.4x",
+        "prior": "4.1x",
+        "change": "not stated",
+        "basis": "portfolio average",
+        "note": "FY2025 comparative"
+      }
+    ],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": "No formal earnings guidance issued; the Board flagged potential proceeds from future portfolio realisations and ongoing strategic initiatives to address the discount and strengthen the balance sheet."
+    },
+    "explainer": "OCI is a London-listed closed-ended investment company that gives shareholders access to private equity returns via the unquoted Oakley Capital funds, which back profitable pan-European businesses in technology, education, consumer and business services. The headline measure is NAV (net asset value) per share, which rose to 782p, delivering a Total NAV Return of 6.0% in the half. Excluding currency movements the return was 6.5% (+48p), so foreign exchange was a modest 4p drag over the period.\n\nCrucially, roughly 80% of the NAV growth came from underlying earnings (EBITDA) growth at portfolio companies rather than from applying higher valuation multiples — the average EV/EBITDA multiple barely moved (16.4x vs 16.3x). That is generally seen as higher-quality NAV growth than gains driven by re-rating.\n\nThe gap between the two return figures matters for traders: while NAV rose 6%, the Total Shareholder Return (based on the share price) was -16%, reflecting a widening discount to NAV amid first-quarter market weakness. The Board explicitly named narrowing that discount as a priority and has launched a buyback of at least £20m for 2026 (£9.4m done, adding 3p to NAV per share).\n\nNo profit or earnings guidance is given, as is normal for an investment company; instead the Board points to possible future realisation proceeds and unspecified strategic initiatives, with more detail promised in coming months and a Q3 trading update on 28 October 2026.",
+    "source_url": "https://uk.advfn.com/stock-market/london/oakley-capital-investments-OCI/share-news/Oakley-Capital-Investments-Limited-Interim-Results/99279973",
+    "related_news_url": "https://news.google.com/search?q=%22Oakley%20Capital%20Investments%20Limited%22",
+    "added_at": "2026-09-10T07:22:51.279128"
+  },
+  {
     "company": "Smith & Nephew plc",
     "ticker": null,
     "publish_date": "10 September 2026",
