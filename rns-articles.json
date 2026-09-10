@@ -1,5 +1,98 @@
 [
   {
+    "company": "Rio Tinto PLC",
+    "ticker": "RIO",
+    "publish_date": "10 September 2026",
+    "date_iso": "2026-09-10",
+    "time_period": "",
+    "announcement_type": "Project milestone",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Rio Tinto</strong> and the <strong>Nyangumarta Warrarn Aboriginal Corporation (NWAC)</strong> have signed a Project Agreement for the proposed <strong>Winu</strong> copper-gold mine, with Nyangumarta People giving <strong>consent</strong> for the mine and associated infrastructure.</li><li>Winu is Rio Tinto's <strong>most advanced near-term greenfield copper project</strong>, located in Western Australia's Great Sandy Desert ~<strong>300km</strong> south of Broome, central to its copper-growth strategy.</li><li>Joint venture with <strong>Sumitomo Metal Mining Co (SMM)</strong>: <strong>Rio Tinto holds 70%</strong> and develops and operates the mine; <strong>SMM holds 30%</strong>.</li><li>Builds on the 2023 Project Planning Agreement; Copper CEO <strong>Katie Jackson</strong> said it is a step towards <strong>first copper by 2030</strong>.</li><li>Project <strong>remains subject to regulatory and other approvals, and a final investment decision</strong> — no financial details or guidance disclosed.</li></ul>",
+    "source_format": "html",
+    "headline": "Rio Tinto signs project agreement with Nyangumarta Warrarn Aboriginal Corporation securing consent for the proposed Winu copper-gold mine in Western Australia.",
+    "priority": "medium",
+    "priority_reason": "Advances Rio Tinto's most advanced near-term greenfield copper project, but no financials and still subject to regulatory approvals and a final investment decision.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/rio-tinto-RIO/share-news/Nyangumarta-Warrarn-Aboriginal-Corporation-and-Rio/99279674",
+    "related_news_url": "https://news.google.com/search?q=%22Rio%20Tinto%20plc%22",
+    "added_at": "2026-09-10T07:18:29.429582"
+  },
+  {
+    "company": "Pan African Resources PLC",
+    "ticker": "PAF",
+    "publish_date": "10 September 2026",
+    "date_iso": "2026-09-10",
+    "time_period": "FY to 30 June 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "FY to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Pan African Resources</strong> issued a <strong>JSE trading statement</strong> confirming reasonable certainty that <strong>EPS and HEPS</strong> for the year ended <strong>30 June 2026</strong> will differ by at least <strong>20%</strong> from the prior year, with the increase attributed primarily to higher revenue.</li><li>Source text does <strong>not print the specific percentage</strong> or range for the expected EPS/HEPS increase — the figure appears <strong>omitted/garbled</strong> in the announcement text supplied.</li><li>Full-year <strong>all-in sustaining cost (AISC)</strong> guidance expected at <strong>US$1,870/oz</strong> (at US$/ZAR:17.00).</li><li><strong>Other exceptional expenses</strong> include a circa <strong>US$40 million</strong> increase in the <strong>share-based payment liability</strong>, arising from the appreciation in the share price over the period.</li><li><strong>FY27 group production</strong> guided to <strong>280,000oz–302,000oz</strong>, largely from increased output at <strong>Tennant Mines</strong>.</li><li>Results are <strong>unreviewed/unaudited</strong>; full <strong>FY26 results due 16 September 2026</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Pan African expects EPS and HEPS for FY to 30 June 2026 to rise materially year-on-year, driven mainly by higher revenue.",
+    "priority": "high",
+    "priority_reason": "JSE trading statement flagging a >20% rise in EPS/HEPS ahead of full-year results on 16 September.",
+    "figures": [
+      {
+        "metric": "Average US$/ZAR exchange rate",
+        "current": "16.90",
+        "prior": "18.17",
+        "change": "+7.0% (rand stronger)",
+        "basis": "average for period",
+        "note": "FY26 vs FY25"
+      },
+      {
+        "metric": "Average US$/A$ exchange rate",
+        "current": "1.47",
+        "prior": "1.54",
+        "change": "+4.5%",
+        "basis": "average for period",
+        "note": "FY26 vs FY25"
+      },
+      {
+        "metric": "Closing US$/ZAR exchange rate",
+        "current": "16.46",
+        "prior": "17.75",
+        "change": "+7.3% (rand stronger)",
+        "basis": "at 30 June",
+        "note": "FY26 vs FY25"
+      },
+      {
+        "metric": "Weighted average shares outstanding",
+        "current": "2,029,579,129",
+        "prior": "1,978,937,605",
+        "change": "+2.6%",
+        "basis": "not stated",
+        "note": "at 30 June 2026"
+      },
+      {
+        "metric": "EPS / HEPS",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "increase of at least 20% (exact figure not stated in text)",
+        "basis": "not stated",
+        "note": "FY to 30 June 2026; specific figures to be released 16 September 2026"
+      }
+    ],
+    "guidance": {
+      "status": "new",
+      "previous": "",
+      "current": "FY26 AISC expected at US$1,870/oz (at US$/ZAR:17.00); FY27 group production guided to 280,000oz–302,000oz, largely from Tennant Mines.",
+      "commentary": "Trading statement confirms EPS/HEPS up at least 20% year-on-year on higher revenue, though the precise magnitude is not stated in the supplied text. It also sets forward FY27 production guidance of 280,000–302,000oz driven by Tennant Mines ramp-up."
+    },
+    "explainer": "This is a JSE-mandated trading statement, not the results themselves. Under JSE rules a company must warn the market once it is reasonably certain earnings will move at least 20% versus the prior comparable period. Pan African is flagging that both EPS (earnings per share) and HEPS (headline EPS, a South African measure that strips out one-off items such as asset disposals) will be materially higher for the year to 30 June 2026, driven mainly by higher revenue. The supplied text does not print the actual percentage increase, so the precise figure remains unknown until the full results on 16 September 2026.\n\nCurrency matters here because Pan African reports in US dollars but earns in South African rand and Australian dollars. The rand strengthened against the dollar over the year (average rate 16.90 versus 18.17, about 7% firmer), which flatters dollar-reported revenue and costs when local-currency results are translated. Readers comparing year-on-year figures should keep this translation effect in mind.\n\nA notable offset within earnings is a roughly US$40 million increase in the share-based payment liability, caused by the rise in Pan African's own share price. This is a non-cash accounting charge that grows as the shares appreciate, and it is being flagged as an exceptional item.\n\nOn the outlook, management reaffirms full-year AISC (all-in sustaining cost) guidance of US$1,870/oz and, looking ahead, guides FY27 production to 280,000–302,000oz, up on the current year largely thanks to increased output from Tennant Mines in Australia.",
+    "source_url": "https://uk.advfn.com/stock-market/london/pan-african-resources-PAF/share-news/Pan-African-Resources-Plc-Group-Trading-Statemen/99280291",
+    "related_news_url": "https://news.google.com/search?q=%22Pan%20African%20Resources%20PLC%22",
+    "added_at": "2026-09-10T07:18:29.418668"
+  },
+  {
     "company": "Harworth Group PLC",
     "ticker": "HWG",
     "publish_date": "10 September 2026",
