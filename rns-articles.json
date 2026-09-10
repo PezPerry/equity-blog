@@ -1,5 +1,130 @@
 [
   {
+    "company": "Gore Street Energy Storage Fund PLC",
+    "ticker": "GSF",
+    "publish_date": "10 September 2026",
+    "date_iso": "2026-09-10",
+    "time_period": "",
+    "announcement_type": "Disposal update",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li>Sale of the <strong>22 MW</strong> operational Cremzow asset in <strong>Germany</strong> will no longer proceed with the prospective buyer, who at a late stage sought to <strong>significantly alter its offer</strong> to a level the Board deemed poor value for shareholders.</li><li>Board sees <strong>no obvious market-based rationale</strong> for the cut, noting the asset is trading well at <strong>£17.19/MW/hr</strong> in Q1 FY26/27.</li><li>Disruption is attributed to uncertainty caused by <strong>Saba's requisitioned resolutions</strong>; the disposal is no longer considered to be at an advanced stage and the timeline has extended.</li><li>Sub-committee has instructed sell-side adviser <strong>Alexa Capital</strong> to re-engage with other parties; none of the bidders are entities managed by investment manager <strong>Gore Street Investment Management</strong>.</li><li>Chair <strong>Angus Gordon Lennox</strong> called it an \"unfortunate and frustrating development\", warning live sale processes may be hit as the Company is perceived a forced seller.</li></ul>",
+    "source_format": "html",
+    "headline": "Gore Street's advanced sale of its 22 MW Cremzow asset in Germany has collapsed after the buyer sought to cut its offer to poor value.",
+    "priority": "medium",
+    "priority_reason": "Advanced sale of a German asset has stalled after the buyer cut its offer, with the Board blaming activist Saba's requisitioned resolutions.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/gore-street-energy-storage-GSF/share-news/Gore-Street-Energy-Storage-Fund-PLC-Update-on-Germ/99280307",
+    "related_news_url": "https://news.google.com/search?q=%22Gore%20Street%20Energy%20Storage%20Fund%20plc%22",
+    "added_at": "2026-09-10T07:20:28.054313"
+  },
+  {
+    "company": "Associated British Foods PLC",
+    "ticker": "ABF",
+    "publish_date": "10 September 2026",
+    "date_iso": "2026-09-10",
+    "time_period": "Q4 FY2026 (12 weeks to 12 September 2026 for Primark; 16 weeks for Food businesses)",
+    "announcement_type": "Trading update",
+    "period_detail": "Q4 FY2026 (12 weeks to 12 September 2026 for Primark; 16 weeks for Food businesses)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Associated British Foods</strong> delivered resilient Q4 FY2026 trading; group adjusted operating profit expected <strong>broadly in line</strong> with previous expectations and adjusted EPS expected <strong>ahead</strong> of expectations.</li><li><strong>Primark</strong> Q4 total sales expected up <strong>around 2%</strong> (new stores/franchise adding ~5%), with like-for-like sales <strong>down around 3%</strong>; FY sales up ~2%, LFL down ~2.6%, adjusted operating margin still ~10%.</li><li>Primark to offer <strong>home delivery in Great Britain</strong> in future, having acquired a highly-automated fulfilment facility in <strong>Sheffield</strong>; US Q4 sales up ~11%, continental Europe down ~1% (LFL -4.3%), UK up ~1% (LFL broadly flat).</li><li><strong>Grocery</strong> FY26 adjusted operating profit expected <strong>slightly below</strong> previous expectations (hot weather hit Twinings, Ovaltine phasing); <strong>Ingredients</strong> and <strong>Agriculture</strong> in line; <strong>Sugar</strong> FY26 loss towards higher end of previous <strong>£25m–£60m</strong> range.</li><li>Initial FY2027 view: Sugar adjusted operating loss guided at <strong>£70m–£170m</strong>; Grocery hit by one-off Hovis consolidation losses; 2027 is a 53-week year for Primark.</li><li><strong>Hovis</strong> acquisition completed in July; UK Sugar footprint cut from four to three sites (Cantley beet processing to cease 2027); UK compound feed business to be exited. Annual results due <strong>3 November 2026</strong>; <strong>Retail demerger</strong> on track for December 2027.</li></ul>",
+    "source_format": "html",
+    "headline": "ABF reports resilient Q4 trading, with adjusted operating profit broadly in line and adjusted EPS ahead of expectations; Primark to launch home delivery in Great Britain.",
+    "priority": "high",
+    "priority_reason": "Q4 trading statement with group profit, EPS guidance commentary and widened Sugar loss guidance for 2027.",
+    "figures": [
+      {
+        "metric": "Primark total sales growth (Q4)",
+        "current": "around +2%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "constant currency; new stores/franchise ~5% of growth",
+        "note": "Q4 FY2026"
+      },
+      {
+        "metric": "Primark like-for-like sales (Q4)",
+        "current": "around -3%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "constant currency",
+        "note": "Q4 FY2026"
+      },
+      {
+        "metric": "Primark total sales growth (FY26)",
+        "current": "around +2%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "constant currency; new space ~5% of growth",
+        "note": "FY2026"
+      },
+      {
+        "metric": "Primark like-for-like sales (FY26)",
+        "current": "around -2.6%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "constant currency",
+        "note": "FY2026"
+      },
+      {
+        "metric": "Primark adjusted operating margin (FY26)",
+        "current": "approximately 10%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "still expected",
+        "note": "FY2026"
+      },
+      {
+        "metric": "Primark US sales growth (Q4)",
+        "current": "around +11%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "constant currency; strong prior-year comparator",
+        "note": "Q4 FY2026"
+      },
+      {
+        "metric": "Primark continental Europe sales (Q4)",
+        "current": "around -1%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "constant currency; LFL -4.3%",
+        "note": "Q4 FY2026"
+      },
+      {
+        "metric": "Sugar adjusted operating loss (FY26)",
+        "current": "towards higher end of £25m–£60m loss",
+        "prior": "£25m–£60m loss range",
+        "change": "not stated",
+        "basis": "reflecting increased onerous contract provisions",
+        "note": "FY2026"
+      },
+      {
+        "metric": "Sugar adjusted operating loss (FY27 initial view)",
+        "current": "£70m–£170m loss",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "initial 2027 guidance",
+        "note": "FY2027"
+      }
+    ],
+    "guidance": {
+      "status": "raised",
+      "previous": "Group adjusted operating profit and adjusted EPS per previous expectations; Sugar FY26 adjusted operating loss guidance range of £25m to £60m.",
+      "current": "Group adjusted operating profit broadly in line with previous expectations; adjusted EPS expected ahead of expectations. Sugar FY26 loss now towards higher end of the £25m–£60m range; FY27 Sugar loss guided at £70m–£170m. Grocery FY26 profit slightly below previous expectations; Ingredients and Agriculture in line.",
+      "commentary": "Group adjusted operating profit is unchanged (broadly in line), but adjusted EPS is now expected to come in ahead of prior expectations. Divisionally, Grocery is nudged slightly lower on weather-hit Twinings and Ovaltine phasing, and Sugar's FY26 loss moves to the top of its range on higher onerous contract provisions, with FY27 Sugar losses guided materially wider."
+    },
+    "explainer": "This is ABF's fourth-quarter trading update ahead of full-year results on 3 November 2026. Sales figures are quoted in constant currency versus the same period last year, which strips out exchange-rate movements to show underlying momentum. Primark's headline sales growth of around 2% flatters an underlying picture where like-for-like (same-store) sales are down around 3% in the quarter and 2.6% for the year; the gap is filled by new store openings and franchise expansion adding roughly 5 percentage points. A prolonged hot summer delayed autumn/winter clothing purchases, hitting UK and European sales, while Twinings tea also suffered from reduced hot-drink demand.\n\nOn profit, the key message is nuanced: group adjusted operating profit is broadly unchanged versus what the market expected, but adjusted earnings per share is now expected to come in higher — implying below-the-line factors (such as finance costs, tax or share count) are working in ABF's favour rather than a step-up in trading profit.\n\nGuidance moved in several places. Grocery profit for FY26 is now slightly below prior expectations because of the weather and Ovaltine distribution changes in Thailand. Sugar is the weak spot: the FY26 loss is now expected towards the top of the previously guided £25m–£60m range due to higher onerous contract provisions (accounting charges for contracts now expected to be loss-making), and the initial FY27 outlook is for a much larger loss of £70m–£170m, driven by gas costs, weather, African production and currency risks.\n\nSeparately, Primark confirmed it will add home delivery in Great Britain — buying an automated fulfilment site in Sheffield — as a new profitable channel alongside Click & Collect. Note that FY2027 will be a 53-week year for Primark, which will modestly inflate reported figures next year, and the planned demerger of the Retail (Primark) business from the Food operations remains on track for December 2027.",
+    "source_url": "https://uk.advfn.com/stock-market/london/associated-british-foods-ABF/share-news/Associated-British-Foods-PLC-Trading-Statement/99279981",
+    "related_news_url": "https://news.google.com/search?q=%22Associated%20British%20Foods%20plc%22",
+    "added_at": "2026-09-10T07:20:28.043915"
+  },
+  {
     "company": "Currys PLC",
     "ticker": "CURY",
     "publish_date": "10 September 2026",
