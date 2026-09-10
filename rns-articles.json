@@ -1,5 +1,114 @@
 [
   {
+    "company": "Great Portland Estates PLC",
+    "ticker": "GPE",
+    "publish_date": "10 September 2026",
+    "date_iso": "2026-09-10",
+    "time_period": "",
+    "announcement_type": "Credit rating update",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Moody’s</strong> has confirmed <strong>GPE’s Baa2</strong> long-term issuer rating and <strong>stable outlook</strong> unchanged after a periodic review.</li><li>Rating cites GPE’s strong balance sheet, market positioning and resilient strategy; <strong>no impact</strong> on trading or guidance.</li><li>CFO <strong>Jayne Cottam</strong> flagged conservative financial policies and the growing Fully Managed office offer and development pipeline.</li><li><strong>Half Year Results</strong> due <strong>19 November</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Moody’s reaffirms Great Portland Estates’ Baa2 long-term issuer rating with a stable outlook following its periodic review.",
+    "priority": "low",
+    "priority_reason": "Routine periodic credit rating reaffirmation with no change to rating or outlook and no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/great-portland-estates-GPE/share-news/Great-Portland-Estates-plc-Moody-s-reaffirms-GPE/99280058",
+    "related_news_url": "https://news.google.com/search?q=%22Great%20Portland%20Estates%20plc%22",
+    "added_at": "2026-09-10T07:23:25.696294"
+  },
+  {
+    "company": "Genus plc",
+    "ticker": "GNS",
+    "publish_date": "10 September 2026",
+    "date_iso": "2026-09-10",
+    "time_period": "FY to 30 June 2026",
+    "announcement_type": "Annual results",
+    "period_detail": "FY to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Genus plc</strong> FY26 (year to <strong>30 June 2026</strong>): adjusted PBT <strong>£100.2m</strong>, up <strong>35%</strong> actual currency (<strong>+30%</strong> constant currency), including a <strong>£5.6m</strong> BCA milestone payment.</li><li>New <strong>£60m share buyback</strong> to be completed during <strong>FY27</strong>, funded by a strengthened balance sheet; year-end leverage <strong>0.4x</strong> versus a 1–2x EBITDA target.</li><li>Group revenue <strong>£658.1m</strong> (FY25: <strong>£672.8m</strong>), the fall driven by deconsolidation of <strong>PIC China</strong> from 31 January 2026; excluding it, revenue was flat in constant currency.</li><li>Statutory PBT jumped to <strong>£310.5m</strong> (FY25: <strong>£28.5m</strong>), mainly a <strong>£204.1m</strong> gain on forming the <strong>PIC China</strong> JV with <strong>BCA</strong>; statutory basic EPS <strong>431.6p</strong> (FY25: 29.3p), adjusted EPS <strong>110.3p</strong>.</li><li>PIC volume up <strong>12%</strong>; ABS operating profit (incl. JVs) up <strong>11%</strong> constant currency on VAP initiatives; PRP gene-edit approvals gained in <strong>Argentina, Canada, Uruguay and Peru</strong>.</li><li><strong>FY27 outlook</strong> stated as in line with market expectations (company-compiled consensus adjusted PBT range <strong>£87.0m–£96.6m</strong>, average <strong>£93.0m</strong>).</li></ul>",
+    "source_format": "html",
+    "headline": "Genus posts strong FY26 with adjusted PBT up 35% to £100.2m and launches a £60m share buyback, guiding FY27 in line with expectations.",
+    "priority": "high",
+    "priority_reason": "Full-year preliminary results with a 30% rise in adjusted PBT, a large statutory gain and a new £60m share buyback.",
+    "figures": [
+      {
+        "metric": "Group revenue",
+        "current": "£658.1m",
+        "prior": "£672.8m",
+        "change": "-2%",
+        "basis": "actual currency",
+        "note": "FY to 30 June 2026; fall driven by PIC China deconsolidation"
+      },
+      {
+        "metric": "Adjusted PBT",
+        "current": "£100.2m",
+        "prior": "not stated",
+        "change": "+35% actual (+30% constant currency)",
+        "basis": "adjusted",
+        "note": "includes £5.6m BCA milestone payment"
+      },
+      {
+        "metric": "Statutory PBT",
+        "current": "£310.5m",
+        "prior": "£28.5m",
+        "change": "+£282m",
+        "basis": "statutory",
+        "note": "includes £204.1m gain on PIC China JV formation"
+      },
+      {
+        "metric": "Adjusted EPS",
+        "current": "110.3p",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "adjusted",
+        "note": "FY26"
+      },
+      {
+        "metric": "Statutory basic EPS",
+        "current": "431.6p",
+        "prior": "29.3p",
+        "change": "not stated",
+        "basis": "statutory",
+        "note": "FY26"
+      },
+      {
+        "metric": "Free cash flow",
+        "current": "£62m",
+        "prior": "£40.9m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "plus £98m net proceeds from PIC China JV"
+      },
+      {
+        "metric": "Year-end leverage",
+        "current": "0.4x",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "net debt/EBITDA",
+        "note": "target range 1–2x EBITDA"
+      }
+    ],
+    "guidance": {
+      "status": "new",
+      "previous": "",
+      "current": "FY27 outlook: in-line with market expectations; company-compiled consensus FY27 adjusted PBT range £87.0m–£96.6m, average £93.0m (eleven analyst estimates)",
+      "commentary": "Genus set FY27 expectations in line with market consensus. Management notes normalised FY26 adjusted PBT of £90.3m after adjusting for PIC China JV formation, associated interest/hedging, the final BCA milestone and one-off PIC production impacts, which is the relevant base for judging FY27 growth."
+    },
+    "explainer": "Genus's headline profit numbers look distorted this year because of one big structural change: on 31 January 2026 it moved its Chinese pig-genetics business, PIC China, into a joint venture with BCA in exchange for a 49% stake and about £98m of net cash. From that date PIC China no longer counts as fully owned, so reported group revenue falls (to £658.1m from £672.8m) even though the underlying business was broadly flat. Excluding PIC China, revenue was flat in constant currency and down just 1% in actual currency.\n\nThe two profit figures tell very different stories. Statutory PBT leapt to £310.5m from £28.5m, but that is largely a one-off £204.1m accounting gain from creating the JV, plus non-cash biological-asset fair-value swings — not recurring trading profit. The better guide to underlying performance is adjusted PBT of £100.2m, up 35% in actual currency (30% at constant exchange rates), which still includes a one-off £5.6m milestone payment from BCA.\n\nThe £60m share buyback is funded by strong cash generation (free cash flow of £62m) and the JV proceeds, which cut year-end leverage to just 0.4x EBITDA — well below the 1–2x target range, hence the surplus-capital return.\n\nOn guidance, Genus is guiding FY27 adjusted PBT to be in line with the company-compiled consensus range of £87.0m–£96.6m (average £93.0m). Because FY26's £100.2m was flattered by one-offs, the company flags a 'normalised' FY26 adjusted PBT of £90.3m — so the FY27 consensus implies modest underlying growth from that cleaner base rather than a step down from the reported £100.2m.",
+    "source_url": "https://uk.advfn.com/stock-market/london/genus-GNS/share-news/Genus-PLC-Preliminary-Results/99280051",
+    "related_news_url": "https://news.google.com/search?q=%22Genus%20plc%22",
+    "added_at": "2026-09-10T07:23:25.676810"
+  },
+  {
     "company": "Oakley Capital Investments Limited",
     "ticker": "OCI",
     "publish_date": "10 September 2026",
