@@ -1,5 +1,31 @@
 [
   {
+    "company": "Compass Group PLC",
+    "ticker": "CPG",
+    "publish_date": "10 September 2026",
+    "date_iso": "2026-09-10",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>EUR250,000,000 3.500% Notes due 2035</strong> admitted to trading on the <strong>Main Market</strong> of the <strong>London Stock Exchange</strong> from <strong>10 September 2026</strong> (temporary ISIN XS3490003855).</li><li>To be consolidated into a single series with the existing <strong>EUR750,000,000 3.500% Notes due 2035</strong> issued on <strong>15 January 2026</strong>, taking the total to <strong>EUR1bn</strong>.</li><li>Routine debt-programme disclosure under the EMTN base prospectus; notes are for professional/eligible-counterparty investors only, with <strong>no impact</strong> on equity trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Compass Group admits a **EUR250m** tap of its **3.500% Notes due 2035** to trading on the London Stock Exchange from **10 September 2026**.",
+    "priority": "low",
+    "priority_reason": "Routine admission-to-trading notice for a debt tap issue, no equity or trading impact.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/compass-group--cpg/admission-to-trading/9766306",
+    "related_news_url": "https://news.google.com/search?q=%22Compass%20Group%22",
+    "added_at": "2026-09-10T15:35:41.942095"
+  },
+  {
     "company": "Londonmetric Property PLC",
     "ticker": "LMP",
     "publish_date": "10 September 2026",
