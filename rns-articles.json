@@ -1,5 +1,64 @@
 [
   {
+    "company": "Currys PLC",
+    "ticker": "CURY",
+    "publish_date": "10 September 2026",
+    "date_iso": "2026-09-10",
+    "time_period": "17 weeks ended 29 August 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "17 weeks ended 29 August 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Currys plc</strong> reports a <strong>strong start</strong> to the year over the <strong>17 weeks ended 29 August 2026</strong>, with sales growth in both stores and online across the Group.</li><li><strong>UK&I</strong> gained share in <strong>every category</strong> in a flat market (helped <strong>c.2%pts</strong> by the World Cup and Summer heatwaves); <strong>Nordics</strong> gained share in most countries and categories in a strongly growing market.</li><li>Recurring Services growing strongly: <strong>flexpay adoption +30bps YoY to 23.6%</strong> and <strong>iD Mobile over 2.7m subscribers, +16% YoY</strong>, targeting <strong>at least 2.8m</strong> before year end.</li><li><strong>Gross margin stable</strong> with tight cost control; <strong>all guidance unchanged</strong> and comfortable with company-compiled consensus of <strong>Group adjusted PBT of £199m</strong> (as of 9 September 2026).</li><li><strong>£50m share buyback</strong> underway with <strong>£23m completed</strong> to date; year-end net cash expected to finish <strong>well above the £100m target</strong>.</li><li>New Group CEO (formerly head of the Nordic business) in early weeks; interim results for the 26 weeks ending 31 October 2026 due <strong>17 December 2026</strong>; AGM held today.</li></ul>",
+    "source_format": "html",
+    "headline": "Currys reports a strong start to FY26/27 with market share gains in UK&I and Nordics; all guidance unchanged and comfortable with £199m PBT consensus.",
+    "priority": "high",
+    "priority_reason": "Trading update reaffirming full-year guidance and consensus, with a buyback and net cash update.",
+    "figures": [
+      {
+        "metric": "flexpay adoption",
+        "current": "23.6%",
+        "prior": "not stated",
+        "change": "+30bps YoY",
+        "basis": "",
+        "note": "17 weeks ended 29 August 2026"
+      },
+      {
+        "metric": "iD Mobile subscribers",
+        "current": "over 2.7m",
+        "prior": "not stated",
+        "change": "+16% YoY",
+        "basis": "",
+        "note": "target of at least 2.8m before year end"
+      },
+      {
+        "metric": "Group adjusted PBT (consensus)",
+        "current": "£199m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "company-compiled consensus for 2026/27, as of 9 September 2026",
+        "note": "company comfortable with this figure"
+      },
+      {
+        "metric": "Share buyback",
+        "current": "£23m completed of £50m programme",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "buyback underway"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "All guidance for the year; company-compiled consensus Group adjusted PBT of £199m",
+      "current": "All guidance for the year remains unchanged; comfortable with market consensus of £199m Group adjusted PBT",
+      "commentary": "Currys reaffirmed full-year guidance and said it is comfortable with the £199m consensus PBT. It will update the market on full-year profit expectations after the Peak trading period, in line with usual practice."
+    },
+    "explainer": "This is a short trading update covering the first 17 weeks of Currys' financial year (to 29 August 2026), rather than a full set of results, so it gives directional commentary — sales growth, market-share gains and stable gross margin — rather than headline profit numbers. The company notes the UK market was essentially flat but was flattered by roughly 2 percentage points from the World Cup and summer heatwaves, so underlying demand was soft; Currys still gained share in every UK&I category.\n\nOn guidance, nothing has changed. Currys says all full-year guidance remains unchanged and that it is \"comfortable with market consensus\", pointing to its own company-compiled consensus of £199m Group adjusted pre-tax profit as of 9 September 2026. As usual, it will only revise its full-year profit view after the crucial Peak (Christmas) trading period.\n\nTwo capital-return and balance-sheet signals stand out: a £50m share buyback is underway with £23m done, and year-end net cash is expected to finish well above the £100m target — both indicating management confidence in cash generation. The recurring Services metrics (flexpay adoption up 30 basis points to 23.6% of sales, and iD Mobile subscribers up 16% to over 2.7m) are highlighted because these higher-margin, repeat-revenue streams are central to the growth strategy.",
+    "source_url": "https://uk.advfn.com/stock-market/london/currys-CURY/share-news/Currys-PLC-Strong-start-to-the-year-in-UK-I-and-No/99279953",
+    "related_news_url": "https://news.google.com/search?q=%22Currys%20plc%22",
+    "added_at": "2026-09-10T07:19:23.275801"
+  },
+  {
     "company": "Fevertree Drinks PLC",
     "ticker": "FEVR",
     "publish_date": "10 September 2026",
