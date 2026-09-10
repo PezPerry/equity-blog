@@ -1,5 +1,96 @@
 [
   {
+    "company": "THG PLC",
+    "ticker": "THG",
+    "publish_date": "10 September 2026",
+    "date_iso": "2026-09-10",
+    "time_period": "H1 to 30 June 2026",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>THG PLC</strong> H1 2026 group revenue <strong>£828.7m</strong>, <strong>+7.2%</strong> YoY (continuing CCY), above guidance of <strong>+6.5%</strong>; both <strong>THG Beauty</strong> and <strong>THG Nutrition</strong> in growth for a fourth consecutive quarter.</li><li>H1 Adjusted EBITDA <strong>£42.8m</strong>, <strong>+109%</strong> LFL (H1 2025: £24.0m), margin up <strong>210bps</strong> to <strong>5.2%</strong> and ahead of guidance of at least <strong>£40m</strong>.</li><li><strong>Myprotein</strong> revenue <strong>+9.2%</strong> (<strong>+12.1%</strong> excluding Asia); <strong>58.5m</strong> branded products sold (H1 2025: 37.2m, <strong>+57%</strong>), on track for c.<strong>130m</strong> units in FY 2026.</li><li>Statutory operating loss narrowed to <strong>£10.6m</strong> (H1 2025: £30.0m); statutory result a loss of <strong>£43.7m</strong> vs a <strong>£76.3m</strong> profit prior year, which included a one-off <strong>£142.4m</strong> demerger gain.</li><li>Net debt before leases <strong>£329.7m</strong> (<strong>£262.8m</strong> excluding demerger payments); cash and available facilities <strong>£238.7m</strong>; free cash flow improved by <strong>£6.8m</strong> YoY.</li><li>FY 2026 revenue, Adjusted EBITDA and free cash flow guided <strong>in line with consensus</strong>; FY 2026 free cash flow target of <strong>£25m–£35m</strong> positive, with Q3 revenue growth of only c.<strong>2%</strong> flagged on EU beauty duty and heatwave, Q4 seen at <strong>6%–7%</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "THG H1 2026 revenue up 7.2% to £828.7m and Adjusted EBITDA up 109% to £42.8m, both ahead of guidance, with full-year expectations in line with consensus.",
+    "priority": "high",
+    "priority_reason": "Half-year results with revenue and EBITDA ahead of guidance, plus detailed FY 2026 and FY 2027 outlook.",
+    "figures": [
+      {
+        "metric": "Revenue",
+        "current": "£828.7m",
+        "prior": "£783.4m",
+        "change": "+7.2%",
+        "basis": "continuing constant currency",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Adjusted EBITDA",
+        "current": "£42.8m",
+        "prior": "£24.0m",
+        "change": "+109%",
+        "basis": "LFL",
+        "note": "margin 5.2% vs 3.1%, +210bps"
+      },
+      {
+        "metric": "Gross margin",
+        "current": "41.1%",
+        "prior": "41.1%",
+        "change": "flat",
+        "basis": "not stated",
+        "note": "Nutrition 44.6% (+120bps); Beauty 38.8% (-90bps)"
+      },
+      {
+        "metric": "Statutory operating loss (continuing)",
+        "current": "£10.6m loss",
+        "prior": "£30.0m loss",
+        "change": "not stated",
+        "basis": "not stated",
+        "note": ""
+      },
+      {
+        "metric": "Statutory result for period",
+        "current": "£43.7m loss",
+        "prior": "£76.3m profit",
+        "change": "not stated",
+        "basis": "not stated",
+        "note": "prior year included £142.4m one-off gain on discontinued operations"
+      },
+      {
+        "metric": "Net debt before lease liabilities",
+        "current": "£329.7m",
+        "prior": "£321.4m",
+        "change": "not stated",
+        "basis": "not stated",
+        "note": "£262.8m excluding demerger payments (H1 2025: £311.6m)"
+      },
+      {
+        "metric": "Free cash outflow",
+        "current": "£70.9m",
+        "prior": "£77.7m",
+        "change": "+£6.8m improvement",
+        "basis": "not stated",
+        "note": "after seasonal working capital"
+      },
+      {
+        "metric": "THG Nutrition Adjusted EBITDA",
+        "current": "£26.0m",
+        "prior": "£8.5m",
+        "change": "more than trebled",
+        "basis": "LFL",
+        "note": ""
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "FY 2026 revenue, Adjusted EBITDA and free cash flow in line with consensus; H1 revenue guidance +6.5%; H1 Adjusted EBITDA of at least £40m",
+      "current": "Full year expectations remain in line with consensus; FY 2026 positive free cash flow target of £25m to £35m; Q3 revenue growth c.2%, Q4 revenue growth 6%–7%",
+      "commentary": "H1 revenue (+7.2%) and Adjusted EBITDA (£42.8m) both beat their own guidance, but full-year expectations are held in line with consensus rather than raised. Management flagged softer c.2% Q3 revenue growth driven by EU beauty duty from 1 July, the European heatwave and own-brand revenue phasing into Q4/FY 2027, offset by a stronger 6%–7% Q4."
+    },
+    "explainer": "THG reports on a continuing constant-currency (CCY) basis, which strips out exchange-rate moves and the businesses it has exited, so the +7.2% revenue and +109% EBITDA growth figures are like-for-like comparisons. The EBITDA jump is flattered by the base: H1 2025 EBITDA of £24.0m included a contribution from Claremont Ingredients, sold in August 2025; excluding it the prior-year figure was £20.5m, so the underlying doubling is genuine but the headline percentage rests on a low, adjusted comparative.\n\nThe swing from a £76.3m profit last year to a £43.7m loss this year looks alarming but is a comparison artefact: the prior period booked a one-off £142.4m net gain on the demerger of THG Ingenuity, which does not recur. On an operating basis the business actually improved, with the statutory operating loss narrowing from £30.0m to £10.6m.\n\nNet debt of £329.7m is inflated by one-off demerger payments; stripping those out gives £262.8m, below the £311.6m a year earlier. H1 is seasonally cash-consuming for THG, and this year also carried extra working-capital investment in Nutrition to cover higher whey raw-material costs, which management expects to unwind over H2 2026 and H1 2027.\n\nOn guidance, nothing was formally raised despite the H1 beats: full-year revenue, EBITDA and free cash flow are all reaffirmed in line with consensus, with a £25m–£35m positive free cash flow target for FY 2026. The near-term caution is concentrated in Q3, where revenue growth is guided to just c.2% because of newly applied EU duty on THG Beauty from 1 July, the European heatwave and some own-brand revenue shifting into Q4 and FY 2027 — factors management characterises as one-off, with Q4 expected to rebound to 6%–7%.",
+    "source_url": "https://uk.advfn.com/stock-market/london/thg-THG/share-news/THG-PLC-Interim-results-for-half-year-ended-30-Jun/99279979",
+    "related_news_url": "https://news.google.com/search?q=%22THG%20PLC%22",
+    "added_at": "2026-09-10T07:21:02.608081"
+  },
+  {
     "company": "Gore Street Energy Storage Fund PLC",
     "ticker": "GSF",
     "publish_date": "10 September 2026",
