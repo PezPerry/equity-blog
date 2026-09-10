@@ -1,5 +1,31 @@
 [
   {
+    "company": "GSK plc",
+    "ticker": "GSK",
+    "publish_date": "10 September 2026",
+    "date_iso": "2026-09-10",
+    "time_period": "",
+    "announcement_type": "Regulatory approval",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Japan's Ministry of Health, Labour and Welfare</strong> has approved a prefilled syringe presentation of <strong>GSK's Shingrix</strong> (Recombinant Zoster Vaccine) for the prevention of shingles.</li><li>The ready-to-use syringe replaces the previous two-vial format that required manual reconstitution; <strong>no change</strong> in indication or dosing.</li><li><strong>Shingrix</strong> has been approved in Japan since <strong>2018</strong> (adults 50+) and <strong>2023</strong> (at-risk adults 18+); around <strong>1.1 million</strong> people in Japan develop shingles each year.</li><li>The prefilled syringe launched in the <strong>US in February 2026</strong> and is rolling out across <strong>Europe</strong> this year; approval based on technical comparability data.</li><li>Routine product line-extension with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Japan's health ministry has approved a ready-to-use prefilled syringe presentation of GSK's existing shingles vaccine Shingrix.",
+    "priority": "low",
+    "priority_reason": "Line-extension approval of a more convenient syringe presentation for an existing vaccine, with no change to indication, dosing or financial guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/gsk-GSK/share-news/GSK-PLC-Japan-approval-of-Shingrix-in-a-prefilled/99280066",
+    "related_news_url": "https://news.google.com/search?q=%22GSK%20plc%22",
+    "added_at": "2026-09-10T07:23:50.561048"
+  },
+  {
     "company": "Great Portland Estates PLC",
     "ticker": "GPE",
     "publish_date": "10 September 2026",
