@@ -1,5 +1,130 @@
 [
   {
+    "company": "Smith & Nephew plc",
+    "ticker": null,
+    "publish_date": "10 September 2026",
+    "date_iso": "2026-09-10",
+    "time_period": "",
+    "announcement_type": "Financing / refinancing",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Smith & Nephew plc</strong> has priced <strong>USD 700,000,000 5.750% Notes due 2036</strong>, with net proceeds of <strong>USD 690,928,000</strong> after underwriting discounts.</li><li>Proceeds will fund the purchase of its outstanding <strong>2.032% Senior Notes due 2030</strong> in a tender offer, related fees, and general corporate purposes.</li><li>Offering is scheduled to close on <strong>11 September 2026</strong>, subject to customary conditions; bookrunners include <strong>BofA Securities</strong>, <strong>J.P. Morgan</strong>, <strong>Mizuho</strong> and <strong>SMBC Nikko</strong>.</li><li>Routine refinancing/debt-management exercise with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Smith+Nephew has priced **USD 700m** of **5.750% Notes due 2036**, mainly to fund a tender for its outstanding **2.032% Senior Notes due 2030**.",
+    "priority": "medium",
+    "priority_reason": "Debt refinancing via a new USD bond issue used to tender for existing 2030 notes; balance-sheet management with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/smith-and-nephew-SN./share-news/Smith-Nephew-Plc-Smith-Nephew-Prices-USD-Bond-Is/99279975",
+    "related_news_url": "https://news.google.com/search?q=%22Smith%20%26%20Nephew%20plc%22",
+    "added_at": "2026-09-10T07:22:22.369141"
+  },
+  {
+    "company": "Glenveagh Properties PLC",
+    "ticker": "GLV",
+    "publish_date": "10 September 2026",
+    "date_iso": "2026-09-10",
+    "time_period": "H1 to 30 June 2026",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Glenveagh Properties plc</strong> upgraded 2026 completion guidance to <strong>more than 2,900 units</strong> (from <strong>2,750</strong>) and full-year EPS guidance to <strong>at least 21 cent</strong> (previously up to 21 cent).</li><li>Share buyback programme expanded to <strong>€100 million</strong> (from <strong>€50 million</strong>), reflecting confidence in H2 cash generation.</li><li>H1 revenue fell to <strong>€239.7m</strong> (H1 2025: <strong>€341.6m</strong>) on H2-weighted Homebuilding phasing, with Partnerships revenue up <strong>43%</strong> to <strong>€175.8m</strong> partly offsetting.</li><li>Closed and forward order book up <strong>29%</strong> year-on-year to approximately <strong>€1.8bn</strong>; all units expected to close in 2026 are sold, contracted or reserved.</li><li>Net debt of <strong>€422.7m</strong> at 30 June 2026 (H1 2025: <strong>€229.9m</strong>), guided to reduce to approximately <strong>€120m</strong> by year-end as WIP converts to cash.</li><li>Completed debt refinancing lifting total committed funding to <strong>€550m</strong> via a new <strong>€450m</strong> RCF and <strong>€100m</strong> private placement notes.</li></ul>",
+    "source_format": "html",
+    "headline": "Glenveagh upgrades 2026 home completions to more than 2,900 units and EPS guidance to at least 21 cent, and doubles its buyback to €100m.",
+    "priority": "high",
+    "priority_reason": "Interim results with upgraded delivery and EPS guidance plus a doubled share buyback.",
+    "figures": [
+      {
+        "metric": "Group revenue",
+        "current": "€239.7m",
+        "prior": "€341.6m",
+        "change": "-29.8%",
+        "basis": "reported",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Homebuilding revenue",
+        "current": "€63.9m",
+        "prior": "€218.4m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Partnerships revenue",
+        "current": "€175.8m",
+        "prior": "€123.2m",
+        "change": "+43%",
+        "basis": "reported",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Partnerships gross profit",
+        "current": "€23.2m",
+        "prior": "not stated",
+        "change": "+16%",
+        "basis": "reported",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Homebuilding gross margin",
+        "current": "21.9%",
+        "prior": "21.4%",
+        "change": "+0.5pp",
+        "basis": "reported",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Closed and forward order book",
+        "current": "approximately €1.8bn",
+        "prior": "approximately €1.4bn",
+        "change": "+29%",
+        "basis": "as at 9 September 2026",
+        "note": "prior year as at 24 September 2025"
+      },
+      {
+        "metric": "Net debt",
+        "current": "€422.7m",
+        "prior": "€229.9m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "at 30 June 2026; guided to ~€120m by year-end"
+      },
+      {
+        "metric": "Work in progress",
+        "current": "€504.7m",
+        "prior": "€346.8m",
+        "change": "+46%",
+        "basis": "reported",
+        "note": "at 30 June 2026"
+      },
+      {
+        "metric": "Homebuilding ASP",
+        "current": "approximately €402,000",
+        "prior": "€377,000",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "expected ~€380,000 for full-year 2026"
+      }
+    ],
+    "guidance": {
+      "status": "raised",
+      "previous": "2026 total completions of 2,750 units (1,600 Homebuilding, 1,150 Partnerships); full-year EPS of up to 21 cent; buyback €50m; land sale revenue ~€45m",
+      "current": "2026 total completions of more than 2,900 units (in excess of 1,700 Homebuilding, ~1,200 Partnerships); full-year EPS of at least 21 cent; buyback €100m; land sale revenue revised to ~€20m; net debt ~€120m by year-end",
+      "commentary": "Delivery and EPS guidance both upgraded on strong sales momentum and a fully underwritten H2-weighted delivery profile, with higher completions and Partnerships income offset by lower land sales and higher interest costs. The buyback was doubled to €100m and land sale guidance cut to ~€20m for 2026."
+    },
+    "explainer": "These are half-year results and the headline drop in group revenue — from €341.6m to €239.7m — looks worse than the underlying business. Glenveagh's Homebuilding completions are heavily weighted to the second half this year: only €63.9m of Homebuilding revenue was recognised in H1 versus €218.4m a year earlier, simply because closings fall later in 2026. The Partnerships arm, which builds mainly for the State, grew revenue 43% to €175.8m and cushioned the swing.\n\nThe more forward-looking numbers are stronger. The order book (units sold, contracted or reserved plus Partnerships work) is up 29% to about €1.8bn, and management says every unit due to close in 2026 is already spoken for. Work in progress rose 46% to €504.7m, which is money tied up in part-built homes that should convert to cash as those homes complete in H2.\n\nThat is why net debt looks high at €422.7m (up from €229.9m): the group has spent ahead on construction and expects a big cash inflow in the second half, guiding net debt down to roughly €120m by year-end. Note figures are in euro, as Glenveagh reports in euro and is Irish-based.\n\nOn guidance, the company raised both volume and earnings: 2026 completions go from 2,750 to more than 2,900 equivalent homes, and EPS from 'up to 21 cent' to 'at least 21 cent'. Land sale income was trimmed to about €20m (from €45m) and interest costs are higher, but higher completions more than offset this. The Board signalled confidence by doubling the share buyback to €100m.",
+    "source_url": "https://uk.advfn.com/stock-market/london/glenveagh-properties-GLV/share-news/Glenveagh-Properties-plc-Interim-Results-2026/99279968",
+    "related_news_url": "https://news.google.com/search?q=%22Glenveagh%20Properties%20plc%22",
+    "added_at": "2026-09-10T07:22:22.337174"
+  },
+  {
     "company": "METLEN Energy & Metals plc",
     "ticker": "MTLN",
     "publish_date": "10 September 2026",
