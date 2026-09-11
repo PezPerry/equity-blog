@@ -1,5 +1,31 @@
 [
   {
+    "company": "AJ Bell PLC",
+    "ticker": "AJB",
+    "publish_date": "11 September 2026",
+    "date_iso": "2026-09-11",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>AJ Bell plc</strong> has applied to the London Stock Exchange to admit <strong>1,330,008</strong> new ordinary shares to the Main Market, issued on the exercise of options under a subscription option agreement.</li><li>Admission is expected to become effective on <strong>16 September 2026</strong>; total issued share capital will then be <strong>394,504,766</strong> ordinary shares, each carrying one vote.</li><li>Routine share-capital housekeeping with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "AJ Bell applies to admit 1,330,008 new ordinary shares issued on the exercise of subscription options, effective 16 September 2026.",
+    "priority": "low",
+    "priority_reason": "Routine admission of a small tranche of new shares from option exercises, with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/aj-bell--ajb/application-for-admission-of-shares/9768329",
+    "related_news_url": "https://news.google.com/search?q=%22AJ%20Bell%22",
+    "added_at": "2026-09-11T12:35:39.029885"
+  },
+  {
     "company": "HSBC Holdings PLC",
     "ticker": "HSBA",
     "publish_date": "11 September 2026",
