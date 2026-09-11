@@ -1,5 +1,31 @@
 [
   {
+    "company": "Custodian Property Income Reit",
+    "ticker": "CREI",
+    "publish_date": "11 September 2026",
+    "date_iso": "2026-09-11",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li>Purchased <strong>250,000</strong> ordinary shares yesterday for <strong>£205,000</strong> (plus costs) at <strong>82.0 pence</strong> per share.</li><li>Price represents a <strong>16.8% discount</strong> to dividend-adjusted net asset value; shares held in treasury.</li><li>Executed under the non-discretionary buyback <strong>Programme</strong> announced <strong>17 July 2025</strong> and extended <strong>11 June 2026</strong>, run by <strong>Deutsche Bank AG</strong>.</li><li>Company now holds <strong>6,545,732</strong> shares in treasury and has <strong>488,567,079</strong> ordinary shares in issue.</li><li>Routine daily buyback transaction with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Custodian Property Income REIT bought back 250,000 shares for £205,000 at 82.0p, a 16.8% discount to NAV, under its existing programme.",
+    "priority": "low",
+    "priority_reason": "Routine daily share buyback transaction under an existing programme, with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/eqs/custodian-property-income-reit--crei/custodian-property-income-reit-plc-share-buy-/9768454",
+    "related_news_url": "https://news.google.com/search?q=%22Custodian%20Property%20Income%20Reit%22",
+    "added_at": "2026-09-11T13:35:35.890383"
+  },
+  {
     "company": "AJ Bell PLC",
     "ticker": "AJB",
     "publish_date": "11 September 2026",
