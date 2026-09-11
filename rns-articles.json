@@ -1,5 +1,57 @@
 [
   {
+    "company": "RTW Biotech Opportunities Ltd",
+    "ticker": "RTW",
+    "publish_date": "11 September 2026",
+    "date_iso": "2026-09-11",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li>RTW Bio invested a further <strong>$4.1 million</strong> in the <strong>$275 million</strong> Series F financing of private portfolio company <strong>Encoded Therapeutics</strong>.</li><li>Encoded represented just <strong>0.1% of NAV</strong> as at <strong>31 July 2026</strong>; RTW first invested in its Series D in <strong>June 2020</strong>.</li><li>Proceeds fund pivotal and expansion studies of lead gene therapy <strong>ETX101</strong> for <strong>Dravet syndrome</strong>, plus manufacturing scale-up and broader neurology pipeline.</li><li>Routine portfolio-note disclosure with <strong>no impact</strong> on trading or guidance given the immaterial position size.</li></ul>",
+    "source_format": "html",
+    "headline": "RTW Biotech invested a further **$4.1m** in portfolio company **Encoded Therapeutics** as part of its **$275m** Series F financing.",
+    "priority": "low",
+    "priority_reason": "Small follow-on portfolio investment representing just 0.1% of NAV, with no impact on the fund's outlook.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/rtw-biotech-opportunities-RTW/share-news/RTW-Biotech-Opportunities-Ltd-Additional-investmen/99289466",
+    "related_news_url": "https://news.google.com/search?q=%22RTW%20Biotech%20Opportunities%20Ltd%22",
+    "added_at": "2026-09-11T07:35:46.130161"
+  },
+  {
+    "company": "Harbour Energy PLC",
+    "ticker": "HBR",
+    "publish_date": "11 September 2026",
+    "date_iso": "2026-09-11",
+    "time_period": "",
+    "announcement_type": "Buyback / off-market purchase",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Harbour Energy</strong> has agreed an off-market purchase of <strong>53 million</strong> ordinary shares from <strong>BASF</strong> at <strong>£2.66</strong> per share, total consideration approximately <strong>$190 million</strong>.</li><li>Purchase runs alongside <strong>BASF's</strong> institutional share offering, the results of which BASF announced today; the bought shares will be <strong>cancelled</strong>.</li><li>Approximately <strong>$40m</strong> of the purchase will be deducted from the ongoing <strong>$250 million</strong> buyback announced on <strong>6 August 2026</strong>.</li><li><strong>BASF's</strong> interest in Harbour Energy is expected to fall from approximately <strong>24.3%</strong> to <strong>16.4%</strong> on completion.</li><li>Deal follows the <strong>10 September 2026</strong> announcement and the share purchase deed approved by shareholders at the AGM on <strong>7 May 2026</strong>; a further announcement will follow on completion.</li></ul>",
+    "source_format": "html",
+    "headline": "Harbour Energy to buy 53 million shares off-market from BASF at £2.66 each for about $190 million, cutting BASF's stake to 16.4%.",
+    "priority": "medium",
+    "priority_reason": "Sizeable off-market share purchase that materially cuts BASF's stake and partly draws on the existing buyback programme.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/harbour-energy--hbr/update-on-off-market-purchase-alongside-basf-offer/9767540",
+    "related_news_url": "https://news.google.com/search?q=%22Harbour%20Energy%22",
+    "added_at": "2026-09-11T07:35:46.075906"
+  },
+  {
     "company": "Trainline PLC",
     "ticker": "TRN",
     "publish_date": "11 September 2026",
