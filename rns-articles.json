@@ -1,5 +1,64 @@
 [
   {
+    "company": "Berkeley Group Holdings PLC",
+    "ticker": "BKG",
+    "publish_date": "11 September 2026",
+    "date_iso": "2026-09-11",
+    "time_period": "1 May 2026 to 31 August 2026 (first four months of FY27)",
+    "announcement_type": "Trading update",
+    "period_detail": "1 May 2026 to 31 August 2026 (first four months of FY27)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Berkeley</strong> continues to operate within its four-year <strong>£1.4 billion</strong> pre-tax profit plan, with profits <strong>slightly weighted to H1</strong> of the current year subject to completion timing.</li><li>Sentiment and core economic indicators have <strong>further deteriorated</strong>; cautious customers without an immediate need to move remain reluctant to commit, a position similar to June's full-year results.</li><li>Some buyers may <strong>defer transactions until after the Budget</strong> at the end of October and once election uncertainty dissipates.</li><li>Returned <strong>£60 million</strong> to shareholders in the first four months via buyback of <strong>1.7 million shares</strong> at an average <strong>£34.18</strong>; <strong>£171 million</strong> bought back to date against the <strong>£640 million</strong> 2035 return target — ahead of run rate.</li><li>Expects <strong>net cash of around £250 million</strong> at the half year; improved net cashflow anticipated from end-FY27 as new-phase and land investment is curtailed.</li><li>Called for <strong>SDLT reform</strong> — capping SDLT at 1% for first-time buyers and downsizers and removing the 5% investor surcharge — to support the new-build sector.</li></ul>",
+    "source_format": "html",
+    "headline": "Berkeley reiterates its four-year £1.4bn pre-tax profit plan but warns weaker market sentiment may push some buyers to defer purchases until after the October Budget.",
+    "priority": "high",
+    "priority_reason": "AGM trading update from a FTSE 100 housebuilder flagging weaker sentiment, H1 profit weighting and net cash guidance.",
+    "figures": [
+      {
+        "metric": "Four-year pre-tax profit plan",
+        "current": "£1.4bn",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "Broadly even profile over four years; H1 slightly weighted this year"
+      },
+      {
+        "metric": "Shareholder returns (first 4 months)",
+        "current": "£60m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "1.7m shares at avg £34.18",
+        "note": "Period 1 May to 31 Aug 2026"
+      },
+      {
+        "metric": "Buybacks to date vs 2035 target",
+        "current": "£171m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "Against £640m target from Oct 2025 to 30 Sep 2030; ahead of run rate"
+      },
+      {
+        "metric": "Net cash",
+        "current": "~£250m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "Expected at half year"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Four-year £1.4 billion pre-tax profit plan, with a broadly even profile",
+      "current": "Continues to operate within the four-year £1.4 billion pre-tax profit plan; pre-tax profits anticipated to be slightly weighted towards the first half of the current financial year, subject to timing of completions",
+      "commentary": "The headline four-year £1.4bn profit target is unchanged, but Berkeley now expects a first-half weighting this year and flags that Budget and election uncertainty could push some buyers to defer, adding risk to the timing of completions."
+    },
+    "explainer": "This is an AGM trading update covering the first four months of Berkeley's financial year (1 May to 31 August 2026). Rather than upgrading or downgrading its numbers, Berkeley reaffirms the four-year £1.4 billion pre-tax profit plan it set out on 1 April, when it announced cutting production by around 25% to prioritise cash generation over short-term profit in response to the deteriorating outlook tied to the Middle East conflict.\n\nThe key nuance for traders is timing rather than the total. Berkeley says profits should be broadly even across the four years but slightly front-loaded into the first half of this year, and cautions that continued market volatility plus the end-October Budget and possible election uncertainty may lead some buyers to defer, which affects when completions — and therefore profit recognition — land.\n\nOn the balance sheet, net cash of around £250 million is expected at the half year, reflecting £60 million of buybacks in the period (1.7 million shares at £34.18) alongside investment in the core business and its Build to Rent platform. Cumulative buybacks of £171 million put it ahead of the required run rate towards the £640 million 2035 return target, and management expects cashflow to improve from the end of FY27 as reduced land investment feeds through.\n\nThe bulk of the statement is a policy pitch for stamp duty reform and support for the Government's London planning reforms; these are lobbying points rather than changes to Berkeley's own financial position.",
+    "source_url": "https://uk.advfn.com/stock-market/london/berkeley-BKG/share-news/Berkeley-Group-Holdings-The-PLC-Trading-Statement/99289414",
+    "related_news_url": "https://news.google.com/search?q=%22The%20Berkeley%20Group%20Holdings%20plc%22",
+    "added_at": "2026-09-11T07:17:40.958606"
+  },
+  {
     "company": "Pan African Resources PLC",
     "ticker": "PAF",
     "publish_date": "11 September 2026",
