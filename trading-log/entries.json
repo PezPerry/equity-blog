@@ -2,6 +2,22 @@
   "_comment": "Trading Log registry. Newest first. Rebuild the index and the front-page teaser with: python build-trading-log.py. Register a new entry page (root HTML tagged tile-variant=trading-log) with: python build-trading-log.py --add <file.html>. 'url' is the branded address the row links to; 'source' is the Pages copy (null for entries stored only in Base44). 'time' is the UK time the note went live.",
   "entries": [
     {
+      "slug": "berkeley-cash-takes-priority-as-buyers-hesitate",
+      "date": "2026-09-11",
+      "time": "08:45",
+      "tag": "Comment",
+      "tickers": [
+        "BKG"
+      ],
+      "companies": "The Berkeley Group Holdings plc",
+      "title": "Berkeley: Cash Takes Priority as Buyers Hesitate",
+      "why": "Buyers remain cautious. Berkeley reiterates April’s around-25% production reduction while maintaining its £1.4bn four-year pre-tax profit plan.",
+      "url": "https://equityandmarketsinsight.com/blog/berkeley-cash-takes-priority-as-buyers-hesitate",
+      "source": "berkeley-cash-takes-priority-as-buyers-hesitate.html",
+      "readMinutes": 3,
+      "related": null
+    },
+    {
       "slug": "crest-nicholson-worse-figures-same-asset-case",
       "date": "2026-09-03",
       "time": "08:37",
