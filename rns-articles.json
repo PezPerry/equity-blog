@@ -1,5 +1,96 @@
 [
   {
+    "company": "Trainline PLC",
+    "ticker": "TRN",
+    "publish_date": "11 September 2026",
+    "date_iso": "2026-09-11",
+    "time_period": "H1 FY2027 (1 March 2026 to 31 August 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "H1 FY2027 (1 March 2026 to 31 August 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Trainline plc</strong> delivered a <strong>robust H1 FY2027</strong> (six months to <strong>31 August 2026</strong>), reconfirming full-year guidance and announcing a <strong>new £100 million share buyback</strong> running over the subsequent 12 months.</li><li><strong>Group net ticket sales flat</strong> year-on-year at <strong>£3.3 billion</strong>; Group Underlying Revenue <strong>£233 million</strong>, down <strong>1%</strong> YoY (constant currency).</li><li><strong>UK Consumer net ticket sales flat at £2.1bn</strong>; UK Consumer Underlying Revenue <strong>£102m, down 5%</strong>, mainly reflecting the April 2026 industry refund-policy change lowering refund fee revenue. Digital railcard users up <strong>26%</strong> to over <strong>three million</strong>.</li><li><strong>International Consumer net ticket sales down 4% to £579m</strong> on one-off factors (Spain rail accidents, Middle East geopolitics, strikes/heat); Underlying Revenue up <strong>1% to £34m</strong>. <strong>Trainline Solutions</strong> net ticket sales up <strong>3% to £548m</strong>, International B2B up <strong>45%</strong>.</li><li>FY2027 guidance <strong>reconfirmed</strong>: Group net ticket sales <strong>£6.2bn–£6.45bn</strong>, Group Underlying Revenue <strong>£440m–£455m</strong>, Adjusted EBITDA c.<strong>2.9%</strong> of net ticket sales, with International Consumer expected to break even.</li><li>Note: on <strong>19 August</strong> the <strong>CMA</strong> opened an investigation into presentation of certain UK fees in the booking flow; early stage, financial impact not yet quantifiable. H1 results due <strong>4 November 2026</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Trainline reports robust H1 FY2027, reconfirms full-year guidance and launches new £100 million share buyback programme.",
+    "priority": "high",
+    "priority_reason": "First-half trading update with reconfirmed FY2027 guidance and a new £100m buyback — market-moving news.",
+    "figures": [
+      {
+        "metric": "Group net ticket sales",
+        "current": "£3.3bn",
+        "prior": "not stated",
+        "change": "flat",
+        "basis": "constant currency",
+        "note": "H1 FY2027"
+      },
+      {
+        "metric": "Group Underlying Revenue",
+        "current": "£233m",
+        "prior": "not stated",
+        "change": "-1%",
+        "basis": "constant currency",
+        "note": "H1 FY2027"
+      },
+      {
+        "metric": "UK Consumer net ticket sales",
+        "current": "£2.1bn",
+        "prior": "not stated",
+        "change": "flat",
+        "basis": "constant currency",
+        "note": "H1 FY2027"
+      },
+      {
+        "metric": "UK Consumer Underlying Revenue",
+        "current": "£102m",
+        "prior": "not stated",
+        "change": "-5%",
+        "basis": "constant currency",
+        "note": "H1 FY2027"
+      },
+      {
+        "metric": "International Consumer net ticket sales",
+        "current": "£579m",
+        "prior": "not stated",
+        "change": "-4%",
+        "basis": "constant currency",
+        "note": "H1 FY2027"
+      },
+      {
+        "metric": "International Consumer Underlying Revenue",
+        "current": "£34m",
+        "prior": "not stated",
+        "change": "+1%",
+        "basis": "constant currency",
+        "note": "H1 FY2027"
+      },
+      {
+        "metric": "Trainline Solutions net ticket sales",
+        "current": "£548m",
+        "prior": "not stated",
+        "change": "+3%",
+        "basis": "constant currency",
+        "note": "H1 FY2027"
+      },
+      {
+        "metric": "Trainline Solutions Underlying Revenue",
+        "current": "£97m",
+        "prior": "not stated",
+        "change": "+3%",
+        "basis": "constant currency",
+        "note": "H1 FY2027"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "FY2027: Group net ticket sales £6.2bn–£6.45bn, Group Underlying Revenue £440m–£455m, Adjusted EBITDA c.2.9% of net ticket sales, International Consumer to break even",
+      "current": "FY2027 reconfirmed: Group net ticket sales £6.2bn–£6.45bn, Group Underlying Revenue £440m–£455m, Adjusted EBITDA c.2.9% of net ticket sales, International Consumer to break even",
+      "commentary": "Full-year guidance was reconfirmed unchanged. H1 Group Adjusted EBITDA as a percentage of net ticket sales is expected to be slightly ahead of the c.2.9% full-year figure, reflecting the normal seasonal profile."
+    },
+    "explainer": "This is a first-half trading update, not full results — those follow on 4 November 2026. The figures are 'underlying' revenue, which strips out any potential non-recurring adjustments that might arise from the CMA fees investigation, and growth is quoted on a constant-currency basis (holding the euro/sterling exchange rate steady so underlying trends are not distorted by currency moves).\n\nGroup net ticket sales — the total value of tickets sold — were flat at £3.3bn, while revenue (Trainline's cut) edged down 1%. The UK revenue decline of 5% is largely mechanical: an industry-wide refund policy change in April 2026 means fewer refund transactions and therefore less refund fee income, rather than a fall in demand. International softness reflected one-off shocks (Spanish rail accidents, Middle East tensions, strikes and heatwaves) plus deliberately reduced marketing spend.\n\nOn guidance, nothing changed — the company simply reconfirmed its existing FY2027 targets. Management flagged confidence via the new £100m buyback, which follows £350m of shares (about 28% of the original share count) repurchased since 2023.\n\nThe key watch item is the CMA investigation opened on 19 August into how Trainline presents certain UK fees during booking. It is early-stage and the financial impact cannot yet be quantified, which is why underlying revenue is defined to exclude any resulting adjustments.",
+    "source_url": "https://uk.advfn.com/stock-market/london/trainline-TRN/share-news/Trainline-PLC-TRADING-STATEMENT-AND-NOTICE-OF-HALF/99289449",
+    "related_news_url": "https://news.google.com/search?q=%22Trainline%20plc%22",
+    "added_at": "2026-09-11T07:18:29.531771"
+  },
+  {
     "company": "Supermarket Income Reit PLC",
     "ticker": "SUPR",
     "publish_date": "11 September 2026",
