@@ -1,5 +1,57 @@
 [
   {
+    "company": "Meta Platforms Inc",
+    "ticker": "META",
+    "publish_date": "10 September 2026",
+    "date_iso": "2026-09-10",
+    "time_period": "",
+    "announcement_type": "Dividend declaration",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li>Meta's board declared a quarterly cash dividend of <strong>$0.525 per share</strong> on both <strong>Class A</strong> and <strong>Class B</strong> common stock.</li><li>Payable on <strong>28 September 2026</strong> to stockholders of record as of the close of business on <strong>21 September 2026</strong>.</li><li>Routine dividend declaration; <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Meta declares a quarterly cash dividend of **$0.525 per share** on Class A and Class B common stock, payable **28 September 2026**.",
+    "priority": "medium",
+    "priority_reason": "Routine quarterly dividend declaration with no change to the rate stated.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/META/share-news/Meta-Announces-Quarterly-Cash-Dividend/99289038",
+    "related_news_url": "https://news.google.com/search?q=%22Meta%20Platforms%2C%20Inc.%22",
+    "added_at": "2026-09-11T07:16:36.196162"
+  },
+  {
+    "company": "Adobe Inc",
+    "ticker": "ADBE",
+    "publish_date": "10 September 2026",
+    "date_iso": "2026-09-10",
+    "time_period": "Q3 FY2026 ended 28 August 2026",
+    "announcement_type": "Quarterly results",
+    "period_detail": "Q3 FY2026 ended 28 August 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Adobe</strong> reported <strong>record Q3 FY2026</strong> results for the quarter ended <strong>28 August 2026</strong>, citing <strong>double-digit revenue and EPS growth</strong> — though specific figures are not printed in the scraped text (highlights tables did not populate).</li><li><strong>Full-year FY2026 revenue and EPS targets raised</strong>, per interim CFO <strong>Steve Day</strong>; Q4 FY2026 targets assume non-GAAP operating margin of <strong>~44.0%</strong> and diluted share count of <strong>~389 million</strong>.</li><li>Passed a landmark of <strong>more than one billion monthly active users</strong>, driven by a <strong>freemium strategy</strong> and AI/agentic experiences.</li><li>CEO <strong>Shantanu Narayen</strong> referenced incoming leadership (\"<strong>Anil</strong>\"), signalling a management transition alongside the interim CFO role.</li><li>Note: the scraped page omits the actual dollar figures for revenue, EPS, profit and segment revenue — headline metrics are described qualitatively only.</li></ul>",
+    "source_format": "html",
+    "headline": "Adobe reports record Q3 FY2026 with double-digit revenue and EPS growth, and raises full-year revenue and EPS targets.",
+    "priority": "high",
+    "priority_reason": "Quarterly results with raised full-year revenue and EPS guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "raised",
+      "previous": "Prior FY2026 revenue and EPS targets (specific figures not stated in the scraped text)",
+      "current": "Updated FY2026 targets assume non-GAAP operating margin of ~45.0%, GAAP tax rate ~22.5%, non-GAAP tax rate ~18.0% and diluted share count of ~400 million (revenue and EPS target figures not stated in the scraped text)",
+      "commentary": "Adobe raised its full-year FY2026 revenue and EPS targets on the back of double-digit Q3 growth, AI momentum and a freemium-driven expansion of its user base. The precise raised dollar figures are not included in the scraped article."
+    },
+    "explainer": "Adobe reported its fiscal third quarter (the three months to 28 August 2026) and describes the period as a record, with revenue and earnings per share both growing at double-digit percentage rates. The company crossed one billion monthly active users, which it attributes to a 'freemium' model — offering free entry-level tools to draw users in before converting some to paid subscriptions.\n\nThe key market signal is that Adobe raised its full-year FY2026 targets for both revenue and earnings per share. A guidance raise mid-year usually indicates management is more confident than it was at the start of the year, here driven by AI product uptake.\n\nAdobe reports on both a GAAP (standard accounting) and non-GAAP basis; the non-GAAP figures strip out items such as stock-based compensation and intangible amortisation, and are the numbers management uses to frame its margin and tax-rate assumptions (Q4 non-GAAP operating margin ~44.0%, full-year ~45.0%).\n\nImportant caveat: the scraped page did not include the actual dollar amounts for revenue, profit, EPS or the two customer-group segments — the financial highlights tables came through empty. The narrative direction (record quarter, guidance raised) is clear, but the specific figures and comparatives should be confirmed from Adobe's investor relations materials before use.",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/ADBE/share-news/Adobe-Reports-Record-Q3-Results/99287677",
+    "related_news_url": "https://news.google.com/search?q=%22Adobe%20Inc.%22",
+    "added_at": "2026-09-11T07:16:36.181500"
+  },
+  {
     "company": "Compass Group PLC",
     "ticker": "CPG",
     "publish_date": "10 September 2026",

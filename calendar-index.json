@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-10",
+  "generated": "2026-09-11",
   "by_ticker": {
     "AAL": {
       "date": "2026-09-29",
@@ -12,10 +12,6 @@
     "ABDN": {
       "date": "2026-09-22",
       "event": "Special div payment"
-    },
-    "ABF": {
-      "date": "2026-09-10",
-      "event": "Trading statement"
     },
     "ADM": {
       "date": "2026-10-02",
@@ -50,8 +46,8 @@
       "event": "Q2 div payment"
     },
     "BGEO": {
-      "date": "2026-09-10",
-      "event": "Q2 ex-div"
+      "date": "2026-09-25",
+      "event": "Q2 div payment"
     },
     "BKG": {
       "date": "2026-09-11",
@@ -98,8 +94,8 @@
       "event": "Q2 div payment"
     },
     "CURY": {
-      "date": "2026-09-10",
-      "event": "AGM (Conf)"
+      "date": "2026-09-25",
+      "event": "Special div payment"
     },
     "DGE": {
       "date": "2026-10-15",
@@ -142,8 +138,8 @@
       "event": "Q2 div payment"
     },
     "GRG": {
-      "date": "2026-09-10",
-      "event": "Q2 ex-div"
+      "date": "2026-10-09",
+      "event": "Q2 div payment"
     },
     "GRI": {
       "date": "2026-09-30",
@@ -154,8 +150,8 @@
       "event": "Q2 div payment"
     },
     "HFD": {
-      "date": "2026-09-10",
-      "event": "AGM (Conf)"
+      "date": "2026-09-15",
+      "event": "Q4 div payment"
     },
     "HMSO": {
       "date": "2026-10-15",
@@ -198,8 +194,8 @@
       "event": "Q4 div payment"
     },
     "IWG": {
-      "date": "2026-09-10",
-      "event": "Q2 ex-div"
+      "date": "2026-10-09",
+      "event": "Q2 div payment"
     },
     "JDW": {
       "date": "2026-10-03",
@@ -241,13 +237,9 @@
       "date": "2026-09-25",
       "event": "Q2 div payment"
     },
-    "MSFT": {
-      "date": "2026-09-10",
-      "event": "Q4 div payment"
-    },
     "NVDA": {
-      "date": "2026-09-10",
-      "event": "Special ex-div"
+      "date": "2026-10-01",
+      "event": "Special div payment"
     },
     "NWG": {
       "date": "2026-09-18",
@@ -257,20 +249,12 @@
       "date": "2026-09-18",
       "event": "Q2 div payment"
     },
-    "PAF": {
-      "date": "2026-09-10",
-      "event": "Annual report (Est)"
-    },
     "PAG": {
       "date": "2026-09-30",
       "event": "Year end"
     },
     "PPH": {
       "date": "2026-09-17",
-      "event": "Q2 ex-div"
-    },
-    "PRU": {
-      "date": "2026-09-10",
       "event": "Q2 ex-div"
     },
     "PSN": {
