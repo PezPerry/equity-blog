@@ -1,5 +1,57 @@
 [
   {
+    "company": "HSBC Holdings PLC",
+    "ticker": "HSBA",
+    "publish_date": "14 September 2026",
+    "date_iso": "2026-09-14",
+    "time_period": "FY to 31 December 2026",
+    "announcement_type": "Dividend declaration",
+    "period_detail": "FY to 31 December 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>HSBC Holdings plc</strong> set the exchange rates for its <strong>second interim dividend for 2026</strong> of <strong>US$0.10</strong> per ordinary share, approved on <strong>4 August 2026</strong>.</li><li>Cash alternatives fixed at approximately <strong>HK$0.784088</strong> or <strong>£0.074134</strong> per ordinary share, converted at <strong>US$1 = HK$7.840879</strong> and <strong>£1 = US$1.348905</strong>.</li><li>Payable on <strong>25 September 2026</strong> to holders of record on <strong>14 August 2026</strong>; ADS holders (five shares each) receive <strong>US$0.50 per ADS</strong>.</li><li>Routine exchange-rate disclosure with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "HSBC confirms sterling and Hong Kong dollar conversion rates for its US$0.10 second interim dividend for 2026, payable 25 September 2026.",
+    "priority": "low",
+    "priority_reason": "Routine currency-conversion notice for an already-approved second interim dividend, with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/hsbc-holdings--hsba/second-interim-dividend-for-2026-exchange-rate/9770891",
+    "related_news_url": "https://news.google.com/search?q=%22HSBC%20Holdings%22",
+    "added_at": "2026-09-14T16:32:54.538839"
+  },
+  {
+    "company": "Anglo American PLC",
+    "ticker": "AAL",
+    "publish_date": "14 September 2026",
+    "date_iso": "2026-09-14",
+    "time_period": "",
+    "announcement_type": "Dividend declaration",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Interim dividend</strong> of <strong>23 US cents</strong> per share (Dividend No 49), first announced <strong>30 July 2026</strong>, converts to <strong>16.987 pence</strong> and <strong>19.775 Euro cents</strong> per share.</li><li>Conversion based on rates of <strong>US$1:£0.7386</strong> and <strong>US$1:€0.8598</strong>, from forward contracts over the three working days before this announcement.</li><li>Payment date is <strong>Tuesday, 29 September 2026</strong>; routine rate-setting disclosure with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Anglo American confirms Sterling and Euro conversion rates for its previously announced **23 US cents** interim dividend, payable **29 September 2026**.",
+    "priority": "low",
+    "priority_reason": "Routine currency-conversion rates for a previously announced interim dividend, not a new declaration.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/anglo-american--aal/dividend-declaration-sterling-and-euro-rates/9770991",
+    "related_news_url": "https://news.google.com/search?q=%22Anglo%20American%22",
+    "added_at": "2026-09-14T16:32:54.528665"
+  },
+  {
     "company": "MJ Gleeson PLC",
     "ticker": "GLE",
     "publish_date": "14 September 2026",
