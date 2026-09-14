@@ -1,5 +1,57 @@
 [
   {
+    "company": "Intuitive Surgical Inc",
+    "ticker": "ISRG",
+    "publish_date": "14 September 2026",
+    "date_iso": "2026-09-14",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>Intuitive</strong> (NASDAQ:<strong>ISRG</strong>) has secured <strong>CE mark</strong> approval in Europe for <strong>transvaginal gynaecologic procedures</strong> on the <strong>da Vinci SP</strong> single-port system — described as a <strong>world-first</strong> indication for the platform.</li><li>Adds to SP's existing CE-marked European applications: endoscopic abdominopelvic, thoracoscopic, transoral otolaryngology, transanal colorectal and breast procedures.</li><li>Extends the SP's natural-orifice surgery portfolio alongside existing transoral and transanal procedures; SP is also approved in the <strong>US</strong>, <strong>Japan</strong> and <strong>Korea</strong>.</li><li>Routine product/regulatory milestone — <strong>no financial figures, guidance or trading impact</strong> stated in the announcement.</li></ul>",
+    "source_format": "html",
+    "headline": "Intuitive wins CE mark for transvaginal gynaecologic procedures on its da Vinci SP single-port surgical system, a world-first indication for the platform.",
+    "priority": "low",
+    "priority_reason": "Incremental regulatory approval expanding an existing product's indications, with no financial figures or guidance impact stated.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/ISRG/share-news/Intuitive-announces-expanded-indication-for-da-Vin/99297082",
+    "related_news_url": "https://news.google.com/search?q=%22Intuitive%20Surgical%2C%20Inc.%22",
+    "added_at": "2026-09-14T16:28:29.057362"
+  },
+  {
+    "company": "AstraZeneca PLC",
+    "ticker": "AZN",
+    "publish_date": "14 September 2026",
+    "date_iso": "2026-09-14",
+    "time_period": "",
+    "announcement_type": "Clinical trial results",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>AstraZeneca</strong> and <strong>Daiichi Sankyo's</strong> <strong>ENHERTU</strong> met the primary endpoint in the <strong>DESTINY-Lung04</strong> Phase III trial as 1st-line treatment of <strong>HER2-mutant</strong> advanced non-squamous non-small cell lung cancer.</li><li>Median progression-free survival was <strong>14.3 months</strong> with ENHERTU versus <strong>8.3 months</strong> for pembrolizumab plus chemotherapy — a <strong>six-month</strong> improvement and a <strong>37.0%</strong> reduction in risk of progression or death (<strong>HR 0.63</strong>; p<0.0001).</li><li>Objective response rate was <strong>70.0%</strong> versus <strong>44.5%</strong> for standard of care; median duration of response <strong>13.4 months</strong> versus <strong>9.7 months</strong>.</li><li>First HER2-directed therapy to beat the global 1st-line standard of care on PFS in a Phase III trial in this setting; results presented at <strong>WCLC 2026</strong> in Seoul.</li><li>Overall survival data were <strong>46.9%</strong> mature with no formal testing and no observed OS benefit, which the company attributes to imbalanced subsequent therapy between arms; ILD/pneumonitis occurred in <strong>20.8%</strong> of ENHERTU patients (four Grade 5 events).</li><li>Safety broadly consistent with the known profile; Grade 3+ treatment-related adverse events comparable at <strong>34.1%</strong> (ENHERTU) versus <strong>33.6%</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "AstraZeneca's ENHERTU hit its primary endpoint in the Phase III DESTINY-Lung04 trial, delivering median progression-free survival of 14.3 months versus 8.3 months for standard-of-care in 1st-line HER2-mutant NSCLC.",
+    "priority": "high",
+    "priority_reason": "Positive pivotal Phase III data extending a key oncology drug into a lucrative 1st-line lung cancer setting is material to AstraZeneca's growth outlook.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/astrazeneca-AZN/share-news/ENHERTU-fam-trastuzumab-deruxtecan-nxki-demonstra/99296787",
+    "related_news_url": "https://news.google.com/search?q=%22AstraZeneca%20PLC%22",
+    "added_at": "2026-09-14T16:28:29.016546"
+  },
+  {
     "company": "Standard Lithium Ltd.",
     "ticker": null,
     "publish_date": "14 September 2026",
