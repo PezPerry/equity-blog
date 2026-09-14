@@ -361,6 +361,32 @@
     "added_at": "2026-09-14T16:27:04.000322"
   },
   {
+    "company": "GSK PLC",
+    "ticker": "GSK",
+    "publish_date": "13 September 2026",
+    "date_iso": "2026-09-13",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>Risvutatug rezetecan (Ris-Rez)</strong> met the primary endpoint in <strong>Hansoh's ARTEMIS-008</strong> Phase III China trial, reducing risk of death by <strong>54%</strong> versus topotecan in relapsed small cell lung cancer (<strong>HR 0.46; 95% CI 0.35–0.62; p<0.0001</strong>).</li><li>Median overall survival was <strong>18.5 months</strong> for Ris-Rez (n=230) versus <strong>10.3 months</strong> for topotecan (n=231); first Phase III data showing an OS benefit for a <strong>B7-H3 ADC</strong> in any tumour type.</li><li>Secondary endpoints favoured Ris-Rez: median PFS <strong>7.2 vs 3.0 months</strong> (HR 0.33), objective response rate <strong>58.3% vs 12.6%</strong>, disease control rate <strong>90.4% vs 60.2%</strong>.</li><li>Better tolerated: grade 3+ treatment-related adverse events in <strong>60.9% vs 78.2%</strong> of patients, mainly manageable haematologic effects.</li><li><strong>GSK</strong> holds rights outside mainland China, Hong Kong, Macau and Taiwan; global programme includes the Phase III <strong>EMBOLD SCLC-301</strong> trial, with pivotal data expected next year.</li><li>Data presented at the <strong>2026 World Conference on Lung Cancer (WCLC)</strong> in Seoul; results first announced in July.</li></ul>",
+    "source_format": "html",
+    "headline": "GSK's B7-H3 ADC risvutatug rezetecan cut risk of death by 54% versus topotecan in relapsed small cell lung cancer in a pivotal China Phase III trial.",
+    "priority": "high",
+    "priority_reason": "Positive pivotal Phase III overall survival data for a key oncology asset is material clinical news for GSK's pipeline.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/gsk--gsk/ris-rez-positive-ph-3-os-lung-cancer-data-in-china/9769144",
+    "related_news_url": "https://news.google.com/search?q=%22GSK%20PLC%22",
+    "added_at": "2026-09-14T16:50:40.140629"
+  },
+  {
     "company": "AstraZeneca PLC",
     "ticker": "AZN",
     "publish_date": "13 September 2026",
