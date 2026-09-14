@@ -1,5 +1,31 @@
 [
   {
+    "company": "Standard Lithium Ltd.",
+    "ticker": null,
+    "publish_date": "14 September 2026",
+    "date_iso": "2026-09-14",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Karen Narwold</strong> has resigned from the board of <strong>Standard Lithium</strong>, reducing it to <strong>eight directors</strong>.</li><li>The company has begun a <strong>search for a new independent director</strong> and will announce an appointment once the process concludes.</li><li>Routine board change with <strong>no impact</strong> on trading, projects or guidance; flagship assets remain the <strong>South West Arkansas</strong> project (with <strong>Equinor</strong>) and the <strong>Franklin</strong> project in East Texas.</li></ul>",
+    "source_format": "html",
+    "headline": "Standard Lithium director Karen Narwold resigns, leaving an eight-member board while the company searches for a new independent director.",
+    "priority": "medium",
+    "priority_reason": "Board director resignation and search for a replacement — a management change with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/AMEX/SLI/share-news/Standard-Lithium-Announces-Change-to-Board-of-Dire/99295388",
+    "related_news_url": "https://news.google.com/search?q=%22Standard%20Lithium%20Ltd.%22",
+    "added_at": "2026-09-14T16:27:50.918418"
+  },
+  {
     "company": "Tribal Group PLC",
     "ticker": "TRB",
     "publish_date": "14 September 2026",
@@ -50,6 +76,32 @@
     "source_url": "https://uk.advfn.com/stock-market/london/lion-finance-BGEO/share-news/Lion-Finance-Group-PLC-Director-Declaration/99294181",
     "related_news_url": "https://news.google.com/search?q=%22Lion%20Finance%20Group%20PLC%22",
     "added_at": "2026-09-14T16:27:04.000322"
+  },
+  {
+    "company": "AstraZeneca PLC",
+    "ticker": "AZN",
+    "publish_date": "13 September 2026",
+    "date_iso": "2026-09-13",
+    "time_period": "",
+    "announcement_type": "Clinical trial data",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>AstraZeneca</strong>'s <strong>TAGRISSO (osimertinib)</strong> delivered an eight-year overall survival benefit versus placebo in adjuvant treatment of early-stage (IB, II, IIIA) <strong>EGFR-mutated NSCLC</strong> after complete tumour resection, in updated exploratory <strong>ADAURA</strong> Phase III data.</li><li>In the primary population (Stages II-IIIA), TAGRISSO cut the risk of death by <strong>47%</strong> (HR <strong>0.53</strong>; 95% CI 0.38-0.75); in the overall population (IB-IIIA) by <strong>48%</strong> (HR <strong>0.52</strong>; 95% CI 0.39-0.71).</li><li>An estimated <strong>74%</strong> of TAGRISSO patients were alive at eight years vs <strong>58%</strong> on placebo in the primary population; <strong>79%</strong> vs <strong>64%</strong> in the overall population.</li><li>Data presented at the <strong>IASLC 2026 World Conference on Lung Cancer</strong> in Seoul and published in the Journal of Thoracic Oncology; data cut-off <strong>4 May 2026</strong>.</li><li>Safety consistent with TAGRISSO's established profile with no new concerns; separate FLAURA2 and real-world evidence data also presented supporting the drug across disease stages.</li><li>This is a clinical/regulatory science update — <strong>no financial figures or guidance</strong> provided; no direct impact on current earnings guidance stated.</li></ul>",
+    "source_format": "html",
+    "headline": "AstraZeneca's TAGRISSO showed a sustained overall survival benefit at eight years in early-stage EGFR-mutated lung cancer in the ADAURA Phase III trial.",
+    "priority": "high",
+    "priority_reason": "Positive long-term survival data for TAGRISSO, one of AstraZeneca's largest-selling oncology drugs, reinforcing its standard-of-care position across lung cancer stages.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/astrazeneca-AZN/share-news/TAGRISSO-osimertinib-demonstrated-unprecedented-e/99296784",
+    "related_news_url": "https://news.google.com/search?q=%22AstraZeneca%20PLC%22",
+    "added_at": "2026-09-14T16:27:50.879456"
   },
   {
     "company": "Gamma Communications plc",
