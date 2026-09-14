@@ -1,5 +1,80 @@
 [
   {
+    "company": "Jubilee Metals Group PLC",
+    "ticker": "JLP",
+    "publish_date": "14 September 2026",
+    "date_iso": "2026-09-14",
+    "time_period": "FY to 30 June 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "FY to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Combined copper production</strong> prior to refining from Roan and Molefe reached <strong>3,739t</strong> in <strong>FY2026</strong>, up <strong>225.0%</strong> from <strong>1,149t</strong> in FY2025.</li><li><strong>Roan</strong> total production up <strong>145.5%</strong> to <strong>2,823t</strong> of Cu; <strong>Molefe Mine</strong> (first owned operation, started September 2025) added <strong>916t</strong>.</li><li><strong>Sable Refinery</strong> cathode output up <strong>17.5%</strong> to <strong>1,207t</strong>; final products for sale up just <strong>1.3%</strong> to <strong>2,120t</strong>.</li><li>Q4 hit by acid costs rising over <strong>200%</strong> and diesel up <strong>90%</strong> in Zambia, forcing temporary closures of some local processors; Jubilee partly mitigated via operational flexibility.</li><li>New <strong>FY2027 guidance</strong>: Roan forecast at <strong>2,850t–3,150t</strong> of Cu; Molefe targeting ~<strong>7,500tpm</strong> HG ROM from October 2026, ramping to <strong>10,000tpm</strong> before end-CY2026.</li><li>Post-period, agreed <strong>Binding Heads of Terms</strong> to sell the <strong>Large Waste Project</strong> for <strong>US$35m</strong> (or US$30m accelerated), sharpening focus on Jubilee-controlled mining.</li></ul>",
+    "source_format": "html",
+    "headline": "Jubilee's FY2026 combined copper production rose 225% to 3,739t as Zambian mine-to-metals ramp-up gathers pace.",
+    "priority": "high",
+    "priority_reason": "Full-year production and operational update from a copper producer, with output figures, FY2027 guidance and a US$35m asset disposal.",
+    "figures": [
+      {
+        "metric": "Combined copper production (pre-refining)",
+        "current": "3,739t",
+        "prior": "1,149t",
+        "change": "+225.0%",
+        "basis": "reported",
+        "note": "Roan plus Molefe, FY to 30 June 2026"
+      },
+      {
+        "metric": "Roan total Cu production",
+        "current": "2,823t",
+        "prior": "1,150t",
+        "change": "+145.5%",
+        "basis": "reported",
+        "note": "three product streams"
+      },
+      {
+        "metric": "Molefe Mine Cu production",
+        "current": "916t",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "production commenced September 2025"
+      },
+      {
+        "metric": "Sable cathode production",
+        "current": "1,207t",
+        "prior": "1,027t",
+        "change": "+17.5%",
+        "basis": "reported",
+        "note": ""
+      },
+      {
+        "metric": "Final products produced for sale",
+        "current": "2,120t",
+        "prior": "2,092t",
+        "change": "+1.3%",
+        "basis": "reported",
+        "note": "cathode plus sulphide concentrate"
+      },
+      {
+        "metric": "Cu delivered to Sable for refining",
+        "current": "1,342t",
+        "prior": "not stated",
+        "change": "+1,497.6%",
+        "basis": "reported",
+        "note": "combined concentrate and ROM"
+      }
+    ],
+    "guidance": {
+      "status": "new",
+      "previous": "",
+      "current": "Roan forecast operational output for FY2027 of between 2,850t and 3,150t of Cu; Molefe targeting ~7,500tpm HG ROM from October 2026, progressing towards 10,000tpm before end-CY2026 at 1.45% Cu grade.",
+      "commentary": "Jubilee has set out new FY2027 output targets as Roan reaches a stable operating state and the Molefe Mine ramps up, though management flags Sable's dependence on Roan and Molefe hitting milestones and on Zambian acid and diesel cost pressures easing."
+    },
+    "explainer": "This is a full-year operational update for the year to 30 June 2026, reporting production tonnes rather than financial results — no revenue or profit figures are given. The headline 225% jump in combined copper production is flattered by a low base: Jubilee is transitioning from mainly refining third-party material towards mining its own ore, and the Molefe Mine only started producing in September 2025, so much of the growth is new capacity rather than like-for-like improvement.\n\nNote the gap between the large production increase and the much smaller 1.3% rise in 'final products produced for sale' (2,120t). A significant part of FY2026 output is tied up in stockpiles — oxide concentrate fines held at Roan awaiting the new dewatering circuit, and lower-grade material stockpiled at Molefe — so contained copper produced is running well ahead of finished metal actually available to sell.\n\nOn guidance, the FY2027 Roan range of 2,850t–3,150t is broadly in line with FY2026's 2,823t, implying Roan is now at a stable plateau rather than growing sharply; future growth is expected to come from Molefe scaling to 10,000tpm. Management cautions that Q4 saw Zambian acid costs rise more than 200% and diesel 90%, which hit Sable and could persist.\n\nSeparately, the agreed US$35m sale of the Large Waste Project marks a strategic pivot away from surface waste and tailings towards owned mining assets, and would bring in cash (with a US$2.25m deposit due if due diligence completes).",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/jubilee-metals-group--jlp/fy2026-production-and-operational-update-/9769108",
+    "related_news_url": "https://news.google.com/search?q=%22Jubilee%20Metals%20Group%22",
+    "added_at": "2026-09-14T16:31:37.486662"
+  },
+  {
     "company": "Legal & General Group PLC",
     "ticker": "LGEN",
     "publish_date": "14 September 2026",
