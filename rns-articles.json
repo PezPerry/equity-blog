@@ -1,5 +1,57 @@
 [
   {
+    "company": "Metlen Energy & Metals PLC",
+    "ticker": "MTLN",
+    "publish_date": "14 September 2026",
+    "date_iso": "2026-09-14",
+    "time_period": "",
+    "announcement_type": "Acquisition / deal",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>METLEN</strong> has signed a Sale and Purchase Agreement with <strong>PETRONAS</strong>, via subsidiary <strong>PETCO Trading (UK) Limited</strong>, for long-term LNG supply to Greece.</li><li>PTUK will deliver <strong>6 LNG cargoes per year</strong> from PETRONAS' Atlantic portfolio, around <strong>0.6 bcma</strong>, over <strong>five years from 2027</strong>.</li><li>Agreement supports METLEN's Energy Sector Utility strategy to diversify LNG sourcing and reinforce <strong>Greece's</strong> position as a regional energy hub.</li><li>No financial terms or contract value disclosed.</li></ul>",
+    "source_format": "html",
+    "headline": "METLEN signs a five-year LNG sale and purchase agreement with PETRONAS for delivery of six cargoes a year to Greece from 2027.",
+    "priority": "medium",
+    "priority_reason": "Long-term LNG supply agreement supporting METLEN's energy strategy, but modest in scale relative to the FTSE 100 group's €7.11bn revenue.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/metlen-energy-metals-plc--mtln/metlen-and-petronas-lng-supply-agreement-/9769084",
+    "related_news_url": "https://news.google.com/search?q=%22Metlen%20Energy%20%26%20Metals%20PLC%22",
+    "added_at": "2026-09-14T16:52:09.431220"
+  },
+  {
+    "company": "Caledonia Mining Corporation Plc",
+    "ticker": "CMCL",
+    "publish_date": "14 September 2026",
+    "date_iso": "2026-09-14",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>Capital Markets Day</strong> to be held <strong>Wednesday, 16 September 2026</strong> at the <strong>Sofitel New York</strong>, starting <strong>09.30 New York / 14.30 London</strong>, available in-person or online.</li><li>Management will cover <strong>Blanket Mine</strong> production and efficiencies, the <strong>Bilboes gold project</strong> funding strategy, the growth pipeline, and capital allocation priorities.</li><li>Event to include a presentation by <strong>Ambassador Taonga Mushayavanhu</strong>, Zimbabwe's Permanent Representative to the UN.</li><li>Presentation materials to be posted on the Company website in advance, with a webcast replay afterwards — a routine event notice with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Caledonia Mining will hold its Capital Markets Day on 16 September 2026 in New York, covering Blanket Mine, the Bilboes gold project and its growth strategy.",
+    "priority": "low",
+    "priority_reason": "Logistical notice for an investor event, containing no new financial or operational data.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/caledonia-mining-corporation-di---cmcl/capital-markets-day-update/9769100",
+    "related_news_url": "https://news.google.com/search?q=%22Caledonia%20Mining%20Corporation%20Plc%22",
+    "added_at": "2026-09-14T16:52:09.347159"
+  },
+  {
     "company": "Touchstone Exploration Inc",
     "ticker": "TXP",
     "publish_date": "14 September 2026",
