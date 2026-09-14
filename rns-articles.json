@@ -1,5 +1,31 @@
 [
   {
+    "company": "GSK PLC",
+    "ticker": "GSK",
+    "publish_date": "14 September 2026",
+    "date_iso": "2026-09-14",
+    "time_period": "",
+    "announcement_type": "Clinical trial data",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>GSK</strong> presented positive phase I/II <strong>ARROS-1</strong> data for <strong>Jideytro (zidesamtinib)</strong> in first-line, TKI-naive <strong>ROS1-positive NSCLC</strong>, supporting a planned US FDA supplemental filing <strong>this year</strong>.</li><li>In 94 evaluable patients: <strong>94% objective response rate</strong> (including a <strong>15% complete response rate</strong>) at a median <strong>15.2-month</strong> follow-up; median PFS and duration of response not yet reached.</li><li><strong>90%</strong> of patients progression-free at <strong>12 months</strong>; among those with measurable brain metastases, <strong>70%</strong> achieved complete clearance of detectable brain tumours.</li><li>Tolerability: treatment-related adverse events led to dose reductions in <strong>11%</strong> and discontinuation in only <strong>1%</strong> of patients.</li><li>Jideytro came from GSK's recently completed acquisition of <strong>Nuvalent, Inc.</strong>; the FDA approved it in <strong>July 2026</strong> for previously TKI-treated ROS1-positive NSCLC — first-line use is not yet approved anywhere.</li></ul>",
+    "source_format": "html",
+    "headline": "GSK reports positive ARROS-1 data for Jideytro (zidesamtinib) in first-line ROS1-positive NSCLC, with a US filing planned in 2026.",
+    "priority": "medium",
+    "priority_reason": "Positive registrational trial data supporting a planned US regulatory filing to expand a recently acquired oncology drug, but not itself a financial event.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/gsk--gsk/jideytro-positive-data-for-ros1-positive-nsclc/9769137",
+    "related_news_url": "https://news.google.com/search?q=%22GSK%20PLC%22",
+    "added_at": "2026-09-14T16:54:19.964674"
+  },
+  {
     "company": "Metlen Energy & Metals PLC",
     "ticker": "MTLN",
     "publish_date": "14 September 2026",
