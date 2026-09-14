@@ -1,5 +1,31 @@
 [
   {
+    "company": "AstraZeneca PLC",
+    "ticker": "AZN",
+    "publish_date": "14 September 2026",
+    "date_iso": "2026-09-14",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>SERENA-4</strong> Phase III trial of <strong>Etcamah (camizestrant)</strong> with <strong>palbociclib</strong> did <strong>not meet</strong> its primary endpoint of statistically significant improvement in <strong>progression-free survival</strong>; only a <strong>numerical improvement</strong> was observed.</li><li>Trial tested the combination in upfront <strong>1st-line ER-positive, HER2-negative advanced breast cancer</strong> versus anastrozole plus palbociclib, enrolling <strong>1,371 patients</strong>.</li><li>Safety profile was <strong>consistent</strong> with each medicine's known profile, with <strong>no new safety concerns</strong>; full data to be shared in due course.</li><li>AstraZeneca (Susan Galbraith) says the miss sharpens focus on <strong>SERENA-6</strong>-based use and reinforces <strong>ESR1 testing</strong>; remains confident in Etcamah's long-term potential in early breast cancer (<strong>CAMBRIA-1/CAMBRIA-2</strong>, ~10,000 patients).</li><li>Announcement carries inside information; submitted <strong>21:15 BST 11 September 2026</strong> under UK MAR.</li></ul>",
+    "source_format": "html",
+    "headline": "AstraZeneca's SERENA-4 Phase III trial of camizestrant plus palbociclib missed its primary progression-free survival endpoint in first-line advanced breast cancer, showing only a numerical improvement.",
+    "priority": "high",
+    "priority_reason": "Inside-information disclosure that a Phase III trial missed its primary endpoint — materially relevant to the pipeline and share price.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/astrazeneca--azn/update-on-serena-4-phase-iii-trial/9769135",
+    "related_news_url": "https://news.google.com/search?q=%22AstraZeneca%20PLC%22",
+    "added_at": "2026-09-14T19:55:41.862308"
+  },
+  {
     "company": "GSK PLC",
     "ticker": "GSK",
     "publish_date": "14 September 2026",
