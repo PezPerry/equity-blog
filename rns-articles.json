@@ -1,5 +1,31 @@
 [
   {
+    "company": "MJ Gleeson PLC",
+    "ticker": "GLE",
+    "publish_date": "14 September 2026",
+    "date_iso": "2026-09-14",
+    "time_period": "FY2026",
+    "announcement_type": "Investor presentation",
+    "period_detail": "FY2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>MJ Gleeson plc</strong> will host a live Retail Investor Webinar presenting its <strong>FY2026 results</strong> on the <strong>Engage Investor</strong> platform on <strong>Friday 18 September 2026 at 10:00 BST</strong>.</li><li>Hosted by CEO <strong>Graham Prothero</strong> and CFO <strong>Stefan Allanson</strong>; investors can register interest and submit questions in advance.</li><li>Routine investor-relations logistics notice with <strong>no impact</strong> on trading or guidance; no financial figures disclosed.</li></ul>",
+    "source_format": "html",
+    "headline": "MJ Gleeson to host a live retail investor webinar on its FY2026 results via the Engage Investor platform on Friday 18 September 2026 at 10:00 BST.",
+    "priority": "low",
+    "priority_reason": "Routine notice of a retail investor webinar; no financial content or news impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/mj-gleeson--gle/engage-investor-presentation/9770838",
+    "related_news_url": "https://news.google.com/search?q=%22MJ%20Gleeson%22",
+    "added_at": "2026-09-14T16:32:12.651829"
+  },
+  {
     "company": "Jubilee Metals Group PLC",
     "ticker": "JLP",
     "publish_date": "14 September 2026",
