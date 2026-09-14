@@ -1,5 +1,155 @@
 [
   {
+    "company": "Touchstone Exploration Inc",
+    "ticker": "TXP",
+    "publish_date": "14 September 2026",
+    "date_iso": "2026-09-14",
+    "time_period": "July–August 2026 operations",
+    "announcement_type": "Operational update",
+    "period_detail": "July–August 2026 operations",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Net sales production</strong> averaged <strong>4,402 boe/d</strong> in July 2026, with field-estimated net production of <strong>4,392 boe/d</strong> in August 2026.</li><li>Rig mobilised for a <strong>two-well WD-4 development campaign</strong>, first well to spud <strong>mid-September 2026</strong>; turnkey costs for the second well covered by the <strong>drilling contractor</strong>, reducing capital exposure.</li><li>At <strong>Cascadura-2ST1</strong>, a solvent squeeze treatment delivered promising incremental production gains, with wider deployment planned in H2 2026; <strong>Cascadura-3ST1</strong> workover and <strong>Cascadura-5</strong> recompletion set for October 2026.</li><li>Cascadura booster compressor uptime rose from ~57% (July) to 73% (August), lifting average gross gas from ~6.6 MMcf/d (June) to <strong>12.6 MMcf/d</strong> (August), targeting 97% uptime.</li><li><strong>CR-3</strong> coiled tubing cleanout and acid stimulation gave only a limited response; a <strong>Karamat sands completion</strong> (~82 feet net pay) is targeted for October 2026.</li><li>Central block gas redirected to <strong>Atlantic LNG Train 2/3</strong> during Train 4 downtime, sold at ~<strong>$10.28/Mcf</strong> net of fees; condensate marketing switched to <strong>Brent</strong>-linked pricing from 1 September 2026.</li></ul>",
+    "source_format": "html",
+    "headline": "Touchstone reports net production averaging **4,402 boe/d** in July 2026 as it mobilises a rig for a two-well WD-4 drilling campaign spudding mid-September.",
+    "priority": "medium",
+    "priority_reason": "Operational and production update with drilling progress and current output figures, but no financial results or guidance change.",
+    "figures": [
+      {
+        "metric": "Net sales production",
+        "current": "4,402 boe/d",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "July 2026"
+      },
+      {
+        "metric": "Field-estimated net production",
+        "current": "4,392 boe/d",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "August 2026"
+      },
+      {
+        "metric": "Cascadura gross gas production",
+        "current": "12.6 MMcf/d",
+        "prior": "6.6 MMcf/d",
+        "change": "not stated",
+        "basis": "",
+        "note": "August 2026 vs June 2026"
+      },
+      {
+        "metric": "Central block gas realised price",
+        "current": "$10.28 per Mcf",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "net of fees, Atlantic LNG Train 2/3 contract",
+        "note": "July 2026"
+      }
+    ],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "This is a purely operational update from a Trinidad-focused oil and gas producer, not a financial results statement, so it reports physical production volumes and drilling progress rather than revenue or profit. Production is quoted in barrels of oil equivalent per day (boe/d), which mathematically combines oil and gas using a 6:1 conversion; the company cautions this is an energy-based measure, not a value equivalence.\n\nThe 'net sales' figure (4,402 boe/d in July) reflects volumes actually sold and attributable to Touchstone's working interest, while the August 4,392 boe/d is a field estimate that has not yet been reconciled through sales metering, so the two are not strictly like-for-like. The rise in Cascadura gas output from roughly 6.6 MMcf/d in June to 12.6 MMcf/d in August is driven mainly by improving uptime on a newly commissioned booster compressor.\n\nNo formal production or financial guidance is set out or changed in this announcement. The switch of Central block condensate pricing from a WTI to a Brent benchmark, effective 1 September 2026, is flagged as likely to improve realised prices because Trinidad liquids have historically traded at a narrower discount to Brent, but no quantified uplift is given.",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/touchstone-exploration-inc-npv-di---txp/operational-update-/9769083",
+    "related_news_url": "https://news.google.com/search?q=%22Touchstone%20Exploration%20Inc%22",
+    "added_at": "2026-09-14T16:51:40.593640"
+  },
+  {
+    "company": "GlobalData Plc",
+    "ticker": "DATA",
+    "publish_date": "14 September 2026",
+    "date_iso": "2026-09-14",
+    "time_period": "H1 to 30 June 2026 (HY26)",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 to 30 June 2026 (HY26)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>GlobalData Plc</strong> posted HY26 (six months to <strong>30 June 2026</strong>) revenue up <strong>4% to £162.9m</strong> (HY25: £156.5m), though <strong>underlying growth was just 1%</strong> amid elongated sales cycles.</li><li>Adjusted EBITDA rose <strong>5% to £54.8m</strong> with margin up 1pt to <strong>34%</strong>; adjusted operating profit <strong>+6% to £46.7m</strong>; but profit before tax fell <strong>6% to £23.2m</strong> on higher finance charges.</li><li>Adjusted fully diluted EPS up <strong>8% to 2.7p</strong>; interim dividend held flat at <strong>0.3p</strong>; net bank debt swelled to <strong>£133.0m</strong> (HY25: £16.8m) after acquisitions and buybacks.</li><li>Guidance effectively cut: FY26 revenue now seen towards the <strong>lower end</strong> of market expectations and <strong>Adjusted EBITDA expected below market expectations</strong>, with margins consistent with H1.</li><li>Capital returns of over <strong>£49m</strong> in FY26 to date (<strong>£19m</strong> buybacks plus a completed <strong>£30m</strong> tender); acquired <strong>Cambridge Healthcare</strong> in H1; medium-term EBITDA margin recovery towards <strong>40%</strong> now expected to be more cautious than previously stated.</li><li>Analyst consensus for FY26: revenue <strong>£325.3m–£335.7m</strong>, Adjusted EBITDA <strong>£121.0m–£126.7m</strong> — the latter is the figure management flags it will undershoot.</li></ul>",
+    "source_format": "html",
+    "headline": "GlobalData grew H1 revenue 4% to £162.9m but warned FY26 Adjusted EBITDA will fall below market expectations as it steps up investment.",
+    "priority": "high",
+    "priority_reason": "Half-year results carrying a de facto guidance cut — FY26 Adjusted EBITDA now expected below market expectations with revenue towards the lower end.",
+    "figures": [
+      {
+        "metric": "Revenue",
+        "current": "£162.9m",
+        "prior": "£156.5m",
+        "change": "+4% (underlying +1%)",
+        "basis": "reported",
+        "note": "HY26 vs HY25"
+      },
+      {
+        "metric": "Adjusted EBITDA",
+        "current": "£54.8m",
+        "prior": "£52.1m",
+        "change": "+5% (underlying 0%)",
+        "basis": "reported",
+        "note": "margin 34% vs 33%"
+      },
+      {
+        "metric": "Adjusted operating profit",
+        "current": "£46.7m",
+        "prior": "£44.0m",
+        "change": "+6%",
+        "basis": "reported",
+        "note": "margin 29% vs 28%"
+      },
+      {
+        "metric": "Profit before tax",
+        "current": "£23.2m",
+        "prior": "£24.7m",
+        "change": "-6%",
+        "basis": "reported",
+        "note": "higher finance charges on increased bank debt"
+      },
+      {
+        "metric": "Adjusted fully diluted EPS",
+        "current": "2.7p",
+        "prior": "2.5p",
+        "change": "+8%",
+        "basis": "restated",
+        "note": "HY26 vs HY25"
+      },
+      {
+        "metric": "Interim dividend per share",
+        "current": "0.3p",
+        "prior": "0.3p",
+        "change": "flat",
+        "basis": "reported",
+        "note": "unchanged"
+      },
+      {
+        "metric": "Contracted Forward Revenue",
+        "current": "£163.3m",
+        "prior": "£157.4m",
+        "change": "+4% (underlying +1%)",
+        "basis": "reported",
+        "note": "forward visibility for FY26"
+      },
+      {
+        "metric": "Net bank debt",
+        "current": "£133.0m",
+        "prior": "£16.8m",
+        "change": "+692%",
+        "basis": "reported",
+        "note": "after Cambridge Healthcare acquisition and £49m+ capital returns"
+      }
+    ],
+    "guidance": {
+      "status": "lowered",
+      "previous": "Revenue in line with market expectations; medium-term Adjusted EBITDA margin recovery (previously guided towards 40% on a less cautious trajectory).",
+      "current": "FY26 revenue in line with market expectations but towards the lower end of the range; FY26 Adjusted EBITDA now expected to be below market expectations, with margins consistent with the first half; medium-term margin recovery towards 40% but 'more cautious' than previously stated.",
+      "commentary": "Underlying revenue growth has been weaker than expected and, combined with fresh H2 investment in AI-native workflows and proprietary data, full-year margins will hold at the H1 level rather than expand — so Adjusted EBITDA undershoots the £121.0m–£126.7m consensus range. Management frames this as investment to lift revenue quality and renewal rates over the longer term."
+    },
+    "explainer": "GlobalData's headline numbers look like growth — revenue up 4%, EBITDA up 5% — but almost all of that is currency and one-off effects. On an underlying basis, revenue rose just 1% and Adjusted EBITDA was flat, so the real operating picture is broadly stagnant. Management is candid that the benefits of its multi-year 'Growth Transformation Plan' have not yet shown up in the financials.\n\nThe important message is the downgrade. FY26 revenue is still described as 'in line' with market expectations, but only at the lower end. More significantly, Adjusted EBITDA is now expected to come in below the £121.0m–£126.7m consensus range, because the company is choosing to reinvest through the second half (in AI tooling, proprietary data and sales teams) rather than let margins expand. Full-year margins will therefore look like the 34% seen in H1, not the higher figure the market had penciled in.\n\nNet bank debt has jumped sharply to £133.0m from £16.8m a year ago — this is not operational deterioration but the result of the Cambridge Healthcare acquisition and more than £49m returned to shareholders via buybacks and a £30m tender. The higher debt is, however, why reported profit before tax fell 6% despite operating profit rising, as finance charges increased.\n\nFor a trader, the read-across is a modest profit warning dressed as a strategy update: near-term earnings momentum is soft, the medium-term margin recovery to ~40% has been pushed out and made 'more cautious', but the subscription model, forward-contracted revenue (£163.3m) and resilient renewal rates keep the longer-term case intact.",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/globaldata--data/half-year-results-/9769082",
+    "related_news_url": "https://news.google.com/search?q=%22GlobalData%20Plc%22",
+    "added_at": "2026-09-14T16:51:40.560946"
+  },
+  {
     "company": "HSBC Holdings PLC",
     "ticker": "HSBA",
     "publish_date": "14 September 2026",
