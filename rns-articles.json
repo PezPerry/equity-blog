@@ -1,5 +1,31 @@
 [
   {
+    "company": "Rio Tinto PLC",
+    "ticker": "RIO",
+    "publish_date": "15 September 2026",
+    "date_iso": "2026-09-15",
+    "time_period": "H1 to 30 June 2026",
+    "announcement_type": "Dividend declaration",
+    "period_detail": "H1 to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li>Routine notice of currency exchange rates for the <strong>2026 interim dividend of 211.00 US cents per share</strong> first announced on <strong>29 July 2026</strong> — <strong>no impact</strong> on trading or guidance.</li><li>Sterling-electing holders receive <strong>156.661841 pence</strong> (rate <strong>1.34685</strong>); Australian holders <strong>296.410761 cents</strong>; New Zealand holders <strong>366.478506 cents</strong>, using <strong>15 September 2026</strong> exchange rates.</li><li>Dividend covers the half year ended <strong>30 June 2026</strong> and will be paid to <strong>Rio Tinto plc</strong>, <strong>Rio Tinto Limited</strong> and ADR holders on <strong>24 September 2026</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Rio Tinto sets currency conversion rates for its already-declared **211.00 US cents** 2026 interim dividend, payable **24 September 2026**.",
+    "priority": "low",
+    "priority_reason": "Routine notice of currency conversion rates for a previously announced dividend, with no new financial information.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/rio-tinto--rio/notice-of-dividend-currency-exchange-rates/9772676",
+    "related_news_url": "https://news.google.com/search?q=%22Rio%20Tinto%22",
+    "added_at": "2026-09-15T09:35:52.849863"
+  },
+  {
     "company": "GSK plc",
     "ticker": "GSK",
     "publish_date": "15 September 2026",
