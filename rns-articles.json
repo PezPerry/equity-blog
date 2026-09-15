@@ -1,5 +1,171 @@
 [
   {
+    "company": "Wickes Group plc",
+    "ticker": "WIX",
+    "publish_date": "15 September 2026",
+    "date_iso": "2026-09-15",
+    "time_period": "H1 2026 (26 weeks)",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 2026 (26 weeks)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Wickes Group plc</strong> H1 2026 total revenue <strong>£865.3m</strong>, up <strong>+2.1%</strong> year-on-year (H1 2025: <strong>£847.9m</strong>), with Retail +0.8% despite 2.4% deflation and Design & Installation +5.7%.</li><li>Adjusted profit before tax <strong>+1.1%</strong> to <strong>£27.6m</strong> (H1 2025: <strong>£27.3m</strong>); statutory PBT <strong>£24.6m</strong> (H1 2025: <strong>£24.2m</strong>), with productivity actions partly offsetting cost inflation.</li><li>Interim dividend declared <strong>+2.8%</strong> to <strong>3.7p</strong> (H1 2025: <strong>3.6p</strong>); net cash <strong>£151.6m</strong> (H1 2025: £158.0m) after growth investment and <strong>£26.3m</strong> returned to shareholders.</li><li><strong>TradePro</strong> sales up <strong>5%</strong>, active members up to <strong>671,000</strong> (H1 2025: 615,000); fifth consecutive quarter of Design & Installation delivered sales growth.</li><li><strong>Q3</strong> trading has stepped up to <strong>mid-single-digit LFL</strong> Retail growth; on track to meet consensus of <strong>c.10%</strong> adjusted PBT growth for 2026; property pipeline building toward 300-store ambition with 4-5 openings in H2.</li><li>EPS lower year-on-year owing to a lower effective tax rate in H1 2025 (capital allowance and prior-year adjustments); Q3 update due late October.</li></ul>",
+    "source_format": "html",
+    "headline": "Wickes H1 2026 revenue rose 2.1% to £865.3m with adjusted PBT up 1.1% to £27.6m, and it remains on track for c.10% adjusted PBT growth in 2026.",
+    "priority": "high",
+    "priority_reason": "Half-year results with revenue, profit, dividend and a reiterated full-year guidance for c.10% adjusted PBT growth.",
+    "figures": [
+      {
+        "metric": "Total revenue",
+        "current": "£865.3m",
+        "prior": "£847.9m",
+        "change": "+2.1%",
+        "basis": "reported",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "Adjusted profit before tax",
+        "current": "£27.6m",
+        "prior": "£27.3m",
+        "change": "+1.1%",
+        "basis": "adjusted",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "Statutory profit before tax",
+        "current": "£24.6m",
+        "prior": "£24.2m",
+        "change": "not stated",
+        "basis": "statutory",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "Interim dividend",
+        "current": "3.7p",
+        "prior": "3.6p",
+        "change": "+2.8%",
+        "basis": "per share",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "Net cash",
+        "current": "£151.6m",
+        "prior": "£158.0m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "EPS",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "lower",
+        "basis": "not stated",
+        "note": "Lower year-on-year due to a lower effective tax rate in H1 2025"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "c.10% growth in adjusted PBT for 2026 (consensus expectations)",
+      "current": "On track to meet consensus expectations of c.10% growth in adjusted PBT for 2026",
+      "commentary": "Full-year adjusted PBT guidance reaffirmed, supported by a productivity plan and lower business rates this year. Q3 has improved to mid-single-digit LFL Retail growth, though the consumer environment remains uncertain."
+    },
+    "explainer": "The headline profit figure is adjusted profit before tax, which strips out one-off or non-underlying items; on this basis Wickes made £27.6m, up 1.1% on the prior half. Statutory PBT (£24.6m), which includes those items, was slightly higher year-on-year. The gap between the two reflects adjusting items in the period.\n\nRevenue grew 2.1% even though Retail prices fell 2.4% (deflation), meaning the underlying volume of goods sold rose — Wickes says it gained market share. Design & Installation (kitchens and bathrooms) grew faster at 5.7%, though ordered sales by value were slightly lower as customers hold back on larger bespoke purchases. Earnings per share fell year-on-year purely because of a favourably low tax rate in H1 2025, not weaker trading.\n\nOn guidance, nothing has changed: management reiterates it is on track for consensus of roughly 10% adjusted PBT growth for full-year 2026. Because profit was only marginally higher in H1, that implies the bulk of the growth is expected in H2, helped by lower business rates, a productivity plan and an already improved Q3 trading trend.",
+    "source_url": "https://uk.advfn.com/stock-market/london/wickes-WIX/share-news/Wickes-Group-PLC-Wickes-Group-Plc-Interim-Resul/99306530",
+    "related_news_url": "https://news.google.com/search?q=%22Wickes%20Group%20plc%22",
+    "added_at": "2026-09-15T07:22:59.649046"
+  },
+  {
+    "company": "Sylvania Platinum Limited",
+    "ticker": "SLP",
+    "publish_date": "15 September 2026",
+    "date_iso": "2026-09-15",
+    "time_period": "FY2026 (12 months to 30 June 2026)",
+    "announcement_type": "Annual results",
+    "period_detail": "FY2026 (12 months to 30 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Record annual production of 95,885 4E PGM ounces</strong> in FY2026, up <strong>18%</strong> on FY2025's 81,002 oz and above the revised guidance of <strong>90,000–93,000 oz</strong>.</li><li>Net revenue up <strong>117%</strong> to <strong>$226.3m</strong> (FY2025: $104.2m); revenue on 4E PGM ounces delivered up <strong>105%</strong> to <strong>$182.3m</strong>, with base metals and by-products adding <strong>$29.5m</strong>.</li><li>Final dividend of <strong>four pence</strong> per share declared, taking the full-year dividend to <strong>six pence</strong>, ahead of FY2025 on higher production and a stronger basket price.</li><li><strong>$16.2m</strong> returned to shareholders via dividends and buybacks during the year; SDO direct cash cost fell <strong>3%</strong> to <strong>ZAR13,323/oz</strong> but rose to <strong>$788/oz</strong> on Rand strength.</li><li><strong>Thaba JV</strong> commissioned during the period, delivering attributable chrome concentrate production of <strong>50,317 tons</strong>; ROM feed grades may be lower than originally anticipated, with FY2027 focus on optimising volumes and plant stability.</li><li>FY2027 guidance set at <strong>85,000–95,000 4E PGM ounces</strong> and <strong>110,000–140,000 tons of chrome concentrate</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Sylvania Platinum posts record annual production of 95,885 4E PGM ounces, driving net revenue up 117% to $226.3m and a raised six-pence dividend.",
+    "priority": "high",
+    "priority_reason": "Full-year results with record production, sharply higher revenue, a raised dividend and new FY2027 guidance.",
+    "figures": [
+      {
+        "metric": "4E PGM production",
+        "current": "95,885 oz",
+        "prior": "81,002 oz",
+        "change": "+18%",
+        "basis": "",
+        "note": "FY2026 vs FY2025; new annual record"
+      },
+      {
+        "metric": "Net revenue",
+        "current": "$226.3m",
+        "prior": "$104.2m",
+        "change": "+117%",
+        "basis": "after adjustments for ounces delivered prior year but invoiced FY2026",
+        "note": "FY2026"
+      },
+      {
+        "metric": "Revenue on 4E PGM ounces delivered",
+        "current": "$182.3m",
+        "prior": "$89.1m",
+        "change": "+105%",
+        "basis": "USD terms",
+        "note": "FY2026"
+      },
+      {
+        "metric": "Revenue from base metals and by-products",
+        "current": "$29.5m",
+        "prior": "$15.0m",
+        "change": "not stated",
+        "basis": "",
+        "note": "FY2026"
+      },
+      {
+        "metric": "Full-year dividend",
+        "current": "6 pence (4p final + 2p interim)",
+        "prior": "not stated",
+        "change": "higher than FY2025",
+        "basis": "",
+        "note": "final dividend of 4p per Ordinary Share declared"
+      },
+      {
+        "metric": "SDO direct cash cost per 4E PGM oz",
+        "current": "ZAR13,323/oz",
+        "prior": "ZAR13,788/oz",
+        "change": "-3%",
+        "basis": "ZAR (functional currency)",
+        "note": "USD cost rose to $788/oz from $759/oz on Rand strength"
+      },
+      {
+        "metric": "PGM recovery efficiency",
+        "current": "56.6%",
+        "prior": "55.5%",
+        "change": "+~1%",
+        "basis": "",
+        "note": "FY2026"
+      },
+      {
+        "metric": "Shareholder returns (dividends + buybacks)",
+        "current": "$16.2m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "paid out during FY2026"
+      }
+    ],
+    "guidance": {
+      "status": "new",
+      "previous": "Revised FY2026 guidance of 90,000 to 93,000 4E PGM ounces (raised February 2026), which actual production of 95,885 oz exceeded",
+      "current": "FY2027 guidance of 85,000 to 95,000 4E PGM ounces and 110,000 to 140,000 tons of chrome concentrate",
+      "commentary": "New FY2027 targets set following a record FY2026. The upper end of the FY2027 PGM range (95,000 oz) matches FY2026's actual, so the midpoint implies broadly flat-to-lower production. Chrome guidance rises materially as the Thaba JV ramps up, though the company flags that ROM feed grades may be lower than originally expected."
+    },
+    "explainer": "Sylvania reports in US dollars but its operating subsidiaries are in South Africa and earn in rand, so exchange-rate moves distort the picture. In local (ZAR) terms, unit cash costs fell 3% to ZAR13,323 per ounce, but because the rand strengthened against the dollar, the same costs rose in dollar terms to $788/oz. The headline revenue jump was driven by both a record 18% rise in production and a firmer PGM basket price during the year.\n\nThe two revenue figures reflect timing. 'Revenue on 4E PGM ounces delivered' ($182.3m) more than doubled, while 'net revenue' ($226.3m) is higher again because it adjusts for ounces produced in the prior year but only invoiced in FY2026 — a function of the lag between delivery and final pricing.\n\nThe six-pence full-year dividend is above the FY2025 payout and above the minimum required under Sylvania's dividend policy, reflecting the stronger production and basket price. Alongside buybacks, total returns were $16.2m.\n\nOn guidance: FY2027's PGM range of 85,000–95,000 oz tops out at the FY2026 actual, so the company is not guiding for further production growth in PGMs and may see a modest step down at the midpoint. The larger chrome guidance reflects the ramping Thaba JV, but management cautions that feed grades there may prove lower than first anticipated, so that ramp-up carries execution risk into FY2027.",
+    "source_url": "https://uk.advfn.com/stock-market/london/sylvania-platinum-SLP/share-news/Sylvania-Platinum-Limited-Annual-Results-Announcem/99306527",
+    "related_news_url": "https://news.google.com/search?q=%22Sylvania%20Platinum%20Limited%22",
+    "added_at": "2026-09-15T07:22:59.633412"
+  },
+  {
     "company": "Princes Group plc",
     "ticker": "PRN",
     "publish_date": "15 September 2026",
