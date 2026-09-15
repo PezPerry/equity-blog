@@ -1,5 +1,114 @@
 [
   {
+    "company": "Kier Group PLC",
+    "ticker": "KIE",
+    "publish_date": "15 September 2026",
+    "date_iso": "2026-09-15",
+    "time_period": "FY to 30 June 2026",
+    "announcement_type": "Annual results",
+    "period_detail": "FY to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Kier Group plc</strong> FY26 (year to <strong>30 June 2026</strong>) revenue grew <strong>7.5%</strong> to over <strong>£4.39bn</strong> (FY25: £4.09bn); <strong>adjusted operating profit</strong> up <strong>6.7%</strong> to <strong>£169.8m</strong> (FY25: £159.1m), margin maintained at <strong>3.9%</strong>.</li><li>Reached first full-year <strong>average net cash</strong> position in over a decade at <strong>£10.7m</strong> (FY25: £49.2m net debt); reported operating profit <strong>£118.7m</strong> (FY25: £113.7m).</li><li>Order book grew <strong>8%</strong> to a record <strong>£11.9bn</strong>, securing <strong>>95%</strong> of forecast FY27 revenues.</li><li>Full-year dividend raised to <strong>7.8p</strong> (FY25: 7.2p), with a final of <strong>5.2p</strong> payable <strong>4 December 2026</strong>; <strong>£25m</strong> buyback (after an earlier <strong>£20m</strong>) due to complete by end-2026.</li><li>Guidance: FY27 earnings now expected at the <strong>top end</strong> of prior Board expectations; medium-term targets updated, including <strong>>£200m</strong> average net cash by FY29 and double-digit adjusted EPS growth.</li><li>From FY27, <strong>no new Property developments</strong> — capital reallocated to strengthen the balance sheet; <strong>CEO Stuart Togwell</strong> and <strong>CFO Tom Hinton</strong> now leading a simplified structure.</li></ul>",
+    "source_format": "html",
+    "headline": "Kier reported FY26 revenue up 7.5% to over £4.39bn, adjusted operating profit up 6.7% to £169.8m, a record £11.9bn order book, and lifted FY27 earnings expectations to the top end.",
+    "priority": "high",
+    "priority_reason": "Full-year results with revenue and profit growth, a raised dividend, record order book and increased FY27 expectations.",
+    "figures": [
+      {
+        "metric": "Revenue",
+        "current": "£4.39bn",
+        "prior": "£4.09bn",
+        "change": "+7.5%",
+        "basis": "reported (group plus share of JV revenue)",
+        "note": "FY to 30 June 2026"
+      },
+      {
+        "metric": "Adjusted operating profit",
+        "current": "£169.8m",
+        "prior": "£159.1m",
+        "change": "+6.7%",
+        "basis": "before adjusting items and amortisation of acquired intangibles",
+        "note": "FY26"
+      },
+      {
+        "metric": "Adjusted operating margin",
+        "current": "3.9%",
+        "prior": "3.9%",
+        "change": "maintained",
+        "basis": "reported",
+        "note": "FY26"
+      },
+      {
+        "metric": "Reported operating profit",
+        "current": "£118.7m",
+        "prior": "£113.7m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "FY26"
+      },
+      {
+        "metric": "Average net cash / (net debt)",
+        "current": "£10.7m net cash",
+        "prior": "£(49.2)m net debt",
+        "change": "not stated",
+        "basis": "average month-end net cash (APM)",
+        "note": "FY26"
+      },
+      {
+        "metric": "Order book",
+        "current": "£11.9bn",
+        "prior": "not stated",
+        "change": "+8%",
+        "basis": "reported",
+        "note": "record; secures >95% of FY27 revenue"
+      },
+      {
+        "metric": "Full-year dividend",
+        "current": "7.8p",
+        "prior": "7.2p",
+        "change": "not stated",
+        "basis": "per share",
+        "note": "final 5.2p; ex-div 29 October 2026, paid 4 December 2026"
+      }
+    ],
+    "guidance": {
+      "status": "raised",
+      "previous": "Board's prior expectations for FY27 earnings",
+      "current": "FY27 earnings expected at the top end of the Board's prior expectations; updated medium-term targets including >£200m average net cash by FY29 and double-digit adjusted EPS growth",
+      "commentary": "Management raised FY27 earnings expectations to the top end of prior guidance, citing recent contract and framework awards, record order book growth and an expanding pipeline. Medium-term financial targets were also updated to reflect the exit from new Property development and reallocation of capital to the balance sheet."
+    },
+    "explainer": "Kier's headline figures compare FY26 (year to 30 June 2026) with FY25 on a reported basis. Revenue here is the group's own revenue plus its share of joint-venture revenue. The 7.5% growth to over £4.39bn was driven by its core Infrastructure and Construction divisions, particularly water, alongside frameworks in justice, education, healthcare and defence.\n\nThe profit measure Kier leads with is adjusted operating profit of £169.8m, which is stated before £32.1m of adjusting items (FY25: £23.8m) and £19.0m of amortisation of acquired intangibles. On a statutory basis, reported operating profit was lower at £118.7m. The operating margin held flat at 3.9%.\n\nThe standout balance-sheet point is the move to an average net cash position of £10.7m — measured as average month-end net cash, an alternative performance measure — versus £49.2m of average net debt a year earlier. This is the first full-year average net cash in over a decade and underpins the capital-allocation shift.\n\nOn guidance, Kier now expects FY27 earnings at the top end of the Board's previous expectations, an upgrade in tone, supported by a record £11.9bn order book covering over 95% of forecast FY27 revenue. It has also reset medium-term targets: no capital into new Property developments from FY27, a goal of more than £200m average net cash by FY29 (partly to fund a bond repayment due FY29), and double-digit adjusted EPS growth. The full-year dividend rose to 7.8p, with buybacks of £20m (completed December 2025) and a further £25m (due to complete by end-2026).",
+    "source_url": "https://uk.advfn.com/stock-market/london/kier-KIE/share-news/Kier-Group-PLC-Results-for-the-year-ended-30-June/99306484",
+    "related_news_url": "https://news.google.com/search?q=%22Kier%20Group%20plc%22",
+    "added_at": "2026-09-15T07:19:31.736143"
+  },
+  {
+    "company": "Big Yellow Group PLC",
+    "ticker": "BYG",
+    "publish_date": "15 September 2026",
+    "date_iso": "2026-09-15",
+    "time_period": "",
+    "announcement_type": "Disposal",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li>Contracted to sell the <strong>Staines, Surrey</strong> industrial estate for <strong>£36.5m</strong> and received the <strong>£2m</strong> retention from the previously announced <strong>Harrow</strong> disposal, giving combined gross proceeds of <strong>£75m</strong>.</li><li>Net debt to EBITDA currently approximately <strong>3.7x</strong>, expected to fall to the target of <strong>3.5x</strong> in due course.</li><li>Seven new stores opened since <strong>July 2025</strong>, including recent openings in <strong>Epsom</strong>, <strong>Kentish Town</strong> and a relocation at <strong>Staples Corner</strong> (all London), increasingly contributing to revenue.</li><li>Management says capex this year and next is largely funded from capital receipts and retained cash flow, without materially increasing absolute debt.</li><li>Big Yellow operates <strong>115 stores</strong> with a pipeline of <strong>0.8 million sq ft</strong> across 10 proposed facilities.</li></ul>",
+    "source_format": "html",
+    "headline": "Big Yellow has contracted to sell its Staines industrial estate for £36.5m and collected a £2m retention on the earlier Harrow sale, taking gross proceeds from the two disposals to £75m.",
+    "priority": "medium",
+    "priority_reason": "Asset disposal generating meaningful proceeds and confirming a deleveraging path, but not a results release or guidance change.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/big-yellow-BYG/share-news/Big-Yellow-Group-PLC-Disposal-of-Staines-Industria/99306452",
+    "related_news_url": "https://news.google.com/search?q=%22Big%20Yellow%20Group%20PLC%22",
+    "added_at": "2026-09-15T07:19:31.722459"
+  },
+  {
     "company": "Fresnillo plc",
     "ticker": "FRES",
     "publish_date": "15 September 2026",
