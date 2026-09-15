@@ -1,5 +1,112 @@
 [
   {
+    "company": "LSL Property Services PLC",
+    "ticker": "LSL",
+    "publish_date": "15 September 2026",
+    "date_iso": "2026-09-15",
+    "time_period": "H1 to 30 June 2026",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Interim results to 30 June 2026</strong>: Group revenue up <strong>3% to £92.3m</strong> (H1 2025: £89.7m); Group underlying operating profit up <strong>11% to £15.9m</strong> (H1 2025: £14.4m), with underlying operating margin up to <strong>17%</strong> from 16%.</li><li>Statutory operating profit up <strong>14% to £12.5m</strong>; adjusted diluted EPS up <strong>14% to 11.7p</strong>; ROCE (LTM) up to a record <strong>36%</strong> with cash conversion held at <strong>91%</strong>; net cash of <strong>£22.0m</strong>.</li><li>Launched a <strong>Group-wide transformation programme</strong> (initially Finance and Procurement) targeting at least <strong>£5m of annualised benefits</strong> building through 2027, with <strong>£4m of exceptional implementation costs</strong> spread over 2026-27, supporting an ambition to lift Group margin <strong>above 20%</strong>.</li><li>Interim dividend maintained at <strong>4.0p</strong>; <strong>£12m share buyback</strong> progressing (<strong>£4.8m</strong> deployed in the period) and on track to complete by <strong>January 2027</strong>.</li><li>By division: Surveying & Valuation revenue <strong>+6% to £56.2m</strong> and profit <strong>+11% to £13.1m</strong>; Financial Services revenue <strong>£22.8m</strong> with profit down to <strong>£3.4m</strong> (prior-year protection exits, CRM investment); Estate Agency Franchising profit <strong>+24% to £3.9m</strong> at a record 30% margin.</li><li>Board's <strong>FY2026 expectations on track</strong>, with a further increase in profits expected; residential sales transactions down 4% against a prior-year Stamp Duty spike, offset by resilient lettings and remortgaging demand.</li></ul>",
+    "source_format": "html",
+    "headline": "LSL Property Services reports H1 revenue up 3% to £92.3m and underlying operating profit up 11% to £15.9m, on track to meet FY2026 expectations.",
+    "priority": "high",
+    "priority_reason": "Half-year results with profit and margin growth, a new transformation programme and reaffirmed full-year expectations.",
+    "figures": [
+      {
+        "metric": "Group revenue",
+        "current": "£92.3m",
+        "prior": "£89.7m",
+        "change": "+3%",
+        "basis": "reported",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Group underlying operating profit",
+        "current": "£15.9m",
+        "prior": "£14.4m",
+        "change": "+11%",
+        "basis": "reported",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Group underlying operating margin",
+        "current": "17%",
+        "prior": "16%",
+        "change": "+1pt",
+        "basis": "reported",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Statutory operating profit",
+        "current": "£12.5m",
+        "prior": "£10.9m",
+        "change": "+14%",
+        "basis": "reported",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Adjusted diluted EPS",
+        "current": "11.7p",
+        "prior": "10.3p",
+        "change": "+14%",
+        "basis": "reported",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "ROCE (LTM)",
+        "current": "36%",
+        "prior": "31%",
+        "change": "+5pt",
+        "basis": "last 12 months",
+        "note": "record level"
+      },
+      {
+        "metric": "Cash conversion (LTM)",
+        "current": "91%",
+        "prior": "91%",
+        "change": "flat",
+        "basis": "last 12 months",
+        "note": "vs 31 December 2025"
+      },
+      {
+        "metric": "Net cash",
+        "current": "£22.0m",
+        "prior": "£22.0m",
+        "change": "flat",
+        "basis": "reported",
+        "note": "at 30 June 2026"
+      },
+      {
+        "metric": "Central costs",
+        "current": "£4.5m",
+        "prior": "£5.0m",
+        "change": "-8%",
+        "basis": "reported",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Interim dividend",
+        "current": "4.0p",
+        "prior": "4.0p",
+        "change": "flat",
+        "basis": "per share",
+        "note": "maintained"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Board's expectations for FY2026",
+      "current": "On track to meet full year expectations, with an expectation to deliver a further increase in profits",
+      "commentary": "Full-year guidance reaffirmed: trading since the period end has been as anticipated and the Board expects a further increase in profits. Separately, a new transformation programme targets at least £5m of annualised benefits building through 2027, supporting an ambition to raise Group underlying operating margin above 20%."
+    },
+    "explainer": "These are LSL's interim (half-year) results for the six months to 30 June 2026, compared against the same period a year earlier. Headline growth is modest at the top line (revenue +3%) but stronger on profit (+11% underlying, +14% statutory), reflecting cost discipline — central costs cut 8% — and the benefit of prior-year restructuring feeding through to margins. LSL stresses it is a largely B2B, capital-light business where most income is not directly tied to house-sale volumes, which cushions it from a softer residential transactions market (transactions down 4%, distorted by a prior-year Stamp Duty spike, and a weak London where LSL has limited exposure).\n\nThe divisional picture is mixed. Surveying & Valuation and Estate Agency Franchising both grew profit strongly (the latter at a record 30% first-half margin), while Financial Services profit fell to £3.4m from £4.3m — this is a deliberate drag from last year's exit of a number of protection-only firms and continued spending on a new CRM system, not a demand problem, since mortgage revenue there actually rose 8%.\n\nOn guidance, nothing has changed to the full-year outlook: the Board reaffirmed FY2026 expectations and still expects profits to rise further. The genuinely new item is a Group-wide transformation programme, starting with Finance and Procurement, expected to deliver at least £5m of annualised cost benefits building through 2027, against £4m of one-off implementation costs spread over 2026 and 2027. The stated aim is to push the group underlying operating margin above 20% (from 17% today) over time — a structural efficiency plan rather than a change to near-term forecasts.",
+    "source_url": "https://uk.advfn.com/stock-market/london/lsl-property-services-LSL/share-news/LSL-Property-Services-PLC-HALF-YEAR-RESULTS-TO-30/99306500",
+    "related_news_url": "https://news.google.com/search?q=%22LSL%20Property%20Services%20plc%22",
+    "added_at": "2026-09-15T07:20:05.923092"
+  },
+  {
     "company": "Kier Group PLC",
     "ticker": "KIE",
     "publish_date": "15 September 2026",
