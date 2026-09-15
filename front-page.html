@@ -179,6 +179,7 @@ img{display:block;max-width:100%}
 .signup button{background:var(--gold);color:#161009;border:none;border-radius:4px;padding:13px 22px;font-family:"DM Sans";font-weight:700;font-size:14px;cursor:pointer;transition:.2s}
 .signup button:hover{background:var(--gold-soft)}
 .signup .fineprint{margin-top:12px;font-family:"DM Mono",monospace;font-size:10.5px;color:#8189A0}
+.nl-modal[hidden]{display:none}.nl-modal{position:fixed;inset:0;z-index:9999;background:rgba(20,28,43,.7);display:flex;align-items:center;justify-content:center;padding:20px}.nl-card{background:var(--navy);color:#F3ECDD;border:1px solid var(--line-strong);border-radius:6px;max-width:440px;width:100%;padding:28px}.nl-card h4{font-family:"Playfair Display",serif;font-size:22px;margin-bottom:10px}.nl-card p{color:#B9C0CE;font-size:14.5px;line-height:1.6}.nl-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}.nl-actions a{background:var(--gold);color:#161009;border-radius:4px;padding:12px 20px;font-weight:700;text-decoration:none}.nl-actions button{background:transparent;color:#B9C0CE;border:1px solid rgba(255,255,255,.2)}
 
 /* footer */
 footer{margin-top:clamp(40px,4vw,68px);border-top:1px solid var(--line);padding:40px 0 60px}
@@ -410,13 +411,15 @@ footer{margin-top:clamp(40px,4vw,68px);border-top:1px solid var(--line);padding:
       <p>The most up-to-date equity and market research — and opinions on what's moving markets today.</p>
     </div>
     <div>
-      <form class="form" onsubmit="return false">
-        <input type="email" placeholder="you@example.co.uk" aria-label="Email address">
+      <form class="form" id="nlForm" novalidate>
+        <input type="email" id="nlEmail" required placeholder="you@example.co.uk" aria-label="Email address">
         <button type="submit">Subscribe</button>
       </form>
       <div class="fineprint">Free · UK markets focus · unsubscribe any time</div>
     </div>
   </section>
+
+<div class="nl-modal" id="nlModal" hidden role="dialog" aria-modal="true" aria-labelledby="nlTitle"><div class="nl-card"><h4 id="nlTitle">One more step</h4><p>In order to be signed up to our newsletter, you have to sign up for a free account. You can unsubscribe from this at any time.</p><div class="nl-actions"><a id="nlGo" href="https://equityandmarketsinsight.com/Join?list=weekly_newsletter" target="_top" rel="noopener">Create a free account</a><button type="button" id="nlClose">Not now</button></div></div></div>
 
 </main>
 
@@ -449,6 +452,8 @@ if(new URLSearchParams(location.search).has('embed')){
   st.textContent='.nav,footer{display:none !important}';
   document.head.appendChild(st);
 }
+
+const nlForm=document.getElementById('nlForm');if(nlForm){nlForm.addEventListener('submit',e=>{e.preventDefault();const inp=document.getElementById('nlEmail');if(!inp.value.trim()||!inp.checkValidity()){inp.reportValidity();return;}document.getElementById('nlGo').href='https://equityandmarketsinsight.com/Join?list=weekly_newsletter&email='+encodeURIComponent(inp.value.trim());document.getElementById('nlModal').hidden=false;});document.getElementById('nlClose').addEventListener('click',()=>{document.getElementById('nlModal').hidden=true;});}
 
 const root=document.documentElement, tb=document.getElementById('themeBtn');
 tb.addEventListener('click',()=>{const cur=root.getAttribute('data-theme')||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');root.setAttribute('data-theme',cur==='dark'?'light':'dark');});
