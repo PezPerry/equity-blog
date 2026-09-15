@@ -1,5 +1,72 @@
 [
   {
+    "company": "Princes Group plc",
+    "ticker": "PRN",
+    "publish_date": "15 September 2026",
+    "date_iso": "2026-09-15",
+    "time_period": "H1 to 30 June 2026",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Princes Group plc</strong> reported H1 revenue up <strong>7% to £999.4m</strong> (six months to <strong>30 June 2026</strong>), reflecting contributions from recent acquisitions including <strong>Princes France</strong>, <strong>Newlat GmbH</strong> and <strong>Plasmon</strong>.</li><li>Adjusted EBITDA rose <strong>7.5% to £79.3m</strong>; adjusted EBITDA margin held flat at <strong>7.9%</strong> as inflationary cost timing offset Italian-segment gains.</li><li>Underlying free cash flow of <strong>£90.1m</strong>, a <strong>115.3% FCF conversion</strong>; net cash grew to <strong>£374m</strong> (<strong>£481m</strong> excl. IFRS 16) from <strong>£311m</strong> at 31 December 2025.</li><li>In advanced negotiations on <strong>two potential acquisitions</strong>, with management anticipating completion of <strong>at least one</strong> over the coming months, funded from existing resources.</li><li>Plasmon integration insourced baby/medical pasta at <strong>Ozzano</strong>, delivering a <strong>30% COGS reduction</strong> and over <strong>€1.5m</strong> of fixed-cost absorption; further c.<strong>£2m</strong> of efficiencies identified.</li><li>Group continues to trade <strong>in line with Management's expectations for FY26</strong>; majority of agreed price increases effective from <strong>1 July</strong>, with benefit expected in Q3 and Q4.</li></ul>",
+    "source_format": "html",
+    "headline": "Princes Group H1 revenue rose 7% to £999.4m and adjusted EBITDA 7.5% to £79.3m, with net cash up to £374m.",
+    "priority": "high",
+    "priority_reason": "Interim results with revenue and EBITDA growth, plus disclosure of two advanced acquisition negotiations.",
+    "figures": [
+      {
+        "metric": "Revenue",
+        "current": "£999.4m",
+        "prior": "not stated",
+        "change": "+7%",
+        "basis": "reported",
+        "note": "H1 to 30 June 2026 vs H1 2025"
+      },
+      {
+        "metric": "Adjusted EBITDA",
+        "current": "£79.3m",
+        "prior": "not stated",
+        "change": "+7.5%",
+        "basis": "reported",
+        "note": "vs H1 2025"
+      },
+      {
+        "metric": "Adjusted EBITDA margin",
+        "current": "7.9%",
+        "prior": "7.9%",
+        "change": "unchanged",
+        "basis": "reported",
+        "note": "vs H1 2025"
+      },
+      {
+        "metric": "Underlying free cash flow",
+        "current": "£90.1m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "115.3% FCF conversion",
+        "note": "H1 2026"
+      },
+      {
+        "metric": "Net cash",
+        "current": "£374m",
+        "prior": "£311m",
+        "change": "not stated",
+        "basis": "£481m current excl. IFRS 16 vs £395m",
+        "note": "30 June 2026 vs 31 December 2025"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Management's expectations for FY26",
+      "current": "Princes remains well positioned for the remainder of the year and continues to trade in line with Management's expectations for FY26",
+      "commentary": "Full-year guidance is reaffirmed. The first half absorbed a timing lag on CPI pass-through, with most agreed price increases effective from 1 July, so the pricing benefit is expected to land in Q3 and Q4."
+    },
+    "explainer": "Revenue growth of 7% is reported (not organic): it is flattered by acquisitions completed over the past year — Princes France, Newlat GmbH and Plasmon — so the underlying like-for-like picture is softer. Several segments show that split: Italian revenue jumped 48.1% almost entirely on acquired sales, while on a like-for-like basis selling prices actually fell as durum wheat costs eased. The UK-weighted Foods unit went backwards on EBITDA (down 14.8%) because input costs were not yet fully passed on to customers.\n\nThe flat 7.9% EBITDA margin is the key trading signal: despite cost inflation, Princes protected profitability. Management attributes this to the timing of price increases — most agreed rises only took effect from 1 July, so the margin benefit is expected to show in the second half rather than the first.\n\nCash generation is the standout, with £90.1m of free cash flow and a 115.3% conversion rate lifting net cash to £374m. That balance sheet strength underpins the M&A message: the group is in advanced talks on two deals and expects to complete at least one, funded without new borrowing.\n\nGuidance is maintained — the group reiterates it is trading in line with expectations for FY26, with the second-half pricing benefit the main reason management is comfortable holding the full-year view.",
+    "source_url": "https://uk.advfn.com/stock-market/london/princes-PRN/share-news/Princes-Group-PLC-Interim-Results-for-the-six-mont/99306506",
+    "related_news_url": "https://news.google.com/search?q=%22Princes%20Group%20plc%22",
+    "added_at": "2026-09-15T07:21:55.749757"
+  },
+  {
     "company": "Pollen Street Group Limited",
     "ticker": "POLN",
     "publish_date": "15 September 2026",
