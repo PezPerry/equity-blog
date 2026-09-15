@@ -1,5 +1,138 @@
 [
   {
+    "company": "Trustpilot Group PLC",
+    "ticker": "TRST",
+    "publish_date": "15 September 2026",
+    "date_iso": "2026-09-15",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Marcus Roy</strong> took up the role of <strong>Chief Financial Officer</strong> and joined the Board effective <strong>14 September 2026</strong>, as first announced on <strong>24 March 2026</strong>.</li><li><strong>Hanno Damm</strong> stepped down from the Board on the same date and will remain with the business until <strong>October 2026</strong> to ensure a smooth transition.</li><li>Made under <strong>UK Listing Rule 6.4.6R</strong>; no matters require disclosure under Rule 6.4.8R — routine board disclosure with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Marcus Roy became Trustpilot CFO and joined the Board on 14 September 2026, with Hanno Damm stepping down the same day.",
+    "priority": "medium",
+    "priority_reason": "CFO handover is a management change with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/trustpilot-TRST/share-news/Trustpilot-Group-PLC-Directorate-change/99306538",
+    "related_news_url": "https://news.google.com/search?q=%22Trustpilot%20Group%20PLC%22",
+    "added_at": "2026-09-15T07:25:39.173589"
+  },
+  {
+    "company": "MJ Gleeson PLC",
+    "ticker": "GLE",
+    "publish_date": "15 September 2026",
+    "date_iso": "2026-09-15",
+    "time_period": "FY to 30 June 2026",
+    "announcement_type": "Annual results",
+    "period_detail": "FY to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>MJ Gleeson plc</strong> reported audited <strong>FY2026</strong> (year ended <strong>30 June 2026</strong>) results: <strong>1,968 homes</strong> sold, up <strong>9.8%</strong> (2025: 1,793), with a forward order book of <strong>848 plots</strong> (2025: 845).</li><li>Adjusted operating profit fell to <strong>£20.1m</strong> (2025: £22.3m); homes gross margin down to <strong>18.7%</strong> (2025: 20.7%); <strong>exceptional costs of £13.6m</strong> (2025: £1.3m) drove a <strong>basic loss of 3.3p per share</strong> before exceptionals.</li><li>Gleeson Land swung to an <strong>operating loss of £0.7m</strong> (2025: profit of £7.0m), impacted by deferral of transactions into the new year; land pipeline cut to <strong>14,927 plots</strong> (2025: 19,638).</li><li>Average selling prices up <strong>3.8%</strong> to <strong>£201,000</strong> (2025: £193,600); <strong>eight partnership agreements</strong> signed (2025: four).</li><li><strong>Final dividend cut to 1.0p</strong> (payable <strong>20 November 2026</strong>), total FY2026 dividend <strong>5.0p</strong>, covered 2.8x by normalised earnings, reflecting a prudent stance in a subdued market.</li><li><strong>Keith Adey</strong> (ex-Bellway CFO) appointed non-executive director and Audit Committee Chair from <strong>1 January 2026</strong>; Board expects <strong>FY2027</strong> result in line with market expectations (compiled consensus adjusted PBT <strong>£18.8m</strong>).</li></ul>",
+    "source_format": "html",
+    "headline": "Gleeson delivered a robust FY2026 with home completions up 9.8% to 1,968, but margins fell, exceptional costs hit £13.6m and the dividend was cut.",
+    "priority": "high",
+    "priority_reason": "Full-year audited results from a listed housebuilder, with margin decline, exceptional costs, a cut dividend and FY27 outlook.",
+    "figures": [
+      {
+        "metric": "Homes sold",
+        "current": "1,968",
+        "prior": "1,793",
+        "change": "+9.8%",
+        "basis": "",
+        "note": "FY to 30 June 2026; includes partnership equivalent units"
+      },
+      {
+        "metric": "Average selling price",
+        "current": "£201,000",
+        "prior": "£193,600",
+        "change": "+3.8%",
+        "basis": "",
+        "note": "underlying up 3.0%"
+      },
+      {
+        "metric": "Homes gross profit margin",
+        "current": "18.7%",
+        "prior": "20.7%",
+        "change": "-2.0pp",
+        "basis": "",
+        "note": ""
+      },
+      {
+        "metric": "Adjusted operating profit",
+        "current": "£20.1m",
+        "prior": "£22.3m",
+        "change": "not stated",
+        "basis": "before exceptional costs",
+        "note": ""
+      },
+      {
+        "metric": "Gleeson Land operating result",
+        "current": "loss of £0.7m",
+        "prior": "profit of £7.0m",
+        "change": "not stated",
+        "basis": "",
+        "note": ""
+      },
+      {
+        "metric": "Exceptional costs",
+        "current": "£13.6m",
+        "prior": "£1.3m",
+        "change": "not stated",
+        "basis": "",
+        "note": ""
+      },
+      {
+        "metric": "Basic EPS before exceptionals",
+        "current": "loss of 3.3p",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": ""
+      },
+      {
+        "metric": "Forward order book",
+        "current": "848 plots",
+        "prior": "845 plots",
+        "change": "not stated",
+        "basis": "",
+        "note": ""
+      },
+      {
+        "metric": "Land pipeline",
+        "current": "14,927 plots",
+        "prior": "19,638 plots",
+        "change": "not stated",
+        "basis": "",
+        "note": "prudent working-capital management and portfolio rationalisation"
+      },
+      {
+        "metric": "Total dividend",
+        "current": "5.0p",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "final dividend 1.0p; covered 2.8x"
+      }
+    ],
+    "guidance": {
+      "status": "new",
+      "previous": "",
+      "current": "The Board expects the Group to deliver an overall result for FY2027 in line with current market expectations. Company-compiled consensus for Adjusted Group Profit Before Tax for FY2027 is £18.8m, with a range of £17.0m to £20.0m.",
+      "commentary": "Management guides FY2027 in line with consensus (£18.8m adjusted PBT), but flags fewer operating sites into FY2027-28 from planning bottlenecks and pipeline rationalisation, plus build-cost inflation outpacing price rises which will slow margin recovery."
+    },
+    "explainer": "These are Gleeson's full-year audited results for the 12 months to 30 June 2026. The headline is a mixed picture: the Homes division sold nearly 10% more homes and raised prices, but its gross margin slipped from 20.7% to 18.7% as build-cost inflation outpaced selling-price growth. 'Adjusted' operating profit of £20.1m strips out one-off exceptional costs of £13.6m (largely tied to the 'Project Transform' restructuring), which is why the statutory bottom line is a basic loss of 3.3p per share.\n\nThe Land division, which promotes sites through planning and sells them on to other developers, had a weak year — swinging from a £7.0m operating profit to a £0.7m loss — because a number of land sales were deferred into the new financial year rather than lost. Its plot pipeline was deliberately reduced as the company conserved cash and rationalised its portfolio.\n\nThe dividend has been cut: the final payout is 1.0p and the full-year total is 5.0p, now covered 2.8 times by earnings, in line with the stated cover policy. Management framed this as a prudent choice to protect the balance sheet in a subdued market and keep capital flexible, rather than a sign of distress.\n\nOn guidance, the Board expects FY2027 to land in line with market expectations, pointing to a company-compiled consensus of £18.8m adjusted pre-tax profit (range £17.0m–£20.0m). It cautioned, however, that planning delays and pipeline rationalisation mean fewer active sites in FY2027 and FY2028 than previously planned, and that cost inflation and regulatory burdens will slow the pace of margin recovery.",
+    "source_url": "https://uk.advfn.com/stock-market/london/mj-gleeson-GLE/share-news/MJ-Gleeson-PLC-Final-Results/99306518",
+    "related_news_url": "https://news.google.com/search?q=%22MJ%20Gleeson%20plc%22",
+    "added_at": "2026-09-15T07:25:39.160418"
+  },
+  {
     "company": "Victorian Plumbing Group PLC",
     "ticker": "VIC",
     "publish_date": "15 September 2026",
