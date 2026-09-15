@@ -1,5 +1,106 @@
 [
   {
+    "company": "Victorian Plumbing Group PLC",
+    "ticker": "VIC",
+    "publish_date": "15 September 2026",
+    "date_iso": "2026-09-15",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Victorian Plumbing</strong> (AIM: VIC) has appointed <strong>Adam Knappy</strong> to the Board as an independent <strong>Non-Executive Director</strong> with immediate effect.</li><li>Knappy, <strong>aged 37</strong>, is currently Chief Marketing and Customer Officer of <strong>DAZN Group</strong> (since April 2025) and previously spent <strong>14 years at THG plc</strong>, including as Group CMO and CEO of its Media Division from 2018 to 2025.</li><li>He brings a data-driven marketing and customer-engagement background; Chairman <strong>Philip Bowcock</strong> said the appointment complements existing Board skills.</li><li>Knappy holds no interest in the Company's share capital; routine Board disclosure with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Victorian Plumbing appoints Adam Knappy as an independent Non-Executive Director with immediate effect.",
+    "priority": "medium",
+    "priority_reason": "Board appointment of a new independent Non-Executive Director — governance news with no trading or guidance impact.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/victorian-plumbing-VIC/share-news/Victorian-Plumbing-Group-PLC-Appointment-of-Non-Ex/99306534",
+    "related_news_url": "https://news.google.com/search?q=%22Victorian%20Plumbing%20Group%20PLC%22",
+    "added_at": "2026-09-15T07:24:14.168875"
+  },
+  {
+    "company": "Harworth Group PLC",
+    "ticker": "HWG",
+    "publish_date": "15 September 2026",
+    "date_iso": "2026-09-15",
+    "time_period": "Cost savings run-rate to end-2028 (base year FY to 31 December 2025)",
+    "announcement_type": "Trading update",
+    "period_detail": "Cost savings run-rate to end-2028 (base year FY to 31 December 2025)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li>Board targets total annualised run-rate cost savings of <strong>at least GBP7.4m</strong> by end-<strong>2028</strong>, of which <strong>GBP1.3m</strong> already realised via a headcount reduction earlier this year and <strong>94%</strong> planned by end-<strong>2027</strong>.</li><li>Phased run-rate savings of <strong>GBP3.2m</strong> (FY2026), <strong>GBP6.9m</strong> (FY2027) and <strong>GBP7.4m</strong> (FY2028), against an addressable cost base of <strong>GBP36.3m</strong> (FY2025 administrative expenses).</li><li>One-off implementation costs of <strong>GBP3.85m</strong> in aggregate, of which <strong>GBP0.7m</strong> already incurred; remaining GBP3.1m split GBP2.2m in FY2027 and GBP0.9m in FY2028.</li><li>Savings support a shift to a pure-play powered-land and industrial & logistics platform, targeting a low double-digit Total Accounting Return longer-term; excludes further gains from the digital transformation project completing this year.</li><li>Board <strong>unanimously and unequivocally rejects</strong> the unrecommended <strong>172.5p</strong> per share cash offer from <strong>Peel Bidco</strong>, urging shareholders not to accept and any who have accepted to withdraw.</li><li>Statement issued under Rule 28 of the Takeover Code, reported on by <strong>Ernst & Young</strong> (reporting accountants) and advisers <strong>Barclays</strong> and <strong>Peel Hunt</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Harworth published a Quantified Financial Benefits Statement targeting at least **GBP7.4m** annualised cost savings by end-2028 as it defends against Peel's 172.5p offer.",
+    "priority": "high",
+    "priority_reason": "Bid-defence document quantifying cost savings while the board reiterates rejection of Peel's 172.5p cash offer.",
+    "figures": [
+      {
+        "metric": "Annualised cost savings target",
+        "current": "at least GBP7.4m by end-2028",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "run-rate vs FY2025 cost base",
+        "note": "GBP1.3m already realised"
+      },
+      {
+        "metric": "Savings run-rate FY2026",
+        "current": "GBP3.2m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "annualised run-rate",
+        "note": ""
+      },
+      {
+        "metric": "Savings run-rate FY2027",
+        "current": "GBP6.9m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "annualised run-rate",
+        "note": "94% of target"
+      },
+      {
+        "metric": "Savings run-rate FY2028",
+        "current": "GBP7.4m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "annualised run-rate",
+        "note": ""
+      },
+      {
+        "metric": "Addressable cost base",
+        "current": "GBP36.3m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "FY2025 administrative expenses (audited)",
+        "note": "excludes capex"
+      },
+      {
+        "metric": "One-off implementation costs",
+        "current": "GBP3.85m aggregate",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "GBP0.7m already incurred",
+        "note": "GBP2.2m in FY2027, GBP0.9m in FY2028"
+      }
+    ],
+    "guidance": {
+      "status": "new",
+      "previous": "No prior quantified cost-savings target disclosed",
+      "current": "At least GBP7.4m annualised run-rate cost savings by end-2028 (GBP3.2m FY2026, GBP6.9m FY2027, GBP7.4m FY2028), with GBP3.85m one-off implementation costs",
+      "commentary": "A newly quantified savings programme issued as a Rule 28 Quantified Financial Benefits Statement to support the board's defence against Peel's 172.5p offer. It is a cost-savings target, not an earnings forecast, and explicitly excludes further gains expected from the digital transformation project."
+    },
+    "explainer": "This is a bid-defence document, not routine results. Harworth is being pursued by Peel Bidco at 172.5p per share in an unrecommended cash offer, and the board is setting out why it believes the company is worth more than the offer implies. Publishing a quantified cost-savings plan is a way of showing shareholders the value the board thinks it can deliver by staying independent.\n\nThe 'annualised run-rate' figures describe the ongoing yearly saving once each measure is fully in place, rather than the amount saved within a given calendar year. The plan builds from GBP3.2m of run-rate savings at end-2026 to at least GBP7.4m by end-2028, measured against an addressable cost base of GBP36.3m (the group's FY2025 administrative expenses, excluding capital spending). GBP1.3m has already been banked through earlier headcount cuts.\n\nDelivering the savings carries GBP3.85m of one-off implementation costs, most of which fall in FY2027-2028. The statement is a formal Rule 28 'Quantified Financial Benefits Statement' under the Takeover Code, checked by reporting accountants EY and advisers Barclays and Peel Hunt — but the company stresses it is not a profit forecast, and the savings could be achieved earlier, later or differently than estimated.\n\nSeparately, the board reaffirmed its unanimous rejection of Peel's 172.5p offer, advising shareholders not to accept and any who already have to withdraw their acceptances.",
+    "source_url": "https://uk.advfn.com/stock-market/london/harworth-HWG/share-news/Harworth-Group-PLC-Programme-to-achieve-cost-savin/99306531",
+    "related_news_url": "https://news.google.com/search?q=%22Harworth%20Group%20plc%22",
+    "added_at": "2026-09-15T07:24:14.140208"
+  },
+  {
     "company": "Wickes Group plc",
     "ticker": "WIX",
     "publish_date": "15 September 2026",
