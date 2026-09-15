@@ -1,5 +1,179 @@
 [
   {
+    "company": "Pollen Street Group Limited",
+    "ticker": "POLN",
+    "publish_date": "15 September 2026",
+    "date_iso": "2026-09-15",
+    "time_period": "H1 to 30 June 2026",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>H1 2026</strong> results: Fund Management EBITDA up <strong>73%</strong> on a like-for-like basis to <strong>GBP16.1m</strong> (H1 2025 adjusted: <strong>GBP9.3m</strong>), on track to meet full-year consensus.</li><li>Fund Management Income grew <strong>22%</strong> to <strong>GBP40.2m</strong> (H1 2025 adjusted: <strong>GBP33.0m</strong>), excluding <strong>GBP8.4m</strong> of non-recurring catch-up fees booked in H1 2025.</li><li>Total AuM rose <strong>20%</strong> to <strong>GBP8.5bn</strong> (31 Dec 2025: <strong>GBP7.1bn</strong>); fee-paying AuM up <strong>18%</strong> year-on-year to <strong>GBP5.5bn</strong>; reaffirms confidence in <strong>GBP10bn</strong> AuM target via next vintage funds.</li><li>Final close of <strong>Private Credit Fund IV</strong> at <strong>GBP2.5bn</strong>, 2.5x its original GBP1bn target; <strong>Private Equity Fund V</strong> now <strong>74%</strong> deployed.</li><li>Investment Company Net Investment Return of just <strong>3.4%</strong> (<strong>GBP5.7m</strong>) vs <strong>8.4%</strong> (<strong>GBP13.3m</strong>) a year earlier — significantly below target, dragged <strong>3.8%</strong> by <strong>Shawbrook Group Plc</strong> share-price weakness; underlying return <strong>7.4%</strong> (H1 2025: 8.8%).</li><li>Interim dividend of <strong>28.5p</strong> per share declared, maintaining the progressive dividend policy.</li></ul>",
+    "source_format": "html",
+    "headline": "Pollen Street posts 73% jump in Fund Management EBITDA to GBP16.1m as total AuM rises 20% to GBP8.5bn, with a 28.5p interim dividend.",
+    "priority": "high",
+    "priority_reason": "Half-year results with earnings figures, AuM growth, dividend and guidance commentary from a FTSE 250 asset manager.",
+    "figures": [
+      {
+        "metric": "Fund Management Income",
+        "current": "GBP40.2m",
+        "prior": "GBP33.0m",
+        "change": "+22%",
+        "basis": "H1 2025 adjusted, excluding GBP8.4m catch-up fees",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Fund Management EBITDA",
+        "current": "GBP16.1m",
+        "prior": "GBP9.3m",
+        "change": "+73%",
+        "basis": "like-for-like vs H1 2025 adjusted",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Income on Net Investment Assets",
+        "current": "GBP5.7m",
+        "prior": "GBP13.3m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "return of 3.4% vs 8.4% prior"
+      },
+      {
+        "metric": "Total AuM",
+        "current": "GBP8.5bn",
+        "prior": "GBP7.1bn",
+        "change": "+20%",
+        "basis": "vs 31 December 2025",
+        "note": "at 30 June 2026"
+      },
+      {
+        "metric": "Fee-Paying AuM",
+        "current": "GBP5.5bn",
+        "prior": "GBP5.2bn",
+        "change": "+5% in period; +18% year-on-year",
+        "basis": "vs 31 December 2025 / vs June 2025",
+        "note": "at 30 June 2026"
+      },
+      {
+        "metric": "Interim dividend",
+        "current": "28.5p",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "per share",
+        "note": "progressive policy maintained"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "GBP10 billion AuM target; full-year consensus for Fund Management EBITDA",
+      "current": "Confident of achieving GBP10 billion AuM target with next vintage flagship funds (Private Equity Fund VI, Private Credit Fund V); Fund Management EBITDA on track to meet full-year consensus; Management Fee Rate and Performance Fee Rate in line with long-term guidance",
+      "commentary": "Asset Manager guidance is reaffirmed and on track. The Investment Company's below-target H1 return was driven by isolated items (Shawbrook mark-to-market and fund equalisation), with the full-year outlook excluding the Shawbrook position stated to remain in line with expectations and returns weighted towards H2."
+    },
+    "explainer": "The strong headline growth in the Asset Manager is flattered slightly by the comparison base. In H1 2025 Pollen Street booked GBP8.4m of one-off 'catch-up' fees (retrospective management fees from investors joining Private Equity Fund V after its first close). Stripping those out, the company compares against an 'adjusted' H1 2025, on which Fund Management Income rose 22% and EBITDA jumped 73% — genuine underlying growth rather than a distortion.\n\nNote that fee-paying AuM (GBP5.5bn) grew far more slowly than total AuM (GBP8.5bn). This is because private credit funds charge fees on capital actually invested, not on commitments — so as the GBP1.8bn of undeployed commitments is put to work, fee-paying AuM (and fee income) should keep rising into H2 and FY27.\n\nThe weak spot is the Investment Company (Pollen Street's own balance-sheet investments), where the return more than halved to 3.4% from 8.4%. Management attributes this almost entirely to two isolated factors: the falling share price of Shawbrook (held via PSC Marlin LP since its October 2025 IPO), which cut returns by 3.8%, and a 0.2% equalisation effect from the Fund IV close. Adjusting for these, the underlying return was 7.4% versus 8.8% a year earlier, and returns are expected to weight towards the second half.\n\nGuidance is effectively maintained: the GBP10bn AuM target is reaffirmed, EBITDA is on track for full-year consensus, and fee rates are in line with long-term guidance. The full-year outlook excluding the volatile Shawbrook position is said to remain in line with expectations.",
+    "source_url": "https://uk.advfn.com/stock-market/london/pollen-street-POLN/share-news/Pollen-Street-Group-Limited-Interim-Accounts-H126/99306501",
+    "related_news_url": "https://news.google.com/search?q=%22Pollen%20Street%20Group%20Limited%22",
+    "added_at": "2026-09-15T07:21:23.220128"
+  },
+  {
+    "company": "IP Group PLC",
+    "ticker": "IPO",
+    "publish_date": "15 September 2026",
+    "date_iso": "2026-09-15",
+    "time_period": "H1 to 30 June 2026 (HY26)",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 to 30 June 2026 (HY26)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>NAV/share up 3.2% to 113.9p</strong>, closing NAV of <strong>£1bn</strong>; Group <strong>profit of £31m</strong> in H1.</li><li><strong>£68.7m</strong> cash proceeds from exits in H1, exceeding all of FY25 and tracking the <strong>£250m</strong> 2025-27 target; key contributors <strong>Hinge Health</strong> (£46m total, 53x, 46% IRR), <strong>Centessa</strong> (£18m) and <strong>Monolith/CoreWeave</strong> (£23m).</li><li><strong>Pfizer Obesity Royalty Income asset</strong> revalued up <strong>£27m to £152m</strong> as berobenatide/amylin combination entered <strong>Phase 2b</strong> in May 2026; commercial launch targeted <strong>2028</strong>.</li><li>Portfolio companies raised <strong>£543m</strong> of third-party capital (HY25: £372m), with IP Group contributing c.5%; the Group invested <strong>£30m</strong> (HY25: £36m).</li><li><strong>Michael Queen</strong>, former CEO of <strong>3i Group</strong>, appointed <strong>Chair</strong>.</li><li>Post-period: NAV/share c.<strong>117p</strong> at 11 September 2026, a further <strong>£17.1m</strong> cash proceeds, and <strong>Oxford Nanopore</strong> fair value up <strong>£26.4m</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "IP Group's NAV per share rose 3.2% to 113.9p in H1 2026, driven by a GBP27m uplift on its Pfizer obesity royalty asset and GBP68.7m of cash exits.",
+    "priority": "high",
+    "priority_reason": "Half-year results from an FTSE-listed investment company, with NAV growth and material portfolio developments.",
+    "figures": [
+      {
+        "metric": "NAV per share",
+        "current": "113.9p",
+        "prior": "not stated",
+        "change": "+3.2%",
+        "basis": "",
+        "note": "at 30 June 2026"
+      },
+      {
+        "metric": "NAV (total)",
+        "current": "£1.0bn",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "at 30 June 2026"
+      },
+      {
+        "metric": "Profit",
+        "current": "£31m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "H1 2026"
+      },
+      {
+        "metric": "Cash proceeds from exits",
+        "current": "£68.7m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "H1 2026; exceeds full FY25"
+      },
+      {
+        "metric": "Capital invested",
+        "current": "£30m",
+        "prior": "£36m",
+        "change": "not stated",
+        "basis": "",
+        "note": "HY26 vs HY25"
+      },
+      {
+        "metric": "Gross cash and deposits",
+        "current": "£239m",
+        "prior": "£211m",
+        "change": "not stated",
+        "basis": "",
+        "note": "vs FY25"
+      },
+      {
+        "metric": "Pfizer Obesity Royalty Income asset",
+        "current": "£152m",
+        "prior": "£125m (implied)",
+        "change": "+£27m",
+        "basis": "",
+        "note": "valuation uplift on Phase 2b advance"
+      },
+      {
+        "metric": "Portfolio company fundraising",
+        "current": "£543m",
+        "prior": "£372m",
+        "change": "not stated",
+        "basis": "",
+        "note": "HY26 vs HY25; Group c.5% of total"
+      },
+      {
+        "metric": "Assets managed or advised",
+        "current": "£553m",
+        "prior": "£663m",
+        "change": "not stated",
+        "basis": "",
+        "note": "HY26 vs HY25 (FY25: £557m)"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "More than £250m of cash realisations by end 2027",
+      "current": "On track against £250m target for 2025-27 exits; cumulative proceeds since start of 2025 now £137m (£154m including post-period realisations)",
+      "commentary": "The Group reiterated its multi-year exit target of over £250m by end 2027 and reported it remains on track, with H1 cash proceeds already exceeding the whole of FY25."
+    },
+    "explainer": "IP Group is a science and technology venture investor, so its key measure is net asset value (NAV) per share — the estimated worth of its portfolio holdings per share. NAV rose 3.2% to 113.9p, taking total NAV to £1bn. Much of the gain came from a single asset: the royalty income tied to Pfizer's obesity drug programme, which was written up by £27m to £152m after the berobenatide/amylin combination entered Phase 2b trials, reducing development risk.\n\nThe £68.7m of cash exits is significant because it exceeds all of the realisations IP Group achieved in the whole of 2025, and keeps it on course for its stated target of more than £250m of exits over 2025-27. Standout returns included Hinge Health, which delivered a 53x multiple on invested capital.\n\nComparatives are mostly against the first half of 2025 (HY25). The £543m raised by portfolio companies is third-party money going into IP Group's investees, not IP Group's own cash — the Group itself put in only around 5% — and is presented as external validation of portfolio quality. Guidance on the exit target is unchanged and reaffirmed as on track, rather than raised or lowered.",
+    "source_url": "https://uk.advfn.com/stock-market/london/ip-IPO/share-news/IP-Group-PLC-Half-year-Financial-Report/99306496",
+    "related_news_url": "https://news.google.com/search?q=%22IP%20Group%20plc%22",
+    "added_at": "2026-09-15T07:21:23.149355"
+  },
+  {
     "company": "LSL Property Services PLC",
     "ticker": "LSL",
     "publish_date": "15 September 2026",
