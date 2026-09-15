@@ -1,5 +1,57 @@
 [
   {
+    "company": "GSK plc",
+    "ticker": "GSK",
+    "publish_date": "15 September 2026",
+    "date_iso": "2026-09-15",
+    "time_period": "",
+    "announcement_type": "Acquisition / deal",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>GSK plc</strong> has agreed to acquire full global rights to a trispecific <strong>T cell-engager (TCE)</strong> for <strong>multiple myeloma</strong> from privately held <strong>Chimagen Biosciences</strong>.</li><li>Total potential deal value of up to <strong>$750 million</strong>: an upfront fee plus success-based development and commercial milestone payments.</li><li>The programme is expected to enter <strong>phase I trials in 2027</strong>; the asset targets T cells plus two tumour-associated antigens, aiming for deeper responses and improved tolerability versus existing TCEs.</li><li>Builds on GSK's prior agreement to acquire Chimagen's <strong>CMG1A46</strong>, a CD19/CD20-targeted TCE in phase I for B-cell malignancies and autoimmune disorders.</li><li>GSK cites a US multiple myeloma TCE market expected to exceed <strong>$10 billion by 2032</strong>; the deal is subject to customary closing conditions.</li><li>No financial guidance or near-term earnings impact stated; deal is early-stage (pre-phase I).</li></ul>",
+    "source_format": "html",
+    "headline": "GSK to acquire a potential best-in-class trispecific T cell-engager for multiple myeloma from Chimagen Biosciences in a deal worth up to $750m.",
+    "priority": "high",
+    "priority_reason": "M&A / licensing deal worth up to $750m expanding GSK's oncology pipeline.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/gsk-GSK/share-news/GSK-PLC-GSK-to-acquire-T-cell-engager-for-multiple/99306548",
+    "related_news_url": "https://news.google.com/search?q=%22GSK%20plc%22",
+    "added_at": "2026-09-15T07:39:49.103405"
+  },
+  {
+    "company": "Glenveagh Properties PLC",
+    "ticker": "GLV",
+    "publish_date": "15 September 2026",
+    "date_iso": "2026-09-15",
+    "time_period": "",
+    "announcement_type": "Secondary placing / share sale",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Teleios Capital Partners LLC</strong> sold <strong>20,633,681</strong> ordinary shares in <strong>Glenveagh Properties PLC</strong> at <strong>€2.23</strong> per share, representing approximately <strong>4.1%</strong> of issued share capital.</li><li>Following the placing, Teleios retains <strong>52,881,844</strong> shares, approximately <strong>10.6%</strong> of issued share capital, subject to a <strong>90-day lock-up</strong>.</li><li><strong>Glenveagh</strong> was allocated approximately <strong>€20 million</strong> in the placing, conducted under its ongoing buyback programme and the Resolution 10 authority approved at the <strong>15 May 2026</strong> AGM.</li><li><strong>Jefferies</strong> acted as Sole Global Coordinator and Sole Bookrunner; the Company will not receive any proceeds from the placing.</li><li>This is a secondary sale by an existing shareholder, not new issuance — no dilution and no new capital raised by Glenveagh.</li></ul>",
+    "source_format": "html",
+    "headline": "Teleios Capital sold **20,633,681** Glenveagh shares (**c.4.1%**) at **€2.23** each, with Glenveagh itself buying back **c.€20m** of stock in the placing.",
+    "priority": "high",
+    "priority_reason": "A 4.1% secondary placing by a major shareholder, alongside a company share buyback of shares, is a material capital-markets event.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/glenveagh-properties-cdi---glv/results-of-secondary-placing-in-glenveagh-plc/9771577",
+    "related_news_url": "https://news.google.com/search?q=%22Glenveagh%20Properties%20(CDI)%22",
+    "added_at": "2026-09-15T07:39:48.992473"
+  },
+  {
     "company": "Trustpilot Group PLC",
     "ticker": "TRST",
     "publish_date": "15 September 2026",
