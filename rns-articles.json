@@ -1,5 +1,120 @@
 [
   {
+    "company": "Pan African Resources PLC",
+    "ticker": "PAF",
+    "publish_date": "16 September 2026",
+    "date_iso": "2026-09-16",
+    "time_period": "FY to 30 June 2026 (FY26)",
+    "announcement_type": "Annual results",
+    "period_detail": "FY to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Revenue</strong> rose <strong>114.2%</strong> to <strong>US$1,156.5m</strong> (FY25: US$540.0m) and profit for the year rose <strong>153.8%</strong> to a record <strong>US$356.9m</strong> (FY25: US$140.6m), on gold production up almost <strong>40%</strong> year-on-year.</li><li><strong>EPS</strong> up <strong>145.8%</strong> to <strong>US 17.60 cents</strong> (FY25: 7.16c); <strong>HEPS</strong> up <strong>199.5%</strong> to <strong>US 17.64 cents</strong> (FY25: 5.89c); adjusted <strong>EBITDA</strong> up <strong>168.9%</strong> to <strong>US$609.4m</strong>.</li><li>Group is now degeared and in a <strong>net cash</strong> position with <strong>US$246.2m</strong> cash and short-term investments (FY25: net debt of US$150.5m), only outstanding debt being DMTNs of US$49.7m.</li><li>Record proposed final dividend of <strong>ZAR 1,583.6m</strong> (~US$96.2m), equal to <strong>2.98576 pence per share</strong>, taking the total FY26 dividend to <strong>ZAR 1,863.6m</strong> (~US$113.6m); subject to AGM approval on <strong>19 November 2026</strong>.</li><li>Group <strong>AISC</strong> rose <strong>16.7%</strong> to <strong>US$1,867/oz</strong> (FY25: US$1,600/oz), within FY26 guidance, hit by a stronger rand and slow Tennant Mines ramp-up; a <strong>share buy-back programme</strong> and <strong>board changes</strong> also announced.</li><li><strong>FY27 production guidance</strong> of <strong>280,000oz to 302,000oz</strong> with FY27 <strong>AISC guidance</strong> of <strong>US$2,075/oz to US$2,175/oz</strong>; Emmerson transaction completed and ASX listing achieved end June 2026.</li></ul>",
+    "source_format": "html",
+    "headline": "Pan African Resources delivered record FY26 results, with revenue up 114% to US$1,156.5m and profit up 154% to US$356.9m on record gold output.",
+    "priority": "high",
+    "priority_reason": "Full-year audited results with record production, earnings and dividend, plus a new share buy-back and FY27 guidance.",
+    "figures": [
+      {
+        "metric": "Revenue",
+        "current": "US$1,156.5m",
+        "prior": "US$540.0m",
+        "change": "+114.2%",
+        "basis": "",
+        "note": "FY to 30 June 2026"
+      },
+      {
+        "metric": "Profit for the year",
+        "current": "US$356.9m",
+        "prior": "US$140.6m",
+        "change": "+153.8%",
+        "basis": "",
+        "note": "record"
+      },
+      {
+        "metric": "Headline earnings",
+        "current": "US$358.0m",
+        "prior": "US$116.6m",
+        "change": "+207.0%",
+        "basis": "",
+        "note": ""
+      },
+      {
+        "metric": "Adjusted EBITDA",
+        "current": "US$609.4m",
+        "prior": "US$226.6m",
+        "change": "+168.9%",
+        "basis": "",
+        "note": ""
+      },
+      {
+        "metric": "Net cash from operating activities",
+        "current": "US$557.0m",
+        "prior": "US$154.9m",
+        "change": "+259.6%",
+        "basis": "",
+        "note": ""
+      },
+      {
+        "metric": "EPS",
+        "current": "US 17.60 cents",
+        "prior": "US 7.16 cents",
+        "change": "+145.8%",
+        "basis": "",
+        "note": ""
+      },
+      {
+        "metric": "HEPS",
+        "current": "US 17.64 cents",
+        "prior": "US 5.89 cents",
+        "change": "+199.5%",
+        "basis": "",
+        "note": ""
+      },
+      {
+        "metric": "Group AISC",
+        "current": "US$1,867/oz",
+        "prior": "US$1,600/oz",
+        "change": "+16.7%",
+        "basis": "",
+        "note": "within FY26 guidance of US$1,820-1,870/oz"
+      },
+      {
+        "metric": "Cash and short-term investments",
+        "current": "US$246.2m",
+        "prior": "US$49.5m",
+        "change": "not stated",
+        "basis": "",
+        "note": ""
+      },
+      {
+        "metric": "Net cash / (net debt)",
+        "current": "net cash",
+        "prior": "net debt US$150.5m",
+        "change": "not stated",
+        "basis": "",
+        "note": "only debt is DMTNs of US$49.7m"
+      },
+      {
+        "metric": "Final dividend",
+        "current": "2.98576 pence per share (ZA 65.0 cents; ~US$96.2m total)",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "record; total FY26 dividend ZAR 1,863.6m"
+      }
+    ],
+    "guidance": {
+      "status": "new",
+      "previous": "FY26 Group AISC guidance of US$1,820/oz to US$1,870/oz (actual US$1,867/oz)",
+      "current": "FY27 production guidance of 280,000oz to 302,000oz; FY27 Group AISC guidance of US$2,075/oz to US$2,175/oz (assuming US$/ZAR:17.00)",
+      "commentary": "Fresh FY27 targets accompany the results. Production is guided sharply higher, driven by MTR at expanded steady-state throughput and improved output from Tennant Mines' White Devil open pit; AISC is guided up to allow for above-inflation cost increases on reagents, electricity and other inputs."
+    },
+    "explainer": "This is Pan African's full-year audited results for the 12 months to 30 June 2026 (FY26), compared with the prior year to 30 June 2025 (FY25). The company reports in US dollars but is a South African-focused gold miner, so the rand/dollar exchange rate matters: a stronger rand (US$/ZAR:16.90 versus guidance of 18.50) pushed up dollar unit costs during the year.\n\nThe scale of the revenue and profit increases reflects both record gold production (up almost 40% year-on-year) and a sustained high gold price, which together lifted revenue by 114% and profit by 154%. Headline earnings and HEPS — the South African standard measures that strip out certain one-off items such as asset disposals — rose even faster than reported profit, indicating the underlying operating performance was the main driver rather than one-offs.\n\nThe balance sheet swung from net debt of US$150.5m a year ago to a net cash position, with US$246.2m of cash and short-term investments, despite heavy capital spending and dividends. That underpins the record final dividend (2.98576 pence per share) and the new share buy-back programme; combined they represent a payout ratio of 31.8% of discretionary cash flow, within the 40-50% policy band.\n\nOn guidance, these are new FY27 targets rather than a change to existing ones. Production is expected to rise materially to 280,000-302,000oz, weighted to the second half, but FY27 AISC is guided higher at US$2,075-2,175/oz — a rise driven by above-inflation cost pressures, not operational deterioration.",
+    "source_url": "https://uk.advfn.com/stock-market/london/pan-african-resources-PAF/share-news/Pan-African-Resources-Plc-Summarised-Audited-Res/99317186",
+    "related_news_url": "https://news.google.com/search?q=%22Pan%20African%20Resources%20PLC%22",
+    "added_at": "2026-09-16T07:18:20.381519"
+  },
+  {
     "company": "Credit Acceptance Corp",
     "ticker": "CACC",
     "publish_date": "16 September 2026",
