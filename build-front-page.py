@@ -14,6 +14,7 @@ Usage:
 """
 
 import argparse
+import datetime
 import html
 import json
 import os
@@ -34,6 +35,25 @@ VALID_PILLS = {"buy", "hold", "sell", "noact", "watch", "oval"}
 
 def esc(text):
     return html.escape(str(text), quote=True)
+
+
+MONTHS = ("Jan", "Feb", "Mar", "Apr", "May", "Jun",
+          "Jul", "Aug", "Sep", "Oct", "Nov", "Dec")
+
+
+def nice_date(iso):
+    """'2026-09-15' -> '15 Sep 2026' for the tile caption's date stamp.
+
+    The month names are spelled out here rather than taken from strftime so the
+    output cannot drift with the locale of whatever account runs the build. A
+    date the registry cannot parse is passed through untouched: a caption that
+    reads oddly is better than a crashed nightly publish.
+    """
+    try:
+        day = datetime.date.fromisoformat(str(iso))
+    except ValueError:
+        return iso
+    return "%d %s %d" % (day.day, MONTHS[day.month - 1], day.year)
 
 
 def load_registry():
@@ -109,24 +129,39 @@ def render_hero(tile):
 
 
 def render_block(tile, slot):
+    """One front-page tile: a 3:2 logo plate with the caption band below it.
+
+    `slot` is no longer used for layout - the grid is a uniform three columns,
+    so there are no named grid areas to key a class to - but it stays in the
+    signature because build() still pairs each tile with its registry slot.
+
+    Inside .plate the same cover is drawn twice: .bg is a blurred, cropped copy
+    that supplies the plate's colour field, and .photo is the real cover with
+    object-fit:contain over it, so a logo is never cropped. No text is drawn
+    over the image.
+    """
+    del slot  # layout no longer depends on the slot name
+
     bits = ['<span class="pill %s">%s</span>' % (esc(tile.get("pill", "watch")),
                                                  esc(tile.get("pill_label", "Analysis")))]
     for extra in tile.get("meta_extra", []):
         bits.append("<span>%s</span>" % esc(extra))
     if tile.get("ticker") and not tile.get("meta_extra"):
         bits.append("<span>%s</span>" % esc(tile["ticker"]))
+    bits.append("<span>%s</span>" % esc(nice_date(tile["date"])))
     meta = "".join(bits)
 
-    return """    <a class="block a-{slot}" data-tilt data-slug="{slug}" href="{url}">
-      <img class="photo" alt="{alt}" src="{cover}">
-      <div class="overlay"></div><div class="spotlight"></div>
-      <div class="content">
+    return """    <a class="block" data-slug="{slug}" href="{url}">
+      <div class="plate">
+        <img class="bg" src="{cover}" alt="" aria-hidden="true">
+        <img class="photo" alt="{alt}" src="{cover}">
+      </div>
+      <div class="caption">
         <span class="cat"><i class="swatch"></i>{cat}</span>
         <h4>{headline}</h4>
         <div class="meta">{meta}</div>
       </div>
     </a>""".format(
-        slot=esc(slot),
         slug=esc(tile["slug"]),
         url=esc(tile["url"]),
         alt=esc(tile["alt"]),

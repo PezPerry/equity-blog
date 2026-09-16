@@ -117,44 +117,51 @@ img{display:block;max-width:100%}
 .cat-btn{font-family:"DM Sans";font-weight:500;font-size:13.5px;padding:9px 17px;border-radius:999px;border:1px solid var(--line);background:color-mix(in srgb,var(--bg-card) 55%,transparent);color:var(--text-dim);transition:.2s}
 .cat-btn:hover{border-color:var(--accent);color:var(--accent);transform:translateY(-1px)}
 
-/* bento */
-.bento{display:grid;grid-template-columns:repeat(6,1fr);grid-auto-rows:194px;gap:clamp(12px,1.4vw,16px);
-  grid-template-areas:
-    "mega mega mega mega burn burn"
-    "mega mega mega mega burn burn"
-    "bp   bp   cna  cna  burn burn"
-    "hse  hse  hse  ejt  ejt  ejt"
-    "hse  hse  hse  ejt  ejt  ejt"
-    "tpk  tpk  zig  zig  ndx  ndx";}
-.a-mega{grid-area:mega}.a-burn{grid-area:burn}.a-bp{grid-area:bp}.a-cna{grid-area:cna}
-.a-hse{grid-area:hse}.a-ejt{grid-area:ejt}.a-tpk{grid-area:tpk}.a-zig{grid-area:zig}.a-ndx{grid-area:ndx}
+/* tiles — plate and caption (Option 1, chosen 16 Sep 2026)
+   Every tile is a card: a fixed 3:2 logo plate, then a caption band BELOW it.
+   Inside the plate the cover is drawn twice — .bg is a blurred, cropped copy
+   that supplies the plate's colour field, and .photo is the real cover on top
+   with object-fit:contain, so a logo is never cropped. No text over the image,
+   no tilt, no spotlight: the card lifts on hover and that is all. */
+.bento{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(12px,1.4vw,18px)}
 
-.block{position:relative;border:1px solid var(--line);border-radius:6px;overflow:hidden;cursor:pointer;
-  background:linear-gradient(160deg,#1c2c4d,#0e1626);
-  transform-style:preserve-3d;transition:transform .3s cubic-bezier(.2,.7,.2,1),border-color .3s,box-shadow .3s;will-change:transform}
-.block:hover{border-color:var(--line-strong);box-shadow:var(--shadow);z-index:5}
-.block .photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;z-index:1;transition:transform .55s cubic-bezier(.2,.7,.2,1)}
-.block:hover .photo{transform:scale(1.06)}
-/* Image crops are keyed to the ARTICLE, not the slot, so they travel with it as tiles rotate. */
-.block[data-slug="burnham-uk-markets"] .photo{object-position:72% 42%}
-.block[data-slug="mega-ipo-trap"] .photo{object-position:center 38%}
-.block .overlay{position:absolute;inset:0;z-index:2;background:linear-gradient(180deg,rgba(8,12,20,0) 0%,rgba(8,12,20,0) 46%,rgba(8,12,20,.55) 72%,rgba(8,12,20,.92) 100%)}
-.block .spotlight{position:absolute;inset:0;z-index:3;opacity:0;transition:opacity .3s;background:radial-gradient(260px 260px at var(--mx,50%) var(--my,50%),rgba(212,168,83,.22),transparent 60%)}
-.block:hover .spotlight{opacity:1}
-.block .content{position:absolute;inset:0;z-index:4;display:flex;flex-direction:column;justify-content:flex-end;padding:16px 17px;transform:translateZ(26px)}
-.block .cat{font-family:"DM Mono",monospace;font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--gold-soft);margin-bottom:9px;display:flex;align-items:center;gap:8px;text-shadow:0 1px 8px rgba(0,0,0,.6)}
-.block .cat .swatch{width:16px;height:2px;background:currentColor;display:inline-block}
-.block h4{font-family:"Playfair Display",serif;color:#fff;font-weight:700;line-height:1.14;font-size:clamp(15px,1.5vw,19px);letter-spacing:-.005em;text-wrap:balance;text-shadow:0 1px 16px rgba(0,0,0,.6)}
-.block.a-mega h4,.block.a-burn h4{font-size:clamp(18px,2.1vw,25px)}
-.block.a-mega .content,.block.a-burn .content{padding:22px}
-.block .meta{margin-top:9px;font-family:"DM Mono",monospace;font-size:10.5px;color:rgba(255,255,255,.78);display:flex;gap:10px;align-items:center;text-shadow:0 1px 8px rgba(0,0,0,.6)}
-.block .pill{font-family:"DM Mono",monospace;font-size:10px;letter-spacing:.08em;padding:2px 7px;border-radius:3px;text-transform:uppercase}
-.pill.buy{background:rgba(63,166,106,.94);color:#04140b}
-.pill.sell{background:rgba(232,69,60,.94);color:#fff}
-.pill.hold{background:rgba(212,168,83,.94);color:#1a1206}
-.pill.watch{background:rgba(255,255,255,.20);color:#fff;border:1px solid rgba(255,255,255,.34)}
-.pill.oval{background:rgba(27,42,74,.94);color:#FF8A80;border:1px solid rgba(255,138,128,.4)}
-.pill.noact{background:rgba(212,168,83,.20);color:#E4C583;border:1px solid rgba(212,168,83,.45)}
+.block{display:flex;flex-direction:column;background:var(--bg-card);border:1px solid var(--line);
+  border-radius:6px;overflow:hidden;cursor:pointer;
+  transition:transform .25s cubic-bezier(.2,.7,.2,1),border-color .25s,box-shadow .25s}
+.block:hover{border-color:var(--line-strong);box-shadow:var(--shadow);transform:translateY(-3px);z-index:5}
+
+/* the plate keeps a strict 3:2 so every logo field on a row is identical;
+   spare row height is taken up by the caption, not by the image */
+.block .plate{position:relative;aspect-ratio:3/2;background:var(--navy);overflow:hidden;flex:none}
+.block .plate .bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;
+  filter:blur(46px) saturate(1.04) brightness(.9);transform:scale(1.3)}
+.block .plate .photo{position:relative;z-index:1;width:100%;height:100%;
+  object-fit:contain;object-position:center}
+
+.block .caption{flex:1;display:flex;flex-direction:column;gap:9px;padding:14px 15px 13px}
+.block .cat{font-family:"DM Mono",monospace;font-size:10px;letter-spacing:.2em;text-transform:uppercase;
+  color:var(--accent);display:flex;align-items:center;gap:8px}
+.block .cat .swatch{width:16px;height:2px;background:currentColor;display:inline-block;flex:none}
+.block h4{font-family:"Playfair Display",serif;font-weight:700;font-size:16px;line-height:1.16;
+  letter-spacing:-.005em;text-wrap:balance;color:var(--text)}
+.block .meta{margin-top:auto;padding-top:4px;display:flex;flex-wrap:wrap;gap:8px 10px;align-items:center;
+  font-family:"DM Mono",monospace;font-size:10.5px;color:var(--text-faint)}
+
+/* verdict pills, now read on a light caption band rather than over a photo */
+.pill{font-family:"DM Mono",monospace;font-size:10px;letter-spacing:.09em;text-transform:uppercase;
+  padding:3px 8px;border-radius:3px;line-height:1.35;white-space:nowrap}
+.pill.buy{background:var(--green);color:#04140b}
+.pill.sell{background:var(--red);color:#fff}
+.pill.hold{background:var(--gold);color:#1a1206}
+.pill.watch{background:transparent;color:var(--text-dim);border:1px solid var(--line-strong)}
+.pill.oval{background:transparent;color:var(--red);border:1px solid rgba(232,69,60,.5)}
+.pill.noact{background:transparent;color:var(--accent);border:1px solid rgba(169,129,46,.5)}
+/* the same pills on the dark card */
+:root[data-theme="dark"] .pill.watch{color:#CFD6E2;border-color:rgba(255,255,255,.32)}
+:root[data-theme="dark"] .pill.oval{color:#FF8A80;border-color:rgba(255,138,128,.45)}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme]) .pill.watch{color:#CFD6E2;border-color:rgba(255,255,255,.32)}
+  :root:not([data-theme]) .pill.oval{color:#FF8A80;border-color:rgba(255,138,128,.45)}}
 
 /* verdict strip */
 .strip{margin-top:clamp(34px,4vw,54px);border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:22px 0}
@@ -203,27 +210,12 @@ footer{margin-top:clamp(40px,4vw,68px);border-top:1px solid var(--line);padding:
   .nav-links{display:none}
 }
 @media (max-width:980px){
-  .bento{grid-template-columns:1fr 1fr;grid-auto-rows:158px;
-    grid-template-areas:
-      "mega mega"
-      "mega mega"
-      "burn burn"
-      "burn burn"
-      "bp   cna"
-      "hse  hse"
-      "hse  hse"
-      "ejt  ejt"
-      "ejt  ejt"
-      "tpk  zig"
-      "ndx  ndx";}
-  .block[data-slug="burnham-uk-markets"] .photo{object-position:center}
+  .bento{grid-template-columns:repeat(2,1fr)}
   .signup{grid-template-columns:1fr}
   .strip-inner{grid-template-columns:1fr}
 }
 @media (max-width:600px){
-  .bento{grid-template-columns:1fr;grid-auto-rows:auto;grid-template-areas:none}
-  .block{grid-area:auto !important;aspect-ratio:16/10}
-  .block[data-slug="burnham-uk-markets"] .photo{object-position:center 30%}
+  .bento{grid-template-columns:1fr}
 }
 @media (prefers-reduced-motion:reduce){*{transition-duration:.001ms !important}.latest-ribbon .dot{animation:none}}
 </style>
@@ -290,93 +282,111 @@ footer{margin-top:clamp(40px,4vw,68px);border-top:1px solid var(--line);padding:
   <section class="bento" id="bento">
     <!-- TILES:START — generated from front-page-tiles.json by build-front-page.py. Do not hand-edit. -->
 
-    <a class="block a-mega" data-tilt data-slug="gsk-plc-gsk-hold-big-safe-and-barely-growing" href="gsk-plc-gsk-hold-big-safe-and-barely-growing.html">
-      <img class="photo" alt="GSK plc (GSK) — Hold: Big, Safe and Barely Growing" src="gsk-plc-gsk-hold-big-safe-and-barely-growing-cover.png">
-      <div class="overlay"></div><div class="spotlight"></div>
-      <div class="content">
+    <a class="block" data-slug="gsk-plc-gsk-hold-big-safe-and-barely-growing" href="gsk-plc-gsk-hold-big-safe-and-barely-growing.html">
+      <div class="plate">
+        <img class="bg" src="gsk-plc-gsk-hold-big-safe-and-barely-growing-cover.png" alt="" aria-hidden="true">
+        <img class="photo" alt="GSK plc (GSK) — Hold: Big, Safe and Barely Growing" src="gsk-plc-gsk-hold-big-safe-and-barely-growing-cover.png">
+      </div>
+      <div class="caption">
         <span class="cat"><i class="swatch"></i>Analysis</span>
         <h4>GSK plc (GSK) — Hold: Big, Safe and Barely Growing</h4>
-        <div class="meta"><span class="pill watch">Analysis</span></div>
+        <div class="meta"><span class="pill watch">Analysis</span><span>15 Sep 2026</span></div>
       </div>
     </a>
 
-    <a class="block a-burn" data-tilt data-slug="currys-plc-cury-reduce-selling-more-keeping-little" href="currys-plc-cury-reduce-selling-more-keeping-little.html">
-      <img class="photo" alt="Currys plc (CURY) — Reduce: Selling More, Keeping Little" src="currys-plc-cury-reduce-selling-more-keeping-little-cover.png">
-      <div class="overlay"></div><div class="spotlight"></div>
-      <div class="content">
+    <a class="block" data-slug="currys-plc-cury-reduce-selling-more-keeping-little" href="currys-plc-cury-reduce-selling-more-keeping-little.html">
+      <div class="plate">
+        <img class="bg" src="currys-plc-cury-reduce-selling-more-keeping-little-cover.png" alt="" aria-hidden="true">
+        <img class="photo" alt="Currys plc (CURY) — Reduce: Selling More, Keeping Little" src="currys-plc-cury-reduce-selling-more-keeping-little-cover.png">
+      </div>
+      <div class="caption">
         <span class="cat"><i class="swatch"></i>Analysis</span>
         <h4>Currys plc (CURY) — Reduce: Selling More, Keeping Little</h4>
-        <div class="meta"><span class="pill watch">Analysis</span></div>
+        <div class="meta"><span class="pill watch">Analysis</span><span>15 Sep 2026</span></div>
       </div>
     </a>
 
-    <a class="block a-bp" data-tilt data-slug="crowdstrike-holdings-inc-crwd-pass-growth-slowing-losses-widening" href="crowdstrike-holdings-inc-crwd-pass-growth-slowing-losses-widening.html">
-      <img class="photo" alt="CrowdStrike Holdings, Inc. (CRWD) — Pass: Growth Slowing, Losses Widening" src="crowdstrike-holdings-inc-crwd-pass-growth-slowing-losses-widening-cover.png">
-      <div class="overlay"></div><div class="spotlight"></div>
-      <div class="content">
+    <a class="block" data-slug="crowdstrike-holdings-inc-crwd-pass-growth-slowing-losses-widening" href="crowdstrike-holdings-inc-crwd-pass-growth-slowing-losses-widening.html">
+      <div class="plate">
+        <img class="bg" src="crowdstrike-holdings-inc-crwd-pass-growth-slowing-losses-widening-cover.png" alt="" aria-hidden="true">
+        <img class="photo" alt="CrowdStrike Holdings, Inc. (CRWD) — Pass: Growth Slowing, Losses Widening" src="crowdstrike-holdings-inc-crwd-pass-growth-slowing-losses-widening-cover.png">
+      </div>
+      <div class="caption">
         <span class="cat"><i class="swatch"></i>Analysis</span>
         <h4>CrowdStrike Holdings, Inc. (CRWD) — Pass: Growth Slowing, Losses Widening</h4>
-        <div class="meta"><span class="pill watch">Analysis</span></div>
+        <div class="meta"><span class="pill watch">Analysis</span><span>15 Sep 2026</span></div>
       </div>
     </a>
 
-    <a class="block a-cna" data-tilt data-slug="strait-of-hormuz-tracking-the-ships" href="strait-of-hormuz-tracking-the-ships.html">
-      <img class="photo" alt="Sketch of an Iranian cleric and Donald Trump facing each other across a map of the Strait of Hormuz" src="strait-of-hormuz-tracking-the-ships-cover.png">
-      <div class="overlay"></div><div class="spotlight"></div>
-      <div class="content">
+    <a class="block" data-slug="strait-of-hormuz-tracking-the-ships" href="strait-of-hormuz-tracking-the-ships.html">
+      <div class="plate">
+        <img class="bg" src="strait-of-hormuz-tracking-the-ships-cover.png" alt="" aria-hidden="true">
+        <img class="photo" alt="Sketch of an Iranian cleric and Donald Trump facing each other across a map of the Strait of Hormuz" src="strait-of-hormuz-tracking-the-ships-cover.png">
+      </div>
+      <div class="caption">
         <span class="cat"><i class="swatch"></i>Commodities · Shipping Monitor</span>
         <h4>Strait of Hormuz: Tracking the Ships</h4>
-        <div class="meta"><span class="pill watch">Analysis</span><span>Four sources · 14 Mar – 3 Sep 2026</span></div>
+        <div class="meta"><span class="pill watch">Analysis</span><span>Four sources · 14 Mar – 3 Sep 2026</span><span>4 Sep 2026</span></div>
       </div>
     </a>
 
-    <a class="block a-hse" data-tilt data-slug="persimmon-plc-psn-hold-building-more-banking-less" href="persimmon-plc-psn-hold-building-more-banking-less.html">
-      <img class="photo" alt="Persimmon plc (PSN) — Hold: Building More, Banking Less" src="persimmon-plc-psn-hold-building-more-banking-less-cover.png">
-      <div class="overlay"></div><div class="spotlight"></div>
-      <div class="content">
+    <a class="block" data-slug="persimmon-plc-psn-hold-building-more-banking-less" href="persimmon-plc-psn-hold-building-more-banking-less.html">
+      <div class="plate">
+        <img class="bg" src="persimmon-plc-psn-hold-building-more-banking-less-cover.png" alt="" aria-hidden="true">
+        <img class="photo" alt="Persimmon plc (PSN) — Hold: Building More, Banking Less" src="persimmon-plc-psn-hold-building-more-banking-less-cover.png">
+      </div>
+      <div class="caption">
         <span class="cat"><i class="swatch"></i>Analysis</span>
         <h4>Persimmon plc (PSN) — Hold: Building More, Banking Less</h4>
-        <div class="meta"><span class="pill watch">Analysis</span></div>
+        <div class="meta"><span class="pill watch">Analysis</span><span>2 Sep 2026</span></div>
       </div>
     </a>
 
-    <a class="block a-ejt" data-tilt data-slug="convatec-group-plc-ctec-sell-priced-on-adjusted-judged-on-reported" href="convatec-group-plc-ctec-sell-priced-on-adjusted-judged-on-reported.html">
-      <img class="photo" alt="ConvaTec Group PLC (CTEC) — Sell: Priced on Adjusted, Judged on Reported" src="convatec-group-plc-ctec-sell-priced-on-adjusted-judged-on-reported-cover.png">
-      <div class="overlay"></div><div class="spotlight"></div>
-      <div class="content">
+    <a class="block" data-slug="convatec-group-plc-ctec-sell-priced-on-adjusted-judged-on-reported" href="convatec-group-plc-ctec-sell-priced-on-adjusted-judged-on-reported.html">
+      <div class="plate">
+        <img class="bg" src="convatec-group-plc-ctec-sell-priced-on-adjusted-judged-on-reported-cover.png" alt="" aria-hidden="true">
+        <img class="photo" alt="ConvaTec Group PLC (CTEC) — Sell: Priced on Adjusted, Judged on Reported" src="convatec-group-plc-ctec-sell-priced-on-adjusted-judged-on-reported-cover.png">
+      </div>
+      <div class="caption">
         <span class="cat"><i class="swatch"></i>Analysis</span>
         <h4>ConvaTec Group PLC (CTEC) — Sell: Priced on Adjusted, Judged on Reported</h4>
-        <div class="meta"><span class="pill watch">Analysis</span></div>
+        <div class="meta"><span class="pill watch">Analysis</span><span>26 Aug 2026</span></div>
       </div>
     </a>
 
-    <a class="block a-tpk" data-tilt data-slug="next-plc-nxt-reduce-everything-right-except-the-price" href="next-plc-nxt-reduce-everything-right-except-the-price.html">
-      <img class="photo" alt="Next plc (NXT) — Reduce: Everything Right Except the Price" src="next-plc-nxt-reduce-everything-right-except-the-price-cover.png">
-      <div class="overlay"></div><div class="spotlight"></div>
-      <div class="content">
+    <a class="block" data-slug="next-plc-nxt-reduce-everything-right-except-the-price" href="next-plc-nxt-reduce-everything-right-except-the-price.html">
+      <div class="plate">
+        <img class="bg" src="next-plc-nxt-reduce-everything-right-except-the-price-cover.png" alt="" aria-hidden="true">
+        <img class="photo" alt="Next plc (NXT) — Reduce: Everything Right Except the Price" src="next-plc-nxt-reduce-everything-right-except-the-price-cover.png">
+      </div>
+      <div class="caption">
         <span class="cat"><i class="swatch"></i>Analysis</span>
         <h4>Next plc (NXT) — Reduce: Everything Right Except the Price</h4>
-        <div class="meta"><span class="pill watch">Analysis</span></div>
+        <div class="meta"><span class="pill watch">Analysis</span><span>26 Aug 2026</span></div>
       </div>
     </a>
 
-    <a class="block a-zig" data-tilt data-slug="natwest-group-plc-nwg-strong-buy-earning-more-priced-for-less" href="natwest-group-plc-nwg-strong-buy-earning-more-priced-for-less.html">
-      <img class="photo" alt="NatWest Group plc (NWG) — Strong Buy: Earning More, Priced for Less" src="natwest-group-plc-nwg-strong-buy-earning-more-priced-for-less-cover.png">
-      <div class="overlay"></div><div class="spotlight"></div>
-      <div class="content">
+    <a class="block" data-slug="natwest-group-plc-nwg-strong-buy-earning-more-priced-for-less" href="natwest-group-plc-nwg-strong-buy-earning-more-priced-for-less.html">
+      <div class="plate">
+        <img class="bg" src="natwest-group-plc-nwg-strong-buy-earning-more-priced-for-less-cover.png" alt="" aria-hidden="true">
+        <img class="photo" alt="NatWest Group plc (NWG) — Strong Buy: Earning More, Priced for Less" src="natwest-group-plc-nwg-strong-buy-earning-more-priced-for-less-cover.png">
+      </div>
+      <div class="caption">
         <span class="cat"><i class="swatch"></i>Analysis</span>
         <h4>NatWest Group plc (NWG) — Strong Buy: Earning More, Priced for Less</h4>
-        <div class="meta"><span class="pill watch">Analysis</span></div>
+        <div class="meta"><span class="pill watch">Analysis</span><span>26 Aug 2026</span></div>
       </div>
     </a>
 
-    <a class="block a-ndx" data-tilt data-slug="jd-sports-fashion-plc-jd-sell-worth-what-it-costs-which-is-not-enough" href="jd-sports-fashion-plc-jd-sell-worth-what-it-costs-which-is-not-enough.html">
-      <img class="photo" alt="JD Sports Fashion plc (JD.) — Sell: Worth What It Costs, Which Is Not Enough" src="jd-sports-fashion-plc-jd-sell-worth-what-it-costs-which-is-not-enough-cover.png">
-      <div class="overlay"></div><div class="spotlight"></div>
-      <div class="content">
+    <a class="block" data-slug="jd-sports-fashion-plc-jd-sell-worth-what-it-costs-which-is-not-enough" href="jd-sports-fashion-plc-jd-sell-worth-what-it-costs-which-is-not-enough.html">
+      <div class="plate">
+        <img class="bg" src="jd-sports-fashion-plc-jd-sell-worth-what-it-costs-which-is-not-enough-cover.png" alt="" aria-hidden="true">
+        <img class="photo" alt="JD Sports Fashion plc (JD.) — Sell: Worth What It Costs, Which Is Not Enough" src="jd-sports-fashion-plc-jd-sell-worth-what-it-costs-which-is-not-enough-cover.png">
+      </div>
+      <div class="caption">
         <span class="cat"><i class="swatch"></i>Analysis</span>
         <h4>JD Sports Fashion plc (JD.) — Sell: Worth What It Costs, Which Is Not Enough</h4>
-        <div class="meta"><span class="pill watch">Analysis</span></div>
+        <div class="meta"><span class="pill watch">Analysis</span><span>26 Aug 2026</span></div>
       </div>
     </a>
 
@@ -554,9 +564,12 @@ const RM=matchMedia('(prefers-reduced-motion: reduce)').matches;
   size();frame();loop();
 })();
 
-/* tile + card tilt / spotlight */
-document.querySelectorAll('[data-tilt]').forEach(el=>{
-  const strength=el.classList.contains('latest')?4:(el.classList.contains('a-mega')||el.classList.contains('a-burn')?6:9);
+/* Tilt / spotlight — the masthead's LATEST card only. The front-page tiles are
+   plate-and-caption cards now: they carry no data-tilt, have no .spotlight to
+   light and no text over the image to keep upright, and lift on hover in CSS.
+   Scoped to .latest so it can never bind to a tile again. */
+document.querySelectorAll('.latest[data-tilt]').forEach(el=>{
+  const strength=4;
   el.addEventListener('pointermove',e=>{const r=el.getBoundingClientRect();const px=(e.clientX-r.left)/r.width,py=(e.clientY-r.top)/r.height;
     el.style.setProperty('--mx',(px*100)+'%');el.style.setProperty('--my',(py*100)+'%');
     if(RM)return;const rx=(0.5-py)*strength,ry=(px-0.5)*strength;
