@@ -1,5 +1,98 @@
 [
   {
+    "company": "WH Smith PLC",
+    "ticker": "SMWH",
+    "publish_date": "16 September 2026",
+    "date_iso": "2026-09-16",
+    "time_period": "FY to 31 August 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "FY to 31 August 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Full-year Headline Group profit before tax</strong> (pre non-underlying items) expected at <strong>c.£75m</strong>, in line with expectations, reflecting lower trading margins from increased promotional activity, reduced brand marketing and inflation, offset by central cost cuts and lower interest costs.</li><li><strong>UK</strong> Q4 total revenue <strong>+7%</strong> (<strong>LFL +4%</strong>): Air total <strong>+7%</strong> (LFL +2%), Hospital total <strong>+9%</strong> (LFL +8%), Rail total <strong>+5%</strong> (LFL +4%).</li><li><strong>North America</strong> Q4 total revenue <strong>+5%</strong> (constant currency +5%), but <strong>LFL -3%</strong>; Air total <strong>+13%</strong> yet <strong>LFL -2%</strong> on softer passenger volumes; Resorts total <strong>-26%</strong> on lower visitors and fashion store rationalisation.</li><li><strong>Rest of World</strong> Q4 total revenue <strong>-4%</strong> (constant currency -6%) with store closures; Group exited <strong>Norway</strong> and agreed to exit <strong>Denmark</strong>, <strong>Sweden</strong> (early 2027) and the <strong>Netherlands</strong> (2027).</li><li>Following the <strong>10 June 2026</strong> capital raise (net proceeds <strong>£103m</strong>), net debt expected at <strong>c.£325m</strong> as at <strong>31 August 2026</strong>, leverage around <strong>2.0x</strong>, in line with expectations.</li><li>Sale of <strong>Cult Pens</strong> completed early <strong>September 2026</strong>; preliminary results due <strong>12 November 2026</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "WH Smith expects full-year Headline Group profit before tax of c.£75m, in line with expectations, after solid peak summer trading.",
+    "priority": "high",
+    "priority_reason": "Pre-close trading update confirming full-year profit expectations, net debt and divisional performance ahead of preliminary results.",
+    "figures": [
+      {
+        "metric": "Headline Group profit before tax (pre non-underlying items)",
+        "current": "c.£75m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "in line with expectations",
+        "note": "FY to 31 August 2026"
+      },
+      {
+        "metric": "Net debt",
+        "current": "c.£325m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "leverage around 2.0x",
+        "note": "as at 31 August 2026"
+      },
+      {
+        "metric": "UK Q4 total revenue",
+        "current": "+7%",
+        "prior": "not stated",
+        "change": "+7%",
+        "basis": "LFL +4%",
+        "note": "fourth quarter"
+      },
+      {
+        "metric": "North America Q4 total revenue",
+        "current": "+5%",
+        "prior": "not stated",
+        "change": "+5%",
+        "basis": "constant currency +5%; LFL -3%",
+        "note": "fourth quarter"
+      },
+      {
+        "metric": "Rest of World Q4 total revenue",
+        "current": "-4%",
+        "prior": "not stated",
+        "change": "-4%",
+        "basis": "constant currency -6%; LFL +3%",
+        "note": "fourth quarter"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "not stated",
+      "current": "Full year Headline Group profit before tax and non-underlying items expected to be c.£75m; net debt c.£325m with leverage around 2.0x",
+      "commentary": "Full-year profit and net debt are confirmed in line with expectations, with lower trading margins offset by central cost reductions and lower interest costs."
+    },
+    "explainer": "This is a pre-close update: WH Smith is signalling how the year to 31 August 2026 has finished before it reports audited preliminary results on 12 November 2026. The headline profit measure — Headline Group profit before tax and before non-underlying items of about £75m — strips out one-off charges, so the eventual statutory figure could differ. The company says this is in line with market expectations.\n\n'Total' revenue includes new and closed stores, while 'LFL' (like-for-like) strips those out to show underlying trading. The gap matters here: in North America total revenue rose 5% but LFL fell 3%, meaning growth came from new space rather than existing stores, where passenger volumes and demand were softer. Constant currency removes exchange-rate movements.\n\nNet debt of about £325m reflects June's £103m equity raise, which strengthened the balance sheet; leverage of around 2.0x (net debt to earnings) is described as in line with expectations. The Group is also reshaping its portfolio — exiting Norway, Denmark, Sweden and the Netherlands, rationalising US Resorts fashion stores, and selling Cult Pens — to focus on higher-return Travel Essentials.\n\nGuidance is effectively maintained: profit and net debt are both confirmed at the levels the market anticipated, so there is no upgrade or downgrade in this statement.",
+    "source_url": "https://uk.advfn.com/stock-market/london/wh-smith-SMWH/share-news/WH-Smith-PLC-Pre-close-Trading-Update/99317060",
+    "related_news_url": "https://news.google.com/search?q=%22WH%20Smith%20PLC%22",
+    "added_at": "2026-09-16T07:19:09.044773"
+  },
+  {
+    "company": "Moonpig Group PLC",
+    "ticker": "MOON",
+    "publish_date": "16 September 2026",
+    "date_iso": "2026-09-16",
+    "time_period": "FY27 (year commenced 1 May 2026), year to date",
+    "announcement_type": "Trading update",
+    "period_detail": "FY27 (year commenced 1 May 2026), year to date",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Moonpig Group plc</strong> reports <strong>group trading in line with expectations</strong> since the start of <strong>FY27</strong> (year commenced <strong>1 May 2026</strong>), with the <strong>FY27 outlook unchanged</strong> in this AGM trading update.</li><li>At <strong>Moonpig</strong>, revenue growth is driven by both <strong>order growth</strong> (expanding active customer base) and higher <strong>average order value</strong> via product upsell and modest growth in gift attach rate; <strong>Greetz</strong> delivers modest year-on-year growth on both reported and constant currency basis.</li><li>At <strong>Experiences</strong>, online gross transaction value continues to grow but reported revenue remains <strong>lower year-on-year</strong> due to the managed exit from certain third-party retail partnerships; revenue expected to return to <strong>year-on-year growth in H2</strong>.</li><li>Financial framework unchanged: targeting <strong>mid-to-high single digit</strong> annual revenue growth, an <strong>Adjusted EBITDA margin of 25% to 27%</strong>, <strong>double-digit</strong> Adjusted EPS growth, and continued <strong>share buybacks</strong>.</li><li>CEO <strong>Catherine Faiers</strong> cites disciplined strategy execution and says the group remains <strong>confident in its outlook</strong> for the year.</li></ul>",
+    "source_format": "html",
+    "headline": "Moonpig says group trading is in line with expectations year to date and its FY27 outlook remains unchanged.",
+    "priority": "high",
+    "priority_reason": "AGM trading update from an RNS-listed company confirming full-year guidance and outlook.",
+    "figures": [],
+    "guidance": {
+      "status": "maintained",
+      "previous": "FY27 outlook; targeting mid-to-high single digit percentage annual revenue growth and Adjusted EBITDA margin of 25% to 27%, double-digit Adjusted EPS growth",
+      "current": "FY27 outlook remains unchanged; same financial framework — mid-to-high single digit revenue growth, Adjusted EBITDA margin of 25% to 27%, double-digit Adjusted EPS growth",
+      "commentary": "Group trading has been in line with expectations since the start of FY27, so the outlook and financial framework are reaffirmed rather than changed."
+    },
+    "explainer": "This is an AGM trading update rather than a set of results, so it contains no hard financial figures — only a qualitative confirmation that trading has been 'in line with expectations' since the financial year began on 1 May 2026. The key takeaway for traders is simply that nothing has moved: the FY27 outlook and the medium-term financial framework are both unchanged.\n\nWithin the group, the core Moonpig brand is growing through more orders and higher average order value, and the Dutch Greetz brand is growing modestly on both a reported and constant-currency basis (meaning growth holds up even after stripping out euro/sterling exchange-rate effects). The Experiences division (Red Letter Days and Buyagift) is the soft spot: reported revenue is still falling year-on-year because management has deliberately exited some third-party retail partnerships, but underlying online transaction value is growing and the company expects Experiences revenue to turn positive in the second half.\n\nGuidance is maintained, not raised or lowered. The reaffirmed framework targets mid-to-high single-digit revenue growth, a 25%–27% Adjusted EBITDA margin, double-digit Adjusted EPS growth and ongoing share buybacks.",
+    "source_url": "https://uk.advfn.com/stock-market/london/moonpig-MOON/share-news/Moonpig-Group-plc-AGM-Trading-Update/99317042",
+    "related_news_url": "https://news.google.com/search?q=%22Moonpig%20Group%20plc%22",
+    "added_at": "2026-09-16T07:19:09.033755"
+  },
+  {
     "company": "Pan African Resources PLC",
     "ticker": "PAF",
     "publish_date": "16 September 2026",
