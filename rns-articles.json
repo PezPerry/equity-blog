@@ -1,5 +1,57 @@
 [
   {
+    "company": "Harworth Group PLC",
+    "ticker": "HWG",
+    "publish_date": "16 September 2026",
+    "date_iso": "2026-09-16",
+    "time_period": "",
+    "announcement_type": "Acquisition / deal",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Peel Pepper (UK) Limited</strong> (Bidco, indirectly wholly owned by <strong>Peel Holdings Group Limited</strong>) has increased its cash offer for <strong>Harworth Group plc</strong> to <strong>177.5 pence</strong> per share, valuing the equity at approximately <strong>£599.77 million</strong>.</li><li>The revised price is a <strong>2.9%</strong> increase on the previous cash offer announced on <strong>6 August 2026</strong>, and represents a <strong>40.0%</strong> premium to the three-month VWAP of 126.8p (to 5 August 2026) and <strong>23.6%</strong> to the 143.6p closing price on 5 August 2026.</li><li>Bidco published a <strong>Response Presentation</strong> rebutting Harworth's <strong>Defence Document</strong> (published 9 September 2026), citing <strong>declining NAV</strong> (down <strong>4.3%</strong> over 6 months to a diluted EPRA NDV of <strong>208.8 pence</strong>), higher leverage, worsening cash flow and lower sales volumes.</li><li>Funded entirely from <strong>Peel's own cash resources</strong> with no external financing; <strong>Rothschild & Co</strong> confirms resources are available.</li><li>Acceptance deadline is <strong>1.00 p.m. on 25 October 2026</strong>; Bidco intends to seek delisting at <strong>75%</strong> acceptances and compulsory acquisition at <strong>90%</strong>.</li><li>Bidder's document — figures on Harworth's outlook reflect Bidco's characterisation, not Harworth's own statements; Harworth's board response is not contained in this announcement.</li></ul>",
+    "source_format": "html",
+    "headline": "Peel's Peel Pepper (UK) raises its all-cash offer for Harworth Group to 177.5p per share, valuing the company at about £599.77m.",
+    "priority": "high",
+    "priority_reason": "A live takeover situation: Peel's bidco has raised its all-cash offer for Harworth, a material event for shareholders.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/harworth-HWG/share-news/Goodweather-Holdings-Limited-Increased-Cash-Offer/99317109",
+    "related_news_url": "https://news.google.com/search?q=%22Harworth%20Group%20plc%22",
+    "added_at": "2026-09-16T07:21:02.183512"
+  },
+  {
+    "company": "Babcock International Group PLC",
+    "ticker": "BAB",
+    "publish_date": "16 September 2026",
+    "date_iso": "2026-09-16",
+    "time_period": "First five months of FY27",
+    "announcement_type": "Trading update",
+    "period_detail": "First five months of FY27",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Trading in line</strong> and <strong>full year expectations unchanged</strong>, with good momentum maintained into FY27; Group remains confident of achieving <strong>medium-term guidance</strong>.</li><li>CEO transition complete: <strong>Harry Holt</strong> became CEO on <strong>31 July</strong>; <strong>David Lockwood</strong> stays on to support succession until retirement in <strong>January 2027</strong>.</li><li>Strong demand across core <strong>defence and nuclear</strong> markets, backed by the Government's <strong>£298 billion</strong> Defence Investment Plan over four years (further clarity at Budget 2026).</li><li>Well placed on <strong>Royal Oak</strong>, a <strong>£26 billion</strong> naval infrastructure programme, as sole through-life support provider for the UK nuclear submarine fleet and site operator at <strong>HMNB Devonport</strong> and <strong>Clyde</strong>.</li><li>Balance-sheet actions: issued a <strong>£250 million</strong> six-year sterling bond and launched a further <strong>£200 million</strong> share buyback expected to complete by end of FY27.</li><li>HY27 results due <strong>19 November 2026</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Babcock reports good momentum with trading in line and full-year expectations unchanged over the first five months of FY27.",
+    "priority": "high",
+    "priority_reason": "AGM trading update confirming trading in line with full-year expectations, plus material capital-allocation actions and CEO transition.",
+    "figures": [],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Full year expectations",
+      "current": "Full year expectations unchanged; trading in line; confident of achieving medium-term guidance",
+      "commentary": "Babcock reaffirmed that trading over the first five months of FY27 is in line with expectations and left full-year and medium-term guidance unchanged. No new numerical targets were provided in this update."
+    },
+    "explainer": "This is a short AGM trading update covering the first five months of Babcock's 2027 financial year rather than a full set of results, so it contains commentary and confidence statements rather than reported financials. The Group says trading is \"in line\" — meaning performance is tracking to its own internal expectations — and it has not changed either its full-year outlook or its medium-term guidance.\n\nThe backdrop is a large increase in UK defence spending. The Government's Defence Investment Plan sets out £298 billion of spend over four years, and a separate £26 billion \"Royal Oak\" programme targets naval infrastructure over ten years. Babcock stresses its incumbent positions — sole through-life support for the nuclear submarine fleet and operator of the Devonport and Clyde bases — as the reason it is well placed to benefit, though these are opportunities rather than booked orders.\n\nOn capital, the £250 million bond extends debt maturities, and a fresh £200 million buyback (on top of prior returns) is expected to complete by the FY27 year-end. No revenue, profit, order-book or cash figures are quoted in this update; the detailed numbers will come with the half-year results on 19 November 2026.",
+    "source_url": "https://uk.advfn.com/stock-market/london/babcock-BAB/share-news/Babcock-International-Group-PLC-AGM-trading-update/99317105",
+    "related_news_url": "https://news.google.com/search?q=%22Babcock%20International%20Group%20PLC%22",
+    "added_at": "2026-09-16T07:21:02.172245"
+  },
+  {
     "company": "Supermarket Income Reit PLC",
     "ticker": "SUPR",
     "publish_date": "16 September 2026",
