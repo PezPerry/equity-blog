@@ -1,5 +1,155 @@
 [
   {
+    "company": "Supermarket Income Reit PLC",
+    "ticker": "SUPR",
+    "publish_date": "16 September 2026",
+    "date_iso": "2026-09-16",
+    "time_period": "FY to 30 June 2026",
+    "announcement_type": "Annual results",
+    "period_detail": "FY to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>FY26 annual results</strong>: real estate portfolio grew from <strong>£1.6bn</strong> (30 June 2025) to <strong>£2.0bn</strong> (30 June 2026), with the <strong>Blue Owl Capital</strong> JV scaled to <strong>£855m</strong> from <strong>£403m</strong> at inception.</li><li>Acquired <strong>£454m</strong> of assets in the year — <strong>10 Asda</strong> omnichannel stores via the JV, <strong>20 Carrefour</strong> stores in France, <strong>10 Sainsbury's</strong> foodstores and nine secondary-market foodstores.</li><li>Earnings fell, primarily reflecting timing of redeploying JV completion proceeds and a <strong>one-off</strong> rise in interest costs from a proactive debt refinance and term extension.</li><li><strong>EPRA cost ratio</strong> cut to <strong>9.2%</strong> (from <strong>13.6%</strong> pre-internalisation), one of the sector's lowest and targeting below <strong>9%</strong> near-term; total shareholder return of <strong>27.5%</strong> since internalisation.</li><li>Recommending a target dividend of <strong>6.30p</strong> for FY27, a <strong>2%</strong> increase, in line with the new minimum annual dividend growth target of <strong>2%</strong> from FY27.</li><li>Post year-end: <strong>£100m</strong> equity raise (July 2026) funded <strong>£222m</strong> of acquisitions at a <strong>6.6%</strong> average net initial yield; <strong>£445m</strong> debt refinance; <strong>LTV 43.9%</strong>, <strong>Net Debt/EBITDA 7.8x</strong>; <strong>Vince Prior</strong> to step down at the AGM.</li></ul>",
+    "source_format": "html",
+    "headline": "Supermarket Income REIT grew its portfolio to **£2.0bn**, cut its EPRA cost ratio to **9.2%** and set a **6.30p** FY27 dividend target (+2%), though earnings fell on JV redeployment timing and refinancing costs.",
+    "priority": "high",
+    "priority_reason": "Full-year audited results from a FTSE 250 REIT, including portfolio growth, a lower earnings base and a new dividend growth target.",
+    "figures": [
+      {
+        "metric": "Portfolio valuation",
+        "current": "£2.0bn",
+        "prior": "£1.6bn",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "as at 30 June 2026 vs 30 June 2025"
+      },
+      {
+        "metric": "Blue Owl JV size",
+        "current": "£855m",
+        "prior": "£403m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "current vs at JV inception"
+      },
+      {
+        "metric": "EPRA cost ratio",
+        "current": "9.2%",
+        "prior": "13.6%",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "current vs prior to internalisation"
+      },
+      {
+        "metric": "Like-for-like portfolio valuation growth",
+        "current": "+2.5%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "like-for-like vs MSCI All Property Capital Growth Index +0.1%",
+        "note": "FY26"
+      },
+      {
+        "metric": "Target dividend (FY27)",
+        "current": "6.30p",
+        "prior": "not stated",
+        "change": "+2%",
+        "basis": "reported",
+        "note": "recommended FY27 target dividend"
+      }
+    ],
+    "guidance": {
+      "status": "new",
+      "previous": "No formal minimum dividend growth target prior to internalisation strategy",
+      "current": "Target dividend of 6.30p for FY27 (+2%); minimum dividend growth of at least 2% per annum from FY27; EPRA cost ratio on track to fall below 9% near-term; ambition to grow the portfolio to £4bn and beyond",
+      "commentary": "The company introduced a minimum 2% per annum dividend growth target from FY27 (first communicated at interim results) and set a 6.30p FY27 target dividend. It also signalled a near-term EPRA cost ratio below 9% and a longer-term ambition to grow the portfolio beyond £4bn."
+    },
+    "explainer": "This is Supermarket Income REIT's first full year under an internalised management structure — meaning it now employs its own managers rather than paying an external manager — which has driven the sharp fall in its EPRA cost ratio (a standard property-industry measure of running costs against rental income) from 13.6% to 9.2%.\n\nReported earnings fell during the year, but the company attributes this to timing rather than underlying weakness: proceeds from moving assets into the Blue Owl joint venture had not yet been fully redeployed into new properties, and the group took a one-off hit to interest costs by refinancing and lengthening its debt. The £454m of acquisitions made in the year should support earnings and dividends going forward.\n\nThe like-for-like valuation gain of 2.5% is measured against the MSCI All Property Capital Growth Index (up just 0.1%), showing the grocery portfolio outperformed the wider UK property market rather than being a year-on-year comparison.\n\nOn guidance, the key change is a firm minimum dividend growth target of at least 2% a year from FY27, with a recommended FY27 target dividend of 6.30p. Management also flagged an ambition to grow the portfolio to £4bn and beyond, and to push the cost ratio below 9%.",
+    "source_url": "https://uk.advfn.com/stock-market/london/supermarket-income-reit-SUPR/share-news/Supermarket-Income-REIT-PLC-Annual-Results-for-the/99317087",
+    "related_news_url": "https://news.google.com/search?q=%22Supermarket%20Income%20REIT%20plc%22",
+    "added_at": "2026-09-16T07:20:18.520226"
+  },
+  {
+    "company": "Barratt Redrow PLC",
+    "ticker": "BTRW",
+    "publish_date": "16 September 2026",
+    "date_iso": "2026-09-16",
+    "time_period": "FY26 (52 weeks to end June 2026)",
+    "announcement_type": "Annual results",
+    "period_detail": "FY26 (52 weeks to end June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Barratt Redrow plc</strong> reported <strong>17,667</strong> total home completions in <strong>FY26</strong>, up <strong>5.0%</strong> on the <strong>16,826</strong> aggregated completions in FY25 and towards the top of guidance.</li><li>Adjusted profit before tax and PPA impact of <strong>£572.8m</strong>, down <strong>7.1%</strong> on the <strong>£616.5m</strong> aggregated FY25 figure; statutory profit before tax <strong>£363.5m</strong> (FY25: <strong>£273.7m</strong> reported).</li><li>Adjusted operating profit <strong>£598.1m</strong> (+0.6%) at a <strong>9.9%</strong> margin, down from <strong>10.7%</strong> reported in FY25; strong net cash of <strong>£772.8m</strong>.</li><li><strong>£400m</strong> capital return announced for FY27 (including a <strong>c.£386m</strong> buyback); Redrow integration complete with <strong>£73m</strong> cost synergies delivered against a confirmed <strong>£100m</strong> target.</li><li>FY27 completions guidance <strong>lowered to 17,500-17,900</strong> from <strong>17,700-18,200</strong>, citing planning delays and fewer sales outlets (c. 405 vs c. 415 previously).</li><li>CEO <strong>David Thomas</strong> signals departure after a decade, calling it \"an enormous privilege to lead Barratt Redrow\".</li></ul>",
+    "source_format": "html",
+    "headline": "Barratt Redrow delivered 17,667 home completions in FY26 with adjusted pre-tax profit of £572.8m, and trimmed FY27 completions guidance.",
+    "priority": "high",
+    "priority_reason": "Full-year results from a major housebuilder, with a £400m capital return and a lowered FY27 completions guidance.",
+    "figures": [
+      {
+        "metric": "Total home completions",
+        "current": "17,667",
+        "prior": "16,826",
+        "change": "+5.0%",
+        "basis": "vs aggregated FY25",
+        "note": "including JVs"
+      },
+      {
+        "metric": "Adjusted operating profit (before PPA)",
+        "current": "£598.1m",
+        "prior": "£594.4m",
+        "change": "+0.6%",
+        "basis": "adjusted aggregated",
+        "note": "margin 9.9% vs 10.5%A / 10.7%R"
+      },
+      {
+        "metric": "Adjusted profit before tax (before PPA)",
+        "current": "£572.8m",
+        "prior": "£616.5m",
+        "change": "-7.1%",
+        "basis": "adjusted aggregated (FY25 reported £617.2m)",
+        "note": "FY26"
+      },
+      {
+        "metric": "Statutory profit before tax",
+        "current": "£363.5m",
+        "prior": "£273.7m",
+        "change": "not stated",
+        "basis": "reported (aggregated £245.3m)",
+        "note": "reduced Redrow transaction/integration and PPA costs"
+      },
+      {
+        "metric": "Net cash",
+        "current": "£772.8m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "year-end",
+        "note": "after £242.2m dividends and £100m buybacks"
+      },
+      {
+        "metric": "Net private reservation rate (underlying)",
+        "current": "0.56",
+        "prior": "0.55",
+        "change": "not stated",
+        "basis": "aggregated FY25",
+        "note": "overall rate 0.64 vs 0.63"
+      },
+      {
+        "metric": "Forward sales",
+        "current": "£3,337.6m (11,200 homes)",
+        "prior": "£3,220.4m (10,593 homes)",
+        "change": "not stated",
+        "basis": "at 6 September 2026 vs 7 September 2025",
+        "note": "including JVs"
+      }
+    ],
+    "guidance": {
+      "status": "lowered",
+      "previous": "FY27 total home completions of 17,700-18,200 (including c. 600 JV completions), with c. 415 average sales outlets",
+      "current": "FY27 total home completions of 17,500-17,900 (including c. 600 JV completions), with c. 405 average sales outlets",
+      "commentary": "FY27 completions guidance was trimmed at both ends, reflecting continued planning delays and a consequent reduction in expected sales outlet openings. The £100m cost synergy target from the Redrow integration was reaffirmed, with the remaining c.£27m largely due in FY27."
+    },
+    "explainer": "This is Barratt Redrow's first full year fully combining Barratt and Redrow, so comparatives are messy. The group shows figures on an 'aggregated' basis (A) — treating Redrow as if owned for all of FY25, including the pre-acquisition period — to give a like-for-like operational read, alongside 'reported' (R) numbers based on actual ownership. Most headline comparisons here use the aggregated basis.\n\nProfit is also quoted 'before PPA adjustments'. PPA (purchase price allocation) refers to accounting fair-value adjustments arising from the Redrow acquisition under IFRS 3; stripping these out is meant to show underlying trading. The gap between adjusted pre-tax profit (£572.8m) and statutory pre-tax profit (£363.5m) is largely those PPA charges plus integration and transaction costs — the statutory figure nonetheless rose year on year as those one-off costs fell. Note the group also restated how it presents legacy building-safety provision finance charges, lifting adjusted profit by £40.5m in FY26 (£33.6m in FY25).\n\nUnderlying trading was resilient rather than strong: completions rose 5%, but operating margin slipped to 9.9% from around 10.7%, reflecting the use of sales incentives and gross-margin pressure partly offset by tight cost control. Adjusted pre-tax profit fell 7.1%.\n\nOn guidance, the group nudged FY27 completions down to 17,500-17,900 (from 17,700-18,200), blaming planning delays that reduce the number of sales outlets it can open. Set against that is a large £400m shareholder capital return for FY27, supported by £772.8m of net cash — signalling confidence in the balance sheet despite the softer volume outlook.",
+    "source_url": "https://uk.advfn.com/stock-market/london/barratt-redrow-BTRW/share-news/Barratt-Redrow-PLC-Barratt-Redrow-Full-Year-2026-R/99317078",
+    "related_news_url": "https://news.google.com/search?q=%22Barratt%20Redrow%20plc%22",
+    "added_at": "2026-09-16T07:20:18.506803"
+  },
+  {
     "company": "WH Smith PLC",
     "ticker": "SMWH",
     "publish_date": "16 September 2026",
