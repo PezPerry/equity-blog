@@ -1,5 +1,31 @@
 [
   {
+    "company": "Old Mutual Ltd",
+    "ticker": "OMU",
+    "publish_date": "16 September 2026",
+    "date_iso": "2026-09-16",
+    "time_period": "",
+    "announcement_type": "Dividend declaration",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li>Finalisation announcement for the <strong>interim dividend of 40.00000 cents per share</strong> already declared on <strong>8 September 2026</strong>; timetable unchanged.</li><li>UK/LSE shareholders to be paid <strong>1.83693 GBP pence per share</strong> (Rand/GBP rate of <strong>21.77542</strong>), with LSE payment date <strong>6 November 2026</strong>.</li><li>Net dividend after South African <strong>20% withholding tax</strong> is <strong>32.00000 cents per share</strong>; local equivalents also set for Malawi, Namibia and Zimbabwe (<strong>2.48637 USD cents</strong>).</li><li>Routine currency-conversion disclosure with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Old Mutual confirms currency equivalents for its previously declared interim dividend of **40.00000 cents per share**, with LSE holders receiving **1.83693 GBP pence per share**.",
+    "priority": "low",
+    "priority_reason": "Routine finalisation announcement confirming currency equivalents for a previously declared interim dividend.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/old-mutual-limited-npv-di---omu/dividend-currency-equivalents-interim-dividend-/9775985",
+    "related_news_url": "https://news.google.com/search?q=%22Old%20Mutual%20Limited%20NPV%20(DI)%22",
+    "added_at": "2026-09-16T16:16:45.540645"
+  },
+  {
     "company": "Ashmore Group PLC",
     "ticker": "ASHM",
     "publish_date": "16 September 2026",
