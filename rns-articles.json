@@ -1,5 +1,31 @@
 [
   {
+    "company": "Credit Acceptance Corp",
+    "ticker": "CACC",
+    "publish_date": "16 September 2026",
+    "date_iso": "2026-09-16",
+    "time_period": "",
+    "announcement_type": "Financing / refinancing",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Credit Acceptance Corporation</strong> has extended its <strong>$500.0 million</strong> asset-backed non-recourse secured financing (<strong>Term ABS 2019-2</strong>), pushing the date it ceases to revolve from <strong>15 September 2026</strong> to <strong>15 September 2028</strong>.</li><li>Interest rate on the Financing raised from <strong>5.43%</strong> to <strong>5.83%</strong>; no other material changes to the terms.</li><li>Separately extended its <strong>revolving secured warehouse facility</strong>, with <strong>$180.0 million</strong> outstanding as of <strong>15 September 2026</strong> and no other material changes.</li><li>Routine financing housekeeping — <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Credit Acceptance has extended its revolving secured warehouse facility and its $500.0m Term ABS 2019-2 asset-backed financing to September 2028, with a higher interest rate.",
+    "priority": "medium",
+    "priority_reason": "Routine refinancing that extends warehouse and asset-backed facilities but carries no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/CACC/share-news/Credit-Acceptance-Announces-Extension-of-Revolving/99315008",
+    "related_news_url": "https://news.google.com/search?q=%22Credit%20Acceptance%20Corporation%22",
+    "added_at": "2026-09-16T07:17:40.044874"
+  },
+  {
     "company": "Playtech PLC",
     "ticker": "PTEC",
     "publish_date": "16 September 2026",
@@ -24,6 +50,32 @@
     "source_url": "https://uk.advfn.com/stock-market/london/playtech-PTEC/share-news/Playtech-PLC-Successful-pricing-of-50-million-bo/99313967",
     "related_news_url": "https://news.google.com/search?q=%22Playtech%20plc%22",
     "added_at": "2026-09-16T07:17:07.752070"
+  },
+  {
+    "company": "Microsoft Corp",
+    "ticker": "MSFT",
+    "publish_date": "15 September 2026",
+    "date_iso": "2026-09-15",
+    "time_period": "",
+    "announcement_type": "Dividend declaration",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Microsoft Corp.</strong> declared a quarterly dividend of <strong>$0.98 per share</strong>, up <strong>7 cents / 8%</strong> on the previous quarter.</li><li>Payable <strong>10 December 2026</strong> to shareholders of record on <strong>19 November 2026</strong>; ex-dividend date <strong>19 November 2026</strong>.</li><li><strong>2026 Annual Shareholders Meeting</strong> set for <strong>8 December 2026</strong>, held virtually; record date for voting is <strong>30 September 2026</strong>.</li><li>Routine capital-return disclosure with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Microsoft raised its quarterly dividend by 8% to **$0.98 per share**, payable 10 December 2026 to holders of record on 19 November 2026.",
+    "priority": "medium",
+    "priority_reason": "Quarterly dividend increase is a shareholder-return event but routine and not a US primary-listing trading catalyst for UK equities.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/MSFT/share-news/Microsoft-announces-quarterly-dividend-increase/99316478",
+    "related_news_url": "https://news.google.com/search?q=%22Microsoft%20Corporation%22",
+    "added_at": "2026-09-16T07:17:40.011902"
   },
   {
     "company": "Debenhams Group plc (formerly Boohoo Group plc)",
