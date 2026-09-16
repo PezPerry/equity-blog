@@ -1,5 +1,74 @@
 [
   {
+    "company": "Oxford Nanopore Technologies plc",
+    "ticker": "ONT",
+    "publish_date": "16 September 2026",
+    "date_iso": "2026-09-16",
+    "time_period": "",
+    "announcement_type": "Legal / IP ruling",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li>The <strong>Munich Local Division of the Unified Patent Court</strong> has granted a preliminary injunction against <strong>MGI Tech GmbH</strong> over its <strong>CycloneSEQ-WT02, CycloneSEQ-WY01, G100-ER and G400-ER</strong> systems and related flow cells.</li><li>The order follows ONT's claim that the Cyclone systems infringe two patents (<strong>EP 2 422 198</strong> and <strong>EP 2 715 343</strong>); MGI must not make, offer, market, use, import or supply the products.</li><li>Injunction applies in <strong>Denmark, France, Germany, the Netherlands, Liechtenstein, Switzerland, the UK and Ireland</strong> (Ireland limited to systems used with a flow cell), is <strong>effective immediately</strong> and enforceable pending appeal.</li><li>MGI faces <strong>penalty payments</strong> for non-compliance; ONT will now pursue a permanent injunction, with a trial hearing scheduled for <strong>October 2027</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "The Unified Patent Court has granted Oxford Nanopore a preliminary injunction against MGI Tech's CycloneSEQ sequencing systems across eight countries.",
+    "priority": "high",
+    "priority_reason": "A court-ordered injunction blocking a competitor's sequencing platform across eight markets is materially favourable to ONT's IP moat and potentially share-moving.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/oxford-nanopore-technolo-ONT/share-news/Oxford-Nanopore-Technologies-plc-Preliminary-injun/99317147",
+    "related_news_url": "https://news.google.com/search?q=%22Oxford%20Nanopore%20Technologies%20plc%22",
+    "added_at": "2026-09-16T07:21:49.191543"
+  },
+  {
+    "company": "Games Workshop Group PLC",
+    "ticker": "GAW",
+    "publish_date": "16 September 2026",
+    "date_iso": "2026-09-16",
+    "time_period": "FY 2026/27 (trading to 30 August 2026)",
+    "announcement_type": "Dividend declaration",
+    "period_detail": "FY 2026/27 (trading to 30 August 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Games Workshop Group PLC</strong> declares a dividend of <strong>£0.70 per share</strong>, payable <strong>27 November 2026</strong>.</li><li>Dividends announced so far in <strong>2026/27</strong> total <strong>£3.00</strong> (2025/26: <strong>£2.25</strong>), in line with the Company's dividend policy.</li><li>Trading to <strong>30 August 2026</strong> is <strong>in line with the Board's expectations</strong> for the current financial year.</li><li>Record date <strong>23 October 2026</strong>; ex-dividend <strong>22 October 2026</strong>; DRIP election deadline <strong>6 November 2026</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Games Workshop declares a **£0.70** dividend and says trading to **30 August 2026** is in line with the Board's expectations.",
+    "priority": "medium",
+    "priority_reason": "Dividend declaration accompanied by a trading update confirming performance in line with Board expectations.",
+    "figures": [
+      {
+        "metric": "Dividend declared",
+        "current": "£0.70 per share",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "Single declaration"
+      },
+      {
+        "metric": "Dividends announced YTD",
+        "current": "£3.00",
+        "prior": "£2.25",
+        "change": "not stated",
+        "basis": "",
+        "note": "2026/27 vs 2025/26"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "",
+      "current": "Trading to 30 August 2026 in line with the Board's expectations for the current financial year",
+      "commentary": "The Company confirms year-to-date trading remains in line with Board expectations; no change to outlook."
+    },
+    "explainer": "This is a routine dividend declaration under Games Workshop's stated policy of returning surplus cash to shareholders. The Board has declared **£0.70 per share**, bringing total dividends announced so far in the 2026/27 financial year to **£3.00**, up from **£2.25** at the equivalent point in 2025/26. The cumulative figures reflect the pace of declarations to date rather than a formally set full-year total.\n\nThe accompanying one-line trading statement confirms that trading to 30 August 2026 is in line with the Board's expectations, so there is no change to guidance and no new financial detail on revenue or profit.",
+    "source_url": "https://uk.advfn.com/stock-market/london/games-workshop-GAW/share-news/Games-Workshop-Group-PLC-Dividend-Declaration/99317125",
+    "related_news_url": "https://news.google.com/search?q=%22Games%20Workshop%20Group%20PLC%22",
+    "added_at": "2026-09-16T07:21:49.157016"
+  },
+  {
     "company": "Harworth Group PLC",
     "ticker": "HWG",
     "publish_date": "16 September 2026",
