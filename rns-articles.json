@@ -1,5 +1,31 @@
 [
   {
+    "company": "On The Beach Group PLC",
+    "ticker": "OTB",
+    "publish_date": "16 September 2026",
+    "date_iso": "2026-09-16",
+    "time_period": "12 months ending 30 September 2026",
+    "announcement_type": "Notice of results",
+    "period_detail": "12 months ending 30 September 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>On the Beach Group plc</strong> will publish a pre-close trading update for the <strong>12 months ending 30 September 2026</strong> on <strong>Thursday 24 September 2026</strong>.</li><li><strong>Final Results</strong> to follow on <strong>Tuesday 1 December 2026</strong>.</li><li>Diary notice only — <strong>no trading figures or guidance</strong> disclosed in this announcement.</li></ul>",
+    "source_format": "html",
+    "headline": "On the Beach will issue a pre-close trading update on 24 September 2026 and report final results on 1 December 2026.",
+    "priority": "low",
+    "priority_reason": "Diary notice only — flags dates for a trading update and final results, with no financial content.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/on-the-beach-group--otb/notice-of-pre-close-trading-update-final-results/9773975",
+    "related_news_url": "https://news.google.com/search?q=%22On%20The%20Beach%20Group%22",
+    "added_at": "2026-09-16T07:35:40.800995"
+  },
+  {
     "company": "Oxford Nanopore Technologies plc",
     "ticker": "ONT",
     "publish_date": "16 September 2026",
