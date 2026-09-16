@@ -1,5 +1,31 @@
 [
   {
+    "company": "Greggs PLC",
+    "ticker": "GRG",
+    "publish_date": "16 September 2026",
+    "date_iso": "2026-09-16",
+    "time_period": "Q3 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "Q3 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Greggs plc</strong> will release its <strong>Q3 trading update</strong> on <strong>Wednesday 30 September 2026</strong>.</li><li>Routine scheduling notice only — contains <strong>no trading figures</strong> and <strong>no impact</strong> on current guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Greggs will publish its third-quarter trading update on **Wednesday 30 September 2026**.",
+    "priority": "low",
+    "priority_reason": "Administrative notice of the date of a future trading update, with no trading data or news content.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/greggs--grg/notice-of-trading-update/9774926",
+    "related_news_url": "https://news.google.com/search?q=%22Greggs%22",
+    "added_at": "2026-09-16T09:17:04.908436"
+  },
+  {
     "company": "Sylvania Platinum Limited",
     "ticker": "SLP",
     "publish_date": "16 September 2026",
