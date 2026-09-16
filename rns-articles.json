@@ -1,5 +1,57 @@
 [
   {
+    "company": "Sylvania Platinum Limited",
+    "ticker": "SLP",
+    "publish_date": "16 September 2026",
+    "date_iso": "2026-09-16",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>Sylvania Platinum</strong> acquired <strong>100,000 Ordinary Shares</strong> on <strong>15 September 2026</strong> at an average <strong>89.4 pence</strong> per share, placed into Treasury.</li><li>Issued share capital is <strong>271,661,725</strong> shares; <strong>12,937,534</strong> now held in Treasury, leaving <strong>258,724,191</strong> shares with voting rights.</li><li>Future purchases under the buyback programme will be announced <strong>weekly rather than daily</strong> — a routine disclosure with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Sylvania Platinum bought back 100,000 ordinary shares at an average 89.4p and will move to weekly buyback reporting.",
+    "priority": "low",
+    "priority_reason": "Routine single-day share buyback transaction with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/sylvania-platinum-ltd-di---slp/share-buyback-update/9773940",
+    "related_news_url": "https://news.google.com/search?q=%22Sylvania%20Platinum%20Ltd%20(DI)%22",
+    "added_at": "2026-09-16T09:16:20.307118"
+  },
+  {
+    "company": "Clarkson PLC",
+    "ticker": "CKN",
+    "publish_date": "16 September 2026",
+    "date_iso": "2026-09-16",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Jeff Woyda</strong>, <strong>CFO & COO</strong>, ceased to be a Director of <strong>Clarkson PLC</strong> yesterday, following the trailed announcement of <strong>16 September 2025</strong>.</li><li>Disclosure made under <strong>UKLR 6.4.6R</strong>; section 430(2B) Companies Act information to be posted on the company website.</li><li>Routine board departure with no trading or guidance implications stated.</li></ul>",
+    "source_format": "html",
+    "headline": "Clarkson confirms Jeff Woyda, CFO & COO, ceased to be a Director of the company, per the plan flagged in September 2025.",
+    "priority": "medium",
+    "priority_reason": "Departure of a senior board director (CFO & COO) is a management change.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/clarkson-CKN/share-news/Clarkson-PLC-Directorate-change/99318191",
+    "related_news_url": "https://news.google.com/search?q=%22Clarkson%20PLC%22",
+    "added_at": "2026-09-16T09:16:20.294777"
+  },
+  {
     "company": "Target Healthcare REIT Ltd",
     "ticker": "THRL",
     "publish_date": "16 September 2026",
