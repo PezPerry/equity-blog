@@ -1,5 +1,88 @@
 [
   {
+    "company": "Debenhams Group plc (formerly Boohoo Group plc)",
+    "ticker": "DEBS",
+    "publish_date": "17 September 2026",
+    "date_iso": "2026-09-17",
+    "time_period": "H1 to 31 August 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "H1 to 31 August 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Debenhams Group</strong> (formerly <strong>Boohoo Group</strong>) reports <strong>H1 to 31 August 2026</strong> GMV up <strong>1.8%</strong> year on year, accelerating from <strong>0.5%</strong> in Q1 to <strong>2.9%</strong> in Q2.</li><li><strong>Debenhams</strong> brand GMV grew <strong>14.1%</strong> to c.<strong>41%</strong> of Group GMV; PrettyLittleThing, boohoo and Karen Millen all returned to growth.</li><li>Marketplace mix reached a record <strong>38.9%</strong> of GMV (prior year <strong>32.7%</strong>), with the brand-partner ecosystem expanded to c.<strong>30k</strong> partners; ambition is well over 50%.</li><li><strong>Adjusted EBITDA</strong> up <strong>13.9%</strong> to <strong>£24m</strong> (H1 FY26: £21m); <strong>Reported EBITDA</strong> of <strong>£20m</strong> vs <strong>-£3m</strong>, a <strong>£23m</strong> improvement as exceptional costs fell 83.5% to £4m.</li><li>Net debt reduced to <strong>£102m</strong> (H1 FY26: £111m); post-period <strong>£90m</strong> Sheffield automation disposal and <strong>$16m</strong> Nasty Gal sale expected to leave net debt <strong>negligible</strong> at February 2027 year end.</li><li>Board reiterates FY Adjusted EBITDA guidance of <strong>no less than £59m</strong> (double-digit growth, in line with consensus), with a return to positive profit before tax and free cash flow generation.</li></ul>",
+    "source_format": "html",
+    "headline": "Debenhams Group reports H1 GMV up 1.8% with accelerating momentum, Adjusted EBITDA up 13.9% to £24m and net debt cut to £102m.",
+    "priority": "high",
+    "priority_reason": "Half-year trading update with accelerating growth, sharply improved profitability and reiterated full-year guidance.",
+    "figures": [
+      {
+        "metric": "GMV growth",
+        "current": "+1.8%",
+        "prior": "not stated",
+        "change": "+1.8% YoY",
+        "basis": "0.5% Q1 accelerating to 2.9% Q2",
+        "note": "H1 to 31 August 2026"
+      },
+      {
+        "metric": "Marketplace mix (% of GMV)",
+        "current": "38.9%",
+        "prior": "32.7%",
+        "change": "+6.2pp",
+        "basis": "reported",
+        "note": "record marketplace mix"
+      },
+      {
+        "metric": "Gross margin",
+        "current": "53.9%",
+        "prior": "51.9%",
+        "change": "+2.0pp",
+        "basis": "reported",
+        "note": "returns rate down c.4%"
+      },
+      {
+        "metric": "Adjusted EBITDA",
+        "current": "£24m",
+        "prior": "£21m",
+        "change": "+13.9%",
+        "basis": "reported",
+        "note": "Adjusted EBITDA margin 5.9% vs 5.0%"
+      },
+      {
+        "metric": "Reported EBITDA",
+        "current": "£20m",
+        "prior": "-£3m",
+        "change": "+£23m",
+        "basis": "reported",
+        "note": "exceptional costs down 83.5% to £4m"
+      },
+      {
+        "metric": "Capital expenditure",
+        "current": "£5m",
+        "prior": "£8m",
+        "change": "-33%",
+        "basis": "reported",
+        "note": ""
+      },
+      {
+        "metric": "Net debt",
+        "current": "£102m",
+        "prior": "£111m",
+        "change": "-£9m",
+        "basis": "reported",
+        "note": "expected negligible at year end"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Adjusted EBITDA as previously guided and in line with consensus of no less than £59m, representing double-digit growth year-on-year",
+      "current": "Adjusted EBITDA of no less than £59m (in line with consensus, double-digit growth); GMV growth, continued material improvement in Reported EBITDA, a return to positive profit before tax, free cash flow generation and negligible net debt",
+      "commentary": "Full-year guidance is reiterated rather than changed. Management flags that the post-period Sheffield and Nasty Gal disposals now underpin the expectation of negligible net debt at the February 2027 year end."
+    },
+    "explainer": "This is a half-year trading update for the group formerly known as Boohoo, now trading as Debenhams Group, covering the six months to 31 August 2026. The headline GMV (gross merchandise value, the total value of goods sold across the marketplaces) rose only 1.8%, but the group stresses the trajectory: growth of 0.5% in the first quarter accelerated to 2.9% in the second, and the Debenhams brand grew 14.1%.\n\nThe profitability story is stronger than the top line. Adjusted EBITDA, which strips out exceptional (one-off) items, rose 13.9% to £24m. Reported EBITDA — the figure after those exceptionals — swung from a £3m loss to a £20m profit, a £23m improvement, mainly because exceptional costs fell from £24m to £4m as the restructuring winds down. Gross margin improved two points to 53.9%, helped by a lower returns rate and a growing marketplace mix, where the group takes commission on third-party brand sales rather than holding stock itself.\n\nOn the balance sheet, net debt fell to £102m from £111m. Two deals struck after the period end — the £90m disposal of the Sheffield automation/warehouse (moving to an asset-light, outsourced third-party logistics model) and the $16m sale of the Nasty Gal brand — are expected to cut net debt to close to zero by the February 2027 year end.\n\nGuidance is maintained, not raised: the board still expects full-year Adjusted EBITDA of at least £59m, in line with consensus and representing double-digit growth, plus a return to positive pre-tax profit and free cash flow. The group also points to further FY28 cost relief from lower depreciation, interest and lease costs.",
+    "source_url": "https://uk.advfn.com/stock-market/london/boohoo-DEBS/share-news/Boohoo-Group-Plc-Trading-update-for-the-six-months/99326121",
+    "related_news_url": "https://news.google.com/search?q=%22Debenhams%20Group%20plc%20(formerly%20Boohoo%20Group%20plc)%22",
+    "added_at": "2026-09-17T07:22:21.109449"
+  },
+  {
     "company": "Harworth Group PLC",
     "ticker": "HWG",
     "publish_date": "17 September 2026",
