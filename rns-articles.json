@@ -1,5 +1,57 @@
 [
   {
+    "company": "S&U",
+    "ticker": "SUS",
+    "publish_date": "17 September 2026",
+    "date_iso": "2026-09-17",
+    "time_period": "H1 to 5 August 2026",
+    "announcement_type": "Notice of results",
+    "period_detail": "H1 to 5 August 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>S & U plc</strong>, the specialist motor and property financier, will publish <strong>H1 results</strong> for the six months to <strong>5 August 2026</strong> on <strong>Tuesday 29 September 2026</strong>.</li><li>An in-person analyst meeting is set for <strong>09:30 BST</strong> on results day, followed by an Investor Meet Company presentation at <strong>12:00 BST</strong>.</li><li>Routine scheduling notice with <strong>no impact</strong> on trading or guidance; no financial figures disclosed.</li></ul>",
+    "source_format": "html",
+    "headline": "S&U will release its half-year results for the six months ended 5 August 2026 on Tuesday 29 September 2026.",
+    "priority": "low",
+    "priority_reason": "Routine advance notice of a results date and investor presentations, containing no financial data or trading news.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/s-u--sus/notice-of-results-and-investor-presentations/9776294",
+    "related_news_url": "https://news.google.com/search?q=%22S%26U%22",
+    "added_at": "2026-09-17T10:16:31.186342"
+  },
+  {
+    "company": "Kingfisher PLC",
+    "ticker": "KGF",
+    "publish_date": "17 September 2026",
+    "date_iso": "2026-09-17",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Kingfisher plc</strong> has approved the appointment of <strong>PricewaterhouseCoopers LLP (PwC)</strong> as statutory auditor for the financial year ending <strong>31 January 2029</strong>, subject to shareholder approval.</li><li>Appointment follows a formal audit tender led by the Audit Committee; <strong>Deloitte LLP</strong> — auditor since <strong>2009</strong> — continues until the conclusion of the year ending <strong>31 January 2028</strong>.</li><li>Resolution to appoint <strong>PwC</strong> will be put to shareholders at the <strong>2028 AGM</strong>; Deloitte's reappointment is expected to be proposed at the <strong>2027 AGM</strong>.</li><li>Routine governance disclosure under UK audit-rotation rules with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Kingfisher to appoint PwC as statutory auditor from FY ending 31 January 2029, replacing Deloitte, subject to shareholder approval.",
+    "priority": "low",
+    "priority_reason": "Routine audit-firm rotation with no impact on trading, earnings or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/kingfisher--kgf/outcome-of-audit-tender/9777428",
+    "related_news_url": "https://news.google.com/search?q=%22Kingfisher%22",
+    "added_at": "2026-09-17T10:16:31.153211"
+  },
+  {
     "company": "Baillie Gifford US Growth Trust plc",
     "ticker": "USA",
     "publish_date": "17 September 2026",
