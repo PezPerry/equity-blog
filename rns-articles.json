@@ -1,5 +1,80 @@
 [
   {
+    "company": "Bytes Technology Group PLC",
+    "ticker": "BYIT",
+    "publish_date": "17 September 2026",
+    "date_iso": "2026-09-17",
+    "time_period": "H1 FY27 (half year ended 31 August 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "H1 FY27 (half year ended 31 August 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Bytes Technology Group</strong> traded <strong>ahead of expectations</strong> in H1 FY27, continuing momentum from H2 FY26, and has <strong>upgraded FY27 guidance</strong>.</li><li><strong>Gross Invoiced Income</strong> up <strong>c.19%</strong> year-on-year; <strong>Gross Profit</strong> up <strong>c.18%</strong>; <strong>Operating Profit</strong> up <strong>c.6%</strong>, reflecting previously flagged cost normalisation (higher technology costs and a return to normalised bonus levels).</li><li>Board now expects full-year <strong>Gross Profit growth in the low to mid-teens</strong> and <strong>low to mid single-digit Operating Profit growth</strong>.</li><li>Net cash of <strong>c.£68m</strong> at 31 August 2026, after returning <strong>£41.3m</strong> to shareholders — a <strong>£16.3m</strong> FY26 final dividend and <strong>£25.0m</strong> of buybacks.</li><li>Cash conversion of <strong>c.45%</strong> (H1 FY26: <strong>34%</strong>), reflecting the usual second-half weighting.</li><li>CEO <strong>Sam Mudd</strong> cited strong demand for software, cloud and security, with <strong>AI</strong> becoming a more meaningful growth driver; H1 FY27 results due <strong>13 October 2026</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Bytes Technology traded ahead of expectations in H1 FY27 and upgraded its full-year FY27 guidance, with gross invoiced income up c.19%.",
+    "priority": "high",
+    "priority_reason": "Half-year trading update reporting trading ahead of expectations with an upgrade to full-year FY27 guidance.",
+    "figures": [
+      {
+        "metric": "Gross Invoiced Income",
+        "current": "not stated (up c.19% YoY)",
+        "prior": "not stated",
+        "change": "+c.19%",
+        "basis": "year-on-year",
+        "note": "H1 FY27, estimated"
+      },
+      {
+        "metric": "Gross Profit",
+        "current": "not stated (up c.18% YoY)",
+        "prior": "not stated",
+        "change": "+c.18%",
+        "basis": "year-on-year",
+        "note": "H1 FY27, estimated"
+      },
+      {
+        "metric": "Operating Profit",
+        "current": "not stated (up c.6% YoY)",
+        "prior": "not stated",
+        "change": "+c.6%",
+        "basis": "year-on-year",
+        "note": "H1 FY27, estimated; reflects cost normalisation"
+      },
+      {
+        "metric": "Net cash",
+        "current": "c.£68m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "At 31 August 2026, after £41.3m returned to shareholders"
+      },
+      {
+        "metric": "Cash conversion",
+        "current": "c.45%",
+        "prior": "34%",
+        "change": "not stated",
+        "basis": "",
+        "note": "H1 FY27 vs H1 FY26"
+      },
+      {
+        "metric": "Shareholder returns",
+        "current": "£41.3m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "£16.3m FY26 final dividend plus £25.0m buybacks"
+      }
+    ],
+    "guidance": {
+      "status": "raised",
+      "previous": "Not explicitly quoted in this update; prior FY27 expectations referenced only as the base being exceeded.",
+      "current": "Full-year Gross Profit growth in the low to mid-teens, with low to mid single-digit Operating Profit growth.",
+      "commentary": "Following a strong first half trading ahead of expectations, the Board upgraded FY27 expectations. Operating Profit growth lags Gross Profit growth because of previously communicated cost normalisation — higher technology costs on strategic projects and a return to normalised bonus levels."
+    },
+    "explainer": "This is a pre-close-style trading update for the six months to 31 August 2026, ahead of full H1 results on 13 October. The growth figures are company estimates and are expressed as year-on-year percentage changes; Bytes has not printed the underlying absolute figures for the current or prior period, so only the percentage moves are confirmed. Gross Invoiced Income is the total value of software and services billed through Bytes to customers, while Gross Profit is closer to the company's own earned margin — the two can grow at different rates.\n\nThe key takeaway is the guidance upgrade. Bytes says it has traded ahead of expectations and now guides to full-year Gross Profit growth in the low-to-mid teens and Operating Profit growth in low-to-mid single digits. The gap between the two reflects deliberate cost increases the company had already flagged: more spending on technology platforms and strategic projects, plus bonus levels returning to normal after a lower base.\n\nCash conversion of c.45% is up from 34% a year earlier, though Bytes notes its cash generation is normally weighted to the second half, so the first-half figure is not directly comparable to the full year. Net cash of c.£68m is stated after £41.3m of shareholder returns during the half — a £16.3m final dividend and £25.0m of buybacks.",
+    "source_url": "https://uk.advfn.com/stock-market/london/bytes-technology-BYIT/share-news/Bytes-Technology-Group-PLC-Half-Year-Trading-Updat/99326061",
+    "related_news_url": "https://news.google.com/search?q=%22Bytes%20Technology%20Group%20PLC%22",
+    "added_at": "2026-09-17T07:18:53.817057"
+  },
+  {
     "company": "Old Mutual Ltd",
     "ticker": "OMU",
     "publish_date": "16 September 2026",
