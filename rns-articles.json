@@ -1,5 +1,31 @@
 [
   {
+    "company": "Investec PLC",
+    "ticker": "INVP",
+    "publish_date": "17 September 2026",
+    "date_iso": "2026-09-17",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>Investec plc</strong> has given notice to redeem all outstanding <strong>GBP55,780,000</strong> of its <strong>2.625% Callable Fixed Rate Resettable Subordinated Notes due 2032</strong> (ISIN XS2393629311).</li><li>Redemption on the <strong>Optional Redemption Date of 5 October 2026</strong> at principal amount plus accrued and unpaid interest, under Condition 5(g) of the trust deed dated <strong>6 July 2021</strong>.</li><li>Notes were originally a <strong>GBP350m</strong> issue; listing on the LSE Main Market will be cancelled on or shortly after the redemption date.</li><li>Routine debt capital-management disclosure with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Investec plc will early-redeem all GBP55.78m outstanding of its 2.625% subordinated notes due 2032 on 5 October 2026 at par plus accrued interest.",
+    "priority": "low",
+    "priority_reason": "Routine early redemption of a small outstanding tranche of subordinated notes, with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/investec--invp/early-redemption/9778012",
+    "related_news_url": "https://news.google.com/search?q=%22Investec%22",
+    "added_at": "2026-09-17T13:36:28.791701"
+  },
+  {
     "company": "Intertek Group plc",
     "ticker": "ITRK",
     "publish_date": "17 September 2026",
