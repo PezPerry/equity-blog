@@ -1,5 +1,31 @@
 [
   {
+    "company": "OSB Group PLC",
+    "ticker": "OSB",
+    "publish_date": "17 September 2026",
+    "date_iso": "2026-09-17",
+    "time_period": "",
+    "announcement_type": "Debt redemption",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>OSB GROUP PLC</strong> has elected to redeem all <strong>£17,072,000</strong> outstanding of its <strong>£150,000,000 6.000% Fixed Rate Resetting Perpetual Subordinated Contingent Convertible Securities</strong> issued in <strong>October 2021</strong> (ISIN: XS2391408072).</li><li>Redemption on the <strong>Redemption Date of 7 October 2026</strong> at principal amount plus accrued but unpaid interest; necessary regulatory approvals obtained.</li><li>Securities will be cancelled and their listing on the London Stock Exchange's International Securities Market cancelled on, or shortly after, <strong>8 October 2026</strong>.</li><li>Routine capital management of a small residual AT1 tranche, with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "OSB Group will redeem the remaining **£17,072,000** of its **6.000% Perpetual Subordinated Contingent Convertible Securities** on **7 October 2026**.",
+    "priority": "low",
+    "priority_reason": "Routine early redemption of a small residual tranche of subordinated debt, no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/gnw/osb-group--osb/osb-group-plc-notice-of-redemption/9777722",
+    "related_news_url": "https://news.google.com/search?q=%22OSB%20Group%22",
+    "added_at": "2026-09-17T11:56:41.025707"
+  },
+  {
     "company": "Prudential PLC",
     "ticker": "PRU",
     "publish_date": "17 September 2026",
