@@ -1,5 +1,112 @@
 [
   {
+    "company": "Galliford Try Holdings PLC",
+    "ticker": "GFRD",
+    "publish_date": "17 September 2026",
+    "date_iso": "2026-09-17",
+    "time_period": "FY to 30 June 2026",
+    "announcement_type": "Annual results",
+    "period_detail": "FY to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Galliford Try Holdings PLC</strong> reported <strong>FY26</strong> (year to <strong>30 June 2026</strong>) adjusted profit before tax up <strong>24.2%</strong> to <strong>£55.9m</strong> (2025: £45.0m), <strong>above market expectations</strong> with no exceptional items.</li><li>Revenue up <strong>3.0%</strong> to <strong>£1,931.1m</strong> (2025: £1,875.2m), led by Infrastructure up <strong>7.7%</strong> to £971.6m; Building revenue eased to £951.0m on delayed public-sector conversions.</li><li>Divisional adjusted operating margin up <strong>53bps</strong> to <strong>3.5%</strong>; adjusted EPS <strong>42.4p</strong>, up <strong>23.1%</strong>; statutory EPS <strong>41.7p</strong>.</li><li>Total dividend <strong>23.5p</strong>, up <strong>23.7%</strong> (final <strong>17.0p</strong>, up 25.9%); new <strong>£15m</strong> share buyback announced for the balance of the current year.</li><li>Debt-free balance sheet with <strong>£259.0m</strong> year-end net cash (2025: £237.6m); <strong>£4.3bn</strong> order book (2025: £4.1bn), 90% of FY27 revenue secured.</li><li>Confident outlook: guides to similar revenue growth and further profitability and margin expansion in FY27, on track for 2030 Sustainable Growth targets.</li></ul>",
+    "source_format": "html",
+    "headline": "Galliford Try posts full-year profit above market expectations, lifting adjusted PBT 24.2% to £55.9m and launching a new £15m buyback.",
+    "priority": "high",
+    "priority_reason": "Full-year results with profit above market expectations, dividend increase and a new share buyback.",
+    "figures": [
+      {
+        "metric": "Revenue",
+        "current": "£1,931.1m",
+        "prior": "£1,875.2m",
+        "change": "+3.0%",
+        "basis": "reported",
+        "note": "FY to 30 June 2026"
+      },
+      {
+        "metric": "Adjusted profit before tax",
+        "current": "£55.9m",
+        "prior": "£45.0m",
+        "change": "+24.2%",
+        "basis": "adjusted",
+        "note": "no exceptional items in FY26"
+      },
+      {
+        "metric": "Adjusted operating profit",
+        "current": "£49.5m",
+        "prior": "£40.6m",
+        "change": "+21.9%",
+        "basis": "adjusted",
+        "note": ""
+      },
+      {
+        "metric": "Divisional adjusted operating margin",
+        "current": "3.5%",
+        "prior": "3.0%",
+        "change": "+53bps",
+        "basis": "combined Building and Infrastructure",
+        "note": ""
+      },
+      {
+        "metric": "Adjusted basic EPS",
+        "current": "42.4p",
+        "prior": "34.4p",
+        "change": "+23.1%",
+        "basis": "adjusted",
+        "note": ""
+      },
+      {
+        "metric": "Statutory EPS",
+        "current": "41.7p",
+        "prior": "33.7p",
+        "change": "+23.6%",
+        "basis": "statutory",
+        "note": ""
+      },
+      {
+        "metric": "Total dividend",
+        "current": "23.5p",
+        "prior": "not stated",
+        "change": "+23.7%",
+        "basis": "final 17.0p + interim 6.5p",
+        "note": "1.8x cover"
+      },
+      {
+        "metric": "Year-end net cash",
+        "current": "£259.0m",
+        "prior": "£237.6m",
+        "change": "+9.0%",
+        "basis": "reported",
+        "note": "debt-free, RCF undrawn"
+      },
+      {
+        "metric": "Average month-end cash",
+        "current": "£216.2m",
+        "prior": "£178.7m",
+        "change": "+21.0%",
+        "basis": "reported",
+        "note": ""
+      },
+      {
+        "metric": "Order book",
+        "current": "£4.3bn",
+        "prior": "£4.1bn",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "90% of FY27 and 62% of FY28 revenue secured"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "",
+      "current": "Confident in delivering similar revenue growth, and further profitability and margin expansion in the current year (FY27), with continued progress towards 2030 Sustainable Growth targets.",
+      "commentary": "The Group says trading since the period end has been in line with expectations and reiterates its confidence in further FY27 progress, underpinned by a £4.3bn order book with 90% of FY27 revenue already secured."
+    },
+    "explainer": "Galliford Try is a UK construction and infrastructure contractor, so the figures to watch are revenue, operating margin and cash rather than product sales. Its \"adjusted\" numbers strip out items such as amortisation of acquired intangibles; this year there were no exceptional items in either period, so the adjusted and statutory figures are close (adjusted PBT £55.9m; statutory EPS 41.7p versus adjusted 42.4p), which makes the growth look genuine rather than flattered by one-offs.\n\nThe headline is that profit grew far faster than revenue — adjusted PBT up 24.2% on revenue up just 3.0% — because the divisional operating margin rose 53 basis points to 3.5%. For a contractor, small margin moves matter a lot, and the improvement was driven by disciplined project selection, strong close-out of three major highways schemes and early AMP8 water design fees. Building revenue actually fell slightly as public-sector work slipped into FY27, but its margin still improved.\n\nCash is a key measure of quality for a builder: the company is debt-free with £259.0m of year-end net cash and its revolving credit facility undrawn, which funds both the dividend (up 23.7% to 23.5p, covered 1.8x) and a new £15m buyback.\n\nOn guidance, this is a maintain-and-reiterate rather than an upgrade: management expects \"similar revenue growth\" plus further profit and margin expansion in FY27, supported by a record-style £4.3bn order book with 90% of the coming year's revenue already secured, giving good visibility.",
+    "source_url": "https://uk.advfn.com/stock-market/london/galliford-try-GFRD/share-news/Galliford-Try-Holdings-PLC-Final-Results/99326097",
+    "related_news_url": "https://news.google.com/search?q=%22Galliford%20Try%20Holdings%20PLC%22",
+    "added_at": "2026-09-17T07:20:55.007815"
+  },
+  {
     "company": "Schroder European Real Estate Investment Trust Ltd",
     "ticker": "SERE",
     "publish_date": "17 September 2026",
