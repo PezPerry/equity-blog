@@ -1,5 +1,155 @@
 [
   {
+    "company": "Baillie Gifford US Growth Trust plc",
+    "ticker": "USA",
+    "publish_date": "17 September 2026",
+    "date_iso": "2026-09-17",
+    "time_period": "FY to 31 May 2026",
+    "announcement_type": "Annual results",
+    "period_detail": "FY to 31 May 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Share price total return 44.5%</strong> and <strong>NAV total return 31.0%</strong> for the year to <strong>31 May 2026</strong>, versus <strong>29.8%</strong> for the <strong>S&P 500</strong> (sterling terms); private holdings <strong>SpaceX, Anthropic, Stripe and Databricks</strong> were four of the top five contributors.</li><li>Discount narrowed sharply from <strong>9.4%</strong> to <strong>0.1%</strong>; <strong>4.5 million shares</strong> bought back for <strong>c.£11.9m</strong>. Total assets <strong>£995.5m</strong> before <strong>£37.1m</strong> of loans.</li><li><strong>Private companies 45.0%</strong> of total assets across <strong>27 holdings</strong> (2025: 34.9%); post year-end <strong>SpaceX</strong> listed on Nasdaq on <strong>12 June 2026</strong>, cutting privates to <strong>28.9%</strong> by 14 September.</li><li>No final dividend — revenue account in deficit at <strong>negative 2.58p</strong> per share (2025: negative 2.54p); net gearing <strong>3%</strong> (2025: 4%); facilities refinanced into a new <strong>US$50m</strong> three-year RCF with <strong>RBS International</strong>.</li><li>Board issues stark warning that <strong>Saba</strong> is 'counting on you not voting your shares so it can gain control'; AGM on <strong>23 October 2026</strong> flagged as critical, with <strong>Graham Paterson</strong> to retire and <strong>Liz Flockhart</strong> appointed.</li><li>Non-pre-emptive share issuance authority lapsed after the 2025 AGM resolution was defeated, with the bulk of votes against attributable to a single shareholder; Board will seek to renew it.</li></ul>",
+    "source_format": "html",
+    "headline": "Baillie Gifford US Growth Trust delivered a 44.5% share price total return and 31.0% NAV return for FY to 31 May 2026, beating the S&P 500's 29.8%.",
+    "priority": "high",
+    "priority_reason": "Full-year results, plus an active Saba-related control battle heading into a critical AGM.",
+    "figures": [
+      {
+        "metric": "Share price total return",
+        "current": "44.5%",
+        "prior": "29.8% (S&P 500, sterling)",
+        "change": "not stated",
+        "basis": "borrowings at fair value",
+        "note": "FY to 31 May 2026 vs benchmark"
+      },
+      {
+        "metric": "NAV total return",
+        "current": "31.0%",
+        "prior": "29.8% (S&P 500, sterling)",
+        "change": "not stated",
+        "basis": "borrowings at fair value",
+        "note": "FY to 31 May 2026 vs benchmark"
+      },
+      {
+        "metric": "Net revenue return per share",
+        "current": "-2.58p",
+        "prior": "-2.54p",
+        "change": "not stated",
+        "basis": "",
+        "note": "revenue account in deficit; no final dividend"
+      },
+      {
+        "metric": "Private company investments",
+        "current": "45.0% of total assets (27 holdings)",
+        "prior": "34.9% of total assets (27 holdings)",
+        "change": "not stated",
+        "basis": "",
+        "note": "28.9% at 14 September 2026 after SpaceX listing"
+      },
+      {
+        "metric": "Net gearing",
+        "current": "3%",
+        "prior": "4%",
+        "change": "not stated",
+        "basis": "",
+        "note": "at 31 May 2026"
+      },
+      {
+        "metric": "Discount to NAV",
+        "current": "0.1%",
+        "prior": "9.4%",
+        "change": "not stated",
+        "basis": "",
+        "note": "start vs end of financial year"
+      },
+      {
+        "metric": "Total assets",
+        "current": "£995.5m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "before £37.1m loans",
+        "note": "at 31 May 2026"
+      }
+    ],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": "Investment trust with no dividend target and no earnings guidance; performance is measured against the S&P 500 total return in sterling."
+    },
+    "explainer": "This is a full-year results statement for an investment trust, so the headline numbers are total returns (capital plus any income) rather than trading profits. The 44.5% share price return and 31.0% NAV return are both measured after deducting borrowings at fair value, and are compared against the S&P 500's 29.8% return converted into sterling — so the trust beat the US market on both measures over its year to 31 May 2026.\n\nThe gap between the 44.5% share price return and the 31.0% NAV return reflects the discount closing: the shares traded 9.4% below asset value at the start of the year but essentially level (0.1% discount) by the end, so shareholders got an extra kick from that re-rating on top of underlying portfolio gains. A large chunk of the NAV gain came from unlisted holdings — SpaceX, Anthropic, Stripe and Databricks — whose valuations are set on a rolling cycle rather than by a live market price.\n\nPrivate companies made up 45.0% of assets at year-end, up from 34.9%, but that dropped to 28.9% by mid-September after SpaceX floated on Nasdaq on 12 June, converting a large private position into a listed one. The trust pays no dividend because its revenue account is in deficit (a loss of 2.58p per share), which is normal for a growth strategy where costs exceed the modest income from holdings.\n\nThere is no earnings or dividend guidance to change. The dominant forward-looking issue is governance: the Board is openly campaigning against activist Saba ahead of the 23 October AGM, urging shareholders to vote to block a control grab, and is renewing buyback and share-issuance authorities after the issuance resolution was defeated last year by a single large shareholder.",
+    "source_url": "https://uk.advfn.com/stock-market/london/baillie-gifford-us-growth-USA/share-news/Baillie-Gifford-US-Growth-Trust-PLC-BG-US-Growth-T/99326089",
+    "related_news_url": "https://news.google.com/search?q=%22Baillie%20Gifford%20US%20Growth%20Trust%20plc%22",
+    "added_at": "2026-09-17T07:23:21.889882"
+  },
+  {
+    "company": "Drax Group plc",
+    "ticker": "DRX",
+    "publish_date": "17 September 2026",
+    "date_iso": "2026-09-17",
+    "time_period": "FY 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "FY 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Drax Group plc</strong> now expects <strong>FY 2026 adjusted EBITDA around the top of the range of consensus estimates</strong> — consensus (as of 4 September 2026) was <strong>£698m</strong>, with a range of <strong>£680-711m</strong>.</li><li>Upgrade driven by <strong>continued strong operational performance</strong> in July and August, including system-support activity through the summer heatwave, plus inclusion of <strong>BSIF from 1 August 2026</strong>.</li><li>Completed acquisition of <strong>Bluefield Solar Income Fund (BSIF)</strong> on <strong>31 July 2026</strong> for <strong>£561m</strong> (enterprise value <strong>£1,082m</strong>), adding c.0.9GW operational solar and wind and taking capacity under management to <strong>c.6.1GW</strong>.</li><li>BSIF brings a <strong>2.9GW gross development pipeline</strong> (c.2.0GW BESS, c.0.9GW solar); c.0.5GW of solar holds long-term CfDs at <strong>c.£69-74/MWh</strong>.</li><li>Funded via a <strong>£0.8bn bridge facility</strong> (to be refinanced); net debt/EBITDA expected <strong>above the ~2x long-term target</strong> in 2026, de-levering by end-2027. Capex guidance unchanged at <strong>£210-250m</strong>.</li><li><strong>Capital Markets Day</strong> scheduled for <strong>23 November 2026</strong>; over <strong>£1bn of contracted forward power sales</strong> for 2026-2028 as at 15 September 2026.</li></ul>",
+    "source_format": "html",
+    "headline": "Drax upgrades 2026 outlook, now expecting full-year adjusted EBITDA around the top of the £680-711m consensus range following strong trading and the BSIF acquisition.",
+    "priority": "high",
+    "priority_reason": "Upgraded full-year EBITDA guidance combined with completion of a £561m acquisition materially affects the outlook.",
+    "figures": [
+      {
+        "metric": "FY 2026 Adjusted EBITDA (consensus)",
+        "current": "around top of £680-711m range",
+        "prior": "£698m consensus midpoint",
+        "change": "not stated",
+        "basis": "analyst consensus as of 4 September 2026",
+        "note": "Drax expects to land around the top of the range"
+      },
+      {
+        "metric": "BSIF acquisition consideration",
+        "current": "£561m (EV £1,082m)",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "completed 31 July 2026"
+      },
+      {
+        "metric": "Capacity under management",
+        "current": "c.6.1GW",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "post-BSIF"
+      },
+      {
+        "metric": "FY 2026 capital expenditure",
+        "current": "£210-250m",
+        "prior": "not stated",
+        "change": "unchanged",
+        "basis": "",
+        "note": "inclusive of BSIF portfolio"
+      },
+      {
+        "metric": "Net debt / Adjusted EBITDA",
+        "current": "above ~2x in 2026",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "targets ~2x long-term; de-lever by end-2027"
+      }
+    ],
+    "guidance": {
+      "status": "raised",
+      "previous": "Prior expectation implied FY 2026 adjusted EBITDA around the consensus midpoint of £698m (range £680-711m)",
+      "current": "FY 2026 adjusted EBITDA now expected around the top of the range of consensus estimates (£680-711m)",
+      "commentary": "Drax has upgraded its 2026 EBITDA outlook to around the top of the consensus range, reflecting strong July/August operational and system-support performance and the inclusion of BSIF from 1 August 2026. Guidance remains subject to continued good operational performance."
+    },
+    "explainer": "This is a positive trading update: Drax has moved its full-year 2026 profit expectation from roughly the middle of analysts' forecasts (a £698m consensus, spanning £680m to £711m) to 'around the top' of that range. In practice that points investors toward the upper end, near £711m, rather than committing to a precise number.\n\nTwo things drive the upgrade. First, its flexible generation assets traded well through the summer heatwave, turning output up and down to help balance the grid — lucrative when the system is stressed. Second, the newly acquired Bluefield Solar Income Fund (BSIF) is consolidated from 1 August 2026, so five months of its earnings now sit inside the 2026 figures.\n\nThe BSIF deal, completed 31 July 2026 for £561m of equity (£1,082m including debt), was funded with an £0.8bn bridge loan that Drax intends to refinance. That extra borrowing pushes net debt above its long-term target of about two times EBITDA for 2026, with a plan to bring it back down by the end of 2027 — worth watching, though management frames it as temporary.\n\nCapex guidance is unchanged at £210-250m, and a Capital Markets Day on 23 November 2026 should flesh out the growth plans across solar, batteries, hydro and the Selby grid connection.",
+    "source_url": "https://uk.advfn.com/stock-market/london/drax-DRX/share-news/Drax-Group-PLC-Trading-Update-upgraded-outlook/99326104",
+    "related_news_url": "https://news.google.com/search?q=%22Drax%20Group%20plc%22",
+    "added_at": "2026-09-17T07:23:21.850515"
+  },
+  {
     "company": "Debenhams Group plc (formerly Boohoo Group plc)",
     "ticker": "DEBS",
     "publish_date": "17 September 2026",
