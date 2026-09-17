@@ -1,5 +1,115 @@
 [
   {
+    "company": "Schroder European Real Estate Investment Trust Ltd",
+    "ticker": "SERE",
+    "publish_date": "17 September 2026",
+    "date_iso": "2026-09-17",
+    "time_period": "Q3 FY26 (quarter ended 30 June 2026; nine months to 30 June 2026 of the year ending 30 September 2026)",
+    "announcement_type": "NAV update / dividend declaration",
+    "period_detail": "Q3 FY26 (quarter ended 30 June 2026; nine months to 30 June 2026 of the year ending 30 September 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li>Shareholders approved a <strong>managed wind-down</strong> on <strong>3 September 2026</strong>, with orderly portfolio realisation targeted over <strong>two-to-three years</strong>; net proceeds to repay borrowings and <strong>return capital to shareholders</strong>, and the first tranche of assets being prepared for sale.</li><li>Unaudited <strong>NAV of €143.6m, or 109.3 cps</strong> (31 March 2026: <strong>€151.3m, or 115.1 cps</strong>), with a <strong>NAV total return of -3.8%</strong> for the quarter, primarily driven by unrealised revaluation losses.</li><li>Third quarterly interim dividend of <strong>1.48 euro cps</strong> declared, <strong>80% covered</strong> by EPRA earnings before exceptionals; annualised yield of <strong>c. 8.6%</strong> on the closing share price of <strong>59.6 pps</strong> at <strong>11 September 2026</strong>. Nine-month dividends total <strong>4.44 euro cps</strong> (87% covered).</li><li>Independent property valuation fell <strong>€7.5m, or -3.9%</strong>, over the quarter to <strong>€185.1m</strong> (31 March 2026: <strong>€192.6m</strong>), reflecting weaker demand for secondary offices amid macroeconomic, inflation and interest-rate concerns.</li><li><strong>EPRA earnings</strong> of <strong>€1.5m</strong> (Q2 2025: €1.5m), €1.6m before exceptionals; net <strong>LTV of 27%</strong> (30% gross of cash), with <strong>€6.4m</strong> available cash excluding <strong>€14.9m</strong> ring-fenced for the French tax claim.</li><li>French Tax Authorities' <strong>€14.9m</strong> notice of adjustment (2021-2023) remains under appeal with <strong>no provision recognised</strong>; no material change since the June 2026 Interim Report.</li></ul>",
+    "source_format": "html",
+    "headline": "Schroder European Real Estate confirms shareholder-approved managed wind-down, declares third interim dividend of 1.48 euro cents and reports NAV down to 109.3 cps.",
+    "priority": "medium",
+    "priority_reason": "Quarterly NAV and dividend declaration alongside confirmation of the shareholder-approved managed wind-down and return of capital.",
+    "figures": [
+      {
+        "metric": "NAV",
+        "current": "€143.6m (109.3 cps)",
+        "prior": "€151.3m (115.1 cps)",
+        "change": "not stated",
+        "basis": "unaudited",
+        "note": "as at 30 June 2026 vs 31 March 2026"
+      },
+      {
+        "metric": "EPRA earnings",
+        "current": "€1.5m",
+        "prior": "€1.5m",
+        "change": "flat",
+        "basis": "€1.6m before exceptional items",
+        "note": "quarter ended 30 June 2026 vs quarter ended 30 June 2025"
+      },
+      {
+        "metric": "Property portfolio valuation",
+        "current": "€185.1m",
+        "prior": "€192.6m",
+        "change": "-3.9% (-€7.5m)",
+        "basis": "independent valuation",
+        "note": "over the quarter to 30 June 2026"
+      },
+      {
+        "metric": "Third interim dividend",
+        "current": "1.48 euro cps",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "80% covered by EPRA earnings before exceptionals",
+        "note": "for year ending 30 September 2026"
+      },
+      {
+        "metric": "NAV total return",
+        "current": "-3.8% (quarter); -3.2% (nine months)",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "not stated",
+        "note": "current financial year"
+      },
+      {
+        "metric": "Net LTV",
+        "current": "27% (30% gross of cash)",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "not stated",
+        "note": "as at 30 June 2026"
+      }
+    ],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": "No formal earnings guidance; the Board notes dividend payments will decline as the portfolio is realised and capital returned during the managed wind-down."
+    },
+    "explainer": "This is a quarterly update from a real estate investment trust that is winding itself down. Shareholders voted on 3 September 2026 to approve an orderly sale of the whole portfolio over the next two to three years, with the cash raised used first to repay debt and then returned to investors. The old investment objective and asset-allocation limits have been dropped in favour of this realisation strategy, and the manager is already preparing a first batch of properties for sale.\n\nNet asset value per share fell from 115.1 to 109.3 euro cents over the quarter, a NAV total return of -3.8%. The drop is almost entirely down to unrealised revaluation losses — the independent valuer marked the portfolio down 3.9% to €185.1m, citing weak demand for secondary offices amid economic and interest-rate uncertainty. These are paper valuation changes rather than realised losses, but they matter more than usual now that the assets are being sold.\n\nEPRA earnings (the recurring rental profit) were flat year-on-year at €1.5m. The third interim dividend of 1.48 euro cents is only 80% covered by that earnings figure, and the Board is explicit that dividends will fall over time as properties are sold and income shrinks — payments are being maintained mainly to preserve investment-trust tax status.\n\nOne overhang to note: the French tax authorities have raised a €14.9m demand covering 2021-2023, which the company is appealing and has not provided for, though it has ring-fenced an equivalent amount of cash. There has been no material change on this since June 2026.",
+    "source_url": "https://uk.advfn.com/stock-market/london/schroder-european-real-e-SERE/share-news/Schroder-Eur-Real-Est-Inv-Trust-PLC-Announcement-o/99326096",
+    "related_news_url": "https://news.google.com/search?q=%22Schroder%20European%20Real%20Estate%20Investment%20Trust%20plc%22",
+    "added_at": "2026-09-17T07:20:24.327737"
+  },
+  {
+    "company": "Next PLC",
+    "ticker": "NXT",
+    "publish_date": "17 September 2026",
+    "date_iso": "2026-09-17",
+    "time_period": "H1 2026/27 (half year to 1 August 2026)",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 2026/27 (half year to 1 August 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>NEXT plc</strong> has released results for the <strong>half year to 1 August 2026</strong>; the scraped text is the RNS submission notice only and does not contain revenue, profit, EPS or guidance figures.</li><li>Board declared an <strong>interim ordinary dividend of 98 pence per share</strong>, payable <strong>4 January 2027</strong>; shares trade ex-dividend from <strong>3 December 2026</strong>, record date <strong>4 December 2026</strong>.</li><li>Full unedited results filed to the FCA National Storage Mechanism and available via the LSE RNS PDF and the NEXT corporate website (www.nextplc.co.uk).</li><li>CFO <strong>Jonathan Blanchard</strong> noted for analyst calls; no sales, profit or guidance detail is present in the supplied text — the underlying numbers must be read from the full report.</li></ul>",
+    "source_format": "html",
+    "headline": "**NEXT plc** published its **Half Year Report to 1 August 2026** and declared an interim ordinary dividend of **98p per share**.",
+    "priority": "high",
+    "priority_reason": "Half-year results from a FTSE 100 retailer are a key trading event, though the scraped text carries only the dividend and no P&L figures.",
+    "figures": [
+      {
+        "metric": "Interim ordinary dividend",
+        "current": "98p per share",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "H1 to 1 August 2026; payable 4 January 2027"
+      }
+    ],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "This item is the London Stock Exchange RNS cover notice for NEXT's half-year report, not the results narrative itself. The only hard figure printed in the supplied text is the interim dividend of 98 pence per share; the revenue, profit, EPS and full-year guidance that markets react to sit inside the full report filed to the FCA's National Storage Mechanism and are not reproduced here.\n\nThe reporting period is the six months to 1 August 2026 (H1 of NEXT's 2026/27 financial year, which runs to late January). Any profit or sales comparatives, and any change to full-year profit guidance, would need to be taken from the full document rather than inferred from this notice.",
+    "source_url": "https://uk.advfn.com/stock-market/london/next-NXT/share-news/Next-PLC-Results-for-the-Half-Year-2026-27/99326088",
+    "related_news_url": "https://news.google.com/search?q=%22NEXT%20plc%22",
+    "added_at": "2026-09-17T07:20:24.297801"
+  },
+  {
     "company": "UNITE Group PLC",
     "ticker": "UTG",
     "publish_date": "17 September 2026",
