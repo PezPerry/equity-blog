@@ -1,5 +1,31 @@
 [
   {
+    "company": "Prudential PLC",
+    "ticker": "PRU",
+    "publish_date": "17 September 2026",
+    "date_iso": "2026-09-17",
+    "time_period": "",
+    "announcement_type": "Dividend declaration",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Prudential plc</strong> has set the <strong>Scrip Reference Price</strong> at <strong>US$13.193810</strong> per new ordinary share under the Evergreen Scrip Dividend Scheme for the <strong>2026 first interim dividend</strong> of <strong>8.88 US cents</strong> per share.</li><li>Shareholders needed a minimum of <strong>149 ordinary shares</strong> on the record date (<strong>11 September 2026</strong>) to participate in the scrip alternative; ex-dividend date was <strong>10 September 2026</strong>.</li><li>Routine scrip dividend administration with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Prudential sets scrip reference price of US$13.193810 per new ordinary share for the 2026 first interim dividend of 8.88 US cents.",
+    "priority": "low",
+    "priority_reason": "Routine scrip dividend administration setting the reference price for the 2026 first interim dividend.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/prudential--pru/scrip-reference-price/9777499",
+    "related_news_url": "https://news.google.com/search?q=%22Prudential%22",
+    "added_at": "2026-09-17T10:36:23.747885"
+  },
+  {
     "company": "S&U",
     "ticker": "SUS",
     "publish_date": "17 September 2026",
