@@ -1,5 +1,64 @@
 [
   {
+    "company": "UNITE Group PLC",
+    "ticker": "UTG",
+    "publish_date": "17 September 2026",
+    "date_iso": "2026-09-17",
+    "time_period": "2026/27 academic year; FY2026",
+    "announcement_type": "Trading update",
+    "period_detail": "2026/27 academic year; FY2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>95%</strong> of Unite beds reserved for the <strong>2026/27</strong> academic year (2025/26: <strong>95%</strong>), in line with the <strong>94-96%</strong> guidance range.</li><li>FY2026 adjusted EPS guidance <strong>reiterated at 41.5-43.0p</strong>; first eight months' trading in line with expectations.</li><li>Now expects <strong>0.5-1.0%</strong> like-for-like income growth (Unite share), reflecting a modest occupancy rise and broadly flat rents versus previous guidance of <strong>0-2% income growth and 1-2% rental growth</strong>.</li><li><strong>Hello Student (Empiric)</strong> portfolio <strong>91%</strong> reserved (2025/26: <strong>84%</strong>), with scope to reach <strong>92%</strong>, ahead of prior <strong>88-90%</strong> expectation.</li><li><strong>719-bed Hawthorne House</strong> development in <strong>Stratford</strong> fully let on opening at rents in line with underwrite; half let to <strong>University of the Arts London</strong>.</li><li>Next update on current trading and Q3 fund valuations due <strong>8 October</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Unite reiterates FY2026 adjusted EPS guidance of 41.5-43.0p with 95% of beds reserved for 2026/27, though like-for-like income guidance narrowed.",
+    "priority": "high",
+    "priority_reason": "Pre-close reservations and trading update with reiterated FY2026 EPS guidance and revised like-for-like income and rental guidance.",
+    "figures": [
+      {
+        "metric": "Unite beds reserved 2026/27",
+        "current": "95%",
+        "prior": "95%",
+        "change": "flat",
+        "basis": "vs 2025/26",
+        "note": "guidance 94-96%"
+      },
+      {
+        "metric": "Hello Student (Empiric) beds reserved 2026/27",
+        "current": "91%",
+        "prior": "84%",
+        "change": "+7ppt",
+        "basis": "vs 2025/26",
+        "note": "scope to reach 92%"
+      },
+      {
+        "metric": "Like-for-like income growth (Unite share)",
+        "current": "0.5-1.0%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "guidance for 2026/27",
+        "note": "previous guidance 0-2%"
+      },
+      {
+        "metric": "Adjusted EPS FY2026",
+        "current": "41.5-43.0p",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "guidance reiterated",
+        "note": "FY2026"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Adjusted EPS 41.5-43.0p for FY2026; like-for-like income growth 0-2% and rental growth 1-2% for 2026/27",
+      "current": "Adjusted EPS 41.5-43.0p for FY2026 reiterated; like-for-like income growth 0.5-1.0% with broadly flat rents; Hello Student occupancy now seen at 92% vs prior 88-90%",
+      "commentary": "Headline FY2026 adjusted EPS guidance is unchanged. Within that, like-for-like income growth has been narrowed to the lower half of the prior 0-2% range, with rents now broadly flat rather than up 1-2%, offset by a modest occupancy uplift and stronger Hello Student reservations."
+    },
+    "explainer": "This is a pre-season trading update from Unite, the UK's largest owner and manager of purpose-built student accommodation. The key figures track how full its buildings are for the coming 2026/27 academic year, measured by the share of beds reserved. At 95%, the Unite Students brand is level with last year and inside its own 94-96% target; the smaller Hello Student (Empiric) brand is well ahead at 91% against 84% a year earlier.\n\nThe most important number for a trader is the reiterated FY2026 adjusted EPS guidance of 41.5-43.0p, which Unite says the first eight months of trading support. Adjusted EPS is a REIT's underlying earnings measure, stripping out property revaluation swings.\n\nBeneath that headline, the composition of income guidance has shifted. Unite now expects like-for-like income to grow 0.5-1.0% (the lower half of the previous 0-2% range), driven by a small occupancy gain rather than rent rises, with rents now seen as broadly flat versus prior guidance of 1-2% growth. A sales mix skewed towards undergraduates on shorter tenancies has weighed on direct-let pricing, though management flags scope to recover income through semester and short-term lettings.\n\nOn balance the earnings outlook is held rather than changed: softer rental growth is being offset by better occupancy, including a raised Hello Student occupancy expectation of 92% (up from 88-90%). A fuller update, including Q3 fund valuations, follows on 8 October.",
+    "source_url": "https://uk.advfn.com/stock-market/london/unite-UTG/share-news/Unite-Group-PLC-The-Reservations-Update/99326085",
+    "related_news_url": "https://news.google.com/search?q=%22The%20Unite%20Group%20PLC%22",
+    "added_at": "2026-09-17T07:19:21.370011"
+  },
+  {
     "company": "Bytes Technology Group PLC",
     "ticker": "BYIT",
     "publish_date": "17 September 2026",
