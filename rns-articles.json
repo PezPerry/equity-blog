@@ -1,5 +1,31 @@
 [
   {
+    "company": "FirstGroup PLC",
+    "ticker": "FGP",
+    "publish_date": "18 September 2026",
+    "date_iso": "2026-09-18",
+    "time_period": "",
+    "announcement_type": "Capital reduction",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Court of Session in Edinburgh</strong> has confirmed the reduction of <strong>FirstGroup</strong>'s share premium account, approved by shareholders at the <strong>30 July 2026</strong> AGM.</li><li>Creates <strong>£500,000,000</strong> of additional distributable reserves, giving greater flexibility to support future <strong>dividends</strong> and <strong>share buybacks</strong>.</li><li><strong>No impact</strong> on the number of ordinary shares in issue, their nominal value, the Group's cash position or net assets; no capital repayment required.</li><li>Becomes effective once the Court order is registered with the <strong>Registrar of Companies</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Court of Session confirms FirstGroup's share premium reduction, creating **£500,000,000** of additional distributable reserves for future dividends and buybacks.",
+    "priority": "medium",
+    "priority_reason": "Capital structure change creating distributable reserves to support future dividends and buybacks, though with no immediate cash or net asset impact.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/prn/firstgroup--fgp/confirmation-of-capital-reduction/9780117",
+    "related_news_url": "https://news.google.com/search?q=%22FirstGroup%22",
+    "added_at": "2026-09-18T12:37:27.194190"
+  },
+  {
     "company": "Mitchells & Butlers PLC",
     "ticker": "MAB",
     "publish_date": "18 September 2026",
