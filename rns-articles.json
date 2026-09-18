@@ -1,5 +1,120 @@
 [
   {
+    "company": "Investec PLC",
+    "ticker": "INVP",
+    "publish_date": "18 September 2026",
+    "date_iso": "2026-09-18",
+    "time_period": "H1 FY2027 (six months to 30 September 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "H1 FY2027 (six months to 30 September 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Investec</strong> guides H1 FY2027 (six months to <strong>30 September 2026</strong>) results <strong>in line with guidance</strong> provided in <strong>May 2026</strong>, citing stable year-to-date performance and sound asset quality.</li><li><strong>Adjusted EPS</strong> expected at <strong>41.7p to 43.3p</strong> (1H2026: <strong>40.5p</strong>), <strong>3% to 7% ahead</strong>; <strong>headline EPS 38.1p to 39.7p</strong> (<strong>+4% to 8%</strong>); <strong>basic EPS 38.1p to 39.7p</strong> (<strong>+1% to 5%</strong>).</li><li><strong>Adjusted operating profit before tax</strong> of <strong>£479.2m to £496.2m</strong> (1H2026: <strong>£468.1m</strong>); <strong>pre-provision adjusted operating profit £531.4m to £548.4m</strong> (1H2026: <strong>£527.4m</strong>).</li><li><strong>Southern African</strong> business up to <strong>6% ahead</strong> in Rands (up to <strong>14%</strong> in sterling); <strong>UK business</strong> (incl. <strong>Rathbones</strong>) expected <strong>2% to 6% behind</strong> prior period, ROTE near lower end at <strong>12.3% to 12.7%</strong>.</li><li><strong>Group ROE 13.1% to 13.5%</strong> and <strong>ROTE 15.0% to 15.5%</strong>, both within guided ranges; <strong>core loans £37.0bn</strong> (31 March 2026: <strong>£35.5bn</strong>), <strong>customer deposits £46.0bn</strong>.</li><li>Interim results scheduled for <strong>Thursday, 19 November 2026</strong>; figures unaudited and constitute a profit forecast under the Listing Rules.</li></ul>",
+    "source_format": "html",
+    "headline": "Investec expects H1 FY2027 adjusted EPS of 41.7p to 43.3p, up 3% to 7%, with results in line with guidance given in May 2026.",
+    "priority": "high",
+    "priority_reason": "Pre-close trading statement with a formal profit forecast and detailed guidance for H1 FY2027.",
+    "figures": [
+      {
+        "metric": "Adjusted EPS",
+        "current": "41.7p to 43.3p",
+        "prior": "40.5p",
+        "change": "+3% to 7%",
+        "basis": "",
+        "note": "1H2027 forecast vs 1H2026"
+      },
+      {
+        "metric": "Headline EPS",
+        "current": "38.1p to 39.7p",
+        "prior": "36.7p",
+        "change": "+4% to 8%",
+        "basis": "",
+        "note": "1H2027 forecast vs 1H2026"
+      },
+      {
+        "metric": "Basic EPS",
+        "current": "38.1p to 39.7p",
+        "prior": "37.8p",
+        "change": "+1% to 5%",
+        "basis": "",
+        "note": "1H2027 forecast vs 1H2026"
+      },
+      {
+        "metric": "Pre-provision adjusted operating profit",
+        "current": "£531.4m to £548.4m",
+        "prior": "£527.4m",
+        "change": "+1% to 4%",
+        "basis": "",
+        "note": "1H2027 forecast vs 1H2026"
+      },
+      {
+        "metric": "Adjusted operating profit before tax",
+        "current": "£479.2m to £496.2m",
+        "prior": "£468.1m",
+        "change": "not stated",
+        "basis": "",
+        "note": "1H2027 forecast vs 1H2026"
+      },
+      {
+        "metric": "Group ROE",
+        "current": "13.1% to 13.5%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "guided range 13.0% to 14.0%",
+        "note": "1H2027"
+      },
+      {
+        "metric": "Group ROTE",
+        "current": "15.0% to 15.5%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "guided range 14.8% to 15.8%",
+        "note": "1H2027"
+      },
+      {
+        "metric": "Core loans",
+        "current": "£37.0bn",
+        "prior": "£35.5bn",
+        "change": "+6.3% annualised (neutral currency), +10.3% reported",
+        "basis": "Specialist Banking",
+        "note": "31 Aug 2026 vs 31 March 2026"
+      },
+      {
+        "metric": "Customer deposits",
+        "current": "£46.0bn",
+        "prior": "not stated",
+        "change": "+2.8% annualised (neutral currency), +6.8% reported",
+        "basis": "",
+        "note": "31 Aug 2026"
+      },
+      {
+        "metric": "FUM, Southern African Wealth",
+        "current": "£30.7bn",
+        "prior": "£27.0bn",
+        "change": "+13.8%",
+        "basis": "",
+        "note": "31 Aug 2026 vs 31 March 2026"
+      },
+      {
+        "metric": "Rathbones FUMA",
+        "current": "£120.7bn",
+        "prior": "£113.6bn",
+        "change": "not stated",
+        "basis": "associate",
+        "note": "30 June 2026 vs 31 March 2026"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Guidance provided in May 2026, including Group ROE of 13.0% to 14.0%, ROTE of 14.8% to 15.8%, and cost-to-income ratio of 52% to 54%.",
+      "current": "Group expected to deliver results in line with the May 2026 guidance: adjusted EPS 41.7p to 43.3p, Group ROE 13.1% to 13.5%, ROTE 15.0% to 15.5%, cost-to-income 52% to 54%, credit loss ratio within the 25bps to 45bps through-the-cycle range.",
+      "commentary": "Guidance is reaffirmed rather than changed; Investec still targets returns towards the upper end of its target range by FY2030. Southern Africa is running slightly ahead of prior year while the UK business (including Rathbones) is expected 2% to 6% behind, with UK ROTE near the lower end of its guided range."
+    },
+    "explainer": "This is a pre-close trading statement, issued before Investec's interim reporting date, giving a formal profit forecast for the six months to 30 September 2026 (which Investec labels 1H2027). The commentary is based on actual results for the five months to 31 August 2026 and then compares the forecast half-year against the same period a year earlier (1H2026, to 30 September 2025). Because Investec is a dual-listed group reporting in sterling but with large Rand operations, growth is shown both in 'neutral currency' (stripping out exchange-rate moves) and in reported sterling terms; a 3.3% strengthening of the Rand flatters the reported figures, so core loan growth is 6.3% in neutral currency but 10.3% as reported.\n\nThe key message is continuity: the group expects to land in line with the guidance it gave in May 2026, so this is a maintained outlook rather than an upgrade or a warning. Adjusted EPS is the headline profit measure (it strips out goodwill, acquired intangibles and one-off strategic actions), and it is guided 3% to 7% higher than last year at 41.7p to 43.3p.\n\nThe two halves of the business are moving in opposite directions. Southern Africa is growing (up to 6% ahead in Rands, and up to 14% in sterling thanks to the currency), with return on equity near the top of its guided range. The UK business, which includes Investec's stake in wealth manager Rathbones, is expected to be 2% to 6% behind last year, with UK return on tangible equity near the lower end of its range and a credit loss ratio around the upper end of its through-the-cycle band — a sign of somewhat higher UK impairment charges.\n\nAll figures are unaudited and constitute a profit forecast under the Listing Rules. Full interim results are due on 19 November 2026.",
+    "source_url": "https://uk.advfn.com/stock-market/london/investec-INVP/share-news/Investec-PLC-Pre-Close-Trading-Statement/99334086",
+    "related_news_url": "https://news.google.com/search?q=%22Investec%20plc%22",
+    "added_at": "2026-09-18T07:36:10.507428"
+  },
+  {
     "company": "Pantheon Infrastructure Plc",
     "ticker": "PINT",
     "publish_date": "18 September 2026",
