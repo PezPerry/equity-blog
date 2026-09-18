@@ -1,5 +1,31 @@
 [
   {
+    "company": "Vanquis Banking Group PLC",
+    "ticker": "VANQ",
+    "publish_date": "18 September 2026",
+    "date_iso": "2026-09-18",
+    "time_period": "",
+    "announcement_type": "Financing / refinancing",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Vanquis Banking Group PLC</strong> is exercising its issuer call to redeem in full its <strong>Fixed Rate Reset Subordinated Tier 2 Notes due 2032</strong> (ISIN XS2397348801) on <strong>13 October 2026</strong>.</li><li>Notes redeemed at principal amount of <strong>£41,536,000</strong> plus accrued unpaid interest to the redemption date; the issue was originally <strong>£200,000,000</strong>.</li><li>Redeemed notes will be cancelled and their <strong>London Stock Exchange Main Market</strong> listing withdrawn shortly after the redemption date.</li><li>Routine capital-management action affecting subordinated Tier 2 debt only, with <strong>no impact</strong> stated on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Vanquis to redeem in full its outstanding £41.5m Fixed Rate Reset Subordinated Tier 2 Notes due 2032 on 13 October 2026, exercising the issuer call.",
+    "priority": "medium",
+    "priority_reason": "Early redemption of a Tier 2 capital instrument, but small (£41.5m outstanding) and routine capital management with no read-across to trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/vanquis-banking-group-20--vanq/notice-of-redemption/9779681",
+    "related_news_url": "https://news.google.com/search?q=%22Vanquis%20Banking%20Group%2020%22",
+    "added_at": "2026-09-18T10:16:45.646655"
+  },
+  {
     "company": "Great Portland Estates PLC",
     "ticker": "GPE",
     "publish_date": "18 September 2026",
