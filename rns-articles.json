@@ -1,5 +1,56 @@
 [
   {
+    "company": "Abrdn Property Income Trust Ltd",
+    "ticker": "API",
+    "publish_date": "18 September 2026",
+    "date_iso": "2026-09-18",
+    "time_period": "H1 to 30 June 2026",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>NAV per share</strong> fell from <strong>3.19p</strong> to <strong>2.98p</strong> over H1 to <strong>30 June 2026</strong>, reflecting a <strong>0.11p</strong> cut to the Far Ralia valuation and <strong>0.07p</strong> of running costs.</li><li><strong>Net assets</strong> stood at <strong>£11.4m</strong> at period end, of which cash was <strong>£4.3m</strong>; sole remaining asset <strong>Far Ralia</strong> is valued at <strong>£6.05m</strong> (1.59p of NAV).</li><li>Board is <strong>considering a potential delisting</strong> from the London Stock Exchange to cut costs; shares would cease trading, with value then dependent solely on liquidator distributions.</li><li>Far Ralia sale has <strong>not yet completed</strong> despite due diligence by several prospective purchasers; uncertainty over carbon-credit and natural-capital markets is weighing on demand, and no sale is deemed imminent.</li><li>Accounts prepared on a <strong>basis other than going concern</strong>, given the clear intention to place the company into liquidation once assets are realised.</li><li>Recurring costs run at approximately <strong>£750k per annum</strong> (net near <strong>£600k</strong> after money-market interest); <strong>£1.65m</strong> of Scottish Forestry grant funding is now approved pending a final administrative step.</li></ul>",
+    "source_format": "html",
+    "headline": "abrdn Property Income Trust's NAV per share fell to 2.98p as it weighs a potential LSE delisting during its wind-down, with sole asset Far Ralia still unsold.",
+    "priority": "medium",
+    "priority_reason": "Interim results for a micro-cap trust in wind-down, but flags a potential LSE delisting and non-going-concern basis that materially affect shareholders.",
+    "figures": [
+      {
+        "metric": "NAV per share",
+        "current": "2.98p",
+        "prior": "3.19p",
+        "change": "-0.21p",
+        "basis": "as reported",
+        "note": "31 Dec 2025 to 30 June 2026"
+      },
+      {
+        "metric": "Net assets",
+        "current": "£11.4m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "as reported",
+        "note": "at 30 June 2026; cash £4.3m"
+      },
+      {
+        "metric": "Far Ralia carrying value",
+        "current": "£6.05m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "fair value less disposal costs",
+        "note": "equates to 1.59p of NAV"
+      }
+    ],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "This is a company in orderly wind-down, not an operating business. After selling its property subsidiaries to GoldenTree Asset Management in November 2024, its only assets are the Far Ralia woodland site and residual cash. With no rental income coming in, running costs steadily exceed the interest earned on cash, so NAV drifts lower each period — here from 3.19p to 2.98p per share.\n\nBecause the Board clearly intends to liquidate once Far Ralia is sold, the accounts are drawn up on a \"basis other than going concern\". In practice that means the land's fair value is reduced by expected disposal costs and no future operating or liquidation costs (beyond estimated liquidator fees) are provided for — an accounting reflection of the intended winding-up rather than a sign of distress.\n\nThe key uncertainty for shareholders is the timing and price of the Far Ralia sale, currently carried at £6.05m. Interest has not yet converted into a deal, with market feedback pointing to broad caution over carbon and natural-capital valuations. Separately, the Board is weighing a voluntary delisting to save costs; shareholders are warned that on delisting or liquidation the shares stop trading, leaving value entirely dependent on eventual liquidator distributions.\n\nNo earnings or dividend guidance is given, consistent with the company's terminal, cash-return-only status.",
+    "source_url": "https://uk.advfn.com/stock-market/london/abrdn-property-income-API/share-news/abrdn-Property-Income-Trust-Limited-Interim-Resu/99334323",
+    "related_news_url": "https://news.google.com/search?q=%22abrdn%20Property%20Income%20Trust%20Limited%22",
+    "added_at": "2026-09-18T07:18:45.098988"
+  },
+  {
     "company": "Credit Acceptance Corp",
     "ticker": "CACC",
     "publish_date": "18 September 2026",
