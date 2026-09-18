@@ -1,5 +1,31 @@
 [
   {
+    "company": "Mitchells & Butlers PLC",
+    "ticker": "MAB",
+    "publish_date": "18 September 2026",
+    "date_iso": "2026-09-18",
+    "time_period": "51 weeks ended 19 September 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "51 weeks ended 19 September 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Mitchells & Butlers</strong> will release its pre-close trading statement for the <strong>51 weeks ended 19 September</strong> on <strong>24 September 2026</strong>.</li><li>Notice of date only — contains <strong>no trading figures or guidance</strong>; one to diarise ahead of the FY update.</li></ul>",
+    "source_format": "html",
+    "headline": "Mitchells & Butlers will publish its pre-close trading statement for the 51 weeks ended 19 September on 24 September 2026.",
+    "priority": "low",
+    "priority_reason": "Diary notice only, flagging the date of a future trading statement with no financial content.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/mitchells-butlers--mab/notice-of-pre-close-trading-statement/9780110",
+    "related_news_url": "https://news.google.com/search?q=%22Mitchells%20%26%20Butlers%22",
+    "added_at": "2026-09-18T12:16:31.766964"
+  },
+  {
     "company": "Vanquis Banking Group PLC",
     "ticker": "VANQ",
     "publish_date": "18 September 2026",
