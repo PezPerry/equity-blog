@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-17",
+  "generated": "2026-09-18",
   "by_ticker": {
     "AAL": {
       "date": "2026-09-29",
@@ -53,10 +53,6 @@
       "date": "2026-09-18",
       "event": "Q2 div payment"
     },
-    "BPT": {
-      "date": "2026-09-17",
-      "event": "Q2 ex-div"
-    },
     "BTRW": {
       "date": "2026-10-02",
       "event": "Annual report (Est)"
@@ -64,10 +60,6 @@
     "CBG": {
       "date": "2026-10-03",
       "event": "Annual report (Est)"
-    },
-    "COST": {
-      "date": "2026-09-17",
-      "event": "Q2 ex-div"
     },
     "CPG": {
       "date": "2026-09-30",
@@ -153,10 +145,6 @@
       "date": "2026-10-15",
       "event": "Q2 ex-div"
     },
-    "IGG": {
-      "date": "2026-09-17",
-      "event": "Q2 div payment"
-    },
     "IHG": {
       "date": "2026-10-01",
       "event": "Q2 div payment"
@@ -214,8 +202,8 @@
       "event": "Year end"
     },
     "PPH": {
-      "date": "2026-09-17",
-      "event": "Q2 ex-div"
+      "date": "2026-10-16",
+      "event": "Q2 div payment"
     },
     "PSN": {
       "date": "2026-10-15",
@@ -249,10 +237,6 @@
       "date": "2026-09-30",
       "event": "Year end"
     },
-    "SGRO": {
-      "date": "2026-09-17",
-      "event": "Special div payment"
-    },
     "SHC": {
       "date": "2026-09-23",
       "event": "Q2 div payment"
@@ -277,10 +261,6 @@
       "date": "2026-09-18",
       "event": "Q2 div payment"
     },
-    "SUPR": {
-      "date": "2026-09-17",
-      "event": "Annual report (Est)"
-    },
     "SVS": {
       "date": "2026-09-25",
       "event": "Q2 div payment"
@@ -300,10 +280,6 @@
     "ULVR": {
       "date": "2026-09-18",
       "event": "Q2 div payment"
-    },
-    "UTG": {
-      "date": "2026-09-17",
-      "event": "Q2 ex-div"
     },
     "VCT": {
       "date": "2026-09-30",

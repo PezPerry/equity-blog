@@ -1,5 +1,72 @@
 [
   {
+    "company": "Softcat plc",
+    "ticker": "SCT",
+    "publish_date": "18 September 2026",
+    "date_iso": "2026-09-18",
+    "time_period": "FY2026 (year to 31 July 2026)",
+    "announcement_type": "Acquisition / deal",
+    "period_detail": "FY2026 (year to 31 July 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Softcat plc</strong> has agreed to acquire <strong>GDT Topco, L.P.</strong> (a US-based multi-vendor IT solutions provider) for an enterprise value of <strong>$1,050m (£785m)</strong> on a cash-free/debt-free basis.</li><li>Funded by <strong>£100m</strong> cash, <strong>£550m</strong> new debt (£450m RCF plus £100m term loan) and <strong>£350m</strong> from an equity placing (less than 10% of issued share capital), with a separate accelerated bookbuild and retail offer announced today.</li><li>Expected to deliver <strong>high single-digit to low double-digit underlying EPS accretion</strong> in the first full fiscal year; net debt leverage rising to <strong>1.3x</strong> at closing, targeted below <strong>1.0x</strong> by end FY2028.</li><li>FY2026 trading update: Board now expects <strong>high-teens</strong> underlying operating profit growth, up from <strong>mid-teens</strong> previously, with cash conversion towards the top of the <strong>85%-95%</strong> guided range.</li><li><strong>GDT</strong>, founded 1996 and Dallas-headquartered, serves c.700 upper mid-market/enterprise customers; for 12 months to December 2026 expected to deliver c.<strong>$240m</strong> gross profit (c.+30%) and c.<strong>$80m</strong> EBITDA.</li><li>Transaction expected to close by end of <strong>Q1 CY2027</strong>, subject to regulatory approvals; FY2026 preliminary results due <strong>14 October 2026</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Softcat to acquire US IT solutions provider GDT for $1,050m (£785m) enterprise value and raises FY2026 operating profit guidance to high-teens growth.",
+    "priority": "high",
+    "priority_reason": "Significant $1,050m US acquisition funded partly by an equity placing, alongside a raised full-year profit guidance.",
+    "figures": [
+      {
+        "metric": "GDT gross profit (12m to Dec 2026, expected)",
+        "current": "c.$240m",
+        "prior": "not stated",
+        "change": "c.+30%",
+        "basis": "U.S. GAAP",
+        "note": "year-on-year growth rate"
+      },
+      {
+        "metric": "GDT EBITDA (12m to Dec 2026, expected)",
+        "current": "c.$80m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "U.S. GAAP",
+        "note": ""
+      },
+      {
+        "metric": "GDT net income (year to 31 Dec 2025)",
+        "current": "$(58.4)m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "U.S. GAAP, includes all amortisation and interest expense",
+        "note": "attributable net income"
+      },
+      {
+        "metric": "GDT gross assets (as at 31 Dec 2025)",
+        "current": "$718.6m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "U.S. GAAP consolidated balance sheet",
+        "note": ""
+      },
+      {
+        "metric": "Net debt leverage at closing",
+        "current": "1.3x",
+        "prior": "c.(0.7)x net cash at end FY2026",
+        "change": "not stated",
+        "basis": "",
+        "note": "targeted below 1.0x by end FY2028"
+      }
+    ],
+    "guidance": {
+      "status": "raised",
+      "previous": "Mid-teens growth in full year underlying operating profit for FY2026",
+      "current": "High-teens growth in full year underlying operating profit for FY2026, with GP growth moderately above this and cash conversion towards the top end of the 85%-95% range",
+      "commentary": "Softcat raised its FY2026 underlying operating profit guidance from mid-teens to high-teens growth after continued strong fourth-quarter trading with broad-based growth across technology areas and customer segments. Excluding GDT, the Board expects high single-digit underlying operating profit growth in FY2027."
+    },
+    "explainer": "This announcement combines a large acquisition with a full-year trading update. Softcat is buying GDT, a US data centre and networking specialist, for an enterprise value of $1,050m (£785m), funded through a mix of existing cash, new bank debt and a fresh share issue equal to under 10% of the company. Because the deal is large relative to Softcat, it counts as a Significant Transaction under the UK Listing Rules.\n\nThe GDT figures need care. GDT's expected c.$240m gross profit and c.$80m EBITDA for the 12 months to December 2026 are forward-looking estimates on a US GAAP basis, not audited historic results. GDT's reported attributable net income for the year to December 2025 was a loss of $58.4m, but that figure is stated to include all amortisation and interest costs tied to GDT's current (leveraged) capital structure, so it reflects the existing ownership's financing rather than the underlying operating performance Softcat is buying.\n\nOn the trading update, the key change is that Softcat has lifted FY2026 underlying operating profit guidance from mid-teens to high-teens percentage growth, driven by a strong fourth quarter. Gross profit growth is expected to run moderately above that, and cash conversion towards the top of the 85%-95% range. Separately, and importantly, the FY2027 outlook of high single-digit operating profit growth excludes any contribution from GDT, since the deal is not expected to close until early calendar 2027.\n\nOn leverage: Softcat currently sits in a net cash position (around minus 0.7x), and the debt-funded deal will move it to roughly 1.3x net debt at closing, before an intended reduction to below 1.0x by the end of FY2028, within a new stated target range of 0.5-1.0x.",
+    "source_url": "https://uk.advfn.com/stock-market/london/softcat-SCT/share-news/Softcat-PLC-Acquisition-of-GDT-and-full-year-tradi/99331121",
+    "related_news_url": "https://news.google.com/search?q=%22Softcat%20plc%22",
+    "added_at": "2026-09-18T07:17:10.203427"
+  },
+  {
     "company": "Investec PLC",
     "ticker": "INVP",
     "publish_date": "17 September 2026",
