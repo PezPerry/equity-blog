@@ -1,5 +1,31 @@
 [
   {
+    "company": "Credit Acceptance Corp",
+    "ticker": "CACC",
+    "publish_date": "18 September 2026",
+    "date_iso": "2026-09-18",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>Credit Acceptance Corporation</strong> has reached a resolution via consent judgments with <strong>participating state attorneys general</strong> (40 states plus the District of Columbia), settling an investigation into its auto-finance practices.</li><li>Terms: <strong>$60m</strong> to a consumer relief fund, <strong>$15.5m</strong> to the attorneys general for investigation costs, and <strong>debt relief</strong> through a waiver of all outstanding balances for certain customers.</li><li>The company states the monetary components <strong>will not require additional charges</strong> beyond amounts <strong>previously accrued and disclosed</strong> — no fresh hit to earnings.</li><li>Company will preserve and supplement existing controls: consumer disclosures on vehicle pricing and ancillary products, affordability protections and dealer-oversight requirements; says these <strong>do not fundamentally alter its business model</strong>.</li><li>CEO <strong>Vinayak Hegde</strong> framed the deal as providing certainty for the business, dealer partners and customers, consistent with regulatory direction in automotive finance.</li><li>US NASDAQ-listed (<strong>CACC</strong>), not an LSE/RNS issuer — relevance to UK trading is limited.</li></ul>",
+    "source_format": "html",
+    "headline": "Credit Acceptance settles with 40 state attorneys general, agreeing to pay **$75.5m** plus customer debt relief, fully covered by prior accruals.",
+    "priority": "medium",
+    "priority_reason": "Material legal settlement resolving a multi-state investigation, but monetary components are already accrued so there is no new earnings hit.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/CACC/share-news/Credit-Acceptance-Reaches-Resolution-With-State-At/99331790",
+    "related_news_url": "https://news.google.com/search?q=%22Credit%20Acceptance%20Corporation%22",
+    "added_at": "2026-09-18T07:17:49.322760"
+  },
+  {
     "company": "Softcat plc",
     "ticker": "SCT",
     "publish_date": "18 September 2026",
