@@ -93,6 +93,57 @@
     "added_at": "2026-09-18T07:17:10.203427"
   },
   {
+    "company": "Steel Dynamics Inc",
+    "ticker": "STLD",
+    "publish_date": "17 September 2026",
+    "date_iso": "2026-09-17",
+    "time_period": "Q3 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "Q3 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Steel Dynamics</strong> guides Q3 2026 earnings to <strong>$5.34 to $5.38 per diluted share</strong>, up from <strong>$3.69</strong> in Q2 2026 and <strong>$2.74</strong> in prior-year Q3.</li><li>Steel operations profitability expected <strong>significantly higher</strong> sequentially, driven by <strong>metal margin expansion</strong> and <strong>record shipments</strong>, with higher realised selling values and lower scrap costs.</li><li>Steel fabrication backlog <strong>nearly 50% higher</strong> than prior-year Q3 and extending into Q1 2027; aluminium operations to improve <strong>meaningfully</strong> on higher shipments as the <strong>Columbus, Mississippi</strong> flat-rolled mill ramps up.</li><li>Metals recycling earnings expected <strong>lower</strong> sequentially on narrower metal spreads and modestly lower shipments.</li><li>Repurchased <strong>$261 million</strong> (just under 1%) of common stock so far in Q3 2026.</li><li>Q3 2026 results due after market close on <strong>19 October 2026</strong>, with a conference call the following day.</li></ul>",
+    "source_format": "html",
+    "headline": "Steel Dynamics guides to Q3 2026 EPS of $5.34–$5.38, well above Q2's $3.69 and prior-year Q3's $2.74, on steel margin expansion and record shipments.",
+    "priority": "high",
+    "priority_reason": "Forward earnings guidance signalling a sharp sequential and year-on-year profit jump for the quarter.",
+    "figures": [
+      {
+        "metric": "EPS (diluted)",
+        "current": "$5.34–$5.38",
+        "prior": "$3.69 (Q2 2026); $2.74 (Q3 2025)",
+        "change": "not stated",
+        "basis": "guidance",
+        "note": "Q3 2026 guidance"
+      },
+      {
+        "metric": "Share buyback",
+        "current": "$261m (just under 1% of common stock)",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "Q3 2026 to date"
+      },
+      {
+        "metric": "Steel fabrication backlog",
+        "current": "nearly 50% higher than prior-year Q3",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "extends through Q1 2027"
+      }
+    ],
+    "guidance": {
+      "status": "new",
+      "previous": "No prior Q3 2026 EPS guidance stated",
+      "current": "Q3 2026 earnings of $5.34 to $5.38 per diluted share",
+      "commentary": "Steel Dynamics issued fresh Q3 2026 EPS guidance implying a strong sequential rise from Q2's $3.69 and near-doubling versus prior-year Q3's $2.74, driven mainly by steel operations margin expansion and record shipments, with aluminium and fabrication also improving while recycling softens."
+    },
+    "explainer": "This is a pre-close guidance statement, not final results. The company is telling the market roughly what Q3 2026 earnings per share will be — $5.34 to $5.38 — ahead of the actual figures due on 19 October. The comparatives are the immediately preceding quarter (Q2 2026 at $3.69) and the same quarter a year earlier (Q3 2025 at $2.74), so the guidance points to a large step-up on both bases.\n\nThe improvement is concentrated in the core steel business, where \"metal margin\" — the gap between selling prices and scrap input costs — is widening as prices rise and scrap costs fall, alongside record volumes. Fabrication and aluminium are also expected to improve, while the metals recycling arm is the one soft spot, with thinner spreads and slightly lower volumes.\n\nBecause this covers a US-listed steelmaker, all figures are in US dollars and reported on a standard sequential/year-on-year basis; there is no currency-adjusted or organic split to unpick. The $261m of stock already bought back this quarter modestly reduces the share count, which is mildly supportive of per-share earnings.",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/STLD/share-news/Steel-Dynamics-Provides-Third-Quarter-2026-Earning/99332761",
+    "related_news_url": "https://news.google.com/search?q=%22Steel%20Dynamics%2C%20Inc.%22",
+    "added_at": "2026-09-18T07:18:11.874061"
+  },
+  {
     "company": "Investec PLC",
     "ticker": "INVP",
     "publish_date": "17 September 2026",
