@@ -1,5 +1,31 @@
 [
   {
+    "company": "James Halstead PLC",
+    "ticker": "JHD",
+    "publish_date": "21 September 2026",
+    "date_iso": "2026-09-21",
+    "time_period": "FY to 30 June 2026",
+    "announcement_type": "Notice of results",
+    "period_detail": "FY to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>James Halstead plc</strong>, the commercial flooring manufacturer and distributor, will report <strong>preliminary results</strong> for the year ended <strong>30 June 2026</strong> on <strong>Thursday 1 October 2026</strong>.</li><li>Routine diary notice only — <strong>no financial figures or trading detail</strong> disclosed, with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "James Halstead will publish its preliminary results for the year ended 30 June 2026 on Thursday 1 October 2026.",
+    "priority": "low",
+    "priority_reason": "Diary notice of a future results date; no financial content or trading news.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/james-halstead--jhd/notice-of-preliminary-results/9780817",
+    "related_news_url": "https://news.google.com/search?q=%22James%20Halstead%22",
+    "added_at": "2026-09-21T07:36:51.709945"
+  },
+  {
     "company": "Rightmove plc",
     "ticker": "RMV",
     "publish_date": "21 September 2026",
