@@ -2,6 +2,22 @@
   "_comment": "Trading Log registry. Newest first. Rebuild the index and the front-page teaser with: python build-trading-log.py. Register a new entry page (root HTML tagged tile-variant=trading-log) with: python build-trading-log.py --add <file.html>. 'url' is the branded address the row links to; 'source' is the Pages copy (null for entries stored only in Base44). 'time' is the UK time the note went live.",
   "entries": [
     {
+      "slug": "bank-rate-hold-trump-not-threadneedle-street",
+      "date": "2026-09-18",
+      "time": "20:29",
+      "tag": "Market view",
+      "tickers": [
+        "UK RATES"
+      ],
+      "companies": "Bank of England",
+      "title": "3.75% for now. The next move depends on Trump, not Threadneedle Street.",
+      "why": "The Bank of England held Bank Rate at 3.75% for a sixth meeting, on a 6-3 vote. With CPI at 3.1% and wholesale gas up 78% since July, the next move rests on how long the Iranian conflict, and the Hormuz closure, lasts.",
+      "url": "https://equityandmarketsinsight.com/TradeDetail?slug=bank-rate-hold-trump-not-threadneedle-street",
+      "source": "bank-rate-hold-trump-not-threadneedle-street.html",
+      "readMinutes": 3,
+      "related": null
+    },
+    {
       "slug": "us-inflation-is-not-the-problem-i-expected-it-to-be",
       "date": "2026-09-17",
       "time": "17:32",
