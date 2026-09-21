@@ -2,6 +2,23 @@
   "_comment": "Trading Log registry. Newest first. Rebuild the index and the front-page teaser with: python build-trading-log.py. Register a new entry page (root HTML tagged tile-variant=trading-log) with: python build-trading-log.py --add <file.html>. 'url' is the branded address the row links to; 'source' is the Pages copy (null for entries stored only in Base44). 'time' is the UK time the note went live.",
   "entries": [
     {
+      "slug": "us-inflation-is-not-the-problem-i-expected-it-to-be",
+      "date": "2026-09-17",
+      "time": "17:32",
+      "tag": "Market view",
+      "tickers": [
+        "US RATES",
+        "NASDAQ"
+      ],
+      "companies": "Federal Reserve, Nasdaq Composite",
+      "title": "US inflation is not the problem I expected it to be",
+      "why": "The Federal Reserve has hiked for the first time since 2023, yet headline inflation of 3.4% is being held up by one component, energy, which the futures market prices to fade. More reason to look for a Nasdaq break higher than a break lower.",
+      "url": "https://equityandmarketsinsight.com/TradeDetail?slug=us-inflation-is-not-the-problem-i-expected-it-to-be",
+      "source": "us-inflation-is-not-the-problem-i-expected-it-to-be.html",
+      "readMinutes": 7,
+      "related": null
+    },
+    {
       "slug": "bank-rate-hold-trump-not-threadneedle-street",
       "date": "2026-09-18",
       "time": "20:29",
