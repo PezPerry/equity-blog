@@ -10,8 +10,25 @@ else about them.
 |---|---|
 | `run-hidden.js` | Launcher. Starts a `.ps1`, `.py`, `.cmd`, `.bat` or `.exe` with its console hidden, logs its output beside it, passes its exit code back to Task Scheduler. |
 | `Convert-TasksToHidden.ps1` | Re-points existing tasks through the launcher in bulk. Dry run by default, backs every task up first. |
+| `install.ps1` | One-shot runner: downloads the two files above, smoke-tests the launcher, runs the converter, lists what is left. |
 
-## Install (once, on the RemotePC)
+## Quickest route: one line on the RemotePC
+
+In an administrator PowerShell on the RemotePC, this downloads both files to `C:\Automation`,
+smoke-tests the launcher, previews every candidate task and converts them all (each one is
+backed up first). Leave off `-Apply` to preview only.
+
+```powershell
+& ([scriptblock]::Create((irm 'https://raw.githubusercontent.com/PezPerry/equity-blog/main/tools/windows/install.ps1'))) -Apply
+```
+
+While the PR is unmerged, point it at the branch instead:
+
+```powershell
+& ([scriptblock]::Create((irm 'https://raw.githubusercontent.com/PezPerry/equity-blog/claude/powershell-background-windows-epgzi9/tools/windows/install.ps1'))) -Ref claude/powershell-background-windows-epgzi9 -Apply
+```
+
+## Manual install (once, on the RemotePC)
 
 ```powershell
 New-Item -ItemType Directory -Force C:\Automation | Out-Null
