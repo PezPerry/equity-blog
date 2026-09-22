@@ -1,5 +1,72 @@
 [
   {
+    "company": "Mortgage Advice Bureau (Holdings) PLC",
+    "ticker": "MAB1",
+    "publish_date": "22 September 2026",
+    "date_iso": "2026-09-22",
+    "time_period": "H1 2026 (six months ended 30 June 2026)",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 2026 (six months ended 30 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Total mortgage completions</strong> up <strong>16%</strong> to <strong>£16.5bn</strong> (H1 2025: <strong>£14.2bn</strong>), led by refinancing and Product Transfers, which carry lower revenue than purchase lending.</li><li><strong>New mortgage lending</strong> (purchase and remortgage) up <strong>8%</strong> to <strong>£12.0bn</strong> (H1 2025: <strong>£11.1bn</strong>), holding market share at <strong>8.2%</strong>; Product Transfer completions up <strong>44%</strong>, share up to <strong>3.2%</strong>.</li><li>Guidance lowered: <strong>Group adjusted profit before tax</strong> for FY to <strong>31 December 2026</strong> now expected at approximately <strong>£38.0m</strong>, growth of only <strong>~5%</strong> vs 2025, following the revision announced on <strong>9 September</strong>.</li><li>Downgrade driven by <strong>Fluent</strong>, whose digital lead flows from partner relationships have been slower to activate; its 2026 adjusted PBT contribution is now about <strong>£5m lower</strong> than expected, with benefit deferred into 2027.</li><li>Board changes: <strong>Emilie McCarthy</strong> steps down as CFO on <strong>30 September 2026</strong>, succeeded by <strong>Jo Stent</strong> (currently CFO Designate); <strong>Yaiza Luengo</strong> left as COO on 29 May; <strong>Ben Thompson</strong> to leave end-2026.</li><li>Company moved to the <strong>Main Market</strong> and Official List on <strong>1 May 2026</strong> (AIM cancelled) and joined the <strong>FTSE All-Share</strong> in June 2026.</li></ul>",
+    "source_format": "html",
+    "headline": "MAB reports H1 mortgage completions up 16% to £16.5bn but confirms lowered 2026 guidance, with adjusted pre-tax profit growth of only ~5%.",
+    "priority": "high",
+    "priority_reason": "Interim results carrying a confirmed downgrade to 2026 profit guidance following the 9 September revision.",
+    "figures": [
+      {
+        "metric": "Total mortgage completions",
+        "current": "£16.5bn",
+        "prior": "£14.2bn",
+        "change": "+16%",
+        "basis": "reported",
+        "note": "H1 2026 vs H1 2025, includes Product Transfers"
+      },
+      {
+        "metric": "New mortgage lending (purchase + remortgage)",
+        "current": "£12.0bn",
+        "prior": "£11.1bn",
+        "change": "+8%",
+        "basis": "reported",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "New lending market share",
+        "current": "8.2%",
+        "prior": "8.2%",
+        "change": "maintained",
+        "basis": "reported",
+        "note": "H1 2026"
+      },
+      {
+        "metric": "Product Transfer completions",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+44%",
+        "basis": "reported",
+        "note": "market share up to 3.2% from 3.1%"
+      },
+      {
+        "metric": "Group adjusted profit before tax (FY2026 guidance)",
+        "current": "approx £38.0m",
+        "prior": "not stated",
+        "change": "approx +5% vs 2025",
+        "basis": "adjusted",
+        "note": "guidance for year ending 31 December 2026"
+      }
+    ],
+    "guidance": {
+      "status": "lowered",
+      "previous": "Prior expectations (before the 9 September revision) assumed a gradual housing market recovery and a significant step-up in Fluent's 2026 contribution; specific prior profit figure not stated in the announcement.",
+      "current": "Group adjusted profit before tax for FY to 31 December 2026 of approximately £38.0m, representing growth of approximately 5% versus 2025.",
+      "commentary": "Guidance was cut on 9 September and reaffirmed here. The shortfall is largely Fluent, whose digital lead flows from national partner relationships took longer than expected to activate and scale, leaving its 2026 adjusted PBT contribution about £5m below plan. A softer purchase market over July–August compounded the pressure; management expects the delayed profit contribution to build through 2027."
+    },
+    "explainer": "MAB's headline volume growth looks strong — total mortgage completions rose 16% to £16.5bn — but the mix matters. Growth was driven by refinancing, especially Product Transfers (customers switching to a new deal with their existing lender), which now make up around three-quarters of refinancing activity. Product Transfers generate less revenue per case than purchase lending, so a 16% rise in volumes does not translate into a matching rise in profit.\n\nThe purchase market, which is more lucrative for MAB, remained weak: purchase transactions were roughly flat to slightly down, and the widely expected interest-rate-driven recovery has not arrived. Market share figures are stated on a reported basis and were broadly held or nudged higher across segments.\n\nOn guidance, the important change is a downgrade already flagged on 9 September and confirmed here. Group adjusted pre-tax profit for the year to December 2026 is now guided to about £38.0m, growth of only around 5% on 2025. The main cause is Fluent: its plan to scale digital mortgage lead flows from partner relationships has slipped, with pilot and capacity costs incurred ahead of revenue, cutting roughly £5m from its expected 2026 profit contribution. Management says the commercial opportunity is intact and expects a stronger Fluent contribution from 2027, helped by around 30% more fixed-rate mortgage maturities next year.",
+    "source_url": "https://uk.advfn.com/stock-market/london/mortgage-advice-bureau-MAB1/share-news/Mortgage-Advice-Bureau-Hldgs-PLC-Interim-Results/99348806",
+    "related_news_url": "https://news.google.com/search?q=%22Mortgage%20Advice%20Bureau%20(Holdings)%20plc%22",
+    "added_at": "2026-09-22T07:19:04.521447"
+  },
+  {
     "company": "Target Healthcare REIT Ltd",
     "ticker": "THRL",
     "publish_date": "22 September 2026",
