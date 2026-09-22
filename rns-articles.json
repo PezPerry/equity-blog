@@ -1,5 +1,112 @@
 [
   {
+    "company": "Kingfisher PLC",
+    "ticker": "KGF",
+    "publish_date": "22 September 2026",
+    "date_iso": "2026-09-22",
+    "time_period": "H1 26/27 (six months ended 31 July 2026)",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 26/27 (six months ended 31 July 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Kingfisher plc</strong> upgraded FY guidance alongside H1 results: adjusted PBT now <strong>£595m-£635m</strong> (previously <strong>£565m-£625m</strong>) and free cash flow <strong>£480m-£520m</strong> (previously <strong>£450m-£510m</strong>).</li><li>H1 adjusted PBT <strong>+9.9% to £404m</strong>, aided by <strong>+70bps</strong> gross margin expansion and a <strong>£14m</strong> one-off UK business rates refund; excluding the refund, adjusted PBT rose <strong>+6.1%</strong>. Statutory PBT <strong>+18.4% to £400m</strong>.</li><li>Adjusted EPS <strong>+16.1% to 17.8p</strong>; statutory basic EPS <strong>+29.5% to 17.3p</strong>. Retail profit <strong>+7.5% to £489m</strong>, margin <strong>7.1% (+50bps)</strong>.</li><li>Underlying LFL sales <strong>+0.3%</strong>, total sales including marketplace GMS <strong>+1.6%</strong>; <strong>Screwfix</strong> standout with LFL <strong>+5.6%</strong>; marketplace GMV <strong>+42% to £372m</strong>.</li><li>Interim dividend <strong>maintained at 3.8p</strong>; <strong>£300m</strong> buyback ongoing with <strong>£125m</strong> purchased, third <strong>£50m</strong> tranche starting this week.</li></ul>",
+    "source_format": "html",
+    "headline": "Kingfisher grows H1 adjusted PBT 9.9% to £404m and raises full-year profit and free cash flow guidance.",
+    "priority": "high",
+    "priority_reason": "Half-year results accompanied by a full-year guidance upgrade for both adjusted PBT and free cash flow.",
+    "figures": [
+      {
+        "metric": "Adjusted PBT",
+        "current": "£404m",
+        "prior": "not stated",
+        "change": "+9.9%",
+        "basis": "constant currency",
+        "note": "H1 to 31 July 2026; +6.1% excluding £14m one-off business rates refund"
+      },
+      {
+        "metric": "Statutory PBT",
+        "current": "£400m",
+        "prior": "£338m",
+        "change": "+18.4%",
+        "basis": "reported",
+        "note": "prior year included £31m Romania disposal loss in adjusting items"
+      },
+      {
+        "metric": "Retail profit",
+        "current": "£489m",
+        "prior": "not stated",
+        "change": "+7.5%",
+        "basis": "constant currency",
+        "note": "margin 7.1%, +50bps"
+      },
+      {
+        "metric": "Adjusted EPS",
+        "current": "17.8p",
+        "prior": "not stated",
+        "change": "+16.1%",
+        "basis": "reported",
+        "note": "aided by share buybacks"
+      },
+      {
+        "metric": "Statutory basic EPS",
+        "current": "17.3p",
+        "prior": "not stated",
+        "change": "+29.5%",
+        "basis": "reported",
+        "note": ""
+      },
+      {
+        "metric": "Gross margin",
+        "current": "38.4%",
+        "prior": "not stated",
+        "change": "+70bps",
+        "basis": "constant currency",
+        "note": ""
+      },
+      {
+        "metric": "Underlying LFL sales",
+        "current": "+0.3%",
+        "prior": "not stated",
+        "change": "+0.3%",
+        "basis": "like-for-like",
+        "note": "total sales incl. marketplace GMS +1.6%; statutory sales +0.8%"
+      },
+      {
+        "metric": "Marketplace GMV",
+        "current": "£372m",
+        "prior": "not stated",
+        "change": "+42%",
+        "basis": "reported",
+        "note": "profit contribution £13.4m vs H1 25/26 £7m"
+      },
+      {
+        "metric": "Free cash flow",
+        "current": "£339m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "H1 delivered; FY guidance £480m-£520m"
+      },
+      {
+        "metric": "Interim dividend",
+        "current": "3.8p",
+        "prior": "3.8p",
+        "change": "maintained",
+        "basis": "reported",
+        "note": "per share"
+      }
+    ],
+    "guidance": {
+      "status": "raised",
+      "previous": "Adjusted PBT approximately £565m-£625m; free cash flow approximately £450m-£510m",
+      "current": "Adjusted PBT approximately £595m-£635m; free cash flow approximately £480m-£520m",
+      "commentary": "Kingfisher lifted the low and high ends of its full-year adjusted PBT range by £30m and £10m respectively, and raised the free cash flow range by £30m at the bottom and £10m at the top. Management cited consistent delivery, market share gains and momentum across trade, e-commerce and marketplace, despite a mixed consumer environment."
+    },
+    "explainer": "These are half-year results for the six months to 31 July 2026, presented in constant currency (stripping out exchange-rate movements) unless stated. Underlying like-for-like sales, which exclude new space and disposals, edged up just 0.3%, but adjusted pre-tax profit grew a much stronger 9.9% because Kingfisher widened its gross margin by 70 basis points and kept costs tight. A one-off £14m UK business rates refund flattered the profit figure; stripping it out, adjusted PBT still rose 6.1%.\n\nThe gap between adjusted PBT (+9.9%) and statutory PBT (+18.4%) is largely a prior-year comparison effect: last year's statutory number was depressed by a £31m loss on selling the Romania business, so this year's statutory growth looks faster than the underlying trend. Adjusted figures are management's preferred 'clean' measure that excludes such one-offs.\n\nThe key news is the guidance upgrade. Kingfisher raised its full-year adjusted PBT range to £595m-£635m from £565m-£625m, and free cash flow to £480m-£520m from £450m-£510m. In practice that lifts the bottom of the profit range by £30m and signals more confidence in cash generation. The interim dividend was held flat at 3.8p and the £300m share buyback continues, with a third £50m tranche starting this week.",
+    "source_url": "https://uk.advfn.com/stock-market/london/kingfisher-KGF/share-news/Kingfisher-PLC-Half-Year-Results/99348778",
+    "related_news_url": "https://news.google.com/search?q=%22Kingfisher%20plc%22",
+    "added_at": "2026-09-22T07:17:29.157437"
+  },
+  {
     "company": "Construction Partners Inc",
     "ticker": "ROAD",
     "publish_date": "21 September 2026",
