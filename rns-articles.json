@@ -1,5 +1,31 @@
 [
   {
+    "company": "Standard Chartered PLC",
+    "ticker": "STAN",
+    "publish_date": "22 September 2026",
+    "date_iso": "2026-09-22",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>Standard Chartered PLC</strong> released an <strong>Overseas Regulatory Announcement</strong> to <strong>The Stock Exchange of Hong Kong</strong> on <strong>22 September 2026</strong>, under Hong Kong Listing Rules 17.06A, 17.06B and 17.06C.</li><li>There is <strong>no equivalent requirement</strong> under the UK Listing Rules; the filing is issued <strong>for information purposes only</strong> with <strong>no impact</strong> on trading or guidance.</li><li>Announcement detail is contained in a linked <strong>PDF</strong> not reproduced in the scraped text, so the underlying subject matter cannot be confirmed here.</li></ul>",
+    "source_format": "html",
+    "headline": "Standard Chartered has released an announcement to the Hong Kong Stock Exchange for information purposes only, with no equivalent UK requirement.",
+    "priority": "low",
+    "priority_reason": "Routine overseas regulatory filing to the Hong Kong exchange with no UK news content.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/standard-chartered--stan/overseas-regulatory-announcement/9784838",
+    "related_news_url": "https://news.google.com/search?q=%22Standard%20Chartered%22",
+    "added_at": "2026-09-22T11:55:50.659212"
+  },
+  {
     "company": "DCC Energy plc",
     "ticker": "DCC",
     "publish_date": "22 September 2026",
