@@ -1,5 +1,96 @@
 [
   {
+    "company": "Target Healthcare REIT Ltd",
+    "ticker": "THRL",
+    "publish_date": "22 September 2026",
+    "date_iso": "2026-09-22",
+    "time_period": "FY to 30 June 2026",
+    "announcement_type": "Annual results",
+    "period_detail": "FY to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Total accounting return of 12.0%</strong> (2025: 9.3%), described as the Group's <strong>best annual financial performance since its 2013 IPO</strong>, driven by inflation-linked rental uplifts and stable valuation yields.</li><li><strong>EPRA NTA per share up 6.4% to 122.1p</strong> (2025: 114.8p); <strong>adjusted EPRA EPS up 7.6% to 6.54p</strong> (2025: 6.08p).</li><li><strong>Fully covered dividend of 6.032p, up 2.5%</strong> (2025: 5.884p) and <strong>108% covered</strong>; <strong>FY27 dividend target of 6.212p, a 3.0% increase</strong>.</li><li>Portfolio of <strong>87 properties valued at £924.1m</strong>, fully let to 31 tenants, with <strong>like-for-like rental growth of 3.7%</strong>, <strong>rent cover of 1.9x</strong> and occupancy stable at c.85%.</li><li><strong>Net LTV cut to 16.1%</strong> (2025: 21.8%); debt refinanced to <strong>£200m drawn at 3.89%</strong>, fully hedged until at least September 2030; <strong>rent collection returned to 100%</strong> by year end.</li><li><strong>Disposed of 11 care homes for £97m</strong> at an 11.0% premium to carrying value, with £73m redeployed at an accretive yield above 6%.</li></ul>",
+    "source_format": "html",
+    "headline": "Target Healthcare REIT posted a total accounting return of 12.0%, its best year since IPO, with EPRA NTA up 6.4% to 122.1p.",
+    "priority": "high",
+    "priority_reason": "Full-year results from a FTSE 250 REIT, including NTA growth, a dividend increase and a new FY27 dividend target.",
+    "figures": [
+      {
+        "metric": "Total accounting return",
+        "current": "12.0%",
+        "prior": "9.3%",
+        "change": "not stated",
+        "basis": "EPRA NTA movement plus dividends paid",
+        "note": "FY to 30 June 2026"
+      },
+      {
+        "metric": "EPRA NTA per share",
+        "current": "122.1p",
+        "prior": "114.8p",
+        "change": "+6.4%",
+        "basis": "not stated",
+        "note": "as at 30 June 2026"
+      },
+      {
+        "metric": "Adjusted EPRA EPS",
+        "current": "6.54p",
+        "prior": "6.08p",
+        "change": "+7.6%",
+        "basis": "not stated",
+        "note": "FY to 30 June 2026"
+      },
+      {
+        "metric": "Dividend per share",
+        "current": "6.032p",
+        "prior": "5.884p",
+        "change": "+2.5%",
+        "basis": "108% covered by adjusted EPRA earnings",
+        "note": "FY to 30 June 2026"
+      },
+      {
+        "metric": "Net loan-to-value",
+        "current": "16.1%",
+        "prior": "21.8%",
+        "change": "not stated",
+        "basis": "not stated",
+        "note": "as at 30 June 2026"
+      },
+      {
+        "metric": "Contractual rent",
+        "current": "£61.1m pa",
+        "prior": "£61.2m pa",
+        "change": "+3.7% like-for-like",
+        "basis": "predominantly rent reviews",
+        "note": "as at 30 June 2026"
+      },
+      {
+        "metric": "Portfolio value",
+        "current": "£924.1m",
+        "prior": "not stated",
+        "change": "+4.9% like-for-like",
+        "basis": "not stated",
+        "note": "as at 30 June 2026"
+      },
+      {
+        "metric": "Rent cover",
+        "current": "1.9x",
+        "prior": "1.9x",
+        "change": "not stated",
+        "basis": "mature homes, last twelve months",
+        "note": "FY to 30 June 2026"
+      }
+    ],
+    "guidance": {
+      "status": "new",
+      "previous": "",
+      "current": "FY27 annual dividend target of 6.212 pence per share, representing an increase of 3.0%",
+      "commentary": "The Group set a FY27 dividend target of 6.212p, a 3.0% rise on the 6.032p paid for FY26, supported by inflation-linked rental growth and full rent collection."
+    },
+    "explainer": "Target Healthcare owns modern, purpose-built UK care homes let to operators on long, triple-net leases where the tenant covers property costs. Its returns come mainly from rent, which rises with inflation via contractual rent reviews, and from movements in the valuation of the properties. The headline 12.0% total accounting return combines the 6.4% rise in EPRA net tangible assets (a per-share measure of underlying property value) with dividends paid.\n\nThe 'like-for-like' figures strip out purchases and sales to show how the standing portfolio performed on its own: rents rose 3.7% and values 4.9% on this basis. Note that contractual rent was broadly flat in absolute terms (£61.1m vs £61.2m) because the Group sold 11 homes during the year, offsetting the like-for-like rental growth. Rent cover of 1.9x means operators earned nearly twice the rent they owe, indicating the income is well underpinned.\n\nOn the dividend, the 6.032p paid for FY26 was 108% covered by earnings, and the Board has set a new FY27 target of 6.212p, a 3.0% increase. This is a forward target rather than a change to prior guidance. Balance-sheet risk was also reduced, with net LTV falling to 16.1% and all drawn debt now fixed at 3.89% until at least 2030.",
+    "source_url": "https://uk.advfn.com/stock-market/london/target-healthcare-reit-THRL/share-news/Target-Healthcare-REIT-PLC-Final-Results/99348814",
+    "related_news_url": "https://news.google.com/search?q=%22Target%20Healthcare%20REIT%20plc%22",
+    "added_at": "2026-09-22T07:18:29.601445"
+  },
+  {
     "company": "Schroders PLC",
     "ticker": "SDR",
     "publish_date": "22 September 2026",
