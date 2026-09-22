@@ -1,5 +1,31 @@
 [
   {
+    "company": "Investec PLC",
+    "ticker": "INVP",
+    "publish_date": "22 September 2026",
+    "date_iso": "2026-09-22",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>Investec plc</strong> published a <strong>Base Prospectus Supplement dated 22 September 2026</strong> under its <strong>£6,000,000,000 Euro Medium Term Note Programme</strong>, approved by the <strong>UK FCA</strong>.</li><li>Routine debt-programme documentation notified to the <strong>London Stock Exchange</strong> and <strong>JSE</strong> under the dual-listed company structure — <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Investec plc published an FCA-approved Base Prospectus Supplement dated 22 September 2026 under its £6bn Euro Medium Term Note Programme.",
+    "priority": "low",
+    "priority_reason": "Routine publication of a base prospectus supplement for an existing debt programme, with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/investec--invp/publication-of-a-supplementary-prospectus/9785173",
+    "related_news_url": "https://news.google.com/search?q=%22Investec%22",
+    "added_at": "2026-09-22T14:55:36.543146"
+  },
+  {
     "company": "Custodian Property Income Reit",
     "ticker": "CREI",
     "publish_date": "22 September 2026",
