@@ -1,5 +1,106 @@
 [
   {
+    "company": "TP ICAP Group plc",
+    "ticker": "TCAP",
+    "publish_date": "22 September 2026",
+    "date_iso": "2026-09-22",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Philip Price</strong>, Executive Director and Group General Counsel, will step down from both roles with effect from <strong>30 September 2026</strong>.</li><li>He will stay on in a senior advisory capacity as <strong>Strategic Adviser, Corporate Transactions</strong> to support an orderly transition.</li><li><strong>Sarah Linstead</strong>, currently General Counsel for the EMEA region, will succeed him as <strong>Group General Counsel</strong>.</li><li>Price joined the Group in <strong>2015</strong> and sat on the Board and Group Executive Committee, covering governance, regulatory engagement and M&A.</li><li>Routine Board change made under <strong>UK Listing Rule 6.4.4R</strong>, with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Philip Price steps down as Executive Director and Group General Counsel on 30 September 2026, with Sarah Linstead named as his successor.",
+    "priority": "medium",
+    "priority_reason": "Board-level departure with a named successor, but no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/tp-icap-TCAP/share-news/TP-ICAP-Group-plc-Directorate-change/99348828",
+    "related_news_url": "https://news.google.com/search?q=%22TP%20ICAP%20Group%20plc%22",
+    "added_at": "2026-09-22T07:19:34.682754"
+  },
+  {
+    "company": "Oxford Biomedica plc",
+    "ticker": "OXB",
+    "publish_date": "22 September 2026",
+    "date_iso": "2026-09-22",
+    "time_period": "H1 to 30 June 2026",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Interim results</strong> for the six months to <strong>30 June 2026</strong>: constant currency revenue up <strong>10% to £80.2m</strong>; reported revenue up <strong>9% to £79.8m</strong>.</li><li>Adjusted Operating EBITDA improved to <strong>£(2.5)m</strong> from <strong>£(3.9)m</strong> in H1 2025, on stronger revenues and cost discipline; gross margin fell to <strong>37%</strong> (H1 2025: <strong>43%</strong>) on product/client mix and one-off comparatives.</li><li>Record commercial momentum: <strong>17 new clients</strong> signed in H1, over <strong>30%</strong> above all of FY2025, plus <strong>4</strong> more post period-end — total <strong>59 client programmes</strong> and <strong>50 clients</strong>.</li><li>Revenue visibility: backlog of <strong>c.£193m</strong> at 30 June 2026, with <strong>c.£168m</strong> of forecast FY2026 revenue covered by contracted orders; new business pipeline up <strong>c.30%</strong> year-on-year to <strong>c.$713m (c.£539m)</strong>.</li><li><strong>Durham, NC</strong> GMP manufacturing now online with first GMP run completed following previously disclosed delay; ramp-up expected in H2 2026.</li><li><strong>Guidance reiterated</strong>: FY2026 constant currency revenue <strong>£180–200m</strong>, EBITDA margin mid-single-digit % ex one-offs; FY2027 revenue growth <strong>25–30%</strong>; 2030 ambition of <strong>c.£500m</strong> revenue at EBITDA margins near <strong>30%</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "OXB grew H1 constant-currency revenue 10% to £80.2m, improved EBITDA loss and reiterated all FY2026 and medium-term guidance.",
+    "priority": "high",
+    "priority_reason": "Interim results with revenue growth, profitability progress and full guidance reiterated for a FTSE 250 CDMO.",
+    "figures": [
+      {
+        "metric": "Revenue (constant currency)",
+        "current": "£80.2m",
+        "prior": "not stated",
+        "change": "+10%",
+        "basis": "constant currency",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Revenue (reported)",
+        "current": "£79.8m",
+        "prior": "not stated",
+        "change": "+9%",
+        "basis": "reported",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Adjusted Operating EBITDA",
+        "current": "£(2.5)m",
+        "prior": "£(3.9)m",
+        "change": "not stated",
+        "basis": "adjusted, one-offs and FX removed, constant currency",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "Gross margin",
+        "current": "37%",
+        "prior": "43%",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "Revenue backlog",
+        "current": "c.£193m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "ordered gross value of CDMO revenues",
+        "note": "at 30 June 2026"
+      },
+      {
+        "metric": "New business pipeline (non-risk-adjusted)",
+        "current": "c.$713m (c.£539m)",
+        "prior": "not stated",
+        "change": "+c.30% YoY",
+        "basis": "multi-year potential gross revenues",
+        "note": "year-on-year"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "FY2026 constant currency revenue £180–200m; FY2026 EBITDA margin mid-single-digit % excluding one-off costs and low-single-digit % reported; FY2027 revenue growth 25–30% YoY (per August trading update)",
+      "current": "FY2026 constant currency revenue £180–200m; FY2026 EBITDA margin mid-single-digit % excluding one-off costs and low-single-digit % on a reported basis; FY2027 revenue growth 25–30% YoY; medium/long-term ambition of c.£500m revenue by 2030 at EBITDA margins approaching c.30%",
+      "commentary": "All FY2026 and medium-term guidance was reiterated following the August trading update; no changes to targets, with medium- and long-term ambitions unchanged."
+    },
+    "explainer": "OXB reports two revenue figures. Constant currency strips out exchange-rate moves to show underlying growth (up 10% to £80.2m), while the reported figure (up 9% to £79.8m) reflects actual sterling translation. The small gap indicates currency was only a modest headwind in the half.\n\nThe EBITDA figure quoted is 'adjusted Operating EBITDA', which removes one-off items and FX gains/losses and uses constant-currency revenue. The loss narrowed from £(3.9)m to £(2.5)m, so the business is still loss-making at this level but moving towards profitability. The fall in gross margin from 43% to 37% is attributed to product and client mix and one-off comparatives rather than a structural deterioration, so it is worth watching in H2.\n\nBacklog (c.£193m) and contracted orders (c.£168m of FY2026 revenue already covered) give forward visibility, while the c.$713m pipeline is a non-risk-adjusted, multi-year measure of potential future revenue — it is a demand indicator, not booked revenue.\n\nOn guidance, nothing changed: OXB reiterated the £180–200m FY2026 constant-currency revenue range, its EBITDA margin outlook, 25–30% FY2027 growth and the 2030 ambition of c.£500m revenue at margins near 30%. This is a 'maintained' outlook confirming the August trading update, with the Durham, NC site now operational after its earlier delay.",
+    "source_url": "https://uk.advfn.com/stock-market/london/oxford-biomedica-OXB/share-news/Oxford-Biomedica-PLC-Interim-Results/99348825",
+    "related_news_url": "https://news.google.com/search?q=%22Oxford%20Biomedica%20plc%22",
+    "added_at": "2026-09-22T07:19:34.598594"
+  },
+  {
     "company": "Mortgage Advice Bureau (Holdings) PLC",
     "ticker": "MAB1",
     "publish_date": "22 September 2026",
