@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-21",
+  "generated": "2026-09-22",
   "by_ticker": {
     "AAL": {
       "date": "2026-09-29",
@@ -145,10 +145,6 @@
       "date": "2026-09-25",
       "event": "Q2 div payment"
     },
-    "HSX": {
-      "date": "2026-09-21",
-      "event": "Q2 div payment"
-    },
     "HTG": {
       "date": "2026-10-01",
       "event": "Q2 ex-div"
@@ -202,8 +198,8 @@
       "event": "Year end"
     },
     "META": {
-      "date": "2026-09-21",
-      "event": "Special ex-div"
+      "date": "2026-09-28",
+      "event": "Special div payment"
     },
     "MGNS": {
       "date": "2026-10-01",
@@ -257,10 +253,6 @@
       "date": "2026-09-24",
       "event": "Q2 div payment"
     },
-    "RTO": {
-      "date": "2026-09-21",
-      "event": "Q2 div payment"
-    },
     "SAF": {
       "date": "2026-10-31",
       "event": "Year end"
@@ -275,10 +267,6 @@
     },
     "SHC": {
       "date": "2026-09-23",
-      "event": "Q2 div payment"
-    },
-    "SHEL": {
-      "date": "2026-09-21",
       "event": "Q2 div payment"
     },
     "SRP": {
