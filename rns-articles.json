@@ -1,5 +1,31 @@
 [
   {
+    "company": "HSBC Holdings PLC",
+    "ticker": "HSBA",
+    "publish_date": "22 September 2026",
+    "date_iso": "2026-09-22",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>HSBC Holdings plc</strong> issued <strong>EUR3.75bn</strong> of senior notes on <strong>22 September 2026</strong> under its Debt Issuance Programme, now listed and admitted to trading on the <strong>Main Market of the London Stock Exchange</strong>.</li><li>Three tranches: <strong>EUR1.0bn Floating Rate Notes due 2030</strong>, <strong>EUR1.25bn 4.431% Fixed to Floating Rate Notes due 2032</strong> and <strong>EUR1.5bn 4.777% Fixed to Floating Rate Notes due 2037</strong>.</li><li>Routine wholesale funding under an existing programme — <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "HSBC issued EUR3.75bn of senior notes across three tranches, now admitted to trading on the London Stock Exchange's Main Market.",
+    "priority": "low",
+    "priority_reason": "Routine senior note issuance and admission to trading under an existing debt programme, with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/hsbc-HSBA/share-news/HSBC-Holdings-PLC-Senior-notes-issuance-and-admiss/99355491",
+    "related_news_url": "https://news.google.com/search?q=%22HSBC%20Holdings%20plc%22",
+    "added_at": "2026-09-22T16:16:01.611033"
+  },
+  {
     "company": "Investec PLC",
     "ticker": "INVP",
     "publish_date": "22 September 2026",
