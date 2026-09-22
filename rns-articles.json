@@ -1,5 +1,31 @@
 [
   {
+    "company": "Metlen Energy & Metals plc",
+    "ticker": "MTLN",
+    "publish_date": "22 September 2026",
+    "date_iso": "2026-09-22",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>Metlen Energy & Metals</strong> is making a new strategic investment of nearly <strong>€25m</strong> in <strong>EP.AL.ME.</strong>, Greece's largest independent recycled-aluminium producer, part of its Integrated Aluminium Value Chain.</li><li>Funds new automated <strong>sorting, processing and melting equipment</strong>, enabling EP.AL.ME. to handle more complex post-consumer scrap streams and creating synergies with the <strong>Aluminium of Greece</strong> plant.</li><li>Once fully developed, the project is expected to lift total production to <strong>more than 250,000 tonnes</strong> and improve profit margins at both plants.</li><li>Framed against the EU's <strong>Critical Raw Materials Act</strong> and <strong>Clean Industrial Deal</strong>; recycled aluminium uses roughly <strong>5%</strong> of the energy of primary metal.</li><li>For context, Metlen reported 2025 consolidated revenue of <strong>€7.11bn</strong>, EBITDA of <strong>€753m</strong> and net profit of <strong>€314m</strong>; no impact on current guidance stated.</li></ul>",
+    "source_format": "html",
+    "headline": "Metlen to invest nearly **€25m** in recycled-aluminium unit **EP.AL.ME.**, deepening its integrated aluminium value chain in Greece.",
+    "priority": "low",
+    "priority_reason": "Small strategic capex (~€25m) for a FTSE 100 group with €7.11bn revenue; no impact on current guidance or near-term earnings.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/metlen-energy-and-metals-MTLN/share-news/Metlen-Energy-Metals-PLC-PR-5-million-strateg/99348877",
+    "related_news_url": "https://news.google.com/search?q=%22Metlen%20Energy%20%26%20Metals%20plc%22",
+    "added_at": "2026-09-22T07:20:00.439549"
+  },
+  {
     "company": "TP ICAP Group plc",
     "ticker": "TCAP",
     "publish_date": "22 September 2026",
