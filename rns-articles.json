@@ -1,5 +1,31 @@
 [
   {
+    "company": "Lancashire Holdings Ltd",
+    "ticker": "LRE",
+    "publish_date": "23 September 2026",
+    "date_iso": "2026-09-23",
+    "time_period": "Q3 2026",
+    "announcement_type": "Notice of results",
+    "period_detail": "Q3 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Lancashire Holdings</strong> will publish its <strong>Q3 2026 trading statement</strong> at <strong>7:00am GMT on Wednesday 4 November</strong>.</li><li>Management will host an analyst and investor conference call at <strong>8:30am GMT / 3:30am EST</strong>, with participants required to register in advance for the audio call or webcast.</li><li>Routine notice of results scheduling — <strong>no impact</strong> on trading or guidance; the substantive Q3 numbers follow on 4 November.</li></ul>",
+    "source_format": "html",
+    "headline": "Lancashire will release its Q3 2026 trading statement at 7:00am GMT on Wednesday 4 November, followed by an analyst conference call at 8:30am GMT.",
+    "priority": "low",
+    "priority_reason": "Routine scheduling notice with no financial content; flags the date of a market-moving Q3 update to come.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/prn/lancashire-holdings-limited--lre/notice-of-q3-2026-trading-statement-and-confe-/9787540",
+    "related_news_url": "https://news.google.com/search?q=%22Lancashire%20Holdings%20Limited%22",
+    "added_at": "2026-09-23T14:55:33.200306"
+  },
+  {
     "company": "LSL Property Services PLC",
     "ticker": "LSL",
     "publish_date": "23 September 2026",
