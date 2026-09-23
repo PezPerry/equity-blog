@@ -1,5 +1,104 @@
 [
   {
+    "company": "Renishaw plc",
+    "ticker": "RSW",
+    "publish_date": "23 September 2026",
+    "date_iso": "2026-09-23",
+    "time_period": "FY to 30 June 2026",
+    "announcement_type": "Annual results",
+    "period_detail": "FY to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Renishaw plc</strong> reported record full-year results for the year to <strong>30 June 2026</strong>, with revenue up <strong>14%</strong> at actual rates (<strong>17%</strong> constant currency) to <strong>£815.8m</strong> (FY2025: <strong>£713.0m</strong>).</li><li>Adjusted profit before tax rose <strong>32%</strong> to <strong>£168.0m</strong> (FY2025: <strong>£127.2m</strong>); statutory PBT up <strong>27%</strong> to <strong>£150.0m</strong> including <strong>£18.0m</strong> of redundancy and one-off costs.</li><li>Adjusted EPS <strong>179.5p</strong> (FY2025: <strong>137.8p</strong>); adjusted operating margin up <strong>3.0%pt</strong> at actual rates (<strong>5.2%pt</strong> constant currency), driven by fixed-cost reduction and operational leverage.</li><li>Record <strong>Q4</strong> revenue of <strong>£244.2m</strong>, <strong>28%</strong> above the prior year, led by <strong>AI-driven semiconductor</strong> demand and additive manufacturing into aerospace and defence.</li><li>Proposed final dividend of <strong>65.2p</strong> (total dividend growth <strong>+5%</strong>) plus a <strong>special interim dividend of 70.0p</strong>; cash and deposits <strong>£291.0m</strong> (FY2025: <strong>£273.6m</strong>).</li><li>CEO <strong>Will Lee</strong> says <strong>FY2027</strong> has started strongly, guiding to further strong progress on revenue, profit and operating margin.</li></ul>",
+    "source_format": "html",
+    "headline": "Renishaw posts record FY2026 with revenue up 14% to £815.8m and adjusted pre-tax profit up 32% to £168.0m, aided by AI-driven semiconductor demand.",
+    "priority": "high",
+    "priority_reason": "Full-year results with record profit, strong revenue acceleration and a positive FY2027 outlook.",
+    "figures": [
+      {
+        "metric": "Revenue",
+        "current": "£815.8m",
+        "prior": "£713.0m",
+        "change": "+14% (actual); +17.3% constant currency",
+        "basis": "constant currency excludes forward contracts",
+        "note": "FY to 30 June 2026"
+      },
+      {
+        "metric": "Adjusted profit before tax",
+        "current": "£168.0m",
+        "prior": "£127.2m",
+        "change": "+32%",
+        "basis": "adjusted",
+        "note": "FY to 30 June 2026"
+      },
+      {
+        "metric": "Statutory profit before tax",
+        "current": "£150.0m",
+        "prior": "£118.0m",
+        "change": "+27%",
+        "basis": "statutory, includes £18.0m one-off costs",
+        "note": "FY to 30 June 2026"
+      },
+      {
+        "metric": "Adjusted EPS",
+        "current": "179.5p",
+        "prior": "137.8p",
+        "change": "not stated",
+        "basis": "adjusted",
+        "note": "FY to 30 June 2026"
+      },
+      {
+        "metric": "Statutory EPS",
+        "current": "163.5p",
+        "prior": "115.2p",
+        "change": "not stated",
+        "basis": "statutory",
+        "note": "FY to 30 June 2026"
+      },
+      {
+        "metric": "Final dividend",
+        "current": "65.2p",
+        "prior": "not stated",
+        "change": "total dividend +5%",
+        "basis": "proposed final; plus 70.0p special interim",
+        "note": "FY2026"
+      },
+      {
+        "metric": "Cash and deposits",
+        "current": "£291.0m",
+        "prior": "£273.6m",
+        "change": "not stated",
+        "basis": "period-end balance",
+        "note": "FY to 30 June 2026"
+      },
+      {
+        "metric": "Return on invested capital",
+        "current": "17.5%",
+        "prior": "not stated",
+        "change": "+4.3%pt",
+        "basis": "adjusted",
+        "note": "FY to 30 June 2026"
+      },
+      {
+        "metric": "Adjusted cash flow conversion",
+        "current": "79%",
+        "prior": "91%",
+        "change": "not stated",
+        "basis": "from operating activities",
+        "note": "FY to 30 June 2026"
+      }
+    ],
+    "guidance": {
+      "status": "new",
+      "previous": "not stated",
+      "current": "\"FY2027 has started strongly as we continue to benefit from the current upturn in demand for semiconductor manufacturing equipment. We expect further strong progress on revenue, profit and operating margin in the year ahead.\"",
+      "commentary": "Management set a positive FY2027 outlook, guiding to further growth in revenue, profit and operating margin on the back of the ongoing AI-driven semiconductor upturn and continued traction in emerging additive manufacturing and metrology product lines."
+    },
+    "explainer": "Renishaw reports both statutory and 'adjusted' numbers; the adjusted figures strip out £18.0m of redundancy and other one-off costs tied to its cost-reduction programme, so adjusted pre-tax profit (£168.0m, +32%) rose faster than statutory pre-tax profit (£150.0m, +27%). The board views the adjusted measures as the best guide to underlying trading.\n\nRevenue growth looks stronger on a constant-currency basis (+17.3%) than at actual exchange rates (+14%), meaning a weaker mix of foreign currencies against sterling shaved a few points off the reported top line. The same currency headwind reduced the operating-margin gain to 3.0 percentage points at actual rates versus 5.2 points constant currency. Growth was led by AI-driven semiconductor demand (position encoders) and additive manufacturing into aerospace and defence, with a record fourth quarter of £244.2m.\n\nCash conversion fell to 79% from 91% as Renishaw tied up more working capital to support record sales and a growing order book, though the cash balance still rose to £291.0m. Alongside the ordinary dividend (final 65.2p, total dividend up 5%), the company is paying a one-off special interim dividend of 70.0p, returning surplus cash to shareholders.\n\nOn guidance, this is a fresh FY2027 outlook rather than a change to an existing target: management expects 'further strong progress' on revenue, profit and operating margin, citing a strong start to the year and the continuing semiconductor equipment upturn.",
+    "source_url": "https://uk.advfn.com/stock-market/london/renishaw-RSW/share-news/Renishaw-PLC-Final-Results/99358653",
+    "related_news_url": "https://news.google.com/search?q=%22Renishaw%20plc%22",
+    "added_at": "2026-09-23T07:19:43.741374"
+  },
+  {
     "company": "JD Sports Fashion PLC",
     "ticker": "JD.",
     "publish_date": "23 September 2026",
