@@ -1,5 +1,88 @@
 [
   {
+    "company": "Cordiant Digital Infrastructure Limited",
+    "ticker": "CORD",
+    "publish_date": "23 September 2026",
+    "date_iso": "2026-09-23",
+    "time_period": "Q1 FY to 31 March 2027 (three months to 30 June 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "Q1 FY to 31 March 2027 (three months to 30 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Q1 (three months to 30 June 2026)</strong> portfolio revenue grew <strong>20.2%</strong> and EBITDA <strong>2.0%</strong> on the prior period, constant currency; EBITDA growth reflects <strong>project revenue phasing and customer churn</strong>, with momentum expected to build through the year.</li><li>Revenue supported by the lower-margin <strong>BT Ireland</strong> business acquired <strong>September 2025</strong>; AI-linked revenue is under <strong>1%</strong> of portfolio revenue but flagged as a new growth source.</li><li>AI wins: <strong>CRA</strong> signed six GPUaaS contracts worth c.<strong>£6.5m</strong> committed annual revenue; <strong>Hudson</strong> secured a five-year <strong>1.8MW</strong> AI-cloud contract; <strong>DCU</strong> signed a <strong>3MW</strong> high-density contract at Machelen, Belgium.</li><li>Construction of <strong>Prague Gateway</strong> first phase (up to <strong>£74m</strong>) under way after the <strong>Skanska</strong> EPC contract signed August 2026; CRA bidding for the site to become an <strong>EU AI Gigafactory</strong>.</li><li>Costed pipeline of at least <strong>£410m</strong> growth capex (potentially over <strong>£1bn</strong> including uncosted opportunities); the Company is <strong>evaluating funding options</strong>, citing demand exceeding available capital.</li><li>Balance sheet: group liquidity (ex-DCU) of <strong>£193.3m</strong>, gearing <strong>39.8%</strong>, net leverage <strong>4.5x</strong>, no facilities maturing before <strong>June 2029</strong>; target dividend <strong>4.45p</strong> is <strong>1.6x</strong> covered by AFFO after scheduled debt repayments.</li></ul>",
+    "source_format": "html",
+    "headline": "Cordiant Digital's Q1 portfolio revenue rose 20.2% and EBITDA 2.0% at constant currency, with AI demand converting into contracted revenue.",
+    "priority": "high",
+    "priority_reason": "First-quarter trading update from a FTSE 250 constituent, with portfolio revenue and EBITDA growth, AI contract wins and an explicit focus on funding a £410m+ pipeline.",
+    "figures": [
+      {
+        "metric": "Portfolio revenue growth",
+        "current": "+20.2%",
+        "prior": "not stated",
+        "change": "+20.2%",
+        "basis": "constant currency, vs prior comparable period",
+        "note": "Three months to 30 June 2026"
+      },
+      {
+        "metric": "Portfolio EBITDA growth",
+        "current": "+2.0%",
+        "prior": "not stated",
+        "change": "+2.0%",
+        "basis": "constant currency, vs prior comparable period",
+        "note": "Three months to 30 June 2026"
+      },
+      {
+        "metric": "AFFO dividend cover (after scheduled debt repayments)",
+        "current": "1.6x",
+        "prior": "1.7x",
+        "change": "reduced",
+        "basis": "12 months to 30 June 2026 vs 12 months to 31 March 2026",
+        "note": "On target dividend of 4.45p; reduction due to further scheduled repayments on Emitel's term debt"
+      },
+      {
+        "metric": "Consolidated gearing",
+        "current": "39.8%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "net borrowings to GAV, look-through",
+        "note": "Limit of 50% per IPO prospectus"
+      },
+      {
+        "metric": "Net leverage",
+        "current": "4.5x",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "net borrowings to annualised EBITDA after Company-level costs",
+        "note": "At 30 June 2026"
+      },
+      {
+        "metric": "Group liquidity (excluding DCU)",
+        "current": "£193.3m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "cash and undrawn facilities",
+        "note": "At 30 June 2026"
+      },
+      {
+        "metric": "Growth capital expenditure",
+        "current": "£55.2m",
+        "prior": "£49.4m",
+        "change": "not stated",
+        "basis": "12 months to 30 June 2026 vs 12 months to 31 March 2026",
+        "note": "Largest share data centre, cloud and AI-related"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "As flagged in the recent Annual Report, EBITDA growth in the quarter partly reflects project revenue phasing and customer churn",
+      "current": "Momentum expected to build through the year as new contracts commence and management convert a growing pipeline; investment opportunities expected to deliver returns above the Company's target net return of 9% p.a.",
+      "commentary": "No numeric guidance range is issued. The Company reaffirms that the softer EBITDA growth reflects phasing anticipated at the Annual Report, with growth expected to accelerate over the year; the central priority is securing funding for a pipeline where demand exceeds available capital."
+    },
+    "explainer": "This is a first-quarter trading update for Cordiant's financial year ending 31 March 2027, covering the three months to 30 June 2026. Growth figures are stated on a constant-currency basis, meaning currency movements have been stripped out to show underlying performance. The headline 20.2% revenue rise is flattered by the BT Ireland business acquired in September 2025 (lower margin), while EBITDA grew only 2.0% because of the timing of project revenue and some customer churn — the Company stresses this phasing was already flagged and expects growth to build through the year.\n\nAI-related revenue is still tiny — under 1% of the portfolio — but the update leans heavily on new GPU-as-a-service and data-centre contracts as evidence that AI demand is starting to convert into contracted revenue.\n\nThe balance sheet section shows gearing of 39.8% (against a 50% ceiling) and net leverage of 4.5x. Dividend cover on the 4.45p target payout slipped from 1.7x to 1.6x on an AFFO basis, purely because of scheduled debt repayments at Emitel, not a deterioration in earnings.\n\nThe key strategic message is capital: a costed pipeline of at least £410m (potentially over £1bn including uncosted projects such as the EU AI Gigafactory bid) that the Company cannot currently fund from existing resources, so it is 'evaluating options to fund this pipeline' — a signal that new financing or capital-raising may follow.",
+    "source_url": "https://uk.advfn.com/stock-market/london/cordiant-digital-infrast-CORD/share-news/Cordiant-Digital-Infrastructure-Ltd-First-Quarter/99358675",
+    "related_news_url": "https://news.google.com/search?q=%22Cordiant%20Digital%20Infrastructure%20Limited%22",
+    "added_at": "2026-09-23T07:22:29.227687"
+  },
+  {
     "company": "WPP plc",
     "ticker": "WPP",
     "publish_date": "23 September 2026",
