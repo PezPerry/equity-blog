@@ -1,5 +1,31 @@
 [
   {
+    "company": "Greatland Resources Ltd",
+    "ticker": "GRR",
+    "publish_date": "23 September 2026",
+    "date_iso": "2026-09-23",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>Greatland Resources Limited</strong> (AIM/ASX: GGP) has released an updated <strong>corporate presentation</strong> for <strong>September 2026</strong>, accessible via the company website.</li><li>Routine investor-materials update with <strong>no impact</strong> on trading or guidance; no new figures disclosed.</li><li>Greatland operates the 100%-owned <strong>Telfer</strong> mine and adjacent <strong>Havieron</strong> gold-copper development project in the Paterson Province, Western Australia.</li></ul>",
+    "source_format": "html",
+    "headline": "Greatland Resources has published an updated corporate presentation, available on its website, with no new financial or operational disclosures.",
+    "priority": "low",
+    "priority_reason": "Routine release of an updated corporate presentation with no new financial or operational data.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/greatland-gold--ggp/corporate-presentation-september-2026-/9785664",
+    "related_news_url": "https://news.google.com/search?q=%22Greatland%20Gold%22",
+    "added_at": "2026-09-23T07:35:37.587272"
+  },
+  {
     "company": "Cordiant Digital Infrastructure Limited",
     "ticker": "CORD",
     "publish_date": "23 September 2026",
