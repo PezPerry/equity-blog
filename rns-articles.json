@@ -1,5 +1,57 @@
 [
   {
+    "company": "Big Yellow Group PLC",
+    "ticker": "BYG",
+    "publish_date": "23 September 2026",
+    "date_iso": "2026-09-23",
+    "time_period": "",
+    "announcement_type": "Acquisition / deal",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Big Yellow Group PLC</strong> has contracted to sell its industrial estate in <strong>Bracknell, Berkshire</strong> for <strong>£6.3m</strong>.</li><li>Follows the previously announced disposals of the <strong>Harrow</strong> and <strong>Staines</strong> industrial estates; combined gross proceeds from the three sales total <strong>£81m</strong>.</li><li>Non-core disposal — Big Yellow's core business remains self storage, operating from <strong>115 stores</strong> with a pipeline of <strong>0.8 million sq ft</strong> across 10 proposed facilities.</li></ul>",
+    "source_format": "html",
+    "headline": "Big Yellow has contracted to sell its Bracknell industrial estate for **£6.3m**, taking combined proceeds from three estate disposals to **£81m**.",
+    "priority": "medium",
+    "priority_reason": "Disposal of a non-core industrial estate, part of a broader £81m divestment programme but small relative to the self-storage portfolio.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/big-yellow-BYG/share-news/Big-Yellow-Group-PLC-Disposal-of-Bracknell-Industr/99358622",
+    "related_news_url": "https://news.google.com/search?q=%22Big%20Yellow%20Group%20PLC%22",
+    "added_at": "2026-09-23T07:17:56.198384"
+  },
+  {
+    "company": "Airtel Africa plc",
+    "ticker": "AAF",
+    "publish_date": "23 September 2026",
+    "date_iso": "2026-09-23",
+    "time_period": "",
+    "announcement_type": "IPO / intention to float",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Airtel Money</strong> (Airtel Mobile Commerce N.V.) has announced its intention to proceed with an <strong>IPO</strong> and admission to the equity shares (commercial companies) category of the Official List and the <strong>Main Market of the London Stock Exchange</strong>.</li><li>The offer would be a <strong>secondary offering of existing shares</strong> sold by current shareholders — <strong>no new capital</strong> raised by Airtel Money.</li><li><strong>Airtel Africa</strong> currently beneficially owns <strong>77.85%</strong> of Airtel Money and expects to remain a <strong>long-term strategic shareholder</strong> following Admission.</li><li>Airtel Africa provides telecoms and mobile money services across <strong>14 sub-Saharan African markets</strong>.</li><li>No pricing, timing or valuation stated; Airtel Money may decide not to proceed and there is no guarantee the IPO or Admission will occur.</li></ul>",
+    "source_format": "html",
+    "headline": "Airtel Africa's 77.85%-owned mobile money arm Airtel Money intends to IPO on the London Stock Exchange Main Market via a secondary offering.",
+    "priority": "high",
+    "priority_reason": "Intention to float a major subsidiary (Airtel Money) on the LSE Main Market, a significant corporate event for shareholders.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/airtel-africa-AAF/share-news/Airtel-Africa-PLC-Airtel-Money-Intention-to-Float/99358950",
+    "related_news_url": "https://news.google.com/search?q=%22Airtel%20Africa%20plc%22",
+    "added_at": "2026-09-23T07:17:56.189419"
+  },
+  {
     "company": "Credit Acceptance Corp",
     "ticker": "CACC",
     "publish_date": "23 September 2026",
