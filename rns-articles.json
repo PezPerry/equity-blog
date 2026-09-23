@@ -1,5 +1,80 @@
 [
   {
+    "company": "Pantheon Infrastructure Plc",
+    "ticker": "PINT",
+    "publish_date": "23 September 2026",
+    "date_iso": "2026-09-23",
+    "time_period": "H1 to 30 June 2026",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>NAV total return of (3.3)%</strong> for the six months to <strong>30 June 2026</strong>, with <strong>NAV per share down 6.5p to 123.9p</strong> (31 Dec 2025: 130.4p), driven principally by the mark-to-market fall in <strong>Constellation Energy (CEG)</strong> shares received in the Calpine sale.</li><li><strong>Total shareholder return of 10.3%</strong> in the period; shares traded at a <strong>5.2% discount to NAV</strong> at period end, narrowing from <strong>16.8%</strong> at 31 December 2025.</li><li>Two portfolio realisations completed — the sale of <strong>Calpine</strong> (to <strong>Constellation</strong>) and <strong>Intersect Power</strong> — generating over <strong>$70m</strong> of immediate cash proceeds; <strong>£582m</strong> invested or committed across <strong>fifteen assets</strong>.</li><li><strong>£41m committed to Terra-Gen</strong>, a large-scale US solar platform, recycling realisation proceeds into new investment.</li><li>First interim dividend raised <strong>3.5% to 2.249p</strong> per share for the year ending 31 December 2026, payable <strong>23 October 2026</strong>; full-year 2026 dividend expected to be <strong>fully covered</strong>.</li><li>Post period-end, the Company sold its entire unrestricted CEG position — <strong>163,029 shares at an average $273</strong> — for <strong>$44.5m</strong>, adding <strong>1p per share to NAV</strong> as at 21 September 2026 and cutting NAV sensitivity to CEG to c.0.26p per $10 move.</li></ul>",
+    "source_format": "html",
+    "headline": "Pantheon Infrastructure posted a NAV total return of **(3.3)%** for H1 2026 as its Constellation Energy holding fell, and raised its first interim dividend **3.5%** to **2.249p**.",
+    "priority": "high",
+    "priority_reason": "Half-year results from a FTSE 250 investment company, including NAV, portfolio realisations and a dividend increase.",
+    "figures": [
+      {
+        "metric": "NAV per share",
+        "current": "123.9p",
+        "prior": "130.4p",
+        "change": "-6.5p",
+        "basis": "",
+        "note": "as at 30 June 2026 vs 31 December 2025"
+      },
+      {
+        "metric": "NAV total return",
+        "current": "(3.3)%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "revised methodology assuming dividends reinvested at NAV; prior periods restated",
+        "note": "H1 to 30 June 2026; annualised 10.3% since Dec 2022"
+      },
+      {
+        "metric": "Total shareholder return",
+        "current": "10.3%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "during the period"
+      },
+      {
+        "metric": "Discount to NAV",
+        "current": "5.2%",
+        "prior": "16.8%",
+        "change": "not stated",
+        "basis": "",
+        "note": "period end vs 31 December 2025"
+      },
+      {
+        "metric": "First interim dividend",
+        "current": "2.249p",
+        "prior": "2.173p",
+        "change": "+3.5%",
+        "basis": "",
+        "note": "for year ending 31 December 2026; prior is dividend paid in the period"
+      },
+      {
+        "metric": "Invested or committed",
+        "current": "£582m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "£562.5m invested and £19.5m committed but not yet invested",
+        "note": "across fifteen assets at 30 June 2026"
+      }
+    ],
+    "guidance": {
+      "status": "raised",
+      "previous": "First interim dividend of 2.173p per share (paid in period); progressive dividend policy.",
+      "current": "First interim dividend of 2.249p per share for year ending 31 December 2026, up 3.5%; full-year 2026 dividend expected to be fully covered.",
+      "commentary": "The dividend was lifted 3.5% under the progressive policy. Management now expects the full-year 2026 dividend to be fully covered, aided by realised gains from the Calpine and Intersect Power disposals flowing through the dividend cover calculation."
+    },
+    "explainer": "Pantheon Infrastructure is a FTSE 250 closed-ended investment trust that holds direct co-investments in infrastructure assets. Its headline performance measure is NAV total return, which combines the change in the underlying portfolio's value with income, net of costs, taxes and currency and derivative movements. A negative (3.3)% for the half means the value of the portfolio fell slightly over the six months rather than the shares themselves — indeed the share price return (total shareholder return) was a positive 10.3%, and the discount at which the shares trade to NAV narrowed sharply from 16.8% to 5.2%.\n\nThe NAV decline was almost entirely down to one holding. When Calpine was sold to Constellation Energy, PINT received Constellation (CEG) shares as part of the consideration. CEG's share price then fell about $105 over the period, knocking 5.6p off NAV per share; the rest of the portfolio actually added roughly 1.6p. Note that from 1 July 2025 the trust changed how it calculates NAV total return (assuming dividends are reinvested at NAV per AIC guidance), and prior figures have been restated, so comparisons are on the new basis.\n\nOn distributions, the first interim dividend rises 3.5% to 2.249p, in line with the progressive policy. Importantly, management now guides that the full-year 2026 dividend should be fully covered — meaning earnings and realised gains are expected to more than fund the payout — helped by the large cash gains crystallised on the Calpine and Intersect Power exits.\n\nAfter the period end the trust began unwinding its CEG exposure, selling the unrestricted half (163,029 shares) at an average $273 for $44.5m, which added about 1p back to NAV by 21 September 2026 and materially reduced future sensitivity to the CEG price. The remaining stake will be sold in a phased way once lock-up restrictions expire.",
+    "source_url": "https://uk.advfn.com/stock-market/london/pantheon-infrastructure-PINT/share-news/Pantheon-Infrastructure-PLC-Half-year-Report/99358656",
+    "related_news_url": "https://news.google.com/search?q=%22Pantheon%20Infrastructure%20Plc%22",
+    "added_at": "2026-09-23T07:20:29.134476"
+  },
+  {
     "company": "Renishaw plc",
     "ticker": "RSW",
     "publish_date": "23 September 2026",
