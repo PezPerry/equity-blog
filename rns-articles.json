@@ -1,5 +1,130 @@
 [
   {
+    "company": "JD Sports Fashion PLC",
+    "ticker": "JD.",
+    "publish_date": "23 September 2026",
+    "date_iso": "2026-09-23",
+    "time_period": "H1 FY27 (26 weeks to 1 August 2026)",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 FY27 (26 weeks to 1 August 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Profit before tax and adjusting items of £282m</strong> (HY26: <strong>£351m</strong>); statutory PBT <strong>up 74.6% to £241m</strong>, against a tough consumer backdrop and footwear product-cycle headwinds.</li><li>Total sales of <strong>£5,899m</strong>, <strong>-0.8%</strong> at constant FX; <strong>organic sales -0.7%</strong>, like-for-like <strong>-2.8%</strong>, with apparel/accessories <strong>c.+4%</strong> but footwear <strong>c.-3%</strong>.</li><li><strong>FY27 guidance unchanged</strong> from the Q2 trading statement: PBTAI of <strong>£700m to £800m</strong> and free cash flow of <strong>£460m to £520m</strong>.</li><li>Strong balance sheet: <strong>net cash of £168m</strong> at period-end (versus net debt of <strong>£125m</strong> a year earlier), an improvement of nearly <strong>£300m</strong> year-on-year after <strong>£260m</strong> returned via buybacks and dividends.</li><li><strong>Interim dividend of 0.40p</strong>, up <strong>21%</strong> (HY26: 0.33p); second <strong>£100m</strong> tranche of the FY27 <strong>£200m</strong> buyback commenced in August 2026.</li><li>Strategic progress: online now <strong>20%</strong> of Group sales, <strong>JD STATUS</strong> loyalty past <strong>10m</strong> customers, new UK/Ireland e-commerce platforms live, and a franchise deal with <strong>Grupo Axo</strong> for 140+ JD stores in Mexico from 2027.</li></ul>",
+    "source_format": "html",
+    "headline": "JD Sports posted resilient H1 FY27 with organic sales -0.7% and PBTAI down to £282m, but reiterated its £700m-£800m full-year profit guidance.",
+    "priority": "high",
+    "priority_reason": "Half-year results from a FTSE 100 retailer, with profit down sharply, a dividend rise and reiterated full-year guidance.",
+    "figures": [
+      {
+        "metric": "Total sales",
+        "current": "£5,899m",
+        "prior": "not stated",
+        "change": "-0.8% (constant FX); -0.7% reported",
+        "basis": "reported",
+        "note": "26 weeks to 1 August 2026"
+      },
+      {
+        "metric": "Organic sales",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "-0.7%",
+        "basis": "constant FX",
+        "note": "includes +2.1%pts from net new space; LFL -2.8%"
+      },
+      {
+        "metric": "Gross margin",
+        "current": "46.8%",
+        "prior": "47.0%",
+        "change": "-20bps",
+        "basis": "HY26 restated",
+        "note": "controlled price investments c.-50bps net, partly offset by marketing contributions"
+      },
+      {
+        "metric": "Profit before tax and adjusting items (PBTAI)",
+        "current": "£282m",
+        "prior": "£351m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "H1 FY27"
+      },
+      {
+        "metric": "Statutory profit before tax",
+        "current": "£241m",
+        "prior": "not stated",
+        "change": "+74.6%",
+        "basis": "reported",
+        "note": "H1 FY27"
+      },
+      {
+        "metric": "Operating profit before adjusting items",
+        "current": "£294m",
+        "prior": "£369m",
+        "change": "-20.5% reported; -19.5% constant FX",
+        "basis": "after interest on lease liabilities",
+        "note": "H1 FY27"
+      },
+      {
+        "metric": "Net cash (before lease liabilities)",
+        "current": "£168m",
+        "prior": "net debt £125m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "period-end; prior stated as at 2 August 2025"
+      },
+      {
+        "metric": "Free cash flow",
+        "current": "-£18m",
+        "prior": "-£68m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "H1 FY27"
+      },
+      {
+        "metric": "Interim dividend",
+        "current": "0.40p",
+        "prior": "0.33p",
+        "change": "+21%",
+        "basis": "reported",
+        "note": "per share"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "FY27 PBTAI of £700m to £800m and free cash flow of £460m to £520m (as set at the Q2 trading statement)",
+      "current": "FY27 PBTAI of £700m to £800m and free cash flow of £460m to £520m",
+      "commentary": "Full-year guidance is unchanged from the Q2 trading statement. Management notes several HY27 headwinds may persist into H2, and the PBTAI guidance assumes GBP-USD of 1.34 and GBP-EUR of 1.15."
+    },
+    "explainer": "These are half-year (26 weeks to 1 August 2026) numbers. 'Organic' sales strip out the effect of businesses bought or sold (here excluding disposed Wheelbase) and hold currency constant, so the -0.7% reflects underlying trading; like-for-like of -2.8% is worse because it excludes the +2.1 percentage-point boost from net new store space. Constant-FX figures remove the effect of exchange-rate moves, which matters given JD's large US and European footprint.\n\nThe headline profit fall is in the 'adjusted' measure: PBTAI dropped from £351m to £282m, mainly on lower gross profit (margin down 20bps to 46.8% after deliberate online price cuts) and higher costs. Statutory PBT, by contrast, rose 74.6% to £241m — that reflects lower adjusting items (such as restructuring charges) this year rather than stronger underlying trade, which is why the two profit lines move in opposite directions.\n\nThe balance sheet swung from net debt of £125m a year ago to net cash of £168m, a roughly £300m improvement even after £260m of buybacks and dividends over 12 months. Half-year free cash flow is still negative (-£18m) because of first-half seasonality in working capital, but it improved from -£68m a year earlier.\n\nOn guidance: nothing changed. JD reaffirmed FY27 PBTAI of £700m-£800m and free cash flow of £460m-£520m, the same range given at the Q2 update in August, while cautioning that cost-of-living pressure, a soft footwear product cycle and a promotional market may continue into the second half.",
+    "source_url": "https://uk.advfn.com/stock-market/london/jd-sports-fashion-JD./share-news/JD-Sports-Fashion-PLC-HALF-YEAR-RESULTS-2026-27/99358642",
+    "related_news_url": "https://news.google.com/search?q=%22JD%20Sports%20Fashion%20plc%22",
+    "added_at": "2026-09-23T07:18:57.750694"
+  },
+  {
+    "company": "Foxtons Group PLC",
+    "ticker": "FOXT",
+    "publish_date": "23 September 2026",
+    "date_iso": "2026-09-23",
+    "time_period": "",
+    "announcement_type": "Acquisition / deal",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Foxtons Group plc</strong> announces four lettings-focused acquisitions: <strong>Maguire Jackson</strong> and <strong>Davidson Estates</strong> in <strong>Birmingham</strong>, <strong>Warren Anthony</strong> in <strong>Watford</strong>, and a further lettings portfolio in the <strong>Reading</strong> area.</li><li>Initial consideration of <strong>£4.8m</strong> on a cash-free, debt-free basis, plus up to <strong>£1.2m</strong> deferred and contingent consideration subject to performance; funded through the Group's <strong>RCF</strong>.</li><li>Combined unaudited revenue of <strong>£3.2m</strong> reported across the four businesses in their most recent financial years.</li><li>Expected to be earnings accretive from <strong>FY2027</strong> onwards and to deliver returns on invested capital in line with the Group's <strong>20%</strong> target as synergies are delivered.</li><li>Builds on Foxtons' January 2026 entry into Birmingham via <strong>FleetMilne</strong>; Birmingham operations to be brought under the <strong>Foxtons</strong> brand later this year.</li><li>Group retains RCF headroom for further acquisitions and remains within its stated leverage target range.</li></ul>",
+    "source_format": "html",
+    "headline": "Foxtons acquires four regional lettings-focused businesses across Birmingham, Watford and Reading for up to GBP6m to build regional scale.",
+    "priority": "high",
+    "priority_reason": "Four bolt-on acquisitions expanding the regional lettings footprint constitute material M&A activity.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/foxtons-FOXT/share-news/Foxtons-Group-PLC-Four-regional-acquisitions-to-au/99358648",
+    "related_news_url": "https://news.google.com/search?q=%22Foxtons%20Group%20plc%22",
+    "added_at": "2026-09-23T07:18:57.741434"
+  },
+  {
     "company": "Ceres Power Holdings plc",
     "ticker": "CWR",
     "publish_date": "23 September 2026",
