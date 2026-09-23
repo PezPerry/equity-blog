@@ -1,5 +1,72 @@
 [
   {
+    "company": "Ceres Power Holdings plc",
+    "ticker": "CWR",
+    "publish_date": "23 September 2026",
+    "date_iso": "2026-09-23",
+    "time_period": "H1 2026 (six months to 30 June 2026)",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 2026 (six months to 30 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Revenue</strong> up <strong>8%</strong> to <strong>£22.8m</strong> (H1 2025: <strong>£21.1m</strong>), in line with management expectations, aided by one-off licence revenue from the <strong>Weichai</strong> agreement.</li><li><strong>Adjusted EBITDA loss</strong> improved to <strong>£6.8m</strong> (H1 2025: <strong>£11.3m</strong>); operating costs before exceptionals down <strong>14%</strong> to <strong>£30.7m</strong> after the 2025 cost rationalisation.</li><li><strong>Gross profit</strong> down <strong>3%</strong> to <strong>£16.1m</strong> (H1 2025: <strong>£16.6m</strong>) on lower-margin mix.</li><li>Balance sheet strengthened: <strong>cash and short-term investments of £172.0m</strong> (Dec 2025: <strong>£83.3m</strong>) after an oversubscribed equity raise of <strong>£102.6m</strong> gross.</li><li>Commercial momentum across partners: <strong>Centrica</strong> strategic partnership, <strong>Doosan</strong>'s first export contract (<strong>c.£60m</strong> with <strong>Reverion</strong>), <strong>Delta</strong>'s <strong>c.£240m</strong> Taiwan factory investment, and launch of the <strong>Ceres® Endura™</strong> stack platform.</li><li>Guidance reiterated: <strong>c.£45m</strong> contracted 2026 group revenue before new business; confident of signing one new licensee in 2026, which would add to that figure.</li></ul>",
+    "source_format": "html",
+    "headline": "Ceres Power's H1 revenue rose 8% to £22.8m and adjusted EBITDA loss narrowed to £6.8m, with cash boosted to £172.0m after a £102.6m raise.",
+    "priority": "high",
+    "priority_reason": "Half-year results with revenue, EBITDA, cash and reiterated full-year revenue guidance.",
+    "figures": [
+      {
+        "metric": "Revenue",
+        "current": "£22.8m",
+        "prior": "£21.1m",
+        "change": "+8%",
+        "basis": "reported",
+        "note": "H1 to 30 June 2026 vs H1 2025"
+      },
+      {
+        "metric": "Gross profit",
+        "current": "£16.1m",
+        "prior": "£16.6m",
+        "change": "-3%",
+        "basis": "reported",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "Operating costs (before exceptionals)",
+        "current": "£30.7m",
+        "prior": "£35.6m",
+        "change": "-14%",
+        "basis": "reported",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "Adjusted EBITDA loss",
+        "current": "£6.8m",
+        "prior": "£11.3m",
+        "change": "improved",
+        "basis": "Alternative Performance Measure",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "Cash and short-term investments",
+        "current": "£172.0m",
+        "prior": "£83.3m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "30 June 2026 vs December 2025"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Current contracted group revenue for 2026 of c.£45 million before any new business",
+      "current": "Reiterates current contracted group revenue for 2026 is c.£45 million before any new business; confident of signing one new licensee partner in 2026, any revenue from which would be additional",
+      "commentary": "Full-year revenue guidance is unchanged at c.£45m of contracted revenue. Management retains confidence in adding one new licensee in 2026, which would provide upside beyond the guided figure rather than being included in it."
+    },
+    "explainer": "These are half-year figures for the six months to 30 June 2026, compared with the same period in 2025. Revenue growth of 8% was flattered by one-off licence income from the Weichai agreement, so it reflects the timing of upfront partner payments rather than steady product sales — Ceres runs an asset-light licensing model where royalties and licence fees drive the top line.\n\nThe key operational improvement is the narrower adjusted EBITDA loss of £6.8m, down from £11.3m, driven mainly by a 14% cut in operating costs following the 2025 restructuring. Adjusted EBITDA is a non-standard measure that strips out exceptional items; the company reconciles it to operating loss in the full report.\n\nThe balance sheet is materially stronger: cash and short-term investments more than doubled to £172.0m after an oversubscribed £102.6m equity raise. This gives Ceres funding to support partner scale-up while it remains loss-making.\n\nOn guidance, nothing has changed — the c.£45m of contracted 2026 revenue is reiterated, not raised or cut. The potential new licensee, if signed, would add to that figure rather than being baked into it.",
+    "source_url": "https://uk.advfn.com/stock-market/london/ceres-power-CWR/share-news/Ceres-Power-Holdings-plc-Interim-Results/99358628",
+    "related_news_url": "https://news.google.com/search?q=%22Ceres%20Power%20Holdings%20plc%22",
+    "added_at": "2026-09-23T07:18:21.544819"
+  },
+  {
     "company": "Big Yellow Group PLC",
     "ticker": "BYG",
     "publish_date": "23 September 2026",
