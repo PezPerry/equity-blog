@@ -1,5 +1,57 @@
 [
   {
+    "company": "Credit Acceptance Corp",
+    "ticker": "CACC",
+    "publish_date": "23 September 2026",
+    "date_iso": "2026-09-23",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Credit Acceptance Corporation</strong> (Nasdaq: <strong>CACC</strong>) has named <strong>Shannon Wilson</strong> as <strong>Chief Human Resources Officer</strong>.</li><li>Wilson joins from <strong>Alto Pharmacy</strong>, where she was Chief People Officer; she previously spent over a decade at <strong>Amazon</strong>, latterly leading HR for North American Customer Fulfillment.</li><li>CEO <strong>Vinayak Hegde</strong> framed the hire as part of building a leadership team to execute the company's growth ambitions and become more technology- and AI-enabled.</li><li>Routine senior-management appointment with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Credit Acceptance appoints Shannon Wilson as Chief Human Resources Officer, joining from Alto Pharmacy where she was Chief People Officer.",
+    "priority": "medium",
+    "priority_reason": "Senior management appointment (Chief Human Resources Officer) with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/CACC/share-news/Credit-Acceptance-Announces-Shannon-Wilson-as-Chie/99357065",
+    "related_news_url": "https://news.google.com/search?q=%22Credit%20Acceptance%20Corporation%22",
+    "added_at": "2026-09-23T07:17:18.354758"
+  },
+  {
+    "company": "Beazley PLC",
+    "ticker": "BEZ",
+    "publish_date": "23 September 2026",
+    "date_iso": "2026-09-23",
+    "time_period": "",
+    "announcement_type": "Acquisition / deal",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li>The <strong>Court</strong> has issued the Court Order sanctioning the scheme of arrangement to effect the recommended all-cash offer by <strong>Zurich</strong> for the entire issued and to be issued share capital of <strong>Beazley</strong>.</li><li>Completion remains conditional on delivery of the Court Order to the <strong>Registrar of Companies</strong>, expected on <strong>1 October 2026</strong>.</li><li>Dealings in <strong>Beazley shares</strong> on the <strong>London Stock Exchange</strong> are expected to be suspended by <strong>7.30 a.m. on 1 October 2026</strong>; last day for dealings is <strong>30 September 2026</strong>.</li><li>The listing is expected to be cancelled and shares to cease trading on the LSE main market by <strong>8.00 a.m. on 2 October 2026</strong>.</li><li>Deal was originally announced on <strong>2 March 2026</strong> and implemented via a Court-sanctioned scheme under Part 26 of the Companies Act 2006; a further announcement will follow when the scheme becomes Effective.</li></ul>",
+    "source_format": "html",
+    "headline": "The Court has sanctioned the scheme of arrangement effecting Zurich's recommended all-cash takeover of Beazley, with the deal expected to complete on 1 October 2026.",
+    "priority": "high",
+    "priority_reason": "Court has sanctioned the scheme for Zurich's all-cash takeover of Beazley, with listing suspension and cancellation now imminent.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/beazley-BEZ/share-news/Beazley-PLC-Court-Sanction-of-Scheme/99355838",
+    "related_news_url": "https://news.google.com/search?q=%22Beazley%20PLC%22",
+    "added_at": "2026-09-23T07:17:18.324700"
+  },
+  {
     "company": "HSBC Holdings PLC",
     "ticker": "HSBA",
     "publish_date": "22 September 2026",
