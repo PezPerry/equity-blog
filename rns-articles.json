@@ -523,6 +523,65 @@
     "added_at": "2026-09-28T10:26:23.775281"
   },
   {
+    "company": "On The Beach Group PLC",
+    "ticker": "OTB",
+    "publish_date": "24 September 2026",
+    "date_iso": "2026-09-24",
+    "time_period": "FY to 30 September 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "FY to 30 September 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>FY26 adjusted PBT of £22-23m</strong>, in the <strong>top half</strong> of the <strong>£18-25m</strong> guidance range set at H1 results.</li><li>New <strong>FY27 PBT guidance of £28-35m</strong>, implying growth of <strong>c.25-55%</strong> versus FY26, which the Board is confident of delivering.</li><li><strong>Bookings growth of 9%</strong>, with <strong>TTV of £1.3bn (+6% YoY)</strong> — a fifth consecutive year of record TTV.</li><li><strong>Summer 26</strong> booking momentum ran <strong>4% ahead</strong> of last year, having been 1% behind at H1 results on 12 May.</li><li>Balance sheet exits FY26 <strong>debt-free with cash of c.£60m</strong>, after returning <strong>c.£67m</strong> to shareholders (dividends and three buybacks, 15% of share capital) over two years.</li><li><strong>FY27 momentum strong</strong>: total bookings in the last 8 weeks <strong>+17%</strong>; full-year results due <strong>1 December 2026</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "On the Beach expects FY26 adjusted PBT of £22-23m, in the top half of guidance, and sets FY27 PBT guidance of £28-35m.",
+    "priority": "high",
+    "priority_reason": "Pre-close FY26 trading update confirming adjusted PBT in the top half of guidance and issuing new FY27 PBT guidance.",
+    "figures": [
+      {
+        "metric": "TTV (total transaction value)",
+        "current": "£1.3bn",
+        "prior": "not stated",
+        "change": "+6%",
+        "basis": "year-on-year",
+        "note": "FY26; fifth consecutive record"
+      },
+      {
+        "metric": "Bookings growth",
+        "current": "+9%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "FY26, ahead of wider travel market"
+      },
+      {
+        "metric": "Adjusted PBT",
+        "current": "£22-23m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "FY26, top half of £18-25m guidance"
+      },
+      {
+        "metric": "Net cash",
+        "current": "c.£60m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "debt-free at FY26 year-end"
+      }
+    ],
+    "guidance": {
+      "status": "new",
+      "previous": "FY26 adjusted PBT guidance range of £18-25m (set at H1 results)",
+      "current": "FY26 adjusted PBT of £22-23m (top half of range); new FY27 PBT guidance of £28-35m",
+      "commentary": "FY26 is landing in the top half of the existing range rather than being upgraded. The material new element is first FY27 PBT guidance of £28-35m, representing c.25-55% growth on FY26, reflecting strong booking momentum but tempered by Middle East conflict and the UK consumer backdrop."
+    },
+    "explainer": "This is a pre-close update ahead of full-year results on 1 December. Adjusted PBT strips out one-off and non-cash items; the £22-23m figure sits in the upper half of the £18-25m range management gave at the half-year, so the year is finishing better than the midpoint but was not formally upgraded. TTV of £1.3bn is the gross value of holidays booked before cancellations and amendments, not revenue, so it measures booking volume rather than what On the Beach retains.\n\nThe key new information is FY27 guidance. On the Beach has, for the first time, put a PBT range of £28-35m on the coming year, equating to roughly 25-55% growth over FY26. That is a wide band, reflecting genuine uncertainty: the Board flags both the ongoing Middle East conflict (a demand and destination risk for package holidays) and the broader UK consumer environment.\n\nThe balance sheet detail supports the confident tone — the group ends FY26 debt-free with about £60m of cash, having returned roughly £67m to shareholders over two years via dividends and three buybacks, equal to 15% of shares in issue. Early FY27 trading looks strong, with bookings in the last eight weeks up 17% and repeat-customer bookings up 18%, though these are short-lead-time indicators that can shift quickly.",
+    "source_url": "https://uk.advfn.com/stock-market/london/on-the-beach-OTB/share-news/On-the-Beach-Group-PLC-2026-Pre-Close-Trading-Upda/99365893",
+    "related_news_url": "https://news.google.com/search?q=%22On%20the%20Beach%20Group%20plc%22",
+    "added_at": "2026-09-28T10:35:10.236573"
+  },
+  {
     "company": "Harworth Group PLC",
     "ticker": "HWG",
     "publish_date": "24 September 2026",
