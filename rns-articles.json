@@ -1,5 +1,57 @@
 [
   {
+    "company": "Keller Group PLC",
+    "ticker": "KLR",
+    "publish_date": "28 September 2026",
+    "date_iso": "2026-09-28",
+    "time_period": "",
+    "announcement_type": "Acquisition / deal",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Keller Group plc</strong> awarded an additional <strong>$650m</strong> contract variation order on the <strong>I-40 highway</strong> reconstruction in the US.</li><li>Total secured work on I-40 now <strong>c.$1bn</strong>, of which <strong>c.10%</strong> has been completed; work is expected to extend over the next <strong>three to four years</strong>.</li><li>Described as the <strong>largest project in Keller's history</strong>; increases the Group's order book to approximately <strong>£2.4bn</strong>.</li><li><strong>No change</strong> to the Group's <strong>2026 full-year results expectations</strong> given the multi-year nature of the contract.</li><li>CEO <strong>James Wroath</strong> cited technical capability, ability to work at scale and US business-unit collaboration; announcement contains inside information.</li></ul>",
+    "source_format": "html",
+    "headline": "Keller wins a further $650m contract variation on the US I-40 highway reconstruction, taking total secured work on the project to c.$1bn.",
+    "priority": "high",
+    "priority_reason": "Major contract win of $650m, taking total I-40 work to c.$1bn and lifting the order book to c.£2.4bn.",
+    "figures": [],
+    "guidance": {
+      "status": "maintained",
+      "previous": "2026 full year results expectations",
+      "current": "No change to 2026 full year results expectations",
+      "commentary": "The contract adds to longer-term revenue visibility but, being multi-year, does not alter the current-year outlook."
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/keller-KLR/share-news/Keller-Group-PLC-Contract-variation-for-I-40/99379083",
+    "related_news_url": "https://news.google.com/search?q=%22Keller%20Group%20plc%22",
+    "added_at": "2026-09-28T10:24:08.601905"
+  },
+  {
+    "company": "Bodycote plc",
+    "ticker": "BOY",
+    "publish_date": "28 September 2026",
+    "date_iso": "2026-09-28",
+    "time_period": "",
+    "announcement_type": "M&A / takeover",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>CVC Advisers Limited</strong> has confirmed it does <strong>not intend to make an offer</strong> for <strong>Bodycote plc</strong>, a statement to which <strong>Rule 2.8</strong> of the Takeover Code applies.</li><li>The move follows the <strong>1 September 2026</strong> announcement of a recommended firm intention by <strong>Vulcan Alpha Bidco Limited</strong> to acquire Bodycote under Rule 2.7; CVC's withdrawal removes the prospect of a competing bid.</li><li>CVC reserves the right to set aside the Rule 2.8 restrictions if the Vulcan Alpha offer lapses or is withdrawn, a <strong>third party</strong> announces a firm offer, Bodycote announces a Rule 9 waiver or reverse takeover, or on a material change of circumstances.</li><li>CVC thanked the <strong>Bodycote Board</strong> and management for their engagement during the process.</li></ul>",
+    "source_format": "html",
+    "headline": "CVC confirms it will not make an offer for Bodycote, leaving the recommended Vulcan Alpha Bidco bid unchallenged.",
+    "priority": "high",
+    "priority_reason": "CVC ruling itself out removes the prospect of a competing bid and any resulting bidding war for Bodycote, which is price-sensitive.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/bodycote-BOY/share-news/CVC-Advisers-Limited-Statement-of-intention-not-to/99379080",
+    "related_news_url": "https://news.google.com/search?q=%22Bodycote%20plc%22",
+    "added_at": "2026-09-28T10:24:08.591705"
+  },
+  {
     "company": "Tullow Oil plc",
     "ticker": "TLW",
     "publish_date": "28 September 2026",
