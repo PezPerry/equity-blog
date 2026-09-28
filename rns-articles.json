@@ -1,5 +1,112 @@
 [
   {
+    "company": "Tullow Oil plc",
+    "ticker": "TLW",
+    "publish_date": "28 September 2026",
+    "date_iso": "2026-09-28",
+    "time_period": "H1 to 30 June 2026",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Tullow Oil</strong> reported a <strong>profit before tax of $27m</strong> for <strong>H1 2026</strong>, versus a <strong>$50m loss</strong> a year earlier, on total revenue of <strong>$496m</strong>.</li><li>CEO <strong>Ian Perks</strong> said full-year production will be at the <strong>top end of the 34-42 kboepd guidance range</strong> and that <strong>free cash flow expectations have been significantly upgraded</strong>; H1 working interest production averaged <strong>43.7 kboepd</strong>.</li><li>Realised oil price before hedging rose to <strong>$95.0/bbl</strong> (1H 2025: $71.4/bbl); after hedging <strong>$86.3/bbl</strong> (1H 2025: $69.7/bbl), with a <strong>$47m hedge loss</strong>.</li><li>Reserves increased to <strong>121.7 mmboe</strong> at 30 June 2026 from <strong>100.2 mmboe</strong> at 31 December 2025, a reserves replacement ratio of <strong>c.380%</strong>, aided by the Ghana licence extension to <strong>2040</strong>.</li><li>Underlying cash operating costs fell to <strong>$82m ($10.3/boe)</strong> from $108m ($14.6/boe); net financing costs rose to <strong>$230m</strong> (1H 2025: $139m) on refinancing charges.</li><li>Increased a Ghana tax provision by <strong>$30m</strong>; flagged a <strong>c.$170m</strong> Kenya Revenue Authority assessment which it considers wholly without merit; exited the Espoir licence in Côte d'Ivoire on <strong>24 July 2026</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Tullow reports H1 2026 pre-tax profit of $27m, upgrades free cash flow expectations and guides full-year production to the top end of range.",
+    "priority": "high",
+    "priority_reason": "Half-year results with upgraded free cash flow expectations and full-year production guided to the top end.",
+    "figures": [
+      {
+        "metric": "Total revenue",
+        "current": "$496m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Profit/(loss) before tax",
+        "current": "$27m profit",
+        "prior": "$50m loss",
+        "change": "not stated",
+        "basis": "",
+        "note": "1H 2026 vs 1H 2025"
+      },
+      {
+        "metric": "Realised oil price (before hedging)",
+        "current": "$95.0/bbl",
+        "prior": "$71.4/bbl",
+        "change": "not stated",
+        "basis": "before hedging",
+        "note": "1H 2026 vs 1H 2025"
+      },
+      {
+        "metric": "Realised oil price (after hedging)",
+        "current": "$86.3/bbl",
+        "prior": "$69.7/bbl",
+        "change": "not stated",
+        "basis": "after hedging",
+        "note": "1H 2026 vs 1H 2025"
+      },
+      {
+        "metric": "Underlying cash operating costs",
+        "current": "$82m ($10.3/boe)",
+        "prior": "$108m ($14.6/boe)",
+        "change": "not stated",
+        "basis": "",
+        "note": "1H 2026 vs 1H 2025"
+      },
+      {
+        "metric": "Administrative expenses",
+        "current": "$16m",
+        "prior": "$23m",
+        "change": "not stated",
+        "basis": "",
+        "note": "1H 2026 vs 1H 2025"
+      },
+      {
+        "metric": "Net financing costs",
+        "current": "$230m",
+        "prior": "$139m",
+        "change": "not stated",
+        "basis": "",
+        "note": "1H 2026 vs 1H 2025; includes refinancing charges"
+      },
+      {
+        "metric": "Net tax expense (adjusted)",
+        "current": "$127m",
+        "prior": "$30m",
+        "change": "not stated",
+        "basis": "",
+        "note": "1H 2026 vs 1H 2025"
+      },
+      {
+        "metric": "Total reserves",
+        "current": "121.7 mmboe",
+        "prior": "100.2 mmboe",
+        "change": "+21.5%",
+        "basis": "reserves replacement c.380%",
+        "note": "30 June 2026 vs 31 December 2025"
+      },
+      {
+        "metric": "Working interest production",
+        "current": "43.7 kboepd",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "includes 7.5 kboepd gas",
+        "note": "H1 2026 average"
+      }
+    ],
+    "guidance": {
+      "status": "raised",
+      "previous": "Full year Group working interest production guidance range of 34-42 kboepd",
+      "current": "Full year production expected at the high end of the 34-42 kboepd range; free cash flow expectations significantly upgraded; full year administrative costs expected at c.$32m (FY25: $45m) and net cash administrative costs c.$24m (FY25: $33m)",
+      "commentary": "Tullow kept its production range but now expects to land at the top end, and materially raised its free cash flow outlook on realised prices of $95/bbl before hedging and strong new-well performance. Full-year administrative costs are guided lower than the prior year."
+    },
+    "explainer": "These are half-year figures for the six months to 30 June 2026, presented in US dollars. Tullow swung to a $27m pre-tax profit from a $50m loss a year earlier, helped largely by a much stronger oil price: it realised $95.0/bbl before hedging against $71.4/bbl in H1 2025. Hedging clipped that gain, cutting revenue by $47m, so the after-hedging price was $86.3/bbl.\n\nThe headline financial improvement is partly masked lower down the accounts. Net financing costs jumped to $230m, but that includes one-off refinancing charges — a $24m loss on extinguishing old borrowings and $62m of debt arrangement fees — so the underlying interest burden is lower than the reported number suggests. The effective tax rate looks extreme (476.6%) because tax is charged on West African production profits with little offsetting UK benefit against interest and hedging costs; this is a structural quirk rather than a change in trading.\n\nOn guidance, the key change is the tone: full-year production is now expected at the top end of the unchanged 34-42 kboepd range, and free cash flow expectations have been 'significantly upgraded' on the back of higher prices and better-than-expected new wells. Reserves rose sharply to 121.7 mmboe (a ~380% replacement ratio), driven by the Ghana licence extension to 2040 rather than new discoveries — this is a re-booking of existing barrels over a longer licence life.\n\nInvestors should note the tax overhangs flagged: a $30m increase to a Ghana provision and a c.$170m Kenya assessment Tullow says is without merit. These are contingencies, not booked losses, but they are the main open risks around an otherwise improving cash story.",
+    "source_url": "https://uk.advfn.com/stock-market/london/tullow-oil-TLW/share-news/Tullow-Oil-PLC-2026-Half-Year-Results/99379069",
+    "related_news_url": "https://news.google.com/search?q=%22Tullow%20Oil%20plc%22",
+    "added_at": "2026-09-28T10:23:36.191383"
+  },
+  {
     "company": "Wickes Group plc",
     "ticker": "WIX",
     "publish_date": "28 September 2026",
