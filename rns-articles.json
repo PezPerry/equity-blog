@@ -523,6 +523,32 @@
     "added_at": "2026-09-28T10:26:23.775281"
   },
   {
+    "company": "Glencore PLC",
+    "ticker": "GLEN",
+    "publish_date": "24 September 2026",
+    "date_iso": "2026-09-24",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>Glencore</strong> has satisfied all substantive requirements for admission to the <strong>ASX</strong> Official List as a <strong>Foreign Exempt Listing</strong>, with expected first day of trading for its CDIs (<strong>ASX:GLC</strong>) on <strong>Wednesday, 14 October 2026</strong>.</li><li>Each Glencore CDI represents a beneficial interest in <strong>one</strong> Glencore ordinary share; <strong>Computershare Investor Services Pty Limited</strong> has been appointed to manage the CDI register in Australia.</li><li>Holders may from today request conversion of ordinary shares into CDIs via Computershare in <strong>Jersey</strong> or <strong>South Africa</strong>, subject to market-standard operations and, from South Africa, Exchange Control Regulations.</li><li>Routine listing-mechanics disclosure — a secondary listing only, with <strong>no impact</strong> on trading, earnings or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Glencore expects its CHESS Depositary Interests to begin trading on the ASX (ASX:GLC) as a Foreign Exempt Listing on 14 October 2026.",
+    "priority": "low",
+    "priority_reason": "Routine confirmation of an expected ASX secondary-listing date and CDI conversion mechanics, with no impact on trading, earnings or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/glencore--glen/expected-asx-secondary-listing-date/9789142",
+    "related_news_url": "https://news.google.com/search?q=%22Glencore%22",
+    "added_at": "2026-09-28T10:42:19.673201"
+  },
+  {
     "company": "Victrex PLC",
     "ticker": "VCT",
     "publish_date": "24 September 2026",
