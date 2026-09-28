@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Your First Home: Housebuilders Rally on the Return of the Government Loan</title>
+<meta name="keywords" content="housebuilders, housing, first-time buyers, new build, Your First Home, Persimmon, Barratt Redrow, Bellway, Taylor Wimpey, Vistry, Crest Nicholson, UK shares">
+<meta name="description" content="UK housebuilders rose by 11% to 15% on 28 September 2026 after the government announced the Your First Home equity loan scheme for first-time buyers of new-build homes.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --navy: #1B2A4A;
+    --red: #E8453C;
+    --gold: #D4A853;
+    --cream: #FBFAF7;
+    --ink: #1F2533;
+    --muted: #5B6475;
+    --rule: #E3DED3;
+    --vgood: #14713A;
+    --good: #2F8A55;
+    --flat: #C07C12;
+    --bad: #CC5F52;
+    --vbad: #A32118;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--cream);
+    color: var(--ink);
+    font-family: 'DM Sans', system-ui, sans-serif;
+    font-size: 17px;
+    line-height: 1.7;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 40px 16px 80px; }
+  .kicker {
+    font-size: 13px; letter-spacing: .12em; text-transform: uppercase;
+    color: var(--red); font-weight: 700; margin-bottom: 10px;
+  }
+  h1 {
+    font-family: 'Playfair Display', Georgia, serif;
+    color: var(--navy); font-size: 38px; line-height: 1.2; margin: 0 0 14px;
+  }
+  .standfirst { font-size: 19px; color: var(--muted); margin: 0 0 8px; }
+  .byline { font-size: 14px; color: var(--muted); border-bottom: 2px solid var(--gold); padding-bottom: 18px; margin-bottom: 28px; }
+  h2 {
+    font-family: 'Playfair Display', Georgia, serif;
+    color: var(--navy); font-size: 26px; margin: 40px 0 12px;
+  }
+  p { margin: 0 0 18px; }
+  a { color: var(--navy); text-decoration-color: var(--gold); text-underline-offset: 3px; }
+  a:hover { color: var(--red); }
+  .vgood { color: var(--vgood); font-weight: 700; }
+  .good  { color: var(--good);  font-weight: 700; }
+  .flat  { color: var(--flat);  font-weight: 700; }
+
+  /* Key facts box */
+  .facts {
+    background: #fff; border-left: 4px solid var(--navy);
+    padding: 18px 22px; margin: 24px 0 28px; border-radius: 4px;
+  }
+  .facts h3 { margin: 0 0 8px; font-size: 15px; letter-spacing: .08em; text-transform: uppercase; color: var(--navy); }
+  .facts ul { margin: 0; padding-left: 20px; }
+  .facts li { margin-bottom: 6px; }
+
+  /* Table */
+  .table-wrap { overflow-x: auto; margin: 20px 0 28px; }
+  table { width: 100%; border-collapse: collapse; background: #fff; font-size: 15px; }
+  th, td { padding: 10px 12px; border-bottom: 1px solid var(--rule); text-align: left; }
+  th { background: var(--navy); color: #fff; font-weight: 500; }
+  td.num, th.num { text-align: right; }
+  tr:last-child td { border-bottom: none; }
+
+  /* Figures */
+  figure.chart {
+    position: relative; margin: 26px 0 30px; background: #fff;
+    border: 1px solid var(--rule); border-radius: 6px; padding: 18px 16px 12px;
+  }
+  figure.chart img, figure.chart svg { display: block; width: 100%; height: auto; }
+  figcaption { font-size: 14px; color: var(--muted); font-style: italic; margin-top: 10px; }
+  .zoom-btn {
+    position: absolute; top: 10px; right: 10px; width: 34px; height: 34px;
+    border: none; border-radius: 6px; cursor: pointer;
+    background: rgba(27, 42, 74, .85); display: flex; align-items: center; justify-content: center;
+  }
+  .zoom-btn:hover { background: var(--navy); }
+  .zoom-btn svg { width: 18px; height: 18px; }
+  .placeholder {
+    border: 2px dashed var(--gold); border-radius: 6px; background: #FDF8EC;
+    min-height: 260px; display: flex; flex-direction: column; align-items: center; justify-content: center;
+    text-align: center; padding: 24px; color: var(--navy);
+  }
+  .placeholder strong { font-family: 'Playfair Display', Georgia, serif; font-size: 20px; }
+  .placeholder span { font-size: 14px; color: var(--muted); margin-top: 6px; }
+  .chart-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  .chart-grid figure.chart { margin: 0; }
+  .chart-grid figure.chart { padding: 10px 10px 8px; }
+  @media (max-width: 620px) {
+    h1 { font-size: 30px; }
+    .chart-grid { grid-template-columns: 1fr; }
+  }
+
+  /* Lightbox */
+  .lightbox {
+    display: none; position: fixed; inset: 0; background: rgba(15, 22, 38, .92);
+    z-index: 1000; align-items: center; justify-content: center; padding: 24px; cursor: zoom-out;
+  }
+  .lightbox.open { display: flex; }
+  .lightbox-inner { background: #fff; border-radius: 8px; padding: 20px; max-width: 1200px; width: 100%; max-height: 92vh; overflow: auto; }
+  .lightbox-inner img, .lightbox-inner svg { width: 100%; height: auto; display: block; }
+  .lightbox-inner .zoom-btn { display: none; }
+
+  .sources { font-size: 14px; color: var(--muted); border-top: 1px solid var(--rule); margin-top: 44px; padding-top: 18px; }
+  .sources h2 { font-size: 20px; margin-top: 0; }
+  .sources ul { padding-left: 20px; }
+  .disclaimer { font-size: 13px; color: var(--muted); margin-top: 18px; }
+</style>
+</head>
+<body>
+<article class="wrap">
+
+  <div class="kicker">Sector News &middot; UK Housebuilders</div>
+  <h1>Your First Home: housebuilders rally on the return of the government loan</h1>
+  <p class="standfirst">A new government-backed equity loan for first-time buyers of new-build homes sent the housebuilders up by 11% to 15% in a single session.</p>
+  <div class="byline">Mickey Perry &middot; Equity and Markets Insight &middot; 28 September 2026</div>
+
+  <p>It's been a dramatic day for the housebuilding sector. Over the weekend Prime Minister Andy Burnham announced a new scheme to help first-time buyers onto the housing ladder, and the market's reaction this morning was immediate.</p>
+
+  <p>The scheme will be called <a id="bbc-link" href="https://www.bbc.co.uk/news" target="_blank" rel="noopener">Your First Home, as reported by the BBC in "Burnham announces scheme to help first-time buyers onto housing ladder"</a>. It's intended to be open to first-time buyers in England with a deposit of 2.5% or more, and provides a loan worth 20% of the property's value. Specifically, it applies to new builds, which is obviously good news for the housebuilders.</p>
+
+  <div class="facts">
+    <h3>The scheme in brief</h3>
+    <ul>
+      <li>Open to first-time buyers in England buying a new-build home from a developer signed up to the scheme</li>
+      <li>Minimum deposit of 2.5%, with a government equity loan of 20% of the property value</li>
+      <li>The equity loan carries an initial interest-free period</li>
+      <li>A household income cap and local property price caps will target the support</li>
+      <li>Participating developers pay a fee linked to property values towards running costs</li>
+      <li>Funded by reprioritising existing government budgets</li>
+      <li>Full details due at the Budget on 28 October, with pre-registration before the end of the year</li>
+    </ul>
+  </div>
+
+  <p>On an average first home of £230,000, a buyer would put down £5,750 and could borrow up to £46,000 through the equity loan, leaving a mortgage of 77.5% of the value to arrange.</p>
+
+  <p>The structure is close to Help to Buy, which ran from 2013 to 2023 and helped around 380,000 people buy a first home. That scheme asked for a 5% deposit, with the same 20% equity loan interest-free for the first five years. Your First Home halves the deposit and narrows eligibility through the income and price caps.</p>
+
+  <h2>How the sector reacted</h2>
+
+  <p>The housebuilders saw some large rises today. Crest Nicholson ended the day up <span class="good">+11.11%</span>, Barratt Redrow up <span class="good">+12%</span> and Bellway up <span class="good">+11%</span>.</p>
+
+  <p>Persimmon led the group, up <span class="vgood">+15%</span>. Taylor Wimpey and Vistry both closed up <span class="good">+11%</span>.</p>
+
+  <figure class="chart">
+    <button class="zoom-btn" onclick="openLightbox(this)" aria-label="Expand chart">
+      <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg>
+    </button>
+    <svg viewBox="0 0 640 360" role="img" aria-label="Share price moves on 28 September 2026">
+      <text x="0" y="20" font-family="Playfair Display, Georgia, serif" font-size="18" font-weight="700" fill="#1B2A4A">Share price change on the day, 28 September 2026</text>
+      <g font-family="DM Sans, sans-serif" font-size="13" fill="#1F2533">
+        <!-- gridlines: 0% at x=190, 15% at x=590 (26.67px per 1%) -->
+        <g stroke="#E3DED3" stroke-width="1">
+          <line x1="190" y1="40" x2="190" y2="330"/>
+          <line x1="323.3" y1="40" x2="323.3" y2="330"/>
+          <line x1="456.7" y1="40" x2="456.7" y2="330"/>
+          <line x1="590" y1="40" x2="590" y2="330"/>
+        </g>
+        <g fill="#5B6475" font-size="11" text-anchor="middle">
+          <text x="190" y="348">0%</text><text x="323.3" y="348">5%</text><text x="456.7" y="348">10%</text><text x="590" y="348">15%</text>
+        </g>
+        <g text-anchor="end">
+          <text x="180" y="67">Persimmon</text>
+          <text x="180" y="102">Barratt Redrow</text>
+          <text x="180" y="137">Crest Nicholson</text>
+          <text x="180" y="172">Bellway</text>
+          <text x="180" y="207">Taylor Wimpey</text>
+          <text x="180" y="242">Vistry</text>
+          <text x="180" y="277">Mortgage Advice Bureau</text>
+          <text x="180" y="312">Paragon</text>
+        </g>
+        <rect x="190" y="50" width="400" height="24" fill="#1B2A4A"/>
+        <rect x="190" y="85" width="320" height="24" fill="#1B2A4A"/>
+        <rect x="190" y="120" width="296.3" height="24" fill="#1B2A4A"/>
+        <rect x="190" y="155" width="293.3" height="24" fill="#1B2A4A"/>
+        <rect x="190" y="190" width="293.3" height="24" fill="#1B2A4A"/>
+        <rect x="190" y="225" width="293.3" height="24" fill="#1B2A4A"/>
+        <rect x="190" y="260" width="158.4" height="24" fill="#D4A853"/>
+        <rect x="190" y="295" width="10.7" height="24" fill="#D4A853"/>
+        <g font-weight="700">
+          <text x="596" y="67">+15.0%</text>
+          <text x="516" y="102">+12.0%</text>
+          <text x="492" y="137">+11.1%</text>
+          <text x="489" y="172">+11.0%</text>
+          <text x="489" y="207">+11.0%</text>
+          <text x="489" y="242">+11.0%</text>
+          <text x="354" y="277">+5.9%</text>
+          <text x="207" y="312">+0.4%</text>
+        </g>
+      </g>
+    </svg>
+    <figcaption>Housebuilders in navy, mortgage-related names in gold. Closing moves on 28 September 2026.</figcaption>
+  </figure>
+
+  <p>Further out we have companies such as Paragon, the buy-to-let focused lender, which didn't do quite so well. It was flat on the day, up just <span class="flat">+0.4%</span>. Mortgage Advice Bureau, which should see more first-time buyer business come through its advisers, closed up <span class="good">+5.94%</span>.</p>
+
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr><th>Company</th><th>Ticker</th><th class="num">Change on the day</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Persimmon</td><td>PSN</td><td class="num">+15.00%</td></tr>
+        <tr><td>Barratt Redrow</td><td>BTRW</td><td class="num">+12.00%</td></tr>
+        <tr><td>Crest Nicholson</td><td>CRST</td><td class="num">+11.11%</td></tr>
+        <tr><td>Bellway</td><td>BWY</td><td class="num">+11.00%</td></tr>
+        <tr><td>Taylor Wimpey</td><td>TW.</td><td class="num">+11.00%</td></tr>
+        <tr><td>Vistry</td><td>VTY</td><td class="num">+11.00%</td></tr>
+        <tr><td>Mortgage Advice Bureau</td><td>MAB1</td><td class="num">+5.94%</td></tr>
+        <tr><td>Paragon Banking Group</td><td>PAG</td><td class="num">+0.40%</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>The charts</h2>
+
+  <div class="chart-grid">
+    <figure class="chart">
+      <button class="zoom-btn" onclick="openLightbox(this)" aria-label="Expand chart"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg></button>
+      <img src="assets/housebuilders-2026-09-28/persimmon.png" alt="Persimmon share price chart, 22 to 28 September 2026" loading="lazy">
+      <figcaption>Persimmon share price, 22 to 28 September 2026. Source: ShareScope.</figcaption>
+    </figure>
+    <figure class="chart">
+      <button class="zoom-btn" onclick="openLightbox(this)" aria-label="Expand chart"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg></button>
+      <img src="assets/housebuilders-2026-09-28/barratt-redrow.png" alt="Barratt Redrow share price chart, 22 to 28 September 2026" loading="lazy">
+      <figcaption>Barratt Redrow share price, 22 to 28 September 2026. Source: ShareScope.</figcaption>
+    </figure>
+    <figure class="chart">
+      <button class="zoom-btn" onclick="openLightbox(this)" aria-label="Expand chart"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg></button>
+      <img src="assets/housebuilders-2026-09-28/crest-nicholson.png" alt="Crest Nicholson share price chart, 22 to 28 September 2026" loading="lazy">
+      <figcaption>Crest Nicholson share price, 22 to 28 September 2026. Source: ShareScope.</figcaption>
+    </figure>
+    <figure class="chart">
+      <button class="zoom-btn" onclick="openLightbox(this)" aria-label="Expand chart"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg></button>
+      <img src="assets/housebuilders-2026-09-28/bellway.png" alt="Bellway share price chart, 22 to 28 September 2026" loading="lazy">
+      <figcaption>Bellway share price, 22 to 28 September 2026. Source: ShareScope.</figcaption>
+    </figure>
+    <figure class="chart">
+      <button class="zoom-btn" onclick="openLightbox(this)" aria-label="Expand chart"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg></button>
+      <img src="assets/housebuilders-2026-09-28/taylor-wimpey.png" alt="Taylor Wimpey share price chart, 22 to 28 September 2026" loading="lazy">
+      <figcaption>Taylor Wimpey share price, 22 to 28 September 2026. Source: ShareScope.</figcaption>
+    </figure>
+    <figure class="chart">
+      <button class="zoom-btn" onclick="openLightbox(this)" aria-label="Expand chart"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg></button>
+      <img src="assets/housebuilders-2026-09-28/vistry.png" alt="Vistry share price chart, 22 to 28 September 2026" loading="lazy">
+      <figcaption>Vistry share price, 22 to 28 September 2026. Source: ShareScope.</figcaption>
+    </figure>
+    <figure class="chart">
+      <button class="zoom-btn" onclick="openLightbox(this)" aria-label="Expand chart"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg></button>
+      <img src="assets/housebuilders-2026-09-28/mortgage-advice-bureau.png" alt="Mortgage Advice Bureau share price chart, 22 to 28 September 2026" loading="lazy">
+      <figcaption>Mortgage Advice Bureau share price, 22 to 28 September 2026. Source: ShareScope.</figcaption>
+    </figure>
+    <figure class="chart">
+      <button class="zoom-btn" onclick="openLightbox(this)" aria-label="Expand chart"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg></button>
+      <img src="assets/housebuilders-2026-09-28/paragon.png" alt="Paragon Banking Group share price chart, 22 to 28 September 2026" loading="lazy">
+      <figcaption>Paragon Banking Group share price, 22 to 28 September 2026. Source: ShareScope.</figcaption>
+    </figure>
+  </div>
+
+  <h2>My view</h2>
+
+  <p>I've been a bit surprised that governments in recent times haven't been more in favour of this kind of incentive.</p>
+
+  <p>You could argue it isn't great for existing participants in the housing market, since it risks pushing prices up further. Critics of Help to Buy made the same point. What it is good for is first-time buyers, because it enables them to get on the property ladder.</p>
+
+  <p>The real issue has been that the housebuilders don't have enough incentive to build new homes. This scheme helps that situation, providing liquidity to the new-build market at a time when the government itself describes the market as facing headwinds from rising construction costs. The Housing Secretary has already admitted there's only a slim chance of reaching the 1.5 million homes target by the next election.</p>
+
+  <p>I also don't think it's a particularly risky strategy, especially in a lacklustre housing market, and coming from governments that can take a very long-term view on the risk at these deposit levels.</p>
+
+  <p>The detail at the Budget on 28 October will also matter. Where the income and price caps are set, and how large the developer fee is, will decide how much of today's move sticks. But I see some further potential in the coming months for housebuilders on the back of this announcement even with these sharp rises in prices!</p>
+
+  <div class="sources">
+    <h2>Sources</h2>
+    <ul>
+      <li><a href="https://www.bbc.co.uk/news" target="_blank" rel="noopener">BBC News: Burnham announces scheme to help first-time buyers onto housing ladder</a></li>
+      <li><a href="https://www.itv.com/news/2026-09-26/new-your-first-home-scheme-to-help-first-time-buyers-get-on-the-ladder" target="_blank" rel="noopener">ITV News: New 'Your First Home' scheme to help first-time buyers get on the ladder</a></li>
+      <li><a href="https://www.lbc.co.uk/article/andy-burnham-scheme-first-time-buyers-5Hjdj6h_2/" target="_blank" rel="noopener">LBC: Burnham unveils scheme helping young people onto housing ladder</a></li>
+      <li><a href="https://www.investing.com/news/stock-market-news/uk-housebuilders-surge-on-new-scheme-to-cut-homebuyer-deposits-4919540" target="_blank" rel="noopener">Investing.com: UK housebuilders surge on new scheme to cut homebuyer deposits</a></li>
+      <li><a href="https://uk.finance.yahoo.com/news/andy-burnham-announces-scheme-first-111612786.html" target="_blank" rel="noopener">Yahoo Finance: Andy Burnham announces new scheme for first-time buyers</a></li>
+    </ul>
+    <p>Share price moves are closing changes on 28 September 2026.</p>
+    <p class="disclaimer">This article is for information only and is not investment advice. The author may hold positions in companies mentioned.</p>
+  </div>
+
+</article>
+
+<div class="lightbox" id="lightbox" onclick="closeLightbox()">
+  <div class="lightbox-inner" id="lightbox-inner"></div>
+</div>
+
+<script>
+  function openLightbox(btn) {
+    var fig = btn.closest('figure');
+    var inner = document.getElementById('lightbox-inner');
+    inner.innerHTML = '';
+    var clone = fig.cloneNode(true);
+    clone.style.border = 'none';
+    clone.style.margin = '0';
+    inner.appendChild(clone);
+    document.getElementById('lightbox').classList.add('open');
+  }
+  function closeLightbox() {
+    document.getElementById('lightbox').classList.remove('open');
+  }
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') closeLightbox();
+  });
+</script>
+</body>
+</html>
