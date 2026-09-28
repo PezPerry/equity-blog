@@ -1,5 +1,57 @@
 [
   {
+    "company": "FirstGroup PLC",
+    "ticker": "FGP",
+    "publish_date": "28 September 2026",
+    "date_iso": "2026-09-28",
+    "time_period": "",
+    "announcement_type": "Financing / refinancing",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>FirstGroup plc</strong> has completed the buy-in of its <strong>c.£90 million</strong> Group Section pension liabilities.</li><li>The <strong>c.£22 million</strong> Group Section escrow was used to complete the deal: <strong>£17.5 million</strong> returned to the group, <strong>£2.1 million</strong> applied to the buy-in premium and <strong>c.£2.7 million</strong> retained for legal/advisory costs and to convert to buy-out in the near term.</li><li>The group retains <strong>c.£44 million</strong> in escrow relating to the Bus Section, to be reviewed at the <strong>2030</strong> triennial valuation.</li><li>CFO <strong>Ryan Mangold</strong> said the group has settled <strong>c.£1.7bn</strong> of pension obligations since <strong>2020</strong>, with remaining schemes well funded.</li></ul>",
+    "source_format": "html",
+    "headline": "FirstGroup has completed the buy-in of its c.£90m Group Section pension liabilities, with £17.5m of escrow funds returned to the group.",
+    "priority": "medium",
+    "priority_reason": "Pension de-risking transaction returning £17.5m cash to the group, modestly balance-sheet positive but not a results or M&A event.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/firstgroup-FGP/share-news/FirstGroup-Plc-Completion-of-Group-pension-buy-i/99378863",
+    "related_news_url": "https://news.google.com/search?q=%22FirstGroup%20plc%22",
+    "added_at": "2026-09-28T10:27:22.759554"
+  },
+  {
+    "company": "Coats Group plc",
+    "ticker": "COA",
+    "publish_date": "28 September 2026",
+    "date_iso": "2026-09-28",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Srinivas Phatak</strong>, Non-Executive Director, has given notice of his intention to step down from the Board with effect from <strong>31 December 2026</strong> after around two years.</li><li><strong>Wu Gang</strong>, Non-Executive Director, will join the <strong>Audit and Risk Committee</strong> with effect from <strong>1 January 2027</strong>.</li><li><strong>David Paja</strong>, Executive Director and Group CEO, has been appointed Chair of the <strong>Sustainability Committee</strong> with immediate effect.</li><li>Chair <strong>Tim Cobbold</strong> thanked Phatak for his contribution during a period of strategic transformation; routine board disclosure with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Coats Group non-executive director Srinivas Phatak to step down from the Board with effect from 31 December 2026, alongside committee membership changes.",
+    "priority": "medium",
+    "priority_reason": "Non-executive director departure plus committee reshuffle — routine board change with no trading or guidance impact.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/coats-COA/share-news/Coats-Group-PLC-Board-changes-and-Committee-member/99380107",
+    "related_news_url": "https://news.google.com/search?q=%22Coats%20Group%20plc%22",
+    "added_at": "2026-09-28T10:27:22.750240"
+  },
+  {
     "company": "DNO ASA",
     "ticker": "CNE",
     "publish_date": "28 September 2026",
