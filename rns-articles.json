@@ -1,5 +1,31 @@
 [
   {
+    "company": "Sirius Real Estate Ltd",
+    "ticker": "SRE",
+    "publish_date": "28 September 2026",
+    "date_iso": "2026-09-28",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Andrew Coombs</strong>, Chief Executive Officer, purchased <strong>100,000 ordinary shares</strong> at <strong>£0.90</strong> each, a total of <strong>GBP90,000</strong>, on <strong>24 September 2026</strong>.</li><li>Following the purchase, Mr Coombs and his PCAs hold a beneficial interest in <strong>12,929,060 shares</strong>, or <strong>0.8123%</strong> of issued share capital.</li><li>Transaction conducted outside a trading venue (XOFF); routine PDMR disclosure with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Sirius Real Estate CEO Andrew Coombs bought 100,000 shares at 90p, a GBP90,000 open-market purchase.",
+    "priority": "low",
+    "priority_reason": "Routine PDMR director dealing; a modest CEO share purchase with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/sirius-real-estate-ltd---sre/notification-of-a-transaction-by-a-pdmr/9793886",
+    "related_news_url": "https://news.google.com/search?q=%22Sirius%20Real%20Estate%20Ltd.%22",
+    "added_at": "2026-09-28T10:28:53.599148"
+  },
+  {
     "company": "Roadside Real Estate",
     "ticker": "ROAD",
     "publish_date": "28 September 2026",
