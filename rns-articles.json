@@ -523,6 +523,97 @@
     "added_at": "2026-09-28T10:26:23.775281"
   },
   {
+    "company": "DFS Furniture PLC",
+    "ticker": "DFS",
+    "publish_date": "24 September 2026",
+    "date_iso": "2026-09-24",
+    "time_period": "FY26 (52 weeks ended 28 June 2026)",
+    "announcement_type": "Annual results",
+    "period_detail": "FY26 (52 weeks ended 28 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>uPBT(A)</strong> up <strong>48.7%</strong> to <strong>£44.9m</strong> (FY25: <strong>£30.2m</strong>), <strong>meeting upgraded guidance</strong>, on revenue growth of <strong>2.6%</strong>.</li><li><strong>Gross margin</strong> expanded <strong>160bps</strong> to <strong>58.1%</strong>, achieving the Group's strategic <strong>58%</strong> target; UK upholstery market share at record <strong>40%</strong>.</li><li><strong>Free cash flow</strong> of <strong>£40.3m</strong> cut net bank debt by <strong>£38.0m</strong> to <strong>£69.0m</strong>, reducing leverage from <strong>1.4x</strong> to <strong>0.9x</strong>.</li><li>Dividend restored: final ordinary dividend of <strong>2.0p</strong>, total FY26 dividend <strong>3.0p</strong> per share.</li><li><strong>Sofology</strong> order intake up <strong>+2.6%</strong>; non-upholstery <strong>Home</strong> category order intake up <strong>+10.9%</strong>.</li><li>FY27 order intake <strong>-2.5%</strong> year-on-year over the first 12 weeks; Board guides to <strong>moderate profit growth in FY27 in line with analyst consensus</strong> (company-compiled PBT before brand amortisation: <strong>£48.0m</strong>), reiterating medium-term targets of <strong>£1.4bn</strong> revenue and <strong>8% PBT margins</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "DFS Furniture grew underlying pre-tax profit 48.7% to £44.9m in FY26, met upgraded guidance, cut net debt and restored the dividend.",
+    "priority": "high",
+    "priority_reason": "Full-year preliminary results with material profit growth, deleveraging, dividend restoration and FY27 guidance.",
+    "figures": [
+      {
+        "metric": "uPBT(A)",
+        "current": "£44.9m",
+        "prior": "£30.2m",
+        "change": "+48.7%",
+        "basis": "underlying PBT before brand amortisation",
+        "note": "FY26, 52 weeks ended 28 June 2026"
+      },
+      {
+        "metric": "Revenue growth",
+        "current": "+2.6%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "FY26"
+      },
+      {
+        "metric": "Gross margin",
+        "current": "58.1%",
+        "prior": "56.5% (implied by +160bps)",
+        "change": "+160bps",
+        "basis": "reported",
+        "note": "prior figure not stated explicitly; derived from +160bps"
+      },
+      {
+        "metric": "Net bank debt",
+        "current": "£69.0m",
+        "prior": "£107.0m (implied by -£38.0m)",
+        "change": "-£38.0m",
+        "basis": "reported",
+        "note": "prior figure not stated explicitly"
+      },
+      {
+        "metric": "Leverage",
+        "current": "0.9x",
+        "prior": "1.4x",
+        "change": "not stated",
+        "basis": "banking covenant leverage (IAS17 EBITDA)",
+        "note": "FY26"
+      },
+      {
+        "metric": "Free cash flow",
+        "current": "£40.3m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "FY26"
+      },
+      {
+        "metric": "Total dividend per share",
+        "current": "3.0p",
+        "prior": "not stated (dividend recommenced)",
+        "change": "not stated",
+        "basis": "final 2.0p plus interim",
+        "note": "dividend restored in FY26"
+      },
+      {
+        "metric": "Market share",
+        "current": "40%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "UK upholstery value share (Globaldata, CY2025)",
+        "note": "record high"
+      }
+    ],
+    "guidance": {
+      "status": "new",
+      "previous": "FY26: 'upgraded guidance' during the year, which was met (uPBT(A) £44.9m).",
+      "current": "FY27: 'moderate profit growth ... in line with analyst consensus'; company-compiled market consensus PBT before brand amortisation of £48.0m. Medium-term targets reiterated: £1.4bn revenue and 8% PBT margins.",
+      "commentary": "Having delivered on FY26's upgraded guidance, the Board issues fresh FY27 guidance for moderate profit growth in line with the £48.0m consensus, while flagging a cautious macro backdrop and FY27 order intake down 2.5% year-on-year over the first 12 weeks. Medium-term revenue and margin targets are reaffirmed."
+    },
+    "explainer": "DFS's headline profit measure is uPBT(A) — underlying profit before tax and brand amortisation, an adjusted (non-statutory) figure the company uses as its key performance metric. On this basis profit rose 48.7% to £44.9m, driven not by strong sales (revenue grew just 2.6% in a subdued market) but by a 160bps improvement in gross margin to 58.1% and tight cost control. In other words, most of the profit growth came from margin and efficiency rather than volume — UK upholstery market volumes remain around 20% below pre-pandemic levels.\n\nThe balance sheet is the other big story. Free cash flow of £40.3m allowed net bank debt to fall by £38.0m to £69.0m, cutting leverage from 1.4x to 0.9x (measured on a banking-covenant basis using IAS17 EBITDA). That deleveraging is what enabled the Board to restore the dividend, declaring a 2.0p final and 3.0p full-year payout after a period of suspension.\n\nOn guidance: FY26's 'upgraded guidance' was met. For FY27, the Board now guides to moderate profit growth in line with the company-compiled analyst consensus of £48.0m PBT before brand amortisation, while striking a cautious tone on consumer confidence — early FY27 order intake is running 2.5% below last year, partly due to extreme summer weather hitting footfall. The medium-term ambition of £1.4bn revenue and 8% PBT margins is reiterated; management notes high operational gearing, with roughly 40% of any revenue recovery expected to drop through to profit.",
+    "source_url": "https://uk.advfn.com/stock-market/london/dfs-furniture-DFS/share-news/DFS-Furniture-PLC-Preliminary-Results/99365925",
+    "related_news_url": "https://news.google.com/search?q=%22DFS%20Furniture%20plc%22",
+    "added_at": "2026-09-28T10:37:53.815555"
+  },
+  {
     "company": "Halma plc",
     "ticker": "HLMA",
     "publish_date": "24 September 2026",
