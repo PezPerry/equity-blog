@@ -1,5 +1,57 @@
 [
   {
+    "company": "Segro PLC",
+    "ticker": "SGRO",
+    "publish_date": "28 September 2026",
+    "date_iso": "2026-09-28",
+    "time_period": "",
+    "announcement_type": "Acquisition / deal",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>SEGRO</strong> shareholders approved the recommended share offer with partial cash alternative from <strong>Prologis, Inc.</strong> at today's Court Meeting and General Meeting.</li><li>At the Court Meeting, <strong>98.12%</strong> of Scheme Shares voted <strong>FOR</strong> (926,865,269 shares), representing <strong>80.43%</strong> of Scheme Shareholders voting.</li><li>The Special Resolution passed at the General Meeting with <strong>98.14%</strong> in favour (927,693,602 votes for, 17,534,639 against).</li><li>Combination to be effected by a Court-sanctioned scheme of arrangement under Part 26 of the Companies Act 2006, first agreed on <strong>4 August 2026</strong>.</li><li>Scheme remains subject to remaining Conditions including Court sanction; expected to become Effective during the <strong>first half of 2027</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "SEGRO shareholders overwhelmingly approve recommended takeover by Prologis, with the scheme now expected to complete in the first half of 2027.",
+    "priority": "high",
+    "priority_reason": "Shareholders approved the recommended takeover of SEGRO by Prologis, a key milestone in the scheme of arrangement.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/segro--sgro/results-of-court-and-general-meetings/9794390",
+    "related_news_url": "https://news.google.com/search?q=%22SEGRO%22",
+    "added_at": "2026-09-28T13:07:28.663207"
+  },
+  {
+    "company": "Investec PLC",
+    "ticker": "INVP",
+    "publish_date": "28 September 2026",
+    "date_iso": "2026-09-28",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li>Routine disclosure under <strong>JSE Listings Requirements</strong> of on-market purchases by <strong>The Investec Limited Share Incentive Plan 2021</strong> to satisfy plan obligations to participants.</li><li>Shares acquired: <strong>175,000</strong> at <strong>ZAR 138.7257</strong> and <strong>95,544</strong> at <strong>ZAR 138.00</strong> on <strong>22 September</strong>; <strong>114,715</strong> at <strong>ZAR 136.1191</strong> on <strong>23 September</strong>; <strong>176,908</strong> at <strong>ZAR 131.7253</strong> on <strong>25 September</strong>.</li><li>Total <strong>562,167 shares</strong> for combined value of roughly <strong>ZAR 76.4m</strong>; prior clearance to deal was obtained.</li><li>Routine share-plan dealing disclosure — <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Investec's South African Share Incentive Plan bought a total of **562,167 Investec Limited shares** on-market between **22 and 25 September 2026**.",
+    "priority": "low",
+    "priority_reason": "Routine on-market share purchases to satisfy a South African employee share incentive plan, with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/investec--invp/share-plan-purchases/9794409",
+    "related_news_url": "https://news.google.com/search?q=%22Investec%22",
+    "added_at": "2026-09-28T13:07:28.650345"
+  },
+  {
     "company": "Atalaya Mining Copper, S.A.",
     "ticker": "ATYM",
     "publish_date": "28 September 2026",
