@@ -497,6 +497,58 @@
     "added_at": "2026-09-28T10:26:23.799970"
   },
   {
+    "company": "Lloyds Banking Group PLC",
+    "ticker": "LLOY",
+    "publish_date": "25 September 2026",
+    "date_iso": "2026-09-25",
+    "time_period": "",
+    "announcement_type": "Buyback completion",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Lloyds Banking Group plc</strong> has completed the <strong>£1.75bn</strong> share buyback programme first announced on <strong>30 January 2026</strong>, following final purchases on <strong>24 September 2026</strong>.</li><li>In aggregate the Company repurchased <strong>1,712,662,647 ordinary shares</strong> for total consideration of <strong>£1.75bn</strong>.</li><li>The programme was managed by <strong>Goldman Sachs International</strong>.</li><li>Routine completion notice confirming full deployment of the announced buyback — <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Lloyds Banking Group has completed its £1.75bn share buyback programme, repurchasing 1,712,662,647 ordinary shares between 30 January and 24 September 2026.",
+    "priority": "medium",
+    "priority_reason": "Completion of a sizeable £1.75bn capital-return programme, though the buyback itself was already announced in January.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/lloyds-banking-group--lloy/completion-of-1-75bn-share-buyback-programme/9791070",
+    "related_news_url": "https://news.google.com/search?q=%22Lloyds%20Banking%20Group%22",
+    "added_at": "2026-09-28T10:48:11.688912"
+  },
+  {
+    "company": "AstraZeneca PLC",
+    "ticker": "AZN",
+    "publish_date": "25 September 2026",
+    "date_iso": "2026-09-25",
+    "time_period": "",
+    "announcement_type": "Regulatory milestone",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>FDA</strong> has accepted and granted <strong>Priority Review</strong> to AstraZeneca's supplemental application for <strong>IMFINZI (durvalumab)</strong> with <strong>enfortumab vedotin</strong> in <strong>muscle-invasive bladder cancer</strong> patients ineligible for or declining cisplatin chemotherapy.</li><li><strong>PDUFA</strong> regulatory decision date anticipated in <strong>Q4 2026</strong>.</li><li>Based on the <strong>VOLGA Phase III</strong> trial (695 patients), which showed statistically significant, clinically meaningful improvements in <strong>event-free survival</strong> and <strong>overall survival</strong> versus radical cystectomy; detailed data to be presented at a future medical meeting.</li><li>Safety consistent with the known profiles of the individual medicines, with no new safety signals.</li><li>Parallel regulatory applications under review in the <strong>EU</strong>, <strong>Japan</strong> and several other countries.</li><li>Routine regulatory-progress announcement with <strong>no impact</strong> on current trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "US FDA accepts and grants Priority Review to AstraZeneca's IMFINZI plus enfortumab vedotin for muscle-invasive bladder cancer, with a decision due in Q4 2026.",
+    "priority": "medium",
+    "priority_reason": "Positive US regulatory milestone for a key oncology asset, but not results, guidance or M&A.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/astrazeneca-AZN/share-news/Perioperative-IMFINZI-durvalumab-plus-neoadjuvant/99374744",
+    "related_news_url": "https://news.google.com/search?q=%22AstraZeneca%20PLC%22",
+    "added_at": "2026-09-28T10:48:11.673314"
+  },
+  {
     "company": "HSBC Holdings PLC",
     "ticker": "HSBA",
     "publish_date": "25 September 2026",
