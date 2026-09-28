@@ -523,6 +523,65 @@
     "added_at": "2026-09-28T10:26:23.775281"
   },
   {
+    "company": "Mitchells & Butlers PLC",
+    "ticker": "MAB",
+    "publish_date": "24 September 2026",
+    "date_iso": "2026-09-24",
+    "time_period": "51 weeks ended 19 September 2026 (FY2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "51 weeks ended 19 September 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Like-for-like sales up 2.1%</strong> in the year to date (51 weeks to <strong>19 September 2026</strong>), with <strong>total sales up 1.2%</strong>.</li><li><strong>Q4 like-for-like sales returned to growth at +1.4%</strong> as weather normalised, aided by an <strong>August Bank Holiday weekend up 5.3%</strong>; drink-led and pub formats particularly strong.</li><li>Remains <strong>confident of a full-year outturn in line with consensus expectations</strong>.</li><li>Investment programme sustained: <strong>222 conversions and remodels</strong> completed year to date, plus <strong>11 new sites acquired</strong> (2 leasehold in <strong>Germany</strong>, 9 UK freeholds) and 4 freehold interests in existing sites.</li><li>For <strong>FY2027</strong>, cost headwinds expected to moderate from <strong>£120m in FY2026 to c.£95m</strong> (around 4% of the cost base); Ignite initiatives and capital investment expected to mitigate pressures and deliver further operating profit growth.</li><li>Trading described as ahead of the market as measured by the CGA Business Tracker.</li></ul>",
+    "source_format": "html",
+    "headline": "Mitchells & Butlers reports full-year like-for-like sales up 2.1%, with Q4 returning to growth, and remains confident of an outturn in line with consensus.",
+    "priority": "high",
+    "priority_reason": "Pre-close full-year trading update with like-for-like sales, consensus confirmation and FY2027 cost-headwind guidance.",
+    "figures": [
+      {
+        "metric": "Like-for-like sales growth",
+        "current": "+2.1%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "like-for-like",
+        "note": "Year to date, 51 weeks to 19 September 2026"
+      },
+      {
+        "metric": "Q4 like-for-like sales growth",
+        "current": "+1.4%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "like-for-like",
+        "note": "Fourth quarter"
+      },
+      {
+        "metric": "Total sales growth",
+        "current": "+1.2%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "total",
+        "note": "Year to date"
+      },
+      {
+        "metric": "Cost headwinds",
+        "current": "c.£95m (FY2027)",
+        "prior": "£120m (FY2026)",
+        "change": "-c.£25m",
+        "basis": "expected",
+        "note": "c.4% of cost base"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Full-year outturn expected in line with consensus expectations",
+      "current": "Remains confident of a full-year outturn in line with consensus expectations",
+      "commentary": "FY2026 guidance is reaffirmed at consensus. For FY2027 the group expects cost headwinds to ease from £120m to about £95m and, with efficiency (Ignite) initiatives and capital investment, to deliver further operating profit growth."
+    },
+    "explainer": "The figures are trading (sales) numbers, not profits. Like-for-like sales strip out new sites and closures to show underlying demand at established pubs and restaurants; the 2.1% year-to-date and 1.4% fourth-quarter figures are growth versus the same period a year earlier. Total sales (up 1.2%) include the effect of site changes. The August Bank Holiday figure (+5.3%) is a single strong weekend, not a run-rate, and management flags that weather earlier in the year had held sales back before conditions normalised in Q4.\n\nOn the outlook, the company has not changed its stance: it still expects the full year to land in line with consensus (the average of City analysts' forecasts), so this is a maintained, not raised or lowered, position.\n\nThe main forward-looking change is on costs. Management now frames FY2027 cost inflation (wages, energy, food and regulatory costs) as easing to roughly £95m from £120m this year — about a £25m reduction, equal to around 4% of the cost base. It expects self-help efficiency measures (its Ignite programme) and returns from the accelerated refurbishment and acquisition spend to offset those pressures and still grow operating profit.",
+    "source_url": "https://uk.advfn.com/stock-market/london/mitchells-butlers-MAB/share-news/Mitchells-Butlers-PLC-Pre-Close-Trading-Update/99365880",
+    "related_news_url": "https://news.google.com/search?q=%22Mitchells%20%26%20Butlers%20plc%22",
+    "added_at": "2026-09-28T10:31:40.637372"
+  },
+  {
     "company": "ASOS PLC",
     "ticker": "ASC",
     "publish_date": "24 September 2026",
