@@ -497,6 +497,123 @@
     "added_at": "2026-09-28T10:26:23.799970"
   },
   {
+    "company": "Ferrexpo PLC",
+    "ticker": "FXPO",
+    "publish_date": "25 September 2026",
+    "date_iso": "2026-09-25",
+    "time_period": "H1 2026 (six months to 30 June 2026)",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 2026 (six months to 30 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Revenue</strong> fell to <strong>US$196m</strong> (H1 2025: <strong>US$453m</strong>), driven by a <strong>62%</strong> drop in sales volumes as Ukrainian power attacks forced temporary suspension and a restart on just one of four pellet lines.</li><li><strong>Underlying EBITDA</strong> turned negative at <strong>–US$4.0m</strong> versus <strong>+US$3.9m</strong> a year earlier; <strong>C1 cash costs</strong> rose to <strong>US$81.3/t</strong> on lower volumes and higher energy costs.</li><li>Group cash fell to <strong>US$30.4m</strong> (net cash US$21.4m) at 30 June from US$58m at end-2025; capex cut to <strong>US$9.8m</strong> (H1 2025: US$28.5m) and net operating cash outflow of <strong>US$24.0m</strong>.</li><li>Withheld Ukrainian <strong>VAT refunds</strong> remain the key liquidity constraint — gross receivable up to <strong>US$102.2m</strong> (end-2025: US$84.5m); vessel <strong>'Iron Destiny'</strong> sold for <strong>US$7.7m</strong> net.</li><li>Post period end, <strong>US$100m</strong> equity raise (early <strong>September</strong>) approved by shareholders, materially strengthening liquidity and enabling the lifting of the LSE trading suspension on <strong>7 September</strong>.</li><li>Board changes: <strong>Vitalii Lisovenko</strong> retired at the 29 June AGM; a search for an additional independent non-executive director is well advanced, with a separate shareholder meeting set for <strong>9 October 2026</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Ferrexpo H1 revenue fell to US$196m from US$453m and swung to a negative US$4m EBITDA as war and withheld VAT refunds forced production cuts.",
+    "priority": "high",
+    "priority_reason": "Half-year results showing collapse into an EBITDA loss, near-exhausted cash and a post-period $100m equity rescue.",
+    "figures": [
+      {
+        "metric": "Revenue",
+        "current": "US$196m",
+        "prior": "US$453m",
+        "change": "not stated",
+        "basis": "",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "Underlying EBITDA",
+        "current": "–US$4.0m",
+        "prior": "US$3.9m",
+        "change": "not stated",
+        "basis": "",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "Sales volumes",
+        "current": "1.5mt",
+        "prior": "not stated",
+        "change": "-62%",
+        "basis": "",
+        "note": "pellets and concentrate; 62% reduction stated"
+      },
+      {
+        "metric": "C1 cash cost",
+        "current": "US$81.3/t",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "H1 2026"
+      },
+      {
+        "metric": "Capital expenditure",
+        "current": "US$9.8m",
+        "prior": "US$28.5m",
+        "change": "not stated",
+        "basis": "",
+        "note": "H1 2026 vs H1 2025"
+      },
+      {
+        "metric": "Cash and cash equivalents",
+        "current": "US$30.4m",
+        "prior": "US$58m",
+        "change": "not stated",
+        "basis": "",
+        "note": "30 June 2026 vs 31 December 2025"
+      },
+      {
+        "metric": "Net cash used in operating activities",
+        "current": "US$24.0m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "H1 2026"
+      },
+      {
+        "metric": "Gross VAT receivable (Ukraine)",
+        "current": "US$102.2m",
+        "prior": "US$84.5m",
+        "change": "not stated",
+        "basis": "",
+        "note": "30 June 2026 vs end-2025"
+      }
+    ],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "Ferrexpo is a Ukraine-focused iron ore pellet producer, and these figures show a business operating far below capacity. Revenue more than halved because sales volumes fell 62%, after Russian attacks on Ukraine's electricity infrastructure forced Ferrexpo to suspend operations and later restart only one of its four pellet lines. Reported in US dollars, the comparatives are simple like-for-like halves (H1 2026 vs H1 2025) with no currency-basis or organic adjustment noted.\n\nThe swing from a small positive EBITDA to a negative US$4m reflects that fixed costs were spread over much lower output, alongside higher electricity, fuel and logistics costs (C1 cash costs of US$81.3 per tonne). A central problem is that Ukraine's tax authority has withheld VAT refunds — the gross receivable has grown to over US$102m — which has starved the business of working capital and was a direct reason for running at reduced levels.\n\nThe company gave no forward numerical guidance. The most important event is post-period: a US$100m equity raise completed in early September, which recapitalised a group down to roughly US$30m of cash, allowed the delayed 2025 accounts to be signed off on a going-concern basis, and lifted the suspension of the shares on 7 September. Management is explicit that the raise buys resilience but does not remove the underlying VAT, war and infrastructure risks.",
+    "source_url": "https://uk.advfn.com/stock-market/london/ferrexpo-FXPO/share-news/Ferrexpo-PLC-Interim-Results-for-the-six-months-to/99372868",
+    "related_news_url": "https://news.google.com/search?q=%22Ferrexpo%20plc%22",
+    "added_at": "2026-09-28T10:46:25.931109"
+  },
+  {
+    "company": "Hollywood Bowl Group PLC",
+    "ticker": "BOWL",
+    "publish_date": "25 September 2026",
+    "date_iso": "2026-09-25",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Simon Dodd</strong> to join the Board as an independent <strong>Non-Executive Director</strong>, and as a member of the <strong>Audit and Remuneration Committees</strong>, effective <strong>1 November 2026</strong>.</li><li>Dodd is currently Chief Executive of <strong>Young & Co.'s Brewery plc</strong> (since 2022) and has over <strong>20 years'</strong> senior operational, marketing and commercial experience in the pub and brewing sector, including prior roles at <strong>Fuller, Smith & Turner plc</strong> and Orchid Pub Company.</li><li>Chair <strong>Darren Shapland</strong> cited his hospitality leadership and operational experience as strengthening the Board amid the Group's growth plans.</li><li>Routine directorate disclosure with <strong>no impact</strong> on trading or guidance; no further matters to declare under UK Listing Rule 6.4.8R.</li></ul>",
+    "source_format": "html",
+    "headline": "Hollywood Bowl appoints Simon Dodd, CEO of Young & Co.'s Brewery, as independent Non-Executive Director effective 1 November 2026.",
+    "priority": "medium",
+    "priority_reason": "Appointment of a new independent Non-Executive Director — a board change with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/hollywood-bowl-BOWL/share-news/Hollywood-Bowl-Group-plc-Directorate-change/99372863",
+    "related_news_url": "https://news.google.com/search?q=%22Hollywood%20Bowl%20Group%20plc%22",
+    "added_at": "2026-09-28T10:46:25.753520"
+  },
+  {
     "company": "United Utilities Group PLC",
     "ticker": null,
     "publish_date": "25 September 2026",
