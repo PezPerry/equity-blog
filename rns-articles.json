@@ -523,6 +523,32 @@
     "added_at": "2026-09-28T10:26:23.775281"
   },
   {
+    "company": "XP Power Limited",
+    "ticker": "XPP",
+    "publish_date": "24 September 2026",
+    "date_iso": "2026-09-24",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>XP Power</strong> confirms the release of bonds and associated funds relating to the <strong>Comet litigation</strong>, with the cash returned to the Group.</li><li>Total cash received by the Group was <strong>$66.8m (£50.2m)</strong>, <strong>significantly reducing net debt</strong>.</li><li>The Group will <strong>continue to defend its position</strong> and will provide further updates as appropriate.</li><li>Next scheduled event: <strong>Q3 trading update on 20 October 2026</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "XP Power has recovered $66.8m (£50.2m) of cash following release of bonds tied to the Comet litigation, significantly cutting net debt.",
+    "priority": "medium",
+    "priority_reason": "Material cash inflow of £50.2m returned to the Group, significantly reducing net debt, though it is a litigation-related recovery rather than trading news.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/xp-power-XPP/share-news/XP-Power-Limited-Comet-litigation-bond-released/99368077",
+    "related_news_url": "https://news.google.com/search?q=%22XP%20Power%20Limited%22",
+    "added_at": "2026-09-28T10:38:53.293132"
+  },
+  {
     "company": "Hikma Pharmaceuticals PLC",
     "ticker": "HIK",
     "publish_date": "24 September 2026",
