@@ -523,6 +523,105 @@
     "added_at": "2026-09-28T10:26:23.775281"
   },
   {
+    "company": "Raspberry Pi Holdings PLC",
+    "ticker": "RPI",
+    "publish_date": "24 September 2026",
+    "date_iso": "2026-09-24",
+    "time_period": "H1 2026 (half year ended 30 June 2026)",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 2026 (half year ended 30 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Record H1 2026</strong>: revenue <strong>+90% to $256.9m</strong> (H1 2025: $135.5m) and Adjusted EBITDA <strong>+108% to $40.3m</strong> (H1 2025: $19.4m), driven by strong OEM and reseller demand, favourable product mix and passthrough of higher memory-component costs.</li><li>Total unit shipments <strong>+17% to 4.2m</strong> (H1 2025: 3.6m); direct (ex-licensee) shipments <strong>+26% to 3.4m</strong>; customer order backlog <strong>doubled to 2.6m units</strong> during the half.</li><li>Gross Profit per Board <strong>+53% to $12.2</strong>; gross margin <strong>23%</strong> (H1 2025: 25%), reflecting passthrough of higher memory costs over a larger revenue base. Profit benefited from consuming strategic memory inventory built in FY 2025.</li><li>Net cash fell to <strong>$18.4m</strong> (H1 2025: $34.3m); debt facilities drawn at period end and expected to continue in H2 to fund memory-inventory working capital.</li><li>Board change: <strong>Tim Powell</strong> joins as <strong>CFO in October</strong>, succeeding <strong>Richard Boult</strong> (stepping down after seven years); <strong>Tim Mamtora</strong> (ex-Broadcom, Imagination Technologies) appointed <strong>Chief Operating Officer</strong>.</li><li>Note: source text is truncated mid-sentence on H2 outlook (\"We expect second-half unit volumes to e...\") — full guidance not captured; management cites strong pipeline and positioning for rapid unit growth in 2027 and beyond.</li></ul>",
+    "source_format": "html",
+    "headline": "Raspberry Pi reports record H1 2026 with revenue up 90% to $256.9m and Adjusted EBITDA up 108% to $40.3m.",
+    "priority": "high",
+    "priority_reason": "Half-year results showing record revenue and profitability, plus a CFO succession.",
+    "figures": [
+      {
+        "metric": "Revenue",
+        "current": "$256.9m",
+        "prior": "$135.5m",
+        "change": "+90%",
+        "basis": "reported",
+        "note": "H1 to 30 June 2026"
+      },
+      {
+        "metric": "Adjusted EBITDA",
+        "current": "$40.3m",
+        "prior": "$19.4m",
+        "change": "+108%",
+        "basis": "APM",
+        "note": "H1 2026"
+      },
+      {
+        "metric": "Gross Profit per Board",
+        "current": "$12.2",
+        "prior": "$8.0",
+        "change": "+53%",
+        "basis": "not stated",
+        "note": "H1 2026"
+      },
+      {
+        "metric": "Gross margin",
+        "current": "23%",
+        "prior": "25%",
+        "change": "-2pp",
+        "basis": "reported",
+        "note": "H1 2026"
+      },
+      {
+        "metric": "Total unit shipments",
+        "current": "4.2m",
+        "prior": "3.6m",
+        "change": "+17%",
+        "basis": "reported",
+        "note": "H1 2026"
+      },
+      {
+        "metric": "Direct (ex-licensee) unit shipments",
+        "current": "3.4m",
+        "prior": "not stated",
+        "change": "+26%",
+        "basis": "reported",
+        "note": "H1 2026"
+      },
+      {
+        "metric": "Order backlog",
+        "current": "2.6m units",
+        "prior": "not stated",
+        "change": "doubled in the half",
+        "basis": "reported",
+        "note": "at 30 June 2026"
+      },
+      {
+        "metric": "Net cash",
+        "current": "$18.4m",
+        "prior": "$34.3m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "period end"
+      },
+      {
+        "metric": "Basic EPS (cents)",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "IFRS",
+        "note": "figures not printed in scraped text"
+      }
+    ],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": "No formal numeric guidance is captured; the scraped text is truncated mid-sentence on H2 unit volumes. Management states the company is well positioned for rapid growth in unit shipments in 2027 and beyond, supported by a substantial backlog and expanding capacity."
+    },
+    "explainer": "Raspberry Pi reports in US dollars. Headline revenue rose 90% to $256.9m, but a large part of that increase is the passthrough of sharply higher memory-component prices rather than pure volume growth — unit shipments themselves rose 17%. In other words, each board is being sold for more largely because memory costs more, and Raspberry Pi is charging that on to customers.\n\nProfitability outgrew revenue: Adjusted EBITDA more than doubled (+108%) and Gross Profit per Board rose 53%. The company attributes this to a deliberate FY 2025 decision to stockpile strategic memory inventory before prices rose, so it is selling boards built with cheaper memory into a market of higher prices. This is a timing benefit that flatters current margins; gross margin percentage actually fell (23% vs 25%) because the cost passthrough inflates the revenue base.\n\nCash is the trade-off: net cash dropped to $18.4m from $34.3m and the company is now drawing debt, because holding enough memory inventory to meet a backlog that doubled to 2.6m units ties up working capital. This is a growth-funding dynamic, not a sign of distress.\n\nOn guidance: no clear H2 numbers are present in the scraped text, which is cut off mid-sentence. Treat the outlook as qualitative only — record trading, a doubled backlog, new capacity coming online with Sony, and confidence in rapid unit growth into 2027. Separately, note the CFO handover (Richard Boult to Tim Powell in October) and the new COO, Tim Mamtora.",
+    "source_url": "https://uk.advfn.com/stock-market/london/raspberry-pi-RPI/share-news/Raspberry-Pi-Holdings-PLC-Interim-Results/99365888",
+    "related_news_url": "https://news.google.com/search?q=%22Raspberry%20Pi%20Holdings%20PLC%22",
+    "added_at": "2026-09-28T10:36:30.660407"
+  },
+  {
     "company": "Capricorn Energy PLC",
     "ticker": "CNE",
     "publish_date": "24 September 2026",
