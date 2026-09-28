@@ -523,6 +523,57 @@
     "added_at": "2026-09-28T10:26:23.775281"
   },
   {
+    "company": "Dar Global PLC",
+    "ticker": "DAR",
+    "publish_date": "24 September 2026",
+    "date_iso": "2026-09-24",
+    "time_period": "H1 2026 (six months to 30 June 2026)",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 2026 (six months to 30 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Dar Global PLC</strong> posted <strong>66% revenue growth</strong> and <strong>73% EBITDA growth</strong> for the six months to <strong>30 June 2026</strong>, described as a resilient first-half performance.</li><li>Cumulative contracted sales reached <strong>c. US$3.9 billion</strong> at 30 June 2026, up from <strong>c. US$3.2 billion</strong> at December 2025.</li><li>Closed a <strong>US$250 million</strong> Project Radium II syndicated facility during the period, strengthening liquidity and funding flexibility.</li><li>Group gross development value (GDV) stands at <strong>US$23 billion</strong>; capital-light model spanning the UAE, Saudi Arabia, Oman, Qatar, Spain, Greece and the UK.</li><li>New launches in Saudi Arabia during the period included <strong>Rayana</strong>, <strong>Amaya</strong> and <strong>Trump Plaza, Jeddah</strong>.</li><li>Results are unaudited; the scraped text omits absolute revenue, EBITDA and profit figures and does not print a dividend or formal guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Dar Global reports H1 2026 revenue up 66% and EBITDA up 73%, with cumulative contracted sales rising to c. US$3.9bn.",
+    "priority": "high",
+    "priority_reason": "Half-year results from a Main Market-listed developer, reporting 66% revenue growth and rising contracted sales.",
+    "figures": [
+      {
+        "metric": "Revenue",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+66%",
+        "basis": "as reported",
+        "note": "H1 to 30 June 2026; absolute figures not in scraped text"
+      },
+      {
+        "metric": "EBITDA",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+73%",
+        "basis": "APM (non-GAAP)",
+        "note": "H1 to 30 June 2026; absolute figures not in scraped text"
+      },
+      {
+        "metric": "Cumulative contracted sales",
+        "current": "c. US$3.9bn",
+        "prior": "c. US$3.2bn",
+        "change": "not stated",
+        "basis": "cumulative",
+        "note": "at 30 June 2026 vs December 2025"
+      }
+    ],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "Dar Global is a London-listed luxury real estate developer building branded second and vacation homes across the Gulf, southern Europe and the UK, often in partnership with names such as Trump, Aston Martin and Lamborghini. Its model is 'capital-light', meaning it uses joint development agreements and external financing rather than tying up its own balance sheet in land and construction.\n\nThe headline figures are growth rates rather than absolute numbers: revenue up 66% and EBITDA up 73% versus the same half of 2025. EBITDA is an adjusted profit measure that strips out financing costs, tax and depreciation, so it flatters headline profit and is not a statutory figure. The scraped text does not print the underlying revenue, EBITDA or bottom-line profit amounts, so the actual size of the business this half cannot be verified here.\n\nContracted sales — the value of homes sold but not yet fully recognised as revenue — rose to roughly US$3.9bn from about US$3.2bn at the end of 2025, indicating continued buyer demand despite what management calls 'uncertain times in the region'. The US$250m Project Radium II facility adds funding headroom.\n\nNo formal financial guidance or dividend is stated in this extract; management's outlook is qualitative, centred on growing gross development value and executing its pipeline.",
+    "source_url": "https://uk.advfn.com/stock-market/london/dar-global-DAR/share-news/Dar-Global-PLC-Dar-Global-Half-Year-2026-Results/99365882",
+    "related_news_url": "https://news.google.com/search?q=%22Dar%20Global%20PLC%22",
+    "added_at": "2026-09-28T10:32:11.455314"
+  },
+  {
     "company": "Mitchells & Butlers PLC",
     "ticker": "MAB",
     "publish_date": "24 September 2026",
