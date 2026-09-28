@@ -1,5 +1,57 @@
 [
   {
+    "company": "Roadside Real Estate",
+    "ticker": "ROAD",
+    "publish_date": "28 September 2026",
+    "date_iso": "2026-09-28",
+    "time_period": "",
+    "announcement_type": "Disposal",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Roadside Real Estate PLC</strong> (AIM: ROAD) has agreed to sell its <strong>CSS Loan Note</strong> to <strong>CGV Ventures 1 Ltd</strong> for total cash consideration of <strong>£4.5m</strong>.</li><li>Consideration comprises <strong>£2.8m</strong> outstanding principal, <strong>£1.2m</strong> accrued interest and a <strong>£0.5m</strong> redemption premium; the note was previously carried at nil value.</li><li>Cash expected to be received in full by <strong>end of 2026</strong>, used to strengthen the balance sheet and support growth.</li><li>Roadside retains a shareholding in <strong>CSS</strong> with a <strong>Put Option</strong> exercisable <strong>1–30 September 2027</strong> for <strong>£20m</strong>.</li><li>During the year the Group added <strong>20 sites</strong> via acquisitions of <strong>Gardner Retail</strong>, <strong>Hoch Group</strong>, <strong>Ross Road service station</strong> and <strong>D.A. Roberts Fuels</strong>; trading in line with management expectations.</li><li>Year-end net debt expected to rise temporarily on <strong>D.A. Roberts</strong> working capital and higher fuel prices, then reduce significantly in FY2027; full trading update for the period to <strong>26 September 2026</strong> due in <strong>November 2026</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Roadside Real Estate has agreed to sell its Cambridge Sleep Sciences loan note to CGV Ventures for £4.5m cash.",
+    "priority": "medium",
+    "priority_reason": "Disposal of a non-core asset for £4.5m cash, strengthening the balance sheet but not a core trading event.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/roadside-real-estate--road/sale-of-css-loan-note/9792821",
+    "related_news_url": "https://news.google.com/search?q=%22Roadside%20Real%20Estate%22",
+    "added_at": "2026-09-28T10:28:09.496759"
+  },
+  {
+    "company": "Harworth Group PLC",
+    "ticker": "HWG",
+    "publish_date": "28 September 2026",
+    "date_iso": "2026-09-28",
+    "time_period": "",
+    "announcement_type": "Acquisition / deal",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Peel Pepper (UK) Limited</strong> (\"BidCo\"), indirectly wholly-owned by <strong>Peel Holdings Group Limited</strong>, now owns or has received valid acceptances over <strong>200,856,373 Harworth shares (approx. 61.43%)</strong> counting towards the Acceptance Condition.</li><li>BidCo and concert parties currently hold <strong>200,709,637 shares (approx. 61.38%)</strong> of Harworth's issued share capital.</li><li>Offer is a <strong>recommended increased best and final cash offer of 187 pence per share</strong>, unanimously recommended by the Harworth Board as fair and reasonable (announced 25 September 2026).</li><li>Offer sequence: initial <strong>172.5p</strong> (6 August), raised to <strong>177.5p</strong> (16 September, becoming a mandatory Rule 9 offer at 30%), then best and final <strong>187p</strong> (25 September).</li><li>As at 3.00 p.m. on 25 September 2026, only <strong>2,214,795 shares (approx. 0.68%)</strong> had been validly accepted from approximately <strong>1,236 individual shareholders</strong>; the balance is concert-party holdings.</li><li>Acceptance Condition (>50% of voting rights) <strong>not yet satisfied</strong>; remaining shareholders urged to accept by <strong>1.00 p.m. on 25 October 2026</strong>, with <strong>Rothschild & Co</strong> buying shares in market at or below 187p.</li></ul>",
+    "source_format": "html",
+    "headline": "Peel's BidCo now owns or holds acceptances over 61.43% of Harworth under its recommended best and final 187p-per-share cash offer.",
+    "priority": "high",
+    "priority_reason": "Live recommended takeover of Harworth by Peel; acceptance update confirms bidder now controls a majority of the shares.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/harworth-group--hwg/acceptance-level-update-/9792927",
+    "related_news_url": "https://news.google.com/search?q=%22Harworth%20Group%22",
+    "added_at": "2026-09-28T10:28:09.445811"
+  },
+  {
     "company": "FirstGroup PLC",
     "ticker": "FGP",
     "publish_date": "28 September 2026",
