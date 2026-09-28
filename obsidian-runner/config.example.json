@@ -1,0 +1,9 @@
+{
+  "vault_path": "C:/Users/YOUR-NAME/Documents/Master Control",
+  "watch_folders": ["General Website Updates", "Website Updates", "Equity and Markets Insight"],
+  "repo_path": "C:/Users/YOUR-NAME/Documents/GitHub/equity-blog",
+  "branch": "main",
+  "poll_seconds": 300,
+  "settle_seconds": 120,
+  "max_attempts": 3
+}
