@@ -523,6 +523,65 @@
     "added_at": "2026-09-28T10:26:23.775281"
   },
   {
+    "company": "Vistry Group PLC",
+    "ticker": "VTY",
+    "publish_date": "24 September 2026",
+    "date_iso": "2026-09-24",
+    "time_period": "H1 2026 (six months to 30 June 2026)",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 2026 (six months to 30 June 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Vistry Group PLC</strong> publishes <strong>H1 2026</strong> results alongside a <strong>CEO strategic review</strong> under new chief executive <strong>Adam Daniels</strong> (in post since April), repositioning the group as an intentionally <strong>smaller, more focused</strong> specialist mixed-tenure housebuilder.</li><li>New target of <strong>c.12,000 units</strong> a year (roughly <strong>60:40 Partner Funded vs Open Market</strong>), down from an addressable market now reassessed at <strong>c.19,000 units</strong> — the business will be resized, simplified and concentrated in priority regions.</li><li>Explicit statement that, following the actions taken, the board does <strong>not anticipate any need to raise equity</strong>; a <strong>new CFO</strong> appointment is expected imminently.</li><li><strong>Net debt</strong> was <strong>£469m</strong> at 30 June 2026 with <strong>average daily net debt</strong> of <strong>£799m</strong> in H1; the group now expects a <strong>broadly neutral</strong> net debt position at December and targets <strong>H2 average daily debt of £750m</strong> (vs £771m in H2 2025).</li><li>Cash actions dragged on H1 profitability, with the bulk of cash benefits due in H2; unsold private homes in build cut from <strong>c.£600m</strong> at the start of the year to <strong>under £300m</strong>, with a further <strong>c.£80m</strong> reduction so far in H2; <strong>Part Exchange</strong> exited (loss of <strong>£6-10m</strong>, £6m booked in H1).</li><li>Named a <strong>Strategic Partner</strong> under the 2026-2036 Social and Affordable Housing Programme, securing a <strong>£350m</strong> direct grant — the largest in this phase — to deliver over <strong>3,000</strong> affordable homes; the provided text is truncated and does not print headline revenue, profit, EPS or dividend figures.</li></ul>",
+    "source_format": "html",
+    "headline": "Vistry to reposition as a smaller specialist mixed-tenure housebuilder targeting c.12,000 units a year; H1 net debt £469m, no equity raise anticipated.",
+    "priority": "high",
+    "priority_reason": "Half-year results combined with a full strategic repositioning, new volume targets, deleveraging plan and a statement on equity — highly market-moving.",
+    "figures": [
+      {
+        "metric": "Net debt",
+        "current": "£469m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "at 30 June 2026; described as higher than prior-year period, exact prior figure not printed"
+      },
+      {
+        "metric": "Average daily net debt (H1)",
+        "current": "£799m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "H1 2026"
+      },
+      {
+        "metric": "Average daily debt (H2 target)",
+        "current": "£750m (target)",
+        "prior": "£771m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "H2 2026 target vs H2 2025 actual"
+      },
+      {
+        "metric": "Unsold private homes in build (WIP)",
+        "current": "under £300m",
+        "prior": "c.£600m",
+        "change": "more than halved",
+        "basis": "wholly owned or held jointly with JV partners",
+        "note": "end H1 vs start of year; further c.£80m reduction so far in H2"
+      }
+    ],
+    "guidance": {
+      "status": "lowered",
+      "previous": "Higher volume ambition under the September 2023 Partnerships strategy; addressable market previously indicated above current estimate.",
+      "current": "Intentionally smaller business targeting c.12,000 units a year (c.60:40 Partner Funded to Open Market); addressable market reassessed at c.19,000 units; broadly neutral net debt expected at December; H2 average daily debt targeted at £750m; no equity raise anticipated.",
+      "commentary": "The CEO review confirms the mixed-tenure model but concludes execution, regional discipline and capital allocation have been inconsistent, so the group is deliberately shrinking to cut leverage and improve cash conversion. Volume ambition and the addressable market have been scaled back, and the deleveraging path relies on managed realisation of the asset base rather than new equity."
+    },
+    "explainer": "This is a half-year statement dominated by a strategic reset rather than a profit print. New CEO Adam Daniels has used his first results to reposition Vistry as a smaller, more disciplined mixed-tenure housebuilder — deliberately targeting about 12,000 homes a year and concentrating on priority regions, versus a reassessed addressable market of roughly 19,000 units. In plain terms, the company is choosing to be smaller in order to reduce debt and make returns more predictable, having concluded that its problems are about execution and control rather than the model itself.\n\nThe cash figures need care. Net debt of £469m at 30 June is a point-in-time (period-end) number, while average daily net debt of £799m better reflects the true funding requirement across the half — the two differ because housebuilder debt swings with the timing of land payments and completions. Management flags that its cash-generation actions (heavier discounting to sell homes, tighter work-in-progress control, and lower land spend) hurt H1 profit but that the cash benefit largely arrives in H2, because of the lag between taking an action and receiving the cash.\n\nOn guidance, the key changes are: net debt now expected to be broadly neutral by December, an H2 average daily debt target of £750m (against £771m in H2 2025), the exit from Part Exchange (a one-off loss of £6-10m, £6m already booked), and — significantly for shareholders — an explicit statement that no equity raise is anticipated, which addresses a common market fear for indebted housebuilders. A new CFO appointment is said to be imminent.\n\nNote that the scraped text is truncated and does not contain the usual headline income-statement figures (revenue, profit, EPS or dividend) or their prior-year comparatives, so no such figures are reproduced here; the £350m affordable-housing grant is described as the largest in the programme's first phase and materially above Vistry's previous award, but the announcement does not quantify that prior award.",
+    "source_url": "https://uk.advfn.com/stock-market/london/vistry-VTY/share-news/Vistry-Group-PLC-Half-year-results-for-the-period/99365903",
+    "related_news_url": "https://news.google.com/search?q=%22Vistry%20Group%20PLC%22",
+    "added_at": "2026-09-28T10:34:13.972052"
+  },
+  {
     "company": "CVS Group plc",
     "ticker": "CVSG",
     "publish_date": "24 September 2026",
