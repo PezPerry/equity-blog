@@ -2,6 +2,27 @@
   "_comment": "Trading Log registry. Newest first. Rebuild the index and the front-page teaser with: python build-trading-log.py. Register a new entry page (root HTML tagged tile-variant=trading-log) with: python build-trading-log.py --add <file.html>. 'url' is the branded address the row links to; 'source' is the Pages copy (null for entries stored only in Base44). 'time' is the UK time the note went live.",
   "entries": [
     {
+      "slug": "housebuilders-your-first-home-rally",
+      "date": "2026-09-28",
+      "time": "18:19",
+      "tag": "Market view",
+      "tickers": [
+        "PSN",
+        "BTRW",
+        "CRST",
+        "BWY",
+        "TW.",
+        "VTY"
+      ],
+      "companies": "Persimmon, Barratt Redrow, Crest Nicholson, Bellway, Taylor Wimpey, Vistry",
+      "title": "Your First Home: Housebuilders Rally on the Return of the Government Loan",
+      "why": "The government's Your First Home equity loan, 20% with a 2.5% deposit on new builds, sent the housebuilders up 11% to 15%. Budget detail on the caps and developer fee will decide how much sticks, but I see further potential in the coming months.",
+      "url": "https://equityandmarketsinsight.com/TradeDetail?slug=housebuilders-your-first-home-rally",
+      "source": "housebuilders-your-first-home-rally.html",
+      "readMinutes": 4,
+      "related": null
+    },
+    {
       "slug": "bank-rate-hold-trump-not-threadneedle-street",
       "date": "2026-09-18",
       "time": "20:29",
