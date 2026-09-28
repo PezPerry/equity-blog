@@ -523,6 +523,91 @@
     "added_at": "2026-09-28T10:26:23.775281"
   },
   {
+    "company": "Halma plc",
+    "ticker": "HLMA",
+    "publish_date": "24 September 2026",
+    "date_iso": "2026-09-24",
+    "time_period": "FY to 31 March 2027 (H1 end 30 September 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "FY to 31 March 2027",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Halma plc</strong> raised its FY2027 <strong>Adjusted EBIT margin</strong> guidance to <strong>23.5% to 24%</strong>, up from previous guidance of around <strong>22.7%</strong> (in line with FY2026).</li><li>Continues to expect <strong>low double-digit percentage organic constant-currency revenue growth</strong> for the full year, including roughly <strong>5 percentage points</strong> of premium growth from photonics (implying ~<strong>30%</strong> photonics organic growth).</li><li>Margin uplift reflects continued operational delivery and favourable product and portfolio mix across all three sectors, including recent acquisitions and disposals; order intake remains ahead of both year-to-date revenue and the prior-year comparable.</li><li>Record M&A investment: <strong>six acquisitions</strong> completed year-to-date for <strong>£515m</strong> (cash- and debt-free maximum consideration basis), with a healthy pipeline; <strong>three disposals</strong> realised approximately <strong>£83m</strong> net.</li><li>Recent Sterling strength against the US Dollar and Euro, if maintained, is expected to cause a negative translation effect — approximately <strong>£8m</strong> off revenue and <strong>£2m</strong> off profit in FY2027.</li><li>Half-year results (to <strong>30 September 2026</strong>) due <strong>19 November 2026</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Halma raises FY2027 adjusted EBIT margin guidance to 23.5%–24% after strong first-half progress and record £515m of acquisitions.",
+    "priority": "high",
+    "priority_reason": "Scheduled trading update from a FTSE 100 company that raises full-year adjusted EBIT margin guidance.",
+    "figures": [
+      {
+        "metric": "Adjusted EBIT margin (guidance)",
+        "current": "23.5%–24%",
+        "prior": "around 22.7%",
+        "change": "raised",
+        "basis": "FY2027 vs prior guidance in line with FY2026",
+        "note": "Full year to 31 March 2027"
+      },
+      {
+        "metric": "Organic constant-currency revenue growth (guidance)",
+        "current": "low double-digit %",
+        "prior": "not stated",
+        "change": "maintained",
+        "basis": "organic constant currency",
+        "note": "Includes ~5pp photonics premium"
+      },
+      {
+        "metric": "Acquisition spend YTD",
+        "current": "£515m",
+        "prior": "not stated",
+        "change": "record",
+        "basis": "cash- and debt-free maximum total consideration",
+        "note": "Six acquisitions"
+      },
+      {
+        "metric": "Disposal proceeds YTD",
+        "current": "approximately £83m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "net of disposal costs",
+        "note": "Three disposals"
+      }
+    ],
+    "guidance": {
+      "status": "raised",
+      "previous": "Adjusted EBIT margin expected to be in line with the 2026 financial year at around 22.7%; low double-digit percentage organic constant-currency revenue growth.",
+      "current": "Adjusted EBIT margin for FY2027 now expected in the range of 23.5% to 24%; revenue growth guidance of low double-digit percentage organic constant currency maintained.",
+      "commentary": "Halma lifted its profitability guidance while holding revenue-growth expectations. The higher margin reflects continued good operational delivery and a favourable product and portfolio mix across all three sectors, aided by recent acquisitions and disposals."
+    },
+    "explainer": "This is a scheduled trading update covering the first half of Halma's financial year to 31 March 2027, ahead of the half-year end on 30 September 2026. The key change is an upgrade to profitability guidance: the adjusted EBIT margin (operating profit as a percentage of revenue, before items like acquired-intangible amortisation and restructuring) is now guided to 23.5%–24%, versus prior guidance of around 22.7%. Revenue growth guidance is unchanged at low double-digit percent on an organic, constant-currency basis — meaning growth stripped of acquisitions, disposals and currency movements, so it reflects the underlying businesses only.\n\nAround 5 percentage points of that growth is expected to come from the fast-growing photonics business, which management says is growing organically at roughly 30%. The margin upgrade is attributed to operational delivery and a better product and portfolio mix, helped by the group's active buying and selling of businesses rather than any single one-off.\n\nTwo things temper the picture. First, a stronger Pound against the Dollar and Euro is a translation headwind — at current rates about £8m less revenue and £2m less profit than last year, purely from converting overseas earnings back into Sterling, not from weaker trading. Second, note that the prior-year (FY2026) margin included a one-off gain from the Nuvonic/FluidSmile transactions worth about 30 basis points, so part of the year-on-year comparison is affected by that.\n\nSeparately, Halma highlights record capital deployment: £515m across six acquisitions and roughly £83m raised from three disposals, underlining continued portfolio management. Half-year results are due on 19 November 2026.",
+    "source_url": "https://uk.advfn.com/stock-market/london/halma-HLMA/share-news/Halma-PLC-Trading-Update/99365884",
+    "related_news_url": "https://news.google.com/search?q=%22Halma%20plc%22",
+    "added_at": "2026-09-28T10:37:06.370671"
+  },
+  {
+    "company": "AEP Plantations Plc",
+    "ticker": "AEP",
+    "publish_date": "24 September 2026",
+    "date_iso": "2026-09-24",
+    "time_period": "",
+    "announcement_type": "Trading update",
+    "period_detail": "",
+    "type_workings": "Rule 'trading update': 'trading statement' named in opening bullets [rns.json record]",
+    "body": "<ul><li><strong>AEP Plantations Plc</strong> will announce details of its interim dividend on <strong>12 October 2026</strong>, alongside its <strong>Q3 2026 trading statement</strong>.</li><li>Follows the earlier announcement on <strong>2 September 2026</strong>; the two disclosures are being combined to give shareholders a fuller performance and returns update.</li><li>Routine timing/scheduling note only — <strong>no dividend figure declared</strong> and <strong>no impact</strong> on current trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "AEP Plantations will announce its interim dividend on 12 October 2026, alongside its Q3 2026 trading statement.",
+    "priority": "low",
+    "priority_reason": "Routine scheduling note confirming when the interim dividend detail and Q3 trading statement will be released, with no figures or decisions.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/aep-plantations-AEP/share-news/AEP-Plantations-PLC-Interim-Dividend-Update/99365905",
+    "related_news_url": "https://news.google.com/search?q=%22AEP%20Plantations%20Plc%22",
+    "added_at": "2026-09-28T10:37:06.168556"
+  },
+  {
     "company": "Raspberry Pi Holdings PLC",
     "ticker": "RPI",
     "publish_date": "24 September 2026",
