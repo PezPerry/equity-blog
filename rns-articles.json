@@ -523,6 +523,65 @@
     "added_at": "2026-09-28T10:26:23.775281"
   },
   {
+    "company": "AO World PLC",
+    "ticker": "AO.",
+    "publish_date": "24 September 2026",
+    "date_iso": "2026-09-24",
+    "time_period": "H1 to 30 September 2026 (1 April 2026 to 30 September 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "H1 to 30 September 2026 (1 April 2026 to 30 September 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>AO World plc</strong> pre-close H1 trading statement (period <strong>1 April to 30 September 2026</strong>): Group revenue expected <strong>up 5.5%</strong> YoY, PBT expected <strong>up over 20% to c.£21.5m</strong>.</li><li><strong>Full-year profit expectations unchanged</strong>, reflecting planned strategic investments (including the ERP programme) and a tougher H2 comparative.</li><li>Expects to end the period with <strong>over £200m of liquidity headroom</strong> after the <strong>£10m dividend</strong> paid in June and completion of half of the <strong>£10m share buyback</strong>.</li><li>Completed the <strong>acquisition of Jessops</strong>, a specialist photography retailer, from <strong>Peter Jones CBE</strong>, funded from existing cash; its recommerce arm <strong>Camera Jungle</strong> complements musicMagpie.</li><li>Over <strong>£29m</strong> of discounts given to members in the period; CEO <strong>John Roberts</strong> targets a <strong>>5% PBT margin</strong> as the next milestone.</li><li>Half Year Results to 30 September 2026 to be published on <strong>24 November 2026</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "AO World reports H1 revenue up 5.5% and PBT up over 20% to c.£21.5m, with full-year profit expectations unchanged and Jessops acquired.",
+    "priority": "high",
+    "priority_reason": "Pre-close trading statement with H1 revenue and profit figures plus a completed acquisition.",
+    "figures": [
+      {
+        "metric": "Group revenue",
+        "current": "up 5.5%",
+        "prior": "not stated",
+        "change": "+5.5%",
+        "basis": "YoY",
+        "note": "H1 to 30 September 2026"
+      },
+      {
+        "metric": "Profit before tax (PBT)",
+        "current": "c.£21.5m",
+        "prior": "not stated",
+        "change": "+over 20%",
+        "basis": "YoY",
+        "note": "H1 to 30 September 2026"
+      },
+      {
+        "metric": "Liquidity headroom",
+        "current": "over £200m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "after £10m dividend and half of £10m buyback",
+        "note": "period end"
+      },
+      {
+        "metric": "Member discounts",
+        "current": "over £29m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "given to members in the period"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Full year profit expectations (level not quantified in this statement)",
+      "current": "Full year profit expectations remain unchanged",
+      "commentary": "Despite a strong H1, AO reaffirmed rather than raised its full-year profit view, citing planned strategic investment including its ERP programme and a more challenging comparative environment in the second half."
+    },
+    "explainer": "This is a pre-close update issued ahead of AO's AGM, giving unaudited expectations for the first half (April to September 2026) rather than final results. Revenue growth of 5.5% and PBT of about £21.5m are stated as year-on-year figures, but the company does not print the prior-year absolute numbers, so the comparatives cannot be reconstructed from the statement alone.\n\nThe key point for guidance is that full-year profit expectations are held flat despite a strong first half. AO explicitly attributes this to two factors: continued strategic investment (notably its ERP programme) and a tougher comparative in the second half, meaning the H1 outperformance is not being extrapolated into a full-year upgrade.\n\nThe over £200m liquidity figure is stated after returning cash via a £10m dividend (paid June) and half of a £10m buyback, underlining cash strength. The Jessops acquisition is funded from existing cash and framed as a bolt-on into an adjacent category, with its Camera Jungle recommerce arm sitting alongside musicMagpie; no financial contribution figures are given.",
+    "source_url": "https://uk.advfn.com/stock-market/london/ao-world-AO./share-news/AO-World-plc-Trading-Statement/99365894",
+    "related_news_url": "https://news.google.com/search?q=%22AO%20World%20plc%22",
+    "added_at": "2026-09-28T10:32:42.505186"
+  },
+  {
     "company": "Dar Global PLC",
     "ticker": "DAR",
     "publish_date": "24 September 2026",
