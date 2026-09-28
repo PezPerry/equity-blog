@@ -523,6 +523,58 @@
     "added_at": "2026-09-28T10:26:23.775281"
   },
   {
+    "company": "HSBC Holdings PLC",
+    "ticker": "HSBA",
+    "publish_date": "24 September 2026",
+    "date_iso": "2026-09-24",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>HSBC Holdings plc</strong> granted options over <strong>7,867,865</strong> ordinary shares (US$0.50 each) to employees on <strong>23 September 2026</strong> under the UK <strong>Savings-Related Share Option Plan (SAYE)</strong>.</li><li>Exercise price <strong>GBP12.17</strong>, a discount to the <strong>GBP15.146</strong> closing price on the London Stock Exchange on the grant date; split <strong>6,525,297</strong> shares over 3 years and <strong>1,342,568</strong> over 5 years.</li><li>Routine Hong Kong Listing Rule (17.06A/B/C) disclosure with <strong>no impact</strong> on trading or guidance; no performance conditions or clawback apply.</li></ul>",
+    "source_format": "html",
+    "headline": "HSBC granted employees options over 7,867,865 ordinary shares at GBP12.17 under its UK Savings-Related Share Option Plan.",
+    "priority": "low",
+    "priority_reason": "Routine grant of employee SAYE share options with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/hsbc-holdings--hsba/overseas-regulatory-announcement-grant-of-options/9789235",
+    "related_news_url": "https://news.google.com/search?q=%22HSBC%20Holdings%22",
+    "added_at": "2026-09-28T10:42:53.104135"
+  },
+  {
+    "company": "Custodian Property Income Reit",
+    "ticker": "CREI",
+    "publish_date": "24 September 2026",
+    "date_iso": "2026-09-24",
+    "time_period": "",
+    "announcement_type": "Share buyback transaction",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li>Repurchased <strong>100,000 ordinary shares</strong> at <strong>81.0 pence</strong> each for <strong>£81,000</strong> (plus costs), a <strong>17.8% discount</strong> to dividend-adjusted NAV, to be held in treasury.</li><li>Executed under the irrevocable, non-discretionary programme first announced <strong>17 July 2025</strong> and extended <strong>11 June 2026</strong>, operated independently by <strong>Deutsche Bank AG</strong>.</li><li>Now holds <strong>6,895,732 shares</strong> in treasury with <strong>488,217,079 ordinary shares</strong> in issue (excluding treasury); routine daily buyback with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Custodian Property Income REIT bought back 100,000 ordinary shares at 81.0p each under its existing buyback programme.",
+    "priority": "low",
+    "priority_reason": "Routine daily transaction under an existing buyback programme, not a new programme launch.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/eqs/custodian-property-income-reit--crei/custodian-property-income-reit-plc-share-buy-/9789198",
+    "related_news_url": "https://news.google.com/search?q=%22Custodian%20Property%20Income%20Reit%22",
+    "added_at": "2026-09-28T10:42:53.085967"
+  },
+  {
     "company": "Glencore PLC",
     "ticker": "GLEN",
     "publish_date": "24 September 2026",
