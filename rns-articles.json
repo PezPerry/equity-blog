@@ -523,6 +523,81 @@
     "added_at": "2026-09-28T10:26:23.775281"
   },
   {
+    "company": "CVS Group plc",
+    "ticker": "CVSG",
+    "publish_date": "24 September 2026",
+    "date_iso": "2026-09-24",
+    "time_period": "FY to 30 June 2026",
+    "announcement_type": "Annual results",
+    "period_detail": "FY to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Revenue</strong> up <strong>5.9%</strong> to <strong>GBP712.8m</strong>; <strong>Adjusted EBITDA</strong> up <strong>5.1%</strong> to <strong>GBP141.5m</strong>; <strong>Adjusted EPS</strong> up <strong>6.9%</strong> to <strong>85.6p</strong>.</li><li><strong>Like-for-like revenue growth</strong> improved to <strong>+2.1%</strong> (2025: <strong>+0.2%</strong>), held back by continued weakness in UK consumer confidence.</li><li>Final dividend of <strong>9.0p</strong> recommended (2025: <strong>8.5p</strong>), maintaining a progressive policy; ex-div <strong>7 November 2026</strong>, paid <strong>4 December 2026</strong>.</li><li><strong>CMA</strong> market investigation concluded with legally binding orders published <strong>22 September 2026</strong>; Australian expansion continued with <strong>14 practice sites</strong> acquired in the year.</li><li>Two buybacks announced in the year (up to <strong>GBP20.0m</strong> and up to <strong>GBP50.0m</strong>); refinanced facilities extended to <strong>May 2030</strong>; <strong>9-vet, two-site UK acquisition</strong> expected to complete shortly.</li><li>CEO <strong>Richard Fairman</strong> intends to retire, remaining until a successor is appointed; company-compiled FY2027 consensus is adjusted EBITDA <strong>GBP149.0m–GBP151.7m</strong> and adjusted EPS <strong>89.3p–99.6p</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "CVS Group grew FY26 revenue 5.9% to GBP712.8m and adjusted EPS 6.9% to 85.6p, lifting the final dividend and expanding in Australia.",
+    "priority": "high",
+    "priority_reason": "Full-year results from a FTSE 250 veterinary group, with revenue, earnings, dividend and post-CMA outlook.",
+    "figures": [
+      {
+        "metric": "Revenue",
+        "current": "GBP712.8m",
+        "prior": "not stated",
+        "change": "+5.9%",
+        "basis": "reported",
+        "note": "FY to 30 June 2026"
+      },
+      {
+        "metric": "Adjusted EBITDA",
+        "current": "GBP141.5m",
+        "prior": "not stated",
+        "change": "+5.1%",
+        "basis": "adjusted",
+        "note": "FY to 30 June 2026"
+      },
+      {
+        "metric": "Adjusted EPS",
+        "current": "85.6p",
+        "prior": "not stated",
+        "change": "+6.9%",
+        "basis": "adjusted",
+        "note": "FY to 30 June 2026"
+      },
+      {
+        "metric": "Like-for-like revenue growth",
+        "current": "+2.1%",
+        "prior": "+0.2%",
+        "change": "not stated",
+        "basis": "constant currency, working-day adjusted",
+        "note": "FY to 30 June 2026"
+      },
+      {
+        "metric": "Final dividend per share",
+        "current": "9.0p",
+        "prior": "8.5p",
+        "change": "+5.9%",
+        "basis": "reported",
+        "note": "final only"
+      },
+      {
+        "metric": "Basic EPS (continuing)",
+        "current": "26.3p",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "continuing operations",
+        "note": "2025 also included GBP33.9m profit on discontinued Crematoria disposal"
+      }
+    ],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": "No formal company guidance issued; management describes the new financial year as off to a solid start. A company-compiled FY2027 consensus was published: adjusted EBITDA of GBP149.0m–GBP151.7m (average GBP150.4m) and adjusted EPS of 89.3p–99.6p (average 94.9p), based on eleven analyst estimates."
+    },
+    "explainer": "CVS reports several measures side by side. Statutory basic EPS is distorted year on year because the 2025 comparative included a GBP33.9m profit from selling the Crematoria business; on continuing operations basic EPS was 26.3p. The 'adjusted' figures (EBITDA, profit before tax, EPS) strip out amortisation, acquisition-related costs and exceptional items to show underlying trading, which is why adjusted EPS of 85.6p is far higher than the statutory continuing figure.\n\nLike-for-like sales measure only revenue from practices owned in both periods, adjusted for the number of working days and put on a constant-currency basis, so they exclude the effect of the year's acquisitions and Australian currency moves. LFL growth of +2.1% (up from +0.2%) is the cleanest read on organic demand, and management attributes the muted level to weak UK consumer confidence. Reported revenue growth of 5.9% is higher because it also captures acquisitions.\n\nThere is no formal company guidance. What is published is a company-compiled analyst consensus for FY2027 (adjusted EBITDA around GBP150m and adjusted EPS around 95p on average), which is a snapshot of external forecasts rather than a CVS commitment. The year also brought structural changes worth noting for context: the move from AIM to the Main Market and FTSE 250 entry, the conclusion of the CMA investigation, a refinancing to 2030, two buyback programmes, and a pending CEO succession.",
+    "source_url": "https://uk.advfn.com/stock-market/london/cvs-CVSG/share-news/CVS-Group-plc-Final-results-for-the-year-ended-30/99365907",
+    "related_news_url": "https://news.google.com/search?q=%22CVS%20Group%20plc%22",
+    "added_at": "2026-09-28T10:33:18.177501"
+  },
+  {
     "company": "AO World PLC",
     "ticker": "AO.",
     "publish_date": "24 September 2026",
