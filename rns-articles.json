@@ -497,6 +497,32 @@
     "added_at": "2026-09-28T10:26:23.799970"
   },
   {
+    "company": "Barclays PLC",
+    "ticker": "BARC",
+    "publish_date": "25 September 2026",
+    "date_iso": "2026-09-25",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Mary Mack</strong>, a Non-Executive Director of <strong>Barclays</strong>, has joined the Board Nominations Committees of <strong>Barclays PLC</strong> and <strong>Barclays Bank PLC</strong> as an additional member, effective <strong>23 September 2026</strong>.</li><li>Routine committee-membership disclosure with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Non-executive director Mary Mack joins the Board Nominations Committees of Barclays PLC and Barclays Bank PLC as an additional member from 23 September 2026.",
+    "priority": "low",
+    "priority_reason": "Routine addition of an existing non-executive director to a board committee, with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/barclays-BARC/share-news/Barclays-PLC-Board-Committee-change/99370894",
+    "related_news_url": "https://news.google.com/search?q=%22Barclays%20PLC%22",
+    "added_at": "2026-09-28T10:44:37.077086"
+  },
+  {
     "company": "Harworth Group PLC",
     "ticker": "HWG",
     "publish_date": "25 September 2026",
@@ -521,6 +547,32 @@
     "source_url": "https://uk.advfn.com/stock-market/london/harworth-HWG/share-news/Goodweather-Holdings-Limited-Acceptance-Level-Upda/99379322",
     "related_news_url": "https://news.google.com/search?q=%22Harworth%20Group%20plc%22",
     "added_at": "2026-09-28T10:26:23.775281"
+  },
+  {
+    "company": "Harbour Energy PLC",
+    "ticker": "HBR",
+    "publish_date": "24 September 2026",
+    "date_iso": "2026-09-24",
+    "time_period": "",
+    "announcement_type": "Buyback programme launch",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Harbour Energy plc</strong> has completed an off-market purchase of <strong>53,000,000 ordinary shares</strong> from <strong>BASF</strong> for an aggregate price of approximately <strong>$190 million</strong>.</li><li>The repurchased shares have been <strong>cancelled</strong>, effective <strong>24 September 2026</strong>.</li><li>Total ordinary shares in issue now stand at <strong>1,512,259,118</strong>, with <strong>no shares held in Treasury</strong> — the figure to be used as the DTR notification denominator.</li><li>Routine Total Voting Rights disclosure attached; <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Harbour Energy completes off-market purchase of 53m shares from BASF for approximately $190m, with the shares cancelled.",
+    "priority": "medium",
+    "priority_reason": "A completed $190m off-market share buyback from a major holder with shares cancelled is a material capital-return event, not a routine daily dealing form.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/harbour-energy--hbr/completion-of-off-market-buyback-and-voting-rights/9790015",
+    "related_news_url": "https://news.google.com/search?q=%22Harbour%20Energy%22",
+    "added_at": "2026-09-28T10:44:37.062007"
   },
   {
     "company": "Helical PLC",
