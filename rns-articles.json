@@ -1,5 +1,57 @@
 [
   {
+    "company": "Saga plc",
+    "ticker": "SAGA",
+    "publish_date": "28 September 2026",
+    "date_iso": "2026-09-28",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Emma Woods</strong> appointed a member of Saga's <strong>Remuneration Committee</strong> and <strong>Audit and Risk Committee</strong>, with immediate effect.</li><li>No changes to the Nomination Committee; routine Listing Rule 6.4.6 disclosure with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Saga appoints Emma Woods to its Remuneration Committee and Audit and Risk Committee with immediate effect.",
+    "priority": "low",
+    "priority_reason": "Routine board-committee membership change for an existing director, with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/saga-SAGA/share-news/SAGA-PLC-Committee-Changes/99379207",
+    "related_news_url": "https://news.google.com/search?q=%22Saga%20plc%22",
+    "added_at": "2026-09-28T10:25:07.067418"
+  },
+  {
+    "company": "Cordiant Digital Infrastructure Limited",
+    "ticker": "CORD",
+    "publish_date": "28 September 2026",
+    "date_iso": "2026-09-28",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Steven Marshall</strong>, Co-founder and Executive Chairman of manager <strong>Cordiant Digital Infrastructure Management LLP (CDIM)</strong>, has agreed to acquire the membership interest in CDIM held by <strong>Cordiant Capital Inc (CCI)</strong>, the Company's current Investment Manager, taking his holding to <strong>over 99%</strong> of CDIM.</li><li><strong>CCI</strong> will step down and resign as Investment Manager following transition to a new <strong>FCA-authorised Alternative Investment Fund Manager (the New IM)</strong>; CDIM will act as investment advisor and appointed representative to the New IM.</li><li>Transition is subject to regulatory approvals and new contracts, expected to take <strong>several months</strong>; the existing <strong>21-strong CDIM team</strong> continues, ensuring continuity of strategy and portfolio oversight.</li><li>CCI is exiting after a strategic review to focus on its core Agriculture Value Chain and Mission-Critical Infrastructure strategies; <strong>no change</strong> to the Company's investment strategy, portfolio or management.</li><li>An <strong>extraordinary general meeting</strong> will be called to approve a change of the Company's name.</li></ul>",
+    "source_format": "html",
+    "headline": "Steven Marshall has acquired Cordiant Capital Inc's stake in manager CDIM, and CCI will step down as Cordiant Digital's Investment Manager pending appointment of a new FCA-authorised AIFM.",
+    "priority": "medium",
+    "priority_reason": "Change of ownership and restructuring of the Company's investment management arrangements, though strategy, portfolio and team are unchanged.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/cordiant-digital-infrast-CORD/share-news/Cordiant-Digital-Infrastructure-Ltd-Investment-Man/99379224",
+    "related_news_url": "https://news.google.com/search?q=%22Cordiant%20Digital%20Infrastructure%20Limited%22",
+    "added_at": "2026-09-28T10:25:07.028675"
+  },
+  {
     "company": "Primary Health Properties PLC",
     "ticker": "PHP",
     "publish_date": "28 September 2026",
