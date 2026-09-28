@@ -523,6 +523,81 @@
     "added_at": "2026-09-28T10:26:23.775281"
   },
   {
+    "company": "ASOS PLC",
+    "ticker": "ASC",
+    "publish_date": "24 September 2026",
+    "date_iso": "2026-09-24",
+    "time_period": "FY26 (year ended 30 August 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "FY26 (year ended 30 August 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Pre-close FY26 trading update</strong> (year ended <strong>30 August 2026</strong>): return to <strong>GMV growth in Q4</strong> — low-single-digit YoY — after a <strong>5%</strong> full-year GMV decline.</li><li>Now expects <strong>adjusted gross margin above 50%</strong>, above the guided <strong>48-50%</strong> range and its \"towards 50%\" medium-term target; <strong>adjusted EBITDA above the midpoint of the £150-180m</strong> guided range.</li><li><strong>Adjusted EBITDA up more than 25% YoY</strong> on better gross margin, lower returns rate and cost discipline (includes <strong>c.£3.9m</strong> dilapidation provision releases).</li><li><strong>Net debt c.£110m</strong> at 30 August 2026 (FY25: <strong>£184.7m</strong>), helped by <strong>c.£116m</strong> cash inflow from disposal of the <strong>Lichfield and Atlanta</strong> warehouses, partly offset by slightly negative free cash flow.</li><li><strong>Womenswear GMV +3%</strong> for the FY, accelerating to <strong>+8%</strong> in H2; total active customers <strong>16.4m</strong> at year-end (vs 16.5m at HY26); UK and Germany positive in H2, US positive in Q4.</li><li>FY26 results due <strong>5 November 2026</strong>, with analyst presentation at 09:30 GMT.</li></ul>",
+    "source_format": "html",
+    "headline": "ASOS returns to GMV growth in Q4 and now expects FY26 gross margin above its guided range and adjusted EBITDA above the £150-180m midpoint.",
+    "priority": "high",
+    "priority_reason": "Pre-close FY26 trading update flagging margin and EBITDA ahead of guidance plus a return to GMV growth.",
+    "figures": [
+      {
+        "metric": "GMV (full year)",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "-5%",
+        "basis": "LFL (FX and adjusting items adjusted)",
+        "note": "FY26; low-single-digit growth in Q4"
+      },
+      {
+        "metric": "Adjusted gross margin",
+        "current": "above 50%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "above 48-50% guided range",
+        "note": "FY26"
+      },
+      {
+        "metric": "Adjusted EBITDA",
+        "current": "above midpoint of £150-180m",
+        "prior": "not stated",
+        "change": "+25% or more",
+        "basis": "includes c.£3.9m provision releases",
+        "note": "FY26 YoY"
+      },
+      {
+        "metric": "Net debt",
+        "current": "c.£110m",
+        "prior": "£184.7m",
+        "change": "not stated",
+        "basis": "as at 30 August 2026 vs FY25",
+        "note": "c.£116m warehouse disposal inflow"
+      },
+      {
+        "metric": "Womenswear GMV",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+3% (FY), +8% (H2)",
+        "basis": "gross GMV excl. tax, billed basis",
+        "note": "FY26"
+      },
+      {
+        "metric": "Total active customers",
+        "current": "16.4m",
+        "prior": "16.5m",
+        "change": "not stated",
+        "basis": "year-end vs HY26 end",
+        "note": "Q4 customers up vs Q3 — first quarterly growth since Q2 FY22"
+      }
+    ],
+    "guidance": {
+      "status": "raised",
+      "previous": "Gross margin guided range 48-50% (\"towards 50%\" medium-term); adjusted EBITDA £150-180m",
+      "current": "Gross margin above the 48-50% range (above 50%); adjusted EBITDA above the midpoint of the £150-180m range",
+      "commentary": "ASOS now expects to beat its gross margin guidance and to land adjusted EBITDA in the upper half of its range, on stronger sourcing, better full-price sell-through and cost discipline, alongside a return to GMV growth in Q4."
+    },
+    "explainer": "This is a pre-close trading update — an early read on how the year to 30 August 2026 has gone, ahead of full results on 5 November. GMV (gross merchandise value) is ASOS's preferred sales measure and is quoted on a like-for-like basis, meaning currency swings and one-off adjusting items are stripped out so the underlying trend is clearer. On that basis full-year GMV still fell 5%, but the rate of decline narrowed every quarter and turned positive (low-single-digit) in Q4 — the story is inflection rather than outright growth.\n\nThe profit signal is the stronger part. Management now expects gross margin above its 48-50% guided range and adjusted EBITDA above the midpoint of £150-180m, with EBITDA up more than 25% year on year. Note that EBITDA figure includes about £3.9m of provision releases tied to the disposed Atlanta and Lichfield warehouses, so a small slice of the improvement is one-off rather than trading-driven.\n\nThe balance sheet has strengthened markedly: net debt roughly halved to about £110m from £184.7m, largely because the two warehouse sales brought in around £116m of cash (partly offset by slightly negative free cash flow). That sale also saves about £12m of annual cash costs.\n\nOn guidance, both the margin and EBITDA outlooks have effectively been raised versus prior ranges. The read-through is a business turning the corner on profitability and, for the first time in several years, showing renewed customer and GMV growth as it heads into FY27.",
+    "source_url": "https://uk.advfn.com/stock-market/london/asos-ASC/share-news/ASOS-PLC-Pre-close-Trading-Update/99365865",
+    "related_news_url": "https://news.google.com/search?q=%22ASOS%20Plc%22",
+    "added_at": "2026-09-28T10:30:35.564749"
+  },
+  {
     "company": "Weir Group PLC",
     "ticker": "WEIR",
     "publish_date": "23 September 2026",
