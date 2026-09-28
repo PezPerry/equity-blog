@@ -523,6 +523,81 @@
     "added_at": "2026-09-28T10:26:23.775281"
   },
   {
+    "company": "Capricorn Energy PLC",
+    "ticker": "CNE",
+    "publish_date": "24 September 2026",
+    "date_iso": "2026-09-24",
+    "time_period": "H1 to 30 June 2026",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>H1 2026 interim results</strong>: Egypt revenue of <strong>$100m</strong>, with realised oil price of <strong>$89.5/bbl</strong> and gas price of <strong>$3.4/mscf</strong>.</li><li>WI production averaged <strong>19,337 boepd</strong> (46% liquids), tracking slightly above the mid-point of 2026 guidance of <strong>18,000-22,000 boepd</strong>; FY26 output now expected <strong>above the mid-point</strong>.</li><li>Group cash of <strong>$114m</strong> at 30 June 2026 after early repayment in April of the remaining <strong>$30m</strong> Junior Debt Facility, two years ahead of schedule.</li><li>Merged Egypt concession agreement ratified (parliamentary approval <strong>30 March</strong>, ministerial signature <strong>19 May</strong>), with a 1 July 2025 operational start date; <strong>18 development wells</strong> and two near-field exploration wells drilled in the period.</li><li>After period end, <strong>Genel Energy plc</strong> and <strong>DNO ASA</strong> each announced firm offers to acquire the Company; both offers remain ongoing.</li><li>Egypt receivables of <strong>$92m</strong> at 30 June; operating costs <strong>$5.0/boe</strong> (WI), within the $5-7/boe guidance; development/production capex <strong>$52m</strong>, exploration capex <strong>$1m</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Capricorn reports H1 Egypt revenue of $100m with production tracking above guidance mid-point, while firm takeover offers from Genel and DNO remain ongoing.",
+    "priority": "high",
+    "priority_reason": "Half-year results carrying production above guidance mid-point, plus two competing firm takeover offers (Genel and DNO) still live.",
+    "figures": [
+      {
+        "metric": "Egypt revenue",
+        "current": "$100m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "H1 to 30 June 2026; $80m liquids, $20m gas"
+      },
+      {
+        "metric": "WI production",
+        "current": "19,337 boepd",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "working interest, 46% liquids",
+        "note": "vs 2026 guidance of 18,000-22,000 boepd"
+      },
+      {
+        "metric": "Realised oil price",
+        "current": "$89.5/bbl",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "net entitlement sales of 891,500 bbls"
+      },
+      {
+        "metric": "Operating costs",
+        "current": "$5.0/boe",
+        "prior": "not stated",
+        "change": "decreased slightly",
+        "basis": "WI production",
+        "note": "within $5-7/boe guidance"
+      },
+      {
+        "metric": "Group cash",
+        "current": "$114m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "at 30 June 2026, after early debt repayment"
+      },
+      {
+        "metric": "Egypt receivables",
+        "current": "$92m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "at 30 June 2026"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "FY26 production guidance of 18,000-22,000 boepd; net capex of $85-95m; operating costs $5-7 per boe",
+      "current": "FY26 production expected above the mid-point of the 18,000-22,000 boepd range; net capex towards the upper end of $85-95m; operating costs remain within the $5-7 per boe guidance",
+      "commentary": "Headline ranges are unchanged, but strong new-well performance means production is now guided above the mid-point and capex towards the top of the range, reflecting greater drilling efficiency and more wells brought on production year to date."
+    },
+    "explainer": "These are Capricorn's half-year figures for the six months to 30 June 2026, covering its Egyptian Western Desert production business. Reported Egypt revenue of $100m is stated on a current-period basis only; the announcement does not print a prior-year comparative, so no like-for-like change can be given. Note that revenue and costs tied to production during the gap between the old Sitra/BED-3 licences expiring and ratification of the merged concession are excluded from these results, as EGPC disputes Capricorn's title to that output — a matter still under discussion.\n\nOn guidance, the actual ranges are unchanged, but the expectation within them has firmed up. Production for the full year is now seen above the mid-point of 18,000-22,000 boepd (H1 already averaged 19,337 boepd), driven by successful drilling in the liquids-rich Abu Roash G reservoir. Net capital expenditure is now pointed towards the upper end of $85-95m — this is a spend increase, but the company frames it as drilling more wells and doing so more efficiently, rather than cost overrun.\n\nThe balance sheet strengthened via early repayment of the remaining $30m of the Junior Debt Facility in April, two years ahead of schedule, which also removed restrictions on repatriating cash from Egypt. Group cash stood at $114m at period end.\n\nThe most market-sensitive item sits outside the numbers: after the period end, both Genel Energy and DNO announced firm offers for Capricorn under the Takeover Code, and both remain ongoing. A competitive bid situation is likely to be the dominant driver of the share price, over and above the operational results.",
+    "source_url": "https://uk.advfn.com/stock-market/london/capricorn-energy-CNE/share-news/Capricorn-Energy-PLC-Half-Year-Report-Announcement/99365890",
+    "related_news_url": "https://news.google.com/search?q=%22Capricorn%20Energy%20PLC%22",
+    "added_at": "2026-09-28T10:35:50.531094"
+  },
+  {
     "company": "On The Beach Group PLC",
     "ticker": "OTB",
     "publish_date": "24 September 2026",
