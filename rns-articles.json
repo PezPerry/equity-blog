@@ -1,5 +1,120 @@
 [
   {
+    "company": "S & U PLC",
+    "ticker": "SUS",
+    "publish_date": "29 September 2026",
+    "date_iso": "2026-09-29",
+    "time_period": "H1 2026/27 (26 weeks to 5 August 2026)",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 2026/27 (26 weeks to 5 August 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Group profit GBP15.7m</strong> (H1 2025: <strong>GBP15.6m</strong>) on <strong>revenue of GBP57.3m, up 11%</strong>; profit after tax <strong>GBP11.77m</strong> (H1 2025: <strong>GBP11.60m</strong>).</li><li>Motor finance arm <strong>Advantage</strong> profit <strong>GBP11.8m, up 9.3%</strong>, with receivables <strong>GBP341.1m</strong> (H1 2025: <strong>GBP279.1m</strong>) and advances up <strong>48.7%</strong> to <strong>GBP105.0m</strong>.</li><li>Bridging arm <strong>Aspen</strong> profit <strong>GBP4.0m</strong> (H1 2025: <strong>GBP5.0m</strong>, boosted by a large one-off recovery); receivables <strong>GBP199.9m</strong> (H1 2025: <strong>GBP147.8m</strong>) amid a tough UK property market.</li><li>Record <strong>net receivables of GBP541.0m, up 26.8%</strong>, funded by <strong>GBP43.3m</strong> of additional net borrowings; group borrowings <strong>GBP285.1m</strong>, up <strong>GBP105.1m</strong>; gearing <strong>114%</strong>.</li><li>Inaugural <strong>securitisation programme</strong> agreed with <strong>two banking partners</strong> providing up to <strong>GBP600m</strong> of facilities over three years at an improved rate; expected to sign and draw down in <strong>October</strong>.</li><li>First interim dividend raised to <strong>36.0p</strong> (2025: <strong>35.0p</strong>), payable <strong>6 November 2026</strong> to shareholders on the register on <strong>9 October 2026</strong>; <strong>Karl Werner</strong> and <strong>Chris Freckelton</strong> join the board, <strong>Graham Wheeler</strong> departs.</li></ul>",
+    "source_format": "html",
+    "headline": "S & U reports H1 group profit of GBP15.7m on revenue up 11% to GBP57.3m, and launches an inaugural securitisation programme of up to GBP600m.",
+    "priority": "high",
+    "priority_reason": "Half-year results from a listed specialist lender, including profit, dividend and a new securitisation funding programme.",
+    "figures": [
+      {
+        "metric": "Revenue",
+        "current": "GBP57.3m",
+        "prior": "not stated",
+        "change": "+11%",
+        "basis": "reported",
+        "note": "H1 to 5 August 2026"
+      },
+      {
+        "metric": "Group profit before tax",
+        "current": "GBP15.7m",
+        "prior": "GBP15.6m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "H1 2026/27 vs H1 2025"
+      },
+      {
+        "metric": "Profit after tax",
+        "current": "GBP11.767m",
+        "prior": "GBP11.602m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "H1 2026/27 vs H1 2025"
+      },
+      {
+        "metric": "Advantage (motor finance) profit",
+        "current": "GBP11.8m",
+        "prior": "not stated",
+        "change": "+9.3%",
+        "basis": "reported",
+        "note": "vs H1 2025"
+      },
+      {
+        "metric": "Aspen (bridging) profit",
+        "current": "GBP4.0m",
+        "prior": "GBP5.0m",
+        "change": "not stated",
+        "basis": "prior year boosted by one-off recovery",
+        "note": "H1 2026/27 vs H1 2025"
+      },
+      {
+        "metric": "Net receivables (group)",
+        "current": "GBP541.0m",
+        "prior": "not stated",
+        "change": "+26.8%",
+        "basis": "reported",
+        "note": "record"
+      },
+      {
+        "metric": "Advantage receivables",
+        "current": "GBP341.1m",
+        "prior": "GBP279.1m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "vs H1 2025"
+      },
+      {
+        "metric": "Aspen receivables",
+        "current": "GBP199.9m",
+        "prior": "GBP147.8m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "vs H1 2025"
+      },
+      {
+        "metric": "Aspen revenue",
+        "current": "GBP12.9m",
+        "prior": "GBP12.5m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "vs H1 2025"
+      },
+      {
+        "metric": "Group borrowings",
+        "current": "GBP285.1m",
+        "prior": "not stated",
+        "change": "+GBP105.1m",
+        "basis": "reported",
+        "note": "increase vs H1 2025"
+      },
+      {
+        "metric": "First interim dividend",
+        "current": "36.0p",
+        "prior": "35.0p",
+        "change": "not stated",
+        "basis": "per share",
+        "note": "payable 6 November 2026"
+      }
+    ],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": "No formal numerical guidance given; management notes possible additional funding requirement of up to GBP300m over three years and flags securitisation of up to GBP600m expected to sign in October."
+    },
+    "explainer": "S & U is a specialist lender with two businesses: Advantage, its motor (used-car hire purchase) finance arm, and Aspen, its property bridging arm. Group pre-tax profit was broadly flat at GBP15.7m against GBP15.6m, but the underlying picture is one of recovery: Advantage profit rose 9.3% to GBP11.8m, while Aspen fell from GBP5.0m to GBP4.0m only because the prior-year figure was inflated by a large, unexpected debt recovery. On a like-for-like basis Aspen held up in a weak housing market.\n\nThe headline growth is in the loan book. Net receivables jumped 26.8% to a record GBP541.0m, meaning S & U is lending more and choosing to invest for future income rather than harvest short-term profit. That growth is being funded by extra borrowing (group borrowings up GBP105.1m to GBP285.1m, gearing 114%), which is why revenue can rise 11% while profit is flat — the returns come later as these loans mature.\n\nThe most strategically significant item is the new securitisation programme: up to GBP600m of bank facilities over three years at a better rate than existing funding, expected to be signed and drawn in October. This gives cheaper, more scalable funding to support planned growth (management flags a possible further GBP300m need over three years) and, over time, could improve how the loan book is valued.\n\nNo formal profit guidance is issued. The first interim dividend rises to 36.0p from 35.0p, a modest increase signalling board confidence despite an uncertain economic and regulatory backdrop for both motor finance (ongoing legal challenges over broker commissions) and property lending.",
+    "source_url": "https://uk.advfn.com/stock-market/london/s-and-u-SUS/share-news/S-U-PLC-Interim-Results-for-the-period-ended-5-A/99387866",
+    "related_news_url": "https://news.google.com/search?q=%22S%20%26%20U%20plc%22",
+    "added_at": "2026-09-29T08:00:20.221178"
+  },
+  {
     "company": "CLS Holdings PLC",
     "ticker": "CLI",
     "publish_date": "29 September 2026",
