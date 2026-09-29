@@ -1,5 +1,57 @@
 [
   {
+    "company": "Schroder European Real Estate Investment Trust Ltd",
+    "ticker": "SERE",
+    "publish_date": "29 September 2026",
+    "date_iso": "2026-09-29",
+    "time_period": "",
+    "announcement_type": "Dividend declaration",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Schroder European Real Estate Investment Trust plc</strong> has set the ZAR exchange rate for the <strong>third interim dividend</strong> of <strong>1.48 euro cents per share</strong> declared on <strong>17 September 2026</strong> for the year ending <strong>30 September 2026</strong>.</li><li>Applying an exchange rate of <strong>18.65000</strong>, the gross dividend is <strong>27.60200 South African cents per share</strong>; after <strong>20%</strong> dividend withholding tax the net is <strong>22.08160 SA cents per share</strong> for SA-register holders.</li><li>Routine currency-conversion disclosure relevant only to shareholders on the South African branch register — <strong>no impact</strong> on trading or guidance. The Company has <strong>131,407,986 shares</strong> in issue excluding treasury.</li></ul>",
+    "source_format": "html",
+    "headline": "Schroder European Real Estate sets South African rand exchange rate for its already-declared third interim dividend of 1.48 euro cents per share.",
+    "priority": "low",
+    "priority_reason": "Routine administrative notice setting the ZAR exchange rate for an already-declared dividend paid to South African-register shareholders, with no trading or guidance impact.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/schroder-european-real-estate-investment-trust--sere/dividend-currency-exchange-rate-sa-rand-/9797020",
+    "related_news_url": "https://news.google.com/search?q=%22Schroder%20European%20Real%20Estate%20Investment%20Trust%22",
+    "added_at": "2026-09-29T15:35:41.696562"
+  },
+  {
+    "company": "NatWest Group PLC",
+    "ticker": "NWG",
+    "publish_date": "29 September 2026",
+    "date_iso": "2026-09-29",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Roisin Donnelly</strong> will succeed <strong>Lena Wilson</strong> as Chair of the <strong>Group Performance and Remuneration Committee</strong> with effect from <strong>1 October 2026</strong>.</li><li>Chair <strong>Rick Haythornthwaite</strong> thanked Wilson and cited Donnelly's remuneration and Board experience; <strong>no further matters</strong> require disclosure under Listing Rule 6.4.6R.</li><li>Routine governance disclosure with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Roisin Donnelly will succeed Lena Wilson as Chair of NatWest's Group Performance and Remuneration Committee from 1 October 2026.",
+    "priority": "medium",
+    "priority_reason": "A board committee chair succession — a governance change with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/natwest-group--nwg/board-committee-chair-succession/9797186",
+    "related_news_url": "https://news.google.com/search?q=%22NATWEST%20GROUP%22",
+    "added_at": "2026-09-29T15:35:41.675385"
+  },
+  {
     "company": "Galliford Try Holdings PLC",
     "ticker": "GFRD",
     "publish_date": "29 September 2026",
