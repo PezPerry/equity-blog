@@ -1,5 +1,64 @@
 [
   {
+    "company": "Zigup PLC",
+    "ticker": "ZIG",
+    "publish_date": "29 September 2026",
+    "date_iso": "2026-09-29",
+    "time_period": "FY to 30 April 2027 (first four months)",
+    "announcement_type": "Trading update",
+    "period_detail": "FY to 30 April 2027 (first four months)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>ZIGUP plc</strong> expects full-year <strong>adjusted PBT</strong> to be at the <strong>top</strong> of the current market range of <strong>£163.2m-£170.0m</strong>, following a strong first four months, particularly in <strong>Spain</strong> and <strong>FMG</strong>.</li><li>Average <strong>vehicles on hire (VoH)</strong> more than <strong>5% ahead</strong> of the prior year at end-August; <strong>Spanish fleet</strong> now exceeds <strong>80,000 vehicles</strong>.</li><li><strong>FMG</strong> volumes strong, aided by the re-awarding and expansion of the <strong>Motability</strong> contract by one of its largest insurance partners.</li><li><strong>Leverage</strong> in line with the <strong>1-2x</strong> target range; balance sheet backed by <strong>£1.8bn</strong> of fleet assets.</li><li>Shareholders asked to approve a <strong>final dividend of 18.2p</strong>, payable <strong>30 September 2026</strong> (record date 28 August 2026), taking the total ordinary dividend for FY to 30 April 2026 to <strong>27.0p</strong>.</li><li>Next update: interim results for the six months to <strong>31 October 2026</strong>, expected <strong>2 December 2026</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "ZIGUP upgrades full-year adjusted PBT expectations to the top of the current market range of **£163.2m-£170.0m** after a strong start driven by Spain and FMG.",
+    "priority": "high",
+    "priority_reason": "AGM statement upgrades full-year adjusted PBT expectations to the top of the market range, a positive guidance change.",
+    "figures": [
+      {
+        "metric": "Adjusted PBT (FY market expectations range)",
+        "current": "£163.2m-£170.0m (expected at top)",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "adjusted",
+        "note": "current financial year"
+      },
+      {
+        "metric": "Average vehicles on hire (VoH)",
+        "current": "more than 5% ahead of prior year",
+        "prior": "not stated",
+        "change": "+5%+",
+        "basis": "as at end-August",
+        "note": ""
+      },
+      {
+        "metric": "Final dividend",
+        "current": "18.2p",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "per share",
+        "note": "payable 30 September 2026"
+      },
+      {
+        "metric": "Total ordinary dividend",
+        "current": "27.0p",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "per share",
+        "note": "year ended 30 April 2026"
+      }
+    ],
+    "guidance": {
+      "status": "raised",
+      "previous": "Adjusted PBT within the current market expectations range of £163.2m-£170.0m",
+      "current": "Adjusted PBT expected to be at the top of the current market expectations range of £163.2m-£170.0m",
+      "commentary": "ZIGUP now expects to land at the top rather than within the range, driven by strong recent performance in Spain and at FMG, including the re-awarding and expansion of a large Motability contract."
+    },
+    "explainer": "This is an AGM trading statement covering the first four months of the financial year rather than a full set of results, so it prints few comparative figures. The key move is on guidance: instead of the adjusted PBT range of £163.2m to £170.0m that the market previously carried, the Board now expects the result to land at the top of that range. Adjusted PBT strips out one-off and non-underlying items, so it reflects the trading run-rate rather than statutory profit.\n\nThe upgrade is attributed to Spain (where the fleet has grown beyond 80,000 vehicles) and to FMG, its accident-management arm, which is benefiting from the re-awarding and expansion of a Motability contract by a major insurance partner. Average vehicles on hire being more than 5% ahead of last year points to higher utilisation feeding the profit improvement.\n\nOn the balance sheet, leverage sits within the company's 1-2x target range and is underpinned by £1.8bn of fleet assets. The dividend figures (18.2p final, 27.0p total) relate to the prior year ended 30 April 2026 and are being put to shareholders for approval at the AGM, so they are separate from the current-year profit upgrade.",
+    "source_url": "https://uk.advfn.com/stock-market/london/zigup-ZIG/share-news/ZIGUP-PLC-AGM-Statement/99387859",
+    "related_news_url": "https://news.google.com/search?q=%22ZIGUP%20plc%22",
+    "added_at": "2026-09-29T08:00:49.531012"
+  },
+  {
     "company": "S & U PLC",
     "ticker": "SUS",
     "publish_date": "29 September 2026",
