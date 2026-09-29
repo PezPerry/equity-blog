@@ -1,5 +1,122 @@
 [
   {
+    "company": "CLS Holdings PLC",
+    "ticker": "CLI",
+    "publish_date": "29 September 2026",
+    "date_iso": "2026-09-29",
+    "time_period": "",
+    "announcement_type": "Disposal",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>CLS Holdings plc</strong> has unconditionally exchanged on the sale of <strong>Fangdieckstrasse 75, 75a and 75b in Hamburg</strong> for <strong>€25.35m</strong>, <strong>9% below</strong> the latest valuation.</li><li>The asset comprises c.<strong>13,116 sqm (141,180 sq ft)</strong> of office, laboratory and training space, <strong>almost fully let</strong> with a WAULT of just under <strong>seven years</strong>.</li><li>Acquired in <strong>2007</strong> and repositioned into a <strong>life sciences campus</strong>; completion expected in <strong>Q4 2026</strong>, with proceeds used to <strong>pay down debt</strong>.</li><li>CEO <strong>Fredrik Widlund</strong> said the sale further focuses the German portfolio and reduces debt.</li></ul>",
+    "source_format": "html",
+    "headline": "CLS Holdings has exchanged unconditionally on the sale of its Fangdieckstrasse life sciences campus in Hamburg for €25.35m, 9% below latest valuation.",
+    "priority": "medium",
+    "priority_reason": "A single-asset property disposal used to pay down debt; material to the German portfolio but not to group guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/cls-CLI/share-news/CLS-Holdings-PLC-Sale-of-Fangdieckstrasse-Hamburg/99387861",
+    "related_news_url": "https://news.google.com/search?q=%22CLS%20Holdings%20plc%22",
+    "added_at": "2026-09-29T07:59:41.196928"
+  },
+  {
+    "company": "A.G. Barr p.l.c.",
+    "ticker": "BAG",
+    "publish_date": "29 September 2026",
+    "date_iso": "2026-09-29",
+    "time_period": "H1 26/27 (26 weeks ended 1 August 2026)",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 26/27 (26 weeks ended 1 August 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Revenue up 8.5% to £247.4m</strong> (H1 25/26: <strong>£228.1m</strong>), driven by core brand growth and acquisitions <strong>Fentimans</strong> and <strong>Frobishers</strong>; supply chain issues cost an estimated <strong>£10m</strong> of H1 revenue and are said to be resolved.</li><li><strong>Adjusted PBT up 2.6% to £36.1m</strong>; statutory PBT <strong>down 3.7% to £33.9m</strong> on one-off Fentimans integration costs. Adjusted operating margin <strong>maintained at 15.0%</strong>.</li><li><strong>Adjusted EPS up 0.4% to 24.99p</strong> (24.90p), the lower growth reflecting tax phasing. <strong>Interim dividend up 11% to 3.82p</strong>, in line with policy at 25% of prior-year final.</li><li><strong>Net bank debt of £47.0m</strong> (H1 25/26: <strong>£41.3m net cash</strong>), reflecting the <strong>£53.4m</strong> cash outflow for acquisitions and a peak-capex year; new <strong>£100m three-year</strong> revolving credit facility secured.</li><li>On track to meet FY 26/27 market expectations: <strong>c.10% revenue growth</strong>, adjusted operating margin <strong>c.15%</strong> and ROCE <strong>c.19%</strong>; company-compiled consensus FY adjusted PBT of <strong>£71.5m</strong>.</li><li><strong>Darren Shapland</strong> joined as Non-Executive Chair on <strong>1 September 2026</strong>; <strong>Susan Barratt</strong> stepped down as Interim Chair and remains a NED.</li></ul>",
+    "source_format": "html",
+    "headline": "A.G. Barr grew H1 revenue 8.5% to £247.4m and adjusted PBT 2.6% to £36.1m, remaining on track to meet full-year market expectations.",
+    "priority": "high",
+    "priority_reason": "Interim results from a listed company, with revenue, profit, dividend and full-year guidance.",
+    "figures": [
+      {
+        "metric": "Revenue",
+        "current": "£247.4m",
+        "prior": "£228.1m",
+        "change": "+8.5%",
+        "basis": "reported",
+        "note": "H1 26/27 (26 weeks to 1 August 2026)"
+      },
+      {
+        "metric": "Adjusted profit before tax",
+        "current": "£36.1m",
+        "prior": "£35.2m",
+        "change": "+2.6%",
+        "basis": "adjusted",
+        "note": "H1 26/27"
+      },
+      {
+        "metric": "Statutory profit before tax",
+        "current": "£33.9m",
+        "prior": "£35.2m",
+        "change": "-3.7%",
+        "basis": "statutory",
+        "note": "impacted by Fentimans integration one-offs"
+      },
+      {
+        "metric": "Adjusted EPS",
+        "current": "24.99p",
+        "prior": "24.90p",
+        "change": "+0.4%",
+        "basis": "adjusted",
+        "note": "growth limited by tax phasing"
+      },
+      {
+        "metric": "Adjusted operating margin",
+        "current": "15.0%",
+        "prior": "15.0%",
+        "change": "flat",
+        "basis": "adjusted",
+        "note": "mid-point of 14–16% guided range"
+      },
+      {
+        "metric": "Interim dividend",
+        "current": "3.82p",
+        "prior": "3.44p",
+        "change": "+11%",
+        "basis": "per share",
+        "note": "payable 6 November 2026"
+      },
+      {
+        "metric": "Net bank debt",
+        "current": "£47.0m",
+        "prior": "£41.3m net cash",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "driven by acquisitions and peak capex"
+      },
+      {
+        "metric": "Capital expenditure",
+        "current": "£23.4m",
+        "prior": "£11.0m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "FY guidance c.£40m, a peak investment year"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Full-year market expectations of c.10% revenue growth, adjusted operating margin c.15% and adjusted ROCE c.19%; company-compiled FY 26/27 adjusted PBT consensus of £71.5m.",
+      "current": "On track to meet full-year market expectations: c.10% revenue growth, adjusted operating margin c.15% and adjusted ROCE c.19% (lower end of the 19–21% long-term range).",
+      "commentary": "Guidance is reaffirmed rather than changed. Management expects higher percentage growth in both revenue and profit in H2 than H1, helped by resolved supply constraints and acquisition cost synergies."
+    },
+    "explainer": "Barr reports on a retail-calendar basis, so H1 covers the 26 weeks to 1 August 2026. Revenue growth of 8.5% is reported (i.e. includes the newly acquired Fentimans and Frobishers), not organic; management notes that reported growth was held back by roughly £10m of lost sales from supply-chain disruption during the peak summer months, which it says has now been resolved.\n\nThe gap between adjusted and statutory profit matters here. Adjusted PBT rose 2.6% to £36.1m, but statutory PBT fell 3.7% to £33.9m because of one-off costs of integrating Fentimans. Adjusted EPS barely moved (+0.4%) despite PBT growth, because the prior year benefited from a lower effective tax rate linked to capex timing — a phasing effect rather than a deterioration.\n\nThe swing from £41.3m net cash a year ago to £47.0m net bank debt is explained by acquisition spend (£53.4m) and a peak year of capital investment (c.£40m for the full year) as the Cumbernauld and Milton Keynes manufacturing programmes overlap; the company still expects to end the year in only a small net-debt position.\n\nOn guidance, nothing has changed: Barr reaffirms full-year market expectations, pointing to a company-compiled consensus for FY 26/27 adjusted PBT of £71.5m, and guides to stronger percentage growth in H2 as supply normalises and acquisition synergies come through.",
+    "source_url": "https://uk.advfn.com/stock-market/london/ag-barr-BAG/share-news/BarrA-G-PLC-Interim-Results/99387867",
+    "related_news_url": "https://news.google.com/search?q=%22A.G.%20Barr%20p.l.c.%22",
+    "added_at": "2026-09-29T07:59:41.186286"
+  },
+  {
     "company": "PayPoint PLC",
     "ticker": "PAY",
     "publish_date": "29 September 2026",
