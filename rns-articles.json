@@ -1,5 +1,31 @@
 [
   {
+    "company": "Schroders PLC",
+    "ticker": "SDR",
+    "publish_date": "29 September 2026",
+    "date_iso": "2026-09-29",
+    "time_period": "",
+    "announcement_type": "Acquisition / deal",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li>The <strong>High Court</strong> has today sanctioned the <strong>Scheme of Arrangement</strong> for the recommended cash acquisition of <strong>Schroders PLC</strong> by <strong>Pantheon, LLC</strong> (Bidco), a subsidiary of <strong>Nuveen, LLC</strong>, a <strong>TIAA</strong> company.</li><li>The Scheme becomes Effective on delivery of the Court Order to the Registrar of Companies, expected on <strong>1 October 2026</strong>; the deal terms were first agreed on <strong>12 February 2026</strong>.</li><li>Last day of dealings in Schroders shares is tomorrow, <strong>30 September 2026</strong>; trading and listing are expected to be suspended from <strong>7:30 a.m. on 1 October 2026</strong>.</li><li>De-listing from the Official List and cancellation from the Main Market to take effect by <strong>8:00 a.m. on 2 October 2026</strong>.</li><li>No material change to the expected timetable set out in the <strong>22 September 2026</strong> announcement; a further announcement will follow when the Scheme is Effective.</li></ul>",
+    "source_format": "html",
+    "headline": "The Court has sanctioned the scheme of arrangement for the recommended cash acquisition of **Schroders** by **Nuveen/TIAA**, with completion expected on **1 October 2026**.",
+    "priority": "high",
+    "priority_reason": "Court has sanctioned the takeover of Schroders, with shares set to be suspended and de-listed within days.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/schroders--sdr/court-sanction-of-scheme-of-arrangement/9796591",
+    "related_news_url": "https://news.google.com/search?q=%22Schroders%22",
+    "added_at": "2026-09-29T11:35:39.220906"
+  },
+  {
     "company": "British American Tobacco p.l.c.",
     "ticker": "BATS",
     "publish_date": "29 September 2026",
