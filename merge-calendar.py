@@ -11,9 +11,10 @@ How it works (same process as the Sep 2026 top-ups):
   * Export the Calendar from ShareScope for the FTSE 350 and NASDAQ 100 lists
     (CSV, with or without a header row).
   * Every existing row in the page's rawData block is kept. Incoming rows are
-    added only if the exact (event, date, company, ticker) line is not already
-    there, then everything is ordered by date and ticker - existing rows never
-    move relative to each other.
+    added only if the same event is not already there for that ticker on that
+    date (ignoring an "(Est)"/"(Conf)" tag and company-name spelling), then
+    everything is ordered by date and ticker - existing rows never move
+    relative to each other.
   * calendar-index.json (used by the RNS News "next event" chips) is rebuilt:
     for each ticker in companies.json, the earliest event from today onwards.
     Tickers with no upcoming calendar row keep their existing entry if it is
@@ -74,17 +75,19 @@ def row_by_shape(rec, known_events=()):
             rest.append(f)
     if d is None or len(rest) < 3:
         return None
-    tickers = [f for f in rest if TICKER_RE.match(f)]
-    if not tickers:
-        return None
-    ticker = tickers[0]
-    rest.remove(ticker)
+    # Event first, so a bare "AGM" is not mistaken for a ticker.
     events = [f for f in rest if f in known_events] or [f for f in rest if EVENT_RE.search(f)]
     if not events:
         return None
     event = events[0]
     rest.remove(event)
-    return (event, d, max(rest, key=len), ticker)
+    tickers = [f for f in rest if TICKER_RE.match(f)]
+    if not tickers:
+        return None
+    ticker = tickers[0]
+    rest.remove(ticker)
+    # Unquoted commas inside a company name split it across fields; rejoin in order.
+    return (event, d, ", ".join(rest), ticker)
 
 
 def header_columns(first):
@@ -121,6 +124,10 @@ def read_export(path, known_events=()):
 
 def parse_date_any(rec):
     return any(parse_date(c) for c in rec)
+
+
+def base_event(cat):
+    return re.sub(r"\s*\((Est|Conf)\)$", "", cat)
 
 
 def load_page():
@@ -165,6 +172,8 @@ def main():
 
     html, s, e, lines = load_page()
     existing = set(lines)
+    # Same event on the same day, differing only by an (Est)/(Conf) tag, is not new.
+    seen = {(base_event(l.split("|")[0]), l.split("|")[1], l.split("|")[3]) for l in lines}
     known_events = {l.split("|")[0] for l in lines}
     added = []
     for path in args.exports:
@@ -172,8 +181,10 @@ def main():
         new = 0
         for cat, d, company, ticker in rows:
             line = f"{cat}|{fmt_date(d)}|{company}|{ticker}"
-            if line not in existing:
+            key = (base_event(cat), fmt_date(d), ticker)
+            if line not in existing and key not in seen:
                 existing.add(line)
+                seen.add(key)
                 added.append(line)
                 new += 1
         print(f"{os.path.basename(path)}: {len(rows)} rows, {new} new, {skipped} skipped")

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-28",
+  "generated": "2026-09-29",
   "by_ticker": {
     "AAL": {
       "date": "2026-09-29",
@@ -30,12 +30,16 @@
       "event": "Q2 div payment"
     },
     "ASHM": {
-      "date": "2026-11-04",
-      "event": "AGM (Conf)"
+      "date": "2026-10-14",
+      "event": "Trading statement"
     },
     "ATG": {
       "date": "2026-09-30",
       "event": "Year end"
+    },
+    "BATS": {
+      "date": "2026-10-01",
+      "event": "Special ex-div"
     },
     "BBY": {
       "date": "2026-10-29",
@@ -62,8 +66,8 @@
       "event": "Annual report (Est)"
     },
     "COST": {
-      "date": "2026-10-23",
-      "event": "Q2 div payment"
+      "date": "2026-10-08",
+      "event": "Annual report (Est)"
     },
     "CPG": {
       "date": "2026-09-30",
@@ -73,9 +77,17 @@
       "date": "2026-10-06",
       "event": "Q2 div payment"
     },
+    "CRST": {
+      "date": "2026-10-31",
+      "event": "Year end"
+    },
     "CSN": {
       "date": "2026-10-16",
       "event": "Q2 div payment"
+    },
+    "DFS": {
+      "date": "2026-10-14",
+      "event": "Annual report (Est)"
     },
     "DGE": {
       "date": "2026-10-15",
@@ -93,8 +105,16 @@
       "date": "2026-09-30",
       "event": "Year end"
     },
+    "FORT": {
+      "date": "2026-10-09",
+      "event": "Q2 div payment"
+    },
     "GFRD": {
       "date": "2026-10-06",
+      "event": "Annual report (Est)"
+    },
+    "GLE": {
+      "date": "2026-10-17",
       "event": "Annual report (Est)"
     },
     "GRG": {
@@ -104,6 +124,10 @@
     "GRI": {
       "date": "2026-09-30",
       "event": "Year end"
+    },
+    "GSF": {
+      "date": "2026-10-09",
+      "event": "Special div payment"
     },
     "HFG": {
       "date": "2026-10-29",
@@ -141,6 +165,10 @@
       "date": "2026-10-09",
       "event": "Q2 div payment"
     },
+    "JD.": {
+      "date": "2026-10-29",
+      "event": "Q2 ex-div"
+    },
     "JDW": {
       "date": "2026-10-03",
       "event": "Annual report (Est)"
@@ -149,25 +177,37 @@
       "date": "2026-10-08",
       "event": "Q2 ex-div"
     },
+    "KGF": {
+      "date": "2026-10-08",
+      "event": "Q2 ex-div"
+    },
     "KIE": {
       "date": "2026-10-04",
       "event": "Annual report (Est)"
+    },
+    "KMR": {
+      "date": "2026-10-15",
+      "event": "Trading statement"
     },
     "LMP": {
       "date": "2026-10-06",
       "event": "Special div payment"
     },
+    "LSL": {
+      "date": "2026-10-01",
+      "event": "Q2 ex-div"
+    },
     "MAB": {
       "date": "2026-09-30",
       "event": "Year end"
     },
+    "MAB1": {
+      "date": "2026-10-01",
+      "event": "Q2 ex-div"
+    },
     "MEGP": {
       "date": "2026-10-31",
       "event": "Year end"
-    },
-    "META": {
-      "date": "2026-09-28",
-      "event": "Special div payment"
     },
     "MGNS": {
       "date": "2026-10-01",
@@ -181,13 +221,29 @@
       "date": "2026-10-22",
       "event": "Q4 ex-div"
     },
+    "MSLH": {
+      "date": "2026-10-22",
+      "event": "Q2 ex-div"
+    },
+    "N91": {
+      "date": "2026-10-13",
+      "event": "Trading statement"
+    },
     "NVDA": {
       "date": "2026-10-01",
       "event": "Special div payment"
     },
+    "OTB": {
+      "date": "2026-09-30",
+      "event": "Year end"
+    },
     "PAG": {
       "date": "2026-09-30",
       "event": "Year end"
+    },
+    "PLUS": {
+      "date": "2026-11-11",
+      "event": "Special div payment"
     },
     "PPH": {
       "date": "2026-10-16",
@@ -205,6 +261,10 @@
       "date": "2026-09-30",
       "event": "Q2 div payment"
     },
+    "RIO": {
+      "date": "2026-10-14",
+      "event": "Trading statement"
+    },
     "SAF": {
       "date": "2026-10-31",
       "event": "Year end"
@@ -216,6 +276,10 @@
     "SDLF": {
       "date": "2026-10-29",
       "event": "Q2 div payment"
+    },
+    "SERE": {
+      "date": "2026-09-30",
+      "event": "Year end"
     },
     "SRP": {
       "date": "2026-10-02",
@@ -241,6 +305,10 @@
       "date": "2026-10-01",
       "event": "Q2 ex-div"
     },
+    "TPT": {
+      "date": "2026-09-30",
+      "event": "Year end"
+    },
     "TW.": {
       "date": "2026-10-08",
       "event": "Q2 ex-div"
@@ -256,6 +324,14 @@
     "WIKS": {
       "date": "2026-10-01",
       "event": "Q2 ex-div"
+    },
+    "WIX": {
+      "date": "2026-10-01",
+      "event": "Q2 ex-div"
+    },
+    "WKP": {
+      "date": "2026-10-15",
+      "event": "Trading statement"
     },
     "ZIG": {
       "date": "2026-09-29",
