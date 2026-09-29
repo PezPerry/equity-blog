@@ -1,5 +1,57 @@
 [
   {
+    "company": "Franchise Brands PLC",
+    "ticker": "FRAN",
+    "publish_date": "29 September 2026",
+    "date_iso": "2026-09-29",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>CEO Peter Molloy</strong> and <strong>CFO Neil Miller</strong> to present at the <strong>MelloLondon</strong> investor event on <strong>Tuesday 17 November 2026</strong>, held at The Clayton Hotel & Conference Centre, Chiswick, London.</li><li>Routine investor-relations notice with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Franchise Brands' CEO Peter Molloy and CFO Neil Miller will present at the MelloLondon investor event on 17 November 2026.",
+    "priority": "low",
+    "priority_reason": "Routine investor-event notice with no financial or trading content.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/franchise-brands--fran/investor-event-mellolondon-2026/9795287",
+    "related_news_url": "https://news.google.com/search?q=%22Franchise%20Brands%22",
+    "added_at": "2026-09-29T07:20:49.423411"
+  },
+  {
+    "company": "InterContinental Hotels Group PLC",
+    "ticker": "IHG",
+    "publish_date": "28 September 2026",
+    "date_iso": "2026-09-28",
+    "time_period": "",
+    "announcement_type": "Financing / refinancing",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>InterContinental Hotels Group PLC</strong> admits <strong>€850 million</strong> of guaranteed notes to trading on the <strong>Main Market</strong> of the <strong>London Stock Exchange</strong>, issued by wholly owned subsidiary <strong>IHG Finance LLC</strong>.</li><li>Two tranches: <strong>€350m 4.000%</strong> notes due <strong>28 September 2029</strong> (ISIN XS3519670304) and <strong>€500m 4.625%</strong> notes due <strong>28 September 2033</strong> (ISIN XS3519673746).</li><li>Notes guaranteed by <strong>InterContinental Hotels Group PLC</strong>, <strong>Six Continents Limited</strong> and <strong>InterContinental Hotels Limited</strong>; restricted to professional clients and eligible counterparties, no retail PRIIPs KID.</li><li>Routine admission-to-trading disclosure under the FCA Prospectus Rules with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "IHG has admitted €850m of bonds to trading on the London Stock Exchange, split across 2029 and 2033 maturities via subsidiary IHG Finance LLC.",
+    "priority": "medium",
+    "priority_reason": "New €850m bond financing, though the notice itself is a routine admission-to-trading formality.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/intercontinental-hotels-group--ihg/admission-to-trading/9794628",
+    "related_news_url": "https://news.google.com/search?q=%22InterContinental%20Hotels%20Group%22",
+    "added_at": "2026-09-29T07:20:49.408910"
+  },
+  {
     "company": "HSBC Holdings PLC",
     "ticker": "HSBA",
     "publish_date": "28 September 2026",
