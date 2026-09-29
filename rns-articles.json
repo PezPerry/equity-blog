@@ -1,5 +1,154 @@
 [
   {
+    "company": "Tribal Group PLC",
+    "ticker": "TRB",
+    "publish_date": "29 September 2026",
+    "date_iso": "2026-09-29",
+    "time_period": "",
+    "announcement_type": "Acquisition / deal",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Jenzabar, Inc.</strong> announces a possible cash offer for <strong>Tribal Group plc</strong> at <strong>111 pence per share</strong> under Rule 2.4 of the Takeover Code — a <strong>5.7%</strong> premium to the ~105p implied by the board-backed <strong>Proposed Sale</strong> to <strong>Thames Bidco</strong> (controlled by <strong>Main Capital Partners</strong>), and ~<strong>76.1%</strong> above the <strong>63p</strong> close on <strong>10 September 2026</strong>.</li><li>Jenzabar, Tribal's largest holder since 2015, owns <strong>56,139,342 shares</strong> (~<strong>26.19%</strong>) and urges shareholders to vote <strong>AGAINST</strong> the Resolution at the General Meeting on <strong>2 October 2026</strong>; proxy deadline <strong>9:30 a.m. on 30 September 2026</strong>.</li><li>Jenzabar wants the board to <strong>adjourn the GM</strong>, grant Rule 21.3 information access and engage, warning that passing the Resolution would sell the entire operating business and leave no company to bid for.</li><li>It says the consideration already rose by <strong>£41.9m</strong> (from ~£189.3m to ~£231.2m) between 11 and 27 September, and that irrevocable undertakings over <strong>113,066,571 shares</strong> (~<strong>52.7%</strong>) will not lapse for any higher offer.</li><li>Funding would come from existing cash, debt facilities and/or committed third-party financing 'to be finalised'; Jenzabar says it sees no substantive UK merger control issue.</li><li>Under Rule 2.6(a), Jenzabar must by <strong>5.00 p.m. on 27 October 2026</strong> either announce a firm Rule 2.7 intention or walk away; there is no certainty an offer will be made.</li></ul>",
+    "source_format": "html",
+    "headline": "Jenzabar unveils a possible 111p-per-share cash offer for Tribal Group, urging shareholders to vote against the recommended sale to Main Capital's Thames Bidco.",
+    "priority": "high",
+    "priority_reason": "A rival possible cash takeover offer for Tribal that pits Jenzabar against the board-recommended asset sale, with a vote in days.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/tribal-group--trb/possible-offer-for-tribal-group/9795250",
+    "related_news_url": "https://news.google.com/search?q=%22Tribal%20Group%22",
+    "added_at": "2026-09-29T07:21:50.381986"
+  },
+  {
+    "company": "Close Brothers Group PLC",
+    "ticker": "CBG",
+    "publish_date": "29 September 2026",
+    "date_iso": "2026-09-29",
+    "time_period": "FY to 31 July 2026",
+    "announcement_type": "Annual results",
+    "period_detail": "FY to 31 July 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Close Brothers Group plc</strong> reported adjusted operating profit of <strong>£120.3m</strong> for <strong>FY to 31 July 2026</strong>, down <strong>17%</strong> from <strong>£144.3m</strong>, with adjusted operating income off <strong>6%</strong> at <strong>£642.9m</strong>.</li><li>Statutory <strong>operating loss before tax narrowed to £(60.3)m</strong> (2025: £(122.4)m); adjusted basic EPS (continuing) <strong>47.5p</strong> vs <strong>59.3p</strong>; RoTE <strong>5.5%</strong> (2025: 7.1%).</li><li>Added a further <strong>£164.7m</strong> provision for motor finance commissions in the year, taking the total to <strong>c.£320m</strong>, unchanged since the Q3 2026 update.</li><li><strong>No final dividend</strong> for FY2026 given continued uncertainty over the FCA motor finance redress scheme; loan book flat at <strong>£9.5bn</strong>.</li><li>Cost savings of <strong>c.£36m</strong> delivered, ahead of the c.£25m target; now expects to exceed <strong>£60m</strong> of annualised savings by end FY2027. CET1 ratio <strong>14.1%</strong> (2025: 13.8%), above the 12-13% target range.</li><li>New <strong>FY2027 guidance</strong>: underlying loan book growth <strong>5-10%</strong>, NIM slightly below FY2026, adjusted opex <strong>c.£430m</strong>; reaffirms target of <strong>double-digit RoTE by FY2028</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Close Brothers scraps its dividend and books a further GBP164.7m motor finance provision as adjusted operating profit falls 17% to GBP120.3m.",
+    "priority": "high",
+    "priority_reason": "Full-year preliminary results with new FY2027 guidance, a scrapped dividend and a further motor finance redress provision.",
+    "figures": [
+      {
+        "metric": "Adjusted operating profit",
+        "current": "£120.3m",
+        "prior": "£144.3m",
+        "change": "-17%",
+        "basis": "continuing operations",
+        "note": "FY to 31 July 2026"
+      },
+      {
+        "metric": "Operating loss before tax",
+        "current": "£(60.3)m",
+        "prior": "£(122.4)m",
+        "change": "-51%",
+        "basis": "continuing operations, statutory",
+        "note": "FY to 31 July 2026"
+      },
+      {
+        "metric": "Adjusted operating income",
+        "current": "£642.9m",
+        "prior": "£681.2m",
+        "change": "-6%",
+        "basis": "continuing operations",
+        "note": "FY to 31 July 2026"
+      },
+      {
+        "metric": "Adjusted basic EPS",
+        "current": "47.5p",
+        "prior": "59.3p",
+        "change": "not stated",
+        "basis": "continuing operations",
+        "note": "FY to 31 July 2026"
+      },
+      {
+        "metric": "Basic loss per share",
+        "current": "(58.5)p",
+        "prior": "(99.8)p",
+        "change": "not stated",
+        "basis": "continuing operations, statutory",
+        "note": "FY to 31 July 2026"
+      },
+      {
+        "metric": "Return on average tangible equity",
+        "current": "5.5%",
+        "prior": "7.1%",
+        "change": "not stated",
+        "basis": "continuing operations",
+        "note": "FY to 31 July 2026"
+      },
+      {
+        "metric": "Net interest margin",
+        "current": "6.9%",
+        "prior": "7.2%",
+        "change": "not stated",
+        "basis": "not stated",
+        "note": "FY to 31 July 2026"
+      },
+      {
+        "metric": "Loan book",
+        "current": "£9.5bn",
+        "prior": "£9.5bn",
+        "change": "flat",
+        "basis": "reported; +2% underlying year-on-year",
+        "note": "at 31 July 2026"
+      },
+      {
+        "metric": "Ordinary dividend per share",
+        "current": "nil",
+        "prior": "nil",
+        "change": "not stated",
+        "basis": "no final dividend for FY2026",
+        "note": "FY to 31 July 2026"
+      },
+      {
+        "metric": "CET1 capital ratio",
+        "current": "14.1%",
+        "prior": "13.8%",
+        "change": "not stated",
+        "basis": "continuing and discontinued operations",
+        "note": "at 31 July 2026; target range 12-13%"
+      },
+      {
+        "metric": "Motor finance commissions provision",
+        "current": "c.£320m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "£164.7m added in the year",
+        "note": "FCA redress scheme"
+      },
+      {
+        "metric": "Adjusted operating expenses",
+        "current": "£430.9m",
+        "prior": "£445.1m",
+        "change": "not stated",
+        "basis": "continuing operations",
+        "note": "FY to 31 July 2026"
+      }
+    ],
+    "guidance": {
+      "status": "new",
+      "previous": "FY2026 target of c.£25m annualised cost savings; FY2026 targets originally set out at the 2025 results.",
+      "current": "FY2027: underlying loan book growth 5-10%; NIM slightly below FY2026 (c.0.1% mix impact); adjusted opex c.£430m; restructuring costs c.£30-40m; annualised cost savings now expected to exceed £60m by end FY2027; bad debt ratio below 1.2%; CET1 within 12-13%; modest RoTE increase. Medium-term: loan book growth 5-10% through the cycle, NIM slightly below 7%, FY2028 opex at lower end of £410-430m, expense/income ratio below 60% by FY2028, double-digit RoTE by FY2028 rising thereafter.",
+      "commentary": "Close Brothers issued fresh FY2027 and medium-term targets while raising its cost-savings ambition to over £60m by end FY2027 (from a c.£25m FY2026 target already beaten at c.£36m). It reaffirmed the goal of double-digit return on tangible equity by FY2028."
+    },
+    "explainer": "These are full-year results for the 12 months to 31 July 2026, presented on both a statutory and an 'adjusted' basis. The adjusted figures strip out items management sees as one-off or non-underlying — chiefly the motor finance customer redress provisions, restructuring costs and the effects of businesses being sold or wound down (Close Brewery Rentals, Close Brothers Vehicle Hire) — so profit trends can be compared period to period. Asset management (CBAM) and Winterflood are treated as discontinued operations, so most headline metrics refer to continuing operations only.\n\nThe statutory operating loss of £60.3m (narrower than last year's £122.4m loss) is driven largely by the motor finance provision: the group added £164.7m this year, lifting the total set aside to around £320m against the FCA's consumer redress scheme. Because that outcome is still uncertain and subject to legal challenge, the board has cancelled the final dividend for a second year and will only reassess distributions once there is more clarity.\n\nUnderlying trading was softer: adjusted operating profit fell 17% to £120.3m as income dropped 6% and the net interest margin slipped to 6.9%, reflecting the deliberate repositioning of the loan book (notably exiting personal-lines premium finance) rather than a sharp deterioration. The loan book was flat at £9.5bn on a reported basis but up 2% underlying, with growth resuming across all divisions in the final quarter.\n\nOn guidance, the key change is a more ambitious cost programme: having beaten its c.£25m FY2026 savings target by delivering c.£36m, the group now expects to exceed £60m of annualised savings by the end of FY2027. New FY2027 targets point to 5-10% underlying loan growth, roughly flat costs at c.£430m and a modest RoTE improvement, all building towards a reaffirmed medium-term goal of double-digit return on tangible equity by FY2028.",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/close-brothers-group--cbg/preliminary-results/9795269",
+    "related_news_url": "https://news.google.com/search?q=%22Close%20Brothers%20Group%22",
+    "added_at": "2026-09-29T07:21:50.369818"
+  },
+  {
     "company": "Franchise Brands PLC",
     "ticker": "FRAN",
     "publish_date": "29 September 2026",
