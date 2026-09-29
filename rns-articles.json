@@ -1,5 +1,72 @@
 [
   {
+    "company": "British American Tobacco p.l.c.",
+    "ticker": "BATS",
+    "publish_date": "29 September 2026",
+    "date_iso": "2026-09-29",
+    "time_period": "FY26; Horizon 2030 (targets to 2030) and to 2035",
+    "announcement_type": "Trading update",
+    "period_detail": "FY26; Horizon 2030 (targets to 2030) and to 2035",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>BAT</strong> hosts a <strong>Capital Markets Day</strong> in <strong>Winston-Salem, North Carolina</strong> on <strong>29 September 2026</strong>, with CEO <strong>Tadeu Marroco</strong> outlining <strong>Horizon 2030</strong> ambitions.</li><li>On track to deliver towards the <strong>lower end</strong> of <strong>3-5%</strong> revenue and <strong>4-6%</strong> adjusted profit from operations growth in <strong>FY26</strong>, with adjusted diluted EPS growth towards the <strong>middle</strong> of the <strong>5-8%</strong> range (constant rates).</li><li>Flags a translational <strong>FX headwind of c.2-2.5%</strong> on FY26 adjusted diluted EPS growth at current spot rates (<strong>USD/GBP 1.3245</strong>); all other guidance unchanged.</li><li>Horizon 2030 targets: grow <strong>New Category revenue by mid-teens</strong> through 2030 and lift <strong>New Category contribution margin to at least 30%</strong> by 2030.</li><li>Expects to be within its <strong>2.0-2.5x target leverage range</strong> by year-end while continuing strong cash returns.</li><li>Smokeless products reached <strong>35.0 million</strong> adult consumers and <strong>19.8%</strong> of Group revenue as of 30 June 2026; 2025 Group revenue was <strong>£25.6bn</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "BAT reaffirms FY26 guidance towards the lower end of its revenue and profit ranges and sets Horizon 2030 targets for mid-teens New Category revenue growth.",
+    "priority": "high",
+    "priority_reason": "Reaffirms FY26 guidance, quantifies a new FX headwind and sets fresh Horizon 2030 medium-term targets at a Capital Markets Day.",
+    "figures": [
+      {
+        "metric": "FY26 revenue growth guidance",
+        "current": "3-5% (towards lower end)",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "constant rates",
+        "note": "FY26"
+      },
+      {
+        "metric": "FY26 adjusted profit from operations growth",
+        "current": "4-6% (towards lower end)",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "constant rates",
+        "note": "FY26"
+      },
+      {
+        "metric": "FY26 adjusted diluted EPS growth",
+        "current": "5-8% (towards middle)",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "constant rates; c.2-2.5% translational FX headwind",
+        "note": "FY26"
+      },
+      {
+        "metric": "Smokeless share of Group revenue",
+        "current": "19.8%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "as of 30 June 2026",
+        "note": "target 50% by 2035"
+      },
+      {
+        "metric": "Group revenue (2025)",
+        "current": "£25.6bn",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "FY2025"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "3-5% revenue growth, 4-6% adjusted profit from operations growth, 5-8% adjusted diluted EPS growth (all constant rates); 2.0-2.5x target leverage.",
+      "current": "Towards the lower end of 3-5% revenue and 4-6% adjusted profit growth, with EPS growth towards the middle of 5-8%; within 2.0-2.5x leverage by year-end; c.2-2.5% translational FX headwind on FY26 EPS; all other guidance unchanged.",
+      "commentary": "FY26 guidance is reaffirmed rather than changed, but BAT now steers to the lower end of its revenue and profit ranges and quantifies a c.2-2.5% translational FX headwind on adjusted diluted EPS at current spot rates. New Horizon 2030 medium-term targets (mid-teens New Category revenue growth and at least 30% New Category contribution margin) were also introduced."
+    },
+    "explainer": "This is a strategy day rather than a results release, so most numbers are guidance ranges rather than reported figures with comparatives. The FY26 targets are all measured at constant currency, meaning they strip out exchange-rate movements to show underlying growth. BAT is signalling it expects to land at the softer end of its revenue and adjusted profit ranges, while earnings per share growth should come in around the middle of its 5-8% band.\n\nThe key change of tone is the currency warning: at the 25 September spot rate of USD/GBP 1.3245, translating overseas earnings back into sterling is expected to knock about 2-2.5% off reported adjusted diluted EPS growth. This is a translation effect, not a deterioration in the underlying business, and BAT stresses all other guidance is unchanged.\n\nThe Horizon 2030 targets are new medium-term ambitions: growing revenue from New Categories (vapour, heated products and nicotine pouches) by a mid-teens percentage annually through 2030, and pushing those products' contribution margin to at least 30% by 2030 as they scale and premiumise. Longer term, BAT wants smokeless products to make up half of Group revenue by 2035, versus 19.8% at the half-year.",
+    "source_url": "https://uk.advfn.com/stock-market/london/british-american-tobacco-BATS/share-news/British-American-Tobacco-PLC-BAT-2026-Capital-Mark/99388936",
+    "related_news_url": "https://news.google.com/search?q=%22British%20American%20Tobacco%20p.l.c.%22",
+    "added_at": "2026-09-29T09:56:21.359560"
+  },
+  {
     "company": "Vesuvius plc",
     "ticker": "VSVS",
     "publish_date": "29 September 2026",
