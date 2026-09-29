@@ -1,5 +1,112 @@
 [
   {
+    "company": "Card Factory PLC",
+    "ticker": "CARD",
+    "publish_date": "29 September 2026",
+    "date_iso": "2026-09-29",
+    "time_period": "H1 FY27 (six months ended 31 July 2026)",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 FY27 (six months ended 31 July 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Revenue +5.3% to £260.8m</strong> (HY26: £247.6m), helped by the <strong>Funky Pigeon</strong> acquisition and <strong>+13.6%</strong> wholesale growth; <strong>adjusted PBT £12.7m</strong> (HY26: £13.2m, <strong>-3.8%</strong>) as store gains were offset by digital and international investment.</li><li><strong>Adjusted EPS 2.9p</strong> (HY26: 2.8p); statutory <strong>PBT £12.3m</strong> vs £7.5m (<strong>+63.4%</strong>) and <strong>basic EPS 2.7p</strong> vs 1.6p.</li><li><strong>Interim dividend 1.4p</strong> per share (HY26: 1.3p, <strong>+7.7%</strong>); previously announced <strong>£15m buyback now 83% complete</strong>, plus intent to launch a <strong>£3m</strong> buyback to treasury for colleague share schemes.</li><li>Total store sales <strong>-0.7%</strong> and UK/ROI <strong>LFL -2.0%</strong> on weak consumer sentiment and hot summer weather; <strong>ROI total store sales +24.3%</strong> (LFL +5.6%).</li><li><strong>Adjusted free cash flow +£0.8m</strong> (HY26: -£6.3m); <strong>net debt (exc. leases) £87.4m</strong> with adjusted leverage 1.1x.</li><li>Board <strong>confident of delivering full-year expectations</strong>; trading since half-year has seen UK store LFLs return to positive growth in recent weeks, with performance H2-weighted to Christmas.</li></ul>",
+    "source_format": "html",
+    "headline": "cardfactory H1 FY27 revenue up 5.3% to £260.8m with adjusted PBT broadly flat at £12.7m; Board confident of meeting full-year expectations.",
+    "priority": "high",
+    "priority_reason": "Interim results from a listed retailer, with revenue growth, dividend increase and reaffirmed full-year guidance.",
+    "figures": [
+      {
+        "metric": "Revenue",
+        "current": "£260.8m",
+        "prior": "£247.6m",
+        "change": "+5.3%",
+        "basis": "reported",
+        "note": "H1 FY27 vs HY26"
+      },
+      {
+        "metric": "Adjusted EBITDA",
+        "current": "£45.1m",
+        "prior": "£44.2m",
+        "change": "+2.0%",
+        "basis": "adjusted",
+        "note": "H1 FY27 vs HY26"
+      },
+      {
+        "metric": "Adjusted PBT",
+        "current": "£12.7m",
+        "prior": "£13.2m",
+        "change": "-3.8%",
+        "basis": "adjusted",
+        "note": "H1 FY27 vs HY26"
+      },
+      {
+        "metric": "Adjusted EPS",
+        "current": "2.9p",
+        "prior": "2.8p",
+        "change": "+1.6%",
+        "basis": "adjusted",
+        "note": "H1 FY27 vs HY26"
+      },
+      {
+        "metric": "Profit before tax (statutory)",
+        "current": "£12.3m",
+        "prior": "£7.5m",
+        "change": "+63.4%",
+        "basis": "reported",
+        "note": "H1 FY27 vs HY26"
+      },
+      {
+        "metric": "Basic EPS (statutory)",
+        "current": "2.7p",
+        "prior": "1.6p",
+        "change": "+63.5%",
+        "basis": "reported",
+        "note": "H1 FY27 vs HY26"
+      },
+      {
+        "metric": "Dividend per share",
+        "current": "1.4p",
+        "prior": "1.3p",
+        "change": "+7.7%",
+        "basis": "interim",
+        "note": "H1 FY27 vs HY26"
+      },
+      {
+        "metric": "Net debt (exc. leases)",
+        "current": "£87.4m",
+        "prior": "£78.9m",
+        "change": "+£8.5m",
+        "basis": "excluding leases",
+        "note": "at 31 July 2026"
+      },
+      {
+        "metric": "Adjusted free cash flow",
+        "current": "£0.8m",
+        "prior": "-£6.3m",
+        "change": "+£7.1m",
+        "basis": "adjusted",
+        "note": "H1 FY27 vs HY26"
+      },
+      {
+        "metric": "UK/ROI like-for-like store sales",
+        "current": "-2.0%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "like-for-like",
+        "note": "H1 FY27"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Full-year expectations for FY27 Adjusted PBT",
+      "current": "Board remain confident in expectations for Adjusted PBT in FY27; company-compiled consensus at 28 September 2026 shows a range of £54.0m to £59.0m, average £56.7m",
+      "commentary": "Guidance reaffirmed rather than changed. Management expects performance to be weighted to H2 and the key Christmas ('Golden Quarter') trading period, and notes UK store LFLs have returned to positive growth since the half-year."
+    },
+    "explainer": "On guidance, nothing has changed: the Board reaffirmed its FY27 adjusted PBT expectations, pointing to company-compiled consensus of £54.0m–£59.0m (average £56.7m). As usual for a card and gift retailer, the year is heavily weighted to the second half and the Christmas 'Golden Quarter', and management flagged that UK store like-for-likes have recently returned to positive growth.",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/card-factory--card/half-year-financial-report/9795242",
+    "related_news_url": "https://news.google.com/search?q=%22Card%20Factory%22",
+    "added_at": "2026-09-29T07:22:27.150436"
+  },
+  {
     "company": "Tribal Group PLC",
     "ticker": "TRB",
     "publish_date": "29 September 2026",
