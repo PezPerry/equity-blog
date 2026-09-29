@@ -23,9 +23,12 @@ cloud job can't see it.
 3. Check that it finds your notes:
    `python obsidian_runner.py --dry-run`
 4. Choose what happens to the notes already in those folders:
-   - To skip them and handle only notes added from now on:
-     `python obsidian_runner.py --mark-existing`
-   - To have them all actioned, skip that step.
+   - **Recommended: let the first run go through them.** Claude checks each
+     note against the site. Notes it finds already done are marked
+     `already-done` and moved to `Resolved`. The rest are actioned like new
+     notes.
+   - To leave them all untouched and handle only notes added from now on, run
+     `python obsidian_runner.py --mark-existing` first.
 5. Try one pass by hand: `python obsidian_runner.py --once`
 6. Schedule it: `powershell -ExecutionPolicy Bypass -File install-task.ps1`
    (every 10 minutes; add `-Minutes 5` to change it).
@@ -37,9 +40,16 @@ shows up in Obsidian:
 
 | Field | Meaning |
 |---|---|
-| `website_status` | `done` (committed and pushed), `no-change` (Claude decided not to act; see the summary), `failed` (retried up to `max_attempts`) |
+| `website_status` | `done` (committed and pushed), `already-done` (the site already covers it), `no-change` (Claude didn't act; see the summary), `failed` (retried up to `max_attempts`) |
 | `website_commits` | Short SHAs of the pushed commits |
 | `website_summary` | Claude's one-line account of what it did |
+
+Notes that end up `done` or `already-done` move into a `Resolved` subfolder of
+their watched folder, which is created if missing. The runner never scans
+`Resolved`, and a name clash gets a number added (`note 2.md`). Set
+`resolved_folder` to `""` in `config.json` to keep notes where they are.
+Obsidian only fixes `[[links]]` for moves made inside the app, so links to a
+moved note from other notes may need re-pointing.
 
 - Set `website_status: redo` to run a note again (for example, after editing it).
 - Set `website_status: skip` to keep the runner off a note.

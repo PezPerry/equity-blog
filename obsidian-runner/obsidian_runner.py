@@ -51,6 +51,9 @@ DEFAULTS = {
     # untouched this long before acting on it.
     "settle_seconds": 120,
     "max_attempts": 3,
+    # Notes that are done (actioned now, or found already done) move into this
+    # subfolder of their watched folder. Set to "" to leave them where they are.
+    "resolved_folder": "Resolved",
     "claude_command": "claude",
     "claude_args": [
         "--permission-mode", "acceptEdits",
@@ -85,8 +88,14 @@ runner pushes. Do not ask questions: nobody is watching. If the note cannot be
 actioned safely (unclear, needs information you do not have, needs credentials,
 or is not about this website), make no commit.
 
-Finish your reply with exactly one line starting "RUNNER-SUMMARY:" that says in
-one sentence what you did, or why you did nothing.
+The note may be older than the current site. If everything it asks for is
+already in place in this repository, make no commit and report it as
+already-done.
+
+Finish your reply with exactly two lines:
+RUNNER-OUTCOME: changed | already-done | not-actioned
+RUNNER-SUMMARY: one sentence on what you did, what already covers the note, or
+why you did nothing.
 
 --- NOTE: {name} ---
 {body}
@@ -235,11 +244,28 @@ def resolve_folders(cfg, log):
 def candidate_notes(cfg, folders):
     for label, directory in folders.items():
         for root, dirs, files in os.walk(directory):
-            dirs[:] = [d for d in dirs if not d.startswith(".")]
+            dirs[:] = [d for d in dirs if not d.startswith(".") and d != cfg["resolved_folder"]]
             for fn in sorted(files):
                 if fn.lower().endswith(".md"):
                     path = os.path.join(root, fn)
                     yield label, path, os.path.relpath(path, cfg["vault_path"]).replace("\\", "/")
+
+
+def move_to_resolved(cfg, watched_dir, path):
+    """Move a finished note into the Resolved subfolder of its watched folder.
+
+    Obsidian only rewrites [[links]] for moves made inside the app, so links to a
+    moved note from elsewhere in the vault will need Obsidian's link repair.
+    """
+    target_dir = os.path.join(watched_dir, cfg["resolved_folder"])
+    os.makedirs(target_dir, exist_ok=True)
+    stem, ext = os.path.splitext(os.path.basename(path))
+    target, n = os.path.join(target_dir, stem + ext), 1
+    while os.path.exists(target):
+        n += 1
+        target = os.path.join(target_dir, "%s %d%s" % (stem, n, ext))
+    os.replace(path, target)
+    return target
 
 
 def note_hash(body):
@@ -293,12 +319,14 @@ def run_claude(cfg, folder, name, body):
     except ValueError:
         text = res.stdout
     m = re.search(r"RUNNER-SUMMARY:\s*(.+)", text)
-    return (m.group(1).strip() if m else text.strip().splitlines()[-1] if text.strip() else "")[:400]
+    summary = (m.group(1).strip() if m else text.strip().splitlines()[-1] if text.strip() else "")[:400]
+    m = re.search(r"RUNNER-OUTCOME:\s*([a-z-]+)", text)
+    return (m.group(1) if m else ""), summary
 
 
 def process_note(cfg, log, folder, path, rel, body):
     before = prepare_repo(cfg)
-    summary = run_claude(cfg, folder, os.path.basename(path), body)
+    outcome, summary = run_claude(cfg, folder, os.path.basename(path), body)
     after = git(cfg, "rev-parse", "HEAD")
     if git(cfg, "status", "--porcelain"):
         # Claude left edits uncommitted; don't let them leak into the next note.
@@ -306,7 +334,7 @@ def process_note(cfg, log, folder, path, rel, body):
         git(cfg, "clean", "-fd")
         log("  discarded uncommitted edits Claude left behind")
     if after == before:
-        return "no-change", [], summary
+        return ("already-done" if outcome == "already-done" else "no-change"), [], summary
     commits = git(cfg, "rev-list", "--reverse", "%s..%s" % (before, after)).split()
     push_with_retry(cfg, log)
     return "done", [c[:7] for c in commits], summary
@@ -332,7 +360,7 @@ def scan(cfg, log, dry_run=False, mark_existing=False):
         if fm_status == "skip":
             continue
         if fm_status != "redo":
-            if entry and entry["status"] in ("done", "no-change", "baseline"):
+            if entry and entry["status"] in ("done", "already-done", "no-change", "baseline"):
                 continue
             if entry and entry["status"] == "failed" and entry.get("attempts", 0) >= cfg["max_attempts"]:
                 continue
@@ -370,6 +398,17 @@ def scan(cfg, log, dry_run=False, mark_existing=False):
             })
         except OSError as exc:
             log("  could not update note frontmatter: %s" % exc)
+
+        if status in ("done", "already-done") and cfg["resolved_folder"]:
+            try:
+                new_path = move_to_resolved(cfg, folders[label], path)
+            except OSError as exc:
+                log("  could not move note to %s: %s" % (cfg["resolved_folder"], exc))
+            else:
+                new_rel = os.path.relpath(new_path, cfg["vault_path"]).replace("\\", "/")
+                notes[new_rel] = notes.pop(rel)
+                save_state(cfg["state_file"], state)
+                log("  moved to %s" % new_rel)
 
     save_state(cfg["state_file"], state)
 
