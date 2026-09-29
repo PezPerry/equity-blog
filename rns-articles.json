@@ -1,5 +1,31 @@
 [
   {
+    "company": "PayPoint PLC",
+    "ticker": "PAY",
+    "publish_date": "29 September 2026",
+    "date_iso": "2026-09-29",
+    "time_period": "FY27",
+    "announcement_type": "Trading update",
+    "period_detail": "FY27",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>PayPoint Plc</strong> hosting a <strong>Capital Markets Day</strong> at <strong>Investec's</strong> London offices, detailing growth strategy across four business units: <strong>Network Services</strong>, <strong>Digital Payments & Open Banking</strong>, <strong>Love2shop</strong> and <strong>Merchant Services</strong>.</li><li>Medium-term ambition <strong>unchanged</strong>: <strong>5-8% net revenue growth per annum</strong>, supported by strong cash generation and disciplined capital allocation.</li><li>Since the <strong>Q1 FY27 trading update on 29 July 2026</strong>, trading has continued <strong>in line with expectations</strong>; Board confident in meeting market expectations for <strong>FY27</strong>, with performance <strong>weighted to H2</strong>.</li><li>Financial framework update confirms leverage within Board target range, dividends moving towards <strong>~2x cover</strong>, and continuation of the <strong>£30m per annum share buyback</strong> through to <strong>March 2028</strong>.</li><li>New suite of business-unit KPIs introduced covering pipeline, recurring revenue/ARR growth, retailer engagement, Love2shop billings and retention, and merchant processing and churn.</li><li>CEO <strong>Nick Wiles</strong> cited growth routes in Community Banking, digital payments, Open Banking, Love2shop lifetime value and Merchant Services returning to profitable growth.</li></ul>",
+    "source_format": "html",
+    "headline": "PayPoint hosts Capital Markets Day reaffirming its unchanged medium-term ambition of **5-8%** annual net revenue growth, with FY27 trading in line with expectations.",
+    "priority": "medium",
+    "priority_reason": "Capital Markets Day reaffirming existing medium-term ambition with an in-line trading confirmation, but no new financial targets or guidance change.",
+    "figures": [],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Medium-term ambition of 5-8% net revenue growth per annum",
+      "current": "Medium-term ambition of 5-8% net revenue growth per annum (unchanged); FY27 in line with market expectations, H2-weighted",
+      "commentary": "PayPoint reaffirmed its existing medium-term financial ambition and confirmed FY27 trading remains in line with expectations since the 29 July Q1 update. No new targets were set; the event focused on strategy and KPIs following the four-unit reorganisation."
+    },
+    "explainer": "This is a strategy/Capital Markets Day event rather than a results release, so it contains no new headline financial figures with prior-year comparatives. The key reference points — 5-8% net revenue growth, dividends towards roughly two times cover, and the £30m-a-year buyback running to March 2028 — are all restatements of existing targets rather than upgrades.\n\nThe practical takeaway for traders is that guidance is being maintained, not changed. Management reiterated that FY27 will be H2-weighted, meaning more of the year's profit is expected in the second half, driven by new business ramping up and seasonal units (such as Love2shop gifting). The confirmation that trading since late July remains in line with expectations is a reassurance rather than a fresh data point.",
+    "source_url": "https://uk.advfn.com/stock-market/london/paypoint-PAY/share-news/Capital-Markets-Day-sets-out-growth-drivers-underp/99387660",
+    "related_news_url": "https://news.google.com/search?q=%22PayPoint%20Plc%22",
+    "added_at": "2026-09-29T07:58:51.094285"
+  },
+  {
     "company": "AstraZeneca PLC",
     "ticker": "AZN",
     "publish_date": "29 September 2026",
