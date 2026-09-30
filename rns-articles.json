@@ -1,5 +1,57 @@
 [
   {
+    "company": "Sylvania Platinum Limited",
+    "ticker": "SLP",
+    "publish_date": "30 September 2026",
+    "date_iso": "2026-09-30",
+    "time_period": "",
+    "announcement_type": "Share buyback",
+    "period_detail": "",
+    "type_workings": "Rule 'capital returns': opening bullets announce a share buyback [rns.json record]",
+    "body": "<ul><li>Routine buyback: <strong>Sylvania Platinum</strong> purchased <strong>75,000 ordinary shares</strong> between <strong>24 and 29 September 2026</strong> through <strong>Panmure Liberum Limited</strong>.</li><li>Prices: <strong>25,000 shares</strong> on <strong>24 Sep</strong> at <strong>95.00p</strong>, and <strong>50,000 shares</strong> on <strong>29 Sep</strong> at a weighted average <strong>94.80p</strong> (range 94.60p–95.00p).</li><li>Post-purchase, <strong>13,347,534 shares</strong> are held in treasury; total voting rights stand at <strong>258,314,191 shares</strong> (issued capital 271,661,725). Routine disclosure with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Sylvania Platinum bought back 75,000 ordinary shares between 24 and 29 September 2026 via Panmure Liberum.",
+    "priority": "low",
+    "priority_reason": "Routine daily share buyback transaction disclosure with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/sylvania-platinum-ltd-di---slp/share-buyback-update/9797709",
+    "related_news_url": "https://news.google.com/search?q=%22Sylvania%20Platinum%20Ltd%20(DI)%22",
+    "added_at": "2026-09-30T07:36:10.323274"
+  },
+  {
+    "company": "Babcock International Group PLC",
+    "ticker": "BAB",
+    "publish_date": "30 September 2026",
+    "date_iso": "2026-09-30",
+    "time_period": "",
+    "announcement_type": "Contract update",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Babcock International Group PLC</strong> has agreed a <strong>two-month extension</strong> to the Future Maritime Support Programme (FMSP) bridging agreement with the <strong>UK Ministry of Defence (MOD)</strong>, commencing <strong>1 October 2026</strong>.</li><li>The extension maintains continuity of <strong>critical naval base and nuclear submarine fleet support services</strong> while Babcock and the MOD finalise the successor contract, the <strong>Gateway Agreement</strong>.</li><li>The Gateway Agreement is set to provide the long-term framework for Babcock as <strong>sole provider of in-service submarine support</strong> to the Royal Navy, supporting the Continuous At Sea Deterrent.</li><li>No contract value, revenue impact or financial terms are disclosed in the announcement.</li></ul>",
+    "source_format": "html",
+    "headline": "Babcock agrees a two-month extension to its FMSP bridging agreement with the MOD from 1 October 2026, pending the successor Gateway Agreement.",
+    "priority": "medium",
+    "priority_reason": "A two-month bridging extension providing continuity of an existing MOD contract while the successor deal is finalised; material to the relationship but interim in nature.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/babcock-international-group--bab/babcock-fmsp-bridging-agreement-extended/9797749",
+    "related_news_url": "https://news.google.com/search?q=%22Babcock%20International%20Group%22",
+    "added_at": "2026-09-30T07:36:10.307551"
+  },
+  {
     "company": "IWG",
     "ticker": "IWG",
     "publish_date": "30 September 2026",
