@@ -1,5 +1,146 @@
 [
   {
+    "company": "Tullow Oil plc",
+    "ticker": "TLW",
+    "publish_date": "30 September 2026",
+    "date_iso": "2026-09-30",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li>The <strong>ICC</strong> tribunal has ruled that Ghana's <strong>$196.5m</strong> corporate income tax assessment — covering <strong>Business Interruption insurance</strong> proceeds received in <strong>2016 to 2019</strong> — is <strong>not in breach</strong> of Tullow's Petroleum Agreements.</li><li>The tribunal also ruled that <strong>100% penalties</strong> on the assessment fall <strong>outside the scope</strong> of the contractual protections in Tullow's Petroleum Agreements.</li><li>Tullow is <strong>disappointed</strong> with the decision and will consider next steps after <strong>further engagement with the Government of Ghana</strong>; a further update to follow.</li><li>Announcement contains <strong>inside information</strong>; no figure given for any provision or cash impact.</li></ul>",
+    "source_format": "html",
+    "headline": "ICC tribunal rules Ghana's $196.5m tax assessment on Tullow's insurance proceeds does not breach its Petroleum Agreements, an adverse outcome for the company.",
+    "priority": "high",
+    "priority_reason": "Adverse ICC arbitration ruling on a $196.5m Ghana tax assessment plus 100% penalties is material inside information affecting Tullow's liabilities.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/tullow-oil--tlw/ghana-tax-arbitration-update-/9797699",
+    "related_news_url": "https://news.google.com/search?q=%22Tullow%20Oil%22",
+    "added_at": "2026-09-30T07:57:19.786844"
+  },
+  {
+    "company": "Spire Healthcare Group plc",
+    "ticker": "SPI",
+    "publish_date": "30 September 2026",
+    "date_iso": "2026-09-30",
+    "time_period": "H1 to 30 June 2026",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li>Group revenue broadly stable at <strong>£792.7m</strong> (H125: <strong>£796.7m</strong>), with growth in <strong>Self-Pay (+4.5%)</strong>, <strong>PMI (+3.1%)</strong> and <strong>Primary Care (+8.1%)</strong> offsetting a <strong>14.3%</strong> fall in <strong>NHS revenue</strong>.</li><li>Adjusted EBITDA down <strong>16.6%</strong> to <strong>£112.4m</strong> (H125: <strong>£133.8m</strong>), hit by cost inflation on a largely fixed cost base; statutory operating profit <strong>£38.4m</strong> (H125: <strong>£63.0m</strong>).</li><li>Swung to a statutory loss before tax of <strong>£14.8m</strong> (H125: profit <strong>£10.8m</strong>) and loss after tax of <strong>£11.5m</strong> (H125: profit <strong>£7.0m</strong>); adjusted loss before tax <strong>£2.6m</strong> (H125: profit <strong>£23.8m</strong>).</li><li>NHS revenue improved through the period: <strong>Q1 -24.9%</strong> narrowing to <strong>Q2 -3.2%</strong> after April 2026 commissioning reset, with <strong>>95%</strong> of 2026/27 Indicative Activity Plan revenue agreed.</li><li>Adjusted free cash flow up <strong>35.3%</strong> to <strong>£20.7m</strong>; net bank debt <strong>£337.8m</strong> (H125: <strong>£356.7m</strong>) but leverage rose to <strong>2.4x</strong> (H125: <strong>2.2x</strong>) on lower earnings.</li><li>New four-year partnership with <strong>Bupa</strong> signed; <strong>Sir David Sloman</strong> now Interim CEO and <strong>Debbie White</strong> Chair from <strong>5 September 2026</strong>. Note: footnote references to a 'Cash Offer' and 'Bidco' appear in the source but the takeover context is not set out in the article text.</li></ul>",
+    "source_format": "html",
+    "headline": "Spire Healthcare H1 revenue broadly flat at £792.7m but adjusted EBITDA fell 16.6% and it swung to a statutory loss on lower NHS activity.",
+    "priority": "high",
+    "priority_reason": "Half-year results from a FTSE 250 healthcare group, showing sharply lower EBITDA and a swing to a statutory loss.",
+    "figures": [
+      {
+        "metric": "Group revenue",
+        "current": "£792.7m",
+        "prior": "£796.7m",
+        "change": "broadly stable",
+        "basis": "comparable basis",
+        "note": "H1 to 30 June 2026 vs H125"
+      },
+      {
+        "metric": "Adjusted EBITDA",
+        "current": "£112.4m",
+        "prior": "£133.8m",
+        "change": "-16.6%",
+        "basis": "comparable basis",
+        "note": "H1 2026 vs H125"
+      },
+      {
+        "metric": "Statutory operating profit",
+        "current": "£38.4m",
+        "prior": "£63.0m",
+        "change": "not stated",
+        "basis": "statutory",
+        "note": "H1 2026 vs H125"
+      },
+      {
+        "metric": "Statutory (loss)/profit before tax",
+        "current": "-£14.8m",
+        "prior": "£10.8m",
+        "change": "not stated",
+        "basis": "statutory",
+        "note": "H1 2026 vs H125"
+      },
+      {
+        "metric": "(Loss)/profit after tax",
+        "current": "-£11.5m",
+        "prior": "£7.0m",
+        "change": "not stated",
+        "basis": "statutory",
+        "note": "H1 2026 vs H125"
+      },
+      {
+        "metric": "Adjusted (loss)/profit before tax",
+        "current": "-£2.6m",
+        "prior": "£23.8m",
+        "change": "not stated",
+        "basis": "adjusted",
+        "note": "H1 2026 vs H125"
+      },
+      {
+        "metric": "Adjusted free cash flow",
+        "current": "£20.7m",
+        "prior": "£15.3m",
+        "change": "+35.3%",
+        "basis": "not stated",
+        "note": "H1 2026 vs H125"
+      },
+      {
+        "metric": "Net bank debt",
+        "current": "£337.8m",
+        "prior": "£356.7m",
+        "change": "not stated",
+        "basis": "not stated",
+        "note": "leverage 2.4x vs 2.2x"
+      },
+      {
+        "metric": "Hospital revenue",
+        "current": "£720.6m",
+        "prior": "£732.3m",
+        "change": "-1.6%",
+        "basis": "comparable basis",
+        "note": "adj EBITDA margin 14.8% vs 17.8%"
+      },
+      {
+        "metric": "Primary Care revenue",
+        "current": "£72.1m",
+        "prior": "£64.4m",
+        "change": "+8.1%",
+        "basis": "comparable basis",
+        "note": "adj EBITDA £5.5m vs £3.8m"
+      },
+      {
+        "metric": "ROCE",
+        "current": "6.7%",
+        "prior": "8.1%",
+        "change": "-140bps",
+        "basis": "not stated",
+        "note": "H1 2026 vs H125"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Adjusted EBITDA for FY26 to be broadly in line with FY25",
+      "current": "Continues to target adjusted EBITDA for FY26 to be broadly in line with FY25, as previously communicated",
+      "commentary": "Full-year adjusted EBITDA guidance is unchanged, despite the H1 EBITDA decline, with management pointing to improving NHS volumes in the second half."
+    },
+    "explainer": "Spire's headline revenue barely moved year on year, but the mix shifted markedly. Growth in higher-value private work — Self-Pay, private medical insurance (PMI) and Primary Care — offset a steep fall in NHS-funded activity after the NHS cut its commissioning early in the year. Because much of Spire's cost base is fixed (hospitals, staff), lost NHS volume dropped almost straight through to profit, so adjusted EBITDA fell 16.6% even though revenue was flat.\n\nThe figures are shown on a 'comparable basis', which strips out the effect of acquisitions bought at different times so growth rates reflect like-for-like performance. The move from an H1 2025 profit to an H1 2026 loss reflects that lower EBITDA plus higher depreciation, amortisation and financing costs; the statutory loss before tax was £14.8m versus a £10.8m profit a year earlier.\n\nEncouragingly, the NHS drag eased through the half — the year-on-year decline narrowed from about 25% in Q1 to around 3% in Q2 after commissioning plans reset in April — and Spire says over 95% of its NHS activity plan for 2026/27 is already agreed, giving visibility into the second half.\n\nOn guidance, nothing changed: management still expects full-year adjusted EBITDA to be broadly in line with last year. That implies a stronger second half, leaning on recovering NHS volumes and continued private-payor growth. Cash generation was a bright spot, with adjusted free cash flow up 35% and net debt lower, though leverage edged up to 2.4x because earnings fell faster than debt.",
+    "source_url": "https://uk.advfn.com/stock-market/london/spire-healthcare-SPI/share-news/Spire-Healthcare-Group-PLC-Results-for-the-six-mon/99398159",
+    "related_news_url": "https://news.google.com/search?q=%22Spire%20Healthcare%20Group%20plc%22",
+    "added_at": "2026-09-30T07:57:19.762676"
+  },
+  {
     "company": "Sylvania Platinum Limited",
     "ticker": "SLP",
     "publish_date": "30 September 2026",
