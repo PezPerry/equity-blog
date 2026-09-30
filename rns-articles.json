@@ -1,5 +1,1506 @@
 [
   {
+    "company": "Greggs PLC",
+    "ticker": "GRG",
+    "publish_date": "30 September 2026",
+    "date_iso": "2026-09-30",
+    "time_period": "Q3 2026 (13 weeks to 26 September 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "Q3 2026 (13 weeks to 26 September 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Q3 2026</strong> total sales up <strong>7.7%</strong>, with like-for-like company-managed shop sales up <strong>3.4%</strong> versus the same period in <strong>2025</strong>; trading improved through the quarter on new products and more settled weather.</li><li><strong>Year-to-date</strong> total sales up <strong>7.4%</strong> and LFL sales up <strong>2.6%</strong>.</li><li>Now expects a <strong>modestly improved outcome for 2026</strong>, driven by improved recent trading and continued strong cost control; LFL cost inflation seen at <strong>circa 2%</strong> in 2026, with <strong>greater inflationary pressures signalled for 2027</strong>.</li><li>Launched a <strong>consultation</strong> on proposals to close <strong>four manufacturing sites</strong>, potentially making <strong>circa 740 roles</strong> redundant over two and a half years; cash costs <strong>circa £60m</strong> (<strong>circa £40m</strong> capex plus disruption and redundancy), delivering annual pre-tax savings of <strong>circa £20m</strong> across <strong>2028 and 2029</strong>.</li><li><strong>57 net new shop openings</strong> year-to-date (95 opened, 38 closed including 20 relocations), <strong>2,796 shops</strong> trading at 26 September 2026; full-year guidance of <strong>100–110 net new openings</strong> maintained.</li><li>New distribution centres at <strong>Derby</strong> (operational 2026) and <strong>Kettering</strong> (operational 2027) progressing; associated overheads will raise costs in 2027 before contributing to profitable growth.</li></ul>",
+    "source_format": "html",
+    "headline": "Greggs delivered 7.7% Q3 sales growth and a modestly improved 2026 outlook, but launched a manufacturing consultation that could close four sites and cut circa 740 roles.",
+    "priority": "high",
+    "priority_reason": "Q3 trading update with a modest 2026 outlook upgrade and a major manufacturing restructuring involving four site closures and circa 740 redundancies.",
+    "figures": [
+      {
+        "metric": "Total sales growth",
+        "current": "+7.7%",
+        "prior": "not stated",
+        "change": "+7.7%",
+        "basis": "vs comparable 2025 period",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "Like-for-like sales (company-managed shops)",
+        "current": "+3.4%",
+        "prior": "not stated",
+        "change": "+3.4%",
+        "basis": "vs comparable 2025 period",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "Total sales growth",
+        "current": "+7.4%",
+        "prior": "not stated",
+        "change": "+7.4%",
+        "basis": "vs 2025",
+        "note": "Year-to-date"
+      },
+      {
+        "metric": "Like-for-like sales",
+        "current": "+2.6%",
+        "prior": "not stated",
+        "change": "+2.6%",
+        "basis": "vs 2025",
+        "note": "Year-to-date"
+      },
+      {
+        "metric": "Total shops trading",
+        "current": "2,796",
+        "prior": "not stated",
+        "change": "+57 net YTD",
+        "basis": "2,157 company-managed, 639 franchised",
+        "note": "At 26 September 2026"
+      }
+    ],
+    "guidance": {
+      "status": "raised",
+      "previous": "Prior 2026 outcome expectation not quantified in the announcement",
+      "current": "Expects a modestly improved outcome for 2026; full-year net new shop openings of 100–110 maintained; LFL cost inflation circa 2% in 2026",
+      "commentary": "Improved trading in recent months and continued strong cost control have led Greggs to nudge up its 2026 profit expectation. However, it flags greater inflationary pressure in 2027 and higher costs from the two new distribution centres, and the separate restructuring will carry circa £60m of cash costs before circa £20m of annual savings arrive in 2028–2029."
+    },
+    "explainer": "Greggs reports sales in growth terms rather than absolute figures for a Q3 update. Total sales up 7.7% captures the full estate (including new shops), while like-for-like of 3.4% strips out new openings to show underlying demand at existing company-managed shops. The gap between the two — roughly four points — reflects the contribution of the expanding shop estate. Year-to-date figures (7.4% total, 2.6% LFL) are lower than Q3 alone, indicating trading strengthened over the summer and into autumn.\n\nThe key change to the outlook is a 'modestly improved' expectation for 2026 profit, driven by better recent trading and cost control, with like-for-like cost inflation held to about 2%. This is a modest upgrade rather than a specific new number, so the scale is deliberately vague.\n\nThe manufacturing consolidation is the bigger structural story. Greggs is proposing to close four sites and cut around 740 jobs over two and a half years. This will cost roughly £60m in cash (about £40m of it capital spending on new capacity, plus redundancy and disruption), and is expected to save around £20m a year once complete — but those savings only land in the 2028 and 2029 financial years. Note the plan is still subject to union and employee consultation, so it is a proposal, not a done deal.\n\nOn timing, management also cautions that 2027 will carry higher costs: greater inflationary pressure plus the overheads from the new Derby and Kettering distribution centres, before those investments contribute to profit growth thereafter.",
+    "source_url": "https://uk.advfn.com/stock-market/london/greggs-GRG/share-news/Greggs-PLC-Q3-Trading-Update/99398110",
+    "related_news_url": "https://news.google.com/search?q=%22Greggs%20plc%22",
+    "added_at": "2026-09-30T08:00:20.304960"
+  },
+  {
+    "company": "Goodwin PLC",
+    "ticker": "GDWN",
+    "publish_date": "30 September 2026",
+    "date_iso": "2026-09-30",
+    "time_period": "Four months ended 31 August 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "Four months ended 31 August 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li>Trading update for the <strong>four months ended 31 August 2026</strong>, focused on the businesses remaining after the proposed disposal of much of the <strong>Mechanical Engineering Division</strong>.</li><li>Overseas refractory profits up <strong>19%</strong> year-on-year to <strong>£3.1 million</strong>; combined <strong>AVD Fire</strong> and <strong>Dupré Minerals</strong> profits up <strong>30%</strong> to <strong>£1.0 million</strong>.</li><li>Polyimide business <strong>Duvelco</strong> made a loss of <strong>£1.7 million</strong> (prior year: <strong>£592,000</strong>), driven by depreciation; a mechanical drying issue limits output to about <strong>20%</strong> of designed capacity, with the proposed dryer carrying a ~<strong>ten-month</strong> lead time.</li><li>UK powder operations hit by an ~<strong>11-week</strong> planned calciner outage at <strong>Hoben International</strong>, while high gold and silver prices weighed on demand at Goodwin Refractory Services.</li><li>Agreed <strong>9 September 2026</strong> to sell a substantial part of the Mechanical Engineering Division to an affiliate of <strong>Cerberus</strong> for up to ~<strong>£1.1 billion</strong> cash; completion expected <strong>Q1 2027</strong>, with the Board weighing a significant return of proceeds to shareholders.</li><li>Recruitment started for a new <strong>Chief Executive Officer</strong> and <strong>Finance Director</strong> to lead the continuing businesses; Board roles and remuneration under review.</li></ul>",
+    "source_format": "html",
+    "headline": "Goodwin's continuing refractory profits rose 19% to £3.1m as it progresses the ~£1.1bn Cerberus disposal and starts recruiting a new CEO and FD.",
+    "priority": "high",
+    "priority_reason": "Trading update on continuing businesses alongside a ~£1.1bn disposal to Cerberus and a search for a new CEO and Finance Director.",
+    "figures": [
+      {
+        "metric": "Overseas refractory profits",
+        "current": "£3.1m",
+        "prior": "not stated",
+        "change": "+19%",
+        "basis": "year-on-year",
+        "note": "Four months ended 31 August 2026"
+      },
+      {
+        "metric": "AVD Fire & Dupré Minerals combined profits",
+        "current": "£1.0m",
+        "prior": "not stated",
+        "change": "+30%",
+        "basis": "year-on-year",
+        "note": "Four months ended 31 August 2026"
+      },
+      {
+        "metric": "Duvelco (polyimide) result",
+        "current": "-£1.7m loss",
+        "prior": "-£592,000 loss",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "Loss widened, primarily depreciation on manufacturing assets"
+      },
+      {
+        "metric": "Mechanical Engineering disposal consideration",
+        "current": "up to ~£1.1bn cash",
+        "prior": "not applicable",
+        "change": "not applicable",
+        "basis": "headline, subject to closing adjustments",
+        "note": "Agreed 9 September 2026 with a Cerberus affiliate; completion expected Q1 2027"
+      }
+    ],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": "No numeric guidance stated; the Board expects the continuing operations to deliver reliable cash flows and sustainable growth over the medium and longer term."
+    },
+    "explainer": "This update deliberately splits Goodwin in two. The figures given cover only the \"continuing\" businesses that will stay in the Group after it sells most of its Mechanical Engineering Division — the refractory operations, AVD Fire (lithium-ion battery fire protection), Dupré Minerals and the loss-making polyimide start-up Duvelco. The profit growth percentages (refractory +19%, AVD Fire/Dupré +30%) are year-on-year comparisons for the four months to 31 August 2026, but the company prints only the current-period profit figures and not the prior-year cash amounts, so the exact starting base is not disclosed.\n\nDuvelco is the swing factor. Its loss widened to £1.7m from £592,000, which management attributes mainly to depreciation now being charged on the new plant. A mechanical fault in the final drying stage — less than 12% of the process — is capping output at roughly 20% of designed capacity, and the fix (a new dryer) has an indicative ten-month lead time, so this drag is likely to persist into next year.\n\nThe dominant event is the ~£1.1bn cash disposal to a Cerberus affiliate, agreed on 9 September and expected to complete in Q1 2027. Until then the businesses being sold still sit inside the Group. Goodwin expects no UK corporation tax on the disposal gain at company level, and the Board is still deciding the amount, timing and form of any return of proceeds to shareholders — nothing is committed yet.\n\nNo formal profit guidance is set. The messaging is qualitative: reliable cash generation from refractories, plus growth optionality from AVD Fire and Duvelco. Traders should also note the leadership overhaul — a new CEO and Finance Director are being recruited for the slimmed-down group, and Board pay is being reviewed.",
+    "source_url": "https://uk.advfn.com/stock-market/london/goodwin-GDWN/share-news/Goodwin-PLC-September-2026-Trading-Update/99398073",
+    "related_news_url": "https://news.google.com/search?q=%22Goodwin%20PLC%22",
+    "added_at": "2026-09-30T07:59:36.908023"
+  },
+  {
+    "company": "UNITE Group PLC",
+    "ticker": "UTG",
+    "publish_date": "30 September 2026",
+    "date_iso": "2026-09-30",
+    "time_period": "FY2026",
+    "announcement_type": "Disposal",
+    "period_detail": "FY2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Unite Group</strong> has agreed the sale of its <strong>444-bed King's Place</strong> development site to an affiliate of <strong>Far East Orchard</strong> for <strong>£60m</strong>, expected to complete in <strong>mid-October</strong>.</li><li>Priced at a <strong>3% discount</strong> to <strong>June 2026 book value</strong>; part of the strategy to realise value from development land and non-student assets.</li><li><strong>2026 disposals now total £200m</strong> (Unite share) at a <strong>3.0% weighted average NOI yield</strong>, including non-income-producing sites.</li><li>Remains on track for <strong>£300–400m</strong> (Unite share) of disposals in 2026 to increase alignment to the UK's strongest universities.</li><li><strong>FY2026 adjusted earnings guidance of 41.5–43.0p is unchanged</strong>; the disposal was already incorporated.</li><li>CEO <strong>Joe Lister</strong> cited capital discipline and proactive capital recycling, and realising value from a project no longer meeting return requirements.</li></ul>",
+    "source_format": "html",
+    "headline": "Unite Group sells its 444-bed King's Place development site to an affiliate of Far East Orchard for £60m, at a 3% discount to June book value.",
+    "priority": "medium",
+    "priority_reason": "A £60m disposal advancing the 2026 recycling programme, but guidance is explicitly reaffirmed and unchanged.",
+    "figures": [
+      {
+        "metric": "Sale price (King's Place)",
+        "current": "£60m",
+        "prior": "not stated",
+        "change": "3% discount to June 2026 book value",
+        "basis": "444-bed development site",
+        "note": "completion mid-October 2026"
+      },
+      {
+        "metric": "2026 disposals to date (Unite share)",
+        "current": "£200m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "weighted average NOI yield 3.0%",
+        "note": "including non-income-producing sites"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "FY2026 adjusted earnings 41.5-43.0p",
+      "current": "FY2026 adjusted earnings 41.5-43.0p (unchanged)",
+      "commentary": "The King's Place disposal was already factored into guidance, so FY2026 adjusted earnings guidance of 41.5-43.0p is unaffected. Unite also reaffirmed its £300-400m full-year disposal target."
+    },
+    "explainer": "This is a disposal rather than a results announcement, but Unite has taken the opportunity to reaffirm its financial guidance. The King's Place site is a development plot — not an operating, rent-producing asset — being sold as part of a deliberate 'capital recycling' programme: selling land and lower-priority assets to fund reinvestment in accommodation near the strongest UK universities.\n\nThe £60m price is a 3% discount to the property's June 2026 book value, meaning Unite is selling at slightly below its own most recent carrying valuation. That is a modest markdown and normal for a non-core development site.\n\nThe key point for earnings is that this sale was already built into Unite's FY2026 adjusted earnings guidance of 41.5-43.0p per share, so guidance is unchanged. The company also confirmed it is still on course to complete £300-400m of disposals (its share) across 2026, of which £200m is already agreed or done at an average net operating income yield of 3.0%.",
+    "source_url": "https://uk.advfn.com/stock-market/london/unite-UTG/share-news/Unite-Group-PLC-The-60M-SALE-OF-DEVELOPMENT-SITE/99398065",
+    "related_news_url": "https://news.google.com/search?q=%22The%20Unite%20Group%20PLC%22",
+    "added_at": "2026-09-30T07:59:04.764403"
+  },
+  {
+    "company": "Saga plc",
+    "ticker": "SAGA",
+    "publish_date": "30 September 2026",
+    "date_iso": "2026-09-30",
+    "time_period": "H1 to 31 July 2026",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 to 31 July 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Underlying Profit Before Tax</strong> up <strong>98%</strong> to <strong>£46.6m</strong> (from <strong>£23.5m</strong>), with the first half <strong>ahead of expectations</strong> and growth across all core businesses.</li><li><strong>Underlying Revenue</strong> grew <strong>14%</strong>; statutory revenue up <strong>12%</strong> to <strong>£367.5m</strong>. <strong>Profit before tax from continuing operations</strong> rose to <strong>£28.0m</strong> (from <strong>£3.7m</strong>) on stronger trading and lower exceptional costs.</li><li><strong>Guidance upgraded</strong>: full-year Underlying PBT now expected <strong>materially higher</strong> year-on-year, in the range of <strong>£65-70m</strong>, ahead of previous guidance.</li><li><strong>Net Debt</strong> cut by <strong>£70.4m</strong> since 31 January to <strong>£429.1m</strong>, taking the <strong>Leverage Ratio</strong> from <strong>3.7x to 2.7x</strong>; <strong>Underlying Available Operating Cash Flow</strong> up <strong>27%</strong> to <strong>£101.0m</strong>.</li><li>Medium-term targets of <strong>£100.0m</strong> Underlying PBT and leverage <strong>below 2.0x</strong> now likely to be reached <strong>ahead of the original January 2030</strong> date.</li><li>Travel Underlying PBT up <strong>45%</strong> to <strong>£60.3m</strong>; Insurance Broking up <strong>75%</strong> to <strong>£15.9m</strong>; motor and home new business now on <strong>Ageas</strong>, with an extra <strong>£10.5m</strong> contingent consideration received in June 2026.</li></ul>",
+    "source_format": "html",
+    "headline": "Saga H1 underlying pre-tax profit nearly doubled to **£46.6m**, prompting a profit guidance upgrade to **£65-70m** for the full year.",
+    "priority": "high",
+    "priority_reason": "Interim results beating expectations with an explicit profit guidance upgrade and medium-term targets now expected earlier than planned.",
+    "figures": [
+      {
+        "metric": "Underlying Profit Before Tax",
+        "current": "£46.6m",
+        "prior": "£23.5m",
+        "change": "+98%",
+        "basis": "underlying, continuing",
+        "note": "H1 to 31 July 2026"
+      },
+      {
+        "metric": "Statutory revenue",
+        "current": "£367.5m",
+        "prior": "not stated",
+        "change": "+12%",
+        "basis": "statutory",
+        "note": "H1 to 31 July 2026"
+      },
+      {
+        "metric": "Underlying Revenue",
+        "current": "£366.3m",
+        "prior": "not stated",
+        "change": "+14%",
+        "basis": "underlying",
+        "note": "H1 to 31 July 2026"
+      },
+      {
+        "metric": "Profit before tax from continuing operations",
+        "current": "£28.0m",
+        "prior": "£3.7m",
+        "change": "not stated",
+        "basis": "statutory, continuing",
+        "note": "H1 to 31 July 2026"
+      },
+      {
+        "metric": "Underlying Available Operating Cash Flow",
+        "current": "£101.0m",
+        "prior": "not stated",
+        "change": "+27%",
+        "basis": "underlying",
+        "note": "H1 to 31 July 2026"
+      },
+      {
+        "metric": "Net Debt",
+        "current": "£429.1m",
+        "prior": "£499.5m",
+        "change": "-£70.4m",
+        "basis": "reported",
+        "note": "since 31 January 2026; prior derived from stated £70.4m reduction"
+      },
+      {
+        "metric": "Leverage Ratio",
+        "current": "2.7x",
+        "prior": "3.7x",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "since 31 January 2026"
+      }
+    ],
+    "guidance": {
+      "status": "raised",
+      "previous": "Prior guidance not quoted numerically; full-year Underlying PBT expected ahead of the prior year on the original trajectory towards £100.0m by January 2030",
+      "current": "Full-year Underlying Profit Before Tax now expected to be materially higher than the prior year, in the range of £65-70m; medium-term targets of £100.0m Underlying PBT and leverage below 2.0x now likely to be met before January 2030",
+      "commentary": "The strong first-half beat has lifted full-year profit and cash flow expectations, so Saga has upgraded profit guidance and now expects to hit its medium-term targets earlier than the original 2030 date. Net Debt and leverage are guided to stay broadly flat for the full year before falling further thereafter."
+    },
+    "explainer": "These are half-year figures for the six months to 31 July 2026, compared with the same period a year earlier. \"Underlying\" measures strip out one-off items such as restructuring costs; the gap between underlying profit (£46.6m) and statutory profit from continuing operations (£28.0m) reflects those exceptional charges. Both measures rose sharply, so the improvement is not just an accounting effect.\n\nThe headline change is the guidance upgrade. Saga now expects full-year underlying pre-tax profit of £65-70m, described as materially higher than last year and above its previous expectations. Separately, its longer-term ambitions — £100m of underlying profit and borrowings below twice earnings (a leverage ratio under 2.0x) — are now expected to be achieved before the original January 2030 target date.\n\nThe balance sheet is also strengthening: net debt fell £70.4m in six months to £429.1m, cutting leverage from 3.7x to 2.7x. Management flagged that net debt and leverage should stay broadly flat over the full year before resuming their decline, partly reflecting timing of cash flows in the insurance transition to Ageas.\n\nGrowth was broad-based, led by Travel (cruises and holidays) and a strong Insurance Broking result, with the caveat that management remains watchful of potential economic headwinds and volatile global conditions.",
+    "source_url": "https://uk.advfn.com/stock-market/london/saga-SAGA/share-news/SAGA-PLC-Interim-results-for-the-six-months-ended/99398188",
+    "related_news_url": "https://news.google.com/search?q=%22Saga%20plc%22",
+    "added_at": "2026-09-30T07:58:22.627729"
+  },
+  {
+    "company": "CLS Holdings PLC",
+    "ticker": "CLI",
+    "publish_date": "30 September 2026",
+    "date_iso": "2026-09-30",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Lennart Sten</strong>, Chair of <strong>CLS Holdings</strong>, will step down with effect from <strong>31 October 2026</strong>, earlier than his previously expected departure at the <strong>2027 AGM</strong>.</li><li>He is leaving in light of extra time commitments from his appointment as Chair of <strong>Sveafastigheter AB</strong> and <strong>PPI Public Property Invest AB</strong> following their proposed merger with <strong>Klarabo AB</strong>.</li><li>Succession process is <strong>well advanced</strong>; if no permanent Chair is named by 31 October, Vice Chair <strong>Anna Seeley</strong> becomes <strong>Interim Chair</strong>.</li><li><strong>Johannes Conradi</strong>, Independent Non-Executive Director, joins the Nomination Committee from <strong>1 November 2026</strong> — a routine UKLR 6.4.6R/6.4.9(2)R disclosure with <strong>no impact</strong> on trading or guidance.</li><li>Sten has served on the Board for <strong>12 years</strong>, seven as Chair.</li></ul>",
+    "source_format": "html",
+    "headline": "CLS Holdings Chair Lennart Sten to step down on 31 October 2026 after seven years, citing new external commitments.",
+    "priority": "medium",
+    "priority_reason": "Chair stepping down is a senior board change, but succession is well advanced and there is no trading impact.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/cls-CLI/share-news/CLS-Holdings-PLC-Board-Change/99398209",
+    "related_news_url": "https://news.google.com/search?q=%22CLS%20Holdings%20PLC%22",
+    "added_at": "2026-09-30T07:58:22.590877"
+  },
+  {
+    "company": "Tullow Oil plc",
+    "ticker": "TLW",
+    "publish_date": "30 September 2026",
+    "date_iso": "2026-09-30",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li>The <strong>ICC</strong> tribunal has ruled that Ghana's <strong>$196.5m</strong> corporate income tax assessment — covering <strong>Business Interruption insurance</strong> proceeds received in <strong>2016 to 2019</strong> — is <strong>not in breach</strong> of Tullow's Petroleum Agreements.</li><li>The tribunal also ruled that <strong>100% penalties</strong> on the assessment fall <strong>outside the scope</strong> of the contractual protections in Tullow's Petroleum Agreements.</li><li>Tullow is <strong>disappointed</strong> with the decision and will consider next steps after <strong>further engagement with the Government of Ghana</strong>; a further update to follow.</li><li>Announcement contains <strong>inside information</strong>; no figure given for any provision or cash impact.</li></ul>",
+    "source_format": "html",
+    "headline": "ICC tribunal rules Ghana's $196.5m tax assessment on Tullow's insurance proceeds does not breach its Petroleum Agreements, an adverse outcome for the company.",
+    "priority": "high",
+    "priority_reason": "Adverse ICC arbitration ruling on a $196.5m Ghana tax assessment plus 100% penalties is material inside information affecting Tullow's liabilities.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/tullow-oil--tlw/ghana-tax-arbitration-update-/9797699",
+    "related_news_url": "https://news.google.com/search?q=%22Tullow%20Oil%22",
+    "added_at": "2026-09-30T07:57:19.786844"
+  },
+  {
+    "company": "Spire Healthcare Group plc",
+    "ticker": "SPI",
+    "publish_date": "30 September 2026",
+    "date_iso": "2026-09-30",
+    "time_period": "H1 to 30 June 2026",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li>Group revenue broadly stable at <strong>£792.7m</strong> (H125: <strong>£796.7m</strong>), with growth in <strong>Self-Pay (+4.5%)</strong>, <strong>PMI (+3.1%)</strong> and <strong>Primary Care (+8.1%)</strong> offsetting a <strong>14.3%</strong> fall in <strong>NHS revenue</strong>.</li><li>Adjusted EBITDA down <strong>16.6%</strong> to <strong>£112.4m</strong> (H125: <strong>£133.8m</strong>), hit by cost inflation on a largely fixed cost base; statutory operating profit <strong>£38.4m</strong> (H125: <strong>£63.0m</strong>).</li><li>Swung to a statutory loss before tax of <strong>£14.8m</strong> (H125: profit <strong>£10.8m</strong>) and loss after tax of <strong>£11.5m</strong> (H125: profit <strong>£7.0m</strong>); adjusted loss before tax <strong>£2.6m</strong> (H125: profit <strong>£23.8m</strong>).</li><li>NHS revenue improved through the period: <strong>Q1 -24.9%</strong> narrowing to <strong>Q2 -3.2%</strong> after April 2026 commissioning reset, with <strong>>95%</strong> of 2026/27 Indicative Activity Plan revenue agreed.</li><li>Adjusted free cash flow up <strong>35.3%</strong> to <strong>£20.7m</strong>; net bank debt <strong>£337.8m</strong> (H125: <strong>£356.7m</strong>) but leverage rose to <strong>2.4x</strong> (H125: <strong>2.2x</strong>) on lower earnings.</li><li>New four-year partnership with <strong>Bupa</strong> signed; <strong>Sir David Sloman</strong> now Interim CEO and <strong>Debbie White</strong> Chair from <strong>5 September 2026</strong>. Note: footnote references to a 'Cash Offer' and 'Bidco' appear in the source but the takeover context is not set out in the article text.</li></ul>",
+    "source_format": "html",
+    "headline": "Spire Healthcare H1 revenue broadly flat at £792.7m but adjusted EBITDA fell 16.6% and it swung to a statutory loss on lower NHS activity.",
+    "priority": "high",
+    "priority_reason": "Half-year results from a FTSE 250 healthcare group, showing sharply lower EBITDA and a swing to a statutory loss.",
+    "figures": [
+      {
+        "metric": "Group revenue",
+        "current": "£792.7m",
+        "prior": "£796.7m",
+        "change": "broadly stable",
+        "basis": "comparable basis",
+        "note": "H1 to 30 June 2026 vs H125"
+      },
+      {
+        "metric": "Adjusted EBITDA",
+        "current": "£112.4m",
+        "prior": "£133.8m",
+        "change": "-16.6%",
+        "basis": "comparable basis",
+        "note": "H1 2026 vs H125"
+      },
+      {
+        "metric": "Statutory operating profit",
+        "current": "£38.4m",
+        "prior": "£63.0m",
+        "change": "not stated",
+        "basis": "statutory",
+        "note": "H1 2026 vs H125"
+      },
+      {
+        "metric": "Statutory (loss)/profit before tax",
+        "current": "-£14.8m",
+        "prior": "£10.8m",
+        "change": "not stated",
+        "basis": "statutory",
+        "note": "H1 2026 vs H125"
+      },
+      {
+        "metric": "(Loss)/profit after tax",
+        "current": "-£11.5m",
+        "prior": "£7.0m",
+        "change": "not stated",
+        "basis": "statutory",
+        "note": "H1 2026 vs H125"
+      },
+      {
+        "metric": "Adjusted (loss)/profit before tax",
+        "current": "-£2.6m",
+        "prior": "£23.8m",
+        "change": "not stated",
+        "basis": "adjusted",
+        "note": "H1 2026 vs H125"
+      },
+      {
+        "metric": "Adjusted free cash flow",
+        "current": "£20.7m",
+        "prior": "£15.3m",
+        "change": "+35.3%",
+        "basis": "not stated",
+        "note": "H1 2026 vs H125"
+      },
+      {
+        "metric": "Net bank debt",
+        "current": "£337.8m",
+        "prior": "£356.7m",
+        "change": "not stated",
+        "basis": "not stated",
+        "note": "leverage 2.4x vs 2.2x"
+      },
+      {
+        "metric": "Hospital revenue",
+        "current": "£720.6m",
+        "prior": "£732.3m",
+        "change": "-1.6%",
+        "basis": "comparable basis",
+        "note": "adj EBITDA margin 14.8% vs 17.8%"
+      },
+      {
+        "metric": "Primary Care revenue",
+        "current": "£72.1m",
+        "prior": "£64.4m",
+        "change": "+8.1%",
+        "basis": "comparable basis",
+        "note": "adj EBITDA £5.5m vs £3.8m"
+      },
+      {
+        "metric": "ROCE",
+        "current": "6.7%",
+        "prior": "8.1%",
+        "change": "-140bps",
+        "basis": "not stated",
+        "note": "H1 2026 vs H125"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Adjusted EBITDA for FY26 to be broadly in line with FY25",
+      "current": "Continues to target adjusted EBITDA for FY26 to be broadly in line with FY25, as previously communicated",
+      "commentary": "Full-year adjusted EBITDA guidance is unchanged, despite the H1 EBITDA decline, with management pointing to improving NHS volumes in the second half."
+    },
+    "explainer": "Spire's headline revenue barely moved year on year, but the mix shifted markedly. Growth in higher-value private work — Self-Pay, private medical insurance (PMI) and Primary Care — offset a steep fall in NHS-funded activity after the NHS cut its commissioning early in the year. Because much of Spire's cost base is fixed (hospitals, staff), lost NHS volume dropped almost straight through to profit, so adjusted EBITDA fell 16.6% even though revenue was flat.\n\nThe figures are shown on a 'comparable basis', which strips out the effect of acquisitions bought at different times so growth rates reflect like-for-like performance. The move from an H1 2025 profit to an H1 2026 loss reflects that lower EBITDA plus higher depreciation, amortisation and financing costs; the statutory loss before tax was £14.8m versus a £10.8m profit a year earlier.\n\nEncouragingly, the NHS drag eased through the half — the year-on-year decline narrowed from about 25% in Q1 to around 3% in Q2 after commissioning plans reset in April — and Spire says over 95% of its NHS activity plan for 2026/27 is already agreed, giving visibility into the second half.\n\nOn guidance, nothing changed: management still expects full-year adjusted EBITDA to be broadly in line with last year. That implies a stronger second half, leaning on recovering NHS volumes and continued private-payor growth. Cash generation was a bright spot, with adjusted free cash flow up 35% and net debt lower, though leverage edged up to 2.4x because earnings fell faster than debt.",
+    "source_url": "https://uk.advfn.com/stock-market/london/spire-healthcare-SPI/share-news/Spire-Healthcare-Group-PLC-Results-for-the-six-mon/99398159",
+    "related_news_url": "https://news.google.com/search?q=%22Spire%20Healthcare%20Group%20plc%22",
+    "added_at": "2026-09-30T07:57:19.762676"
+  },
+  {
+    "company": "Sylvania Platinum Limited",
+    "ticker": "SLP",
+    "publish_date": "30 September 2026",
+    "date_iso": "2026-09-30",
+    "time_period": "",
+    "announcement_type": "Share buyback",
+    "period_detail": "",
+    "type_workings": "Rule 'capital returns': opening bullets announce a share buyback [rns.json record]",
+    "body": "<ul><li>Routine buyback: <strong>Sylvania Platinum</strong> purchased <strong>75,000 ordinary shares</strong> between <strong>24 and 29 September 2026</strong> through <strong>Panmure Liberum Limited</strong>.</li><li>Prices: <strong>25,000 shares</strong> on <strong>24 Sep</strong> at <strong>95.00p</strong>, and <strong>50,000 shares</strong> on <strong>29 Sep</strong> at a weighted average <strong>94.80p</strong> (range 94.60p–95.00p).</li><li>Post-purchase, <strong>13,347,534 shares</strong> are held in treasury; total voting rights stand at <strong>258,314,191 shares</strong> (issued capital 271,661,725). Routine disclosure with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Sylvania Platinum bought back 75,000 ordinary shares between 24 and 29 September 2026 via Panmure Liberum.",
+    "priority": "low",
+    "priority_reason": "Routine daily share buyback transaction disclosure with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/sylvania-platinum-ltd-di---slp/share-buyback-update/9797709",
+    "related_news_url": "https://news.google.com/search?q=%22Sylvania%20Platinum%20Ltd%20(DI)%22",
+    "added_at": "2026-09-30T07:36:10.323274"
+  },
+  {
+    "company": "Babcock International Group PLC",
+    "ticker": "BAB",
+    "publish_date": "30 September 2026",
+    "date_iso": "2026-09-30",
+    "time_period": "",
+    "announcement_type": "Contract update",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Babcock International Group PLC</strong> has agreed a <strong>two-month extension</strong> to the Future Maritime Support Programme (FMSP) bridging agreement with the <strong>UK Ministry of Defence (MOD)</strong>, commencing <strong>1 October 2026</strong>.</li><li>The extension maintains continuity of <strong>critical naval base and nuclear submarine fleet support services</strong> while Babcock and the MOD finalise the successor contract, the <strong>Gateway Agreement</strong>.</li><li>The Gateway Agreement is set to provide the long-term framework for Babcock as <strong>sole provider of in-service submarine support</strong> to the Royal Navy, supporting the Continuous At Sea Deterrent.</li><li>No contract value, revenue impact or financial terms are disclosed in the announcement.</li></ul>",
+    "source_format": "html",
+    "headline": "Babcock agrees a two-month extension to its FMSP bridging agreement with the MOD from 1 October 2026, pending the successor Gateway Agreement.",
+    "priority": "medium",
+    "priority_reason": "A two-month bridging extension providing continuity of an existing MOD contract while the successor deal is finalised; material to the relationship but interim in nature.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/babcock-international-group--bab/babcock-fmsp-bridging-agreement-extended/9797749",
+    "related_news_url": "https://news.google.com/search?q=%22Babcock%20International%20Group%22",
+    "added_at": "2026-09-30T07:36:10.307551"
+  },
+  {
+    "company": "IWG",
+    "ticker": "IWG",
+    "publish_date": "30 September 2026",
+    "date_iso": "2026-09-30",
+    "time_period": "FY 2026",
+    "announcement_type": "Buyback programme increase",
+    "period_detail": "FY 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>International Workplace Group plc</strong> announces an increase to its 2026 share buyback of <strong>up to $50m</strong>, taking the total programme to <strong>$200m</strong> for 2026.</li><li>Follows earlier tranches announced on <strong>31 December 2025</strong>, <strong>3 March 2026</strong> and <strong>30 June 2026</strong>.</li><li>Conducted under the authority granted at the AGM on <strong>19 May 2026</strong> for <strong>145,918,746 ordinary shares</strong>; after purchases since, the maximum still available is <strong>122,142,744 shares</strong>.</li><li>Company confirms it currently holds <strong>no unpublished inside information</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "IWG lifts its 2026 share buyback by up to $50m, taking the full-year programme to $200m.",
+    "priority": "medium",
+    "priority_reason": "Expansion of an existing capital-return programme, not a routine daily buyback transaction.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/iwg--iwg/increase-to-2026-share-buyback-programme-/9797861",
+    "related_news_url": "https://news.google.com/search?q=%22IWG%22",
+    "added_at": "2026-09-30T07:35:37.705923"
+  },
+  {
+    "company": "Mortgage Advice Bureau (Holdings) PLC",
+    "ticker": "MAB1",
+    "publish_date": "30 September 2026",
+    "date_iso": "2026-09-30",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Jo Stent</strong> will be appointed <strong>Group Chief Financial Officer</strong> and to the Board as an executive Director with effect from <strong>1 October 2026</strong>, following her arrival as CFO Designate on <strong>6 July 2026</strong>.</li><li><strong>Emilie McCarthy</strong> steps down as Group CFO and as a Director on <strong>30 September 2026</strong> and leaves the Group on that date.</li><li><strong>Nathan Imlach</strong> has resigned as a non-executive Director with effect from <strong>30 September 2026</strong> and ceases to be a member of the Nomination Committee.</li><li>Stent's appointment to certain roles within the Group's regulated businesses remains subject to <strong>FCA approval</strong>, with a further announcement to follow.</li><li>Routine UKLR 6.4.8R directorship disclosure; <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Jo Stent becomes Group CFO and joins the board from 1 October 2026 as Emilie McCarthy steps down; NED Nathan Imlach also resigns.",
+    "priority": "medium",
+    "priority_reason": "A change of Group CFO plus a non-executive director resignation are material board changes, though with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/mortgage-advice-bureau-MAB1/share-news/Mortgage-Advice-Bureau-Hldgs-PLC-Board-Changes/99395033",
+    "related_news_url": "https://news.google.com/search?q=%22Mortgage%20Advice%20Bureau%20(Holdings)%20plc%22",
+    "added_at": "2026-09-30T07:16:48.197308"
+  },
+  {
+    "company": "Spirax Group PLC",
+    "ticker": "SPX",
+    "publish_date": "30 September 2026",
+    "date_iso": "2026-09-30",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Angela Archon</strong>, a US-based Non-Executive Director since <strong>2020</strong>, will step down from the board effective <strong>31 December 2026</strong> to reduce her overseas time commitments.</li><li>Chair <strong>Tim Cobbold</strong> thanked her for six years' contribution; the <strong>Nomination Committee</strong> will shortly begin a process to appoint a replacement.</li><li>Routine board change with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Non-Executive Director Angela Archon to step down from the Spirax Group board effective 31 December 2026 to reduce overseas commitments.",
+    "priority": "medium",
+    "priority_reason": "Non-executive director resignation is a board change with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/spirax-SPX/share-news/Spirax-Group-PLC-Directorate-change/99394360",
+    "related_news_url": "https://news.google.com/search?q=%22Spirax%20Group%20PLC%22",
+    "added_at": "2026-09-30T07:16:19.827309"
+  },
+  {
+    "company": "NatWest Group PLC",
+    "ticker": "NWG",
+    "publish_date": "30 September 2026",
+    "date_iso": "2026-09-30",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Roisin Donnelly</strong> will succeed <strong>Lena Wilson</strong> as Chair of the <strong>Group Performance and Remuneration Committee</strong>, effective <strong>1 October 2026</strong>.</li><li>Chair <strong>Rick Haythornthwaite</strong> cited Donnelly's \"extensive Board and remuneration experience\"; the announcement notes no further disclosure required under <strong>Listing Rule 6.4.6R</strong>.</li><li>Routine committee-chair succession with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Roisin Donnelly to succeed Lena Wilson as Chair of NatWest's Group Performance and Remuneration Committee from 1 October 2026.",
+    "priority": "medium",
+    "priority_reason": "Board committee chair succession — a governance change with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/natwest-NWG/share-news/NatWest-Group-plc-Board-Committee-Chair-Succession/99394093",
+    "related_news_url": "https://news.google.com/search?q=%22NatWest%20Group%20plc%22",
+    "added_at": "2026-09-30T07:16:19.753230"
+  },
+  {
+    "company": "Harworth Group PLC",
+    "ticker": "HWG",
+    "publish_date": "29 September 2026",
+    "date_iso": "2026-09-29",
+    "time_period": "",
+    "announcement_type": "Acquisition / deal",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Peel Pepper (UK) Limited</strong> ('BidCo'), indirectly wholly owned by <strong>Peel Holdings Group Limited</strong>, has declared its recommended increased best and final cash offer for <strong>Harworth Group PLC</strong> wholly <strong>unconditional</strong> at <strong>187 pence per share</strong>.</li><li>As at 1.00 p.m. on <strong>29 September 2026</strong>, BidCo counted <strong>170,247,183 shares (approx. 52.06%)</strong> towards the Acceptance Condition, which is now satisfied; withdrawal rights have ceased.</li><li>BidCo has agreed further purchases of <strong>49,216,852 shares</strong> at or below 187p; on settlement (by <strong>1 October 2026</strong>) it and concert parties will own or hold acceptances over <strong>219,452,851 shares, approx. 67.11%</strong>.</li><li>Offer had been raised from <strong>177.5p</strong> (16 September) to a best and final <strong>187p</strong> (25 September); it became a mandatory offer under Rule 9 after crossing 30%. The Harworth Board considers the terms fair and reasonable and recommends acceptance.</li><li>At <strong>75%</strong> BidCo intends to seek cancellation of the listing and re-register Harworth as a private company; at <strong>90%</strong> it intends compulsory acquisition of remaining shares. Offer remains open with at least 14 days' notice before closing.</li><li>Calculations based on <strong>326,987,774 Harworth shares</strong> in issue; advisers include <strong>Rothschild & Co</strong> (BidCo), <strong>Barclays</strong> and <strong>Peel Hunt</strong> (Harworth).</li></ul>",
+    "source_format": "html",
+    "headline": "Peel's BidCo declares its recommended increased best and final 187p-per-share cash offer for Harworth unconditional, holding 52.06% of shares and control.",
+    "priority": "high",
+    "priority_reason": "Peel's recommended 187p cash offer for Harworth has gone unconditional, handing the bidder majority control and putting the company on a path to delisting.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/harworth-HWG/share-news/Goodweather-Holdings-Limited-Offer-Declared-Uncond/99395174",
+    "related_news_url": "https://news.google.com/search?q=%22Harworth%20Group%20PLC%22",
+    "added_at": "2026-09-30T07:16:48.176877"
+  },
+  {
+    "company": "Schroder European Real Estate Investment Trust Ltd",
+    "ticker": "SERE",
+    "publish_date": "29 September 2026",
+    "date_iso": "2026-09-29",
+    "time_period": "",
+    "announcement_type": "Dividend declaration",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Schroder European Real Estate Investment Trust plc</strong> has set the ZAR exchange rate for the <strong>third interim dividend</strong> of <strong>1.48 euro cents per share</strong> declared on <strong>17 September 2026</strong> for the year ending <strong>30 September 2026</strong>.</li><li>Applying an exchange rate of <strong>18.65000</strong>, the gross dividend is <strong>27.60200 South African cents per share</strong>; after <strong>20%</strong> dividend withholding tax the net is <strong>22.08160 SA cents per share</strong> for SA-register holders.</li><li>Routine currency-conversion disclosure relevant only to shareholders on the South African branch register — <strong>no impact</strong> on trading or guidance. The Company has <strong>131,407,986 shares</strong> in issue excluding treasury.</li></ul>",
+    "source_format": "html",
+    "headline": "Schroder European Real Estate sets South African rand exchange rate for its already-declared third interim dividend of 1.48 euro cents per share.",
+    "priority": "low",
+    "priority_reason": "Routine administrative notice setting the ZAR exchange rate for an already-declared dividend paid to South African-register shareholders, with no trading or guidance impact.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/schroder-european-real-estate-investment-trust--sere/dividend-currency-exchange-rate-sa-rand-/9797020",
+    "related_news_url": "https://news.google.com/search?q=%22Schroder%20European%20Real%20Estate%20Investment%20Trust%22",
+    "added_at": "2026-09-29T15:35:41.696562"
+  },
+  {
+    "company": "NatWest Group PLC",
+    "ticker": "NWG",
+    "publish_date": "29 September 2026",
+    "date_iso": "2026-09-29",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Roisin Donnelly</strong> will succeed <strong>Lena Wilson</strong> as Chair of the <strong>Group Performance and Remuneration Committee</strong> with effect from <strong>1 October 2026</strong>.</li><li>Chair <strong>Rick Haythornthwaite</strong> thanked Wilson and cited Donnelly's remuneration and Board experience; <strong>no further matters</strong> require disclosure under Listing Rule 6.4.6R.</li><li>Routine governance disclosure with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Roisin Donnelly will succeed Lena Wilson as Chair of NatWest's Group Performance and Remuneration Committee from 1 October 2026.",
+    "priority": "medium",
+    "priority_reason": "A board committee chair succession — a governance change with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/natwest-group--nwg/board-committee-chair-succession/9797186",
+    "related_news_url": "https://news.google.com/search?q=%22NATWEST%20GROUP%22",
+    "added_at": "2026-09-29T15:35:41.675385"
+  },
+  {
+    "company": "Galliford Try Holdings PLC",
+    "ticker": "GFRD",
+    "publish_date": "29 September 2026",
+    "date_iso": "2026-09-29",
+    "time_period": "",
+    "announcement_type": "Acquisition / deal",
+    "period_detail": "",
+    "type_workings": "Rule 'M&A': opening bullets lead with 'to acquire' [rns.json record]",
+    "body": "<ul><li><strong>Galliford Try Holdings plc</strong> employee share trust trustees (<strong>BWCI Group Limited</strong>) have entered a trading plan to acquire ordinary shares, running <strong>1 October 2026 to 26 March 2027</strong>.</li><li><strong>Peel Hunt LLP</strong> instructed to buy up to <strong>126,500 shares</strong> per calendar month, capped at <strong>759,000 shares</strong> in total across the period.</li><li>Shares intended to satisfy future vesting under executive share incentive schemes; issued share capital is <strong>100,842,882 ordinary shares</strong> of 50 pence each.</li><li>Routine trust administration disclosure with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Galliford Try's employee share trust has set up a trading plan to buy up to 759,000 ordinary shares between 1 October 2026 and 26 March 2027.",
+    "priority": "low",
+    "priority_reason": "Routine employee share trust trading plan to satisfy incentive awards, with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/galliford-try--gfrd/employee-share-trust-trading-plan/9797022",
+    "related_news_url": "https://news.google.com/search?q=%22Galliford%20Try%22",
+    "added_at": "2026-09-29T14:55:39.490919"
+  },
+  {
+    "company": "RHI Magnesita NV",
+    "ticker": "RHIM",
+    "publish_date": "29 September 2026",
+    "date_iso": "2026-09-29",
+    "time_period": "",
+    "announcement_type": "Acquisition / deal",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>RHI Magnesita N.V.</strong> confirms it is in advanced discussions with the board of <strong>Vesuvius plc</strong> over a possible recommended cash-and-share offer for the entire issued share capital of Vesuvius.</li><li>Latest Proposal (made <strong>27 August 2026</strong>) values each Vesuvius share at a headline <strong>549 pence</strong>, based on RHIM's share price on <strong>28 September 2026</strong>; an initial <strong>448p</strong> approach on <strong>29 September 2025</strong> and subsequent revised bids were rejected.</li><li>Vesuvius shareholders would hold about <strong>13%</strong> of the enlarged RHIM (approx <strong>7.1m</strong> new RHIM shares) and would retain the <strong>7.1p</strong> 2026 interim dividend; a mix-and-match facility would be offered and cash funded by new debt facilities.</li><li>Vesuvius's largest shareholder <strong>Cevian Capital</strong> (<strong>23%</strong>, 57,249,896 shares) has signed an irrevocable undertaking to support a recommended offer; RHIM's board and largest holders <strong>MSP Stiftung</strong> and <strong>Rhône</strong> funds are supportive.</li><li>PUSU deadline: RHIM must announce a firm intention or walk away by <strong>5.00pm on 27 October 2026</strong> under Rule 2.6(a); no certainty a firm offer will be made.</li><li>Note: the text states an inconsistent Initial Proposal date (<strong>29 September 2025</strong>) versus the offer period commencing around 28-29 September 2026 — dates as written in the source.</li></ul>",
+    "source_format": "html",
+    "headline": "RHI Magnesita confirms advanced talks over a possible recommended cash-and-share offer for Vesuvius plc valuing it at 549p per share.",
+    "priority": "high",
+    "priority_reason": "Rule 2.4 statement confirming advanced talks over a recommended cash-and-share takeover of Vesuvius plc.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/rhi-magnesita-nv-RHIM/share-news/RHI-Magnesita-N-V-Statement-re-Possible-Offer/99389355",
+    "related_news_url": "https://news.google.com/search?q=%22RHI%20Magnesita%20N.V.%22",
+    "added_at": "2026-09-29T11:56:17.351427"
+  },
+  {
+    "company": "Schroders PLC",
+    "ticker": "SDR",
+    "publish_date": "29 September 2026",
+    "date_iso": "2026-09-29",
+    "time_period": "",
+    "announcement_type": "Acquisition / deal",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li>The <strong>High Court</strong> has today sanctioned the <strong>Scheme of Arrangement</strong> for the recommended cash acquisition of <strong>Schroders PLC</strong> by <strong>Pantheon, LLC</strong> (Bidco), a subsidiary of <strong>Nuveen, LLC</strong>, a <strong>TIAA</strong> company.</li><li>The Scheme becomes Effective on delivery of the Court Order to the Registrar of Companies, expected on <strong>1 October 2026</strong>; the deal terms were first agreed on <strong>12 February 2026</strong>.</li><li>Last day of dealings in Schroders shares is tomorrow, <strong>30 September 2026</strong>; trading and listing are expected to be suspended from <strong>7:30 a.m. on 1 October 2026</strong>.</li><li>De-listing from the Official List and cancellation from the Main Market to take effect by <strong>8:00 a.m. on 2 October 2026</strong>.</li><li>No material change to the expected timetable set out in the <strong>22 September 2026</strong> announcement; a further announcement will follow when the Scheme is Effective.</li></ul>",
+    "source_format": "html",
+    "headline": "The Court has sanctioned the scheme of arrangement for the recommended cash acquisition of **Schroders** by **Nuveen/TIAA**, with completion expected on **1 October 2026**.",
+    "priority": "high",
+    "priority_reason": "Court has sanctioned the takeover of Schroders, with shares set to be suspended and de-listed within days.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/schroders--sdr/court-sanction-of-scheme-of-arrangement/9796591",
+    "related_news_url": "https://news.google.com/search?q=%22Schroders%22",
+    "added_at": "2026-09-29T11:35:39.220906"
+  },
+  {
+    "company": "British American Tobacco p.l.c.",
+    "ticker": "BATS",
+    "publish_date": "29 September 2026",
+    "date_iso": "2026-09-29",
+    "time_period": "FY26; Horizon 2030 (targets to 2030) and to 2035",
+    "announcement_type": "Trading update",
+    "period_detail": "FY26; Horizon 2030 (targets to 2030) and to 2035",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>BAT</strong> hosts a <strong>Capital Markets Day</strong> in <strong>Winston-Salem, North Carolina</strong> on <strong>29 September 2026</strong>, with CEO <strong>Tadeu Marroco</strong> outlining <strong>Horizon 2030</strong> ambitions.</li><li>On track to deliver towards the <strong>lower end</strong> of <strong>3-5%</strong> revenue and <strong>4-6%</strong> adjusted profit from operations growth in <strong>FY26</strong>, with adjusted diluted EPS growth towards the <strong>middle</strong> of the <strong>5-8%</strong> range (constant rates).</li><li>Flags a translational <strong>FX headwind of c.2-2.5%</strong> on FY26 adjusted diluted EPS growth at current spot rates (<strong>USD/GBP 1.3245</strong>); all other guidance unchanged.</li><li>Horizon 2030 targets: grow <strong>New Category revenue by mid-teens</strong> through 2030 and lift <strong>New Category contribution margin to at least 30%</strong> by 2030.</li><li>Expects to be within its <strong>2.0-2.5x target leverage range</strong> by year-end while continuing strong cash returns.</li><li>Smokeless products reached <strong>35.0 million</strong> adult consumers and <strong>19.8%</strong> of Group revenue as of 30 June 2026; 2025 Group revenue was <strong>£25.6bn</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "BAT reaffirms FY26 guidance towards the lower end of its revenue and profit ranges and sets Horizon 2030 targets for mid-teens New Category revenue growth.",
+    "priority": "high",
+    "priority_reason": "Reaffirms FY26 guidance, quantifies a new FX headwind and sets fresh Horizon 2030 medium-term targets at a Capital Markets Day.",
+    "figures": [
+      {
+        "metric": "FY26 revenue growth guidance",
+        "current": "3-5% (towards lower end)",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "constant rates",
+        "note": "FY26"
+      },
+      {
+        "metric": "FY26 adjusted profit from operations growth",
+        "current": "4-6% (towards lower end)",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "constant rates",
+        "note": "FY26"
+      },
+      {
+        "metric": "FY26 adjusted diluted EPS growth",
+        "current": "5-8% (towards middle)",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "constant rates; c.2-2.5% translational FX headwind",
+        "note": "FY26"
+      },
+      {
+        "metric": "Smokeless share of Group revenue",
+        "current": "19.8%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "as of 30 June 2026",
+        "note": "target 50% by 2035"
+      },
+      {
+        "metric": "Group revenue (2025)",
+        "current": "£25.6bn",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "FY2025"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "3-5% revenue growth, 4-6% adjusted profit from operations growth, 5-8% adjusted diluted EPS growth (all constant rates); 2.0-2.5x target leverage.",
+      "current": "Towards the lower end of 3-5% revenue and 4-6% adjusted profit growth, with EPS growth towards the middle of 5-8%; within 2.0-2.5x leverage by year-end; c.2-2.5% translational FX headwind on FY26 EPS; all other guidance unchanged.",
+      "commentary": "FY26 guidance is reaffirmed rather than changed, but BAT now steers to the lower end of its revenue and profit ranges and quantifies a c.2-2.5% translational FX headwind on adjusted diluted EPS at current spot rates. New Horizon 2030 medium-term targets (mid-teens New Category revenue growth and at least 30% New Category contribution margin) were also introduced."
+    },
+    "explainer": "This is a strategy day rather than a results release, so most numbers are guidance ranges rather than reported figures with comparatives. The FY26 targets are all measured at constant currency, meaning they strip out exchange-rate movements to show underlying growth. BAT is signalling it expects to land at the softer end of its revenue and adjusted profit ranges, while earnings per share growth should come in around the middle of its 5-8% band.\n\nThe key change of tone is the currency warning: at the 25 September spot rate of USD/GBP 1.3245, translating overseas earnings back into sterling is expected to knock about 2-2.5% off reported adjusted diluted EPS growth. This is a translation effect, not a deterioration in the underlying business, and BAT stresses all other guidance is unchanged.\n\nThe Horizon 2030 targets are new medium-term ambitions: growing revenue from New Categories (vapour, heated products and nicotine pouches) by a mid-teens percentage annually through 2030, and pushing those products' contribution margin to at least 30% by 2030 as they scale and premiumise. Longer term, BAT wants smokeless products to make up half of Group revenue by 2035, versus 19.8% at the half-year.",
+    "source_url": "https://uk.advfn.com/stock-market/london/british-american-tobacco-BATS/share-news/British-American-Tobacco-PLC-BAT-2026-Capital-Mark/99388936",
+    "related_news_url": "https://news.google.com/search?q=%22British%20American%20Tobacco%20p.l.c.%22",
+    "added_at": "2026-09-29T09:56:21.359560"
+  },
+  {
+    "company": "Vesuvius plc",
+    "ticker": "VSVS",
+    "publish_date": "29 September 2026",
+    "date_iso": "2026-09-29",
+    "time_period": "",
+    "announcement_type": "M&A / takeover approach",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Vesuvius plc</strong> confirms it has received a series of unsolicited, non-binding indicative proposals from <strong>RHI Magnesita N.V.</strong> since <strong>September 2025</strong> regarding a possible offer for the entire share capital.</li><li>The latest proposal, received <strong>27 August 2026</strong>, is valued at <strong>551 pence per share</strong> (based on RHI's 1-month VWAP), with shareholders taking <strong>c.7.1m new RHI shares</strong> and owning <strong>c.13%</strong> of the enlarged group; it preserves the <strong>7.1p interim dividend</strong>.</li><li><strong>Cevian Capital AB</strong>, a shareholder since <strong>2012</strong> and a Board nominator, has given RHI an irrevocable undertaking to support a recommended offer on the latest terms.</li><li>Earlier proposals were all unanimously rejected: an initial cash offer at <strong>448p</strong> on <strong>29 September 2025</strong>, an all-cash <strong>March Proposal</strong> at <strong>550p</strong> (17 March 2026), and a part-share <strong>June Proposal</strong> at <strong>550p</strong> rejected on <strong>29 June 2026</strong>.</li><li>The Board is evaluating the latest proposal with its advisers; shareholders are advised to take no action.</li><li>Under Rule 2.6(a), RHI must announce a firm intention to make an offer or walk away by <strong>5pm on 27 October 2026</strong> — a Rule 2.4 announcement, not a firm offer, with no certainty a bid follows.</li></ul>",
+    "source_format": "html",
+    "headline": "Vesuvius confirms a series of unsolicited proposals from RHI Magnesita, the latest valuing it at 551p per share; RHI has until 27 October to make a firm offer.",
+    "priority": "high",
+    "priority_reason": "Confirmed takeover approach from RHI Magnesita with a formal PUSU deadline, a highly price-sensitive situation.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/vesuvius-VSVS/share-news/Vesuvius-plc-Response-to-Media-Speculation/99388801",
+    "related_news_url": "https://news.google.com/search?q=%22Vesuvius%20plc%22",
+    "added_at": "2026-09-29T08:55:56.717649"
+  },
+  {
+    "company": "Zigup PLC",
+    "ticker": "ZIG",
+    "publish_date": "29 September 2026",
+    "date_iso": "2026-09-29",
+    "time_period": "FY to 30 April 2027 (first four months)",
+    "announcement_type": "Trading update",
+    "period_detail": "FY to 30 April 2027 (first four months)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>ZIGUP plc</strong> expects full-year <strong>adjusted PBT</strong> to be at the <strong>top</strong> of the current market range of <strong>£163.2m-£170.0m</strong>, following a strong first four months, particularly in <strong>Spain</strong> and <strong>FMG</strong>.</li><li>Average <strong>vehicles on hire (VoH)</strong> more than <strong>5% ahead</strong> of the prior year at end-August; <strong>Spanish fleet</strong> now exceeds <strong>80,000 vehicles</strong>.</li><li><strong>FMG</strong> volumes strong, aided by the re-awarding and expansion of the <strong>Motability</strong> contract by one of its largest insurance partners.</li><li><strong>Leverage</strong> in line with the <strong>1-2x</strong> target range; balance sheet backed by <strong>£1.8bn</strong> of fleet assets.</li><li>Shareholders asked to approve a <strong>final dividend of 18.2p</strong>, payable <strong>30 September 2026</strong> (record date 28 August 2026), taking the total ordinary dividend for FY to 30 April 2026 to <strong>27.0p</strong>.</li><li>Next update: interim results for the six months to <strong>31 October 2026</strong>, expected <strong>2 December 2026</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "ZIGUP upgrades full-year adjusted PBT expectations to the top of the current market range of **£163.2m-£170.0m** after a strong start driven by Spain and FMG.",
+    "priority": "high",
+    "priority_reason": "AGM statement upgrades full-year adjusted PBT expectations to the top of the market range, a positive guidance change.",
+    "figures": [
+      {
+        "metric": "Adjusted PBT (FY market expectations range)",
+        "current": "£163.2m-£170.0m (expected at top)",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "adjusted",
+        "note": "current financial year"
+      },
+      {
+        "metric": "Average vehicles on hire (VoH)",
+        "current": "more than 5% ahead of prior year",
+        "prior": "not stated",
+        "change": "+5%+",
+        "basis": "as at end-August",
+        "note": ""
+      },
+      {
+        "metric": "Final dividend",
+        "current": "18.2p",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "per share",
+        "note": "payable 30 September 2026"
+      },
+      {
+        "metric": "Total ordinary dividend",
+        "current": "27.0p",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "per share",
+        "note": "year ended 30 April 2026"
+      }
+    ],
+    "guidance": {
+      "status": "raised",
+      "previous": "Adjusted PBT within the current market expectations range of £163.2m-£170.0m",
+      "current": "Adjusted PBT expected to be at the top of the current market expectations range of £163.2m-£170.0m",
+      "commentary": "ZIGUP now expects to land at the top rather than within the range, driven by strong recent performance in Spain and at FMG, including the re-awarding and expansion of a large Motability contract."
+    },
+    "explainer": "This is an AGM trading statement covering the first four months of the financial year rather than a full set of results, so it prints few comparative figures. The key move is on guidance: instead of the adjusted PBT range of £163.2m to £170.0m that the market previously carried, the Board now expects the result to land at the top of that range. Adjusted PBT strips out one-off and non-underlying items, so it reflects the trading run-rate rather than statutory profit.\n\nThe upgrade is attributed to Spain (where the fleet has grown beyond 80,000 vehicles) and to FMG, its accident-management arm, which is benefiting from the re-awarding and expansion of a Motability contract by a major insurance partner. Average vehicles on hire being more than 5% ahead of last year points to higher utilisation feeding the profit improvement.\n\nOn the balance sheet, leverage sits within the company's 1-2x target range and is underpinned by £1.8bn of fleet assets. The dividend figures (18.2p final, 27.0p total) relate to the prior year ended 30 April 2026 and are being put to shareholders for approval at the AGM, so they are separate from the current-year profit upgrade.",
+    "source_url": "https://uk.advfn.com/stock-market/london/zigup-ZIG/share-news/ZIGUP-PLC-AGM-Statement/99387859",
+    "related_news_url": "https://news.google.com/search?q=%22ZIGUP%20plc%22",
+    "added_at": "2026-09-29T08:00:49.531012"
+  },
+  {
+    "company": "S & U PLC",
+    "ticker": "SUS",
+    "publish_date": "29 September 2026",
+    "date_iso": "2026-09-29",
+    "time_period": "H1 2026/27 (26 weeks to 5 August 2026)",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 2026/27 (26 weeks to 5 August 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Group profit GBP15.7m</strong> (H1 2025: <strong>GBP15.6m</strong>) on <strong>revenue of GBP57.3m, up 11%</strong>; profit after tax <strong>GBP11.77m</strong> (H1 2025: <strong>GBP11.60m</strong>).</li><li>Motor finance arm <strong>Advantage</strong> profit <strong>GBP11.8m, up 9.3%</strong>, with receivables <strong>GBP341.1m</strong> (H1 2025: <strong>GBP279.1m</strong>) and advances up <strong>48.7%</strong> to <strong>GBP105.0m</strong>.</li><li>Bridging arm <strong>Aspen</strong> profit <strong>GBP4.0m</strong> (H1 2025: <strong>GBP5.0m</strong>, boosted by a large one-off recovery); receivables <strong>GBP199.9m</strong> (H1 2025: <strong>GBP147.8m</strong>) amid a tough UK property market.</li><li>Record <strong>net receivables of GBP541.0m, up 26.8%</strong>, funded by <strong>GBP43.3m</strong> of additional net borrowings; group borrowings <strong>GBP285.1m</strong>, up <strong>GBP105.1m</strong>; gearing <strong>114%</strong>.</li><li>Inaugural <strong>securitisation programme</strong> agreed with <strong>two banking partners</strong> providing up to <strong>GBP600m</strong> of facilities over three years at an improved rate; expected to sign and draw down in <strong>October</strong>.</li><li>First interim dividend raised to <strong>36.0p</strong> (2025: <strong>35.0p</strong>), payable <strong>6 November 2026</strong> to shareholders on the register on <strong>9 October 2026</strong>; <strong>Karl Werner</strong> and <strong>Chris Freckelton</strong> join the board, <strong>Graham Wheeler</strong> departs.</li></ul>",
+    "source_format": "html",
+    "headline": "S & U reports H1 group profit of GBP15.7m on revenue up 11% to GBP57.3m, and launches an inaugural securitisation programme of up to GBP600m.",
+    "priority": "high",
+    "priority_reason": "Half-year results from a listed specialist lender, including profit, dividend and a new securitisation funding programme.",
+    "figures": [
+      {
+        "metric": "Revenue",
+        "current": "GBP57.3m",
+        "prior": "not stated",
+        "change": "+11%",
+        "basis": "reported",
+        "note": "H1 to 5 August 2026"
+      },
+      {
+        "metric": "Group profit before tax",
+        "current": "GBP15.7m",
+        "prior": "GBP15.6m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "H1 2026/27 vs H1 2025"
+      },
+      {
+        "metric": "Profit after tax",
+        "current": "GBP11.767m",
+        "prior": "GBP11.602m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "H1 2026/27 vs H1 2025"
+      },
+      {
+        "metric": "Advantage (motor finance) profit",
+        "current": "GBP11.8m",
+        "prior": "not stated",
+        "change": "+9.3%",
+        "basis": "reported",
+        "note": "vs H1 2025"
+      },
+      {
+        "metric": "Aspen (bridging) profit",
+        "current": "GBP4.0m",
+        "prior": "GBP5.0m",
+        "change": "not stated",
+        "basis": "prior year boosted by one-off recovery",
+        "note": "H1 2026/27 vs H1 2025"
+      },
+      {
+        "metric": "Net receivables (group)",
+        "current": "GBP541.0m",
+        "prior": "not stated",
+        "change": "+26.8%",
+        "basis": "reported",
+        "note": "record"
+      },
+      {
+        "metric": "Advantage receivables",
+        "current": "GBP341.1m",
+        "prior": "GBP279.1m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "vs H1 2025"
+      },
+      {
+        "metric": "Aspen receivables",
+        "current": "GBP199.9m",
+        "prior": "GBP147.8m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "vs H1 2025"
+      },
+      {
+        "metric": "Aspen revenue",
+        "current": "GBP12.9m",
+        "prior": "GBP12.5m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "vs H1 2025"
+      },
+      {
+        "metric": "Group borrowings",
+        "current": "GBP285.1m",
+        "prior": "not stated",
+        "change": "+GBP105.1m",
+        "basis": "reported",
+        "note": "increase vs H1 2025"
+      },
+      {
+        "metric": "First interim dividend",
+        "current": "36.0p",
+        "prior": "35.0p",
+        "change": "not stated",
+        "basis": "per share",
+        "note": "payable 6 November 2026"
+      }
+    ],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": "No formal numerical guidance given; management notes possible additional funding requirement of up to GBP300m over three years and flags securitisation of up to GBP600m expected to sign in October."
+    },
+    "explainer": "S & U is a specialist lender with two businesses: Advantage, its motor (used-car hire purchase) finance arm, and Aspen, its property bridging arm. Group pre-tax profit was broadly flat at GBP15.7m against GBP15.6m, but the underlying picture is one of recovery: Advantage profit rose 9.3% to GBP11.8m, while Aspen fell from GBP5.0m to GBP4.0m only because the prior-year figure was inflated by a large, unexpected debt recovery. On a like-for-like basis Aspen held up in a weak housing market.\n\nThe headline growth is in the loan book. Net receivables jumped 26.8% to a record GBP541.0m, meaning S & U is lending more and choosing to invest for future income rather than harvest short-term profit. That growth is being funded by extra borrowing (group borrowings up GBP105.1m to GBP285.1m, gearing 114%), which is why revenue can rise 11% while profit is flat — the returns come later as these loans mature.\n\nThe most strategically significant item is the new securitisation programme: up to GBP600m of bank facilities over three years at a better rate than existing funding, expected to be signed and drawn in October. This gives cheaper, more scalable funding to support planned growth (management flags a possible further GBP300m need over three years) and, over time, could improve how the loan book is valued.\n\nNo formal profit guidance is issued. The first interim dividend rises to 36.0p from 35.0p, a modest increase signalling board confidence despite an uncertain economic and regulatory backdrop for both motor finance (ongoing legal challenges over broker commissions) and property lending.",
+    "source_url": "https://uk.advfn.com/stock-market/london/s-and-u-SUS/share-news/S-U-PLC-Interim-Results-for-the-period-ended-5-A/99387866",
+    "related_news_url": "https://news.google.com/search?q=%22S%20%26%20U%20plc%22",
+    "added_at": "2026-09-29T08:00:20.221178"
+  },
+  {
+    "company": "CLS Holdings PLC",
+    "ticker": "CLI",
+    "publish_date": "29 September 2026",
+    "date_iso": "2026-09-29",
+    "time_period": "",
+    "announcement_type": "Disposal",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>CLS Holdings plc</strong> has unconditionally exchanged on the sale of <strong>Fangdieckstrasse 75, 75a and 75b in Hamburg</strong> for <strong>€25.35m</strong>, <strong>9% below</strong> the latest valuation.</li><li>The asset comprises c.<strong>13,116 sqm (141,180 sq ft)</strong> of office, laboratory and training space, <strong>almost fully let</strong> with a WAULT of just under <strong>seven years</strong>.</li><li>Acquired in <strong>2007</strong> and repositioned into a <strong>life sciences campus</strong>; completion expected in <strong>Q4 2026</strong>, with proceeds used to <strong>pay down debt</strong>.</li><li>CEO <strong>Fredrik Widlund</strong> said the sale further focuses the German portfolio and reduces debt.</li></ul>",
+    "source_format": "html",
+    "headline": "CLS Holdings has exchanged unconditionally on the sale of its Fangdieckstrasse life sciences campus in Hamburg for €25.35m, 9% below latest valuation.",
+    "priority": "medium",
+    "priority_reason": "A single-asset property disposal used to pay down debt; material to the German portfolio but not to group guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/cls-CLI/share-news/CLS-Holdings-PLC-Sale-of-Fangdieckstrasse-Hamburg/99387861",
+    "related_news_url": "https://news.google.com/search?q=%22CLS%20Holdings%20plc%22",
+    "added_at": "2026-09-29T07:59:41.196928"
+  },
+  {
+    "company": "A.G. Barr p.l.c.",
+    "ticker": "BAG",
+    "publish_date": "29 September 2026",
+    "date_iso": "2026-09-29",
+    "time_period": "H1 26/27 (26 weeks ended 1 August 2026)",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 26/27 (26 weeks ended 1 August 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Revenue up 8.5% to £247.4m</strong> (H1 25/26: <strong>£228.1m</strong>), driven by core brand growth and acquisitions <strong>Fentimans</strong> and <strong>Frobishers</strong>; supply chain issues cost an estimated <strong>£10m</strong> of H1 revenue and are said to be resolved.</li><li><strong>Adjusted PBT up 2.6% to £36.1m</strong>; statutory PBT <strong>down 3.7% to £33.9m</strong> on one-off Fentimans integration costs. Adjusted operating margin <strong>maintained at 15.0%</strong>.</li><li><strong>Adjusted EPS up 0.4% to 24.99p</strong> (24.90p), the lower growth reflecting tax phasing. <strong>Interim dividend up 11% to 3.82p</strong>, in line with policy at 25% of prior-year final.</li><li><strong>Net bank debt of £47.0m</strong> (H1 25/26: <strong>£41.3m net cash</strong>), reflecting the <strong>£53.4m</strong> cash outflow for acquisitions and a peak-capex year; new <strong>£100m three-year</strong> revolving credit facility secured.</li><li>On track to meet FY 26/27 market expectations: <strong>c.10% revenue growth</strong>, adjusted operating margin <strong>c.15%</strong> and ROCE <strong>c.19%</strong>; company-compiled consensus FY adjusted PBT of <strong>£71.5m</strong>.</li><li><strong>Darren Shapland</strong> joined as Non-Executive Chair on <strong>1 September 2026</strong>; <strong>Susan Barratt</strong> stepped down as Interim Chair and remains a NED.</li></ul>",
+    "source_format": "html",
+    "headline": "A.G. Barr grew H1 revenue 8.5% to £247.4m and adjusted PBT 2.6% to £36.1m, remaining on track to meet full-year market expectations.",
+    "priority": "high",
+    "priority_reason": "Interim results from a listed company, with revenue, profit, dividend and full-year guidance.",
+    "figures": [
+      {
+        "metric": "Revenue",
+        "current": "£247.4m",
+        "prior": "£228.1m",
+        "change": "+8.5%",
+        "basis": "reported",
+        "note": "H1 26/27 (26 weeks to 1 August 2026)"
+      },
+      {
+        "metric": "Adjusted profit before tax",
+        "current": "£36.1m",
+        "prior": "£35.2m",
+        "change": "+2.6%",
+        "basis": "adjusted",
+        "note": "H1 26/27"
+      },
+      {
+        "metric": "Statutory profit before tax",
+        "current": "£33.9m",
+        "prior": "£35.2m",
+        "change": "-3.7%",
+        "basis": "statutory",
+        "note": "impacted by Fentimans integration one-offs"
+      },
+      {
+        "metric": "Adjusted EPS",
+        "current": "24.99p",
+        "prior": "24.90p",
+        "change": "+0.4%",
+        "basis": "adjusted",
+        "note": "growth limited by tax phasing"
+      },
+      {
+        "metric": "Adjusted operating margin",
+        "current": "15.0%",
+        "prior": "15.0%",
+        "change": "flat",
+        "basis": "adjusted",
+        "note": "mid-point of 14–16% guided range"
+      },
+      {
+        "metric": "Interim dividend",
+        "current": "3.82p",
+        "prior": "3.44p",
+        "change": "+11%",
+        "basis": "per share",
+        "note": "payable 6 November 2026"
+      },
+      {
+        "metric": "Net bank debt",
+        "current": "£47.0m",
+        "prior": "£41.3m net cash",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "driven by acquisitions and peak capex"
+      },
+      {
+        "metric": "Capital expenditure",
+        "current": "£23.4m",
+        "prior": "£11.0m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "FY guidance c.£40m, a peak investment year"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Full-year market expectations of c.10% revenue growth, adjusted operating margin c.15% and adjusted ROCE c.19%; company-compiled FY 26/27 adjusted PBT consensus of £71.5m.",
+      "current": "On track to meet full-year market expectations: c.10% revenue growth, adjusted operating margin c.15% and adjusted ROCE c.19% (lower end of the 19–21% long-term range).",
+      "commentary": "Guidance is reaffirmed rather than changed. Management expects higher percentage growth in both revenue and profit in H2 than H1, helped by resolved supply constraints and acquisition cost synergies."
+    },
+    "explainer": "Barr reports on a retail-calendar basis, so H1 covers the 26 weeks to 1 August 2026. Revenue growth of 8.5% is reported (i.e. includes the newly acquired Fentimans and Frobishers), not organic; management notes that reported growth was held back by roughly £10m of lost sales from supply-chain disruption during the peak summer months, which it says has now been resolved.\n\nThe gap between adjusted and statutory profit matters here. Adjusted PBT rose 2.6% to £36.1m, but statutory PBT fell 3.7% to £33.9m because of one-off costs of integrating Fentimans. Adjusted EPS barely moved (+0.4%) despite PBT growth, because the prior year benefited from a lower effective tax rate linked to capex timing — a phasing effect rather than a deterioration.\n\nThe swing from £41.3m net cash a year ago to £47.0m net bank debt is explained by acquisition spend (£53.4m) and a peak year of capital investment (c.£40m for the full year) as the Cumbernauld and Milton Keynes manufacturing programmes overlap; the company still expects to end the year in only a small net-debt position.\n\nOn guidance, nothing has changed: Barr reaffirms full-year market expectations, pointing to a company-compiled consensus for FY 26/27 adjusted PBT of £71.5m, and guides to stronger percentage growth in H2 as supply normalises and acquisition synergies come through.",
+    "source_url": "https://uk.advfn.com/stock-market/london/ag-barr-BAG/share-news/BarrA-G-PLC-Interim-Results/99387867",
+    "related_news_url": "https://news.google.com/search?q=%22A.G.%20Barr%20p.l.c.%22",
+    "added_at": "2026-09-29T07:59:41.186286"
+  },
+  {
+    "company": "PayPoint PLC",
+    "ticker": "PAY",
+    "publish_date": "29 September 2026",
+    "date_iso": "2026-09-29",
+    "time_period": "FY27",
+    "announcement_type": "Trading update",
+    "period_detail": "FY27",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>PayPoint Plc</strong> hosting a <strong>Capital Markets Day</strong> at <strong>Investec's</strong> London offices, detailing growth strategy across four business units: <strong>Network Services</strong>, <strong>Digital Payments & Open Banking</strong>, <strong>Love2shop</strong> and <strong>Merchant Services</strong>.</li><li>Medium-term ambition <strong>unchanged</strong>: <strong>5-8% net revenue growth per annum</strong>, supported by strong cash generation and disciplined capital allocation.</li><li>Since the <strong>Q1 FY27 trading update on 29 July 2026</strong>, trading has continued <strong>in line with expectations</strong>; Board confident in meeting market expectations for <strong>FY27</strong>, with performance <strong>weighted to H2</strong>.</li><li>Financial framework update confirms leverage within Board target range, dividends moving towards <strong>~2x cover</strong>, and continuation of the <strong>£30m per annum share buyback</strong> through to <strong>March 2028</strong>.</li><li>New suite of business-unit KPIs introduced covering pipeline, recurring revenue/ARR growth, retailer engagement, Love2shop billings and retention, and merchant processing and churn.</li><li>CEO <strong>Nick Wiles</strong> cited growth routes in Community Banking, digital payments, Open Banking, Love2shop lifetime value and Merchant Services returning to profitable growth.</li></ul>",
+    "source_format": "html",
+    "headline": "PayPoint hosts Capital Markets Day reaffirming its unchanged medium-term ambition of **5-8%** annual net revenue growth, with FY27 trading in line with expectations.",
+    "priority": "medium",
+    "priority_reason": "Capital Markets Day reaffirming existing medium-term ambition with an in-line trading confirmation, but no new financial targets or guidance change.",
+    "figures": [],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Medium-term ambition of 5-8% net revenue growth per annum",
+      "current": "Medium-term ambition of 5-8% net revenue growth per annum (unchanged); FY27 in line with market expectations, H2-weighted",
+      "commentary": "PayPoint reaffirmed its existing medium-term financial ambition and confirmed FY27 trading remains in line with expectations since the 29 July Q1 update. No new targets were set; the event focused on strategy and KPIs following the four-unit reorganisation."
+    },
+    "explainer": "This is a strategy/Capital Markets Day event rather than a results release, so it contains no new headline financial figures with prior-year comparatives. The key reference points — 5-8% net revenue growth, dividends towards roughly two times cover, and the £30m-a-year buyback running to March 2028 — are all restatements of existing targets rather than upgrades.\n\nThe practical takeaway for traders is that guidance is being maintained, not changed. Management reiterated that FY27 will be H2-weighted, meaning more of the year's profit is expected in the second half, driven by new business ramping up and seasonal units (such as Love2shop gifting). The confirmation that trading since late July remains in line with expectations is a reassurance rather than a fresh data point.",
+    "source_url": "https://uk.advfn.com/stock-market/london/paypoint-PAY/share-news/Capital-Markets-Day-sets-out-growth-drivers-underp/99387660",
+    "related_news_url": "https://news.google.com/search?q=%22PayPoint%20Plc%22",
+    "added_at": "2026-09-29T07:58:51.094285"
+  },
+  {
+    "company": "AstraZeneca PLC",
+    "ticker": "AZN",
+    "publish_date": "29 September 2026",
+    "date_iso": "2026-09-29",
+    "time_period": "",
+    "announcement_type": "Acquisition / deal",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>AstraZeneca</strong> has agreed to invest <strong>$2 billion</strong> in newly issued equity of <strong>Summit Therapeutics Inc.</strong> to accelerate development of <strong>ivonescimab</strong>, a first-in-class <strong>PD-1/VEGF</strong> bispecific antibody, in combination with antibody drug conjugates (ADCs).</li><li>Purchase of approximately <strong>109,000</strong> preferred shares (convertible <strong>1:1,000</strong> into common stock), giving AstraZeneca rights equivalent to about <strong>12.0%</strong> of Summit's outstanding common stock (<strong>10.6%</strong> fully diluted); closing anticipated <strong>within one week</strong>.</li><li>Clinical collaboration will evaluate <strong>sonesitatug vedotin (Sone-Ve)</strong>, a Claudin-18.2 ADC, with ivonescimab in gastrointestinal cancers, with trials to start imminently; each party keeps development and commercial rights to its own medicine and shares trial costs.</li><li>Companies also signed a <strong>Memorandum of Understanding</strong> toward a broader global programme combining ivonescimab with AstraZeneca's wider cancer portfolio, including further ADCs.</li><li>AstraZeneca recently reported positive high-level results from the <strong>CLARITY-Gastric01</strong> trial for Sone-Ve, showing a statistically significant overall-survival benefit; data to be presented at <strong>ESMO 2026</strong>.</li><li>Ivonescimab, engineered by <strong>Akeso Inc.</strong>, is already approved for certain NSCLC patients in China; a BLA in EGFR-mutated NSCLC is under <strong>FDA</strong> review.</li></ul>",
+    "source_format": "html",
+    "headline": "AstraZeneca to invest **$2 billion** in **Summit Therapeutics** equity and collaborate clinically to combine ivonescimab with its ADC cancer portfolio.",
+    "priority": "high",
+    "priority_reason": "A $2bn equity investment plus clinical collaboration with Summit Therapeutics is a material strategic transaction for AstraZeneca's oncology pipeline.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/astrazeneca-AZN/share-news/AstraZeneca-PLC-AstraZeneca-announces-equity-inves/99387991",
+    "related_news_url": "https://news.google.com/search?q=%22AstraZeneca%20PLC%22",
+    "added_at": "2026-09-29T07:58:26.924685"
+  },
+  {
+    "company": "Senior plc",
+    "ticker": "SNR",
+    "publish_date": "29 September 2026",
+    "date_iso": "2026-09-29",
+    "time_period": "",
+    "announcement_type": "Acquisition / deal",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li>All regulatory conditions (paragraphs 3(A) to 3(M) of the Scheme Document) for the recommended cash acquisition of <strong>Senior plc</strong> by <strong>BidCo</strong> — controlled by funds advised by <strong>Tinicum Incorporated</strong> and <strong>Blackstone Inc.</strong> — have now been <strong>satisfied</strong>.</li><li>Deal being implemented via a <strong>Court-sanctioned scheme of arrangement</strong>; <strong>Sanction Hearing</strong> scheduled for <strong>6 October 2026</strong>, with the scheme expected to become <strong>Effective on 8 October 2026</strong>.</li><li>Last day of dealings in Senior shares expected to be <strong>7 October 2026</strong>, with dealings suspended from <strong>7:30 a.m. on 8 October 2026</strong> and listing cancelled from <strong>8:00 a.m. on 9 October 2026</strong>.</li><li>Shareholders approved all resolutions at the Court and General Meetings held on <strong>26 May 2026</strong>; scheme remains subject only to Court sanction and delivery of the Court Order to the Registrar of Companies.</li><li>Dates are indicative and subject to change; <strong>Barclays</strong> is lead adviser to the consortium, with <strong>Lazard</strong>, <strong>Jefferies</strong> and <strong>Deutsche Numis</strong> advising Senior.</li></ul>",
+    "source_format": "html",
+    "headline": "Senior's recommended cash takeover by the Tinicum/Blackstone consortium has satisfied all regulatory conditions, with the scheme expected to become effective on 8 October 2026.",
+    "priority": "high",
+    "priority_reason": "Takeover by Tinicum/Blackstone consortium clears all regulatory conditions and sets the scheme timetable, with delisting imminent.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/senior-SNR/share-news/Senior-PLC-Satisfaction-of-Regulatory-Conditions/99387934",
+    "related_news_url": "https://news.google.com/search?q=%22Senior%20plc%22",
+    "added_at": "2026-09-29T07:56:47.284079"
+  },
+  {
+    "company": "Card Factory PLC",
+    "ticker": "CARD",
+    "publish_date": "29 September 2026",
+    "date_iso": "2026-09-29",
+    "time_period": "H1 FY27 (six months ended 31 July 2026)",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 FY27 (six months ended 31 July 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Revenue +5.3% to £260.8m</strong> (HY26: £247.6m), helped by the <strong>Funky Pigeon</strong> acquisition and <strong>+13.6%</strong> wholesale growth; <strong>adjusted PBT £12.7m</strong> (HY26: £13.2m, <strong>-3.8%</strong>) as store gains were offset by digital and international investment.</li><li><strong>Adjusted EPS 2.9p</strong> (HY26: 2.8p); statutory <strong>PBT £12.3m</strong> vs £7.5m (<strong>+63.4%</strong>) and <strong>basic EPS 2.7p</strong> vs 1.6p.</li><li><strong>Interim dividend 1.4p</strong> per share (HY26: 1.3p, <strong>+7.7%</strong>); previously announced <strong>£15m buyback now 83% complete</strong>, plus intent to launch a <strong>£3m</strong> buyback to treasury for colleague share schemes.</li><li>Total store sales <strong>-0.7%</strong> and UK/ROI <strong>LFL -2.0%</strong> on weak consumer sentiment and hot summer weather; <strong>ROI total store sales +24.3%</strong> (LFL +5.6%).</li><li><strong>Adjusted free cash flow +£0.8m</strong> (HY26: -£6.3m); <strong>net debt (exc. leases) £87.4m</strong> with adjusted leverage 1.1x.</li><li>Board <strong>confident of delivering full-year expectations</strong>; trading since half-year has seen UK store LFLs return to positive growth in recent weeks, with performance H2-weighted to Christmas.</li></ul>",
+    "source_format": "html",
+    "headline": "cardfactory H1 FY27 revenue up 5.3% to £260.8m with adjusted PBT broadly flat at £12.7m; Board confident of meeting full-year expectations.",
+    "priority": "high",
+    "priority_reason": "Interim results from a listed retailer, with revenue growth, dividend increase and reaffirmed full-year guidance.",
+    "figures": [
+      {
+        "metric": "Revenue",
+        "current": "£260.8m",
+        "prior": "£247.6m",
+        "change": "+5.3%",
+        "basis": "reported",
+        "note": "H1 FY27 vs HY26"
+      },
+      {
+        "metric": "Adjusted EBITDA",
+        "current": "£45.1m",
+        "prior": "£44.2m",
+        "change": "+2.0%",
+        "basis": "adjusted",
+        "note": "H1 FY27 vs HY26"
+      },
+      {
+        "metric": "Adjusted PBT",
+        "current": "£12.7m",
+        "prior": "£13.2m",
+        "change": "-3.8%",
+        "basis": "adjusted",
+        "note": "H1 FY27 vs HY26"
+      },
+      {
+        "metric": "Adjusted EPS",
+        "current": "2.9p",
+        "prior": "2.8p",
+        "change": "+1.6%",
+        "basis": "adjusted",
+        "note": "H1 FY27 vs HY26"
+      },
+      {
+        "metric": "Profit before tax (statutory)",
+        "current": "£12.3m",
+        "prior": "£7.5m",
+        "change": "+63.4%",
+        "basis": "reported",
+        "note": "H1 FY27 vs HY26"
+      },
+      {
+        "metric": "Basic EPS (statutory)",
+        "current": "2.7p",
+        "prior": "1.6p",
+        "change": "+63.5%",
+        "basis": "reported",
+        "note": "H1 FY27 vs HY26"
+      },
+      {
+        "metric": "Dividend per share",
+        "current": "1.4p",
+        "prior": "1.3p",
+        "change": "+7.7%",
+        "basis": "interim",
+        "note": "H1 FY27 vs HY26"
+      },
+      {
+        "metric": "Net debt (exc. leases)",
+        "current": "£87.4m",
+        "prior": "£78.9m",
+        "change": "+£8.5m",
+        "basis": "excluding leases",
+        "note": "at 31 July 2026"
+      },
+      {
+        "metric": "Adjusted free cash flow",
+        "current": "£0.8m",
+        "prior": "-£6.3m",
+        "change": "+£7.1m",
+        "basis": "adjusted",
+        "note": "H1 FY27 vs HY26"
+      },
+      {
+        "metric": "UK/ROI like-for-like store sales",
+        "current": "-2.0%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "like-for-like",
+        "note": "H1 FY27"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Full-year expectations for FY27 Adjusted PBT",
+      "current": "Board remain confident in expectations for Adjusted PBT in FY27; company-compiled consensus at 28 September 2026 shows a range of £54.0m to £59.0m, average £56.7m",
+      "commentary": "Guidance reaffirmed rather than changed. Management expects performance to be weighted to H2 and the key Christmas ('Golden Quarter') trading period, and notes UK store LFLs have returned to positive growth since the half-year."
+    },
+    "explainer": "On guidance, nothing has changed: the Board reaffirmed its FY27 adjusted PBT expectations, pointing to company-compiled consensus of £54.0m–£59.0m (average £56.7m). As usual for a card and gift retailer, the year is heavily weighted to the second half and the Christmas 'Golden Quarter', and management flagged that UK store like-for-likes have recently returned to positive growth.",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/card-factory--card/half-year-financial-report/9795242",
+    "related_news_url": "https://news.google.com/search?q=%22Card%20Factory%22",
+    "added_at": "2026-09-29T07:22:27.150436"
+  },
+  {
+    "company": "Tribal Group PLC",
+    "ticker": "TRB",
+    "publish_date": "29 September 2026",
+    "date_iso": "2026-09-29",
+    "time_period": "",
+    "announcement_type": "Acquisition / deal",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Jenzabar, Inc.</strong> announces a possible cash offer for <strong>Tribal Group plc</strong> at <strong>111 pence per share</strong> under Rule 2.4 of the Takeover Code — a <strong>5.7%</strong> premium to the ~105p implied by the board-backed <strong>Proposed Sale</strong> to <strong>Thames Bidco</strong> (controlled by <strong>Main Capital Partners</strong>), and ~<strong>76.1%</strong> above the <strong>63p</strong> close on <strong>10 September 2026</strong>.</li><li>Jenzabar, Tribal's largest holder since 2015, owns <strong>56,139,342 shares</strong> (~<strong>26.19%</strong>) and urges shareholders to vote <strong>AGAINST</strong> the Resolution at the General Meeting on <strong>2 October 2026</strong>; proxy deadline <strong>9:30 a.m. on 30 September 2026</strong>.</li><li>Jenzabar wants the board to <strong>adjourn the GM</strong>, grant Rule 21.3 information access and engage, warning that passing the Resolution would sell the entire operating business and leave no company to bid for.</li><li>It says the consideration already rose by <strong>£41.9m</strong> (from ~£189.3m to ~£231.2m) between 11 and 27 September, and that irrevocable undertakings over <strong>113,066,571 shares</strong> (~<strong>52.7%</strong>) will not lapse for any higher offer.</li><li>Funding would come from existing cash, debt facilities and/or committed third-party financing 'to be finalised'; Jenzabar says it sees no substantive UK merger control issue.</li><li>Under Rule 2.6(a), Jenzabar must by <strong>5.00 p.m. on 27 October 2026</strong> either announce a firm Rule 2.7 intention or walk away; there is no certainty an offer will be made.</li></ul>",
+    "source_format": "html",
+    "headline": "Jenzabar unveils a possible 111p-per-share cash offer for Tribal Group, urging shareholders to vote against the recommended sale to Main Capital's Thames Bidco.",
+    "priority": "high",
+    "priority_reason": "A rival possible cash takeover offer for Tribal that pits Jenzabar against the board-recommended asset sale, with a vote in days.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/tribal-group--trb/possible-offer-for-tribal-group/9795250",
+    "related_news_url": "https://news.google.com/search?q=%22Tribal%20Group%22",
+    "added_at": "2026-09-29T07:21:50.381986"
+  },
+  {
+    "company": "Close Brothers Group PLC",
+    "ticker": "CBG",
+    "publish_date": "29 September 2026",
+    "date_iso": "2026-09-29",
+    "time_period": "FY to 31 July 2026",
+    "announcement_type": "Annual results",
+    "period_detail": "FY to 31 July 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Close Brothers Group plc</strong> reported adjusted operating profit of <strong>£120.3m</strong> for <strong>FY to 31 July 2026</strong>, down <strong>17%</strong> from <strong>£144.3m</strong>, with adjusted operating income off <strong>6%</strong> at <strong>£642.9m</strong>.</li><li>Statutory <strong>operating loss before tax narrowed to £(60.3)m</strong> (2025: £(122.4)m); adjusted basic EPS (continuing) <strong>47.5p</strong> vs <strong>59.3p</strong>; RoTE <strong>5.5%</strong> (2025: 7.1%).</li><li>Added a further <strong>£164.7m</strong> provision for motor finance commissions in the year, taking the total to <strong>c.£320m</strong>, unchanged since the Q3 2026 update.</li><li><strong>No final dividend</strong> for FY2026 given continued uncertainty over the FCA motor finance redress scheme; loan book flat at <strong>£9.5bn</strong>.</li><li>Cost savings of <strong>c.£36m</strong> delivered, ahead of the c.£25m target; now expects to exceed <strong>£60m</strong> of annualised savings by end FY2027. CET1 ratio <strong>14.1%</strong> (2025: 13.8%), above the 12-13% target range.</li><li>New <strong>FY2027 guidance</strong>: underlying loan book growth <strong>5-10%</strong>, NIM slightly below FY2026, adjusted opex <strong>c.£430m</strong>; reaffirms target of <strong>double-digit RoTE by FY2028</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Close Brothers scraps its dividend and books a further GBP164.7m motor finance provision as adjusted operating profit falls 17% to GBP120.3m.",
+    "priority": "high",
+    "priority_reason": "Full-year preliminary results with new FY2027 guidance, a scrapped dividend and a further motor finance redress provision.",
+    "figures": [
+      {
+        "metric": "Adjusted operating profit",
+        "current": "£120.3m",
+        "prior": "£144.3m",
+        "change": "-17%",
+        "basis": "continuing operations",
+        "note": "FY to 31 July 2026"
+      },
+      {
+        "metric": "Operating loss before tax",
+        "current": "£(60.3)m",
+        "prior": "£(122.4)m",
+        "change": "-51%",
+        "basis": "continuing operations, statutory",
+        "note": "FY to 31 July 2026"
+      },
+      {
+        "metric": "Adjusted operating income",
+        "current": "£642.9m",
+        "prior": "£681.2m",
+        "change": "-6%",
+        "basis": "continuing operations",
+        "note": "FY to 31 July 2026"
+      },
+      {
+        "metric": "Adjusted basic EPS",
+        "current": "47.5p",
+        "prior": "59.3p",
+        "change": "not stated",
+        "basis": "continuing operations",
+        "note": "FY to 31 July 2026"
+      },
+      {
+        "metric": "Basic loss per share",
+        "current": "(58.5)p",
+        "prior": "(99.8)p",
+        "change": "not stated",
+        "basis": "continuing operations, statutory",
+        "note": "FY to 31 July 2026"
+      },
+      {
+        "metric": "Return on average tangible equity",
+        "current": "5.5%",
+        "prior": "7.1%",
+        "change": "not stated",
+        "basis": "continuing operations",
+        "note": "FY to 31 July 2026"
+      },
+      {
+        "metric": "Net interest margin",
+        "current": "6.9%",
+        "prior": "7.2%",
+        "change": "not stated",
+        "basis": "not stated",
+        "note": "FY to 31 July 2026"
+      },
+      {
+        "metric": "Loan book",
+        "current": "£9.5bn",
+        "prior": "£9.5bn",
+        "change": "flat",
+        "basis": "reported; +2% underlying year-on-year",
+        "note": "at 31 July 2026"
+      },
+      {
+        "metric": "Ordinary dividend per share",
+        "current": "nil",
+        "prior": "nil",
+        "change": "not stated",
+        "basis": "no final dividend for FY2026",
+        "note": "FY to 31 July 2026"
+      },
+      {
+        "metric": "CET1 capital ratio",
+        "current": "14.1%",
+        "prior": "13.8%",
+        "change": "not stated",
+        "basis": "continuing and discontinued operations",
+        "note": "at 31 July 2026; target range 12-13%"
+      },
+      {
+        "metric": "Motor finance commissions provision",
+        "current": "c.£320m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "£164.7m added in the year",
+        "note": "FCA redress scheme"
+      },
+      {
+        "metric": "Adjusted operating expenses",
+        "current": "£430.9m",
+        "prior": "£445.1m",
+        "change": "not stated",
+        "basis": "continuing operations",
+        "note": "FY to 31 July 2026"
+      }
+    ],
+    "guidance": {
+      "status": "new",
+      "previous": "FY2026 target of c.£25m annualised cost savings; FY2026 targets originally set out at the 2025 results.",
+      "current": "FY2027: underlying loan book growth 5-10%; NIM slightly below FY2026 (c.0.1% mix impact); adjusted opex c.£430m; restructuring costs c.£30-40m; annualised cost savings now expected to exceed £60m by end FY2027; bad debt ratio below 1.2%; CET1 within 12-13%; modest RoTE increase. Medium-term: loan book growth 5-10% through the cycle, NIM slightly below 7%, FY2028 opex at lower end of £410-430m, expense/income ratio below 60% by FY2028, double-digit RoTE by FY2028 rising thereafter.",
+      "commentary": "Close Brothers issued fresh FY2027 and medium-term targets while raising its cost-savings ambition to over £60m by end FY2027 (from a c.£25m FY2026 target already beaten at c.£36m). It reaffirmed the goal of double-digit return on tangible equity by FY2028."
+    },
+    "explainer": "These are full-year results for the 12 months to 31 July 2026, presented on both a statutory and an 'adjusted' basis. The adjusted figures strip out items management sees as one-off or non-underlying — chiefly the motor finance customer redress provisions, restructuring costs and the effects of businesses being sold or wound down (Close Brewery Rentals, Close Brothers Vehicle Hire) — so profit trends can be compared period to period. Asset management (CBAM) and Winterflood are treated as discontinued operations, so most headline metrics refer to continuing operations only.\n\nThe statutory operating loss of £60.3m (narrower than last year's £122.4m loss) is driven largely by the motor finance provision: the group added £164.7m this year, lifting the total set aside to around £320m against the FCA's consumer redress scheme. Because that outcome is still uncertain and subject to legal challenge, the board has cancelled the final dividend for a second year and will only reassess distributions once there is more clarity.\n\nUnderlying trading was softer: adjusted operating profit fell 17% to £120.3m as income dropped 6% and the net interest margin slipped to 6.9%, reflecting the deliberate repositioning of the loan book (notably exiting personal-lines premium finance) rather than a sharp deterioration. The loan book was flat at £9.5bn on a reported basis but up 2% underlying, with growth resuming across all divisions in the final quarter.\n\nOn guidance, the key change is a more ambitious cost programme: having beaten its c.£25m FY2026 savings target by delivering c.£36m, the group now expects to exceed £60m of annualised savings by the end of FY2027. New FY2027 targets point to 5-10% underlying loan growth, roughly flat costs at c.£430m and a modest RoTE improvement, all building towards a reaffirmed medium-term goal of double-digit return on tangible equity by FY2028.",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/close-brothers-group--cbg/preliminary-results/9795269",
+    "related_news_url": "https://news.google.com/search?q=%22Close%20Brothers%20Group%22",
+    "added_at": "2026-09-29T07:21:50.369818"
+  },
+  {
+    "company": "Franchise Brands PLC",
+    "ticker": "FRAN",
+    "publish_date": "29 September 2026",
+    "date_iso": "2026-09-29",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>CEO Peter Molloy</strong> and <strong>CFO Neil Miller</strong> to present at the <strong>MelloLondon</strong> investor event on <strong>Tuesday 17 November 2026</strong>, held at The Clayton Hotel & Conference Centre, Chiswick, London.</li><li>Routine investor-relations notice with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Franchise Brands' CEO Peter Molloy and CFO Neil Miller will present at the MelloLondon investor event on 17 November 2026.",
+    "priority": "low",
+    "priority_reason": "Routine investor-event notice with no financial or trading content.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/franchise-brands--fran/investor-event-mellolondon-2026/9795287",
+    "related_news_url": "https://news.google.com/search?q=%22Franchise%20Brands%22",
+    "added_at": "2026-09-29T07:20:49.423411"
+  },
+  {
+    "company": "InterContinental Hotels Group PLC",
+    "ticker": "IHG",
+    "publish_date": "28 September 2026",
+    "date_iso": "2026-09-28",
+    "time_period": "",
+    "announcement_type": "Financing / refinancing",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>InterContinental Hotels Group PLC</strong> admits <strong>€850 million</strong> of guaranteed notes to trading on the <strong>Main Market</strong> of the <strong>London Stock Exchange</strong>, issued by wholly owned subsidiary <strong>IHG Finance LLC</strong>.</li><li>Two tranches: <strong>€350m 4.000%</strong> notes due <strong>28 September 2029</strong> (ISIN XS3519670304) and <strong>€500m 4.625%</strong> notes due <strong>28 September 2033</strong> (ISIN XS3519673746).</li><li>Notes guaranteed by <strong>InterContinental Hotels Group PLC</strong>, <strong>Six Continents Limited</strong> and <strong>InterContinental Hotels Limited</strong>; restricted to professional clients and eligible counterparties, no retail PRIIPs KID.</li><li>Routine admission-to-trading disclosure under the FCA Prospectus Rules with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "IHG has admitted €850m of bonds to trading on the London Stock Exchange, split across 2029 and 2033 maturities via subsidiary IHG Finance LLC.",
+    "priority": "medium",
+    "priority_reason": "New €850m bond financing, though the notice itself is a routine admission-to-trading formality.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/intercontinental-hotels-group--ihg/admission-to-trading/9794628",
+    "related_news_url": "https://news.google.com/search?q=%22InterContinental%20Hotels%20Group%22",
+    "added_at": "2026-09-29T07:20:49.408910"
+  },
+  {
     "company": "HSBC Holdings PLC",
     "ticker": "HSBA",
     "publish_date": "28 September 2026",

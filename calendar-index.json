@@ -1,10 +1,6 @@
 {
-  "generated": "2026-09-29",
+  "generated": "2026-09-30",
   "by_ticker": {
-    "AAL": {
-      "date": "2026-09-29",
-      "event": "Q2 div payment"
-    },
     "AAPL": {
       "date": "2026-09-30",
       "event": "Year end"
@@ -289,10 +285,6 @@
       "date": "2026-09-30",
       "event": "Year end"
     },
-    "STAN": {
-      "date": "2026-09-29",
-      "event": "Q2 div payment"
-    },
     "TBCG": {
       "date": "2026-10-22",
       "event": "Q2 ex-div"
@@ -334,8 +326,8 @@
       "event": "Trading statement"
     },
     "ZIG": {
-      "date": "2026-09-29",
-      "event": "AGM (Conf)"
+      "date": "2026-09-30",
+      "event": "Q4 div payment"
     }
   }
 }
