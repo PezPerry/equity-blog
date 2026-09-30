@@ -1,5 +1,114 @@
 [
   {
+    "company": "Saga plc",
+    "ticker": "SAGA",
+    "publish_date": "30 September 2026",
+    "date_iso": "2026-09-30",
+    "time_period": "H1 to 31 July 2026",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 to 31 July 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Underlying Profit Before Tax</strong> up <strong>98%</strong> to <strong>£46.6m</strong> (from <strong>£23.5m</strong>), with the first half <strong>ahead of expectations</strong> and growth across all core businesses.</li><li><strong>Underlying Revenue</strong> grew <strong>14%</strong>; statutory revenue up <strong>12%</strong> to <strong>£367.5m</strong>. <strong>Profit before tax from continuing operations</strong> rose to <strong>£28.0m</strong> (from <strong>£3.7m</strong>) on stronger trading and lower exceptional costs.</li><li><strong>Guidance upgraded</strong>: full-year Underlying PBT now expected <strong>materially higher</strong> year-on-year, in the range of <strong>£65-70m</strong>, ahead of previous guidance.</li><li><strong>Net Debt</strong> cut by <strong>£70.4m</strong> since 31 January to <strong>£429.1m</strong>, taking the <strong>Leverage Ratio</strong> from <strong>3.7x to 2.7x</strong>; <strong>Underlying Available Operating Cash Flow</strong> up <strong>27%</strong> to <strong>£101.0m</strong>.</li><li>Medium-term targets of <strong>£100.0m</strong> Underlying PBT and leverage <strong>below 2.0x</strong> now likely to be reached <strong>ahead of the original January 2030</strong> date.</li><li>Travel Underlying PBT up <strong>45%</strong> to <strong>£60.3m</strong>; Insurance Broking up <strong>75%</strong> to <strong>£15.9m</strong>; motor and home new business now on <strong>Ageas</strong>, with an extra <strong>£10.5m</strong> contingent consideration received in June 2026.</li></ul>",
+    "source_format": "html",
+    "headline": "Saga H1 underlying pre-tax profit nearly doubled to **£46.6m**, prompting a profit guidance upgrade to **£65-70m** for the full year.",
+    "priority": "high",
+    "priority_reason": "Interim results beating expectations with an explicit profit guidance upgrade and medium-term targets now expected earlier than planned.",
+    "figures": [
+      {
+        "metric": "Underlying Profit Before Tax",
+        "current": "£46.6m",
+        "prior": "£23.5m",
+        "change": "+98%",
+        "basis": "underlying, continuing",
+        "note": "H1 to 31 July 2026"
+      },
+      {
+        "metric": "Statutory revenue",
+        "current": "£367.5m",
+        "prior": "not stated",
+        "change": "+12%",
+        "basis": "statutory",
+        "note": "H1 to 31 July 2026"
+      },
+      {
+        "metric": "Underlying Revenue",
+        "current": "£366.3m",
+        "prior": "not stated",
+        "change": "+14%",
+        "basis": "underlying",
+        "note": "H1 to 31 July 2026"
+      },
+      {
+        "metric": "Profit before tax from continuing operations",
+        "current": "£28.0m",
+        "prior": "£3.7m",
+        "change": "not stated",
+        "basis": "statutory, continuing",
+        "note": "H1 to 31 July 2026"
+      },
+      {
+        "metric": "Underlying Available Operating Cash Flow",
+        "current": "£101.0m",
+        "prior": "not stated",
+        "change": "+27%",
+        "basis": "underlying",
+        "note": "H1 to 31 July 2026"
+      },
+      {
+        "metric": "Net Debt",
+        "current": "£429.1m",
+        "prior": "£499.5m",
+        "change": "-£70.4m",
+        "basis": "reported",
+        "note": "since 31 January 2026; prior derived from stated £70.4m reduction"
+      },
+      {
+        "metric": "Leverage Ratio",
+        "current": "2.7x",
+        "prior": "3.7x",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "since 31 January 2026"
+      }
+    ],
+    "guidance": {
+      "status": "raised",
+      "previous": "Prior guidance not quoted numerically; full-year Underlying PBT expected ahead of the prior year on the original trajectory towards £100.0m by January 2030",
+      "current": "Full-year Underlying Profit Before Tax now expected to be materially higher than the prior year, in the range of £65-70m; medium-term targets of £100.0m Underlying PBT and leverage below 2.0x now likely to be met before January 2030",
+      "commentary": "The strong first-half beat has lifted full-year profit and cash flow expectations, so Saga has upgraded profit guidance and now expects to hit its medium-term targets earlier than the original 2030 date. Net Debt and leverage are guided to stay broadly flat for the full year before falling further thereafter."
+    },
+    "explainer": "These are half-year figures for the six months to 31 July 2026, compared with the same period a year earlier. \"Underlying\" measures strip out one-off items such as restructuring costs; the gap between underlying profit (£46.6m) and statutory profit from continuing operations (£28.0m) reflects those exceptional charges. Both measures rose sharply, so the improvement is not just an accounting effect.\n\nThe headline change is the guidance upgrade. Saga now expects full-year underlying pre-tax profit of £65-70m, described as materially higher than last year and above its previous expectations. Separately, its longer-term ambitions — £100m of underlying profit and borrowings below twice earnings (a leverage ratio under 2.0x) — are now expected to be achieved before the original January 2030 target date.\n\nThe balance sheet is also strengthening: net debt fell £70.4m in six months to £429.1m, cutting leverage from 3.7x to 2.7x. Management flagged that net debt and leverage should stay broadly flat over the full year before resuming their decline, partly reflecting timing of cash flows in the insurance transition to Ageas.\n\nGrowth was broad-based, led by Travel (cruises and holidays) and a strong Insurance Broking result, with the caveat that management remains watchful of potential economic headwinds and volatile global conditions.",
+    "source_url": "https://uk.advfn.com/stock-market/london/saga-SAGA/share-news/SAGA-PLC-Interim-results-for-the-six-months-ended/99398188",
+    "related_news_url": "https://news.google.com/search?q=%22Saga%20plc%22",
+    "added_at": "2026-09-30T07:58:22.627729"
+  },
+  {
+    "company": "CLS Holdings PLC",
+    "ticker": "CLI",
+    "publish_date": "30 September 2026",
+    "date_iso": "2026-09-30",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Lennart Sten</strong>, Chair of <strong>CLS Holdings</strong>, will step down with effect from <strong>31 October 2026</strong>, earlier than his previously expected departure at the <strong>2027 AGM</strong>.</li><li>He is leaving in light of extra time commitments from his appointment as Chair of <strong>Sveafastigheter AB</strong> and <strong>PPI Public Property Invest AB</strong> following their proposed merger with <strong>Klarabo AB</strong>.</li><li>Succession process is <strong>well advanced</strong>; if no permanent Chair is named by 31 October, Vice Chair <strong>Anna Seeley</strong> becomes <strong>Interim Chair</strong>.</li><li><strong>Johannes Conradi</strong>, Independent Non-Executive Director, joins the Nomination Committee from <strong>1 November 2026</strong> — a routine UKLR 6.4.6R/6.4.9(2)R disclosure with <strong>no impact</strong> on trading or guidance.</li><li>Sten has served on the Board for <strong>12 years</strong>, seven as Chair.</li></ul>",
+    "source_format": "html",
+    "headline": "CLS Holdings Chair Lennart Sten to step down on 31 October 2026 after seven years, citing new external commitments.",
+    "priority": "medium",
+    "priority_reason": "Chair stepping down is a senior board change, but succession is well advanced and there is no trading impact.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/cls-CLI/share-news/CLS-Holdings-PLC-Board-Change/99398209",
+    "related_news_url": "https://news.google.com/search?q=%22CLS%20Holdings%20PLC%22",
+    "added_at": "2026-09-30T07:58:22.590877"
+  },
+  {
     "company": "Tullow Oil plc",
     "ticker": "TLW",
     "publish_date": "30 September 2026",
