@@ -1,5 +1,31 @@
 [
   {
+    "company": "IWG",
+    "ticker": "IWG",
+    "publish_date": "30 September 2026",
+    "date_iso": "2026-09-30",
+    "time_period": "FY 2026",
+    "announcement_type": "Buyback programme increase",
+    "period_detail": "FY 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>International Workplace Group plc</strong> announces an increase to its 2026 share buyback of <strong>up to $50m</strong>, taking the total programme to <strong>$200m</strong> for 2026.</li><li>Follows earlier tranches announced on <strong>31 December 2025</strong>, <strong>3 March 2026</strong> and <strong>30 June 2026</strong>.</li><li>Conducted under the authority granted at the AGM on <strong>19 May 2026</strong> for <strong>145,918,746 ordinary shares</strong>; after purchases since, the maximum still available is <strong>122,142,744 shares</strong>.</li><li>Company confirms it currently holds <strong>no unpublished inside information</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "IWG lifts its 2026 share buyback by up to $50m, taking the full-year programme to $200m.",
+    "priority": "medium",
+    "priority_reason": "Expansion of an existing capital-return programme, not a routine daily buyback transaction.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/iwg--iwg/increase-to-2026-share-buyback-programme-/9797861",
+    "related_news_url": "https://news.google.com/search?q=%22IWG%22",
+    "added_at": "2026-09-30T07:35:37.705923"
+  },
+  {
     "company": "Mortgage Advice Bureau (Holdings) PLC",
     "ticker": "MAB1",
     "publish_date": "30 September 2026",
