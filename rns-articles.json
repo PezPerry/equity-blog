@@ -1,5 +1,64 @@
 [
   {
+    "company": "Goodwin PLC",
+    "ticker": "GDWN",
+    "publish_date": "30 September 2026",
+    "date_iso": "2026-09-30",
+    "time_period": "Four months ended 31 August 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "Four months ended 31 August 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li>Trading update for the <strong>four months ended 31 August 2026</strong>, focused on the businesses remaining after the proposed disposal of much of the <strong>Mechanical Engineering Division</strong>.</li><li>Overseas refractory profits up <strong>19%</strong> year-on-year to <strong>£3.1 million</strong>; combined <strong>AVD Fire</strong> and <strong>Dupré Minerals</strong> profits up <strong>30%</strong> to <strong>£1.0 million</strong>.</li><li>Polyimide business <strong>Duvelco</strong> made a loss of <strong>£1.7 million</strong> (prior year: <strong>£592,000</strong>), driven by depreciation; a mechanical drying issue limits output to about <strong>20%</strong> of designed capacity, with the proposed dryer carrying a ~<strong>ten-month</strong> lead time.</li><li>UK powder operations hit by an ~<strong>11-week</strong> planned calciner outage at <strong>Hoben International</strong>, while high gold and silver prices weighed on demand at Goodwin Refractory Services.</li><li>Agreed <strong>9 September 2026</strong> to sell a substantial part of the Mechanical Engineering Division to an affiliate of <strong>Cerberus</strong> for up to ~<strong>£1.1 billion</strong> cash; completion expected <strong>Q1 2027</strong>, with the Board weighing a significant return of proceeds to shareholders.</li><li>Recruitment started for a new <strong>Chief Executive Officer</strong> and <strong>Finance Director</strong> to lead the continuing businesses; Board roles and remuneration under review.</li></ul>",
+    "source_format": "html",
+    "headline": "Goodwin's continuing refractory profits rose 19% to £3.1m as it progresses the ~£1.1bn Cerberus disposal and starts recruiting a new CEO and FD.",
+    "priority": "high",
+    "priority_reason": "Trading update on continuing businesses alongside a ~£1.1bn disposal to Cerberus and a search for a new CEO and Finance Director.",
+    "figures": [
+      {
+        "metric": "Overseas refractory profits",
+        "current": "£3.1m",
+        "prior": "not stated",
+        "change": "+19%",
+        "basis": "year-on-year",
+        "note": "Four months ended 31 August 2026"
+      },
+      {
+        "metric": "AVD Fire & Dupré Minerals combined profits",
+        "current": "£1.0m",
+        "prior": "not stated",
+        "change": "+30%",
+        "basis": "year-on-year",
+        "note": "Four months ended 31 August 2026"
+      },
+      {
+        "metric": "Duvelco (polyimide) result",
+        "current": "-£1.7m loss",
+        "prior": "-£592,000 loss",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "Loss widened, primarily depreciation on manufacturing assets"
+      },
+      {
+        "metric": "Mechanical Engineering disposal consideration",
+        "current": "up to ~£1.1bn cash",
+        "prior": "not applicable",
+        "change": "not applicable",
+        "basis": "headline, subject to closing adjustments",
+        "note": "Agreed 9 September 2026 with a Cerberus affiliate; completion expected Q1 2027"
+      }
+    ],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": "No numeric guidance stated; the Board expects the continuing operations to deliver reliable cash flows and sustainable growth over the medium and longer term."
+    },
+    "explainer": "This update deliberately splits Goodwin in two. The figures given cover only the \"continuing\" businesses that will stay in the Group after it sells most of its Mechanical Engineering Division — the refractory operations, AVD Fire (lithium-ion battery fire protection), Dupré Minerals and the loss-making polyimide start-up Duvelco. The profit growth percentages (refractory +19%, AVD Fire/Dupré +30%) are year-on-year comparisons for the four months to 31 August 2026, but the company prints only the current-period profit figures and not the prior-year cash amounts, so the exact starting base is not disclosed.\n\nDuvelco is the swing factor. Its loss widened to £1.7m from £592,000, which management attributes mainly to depreciation now being charged on the new plant. A mechanical fault in the final drying stage — less than 12% of the process — is capping output at roughly 20% of designed capacity, and the fix (a new dryer) has an indicative ten-month lead time, so this drag is likely to persist into next year.\n\nThe dominant event is the ~£1.1bn cash disposal to a Cerberus affiliate, agreed on 9 September and expected to complete in Q1 2027. Until then the businesses being sold still sit inside the Group. Goodwin expects no UK corporation tax on the disposal gain at company level, and the Board is still deciding the amount, timing and form of any return of proceeds to shareholders — nothing is committed yet.\n\nNo formal profit guidance is set. The messaging is qualitative: reliable cash generation from refractories, plus growth optionality from AVD Fire and Duvelco. Traders should also note the leadership overhaul — a new CEO and Finance Director are being recruited for the slimmed-down group, and Board pay is being reviewed.",
+    "source_url": "https://uk.advfn.com/stock-market/london/goodwin-GDWN/share-news/Goodwin-PLC-September-2026-Trading-Update/99398073",
+    "related_news_url": "https://news.google.com/search?q=%22Goodwin%20PLC%22",
+    "added_at": "2026-09-30T07:59:36.908023"
+  },
+  {
     "company": "UNITE Group PLC",
     "ticker": "UTG",
     "publish_date": "30 September 2026",
