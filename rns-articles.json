@@ -1,5 +1,48 @@
 [
   {
+    "company": "UNITE Group PLC",
+    "ticker": "UTG",
+    "publish_date": "30 September 2026",
+    "date_iso": "2026-09-30",
+    "time_period": "FY2026",
+    "announcement_type": "Disposal",
+    "period_detail": "FY2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Unite Group</strong> has agreed the sale of its <strong>444-bed King's Place</strong> development site to an affiliate of <strong>Far East Orchard</strong> for <strong>£60m</strong>, expected to complete in <strong>mid-October</strong>.</li><li>Priced at a <strong>3% discount</strong> to <strong>June 2026 book value</strong>; part of the strategy to realise value from development land and non-student assets.</li><li><strong>2026 disposals now total £200m</strong> (Unite share) at a <strong>3.0% weighted average NOI yield</strong>, including non-income-producing sites.</li><li>Remains on track for <strong>£300–400m</strong> (Unite share) of disposals in 2026 to increase alignment to the UK's strongest universities.</li><li><strong>FY2026 adjusted earnings guidance of 41.5–43.0p is unchanged</strong>; the disposal was already incorporated.</li><li>CEO <strong>Joe Lister</strong> cited capital discipline and proactive capital recycling, and realising value from a project no longer meeting return requirements.</li></ul>",
+    "source_format": "html",
+    "headline": "Unite Group sells its 444-bed King's Place development site to an affiliate of Far East Orchard for £60m, at a 3% discount to June book value.",
+    "priority": "medium",
+    "priority_reason": "A £60m disposal advancing the 2026 recycling programme, but guidance is explicitly reaffirmed and unchanged.",
+    "figures": [
+      {
+        "metric": "Sale price (King's Place)",
+        "current": "£60m",
+        "prior": "not stated",
+        "change": "3% discount to June 2026 book value",
+        "basis": "444-bed development site",
+        "note": "completion mid-October 2026"
+      },
+      {
+        "metric": "2026 disposals to date (Unite share)",
+        "current": "£200m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "weighted average NOI yield 3.0%",
+        "note": "including non-income-producing sites"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "FY2026 adjusted earnings 41.5-43.0p",
+      "current": "FY2026 adjusted earnings 41.5-43.0p (unchanged)",
+      "commentary": "The King's Place disposal was already factored into guidance, so FY2026 adjusted earnings guidance of 41.5-43.0p is unaffected. Unite also reaffirmed its £300-400m full-year disposal target."
+    },
+    "explainer": "This is a disposal rather than a results announcement, but Unite has taken the opportunity to reaffirm its financial guidance. The King's Place site is a development plot — not an operating, rent-producing asset — being sold as part of a deliberate 'capital recycling' programme: selling land and lower-priority assets to fund reinvestment in accommodation near the strongest UK universities.\n\nThe £60m price is a 3% discount to the property's June 2026 book value, meaning Unite is selling at slightly below its own most recent carrying valuation. That is a modest markdown and normal for a non-core development site.\n\nThe key point for earnings is that this sale was already built into Unite's FY2026 adjusted earnings guidance of 41.5-43.0p per share, so guidance is unchanged. The company also confirmed it is still on course to complete £300-400m of disposals (its share) across 2026, of which £200m is already agreed or done at an average net operating income yield of 3.0%.",
+    "source_url": "https://uk.advfn.com/stock-market/london/unite-UTG/share-news/Unite-Group-PLC-The-60M-SALE-OF-DEVELOPMENT-SITE/99398065",
+    "related_news_url": "https://news.google.com/search?q=%22The%20Unite%20Group%20PLC%22",
+    "added_at": "2026-09-30T07:59:04.764403"
+  },
+  {
     "company": "Saga plc",
     "ticker": "SAGA",
     "publish_date": "30 September 2026",
