@@ -1,5 +1,31 @@
 [
   {
+    "company": "Diageo PLC",
+    "ticker": "DGE",
+    "publish_date": "30 September 2026",
+    "date_iso": "2026-09-30",
+    "time_period": "",
+    "announcement_type": "AGM notice",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Diageo plc</strong> has made available to shareholders its <strong>Notice of Annual General Meeting 2026</strong> and the Form of Proxy.</li><li>The AGM will be held on <strong>Thursday, 5 November 2026 at 2.30pm</strong> at <strong>Convene 133 Houndsditch, London, EC3A 7DB</strong>, as a combined physical and electronic meeting via the Lumi platform.</li><li>Routine administrative disclosure with <strong>no impact</strong> on trading or guidance; documents filed with the National Storage Mechanism and available at www.diageo.com.</li></ul>",
+    "source_format": "html",
+    "headline": "Diageo has published its 2026 Notice of AGM, with the meeting to be held on 5 November 2026 in London.",
+    "priority": "low",
+    "priority_reason": "Routine administrative notice of the annual meeting with no trading or guidance content.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/diageo--dge/notice-of-agm/9799497",
+    "related_news_url": "https://news.google.com/search?q=%22Diageo%22",
+    "added_at": "2026-09-30T15:31:13.173456"
+  },
+  {
     "company": "Mitchells & Butlers PLC",
     "ticker": "MAB",
     "publish_date": "30 September 2026",
