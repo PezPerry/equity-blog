@@ -1,5 +1,72 @@
 [
   {
+    "company": "Greggs PLC",
+    "ticker": "GRG",
+    "publish_date": "30 September 2026",
+    "date_iso": "2026-09-30",
+    "time_period": "Q3 2026 (13 weeks to 26 September 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "Q3 2026 (13 weeks to 26 September 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Q3 2026</strong> total sales up <strong>7.7%</strong>, with like-for-like company-managed shop sales up <strong>3.4%</strong> versus the same period in <strong>2025</strong>; trading improved through the quarter on new products and more settled weather.</li><li><strong>Year-to-date</strong> total sales up <strong>7.4%</strong> and LFL sales up <strong>2.6%</strong>.</li><li>Now expects a <strong>modestly improved outcome for 2026</strong>, driven by improved recent trading and continued strong cost control; LFL cost inflation seen at <strong>circa 2%</strong> in 2026, with <strong>greater inflationary pressures signalled for 2027</strong>.</li><li>Launched a <strong>consultation</strong> on proposals to close <strong>four manufacturing sites</strong>, potentially making <strong>circa 740 roles</strong> redundant over two and a half years; cash costs <strong>circa £60m</strong> (<strong>circa £40m</strong> capex plus disruption and redundancy), delivering annual pre-tax savings of <strong>circa £20m</strong> across <strong>2028 and 2029</strong>.</li><li><strong>57 net new shop openings</strong> year-to-date (95 opened, 38 closed including 20 relocations), <strong>2,796 shops</strong> trading at 26 September 2026; full-year guidance of <strong>100–110 net new openings</strong> maintained.</li><li>New distribution centres at <strong>Derby</strong> (operational 2026) and <strong>Kettering</strong> (operational 2027) progressing; associated overheads will raise costs in 2027 before contributing to profitable growth.</li></ul>",
+    "source_format": "html",
+    "headline": "Greggs delivered 7.7% Q3 sales growth and a modestly improved 2026 outlook, but launched a manufacturing consultation that could close four sites and cut circa 740 roles.",
+    "priority": "high",
+    "priority_reason": "Q3 trading update with a modest 2026 outlook upgrade and a major manufacturing restructuring involving four site closures and circa 740 redundancies.",
+    "figures": [
+      {
+        "metric": "Total sales growth",
+        "current": "+7.7%",
+        "prior": "not stated",
+        "change": "+7.7%",
+        "basis": "vs comparable 2025 period",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "Like-for-like sales (company-managed shops)",
+        "current": "+3.4%",
+        "prior": "not stated",
+        "change": "+3.4%",
+        "basis": "vs comparable 2025 period",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "Total sales growth",
+        "current": "+7.4%",
+        "prior": "not stated",
+        "change": "+7.4%",
+        "basis": "vs 2025",
+        "note": "Year-to-date"
+      },
+      {
+        "metric": "Like-for-like sales",
+        "current": "+2.6%",
+        "prior": "not stated",
+        "change": "+2.6%",
+        "basis": "vs 2025",
+        "note": "Year-to-date"
+      },
+      {
+        "metric": "Total shops trading",
+        "current": "2,796",
+        "prior": "not stated",
+        "change": "+57 net YTD",
+        "basis": "2,157 company-managed, 639 franchised",
+        "note": "At 26 September 2026"
+      }
+    ],
+    "guidance": {
+      "status": "raised",
+      "previous": "Prior 2026 outcome expectation not quantified in the announcement",
+      "current": "Expects a modestly improved outcome for 2026; full-year net new shop openings of 100–110 maintained; LFL cost inflation circa 2% in 2026",
+      "commentary": "Improved trading in recent months and continued strong cost control have led Greggs to nudge up its 2026 profit expectation. However, it flags greater inflationary pressure in 2027 and higher costs from the two new distribution centres, and the separate restructuring will carry circa £60m of cash costs before circa £20m of annual savings arrive in 2028–2029."
+    },
+    "explainer": "Greggs reports sales in growth terms rather than absolute figures for a Q3 update. Total sales up 7.7% captures the full estate (including new shops), while like-for-like of 3.4% strips out new openings to show underlying demand at existing company-managed shops. The gap between the two — roughly four points — reflects the contribution of the expanding shop estate. Year-to-date figures (7.4% total, 2.6% LFL) are lower than Q3 alone, indicating trading strengthened over the summer and into autumn.\n\nThe key change to the outlook is a 'modestly improved' expectation for 2026 profit, driven by better recent trading and cost control, with like-for-like cost inflation held to about 2%. This is a modest upgrade rather than a specific new number, so the scale is deliberately vague.\n\nThe manufacturing consolidation is the bigger structural story. Greggs is proposing to close four sites and cut around 740 jobs over two and a half years. This will cost roughly £60m in cash (about £40m of it capital spending on new capacity, plus redundancy and disruption), and is expected to save around £20m a year once complete — but those savings only land in the 2028 and 2029 financial years. Note the plan is still subject to union and employee consultation, so it is a proposal, not a done deal.\n\nOn timing, management also cautions that 2027 will carry higher costs: greater inflationary pressure plus the overheads from the new Derby and Kettering distribution centres, before those investments contribute to profit growth thereafter.",
+    "source_url": "https://uk.advfn.com/stock-market/london/greggs-GRG/share-news/Greggs-PLC-Q3-Trading-Update/99398110",
+    "related_news_url": "https://news.google.com/search?q=%22Greggs%20plc%22",
+    "added_at": "2026-09-30T08:00:20.304960"
+  },
+  {
     "company": "Goodwin PLC",
     "ticker": "GDWN",
     "publish_date": "30 September 2026",
