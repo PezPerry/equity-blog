@@ -1,5 +1,56 @@
 [
   {
+    "company": "Renew Holdings PLC",
+    "ticker": "RNWH",
+    "publish_date": "01 October 2026",
+    "date_iso": "2026-10-01",
+    "time_period": "FY to 30 September 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "FY to 30 September 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Full-year trading in line with market consensus</strong> for the year ended <strong>30 September 2026</strong>, with <strong>record revenue and operating profit</strong>.</li><li>Company-compiled consensus cited: <strong>adjusted revenue of £1,191.2m</strong>, <strong>adjusted operating profit of £77.7m</strong> and <strong>pre-IFRS 16 net cash of £6.3m</strong>.</li><li>Finished the year with a <strong>net cash position ahead of market expectations</strong>, helped by a <strong>one-off insurance payment of c.£6.9m</strong> relating to settlement of historical claims.</li><li><strong>Record order book at 30 September 2026</strong>, driven by increased exposure to Water and Energy end-markets with committed investment programmes.</li><li>Acquisitions of <strong>Emerald Power</strong>, <strong>Edwards Diving Services</strong>, <strong>PWR-X</strong> and <strong>Electricity Distribution Engineering Services</strong> integrating well; active M&A pipeline continues.</li><li>Preliminary results to be announced on <strong>Tuesday 24 November 2026</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Renew expects full-year trading in line with market consensus, delivering record revenue and operating profit and a record order book at 30 September 2026.",
+    "priority": "high",
+    "priority_reason": "Full-year trading update confirming results in line with consensus, record revenue, operating profit and order book, with net cash ahead of expectations.",
+    "figures": [
+      {
+        "metric": "Adjusted revenue (consensus)",
+        "current": "£1,191.2m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "company-compiled analyst consensus",
+        "note": "FY to 30 September 2026; described as record revenue"
+      },
+      {
+        "metric": "Adjusted operating profit (consensus)",
+        "current": "£77.7m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "company-compiled analyst consensus",
+        "note": "FY to 30 September 2026; described as record operating profit"
+      },
+      {
+        "metric": "Pre-IFRS 16 net cash (consensus)",
+        "current": "£6.3m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "company-compiled analyst consensus; actual stated to be ahead of expectations",
+        "note": "includes c.£6.9m one-off insurance payment"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Market consensus for FY26: adjusted revenue £1,191.2m, adjusted operating profit £77.7m, pre-IFRS 16 net cash £6.3m",
+      "current": "Trading expected in line with that consensus on revenue and operating profit; net cash ahead of expectations",
+      "commentary": "Renew confirms full-year trading in line with consensus for revenue and operating profit, with the balance sheet finishing ahead of expectations on net cash, aided by a one-off c.£6.9m insurance receipt. A record order book underpins confidence for the year ahead."
+    },
+    "explainer": "This is a year-end trading update ahead of Renew's audited preliminary results on 24 November 2026. It tells the market the company expects full-year numbers broadly matching the figures analysts have pencilled in — the company-compiled consensus of £1,191.2m adjusted revenue, £77.7m adjusted operating profit and £6.3m of pre-IFRS 16 net cash. \"In line with consensus\" means no upgrade or downgrade on the profit line, but Renew flags these will be record levels.\n\nThe net cash position is the one area where it has done better than expected. Part of that outperformance is a one-off c.£6.9m insurance payment settling historical claims, so it is not a recurring operational cash inflow — strip it out and the underlying cash picture is closer to the £6.3m consensus. The stronger balance sheet gives Renew capacity to keep funding its acquisition pipeline.\n\nThe order book reaching a record high is the forward-looking signal: it reflects more work booked in regulated Water and Energy markets with committed, long-term funding, which supports confidence for the coming year and beyond. Guidance is effectively maintained on earnings and modestly better on cash.",
+    "source_url": "https://uk.advfn.com/stock-market/london/renew-RNWH/share-news/Renew-Holdings-PLC-Year-End-Trading-Update-Notic/99407634",
+    "related_news_url": "https://news.google.com/search?q=%22Renew%20Holdings%20plc%22",
+    "added_at": "2026-10-01T08:16:10.327945"
+  },
+  {
     "company": "Schroders PLC",
     "ticker": "SDR",
     "publish_date": "01 October 2026",
