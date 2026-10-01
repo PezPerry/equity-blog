@@ -1,5 +1,57 @@
 [
   {
+    "company": "Land Securities Group PLC",
+    "ticker": "LAND",
+    "publish_date": "01 October 2026",
+    "date_iso": "2026-10-01",
+    "time_period": "",
+    "announcement_type": "Fundraising / placing",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Landsec</strong> announces a conditional <strong>Retail Offer</strong> of new ordinary shares in the UK via <strong>RetailBook</strong>, running alongside a non-pre-emptive institutional <strong>Placing</strong> by accelerated bookbuild and a <strong>Subscription</strong> by the CEO and CFO (together the <strong>Equity Issue</strong>).</li><li>Issue price to be set at the close of the bookbuilding process; <strong>minimum subscription of £250</strong> per investor, with <strong>no commission</strong> charged by RetailBook.</li><li>Net proceeds will partly fund the <strong>Metrocentre Acquisition</strong> (100% stake from <strong>Tynehawk Holdings (Jersey) Limited</strong>) for net cash of <strong>£516m</strong>, plus an <strong>Additional Acquisition</strong> consolidating existing retail interests for around <strong>£100m</strong>; remainder financed by existing debt facilities.</li><li>Retail Offer is conditional on the Placing completing and on Admission, expected at <strong>8:00 a.m. on 5 October 2026</strong>; it will not complete without the Placing.</li><li>New shares will rank <strong>pari passu</strong> with existing ordinary shares, including dividend rights; the Company may scale back or reject applications and may close the offer early if oversubscribed.</li><li>Offer open only to eligible UK-resident investors (existing holders and new investors) through RetailBook's partner platforms, brokers and wealth managers, including via ISAs, SIPPs and GIAs.</li></ul>",
+    "source_format": "html",
+    "headline": "Landsec launches a UK retail offer of new shares via RetailBook, alongside an institutional placing, to help fund its £516m Metrocentre acquisition.",
+    "priority": "high",
+    "priority_reason": "Equity raise via retail offer and institutional placing to part-fund acquisitions, dilutive and M&A-linked.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/land-securities-group--land/landsec-retail-offer-/9800415",
+    "related_news_url": "https://news.google.com/search?q=%22Land%20Securities%20Group%22",
+    "added_at": "2026-10-01T07:05:10.599686"
+  },
+  {
+    "company": "Clarkson PLC",
+    "ticker": "CKN",
+    "publish_date": "01 October 2026",
+    "date_iso": "2026-10-01",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Dr Tim Miller</strong> will step down at the end of Clarksons' <strong>2027 Annual General Meeting</strong> and will not stand for re-election, having served <strong>nine years</strong> as an independent Non-Executive Director and Chair of the Remuneration Committee.</li><li><strong>Martine Bond</strong>, independent NED since <strong>September 2022</strong>, will succeed him as <strong>Chair of the Remuneration Committee</strong> from the conclusion of the 2027 AGM.</li><li>A search for a new non-executive director will be initiated, with a further announcement to follow.</li><li>Routine board succession disclosure under UKLR 6.4.6R, with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Clarkson's independent Non-Executive Director Dr Tim Miller to step down at the 2027 AGM after nine years, with Martine Bond succeeding him as Remuneration Committee Chair.",
+    "priority": "medium",
+    "priority_reason": "Board change: a long-serving independent Non-Executive Director and Remuneration Committee Chair is retiring, with a successor named.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/clarkson--ckn/directorate-change/9800249",
+    "related_news_url": "https://news.google.com/search?q=%22Clarkson%22",
+    "added_at": "2026-10-01T07:05:10.583766"
+  },
+  {
     "company": "Savannah Energy PLC",
     "ticker": "SAVE",
     "publish_date": "01 October 2026",
