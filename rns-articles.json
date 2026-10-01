@@ -1,5 +1,88 @@
 [
   {
+    "company": "Savannah Energy PLC",
+    "ticker": "SAVE",
+    "publish_date": "01 October 2026",
+    "date_iso": "2026-10-01",
+    "time_period": "8M to 31 August 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "8M to 31 August 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Revenue</strong> up <strong>19%</strong> year-on-year to <strong>US$197.5m</strong> (8M 2025: US$165.6m) and <strong>cash collections</strong> up <strong>12%</strong> to <strong>US$253.3m</strong> (8M 2025: US$225.8m) for the eight months to <strong>31 August 2026</strong>.</li><li>Average gross daily production of <strong>16.9 Kboepd</strong> for 8M 2026 (FY 2025: 18.8 Kboepd); <strong>FY 2026 guidance</strong> set at <strong>18-20 Kboepd</strong> as <strong>Uquo 13</strong> comes on stream, expected to lift output to around <strong>20 Kboepd</strong> for the rest of the year.</li><li><strong>Uquo South</strong> exploration well completed with gas discovered in most targeted reservoirs; <strong>Stubb Creek</strong> production up <strong>33%</strong> to <strong>3.9 Kbopd</strong>, with July and August averaging over <strong>5.0 Kbopd</strong>.</li><li><strong>Net debt</strong> rose to <strong>US$701.3m</strong> (31 Dec 2025: US$658.8m); cash balances up to <strong>US$62.8m</strong> and trade receivables down <strong>16%</strong> to <strong>US$428.7m</strong>. Only <strong>US$56.3m (7%)</strong> of gross debt is recourse to the Company.</li><li>AIM shares <strong>remain suspended</strong> pending publication of delayed <strong>FY 2025 accounts</strong> and <strong>H1 2026 results</strong>, both now expected during <strong>October 2026</strong>; the board's review of Savannah's AIM listing continues.</li><li>Chad/Cameroon arbitration claims exceeding <strong>US$775m</strong> (plus interest and costs) expected to conclude in <strong>Q4 2026</strong>; Niger R1234 PSC discussions with the Government ongoing, with a FY 2024 carrying value of ~<strong>US$175m</strong> under review.</li></ul>",
+    "source_format": "html",
+    "headline": "Savannah Energy's 8M 2026 revenue rose 19% to US$197.5m, with FY2026 production guided at 18-20 Kboepd, while its AIM shares remain suspended pending delayed accounts.",
+    "priority": "high",
+    "priority_reason": "Trading update with revenue, production and net-debt figures, FY2026 guidance and a continuing AIM trading suspension pending delayed accounts.",
+    "figures": [
+      {
+        "metric": "Revenue",
+        "current": "US$197.5m",
+        "prior": "US$165.6m",
+        "change": "+19%",
+        "basis": "unaudited",
+        "note": "8M to 31 August 2026"
+      },
+      {
+        "metric": "Cash collections",
+        "current": "US$253.3m",
+        "prior": "US$225.8m",
+        "change": "+12%",
+        "basis": "unaudited",
+        "note": "8M to 31 August 2026"
+      },
+      {
+        "metric": "Average gross daily production",
+        "current": "16.9 Kboepd",
+        "prior": "18.8 Kboepd",
+        "change": "not stated",
+        "basis": "current vs FY 2025",
+        "note": "76% gas in 8M 2026 vs 83% FY 2025"
+      },
+      {
+        "metric": "Cash balances",
+        "current": "US$62.8m",
+        "prior": "US$42.7m",
+        "change": "not stated",
+        "basis": "vs 31 December 2025",
+        "note": "as at 31 August 2026"
+      },
+      {
+        "metric": "Net debt",
+        "current": "US$701.3m",
+        "prior": "US$658.8m",
+        "change": "not stated",
+        "basis": "vs 31 December 2025",
+        "note": "gross debt US$764.1m, 7% recourse"
+      },
+      {
+        "metric": "Trade receivables",
+        "current": "US$428.7m",
+        "prior": "US$508.5m",
+        "change": "-16%",
+        "basis": "vs 31 December 2025",
+        "note": "mainly Nigeria gas sales"
+      },
+      {
+        "metric": "Stubb Creek production",
+        "current": "3.9 Kbopd",
+        "prior": "not stated",
+        "change": "+33%",
+        "basis": "year-on-year",
+        "note": "8M 2026; July/August over 5.0 Kbopd"
+      }
+    ],
+    "guidance": {
+      "status": "new",
+      "previous": "",
+      "current": "FY 2026 average gross daily production in the range of 18-20 Kboepd, subject to customer demand",
+      "commentary": "Savannah states a FY 2026 production range of 18-20 Kboepd, with output expected to average around 20 Kboepd for the remainder of the year following Uquo 13 coming on stream, plus potential upside from the Uquo South discovery."
+    },
+    "explainer": "The headline figures are for the eight months to 31 August 2026 (8M 2026) and are unaudited. Revenue of US$197.5m and cash collections of US$253.3m are both compared with the same eight-month period a year earlier, so these are like-for-like year-on-year comparisons. Note that revenue and cash collections differ because Nigerian gas sales carry take-or-pay provisions, meaning cash can be collected on contracted volumes even where gas is not nominated by customers.\n\nProduction of 16.9 Kboepd is for 8M 2026 and is compared against the full-year 2025 average of 18.8 Kboepd rather than a matching eight-month period, so the two are not directly comparable. The FY 2026 guidance of 18-20 Kboepd reflects the expected uplift from the Uquo 13 well, which reached first gas in July and has been on stream since August.\n\nNet debt rose to US$701.3m from US$658.8m at year-end 2025, but the Company stresses that only 7% (US$56.3m) of gross debt is recourse to Savannah itself, the rest sitting non-recourse within subsidiaries. The 16% fall in trade receivables reflects improved cash collection in Nigeria.\n\nThe key trading point for shareholders is that the shares remain suspended on AIM and will stay suspended until both the delayed FY 2025 audited accounts and the H1 2026 results are published, now expected during October 2026. A separate board review of Savannah's AIM admission is also still ongoing.",
+    "source_url": "https://uk.advfn.com/stock-market/london/savannah-energy-SAVE/share-news/Savannah-Energy-Plc-Operational-and-Financial-Upda/99403959",
+    "related_news_url": "https://news.google.com/search?q=%22Savannah%20Energy%20PLC%22",
+    "added_at": "2026-10-01T07:04:18.264538"
+  },
+  {
     "company": "Diageo PLC",
     "ticker": "DGE",
     "publish_date": "30 September 2026",
