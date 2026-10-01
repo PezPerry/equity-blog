@@ -13,6 +13,21 @@
   ],
   "tiles": [
     {
+      "slug": "global-bond-sell-off",
+      "url": "global-bond-sell-off.html",
+      "date": "2026-10-01",
+      "kind": "analysis",
+      "cover": "global-bond-sell-off-cover.jpg",
+      "alt": "Sketch of central bankers scrambling to hold piles of US, UK, Japanese and Australian bonds",
+      "cat": "Macro & Rates · Bonds",
+      "headline": "Global Bond Sell-Off: What's Happening",
+      "pill": "watch",
+      "pill_label": "Analysis",
+      "meta_extra": [
+        "US · UK · Japan · Australia"
+      ]
+    },
+    {
       "slug": "card-factory-plc-card-sell-standing-still-in-a-weak-consumer-market",
       "url": "card-factory-plc-card-sell-standing-still-in-a-weak-consumer-market.html",
       "date": "2026-09-29",
