@@ -1,5 +1,57 @@
 [
   {
+    "company": "Gamma Communications plc",
+    "ticker": "GAMA",
+    "publish_date": "01 October 2026",
+    "date_iso": "2026-10-01",
+    "time_period": "",
+    "announcement_type": "M&A / takeover",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Waterland Private Equity Investment B.V.</strong> has confirmed it <strong>does not intend to make an offer</strong> for <strong>Gamma Communications plc</strong>, under <strong>Rule 2.8</strong> of the City Code.</li><li>Follows Gamma's <strong>21 August 2026</strong> announcement that it was in discussions with Waterland regarding a possible offer.</li><li>Waterland and concert parties are now bound by Rule 2.8 restrictions (ordinarily a <strong>six-month</strong> bar on a renewed approach), except with the consent of the <strong>Takeover Panel</strong>.</li><li>Under Note 2 on Rule 2.8, Waterland reserves the right to set aside those restrictions in certain circumstances; the article text cuts off before listing them.</li><li>Removal of the bid approach is likely to weigh on the shares, which had been supported by takeover speculation.</li></ul>",
+    "source_format": "html",
+    "headline": "Waterland Private Equity confirms it will not make an offer for Gamma Communications, ending takeover talks disclosed on 21 August 2026.",
+    "priority": "high",
+    "priority_reason": "A confirmed walk-away from a possible takeover removes bid support and is materially price-sensitive.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/gamma-communications-GAMA/share-news/WPEF-IX-Holding-Cooperatief-W-A-2-8-Announcement/99407725",
+    "related_news_url": "https://news.google.com/search?q=%22Gamma%20Communications%20plc%22",
+    "added_at": "2026-10-01T07:57:58.268771"
+  },
+  {
+    "company": "Centrica plc",
+    "ticker": "CNA",
+    "publish_date": "01 October 2026",
+    "date_iso": "2026-10-01",
+    "time_period": "",
+    "announcement_type": "Disposal",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Spirit Energy</strong> has completed the sale of its remaining <strong>15%</strong> interest in the <strong>Cygnus</strong> gas field and all other producing assets in the <strong>Greater Markham Area</strong> and <strong>Southern North Sea</strong> to <strong>Serica Energy plc</strong>.</li><li>Final consideration of <strong>£33 million</strong> plus the transfer of <strong>£44 million</strong> of decommissioning liabilities; transaction initially announced <strong>16 December 2025</strong>.</li><li>The <strong>Morecambe Hub</strong> is now Spirit Energy's principal producing asset, with total retained reserves of <strong>9 mmboe</strong> (as at 31 December 2025).</li><li>Spirit Energy's focus remains on maximising value from Morecambe and progressing the <strong>Morecambe Net Zero</strong> carbon storage project, alongside decommissioning.</li></ul>",
+    "source_format": "html",
+    "headline": "Centrica's Spirit Energy completes sale of its remaining North Sea interests to Serica Energy for £33m plus transfer of £44m of decommissioning liabilities.",
+    "priority": "medium",
+    "priority_reason": "Completion of a previously-announced asset disposal; corporate action but not material to group earnings or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/centrica-CNA/share-news/Centrica-PLC-Completion-of-Cygnus-GMA-SNS-inter/99407714",
+    "related_news_url": "https://news.google.com/search?q=%22Centrica%20plc%22",
+    "added_at": "2026-10-01T07:57:58.227640"
+  },
+  {
     "company": "Topps Tiles PLC",
     "ticker": "TPT",
     "publish_date": "01 October 2026",
