@@ -1,5 +1,72 @@
 [
   {
+    "company": "SSE plc",
+    "ticker": "SSE",
+    "publish_date": "01 October 2026",
+    "date_iso": "2026-10-01",
+    "time_period": "H1 FY2026/27 (to 30 September 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "H1 FY2026/27 (to 30 September 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>SSE plc</strong> expects <strong>half-year adjusted EPS of 64-68 pence</strong>, with lower seasonality reflecting a rising share of earnings from regulated networks; <strong>Half-year Results due 18 November 2026</strong>.</li><li><strong>Reiterates adjusted EPS guidance of 168-193p for 2026/27</strong> and <strong>225-250p for 2029/30</strong>; full-year expectations for each business unit unchanged, subject to weather and the key winter months still to come.</li><li>Regulated networks investment up <strong>around 70% year-on-year</strong>, the majority in <strong>Transmission</strong>, with progress accelerating across its <strong>11 major projects</strong>.</li><li>Renewables output up <strong>around 20% year-on-year</strong> on more favourable weather and capacity growth; <strong>Dogger Bank</strong> B turbine installation beyond the half-way point and in line with expectations.</li><li>H1 group capital investment <strong>around £2.5bn</strong>, with adjusted net debt and hybrid capital <strong>around £11.5bn</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "SSE guides to half-year adjusted EPS of 64-68p and reiterates full-year 2026/27 guidance of 168-193p ahead of 18 November results.",
+    "priority": "high",
+    "priority_reason": "Pre-close trading update with interim EPS range and reiterated multi-year earnings guidance.",
+    "figures": [
+      {
+        "metric": "Adjusted EPS (H1)",
+        "current": "64-68p",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "adjusted",
+        "note": "H1 FY2026/27"
+      },
+      {
+        "metric": "Regulated networks investment",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "around +70%",
+        "basis": "year-on-year",
+        "note": "majority in Transmission"
+      },
+      {
+        "metric": "Renewables output",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "around +20%",
+        "basis": "year-on-year",
+        "note": "favourable weather and capacity growth"
+      },
+      {
+        "metric": "Capital investment (H1)",
+        "current": "around £2.5bn",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "group",
+        "note": "half-year"
+      },
+      {
+        "metric": "Adjusted net debt and hybrid capital",
+        "current": "around £11.5bn",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "adjusted",
+        "note": "half-year"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Adjusted EPS of 168-193p for 2026/27 and 225-250p for 2029/30",
+      "current": "Adjusted EPS of 168-193p for 2026/27 and 225-250p for 2029/30",
+      "commentary": "SSE reiterated both its full-year 2026/27 and medium-term 2029/30 adjusted EPS ranges, with each business unit's full-year expectations unchanged and subject to winter weather, market conditions and plant availability."
+    },
+    "explainer": "This is a pre-close trading update ahead of SSE's half-year results on 18 November 2026. The headline new number is the guided interim adjusted EPS range of 64-68p. SSE notes this reflects lower first-half seasonality than in prior years, because a growing proportion of its earnings now comes from regulated networks (transmission and distribution), which earn more evenly through the year than the weather-dependent renewables business. All figures are 'adjusted', meaning they strip out certain one-off and non-cash items from statutory results.\n\nThe operational drivers are a roughly 70% year-on-year rise in regulated networks investment, concentrated in Transmission where 11 major projects are being built out, and renewables output around 20% higher thanks to more favourable weather and new capacity, including continued progress at the Dogger Bank offshore wind farm.\n\nOn guidance, nothing has changed: SSE reiterated its 168-193p adjusted EPS target for 2026/27 and its 225-250p target for 2029/30. Management flags that the key winter months — the most important period for earnings — are still ahead, so the full-year outcome remains subject to weather, market conditions and plant availability.",
+    "source_url": "https://uk.advfn.com/stock-market/london/sse-SSE/share-news/SSE-PLC-Trading-Update/99407677",
+    "related_news_url": "https://news.google.com/search?q=%22SSE%20plc%22",
+    "added_at": "2026-10-01T07:59:50.257554"
+  },
+  {
     "company": "Gamma Communications plc",
     "ticker": "GAMA",
     "publish_date": "01 October 2026",
