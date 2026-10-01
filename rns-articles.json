@@ -1,5 +1,80 @@
 [
   {
+    "company": "Topps Tiles PLC",
+    "ticker": "TPT",
+    "publish_date": "01 October 2026",
+    "date_iso": "2026-10-01",
+    "time_period": "FY to 26 September 2026 (52 weeks)",
+    "announcement_type": "Trading update",
+    "period_detail": "FY to 26 September 2026 (52 weeks)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Adjusted profit before tax</strong> for FY26 (52 weeks to <strong>26 September 2026</strong>) expected <strong>in line with current market expectations</strong> — company-compiled consensus of <strong>£6.6m</strong> (range <strong>£6.5m–£6.7m</strong>).</li><li><strong>Group revenue including CTD</strong> of <strong>c.£292m</strong>, <strong>down c.1.3%</strong> year on year, reflecting annualisation of prior-year CTD store closures and closure of underperforming Topps stores.</li><li><strong>Group revenue excluding CTD</strong> of <strong>c.£267m</strong>, <strong>up c.0.7%</strong>; Topps Tiles like-for-like revenue <strong>down c.0.1%</strong>, hit by extreme heat in Q4 but improving in September and outperforming a market down c.1.7%.</li><li><strong>Pro Tiler Tools</strong> delivered record revenue of <strong>c.£42m</strong>, <strong>up c.18.2%</strong> year on year.</li><li>Online revenue (incl. CTD) rose <strong>3.7 percentage points</strong> to <strong>c.22.7%</strong> of group revenue; <strong>Fired Earth</strong> acquisition was <strong>profit accretive</strong> in the year.</li><li>Self-help programme completed — store network optimisation, lower-cost flexible labour model and head office consolidation supporting improved profitability.</li></ul>",
+    "source_format": "html",
+    "headline": "Topps Tiles expects FY26 adjusted pre-tax profit in line with market expectations despite a c.1.3% fall in group revenue to c.£292m.",
+    "priority": "high",
+    "priority_reason": "Full-year trading update with revenue detail and a profit guidance confirmation.",
+    "figures": [
+      {
+        "metric": "Group revenue (incl. CTD)",
+        "current": "c.£292m",
+        "prior": "not stated",
+        "change": "c.-1.3%",
+        "basis": "reported, year on year",
+        "note": "52 weeks to 26 September 2026"
+      },
+      {
+        "metric": "Group revenue (excl. CTD)",
+        "current": "c.£267m",
+        "prior": "not stated",
+        "change": "c.+0.7%",
+        "basis": "reported, year on year",
+        "note": "FY26"
+      },
+      {
+        "metric": "Topps Tiles like-for-like revenue",
+        "current": "c.-0.1%",
+        "prior": "not stated",
+        "change": "c.-0.1%",
+        "basis": "like-for-like",
+        "note": "FY26"
+      },
+      {
+        "metric": "Pro Tiler Tools revenue",
+        "current": "c.£42m",
+        "prior": "not stated",
+        "change": "c.+18.2%",
+        "basis": "reported, year on year",
+        "note": "record revenue"
+      },
+      {
+        "metric": "Online revenue (% of group, incl. CTD)",
+        "current": "c.22.7%",
+        "prior": "c.19.0%",
+        "change": "+3.7 ppt",
+        "basis": "full year",
+        "note": "Q4 FY26 reached c.25.6%"
+      },
+      {
+        "metric": "Adjusted profit before tax",
+        "current": "in line with consensus £6.6m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "company-compiled consensus as at 30 September 2026, range £6.5m–£6.7m",
+        "note": "expectation; audited results to follow"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Adjusted profit before tax in line with market expectations",
+      "current": "Adjusted profit before tax for the full year expected to be in line with current market expectations",
+      "commentary": "Guidance reaffirmed: FY26 adjusted PBT is expected in line with company-compiled consensus of £6.6m (range £6.5m–£6.7m), despite a modest revenue decline and Q4 disruption from extreme heat."
+    },
+    "explainer": "This is an unaudited full-year trading update ahead of Topps Tiles' audited results. The headline revenue figures are stated before year-end accounting adjustments (revenue recognition, loyalty scheme accounting and customer returns provisions), so the final reported numbers may differ. Group revenue is shown both including and excluding CTD — the tile brand acquired in August 2024, which now trades from 23 stores versus 31 a year ago after commercial property decisions and four store disposals required by the CMA. The 1.3% group decline largely reflects those closures rather than weak underlying demand.",
+    "source_url": "https://uk.advfn.com/stock-market/london/topps-tiles-TPT/share-news/Topps-Tiles-PLC-Full-Year-Trading-Update/99407620",
+    "related_news_url": "https://news.google.com/search?q=%22Topps%20Tiles%20Plc%22",
+    "added_at": "2026-10-01T07:57:22.333957"
+  },
+  {
     "company": "Land Securities Group PLC",
     "ticker": "LAND",
     "publish_date": "01 October 2026",
