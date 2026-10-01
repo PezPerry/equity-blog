@@ -1,9 +1,9 @@
 {
-  "generated": "2026-09-30",
+  "generated": "2026-10-01",
   "by_ticker": {
     "AAPL": {
-      "date": "2026-09-30",
-      "event": "Year end"
+      "date": "2026-10-31",
+      "event": "Annual report (Est)"
     },
     "ABDN": {
       "date": "2026-11-06",
@@ -17,21 +17,13 @@
       "date": "2026-10-02",
       "event": "Q2 div payment"
     },
-    "AJB": {
-      "date": "2026-09-30",
-      "event": "Year end"
-    },
     "ANTO": {
-      "date": "2026-09-30",
-      "event": "Q2 div payment"
+      "date": "2026-10-15",
+      "event": "Trading statement"
     },
     "ASHM": {
       "date": "2026-10-14",
       "event": "Trading statement"
-    },
-    "ATG": {
-      "date": "2026-09-30",
-      "event": "Year end"
     },
     "BATS": {
       "date": "2026-10-01",
@@ -40,10 +32,6 @@
     "BBY": {
       "date": "2026-10-29",
       "event": "Q2 ex-div"
-    },
-    "BOWL": {
-      "date": "2026-09-30",
-      "event": "Year end"
     },
     "BPT": {
       "date": "2026-10-26",
@@ -64,10 +52,6 @@
     "COST": {
       "date": "2026-10-08",
       "event": "Annual report (Est)"
-    },
-    "CPG": {
-      "date": "2026-09-30",
-      "event": "Year end"
     },
     "CRDA": {
       "date": "2026-10-06",
@@ -97,10 +81,6 @@
       "date": "2026-10-09",
       "event": "Annual report (Est)"
     },
-    "EZJ": {
-      "date": "2026-09-30",
-      "event": "Year end"
-    },
     "FORT": {
       "date": "2026-10-09",
       "event": "Q2 div payment"
@@ -116,10 +96,6 @@
     "GRG": {
       "date": "2026-10-01",
       "event": "Trading statement"
-    },
-    "GRI": {
-      "date": "2026-09-30",
-      "event": "Year end"
     },
     "GSF": {
       "date": "2026-10-09",
@@ -154,8 +130,8 @@
       "event": "Q2 div payment"
     },
     "IHP": {
-      "date": "2026-09-30",
-      "event": "Year end"
+      "date": "2026-10-13",
+      "event": "Trading statement"
     },
     "IWG": {
       "date": "2026-10-09",
@@ -193,10 +169,6 @@
       "date": "2026-10-01",
       "event": "Q2 ex-div"
     },
-    "MAB": {
-      "date": "2026-09-30",
-      "event": "Year end"
-    },
     "MAB1": {
       "date": "2026-10-01",
       "event": "Q2 ex-div"
@@ -229,14 +201,6 @@
       "date": "2026-10-01",
       "event": "Special div payment"
     },
-    "OTB": {
-      "date": "2026-09-30",
-      "event": "Year end"
-    },
-    "PAG": {
-      "date": "2026-09-30",
-      "event": "Year end"
-    },
     "PLUS": {
       "date": "2026-11-11",
       "event": "Special div payment"
@@ -253,10 +217,6 @@
       "date": "2026-10-15",
       "event": "Q2 ex-div"
     },
-    "RAT": {
-      "date": "2026-09-30",
-      "event": "Q2 div payment"
-    },
     "RIO": {
       "date": "2026-10-14",
       "event": "Trading statement"
@@ -265,25 +225,17 @@
       "date": "2026-10-31",
       "event": "Year end"
     },
-    "SBUX": {
-      "date": "2026-09-30",
-      "event": "Year end"
-    },
     "SDLF": {
       "date": "2026-10-29",
       "event": "Q2 div payment"
     },
     "SERE": {
-      "date": "2026-09-30",
-      "event": "Year end"
+      "date": "2026-10-08",
+      "event": "Special ex-div"
     },
     "SRP": {
       "date": "2026-10-02",
       "event": "Q2 div payment"
-    },
-    "SSPG": {
-      "date": "2026-09-30",
-      "event": "Year end"
     },
     "TBCG": {
       "date": "2026-10-22",
@@ -297,10 +249,6 @@
       "date": "2026-10-01",
       "event": "Q2 ex-div"
     },
-    "TPT": {
-      "date": "2026-09-30",
-      "event": "Year end"
-    },
     "TW.": {
       "date": "2026-10-08",
       "event": "Q2 ex-div"
@@ -308,10 +256,6 @@
     "UTG": {
       "date": "2026-10-08",
       "event": "Trading statement"
-    },
-    "VCT": {
-      "date": "2026-09-30",
-      "event": "Year end"
     },
     "WIKS": {
       "date": "2026-10-01",
@@ -324,10 +268,6 @@
     "WKP": {
       "date": "2026-10-15",
       "event": "Trading statement"
-    },
-    "ZIG": {
-      "date": "2026-09-30",
-      "event": "Q4 div payment"
     }
   }
 }

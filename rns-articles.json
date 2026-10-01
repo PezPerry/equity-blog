@@ -1,5 +1,608 @@
 [
   {
+    "company": "Renew Holdings PLC",
+    "ticker": "RNWH",
+    "publish_date": "01 October 2026",
+    "date_iso": "2026-10-01",
+    "time_period": "FY to 30 September 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "FY to 30 September 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Full-year trading in line with market consensus</strong> for the year ended <strong>30 September 2026</strong>, with <strong>record revenue and operating profit</strong>.</li><li>Company-compiled consensus cited: <strong>adjusted revenue of £1,191.2m</strong>, <strong>adjusted operating profit of £77.7m</strong> and <strong>pre-IFRS 16 net cash of £6.3m</strong>.</li><li>Finished the year with a <strong>net cash position ahead of market expectations</strong>, helped by a <strong>one-off insurance payment of c.£6.9m</strong> relating to settlement of historical claims.</li><li><strong>Record order book at 30 September 2026</strong>, driven by increased exposure to Water and Energy end-markets with committed investment programmes.</li><li>Acquisitions of <strong>Emerald Power</strong>, <strong>Edwards Diving Services</strong>, <strong>PWR-X</strong> and <strong>Electricity Distribution Engineering Services</strong> integrating well; active M&A pipeline continues.</li><li>Preliminary results to be announced on <strong>Tuesday 24 November 2026</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Renew expects full-year trading in line with market consensus, delivering record revenue and operating profit and a record order book at 30 September 2026.",
+    "priority": "high",
+    "priority_reason": "Full-year trading update confirming results in line with consensus, record revenue, operating profit and order book, with net cash ahead of expectations.",
+    "figures": [
+      {
+        "metric": "Adjusted revenue (consensus)",
+        "current": "£1,191.2m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "company-compiled analyst consensus",
+        "note": "FY to 30 September 2026; described as record revenue"
+      },
+      {
+        "metric": "Adjusted operating profit (consensus)",
+        "current": "£77.7m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "company-compiled analyst consensus",
+        "note": "FY to 30 September 2026; described as record operating profit"
+      },
+      {
+        "metric": "Pre-IFRS 16 net cash (consensus)",
+        "current": "£6.3m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "company-compiled analyst consensus; actual stated to be ahead of expectations",
+        "note": "includes c.£6.9m one-off insurance payment"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Market consensus for FY26: adjusted revenue £1,191.2m, adjusted operating profit £77.7m, pre-IFRS 16 net cash £6.3m",
+      "current": "Trading expected in line with that consensus on revenue and operating profit; net cash ahead of expectations",
+      "commentary": "Renew confirms full-year trading in line with consensus for revenue and operating profit, with the balance sheet finishing ahead of expectations on net cash, aided by a one-off c.£6.9m insurance receipt. A record order book underpins confidence for the year ahead."
+    },
+    "explainer": "This is a year-end trading update ahead of Renew's audited preliminary results on 24 November 2026. It tells the market the company expects full-year numbers broadly matching the figures analysts have pencilled in — the company-compiled consensus of £1,191.2m adjusted revenue, £77.7m adjusted operating profit and £6.3m of pre-IFRS 16 net cash. \"In line with consensus\" means no upgrade or downgrade on the profit line, but Renew flags these will be record levels.\n\nThe net cash position is the one area where it has done better than expected. Part of that outperformance is a one-off c.£6.9m insurance payment settling historical claims, so it is not a recurring operational cash inflow — strip it out and the underlying cash picture is closer to the £6.3m consensus. The stronger balance sheet gives Renew capacity to keep funding its acquisition pipeline.\n\nThe order book reaching a record high is the forward-looking signal: it reflects more work booked in regulated Water and Energy markets with committed, long-term funding, which supports confidence for the coming year and beyond. Guidance is effectively maintained on earnings and modestly better on cash.",
+    "source_url": "https://uk.advfn.com/stock-market/london/renew-RNWH/share-news/Renew-Holdings-PLC-Year-End-Trading-Update-Notic/99407634",
+    "related_news_url": "https://news.google.com/search?q=%22Renew%20Holdings%20plc%22",
+    "added_at": "2026-10-01T08:16:10.327945"
+  },
+  {
+    "company": "Schroders PLC",
+    "ticker": "SDR",
+    "publish_date": "01 October 2026",
+    "date_iso": "2026-10-01",
+    "time_period": "",
+    "announcement_type": "Acquisition / deal",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Scheme of arrangement</strong> under Part 26 of the Companies Act 2006 has become <strong>Effective</strong>, with Schroders' entire share capital now owned by <strong>Bidco</strong>, a wholly-owned subsidiary of <strong>Nuveen, LLC</strong> (a <strong>TIAA</strong> company).</li><li>Scheme Shareholders on the register at the Scheme Record Time (<strong>6:00 p.m. on 30 September 2026</strong>) will receive <strong>590 pence in cash</strong> per Scheme Share; settlement no later than <strong>15 October 2026</strong>.</li><li>Trading in Schroders Shares on the LSE Main Market <strong>suspended from 7:30 a.m. today</strong>; de-listing and cancellation of admission expected by <strong>8:00 a.m. on 2 October 2026</strong>.</li><li>Board changes: <strong>Dame Elizabeth Corley</strong>, <strong>Claire Fitzalan Howard</strong>, <strong>Ian King</strong>, <strong>William Lin</strong> and <strong>Annette Thomas</strong> step down as non-executive directors; <strong>William Huffman</strong>, <strong>Saira Malik</strong> and <strong>Kevin McCarthy</strong> appointed as Nuveen representative directors.</li><li><strong>Matthew Westerman</strong> becomes Non-Executive Chair; <strong>Iain Mackay</strong> chairs Audit and Risk, <strong>Frederic Wakeman</strong> chairs Remuneration, <strong>Leonie Schroder</strong> remains a non-executive director.</li><li>The Court sanctioned the Scheme at the hearing on <strong>29 September 2026</strong>; terms were first agreed on <strong>12 February 2026</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Nuveen's recommended cash acquisition of Schroders becomes effective at 590 pence per share, with trading suspended and delisting due by 2 October 2026.",
+    "priority": "high",
+    "priority_reason": "Completion of a recommended cash takeover of Schroders, with trading suspended and shares to be delisted.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/schroders-SDR/share-news/Schroders-PLC-Scheme-of-Arrangement-is-Effective/99407638",
+    "related_news_url": "https://news.google.com/search?q=%22Schroders%20PLC%22",
+    "added_at": "2026-10-01T08:05:25.102421"
+  },
+  {
+    "company": "Primary Health Properties PLC",
+    "ticker": "PHP",
+    "publish_date": "01 October 2026",
+    "date_iso": "2026-10-01",
+    "time_period": "Q3 / 9 months to 30 September 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "Q3 / 9 months to 30 September 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Primary Health Properties PLC</strong> reports its <strong>Q3</strong> update for the period to <strong>30 September 2026</strong>, with rental growth <strong>slightly ahead of guidance</strong> and joint-venture deleveraging transactions <strong>on track</strong>.</li><li><strong>480 completed rent reviews</strong> in the first 9 months generated an extra <strong>£5.8 million</strong> of income — a <strong>6.1%</strong> uplift on the previous rent of <strong>£96 million</strong>, equivalent to <strong>3.1%</strong> annualised (target <strong>>3%</strong>).</li><li>Growth across the enlarged portfolio: <strong>Primary Care UK +2.8%</strong>, <strong>Private Hospitals +3.7%</strong> and <strong>Ireland +3.7%</strong>.</li><li>Joint-venture transactions with partners have <strong>financial terms agreed and due diligence complete</strong>; proceeds will pay down debt, targeting <strong>Net Debt/EBITDA below 9.5x</strong> and <strong>LTV below 50%</strong>. A further update to follow shortly.</li><li>Integration of <strong>Assura</strong> completed during the period, with financial synergies now expected <strong>ahead of plan</strong>; five new-build developments on site and on budget.</li><li>PHP notes its <strong>30th consecutive year</strong> of dividend growth and a <strong>£6 billion</strong> portfolio across the UK and Ireland.</li></ul>",
+    "source_format": "html",
+    "headline": "PHP reports rental growth slightly ahead of guidance at 3.1% annualised, with joint-venture deleveraging transactions on track and Assura integration complete.",
+    "priority": "high",
+    "priority_reason": "Q3 trading update on rental growth, deleveraging and joint-venture progress at the UK's largest listed healthcare REIT.",
+    "figures": [
+      {
+        "metric": "Rent-review income uplift (9 months)",
+        "current": "£5.8m",
+        "prior": "not stated",
+        "change": "+6.1%",
+        "basis": "over previous rent of £96m across 480 reviews",
+        "note": "9 months to 30 September 2026"
+      },
+      {
+        "metric": "Annualised rental growth",
+        "current": "3.1%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "vs target >3%",
+        "note": "9 months to 30 September 2026"
+      },
+      {
+        "metric": "Primary Care UK rental growth",
+        "current": "+2.8%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": ""
+      },
+      {
+        "metric": "Private Hospitals rental growth",
+        "current": "+3.7%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": ""
+      },
+      {
+        "metric": "Ireland rental growth",
+        "current": "+3.7%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": ""
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Annualised rental growth target of >3%",
+      "current": "Rental growth running slightly ahead of guidance at 3.1% annualised; targeting Net Debt/EBITDA below 9.5x and LTV below 50%, with Assura synergies now expected ahead of plan",
+      "commentary": "PHP reiterates its >3% rental-growth target and reports delivery slightly ahead, while flagging that Assura cost synergies will now come through ahead of plan. The deleveraging targets (Net Debt/EBITDA <9.5x, LTV <50%) are restated, to be met from joint-venture asset-sale proceeds."
+    },
+    "explainer": "This is a scheduled third-quarter update rather than full results, so it carries operational metrics rather than audited profit figures. The headline number is rental growth: PHP completed 480 rent reviews in the first nine months, adding £5.8m of income — a 6.1% increase on the rent those properties previously paid, which annualises to roughly 3.1%. That is just above the company's own >3% target, hence \"slightly ahead of guidance\".\n\nThe growth is broad-based, with similar uplifts across UK primary care, private hospitals and the Irish portfolio. For a healthcare REIT whose income comes largely from the NHS, GPs and the Irish HSE, this reflects inflation-linked and open-market rent reviews feeding through rather than new acquisitions.\n\nOn guidance, the rental-growth target is maintained (and being beaten modestly), and the deleveraging plan is unchanged: PHP still aims to bring Net Debt/EBITDA below 9.5x and loan-to-value below 50%, funded by selling assets into joint ventures. The one upgrade is on Assura synergies, now expected ahead of plan following completed integration. No new financial guidance figures are quoted, so the figures above are limited to the rental-growth metrics the company actually printed.",
+    "source_url": "https://uk.advfn.com/stock-market/london/primary-health-prop-PHP/share-news/Primary-Health-Properties-PLC-Q3-Update-on-rental/99407664",
+    "related_news_url": "https://news.google.com/search?q=%22Primary%20Health%20Properties%20PLC%22",
+    "added_at": "2026-10-01T08:00:58.422008"
+  },
+  {
+    "company": "Inchcape plc",
+    "ticker": "INCH",
+    "publish_date": "01 October 2026",
+    "date_iso": "2026-10-01",
+    "time_period": "",
+    "announcement_type": "Acquisition / deal",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Inchcape plc</strong> has agreed to acquire a <strong>Volvo</strong> business in <strong>Peru and Costa Rica</strong> and a <strong>Jaguar Land Rover</strong> business in <strong>Peru</strong>, all from <strong>Automotores Gildemeister</strong>.</li><li>Acquired businesses generated revenue of <strong>c.£48.7m ($64m)</strong> in <strong>FY2025</strong> and employ <strong>c.90</strong> people, across three retail sites in Peru and two in Costa Rica.</li><li>Deal expands Inchcape's Americas footprint and NEV range, building on existing <strong>Volvo</strong> ties in Chile and Ecuador and the <strong>JLR</strong> partnership in Chile and Colombia.</li><li>Follows recent bolt-ons in <strong>Bulgaria</strong> (Silver Star Motors) and <strong>Iceland</strong>, framed as part of the <strong>Accelerate+</strong> strategy; no consideration or earnings impact disclosed.</li><li>Completion expected in <strong>Q1 2027</strong>, subject to customary conditions and approvals.</li></ul>",
+    "source_format": "html",
+    "headline": "Inchcape agrees bolt-on acquisitions of Volvo businesses in Peru and Costa Rica and a Jaguar Land Rover business in Peru from Automotores Gildemeister.",
+    "priority": "medium",
+    "priority_reason": "Small bolt-on M&A (c.£48.7m combined revenue, ~90 staff) immaterial to a group employing over 16,000, but still corporate-action news.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/inchcape-INCH/share-news/Inchcape-PLC-Inchcape-bolt-on-acquisitions-in-Peru/99407670",
+    "related_news_url": "https://news.google.com/search?q=%22Inchcape%20plc%22",
+    "added_at": "2026-10-01T08:00:58.409499"
+  },
+  {
+    "company": "SSE plc",
+    "ticker": "SSE",
+    "publish_date": "01 October 2026",
+    "date_iso": "2026-10-01",
+    "time_period": "H1 FY2026/27 (to 30 September 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "H1 FY2026/27 (to 30 September 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>SSE plc</strong> expects <strong>half-year adjusted EPS of 64-68 pence</strong>, with lower seasonality reflecting a rising share of earnings from regulated networks; <strong>Half-year Results due 18 November 2026</strong>.</li><li><strong>Reiterates adjusted EPS guidance of 168-193p for 2026/27</strong> and <strong>225-250p for 2029/30</strong>; full-year expectations for each business unit unchanged, subject to weather and the key winter months still to come.</li><li>Regulated networks investment up <strong>around 70% year-on-year</strong>, the majority in <strong>Transmission</strong>, with progress accelerating across its <strong>11 major projects</strong>.</li><li>Renewables output up <strong>around 20% year-on-year</strong> on more favourable weather and capacity growth; <strong>Dogger Bank</strong> B turbine installation beyond the half-way point and in line with expectations.</li><li>H1 group capital investment <strong>around £2.5bn</strong>, with adjusted net debt and hybrid capital <strong>around £11.5bn</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "SSE guides to half-year adjusted EPS of 64-68p and reiterates full-year 2026/27 guidance of 168-193p ahead of 18 November results.",
+    "priority": "high",
+    "priority_reason": "Pre-close trading update with interim EPS range and reiterated multi-year earnings guidance.",
+    "figures": [
+      {
+        "metric": "Adjusted EPS (H1)",
+        "current": "64-68p",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "adjusted",
+        "note": "H1 FY2026/27"
+      },
+      {
+        "metric": "Regulated networks investment",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "around +70%",
+        "basis": "year-on-year",
+        "note": "majority in Transmission"
+      },
+      {
+        "metric": "Renewables output",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "around +20%",
+        "basis": "year-on-year",
+        "note": "favourable weather and capacity growth"
+      },
+      {
+        "metric": "Capital investment (H1)",
+        "current": "around £2.5bn",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "group",
+        "note": "half-year"
+      },
+      {
+        "metric": "Adjusted net debt and hybrid capital",
+        "current": "around £11.5bn",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "adjusted",
+        "note": "half-year"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Adjusted EPS of 168-193p for 2026/27 and 225-250p for 2029/30",
+      "current": "Adjusted EPS of 168-193p for 2026/27 and 225-250p for 2029/30",
+      "commentary": "SSE reiterated both its full-year 2026/27 and medium-term 2029/30 adjusted EPS ranges, with each business unit's full-year expectations unchanged and subject to winter weather, market conditions and plant availability."
+    },
+    "explainer": "This is a pre-close trading update ahead of SSE's half-year results on 18 November 2026. The headline new number is the guided interim adjusted EPS range of 64-68p. SSE notes this reflects lower first-half seasonality than in prior years, because a growing proportion of its earnings now comes from regulated networks (transmission and distribution), which earn more evenly through the year than the weather-dependent renewables business. All figures are 'adjusted', meaning they strip out certain one-off and non-cash items from statutory results.\n\nThe operational drivers are a roughly 70% year-on-year rise in regulated networks investment, concentrated in Transmission where 11 major projects are being built out, and renewables output around 20% higher thanks to more favourable weather and new capacity, including continued progress at the Dogger Bank offshore wind farm.\n\nOn guidance, nothing has changed: SSE reiterated its 168-193p adjusted EPS target for 2026/27 and its 225-250p target for 2029/30. Management flags that the key winter months — the most important period for earnings — are still ahead, so the full-year outcome remains subject to weather, market conditions and plant availability.",
+    "source_url": "https://uk.advfn.com/stock-market/london/sse-SSE/share-news/SSE-PLC-Trading-Update/99407677",
+    "related_news_url": "https://news.google.com/search?q=%22SSE%20plc%22",
+    "added_at": "2026-10-01T07:59:50.257554"
+  },
+  {
+    "company": "Gamma Communications plc",
+    "ticker": "GAMA",
+    "publish_date": "01 October 2026",
+    "date_iso": "2026-10-01",
+    "time_period": "",
+    "announcement_type": "M&A / takeover",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Waterland Private Equity Investment B.V.</strong> has confirmed it <strong>does not intend to make an offer</strong> for <strong>Gamma Communications plc</strong>, under <strong>Rule 2.8</strong> of the City Code.</li><li>Follows Gamma's <strong>21 August 2026</strong> announcement that it was in discussions with Waterland regarding a possible offer.</li><li>Waterland and concert parties are now bound by Rule 2.8 restrictions (ordinarily a <strong>six-month</strong> bar on a renewed approach), except with the consent of the <strong>Takeover Panel</strong>.</li><li>Under Note 2 on Rule 2.8, Waterland reserves the right to set aside those restrictions in certain circumstances; the article text cuts off before listing them.</li><li>Removal of the bid approach is likely to weigh on the shares, which had been supported by takeover speculation.</li></ul>",
+    "source_format": "html",
+    "headline": "Waterland Private Equity confirms it will not make an offer for Gamma Communications, ending takeover talks disclosed on 21 August 2026.",
+    "priority": "high",
+    "priority_reason": "A confirmed walk-away from a possible takeover removes bid support and is materially price-sensitive.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/gamma-communications-GAMA/share-news/WPEF-IX-Holding-Cooperatief-W-A-2-8-Announcement/99407725",
+    "related_news_url": "https://news.google.com/search?q=%22Gamma%20Communications%20plc%22",
+    "added_at": "2026-10-01T07:57:58.268771"
+  },
+  {
+    "company": "Centrica plc",
+    "ticker": "CNA",
+    "publish_date": "01 October 2026",
+    "date_iso": "2026-10-01",
+    "time_period": "",
+    "announcement_type": "Disposal",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Spirit Energy</strong> has completed the sale of its remaining <strong>15%</strong> interest in the <strong>Cygnus</strong> gas field and all other producing assets in the <strong>Greater Markham Area</strong> and <strong>Southern North Sea</strong> to <strong>Serica Energy plc</strong>.</li><li>Final consideration of <strong>£33 million</strong> plus the transfer of <strong>£44 million</strong> of decommissioning liabilities; transaction initially announced <strong>16 December 2025</strong>.</li><li>The <strong>Morecambe Hub</strong> is now Spirit Energy's principal producing asset, with total retained reserves of <strong>9 mmboe</strong> (as at 31 December 2025).</li><li>Spirit Energy's focus remains on maximising value from Morecambe and progressing the <strong>Morecambe Net Zero</strong> carbon storage project, alongside decommissioning.</li></ul>",
+    "source_format": "html",
+    "headline": "Centrica's Spirit Energy completes sale of its remaining North Sea interests to Serica Energy for £33m plus transfer of £44m of decommissioning liabilities.",
+    "priority": "medium",
+    "priority_reason": "Completion of a previously-announced asset disposal; corporate action but not material to group earnings or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/centrica-CNA/share-news/Centrica-PLC-Completion-of-Cygnus-GMA-SNS-inter/99407714",
+    "related_news_url": "https://news.google.com/search?q=%22Centrica%20plc%22",
+    "added_at": "2026-10-01T07:57:58.227640"
+  },
+  {
+    "company": "Topps Tiles PLC",
+    "ticker": "TPT",
+    "publish_date": "01 October 2026",
+    "date_iso": "2026-10-01",
+    "time_period": "FY to 26 September 2026 (52 weeks)",
+    "announcement_type": "Trading update",
+    "period_detail": "FY to 26 September 2026 (52 weeks)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Adjusted profit before tax</strong> for FY26 (52 weeks to <strong>26 September 2026</strong>) expected <strong>in line with current market expectations</strong> — company-compiled consensus of <strong>£6.6m</strong> (range <strong>£6.5m–£6.7m</strong>).</li><li><strong>Group revenue including CTD</strong> of <strong>c.£292m</strong>, <strong>down c.1.3%</strong> year on year, reflecting annualisation of prior-year CTD store closures and closure of underperforming Topps stores.</li><li><strong>Group revenue excluding CTD</strong> of <strong>c.£267m</strong>, <strong>up c.0.7%</strong>; Topps Tiles like-for-like revenue <strong>down c.0.1%</strong>, hit by extreme heat in Q4 but improving in September and outperforming a market down c.1.7%.</li><li><strong>Pro Tiler Tools</strong> delivered record revenue of <strong>c.£42m</strong>, <strong>up c.18.2%</strong> year on year.</li><li>Online revenue (incl. CTD) rose <strong>3.7 percentage points</strong> to <strong>c.22.7%</strong> of group revenue; <strong>Fired Earth</strong> acquisition was <strong>profit accretive</strong> in the year.</li><li>Self-help programme completed — store network optimisation, lower-cost flexible labour model and head office consolidation supporting improved profitability.</li></ul>",
+    "source_format": "html",
+    "headline": "Topps Tiles expects FY26 adjusted pre-tax profit in line with market expectations despite a c.1.3% fall in group revenue to c.£292m.",
+    "priority": "high",
+    "priority_reason": "Full-year trading update with revenue detail and a profit guidance confirmation.",
+    "figures": [
+      {
+        "metric": "Group revenue (incl. CTD)",
+        "current": "c.£292m",
+        "prior": "not stated",
+        "change": "c.-1.3%",
+        "basis": "reported, year on year",
+        "note": "52 weeks to 26 September 2026"
+      },
+      {
+        "metric": "Group revenue (excl. CTD)",
+        "current": "c.£267m",
+        "prior": "not stated",
+        "change": "c.+0.7%",
+        "basis": "reported, year on year",
+        "note": "FY26"
+      },
+      {
+        "metric": "Topps Tiles like-for-like revenue",
+        "current": "c.-0.1%",
+        "prior": "not stated",
+        "change": "c.-0.1%",
+        "basis": "like-for-like",
+        "note": "FY26"
+      },
+      {
+        "metric": "Pro Tiler Tools revenue",
+        "current": "c.£42m",
+        "prior": "not stated",
+        "change": "c.+18.2%",
+        "basis": "reported, year on year",
+        "note": "record revenue"
+      },
+      {
+        "metric": "Online revenue (% of group, incl. CTD)",
+        "current": "c.22.7%",
+        "prior": "c.19.0%",
+        "change": "+3.7 ppt",
+        "basis": "full year",
+        "note": "Q4 FY26 reached c.25.6%"
+      },
+      {
+        "metric": "Adjusted profit before tax",
+        "current": "in line with consensus £6.6m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "company-compiled consensus as at 30 September 2026, range £6.5m–£6.7m",
+        "note": "expectation; audited results to follow"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Adjusted profit before tax in line with market expectations",
+      "current": "Adjusted profit before tax for the full year expected to be in line with current market expectations",
+      "commentary": "Guidance reaffirmed: FY26 adjusted PBT is expected in line with company-compiled consensus of £6.6m (range £6.5m–£6.7m), despite a modest revenue decline and Q4 disruption from extreme heat."
+    },
+    "explainer": "This is an unaudited full-year trading update ahead of Topps Tiles' audited results. The headline revenue figures are stated before year-end accounting adjustments (revenue recognition, loyalty scheme accounting and customer returns provisions), so the final reported numbers may differ. Group revenue is shown both including and excluding CTD — the tile brand acquired in August 2024, which now trades from 23 stores versus 31 a year ago after commercial property decisions and four store disposals required by the CMA. The 1.3% group decline largely reflects those closures rather than weak underlying demand.",
+    "source_url": "https://uk.advfn.com/stock-market/london/topps-tiles-TPT/share-news/Topps-Tiles-PLC-Full-Year-Trading-Update/99407620",
+    "related_news_url": "https://news.google.com/search?q=%22Topps%20Tiles%20Plc%22",
+    "added_at": "2026-10-01T07:57:22.333957"
+  },
+  {
+    "company": "Land Securities Group PLC",
+    "ticker": "LAND",
+    "publish_date": "01 October 2026",
+    "date_iso": "2026-10-01",
+    "time_period": "",
+    "announcement_type": "Fundraising / placing",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Landsec</strong> announces a conditional <strong>Retail Offer</strong> of new ordinary shares in the UK via <strong>RetailBook</strong>, running alongside a non-pre-emptive institutional <strong>Placing</strong> by accelerated bookbuild and a <strong>Subscription</strong> by the CEO and CFO (together the <strong>Equity Issue</strong>).</li><li>Issue price to be set at the close of the bookbuilding process; <strong>minimum subscription of £250</strong> per investor, with <strong>no commission</strong> charged by RetailBook.</li><li>Net proceeds will partly fund the <strong>Metrocentre Acquisition</strong> (100% stake from <strong>Tynehawk Holdings (Jersey) Limited</strong>) for net cash of <strong>£516m</strong>, plus an <strong>Additional Acquisition</strong> consolidating existing retail interests for around <strong>£100m</strong>; remainder financed by existing debt facilities.</li><li>Retail Offer is conditional on the Placing completing and on Admission, expected at <strong>8:00 a.m. on 5 October 2026</strong>; it will not complete without the Placing.</li><li>New shares will rank <strong>pari passu</strong> with existing ordinary shares, including dividend rights; the Company may scale back or reject applications and may close the offer early if oversubscribed.</li><li>Offer open only to eligible UK-resident investors (existing holders and new investors) through RetailBook's partner platforms, brokers and wealth managers, including via ISAs, SIPPs and GIAs.</li></ul>",
+    "source_format": "html",
+    "headline": "Landsec launches a UK retail offer of new shares via RetailBook, alongside an institutional placing, to help fund its £516m Metrocentre acquisition.",
+    "priority": "high",
+    "priority_reason": "Equity raise via retail offer and institutional placing to part-fund acquisitions, dilutive and M&A-linked.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/land-securities-group--land/landsec-retail-offer-/9800415",
+    "related_news_url": "https://news.google.com/search?q=%22Land%20Securities%20Group%22",
+    "added_at": "2026-10-01T07:05:10.599686"
+  },
+  {
+    "company": "Clarkson PLC",
+    "ticker": "CKN",
+    "publish_date": "01 October 2026",
+    "date_iso": "2026-10-01",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Dr Tim Miller</strong> will step down at the end of Clarksons' <strong>2027 Annual General Meeting</strong> and will not stand for re-election, having served <strong>nine years</strong> as an independent Non-Executive Director and Chair of the Remuneration Committee.</li><li><strong>Martine Bond</strong>, independent NED since <strong>September 2022</strong>, will succeed him as <strong>Chair of the Remuneration Committee</strong> from the conclusion of the 2027 AGM.</li><li>A search for a new non-executive director will be initiated, with a further announcement to follow.</li><li>Routine board succession disclosure under UKLR 6.4.6R, with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Clarkson's independent Non-Executive Director Dr Tim Miller to step down at the 2027 AGM after nine years, with Martine Bond succeeding him as Remuneration Committee Chair.",
+    "priority": "medium",
+    "priority_reason": "Board change: a long-serving independent Non-Executive Director and Remuneration Committee Chair is retiring, with a successor named.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/clarkson--ckn/directorate-change/9800249",
+    "related_news_url": "https://news.google.com/search?q=%22Clarkson%22",
+    "added_at": "2026-10-01T07:05:10.583766"
+  },
+  {
+    "company": "Savannah Energy PLC",
+    "ticker": "SAVE",
+    "publish_date": "01 October 2026",
+    "date_iso": "2026-10-01",
+    "time_period": "8M to 31 August 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "8M to 31 August 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Revenue</strong> up <strong>19%</strong> year-on-year to <strong>US$197.5m</strong> (8M 2025: US$165.6m) and <strong>cash collections</strong> up <strong>12%</strong> to <strong>US$253.3m</strong> (8M 2025: US$225.8m) for the eight months to <strong>31 August 2026</strong>.</li><li>Average gross daily production of <strong>16.9 Kboepd</strong> for 8M 2026 (FY 2025: 18.8 Kboepd); <strong>FY 2026 guidance</strong> set at <strong>18-20 Kboepd</strong> as <strong>Uquo 13</strong> comes on stream, expected to lift output to around <strong>20 Kboepd</strong> for the rest of the year.</li><li><strong>Uquo South</strong> exploration well completed with gas discovered in most targeted reservoirs; <strong>Stubb Creek</strong> production up <strong>33%</strong> to <strong>3.9 Kbopd</strong>, with July and August averaging over <strong>5.0 Kbopd</strong>.</li><li><strong>Net debt</strong> rose to <strong>US$701.3m</strong> (31 Dec 2025: US$658.8m); cash balances up to <strong>US$62.8m</strong> and trade receivables down <strong>16%</strong> to <strong>US$428.7m</strong>. Only <strong>US$56.3m (7%)</strong> of gross debt is recourse to the Company.</li><li>AIM shares <strong>remain suspended</strong> pending publication of delayed <strong>FY 2025 accounts</strong> and <strong>H1 2026 results</strong>, both now expected during <strong>October 2026</strong>; the board's review of Savannah's AIM listing continues.</li><li>Chad/Cameroon arbitration claims exceeding <strong>US$775m</strong> (plus interest and costs) expected to conclude in <strong>Q4 2026</strong>; Niger R1234 PSC discussions with the Government ongoing, with a FY 2024 carrying value of ~<strong>US$175m</strong> under review.</li></ul>",
+    "source_format": "html",
+    "headline": "Savannah Energy's 8M 2026 revenue rose 19% to US$197.5m, with FY2026 production guided at 18-20 Kboepd, while its AIM shares remain suspended pending delayed accounts.",
+    "priority": "high",
+    "priority_reason": "Trading update with revenue, production and net-debt figures, FY2026 guidance and a continuing AIM trading suspension pending delayed accounts.",
+    "figures": [
+      {
+        "metric": "Revenue",
+        "current": "US$197.5m",
+        "prior": "US$165.6m",
+        "change": "+19%",
+        "basis": "unaudited",
+        "note": "8M to 31 August 2026"
+      },
+      {
+        "metric": "Cash collections",
+        "current": "US$253.3m",
+        "prior": "US$225.8m",
+        "change": "+12%",
+        "basis": "unaudited",
+        "note": "8M to 31 August 2026"
+      },
+      {
+        "metric": "Average gross daily production",
+        "current": "16.9 Kboepd",
+        "prior": "18.8 Kboepd",
+        "change": "not stated",
+        "basis": "current vs FY 2025",
+        "note": "76% gas in 8M 2026 vs 83% FY 2025"
+      },
+      {
+        "metric": "Cash balances",
+        "current": "US$62.8m",
+        "prior": "US$42.7m",
+        "change": "not stated",
+        "basis": "vs 31 December 2025",
+        "note": "as at 31 August 2026"
+      },
+      {
+        "metric": "Net debt",
+        "current": "US$701.3m",
+        "prior": "US$658.8m",
+        "change": "not stated",
+        "basis": "vs 31 December 2025",
+        "note": "gross debt US$764.1m, 7% recourse"
+      },
+      {
+        "metric": "Trade receivables",
+        "current": "US$428.7m",
+        "prior": "US$508.5m",
+        "change": "-16%",
+        "basis": "vs 31 December 2025",
+        "note": "mainly Nigeria gas sales"
+      },
+      {
+        "metric": "Stubb Creek production",
+        "current": "3.9 Kbopd",
+        "prior": "not stated",
+        "change": "+33%",
+        "basis": "year-on-year",
+        "note": "8M 2026; July/August over 5.0 Kbopd"
+      }
+    ],
+    "guidance": {
+      "status": "new",
+      "previous": "",
+      "current": "FY 2026 average gross daily production in the range of 18-20 Kboepd, subject to customer demand",
+      "commentary": "Savannah states a FY 2026 production range of 18-20 Kboepd, with output expected to average around 20 Kboepd for the remainder of the year following Uquo 13 coming on stream, plus potential upside from the Uquo South discovery."
+    },
+    "explainer": "The headline figures are for the eight months to 31 August 2026 (8M 2026) and are unaudited. Revenue of US$197.5m and cash collections of US$253.3m are both compared with the same eight-month period a year earlier, so these are like-for-like year-on-year comparisons. Note that revenue and cash collections differ because Nigerian gas sales carry take-or-pay provisions, meaning cash can be collected on contracted volumes even where gas is not nominated by customers.\n\nProduction of 16.9 Kboepd is for 8M 2026 and is compared against the full-year 2025 average of 18.8 Kboepd rather than a matching eight-month period, so the two are not directly comparable. The FY 2026 guidance of 18-20 Kboepd reflects the expected uplift from the Uquo 13 well, which reached first gas in July and has been on stream since August.\n\nNet debt rose to US$701.3m from US$658.8m at year-end 2025, but the Company stresses that only 7% (US$56.3m) of gross debt is recourse to Savannah itself, the rest sitting non-recourse within subsidiaries. The 16% fall in trade receivables reflects improved cash collection in Nigeria.\n\nThe key trading point for shareholders is that the shares remain suspended on AIM and will stay suspended until both the delayed FY 2025 audited accounts and the H1 2026 results are published, now expected during October 2026. A separate board review of Savannah's AIM admission is also still ongoing.",
+    "source_url": "https://uk.advfn.com/stock-market/london/savannah-energy-SAVE/share-news/Savannah-Energy-Plc-Operational-and-Financial-Upda/99403959",
+    "related_news_url": "https://news.google.com/search?q=%22Savannah%20Energy%20PLC%22",
+    "added_at": "2026-10-01T07:04:18.264538"
+  },
+  {
+    "company": "Diageo PLC",
+    "ticker": "DGE",
+    "publish_date": "30 September 2026",
+    "date_iso": "2026-09-30",
+    "time_period": "",
+    "announcement_type": "AGM notice",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Diageo plc</strong> has made available to shareholders its <strong>Notice of Annual General Meeting 2026</strong> and the Form of Proxy.</li><li>The AGM will be held on <strong>Thursday, 5 November 2026 at 2.30pm</strong> at <strong>Convene 133 Houndsditch, London, EC3A 7DB</strong>, as a combined physical and electronic meeting via the Lumi platform.</li><li>Routine administrative disclosure with <strong>no impact</strong> on trading or guidance; documents filed with the National Storage Mechanism and available at www.diageo.com.</li></ul>",
+    "source_format": "html",
+    "headline": "Diageo has published its 2026 Notice of AGM, with the meeting to be held on 5 November 2026 in London.",
+    "priority": "low",
+    "priority_reason": "Routine administrative notice of the annual meeting with no trading or guidance content.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/diageo--dge/notice-of-agm/9799497",
+    "related_news_url": "https://news.google.com/search?q=%22Diageo%22",
+    "added_at": "2026-09-30T15:31:13.173456"
+  },
+  {
+    "company": "Mitchells & Butlers PLC",
+    "ticker": "MAB",
+    "publish_date": "30 September 2026",
+    "date_iso": "2026-09-30",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>Mitchells & Butlers plc</strong> has admitted a further <strong>6,947 ordinary shares</strong> to trading on the <strong>Main Market</strong> of the London Stock Exchange.</li><li>Total shares admitted to trading now stand at <strong>600,025,511</strong>; the new shares are fungible with existing shares, covering the period <strong>17 August 2026 to 30 September 2026</strong>.</li><li>Routine admission-to-trading disclosure with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Mitchells & Butlers admits a further 6,947 ordinary shares to trading, taking total shares in issue to 600,025,511.",
+    "priority": "low",
+    "priority_reason": "Routine admission of a small tranche of shares to trading, with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/mitchells-butlers--mab/admission-to-trading/9799496",
+    "related_news_url": "https://news.google.com/search?q=%22Mitchells%20%26%20Butlers%22",
+    "added_at": "2026-09-30T14:15:47.384277"
+  },
+  {
+    "company": "GlobalData Plc",
+    "ticker": "DATA",
+    "publish_date": "30 September 2026",
+    "date_iso": "2026-09-30",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Graham Lilley</strong> stepped down as Chief Financial Officer and resigned as a director of <strong>GlobalData Plc</strong> on <strong>30 September 2026</strong>.</li><li><strong>Robert (Rob) Kingston</strong>, who joined the Group on <strong>7 September 2026</strong>, was formally appointed to the Board as <strong>Chief Financial Officer</strong> on the same day.</li><li>Lilley had been with the Group since <strong>2011</strong> and served as CFO since <strong>January 2018</strong>.</li><li>Routine UKLR 6.4.8 disclosure: Kingston was a director of <strong>Keywords Studios Limited</strong> (formerly AIM-listed) from <strong>1 July 2023</strong> until <strong>24 August 2026</strong> — <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "GlobalData's Graham Lilley has stepped down as CFO and left the board, with Rob Kingston formally appointed as Chief Financial Officer, both effective today.",
+    "priority": "medium",
+    "priority_reason": "A CFO change is a board-level management change, material to governance but not to near-term trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/globaldata-DATA/share-news/GlobalData-PLC-Directorate-change/99401885",
+    "related_news_url": "https://news.google.com/search?q=%22GlobalData%20Plc%22",
+    "added_at": "2026-09-30T13:35:59.400652"
+  },
+  {
+    "company": "Crest Nicholson Holdings Ltd",
+    "ticker": "CRST",
+    "publish_date": "30 September 2026",
+    "date_iso": "2026-09-30",
+    "time_period": "",
+    "announcement_type": "Trading update",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Crest Nicholson</strong> remains in \"constructive\" discussions with its lenders to amend covenants and secure an appropriate level of funding and liquidity going forwards.</li><li>The Group's debt facilities are subject to an <strong>interest cover covenant waiver</strong>; a further extension has been agreed with lenders until <strong>30 November 2026</strong>.</li><li>Follows the trading update issued on <strong>3 September 2026</strong>; announcement is flagged as containing inside information.</li><li>No new covenant terms, funding quantum or refinancing outcome disclosed — talks remain ongoing.</li></ul>",
+    "source_format": "html",
+    "headline": "Crest Nicholson remains in talks with lenders over covenants and has secured a further interest-cover waiver extension to 30 November 2026.",
+    "priority": "high",
+    "priority_reason": "Inside-information update on covenant waivers and funding/liquidity signals ongoing financial pressure and follows a recent trading update.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/crest-nicholson-CRST/share-news/Crest-Nicholson-Holdings-PLC-Update-on-lender-disc/99398106",
+    "related_news_url": "https://news.google.com/search?q=%22Crest%20Nicholson%20Holdings%20PLC%22",
+    "added_at": "2026-09-30T10:32:30.400171"
+  },
+  {
     "company": "Greggs PLC",
     "ticker": "GRG",
     "publish_date": "30 September 2026",
