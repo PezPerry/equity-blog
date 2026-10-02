@@ -1,5 +1,56 @@
 [
   {
+    "company": "Glencore PLC",
+    "ticker": "GLEN",
+    "publish_date": "02 October 2026",
+    "date_iso": "2026-10-02",
+    "time_period": "FY 2026 and long-term (2027 onwards)",
+    "announcement_type": "Trading update",
+    "period_detail": "FY 2026 and long-term (2027 onwards)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Glencore plc</strong> now expects <strong>full-year 2026 Marketing Adjusted EBIT to exceed $5bn</strong>, above the <strong>c.$4.9bn</strong> mathematical outcome flagged at the H1 2026 results.</li><li>Introduces an updated long-term, through-the-cycle Marketing Adj. EBIT guidance matrix linking <strong>Readily Marketable Inventories (RMI)</strong> and funding costs; applies from <strong>2027</strong>.</li><li>On the new matrix, using <strong>30 June 2026</strong> RMI of <strong>$32.2bn</strong> and funding costs of <strong>c.5%</strong>, long-term Marketing Adj. EBIT mid-point is <strong>c.$3.5bn</strong> (range <strong>c.$2.8bn–c.$4.2bn</strong>), versus the previous range of <strong>$2.3bn–$3.5bn</strong>.</li><li>RMI has risen to <strong>$32.2bn</strong> at 30 June 2026, <strong>21%</strong> higher than the <strong>$25.4bn</strong> at 30 June 2025, driven by commodity prices, inflation and business scale.</li><li>Secondary <strong>ASX</strong> listing (ASX:GLC) via CHESS Depositary Interests expected to begin trading <strong>Wednesday 14 October 2026</strong>; each CDI represents one ordinary share.</li><li>H1 2026 marketing was near-record, primarily reflecting reshaped crude oil, refined products, gas and freight markets.</li></ul>",
+    "source_format": "html",
+    "headline": "Glencore now expects full-year 2026 Marketing Adjusted EBIT to exceed **$5bn** and raises its long-term guidance methodology, alongside an ASX secondary listing.",
+    "priority": "high",
+    "priority_reason": "Raises full-year 2026 Marketing Adj. EBIT guidance to exceed $5bn and resets the long-term through-the-cycle guidance methodology upwards.",
+    "figures": [
+      {
+        "metric": "FY 2026 Marketing Adj. EBIT",
+        "current": "exceed $5bn",
+        "prior": "c.$4.9bn (mathematical full-year outcome flagged at H1)",
+        "change": "not stated",
+        "basis": "Marketing Adjusted EBIT",
+        "note": "Full-year 2026"
+      },
+      {
+        "metric": "Long-term Marketing Adj. EBIT guidance (mid-point)",
+        "current": "c.$3.5bn (range c.$2.8bn–c.$4.2bn)",
+        "prior": "range $2.3bn–$3.5bn",
+        "change": "not stated",
+        "basis": "through-the-cycle matrix, 30 June 2026 RMI and c.5% funding cost",
+        "note": "Methodology applies from 2027"
+      },
+      {
+        "metric": "Readily Marketable Inventories (RMI)",
+        "current": "$32.2bn",
+        "prior": "$25.4bn",
+        "change": "+21% (prior stated as 21% lower)",
+        "basis": "as reported",
+        "note": "30 June 2026 vs 30 June 2025"
+      }
+    ],
+    "guidance": {
+      "status": "raised",
+      "previous": "Full-year 2026 Marketing Adj. EBIT mathematical outcome of c.$4.9bn; previous long-term through-the-cycle Marketing Adj. EBIT guidance range of $2.3bn to $3.5bn.",
+      "current": "Full-year 2026 Marketing Adj. EBIT now expected to exceed $5bn; new long-term matrix implies a c.$3.5bn mid-point (range c.$2.8bn to c.$4.2bn) on current RMI and funding costs, applicable from 2027.",
+      "commentary": "Near-term 2026 marketing guidance is lifted from c.$4.9bn to above $5bn after a near-record H1. The long-term methodology is rebased higher to reflect materially higher RMI levels and a higher interest-rate environment."
+    },
+    "explainer": "Glencore's marketing (trading) division is guided on 'Marketing Adjusted EBIT', a measure of underlying trading profit. The company has made two separate upgrades here. First, for 2026 specifically, it now expects this figure to exceed $5bn, up from the roughly $4.9bn 'mathematical' outcome it had implied at its half-year results — this reflects an exceptionally strong first half in oil, refined products, gas and freight.\n\nSecond, and more structurally, Glencore has changed how it sets long-term, through-the-cycle guidance. The old range ($2.3bn–$3.5bn) was built when the company held far less Readily Marketable Inventory (RMI — liquid, hedged stock that turns over more than ten times a year) and when interest rates were lower. RMI has since climbed to $32.2bn (from $25.4bn a year earlier), so Glencore has introduced a matrix that ties expected trading profit to both inventory levels and funding costs.\n\nOn today's inputs, that matrix points to a mid-point of about $3.5bn and a range of roughly $2.8bn–$4.2bn — materially above the previous range. This methodology is intended to apply from 2027, so it does not change the 2026 number directly; it is a higher baseline for future years, reflecting the larger scale of the trading book and higher associated financing costs.\n\nSeparately, the announcement confirms a secondary listing on the Australian Securities Exchange via CHESS Depositary Interests, with trading expected to start on 14 October 2026. This is a listing/access matter and does not involve new shares being issued.",
+    "source_url": "https://uk.advfn.com/stock-market/london/glencore-GLEN/share-news/Glencore-PLC-ASX-secondary-listing-updated-marketi/99420426",
+    "related_news_url": "https://news.google.com/search?q=%22Glencore%20plc%22",
+    "added_at": "2026-10-02T09:56:16.247876"
+  },
+  {
     "company": "Beazley PLC",
     "ticker": "BEZ",
     "publish_date": "02 October 2026",
