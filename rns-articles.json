@@ -1,5 +1,122 @@
 [
   {
+    "company": "Wizz Air Holdings PLC",
+    "ticker": "WIZZ",
+    "publish_date": "02 October 2026",
+    "date_iso": "2026-10-02",
+    "time_period": "September 2026 (month) and rolling 12 months",
+    "announcement_type": "Trading update",
+    "period_detail": "September 2026 (month) and rolling 12 months",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>September 2026</strong> passengers up <strong>24.2%</strong> YoY to <strong>7.78 million</strong>, with capacity up <strong>25.3%</strong> to <strong>8.46 million</strong> seats.</li><li>Monthly load factor <strong>92.0%</strong>, down <strong>0.8ppts</strong> YoY, partly reflecting a stronger pricing environment.</li><li>Q2 <strong>RASK guidance raised to flat YoY</strong>, from <strong>'down low single digits'</strong> previously, on stronger-than-expected summer revenue.</li><li><strong>H2 capacity trimmed by 5%</strong> versus original plan, citing geopolitical and fuel-price volatility; no FY2027 guidance given.</li><li>Rolling 12-month passengers up <strong>19.0%</strong> to <strong>79.3 million</strong>; load factor <strong>91.0%</strong>.</li><li>Capital Markets Day (<strong>17 September</strong>) set F30 targets: revenue <strong>EUR 10bn</strong>, Ex-Fuel CASK <strong>EUR 3.00 cents</strong>, EBIT margin <strong>10%</strong>, <strong>127 million</strong> passengers and a <strong>335-aircraft</strong> all-neo fleet.</li></ul>",
+    "source_format": "html",
+    "headline": "Wizz Air carried 7.78m passengers in September 2026, up 24.2% year-on-year, and raised Q2 RASK guidance to flat after a stronger summer.",
+    "priority": "high",
+    "priority_reason": "Monthly traffic update also carries a guidance change on Q2 RASK and a 5% H2 capacity cut.",
+    "figures": [
+      {
+        "metric": "Passengers (month)",
+        "current": "7,780,835",
+        "prior": "6,265,236",
+        "change": "+24.2%",
+        "basis": "",
+        "note": "September 2026 vs September 2025, booked passengers"
+      },
+      {
+        "metric": "Capacity (month)",
+        "current": "8,459,005 seats",
+        "prior": "6,753,621 seats",
+        "change": "+25.3%",
+        "basis": "",
+        "note": "September 2026 vs September 2025"
+      },
+      {
+        "metric": "Load factor (month)",
+        "current": "92.0%",
+        "prior": "92.8%",
+        "change": "-0.8ppts",
+        "basis": "",
+        "note": "September 2026 vs September 2025"
+      },
+      {
+        "metric": "Passengers (rolling 12m)",
+        "current": "79,326,688",
+        "prior": "66,654,541",
+        "change": "+19.0%",
+        "basis": "",
+        "note": "12 months to September 2026"
+      },
+      {
+        "metric": "Capacity (rolling 12m)",
+        "current": "87,198,100 seats",
+        "prior": "73,097,303 seats",
+        "change": "+19.3%",
+        "basis": "",
+        "note": "12 months to September 2026"
+      },
+      {
+        "metric": "Load factor (rolling 12m)",
+        "current": "91.0%",
+        "prior": "91.2%",
+        "change": "-0.2ppts",
+        "basis": "",
+        "note": "12 months to September 2026"
+      },
+      {
+        "metric": "CO2 emissions (month)",
+        "current": "611,334 MT",
+        "prior": "521,967 MT",
+        "change": "+17.1%",
+        "basis": "excludes SAF uplift benefit",
+        "note": "September 2026 vs September 2025"
+      },
+      {
+        "metric": "CO2 g per pax/km (month)",
+        "current": "49.0",
+        "prior": "49.8",
+        "change": "-1.6%",
+        "basis": "excludes SAF uplift benefit",
+        "note": "September 2026 vs September 2025"
+      }
+    ],
+    "guidance": {
+      "status": "raised",
+      "previous": "Q2 RASK guidance 'down low single digits' YoY",
+      "current": "Q2 RASK guidance flat YoY; H2 capacity trimmed by 5% versus original plan; no FY2027 guidance given",
+      "commentary": "Wizz Air improved its Q2 RASK (revenue per available seat kilometre) guidance to flat year-on-year from down low single digits, citing a stronger-than-expected summer revenue performance. It also cut planned H2 capacity by 5% in response to geopolitical and fuel-price volatility. No full-year 2027 guidance was issued at the Capital Markets Day."
+    },
+    "explainer": "This is primarily Wizz Air's routine monthly operating report, showing September passengers of 7.78 million, up 24.2% year-on-year, with capacity (seats flown) up 25.3%. Load factor — the share of seats filled — slipped slightly to 92.0%, which the airline frames positively, saying it reflects a firmer pricing environment where it is willing to trade a little occupancy for higher fares.\n\nThe market-moving element is the guidance change. RASK (revenue per available seat kilometre) is the key airline revenue yield measure. Wizz now expects Q2 RASK to be flat year-on-year, an upgrade from its earlier 'down low single digits' forecast, driven by a better summer revenue run. At the same time it has trimmed planned second-half capacity by 5%, a supply discipline move intended to support pricing amid fuel-cost and geopolitical uncertainty. No full-year 2027 guidance was provided.\n\nThe Capital Markets Day on 17 September set longer-term 'F30' (financial year 2030) ambitions: EUR 10bn of revenue, a 10% EBIT margin, an Ex-Fuel CASK (unit cost excluding fuel) of EUR 3.00 cents, 127 million passengers, a 335-strong all-new-generation fleet, and a return to an investment-grade balance sheet. These are targets, not guidance.\n\nThe CO2 figures are reported for disclosure; emissions intensity per passenger-kilometre fell year-on-year, and the stated figures exclude any benefit from sustainable aviation fuel.",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/wizz-air-holdings--wizz/september-2026-traffic-and-co2-emission-statistics/9803009",
+    "related_news_url": "https://news.google.com/search?q=%22Wizz%20Air%20Holdings%22",
+    "added_at": "2026-10-02T07:20:02.861783"
+  },
+  {
+    "company": "Capricorn Energy PLC",
+    "ticker": "CNE",
+    "publish_date": "02 October 2026",
+    "date_iso": "2026-10-02",
+    "time_period": "",
+    "announcement_type": "Acquisition / deal",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li>Update on the <strong>recommended cash acquisition of Capricorn Energy</strong> by <strong>Genel Energy No.9 Limited</strong> (Bidco, indirectly owned by <strong>Genel Energy plc</strong>), via a court-sanctioned scheme of arrangement.</li><li>Follows a competing bid from <strong>DNO Bidco AS</strong> (announced <strong>1 September 2026</strong>, revised <strong>17 September 2026</strong>); Genel responded with an <strong>Increased Genel Offer on 25 September 2026</strong>, recommended by the Capricorn Board.</li><li>On <strong>28 September 2026</strong>, <strong>DNO</strong> declared its offer <strong>final</strong> and will not increase it, and confirmed it will not switch to a contractual offer.</li><li>Capricorn confirms <strong>no further Court Meeting or General Meeting</strong> is required for the Increased Genel Offer; the original resolutions passed on <strong>18 August 2026</strong> with over <strong>99%</strong> support.</li><li>The <strong>Egyptian Merger Condition</strong> is satisfied, leaving the <strong>Egyptian Condition</strong> as the only outstanding regulatory condition; Genel still expects the scheme to become effective in <strong>Q4 2026</strong>.</li><li>No new deal price, exchange ratio or financial terms are stated in this update — these are set out in the Scheme Document.</li></ul>",
+    "source_format": "html",
+    "headline": "Capricorn confirms no further shareholder vote needed on Genel's increased recommended cash offer, with completion still expected in Q4 2026.",
+    "priority": "high",
+    "priority_reason": "Update on a contested cash takeover of Capricorn, with a rival bidder having declared its offer final.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/capricorn-energy--cne/update-on-recommended-cash-acquisition-by-genel/9803017",
+    "related_news_url": "https://news.google.com/search?q=%22Capricorn%20Energy%22",
+    "added_at": "2026-10-02T07:20:02.847058"
+  },
+  {
     "company": "Wetherspoon (J.D.)",
     "ticker": "JDW",
     "publish_date": "02 October 2026",
