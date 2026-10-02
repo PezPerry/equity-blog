@@ -1,5 +1,57 @@
 [
   {
+    "company": "International Consolidated Airlines Group SA",
+    "ticker": "IAG",
+    "publish_date": "02 October 2026",
+    "date_iso": "2026-10-02",
+    "time_period": "",
+    "announcement_type": "Buyback programme launch",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>IAG</strong> launches a final <strong>€500 million</strong> share buyback programme, completing the <strong>€1,500 million</strong> return of excess cash first announced on <strong>26 February 2026</strong>.</li><li>Runs from <strong>5 October 2026</strong> to no later than <strong>26 February 2027</strong>; shares purchased on the <strong>London Stock Exchange</strong> and <strong>Spanish Stock Exchanges</strong>, up to <strong>210,000,000 shares</strong> (approx <strong>4.55%</strong> of issued capital).</li><li><strong>Morgan Stanley Europe SE</strong> and <strong>Goldman Sachs Bank Europe SE</strong> engaged to execute; shares to be held in treasury pending cancellation approved at the <strong>18 June 2026</strong> AGM.</li><li><strong>Qatar Airways</strong> participates pro rata to preserve its <strong>25.1434%</strong> stake; of the €500m, <strong>€374m</strong> is for market purchases and <strong>€126m</strong> for purchases from Qatar Airways.</li><li>Follows completion of the second €500 million buyback after the final purchase on <strong>10 September 2026</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "IAG launches final €500 million share buyback, completing the €1,500 million excess-cash return announced in February 2026.",
+    "priority": "medium",
+    "priority_reason": "Launch of a new buyback programme completing a previously announced capital return — a corporate event but already-flagged and routine in character.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/international-consolidated-airlines-group-sa-cdi---iag/launch-of-500-million-share-buyback-programme-/9805075",
+    "related_news_url": "https://news.google.com/search?q=%22International%20Consolidated%20Airlines%20Group%20SA%20(CDI)%22",
+    "added_at": "2026-10-02T16:15:41.951746"
+  },
+  {
+    "company": "Close Brothers Group PLC",
+    "ticker": "CBG",
+    "publish_date": "02 October 2026",
+    "date_iso": "2026-10-02",
+    "time_period": "FY to 31 July 2026",
+    "announcement_type": "Corporate update",
+    "period_detail": "FY to 31 July 2026",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>Close Brothers Group plc</strong> has published its <strong>Pillar 3 disclosures</strong> for the year ended <strong>31 July 2026</strong>.</li><li>Routine regulatory capital and risk disclosure for the UK specialist banking group — <strong>no impact</strong> on trading or guidance; document available on the group website and the National Storage Mechanism.</li></ul>",
+    "source_format": "html",
+    "headline": "Close Brothers has published its Pillar 3 disclosures for the year ended 31 July 2026, available on its website and via the National Storage Mechanism.",
+    "priority": "low",
+    "priority_reason": "Routine publication of annual Pillar 3 regulatory capital and risk disclosures with no new financial or trading content.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/close-brothers-group--cbg/pillar-3-disclosures/9805073",
+    "related_news_url": "https://news.google.com/search?q=%22Close%20Brothers%20Group%22",
+    "added_at": "2026-10-02T16:15:41.912283"
+  },
+  {
     "company": "Kier Group PLC",
     "ticker": "KIE",
     "publish_date": "02 October 2026",
