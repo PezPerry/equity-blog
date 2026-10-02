@@ -1,5 +1,31 @@
 [
   {
+    "company": "Forterra PLC",
+    "ticker": "FORT",
+    "publish_date": "02 October 2026",
+    "date_iso": "2026-10-02",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>Forterra Employee Benefit Trust</strong> bought <strong>75,000 ordinary shares</strong> at an average <strong>£1.532</strong> on <strong>1 October 2026</strong>.</li><li>Part of the programme announced on <strong>13 October 2025</strong> to buy up to 150,000 shares each month to satisfy awards under the Company's share schemes.</li><li>The Trust now holds <strong>3,390,148 ordinary shares</strong>, representing <strong>1.67%</strong> of current voting rights.</li><li>Routine disclosure with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Forterra's Employee Benefit Trust purchased 75,000 ordinary shares at an average price of £1.532 on 1 October 2026.",
+    "priority": "low",
+    "priority_reason": "Routine Employee Benefit Trust share purchase under an existing programme, with no bearing on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/forterra--fort/employee-benefit-trust-share-purchase/9804611",
+    "related_news_url": "https://news.google.com/search?q=%22Forterra%22",
+    "added_at": "2026-10-02T12:15:39.931401"
+  },
+  {
     "company": "Custodian Property Income Reit",
     "ticker": "CREI",
     "publish_date": "02 October 2026",
