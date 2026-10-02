@@ -1,5 +1,31 @@
 [
   {
+    "company": "Kier Group PLC",
+    "ticker": "KIE",
+    "publish_date": "02 October 2026",
+    "date_iso": "2026-10-02",
+    "time_period": "FY to 30 June 2026",
+    "announcement_type": "Annual results",
+    "period_detail": "FY to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Kier Group plc</strong> has published its <strong>Annual Report and Accounts</strong> for the year ended <strong>30 June 2026</strong>, plus the <strong>Notice of AGM 2026</strong> and Form of Proxy.</li><li>The <strong>2026 AGM</strong> will be held in London on <strong>Thursday, 12 November 2026 at 10.00 am</strong>.</li><li>Routine Listing Rule / DTR disclosure; documents submitted to the National Storage Mechanism — <strong>no new financial figures or trading content</strong> in this announcement.</li></ul>",
+    "source_format": "html",
+    "headline": "Kier Group has published its 2026 Annual Report and Accounts and the notice of its AGM, to be held on 12 November 2026.",
+    "priority": "low",
+    "priority_reason": "Routine publication of the Annual Report and AGM notice, containing no new financial figures or trading information.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/kier-group--kie/annual-financial-report/9804970",
+    "related_news_url": "https://news.google.com/search?q=%22Kier%20Group%22",
+    "added_at": "2026-10-02T15:35:37.210604"
+  },
+  {
     "company": "CME Group Inc",
     "ticker": "CME",
     "publish_date": "02 October 2026",
