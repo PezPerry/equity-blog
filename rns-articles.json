@@ -1,5 +1,48 @@
 [
   {
+    "company": "CME Group Inc",
+    "ticker": "CME",
+    "publish_date": "02 October 2026",
+    "date_iso": "2026-10-02",
+    "time_period": "September 2026 and Q3 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "September 2026 and Q3 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>CME Group</strong> posted record average daily volume (ADV) of <strong>31.8m contracts</strong> in <strong>September 2026</strong>, up <strong>22%</strong> year-on-year.</li><li><strong>Q3 2026</strong> ADV was a record <strong>29.4m contracts</strong>, up <strong>16%</strong> year-on-year.</li><li>Both September and Q3 volumes exceeded the prior records set in <strong>2024</strong>.</li><li>The scraped text states growth came across asset classes, but the monthly and quarterly asset-class breakdown tables are <strong>missing from the article</strong> — detail unavailable.</li></ul>",
+    "source_format": "html",
+    "headline": "CME Group reports record average daily volume of **31.8m contracts** in September, up **22%** year-on-year, with Q3 also a record at **29.4m contracts**, up **16%**.",
+    "priority": "medium",
+    "priority_reason": "Record trading volumes signal business momentum, but it is an operational volume statistic with no revenue, profit or guidance figures.",
+    "figures": [
+      {
+        "metric": "ADV — September",
+        "current": "31.8m contracts",
+        "prior": "not stated",
+        "change": "+22%",
+        "basis": "year-on-year",
+        "note": "September 2026, record high"
+      },
+      {
+        "metric": "ADV — Q3",
+        "current": "29.4m contracts",
+        "prior": "not stated",
+        "change": "+16%",
+        "basis": "year-on-year",
+        "note": "Q3 2026, record high"
+      }
+    ],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "Average daily volume (ADV) is the mean number of contracts traded per day across CME Group's exchanges. It is an activity measure, not a revenue or profit figure, though higher volumes generally translate into higher transaction and clearing fees for the exchange. CME earns per contract traded, so record volumes point to a strong revenue quarter.\n\nThe comparisons are year-on-year: September 2026 volume of 31.8m contracts is 22% above September 2025, and Q3 2026 at 29.4m is 16% above Q3 2025. The announcement also notes both figures beat the previous records from 2024, so these are all-time highs rather than merely favourable annual comparisons.\n\nThe release says the growth was spread across asset classes (interest rates, equity indexes, FX, commodities and so on), but the per-asset-class highlight tables did not appear in the scraped text, so the drivers behind the headline numbers cannot be verified here. No earnings, fee-capture or guidance information is provided.",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/CME/share-news/CME-Group-Reports-Record-Average-Daily-Volume-for/99422856",
+    "related_news_url": "https://news.google.com/search?q=%22CME%20Group%20Inc.%22",
+    "added_at": "2026-10-02T13:56:04.169273"
+  },
+  {
     "company": "Forterra PLC",
     "ticker": "FORT",
     "publish_date": "02 October 2026",
