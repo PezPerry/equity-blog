@@ -1,5 +1,104 @@
 [
   {
+    "company": "Wetherspoon (J.D.)",
+    "ticker": "JDW",
+    "publish_date": "02 October 2026",
+    "date_iso": "2026-10-02",
+    "time_period": "FY26 (52 weeks ended 26 July 2026)",
+    "announcement_type": "Annual results",
+    "period_detail": "FY26 (52 weeks ended 26 July 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Revenue £2,238m</strong> (2025: £2,127.5m), up <strong>5.2%</strong>, with <strong>like-for-like sales +4.2%</strong> (bar +6.1%, food +1.2%, machines +7.4%, hotel rooms +1.3%).</li><li><strong>Profit before tax and separately disclosed items £58.6m</strong> (2025: £81.4m), down <strong>28.0%</strong>; operating profit on the same basis <strong>£120.2m</strong> (2025: £146.4m), with operating margin falling to <strong>5.37%</strong> from <strong>6.88%</strong>.</li><li>Profit decline driven by <strong>costs up 5.3%</strong>, including <strong>£46m</strong> higher wages, <strong>£31m</strong> repairs and <strong>£9m</strong> business rates.</li><li><strong>Basic EPS before separately disclosed items 42.4p</strong> (2025: 50.8p); after separately disclosed items PBT <strong>£77.7m</strong> and EPS <strong>59.5p</strong> (2025: 60.0p), aided by a <strong>£19.1m</strong> pre-tax gain mainly from interest-rate swap movements.</li><li><strong>Full-year dividend held at 12.0p</strong>; <strong>free cash inflow £100.1m</strong> (2025: £56.6m), equal to <strong>92.4p per share</strong>.</li><li>Strong start to FY27: <strong>like-for-like sales +8.6%</strong> in the nine weeks to <strong>27 September 2026</strong> (helped by weather); <strong>792 pubs</strong> trading, two fewer than a year ago.</li></ul>",
+    "source_format": "html",
+    "headline": "Wetherspoon FY26 revenue rose **5.2%** to **£2,238m** but pre-tax profit before separately disclosed items fell **28%** to **£58.6m** as costs outpaced sales.",
+    "priority": "high",
+    "priority_reason": "Full-year preliminary results showing a sharp fall in pre-tax profit despite higher sales.",
+    "figures": [
+      {
+        "metric": "Revenue",
+        "current": "£2,238m",
+        "prior": "£2,127.5m",
+        "change": "+5.2%",
+        "basis": "reported",
+        "note": "FY26, 52 weeks to 26 July 2026"
+      },
+      {
+        "metric": "Like-for-like sales",
+        "current": "+4.2%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "vs FY2025",
+        "note": "FY26"
+      },
+      {
+        "metric": "Profit before tax (before separately disclosed items)",
+        "current": "£58.6m",
+        "prior": "£81.4m",
+        "change": "-28.0%",
+        "basis": "before separately disclosed items",
+        "note": "FY26"
+      },
+      {
+        "metric": "Operating profit (before separately disclosed items)",
+        "current": "£120.2m",
+        "prior": "£146.4m",
+        "change": "-17.9%",
+        "basis": "before separately disclosed items",
+        "note": "FY26"
+      },
+      {
+        "metric": "Basic EPS (before separately disclosed items)",
+        "current": "42.4p",
+        "prior": "50.8p",
+        "change": "-16.6%",
+        "basis": "before separately disclosed items",
+        "note": "FY26"
+      },
+      {
+        "metric": "Profit before tax (after separately disclosed items)",
+        "current": "£77.7m",
+        "prior": "£89.3m",
+        "change": "-13.0%",
+        "basis": "after separately disclosed items",
+        "note": "FY26"
+      },
+      {
+        "metric": "Basic EPS (after separately disclosed items)",
+        "current": "59.5p",
+        "prior": "60.0p",
+        "change": "-0.8%",
+        "basis": "after separately disclosed items",
+        "note": "FY26"
+      },
+      {
+        "metric": "Full-year dividend",
+        "current": "12.0p",
+        "prior": "12.0p",
+        "change": "0%",
+        "basis": "per share",
+        "note": "FY26"
+      },
+      {
+        "metric": "Free cash inflow per share",
+        "current": "92.4p",
+        "prior": "47.3p",
+        "change": "+95.3%",
+        "basis": "reported",
+        "note": "FY26; total free cash inflow £100.1m vs £56.6m"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "",
+      "current": "Company continues to anticipate FY27 profit before tax and separately disclosed items in line with current market expectations; company-compiled consensus for FY27 PBT before separately disclosed items is £74m.",
+      "commentary": "Management reaffirmed FY27 profit expectations in line with the £74m consensus, while cautioning that the strong early-year like-for-like trading (+8.6%) is partly weather-driven and will likely normalise."
+    },
+    "explainer": "Wetherspoon reports two sets of numbers: 'before separately disclosed items', which strips out one-off and non-trading items to show the underlying business, and 'after separately disclosed items', which includes them. Underlying pre-tax profit fell 28% to £58.6m because sales rose 5.2% but costs rose faster — wages, repairs and business rates added tens of millions. The current financial year is a 53-week year, one week longer than FY26's 52 weeks, which flatters reported FY27 growth.\n\nThe gap between the two profit measures is wide this year. After separately disclosed items, pre-tax profit was £77.7m, boosted by a £19.1m net gain. Most of that is non-cash accounting: a £13.0m movement in the fair value of interest-rate swaps and a £7.8m credit from spreading the benefit of swaps cancelled back in 2023 across the life of the original instruments. These items say little about day-to-day trading.\n\nFree cash inflow nearly doubled to £100.1m, but the company notes this was flattered by a £33.5m working-capital swing; stripping that out, underlying 'economic profit' was £66.6m, slightly below last year's £72.6m. The dividend was held flat at 12.0p.\n\nOn guidance, management maintained its stance, pointing to a company-compiled FY27 consensus of £74m pre-tax profit before separately disclosed items. The caveat is that the very strong 8.6% like-for-like start to FY27 owes much to exceptional weather and should revert to more normal levels as the year progresses.",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/wetherspoon-j-d---jdw/preliminary-results-/9803019",
+    "related_news_url": "https://news.google.com/search?q=%22Wetherspoon%20(J.D.)%22",
+    "added_at": "2026-10-02T07:19:18.775743"
+  },
+  {
     "company": "Costain Group PLC",
     "ticker": "COST",
     "publish_date": "02 October 2026",
