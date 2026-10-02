@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Global Bond Sell-Off: What's Happening</title>
+<meta name="keywords" content="interest rates, government bonds, bond yields, gilts, Treasuries, JGBs, Australian bonds, Federal Reserve, Bank of England, Bank of Japan, RBA, fiscal policy">
+<meta name="author" content="Mickey Perry">
+<meta name="description" content="Global government bonds came under further pressure on 1 October 2026, with 10-year yields in the US, UK, Japan and Australia at or near multi-decade highs. What is driving the sell-off, and what to watch next.">
+<meta name="tile-cat" content="Macro &amp; Rates · Bonds">
+<meta name="tile-headline" content="Global Bond Sell-Off: What's Happening">
+<meta name="tile-alt" content="Sketch of central bankers scrambling to hold piles of US, UK, Japanese and Australian bonds">
+<meta name="tile-pill" content="watch">
+<meta name="tile-pill-label" content="Analysis">
+<meta name="tile-meta" content="US · UK · Japan · Australia">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --navy: #1B2A4A;
+    --red: #E8453C;
+    --gold: #D4A853;
+    --cream: #FBFAF7;
+    --ink: #1F2533;
+    --muted: #5B6475;
+    --rule: #E3DED3;
+    --vgood: #14713A;
+    --good: #2F8A55;
+    --flat: #C07C12;
+    --bad: #CC5F52;
+    --vbad: #A32118;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--cream);
+    color: var(--ink);
+    font-family: 'DM Sans', system-ui, sans-serif;
+    font-size: 17px;
+    line-height: 1.7;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 40px 16px 80px; }
+  .kicker {
+    font-size: 13px; letter-spacing: .12em; text-transform: uppercase;
+    color: var(--red); font-weight: 700; margin-bottom: 10px;
+  }
+  h1 {
+    font-family: 'Playfair Display', Georgia, serif;
+    color: var(--navy); font-size: 38px; line-height: 1.2; margin: 0 0 14px;
+  }
+  .standfirst { font-size: 19px; color: var(--muted); margin: 0 0 8px; }
+  .byline { font-size: 14px; color: var(--muted); border-bottom: 2px solid var(--gold); padding-bottom: 18px; margin-bottom: 28px; }
+  h2 {
+    font-family: 'Playfair Display', Georgia, serif;
+    color: var(--navy); font-size: 26px; margin: 40px 0 12px;
+  }
+  p { margin: 0 0 18px; }
+  a { color: var(--navy); text-decoration-color: var(--gold); text-underline-offset: 3px; }
+  a:hover { color: var(--red); }
+  .vbad { color: var(--vbad); font-weight: 700; }
+  .bad  { color: var(--bad);  font-weight: 700; }
+
+  /* Cover */
+  figure.cover { margin: 0 0 28px; }
+  figure.cover img { display: block; width: 100%; height: auto; border-radius: 6px; border: 1px solid var(--rule); }
+
+  /* Key facts box */
+  .facts {
+    background: #fff; border-left: 4px solid var(--navy);
+    padding: 18px 22px; margin: 24px 0 28px; border-radius: 4px;
+  }
+  .facts h3 { margin: 0 0 8px; font-size: 15px; letter-spacing: .08em; text-transform: uppercase; color: var(--navy); }
+  .facts ul { margin: 0; padding-left: 20px; }
+  .facts li { margin-bottom: 6px; }
+
+  /* Table */
+  .table-wrap { overflow-x: auto; margin: 20px 0 28px; }
+  table { width: 100%; border-collapse: collapse; background: #fff; font-size: 15px; }
+  th, td { padding: 10px 12px; border-bottom: 1px solid var(--rule); text-align: left; vertical-align: top; }
+  th { background: var(--navy); color: #fff; font-weight: 500; }
+  td.num, th.num { text-align: right; }
+  td.driver { font-weight: 700; color: var(--navy); min-width: 150px; }
+  td.where { color: var(--muted); min-width: 130px; }
+  tr:last-child td { border-bottom: none; }
+  table.drivers { min-width: 620px; }
+
+  /* Figures */
+  figure.chart {
+    position: relative; margin: 26px 0 30px; background: #fff;
+    border: 1px solid var(--rule); border-radius: 6px; padding: 18px 16px 12px;
+  }
+  figure.chart img, figure.chart svg { display: block; width: 100%; height: auto; }
+  figcaption { font-size: 14px; color: var(--muted); font-style: italic; margin-top: 10px; }
+  .zoom-btn {
+    position: absolute; top: 10px; right: 10px; width: 34px; height: 34px;
+    border: none; border-radius: 6px; cursor: pointer;
+    background: rgba(27, 42, 74, .85); display: flex; align-items: center; justify-content: center;
+  }
+  .zoom-btn:hover { background: var(--navy); }
+  .zoom-btn svg { width: 18px; height: 18px; }
+  @media (max-width: 620px) {
+    h1 { font-size: 30px; }
+  }
+
+  /* Lightbox */
+  .lightbox {
+    display: none; position: fixed; inset: 0; background: rgba(15, 22, 38, .92);
+    z-index: 1000; align-items: center; justify-content: center; padding: 24px; cursor: zoom-out;
+  }
+  .lightbox.open { display: flex; }
+  .lightbox-inner { background: #fff; border-radius: 8px; padding: 20px; max-width: 1200px; width: 100%; max-height: 92vh; overflow: auto; }
+  .lightbox-inner img, .lightbox-inner svg { width: 100%; height: auto; display: block; }
+  .lightbox-inner .zoom-btn { display: none; }
+
+  .sources { font-size: 14px; color: var(--muted); border-top: 1px solid var(--rule); margin-top: 44px; padding-top: 18px; }
+  .sources h2 { font-size: 20px; margin-top: 0; }
+  .sources ul { padding-left: 20px; }
+  .disclaimer { font-size: 13px; color: var(--muted); margin-top: 18px; }
+</style>
+</head>
+<body>
+<article class="wrap">
+
+  <div class="kicker">Macro &amp; Rates &middot; Global Bonds</div>
+  <h1>Global bond sell-off: what's happening</h1>
+  <p class="standfirst">Ten-year yields in the US, UK, Japan and Australia are at or near multi-decade highs. Central banks, an energy shock and heavy government borrowing are all pushing the same way.</p>
+  <div class="byline">Mickey Perry &middot; Equity and Markets Insight &middot; 1 October 2026</div>
+
+  <figure class="cover">
+    <img src="global-bond-sell-off-cover.jpg" alt="Sketch of central bankers scrambling to hold piles of US, UK, Japanese and Australian bonds while two others look on">
+  </figure>
+
+  <p>Global government bonds came under further pressure on Thursday, 1 October, as yields in Japan and Australia pushed towards multi-decade highs.</p>
+
+  <p>The numbers are stark. The US 10-year Treasury yield rose about 47 basis points in September to roughly <span class="bad">5.24%</span>, its highest since June 2007. Japan's 10-year yield crossed 3% for the first time since 1996 and reached <span class="bad">3.115%</span>, its highest since August 1996. Australia's 10-year closed September at <span class="bad">5.38%</span>, a level last seen in 2011. In Britain the 10-year gilt hit about <span class="bad">5.38%</span>, and the 30-year touched <span class="vbad">5.89%</span>, its highest since 1998.</p>
+
+  <div class="facts">
+    <h3>The sell-off in brief</h3>
+    <ul>
+      <li>US 10-year: about 5.24%, highest since June 2007</li>
+      <li>Japan 10-year: 3.115%, highest since August 1996</li>
+      <li>Australia 10-year: 5.38% at the end of September, last seen in 2011</li>
+      <li>UK 10-year gilt: about 5.38%; 30-year at 5.89%, highest since 1998</li>
+      <li>German and French 10-year yields at 17- and 18-year highs</li>
+    </ul>
+  </div>
+
+  <p>This is no longer one country's problem. German and French 10-year yields have reached 17- and 18-year highs too. When bond markets in Tokyo, Sydney, London, Frankfurt and New York all sell off together, the causes are usually global.</p>
+
+  <h2>Why prices fall when yields rise</h2>
+
+  <p>When investors sell bonds faster than others want to buy them, prices fall and yields rise. The two always move in opposite directions.</p>
+
+  <p>A government bond pays a fixed coupon. Suppose a 10-year bond is issued at a price of 100 with a 4% coupon, paying 4 a year. If sellers push its price down to 95, a new buyer still receives 4 a year but pays only 95 for it. Their effective return &mdash; the yield &mdash; rises to roughly 4.6% once the gain back to 100 at maturity is counted.</p>
+
+  <p>So a "sell-off" and "rising yields" are the same thing. Rising yields matter well beyond bond desks: they set the floor for mortgage rates, corporate borrowing costs and the interest governments pay on their debt.</p>
+
+  <h2>Twelve months of rising yields</h2>
+
+  <figure class="chart">
+    <button class="zoom-btn" onclick="openLightbox(this)" aria-label="Expand chart"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg></button>
+    <img src="assets/global-bond-sell-off-2026-10-01/ten-year-yields.png" alt="Four line charts of 10-year government bond yields, October 2025 to 1 October 2026. Australia up 1.20 points to 5.43%, Japan up 1.44 points to 3.10%, UK up 0.90 points to 5.47%, US up 1.27 points to 5.33%." loading="lazy">
+    <figcaption>FRED monthly averages, Oct 2025&ndash;Aug 2026 (US to Sep 2026); 1 Oct 2026 closes from Trading Economics.</figcaption>
+  </figure>
+
+  <p>Japan has moved the most: its 10-year yield has almost doubled in a year as the Bank of Japan finishes decades of ultra-low rates. The US move accelerated sharply in September, the month of the Fed's first hike in three years. Australia and the UK climbed more steadily, then broke out above 5.3% as the global sell-off spread. In every market, yields on 1 October sit at or near the top of their twelve-month range.</p>
+
+  <h2>Why investors are selling</h2>
+
+  <div class="table-wrap">
+    <table class="drivers">
+      <thead>
+        <tr><th>Driver</th><th>What is happening</th><th>Where it bites hardest</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="driver">Central banks raising rates</td>
+          <td>The Fed hiked 25bp to 3.75&ndash;4.00% on 16 September, its first hike in more than three years, and signalled another this year. The RBA lifted its cash rate to 4.60%, its fourth hike of 2026. The BoJ is at 1.25%; the BoE held at 3.75% but markets see about an 80% chance of a November hike.</td>
+          <td class="where">All four, Australia and the US most directly</td>
+        </tr>
+        <tr>
+          <td class="driver">An energy-driven inflation shock</td>
+          <td>Since the US-Israeli conflict with Iran began in late February, WTI crude rose from about $57 to a $113 peak in April and was back above $100 in mid-September. US core PCE inflation climbed from 3.0% to 3.3%; Australian CPI hit 4.0%; UK CPI is 3.1%.</td>
+          <td class="where">Energy importers: Japan, UK, Europe</td>
+        </tr>
+        <tr>
+          <td class="driver">Heavy government borrowing</td>
+          <td>US federal debt has passed $40 trillion, and most G7 debt-to-GDP ratios sit at or above 100%. Japan's bonds have been under pressure since PM Sanae Takaichi's spending plans. In Britain, higher yields have roughly halved the Chancellor's fiscal headroom, from &pound;26bn to about &pound;13.8bn, before the 28 October budget.</td>
+          <td class="where">US, UK, Japan</td>
+        </tr>
+        <tr>
+          <td class="driver">A flood of competing bonds</td>
+          <td>Global corporate bond issuance hit a record $4.9 trillion so far in 2026, including about $220bn from five large AI companies funding data centres. More supply of all bonds means each must be priced more cheaply to find buyers.</td>
+          <td class="where">US dollar markets especially</td>
+        </tr>
+        <tr>
+          <td class="driver">Stronger-than-expected growth</td>
+          <td>US GDP is growing at 2.2% annualised. Japan's manufacturing sentiment is at its best in more than eight years. Strong growth reduces the need for central banks to cut base rates.</td>
+          <td class="where">US, Japan, Australia</td>
+        </tr>
+        <tr>
+          <td class="driver">Fewer big, price-insensitive buyers</td>
+          <td>Central banks are no longer the dominant buyers they were after 2020: the Fed's balance sheet is about $6.6 trillion, down from roughly $9 trillion in 2022, and the BoJ is stepping back from the JGB market. Private investors who replace them demand a higher return.</td>
+          <td class="where">Japan, US</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p>The markets are also feeding off each other. Japan's 10-year yield crossing 3% forced investors to reprice gilts and Treasuries, because Japanese savers &mdash; among the largest foreign holders of global bonds &mdash; can now earn more at home (<a href="https://www.optionstradingreport.com/2026/09/uk-gilts-near-6-the-bond-market-is-writing-the-budget/" target="_blank" rel="noopener">Options Trading Report</a>). Figures above are from <a href="https://www.usbank.com/investing/financial-perspectives/market-news/federal-reserve-interest-rate.html" target="_blank" rel="noopener">U.S. Bank</a>, <a href="https://live.euronext.com/en/financial-news/explainer-whats-behind-selloff-world-bond-markets" target="_blank" rel="noopener">Euronext/Reuters</a> and <a href="https://tradingeconomics.com/united-states/government-bond-yield" target="_blank" rel="noopener">Trading Economics</a>.</p>
+
+  <h2>What it means, and what to watch</h2>
+
+  <p>Higher bond yields raise borrowing costs across the economy. Mortgage rates, business loans and government interest bills all key off them. In Australia the 10-year's climb has fed straight into fixed mortgage pricing; in Britain it has already eaten half the Chancellor's room for manoeuvre before the budget.</p>
+
+  <p>For investors there is an upside: new money can now lock in yields of 5% or more in the US, UK and Australia, and over 3% in Japan, levels not available for 15 to 30 years. The risk is that yields keep rising and prices keep falling first.</p>
+
+  <div class="facts">
+    <h3>The next tests come quickly</h3>
+    <ul>
+      <li><strong>28 October</strong> &mdash; the UK Autumn Budget, a direct test of gilt-market confidence.</li>
+      <li><strong>27&ndash;28 October</strong> &mdash; the Fed's next meeting, where one more hike is the median forecast.</li>
+      <li><strong>Early November</strong> &mdash; Bank of England and RBA decisions; markets put the odds of a BoE hike near 80%.</li>
+      <li><strong>Oil prices and the Iran conflict</strong> &mdash; any easing in energy would take pressure off inflation, and off bonds, fastest.</li>
+    </ul>
+  </div>
+
+  <div class="sources">
+    <h2>Sources</h2>
+    <ul>
+      <li><a href="https://finance.biggo.com/news/af1351bb-e5f8-4824-8ba1-5116fd91b38e" target="_blank" rel="noopener">BigGo Finance: Global bonds head for worst month in years</a></li>
+      <li><a href="https://live.euronext.com/en/financial-news/explainer-whats-behind-selloff-world-bond-markets" target="_blank" rel="noopener">Euronext/Reuters: What's behind the selloff in world bond markets</a></li>
+      <li><a href="https://www.usbank.com/investing/financial-perspectives/market-news/federal-reserve-interest-rate.html" target="_blank" rel="noopener">U.S. Bank: Fed raises rates to 3.75%&ndash;4.00%</a></li>
+      <li><a href="https://www.optionstradingreport.com/2026/09/uk-gilts-near-6-the-bond-market-is-writing-the-budget/" target="_blank" rel="noopener">Options Trading Report: UK gilts near 6%</a></li>
+      <li>Trading Economics 10-year yield pages: <a href="https://tradingeconomics.com/united-states/government-bond-yield" target="_blank" rel="noopener">US</a>, <a href="https://tradingeconomics.com/united-kingdom/government-bond-yield" target="_blank" rel="noopener">UK</a>, <a href="https://tradingeconomics.com/japan/government-bond-yield" target="_blank" rel="noopener">Japan</a>, <a href="https://tradingeconomics.com/australia/government-bond-yield" target="_blank" rel="noopener">Australia</a></li>
+      <li>FRED monthly 10-year yields: <a href="https://fred.stlouisfed.org/series/DGS10" target="_blank" rel="noopener">US DGS10</a>, <a href="https://fred.stlouisfed.org/series/IRLTLT01JPM156N" target="_blank" rel="noopener">Japan</a>, <a href="https://fred.stlouisfed.org/series/IRLTLT01GBM156N" target="_blank" rel="noopener">UK</a>, <a href="https://fred.stlouisfed.org/series/IRLTLT01AUM156N" target="_blank" rel="noopener">Australia</a></li>
+    </ul>
+    <p>Yields are as reported by the sources above, up to the close on 1 October 2026.</p>
+    <p class="disclaimer">This article is for information only and is not investment advice. The author may hold positions in companies mentioned.</p>
+  </div>
+
+</article>
+
+<div class="lightbox" id="lightbox" onclick="closeLightbox()">
+  <div class="lightbox-inner" id="lightbox-inner"></div>
+</div>
+
+<script>
+  function openLightbox(btn) {
+    var fig = btn.closest('figure');
+    var inner = document.getElementById('lightbox-inner');
+    inner.innerHTML = '';
+    var clone = fig.cloneNode(true);
+    clone.style.border = 'none';
+    clone.style.margin = '0';
+    inner.appendChild(clone);
+    document.getElementById('lightbox').classList.add('open');
+  }
+  function closeLightbox() {
+    document.getElementById('lightbox').classList.remove('open');
+  }
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') closeLightbox();
+  });
+</script>
+</body>
+</html>

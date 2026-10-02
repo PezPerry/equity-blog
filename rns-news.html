@@ -1189,7 +1189,13 @@ function handleDeepLink() {
   document.getElementById('btnRecent').classList.remove('active');
   renderArticles();
   const idx = getFiltered().indexOf(article);
-  if (idx >= 0) setTimeout(() => jumpToCard(idx), 100);
+  if (idx < 0) return;
+  // Instant, not smooth: a smooth scroll is cut short by the renders that follow the load, which
+  // left deep links (newsletter digest, /RNSNews#item=) at the top of the feed. Re-run once late renders settle.
+  const land = () => { const card = document.getElementById('card-' + idx); if (!card) return;
+    card.classList.add('open'); card.scrollIntoView({ block: 'start' }); };
+  setTimeout(land, 100);
+  setTimeout(land, 900);
 }
 
 Promise.all([
