@@ -1,5 +1,122 @@
 [
   {
+    "company": "IG Group Holdings PLC",
+    "ticker": "IGG",
+    "publish_date": "02 October 2026",
+    "date_iso": "2026-10-02",
+    "time_period": "Q3 FY26 (three months ended 30 September 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "Q3 FY26 (three months ended 30 September 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Q3 2026 total revenue</strong> expected at approximately <strong>£240m</strong>, down approximately <strong>14% year-on-year</strong> (Q3 2025: <strong>£280.1m</strong>), reflecting lower OTC revenue retention.</li><li><strong>OTC revenue retention</strong> was approximately <strong>70%</strong> in Q3 2026, below the approximately <strong>80%</strong> averaged since market-making optimisation measures began in H2 2025; net trading revenue approximately <strong>£210m</strong> (Q3 2025: <strong>£249.5m</strong>).</li><li>Full-year <strong>2026 Group total revenue growth</strong> now expected in a <strong>mid-single-digit per cent range</strong> year-on-year; medium-term guidance beyond 2026 maintained.</li><li>Underlying volumes strong: organic <strong>first trades up over 25%</strong>, organic <strong>active customers up around 17%</strong>; OTC net trading revenue approximately <strong>£155m</strong> (down approximately 18%) but OTC customer income up approximately <strong>8%</strong>.</li><li><strong>Underdog</strong> net revenue up over <strong>100%</strong> year-on-year to approximately <strong>$105m</strong>, ahead of its seasonally important Q4.</li><li><strong>2026 Group EBITDA margin</strong> expected in the <strong>low-40s per cent range</strong>, excluding approximately <strong>£30m</strong> of non-recurring redomicile/restructuring costs (£16.4m booked in H1) and Underdog acquisition costs; further detail due <strong>22 October 2026</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "IG Group reported Q3 revenue down around 14% to roughly £240m on lower OTC revenue retention, and trimmed its FY2026 revenue growth outlook to mid-single digits.",
+    "priority": "high",
+    "priority_reason": "Q3 revenue fell around 14% on weaker OTC retention and the Board cut its full-year 2026 revenue growth expectation to mid-single digits.",
+    "figures": [
+      {
+        "metric": "Total revenue",
+        "current": "approx £240m",
+        "prior": "£280.1m",
+        "change": "approx -14%",
+        "basis": "reported",
+        "note": "Q3 2026 vs Q3 2025"
+      },
+      {
+        "metric": "Net trading revenue",
+        "current": "approx £210m",
+        "prior": "£249.5m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "Q3 2026 vs Q3 2025"
+      },
+      {
+        "metric": "OTC net trading revenue",
+        "current": "approx £155m",
+        "prior": "not stated",
+        "change": "approx -18%",
+        "basis": "reported",
+        "note": "Q3 2026 year-on-year"
+      },
+      {
+        "metric": "OTC customer income",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "approx +8%",
+        "basis": "reported",
+        "note": "Q3 2026 year-on-year"
+      },
+      {
+        "metric": "OTC revenue retention",
+        "current": "approx 70%",
+        "prior": "approx 80%",
+        "change": "not stated",
+        "basis": "80% is average since H2 2025 to end Q3 2026",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "Underdog net revenue",
+        "current": "approx $105m",
+        "prior": "not stated",
+        "change": "up over 100%",
+        "basis": "reported",
+        "note": "Q3 2026 year-on-year"
+      },
+      {
+        "metric": "Organic first trades",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "up over 25%",
+        "basis": "organic",
+        "note": "Q3 2026 year-on-year"
+      },
+      {
+        "metric": "Organic active customers",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "approx +17%",
+        "basis": "organic",
+        "note": "Q3 2026 year-on-year"
+      }
+    ],
+    "guidance": {
+      "status": "lowered",
+      "previous": "Not explicitly quoted; the revised figure is described as what is 'now expected', implying a downgrade from prior full-year revenue growth expectations.",
+      "current": "2026 Group total revenue growth now expected in a mid-single-digit per cent range year-on-year; 2026 EBITDA margin (excluding non-recurring and Underdog acquisition costs) expected in the low-40s per cent range; medium-term guidance beyond 2026 maintained.",
+      "commentary": "The Board has cut its full-year 2026 revenue growth expectation to mid-single digits, citing lower OTC revenue retention (around 70% in Q3 versus the roughly 80% recent average). It stresses that customer growth remains strong and that it stays confident of meeting medium-term guidance beyond 2026."
+    },
+    "explainer": "IG's headline Q3 revenue fell about 14% year-on-year to roughly £240m. The key driver is OTC revenue retention — essentially how much of customers' trading activity IG keeps as revenue after hedging and payouts — which dropped to around 70% from the roughly 80% it had averaged since introducing 'market-making optimisation' measures in H2 2025. IG says those measures should lift retention structurally over the medium to long term, but with more short-term volatility, which is what showed up this quarter.\n\nUnderneath the revenue fall, the business is still growing: organic first trades were up over 25% and active customers up around 17%, and OTC customer income (gross activity before retention effects) rose about 8%. In other words, customers traded more; IG simply retained less of it in weaker market conditions.\n\nUnderdog, the US business, nearly doubled net revenue to about $105m ahead of its seasonally strongest fourth quarter — its Q4 was over a third of 2025 revenue.\n\nOn guidance, the Board now expects full-year 2026 revenue growth only in a mid-single-digit range, a step down flagged by the word 'now', reflecting the weaker retention. It kept its medium-term guidance beyond 2026 unchanged. The 2026 EBITDA margin is guided to the low-40s per cent, but note that figure excludes roughly £30m of one-off redomicile-to-Jersey and restructuring costs (£16.4m already booked in H1) plus Underdog deal costs — so the reported margin will be lower than the low-40s underlying figure.",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/ig-group-holdings--igg/q3-trading-update-/9803001",
+    "related_news_url": "https://news.google.com/search?q=%22IG%20Group%20Holdings%22",
+    "added_at": "2026-10-02T07:20:56.703973"
+  },
+  {
+    "company": "Gore Street Energy Storage Fund PLC",
+    "ticker": "GSF",
+    "publish_date": "02 October 2026",
+    "date_iso": "2026-10-02",
+    "time_period": "",
+    "announcement_type": "Financing / refinancing",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Gore Street Energy Storage Fund plc</strong> has refinanced its <strong>Big Rock</strong> asset — the <strong>200 MW / 400 MWh</strong> battery storage project in California — via subsidiary <strong>Big Rock ESS Assets LLC</strong>.</li><li>New term loan including a Letter of Credit facility of <strong>c.$52.4 million</strong> with a <strong>five-year</strong> tenor, replacing the existing <strong>$60.0 million</strong> facility, arranged and led by <strong>First Citizens Bank</strong>.</li><li>Interest charged at a <strong>lower cost of debt</strong> than the facility it replaces; the loan partially amortises with a balloon payment at maturity.</li><li>Facility sized against operating cash flow after nearly a year of operation; gearing policy unchanged, targeting borrowings of <strong>no more than 30%</strong> of Gross Asset Value.</li><li>CEO <strong>Alex O'Cinneide</strong> said the deal reflects progress on cost-reduction initiatives and Big Rock's operational maturity.</li></ul>",
+    "source_format": "html",
+    "headline": "Gore Street has refinanced its 200 MW / 400 MWh Big Rock California battery project with a new term loan from First Citizens Bank at a lower cost of debt.",
+    "priority": "medium",
+    "priority_reason": "Refinancing of a material asset that lowers the cost of debt, but not a results, guidance or M&A event.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/gore-street-energy-storage-fund--gsf/big-rock-refinancing/9803004",
+    "related_news_url": "https://news.google.com/search?q=%22Gore%20Street%20Energy%20Storage%20Fund%22",
+    "added_at": "2026-10-02T07:20:56.690185"
+  },
+  {
     "company": "Wizz Air Holdings PLC",
     "ticker": "WIZZ",
     "publish_date": "02 October 2026",
