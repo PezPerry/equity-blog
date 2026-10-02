@@ -1,5 +1,31 @@
 [
   {
+    "company": "Plus500 Ltd",
+    "ticker": "PLUS",
+    "publish_date": "02 October 2026",
+    "date_iso": "2026-10-02",
+    "time_period": "Q3 2026 / nine months to 30 September 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "Q3 2026 / nine months to 30 September 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Plus500</strong> confirms it continues to trade <strong>in-line with current market expectations</strong> for <strong>FY 2026</strong> and maintains a <strong>strong cash position</strong>, as previously communicated on <strong>10 August 2026</strong>.</li><li>The Group reports it <strong>continued to perform strongly</strong> during <strong>Q3 2026</strong> and the nine months to <strong>30 September 2026</strong>, building on record <strong>H1 2026</strong> results.</li><li>No specific financial figures are given in this statement; the full <strong>Q3 2026 Trading Update</strong> will be published <strong>later this month</strong> as planned.</li><li>Statement notes the Group's proprietary risk management framework has a <strong>robust track record</strong> through various market cycles.</li></ul>",
+    "source_format": "html",
+    "headline": "Plus500 says Q3 trading continued strongly and it remains in line with current FY 2026 market expectations, with full Q3 update due later this month.",
+    "priority": "high",
+    "priority_reason": "Quarterly trading statement from a FTSE 250 fintech confirming full-year expectations.",
+    "figures": [],
+    "guidance": {
+      "status": "maintained",
+      "previous": "In-line with current market expectations for FY 2026 (as communicated on 10 August 2026)",
+      "current": "Continues to trade in-line with current market expectations for FY 2026",
+      "commentary": "Plus500 reaffirms it remains in line with current FY 2026 market expectations and retains a strong cash position. This is a short pre-close confirmation; detailed quarterly figures follow in the full Q3 update later this month."
+    },
+    "explainer": "This is a brief confirmatory trading statement rather than a detailed results release. Plus500 is telling the market that performance through the first nine months of 2026 remains consistent with the expectations it set out at its half-year on 10 August 2026, so there is no upgrade or downgrade implied.\n\nNo revenue, profit or customer metrics are printed here. 'In-line with current market expectations' means analyst consensus for the full year is unchanged, and the reference to a 'strong cash position' reiterates the balance-sheet strength flagged at H1. Traders should wait for the full Q3 2026 Trading Update, due later this month, for the actual figures.",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/plus500-ltd-di---plus/q3-2026-update/9804256",
+    "related_news_url": "https://news.google.com/search?q=%22Plus500%20Ltd%20(DI)%22",
+    "added_at": "2026-10-02T10:15:51.461811"
+  },
+  {
     "company": "Glencore PLC",
     "ticker": "GLEN",
     "publish_date": "02 October 2026",
