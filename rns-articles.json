@@ -1,5 +1,31 @@
 [
   {
+    "company": "Interactive Brokers Group Inc",
+    "ticker": "IBKR",
+    "publish_date": "02 October 2026",
+    "date_iso": "2026-10-02",
+    "time_period": "September 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "September 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Interactive Brokers Group</strong> published its routine monthly Electronic Brokerage performance metrics for <strong>September 2026</strong>.</li><li>The scraped text contains only notes and methodology — the actual DARTs, client equity, account and commission figures are presented in tables/graphics that were <strong>not captured</strong>, so no numbers can be quoted.</li><li>One disclosed data point: the rolling twelve-month average all-in cost of an <strong>IBKR PRO</strong> client U.S. Reg.-NMS stock trade was <strong>2.5 basis points</strong>.</li><li>Routine monthly operational disclosure with <strong>no impact</strong> on guidance; full metrics available on the company's investor relations page.</li></ul>",
+    "source_format": "html",
+    "headline": "**Interactive Brokers** reported its monthly electronic brokerage performance metrics for **September 2026**, including Reg.-NMS execution statistics.",
+    "priority": "low",
+    "priority_reason": "Routine monthly brokerage operating metrics with no headline figures or comparatives in the scraped text.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/IBKR/share-news/Interactive-Brokers-Group-Reports-Brokerage-Metric/99415335",
+    "related_news_url": "https://news.google.com/search?q=%22Interactive%20Brokers%20Group%2C%20Inc.%22",
+    "added_at": "2026-10-02T07:16:09.584990"
+  },
+  {
     "company": "Bridgepoint Group PLC",
     "ticker": "BPT",
     "publish_date": "01 October 2026",

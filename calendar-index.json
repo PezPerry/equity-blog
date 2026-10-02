@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-01",
+  "generated": "2026-10-02",
   "by_ticker": {
     "AAPL": {
       "date": "2026-10-31",
@@ -70,8 +70,8 @@
       "event": "Annual report (Est)"
     },
     "GRG": {
-      "date": "2026-10-01",
-      "event": "Trading statement"
+      "date": "2026-10-09",
+      "event": "Q2 div payment"
     },
     "HFG": {
       "date": "2026-10-29",
@@ -86,8 +86,8 @@
       "event": "Q2 div payment"
     },
     "HTG": {
-      "date": "2026-10-01",
-      "event": "Q2 ex-div"
+      "date": "2026-10-30",
+      "event": "Q2 div payment"
     },
     "HWDN": {
       "date": "2026-10-15",
@@ -95,10 +95,6 @@
     },
     "HWG": {
       "date": "2026-11-03",
-      "event": "Q2 div payment"
-    },
-    "IHG": {
-      "date": "2026-10-01",
       "event": "Q2 div payment"
     },
     "IWG": {
@@ -126,8 +122,8 @@
       "event": "Year end"
     },
     "MGNS": {
-      "date": "2026-10-01",
-      "event": "Q2 ex-div"
+      "date": "2026-10-22",
+      "event": "Q2 div payment"
     },
     "MNG": {
       "date": "2026-10-16",
@@ -136,10 +132,6 @@
     "MOON": {
       "date": "2026-10-22",
       "event": "Q4 ex-div"
-    },
-    "NVDA": {
-      "date": "2026-10-01",
-      "event": "Special div payment"
     },
     "PPH": {
       "date": "2026-10-16",
@@ -174,8 +166,8 @@
       "event": "Annual report (Est)"
     },
     "TPK": {
-      "date": "2026-10-01",
-      "event": "Q2 ex-div"
+      "date": "2026-11-06",
+      "event": "Q2 div payment"
     },
     "TW.": {
       "date": "2026-10-08",
@@ -186,8 +178,8 @@
       "event": "Trading statement"
     },
     "WIKS": {
-      "date": "2026-10-01",
-      "event": "Q2 ex-div"
+      "date": "2026-11-06",
+      "event": "Q2 div payment"
     }
   }
 }
