@@ -1,5 +1,56 @@
 [
   {
+    "company": "BT Group PLC",
+    "ticker": "BT.A",
+    "publish_date": "05 October 2026",
+    "date_iso": "2026-10-05",
+    "time_period": "FY27",
+    "announcement_type": "Acquisition / deal",
+    "period_detail": "FY27",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>BT Group</strong> has acquired <strong>TalkTalk Telecommunications Limited</strong> and <strong>PlatformX Communications Limited</strong> out of administration on a <strong>debt-free basis</strong>, stepping in to protect continuity of service for <strong>2.5 million customers</strong>.</li><li>Estimated total cash impact in <strong>FY27</strong> is <strong>c£400m</strong>, comprising consideration, transaction and administration costs, working capital, a trading loss of <strong>c£60m</strong> for the balance of the year, and non-receipt of <strong>c£100m</strong> otherwise due to Openreach.</li><li>TalkTalk reported revenues of <strong>c£1.2bn</strong> over the last 12 months and was <strong>loss-making</strong>; BT expects the deal to become value accretive over time as the business is stabilised and synergies realised.</li><li>A <strong>regulatory review</strong> is expected over the coming weeks; until it concludes, TalkTalk and BT will operate separately and continue to compete.</li><li><strong>Clive Selley CBE</strong> will lead stabilisation and integration planning; <strong>Martijn Blanken</strong> takes over as CEO of BT International and remains CEO-Designate of the proposed Verizon joint venture.</li><li>Excluding the transaction, BT reconfirms all <strong>FY27</strong> and multi-year outlook, including Normalised Free Cash Flow inflecting to <strong>c£2.0bn</strong> in FY27 and <strong>c£3.0bn</strong> by end of the decade.</li></ul>",
+    "source_format": "html",
+    "headline": "BT Group has acquired TalkTalk Telecommunications and PlatformX Communications out of administration on a debt-free basis to protect service for 2.5 million customers.",
+    "priority": "high",
+    "priority_reason": "Unscheduled M&A: BT has bought TalkTalk and PlatformX out of administration, with a c£400m FY27 cash impact and guidance commentary.",
+    "figures": [
+      {
+        "metric": "TalkTalk revenue (last 12 months)",
+        "current": "c£1.2bn",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "TalkTalk standalone; reported loss-making"
+      },
+      {
+        "metric": "FY27 total cash impact of acquisition",
+        "current": "c£400m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "consideration plus other cash impacts",
+        "note": "includes c£60m trading loss and c£100m non-receipt due to Openreach"
+      },
+      {
+        "metric": "Normalised Free Cash Flow (FY27)",
+        "current": "c£2.0bn",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "excluding effects of transaction",
+        "note": "reconfirmed outlook; c£3.0bn by end of decade"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "FY27 and multi-year financial outlook metrics, including Normalised Free Cash Flow inflecting to c£2.0bn in FY27 and c£3.0bn by the end of the decade",
+      "current": "All FY27 and multi-year financial outlook metrics reconfirmed, excluding the effects of this transaction",
+      "commentary": "BT reaffirms its existing guidance on a pre-transaction basis. The TalkTalk/PlatformX acquisition is excluded for now and will be reported as a separate FY27 segment, with a c£400m FY27 cash impact; detailed effects on revenue, EBITDA and capex will follow later this fiscal year."
+    },
+    "explainer": "BT has rescued TalkTalk's consumer and wholesale (PXC) operations from administration after a failed sale process, acquiring them debt-free to keep 2.5 million customers connected — including vulnerable households and critical national infrastructure across health, emergency services, defence and government. The move is framed as a public-interest intervention rather than an opportunistic deal.\n\nThe c£400m FY27 cash figure is not a purchase price alone: it bundles together consideration, transaction and administration costs, working-capital movements, a c£60m trading loss for the remainder of this financial year, and c£100m that Openreach would otherwise have received from TalkTalk. TalkTalk itself turned over c£1.2bn in the last 12 months but was loss-making, so the business dilutes earnings initially and only becomes accretive once stabilised and integrated.\n\nOn guidance, BT has deliberately ring-fenced the deal. It reconfirms all FY27 and multi-year targets — notably free cash flow rising to c£2.0bn this year and c£3.0bn by the end of the decade — but explicitly \"excluding the effects of this transaction\". The acquired business will be reported as a separate FY27 segment, with the full impact on revenue, EBITDA and capex quantified later once TalkTalk's accounts are aligned to BT's policies and acquisition accounting is completed. A regulatory review is still pending, so the companies remain separate competitors for now.\n\nBT also reaffirmed its BBB+/Baa1 credit-rating target and its commitment to grow the dividend by low-to-mid single digits per year until rating metrics are met.",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/bt-group--bt.a/bt-group-has-acquired-talktalk-and-platformx/9806102",
+    "related_news_url": "https://news.google.com/search?q=%22BT%20Group%22",
+    "added_at": "2026-10-05T07:27:31.804222"
+  },
+  {
     "company": "Harworth Group PLC",
     "ticker": "HWG",
     "publish_date": "05 October 2026",
