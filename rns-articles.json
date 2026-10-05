@@ -1,5 +1,31 @@
 [
   {
+    "company": "Construction Partners Inc",
+    "ticker": "ROAD",
+    "publish_date": "05 October 2026",
+    "date_iso": "2026-10-05",
+    "time_period": "",
+    "announcement_type": "Acquisition / deal",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Construction Partners, Inc.</strong> has completed the acquisition of the asphalt manufacturing and construction assets of <strong>J.H. Strain & Sons, Inc.</strong>, based in <strong>Tye, Texas</strong>.</li><li>Adds <strong>two hot-mix asphalt plants</strong>, crews and equipment serving the greater <strong>Abilene, Texas</strong> area and West Texas; operations fold into CPI's Texas platform <strong>Lone Star Paving</strong>.</li><li>More than <strong>125 employees</strong> join Lone Star; CEO <strong>Jule Smith</strong> cites Abilene's growing, diversified economy including <strong>data centre-related developments</strong>.</li><li>No financial terms disclosed.</li></ul>",
+    "source_format": "html",
+    "headline": "Construction Partners has acquired the asphalt manufacturing and construction assets of Texas-based J.H. Strain & Sons, adding two hot-mix plants serving Abilene.",
+    "priority": "medium",
+    "priority_reason": "Completed bolt-on acquisition but small in scale with no financial terms disclosed.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/ROAD/share-news/Construction-Partners-Inc-Completes-Texas-Acquis/99432902",
+    "related_news_url": "https://news.google.com/search?q=%22Construction%20Partners%2C%20Inc.%22",
+    "added_at": "2026-10-05T14:56:36.392015"
+  },
+  {
     "company": "AstraZeneca PLC",
     "ticker": "AZN",
     "publish_date": "05 October 2026",
