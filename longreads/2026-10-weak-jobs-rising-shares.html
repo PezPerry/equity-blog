@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Why US shares rose after September's weak jobs report, explained in six simple animated steps.">
+<meta name="keywords" content="US jobs report, non-farm payrolls, September 2026, Federal Reserve, interest rates, S&amp;P 500, Nasdaq, explainer">
+<meta name="tile-title" content="Bad news on US jobs. So why did shares go up?">
+<meta name="tile-kicker" content="US Macro &middot; Explainer">
+<meta name="tile-subtitle" content="America hired far fewer people in September, yet the stock market rose the same day. The reason, one step at a time.">
+<meta name="tile-variant" content="long-read">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<title>Bad news on US jobs. So why did shares go up? | Equity &amp; Markets Insight</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap">
+<style>
+/* Layout: one narrow column that reads as a chain of reasoning. Six numbered steps, each a raised
+   panel holding one animated figure, joined by a short linking sentence. M&E house style, light only. */
+:root {
+  color-scheme: light;
+  --navy: #1b2a4a;
+  --red: #e8453c;
+  --gold: #d4a853;
+  --cream: #fbfaf7;
+  --surface: #ffffff;
+  --tint: #edf0f5;
+  --hairline: #e3dfd6;
+  --muted: #5c6676;
+  --up: #14713a;
+  --display: "Playfair Display", Georgia, "Times New Roman", serif;
+  --sans: "DM Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --bounce: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --settle: cubic-bezier(0.22, 1, 0.36, 1);
+  --shadow-card: 0 1px 2px rgba(27, 42, 74, 0.06);
+  --shadow-pop: 0 12px 32px rgba(27, 42, 74, 0.18);
+}
+*, *::before, *::after { box-sizing: border-box; }
+[hidden] { display: none !important; }
+body {
+  margin: 0;
+  background: var(--cream);
+  color: var(--navy);
+  font-family: var(--sans);
+  font-size: 17px;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+.page {
+  position: relative;
+  max-width: 760px;
+  margin-inline: auto;
+  padding-inline: 16px;
+  padding-block: 40px 64px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+@media (min-width: 700px) { .page { padding-inline: 32px; padding-block: 64px; } }
+
+/* ---------- type ---------- */
+.kicker {
+  margin: 0;
+  font-size: 12px;
+  line-height: 1.2;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+h1, h2, h3 { font-family: var(--display); margin: 0; text-wrap: balance; color: var(--navy); }
+h1 { font-size: 32px; line-height: 1.1; font-weight: 700; letter-spacing: -0.01em; }
+h2 { font-size: 24px; line-height: 1.2; font-weight: 700; }
+h3 { font-size: 20px; line-height: 1.3; font-weight: 600; }
+@media (min-width: 700px) {
+  h1 { font-size: 44px; }
+  h2 { font-size: 30px; }
+  h3 { font-size: 22px; }
+}
+p { margin: 0; }
+.standfirst { font-family: var(--display); font-style: italic; font-size: 18px; line-height: 1.45; color: var(--muted); max-width: 34em; }
+@media (min-width: 700px) { .standfirst { font-size: 21px; } }
+.byline { font-size: 14px; line-height: 1.4; font-weight: 500; color: var(--muted); }
+.cap { font-size: 13px; line-height: 1.45; font-style: italic; color: var(--muted); }
+.small { font-size: 15px; line-height: 1.55; }
+.copy { max-width: 36em; }
+
+/* ---------- hero ---------- */
+.hero { display: flex; flex-direction: column; gap: 16px; padding-bottom: 28px; }
+.hero > .kicker::after { content: ""; display: block; width: 40px; height: 3px; background: var(--red); margin-top: 12px; }
+.puzzle { display: grid; grid-template-columns: 1fr; gap: 12px; margin-top: 8px; }
+@media (min-width: 560px) { .puzzle { grid-template-columns: 1fr 1fr; gap: 16px; } }
+.tile {
+  background: var(--surface);
+  border: 1px solid var(--hairline);
+  border-radius: 8px;
+  box-shadow: var(--shadow-card);
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-width: 0;
+}
+@media (min-width: 700px) { .tile { padding: 24px; } }
+.tile-num { display: flex; align-items: center; gap: 12px; }
+.hero-figure { font-size: 40px; line-height: 1; font-weight: 600; letter-spacing: -0.02em; }
+@media (min-width: 700px) { .hero-figure { font-size: 48px; } }
+.badge {
+  flex: none;
+  width: 32px; height: 32px;
+  border-radius: 999px;
+  background: var(--tint);
+  display: grid; place-items: center;
+  transition: transform 420ms var(--bounce), opacity 180ms ease;
+}
+.badge svg { width: 18px; height: 18px; fill: none; stroke-width: 2.25; stroke-linecap: round; stroke-linejoin: round; }
+.badge.down svg { stroke: var(--red); }
+.badge.up svg { stroke: var(--up); }
+.pre .badge { transform: scale(0.2); opacity: 0; }
+
+/* ---------- steps ---------- */
+.panel {
+  background: var(--surface);
+  border: 1px solid var(--hairline);
+  border-radius: 14px;
+  box-shadow: var(--shadow-card);
+  padding: 20px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  min-width: 0;
+}
+@media (min-width: 700px) { .panel { padding: 32px; gap: 20px; } }
+.panel-head { display: flex; flex-direction: column; gap: 8px; }
+.link {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-inline: 4px;
+  font-family: var(--display);
+  font-style: italic;
+  font-size: 18px;
+  line-height: 1.4;
+  color: var(--muted);
+}
+.link svg { flex: none; width: 20px; height: 20px; fill: none; stroke: var(--muted); stroke-width: 1.75; stroke-linecap: round; stroke-linejoin: round; }
+
+/* ---------- figures ---------- */
+.fig {
+  background: var(--cream);
+  border: 1px solid var(--hairline);
+  border-radius: 8px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  min-width: 0;
+}
+@media (min-width: 700px) { .fig { padding: 24px; } }
+.fig-head { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+.replay {
+  flex: none;
+  font: 500 13px/1 var(--sans);
+  color: var(--navy);
+  background: var(--tint);
+  border: 1px solid var(--hairline);
+  border-radius: 999px;
+  padding: 7px 12px;
+  cursor: pointer;
+  transition: background 180ms ease, color 180ms ease;
+}
+.replay:hover { background: var(--navy); color: var(--cream); }
+button:focus-visible { outline: 2px solid var(--navy); outline-offset: 2px; }
+
+/* horizontal bars */
+.bars { display: flex; flex-direction: column; gap: 12px; }
+.row { display: grid; grid-template-columns: 1fr; gap: 4px; align-items: center; }
+@media (min-width: 560px) { .row { grid-template-columns: 9.5rem minmax(0, 1fr); gap: 12px; } }
+.lab { font-size: 15px; line-height: 1.4; }
+.bar { display: flex; align-items: center; gap: 8px; height: 24px; min-width: 0; border-left: 1px solid var(--navy); }
+.fill {
+  flex: none;
+  height: 20px;
+  width: calc((100% - 5.5rem) * var(--p));
+  background: var(--navy);
+  border-radius: 0 4px 4px 0;
+  transition: width 900ms var(--settle);
+}
+.bar.track { background: var(--tint); border-radius: 0 4px 4px 0; }
+.bar.track .fill { width: calc(100% * var(--p)); }
+.fill.red { background: var(--red); }
+.fill.gold { background: var(--gold); }
+.row:nth-child(2) .fill { transition-delay: 70ms; }
+.pre .fill { width: 0; }
+.val { font-size: 15px; line-height: 1.4; font-weight: 600; white-space: nowrap; }
+.ticks { display: flex; justify-content: space-between; font-size: 12px; line-height: 1.2; color: var(--muted); font-variant-numeric: tabular-nums; }
+@media (min-width: 560px) { .ticks { margin-left: calc(9.5rem + 12px); } }
+
+/* rate columns (to scale from 0%) */
+.cols { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); grid-template-rows: auto auto; }
+.col { display: contents; }
+.col:nth-child(1) > * { grid-column: 1; }
+.col:nth-child(2) > * { grid-column: 2; }
+.col:nth-child(3) > * { grid-column: 3; }
+.stack { grid-row: 1; align-self: end; display: flex; flex-direction: column; align-items: center; gap: 6px; padding-inline: 6px; }
+.cval { font-size: 14px; line-height: 1.3; font-weight: 600; text-align: center; }
+.cval.q { font-family: var(--display); font-size: 30px; line-height: 1; font-weight: 700; }
+.barv {
+  width: min(100%, 84px);
+  height: calc(var(--h) * 1px);
+  background: var(--navy);
+  border-radius: 4px 4px 0 0;
+  transition: height 900ms var(--settle);
+}
+.col.before .barv { opacity: 0.45; }
+.col.ghost .barv { background: var(--tint); border: 1px solid var(--muted); border-bottom: 0; }
+.col:nth-child(2) .barv { transition-delay: 70ms; }
+.col:nth-child(3) .barv { transition-delay: 140ms; }
+.pre .barv { height: 0; }
+.clab { grid-row: 2; border-top: 1px solid var(--navy); padding: 8px 6px 0; font-size: 13px; line-height: 1.35; text-align: center; color: var(--muted); }
+
+/* toggles */
+.seg { display: flex; flex-wrap: wrap; gap: 8px; }
+.seg button {
+  font: 500 15px/1.2 var(--sans);
+  color: var(--navy);
+  background: var(--tint);
+  border: 1px solid var(--hairline);
+  border-radius: 999px;
+  padding: 10px 16px;
+  cursor: pointer;
+  transition: background 180ms ease, border-color 180ms ease;
+}
+.seg button:hover { border-color: var(--navy); }
+.seg button[aria-pressed="true"] { background: var(--gold); border-color: var(--gold); color: var(--navy); font-weight: 600; }
+.worth { display: flex; align-items: baseline; flex-wrap: wrap; gap: 4px 12px; }
+.worth .small { color: var(--muted); }
+
+/* balance scale */
+.scale-svg { display: block; width: 100%; max-width: 420px; height: auto; margin-inline: auto; }
+.scale-svg .ink { fill: var(--navy); }
+.scale-svg .hang { fill: none; stroke: var(--navy); stroke-width: 1.75; stroke-linecap: round; }
+.scale-svg .hub { fill: var(--cream); }
+.scale-svg .w-relief { fill: var(--gold); transform-origin: 60px 150px; }
+.scale-svg .w-worry { fill: var(--red); transform-origin: 340px 150px; }
+.beam { transform-origin: 200px 70px; }
+.pan-l { transform-origin: 60px 70px; }
+.pan-r { transform-origin: 340px 70px; }
+.beam, .pan, .scale-svg .w { transition: transform 900ms var(--bounce); }
+[data-state="mild"] .beam { transform: rotate(-9deg); }
+[data-state="mild"] .pan { transform: rotate(9deg); }
+[data-state="mild"] .w-relief { transform: scale(1.2); }
+[data-state="mild"] .w-worry { transform: scale(0.8); }
+[data-state="severe"] .beam { transform: rotate(9deg); }
+[data-state="severe"] .pan { transform: rotate(-9deg); }
+[data-state="severe"] .w-relief { transform: scale(0.8); }
+[data-state="severe"] .w-worry { transform: scale(1.2); }
+.sides { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.side { display: flex; flex-direction: column; gap: 2px; font-size: 15px; line-height: 1.45; min-width: 0; }
+.side strong { display: flex; align-items: center; gap: 8px; font-weight: 600; }
+.dot { flex: none; width: 12px; height: 12px; border-radius: 999px; }
+.dot.gold { background: var(--gold); }
+.dot.red { background: var(--red); }
+.side span.why { color: var(--muted); }
+.result {
+  display: flex; align-items: center; gap: 12px;
+  background: var(--surface);
+  border: 1px solid var(--hairline);
+  border-radius: 8px;
+  padding: 12px 16px;
+  font-size: 15px; line-height: 1.5;
+}
+.result strong { font-weight: 600; }
+
+/* recap chain */
+.chain { display: flex; flex-direction: column; align-items: flex-start; gap: 8px; }
+.chip {
+  background: var(--tint);
+  border-radius: 8px;
+  padding: 10px 14px;
+  font-size: 15px; line-height: 1.4; font-weight: 500;
+  transition: transform 420ms var(--bounce), opacity 180ms ease;
+}
+.chip.end { background: var(--navy); color: var(--cream); font-weight: 600; }
+.arrow { width: 20px; height: 20px; margin-left: 14px; fill: none; stroke: var(--muted); stroke-width: 1.75; stroke-linecap: round; stroke-linejoin: round; transition: opacity 180ms ease; }
+.chain > :nth-child(2) { transition-delay: 200ms; }
+.chain > :nth-child(3) { transition-delay: 400ms; }
+.chain > :nth-child(4) { transition-delay: 600ms; }
+.chain > :nth-child(5) { transition-delay: 800ms; }
+.chain > :nth-child(6) { transition-delay: 1000ms; }
+.chain > :nth-child(7) { transition-delay: 1200ms; }
+.pre .chip { transform: translateY(10px) scale(0.96); opacity: 0; }
+.pre .arrow { opacity: 0; }
+
+/* facts and glossary */
+.facts { display: grid; grid-template-columns: 1fr; gap: 12px; }
+@media (min-width: 560px) { .facts { grid-template-columns: 1fr 1fr; gap: 16px; } }
+.fact { display: flex; flex-direction: column; gap: 4px; font-size: 15px; line-height: 1.55; min-width: 0; }
+.fact .kicker { color: var(--navy); }
+
+/* tap-to-explain words */
+.term {
+  font: inherit; color: inherit;
+  background: none; border: 0; padding: 0;
+  border-bottom: 2px solid var(--gold);
+  cursor: help;
+  transition: background 180ms ease;
+}
+.term:hover, .term[aria-expanded="true"] { background: rgba(212, 168, 83, 0.28); }
+.pop {
+  position: absolute;
+  z-index: 5;
+  width: min(320px, calc(100% - 32px));
+  background: var(--surface);
+  border: 1px solid var(--hairline);
+  border-radius: 8px;
+  box-shadow: var(--shadow-pop);
+  padding: 12px;
+  font-size: 15px; line-height: 1.55;
+  display: flex; flex-direction: column; gap: 2px;
+  animation: pop-in 420ms var(--bounce);
+}
+.pop strong { font-family: var(--display); font-size: 18px; line-height: 1.3; font-weight: 600; }
+@keyframes pop-in { from { transform: translateY(-6px) scale(0.94); opacity: 0; } to { transform: none; opacity: 1; } }
+
+.foot { display: flex; flex-direction: column; gap: 8px; border-top: 1px solid var(--hairline); padding-top: 24px; }
+
+.no-trans, .no-trans * { transition: none !important; }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { transition: none !important; animation: none !important; }
+}
+</style>
+<!-- EM-LONGREAD-THEME:START - shared front-page design system for /longreads/; injected by apply-longread-theme.py. Do not hand-edit. -->
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,800;1,700&family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="em-longread-theme.css">
+<!-- EM-LONGREAD-THEME:END -->
+</head>
+<body>
+<main class="page">
+
+  <header class="hero" data-fig="hero">
+    <p class="kicker">Markets explained · US jobs report</p>
+    <h1>Bad news on US jobs. So why did shares go up?</h1>
+    <p class="standfirst">America hired far fewer people in September, yet the stock market rose the same day. Here's the reason, one step at a time.</p>
+    <p class="byline">Equity and Markets Insight · 2 October 2026</p>
+    <div class="puzzle">
+      <div class="tile">
+        <p class="kicker">New US jobs in September</p>
+        <div class="tile-num">
+          <span class="badge down" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 5v14M6 13l6 6 6-6"/></svg></span>
+          <span class="hero-figure" data-count="29000">29,000</span>
+        </div>
+        <p class="small">Down from 133,000 in August.</p>
+      </div>
+      <div class="tile">
+        <p class="kicker">US shares the same day</p>
+        <div class="tile-num">
+          <span class="badge up" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 19V5M6 11l6-6 6 6"/></svg></span>
+          <span class="hero-figure" data-count="0.8" data-dec="1" data-pre="+" data-suf="%">+0.8%</span>
+        </div>
+        <p class="small">The S&amp;P 500, a list of 500 of America's biggest companies.</p>
+      </div>
+    </div>
+    <p class="cap">Words with a gold underline explain themselves when you tap them.</p>
+  </header>
+
+  <!-- STEP 1 -->
+  <section class="panel">
+    <div class="panel-head">
+      <p class="kicker">Step 1 of 6</p>
+      <h2>Hiring slowed sharply</h2>
+    </div>
+    <p class="copy">Every month the US government counts how many new jobs were created. In August the figure was 133,000. In September it was 29,000, less than a quarter as many.</p>
+    <div class="fig" data-fig="jobs">
+      <div class="fig-head">
+        <p class="kicker">New jobs added in the US</p>
+        <button class="replay" type="button" id="replay-jobs">Replay</button>
+      </div>
+      <div class="bars" role="img" aria-label="Bar chart. August: 133,000 new jobs. September: 29,000 new jobs.">
+        <div class="row">
+          <div class="lab">August</div>
+          <div class="bar"><span class="fill" style="--p:1"></span><span class="val" data-count="133000">133,000</span></div>
+        </div>
+        <div class="row">
+          <div class="lab">September</div>
+          <div class="bar"><span class="fill red" style="--p:0.218"></span><span class="val" data-count="29000">29,000</span></div>
+        </div>
+      </div>
+      <p class="cap">August is the revised figure. Bars are drawn to the same scale.</p>
+    </div>
+    <p class="copy small">The <button class="term" type="button" data-term="unemployment">unemployment rate</button> also edged up to 4.2%.</p>
+  </section>
+
+  <p class="link"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v16M6 14l6 6 6-6"/></svg>Fewer jobs sounds like bad news for companies. Look at what shares did.</p>
+
+  <!-- STEP 2 -->
+  <section class="panel">
+    <div class="panel-head">
+      <p class="kicker">Step 2 of 6</p>
+      <h2>Shares went up anyway</h2>
+    </div>
+    <p class="copy">A <button class="term" type="button" data-term="share">share</button> is a small slice of a company. When investors feel better about the future they pay more for shares, and prices rise. On Friday the two best-known lists of American shares both climbed.</p>
+    <div class="fig" data-fig="shares">
+      <div class="fig-head">
+        <p class="kicker">How far shares rose on the day</p>
+        <button class="replay" type="button" id="replay-shares">Replay</button>
+      </div>
+      <div class="bars" role="img" aria-label="Bar chart. S&amp;P 500 up 0.8%. Nasdaq 100 up 1.1%.">
+        <div class="row">
+          <div class="lab"><button class="term" type="button" data-term="sp500">S&amp;P 500</button></div>
+          <div class="bar"><span class="fill" style="--p:0.727"></span><span class="val" data-count="0.8" data-dec="1" data-pre="+" data-suf="%">+0.8%</span></div>
+        </div>
+        <div class="row">
+          <div class="lab"><button class="term" type="button" data-term="nasdaq">Nasdaq 100</button></div>
+          <div class="bar"><span class="fill" style="--p:1"></span><span class="val" data-count="1.1" data-dec="1" data-pre="+" data-suf="%">+1.1%</span></div>
+        </div>
+      </div>
+      <p class="cap">Moves just after midday on Friday 2 October 2026.</p>
+    </div>
+  </section>
+
+  <p class="link"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v16M6 14l6 6 6-6"/></svg>The explanation starts with interest rates.</p>
+
+  <!-- STEP 3 -->
+  <section class="panel">
+    <div class="panel-head">
+      <p class="kicker">Step 3 of 6</p>
+      <h2>Meet the Fed, which sets the cost of borrowing</h2>
+    </div>
+    <p class="copy">The <button class="term" type="button" data-term="fed">Federal Reserve</button>, known as the Fed, is America's central bank. It sets <button class="term" type="button" data-term="rate">interest rates</button>, which are the price of borrowing money. Prices in the shops have been rising faster than the Fed wants (that's <button class="term" type="button" data-term="inflation">inflation</button>), so on 16 September it raised rates.</p>
+    <p class="copy">Higher rates work like brakes. Loans cost more, people and companies spend less, and prices stop rising so quickly. The downside is that the same brakes slow down hiring and company profits.</p>
+    <div class="fig" data-fig="rates">
+      <div class="fig-head">
+        <p class="kicker">The Fed's interest rate</p>
+        <button class="replay" type="button" id="replay-rates">Replay</button>
+      </div>
+      <div class="cols" role="img" aria-label="Column chart. Before 16 September the Fed's range was 3.50% to 3.75%. Now it is 3.75% to 4.00%. Whether it rises again in October is an open question.">
+        <div class="col before">
+          <div class="stack"><span class="cval">3.50%–3.75%</span><span class="barv" style="--h:132"></span></div>
+          <div class="clab">Before 16 September</div>
+        </div>
+        <div class="col now">
+          <div class="stack"><span class="cval">3.75%–4.00%</span><span class="barv" style="--h:141"></span></div>
+          <div class="clab">Now</div>
+        </div>
+        <div class="col ghost">
+          <div class="stack"><span class="cval q">?</span><span class="barv" style="--h:141"></span></div>
+          <div class="clab">October: up again?</div>
+        </div>
+      </div>
+      <p class="cap">Columns start at 0% and show the top of the Fed's target range, which rose by 0.25 percentage points.</p>
+    </div>
+  </section>
+
+  <p class="link"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v16M6 14l6 6 6-6"/></svg>Investors feared the Fed would brake again in October.</p>
+
+  <!-- STEP 4 -->
+  <section class="panel">
+    <div class="panel-head">
+      <p class="kicker">Step 4 of 6</p>
+      <h2>Weak hiring makes another rate rise less likely</h2>
+    </div>
+    <p class="copy">The Fed has two goals: steady prices and plenty of jobs. When hiring is already slowing, braking harder could cost even more jobs. So after the report, traders lowered the odds of another rate rise in October.</p>
+    <div class="fig" data-fig="odds">
+      <div class="fig-head">
+        <p class="kicker">Chance of a rate rise in October</p>
+        <button class="replay" type="button" id="replay-odds">Replay</button>
+      </div>
+      <div class="bars" role="img" aria-label="Bar chart. Before the jobs report the chance was 29%. After it, about 22%.">
+        <div class="row">
+          <div class="lab">Before the jobs report</div>
+          <div class="bar track"><span class="fill" style="--p:0.29"></span><span class="val" data-count="29" data-suf="%">29%</span></div>
+        </div>
+        <div class="row">
+          <div class="lab">After it</div>
+          <div class="bar track"><span class="fill gold" style="--p:0.22"></span><span class="val" data-count="22" data-pre="about " data-suf="%">about 22%</span></div>
+        </div>
+        <div class="ticks" aria-hidden="true"><span>0%</span><span>50%</span><span>100%</span></div>
+      </div>
+      <p class="cap">The odds that traders' prices implied on Friday.</p>
+    </div>
+    <p class="copy small">Rates haven't fallen. Markets still put the chance of higher rates by the end of the year at roughly 86%. All that changed on Friday is that the next rise looks less urgent.</p>
+  </section>
+
+  <p class="link"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v16M6 14l6 6 6-6"/></svg>Why would that lift shares? Two reasons.</p>
+
+  <!-- STEP 5 -->
+  <section class="panel">
+    <div class="panel-head">
+      <p class="kicker">Step 5 of 6</p>
+      <h2>Lower rates make future profits worth more today</h2>
+    </div>
+    <p class="copy">Buying a share means paying today for a company's profits in the years ahead. Money that arrives later is worth less than money in your hand, because you could have earned interest while you waited. The more investors can earn elsewhere, the less they'll pay today.</p>
+    <div class="fig" data-fig="worth">
+      <div class="fig-head">
+        <p class="kicker">£100 arriving in five years</p>
+        <button class="replay" type="button" id="replay-worth">Replay</button>
+      </div>
+      <div class="seg" role="group" aria-label="The yearly return investors want">
+        <button type="button" id="rate-8" aria-pressed="true">Investors want 8% a year</button>
+        <button type="button" id="rate-7" aria-pressed="false">Investors want 7% a year</button>
+      </div>
+      <div class="worth" aria-live="polite">
+        <span class="hero-figure" id="worth-now">£68</span>
+        <span class="small">is what that £100 is worth today</span>
+      </div>
+      <div class="bars" aria-hidden="true">
+        <div class="row">
+          <div class="lab">In five years</div>
+          <div class="bar"><span class="fill gold" style="--p:1"></span><span class="val">£100</span></div>
+        </div>
+        <div class="row">
+          <div class="lab">Worth today</div>
+          <div class="bar"><span class="fill" id="worth-fill" style="--p:0.68"></span><span class="val" id="worth-val">£68</span></div>
+        </div>
+      </div>
+      <p class="cap">The £100 never changed. Only the rate did. A simplified example: these are the returns investors ask for, which are separate from the Fed's own rate.</p>
+    </div>
+    <div class="panel-head">
+      <h3>It also protects profits</h3>
+      <p class="copy">Companies borrow money, and so do their customers. If rates stop climbing, borrowing stops getting more expensive and people keep spending. That helps the profits investors are paying for.</p>
+    </div>
+  </section>
+
+  <p class="link"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v16M6 14l6 6 6-6"/></svg>So is bad jobs news always good for shares? No.</p>
+
+  <!-- STEP 6 -->
+  <section class="panel">
+    <div class="panel-head">
+      <p class="kicker">Step 6 of 6</p>
+      <h2>The catch: weak jobs news pulls shares two ways</h2>
+    </div>
+    <p class="copy">Fewer jobs can bring relief about interest rates. It can also mean people have less money to spend, which hurts company profits. Shares go whichever way is heavier.</p>
+    <div class="fig" data-fig="scale" data-state="mild">
+      <div class="fig-head">
+        <p class="kicker">Try it: what if hiring…</p>
+        <button class="replay" type="button" id="replay-scale">Replay</button>
+      </div>
+      <div class="seg" role="group" aria-label="How bad the jobs slowdown is">
+        <button type="button" id="scale-mild" aria-pressed="true">Cools a little</button>
+        <button type="button" id="scale-severe" aria-pressed="false">Falls off a cliff</button>
+      </div>
+      <svg class="scale-svg" viewBox="0 0 400 224" role="img" aria-labelledby="scale-title">
+        <title id="scale-title">A balance scale weighing relief about interest rates against worry about company profits</title>
+        <rect class="ink" x="150" y="204" width="100" height="10" rx="4"/>
+        <rect class="ink" x="196" y="70" width="8" height="136"/>
+        <g class="beam">
+          <rect class="ink" x="56" y="66" width="288" height="8" rx="4"/>
+          <g class="pan pan-l">
+            <path class="hang" d="M60 70 L20 150 M60 70 L100 150"/>
+            <rect class="ink" x="14" y="150" width="92" height="6" rx="3"/>
+            <rect class="w w-relief" x="43" y="120" width="34" height="30" rx="4"/>
+          </g>
+          <g class="pan pan-r">
+            <path class="hang" d="M340 70 L300 150 M340 70 L380 150"/>
+            <rect class="ink" x="294" y="150" width="92" height="6" rx="3"/>
+            <rect class="w w-worry" x="323" y="120" width="34" height="30" rx="4"/>
+          </g>
+        </g>
+        <circle class="ink" cx="200" cy="70" r="9"/>
+        <circle class="hub" cx="200" cy="70" r="3"/>
+      </svg>
+      <div class="sides">
+        <div class="side">
+          <strong><span class="dot gold"></span>Relief</strong>
+          <span class="why">Another rate rise looks less likely.</span>
+        </div>
+        <div class="side">
+          <strong><span class="dot red"></span>Worry</strong>
+          <span class="why">Fewer jobs can mean lower company profits.</span>
+        </div>
+      </div>
+      <p class="result" id="scale-result" aria-live="polite"></p>
+    </div>
+    <div class="facts">
+      <div class="fact">
+        <p class="kicker">Why Friday looked mild</p>
+        <p>The unemployment rate has stayed between 4.1% and 4.3% since March. That isn't a collapse.</p>
+      </div>
+      <div class="fact">
+        <p class="kicker">What could tip it the other way</p>
+        <p>Earlier months were marked down too. July now shows -10,000 jobs, so September wasn't a one-off.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- RECAP -->
+  <section class="panel">
+    <div class="panel-head">
+      <p class="kicker">The short version</p>
+      <h2>Bad news can be good news, up to a point</h2>
+    </div>
+    <div class="chain" data-fig="chain">
+      <span class="chip">Fewer new jobs</span>
+      <svg class="arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v16M6 14l6 6 6-6"/></svg>
+      <span class="chip">The Fed is less likely to raise rates in October</span>
+      <svg class="arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v16M6 14l6 6 6-6"/></svg>
+      <span class="chip">Future profits look worth more today</span>
+      <svg class="arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v16M6 14l6 6 6-6"/></svg>
+      <span class="chip end">Shares rise</span>
+    </div>
+    <p class="copy">This only holds while the slowdown stays mild. If companies start earning a lot less, the same kind of news sends shares down.</p>
+    <p><button class="replay" type="button" id="replay-chain">Replay</button></p>
+  </section>
+
+  <footer class="foot">
+    <p class="cap">This article is for information only and is not investment advice. The author may hold positions in companies mentioned.</p>
+  </footer>
+
+  <div class="pop" id="pop" role="note" hidden></div>
+</main>
+
+<script>
+(function () {
+  var reduce = !!(window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches);
+  var $ = function (id) { return document.getElementById(id); };
+
+  /* ---------- number count-up ---------- */
+  function fmt(v, dec) {
+    return v.toLocaleString('en-GB', { minimumFractionDigits: dec, maximumFractionDigits: dec });
+  }
+  function countTo(el, from, to, dec, pre, suf) {
+    cancelAnimationFrame(el._raf);
+    if (reduce) { el.textContent = pre + fmt(to, dec) + suf; return; }
+    var t0 = null, dur = 900;
+    function step(t) {
+      if (t0 === null) t0 = t;
+      var k = Math.min(1, (t - t0) / dur);
+      var e = 1 - Math.pow(1 - k, 3);
+      el.textContent = pre + fmt(from + (to - from) * e, dec) + suf;
+      if (k < 1) el._raf = requestAnimationFrame(step);
+    }
+    el._raf = requestAnimationFrame(step);
+  }
+  function countAll(fig) {
+    fig.querySelectorAll('[data-count]').forEach(function (el) {
+      countTo(el, 0, parseFloat(el.dataset.count), +(el.dataset.dec || 0), el.dataset.pre || '', el.dataset.suf || '');
+    });
+  }
+
+  /* ---------- the £100 example ---------- */
+  var WORTH = { 8: 68, 7: 71 };   /* £100 / 1.08^5 = £68.06, £100 / 1.07^5 = £71.30 */
+  var worthNow = 68, worthTimer = null;
+  function setRate(r, animate) {
+    var to = WORTH[r];
+    $('rate-8').setAttribute('aria-pressed', String(r === 8));
+    $('rate-7').setAttribute('aria-pressed', String(r === 7));
+    $('worth-fill').style.setProperty('--p', to / 100);
+    if (animate) {
+      countTo($('worth-now'), worthNow, to, 0, '£', '');
+      countTo($('worth-val'), worthNow, to, 0, '£', '');
+    } else {
+      cancelAnimationFrame($('worth-now')._raf); cancelAnimationFrame($('worth-val')._raf);
+      $('worth-now').textContent = '£' + to; $('worth-val').textContent = '£' + to;
+    }
+    worthNow = to;
+  }
+  $('rate-8').addEventListener('click', function () { clearTimeout(worthTimer); setRate(8, true); });
+  $('rate-7').addEventListener('click', function () { clearTimeout(worthTimer); setRate(7, true); });
+
+  /* ---------- the balance scale ---------- */
+  var UP = '<span class="badge up" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 19V5M6 11l6-6 6 6"/></svg></span>';
+  var DOWN = '<span class="badge down" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 5v14M6 13l6 6 6-6"/></svg></span>';
+  var RESULT = {
+    mild: UP + '<span><strong>Relief is heavier, so shares rise.</strong> This is what happened on Friday.</span>',
+    severe: DOWN + '<span><strong>Worry is heavier, so shares fall.</strong> Easier interest rates can\'t make up for collapsing profits.</span>'
+  };
+  var scaleFig = document.querySelector('[data-fig="scale"]');
+  var scaleChoice = 'mild';
+  function setScale(s) {
+    scaleChoice = s;
+    scaleFig.setAttribute('data-state', s);
+    $('scale-mild').setAttribute('aria-pressed', String(s === 'mild'));
+    $('scale-severe').setAttribute('aria-pressed', String(s === 'severe'));
+    $('scale-result').innerHTML = RESULT[s];
+  }
+  $('scale-mild').addEventListener('click', function () { setScale('mild'); });
+  $('scale-severe').addEventListener('click', function () { setScale('severe'); });
+  setScale('mild');
+
+  /* ---------- play each figure once when it scrolls into view ---------- */
+  var figs = Array.prototype.slice.call(document.querySelectorAll('[data-fig]'));
+  function arm(fig) {
+    fig.classList.add('no-trans', 'pre');
+    if (fig === scaleFig) fig.setAttribute('data-state', 'level');
+    if (fig.dataset.fig === 'worth') { clearTimeout(worthTimer); setRate(8, false); }
+    void fig.offsetWidth;
+    fig.classList.remove('no-trans');
+  }
+  function play(fig) {
+    fig.classList.remove('pre');
+    countAll(fig);
+    if (fig === scaleFig) fig.setAttribute('data-state', scaleChoice);
+    if (fig.dataset.fig === 'worth') {
+      worthTimer = setTimeout(function () { setRate(7, true); }, 1600);
+    }
+  }
+  function replay(name) {
+    var fig = document.querySelector('[data-fig="' + name + '"]');
+    if (reduce) return;
+    arm(fig);
+    requestAnimationFrame(function () { requestAnimationFrame(function () { play(fig); }); });
+  }
+  ['jobs', 'shares', 'rates', 'odds', 'worth', 'scale', 'chain'].forEach(function (name) {
+    $('replay-' + name).addEventListener('click', function () { replay(name); });
+  });
+  if (reduce) {
+    document.querySelectorAll('.replay').forEach(function (b) { b.hidden = true; });
+  } else if ('IntersectionObserver' in window) {
+    figs.forEach(arm);
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) {
+        if (en.isIntersecting) { io.unobserve(en.target); play(en.target); }
+      });
+    }, { threshold: 0.3 });
+    figs.forEach(function (f) { io.observe(f); });
+  }
+
+  /* ---------- tap-to-explain words ---------- */
+  var defs = {
+    share: { t: 'Share', d: 'A small slice of ownership in a company. If the company does well, the slice becomes more valuable.' },
+    sp500: { t: 'S&P 500', d: 'A list of 500 of America\'s biggest companies. When people say the US market went up, they usually mean this.' },
+    nasdaq: { t: 'Nasdaq 100', d: 'A list of 100 large companies on the Nasdaq exchange, many of them technology firms.' },
+    unemployment: { t: 'Unemployment rate', d: 'The share of people who want a job and can\'t find one.' },
+    fed: { t: 'Federal Reserve (the Fed)', d: 'America\'s central bank. It sets the country\'s main interest rate.' },
+    rate: { t: 'Interest rate', d: 'The price of borrowing money. At 4%, borrowing £100 for a year costs about £4.' },
+    inflation: { t: 'Inflation', d: 'How fast prices are rising. The Fed aims for 2% a year.' }
+  };
+  var pop = $('pop'), page = document.querySelector('.page'), openBtn = null, pinned = false;
+  function hidePop() {
+    if (openBtn) openBtn.setAttribute('aria-expanded', 'false');
+    openBtn = null; pinned = false; pop.hidden = true;
+  }
+  function showPop(btn) {
+    var def = defs[btn.dataset.term];
+    if (!def) return;
+    if (openBtn) openBtn.setAttribute('aria-expanded', 'false');
+    pop.textContent = '';
+    var h = document.createElement('strong'); h.textContent = def.t;
+    var p = document.createElement('span'); p.textContent = def.d;
+    pop.appendChild(h); pop.appendChild(p);
+    pop.hidden = false;
+    var b = btn.getBoundingClientRect(), g = page.getBoundingClientRect(), w = pop.offsetWidth;
+    var left = Math.max(16, Math.min(b.left - g.left, g.width - w - 16));
+    pop.style.left = left + 'px';
+    pop.style.top = (b.bottom - g.top + 8) + 'px';
+    btn.setAttribute('aria-expanded', 'true');
+    openBtn = btn;
+  }
+  document.querySelectorAll('.term').forEach(function (btn) {
+    btn.setAttribute('aria-expanded', 'false');
+    btn.addEventListener('click', function (e) {
+      e.stopPropagation();
+      if (openBtn === btn && pinned) { hidePop(); return; }
+      showPop(btn); pinned = true;
+    });
+    btn.addEventListener('pointerenter', function (e) {
+      if (e.pointerType === 'mouse' && !pinned) showPop(btn);
+    });
+    btn.addEventListener('pointerleave', function (e) {
+      if (e.pointerType === 'mouse' && !pinned) hidePop();
+    });
+  });
+  document.addEventListener('click', function (e) { if (!pop.contains(e.target)) hidePop(); });
+  document.addEventListener('keydown', function (e) { if (e.key === 'Escape') hidePop(); });
+})();
+</script>
+<!-- EM-LONGREAD-THEME-JS:START - injected by apply-longread-theme.py. Do not hand-edit. -->
+<script src="em-longread-embed.js" defer></script>
+<!-- EM-LONGREAD-THEME-JS:END -->
+</body>
+</html>
