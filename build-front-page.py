@@ -95,6 +95,12 @@ def select(tiles, slots):
     return hero, chosen, dropped
 
 
+def link_target(tile):
+    """Long reads are standalone pages with their own site header, so their tiles
+    break out of the branded site's frame instead of stacking a second header inside it."""
+    return ' target="_top"' if tile["url"].startswith("longreads/") else ""
+
+
 def render_hero(tile):
     bits = []
     if tile.get("ticker"):
@@ -107,7 +113,7 @@ def render_hero(tile):
         bits.append('<span style="color:var(--accent)">%s</span>' % esc(tile["pill_label"]))
     meta = "".join(bits)
 
-    return """    <a class="latest" data-tilt data-slug="{slug}" href="{url}">
+    return """    <a class="latest" data-tilt data-slug="{slug}" href="{url}"{target}>
       <div class="latest-media">
         <span class="latest-ribbon"><span class="dot"></span>Latest</span>
         <img src="{cover}" alt="{alt}">
@@ -120,6 +126,7 @@ def render_hero(tile):
     </a>""".format(
         slug=esc(tile["slug"]),
         url=esc(tile["url"]),
+        target=link_target(tile),
         cover=esc(tile["cover"]),
         alt=esc(tile["alt"]),
         cat=esc(tile["cat"]),
@@ -151,7 +158,7 @@ def render_block(tile, slot):
     bits.append("<span>%s</span>" % esc(nice_date(tile["date"])))
     meta = "".join(bits)
 
-    return """    <a class="block" data-slug="{slug}" href="{url}">
+    return """    <a class="block" data-slug="{slug}" href="{url}"{target}>
       <div class="plate">
         <img class="bg" src="{cover}" alt="" aria-hidden="true">
         <img class="photo" alt="{alt}" src="{cover}">
@@ -164,6 +171,7 @@ def render_block(tile, slot):
     </a>""".format(
         slug=esc(tile["slug"]),
         url=esc(tile["url"]),
+        target=link_target(tile),
         alt=esc(tile["alt"]),
         cover=esc(tile["cover"]),
         cat=esc(tile["cat"]),
