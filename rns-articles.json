@@ -1,5 +1,31 @@
 [
   {
+    "company": "National Grid plc",
+    "ticker": null,
+    "publish_date": "05 October 2026",
+    "date_iso": "2026-10-05",
+    "time_period": "H1 FY2026/27 (six months to 30 September 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "H1 FY2026/27 (six months to 30 September 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>National Grid</strong> now expects to be <strong>slightly above</strong> its <strong>FY27 underlying EPS growth guidance of 13-15%</strong>, after a strong first-half performance in <strong>National Grid Ventures & Other</strong>.</li><li>Regulated businesses continue to perform <strong>in line with expectations</strong>; underlying EPS is expected to be weighted to the <strong>second half</strong> as usual.</li><li>Half year Group operating profit profile expected to be <strong>broadly consistent with the prior year</strong> (no figures given).</li><li>Closing half-year net debt expected <strong>broadly in line with full-year guidance</strong>, after updating for the <strong>Joulent</strong> investment and the weighting of operating cash flows to H2.</li><li>Half year results to be announced on <strong>Thursday, 5 November 2026</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "National Grid now expects to come in slightly above its FY27 underlying EPS growth guidance of 13-15%, driven by a strong first half at National Grid Ventures & Other.",
+    "priority": "high",
+    "priority_reason": "Pre-close trading update flagging an upgrade to full-year EPS growth guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "raised",
+      "previous": "FY27 EPS growth guidance of 13-15%",
+      "current": "Now expect to be slightly above FY27 EPS growth guidance of 13-15%",
+      "commentary": "A strong first-half performance at National Grid Ventures & Other has lifted the group above its stated 13-15% underlying EPS growth range for the year, while the regulated businesses remain in line with expectations."
+    },
+    "explainer": "This is a pre-close update, issued a month before the 5 November half-year results, in which National Grid gives traders an early steer on how the first half (to 30 September 2026) has gone. It does not print actual figures; it is a directional signal on profit, net debt and full-year guidance.\n\nThe key change is on earnings. National Grid had guided to underlying earnings per share (EPS) growing 13-15% in the 2026/27 financial year. It now expects to land slightly above that range. The uplift comes not from the core regulated networks — which are performing as expected — but from National Grid Ventures & Other, the non-regulated arm (interconnectors and other commercial activities), which had a strong first half. As usual, earnings are skewed to the second half, so the first-half numbers alone will not look like half of the full-year figure.\n\nOn the balance sheet, half-year net debt is expected to be broadly in line with the company's full-year guidance. Two things shape that: the cash cost of the Joulent investment, and the fact that operating cash flows are weighted towards the second half, so debt tends to run higher mid-year before coming down.\n\nIn short, a modest guidance upgrade driven by the commercial Ventures business rather than the regulated core, with the balance sheet tracking as planned.",
+    "source_url": "https://uk.advfn.com/stock-market/london/national-grid-NG./share-news/National-Grid-PLC-Pre-Close-Update-Ahead-of-HY2026/99428333",
+    "related_news_url": "https://news.google.com/search?q=%22National%20Grid%20plc%22",
+    "added_at": "2026-10-05T07:59:03.599353"
+  },
+  {
     "company": "Metlen Energy & Metals plc",
     "ticker": "MTLN",
     "publish_date": "05 October 2026",
