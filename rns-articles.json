@@ -1,5 +1,106 @@
 [
   {
+    "company": "Sirius Real Estate Ltd",
+    "ticker": "SRE",
+    "publish_date": "05 October 2026",
+    "date_iso": "2026-10-05",
+    "time_period": "H1 to 30 September 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "H1 to 30 September 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Overall rent roll up 11.3%</strong> year on year for the six months to <strong>30 September 2026</strong>, of which <strong>5.1%</strong> was <strong>like-for-like</strong> organic growth; Germany and the U.K. delivered broadly similar organic growth.</li><li>Deployed approximately <strong>€150m</strong> into acquisitions at gross yields of <strong>over 8%</strong>, focused on defence-anchored assets including business parks in <strong>Kiel</strong> and <strong>Fulda</strong> let to <strong>Rheinmetall</strong> and a ballistic protection manufacturer.</li><li>Repaid its <strong>€400m</strong> corporate bond at maturity in <strong>June 2026</strong> after <strong>€185.1m</strong> of taps took its 2028 and 2032 bonds to <strong>€500m</strong> benchmark size each; retains over <strong>€250m</strong> of liquidity.</li><li>Net portfolio yield of <strong>over 7%</strong> against a weighted average cost of debt of <strong>3.5%</strong>; disposed of two smaller sites in the <strong>Sheffield</strong> area and acquired land adjacent to its <strong>Potsdam</strong> site for self-storage development.</li><li>CEO <strong>Andrew Coombs</strong> reiterated confidence in delivering <strong>double-digit total accounting returns</strong> and a well-covered growing dividend; full H1 results due <strong>16 November 2026</strong>.</li><li>Figures are unaudited and not reviewed by the external auditors; no absolute revenue or profit figures were printed in the update.</li></ul>",
+    "source_format": "html",
+    "headline": "Sirius Real Estate grew overall rent roll 11.3% year on year in H1, with 5.1% from like-for-like organic growth across Germany and the U.K.",
+    "priority": "high",
+    "priority_reason": "Half-year trading update from a listed property group, with rent roll growth, acquisitions and funding detail.",
+    "figures": [
+      {
+        "metric": "Overall rent roll growth",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+11.3%",
+        "basis": "year on year, constant FX GBP:EUR 1.1701",
+        "note": "H1 to 30 September 2026"
+      },
+      {
+        "metric": "Like-for-like rent roll growth",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+5.1%",
+        "basis": "year on year, organic",
+        "note": "H1 to 30 September 2026"
+      },
+      {
+        "metric": "Acquisitions deployed",
+        "current": "approx €150m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "gross yields over 8%",
+        "note": "including Kiel and Fulda defence-anchored sites"
+      },
+      {
+        "metric": "Net portfolio yield",
+        "current": "over 7%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": ""
+      },
+      {
+        "metric": "Weighted average cost of debt",
+        "current": "3.5%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": ""
+      },
+      {
+        "metric": "Liquidity retained",
+        "current": "over €250m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "after €400m bond repayment and €185.1m of bond taps"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Double-digit total accounting returns and a growing, well-covered dividend",
+      "current": "Remains fully confident in delivering double-digit total accounting returns and growing its well-covered dividend",
+      "commentary": "No formal numeric guidance is set in the update, but management reaffirmed its existing double-digit return ambitions despite challenging bond and equity markets and expectations that U.K. high-energy-price base effects will pass through in early 2027."
+    },
+    "explainer": "This is a first-half trading update rather than full results, so it gives operational momentum rather than audited profit figures. The headline numbers are rent roll (the Group's total annualised rent) growth rates, not revenue or earnings. Overall rent roll rose 11.3% year on year, but that blends two things: acquisitions (new buildings bought, chiefly in Germany) and organic growth. The organic, or 'like-for-like', figure of 5.1% strips out acquisitions and disposals and measures growth from the existing portfolio through rent increases, higher occupancy and tenant renewals — the cleaner gauge of underlying performance.\n\nRent roll has been translated at a constant exchange rate of GBP:EUR 1.1701, so the growth figures are not distorted by currency movements between the two periods. The first half (to 30 September) is described as seasonally weaker for the German business, which is normal for Sirius.\n\nMuch of the acquisition activity is tilted towards defence-linked tenants, reflecting a bet on rising European military spending. On financing, the Group repaid a €400m bond at maturity and topped up two other bonds to €500m each, leaving over €250m of liquidity — relevant given its 3.5% average cost of debt versus a 7%-plus portfolio yield.\n\nThere is no change to formal guidance: management simply restated its ambition to keep delivering double-digit total accounting returns and a growing dividend. Full half-year results, with the revenue, profit and NAV figures absent here, are scheduled for 16 November 2026.",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/sirius-real-estate-ltd---sre/trading-update/9805307",
+    "related_news_url": "https://news.google.com/search?q=%22Sirius%20Real%20Estate%20Ltd.%22",
+    "added_at": "2026-10-05T07:28:18.418122"
+  },
+  {
+    "company": "MJ Gleeson PLC",
+    "ticker": "GLE",
+    "publish_date": "05 October 2026",
+    "date_iso": "2026-10-05",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Andrew Kirkman</strong> will be appointed <strong>Chief Financial Officer</strong> and a director of <strong>MJ Gleeson</strong> on <strong>Monday 19 October 2026</strong>, succeeding <strong>Stefan Allanson</strong>.</li><li><strong>Stefan Allanson</strong> steps down from the Board on <strong>Friday 16 October 2026</strong> after <strong>eleven years</strong> as CFO, remaining available for handover until <strong>31 December 2026</strong>.</li><li>Kirkman joins from <strong>CLS Holdings plc</strong>, where he was CFO from <strong>July 2019 to June 2026</strong>; he was previously CFO of <strong>Harworth Group plc</strong>, <strong>Viridor</strong> and <strong>Balfour Beatty Investments</strong>.</li><li>Routine Listing Rule 6.4.8R disclosure accompanies the appointment; remuneration will follow the existing Directors' Remuneration Policy — <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "CFO Stefan Allanson to step down after eleven years, with Andrew Kirkman appointed to succeed him from 19 October 2026.",
+    "priority": "medium",
+    "priority_reason": "CFO succession is a senior board change but carries no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/mj-gleeson--gle/chief-financial-officer-succession/9805334",
+    "related_news_url": "https://news.google.com/search?q=%22MJ%20Gleeson%22",
+    "added_at": "2026-10-05T07:28:18.363239"
+  },
+  {
     "company": "BT Group PLC",
     "ticker": "BT.A",
     "publish_date": "05 October 2026",
