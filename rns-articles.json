@@ -1,5 +1,40 @@
 [
   {
+    "company": "LGI Homes, Inc.",
+    "ticker": "LGIH",
+    "publish_date": "06 October 2026",
+    "date_iso": "2026-10-06",
+    "time_period": "Q3 FY26 (quarter ended 30 September 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "Q3 FY26 (quarter ended 30 September 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>LGI Homes, Inc.</strong> to release <strong>third-quarter 2026</strong> financial results (quarter ended <strong>30 September 2026</strong>) before the market opens on <strong>Tuesday, 3 November 2026</strong>, with a conference call at <strong>12:30 p.m. ET</strong>.</li><li><strong>151</strong> active selling communities as at <strong>30 September 2026</strong>.</li><li>Despite the title referencing September and Q3 home closings, the scraped text contains <strong>no actual closings figures</strong> for the period — only the community count and call date are stated.</li></ul>",
+    "source_format": "html",
+    "headline": "LGI Homes will report Q3 2026 results before market open on **3 November 2026**, with **151** active selling communities at 30 September.",
+    "priority": "low",
+    "priority_reason": "Scheduling notice for Q3 results plus a single operating metric; no closings figures or financials disclosed in the text.",
+    "figures": [
+      {
+        "metric": "Active selling communities",
+        "current": "151",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "As at 30 September 2026"
+      }
+    ],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "LGI Homes is a US homebuilder listed on NASDAQ, operating across 36 markets in 21 states. This announcement is primarily a scheduling notice: it confirms third-quarter 2026 results will be published before the US market opens on 3 November 2026, accompanied by a conference call.\n\nThe headline advertises September and Q3 2026 home closings, but the scraped page text does not include the actual closings numbers — the only operating figure given is 151 active selling communities as at 30 September 2026, and no comparative for that measure is provided. No revenue, profit or other financial figures are stated, so no meaningful period-on-period comparison can be drawn from this text.",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/LGIH/share-news/LGI-Homes-Inc-Reports-September-and-Third-Quarte/99437225",
+    "related_news_url": "https://news.google.com/search?q=%22LGI%20Homes%2C%20Inc.%22",
+    "added_at": "2026-10-06T07:15:38.383105"
+  },
+  {
     "company": "Construction Partners Inc",
     "ticker": "ROAD",
     "publish_date": "05 October 2026",
