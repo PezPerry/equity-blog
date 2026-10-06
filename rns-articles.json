@@ -1,5 +1,66 @@
 [
   {
+    "company": "Kenmare Resources PLC",
+    "ticker": "KMR",
+    "publish_date": "06 October 2026",
+    "date_iso": "2026-10-06",
+    "time_period": "",
+    "announcement_type": "Acquisition / deal",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Kenmare Resources plc</strong> has received a non-binding proposal from <strong>International Resources Holdings RSC Ltd (IRH)</strong> regarding a <strong>possible cash offer</strong> for the entire issued and to be issued share capital.</li><li>Statement made under <strong>Rule 2.4 of the Irish Takeover Rules</strong> following recent press speculation — it is <strong>not</strong> a firm intention to make an offer under Rule 2.7, and there is no certainty any firm offer will be made or on what terms.</li><li>Discussions with IRH are <strong>ongoing</strong>; the announcement is being made <strong>without the approval of IRH</strong>.</li><li>Under Rule 2.6(a), IRH must by <strong>5.00pm GMT on 17 November 2026</strong> either announce a firm intention to bid or announce it does not intend to, subject to any Takeover Panel extension — this sets an <strong>offer period</strong> with Rule 8 disclosure obligations now in force.</li><li>No price or terms disclosed; <strong>no financial figures</strong> provided. Issued share capital stands at <strong>89,228,161 ordinary shares</strong>.</li><li>Advisers to Kenmare: <strong>Rothschild & Co</strong>, <strong>Davy</strong> and <strong>Peel Hunt</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Kenmare confirms a non-binding proposal from International Resources Holdings regarding a possible all-cash offer for the entire company.",
+    "priority": "high",
+    "priority_reason": "Possible cash takeover approach for the entire company under Rule 2.4 of the Irish Takeover Rules.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/kenmare-resources-KMR/share-news/Statement-regarding-possible-offer/99437582",
+    "related_news_url": "https://news.google.com/search?q=%22Kenmare%20Resources%20plc%22",
+    "added_at": "2026-10-06T07:56:20.789605"
+  },
+  {
+    "company": "Clarkson PLC",
+    "ticker": "CKN",
+    "publish_date": "06 October 2026",
+    "date_iso": "2026-10-06",
+    "time_period": "FY to 31 December 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "FY to 31 December 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Clarkson PLC</strong> now expects <strong>underlying profit before tax</strong> for the <strong>full year to 31 December 2026</strong> to be <strong>not less than £135m</strong>, following very strong trading in <strong>August and September</strong>.</li><li><strong>Broking</strong> division revenues came in <strong>significantly ahead of previous expectations</strong>, while also adding to the <strong>forward order book</strong>.</li><li><strong>Financial</strong> division executed a number of transactions, with performance also <strong>significantly up on expectations</strong>.</li><li>Geopolitical complexity has driven volatility across commodity and freight markets, producing <strong>record freight rates</strong> in some areas that have fed through to <strong>asset prices</strong>.</li><li>No prior profit guidance figure is printed in the announcement, so the size of the upgrade versus previous expectations cannot be quantified from the text.</li></ul>",
+    "source_format": "html",
+    "headline": "Clarkson now expects full-year underlying profit before tax of not less than £135m after very strong August and September trading.",
+    "priority": "high",
+    "priority_reason": "Trading update carrying a clear profit upgrade, with full-year underlying PBT now guided to not less than £135m.",
+    "figures": [
+      {
+        "metric": "Underlying profit before tax (FY to 31 Dec 2026)",
+        "current": "not less than £135m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "Board's revised full-year expectation"
+      }
+    ],
+    "guidance": {
+      "status": "raised",
+      "previous": "Not quantified in the announcement; described only as 'previous expectations'.",
+      "current": "Underlying profit before tax for the full year to 31 December 2026 now expected to be not less than £135m.",
+      "commentary": "Guidance has been raised on the back of exceptionally strong Broking and Financial division performance in August and September, driven by freight-market volatility and record rates. The announcement does not print the prior expectation, so the exact scale of the upgrade is not stated."
+    },
+    "explainer": "This is an unscheduled, positive trading update: Clarkson has told the market mid-quarter that profits for the year to December 2026 will beat what it had previously guided, and has put a floor under the new figure of \"not less than £135m\" of underlying profit before tax. \"Underlying\" means before certain one-off or non-operating items, so the statutory figure could differ.\n\nThe driver is market conditions. Geopolitical disruption has made commodity and freight markets more volatile, pushing some freight rates to record levels and lifting ship values. Clarkson's Broking arm earns commission on these transactions, so higher rates and more deals feed straight through to revenue, and the firm says its forward order book has grown too. The Financial (investment banking) division has also completed more transactions than expected.\n\nOn guidance, the key point is the direction and the hard number: the Board has upgraded and anchored full-year underlying PBT at a minimum of £135m. However, the announcement does not state what the previous expectation or market consensus was, so readers cannot calculate the percentage upgrade from the text alone. The company also cautions that the trading environment remains very volatile.",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/clarkson--ckn/trading-statement/9807658",
+    "related_news_url": "https://news.google.com/search?q=%22Clarkson%22",
+    "added_at": "2026-10-06T07:56:20.769225"
+  },
+  {
     "company": "LGI Homes, Inc.",
     "ticker": "LGIH",
     "publish_date": "06 October 2026",
