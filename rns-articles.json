@@ -1,5 +1,31 @@
 [
   {
+    "company": "ASOS PLC",
+    "ticker": "ASC",
+    "publish_date": "06 October 2026",
+    "date_iso": "2026-10-06",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>ASOS</strong> confirmed a <strong>cyber incident</strong> after an <strong>unauthorised customer notification</strong> was sent to customers at around <strong>10am on 6 October 2026</strong>.</li><li>Unauthorised activity involved <strong>third-party platforms</strong> used to communicate with customers; access to the notification platforms was restricted immediately.</li><li><strong>Basic personal information</strong> (name and contact details) <strong>may have been accessed</strong>; ASOS does not believe <strong>payment-card information or account passwords</strong> were impacted.</li><li><strong>Website and app operating as normal</strong>, with no current disruption to operations.</li><li>Company holds <strong>cyber security and business continuity insurance</strong> with a large global provider; too early to quantify any potential trading impact.</li></ul>",
+    "source_format": "html",
+    "headline": "ASOS is investigating a cyber incident after an unauthorised customer notification was sent, with basic personal data possibly accessed but no payment or password data believed hit.",
+    "priority": "high",
+    "priority_reason": "Cyber incident involving unauthorised access to customer data at a major online retailer, with trading impact not yet quantified.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/asos--asc/update-regarding-cyber-incident-/9809595",
+    "related_news_url": "https://news.google.com/search?q=%22ASOS%22",
+    "added_at": "2026-10-06T15:36:15.954898"
+  },
+  {
     "company": "HighPeak Energy Inc",
     "ticker": "HPK",
     "publish_date": "06 October 2026",
