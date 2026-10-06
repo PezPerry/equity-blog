@@ -1,5 +1,80 @@
 [
   {
+    "company": "Telecom Plus PLC",
+    "ticker": "TEP",
+    "publish_date": "06 October 2026",
+    "date_iso": "2026-10-06",
+    "time_period": "H1 FY27 (six months ended 30 September 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "H1 FY27 (six months ended 30 September 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Trading update</strong> for the six months ended <strong>30 September 2026</strong>, with FY27 adjusted PBT guidance <strong>reiterated at £80m-£90m</strong> — H1/H2 profit weighting approximately <strong>15%/85%</strong>.</li><li><strong>Multiservice</strong> organic customer numbers grew at an annualised rate of <strong>over 11%</strong> to <strong>c.526k</strong> (FY26: c.498k), ahead of the <strong>10%+</strong> full-year target and c.3x the FY26 rate.</li><li>Total organic customers up <strong>c.9.7%</strong> annualised to <strong>c.1.32m</strong> (FY26: c.1.26m); single-service customers <strong>c.791k</strong> (FY26: c.759k).</li><li>Partner network momentum building: monthly active Partners averaged <strong>c.4.9k</strong> in H1 (up c.15% on H2 FY26), total Partners over <strong>88k</strong> (FY26: c.77k); <strong>c.25k</strong> core services cross-sold in H1 against a <strong>50k</strong> FY27 target.</li><li><strong>£40m</strong> share buyback has purchased <strong>c.3.8m</strong> shares at an average <strong>821.24p</strong>, with <strong>c.£9.0m</strong> remaining; FY27 distributions weighted <strong>c.40%/60%</strong> interim/final, split between buyback and dividend.</li><li>First-half results due <strong>24 November 2026</strong>; year-end net debt/adjusted EBITDA still expected around <strong>1.5x</strong>; long-term goal of <strong>£175m</strong> adjusted PBT by FY31.</li></ul>",
+    "source_format": "html",
+    "headline": "Telecom Plus reiterates FY27 adjusted PBT guidance of £80m-£90m as H1 multiservice organic customer growth of over 11% annualised runs ahead of its 10%+ target.",
+    "priority": "high",
+    "priority_reason": "H1 trading update with reiterated full-year profit guidance and customer growth metrics ahead of target.",
+    "figures": [
+      {
+        "metric": "Multiservice organic customers",
+        "current": "c.526k",
+        "prior": "c.498k",
+        "change": ">11% annualised growth",
+        "basis": "organic",
+        "note": "H1 FY27 vs FY26"
+      },
+      {
+        "metric": "Single service organic customers",
+        "current": "c.791k",
+        "prior": "c.759k",
+        "change": "c.8.5% annualised",
+        "basis": "organic",
+        "note": "H1 FY27 vs FY26"
+      },
+      {
+        "metric": "Total organic customers",
+        "current": "c.1.32m",
+        "prior": "c.1.26m",
+        "change": "c.9.7% annualised",
+        "basis": "organic",
+        "note": "H1 FY27 vs FY26"
+      },
+      {
+        "metric": "Monthly active Partners (average)",
+        "current": "c.4.9k",
+        "prior": "c.4.2k",
+        "change": "c.+15%",
+        "basis": "not stated",
+        "note": "H1 FY27 vs H2 FY26"
+      },
+      {
+        "metric": "Total Partners",
+        "current": "over 88k",
+        "prior": "c.77k",
+        "change": "not stated",
+        "basis": "not stated",
+        "note": "end Sept 2026 vs end FY26"
+      },
+      {
+        "metric": "Insurance services customers",
+        "current": "c.114k",
+        "prior": "c.113k",
+        "change": "modest growth",
+        "basis": "not stated",
+        "note": "first growth since H1 FY25"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Adjusted profit before tax of £80m to £90m for FY27",
+      "current": "Adjusted profit before tax of £80m to £90m for FY27, with H1/H2 weighting approximately 15%/85%",
+      "commentary": "Full-year adjusted PBT guidance of £80m-£90m reiterated on the back of encouraging H1 progress and multiservice customer growth running ahead of target. Year-end net debt/adjusted EBITDA still expected at around 1.5x, reducing to around 1.0x over the five-year plan."
+    },
+    "explainer": "This is a half-year trading update, not full results — those follow on 24 November 2026. The headline numbers are customer and Partner counts rather than profit figures, as Telecom Plus's earnings are driven by the size and quality of its subscriber base at Utility Warehouse.\n\nThe growth rates quoted are organic (excluding acquisitions) and annualised, meaning the six-month change scaled to a full year. 'Multiservice' customers take several utilities and are the most valuable; growth there of over 11% annualised is both ahead of the company's own 10%+ target and roughly three times the pace seen in FY26, which management frames as evidence the new five-year plan is gaining traction.\n\nOn guidance, nothing has changed numerically: the £80m-£90m adjusted PBT range for FY27 is reiterated. Investors should note the heavy second-half skew — only around 15% of profit is expected in H1 — so a soft-looking interim result in November would be in line with plan rather than a warning sign. Shareholder returns remain weighted to H2 and split between the ongoing £40m buyback (c.£9.0m left) and dividends.",
+    "source_url": "https://uk.advfn.com/stock-market/london/telecom-plus-TEP/share-news/Telecom-Plus-PLC-H1-trading-update-and-notice-of-r/99437645",
+    "related_news_url": "https://news.google.com/search?q=%22Telecom%20Plus%20PLC%22",
+    "added_at": "2026-10-06T07:56:50.510008"
+  },
+  {
     "company": "Kenmare Resources PLC",
     "ticker": "KMR",
     "publish_date": "06 October 2026",
