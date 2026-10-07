@@ -1,5 +1,82 @@
 [
   {
+    "company": "Galliford Try Holdings PLC",
+    "ticker": "GFRD",
+    "publish_date": "07 October 2026",
+    "date_iso": "2026-10-07",
+    "time_period": "",
+    "announcement_type": "Contract win",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Galliford Try</strong> appointed to the <strong>Oxford Inspire</strong> construction services framework for the <strong>University of Oxford</strong>.</li><li>Selected for <strong>Lot 2</strong>, worth up to <strong>£1.6bn over eight years</strong>, covering projects in excess of <strong>£15m</strong> including large-scale new-build and refurbishment schemes.</li><li>CEO <strong>Bill Hocking</strong> cites the group's track record across the education sector and commitment to delivering across the University's estate.</li><li>Appointment is to a framework, so value reflects potential rather than committed workload; no specific contract award or financial impact quantified.</li></ul>",
+    "source_format": "html",
+    "headline": "Galliford Try appointed to Lot 2 of the University of Oxford's Oxford Inspire construction framework, worth up to £1.6bn over eight years.",
+    "priority": "high",
+    "priority_reason": "Major framework appointment worth up to £1.6bn over eight years materially adds to the order book.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/galliford-try-GFRD/share-news/Galliford-Try-Holdings-PLC-Contract/99447236",
+    "related_news_url": "https://news.google.com/search?q=%22Galliford%20Try%20Holdings%20plc%22",
+    "added_at": "2026-10-07T07:57:29.704918"
+  },
+  {
+    "company": "Avon Technologies plc",
+    "ticker": "AVON",
+    "publish_date": "07 October 2026",
+    "date_iso": "2026-10-07",
+    "time_period": "FY to 30 September 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "FY to 30 September 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Avon Technologies plc</strong> now expects <strong>FY26</strong> results (year ended <strong>30 September 2026</strong>) to be <strong>ahead of current market expectations</strong>.</li><li>Year-end <strong>net debt</strong> (excluding leases) expected at approximately <strong>$34m</strong>, with full-year cash conversion <strong>above 85%</strong> and <strong>leverage below 0.5x</strong>.</li><li>Order book has risen significantly since the half year: <strong>Avon Protection</strong> sustained by <strong>NSPA</strong> demand and new European orders; <strong>Team Wendy</strong> won the largest share of the <strong>NG IHPS</strong> order, strong <strong>ACH Gen II</strong> volumes, new <strong>US Air Force</strong> orders and renewal of the <strong>Australian Defence Force</strong> programme.</li><li><strong>Team Wendy</strong> production has stabilised at target levels, driving a significant operating margin improvement in the second half; both businesses enter <strong>FY27</strong> with very good visibility.</li><li>New strategy — <strong>Improve. Grow. Compound.</strong> — targets free cash flow of over <strong>$175m</strong> over the next three years and lifting Group inventory turns above <strong>5x</strong>.</li><li>FY27 guidance to be provided with full year results on <strong>10 November</strong>; no additional trading detail shared at today's strategy teach-in.</li></ul>",
+    "source_format": "html",
+    "headline": "Avon Technologies expects FY26 results ahead of current market expectations, driven by strong order momentum and improved margins at Team Wendy.",
+    "priority": "high",
+    "priority_reason": "FY26 trading update raising guidance above current market expectations, plus a new strategy and five-year targets.",
+    "figures": [
+      {
+        "metric": "Net debt (excl. leases)",
+        "current": "approximately $34m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "FY26 year-end"
+      },
+      {
+        "metric": "Cash conversion",
+        "current": "above 85%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "full year FY26"
+      },
+      {
+        "metric": "Leverage",
+        "current": "below 0.5x",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "FY26 year-end"
+      }
+    ],
+    "guidance": {
+      "status": "raised",
+      "previous": "Current market expectations for FY26",
+      "current": "FY26 results now expected to be ahead of current market expectations",
+      "commentary": "The Board has upgraded its FY26 outlook, citing sustained commercial demand in North America at Avon Protection and stabilised production plus improved second-half operating margins at Team Wendy. FY27 guidance will follow with the full-year results on 10 November."
+    },
+    "explainer": "This is a pre-close trading update for the financial year ended 30 September 2026, issued alongside a strategy presentation for investors. The key message is that profit for FY26 will come in above what analysts were currently forecasting ('current market expectations'), driven by stronger demand and a sharply improved order book across both divisions since the half-year results.\n\nThe margin improvement is specific to Team Wendy, the helmet business, where production had previously been running below target; it has now stabilised, lifting second-half operating margin. Avon Protection, the respiratory and protection arm, continues to benefit from the NATO NSPA programme and US commercial demand.\n\nOn the balance sheet, net debt of about $34m with leverage below 0.5x and cash conversion above 85% signals a strong cash position. The $175m free cash flow figure and the 5x inventory-turns target are three-year ambitions tied to the new 'Improve. Grow. Compound.' strategy, not FY26 outcomes.\n\nFull FY27 guidance has been deliberately deferred to the results on 10 November, and the company stressed no further trading detail would be given at today's teach-in.",
+    "source_url": "https://uk.advfn.com/stock-market/london/avon-technologies-AVON/share-news/Avon-Technologies-Plc-Strategy-Teach-in-and-FY26-T/99447250",
+    "related_news_url": "https://news.google.com/search?q=%22Avon%20Technologies%20plc%22",
+    "added_at": "2026-10-07T07:57:29.647744"
+  },
+  {
     "company": "IG Group Holdings PLC",
     "ticker": "IGG",
     "publish_date": "07 October 2026",
