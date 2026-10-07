@@ -1,5 +1,64 @@
 [
   {
+    "company": "Pennon Group plc",
+    "ticker": "PNN",
+    "publish_date": "07 October 2026",
+    "date_iso": "2026-10-07",
+    "time_period": "AMP8 (dividend rebase from FY2026/2027)",
+    "announcement_type": "Fundraising / rights issue",
+    "period_detail": "AMP8 (dividend rebase from FY2026/2027)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>c.£550m</strong> fully underwritten <strong>rights issue</strong> launched today to fund increased investment in the regulated water businesses; full terms in a separate announcement and International Offering Circular.</li><li>Dividend <strong>rebased</strong>: total payout cut to <strong>c.£125m</strong> for <strong>FY2026/2027</strong> from <strong>£138m</strong> in FY2025/2026, implying an underlying reduction in <strong>DPS of c.30%</strong> to around <strong>18 pence</strong>.</li><li>AMP8 capital investment in regulated water now expected at <strong>c.£3.6bn</strong>, about <strong>£1bn</strong> more than the original Final Determination plan, targeting RCV growth of <strong>over 40%</strong> (vs 34%), c.<strong>7% CAGR</strong>.</li><li>New CEO <strong>Keith Haslett</strong> sets out an operational reset on five pillars, with insourcing of leakage technicians and new <strong>Chief Asset Officer</strong> and <strong>Chief People Officer</strong> appointments.</li><li>Ofwat provisionally allowed <strong>£230m</strong> (76% of requested) in its draft 2026 cost change determination; final determination expected by <strong>15 December 2026</strong>, targeting total additional RCV from cost change of <strong>£400m</strong>.</li><li>Funding plan also includes the proposed <strong>sale of Pennon Power</strong> and retained gearing policy (regulated water no more than 65% of RCV; Group unlikely to exceed c.70%).</li></ul>",
+    "source_format": "html",
+    "headline": "Pennon launches c.£550m fully underwritten rights issue and rebases its dividend to fund c.£1bn of additional AMP8 water investment.",
+    "priority": "high",
+    "priority_reason": "A c.£550m fully underwritten rights issue plus a rebased (cut) dividend are material capital and income events for shareholders.",
+    "figures": [
+      {
+        "metric": "Total dividend",
+        "current": "c.£125m",
+        "prior": "£138m",
+        "change": "DPS down c.30% (underlying)",
+        "basis": "FY2026/2027 vs FY2025/2026, adjusted for rights issue bonus factor",
+        "note": "expected DPS c.18 pence"
+      },
+      {
+        "metric": "AMP8 regulated water capex",
+        "current": "c.£3.6bn",
+        "prior": "c.£2.6bn (original plan)",
+        "change": "+c.£1bn",
+        "basis": "vs AMP8 Final Determination plan",
+        "note": "nominal"
+      },
+      {
+        "metric": "AMP8 RCV growth",
+        "current": "over 40%",
+        "prior": "34%",
+        "change": "+6pp",
+        "basis": "c.7% CAGR",
+        "note": "across AMP8"
+      },
+      {
+        "metric": "Rights issue",
+        "current": "c.£550m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "fully underwritten",
+        "note": "launched 7 October 2026"
+      }
+    ],
+    "guidance": {
+      "status": "lowered",
+      "previous": "Total dividend of £138m for FY2025/2026, with policy to grow DPS in line with CPIH",
+      "current": "Total dividend rebased to c.£125m for FY2026/2027 (both interim and final), implying c.30% underlying DPS cut to c.18p, then growing with CPIH from the rebased level",
+      "commentary": "The dividend has been rebased lower to keep payouts sustainable while funding a c.£1bn step-up in AMP8 investment, part-funded by the c.£550m rights issue. The stated c.30% DPS reduction accounts for both the lower total payout and the larger share count (adjusted for the rights issue bonus factor)."
+    },
+    "explainer": "Pennon is raising roughly £550m from existing shareholders via a rights issue — a discounted offer of new shares — to help fund about £1bn of extra investment in its water networks over the current five-year regulatory period (AMP8). Because a rights issue increases the number of shares in issue, the \"bonus factor\" adjustment the company refers to simply restates historic per-share figures so they are comparable with the enlarged share count.\n\nThe dividend is being \"rebased\", which is a cut. The total cash paid falls from £138m to about £125m, but the drop per share is larger — roughly 30%, to around 18 pence — because the same smaller pot is now spread across more shares. From this lower base, Pennon intends to grow the dividend each year in line with CPIH inflation.\n\nOn the investment side, the £3.6bn figure is compared with the roughly £2.6bn originally planned under Ofwat's Final Determination, so the extra spend is about £1bn. Ofwat recovers some of this through RCV (Regulatory Capital Value) growth — the asset base on which the company is allowed to earn a return — which Pennon now expects to grow by over 40% across AMP8 versus 34% previously. Ofwat has so far provisionally allowed £230m of the cost-change request, with a final decision due by 15 December 2026, so the full economics remain subject to regulatory approval.",
+    "source_url": "https://uk.advfn.com/stock-market/london/pennon-PNN/share-news/Pennon-Group-PLC-Strategic-Update/99447288",
+    "related_news_url": "https://news.google.com/search?q=%22Pennon%20Group%20plc%22",
+    "added_at": "2026-10-07T07:58:20.162178"
+  },
+  {
     "company": "Galliford Try Holdings PLC",
     "ticker": "GFRD",
     "publish_date": "07 October 2026",
