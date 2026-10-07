@@ -1,5 +1,104 @@
 [
   {
+    "company": "Bridgepoint Group PLC",
+    "ticker": "BPT",
+    "publish_date": "07 October 2026",
+    "date_iso": "2026-10-07",
+    "time_period": "FY to December 2026 and medium term from 2027",
+    "announcement_type": "Trading update",
+    "period_detail": "FY to December 2026 and medium term from 2027",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Upgrade to 2026 EBITDA</strong> guidance driven by exceptional fund performance in <strong>ECP V</strong>, with 2026 PRE and EBITDA now expected <strong>materially in excess of current consensus</strong>; PRE guided at <strong>37-39% of total income</strong> for 2026 via Bridgepoint's <strong>13%</strong> carry share.</li><li><strong>Medium-term guidance raised from 2027</strong>: PRE lifted to <strong>25-30% of total income</strong> (from the long-established <strong>20-25%</strong> range), and <strong>2027 EBITDA margin</strong> raised to <strong>around 60%</strong> from <strong>55-60%</strong>.</li><li><strong>ECP V</strong> money multiple over <strong>3x</strong> at end-June 2026, expected over <strong>4x</strong> at <strong>30 September 2026</strong>, including a material uplift in the <strong>ProEnergy</strong> valuation (marked with a substantial discount for execution and timing risk).</li><li>Cash receipts from PRE now expected at <strong>£1.3bn by 2030</strong> (up from <strong>£1.0bn</strong> at interims); with <strong>£1.1bn</strong> of co-investment cash, total cash receipts of <strong>£2.4bn</strong> over five years vs around <strong>£500m</strong> in the prior five years.</li><li><strong>FY 2026 dividend rebased from around 10p to 15p</strong>; new framework targets distribution of <strong>40-60% of Cash from Profits</strong> from FY 2027 (ordinary dividend of <strong>40-45% of EPS</strong> paid quarterly, plus special dividends/buybacks), keeping net leverage below <strong>2x</strong>.</li><li><strong>€28bn</strong> fundraising target for the mid-2024 to 2026 cycle reached a quarter early (<strong>BDL IV €5.1bn</strong>, <strong>ECP VI $8.1bn</strong>, <strong>BE VIII €7.8bn</strong>); <strong>KARE/Kayne Anderson Real Estate</strong> acquisition approved and expected to close <strong>4 January 2027</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Bridgepoint upgrades 2026 and medium-term PRE and EBITDA guidance on exceptional ECP V performance, rebases the dividend to **15p** and launches a new distribution framework.",
+    "priority": "high",
+    "priority_reason": "Guidance upgrade for 2026 and medium term, a rebased dividend and a new shareholder distribution framework are all share-price sensitive.",
+    "figures": [
+      {
+        "metric": "FY 2026 dividend per share",
+        "current": "15p (rebased)",
+        "prior": "around 10p",
+        "change": "+50%",
+        "basis": "",
+        "note": "Q3 second interim 5.0p; proposed final 5.2p, subject to AGM"
+      },
+      {
+        "metric": "ECP V money multiple",
+        "current": "over 4x (expected at 30 Sep 2026)",
+        "prior": "over 3x (end June 2026)",
+        "change": "not stated",
+        "basis": "",
+        "note": "includes material increase in ProEnergy valuation"
+      },
+      {
+        "metric": "PRE as % of total income (2026)",
+        "current": "37-39%",
+        "prior": "20-25% long-established range; upper end guided at interims",
+        "change": "not stated",
+        "basis": "",
+        "note": "could exceed range if ProEnergy mark rises"
+      },
+      {
+        "metric": "EBITDA margin (2027)",
+        "current": "around 60%",
+        "prior": "55-60%",
+        "change": "not stated",
+        "basis": "",
+        "note": "raised"
+      },
+      {
+        "metric": "Cash receipts from PRE by 2030",
+        "current": "£1.3bn",
+        "prior": "£1.0bn (disclosed at interim results)",
+        "change": "not stated",
+        "basis": "",
+        "note": "includes ProEnergy at 30 Sep 2026 valuation"
+      },
+      {
+        "metric": "Total cash receipts (next five years)",
+        "current": "£2.4bn",
+        "prior": "around £500m (last five years)",
+        "change": "not stated",
+        "basis": "",
+        "note": "PRE £1.3bn plus co-investments £1.1bn"
+      },
+      {
+        "metric": "BDL IV final close",
+        "current": "€5.1bn",
+        "prior": "BDL III €2.9bn",
+        "change": "+76%",
+        "basis": "",
+        "note": "Direct Lending"
+      },
+      {
+        "metric": "ECP VI final close",
+        "current": "$8.1bn",
+        "prior": "ECP V $4.4bn",
+        "change": "+84%",
+        "basis": "",
+        "note": "Energy Capital Partners"
+      },
+      {
+        "metric": "BE VIII commitments",
+        "current": "€7.8bn (hard cap €8.65bn)",
+        "prior": "BE VII €7.0bn",
+        "change": "approx +24%",
+        "basis": "",
+        "note": "expected fully allocated later in 2026"
+      }
+    ],
+    "guidance": {
+      "status": "raised",
+      "previous": "At interim results on 17 July 2026: PRE at the upper end of the long-established 20-25% of total income range; EBITDA margin between 55% and 60% in 2026 and 2027. Cash receipts from PRE of £1.0bn by 2030.",
+      "current": "2026 PRE and EBITDA materially in excess of current consensus, with PRE at 37-39% of total income in 2026; medium-term PRE guided to 25-30% of total income; 2027 EBITDA margin raised to around 60%. Cash receipts from PRE of £1.3bn by 2030, total cash receipts of £2.4bn over five years.",
+      "commentary": "Guidance is raised for both 2026 and the medium term, driven by exceptional ECP V fund performance (notably the ProEnergy valuation uplift) and Bridgepoint's 13% carry share, plus more funds entering carry and higher carry allocations from the flagship private equity fund. The stronger, more consistent performance-related earnings are expected to convert into materially higher cash, underpinning the rebased 15p dividend and the new distribution framework."
+    },
+    "explainer": "Bridgepoint earns two broad income streams: steady fee-related earnings (FRE) from managing funds, and lumpier performance-related earnings (PRE), its share of carried interest when funds perform well. The upgrade is driven almost entirely by PRE, specifically exceptional returns in the ECP V energy fund, where the overall money multiple is expected to rise from over three times at end-June to over four times by end-September, helped by a higher valuation of the ProEnergy asset. Because Bridgepoint takes a 13% share of that fund's carry, this flows through to group profit, pushing PRE to an unusually high 37-39% of total income in 2026 versus its long-run 20-25% range.\n\nCrucially, management argues this is not a one-off. It has raised medium-term guidance from 2027: PRE to a sustained 25-30% of total income and the 2027 EBITDA margin to around 60% (previously 55-60%), citing more funds coming into carry and higher carry allocations from the flagship private equity fund.\n\nHigher PRE is expected to convert into cash, so projected cash receipts from PRE by 2030 rise from £1.0bn (stated at July's interims) to £1.3bn; with £1.1bn of co-investment cash, total five-year cash receipts of £2.4bn dwarf the roughly £500m of the prior five years. The ProEnergy mark carries a substantial discount for execution and timing risk, so these figures could rise further.\n\nOn the back of this, the FY 2026 dividend is rebased from around 10p to 15p, and a new framework from FY 2027 targets returning 40-60% of a new 'Cash from Profits' measure, via a quarterly ordinary dividend (40-45% of EPS) topped up by special dividends or buybacks. The company also reports hitting its €28bn fundraising target a quarter early and confirms the Kayne Anderson Real Estate (KARE) deal is on track to close on 4 January 2027; this guidance excludes that acquisition.",
+    "source_url": "https://uk.advfn.com/stock-market/london/bridgepoint-BPT/share-news/Bridgepoint-Group-plc-Trading-Update/99447274",
+    "related_news_url": "https://news.google.com/search?q=%22Bridgepoint%20Group%20plc%22",
+    "added_at": "2026-10-07T07:59:56.253228"
+  },
+  {
     "company": "IMI plc",
     "ticker": "IMI",
     "publish_date": "07 October 2026",
