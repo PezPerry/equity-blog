@@ -1,5 +1,57 @@
 [
   {
+    "company": "Prudential PLC",
+    "ticker": "PRU",
+    "publish_date": "07 October 2026",
+    "date_iso": "2026-10-07",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>Prudential plc</strong> will issue <strong>10,916 new ordinary shares</strong> of 5p each in connection with the scrip dividend alternative for the <strong>2026 first interim dividend of 8.88 US cents</strong> per share.</li><li>Scrip shares are issued on the <strong>Hong Kong line only</strong>; up to <strong>4,148</strong> will be sold via a dealing facility for UK shareholders unable to hold on that line.</li><li>Any minor dilution will be <strong>neutralised through on-market buyback</strong> on the London Stock Exchange, per Board policy — <strong>no impact</strong> on trading or guidance.</li><li>Routine corporate action; further announcements to follow on admission of the shares.</li></ul>",
+    "source_format": "html",
+    "headline": "Prudential to issue 10,916 new ordinary shares under the scrip dividend alternative for its 2026 first interim dividend, with dilution neutralised via buyback.",
+    "priority": "low",
+    "priority_reason": "Routine scrip dividend share issuance of minimal size with any dilution to be neutralised by buyback.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/prudential--pru/new-shares-to-be-issued-for-scrip-dividend/9811322",
+    "related_news_url": "https://news.google.com/search?q=%22Prudential%22",
+    "added_at": "2026-10-07T11:15:44.236561"
+  },
+  {
+    "company": "Moonpig Group PLC",
+    "ticker": "MOON",
+    "publish_date": "07 October 2026",
+    "date_iso": "2026-10-07",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Susan Hooper</strong> is stepping down from the Board of <strong>Naked Wines plc</strong>, effective <strong>7 October 2026</strong>, where she was Non-Executive Director, Senior Independent Director and Chair of the Remuneration Committee.</li><li>Routine <strong>UK Listing Rule 6.4.9</strong> disclosure of a director's external directorship — <strong>no impact</strong> on Moonpig Group's trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Moonpig discloses that director Susan Hooper is stepping down from the board of unrelated company Naked Wines plc, effective today.",
+    "priority": "low",
+    "priority_reason": "Routine Listing Rule 6.4.9 disclosure about a Moonpig director's external role, with no impact on Moonpig's own trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/prn/moonpig-group--moon/director-declaration/9811321",
+    "related_news_url": "https://news.google.com/search?q=%22Moonpig%20Group%22",
+    "added_at": "2026-10-07T11:15:44.026556"
+  },
+  {
     "company": "The Rank Group Plc",
     "ticker": "RNK",
     "publish_date": "07 October 2026",
