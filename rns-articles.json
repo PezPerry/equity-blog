@@ -1,5 +1,31 @@
 [
   {
+    "company": "Informa plc",
+    "ticker": "INF",
+    "publish_date": "07 October 2026",
+    "date_iso": "2026-10-07",
+    "time_period": "",
+    "announcement_type": "Fundraising / equity placing",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Informa plc</strong> raised gross proceeds of approximately <strong>GBP940m</strong> through the issue of <strong>109,302,326</strong> new ordinary shares — a placing, a RetailBook retail offer and a director/management subscription.</li><li>Shares placed at <strong>860 pence</strong>, a <strong>0.2%</strong> discount to the <strong>862 pence</strong> close on <strong>5 October 2026</strong> and a <strong>4.3%</strong> discount to the <strong>899 pence</strong> mid-market price when the price was agreed.</li><li>The issue represents approximately <strong>8.7%</strong> of existing issued share capital; total shares in issue rise to <strong>1,366,314,017</strong> following Admission, expected <strong>8 October 2026</strong>.</li><li>Placing and retail offer raised gross <strong>GBP938m</strong> (net <strong>GBP927m</strong>); the director/management subscription of <strong>183,425</strong> shares adds up to <strong>GBP1.6m</strong>.</li><li><strong>Morgan Stanley</strong> acted as sole global coordinator and joint bookrunner, with <strong>BofA Securities</strong> and <strong>Deutsche Bank</strong> as joint bookrunners; proceeds fund part of the <strong>Clarion</strong> acquisition consideration and transaction costs.</li><li>CEO <strong>Stephen A. Carter</strong> said the response reflected strong investor support for the Clarion deal and focusing Informa as a leading international B2B business.</li></ul>",
+    "source_format": "html",
+    "headline": "Informa has raised approximately **GBP940m** gross via a placing, retail offer and director subscription at **860 pence** per share to help fund its acquisition of **Clarion**.",
+    "priority": "high",
+    "priority_reason": "A GBP940m non-pre-emptive equity raise to fund the Clarion acquisition is materially dilutive and price-sensitive.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/informa-INF/share-news/Informa-PLC-Result-of-Equity-Issue/99444000",
+    "related_news_url": "https://news.google.com/search?q=%22Informa%20plc%22",
+    "added_at": "2026-10-07T07:16:21.048998"
+  },
+  {
     "company": "Senior plc",
     "ticker": "SNR",
     "publish_date": "06 October 2026",
