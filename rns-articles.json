@@ -1,5 +1,31 @@
 [
   {
+    "company": "Lion Finance Group PLC",
+    "ticker": "BGEO",
+    "publish_date": "07 October 2026",
+    "date_iso": "2026-10-07",
+    "time_period": "",
+    "announcement_type": "Share buyback",
+    "period_detail": "",
+    "type_workings": "Rule 'capital returns': opening bullets announce a share buyback [rns.json record]",
+    "body": "<ul><li><strong>34,000</strong> treasury shares cancelled on <strong>7 October 2026</strong> under the <strong>GEL 59m</strong> buyback and cancellation programme announced on <strong>11 August 2026</strong>, an extension of earlier programmes running since August 2025.</li><li>Total shares cancelled since the programme launched in August 2025 now stands at <strong>845,080</strong>; <strong>4,000</strong> shares remain in treasury and total voting rights are <strong>43,014,496</strong>.</li><li>Routine disclosure under UK Listing Rule 9.8.2 with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Lion Finance Group cancelled **34,000** treasury shares under its ongoing share buyback and cancellation programme, leaving **43,014,496** voting rights in issue.",
+    "priority": "low",
+    "priority_reason": "Routine Listing Rule 9.8.2 disclosure of treasury share cancellation under an existing buyback programme, with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/lion-finance-group-plc--bgeo/cancellation-of-treasury-shares/9811680",
+    "related_news_url": "https://news.google.com/search?q=%22Lion%20Finance%20Group%20PLC%22",
+    "added_at": "2026-10-07T13:35:39.778448"
+  },
+  {
     "company": "Currys PLC",
     "ticker": "CURY",
     "publish_date": "07 October 2026",
