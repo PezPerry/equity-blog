@@ -1,5 +1,31 @@
 [
   {
+    "company": "Currys PLC",
+    "ticker": "CURY",
+    "publish_date": "07 October 2026",
+    "date_iso": "2026-10-07",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>Currys plc</strong> will give a live introductory presentation via the <strong>Investor Meet Company</strong> platform on <strong>Tuesday 20 October 2026</strong> at <strong>12.00pm BST</strong>, hosted by IR team <strong>Dan Homan</strong> and <strong>Carla Fabiano</strong>.</li><li>Aimed at those less familiar with Currys; open to all existing and potential shareholders, with questions submissible up to <strong>09:00 BST on 19 October 2026</strong>.</li><li>Routine IR event with <strong>no impact</strong> on trading or guidance; next scheduled release is <strong>interim results for the 26 weeks ending 31 October 2026</strong>, due <strong>17 December 2026</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Currys to hold a live introductory investor presentation via Investor Meet Company on **20 October 2026** at **12.00pm BST**.",
+    "priority": "low",
+    "priority_reason": "Routine investor presentation invitation via Investor Meet Company with no trading or financial content.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/currys--cury/investor-presentation-via-investor-meet-company/9811519",
+    "related_news_url": "https://news.google.com/search?q=%22Currys%22",
+    "added_at": "2026-10-07T12:35:40.182051"
+  },
+  {
     "company": "Prudential PLC",
     "ticker": "PRU",
     "publish_date": "07 October 2026",
