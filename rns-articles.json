@@ -1,5 +1,31 @@
 [
   {
+    "company": "The Rank Group Plc",
+    "ticker": "RNK",
+    "publish_date": "07 October 2026",
+    "date_iso": "2026-10-07",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>Rank</strong> has concluded its regulatory settlement with the <strong>Gambling Commission</strong>, accepting a <strong>£5.0m</strong> payment in lieu of a financial penalty over historical failings in the <strong>Grosvenor</strong> venues business.</li><li>The amount matches the <strong>£5.0m</strong> provision taken in the <strong>2025/26</strong> accounts, so there is <strong>no further impact on Group profits</strong>.</li><li>Remedial actions flagged at the 2025/26 preliminary results are described as <strong>substantially completed</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Rank has accepted a **£5.0m** Gambling Commission settlement over historical failings at Grosvenor venues, in line with the provision already booked.",
+    "priority": "medium",
+    "priority_reason": "Regulatory settlement now concluded, but already fully provisioned in the 2025/26 accounts with no further profit impact.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/rank-RNK/share-news/Rank-Group-PLC-Conclusion-of-Gambling-Commission-s/99448168",
+    "related_news_url": "https://news.google.com/search?q=%22The%20Rank%20Group%20Plc%22",
+    "added_at": "2026-10-07T08:56:00.705688"
+  },
+  {
     "company": "METLEN Energy & Metals PLC",
     "ticker": "MTLN",
     "publish_date": "07 October 2026",
