@@ -1,5 +1,31 @@
 [
   {
+    "company": "Shell PLC",
+    "ticker": "SHEL",
+    "publish_date": "07 October 2026",
+    "date_iso": "2026-10-07",
+    "time_period": "Q3 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "Q3 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Shell plc</strong> has published its <strong>third quarter 2026 update note</strong>, setting out current expectations for the quarter ahead of full results.</li><li>Full <strong>Q3 2026 results</strong> are scheduled for <strong>29 October 2026</strong>; company-compiled consensus (managed by <strong>Vara Research</strong>) is expected on <strong>21 October 2026</strong>.</li><li>Q3'26 production outlook <strong>excludes volumes from ARC Resources and Qatar</strong>; outlook statements exclude identified items.</li><li><strong>Note:</strong> the scraped text contains only definitions, consensus timing and boilerplate disclaimers — <strong>no actual divisional figures</strong> (production, margins, operating expenses, net debt) were captured, so the key outlook numbers from this note are not available here.</li></ul>",
+    "source_format": "html",
+    "headline": "Shell issues its Q3 2026 update note previewing divisional outlook ahead of full third-quarter results due on 29 October 2026.",
+    "priority": "high",
+    "priority_reason": "Pre-close quarterly outlook note from a FTSE heavyweight ahead of Q3 results.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": "The scraped text carries no quantified outlook or guidance figures; only methodology notes and the results date are present."
+    },
+    "explainer": "This is Shell's routine pre-results \"update note\", which flags the directional outlook for the quarter (production, refining and chemicals margins, costs, working capital and net debt) so analysts can refine estimates before the 29 October 2026 Q3 figures. All outlook statements exclude identified items and use Shell's non-GAAP measures such as Adjusted Earnings and underlying operating expenses.\n\nThe captured page text, however, contains only the definitions of those measures, the consensus/results timing and standard forward-looking disclaimers — the actual outlook tables and numbers have not come through in this scrape. As a result, no current-versus-comparative figures can be reported here, and the specific guidance for the quarter cannot be summarised from this text.",
+    "source_url": "https://uk.advfn.com/stock-market/london/shell-SHEL/share-news/Shell-third-quarter-2026-update-note/99447205",
+    "related_news_url": "https://news.google.com/search?q=%22Shell%20plc%22",
+    "added_at": "2026-10-07T08:00:34.881032"
+  },
+  {
     "company": "Bridgepoint Group PLC",
     "ticker": "BPT",
     "publish_date": "07 October 2026",
