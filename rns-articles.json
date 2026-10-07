@@ -1,5 +1,98 @@
 [
   {
+    "company": "IG Group Holdings PLC",
+    "ticker": "IGG",
+    "publish_date": "07 October 2026",
+    "date_iso": "2026-10-07",
+    "time_period": "",
+    "announcement_type": "Acquisition / deal",
+    "period_detail": "",
+    "type_workings": "Rule 'M&A': opening bullets lead with 'to acquire' [rns.json record]",
+    "body": "<ul><li><strong>IG Group Holdings plc</strong> will hold a <strong>Strategy Update</strong> for investors and analysts on <strong>Thursday 22 October 2026, 2.00pm-4.00pm (BST)</strong> at <strong>UBS, 5 Broadgate, London</strong>, in person or via webcast.</li><li>A separate virtual shareholder seminar on <strong>Underdog</strong> — the US daily fantasy sports and prediction markets business IG agreed to acquire on <strong>30 July 2026</strong>, subject to regulatory approvals — runs <strong>Thursday 8 October 2026, 2.00pm-3.15pm (BST)</strong>.</li><li>Routine notice of scheduled events with <strong>no new financial detail</strong> and <strong>no impact</strong> on current trading or guidance; presentation materials to follow on IG's investor relations website.</li></ul>",
+    "source_format": "html",
+    "headline": "IG Group will host a Strategy Update for investors and analysts on 22 October 2026, with a separate shareholder seminar on its Underdog acquisition on 8 October.",
+    "priority": "low",
+    "priority_reason": "Logistical notice of a scheduled investor event, containing no new financial or strategic detail.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/ig-group-holdings--igg/notice-of-capital-markets-event/9810108",
+    "related_news_url": "https://news.google.com/search?q=%22IG%20Group%20Holdings%22",
+    "added_at": "2026-10-07T07:56:57.798966"
+  },
+  {
+    "company": "Hollywood Bowl Group PLC",
+    "ticker": "BOWL",
+    "publish_date": "07 October 2026",
+    "date_iso": "2026-10-07",
+    "time_period": "FY to 30 September 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "FY to 30 September 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Group revenue</strong> up <strong>4.3%</strong> to a record <strong>£261.6m</strong> for the <strong>year ended 30 September 2026</strong>, a resilient outcome against the hottest UK spring and summer on record.</li><li><strong>UK total revenue</strong> up <strong>3.5%</strong> to <strong>£219.9m</strong>; UK like-for-like performance heavily impacted in H2 by prolonged hot, dry weather.</li><li><strong>Canada total revenue</strong> up <strong>9.0%</strong> on FY25, with Canada LFL growth accelerating to <strong>2.7%</strong> in H2 on new centre openings and investment.</li><li><strong>Group Adjusted PBT</strong> expected to grow in line with expectations; company-compiled consensus range <strong>£48.0m–£53.2m</strong>, mean <strong>£51.0m</strong> (eight analysts).</li><li>Highly cash-generative, closing with <strong>net cash of £13.5m</strong> and completing a <strong>£2.9m share buyback</strong> in H2.</li><li><strong>4 new centres</strong> opened (estate now <strong>95</strong>); pipeline of <strong>8</strong> more to reach <strong>103</strong> during FY27, on track for <strong>130 centres by 2033</strong>. Full-year results due in <strong>December</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Hollywood Bowl grew FY26 group revenue 4.3% to a record £261.6m and expects adjusted PBT growth in line with expectations despite record hot weather.",
+    "priority": "high",
+    "priority_reason": "Full-year trading update with revenue figures and confirmation that adjusted PBT will meet expectations.",
+    "figures": [
+      {
+        "metric": "Group revenue",
+        "current": "£261.6m",
+        "prior": "not stated",
+        "change": "+4.3%",
+        "basis": "reported",
+        "note": "FY to 30 September 2026"
+      },
+      {
+        "metric": "UK total revenue",
+        "current": "£219.9m",
+        "prior": "not stated",
+        "change": "+3.5%",
+        "basis": "reported vs FY25",
+        "note": "FY26"
+      },
+      {
+        "metric": "Canada total revenue",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+9.0%",
+        "basis": "reported vs FY25",
+        "note": "FY26"
+      },
+      {
+        "metric": "Canada LFL growth (H2)",
+        "current": "2.7%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "constant currency",
+        "note": "H2 FY26"
+      },
+      {
+        "metric": "Net cash",
+        "current": "£13.5m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "closing",
+        "note": "year-end 30 September 2026"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Company-compiled consensus for Group Adjusted PBT ranges from £48.0m to £53.2m, mean £51.0m (eight analysts)",
+      "current": "Group Adjusted PBT growth for FY26 expected in line with expectations (consensus mean £51.0m)",
+      "commentary": "The group expects to deliver adjusted PBT growth in line with market expectations, with disciplined cost control and dynamic pricing offsetting the short-term hit from record hot weather on UK footfall."
+    },
+    "explainer": "This is a full-year trading update ahead of audited results in December, so it reports top-line revenue and a steer on profit rather than final numbers. Group revenue rose 4.3% to a record £261.6m, but the composition matters: UK growth of 3.5% was held back in the second half by exceptionally hot, dry weather, which depresses demand for indoor leisure, while Canada grew 9.0% in total — largely from newly opened centres rather than existing ones. Canada's like-for-like figure (centres open in both periods) grew a more modest 2.7% in H2, and is quoted on a constant-currency basis, stripping out sterling–Canadian dollar movements.\n\nOn profit, the key point is that Group Adjusted PBT is expected to grow and land in line with expectations. The company frames this against its own compiled consensus of eight analysts, which ranges from £48.0m to £53.2m with a mean of £51.0m — so \"in line\" effectively means around that £51.0m mean. \"Adjusted\" PBT excludes certain one-off items from statutory profit.\n\nGuidance is therefore maintained: management is confirming it still expects to hit consensus despite the weather headwind, helped by cost discipline and dynamic pricing. The business ended the year with £13.5m net cash and completed a £2.9m buyback, underlining the cash generation that funds its expansion pipeline (95 centres now, targeting 103 in FY27 and 130 by 2033).",
+    "source_url": "https://uk.advfn.com/stock-market/london/hollywood-bowl-BOWL/share-news/Hollywood-Bowl-Group-plc-Trading-Statement-Year/99447253",
+    "related_news_url": "https://news.google.com/search?q=%22Hollywood%20Bowl%20Group%20plc%22",
+    "added_at": "2026-10-07T07:56:57.784406"
+  },
+  {
     "company": "Naked Wines PLC",
     "ticker": "WINE",
     "publish_date": "07 October 2026",
