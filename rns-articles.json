@@ -1,5 +1,96 @@
 [
   {
+    "company": "Volution Group plc",
+    "ticker": "FAN",
+    "publish_date": "08 October 2026",
+    "date_iso": "2026-10-08",
+    "time_period": "FY to 31 July 2026",
+    "announcement_type": "Annual results",
+    "period_detail": "FY to 31 July 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Volution Group plc</strong> FY26 (year ended <strong>31 July 2026</strong>): total revenue up <strong>15.7%</strong> to <strong>£484.8m</strong> (2025: £419.1m), of which <strong>+2.8%</strong> organic (constant currency), <strong>+11.0%</strong> inorganic and <strong>+1.9%</strong> favourable FX.</li><li>Adjusted operating profit <strong>£112.4m</strong> (2025: £93.5m); adjusted operating margin <strong>23.2%</strong> (2025: 22.3%), with UK margin up <strong>230bps</strong> despite a challenging UK market.</li><li>Adjusted basic EPS <strong>38.2p</strong> (2025: 33.1p), up <strong>15.4%</strong>; reported profit before tax <strong>£82.1m</strong> (2025: £54.5m); reported basic EPS <strong>31.5p</strong> (2025: 21.0p).</li><li>Total dividend up <strong>18.5%</strong> to <strong>12.8p</strong> (2025: 10.8p); cash conversion <strong>107%</strong>; net debt (ex-leases) <strong>£184.2m</strong> (2025: £126.0m), leverage <strong>1.5x</strong> EBITDA (2025: 1.2x).</li><li>Acquired <strong>AC Industries</strong> in Australasia; post year-end completed acquisition of <strong>getAir</strong> in Germany; first orders won for data-centre ventilation and cooling in Australia.</li><li>Board confident of \"another year of good progress\" in FY27, with <strong>Continental Europe</strong> and <strong>Australasia</strong> expected to drive growth while UK new-build residential remains weak.</li></ul>",
+    "source_format": "html",
+    "headline": "Volution reports FY26 revenue up 15.7% to £484.8m, adjusted EPS up 15.4% to 38.2p and a dividend lifted 18.5% to 12.8p, with the UK market challenging.",
+    "priority": "high",
+    "priority_reason": "Full-year audited results with revenue, profit, EPS and dividend figures plus FY27 outlook.",
+    "figures": [
+      {
+        "metric": "Total revenue",
+        "current": "£484.8m",
+        "prior": "£419.1m",
+        "change": "+15.7%",
+        "basis": "reported; +13.8% constant currency, +2.8% organic cc",
+        "note": "FY to 31 July 2026"
+      },
+      {
+        "metric": "Adjusted operating profit",
+        "current": "£112.4m",
+        "prior": "£93.5m",
+        "change": "not stated",
+        "basis": "adjusted",
+        "note": "margin 23.2% vs 22.3%"
+      },
+      {
+        "metric": "Adjusted basic EPS",
+        "current": "38.2p",
+        "prior": "33.1p",
+        "change": "+15.4%",
+        "basis": "adjusted",
+        "note": ""
+      },
+      {
+        "metric": "Reported profit before tax",
+        "current": "£82.1m",
+        "prior": "£54.5m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": ""
+      },
+      {
+        "metric": "Reported basic EPS",
+        "current": "31.5p",
+        "prior": "21.0p",
+        "change": "not stated",
+        "basis": "reported",
+        "note": ""
+      },
+      {
+        "metric": "Total dividend per share",
+        "current": "12.8p",
+        "prior": "10.8p",
+        "change": "+18.5%",
+        "basis": "final 8.8p plus interim",
+        "note": "cover 3.0x"
+      },
+      {
+        "metric": "Net debt (ex-leases)",
+        "current": "£184.2m",
+        "prior": "£126.0m",
+        "change": "not stated",
+        "basis": "leverage 1.5x vs 1.2x EBITDA",
+        "note": ""
+      },
+      {
+        "metric": "Adjusted operating cash flow",
+        "current": "£122.8m",
+        "prior": "£104.5m",
+        "change": "not stated",
+        "basis": "cash conversion 107%",
+        "note": ""
+      }
+    ],
+    "guidance": {
+      "status": "new",
+      "previous": "",
+      "current": "Board confident of delivering \"another year of good progress\" in FY27, with Continental Europe and Australasia expected to be important drivers of growth; UK market, notably new-build residential, remains challenging.",
+      "commentary": "No formal numeric guidance is given. The outlook is qualitatively positive for FY27, supported by the AC Industries contribution, the getAir acquisition and new data-centre orders in Australia, offset by continued UK residential weakness."
+    },
+    "explainer": "Volution grew total revenue 15.7% to £484.8m, but most of that came from acquisitions (+11.0%) and favourable currency (+1.9%); like-for-like organic growth at constant currency was a more modest +2.8%, with strength in Continental Europe (+5.9%) and Australasia (+3.3%) offsetting a weak UK market. On a constant-currency basis management cites total revenue growth of 13.8%.\n\nMargins improved: adjusted operating margin rose 90bps to 23.2%, helped by a 230bps improvement in the UK despite soft demand there. The adjusted figures strip out items such as acquisition and amortisation costs, which is why reported profit before tax (£82.1m) and reported EPS (31.5p) are well below the adjusted EPS of 38.2p; both reported and adjusted measures rose sharply year on year.\n\nNet debt rose to £184.2m, lifting leverage to 1.5x EBITDA from 1.2x, reflecting the AC Industries acquisition; this is still comfortably within the Group's capacity for further deals and does not include the post-year-end getAir purchase. Cash conversion of 107% was strong.\n\nThere is no quantified guidance. The Board strikes a confident but measured tone for FY27, expecting Continental Europe and Australasia to drive growth, new data-centre ventilation orders in Australia to open a new market, and the UK — particularly new-build housing — to remain the main drag.",
+    "source_url": "https://uk.advfn.com/stock-market/london/volution-FAN/share-news/Volution-Group-plc-Preliminary-Results-for-year-en/99455617",
+    "related_news_url": "https://news.google.com/search?q=%22Volution%20Group%20plc%22",
+    "added_at": "2026-10-08T08:02:16.736102"
+  },
+  {
     "company": "Senior plc",
     "ticker": "SNR",
     "publish_date": "08 October 2026",
