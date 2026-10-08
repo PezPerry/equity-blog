@@ -1,5 +1,57 @@
 [
   {
+    "company": "Starbucks Corp",
+    "ticker": "SBUX",
+    "publish_date": "08 October 2026",
+    "date_iso": "2026-10-08",
+    "time_period": "",
+    "announcement_type": "Dividend declaration",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Starbucks Corporation</strong> will lift its quarterly cash dividend from <strong>$0.62</strong> to <strong>$0.63</strong> per share, an annualised rate of <strong>$2.52</strong>.</li><li>The increase marks the group's <strong>sixteenth consecutive</strong> annual dividend rise; payout has grown at a CAGR of roughly <strong>17%</strong> since the programme began in <strong>2010</strong> at $0.05 per quarter.</li><li>Payable in cash on <strong>27 November 2026</strong> to shareholders of record on <strong>13 November 2026</strong>.</li><li>CFO <strong>Cathy Smith</strong> framed the rise as reflecting confidence in the \"Back to Starbucks\" strategy; routine capital-return news with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Starbucks raises its quarterly cash dividend from $0.62 to $0.63 per share, its sixteenth consecutive annual increase.",
+    "priority": "medium",
+    "priority_reason": "A routine dividend declaration — a modest increase to the quarterly payout with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/SBUX/share-news/Starbucks-Announces-Increase-in-Quarterly-Cash-Div/99454055",
+    "related_news_url": "https://news.google.com/search?q=%22Starbucks%20Corporation%22",
+    "added_at": "2026-10-08T07:36:02.286949"
+  },
+  {
+    "company": "Custodian Property Income Reit",
+    "ticker": "CREI",
+    "publish_date": "08 October 2026",
+    "date_iso": "2026-10-08",
+    "time_period": "",
+    "announcement_type": "Disposal",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li>Sold a petrol filling station on <strong>Beechings Way, Gillingham</strong> to a special purchaser for <strong>£3.75m</strong>, an <strong>8% premium</strong> to the <strong>30 June 2026</strong> valuation.</li><li>Single-let asset with annual passing rent of <strong>£0.3m</strong>, held for almost <strong>12 years</strong>.</li><li>Proceeds to fund accretive capital expenditure; MD <strong>Richard Shepherd-Cross</strong> cites continued ability to sell above book value.</li><li>Routine small disposal with <strong>no impact</strong> on earnings guidance or strategy.</li></ul>",
+    "source_format": "html",
+    "headline": "Custodian Property Income REIT has sold a Gillingham petrol station for £3.75m, an 8% premium to its 30 June 2026 valuation.",
+    "priority": "low",
+    "priority_reason": "Immaterial single-asset disposal (£3.75m) with no impact on strategy or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/eqs/custodian-property-income-reit--crei/custodian-property-income-reit-plc-disposal-/9812509",
+    "related_news_url": "https://news.google.com/search?q=%22Custodian%20Property%20Income%20Reit%22",
+    "added_at": "2026-10-08T07:36:02.249015"
+  },
+  {
     "company": "Aberdeen Group PLC",
     "ticker": "ABDN",
     "publish_date": "08 October 2026",
