@@ -1,5 +1,31 @@
 [
   {
+    "company": "Foresight Group Holdings Limited",
+    "ticker": "FSG",
+    "publish_date": "08 October 2026",
+    "date_iso": "2026-10-08",
+    "time_period": "H1 FY27 (six months to 30 September 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "H1 FY27 (six months to 30 September 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Trading update</strong> for the six months to <strong>30 September 2026</strong> (<strong>H1 FY27</strong>) from FTSE 250 investment manager <strong>Foresight Group Holdings Limited</strong>; no revenue, profit or EPS figures disclosed.</li><li>Management flags that <strong>the timing of institutional real asset fundraising</strong> remains an important factor in delivering <strong>near-term consensus expectations</strong>, while reaffirming medium-term growth confidence.</li><li><strong>A$660m</strong> raised for the <strong>Kinetic</strong> continuation vehicle, ahead of the <strong>A$500m</strong> target (launch subject to regulatory approvals); <strong>€595m</strong> raised to date for <strong>FEIP II</strong>, with more expected.</li><li>Sharpened specialist private markets focus following the <strong>sale of the Group's public markets division</strong>; notable exits in Real Assets and Private Equity delivered material performance fees.</li><li>Group total <strong>Debt under Management (DUM)</strong> fell by <strong>£149m</strong>, as the partial realisation of Kinetic outweighed an <strong>A$185m</strong> ARIF drawdown at financial close of the 130MW Kondinin Wind Farm first stage.</li><li><strong>Interim results</strong> scheduled for <strong>26 November 2026</strong>, with an analyst presentation the same day.</li></ul>",
+    "source_format": "html",
+    "headline": "Foresight reports successful H1 FY27 strategic execution but flags institutional real-asset fundraising timing as a factor for near-term consensus expectations.",
+    "priority": "high",
+    "priority_reason": "Half-year trading update from a FTSE 250 asset manager, flagging a timing risk to near-term consensus expectations.",
+    "figures": [],
+    "guidance": {
+      "status": "maintained",
+      "previous": "",
+      "current": "Medium-term growth \"underpinned by our clear strategy, powerful sector tailwinds and a new product development pipeline\"; no numeric guidance given.",
+      "commentary": "No explicit numeric guidance is issued. Management reaffirms medium-term growth confidence but cautions that the timing of institutional real asset fundraising is an important factor in meeting near-term consensus expectations — a soft caveat rather than a formal downgrade."
+    },
+    "explainer": "This is a qualitative half-year trading update rather than a set of results: Foresight gives no revenue, EBITDA, profit or earnings figures, and these will follow with the interim results on 26 November 2026. The update instead flags business-development progress — retail product demand, fund exits and continuation-vehicle fundraising.\n\nThe key fundraising numbers are gross capital raised, not earnings. The A$660m Kinetic continuation vehicle came in above its A$500m target, and FEIP II (an energy and infrastructure fund) has raised €595m so far, with further inflows expected as the earlier FEIP I portfolio matures. Debt under Management, a measure of the debt capital the Group manages, fell £149m over the period as a realisation from Kinetic was only partly offset by an A$185m drawdown on an Australian wind-farm facility.\n\nThe most trading-relevant line is the caveat on guidance. Management does not change or quantify guidance, but explicitly warns that the timing of institutional real asset fundraising is an important factor in delivering near-term consensus expectations. In analyst language this is a signal that the second half is weighted towards fundraises that may slip, putting near-term forecasts at some risk, even as the Group stresses that medium-term growth remains intact.\n\nNote that the public markets division has been sold, so year-on-year comparatives at the November results will not be like-for-like; the continuing business is now focused on private markets and higher-margin retail products.",
+    "source_url": "https://uk.advfn.com/stock-market/london/foresight-FSG/share-news/Foresight-Group-Holdings-Limited-Trading-update-fo/99455604",
+    "related_news_url": "https://news.google.com/search?q=%22Foresight%20Group%20Holdings%20Limited%22",
+    "added_at": "2026-10-08T07:58:09.654242"
+  },
+  {
     "company": "Supermarket Income Reit PLC",
     "ticker": "SUPR",
     "publish_date": "08 October 2026",
