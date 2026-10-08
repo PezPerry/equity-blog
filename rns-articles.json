@@ -1,5 +1,80 @@
 [
   {
+    "company": "Imperial Brands PLC",
+    "ticker": "IMB",
+    "publish_date": "08 October 2026",
+    "date_iso": "2026-10-08",
+    "time_period": "FY to 30 September 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "FY to 30 September 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Imperial Brands PLC</strong> says it is <strong>on track to deliver full-year FY26 guidance on all metrics</strong>, in its pre-close update ahead of annual results on <strong>17 November 2026</strong>.</li><li>Group adjusted operating profit growth expected <strong>within the 3% to 5% range</strong> (constant currency); <strong>high-single-digit</strong> adjusted EPS growth and <strong>more than £2.2bn</strong> of free cash flow.</li><li><strong>Sixth consecutive year</strong> of tobacco net revenue growth (low-single-digit, constant currency), plus <strong>double-digit NGP net revenue growth</strong> with share gains across heated tobacco, vape and modern oral.</li><li>Completed the <strong>£1.45bn</strong> FY26 buyback and announcing a further <strong>£1.5bn</strong> buyback for FY27, to complete no later than <strong>29 October 2027</strong>.</li><li>FY26 leverage expected at the lower end of the <strong>2.0-2.5x</strong> net debt/EBITDA range; confident of <strong>at least £320m</strong> of savings by 2030.</li><li>FX translation seen as a <strong>c.0% to 0.5% tailwind</strong> to net revenue and operating profit, and a <strong>c.0% to 0.5% headwind</strong> to EPS; average share count <strong>780.9m</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Imperial Brands on track to meet FY26 guidance on all metrics and announces a £1.5bn share buyback for FY27.",
+    "priority": "high",
+    "priority_reason": "Full-year pre-close trading update confirming FY26 guidance on all metrics and launching a new £1.5bn buyback.",
+    "figures": [
+      {
+        "metric": "Group adjusted operating profit growth",
+        "current": "3% to 5% (guidance range)",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "constant currency",
+        "note": "FY26 expectation"
+      },
+      {
+        "metric": "Adjusted EPS growth",
+        "current": "high-single-digit",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "constant currency",
+        "note": "FY26 expectation"
+      },
+      {
+        "metric": "Free cash flow",
+        "current": "more than £2.2bn",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "FY26 expectation"
+      },
+      {
+        "metric": "Tobacco net revenue growth",
+        "current": "low-single-digit",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "constant currency",
+        "note": "sixth consecutive year of growth"
+      },
+      {
+        "metric": "NGP net revenue growth",
+        "current": "double-digit",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "constant currency",
+        "note": "share gains in all three categories"
+      },
+      {
+        "metric": "Share buyback",
+        "current": "£1.5bn (FY27)",
+        "prior": "£1.45bn (FY26, completed)",
+        "change": "not stated",
+        "basis": "",
+        "note": "FY27 buyback to complete no later than 29 October 2027"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "FY26 adjusted operating profit growth of 3% to 5% at constant currency",
+      "current": "On track to deliver full-year FY26 guidance on all metrics: adjusted operating profit growth within 3% to 5%, high-single-digit EPS growth, and more than £2.2bn free cash flow",
+      "commentary": "Imperial reaffirms rather than changes FY26 guidance, confirming it expects to land within its existing ranges across all key metrics. The news is the capital return: a new £1.5bn FY27 buyback follows the completed £1.45bn FY26 programme."
+    },
+    "explainer": "This is a pre-close trading update covering Imperial's financial year to 30 September 2026, issued ahead of full annual results on 17 November. All growth figures are quoted at constant currency, which strips out the effect of exchange-rate moves on translating overseas results; Imperial expects currency to be broadly neutral this year (a small tailwind to revenue and profit, a small headwind to EPS).\n\nThe operational message is steady rather than surprising. Core tobacco net revenue is set to grow for a sixth straight year on pricing and share gains in the US and Germany, partly offset by modest volume declines. Next Generation Products (NGP) — heated tobacco, vape and modern oral nicotine pouches — are growing net revenue at double digits off a smaller base, helped by the Black Buffalo and Helwit acquisitions in oral.\n\nThe headline for shareholders is capital returns. Imperial has finished its £1.45bn FY26 buyback and is committing to a fresh £1.5bn for FY27 under its 'evergreen' programme, on top of a progressive dividend. It notes close to £13bn of cumulative returns since FY21 and a reduction of over 21% in shares outstanding since the programme began in October 2022.\n\nGuidance is maintained, not changed: the company simply confirms it expects to deliver within its existing FY26 ranges on all metrics, with leverage at the lower end of its 2.0-2.5x target.",
+    "source_url": "https://uk.advfn.com/stock-market/london/imperial-brands-IMB/share-news/Imperial-Brands-PLC-Trading-Update/99455596",
+    "related_news_url": "https://news.google.com/search?q=%22Imperial%20Brands%20PLC%22",
+    "added_at": "2026-10-08T07:58:37.363723"
+  },
+  {
     "company": "Foresight Group Holdings Limited",
     "ticker": "FSG",
     "publish_date": "08 October 2026",
