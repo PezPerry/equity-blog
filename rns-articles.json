@@ -1,5 +1,88 @@
 [
   {
+    "company": "UNITE Group PLC",
+    "ticker": "UTG",
+    "publish_date": "08 October 2026",
+    "date_iso": "2026-10-08",
+    "time_period": "Q3 FY2026 (as at 30 September 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "Q3 FY2026 (as at 30 September 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Q3 trading update</strong> to <strong>30 September 2026</strong>: <strong>adjusted EPS guidance of 41.5-43.0p for FY2026</strong> reiterated, based on year-to-date performance and 2026/27 sales.</li><li><strong>95.6%</strong> of Unite Students beds sold for 2026/27 (2025/26: <strong>95.3%</strong>), within <strong>94-96%</strong> guidance; like-for-like income up <strong>0.6%</strong> (Unite share), reflecting a modest occupancy rise and a <strong>0.3%</strong> cut in annual rents (RevPOR).</li><li><strong>Hello Student</strong> <strong>92%</strong> of beds sold (2025/26: <strong>87%</strong>), on track for <strong>c.5%</strong> like-for-like income growth; <strong>Empiric</strong> integration on track for <strong>GBP9m</strong> cost synergies in 2026 and <strong>GBP18m p.a.</strong> run-rate synergies.</li><li>Q3 property valuations down on a like-for-like basis: <strong>USAF</strong> valued at <strong>£2,815m</strong> (<strong>-4.0%</strong>, yield 5.5%) and <strong>LSAV</strong> at <strong>£1,900m</strong> (<strong>-3.4%</strong>, yield 5.1%), driven by yield expansion and lower rental values.</li><li>On track for <strong>£300-400m</strong> (Unite share) of disposals this year; contracted disposals cut pro forma Net debt:EBITDA to <strong>7.3x</strong> (30 June: 7.5x) and LTV to <strong>35%</strong> (30 June: 36%).</li><li>CEO <strong>Joe Lister</strong> says reservations are in line with expectations; surplus disposal capital earmarked for <strong>share buybacks</strong> and university partnerships, targeting leverage of <strong>6-7x</strong> Net debt:EBITDA.</li></ul>",
+    "source_format": "html",
+    "headline": "Unite reiterates FY2026 adjusted EPS guidance of 41.5-43.0p with 95.6% of beds sold, but Q3 property valuations fell 4.0% at USAF and 3.4% at LSAV.",
+    "priority": "high",
+    "priority_reason": "Quarterly trading update with reiterated EPS guidance, disposal progress and material property valuation declines.",
+    "figures": [
+      {
+        "metric": "Beds sold 2026/27 (Unite Students)",
+        "current": "95.6%",
+        "prior": "95.3%",
+        "change": "not stated",
+        "basis": "guidance 94-96%",
+        "note": "2025/26 comparative"
+      },
+      {
+        "metric": "Like-for-like income growth (Unite share)",
+        "current": "+0.6%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "includes -0.3% RevPOR",
+        "note": "leasing performance"
+      },
+      {
+        "metric": "Beds sold 2026/27 (Hello Student)",
+        "current": "92%",
+        "prior": "87%",
+        "change": "not stated",
+        "basis": "",
+        "note": "2025/26 comparative"
+      },
+      {
+        "metric": "USAF property valuation",
+        "current": "£2,815m",
+        "prior": "not stated",
+        "change": "-4.0%",
+        "basis": "like-for-like over quarter; weighted average yield 5.5%",
+        "note": "22,486 beds, 56 properties"
+      },
+      {
+        "metric": "LSAV property valuation",
+        "current": "£1,900m",
+        "prior": "not stated",
+        "change": "-3.4%",
+        "basis": "like-for-like over quarter; weighted average yield 5.1%",
+        "note": "9,710 beds, 14 properties"
+      },
+      {
+        "metric": "Net debt:EBITDA (pro forma)",
+        "current": "7.3x",
+        "prior": "7.5x",
+        "change": "not stated",
+        "basis": "pro forma incl. full-year Empiric contribution and synergies",
+        "note": "30 June 2026 comparative; target 6-7x"
+      },
+      {
+        "metric": "LTV (pro forma)",
+        "current": "35%",
+        "prior": "36%",
+        "change": "not stated",
+        "basis": "pro forma",
+        "note": "30 June 2026 comparative"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Adjusted EPS of 41.5-43.0p in FY2026; £300-400 million (Unite share) of disposals this year",
+      "current": "Adjusted EPS of 41.5-43.0p in FY2026 reiterated; on track for £300-400 million (Unite share) of disposals",
+      "commentary": "Unite reiterated its FY2026 adjusted EPS guidance of 41.5-43.0p and its full-year disposal target of £300-400m (Unite share). Bed sales of 95.6% sit within the 94-96% sales guidance. No numeric change to guidance, though property valuations fell over the quarter."
+    },
+    "explainer": "This is a quarterly operational update rather than full results, so most headline numbers are sales and valuation metrics rather than profit. The key earnings signal is that Unite has held its FY2026 adjusted EPS guidance of 41.5-43.0p, meaning management still expects profitability in line with its earlier July interim outlook despite a softer sales cycle.\n\nThe 0.6% like-for-like income growth (Unite share) is modest and reflects two offsetting moves: a small occupancy gain against a 0.3% cut in average rents. Unite flags a shift towards undergraduates over postgraduates, which shortens average tenancy lengths and dampens direct-let pricing, but leaves scope for extra income from semester and short-term lets. 'Like-for-like' strips out the effect of acquisitions and developments, so it measures the underlying rental performance of the existing estate.\n\nThe standout negative is the quarterly property valuation decline: USAF down 4.0% and LSAV down 3.4% on a like-for-like basis. These falls come from a mix of yield expansion (investors demanding higher returns because interest rates are elevated, which pushes valuations down) and lower rental value assumptions where 2026/27 income is undershooting. For a REIT this directly erodes net asset value, even though it does not change the EPS guidance.\n\nThe leverage figures are presented on a pro forma basis, meaning they assume a full year of the acquired Empiric business and its cost synergies rather than the actual part-year position. Contracted disposals have nudged Net debt:EBITDA down to 7.3x and LTV to 35%, with management aiming to bring leverage into its 6-7x target range and direct any surplus to share buybacks and university partnerships.",
+    "source_url": "https://uk.advfn.com/stock-market/london/unite-UTG/share-news/Unite-Group-PLC-The-Q3-Trading-Update/99455605",
+    "related_news_url": "https://news.google.com/search?q=%22Unite%20Group%20PLC%22",
+    "added_at": "2026-10-08T07:59:13.853979"
+  },
+  {
     "company": "Imperial Brands PLC",
     "ticker": "IMB",
     "publish_date": "08 October 2026",
