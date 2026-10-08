@@ -1,5 +1,31 @@
 [
   {
+    "company": "FirstGroup PLC",
+    "ticker": "FGP",
+    "publish_date": "08 October 2026",
+    "date_iso": "2026-10-08",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li>The <strong>Office of Rail and Road (ORR)</strong> has rejected applications for new West Coast Main Line services, finding that more trains would <strong>increase delays and cancellations</strong> for passengers.</li><li>Rejected bids include <strong>FirstGroup's Lumo</strong> (First Rail Stirling) for up to <strong>four return Rochdale-Euston services</strong>, <strong>WSMR's</strong> four return <strong>Wrexham-London Euston</strong> services, and <strong>Avanti West Coast's</strong> additional <strong>Blackpool-Euston</strong> services.</li><li>ORR found capacity and performance on the southern West Coast Main Line <strong>had not materially changed</strong> since similar applications were rejected in <strong>July 2025</strong>; an external review supported this.</li><li>ORR did approve <strong>Avanti's</strong> weekday <strong>19:29 Chester-Euston</strong> service to carry passengers until <strong>December 2030</strong>, as it already runs as an empty crewed service.</li><li>Routine regulatory decision with <strong>no direct impact</strong> on FirstGroup's current trading or guidance, but constrains open-access rail growth plans.</li></ul>",
+    "source_format": "html",
+    "headline": "ORR has rejected new West Coast Main Line services, including Lumo's proposed Rochdale-Euston route, citing capacity constraints and worsening delays.",
+    "priority": "medium",
+    "priority_reason": "Regulatory rejection of open-access growth plans affecting FirstGroup's Lumo, though no direct impact on results or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/firstgroup-FGP/share-news/Office-of-Rail-and-Road-ORR-rejects-new-West-Coast/99455607",
+    "related_news_url": "https://news.google.com/search?q=%22FirstGroup%20plc%22",
+    "added_at": "2026-10-08T08:00:50.174628"
+  },
+  {
     "company": "UNITE Group PLC",
     "ticker": "UTG",
     "publish_date": "08 October 2026",
