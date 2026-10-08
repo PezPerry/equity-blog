@@ -1,5 +1,80 @@
 [
   {
+    "company": "Trekor Metals Limited",
+    "ticker": "TKO",
+    "publish_date": "08 October 2026",
+    "date_iso": "2026-10-08",
+    "time_period": "Q3 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "Q3 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Total Q3 copper production of 41 million pounds</strong>: <strong>34 million pounds</strong> at Gibraltar and <strong>7 million pounds</strong> of cathode at Florence Copper.</li><li>Gibraltar quarterly production rose <strong>12%</strong> on higher Connector Pit grades, greater mill throughput and improved SX/EW performance; also produced <strong>380 thousand pounds</strong> of molybdenum, with copper sales of <strong>31 million pounds</strong>.</li><li>Gibraltar full-year guidance <strong>raised to 115-120 million pounds</strong>, up from original <strong>110-115 million pounds</strong>; Q4 grades and recoveries expected lower as mining moves to the upper benches.</li><li>Florence Copper cathode output of <strong>7 million pounds</strong>, up <strong>36%</strong> on the prior period; full ramp-up now expected in <strong>early 2027</strong>, about three months behind plan on wellfield expansion.</li><li>Florence 2026 production now guided to <strong>25-28 million pounds</strong>; commercial production formally marked on <strong>6 October</strong> with <strong>EPA Administrator Lee Zeldin</strong> attending.</li><li>CEO <strong>Stuart McDonald</strong> cited strong wellfield flow rates and high-quality cathode with no impurities; analyst/investor site tour hosted <strong>8 October</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Trekor produced 41 million pounds of copper in Q3 2026 and raised full-year Gibraltar guidance to 115-120 million pounds.",
+    "priority": "high",
+    "priority_reason": "Quarterly production update carrying raised full-year guidance at Gibraltar plus a quantified 2026 target for the ramping Florence Copper mine.",
+    "figures": [
+      {
+        "metric": "Total copper production",
+        "current": "41m lbs",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "Q3 2026, Gibraltar plus Florence"
+      },
+      {
+        "metric": "Gibraltar copper production",
+        "current": "34m lbs",
+        "prior": "not stated",
+        "change": "+12%",
+        "basis": "",
+        "note": "Q3 2026, quarter-on-quarter"
+      },
+      {
+        "metric": "Gibraltar molybdenum production",
+        "current": "380k lbs",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "Gibraltar copper sales",
+        "current": "31m lbs",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "Florence Copper cathode production",
+        "current": "7m lbs",
+        "prior": "not stated",
+        "change": "+36%",
+        "basis": "",
+        "note": "Q3 2026, vs prior period"
+      },
+      {
+        "metric": "Florence Copper sales",
+        "current": "7m lbs",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "Q3 2026"
+      }
+    ],
+    "guidance": {
+      "status": "raised",
+      "previous": "Gibraltar original guidance of 110 to 115 million pounds of copper for the year.",
+      "current": "Gibraltar now expected to produce 115 to 120 million pounds of copper; Florence Copper now expected to produce 25 to 28 million pounds in 2026.",
+      "commentary": "Gibraltar's full-year copper guidance was lifted after strong production through three quarters, driven by higher-grade Connector Pit ore. Separately, Trekor set a 2026 target of 25-28 million pounds at Florence Copper and pushed completion of the ramp-up to full capacity into early 2027, roughly three months later than originally planned, because of slower wellfield expansion drilling."
+    },
+    "explainer": "The figures are production volumes, measured in pounds of copper and molybdenum, rather than financial results. Total Q3 output of 41 million pounds combines 34 million pounds mined and processed at the established Gibraltar mine and 7 million pounds of copper cathode from the newer Florence Copper in-situ operation, which is still ramping up. 'Sales' figures (31 million pounds at Gibraltar, 7 million at Florence) reflect metal actually shipped in the quarter, which can differ from production because of timing.\n\nThe quarter-on-quarter comparisons are flattering for reasons the company flags. Gibraltar's 12% rise came from mining the high-grade bottom of the Connector Pit, and management warns Q4 will see lower grades and recoveries as mining moves back to the upper benches — so this quarter is a near-term peak, not a run rate. Florence's 36% jump reflects a plant that is still being brought up to design capacity, so growth is expected as more wells come online.\n\nOn guidance, there are two distinct moves. Gibraltar's full-year target was raised to 115-120 million pounds from 110-115 million, a genuine upgrade based on strong year-to-date output. Florence is the opposite story: the company put a 2026 figure of 25-28 million pounds on the table and conceded the wellfield expansion is about three months behind plan, pushing the completion of the full-capacity ramp-up into early 2027. The headline raise at Gibraltar therefore sits alongside a slower-than-planned build at Florence.",
+    "source_url": "https://uk.advfn.com/stock-market/london/trekor-metals-TKO/share-news/Trekor-Announces-41-Million-Pounds-of-Copper-Produ/99459240",
+    "related_news_url": "https://news.google.com/search?q=%22Trekor%20Metals%22",
+    "added_at": "2026-10-08T12:57:04.209931"
+  },
+  {
     "company": "Lloyds Banking Group PLC",
     "ticker": "LLOY",
     "publish_date": "08 October 2026",
