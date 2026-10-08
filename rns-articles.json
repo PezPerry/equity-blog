@@ -365,6 +365,121 @@
     "added_at": "2026-10-08T07:16:19.176239"
   },
   {
+    "company": "Tesco PLC",
+    "ticker": "TSCO",
+    "publish_date": "07 October 2026",
+    "date_iso": "2026-10-07",
+    "time_period": "H1 2026/27 (26 weeks to 29 August 2026)",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 2026/27 (26 weeks to 29 August 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Tesco PLC</strong> H1 2026/27 (26 weeks to <strong>29 August 2026</strong>): Group adjusted operating profit up <strong>+6.3%</strong> at constant rates to <strong>£1,783m</strong>, with UK & ROI <strong>+6.0%</strong> to <strong>£1,557m</strong>, Booker <strong>+0.1%</strong> to <strong>£163m</strong> and Central Europe <strong>+38.4%</strong> to <strong>£63m</strong>.</li><li>Group sales up <strong>+1.6%</strong> at constant rates (<strong>UK +2.1%</strong>); Group like-for-like <strong>+1.0%</strong>, with <strong>UK +1.5%</strong> (Food <strong>+2.4%</strong>), <strong>ROI +4.1%</strong>, <strong>CE +0.4%</strong> and <strong>Booker (2.6)%</strong>.</li><li>Adjusted diluted EPS up <strong>+12.2%</strong> to <strong>17.3p</strong>; statutory operating profit <strong>£1,709m</strong> (<strong>+6.6%</strong>) and statutory diluted EPS <strong>+17.4%</strong>.</li><li>Free cash flow of <strong>£1,570m</strong>, including a <strong>c.£250m</strong> net benefit from payroll-cycle timing that unwinds in H2; net debt down <strong>5.0%</strong> vs FY25/26 to <strong>£(10,037)m</strong>, net debt/EBITDA <strong>2.0x</strong>.</li><li>Full-year share buyback increased to <strong>£950m</strong> from <strong>£750m</strong>, citing a strong balance sheet and sustained cash flow.</li><li><strong>£251m</strong> of Save to Invest savings delivered, on track for the <strong>£500m</strong> full-year target; Whoosh up <strong>+37%</strong> and on track for <strong>£500m+</strong> sales this year; UK Worldpanel market share <strong>27.8%</strong> ((24)bps YoY).</li></ul>",
+    "source_format": "html",
+    "headline": "Tesco H1 2026/27 adjusted operating profit up 6.3% to £1,783m on 1.6% sales growth; full-year buyback raised to £950m from £750m.",
+    "priority": "high",
+    "priority_reason": "Interim results from the UK's largest grocer, with profit growth, raised buyback and detailed trading metrics.",
+    "figures": [
+      {
+        "metric": "Group adjusted operating profit",
+        "current": "£1,783m",
+        "prior": "not stated",
+        "change": "+6.3%",
+        "basis": "constant rates",
+        "note": "H1 to 29 August 2026"
+      },
+      {
+        "metric": "UK & ROI adjusted operating profit",
+        "current": "£1,557m",
+        "prior": "not stated",
+        "change": "+6.0%",
+        "basis": "constant rates",
+        "note": "H1"
+      },
+      {
+        "metric": "Booker adjusted operating profit",
+        "current": "£163m",
+        "prior": "not stated",
+        "change": "+0.1%",
+        "basis": "",
+        "note": "H1"
+      },
+      {
+        "metric": "Central Europe adjusted operating profit",
+        "current": "£63m",
+        "prior": "not stated",
+        "change": "+38.4%",
+        "basis": "",
+        "note": "H1"
+      },
+      {
+        "metric": "Adjusted diluted EPS",
+        "current": "17.3p",
+        "prior": "not stated",
+        "change": "+12.2%",
+        "basis": "",
+        "note": "H1"
+      },
+      {
+        "metric": "Statutory operating profit",
+        "current": "£1,709m",
+        "prior": "not stated",
+        "change": "+6.6%",
+        "basis": "actual exchange rates",
+        "note": "H1"
+      },
+      {
+        "metric": "Statutory diluted EPS",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+17.4%",
+        "basis": "",
+        "note": "H1"
+      },
+      {
+        "metric": "Free cash flow",
+        "current": "£1,570m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "includes c.£250m payroll-timing benefit unwinding in H2"
+      },
+      {
+        "metric": "Net debt",
+        "current": "£(10,037)m",
+        "prior": "not stated",
+        "change": "-5.0%",
+        "basis": "vs FY25/26",
+        "note": "net debt/EBITDA 2.0x"
+      },
+      {
+        "metric": "Group sales",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+1.6%",
+        "basis": "constant rates",
+        "note": "UK +2.1%"
+      },
+      {
+        "metric": "Group like-for-like sales",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+1.0%",
+        "basis": "",
+        "note": "UK +1.5%, ROI +4.1%, CE +0.4%, Booker (2.6)%"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "£500m Save to Invest full-year target; Whoosh sales of over £500m this year",
+      "current": "On track to deliver £500m Save to Invest target for the full year; Whoosh on track for sales of over £500m this year",
+      "commentary": "No new full-year profit guidance figure is printed; Tesco reaffirms its £500m Save to Invest and Whoosh sales targets. Separately, the full-year share buyback has been raised to £950m from £750m, a capital-return increase rather than a profit upgrade."
+    },
+    "explainer": "These are half-year results for the 26 weeks to 29 August 2026. Sales growth is quoted mainly at constant exchange rates and on a like-for-like basis (stripping out new and closed space and currency), so the headline +1.6% group sales and +1.0% group LFL reflect underlying trading rather than reported totals. UK Food LFL of +2.4% is the key domestic read-through; Booker's LFL of (2.6)% is a drag, partly offset by better buying.\n\nAdjusted operating profit of £1,783m (+6.3%) excludes certain one-off and non-cash items; statutory operating profit of £1,709m is the full reported figure. Statutory diluted EPS grew faster (+17.4%) than adjusted EPS (+12.2%) largely because of favourable mark-to-market movements on financial instruments, which are accounting swings rather than trading gains.\n\nFree cash flow of £1,570m flatters the half by roughly £250m due to the timing of the payroll cycle; Tesco flags this reverses in H2, so the full-year cash picture will look less strong. Net debt fell 5.0% to £10.0bn with net debt/EBITDA at a comfortable 2.0x.\n\nOn guidance, there is no new full-year profit number here. Tesco reaffirms its £500m Save to Invest cost-savings target (£251m delivered so far) and the £500m-plus Whoosh sales ambition. The clearest shareholder-facing change is the full-year buyback being lifted to £950m from £750m, reflecting balance-sheet strength rather than an earnings upgrade.",
+    "source_url": "https://uk.advfn.com/stock-market/london/tesco-TSCO/share-news/Tesco-PLC-Interim-Results-2026-27/99455601",
+    "related_news_url": "https://news.google.com/search?q=%22Tesco%20PLC%22",
+    "added_at": "2026-10-08T08:00:06.108605"
+  },
+  {
     "company": "On The Beach Group PLC",
     "ticker": "OTB",
     "publish_date": "07 October 2026",
