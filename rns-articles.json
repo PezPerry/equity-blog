@@ -1,5 +1,80 @@
 [
   {
+    "company": "CME Group Inc",
+    "ticker": "CME",
+    "publish_date": "08 October 2026",
+    "date_iso": "2026-10-08",
+    "time_period": "Q3 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "Q3 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>International ADV</strong> reached <strong>9 million contracts</strong> in <strong>Q3 2026</strong>, <strong>up 22%</strong> year-on-year, driven by <strong>Energy (+40%)</strong>, <strong>Agricultural (+28%)</strong> and <strong>Equity Index (+24%)</strong> products.</li><li><strong>Global ADV</strong> of <strong>29.4 million contracts</strong>, <strong>up 16%</strong> on Q3 2025, led by <strong>Equity Index (+23%)</strong> and <strong>Foreign Exchange (+19%)</strong>; volumes exceeded the prior Q3 record set in 2024.</li><li>All international regions grew at least 20%: <strong>EMEA +20%</strong> to <strong>6.5m</strong>, <strong>APAC +28%</strong> to <strong>2.1m</strong>, <strong>Canada +21%</strong> to <strong>194,000</strong>, <strong>Latin America +24%</strong> to <strong>188,000</strong>.</li><li><strong>Julie Winkler</strong>, Chief Commercial Officer, cited geopolitical uncertainty and inflation driving customers to CME to manage risk; volume data only, <strong>no revenue, profit or guidance</strong> stated.</li></ul>",
+    "source_format": "html",
+    "headline": "CME Group's international average daily volume rose 22% year-on-year to 9 million contracts in Q3 2026, with global ADV up 16% to 29.4 million.",
+    "priority": "medium",
+    "priority_reason": "Quarterly volume metrics for a major exchange operator, indicative of revenue trajectory but with no profit or guidance content.",
+    "figures": [
+      {
+        "metric": "International ADV",
+        "current": "9 million contracts",
+        "prior": "not stated",
+        "change": "+22%",
+        "basis": "year-on-year",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "Global ADV",
+        "current": "29.4 million contracts",
+        "prior": "not stated",
+        "change": "+16%",
+        "basis": "year-on-year",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "EMEA ADV",
+        "current": "6.5 million contracts",
+        "prior": "not stated",
+        "change": "+20%",
+        "basis": "year-on-year",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "APAC ADV",
+        "current": "2.1 million contracts",
+        "prior": "not stated",
+        "change": "+28%",
+        "basis": "year-on-year",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "Canada ADV",
+        "current": "194,000 contracts",
+        "prior": "not stated",
+        "change": "+21%",
+        "basis": "year-on-year",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "Latin America ADV",
+        "current": "188,000 contracts",
+        "prior": "not stated",
+        "change": "+24%",
+        "basis": "year-on-year",
+        "note": "Q3 2026"
+      }
+    ],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "Average daily volume (ADV) measures the number of futures and options contracts traded per day across CME's markets. It is an activity metric, not a financial result: higher volumes generally translate into higher clearing and transaction fees, which is why traders watch it as a lead indicator for an exchange's revenue, but this release contains no revenue, profit or earnings figures.\n\nThe comparatives here are all year-on-year, measuring Q3 2026 against Q3 2025. \"International\" ADV captures all trading reported outside the United States (9 million contracts, up 22%), while \"global\" ADV is the total across all regions (29.4 million contracts, up 16%). The international and regional figures are therefore a subset of the global total.\n\nGrowth was broad-based, with every international region up at least 20% and strength concentrated in Energy, Agricultural and Equity Index products internationally, and Equity Index and Foreign Exchange products globally. Management attributes the rise to elevated market volatility from geopolitical tension and inflation, prompting more hedging activity.\n\nNo financial guidance is given or changed in this announcement; it is a routine quarterly volume disclosure.",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/CME/share-news/CME-Groups-International-Average-Daily-Volume-Rise/99456572",
+    "related_news_url": "https://news.google.com/search?q=%22CME%20Group%20Inc.%22",
+    "added_at": "2026-10-08T08:56:27.061874"
+  },
+  {
     "company": "Ithaca Energy plc",
     "ticker": "ITH",
     "publish_date": "08 October 2026",
