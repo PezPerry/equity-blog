@@ -1,5 +1,56 @@
 [
   {
+    "company": "Vodafone Group PLC",
+    "ticker": "VOD",
+    "publish_date": "08 October 2026",
+    "date_iso": "2026-10-08",
+    "time_period": "Medium-term targets to FY32 (CAGR FY25-32)",
+    "announcement_type": "Trading update",
+    "period_detail": "Medium-term targets to FY32 (CAGR FY25-32)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Vodafone Group Plc</strong> upgraded its <strong>VodafoneThree</strong> annual cost-savings target to <strong>£1 billion by FY32</strong>, from a previously stated <strong>£0.7 billion by FY30</strong>.</li><li>New target of <strong>mid-to-high single digit</strong> Adjusted EBITDAaL growth (<strong>FY25-32 CAGR</strong>) and operating free cash flow to <strong>more than triple by FY32</strong> versus FY25.</li><li>Return on capital employed targeted to <strong>exceed cost of capital by FY32</strong> and be materially above by <strong>FY34</strong>; <strong>£11 billion</strong> 10-year UK network investment plan reaffirmed.</li><li>Positioned as a key driver of Group's medium-term ambition for <strong>double-digit organic growth in Adjusted Free Cash Flow</strong>; CEO <strong>Margherita Della Valle</strong> cited greater confidence in the opportunity.</li><li>Inconsistency in the source: the summary and CEO quote cite the previous cost target as <strong>£0.7bn by FY30</strong>, but the new-targets table states <strong>£0.8bn p.a. by FY30</strong> — the FY30 baseline is quoted two different ways.</li><li>Investor briefing webcast at <strong>13:00 BST</strong> today; these are targets only, not a profit forecast.</li></ul>",
+    "source_format": "html",
+    "headline": "Vodafone upgrades VodafoneThree cost-savings target to **£1 billion** a year by **FY32** and sets new UK EBITDAaL and cash-flow growth targets.",
+    "priority": "high",
+    "priority_reason": "Vodafone has issued new, bolder medium-term financial targets for its UK VodafoneThree business and upgraded its cost-savings target, a guidance-relevant strategic update.",
+    "figures": [
+      {
+        "metric": "Annual cost-savings target",
+        "current": "£1 billion per annum by FY32",
+        "prior": "£0.7 billion by FY30 (per summary/CEO quote; table states £0.8bn p.a. by FY30)",
+        "change": "upgraded",
+        "basis": "VodafoneThree UK",
+        "note": "source quotes FY30 figure inconsistently"
+      },
+      {
+        "metric": "Adjusted EBITDAaL growth",
+        "current": "mid-to-high single digit CAGR (FY25-32)",
+        "prior": "not stated",
+        "change": "new target",
+        "basis": "not stated",
+        "note": "non-GAAP"
+      },
+      {
+        "metric": "Operating free cash flow growth",
+        "current": "over 3x versus FY25 by FY32",
+        "prior": "not stated",
+        "change": "new target",
+        "basis": "Adjusted EBITDAaL less capital additions",
+        "note": "non-GAAP"
+      }
+    ],
+    "guidance": {
+      "status": "raised",
+      "previous": "Cost-savings target of £0.7 billion per annum by FY30 (the new-targets table instead states £0.8 billion p.a. by FY30)",
+      "current": "Cost-savings target of £1 billion per annum by FY32; mid-to-high single digit Adjusted EBITDAaL growth CAGR FY25-32; operating free cash flow to more than triple versus FY25 by FY32; ROCE to exceed cost of capital by FY32 and be materially above by FY34",
+      "commentary": "Vodafone upgraded its VodafoneThree cost-savings target and set new medium-term EBITDAaL, cash-flow and returns targets, citing confidence in its execution plan, completion of the network build, network rationalisation and the benefits of full Group ownership. The announcement stresses these are targets, not profit forecasts."
+    },
+    "explainer": "This is a strategy and targets update for VodafoneThree, the UK mobile and fixed business created by the June 2025 merger of Vodafone UK and Three UK. The headline change is an upgraded cost-savings target: Vodafone now aims for £1 billion of annual savings by FY32, up from a previously communicated figure. Note the source is internally inconsistent on that prior figure — the summary and the CEO quote say the old target was £0.7 billion by FY30, while the new-targets table says £0.8 billion by FY30. Either way, the ambition is being raised and the horizon extended to FY32.\n\nAlongside the cost target, Vodafone set three new medium-term goals: mid-to-high single digit annual growth in Adjusted EBITDAaL (a non-GAAP earnings measure, after leasing costs) over FY25 to FY32; operating free cash flow (defined here as Adjusted EBITDAaL less capital additions) to more than triple by FY32 versus the FY25 starting point; and return on capital employed to exceed the cost of capital by FY32, rising materially above it by FY34.\n\nThese are forward-looking targets rather than reported results, so there are no actual current-versus-prior trading figures in this release. Vodafone explicitly states that nothing here is a profit forecast and that synergy and cost savings may not be achieved, or may land earlier, later or differently than estimated.\n\nFor context, the targets sit behind a 10-year, £11 billion UK network investment plan and are framed as a key contributor to the Group's medium-term ambition of double-digit organic growth in Adjusted Free Cash Flow.",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/vodafone-group--vod/vodafonethree-investor-briefing/9812201",
+    "related_news_url": "https://news.google.com/search?q=%22Vodafone%20Group%22",
+    "added_at": "2026-10-08T07:37:04.920597"
+  },
+  {
     "company": "Starbucks Corp",
     "ticker": "SBUX",
     "publish_date": "08 October 2026",
