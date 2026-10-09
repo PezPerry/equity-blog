@@ -1,5 +1,31 @@
 [
   {
+    "company": "Ferrexpo PLC",
+    "ticker": "FXPO",
+    "publish_date": "09 October 2026",
+    "date_iso": "2026-10-09",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li>All resolutions at <strong>Ferrexpo plc</strong>'s General Meeting on <strong>9 October 2026</strong> were passed on a poll, each with over <strong>99.6%</strong> of votes cast in favour.</li><li>Receipt of the <strong>2025 Report and Accounts</strong> carried on <strong>99.68%</strong> for; the <strong>Remuneration Report</strong> on <strong>99.63%</strong> for.</li><li>Re-appointment of <strong>MHA Audit Services LLP</strong> as auditors passed on <strong>99.67%</strong>, as did authorising the Audit Committee to set the auditor's remuneration.</li><li>Issued share capital stood at <strong>1,046,985,626 Ordinary Shares</strong>, each carrying one vote; routine disclosure with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Ferrexpo shareholders passed all resolutions at the 9 October 2026 General Meeting, each carried on over 99.6% of votes cast.",
+    "priority": "low",
+    "priority_reason": "Routine General Meeting voting results with all resolutions passed comfortably; no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/ferrexpo--fxpo/result-of-meeting/9816048",
+    "related_news_url": "https://news.google.com/search?q=%22Ferrexpo%22",
+    "added_at": "2026-10-09T12:15:48.789087"
+  },
+  {
     "company": "Dunelm Group PLC",
     "ticker": "DNLM",
     "publish_date": "09 October 2026",
