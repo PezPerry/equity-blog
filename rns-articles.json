@@ -1,5 +1,57 @@
 [
   {
+    "company": "Trainline PLC",
+    "ticker": "TRN",
+    "publish_date": "09 October 2026",
+    "date_iso": "2026-10-09",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>ORR</strong> has opened a consultation on a draft <strong>Retail Code of Practice</strong> to safeguard a fair, open online rail ticket market under <strong>Great British Railways (GBR)</strong>.</li><li>GBR will run most passenger services, set the customer offer and sell tickets, while also managing the central IT systems, data and third-party licences that <strong>non-GBR online retailers</strong> (independent retailers such as <strong>Trainline</strong>, open access and devolved operators) rely on.</li><li>The draft Code would require GBR to give non-GBR retailers <strong>fair, transparent and non-discriminatory access</strong> to fares, products and systems, without giving its own retail arm an undue advantage; GBR would comply via its licence and remain subject to competition law.</li><li>GBR's future online retailer will replace the <strong>14 websites and apps</strong> of DfT-contracted train operators; retail management functions currently held by the <strong>Rail Delivery Group</strong> move to GBR.</li><li>Consultation closes <strong>11 December 2026</strong>, with the final Retail Code expected in <strong>spring 2027</strong> — no immediate impact on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "The **Office of Rail and Road** has launched a consultation on a draft Retail Code of Practice to keep the online rail ticket market fair and open as **Great British Railways** takes over rail retail.",
+    "priority": "medium",
+    "priority_reason": "A regulatory consultation that could shape competition rules for independent online ticket retailers like Trainline under Great British Railways, but it is only a draft code with no immediate effect.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/trainline-TRN/share-news/Office-of-Rail-and-Road-ORR-proposals-for-rail-tic/99464322",
+    "related_news_url": "https://news.google.com/search?q=%22Trainline%20plc%22",
+    "added_at": "2026-10-09T07:57:09.085630"
+  },
+  {
+    "company": "DCC Energy plc",
+    "ticker": "DCC",
+    "publish_date": "09 October 2026",
+    "date_iso": "2026-10-09",
+    "time_period": "",
+    "announcement_type": "Acquisition / deal",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>DCC Energy plc</strong> has signed a share purchase agreement to sell its technology division <strong>Nexora</strong> to funds advised by <strong>One Equity Partners</strong>, valuing Nexora at a <strong>US$725m</strong> enterprise value on a cash-free, debt-free basis.</li><li>The Technology Disposal is subject to customary regulatory approvals and is expected to complete <strong>on or after 1 March 2027</strong>.</li><li>Under the recommended acquisition of DCC Energy by <strong>Dragon Bidco Limited</strong> (announced <strong>27 July 2026</strong>, approved by shareholders <strong>18 September 2026</strong>), holders receive <strong>6,525p in cash</strong> plus additional consideration of <strong>up to 125p per share</strong> tied to the Nexora disposal proceeds.</li><li>Additional consideration scales linearly between <strong>zero and 125p</strong> for net proceeds of <strong>US$650m–US$800m</strong>; assuming a 1 March 2027 completion, net proceeds are estimated at <strong>US$701m</strong>, giving estimated additional consideration of <strong>42p per share</strong>.</li><li>Figures are estimates only; if the consideration conditions are not satisfied (or waived by Bidco) by <strong>31 July 2027</strong>, the additional consideration will be <strong>zero</strong>, with no guarantee the disposal completes.</li><li>Jefferies is sole financial adviser on the disposal; <strong>Donal Murphy</strong>, CEO, said the deal recognises the quality of the Nexora business and, subject to completion, will deliver additional value for shareholders.</li></ul>",
+    "source_format": "html",
+    "headline": "DCC Energy agrees to sell technology division Nexora to One Equity Partners at a US$725m enterprise value, triggering estimated extra bid consideration of 42p per share.",
+    "priority": "high",
+    "priority_reason": "M&A disposal that sets the estimated additional cash consideration payable to shareholders under the recommended takeover of DCC Energy.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/dcc-energy-DCC/share-news/DCC-Energy-PLC-Nexora-Sale-and-Additional-Consider/99464312",
+    "related_news_url": "https://news.google.com/search?q=%22DCC%20Energy%20plc%22",
+    "added_at": "2026-10-09T07:57:09.065360"
+  },
+  {
     "company": "Airtel Africa plc",
     "ticker": "AAF",
     "publish_date": "09 October 2026",
