@@ -1,5 +1,72 @@
 [
   {
+    "company": "Caledonia Mining Corporation Plc",
+    "ticker": "CMCL",
+    "publish_date": "09 October 2026",
+    "date_iso": "2026-10-09",
+    "time_period": "Q3 2026 (quarter ended 30 September 2026); guidance FY to December 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "Q3 2026 (quarter ended 30 September 2026); guidance FY to December 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Q3 2026</strong> gold production of <strong>17,030 ounces</strong>, down from <strong>19,106 ounces</strong> in Q3 2025, at the <strong>Blanket Mine</strong> in Zimbabwe.</li><li>Nine-month production <strong>49,158 ounces</strong> versus <strong>58,846 ounces</strong> a year earlier, hit by a shortage of compressed air at deeper high-grade areas and roughly <strong>1,100 ounces</strong> of free-gold temporarily retained in the metallurgical plant.</li><li>FY 2026 production guidance <strong>lowered</strong> to <strong>69,000-72,500 ounces</strong> from <strong>72,000-76,500 ounces</strong>, implying Q4 output of about <strong>19,800-23,300 ounces</strong>.</li><li>On-mine cost guidance raised to <strong>US$1,700-US$1,900/oz</strong> (from US$1,600-US$1,800) and <strong>AISC</strong> to <strong>US$2,650-US$2,850/oz</strong> (from US$2,500-US$2,700).</li><li>Group FY 2026 capex cut to <strong>US$94.3m</strong> from <strong>US$103.3m</strong>, reflecting timing of the 132kV power line project slipping into 2027, not a scope reduction.</li><li>CEO <strong>Mark Learmonth</strong> says two of four new compressors deployed and the remaining two en route, with normalised production anticipated in Q4.</li></ul>",
+    "source_format": "html",
+    "headline": "Caledonia cuts FY 2026 Blanket Mine gold production guidance to 69,000-72,500oz after a Q3 shortfall caused by compressed-air shortages and gold retained in the plant.",
+    "priority": "high",
+    "priority_reason": "Q3 production missed, triggering a cut to full-year production guidance and higher cost guidance.",
+    "figures": [
+      {
+        "metric": "Gold production (Q3)",
+        "current": "17,030 oz",
+        "prior": "19,106 oz",
+        "change": "-10.9%",
+        "basis": "100% basis, subject to final assay",
+        "note": "quarter ended 30 September 2026"
+      },
+      {
+        "metric": "Gold production (9 months)",
+        "current": "49,158 oz",
+        "prior": "58,846 oz",
+        "change": "-16.5%",
+        "basis": "100% basis",
+        "note": "nine months ended 30 September 2026"
+      },
+      {
+        "metric": "Tonnes milled (Q3)",
+        "current": "215,539",
+        "prior": "212,504",
+        "change": "+1.4%",
+        "basis": "not stated",
+        "note": "Q3"
+      },
+      {
+        "metric": "Grade (BUH, Q3)",
+        "current": "2.67",
+        "prior": "3.00",
+        "change": "not stated",
+        "basis": "g/t",
+        "note": "Q3"
+      },
+      {
+        "metric": "Recovery (Q3)",
+        "current": "92.2%",
+        "prior": "93.3%",
+        "change": "not stated",
+        "basis": "not stated",
+        "note": "Q3"
+      }
+    ],
+    "guidance": {
+      "status": "lowered",
+      "previous": "Blanket FY 2026 production 72,000-76,500 oz; on-mine cost US$1,600-US$1,800/oz; AISC US$2,500-US$2,700/oz; Group capex US$103.3m",
+      "current": "Blanket FY 2026 production 69,000-72,500 oz; on-mine cost US$1,700-US$1,900/oz; AISC US$2,650-US$2,850/oz; Group capex US$94.3m",
+      "commentary": "Production guidance was cut following the Q3 shortfall, and per-ounce costs rise because they are spread over lower volumes. Capex was trimmed only on timing, with components of the 132kV power line project deferred into 2027 rather than cancelled."
+    },
+    "explainer": "The production figures are reported on a 100 per cent basis and remain subject to final refiner assays, so the ounce counts could be revised slightly. Both the quarterly and nine-month totals are down year on year, with grade falling to 2.67 g/t in Q3 (from 3.00) and recovery slipping to 92.2 per cent — the combined effect of insufficient compressed air in the deeper, higher-grade 30 and 34 levels and the delayed delivery of four new compressors.\n\nA further roughly 1,100 ounces of free-gold were held up in the metallurgical plant during the commissioning of new gravity-circuit equipment. That gold is not lost — management expects to recover it from mid-October once extra elution capacity is running, which is partly why Q4 is guided higher.\n\nOn guidance, the headline is a cut to full-year Blanket production of about 3,500-4,000 ounces at each end of the range. Because mine costs are largely fixed, spreading them over fewer ounces pushes both on-mine cost and AISC per ounce up by roughly US$100-150. The capex reduction is different in nature: it is a timing deferral of 132kV power-line spend into 2027, not a reduction in the overall investment programme, and management says it does not impair the Group's ability to self-fund the Bilboes development from internal cash flow.",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/caledonia-mining-corporation-di---cmcl/blanket-mine-q3-production-and-revised-guidance-/9814525",
+    "related_news_url": "https://news.google.com/search?q=%22Caledonia%20Mining%20Corporation%20(DI)%22",
+    "added_at": "2026-10-09T07:36:51.053737"
+  },
+  {
     "company": "MJ Gleeson PLC",
     "ticker": "GLE",
     "publish_date": "09 October 2026",
