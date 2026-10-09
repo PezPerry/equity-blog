@@ -1,5 +1,31 @@
 [
   {
+    "company": "Old Mutual Ltd",
+    "ticker": "OMU",
+    "publish_date": "09 October 2026",
+    "date_iso": "2026-10-09",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li>Escrow agent made an on-market purchase of <strong>355,500 ordinary shares</strong> on behalf of CEO <strong>Johann Jurie Strydom</strong> on <strong>6 October 2026</strong>, total value <strong>R4,660,747.20</strong> at a VWAP of <strong>R13.1104</strong>.</li><li>Shares acquired pursuant to the <strong>CEO outperformance plan</strong> first communicated on <strong>14 November 2025</strong>; held in escrow until performance measures are met.</li><li>Direct beneficial interest; clearance obtained. Routine PDMR dealing disclosure with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Escrow agent bought **355,500 Old Mutual shares** for **CEO Johann Strydom** at **R13.1104** (**R4.66m**) under the CEO outperformance plan.",
+    "priority": "low",
+    "priority_reason": "Routine director dealing: an escrow purchase under the CEO's outperformance plan, with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/old-mutual-limited-npv-di---omu/oml-director-dealings-/9815359",
+    "related_news_url": "https://news.google.com/search?q=%22Old%20Mutual%20Limited%20NPV%20(DI)%22",
+    "added_at": "2026-10-09T08:15:52.506634"
+  },
+  {
     "company": "Motorpoint Group PLC",
     "ticker": "MPGT",
     "publish_date": "09 October 2026",
