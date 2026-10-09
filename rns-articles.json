@@ -1,5 +1,31 @@
 [
   {
+    "company": "Prudential PLC",
+    "ticker": "PRU",
+    "publish_date": "08 October 2026",
+    "date_iso": "2026-10-08",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>Supplementary Prospectus</strong> dated <strong>8 October 2026</strong>, approved by the <strong>Financial Conduct Authority</strong>, supplementing the prospectus dated <strong>27 March 2026</strong> for the <strong>$10,000,000,000 Medium Term Note Programme</strong> of <strong>Prudential plc</strong> and <strong>Prudential Funding (Asia) plc</strong>.</li><li>Routine debt-programme documentation with <strong>no impact</strong> on trading or guidance; copy submitted to the National Storage Mechanism.</li></ul>",
+    "source_format": "html",
+    "headline": "Prudential has published an FCA-approved **Supplementary Prospectus** dated **8 October 2026** relating to its **$10bn Medium Term Note Programme**.",
+    "priority": "low",
+    "priority_reason": "Routine publication of a supplementary prospectus for an existing debt programme, with no trading or guidance impact.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/prudential--pru/publication-of-a-supplementary-prospectus/9814254",
+    "related_news_url": "https://news.google.com/search?q=%22Prudential%22",
+    "added_at": "2026-10-09T07:19:45.104547"
+  },
+  {
     "company": "GSK plc",
     "ticker": "GSK",
     "publish_date": "08 October 2026",
