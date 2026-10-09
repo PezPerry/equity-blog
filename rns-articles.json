@@ -1,5 +1,82 @@
 [
   {
+    "company": "Motorpoint Group PLC",
+    "ticker": "MPGT",
+    "publish_date": "09 October 2026",
+    "date_iso": "2026-10-09",
+    "time_period": "H1 FY27 (six months to 30 September 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "H1 FY27 (six months to 30 September 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Underlying profit before taxation</strong> for H1 FY27 expected at <strong>c.£6.5m</strong>, up <strong>81%</strong> (H1 FY26: <strong>£3.6m</strong>), on volume growth, strong metal margins and cost control.</li><li><strong>Retail volume</strong> up <strong>7.6%</strong> vs H1 FY26, aided by the new <strong>Leeds store</strong> opened in early July and outperformance of the wider used-car market.</li><li><strong>Return on Capital Employed</strong> (last 12 months) expected at <strong>c.80%</strong>, up from <strong>59%</strong>, reflecting the capital-light model.</li><li>FY27 <strong>underlying PBT guidance maintained</strong> at <strong>£9.8m–£10.8m</strong>, in line with recently upgraded market consensus.</li><li>CEO <strong>Mark Carpenter</strong> cites technology/AI investment driving higher metal margins and rate of sale despite consumer uncertainty.</li><li><strong>Interim Results</strong> to be announced on <strong>11 November 2026</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Motorpoint expects H1 FY27 underlying pre-tax profit up 81% to c.£6.5m on 7.6% retail volume growth, with full-year guidance reiterated.",
+    "priority": "high",
+    "priority_reason": "Half-year trading update with 81% profit growth and confirmation of full-year guidance.",
+    "figures": [
+      {
+        "metric": "Underlying profit before taxation",
+        "current": "c.£6.5m",
+        "prior": "£3.6m",
+        "change": "+81%",
+        "basis": "underlying",
+        "note": "H1 FY27 vs H1 FY26"
+      },
+      {
+        "metric": "Retail volume",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+7.6%",
+        "basis": "reported",
+        "note": "H1 FY27 vs H1 FY26"
+      },
+      {
+        "metric": "Return on Capital Employed",
+        "current": "c.80%",
+        "prior": "59%",
+        "change": "not stated",
+        "basis": "last 12 months",
+        "note": "vs preceding period"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Recently upgraded market consensus for FY27",
+      "current": "Full-year underlying profit before taxation in the range of £9.8m to £10.8m, in line with recently upgraded market consensus",
+      "commentary": "The Board reiterated FY27 guidance rather than changing it; the range already reflects a recent upgrade to market consensus, and H1 trading is said to be in line with that upgraded view."
+    },
+    "explainer": "This is a half-year trading update, so the figures are management's expectations for the six months to 30 September 2026 ahead of full interim results on 11 November. The headline profit measure is underlying pre-tax profit — stripping out one-off items — which Motorpoint expects to be around £6.5m, up 81% from £3.6m a year earlier. The gain is attributed to higher retail volumes (up 7.6%), record 'metal margins' (the profit made per car sold) and tight cost control.\n\nReturn on Capital Employed of about 80%, up from 59%, is highlighted to show the 'capital-light' model: Motorpoint generates strong profit relative to the capital tied up in the business, helped by selling part-exchanged stock through its online wholesale platform rather than holding large amounts of inventory.\n\nOn guidance, nothing has changed numerically. The company is reaffirming a full-year underlying PBT range of £9.8m–£10.8m. Importantly, that range already reflects a 'recently upgraded' market consensus — so the news here is confirmation that trading remains consistent with those raised expectations, not a fresh upgrade.",
+    "source_url": "https://uk.advfn.com/stock-market/london/motorpoint-MOTR/share-news/Motorpoint-Group-plc-Half-Year-Trading-Update-No/99464339",
+    "related_news_url": "https://news.google.com/search?q=%22Motorpoint%20Group%20PLC%22",
+    "added_at": "2026-10-09T07:58:57.402272"
+  },
+  {
+    "company": "Barclays PLC",
+    "ticker": "BARC",
+    "publish_date": "09 October 2026",
+    "date_iso": "2026-10-09",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Barclays PLC</strong> has appointed <strong>Goldman Sachs International</strong> as Joint Corporate Broker with immediate effect.</li><li>Goldman Sachs will work alongside the existing Corporate Broker, <strong>J.P. Morgan Securities plc</strong>.</li><li>Routine corporate disclosure with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Barclays appoints Goldman Sachs International as Joint Corporate Broker, working alongside existing broker J.P. Morgan Securities.",
+    "priority": "low",
+    "priority_reason": "Routine appointment of a joint corporate broker with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/barclays--barc/appointment-of-joint-corporate-broker/9815316",
+    "related_news_url": "https://news.google.com/search?q=%22Barclays%22",
+    "added_at": "2026-10-09T07:58:57.390190"
+  },
+  {
     "company": "Trainline PLC",
     "ticker": "TRN",
     "publish_date": "09 October 2026",
