@@ -1,5 +1,31 @@
 [
   {
+    "company": "Prudential PLC",
+    "ticker": "PRU",
+    "publish_date": "09 October 2026",
+    "date_iso": "2026-10-09",
+    "time_period": "",
+    "announcement_type": "Dividend declaration",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li>Routine notice confirming the currency conversion rates for Prudential's <strong>2026 first interim dividend of 8.88 US cents</strong> per share, originally announced on <strong>27 August 2026</strong> — <strong>no impact</strong> on trading or guidance.</li><li>UK register cash holders will receive approximately <strong>6.730534 pence per share</strong>, converted at <strong>US$1 = £0.757943</strong>.</li><li>Hong Kong branch register cash holders will receive approximately <strong>0.696873 Hong Kong dollars per share</strong>, converted at <strong>US$1 = HK$7.847670</strong>.</li><li>Cash dividends are payable on <strong>22 October 2026</strong>; a scrip dividend alternative is available on the Hong Kong line only.</li></ul>",
+    "source_format": "html",
+    "headline": "Prudential confirms the sterling and Hong Kong dollar conversion rates for its previously announced 2026 first interim dividend of 8.88 US cents.",
+    "priority": "low",
+    "priority_reason": "Routine currency-conversion notice for an already-declared dividend, with no new financial information.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/prudential--pru/dividend-rate-achieved/9815708",
+    "related_news_url": "https://news.google.com/search?q=%22Prudential%22",
+    "added_at": "2026-10-09T10:15:55.887247"
+  },
+  {
     "company": "Land Securities Group PLC",
     "ticker": "LAND",
     "publish_date": "09 October 2026",
