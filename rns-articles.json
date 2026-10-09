@@ -1,5 +1,57 @@
 [
   {
+    "company": "MJ Gleeson PLC",
+    "ticker": "GLE",
+    "publish_date": "09 October 2026",
+    "date_iso": "2026-10-09",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>MJ Gleeson plc</strong> has issued its <strong>Notice of 2026 AGM</strong>, to be held at <strong>11.30am on Friday 6 November 2026</strong> at Grocers' Hall, London EC2R 8AD.</li><li>Also published: the Form of Proxy and the <strong>Annual Report and Accounts for the year ended 30 June 2026</strong>, submitted to the National Storage Mechanism and available on the company website.</li><li>Routine Listing Rule 6.4.1 disclosure with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "MJ Gleeson has published its Notice of 2026 AGM, to be held at 11.30am on 6 November 2026 in London, alongside its Annual Report.",
+    "priority": "low",
+    "priority_reason": "Routine notice convening the AGM and confirming publication of the annual report; no trading or guidance content.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/mj-gleeson--gle/notice-of-agm/9814561",
+    "related_news_url": "https://news.google.com/search?q=%22MJ%20Gleeson%22",
+    "added_at": "2026-10-09T07:36:24.403422"
+  },
+  {
+    "company": "Capricorn Energy PLC",
+    "ticker": "CNE",
+    "publish_date": "09 October 2026",
+    "date_iso": "2026-10-09",
+    "time_period": "",
+    "announcement_type": "Acquisition / deal",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Capricorn Energy</strong> has posted a <strong>Supplementary Letter</strong> to shareholders updating on the <strong>increased recommended cash offer</strong> from <strong>Genel Energy</strong> (via <strong>Genel Energy No.9 Limited</strong>), first increased on <strong>25 September 2026</strong>.</li><li>No further shareholder meetings are required by the <strong>Court of Session</strong>; shareholders need take <strong>no voting action</strong> on the Increased Genel Offer.</li><li>Capricorn directors intend to <strong>adjourn indefinitely</strong> the <strong>DNO</strong> court meeting and general meeting scheduled for <strong>16 October 2026</strong>, and continue to recommend shareholders take no action on the DNO offer.</li><li>The <strong>Egyptian Merger Condition</strong> is satisfied, leaving the <strong>Egyptian Condition</strong> as the only outstanding regulatory condition; Genel and Bidco still expect the scheme to become effective in <strong>Q4 2026</strong>.</li><li>Offer effected by a <strong>Court-sanctioned scheme of arrangement</strong> under Part 26 of the Companies Act 2006.</li></ul>",
+    "source_format": "html",
+    "headline": "Capricorn posts a supplementary letter on the increased Genel recommended cash offer, with the rival DNO offer meetings set to be adjourned indefinitely.",
+    "priority": "medium",
+    "priority_reason": "Procedural update within the live Genel takeover, but confirms the DNO offer meetings are being shelved and reaffirms the Q4 2026 completion timetable.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/capricorn-energy--cne/publication-and-posting-of-supplementary-letter/9814559",
+    "related_news_url": "https://news.google.com/search?q=%22Capricorn%20Energy%22",
+    "added_at": "2026-10-09T07:36:24.392815"
+  },
+  {
     "company": "SSP Group PLC",
     "ticker": "SSPG",
     "publish_date": "09 October 2026",
