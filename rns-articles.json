@@ -1,5 +1,31 @@
 [
   {
+    "company": "HSBC Holdings PLC",
+    "ticker": "HSBA",
+    "publish_date": "09 October 2026",
+    "date_iso": "2026-10-09",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>HSBC Bank plc</strong> (Stabilising Manager) gives notice that <strong>no stabilisation</strong> was undertaken in relation to the offer of <strong>GBP 750,000,000</strong> <strong>6.061% notes due 11 September 2035 (NC8)</strong>, issued at an offer price of <strong>100</strong>.</li><li>Routine debt-market regulatory disclosure with <strong>no impact</strong> on equity trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "HSBC confirms no stabilisation was undertaken on its **GBP 750,000,000 6.061% notes due 11 September 2035 (NC8)**.",
+    "priority": "low",
+    "priority_reason": "Routine post-stabilisation notice confirming no stabilisation was undertaken on a bond issue; no impact on equity trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/hsbc-holdings--hsba/post-stabilisation-notice/9815353",
+    "related_news_url": "https://news.google.com/search?q=%22HSBC%20Holdings%22",
+    "added_at": "2026-10-09T08:45:54.505515"
+  },
+  {
     "company": "Old Mutual Ltd",
     "ticker": "OMU",
     "publish_date": "09 October 2026",
