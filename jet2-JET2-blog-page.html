@@ -323,8 +323,8 @@
 <script>
 // ─── European Destination Map ───
 var euroMap = L.map('euroMap', {scrollWheelZoom: false}).setView([42, 5], 4);
-L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
-  attribution: '&copy; OpenStreetMap &copy; CARTO', maxZoom: 10
+L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}', {
+  attribution: 'Tiles &copy; Esri &mdash; Esri, HERE, Garmin, &copy; OpenStreetMap contributors', maxZoom: 10
 }).addTo(euroMap);
 
 var ukCenter = [53.5, -1.5];
@@ -368,8 +368,8 @@ euroLegend.addTo(euroMap);
 
 // ─── UK Bases Map ───
 var ukMap = L.map('ukMap', {scrollWheelZoom: false}).setView([54.0, -2.5], 6);
-L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
-  attribution: '&copy; OpenStreetMap &copy; CARTO', maxZoom: 12
+L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}', {
+  attribution: 'Tiles &copy; Esri &mdash; Esri, HERE, Garmin, &copy; OpenStreetMap contributors', maxZoom: 12
 }).addTo(ukMap);
 
 var estIcon = L.divIcon({className:'',html:'<div style="width:14px;height:14px;background:#E8453C;border:2.5px solid white;border-radius:50%;box-shadow:0 2px 6px rgba(0,0,0,0.35);"></div>',iconSize:[14,14],iconAnchor:[7,7]});
