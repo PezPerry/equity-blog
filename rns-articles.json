@@ -1,5 +1,80 @@
 [
   {
+    "company": "AEP Plantations PLC",
+    "ticker": "AEP",
+    "publish_date": "12 October 2026",
+    "date_iso": "2026-10-12",
+    "time_period": "9m to 30 September 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "9m to 30 September 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li>Own FFB production up <strong>13.3%</strong> to <strong>924,500 mt</strong> (9m 2025: <strong>816,200 mt</strong>), driven by Kalimantan and the newly acquired <strong>Pinago</strong> estate in South Sumatra; external FFB purchased up <strong>24.2%</strong> to <strong>1,097,800 mt</strong>.</li><li>CPO production up <strong>17.9%</strong> to <strong>379,200 mt</strong> and PK production up <strong>17.0%</strong> to <strong>93,100 mt</strong>.</li><li>Net cash of <strong>$99.0m</strong> as at 30 September 2026 (31 December 2025: <strong>$232.3m</strong>), the fall reflecting <strong>$160.2m</strong> on the <strong>Pinago</strong> acquisition, <strong>$8.4m</strong> on other deals and <strong>$33.2m</strong> returned to shareholders (<strong>$16.8m</strong> dividends, <strong>$16.4m</strong> buybacks).</li><li>Interim dividend declared of <strong>3.73 cents per share</strong> (2025: 3.73 cents, split-adjusted), payable <strong>11 December 2026</strong> to shareholders on the register on <strong>6 November 2026</strong>.</li><li>Ninth mill at <strong>KAP Estate</strong>, Kalimantan on track, building works <strong>98%</strong> complete and commissioning targeted for <strong>early January 2027</strong>.</li><li>Board remains confident of delivering full-year 2026 results <strong>in line with market expectations</strong>; prevailing <strong>El Niño</strong> and dry weather may affect FFB yields in 2027, though this could support CPO pricing.</li></ul>",
+    "source_format": "html",
+    "headline": "AEP Plantations' own FFB production rose 13.3% to 924,500mt in 9m 2026, with the Board reiterating confidence in meeting full-year market expectations.",
+    "priority": "high",
+    "priority_reason": "Nine-month trading update with production, cash and dividend detail, confirming full-year guidance in line with market expectations.",
+    "figures": [
+      {
+        "metric": "Own FFB production",
+        "current": "924,500 mt",
+        "prior": "816,200 mt",
+        "change": "+13.3%",
+        "basis": "",
+        "note": "9m to 30 September 2026"
+      },
+      {
+        "metric": "External FFB purchased",
+        "current": "1,097,800 mt",
+        "prior": "883,600 mt",
+        "change": "+24.2%",
+        "basis": "",
+        "note": "9m 2026"
+      },
+      {
+        "metric": "CPO production",
+        "current": "379,200 mt",
+        "prior": "321,600 mt",
+        "change": "+17.9%",
+        "basis": "",
+        "note": "9m 2026"
+      },
+      {
+        "metric": "PK production",
+        "current": "93,100 mt",
+        "prior": "79,600 mt",
+        "change": "+17.0%",
+        "basis": "",
+        "note": "9m 2026"
+      },
+      {
+        "metric": "Net cash",
+        "current": "$99.0m",
+        "prior": "$232.3m",
+        "change": "not stated",
+        "basis": "after borrowings, incl. cash and short-term deposits",
+        "note": "30 Sep 2026 vs 31 Dec 2025"
+      },
+      {
+        "metric": "Interim dividend per share",
+        "current": "3.73 cents",
+        "prior": "3.73 cents",
+        "change": "flat",
+        "basis": "2025 adjusted for 10-for-1 share split",
+        "note": "six months to 30 June 2026"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Results in line with market expectations for full-year 2026",
+      "current": "Board remains confident in delivering results in line with market expectations for the full year, 2026",
+      "commentary": "Full-year guidance reaffirmed, underpinned by strong 9m production recovery and the contribution from the acquired Pinago estate. CPO prices expected to stay supported into Q4 2026 on food demand, firm energy markets and Indonesia's B50 biodiesel rollout."
+    },
+    "explainer": "This is a nine-month operational update rather than full financial results, so the key comparatives are production volumes (tonnes of fresh fruit bunches, crude palm oil and palm kernel) measured against the same nine months of 2025. Growth of roughly 13-18% across the Group's own-grown and processed output reflects both organic recovery and the first contribution from the recently acquired Pinago plantation in South Sumatra, meaning part of the headline increase is bought-in scale rather than like-for-like yield.\n\nThe sharp fall in net cash — from $232.3m to $99.0m — is not a trading problem but the cost of expansion and shareholder returns: $160.2m went on the Pinago acquisition, $8.4m on two smaller deals, and $33.2m was returned via dividends and buybacks. The balance sheet therefore remains in net cash despite heavy investment.\n\nOn guidance, nothing has changed: the Board continues to expect full-year 2026 results in line with market expectations, with CPO pricing seen as supported through Q4 by food demand, energy markets and Indonesia's B50 biodiesel mandate. The main forward risk flagged is El Niño-driven dry weather potentially crimping 2027 FFB yields, though the company notes tighter supply would tend to support palm oil prices.",
+    "source_url": "https://uk.advfn.com/stock-market/london/aep-plantations-AEP/share-news/AEP-Plantations-PLC-Trading-Statement/99471996",
+    "related_news_url": "https://news.google.com/search?q=%22AEP%20Plantations%20PLC%22",
+    "added_at": "2026-10-12T07:57:47.042861"
+  },
+  {
     "company": "Gore Street Energy Storage Fund PLC",
     "ticker": "GSF",
     "publish_date": "12 October 2026",
@@ -163,6 +238,32 @@
     "source_url": "https://uk.advfn.com/stock-market/london/hilton-food-HFG/share-news/Hilton-Food-Group-PLC-Completion-of-Dalco-Sale/99469301",
     "related_news_url": "https://news.google.com/search?q=%22Hilton%20Food%20Group%20plc%22",
     "added_at": "2026-10-12T07:16:11.112814"
+  },
+  {
+    "company": "Hays plc",
+    "ticker": "HAS",
+    "publish_date": "09 October 2026",
+    "date_iso": "2026-10-09",
+    "time_period": "Q1 FY27 (three months ended 30 September 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "Q1 FY27 (three months ended 30 September 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Hays plc</strong> has published its <strong>First Quarter Trading Statement</strong> covering the <strong>three months ended 30 September 2026</strong>.</li><li>The scraped page is a notification pointing to the full statement PDF on the <strong>London Stock Exchange RNS</strong> and <strong>Hays' investor website</strong> — the actual trading figures (net fees, like-for-like growth, regional performance) are <strong>not contained</strong> in this text.</li><li>No revenue, net fees, profit or guidance detail can be reported here; the underlying numbers would need to be read from the linked statement.</li></ul>",
+    "source_format": "html",
+    "headline": "Hays releases its First Quarter Trading Statement for the three months ended 30 September 2026, but the scraped text contains no trading figures.",
+    "priority": "high",
+    "priority_reason": "Quarterly trading statement from a FTSE recruiter, market-moving by nature.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/hays-HAS/share-news/Hays-PLC-First-Quarter-Trading-Statement/99471975",
+    "related_news_url": "https://news.google.com/search?q=%22Hays%20plc%22",
+    "added_at": "2026-10-12T07:57:47.000749"
   },
   {
     "company": "Costain Group PLC",
