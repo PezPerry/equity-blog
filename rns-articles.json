@@ -1,5 +1,31 @@
 [
   {
+    "company": "FirstGroup PLC",
+    "ticker": "FGP",
+    "publish_date": "12 October 2026",
+    "date_iso": "2026-10-12",
+    "time_period": "",
+    "announcement_type": "Buyback programme update",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>FirstGroup plc</strong> has completed the <strong>second tranche</strong> of its <strong>£100m</strong> on-market share buyback (announced <strong>18 June 2026</strong>), with <strong>Panmure Liberum</strong> finishing on <strong>9 October 2026</strong>.</li><li>Across the first two tranches, <strong>27,522,679</strong> ordinary shares were purchased for <strong>£49,806,894</strong>, currently held in Treasury.</li><li><strong>RBC Europe</strong> commences the <strong>third £25m tranche</strong> with effect from today; third and fourth tranches proceed as previously set out.</li><li>Routine progress update on an existing programme — <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "FirstGroup completes the second tranche of its £100m buyback and starts a third £25m tranche today.",
+    "priority": "low",
+    "priority_reason": "Progress update on an existing buyback programme, not a new launch or daily dealing form.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/prn/firstgroup--fgp/buyback-programme/9817599",
+    "related_news_url": "https://news.google.com/search?q=%22FirstGroup%22",
+    "added_at": "2026-10-12T07:35:47.925449"
+  },
+  {
     "company": "Intertek Group plc",
     "ticker": "ITRK",
     "publish_date": "12 October 2026",
