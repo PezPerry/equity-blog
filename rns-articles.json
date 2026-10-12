@@ -1,5 +1,57 @@
 [
   {
+    "company": "Ithaca Energy plc",
+    "ticker": "ITH",
+    "publish_date": "12 October 2026",
+    "date_iso": "2026-10-12",
+    "time_period": "",
+    "announcement_type": "Financing / refinancing",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li>Subsidiary <strong>Ithaca Energy (UK) Limited</strong> has agreed an amendment and restatement of its <strong>US$1.8bn</strong> senior reserve based lending (RBL) facility, comprising a <strong>US$1.3bn</strong> loan facility and <strong>US$500m</strong> letter of credit facility.</li><li>Final maturity extended to <strong>31 December 2032</strong>, with <strong>improved pricing terms</strong> and an updated accordion mechanic permitting commitments to increase by up to a further <strong>US$1bn</strong> across the loan and LC facilities.</li><li>CFO <strong>Iain C.S. Lewis</strong> said the improved pricing and extended maturity lower the cost of capital and enhance financial flexibility.</li><li>Follows the recent <strong>Business Combination with Eni UK</strong>; routine refinancing with <strong>no impact on current trading or guidance</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Ithaca Energy has amended and restated its US$1.8bn senior reserve based lending facility, extending maturity to end-2032 with improved pricing.",
+    "priority": "medium",
+    "priority_reason": "Refinancing of a US$1.8bn borrowing facility strengthens liquidity but is not a trading or earnings event.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/ithaca-energy-ITH/share-news/Ithaca-Energy-PLC-Amendment-and-Restatement-of-RBL/99472051",
+    "related_news_url": "https://news.google.com/search?q=%22Ithaca%20Energy%20plc%22",
+    "added_at": "2026-10-12T07:58:18.788503"
+  },
+  {
+    "company": "Atalaya Mining Copper, S.A.",
+    "ticker": "ATYM",
+    "publish_date": "12 October 2026",
+    "date_iso": "2026-10-12",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>Proyecto Touro</strong>, via local entity <strong>Cobre San Rafael (CSR)</strong>, has been designated a <strong>Strategic Project</strong> by the <strong>European Commission</strong> under the EU <strong>Critical Raw Materials Act (CRMA)</strong>.</li><li>Designation recognises Touro's role in securing European <strong>copper</strong> supply, now on the EU's strategic raw materials list for electrification and energy infrastructure.</li><li>Complements Touro's existing <strong>strategic industrial project (PIE)</strong> status granted by the <strong>Xunta de Galicia</strong> in <strong>2024</strong>.</li><li>Management says the <strong>environmental approval process</strong> for the Touro project is now believed to be close to completion.</li><li>Atalaya holds a phased earn-in for up to <strong>80%</strong> of CSR, which fully owns the Touro brownfield copper project; Atalaya is a <strong>FTSE 250</strong> constituent operating Proyecto Riotinto in southwest Spain.</li><li>Touro was one of the projects selected from <strong>102 applications</strong> across <strong>18 Member States</strong> in the CRMA's second application call.</li></ul>",
+    "source_format": "html",
+    "headline": "Atalaya's Proyecto Touro copper project designated a Strategic Project by the European Commission under the EU Critical Raw Materials Act.",
+    "priority": "medium",
+    "priority_reason": "EU Strategic Project status advances Atalaya's Touro copper project, a positive development milestone though not financially quantified.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/atalaya-mining-copper-ATYM/share-news/Atalaya-Mining-Copper-S-A-Touro-Declared-Strateg/99472039",
+    "related_news_url": "https://news.google.com/search?q=%22Atalaya%20Mining%20Copper%2C%20S.A.%22",
+    "added_at": "2026-10-12T07:58:18.751393"
+  },
+  {
     "company": "AEP Plantations PLC",
     "ticker": "AEP",
     "publish_date": "12 October 2026",
