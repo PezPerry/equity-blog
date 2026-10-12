@@ -1,5 +1,31 @@
 [
   {
+    "company": "Gore Street Energy Storage Fund PLC",
+    "ticker": "GSF",
+    "publish_date": "12 October 2026",
+    "date_iso": "2026-10-12",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li>Two-year tolling agreement signed with <strong>MAG Energy Solutions Inc.</strong> covering <strong>80%</strong> of capacity at three operational Texas assets — <strong>Snyder, Sweetwater and Westover</strong> (<strong>29.85 MW / 59.7 MWh</strong> total; <strong>23.9 MW / 47.8 MWh</strong> under the toll).</li><li>Fixed toll of <strong>c.£57,700/MW/yr</strong> (equivalent to <strong>£6.59/MW/hr</strong>, or <strong>US$76,650/MW/year</strong>), adjusted for asset performance; <strong>MAG</strong> takes over bidding, scheduling and dispatch from <strong>19 October 2026</strong>, replacing current optimiser GSET.</li><li>Remaining <strong>20%</strong> of capacity keeps merchant exposure, traded by MAG with revenue shared between MAG and the Company.</li><li>Toll price sits well above recent merchant returns: Texas assets averaged just <strong>c.£14,980/MW/yr</strong> (annualised) in the quarter to <strong>30 June 2026</strong> after spread compression from rapid capacity growth.</li><li>Company expects contracted revenue to account for <strong>c.40%</strong> of total revenue over <strong>FY26/27</strong>; CEO <strong>Alex O'Cinneide</strong> says the deal bridges current weak Texas conditions and higher expected future returns.</li></ul>",
+    "source_format": "html",
+    "headline": "Gore Street signs a two-year tolling agreement with MAG Energy Solutions covering 80% of capacity at three Texas battery assets.",
+    "priority": "medium",
+    "priority_reason": "Material commercial contract giving two years of revenue visibility on part of the portfolio, but covers only three Texas assets rather than being a whole-company event.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/gore-street-energy-storage-GSF/share-news/Gore-Street-Energy-Storage-Fund-PLC-Two-Year-Tolli/99471972",
+    "related_news_url": "https://news.google.com/search?q=%22Gore%20Street%20Energy%20Storage%20Fund%20plc%22",
+    "added_at": "2026-10-12T07:57:03.154158"
+  },
+  {
     "company": "Schroder European Real Estate Investment Trust Ltd",
     "ticker": "SERE",
     "publish_date": "12 October 2026",
