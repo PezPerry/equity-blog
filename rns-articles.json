@@ -1,5 +1,66 @@
 [
   {
+    "company": "Schroder European Real Estate Investment Trust Ltd",
+    "ticker": "SERE",
+    "publish_date": "12 October 2026",
+    "date_iso": "2026-10-12",
+    "time_period": "Q3 to 30 September 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "Q3 to 30 September 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li>Property portfolio independently valued at <strong>€181.9 million</strong> at <strong>30 September 2026</strong>, down from <strong>€185.1 million</strong> at 30 June — a fall of <strong>€3.2 million</strong>, or <strong>1.7%</strong>, over the quarter.</li><li>Decline principally reflects valuers applying <strong>more conservative assumptions</strong> to certain assets, particularly <strong>secondary offices</strong>, driven by leasing risk, occupational market conditions and recent transactional evidence.</li><li>Board says the move primarily reflects changed market assumptions rather than underlying operating performance, with the portfolio continuing to perform resiliently.</li><li>Following shareholder approval of the <strong>managed wind-down strategy</strong>, the Board and Investment Manager remain focused on active asset management and disciplined asset disposals.</li></ul>",
+    "source_format": "html",
+    "headline": "Schroder European Real Estate's portfolio valued at €181.9m at 30 September, down €3.2m or 1.7% over the quarter, chiefly on secondary offices.",
+    "priority": "medium",
+    "priority_reason": "Quarterly portfolio valuation showing a decline, relevant to NAV and the ongoing managed wind-down, but not a results release or guidance change.",
+    "figures": [
+      {
+        "metric": "Portfolio valuation",
+        "current": "€181.9m",
+        "prior": "€185.1m",
+        "change": "-1.7%",
+        "basis": "independent valuation",
+        "note": "30 Sep 2026 vs 30 Jun 2026"
+      }
+    ],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "This is a quarterly independent valuation of the trust's direct property holdings, not a full set of results. The €3.2m fall over the quarter is a valuation (mark-to-market) movement rather than a reflection of rent collection or occupancy, which the Board describes as resilient.\n\nThe company stresses the decline comes from valuers adopting more cautious assumptions on specific assets — chiefly secondary (lower-grade) offices — in light of leasing risk and recent comparable transactions. In other words, the markdown reflects the external environment and valuation inputs rather than deteriorating operating cash flows.\n\nContext matters here: shareholders have approved a managed wind-down, so the trust is now selling assets over time and returning value. Portfolio valuations feed directly into net asset value, so a quarterly decline of this size is relevant to NAV per share, though no NAV figure is given in this announcement.",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/schroder-european-real-estate-investment-trust--sere/property-portfolio-valuation/9816835",
+    "related_news_url": "https://news.google.com/search?q=%22Schroder%20European%20Real%20Estate%20Investment%20Trust%22",
+    "added_at": "2026-10-12T07:36:29.287037"
+  },
+  {
+    "company": "IP Group PLC",
+    "ticker": "IPO",
+    "publish_date": "12 October 2026",
+    "date_iso": "2026-10-12",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>IP Group plc</strong> led an oversubscribed <strong>£4m</strong> pre-series A funding round into <strong>Matter Machine</strong>, an AI-driven materials discovery company spun out of the <strong>University of Liverpool</strong>.</li><li>Round supported by <strong>Northern Gritstone</strong>, the University of Liverpool Enterprise Fund and a syndicate including <strong>Norrsken Evolve</strong>, <strong>LYVA Labs</strong> and the Northern Universities Venture Fund managed by <strong>Parkwalk</strong>, IP Group's EIS fund business.</li><li><strong>Dr Gordon Sanghera CBE</strong>, co-founder and former CEO of <strong>Oxford Nanopore Technologies plc</strong>, has joined Matter Machine to lead commercialisation strategy.</li><li>Described as the largest investment secured by a newly formed University of Liverpool spin-out; funds to expand the team and develop its inorganic crystalline materials discovery platform.</li><li>Routine portfolio investment note — <strong>no impact</strong> on IP Group's trading or guidance disclosed.</li></ul>",
+    "source_format": "html",
+    "headline": "IP Group led an oversubscribed £4m pre-series A round into University of Liverpool spin-out Matter Machine, an AI-driven materials discovery company.",
+    "priority": "low",
+    "priority_reason": "A small £4m portfolio funding round that IP Group led; immaterial to the Group's own financials or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/ip-group--ipo/ip-group-leads-round-in-matter-machine/9816863",
+    "related_news_url": "https://news.google.com/search?q=%22IP%20Group%22",
+    "added_at": "2026-10-12T07:36:29.277565"
+  },
+  {
     "company": "FirstGroup PLC",
     "ticker": "FGP",
     "publish_date": "12 October 2026",
