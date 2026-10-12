@@ -1,5 +1,31 @@
 [
   {
+    "company": "HSBC Holdings PLC",
+    "ticker": "HSBA",
+    "publish_date": "12 October 2026",
+    "date_iso": "2026-10-12",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>HSBC Holdings plc</strong> granted conditional awards over <strong>274,529.87745</strong> ordinary shares on <strong>9 October 2026</strong> under the <strong>HSBC International Employee Share Purchase Plan</strong>.</li><li>Split into <strong>142,259.68627 LSE-listed</strong> and <strong>132,270.19118 HKSE-listed</strong> shares; <strong>two-year</strong> vesting, nil purchase price, no performance conditions or clawback given the all-employee nature of the plan.</li><li>Routine Hong Kong listing-rule disclosure (Rules 17.06A/B/C) with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "HSBC granted employees conditional awards over 274,529.87745 ordinary shares under its all-employee International Employee Share Purchase Plan.",
+    "priority": "low",
+    "priority_reason": "Routine all-employee share plan grant with no performance conditions and no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/hsbc-holdings--hsba/overseas-regulatory-announcement-grant-of-awards/9817959",
+    "related_news_url": "https://news.google.com/search?q=%22HSBC%20Holdings%22",
+    "added_at": "2026-10-12T10:15:38.964013"
+  },
+  {
     "company": "METLEN Energy & Metals plc",
     "ticker": "MTLN",
     "publish_date": "12 October 2026",
