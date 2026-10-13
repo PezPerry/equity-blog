@@ -1,5 +1,31 @@
 [
   {
+    "company": "Entain plc",
+    "ticker": "ENT",
+    "publish_date": "13 October 2026",
+    "date_iso": "2026-10-13",
+    "time_period": "Q3 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "Q3 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>BetMGM</strong> — the North American sports-betting and iGaming JV <strong>50/50 owned by Entain and MGM Resorts</strong> — reported a strong <strong>Q3 2026</strong>, led by its iGaming franchise.</li><li>CEO <strong>Adam Greenblatt</strong> said the business is generating <strong>positive cash flow and Adjusted EBITDA</strong> and remains on track to deliver against its <strong>2026 guidance</strong>.</li><li>Product improvements to speed, stability and responsiveness cited ahead of the <strong>football season</strong>; underlying player fundamentals described as strong.</li><li>BetMGM said it is enhancing its financial disclosure with a more granular segment breakdown; the scraped text contains no actual Q3 revenue, Contribution or EBITDA figures, so no numbers can be quoted here.</li><li>Note: figures referenced are management's non-GAAP, unaudited estimates.</li></ul>",
+    "source_format": "html",
+    "headline": "**BetMGM**, Entain's US joint venture, reports a strong **Q3 2026** with positive cash flow and Adjusted EBITDA, keeping it on track for **2026 guidance**.",
+    "priority": "high",
+    "priority_reason": "Quarterly trading update on Entain's US joint venture BetMGM, with a reaffirmation of 2026 guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "maintained",
+      "previous": "2026 guidance",
+      "current": "On track to deliver against 2026 guidance",
+      "commentary": "BetMGM reaffirmed its existing 2026 guidance, citing positive cash flow, positive Adjusted EBITDA and strong player fundamentals. No revised numeric targets were given in the text."
+    },
+    "explainer": "This is a quarterly trading statement from BetMGM, the US-facing joint venture that Entain owns 50/50 with MGM Resorts. BetMGM is not consolidated as a subsidiary, so its performance flows into Entain's accounts via the JV rather than appearing in group revenue — hence the standalone disclosure here.\n\nThe update is qualitative. The scraped page carries BetMGM's extensive accounting footnotes (defining non-GAAP measures such as Net Revenue from operations, Contribution and Adjusted EBITDA, and flagging that the figures are unaudited management estimates) but the actual Q3 2026 numbers and prior-year comparatives are not present in the text provided. No revenue, EBITDA or market-share figures can therefore be quoted.\n\nOn guidance, management states BetMGM is \"on track to deliver against our 2026 guidance\" — a maintained, not changed, position. The emphasis is on disciplined, profitable growth (positive cash flow and Adjusted EBITDA) and strength in iGaming rather than headline-chasing in a competitive US market. BetMGM also flagged enhanced, more granular segment disclosure going forward.",
+    "source_url": "https://uk.advfn.com/stock-market/london/entain-ENT/share-news/Entain-PLC-BetMGM-Q3-2026-Update/99479757",
+    "related_news_url": "https://news.google.com/search?q=%22Entain%20plc%22",
+    "added_at": "2026-10-13T12:56:12.139392"
+  },
+  {
     "company": "Target Healthcare REIT Ltd",
     "ticker": "THRL",
     "publish_date": "13 October 2026",
