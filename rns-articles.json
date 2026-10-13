@@ -1,5 +1,112 @@
 [
   {
+    "company": "Bytes Technology Group plc",
+    "ticker": "BYIT",
+    "publish_date": "13 October 2026",
+    "date_iso": "2026-10-13",
+    "time_period": "HY FY27 (six months ended 31 August 2026)",
+    "announcement_type": "Interim results",
+    "period_detail": "HY FY27 (six months ended 31 August 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Gross profit up 17.8%</strong> in H1 FY27 (six months to <strong>31 August 2026</strong>), with <strong>gross invoiced income up 19.6%</strong> and <strong>revenue up 18.7%</strong>; growth was double-digit across both sectors.</li><li><strong>Public sector GP up 23.1%</strong> (GP/GII margin held at 3.5%) and <strong>private sector GP up 14.6%</strong> (margin 12.2%) following the refined, customer-centric sales structure.</li><li><strong>Operating profit up 6.6%</strong>, with operating profit/GP falling to <strong>36.4%</strong> (HY26: 40.2%) after absorbing around half of the <strong>c.£4.5m</strong> of flagged cost normalisation (bonuses, share-based payments).</li><li>Strong balance sheet: closing cash of <strong>£68.4m</strong> and no debt, cash conversion of <strong>45.7%</strong>, with <strong>£41.3m</strong> returned to shareholders including completion of the <strong>£25m</strong> buyback.</li><li><strong>Interim dividend of 3.3p</strong>, up <strong>3.1%</strong> on HY26.</li><li>Upgraded FY27 guidance (set on <strong>17 September 2026</strong>) reiterated; post-period acquisition of managed security provider <strong>CyberOne</strong> on <strong>9 October 2026</strong>, completion expected by end-October subject to NSIA clearance.</li></ul>",
+    "source_format": "html",
+    "headline": "Bytes Technology reported 17.8% H1 gross profit growth and reiterated its September upgrade to full-year guidance, alongside the post-period CyberOne acquisition.",
+    "priority": "high",
+    "priority_reason": "Interim results with double-digit gross-profit growth and reiterated upgraded full-year guidance.",
+    "figures": [
+      {
+        "metric": "Gross invoiced income (GII)",
+        "current": "+19.6%",
+        "prior": "not stated",
+        "change": "+19.6%",
+        "basis": "non-IFRS APM",
+        "note": "HY FY27 vs HY FY26"
+      },
+      {
+        "metric": "Revenue",
+        "current": "+18.7%",
+        "prior": "not stated",
+        "change": "+18.7%",
+        "basis": "IFRS 15",
+        "note": "HY FY27 vs HY FY26"
+      },
+      {
+        "metric": "Gross profit",
+        "current": "+17.8%",
+        "prior": "not stated",
+        "change": "+17.8%",
+        "basis": "not stated",
+        "note": "HY FY27 vs HY FY26"
+      },
+      {
+        "metric": "Public sector GP",
+        "current": "+23.1%",
+        "prior": "not stated",
+        "change": "+23.1%",
+        "basis": "GP/GII margin 3.5%",
+        "note": "HY FY27 vs HY FY26"
+      },
+      {
+        "metric": "Private sector GP",
+        "current": "+14.6%",
+        "prior": "not stated",
+        "change": "+14.6%",
+        "basis": "GP/GII margin 12.2%",
+        "note": "HY FY27 vs HY FY26"
+      },
+      {
+        "metric": "Operating profit",
+        "current": "+6.6%",
+        "prior": "not stated",
+        "change": "+6.6%",
+        "basis": "operating profit/GP 36.4% vs 40.2%",
+        "note": "HY FY27 vs HY FY26"
+      },
+      {
+        "metric": "Interim ordinary dividend",
+        "current": "3.3p",
+        "prior": "not stated",
+        "change": "+3.1%",
+        "basis": "not stated",
+        "note": "HY FY27 vs HY FY26"
+      },
+      {
+        "metric": "Closing cash",
+        "current": "£68.4m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "no debt",
+        "note": "at 31 August 2026"
+      },
+      {
+        "metric": "Cash conversion",
+        "current": "45.7%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "free cash flow / operating profit",
+        "note": "H2-weighted"
+      },
+      {
+        "metric": "Cash returned to shareholders",
+        "current": "£41.3m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "incl. £25m buyback",
+        "note": "H1 FY27"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "FY27 guidance upgraded on 17 September 2026 following a first half ahead of expectations.",
+      "current": "Board continues to expect full-year GP growth in the low to mid-teens in percentage terms, with low to mid single-digit percentage growth in operating profit, excluding any contribution from CyberOne.",
+      "commentary": "The company reiterated the upgraded FY27 guidance it set in September rather than changing it again. Operating profit grows more slowly than GP this year because of the c.£4.5m cost normalisation and continued investment; the Board expects operating profit to grow broadly in line with GP from FY28 as that capacity becomes fully productive."
+    },
+    "explainer": "Bytes measures its top line two ways. Gross invoiced income (GII) is the total value billed to customers, while reported revenue under IFRS 15 can be much lower because, on many contracts, Bytes acts as an agent and only books the gross profit it earns rather than the full billed amount. Management treats GII, gross profit (GP), adjusted operating profit and cash conversion as the key measures, so GP growth of 17.8% is the figure to focus on rather than the headline revenue line.\n\nOperating profit rose only 6.6%, well behind GP, and operating profit as a share of GP fell from 40.2% to 36.4%. This is deliberate rather than a sign of weakness: the half absorbed about half of a planned c.£4.5m of cost normalisation — bonuses and share-based payments returning to normal levels — plus continued investment in technical staff. Bytes expects operating profit to grow roughly in line with GP again from FY28 once these costs annualise and the added capacity is fully utilised.\n\nOn guidance, the key change already happened in September, when Bytes upgraded its FY27 expectations after a strong first half. Today's statement reiterates that upgraded guidance rather than raising it further: full-year GP growth in the low-to-mid teens and operating profit growth in the low-to-mid single digits. This explicitly excludes the newly acquired CyberOne, whose FY27 operating profit is expected to be offset by amortisation of acquired intangibles, with a positive EPS contribution only from FY28.\n\nCash figures reflect normal seasonality: cash conversion of 45.7% looks low but the business generates most of its cash in the second half, and Bytes still ended the period with £68.4m of cash, no debt, and £41.3m returned to shareholders including a completed £25m buyback.",
+    "source_url": "https://uk.advfn.com/stock-market/london/bytes-technology-BYIT/share-news/Bytes-Technology-Group-PLC-Interim-Results/99477554",
+    "related_news_url": "https://news.google.com/search?q=%22Bytes%20Technology%20Group%20plc%22",
+    "added_at": "2026-10-13T08:02:55.415741"
+  },
+  {
     "company": "Land Securities Group PLC",
     "ticker": "LAND",
     "publish_date": "13 October 2026",
