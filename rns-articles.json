@@ -1,5 +1,120 @@
 [
   {
+    "company": "Bellway PLC",
+    "ticker": "BWY",
+    "publish_date": "13 October 2026",
+    "date_iso": "2026-10-13",
+    "time_period": "FY to 31 July 2026",
+    "announcement_type": "Annual results",
+    "period_detail": "FY to 31 July 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Revenue</strong> rose <strong>13.6%</strong> to <strong>£3,162.2m</strong> (2025: £2,782.8m) on completions up <strong>10.8%</strong> to <strong>9,695 homes</strong> at an average selling price of <strong>£324,404</strong>.</li><li><strong>Underlying profit before tax</strong> up <strong>5.7%</strong> to <strong>£305.7m</strong>; <strong>reported PBT £270.2m</strong> (2025: £221.9m); <strong>underlying EPS</strong> up <strong>6.3%</strong> to <strong>187.8p</strong>.</li><li>Underlying operating margin slipped to <strong>10.1%</strong> (2025: 10.9%); adjusted operating cashflow jumped <strong>36.0%</strong> to <strong>£868.6m</strong>.</li><li><strong>Total dividend</strong> raised <strong>7.1%</strong> to <strong>75.0p</strong> (final 52.0p); year-end <strong>net cash £157.7m</strong> (2025: £41.8m) with adjusted gearing of <strong>3.0%</strong>.</li><li><strong>£150m FY27 share buyback</strong> underway (first tranche raised to <strong>£75m</strong>); dividends plus buybacks to total c.<strong>£450m</strong> across FY26-FY27.</li><li>FY27 guidance: completions of <strong>9,000-9,400</strong> (2026: 9,695), ASP around <strong>£325,000</strong>, and operating margin expected to <strong>reduce further</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Bellway grew full-year completions **10.8%** to **9,695 homes** and revenue **13.6%** to **£3,162.2m**, lifting the dividend and launching a **£150m** FY27 buyback.",
+    "priority": "high",
+    "priority_reason": "Full-year results with profit growth, enhanced shareholder returns and new FY27 guidance.",
+    "figures": [
+      {
+        "metric": "Revenue",
+        "current": "£3,162.2m",
+        "prior": "£2,782.8m",
+        "change": "+13.6%",
+        "basis": "reported",
+        "note": "FY to 31 July 2026"
+      },
+      {
+        "metric": "Completions",
+        "current": "9,695 homes",
+        "prior": "8,749 homes",
+        "change": "+10.8%",
+        "basis": "excludes JV share",
+        "note": "FY to 31 July 2026"
+      },
+      {
+        "metric": "Average selling price",
+        "current": "£324,404",
+        "prior": "£316,412",
+        "change": "+2.5%",
+        "basis": "not stated",
+        "note": "FY to 31 July 2026"
+      },
+      {
+        "metric": "Underlying operating profit",
+        "current": "£320.6m",
+        "prior": "£303.5m",
+        "change": "+5.6%",
+        "basis": "before legacy building safety and exceptionals",
+        "note": "margin 10.1% vs 10.9%"
+      },
+      {
+        "metric": "Underlying profit before tax",
+        "current": "£305.7m",
+        "prior": "£289.1m",
+        "change": "+5.7%",
+        "basis": "underlying",
+        "note": "FY to 31 July 2026"
+      },
+      {
+        "metric": "Reported profit before tax",
+        "current": "£270.2m",
+        "prior": "£221.9m",
+        "change": "+21.8%",
+        "basis": "statutory",
+        "note": "FY to 31 July 2026"
+      },
+      {
+        "metric": "Underlying EPS",
+        "current": "187.8p",
+        "prior": "176.7p",
+        "change": "+6.3%",
+        "basis": "underlying",
+        "note": "FY to 31 July 2026"
+      },
+      {
+        "metric": "Total dividend",
+        "current": "75.0p",
+        "prior": "70.0p",
+        "change": "+7.1%",
+        "basis": "per share",
+        "note": "final 52.0p vs 49.0p"
+      },
+      {
+        "metric": "Adjusted operating cashflow",
+        "current": "£868.6m",
+        "prior": "£638.9m",
+        "change": "+36.0%",
+        "basis": "adjusted",
+        "note": "FY to 31 July 2026"
+      },
+      {
+        "metric": "Net cash",
+        "current": "£157.7m",
+        "prior": "£41.8m",
+        "change": "not stated",
+        "basis": "year-end",
+        "note": "adjusted gearing 3.0% vs 8.3%"
+      },
+      {
+        "metric": "Forward order book",
+        "current": "£1,437.6m (4,981 homes)",
+        "prior": "£1,526.9m (5,285 homes)",
+        "change": "not stated",
+        "basis": "at 2 October 2026 vs 5 October 2025",
+        "note": "value down c.5.9%"
+      }
+    ],
+    "guidance": {
+      "status": "new",
+      "previous": "",
+      "current": "FY27 total completions of between 9,000 and 9,400 (2026: 9,695), with an increased bulk-sales contribution; overall average selling price around £325,000, similar to FY26; underlying operating margin expected to reduce further in FY27.",
+      "commentary": "Bellway is guiding to lower FY27 volumes and a further margin contraction, citing a lower opening order book, constrained demand, build cost inflation, elevated sales incentives and more lower-margin bulk sales. It frames FY27 as a trough, expecting margin and returns to improve beyond FY27."
+    },
+    "explainer": "These are statutory full-year results for the 12 months to 31 July 2026, compared with the prior year to 31 July 2025. Bellway reports both statutory and 'underlying' numbers: underlying figures strip out net legacy building-safety (cladding) costs and other one-offs. That gap matters here — reported pre-tax profit of £270.2m jumped 21.8% largely because the building-safety charge fell to £35.2m from £51.8m, whereas underlying pre-tax profit rose a more modest 5.7%.\n\nThe headline growth is volume-driven: completions rose 10.8% and prices edged up only about 2.5%, so revenue climbed 13.6%. But the operating margin fell from 10.9% to 10.1%, reflecting build-cost inflation and sales incentives in a soft market. The standout operational number is cash: adjusted operating cashflow rose 36% to £868.6m as the group ran down work-in-progress, turning net debt into £157.7m of net cash and cutting gearing to 3.0%.\n\nOn guidance, this is effectively a fresh FY27 outlook. Bellway expects completions to fall to 9,000-9,400 (from 9,695), the average price to hold near £325,000, and the operating margin to shrink further. The drivers are a lower opening order book (down to £1,437.6m from £1,526.9m), weak buyer demand, cost inflation and a deliberately higher share of lower-margin bulk sales to institutional buyers to protect volumes and cash.\n\nShareholder returns are the sweetener: the dividend rose 7.1% to 75.0p and a new £150m FY27 buyback is running (its first tranche lifted from £50m to £75m), taking combined dividends and buybacks to roughly £450m across FY26 and FY27. Management positions FY27 as a near-term low point, with margins and returns expected to recover once the market improves.",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/bellway--bwy/full-year-results/9819158",
+    "related_news_url": "https://news.google.com/search?q=%22Bellway%22",
+    "added_at": "2026-10-13T07:37:08.251459"
+  },
+  {
     "company": "Caledonia Mining Corporation Plc",
     "ticker": "CMCL",
     "publish_date": "13 October 2026",
