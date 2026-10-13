@@ -1,5 +1,57 @@
 [
   {
+    "company": "Whitbread PLC",
+    "ticker": "WTB",
+    "publish_date": "13 October 2026",
+    "date_iso": "2026-10-13",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Whitbread PLC</strong> has published a Shareholder Circular convening a general meeting requisitioned by activist investor <strong>Corvex Management LP</strong> to vote on appointing a <strong>Corvex-selected director</strong> to the board.</li><li>The board <strong>unanimously recommends shareholders VOTE AGAINST</strong> the Corvex resolution and sets out its reasons in the circular.</li><li>The meeting will be held on <strong>9 November 2026 at 1pm</strong> at Whitbread Court, Dunstable, with the circular posted to shareholders today.</li><li>Signals an escalating <strong>activist campaign</strong> at Whitbread; routine procedural notice but material to the governance contest.</li></ul>",
+    "source_format": "html",
+    "headline": "Whitbread publishes circular for a Corvex-requisitioned general meeting on 9 November to vote on a new director, with the board urging shareholders to reject it.",
+    "priority": "high",
+    "priority_reason": "Activist investor Corvex has forced a shareholder vote on board representation, a contested governance situation that can move the shares.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/whitbread--wtb/notice-of-gm/9819338",
+    "related_news_url": "https://news.google.com/search?q=%22Whitbread%22",
+    "added_at": "2026-10-13T07:35:47.259772"
+  },
+  {
+    "company": "Diageo PLC",
+    "ticker": "DGE",
+    "publish_date": "13 October 2026",
+    "date_iso": "2026-10-13",
+    "time_period": "FY to 30 June 2025 and FY to 30 June 2026",
+    "announcement_type": "Corporate update",
+    "period_detail": "FY to 30 June 2025 and FY to 30 June 2026",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>Diageo</strong> has published restated historical regional financial results for the fiscal years ended <strong>30 June 2025</strong> and <strong>30 June 2026</strong>.</li><li>The restatement aligns external reporting with Diageo's <strong>new market and regional operating framework effective fiscal 2027</strong> — it reallocates prior figures rather than revising group performance.</li><li>Full detail sits in a separate press release on the Diageo investor website; <strong>no new figures, profit numbers or guidance are contained in this RNS</strong>.</li><li>Routine presentational disclosure with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "**Diageo** has published restated historical regional financial results for the years to **30 June 2025** and **30 June 2026**, realigning reporting to its new operating framework effective fiscal 2027.",
+    "priority": "low",
+    "priority_reason": "Administrative republication of historical results under a new regional framework, with no new figures or guidance disclosed.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/diageo--dge/publication-of-restated-regional-financial-results/9819249",
+    "related_news_url": "https://news.google.com/search?q=%22Diageo%22",
+    "added_at": "2026-10-13T07:35:47.242770"
+  },
+  {
     "company": "easyJet PLC",
     "ticker": "EZJ",
     "publish_date": "13 October 2026",
