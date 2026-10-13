@@ -1,5 +1,31 @@
 [
   {
+    "company": "Kier Group PLC",
+    "ticker": "KIE",
+    "publish_date": "13 October 2026",
+    "date_iso": "2026-10-13",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>Fitch</strong> upgraded Kier Group's long-term issuer default rating to <strong>'BBB-'</strong> from <strong>'BB+'</strong>, moving the group into <strong>investment grade</strong>.</li><li>Fitch cited Kier's <strong>growing balance sheet strength</strong>, <strong>substantial cashflow generation</strong>, <strong>disciplined capital deployment</strong> and <strong>strong revenue visibility</strong>.</li><li>Upgrade follows the recent articulation of Kier's strategic priorities around <strong>Growth, Resilience and Performance</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Fitch upgraded Kier Group's long-term issuer default rating to investment-grade 'BBB-' from 'BB+'.",
+    "priority": "medium",
+    "priority_reason": "Credit rating upgrade into investment grade lowers borrowing costs and signals balance-sheet strength, but is not a results, trading or M&A event.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/kier-KIE/share-news/Kier-Group-PLC-Long-term-issuer-default-rating-upg/99478832",
+    "related_news_url": "https://news.google.com/search?q=%22Kier%20Group%20plc%22",
+    "added_at": "2026-10-13T10:36:15.994596"
+  },
+  {
     "company": "Melrose Industries PLC",
     "ticker": "MRO",
     "publish_date": "13 October 2026",
