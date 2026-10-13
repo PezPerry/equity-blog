@@ -1,5 +1,104 @@
 [
   {
+    "company": "Michael Page plc",
+    "ticker": "PAGE",
+    "publish_date": "13 October 2026",
+    "date_iso": "2026-10-13",
+    "time_period": "Q3 2026 (quarter ended 30 September 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "Q3 2026 (quarter ended 30 September 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Group gross profit grew 1.5%</strong> in constant currencies vs Q3 2025 — the <strong>first quarter of growth since Q4 2022</strong>, with c. <strong>50%</strong> of the group in growth.</li><li><strong>2026 operating profit</strong> expected <strong>in line with company-compiled consensus of c. GBP29m</strong> — full-year expectations maintained.</li><li><strong>Asia Pacific</strong> gross profit up <strong>14.7%</strong> to <strong>£35.2m</strong> (Asia +19%; <strong>Japan +23%</strong>, a record quarter; India +18%; Greater China +28%); <strong>Americas</strong> up <strong>8.9%</strong> to <strong>£41.1m</strong> (US +7%, eighth consecutive quarter of growth).</li><li><strong>EMEA</strong> gross profit down <strong>3.8%</strong> to <strong>£92.8m</strong> (<strong>Germany -7%</strong>, <strong>France -11%</strong>, Southern Europe +5%); <strong>UK</strong> down <strong>5.5%</strong> to <strong>£21.4m</strong>.</li><li><strong>Productivity up 6%</strong> vs Q3 2025 and above record-year 2022; <strong>Page Executive +15%</strong>, now c. <strong>10%</strong> of the group; fee-earner headcount down <strong>63 (-1.3%)</strong> in the quarter.</li><li><strong>Net cash of c. £6m</strong> at 30 September 2026 (Q2 2026: net debt c. £7m; Q3 2025: net cash c. £38m); <strong>2026 interim dividend of £4.6m</strong> paid <strong>9 October 2026</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Michael Page returned to growth in Q3 2026, its first quarterly gross-profit growth since Q4 2022, and maintained full-year operating profit guidance of c. GBP29m.",
+    "priority": "high",
+    "priority_reason": "Quarterly trading update marking the group's first quarter of growth since Q4 2022, with full-year profit expectations maintained.",
+    "figures": [
+      {
+        "metric": "Group gross profit growth",
+        "current": "+1.5%",
+        "prior": "not stated",
+        "change": "+1.5%",
+        "basis": "constant currency vs Q3 2025",
+        "note": "first quarterly growth since Q4 2022"
+      },
+      {
+        "metric": "EMEA gross profit",
+        "current": "£92.8m",
+        "prior": "not stated",
+        "change": "-3.8%",
+        "basis": "constant currency vs Q3 2025",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "Americas gross profit",
+        "current": "£41.1m",
+        "prior": "not stated",
+        "change": "+8.9%",
+        "basis": "constant currency vs Q3 2025",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "Asia Pacific gross profit",
+        "current": "£35.2m",
+        "prior": "not stated",
+        "change": "+14.7%",
+        "basis": "constant currency vs Q3 2025",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "UK gross profit",
+        "current": "£21.4m",
+        "prior": "not stated",
+        "change": "-5.5%",
+        "basis": "constant currency vs 2025",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "Permanent gross profit",
+        "current": "£134.2m",
+        "prior": "£133.1m",
+        "change": "+1.1% constant currency (+0.8% reported)",
+        "basis": "reported and constant currency",
+        "note": "Q3 2026 vs Q3 2025"
+      },
+      {
+        "metric": "Temporary gross profit",
+        "current": "£56.3m",
+        "prior": "£54.7m",
+        "change": "+2.6% constant currency (+3.0% reported)",
+        "basis": "reported and constant currency",
+        "note": "Q3 2026 vs Q3 2025"
+      },
+      {
+        "metric": "Productivity (gross profit per fee earner)",
+        "current": "+6%",
+        "prior": "not stated",
+        "change": "+6%",
+        "basis": "vs Q3 2025",
+        "note": "higher than record year 2022"
+      },
+      {
+        "metric": "Net cash",
+        "current": "c. £6m",
+        "prior": "net cash c. £38m",
+        "change": "not stated",
+        "basis": "as written",
+        "note": "30 Sep 2026 vs Q3 2025; Q2 2026 was net debt c. £7m"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Full-year expectations; company-compiled consensus",
+      "current": "2026 operating profit expected to be in line with company-compiled consensus of c. £29m",
+      "commentary": "Full-year expectations maintained. Management confirmed it expects 2026 operating profit in line with company-compiled consensus of c. £29m, despite flagging a significant degree of ongoing uncertainty."
+    },
+    "explainer": "This is a third-quarter trading update for the recruiter Michael Page (PageGroup). Recruiters report 'gross profit' (net fee income) rather than revenue as their key top-line measure, because it strips out pass-through costs of temporary workers. Growth figures are stated in constant currencies versus the same quarter last year, meaning foreign-exchange movements have been removed to show underlying trading; where reported (actual) rates are given — as with permanent and temporary gross profit — the two are close, so currency had little effect this quarter.\n\nThe headline is that the group returned to growth for the first time since Q4 2022, with gross profit up 1.5%. The recovery is geographically uneven: Asia Pacific (+14.7%) and the Americas (+8.9%) are driving it, while the larger European markets — Germany, France — and the UK remain in decline. Roughly half the group is now growing. Productivity (gross profit per fee earner) rose 6% as headcount was cut, reflecting a deliberate strategy of placing more senior candidates at higher fee rates rather than chasing volume.\n\nOn guidance, nothing has changed: the company reiterated it expects 2026 operating profit of about £29m, in line with the consensus it compiles from analysts. Management stressed continued uncertainty, so this is a 'hold', not an upgrade, even though trading has improved. Note the group also absorbed c. £2.5m of one-off senior-exit costs in H1, with a similar amount expected in H2.\n\nThe balance sheet swung to net cash of c. £6m at the quarter end, from net debt of c. £7m at Q2, though this remains well below the c. £38m net cash a year earlier. The £4.6m interim dividend was paid on 9 October 2026.",
+    "source_url": "https://uk.advfn.com/stock-market/london/michael-page-PAGE/share-news/Michael-Page-PLC-THIRD-QUARTER-2026-TRADING-UPDATE/99477504",
+    "related_news_url": "https://news.google.com/search?q=%22Michael%20Page%20plc%22",
+    "added_at": "2026-10-13T07:58:15.313103"
+  },
+  {
     "company": "Plus500 Ltd",
     "ticker": "PLUS",
     "publish_date": "13 October 2026",
