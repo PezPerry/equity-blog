@@ -1,5 +1,40 @@
 [
   {
+    "company": "IntegraFin Holdings PLC",
+    "ticker": "IHP",
+    "publish_date": "13 October 2026",
+    "date_iso": "2026-10-13",
+    "time_period": "Q4 and FY to 30 September 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "Q4 and FY to 30 September 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>IntegraFin Holdings plc</strong>, operator of the <strong>Transact</strong> platform, reports Q4 net inflows of <strong>c.£0.9bn</strong> for the three months to <strong>30 September 2026</strong>.</li><li>CEO <strong>Alex Scott</strong> says net inflows demonstrate Transact's continued ability to grow platform FUD and attract new clients, with confidence in maintaining a strong share of net flows into the adviser platform market.</li><li>Continued focus on cost control, with the <strong>next phase of efficiency initiatives</strong> implemented; emphasis on data integrations between Transact and advice-firm software/CRM systems.</li><li>Full-year results for the year ended <strong>30 September 2026</strong> to be announced on <strong>9 December 2026</strong>.</li><li>Note: the scraped text omits the Q4 and historical platform data tables (FUD, flows, client numbers), so quarter-on-quarter and year-on-year comparatives are not available here.</li></ul>",
+    "source_format": "html",
+    "headline": "IntegraFin ended FY26 with another quarter of robust Transact net inflows of c.£0.9bn, with full results due 9 December 2026.",
+    "priority": "high",
+    "priority_reason": "Quarterly and full-year trading update from a listed platform operator, covering net inflows and FUD momentum.",
+    "figures": [
+      {
+        "metric": "Net inflows (Q4 FY26)",
+        "current": "c.£0.9bn",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "Three months to 30 September 2026; comparative not in scraped text"
+      }
+    ],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": "No numeric guidance given; management expresses confidence in maintaining a strong share of net flows into the growing adviser platform market."
+    },
+    "explainer": "This is a short pre-close-style trading update rather than full results, which are due on 9 December 2026. The one hard number given is Q4 net inflows of about £0.9bn onto the Transact platform. Net inflows are new client money paid in less money withdrawn, and they feed funds under direction (FUD) — the total client assets on the platform, on which IntegraFin earns its fees.\n\nThe scraped article does not include the platform data tables that normally accompany this update (quarterly flows, FUD, gross inflows and client numbers, plus the historical series). As a result there are no printed prior-period comparatives to quote, so the strength of the quarter versus last year cannot be assessed from this text alone.\n\nOn guidance, the company gives no specific financial targets. Management points to continued cost control and a further phase of efficiency initiatives, and expresses confidence in holding a strong share of net flows into the adviser platform market.",
+    "source_url": "https://uk.advfn.com/stock-market/london/integrafin-IHP/share-news/IntegraFin-Holdings-plc-Q4-Trading-Update/99477531",
+    "related_news_url": "https://news.google.com/search?q=%22IntegraFin%20Holdings%20plc%22",
+    "added_at": "2026-10-13T07:59:19.801707"
+  },
+  {
     "company": "Oxford Instruments plc",
     "ticker": "OXIG",
     "publish_date": "13 October 2026",
