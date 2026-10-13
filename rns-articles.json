@@ -1,5 +1,88 @@
 [
   {
+    "company": "Oxford Instruments plc",
+    "ticker": "OXIG",
+    "publish_date": "13 October 2026",
+    "date_iso": "2026-10-13",
+    "time_period": "H1 FY27 (six months to 30 September 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "H1 FY27 (six months to 30 September 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Group order intake up nearly 44%</strong> in H1 to 30 September 2026, with <strong>reported revenue up c.8%</strong> (<strong>+9% OCC</strong>) and adjusted operating margin expected to progress by <strong>over 100bps</strong> versus the prior year.</li><li>Orderbook cover for H2 underpins confidence in delivering <strong>full-year results in line with market expectations</strong> (consensus FY27: revenue <strong>£444.4m</strong>, adjusted operating profit <strong>£81.0m</strong>).</li><li><strong>Advanced Technologies</strong> order intake <strong>up over 125%</strong>, c. three-quarters driven by <strong>datacom</strong> volume manufacturing wins; revenue <strong>up c.26%</strong> and current orderbook extends well into <strong>FY28</strong>, with FY27 revenue fully covered.</li><li><strong>Imaging and Analysis</strong> order intake <strong>up over 11%</strong> (semiconductor and materials science demand); revenue up <strong>c.2-3%</strong> with full-year growth expected in line with guidance.</li><li><strong>Net cash £75m</strong> at period end (H1 FY26: <strong>£45.1m</strong>) on significantly improved cash conversion; <strong>£83m</strong> of the <strong>£100m</strong> buyback completed, expected to finish early in the new year.</li><li>Half-year results to be presented on <strong>10 November 2026</strong>; financial information in this update is unaudited.</li></ul>",
+    "source_format": "html",
+    "headline": "Oxford Instruments reports H1 group order intake up nearly 44% and revenue up about 8%, underpinning confidence in full-year results in line with market expectations.",
+    "priority": "high",
+    "priority_reason": "Interim trading update confirming full-year expectations with very strong order intake across both divisions.",
+    "figures": [
+      {
+        "metric": "Group order intake",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "up nearly 44%",
+        "basis": "",
+        "note": "H1 to 30 September 2026"
+      },
+      {
+        "metric": "Reported revenue",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+c.8% (+9% OCC)",
+        "basis": "organic constant currency for OCC",
+        "note": "H1 to 30 September 2026"
+      },
+      {
+        "metric": "Adjusted operating margin",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+over 100bps",
+        "basis": "",
+        "note": "vs prior-year period"
+      },
+      {
+        "metric": "Imaging and Analysis order intake",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "up over 11%",
+        "basis": "",
+        "note": "vs prior year"
+      },
+      {
+        "metric": "Advanced Technologies order intake",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "up over 125%",
+        "basis": "",
+        "note": "vs prior year"
+      },
+      {
+        "metric": "Advanced Technologies revenue",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+c.26%",
+        "basis": "",
+        "note": "H1"
+      },
+      {
+        "metric": "Net cash",
+        "current": "£75m",
+        "prior": "£45.1m",
+        "change": "not stated",
+        "basis": "",
+        "note": "period end; prior is H1 FY26"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Full year results in line with market expectations",
+      "current": "Full year results in line with market expectations; consensus FY27 revenue £444.4m, adjusted operating profit £81.0m",
+      "commentary": "Guidance is reaffirmed rather than changed. Strong H1 order intake and H2 orderbook cover underpin confidence in meeting the consensus the company cites."
+    },
+    "explainer": "This is a half-year trading update covering the six months to 30 September 2026 (H1 of Oxford Instruments' financial year ending 31 March 2027). It gives directional figures — percentage changes and order metrics — rather than full audited accounts, which follow on 10 November. The '+9% OCC' revenue figure strips out currency and portfolio effects (organic constant currency), while the reported figure of about +8% is the headline number including those effects; the two being close suggests currency was only a small drag.\n\nThe standout is order intake, not revenue. Group orders rose nearly 44%, driven overwhelmingly by the Advanced Technologies division, where orders more than doubled (up over 125%) on datacom demand and new volume-manufacturing customers. Because orders now cover all of FY27 revenue and extend into FY28, the quality of visibility into future sales has improved markedly, even though revenue itself grew more modestly as the business ramps capacity.\n\nOn guidance, nothing has been raised or cut: the company reaffirms that full-year results will be in line with market expectations, and helpfully prints the consensus it is measuring against (FY27 revenue of £444.4m and adjusted operating profit of £81.0m). The improvement in net cash to £75m (from £45.1m a year earlier) reflects better working capital, fewer adjusting items and no pension contributions, and the £100m buyback is now £83m complete.",
+    "source_url": "https://uk.advfn.com/stock-market/london/oxford-instruments-OXIG/share-news/Oxford-Instruments-PLC-Interim-Trading-Update/99477519",
+    "related_news_url": "https://news.google.com/search?q=%22Oxford%20Instruments%20plc%22",
+    "added_at": "2026-10-13T07:58:55.135835"
+  },
+  {
     "company": "Michael Page plc",
     "ticker": "PAGE",
     "publish_date": "13 October 2026",
