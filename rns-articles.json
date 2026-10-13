@@ -1,5 +1,57 @@
 [
   {
+    "company": "Caledonia Mining Corporation Plc",
+    "ticker": "CMCL",
+    "publish_date": "13 October 2026",
+    "date_iso": "2026-10-13",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>Caledonia Mining Corporation Plc</strong> has filed its <strong>NI 43-101</strong> technical reports on <strong>SEDAR+</strong>, supporting the mineral resource announcements made on <strong>28 August 2026</strong>.</li><li>Reports cover the maiden mineral resource estimate at <strong>Motapa</strong> and the updated estimate for <strong>Blanket Mine</strong>; the filing results in <strong>no material changes</strong> to the previously announced scientific or technical information.</li><li>A life-of-mine plan for <strong>Blanket Mine</strong> is in development, expected to produce an updated mineral reserve estimate <strong>before the end of 2026</strong>.</li><li>Routine administrative filing with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Caledonia has filed the NI 43-101 technical reports on SEDAR+ supporting its 28 August 2026 mineral resource estimates for Motapa and Blanket Mine, with no material changes.",
+    "priority": "low",
+    "priority_reason": "Routine technical filing of NI 43-101 reports that supports previously announced resource estimates, with no material change to that information.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/caledonia-mining-corporation-di---cmcl/filing-of-ni-43-101-technical-reports/9819244",
+    "related_news_url": "https://news.google.com/search?q=%22Caledonia%20Mining%20Corporation%20(DI)%22",
+    "added_at": "2026-10-13T07:36:28.384705"
+  },
+  {
+    "company": "Balfour Beatty PLC",
+    "ticker": "BBY",
+    "publish_date": "13 October 2026",
+    "date_iso": "2026-10-13",
+    "time_period": "",
+    "announcement_type": "Disposal",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Balfour Beatty plc</strong> has sold its <strong>50%</strong> shareholding in <strong>Gammon Construction</strong> to a subsidiary of its JV partner <strong>Jardine Matheson</strong> for total cash consideration of <strong>£250 million</strong>.</li><li>Consideration payable in <strong>three equal tranches</strong>: on completion <strong>today</strong>, by <strong>31 December 2027</strong> and by <strong>31 December 2028</strong>.</li><li>First tranche of <strong>£83.3 million</strong> to be retained as cash and fed into Balfour Beatty's <strong>2026 full year</strong> capital allocation review.</li><li>Exits the <strong>50:50 JV</strong> held since <strong>2004</strong>; sale aligns with the <strong>Evolve, Energise and Explore</strong> strategy to focus on core <strong>US and UK</strong> markets.</li><li>Balfour Beatty's 50% share of Gammon's profit from operations was <strong>£36m</strong> for FY2025 and <strong>£11m</strong> for H1 2026; carrying value at <strong>30 June 2026</strong> was <strong>£86m</strong>.</li><li>Gammon will be reported as a <strong>discontinued operation</strong> in Balfour Beatty's 2026 financial statements.</li></ul>",
+    "source_format": "html",
+    "headline": "Balfour Beatty has sold its 50% stake in Hong Kong contractor Gammon Construction to joint-venture partner Jardine Matheson for £250m cash.",
+    "priority": "high",
+    "priority_reason": "A £250m disposal that will be reported as a discontinued operation and feed into the year-end capital allocation review is material to the equity story.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/balfour-beatty--bby/sale-of-balfour-beatty-s-shareholding-in-gammon/9819163",
+    "related_news_url": "https://news.google.com/search?q=%22Balfour%20Beatty%22",
+    "added_at": "2026-10-13T07:36:28.365325"
+  },
+  {
     "company": "Whitbread PLC",
     "ticker": "WTB",
     "publish_date": "13 October 2026",
