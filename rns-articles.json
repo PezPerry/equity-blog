@@ -1,5 +1,31 @@
 [
   {
+    "company": "Melrose Industries PLC",
+    "ticker": "MRO",
+    "publish_date": "13 October 2026",
+    "date_iso": "2026-10-13",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>GKN Aerospace</strong> has filed documentation with the <strong>Orange County District Attorney's Office (OCDAO)</strong> on <strong>12 October 2026</strong> to begin resolving the civil investigation into its <strong>Garden Grove</strong>, California facility.</li><li>Settlement includes an agreed final judgment, an operational safety plan, the previously announced <strong>up to $100 million</strong> claims programme for eligible residents and businesses, <strong>$15 million</strong> of civil enforcement penalties and <strong>$10 million</strong> of claims received to date by emergency services and authorities.</li><li>Settlement is <strong>contingent upon court approval</strong>; the claims programme is expected to open within days of approval.</li><li>Separately, Melrose is in ongoing <strong>mediation</strong> over pending civil class action lawsuits, and its associated <strong>insurance position remains under review</strong>.</li><li>GKN continues to expect a <strong>phased return to full capacity during Q4 2026</strong>; the Garden Grove site employs around <strong>500 people</strong> and generated sales of <strong>£136 million</strong> in FY2025.</li><li>Trading update for the four-month period <strong>1 July to 31 October</strong> due <strong>Wednesday 18 November 2026</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Melrose's GKN Aerospace has filed court documentation to resolve the Orange County civil investigation into its Garden Grove facility, with a phased return to full capacity expected in Q4.",
+    "priority": "high",
+    "priority_reason": "Material legal settlement with up to $125m of combined financial exposure and a quantified timeline for the facility's return to full operations.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/melrose-industries--mro/update-on-gkn-aerospace-s-garden-grove-facility/9820118",
+    "related_news_url": "https://news.google.com/search?q=%22Melrose%20Industries%22",
+    "added_at": "2026-10-13T09:55:44.108688"
+  },
+  {
     "company": "DFS Furniture PLC",
     "ticker": "DFS",
     "publish_date": "13 October 2026",
