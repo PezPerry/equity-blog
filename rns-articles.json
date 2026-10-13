@@ -1,5 +1,139 @@
 [
   {
+    "company": "Ninety One PLC",
+    "ticker": "N91",
+    "publish_date": "13 October 2026",
+    "date_iso": "2026-10-13",
+    "time_period": "Q2 FY2027 (AUM at 30 September 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "Q2 FY2027 (AUM at 30 September 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>AUM</strong> of <strong>£181.4bn</strong> at <strong>30 September 2026</strong>, down from <strong>£184.0bn</strong> at 30 June 2026 but up from <strong>£152.1bn</strong> a year earlier.</li><li>Quarter-on-quarter decline of <strong>c.1.4%</strong>; year-on-year increase of <strong>c.19.3%</strong>.</li><li>Announcement gives the headline AUM figure only — <strong>no detail</strong> on net flows, markets or FX split.</li><li><strong>Interim results</strong> for the six months to <strong>30 September 2026</strong> due on <strong>16 November 2026</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Ninety One reported assets under management of £181.4bn at 30 September 2026, down from £184.0bn a quarter earlier but up from £152.1bn a year ago.",
+    "priority": "medium",
+    "priority_reason": "Quarterly AUM update for an asset manager; a key operating metric but no revenue, profit or guidance.",
+    "figures": [
+      {
+        "metric": "AUM",
+        "current": "£181.4bn",
+        "prior": "£184.0bn",
+        "change": "-1.4%",
+        "basis": "vs 30 June 2026 (quarter-on-quarter)",
+        "note": "at 30 September 2026"
+      },
+      {
+        "metric": "AUM",
+        "current": "£181.4bn",
+        "prior": "£152.1bn",
+        "change": "+19.3%",
+        "basis": "vs 30 September 2025 (year-on-year)",
+        "note": "at 30 September 2026"
+      }
+    ],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "Assets under management (AUM) is the total value of client money Ninety One manages, and it is the main driver of a fund manager's fee income. The announcement is a quarterly snapshot rather than a full trading statement — it gives the closing AUM figure but no breakdown of how it moved, so it is not possible from this release to tell how much of the quarterly change was net client flows versus market movements or currency.\n\nAUM fell slightly from £184.0bn to £181.4bn over the three months to 30 September 2026, a drop of about 1.4%. Against the same point a year earlier (£152.1bn) it is up roughly 19.3%, reflecting a stronger position over the full year.\n\nNo guidance is provided in this update. Fuller detail on flows and earnings will come with the interim results for the six months to 30 September 2026, scheduled for 16 November 2026.",
+    "source_url": "https://uk.advfn.com/stock-market/london/ninety-one-N91/share-news/Ninety-One-PLC-Q2-2027-AUM-update/99477510",
+    "related_news_url": "https://news.google.com/search?q=%22Ninety%20One%20plc%22",
+    "added_at": "2026-10-13T08:01:21.205945"
+  },
+  {
+    "company": "BP PLC",
+    "ticker": "BP.",
+    "publish_date": "13 October 2026",
+    "date_iso": "2026-10-13",
+    "time_period": "Q3 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "Q3 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Net debt</strong> expected at <strong>$13.5 to 14.5 billion</strong> at end-Q3, down sharply from <strong>$22.3 billion</strong> in <strong>Q2 2026</strong>, helped by a <strong>$1.0bn</strong> hybrid redemption, working-capital release and lower proceeds timing.</li><li>Q3 results to include <strong>post-tax impairment adjusting items of $3.0 to 4.5 billion</strong>, primarily on transition businesses in the <strong>gas & low carbon energy</strong> segment, excluded from underlying RC profit.</li><li>Products: stronger realised refining margins worth <strong>+$1.9 to 2.1 billion</strong> vs Q2; <strong>bp RIM</strong> averaged <strong>$46.7/bbl</strong> (Q2: $29.6/bbl); throughput guided to <strong>1,375-1,405 mb/d</strong> (Q2: 1,467) after the <strong>Gelsenkirchen</strong> divestment.</li><li>Customers: significantly lower result on weaker fuels margins, higher Castrol base-oil prices and lower midstream contribution.</li><li>Reported upstream production of <strong>2,190-2,240 mboe/d</strong> (Q2: 2,201) on seasonal maintenance recovery; <strong>Brent</strong> averaged <strong>$96.99/bbl</strong> (Q2: $103.85); group underlying ETR around <strong>30%</strong>.</li><li>Q3 results due <strong>30 October 2026</strong>; strategy and outlook update set for <strong>15 December 2026</strong> in New York.</li></ul>",
+    "source_format": "html",
+    "headline": "BP guides Q3 2026 net debt down to **$13.5-14.5bn** from **$22.3bn**, but flags **$3.0-4.5bn** of post-tax impairments on transition businesses.",
+    "priority": "high",
+    "priority_reason": "Quarterly trading statement with sharp net-debt reduction, multi-billion impairment charge and refining-margin signals ahead of Q3 results on 30 October.",
+    "figures": [
+      {
+        "metric": "Net debt",
+        "current": "$13.5-14.5bn",
+        "prior": "$22.3bn",
+        "change": "down ~$8bn",
+        "basis": "non-IFRS",
+        "note": "end-Q3 2026 vs Q2 2026"
+      },
+      {
+        "metric": "Reported upstream production",
+        "current": "2,190-2,240 mboe/d",
+        "prior": "2,201 mboe/d",
+        "change": "broadly flat",
+        "basis": "",
+        "note": "Q3 2026 vs Q2 2026"
+      },
+      {
+        "metric": "Refining throughput",
+        "current": "1,375-1,405 mb/d",
+        "prior": "1,467 mb/d",
+        "change": "lower",
+        "basis": "",
+        "note": "post-Gelsenkirchen divestment, Q3 vs Q2 2026"
+      },
+      {
+        "metric": "bp Refining Indicator Margin (RIM)",
+        "current": "$46.7/bbl",
+        "prior": "$29.6/bbl",
+        "change": "+$17.1/bbl",
+        "basis": "marker, not realised",
+        "note": "Q3 2026 vs Q2 2026"
+      },
+      {
+        "metric": "Brent (average)",
+        "current": "$96.99/bbl",
+        "prior": "$103.85/bbl",
+        "change": "-6.6%",
+        "basis": "marker",
+        "note": "Q3 2026 vs Q2 2026"
+      },
+      {
+        "metric": "Henry Hub first-of-month index (average)",
+        "current": "$2.96/mmBtu",
+        "prior": "$2.90/mmBtu",
+        "change": "+2.1%",
+        "basis": "marker",
+        "note": "Q3 2026 vs Q2 2026"
+      },
+      {
+        "metric": "Underlying effective tax rate",
+        "current": "around 30%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "geographical mix of profits",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "Post-tax impairment adjusting items",
+        "current": "$3.0-4.5bn",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "excluded from underlying RC profit",
+        "note": "Q3 2026, mainly gas & low carbon transition businesses"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Third quarter and full year 2026 guidance items set out in bp's second quarter 2026 group results announcement on 4 August 2026.",
+      "current": "Those Q3 and FY 2026 guidance items 'continue to apply unless explicitly stated'; updated full-year ETR guidance to be provided with Q3 results.",
+      "commentary": "This is a pre-results trading statement rather than a guidance reset: the prior FY 2026 guidance from the August results stands, with only directional quarter-on-quarter colour given. bp flagged it will refresh full-year effective-tax-rate guidance at the 30 October results."
+    },
+    "explainer": "This is a quarterly trading statement, not full results. It gives bp's early read on how Q3 2026 is shaping up relative to Q2, using directional ranges rather than final numbers. The actual Q3 figures land on 30 October 2026.\n\nThe headline positive is the steep fall in net debt, from $22.3bn to a guided $13.5-14.5bn. Much of this reflects divestment proceeds, a $1.0bn hybrid redemption and a working-capital release, rather than purely cash generation; note the wider measure (net debt plus hybrids, leases and Gulf of America settlement liabilities) is only guided down $9-10bn. Net debt here is a non-IFRS measure.\n\nOn earnings mix, refining is the bright spot: the bp Refining Indicator Margin jumped to $46.7/bbl from $29.6/bbl, worth $1.9-2.1bn more than Q2, though lower throughput after the Gelsenkirchen sale partly offsets this. Against that, the customers business (fuels marketing and Castrol) is guided significantly weaker, and Brent averaging lower will weigh on upstream realisations.\n\nSeparately, bp expects $3.0-4.5bn of post-tax impairments, mostly on gas and low-carbon 'transition' businesses. These are treated as adjusting items and stripped out of underlying replacement cost (RC) profit, so they hit statutory earnings but not the underlying number bp emphasises.",
+    "source_url": "https://uk.advfn.com/stock-market/london/bp-BP./share-news/BP-PLC-3Q26-bp-Trading-Statement-Part-1-of-1/99477543",
+    "related_news_url": "https://news.google.com/search?q=%22BP%20p.l.c.%22",
+    "added_at": "2026-10-13T08:01:21.199350"
+  },
+  {
     "company": "Victorian Plumbing Group PLC",
     "ticker": "VIC",
     "publish_date": "13 October 2026",
