@@ -1,5 +1,31 @@
 [
   {
+    "company": "Standard Life PLC",
+    "ticker": "SDLF",
+    "publish_date": "13 October 2026",
+    "date_iso": "2026-10-13",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Siobhan Boylan</strong>, the Group Shareholder Nominated Non-Executive Director nominated by <strong>Aberdeen Group plc</strong>, ceased to be a board member with effect from <strong>12 October 2026</strong>.</li><li>Follows Aberdeen's <strong>8 October 2026</strong> sale of <strong>52,000,000</strong> ordinary shares, cutting its holding to approximately <strong>5.3%</strong>, below the ownership threshold needed to nominate a director.</li><li>Routine UKLR 6.4.6 disclosure; <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Shareholder-nominated non-executive director Siobhan Boylan steps off the Standard Life board after Aberdeen's stake fell below the nomination threshold.",
+    "priority": "medium",
+    "priority_reason": "Board composition change, but a routine consequence of a shareholder losing its nomination rights, with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/standard-life-SDLF/share-news/Standard-Life-plc-Board-Changes/99476470",
+    "related_news_url": "https://news.google.com/search?q=%22Standard%20Life%20plc%22",
+    "added_at": "2026-10-13T07:16:02.080116"
+  },
+  {
     "company": "Baillie Gifford US Growth Trust plc",
     "ticker": "USA",
     "publish_date": "12 October 2026",
