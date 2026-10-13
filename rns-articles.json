@@ -1,5 +1,104 @@
 [
   {
+    "company": "Victorian Plumbing Group PLC",
+    "ticker": "VIC",
+    "publish_date": "13 October 2026",
+    "date_iso": "2026-10-13",
+    "time_period": "FY to 30 September 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "FY to 30 September 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Victorian Plumbing Group plc</strong> (AIM: VIC) reports <strong>record FY26 revenue</strong> up <strong>c.11%</strong> to <strong>c.£344m</strong> (FY25: <strong>£310.0m</strong>), with <strong>adjusted PBT c.£22m</strong> (FY25: <strong>£21.8m</strong>) <strong>ahead of market expectations</strong>.</li><li>Growth driven by a <strong>c.13%</strong> rise in total orders, offset by a <strong>c.5%</strong> fall in average order value; outperformed a repair, maintenance & improvement market that declined <strong>1.7%</strong>.</li><li><strong>Tiles and flooring</strong> revenue grew <strong>c.76%</strong> to <strong>c.£31m</strong> (FY25: <strong>£17.6m</strong>); <strong>trade</strong> revenue up <strong>c.6%</strong> to <strong>c.£78m</strong> (FY25: <strong>£73.8m</strong>).</li><li>Core <strong>Victorian Plumbing</strong> made <strong>c.£26m</strong> profit (FY25: <strong>£24.3m</strong>); homewares brand <strong>MFI</strong> posted a <strong>c.£4m</strong> loss (FY25: <strong>£2.5m</strong> loss) amid continued investment; <strong>Sovereign Transport Services</strong> added <strong>c.£7m</strong> revenue and MFI <strong>c.£3m</strong>.</li><li>Year-end <strong>cash c.£25m</strong> (FY25: <strong>£17.7m</strong>); preliminary FY26 results due <strong>8 December 2026</strong>.</li><li>Company-compiled consensus was <strong>£328.4m</strong> revenue and <strong>£21.7m</strong> adjusted PBT; CEO <strong>Stephnie Judge</strong> cited market-share gains and the category-expansion strategy.</li></ul>",
+    "source_format": "html",
+    "headline": "Victorian Plumbing delivered record FY26 revenue up c.11% to c.£344m and adjusted PBT of c.£22m, ahead of market expectations.",
+    "priority": "high",
+    "priority_reason": "Full-year trading update with record revenue and adjusted PBT ahead of market expectations.",
+    "figures": [
+      {
+        "metric": "Group revenue",
+        "current": "c.£344m",
+        "prior": "£310.0m",
+        "change": "+c.11%",
+        "basis": "reported",
+        "note": "FY to 30 September 2026; vs consensus £328.4m"
+      },
+      {
+        "metric": "Adjusted PBT",
+        "current": "c.£22m",
+        "prior": "£21.8m",
+        "change": "+c.1%",
+        "basis": "adjusted",
+        "note": "ahead of consensus of £21.7m"
+      },
+      {
+        "metric": "Tiles and flooring revenue",
+        "current": "c.£31m",
+        "prior": "£17.6m",
+        "change": "+c.76%",
+        "basis": "reported",
+        "note": ""
+      },
+      {
+        "metric": "Trade revenue",
+        "current": "c.£78m",
+        "prior": "£73.8m",
+        "change": "+c.6%",
+        "basis": "reported",
+        "note": ""
+      },
+      {
+        "metric": "Year-end cash",
+        "current": "c.£25m",
+        "prior": "£17.7m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": ""
+      },
+      {
+        "metric": "Victorian Plumbing profit",
+        "current": "c.£26m",
+        "prior": "£24.3m",
+        "change": "not stated",
+        "basis": "segment profit",
+        "note": ""
+      },
+      {
+        "metric": "MFI loss",
+        "current": "c.£4m loss",
+        "prior": "£2.5m loss",
+        "change": "not stated",
+        "basis": "segment loss",
+        "note": ""
+      },
+      {
+        "metric": "Total orders",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+c.13%",
+        "basis": "",
+        "note": ""
+      },
+      {
+        "metric": "Average order value",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "-c.5%",
+        "basis": "",
+        "note": ""
+      }
+    ],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": "No formal company guidance is quoted; the Group states adjusted PBT of c.£22m is ahead of company-compiled analyst consensus of £21.7m, and revenue of c.£344m is ahead of consensus of £328.4m."
+    },
+    "explainer": "This is a full-year trading update for the 12 months to 30 September 2026, ahead of audited preliminary results on 8 December. Figures are stated on an approximate (\"c.\") basis and are unaudited. Revenue of around £344m is up about 11% on last year's £310.0m, and the company stresses this outpaces its market: the Barclays home-improvement benchmark it cites fell 1.7% over the period, so Victorian Plumbing is taking share rather than riding a buoyant market.\n\nThe mix behind the growth matters. Orders rose about 13% but the average order value fell about 5%, meaning customers are buying more often but spending less per basket. Part of the top-line also comes from recent additions: roughly £7m from the acquired haulage business Sovereign Transport Services and about £3m from the MFI homewares brand, so underlying core growth is a little slower than the headline 11% implies.\n\nOn profit, adjusted PBT of about £22m is only marginally above last year's £21.8m, but it beats the company-compiled consensus of £21.7m. The flat-looking profit reflects a drag from MFI, which widened its loss to about £4m (from £2.5m) as the Group invests to establish it; the core Victorian Plumbing business actually grew profit to about £26m from £24.3m. \"Adjusted\" means certain one-off or non-cash items are excluded, so the statutory figure in December could differ.\n\nThere is no formal forward guidance in this update. The key signal is that both revenue and adjusted PBT came in ahead of market expectations, and the balance sheet strengthened with year-end cash up to about £25m from £17.7m.",
+    "source_url": "https://uk.advfn.com/stock-market/london/victorian-plumbing-VIC/share-news/Victorian-Plumbing-Group-PLC-Full-Year-Trading-Upd/99477534",
+    "related_news_url": "https://news.google.com/search?q=%22Victorian%20Plumbing%20Group%20plc%22",
+    "added_at": "2026-10-13T07:59:59.185258"
+  },
+  {
     "company": "IntegraFin Holdings PLC",
     "ticker": "IHP",
     "publish_date": "13 October 2026",
