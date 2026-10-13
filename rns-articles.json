@@ -1,5 +1,31 @@
 [
   {
+    "company": "Greencore Group plc",
+    "ticker": "GNC",
+    "publish_date": "13 October 2026",
+    "date_iso": "2026-10-13",
+    "time_period": "Q4 and FY26 to 25 September 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "Q4 and FY26 to 25 September 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Greencore Group plc</strong> is <strong>further upgrading</strong> its <strong>FY26 Adjusted Operating Profit</strong> guidance after finishing the year ended <strong>25 September 2026</strong> strongly.</li><li>Q4 saw <strong>volume growth ahead of the market</strong>, <strong>strong profit growth</strong> and positive cashflow generation, per CEO <strong>Dalton Philips</strong>.</li><li>Previous guidance, set at the Q3 update, was <strong>FY26 Adjusted Operating Profit of £234-242m</strong> (continuing operations, UK business only); current market consensus is <strong>£238m</strong> (range <strong>£236-241m</strong>) from <strong>8 analysts</strong>.</li><li>The exact upgraded guidance figure is <strong>not stated</strong> in the text provided; the announcement confirms only that guidance has been raised.</li><li>Integration with <strong>Bakkavor</strong> continues, with the group citing encouraging cross-selling progress across its expanded customer base; combined pro forma FY25 revenue was approximately <strong>£4bn</strong>.</li><li>US operations are treated as a <strong>discontinued operation</strong> and excluded from the continuing-operations guidance and consensus.</li></ul>",
+    "source_format": "html",
+    "headline": "Greencore upgrades FY26 Adjusted Operating Profit guidance again after a strong Q4, with volume growth ahead of the market and continued Bakkavor integration.",
+    "priority": "high",
+    "priority_reason": "Q4/full-year trading update with a further upgrade to full-year profit guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "raised",
+      "previous": "FY26 Adjusted Operating Profit of £234-242m (continuing operations, UK business only), set at the Q3 trading update",
+      "current": "Guidance 'further upgraded'; no specific new figure stated in the text provided (market consensus £238m, range £236-241m)",
+      "commentary": "Greencore has raised its FY26 Adjusted Operating Profit guidance for a second time, citing a strong Q4 with volume growth ahead of the market and strong profit momentum. The announcement as supplied does not print the new target number, stating only that the prior £234-242m range is being upgraded."
+    },
+    "explainer": "This is a full-year (FY26, to 25 September 2026) and Q4 trading update rather than audited results, so it gives direction of travel rather than detailed financials. The headline point is a further upgrade to Adjusted Operating Profit guidance — 'adjusted' meaning before one-off and acquisition-related items — on the back of volume growth that Greencore says ran ahead of its market (measured on Circana data for the 52 weeks to 26 September 2026).\n\nThe figures are stated on a continuing-operations, UK-only basis: the US business is classed as a discontinued operation and stripped out of both guidance and the £238m analyst consensus. Growth comparisons are made on a pro forma basis, meaning Greencore and Bakkavor are treated as combined for the whole of both the current and prior year, with the disposed Bristol facility and closed/exited sites removed so the comparison reflects the enlarged group rather than the acquisition timing.\n\nOn guidance specifically, the prior range was £234-242m (set at the Q3 update) against consensus of £238m. The company says it is now upgrading that range again, but the text provided does not print the new number, so the precise upgraded figure is unclear from this announcement alone.",
+    "source_url": "https://uk.advfn.com/stock-market/london/greencore-GNC/share-news/Greencore-Group-PLC-Q4-Trading-Update/99477557",
+    "related_news_url": "https://news.google.com/search?q=%22Greencore%20Group%20plc%22",
+    "added_at": "2026-10-13T08:03:35.973828"
+  },
+  {
     "company": "Bytes Technology Group plc",
     "ticker": "BYIT",
     "publish_date": "13 October 2026",
