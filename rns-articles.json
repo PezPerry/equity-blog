@@ -1,5 +1,56 @@
 [
   {
+    "company": "Rio Tinto PLC",
+    "ticker": "RIO",
+    "publish_date": "13 October 2026",
+    "date_iso": "2026-10-13",
+    "time_period": "Q3 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "Q3 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Oyu Tolgoi</strong> copper production up <strong>29%</strong> year-to-date, running at a <strong>~450 kt</strong> annualised rate in the quarter.</li><li>Global iron ore sales up <strong>3%</strong> year-to-date; <strong>Simandou</strong> reached a <strong>~10 Mtpa</strong> annualised run-rate (100% basis) in the quarter as it ramps up.</li><li>More than <strong>$2bn</strong> of capital release achieved year-to-date, part of the <strong>$5-10bn</strong> capital release programme; on track to announce around <strong>$5bn</strong> of initiatives by end 2026.</li><li>Remains on track for a <strong>$1.8bn</strong> annualised productivity benefit run-rate by the end of <strong>2026</strong>; major projects on schedule and budget.</li><li><strong>Pacific Aluminium</strong> smelter repowering arrangements now well progressed; CEO <strong>Simon Trott</strong> says the group is finishing the year with momentum.</li><li>Note: the scraped text lists metric headings (copper, Pilbara/global iron ore, lithium) but the underlying production numbers are not printed in the article body.</li></ul>",
+    "source_format": "html",
+    "headline": "Rio Tinto reports strong Q3 operational performance, with Oyu Tolgoi copper up 29% year-to-date and global iron ore sales up 3%, and over $2bn capital released year-to-date.",
+    "priority": "high",
+    "priority_reason": "Quarterly production update from a major FTSE 100 miner, with production run-rates, productivity target and capital-release progress relevant to earnings.",
+    "figures": [
+      {
+        "metric": "Oyu Tolgoi copper production",
+        "current": "~450 kt annualised rate in the quarter",
+        "prior": "not stated",
+        "change": "+29%",
+        "basis": "year-to-date",
+        "note": "consolidated basis"
+      },
+      {
+        "metric": "Global iron ore sales",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+3%",
+        "basis": "year-to-date, 100% basis",
+        "note": ""
+      },
+      {
+        "metric": "Simandou iron ore run-rate",
+        "current": "~10 Mtpa annualised (100% basis)",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "ramp-up",
+        "note": "life-of-mine target ~60 Mtpa"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "$1.8bn annualised productivity benefit run-rate by end 2026; $5-10bn capital release programme",
+      "current": "On track for $1.8bn annualised productivity benefit run-rate by end 2026; over $2bn capital released year-to-date, targeting around $5bn of capital release initiatives announced by end 2026",
+      "commentary": "Guidance is reaffirmed rather than changed. Rio reiterates its productivity and capital-release targets and says major projects remain on schedule and budget, underwriting its growth profile to 2030."
+    },
+    "explainer": "This is a quarterly production report, not a profit statement, so it shows operational volumes and run-rates rather than revenue or earnings. The comparatives given are year-to-date percentage changes: Oyu Tolgoi copper is up 29% and global iron ore sales up 3% on the same period a year earlier, while the \"~450 kt annualised rate\" and \"~10 Mtpa\" figures annualise a quarter's output to show the pace operations are now running at, not actual tonnes shipped.\n\nSimandou, Rio's large new iron ore project in Guinea, is still ramping up towards a long-term target of around 60 Mtpa, so its ~10 Mtpa run-rate reflects early-stage output. The lithium business reflects the Arcadium acquisition completed in early 2025, which affects year-on-year comparisons.\n\nOn guidance, nothing has changed: Rio reaffirms its $1.8bn annualised productivity benefit target for end-2026 and its $5-10bn capital release programme, under which it has now freed up more than $2bn year-to-date and expects to announce around $5bn of initiatives by year-end. Capital release here means proceeds from actively managing and reshaping the portfolio, subject to binding agreements and conditions.",
+    "source_url": "https://uk.advfn.com/stock-market/london/rio-tinto-RIO/share-news/Rio-Tinto-releases-third-quarter-2026-production-r/99485132",
+    "related_news_url": "https://news.google.com/search?q=%22Rio%20Tinto%20plc%22",
+    "added_at": "2026-10-14T07:06:42.278783"
+  },
+  {
     "company": "London Stock Exchange Group plc",
     "ticker": "LSEG",
     "publish_date": "13 October 2026",
