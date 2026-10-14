@@ -1,5 +1,31 @@
 [
   {
+    "company": "NatWest Group PLC",
+    "ticker": "NWG",
+    "publish_date": "14 October 2026",
+    "date_iso": "2026-10-14",
+    "time_period": "",
+    "announcement_type": "Financing / debt issuance",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>NatWest Group plc</strong> priced <strong>USD 1,000,000,000</strong> of <strong>5.908%</strong> Senior Callable Fixed-to-Fixed Reset Rate Notes due <strong>2032</strong>.</li><li>Proceeds of <strong>USD 1bn</strong> (before expenses and underwriting discounts) will fund NWG's <strong>general banking business</strong>.</li><li>Offering scheduled to close on <strong>16 October 2026</strong>, subject to customary conditions; notes issued under an SEC-registered prospectus.</li><li>Routine wholesale funding with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "NatWest priced USD 1bn of 5.908% senior callable fixed-to-fixed reset notes due 2032 to fund its general banking business.",
+    "priority": "medium",
+    "priority_reason": "A USD 1bn senior notes pricing is a routine funding exercise for general banking purposes with no impact on earnings or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/natwest-group--nwg/natwest-group-plc-pricing-of-securities/9823002",
+    "related_news_url": "https://news.google.com/search?q=%22NATWEST%20GROUP%22",
+    "added_at": "2026-10-14T12:55:39.423463"
+  },
+  {
     "company": "Victorian Plumbing Group PLC",
     "ticker": "VIC",
     "publish_date": "14 October 2026",
