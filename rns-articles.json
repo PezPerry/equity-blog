@@ -1,5 +1,96 @@
 [
   {
+    "company": "discoverIE Group plc",
+    "ticker": "DSCV",
+    "publish_date": "14 October 2026",
+    "date_iso": "2026-10-14",
+    "time_period": "H1 FY to 31 March 2027 (six months to 30 September 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "H1 FY to 31 March 2027 (six months to 30 September 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Full year adjusted earnings</strong> running <strong>ahead of the Board's expectations</strong>, driving strong earnings growth over last year — an <strong>earnings upgrade</strong> on strong trading momentum.</li><li><strong>H1 Group sales +8% organically</strong> (Q1 <strong>+6%</strong>, Q2 <strong>+10%</strong>); <strong>+13% CER</strong> and <strong>+14% reported</strong> including acquisitions.</li><li>Led by <strong>Magnetics & Controls +13%</strong> organic (industrial electrification, renewable energy, security); <strong>Sensing & Connectivity +1%</strong> organic on longer lead times and a tough comparator, with H2 acceleration expected.</li><li><strong>Group orders +22% organically</strong> (M&C <strong>+25%</strong>, S&C <strong>+18%</strong>), <strong>+30% CER</strong>, giving a <strong>book-to-bill of 1.12</strong> and a strong order book.</li><li><strong>Gearing</strong> expected at <strong>1.6x</strong> at 30 September 2026, rising to <strong>c.1.8x</strong> at 31 March 2027 after the <strong>3Gmetalworx</strong> acquisition; regulatory approval well progressed.</li><li><strong>Interim results</strong> due <strong>2 December 2026</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "discoverIE reports H1 organic sales up 8% and organic orders up 22%, with full-year adjusted earnings now running ahead of the Board's expectations.",
+    "priority": "high",
+    "priority_reason": "First-half trading update with an earnings upgrade, with full-year adjusted earnings now running ahead of Board expectations.",
+    "figures": [
+      {
+        "metric": "Organic sales growth (Group)",
+        "current": "+8%",
+        "prior": "not stated",
+        "change": "+8% organic",
+        "basis": "constant currency, excluding acquisitions",
+        "note": "H1 to 30 September 2026 (Q1 +6%, Q2 +10%)"
+      },
+      {
+        "metric": "Total sales growth (CER)",
+        "current": "+13% CER",
+        "prior": "not stated",
+        "change": "+13%",
+        "basis": "constant exchange rate, incl. acquisitions",
+        "note": "H1"
+      },
+      {
+        "metric": "Reported sales growth",
+        "current": "+14%",
+        "prior": "not stated",
+        "change": "+14%",
+        "basis": "reported",
+        "note": "H1"
+      },
+      {
+        "metric": "M&C organic sales growth",
+        "current": "+13%",
+        "prior": "not stated",
+        "change": "+13%",
+        "basis": "organic",
+        "note": "H1"
+      },
+      {
+        "metric": "S&C organic sales growth",
+        "current": "+1%",
+        "prior": "not stated",
+        "change": "+1%",
+        "basis": "organic",
+        "note": "H1; +5% higher than H2 last year"
+      },
+      {
+        "metric": "Organic order growth (Group)",
+        "current": "+22%",
+        "prior": "not stated",
+        "change": "+22%",
+        "basis": "organic (M&C +25%, S&C +18%)",
+        "note": "H1; +30% CER"
+      },
+      {
+        "metric": "Book-to-bill ratio",
+        "current": "1.12",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "H1"
+      },
+      {
+        "metric": "Gearing (net debt / adjusted EBITDA)",
+        "current": "1.6x at 30 Sep 2026",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "rising to c.1.8x at 31 Mar 2027 post-3G",
+        "note": ""
+      }
+    ],
+    "guidance": {
+      "status": "raised",
+      "previous": "Board's expectations for full year adjusted earnings (prior level not quantified in the update)",
+      "current": "Full year adjusted earnings running ahead of the Board's expectations, driving strong earnings growth over last year",
+      "commentary": "Full-year adjusted earnings are now running ahead of the Board's prior expectations on strong trading momentum, a healthy order book (book-to-bill 1.12) and a pipeline of design wins. No specific numerical target is given."
+    },
+    "explainer": "This is a first-half trading update for discoverIE's financial year ending 31 March 2027, covering the six months to 30 September 2026. The headline is an earnings upgrade: management now expects full-year adjusted earnings to come in ahead of the Board's previous expectations. The figures are unaudited management numbers; the company has not printed absolute revenue or profit, only growth rates.\n\nThe growth rates are quoted on several bases. 'Organic' growth (+8% for the Group) strips out acquisitions made in the last 12 months and is measured at constant exchange rates (CER), so it reflects the underlying business rather than deals or currency. 'CER' growth (+13%) adds back the acquisitions but holds exchange rates steady, and 'reported' growth (+14%) is the actual figure including a small currency tailwind — sterling was roughly stable against the euro and dollar but weakened about 3% against the three Nordic currencies. The gap between the +1% organic sales in Sensing & Connectivity and its +18% organic order growth is the key nuance: sales were held back by longer supply lead times and a tough prior-year comparison, but the strong order intake points to faster growth in the second half.\n\nOrders grew far faster than sales (+22% organically), giving a book-to-bill ratio of 1.12 — meaning the group took in £1.12 of new orders for every £1 it shipped, which builds the order book and underpins H2 expectations.\n\nOn the balance sheet, gearing (net debt divided by adjusted EBITDA) is expected at 1.6x at the half-year, rising to about 1.8x by the year-end once the 3Gmetalworx acquisition completes — still leaving headroom for further deals. Interim results are due on 2 December 2026.",
+    "source_url": "https://uk.advfn.com/stock-market/london/discoverie-DSCV/share-news/discoverIE-Group-plc-First-Half-Trading-Update/99485863",
+    "related_news_url": "https://news.google.com/search?q=%22discoverIE%20Group%20plc%22",
+    "added_at": "2026-10-14T07:56:59.989942"
+  },
+  {
     "company": "Rio Tinto PLC",
     "ticker": "RIO",
     "publish_date": "14 October 2026",
