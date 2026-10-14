@@ -1,5 +1,88 @@
 [
   {
+    "company": "Vertu Motors PLC",
+    "ticker": "VTU",
+    "publish_date": "14 October 2026",
+    "date_iso": "2026-10-14",
+    "time_period": "H1 FY27 (six months to 31 August 2026)",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 FY27 (six months to 31 August 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Adjusted profit before tax</strong> up <strong>19.0%</strong> to <strong>£23.8m</strong> (H1 FY26: <strong>£20.0m</strong>); reported PBT up <strong>24.1%</strong> to <strong>£24.2m</strong>.</li><li>Record <strong>H1 revenue</strong> of <strong>£2,596.5m</strong> (H1 FY26: <strong>£2,510.0m</strong>), with like-for-like revenue growth of <strong>4.3%</strong>.</li><li><strong>Full-year results for the year to 28 February 2027 anticipated to be ahead of current expectations</strong> — a third profit upgrade since the start of the year; strong start to H2 with profit above prior year (adjusted for prior-year JLR cyberattack).</li><li><strong>Net debt</strong> cut to <strong>£54.2m</strong> (31 August 2025: <strong>£78.3m</strong>), substantially below expectations; free cash flow of <strong>£17.5m</strong> (H1 FY26: <strong>£0.4m</strong>), 94% cash conversion.</li><li><strong>Interim dividend</strong> raised <strong>11%</strong> to <strong>1.0p</strong> (H1 FY26: 0.9p); <strong>£10.2m</strong> remains of the <strong>£12m</strong> buyback (shares to be bought up to <strong>85p</strong>).</li><li><strong>20 Chinese automotive outlets</strong> now trading with a further <strong>11</strong> planned over nine months; BEV new retail volumes grew <strong>125.6%</strong> vs market <strong>75.9%</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Vertu posts record H1 revenue of **£2,596.5m** and **19.0%** higher adjusted PBT of **£23.8m**, and guides full-year profit ahead of expectations.",
+    "priority": "high",
+    "priority_reason": "Interim results accompanied by an upgrade to full-year guidance now expected ahead of current expectations.",
+    "figures": [
+      {
+        "metric": "Revenue",
+        "current": "£2,596.5m",
+        "prior": "£2,510.0m",
+        "change": "+3.4%",
+        "basis": "reported",
+        "note": "H1 FY27 vs H1 FY26; like-for-like +4.3%"
+      },
+      {
+        "metric": "Adjusted profit before tax",
+        "current": "£23.8m",
+        "prior": "£20.0m",
+        "change": "+19.0%",
+        "basis": "adjusted (excl. non-underlying items)",
+        "note": "H1 FY27 vs H1 FY26"
+      },
+      {
+        "metric": "Profit before tax",
+        "current": "£24.2m",
+        "prior": "£19.5m",
+        "change": "+24.1%",
+        "basis": "reported",
+        "note": "net non-underlying income of £0.4m"
+      },
+      {
+        "metric": "Basic adjusted EPS",
+        "current": "5.71p",
+        "prior": "4.57p",
+        "change": "+24.9%",
+        "basis": "adjusted",
+        "note": "H1 FY27 vs H1 FY26"
+      },
+      {
+        "metric": "Dividend per share",
+        "current": "1.00p",
+        "prior": "0.90p",
+        "change": "+11%",
+        "basis": "interim",
+        "note": "payable January 2027"
+      },
+      {
+        "metric": "Free cash flow",
+        "current": "£17.5m",
+        "prior": "£0.4m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "94% cash conversion"
+      },
+      {
+        "metric": "Net debt",
+        "current": "£54.2m",
+        "prior": "£78.3m",
+        "change": "not stated",
+        "basis": "excl. lease liabilities, incl. used vehicle stocking loans",
+        "note": "at 31 Aug 2026 vs 31 Aug 2025"
+      }
+    ],
+    "guidance": {
+      "status": "raised",
+      "previous": "Current FY27 consensus of three sell-side analysts: adjusted profit before tax of £26.5m (range £25.5m to £27.1m), per data compiled at 13 October 2026",
+      "current": "Full-year results for the year ending 28 February 2027 anticipated to be ahead of current expectations",
+      "commentary": "This is the third upgrade to current-year profit guidance since the start of the financial year, driven by gross profit growth across all channels, tight cost control and lower finance charges. H2 has started strongly, with September plate-change trading stronger than anticipated and profit above prior-year levels once the prior year's JLR cyberattack impact is stripped out."
+    },
+    "explainer": "Vertu's headline profit numbers are shown on an 'adjusted' basis, meaning non-underlying one-off items are stripped out. Here the adjustment works in reverse of the usual direction: reported PBT (£24.2m) is actually higher than adjusted PBT (£23.8m) because there was a net £0.4m of non-underlying income in the period, so both measures rose strongly year on year.\n\nRevenue grew 3.4% as reported but 4.3% on a like-for-like basis, which excludes the effect of acquired or closed outlets and so better reflects underlying trading. September, the key plate-change month, was notably strong: UK new retail registrations rose 13.9%, though almost all that growth came from Chinese brands — Vertu's own like-for-like new retail volumes were flat, with profit instead supported by manufacturer bonuses, Motability and aftersales.\n\nOn guidance, the company says full-year results to 28 February 2027 will now be ahead of current expectations. Vertu helpfully quantifies the starting point: compiled consensus adjusted PBT was £26.5m (range £25.5m–£27.1m) as at 13 October. This is the third upgrade of the year, so the market's number should move higher again. Net debt also came in well below expectations at £54.2m, aided by strong cash conversion and tight working-capital control.\n\nManagement remains cautious on consumer demand given inflation and interest rates, and flags the ZEV mandate as a continuing drag on new-vehicle pricing, supply and channel mix — pressure it expects to persist towards 2030 even if the mandate is revised.",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/vertu-motors--vtu/interim-results/9821324",
+    "related_news_url": "https://news.google.com/search?q=%22Vertu%20Motors%22",
+    "added_at": "2026-10-14T07:08:22.326631"
+  },
+  {
     "company": "Sylvania Platinum Limited",
     "ticker": "SLP",
     "publish_date": "14 October 2026",
