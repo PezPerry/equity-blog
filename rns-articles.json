@@ -1,5 +1,31 @@
 [
   {
+    "company": "Anglo American PLC",
+    "ticker": "AAL",
+    "publish_date": "14 October 2026",
+    "date_iso": "2026-10-14",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>Anglo American plc</strong> has published results of its <strong>Dividend Reinvestment Plan (DRIP)</strong> for the <strong>2026 interim dividend</strong>, a routine disclosure with <strong>no impact</strong> on trading or guidance.</li><li>UK register: holders of <strong>15,588,006 shares (1.32%)</strong> elected the DRIP, resulting in purchase of <strong>64,346 shares</strong> at an average <strong>£40.327</strong> per share.</li><li>South African branch register: holders of <strong>60,333,119 shares (5.12%)</strong> elected the DRIP, resulting in purchase of <strong>258,450 shares</strong> at an average <strong>ZAR882.28341</strong> per share; Botswana holders did not participate.</li><li>DRIP shares were <strong>bought in the market, not newly issued</strong>; total issued share capital remains <strong>1,178,050,272 ordinary shares</strong> with none held in treasury.</li></ul>",
+    "source_format": "html",
+    "headline": "Anglo American reports take-up of its Dividend Reinvestment Plan for the 2026 interim dividend, with shares bought in the market rather than newly issued.",
+    "priority": "low",
+    "priority_reason": "Routine administrative disclosure of Dividend Reinvestment Plan take-up with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/anglo-american--aal/results-of-dividend-reinvestment-plan-/9823012",
+    "related_news_url": "https://news.google.com/search?q=%22Anglo%20American%22",
+    "added_at": "2026-10-14T13:15:38.915397"
+  },
+  {
     "company": "NatWest Group PLC",
     "ticker": "NWG",
     "publish_date": "14 October 2026",
