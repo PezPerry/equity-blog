@@ -1,5 +1,96 @@
 [
   {
+    "company": "Rio Tinto PLC",
+    "ticker": "RIO",
+    "publish_date": "14 October 2026",
+    "date_iso": "2026-10-14",
+    "time_period": "Q3 2026 (and 9 months to 30 September 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "Q3 2026 (and 9 months to 30 September 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Rio Tinto</strong> reports a strong Q3 2026, with CEO <strong>Simon Trott</strong> citing <strong>~1% YTD</strong> rise in copper equivalent production led by <strong>Oyu Tolgoi</strong> copper and <strong>Pilbara</strong> iron ore.</li><li>Copper: <strong>Oyu Tolgoi</strong> production up <strong>27% YoY</strong> in Q3 and <strong>29% YTD</strong>; group copper flat YoY at <strong>205kt</strong> in Q3 (<strong>646kt</strong>, +1% YTD). Kennecott flash converting furnace rebuild completed ahead of plan.</li><li>Iron ore: Q3 global sales <strong>90.8 Mt</strong> (<strong>+3% YoY</strong>); <strong>Simandou</strong> hit a <strong>~10 Mtpa</strong> (100% basis) annualised run-rate, on track for <strong>60 Mtpa</strong> during <strong>H2 2028</strong>.</li><li>Lithium production up <strong>33% YTD</strong> (guidance now at lower end of <strong>61-64 kt</strong>); aluminium stable, with <strong>Pacific</strong> smelter repowering well progressed.</li><li><strong>2026 production, sales and unit cost guidance maintained</strong> across all commodities; <strong>>$2bn</strong> of capital release achieved YTD under the <strong>$5-10bn</strong> programme.</li><li>On-track for a <strong>$1.8bn</strong> annualised productivity benefit run-rate by end-2026; Pilbara unit costs facing modest diesel (<strong>+$1.1/t</strong>) and FX (<strong>~$1.0/t</strong>) headwinds.</li></ul>",
+    "source_format": "html",
+    "headline": "Rio Tinto posts strong Q3 with Oyu Tolgoi copper up 27% YoY and iron ore sales up 3%, and keeps all 2026 production guidance unchanged.",
+    "priority": "high",
+    "priority_reason": "Quarterly production and sales results from a major FTSE 100 miner, with guidance reaffirmed across all commodities.",
+    "figures": [
+      {
+        "metric": "Total copper production (consolidated)",
+        "current": "205 kt",
+        "prior": "205 kt (Q3 2025)",
+        "change": "0%",
+        "basis": "consolidated basis",
+        "note": "Q3 2026; 646 kt YTD, +1%"
+      },
+      {
+        "metric": "Oyu Tolgoi copper (metal in concentrates)",
+        "current": "114 kt",
+        "prior": "not stated",
+        "change": "+27%",
+        "basis": "YoY",
+        "note": "Q3 2026; +29% YTD"
+      },
+      {
+        "metric": "Global iron ore sales (100% basis)",
+        "current": "90.8 Mt",
+        "prior": "not stated",
+        "change": "+3%",
+        "basis": "YoY",
+        "note": "Q3 2026; 255.3 Mt YTD, +3%"
+      },
+      {
+        "metric": "Pilbara iron ore production (100% basis)",
+        "current": "83.4 Mt",
+        "prior": "not stated",
+        "change": "-1%",
+        "basis": "YoY",
+        "note": "Q3 2026; 245.7 Mt YTD, +3%"
+      },
+      {
+        "metric": "Alumina production",
+        "current": "2.1 Mt",
+        "prior": "not stated",
+        "change": "+10%",
+        "basis": "YoY",
+        "note": "Q3 2026; +9% YTD"
+      },
+      {
+        "metric": "Aluminium production",
+        "current": "0.8 Mt",
+        "prior": "not stated",
+        "change": "-2%",
+        "basis": "YoY",
+        "note": "Q3 2026; 2.52 Mt YTD, flat"
+      },
+      {
+        "metric": "Lithium carbonate equivalent production",
+        "current": "13.0 kt",
+        "prior": "not stated",
+        "change": "+4%",
+        "basis": "YoY",
+        "note": "Q3 2026; 40.3 kt YTD, +33%"
+      },
+      {
+        "metric": "Bauxite production",
+        "current": "15.7 Mt",
+        "prior": "not stated",
+        "change": "-4%",
+        "basis": "YoY",
+        "note": "Q3 2026; 44.2 Mt YTD, -6%"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Copper 800-870 kt; global iron ore sales 343-366 Mt; Pilbara sales 323-338 Mt; bauxite 58-61 Mt; alumina 7.6-8.0 Mt; aluminium 3.25-3.45 Mt; LCE 61-64 kt; Pilbara FOB unit cash costs US$23.5-25.0/wmt; copper C1 net unit costs 30-50 US c/lb",
+      "current": "All 2026 production, sales and unit cost guidance unchanged; LCE now expected at the lower end of 61-64 kt",
+      "commentary": "Rio Tinto reaffirmed every 2026 production, sales and unit cost range. The only nuance is lithium, which despite +33% YTD growth is now guided to the lower end of its 61-64 kt range after adverse Q3 weather. Pilbara unit costs remain subject to higher diesel prices (+$1.1/t full-year) and a stronger Australian dollar (~$1.0/t)."
+    },
+    "explainer": "These are production and sales volumes, not financial results — Rio reports quarterly operating statistics ahead of its full-year accounts. The headline growth comes from Oyu Tolgoi in Mongolia, where underground copper output rose 27% year-on-year, and from the ramp-up of the giant Simandou iron ore project in Guinea, which reached roughly a 10 Mtpa run-rate and is still targeting 60 Mtpa by the second half of 2028.\n\nGuidance has been held steady across the board. Keeping 2026 production, sales and unit-cost ranges \"unchanged\" signals operations are tracking to plan. The one qualifier is lithium: output is up a third year-to-date (flattered by the Arcadium acquisition completing in March 2025, so the prior-year base only covers nine months), but adverse Q3 weather means full-year volumes are now expected at the lower end of the 61-64 kt range rather than withdrawn or cut.\n\nComparisons here are reported volumes, not currency-adjusted — mining output is measured in tonnes. Iron ore figures are quoted on a 100% basis (the whole mine's output, not just Rio's share), and from the December 2025 Capital Markets Day Rio now guides on global iron ore sales including Pilbara, IOC and Simandou combined.\n\nOn costs, two external pressures are flagged for Pilbara: diesel at roughly $175/bbl adds about $1.1/t for the full year, and an Australian dollar at US$0.70 (versus the US$0.67 guidance assumption) adds about $1.0/t. These are headwinds to margins but have not moved the cost guidance range. Separately, Rio has now secured over $2bn of its $5-10bn capital release programme through disposals and asset sales.",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/rio-tinto--rio/third-quarter-production-results/9821323",
+    "related_news_url": "https://news.google.com/search?q=%22Rio%20Tinto%22",
+    "added_at": "2026-10-14T07:08:54.669563"
+  },
+  {
     "company": "Vertu Motors PLC",
     "ticker": "VTU",
     "publish_date": "14 October 2026",
