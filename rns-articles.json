@@ -1,5 +1,31 @@
 [
   {
+    "company": "Segro PLC",
+    "ticker": "SGRO",
+    "publish_date": "14 October 2026",
+    "date_iso": "2026-10-14",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>SEGRO plc</strong> registered office changed to <strong>79 Wells Street, London, W1T 3QN</strong> from <strong>1 New Burlington Place, London, W1S 2HR</strong>, effective <strong>14 October 2026</strong>.</li><li>Routine administrative disclosure with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "SEGRO's registered office moves from 1 New Burlington Place to 79 Wells Street, London, effective 14 October 2026.",
+    "priority": "low",
+    "priority_reason": "Routine administrative change of registered office address with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/segro--sgro/change-of-registered-office/9823351",
+    "related_news_url": "https://news.google.com/search?q=%22SEGRO%22",
+    "added_at": "2026-10-14T16:16:06.590102"
+  },
+  {
     "company": "Tritax Big Box REIT PLC",
     "ticker": "BBOX",
     "publish_date": "14 October 2026",
