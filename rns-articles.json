@@ -1,5 +1,64 @@
 [
   {
+    "company": "Ashmore Group PLC",
+    "ticker": "ASHM",
+    "publish_date": "14 October 2026",
+    "date_iso": "2026-10-14",
+    "time_period": "Q1 FY27 (quarter ending 30 September 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "Q1 FY27 (quarter ending 30 September 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li>AuM increased by <strong>US$0.5 billion</strong> (<strong>1%</strong>) over the quarter to <strong>30 September 2026</strong>, comprising net inflows of <strong>US$1.1 billion</strong> offset by negative investment performance of <strong>US$0.6 billion</strong>.</li><li>Net inflows split equally across <strong>fixed income</strong> and <strong>equities</strong>; all investment themes saw net inflows except corporate debt, which was flat.</li><li>Gross redemptions fell to the <strong>lowest quarterly level in over 15 years</strong>, with continued momentum in gross subscriptions.</li><li>EM fixed income indices fell <strong>1% to 4%</strong> and EM equities were down <strong>0.4%</strong>, driven by a late-September spike in US and other developed-market government bond yields.</li><li>Proportion of Group AuM outperforming benchmarks maintained at the levels reported at <strong>30 June 2026</strong>.</li><li>CEO <strong>Mark Coombs</strong> reiterated the structural case for emerging markets, citing higher EM real yields and discounted EM equity valuations versus developed markets.</li></ul>",
+    "source_format": "html",
+    "headline": "Ashmore's AuM rose US$0.5bn (1%) in Q1, with net inflows of US$1.1bn partly offset by US$0.6bn of negative investment performance.",
+    "priority": "high",
+    "priority_reason": "Quarterly assets-under-management trading statement from an asset manager, a key driver of fee income.",
+    "figures": [
+      {
+        "metric": "AuM change",
+        "current": "+US$0.5bn (+1%)",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "Quarter to 30 September 2026"
+      },
+      {
+        "metric": "Net inflows",
+        "current": "US$1.1bn",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "Quarter to 30 September 2026"
+      },
+      {
+        "metric": "Investment performance",
+        "current": "-US$0.6bn",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "Quarter to 30 September 2026"
+      },
+      {
+        "metric": "Overlay/liquidity AuM",
+        "current": "US$10.1bn",
+        "prior": "US$9.8bn",
+        "change": "not stated",
+        "basis": "",
+        "note": "30 September 2026 vs 30 June 2026"
+      }
+    ],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "This is Ashmore's first-quarter AuM statement for its financial year ending June 2027. For an asset manager, assets under management are the base on which management fees are charged, so the quarterly direction of AuM is a direct read on fee income. The net US$0.5bn rise breaks down into US$1.1bn of net new client money (inflows minus redemptions) and a US$0.6bn fall in the market value of existing assets (negative investment performance).\n\nThe standout operational point is that gross redemptions hit their lowest quarterly level in more than 15 years, while subscriptions kept their momentum — meaning the inflows were driven by both clients adding money and fewer clients withdrawing it. Inflows were evenly split between fixed income and equities.\n\nThe negative performance was largely market-driven rather than stock-specific: a late-September jump in developed-market government bond yields (linked to oil-driven inflation worries, rate rises and heavy government and AI-related borrowing) dragged on emerging-market asset prices, though EM still outperformed developed markets. The company did not provide a total absolute AuM figure or formal financial guidance in this statement.",
+    "source_url": "https://uk.advfn.com/stock-market/london/ashmore-ASHM/share-news/Ashmore-Group-PLC-Trading-Statement/99485894",
+    "related_news_url": "https://news.google.com/search?q=%22Ashmore%20Group%20plc%22",
+    "added_at": "2026-10-14T07:58:16.969472"
+  },
+  {
     "company": "Great Portland Estates PLC",
     "ticker": "GPE",
     "publish_date": "14 October 2026",
