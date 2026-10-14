@@ -1,5 +1,74 @@
 [
   {
+    "company": "Great Portland Estates PLC",
+    "ticker": "GPE",
+    "publish_date": "14 October 2026",
+    "date_iso": "2026-10-14",
+    "time_period": "Q2 / H1 to 30 September 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "Q2 / H1 to 30 September 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>£19.0 million</strong> of annual rent signed across <strong>40 new leases and renewals</strong> in the first six months, <strong>4.1% ahead of ERV</strong>, with outperformance rising in Q2.</li><li>A further <strong>£9.8 million</strong> of rent under offer, <strong>6.7% ahead of ERV</strong>; management cites robust demand for premium space, led by its <strong>Fully Managed</strong> offer.</li><li>Completed the fully pre-let <strong>30 Duke Street, St James's, SW1</strong> on time and on budget — offices let to <strong>CD&R</strong>, retail to <strong>M.J. Bale</strong> and <strong>L'Eto</strong>.</li><li>Lettings progress elsewhere: <strong>16 Dufour's Place</strong> now 70% let; <strong>Carrington House</strong> fully let (rents to £105 psf, 8.1% ahead of ERV); two floors pre-let at <strong>City Tower</strong>.</li><li><strong>Moody's</strong> reaffirmed GPE's <strong>Baa2</strong> issuer rating with stable outlook following a periodic review.</li><li>Interim results due <strong>19 November 2026</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Great Portland Estates signed 40 leases worth £19.0m of annual rent in H1, 4.1% ahead of ERV, and completed its fully pre-let 30 Duke Street scheme.",
+    "priority": "high",
+    "priority_reason": "Quarterly business update from a central London REIT covering leasing performance and a major development completion.",
+    "figures": [
+      {
+        "metric": "Annual rent from H1 lettings",
+        "current": "£19.0m",
+        "prior": "not stated",
+        "change": "4.1% ahead of ERV",
+        "basis": "40 new leases and renewals",
+        "note": "Six months to 30 September 2026"
+      },
+      {
+        "metric": "Rent under offer",
+        "current": "£9.8m",
+        "prior": "not stated",
+        "change": "6.7% ahead of ERV",
+        "basis": "",
+        "note": "As at update date"
+      }
+    ],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "This is an operational business update rather than a full set of results, so it reports letting activity rather than revenue, profit or earnings. The key benchmark GPE uses is ERV, or estimated rental value — the open-market rent a surveyor reckons the space should achieve. Signing leases 'ahead of ERV' means GPE is letting at rents above those independent estimates, which is a positive signal both for income and for the valuation of the portfolio.\n\nThe £19.0 million figure is the annualised rent from leases signed in the half year, not rent actually banked in the period. The £9.8 million 'under offer' is a pipeline figure: deals agreed in principle but not yet legally completed, so it may not all convert.\n\nNo profit, net asset value or dividend figures are given here; those come with the interim results on 19 November 2026. GPE did not issue or change any formal financial guidance in this update.",
+    "source_url": "https://uk.advfn.com/stock-market/london/great-portland-estates-GPE/share-news/Great-Portland-Estates-plc-Q2-business-update/99485889",
+    "related_news_url": "https://news.google.com/search?q=%22Great%20Portland%20Estates%20plc%22",
+    "added_at": "2026-10-14T07:57:48.813625"
+  },
+  {
+    "company": "Chemring Group PLC",
+    "ticker": "CHG",
+    "publish_date": "14 October 2026",
+    "date_iso": "2026-10-14",
+    "time_period": "",
+    "announcement_type": "Acquisition / deal",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Roke Manor Research</strong>, Chemring's UK subsidiary, has signed a five-year strategic partnering agreement with an unnamed <strong>major US Prime Contractor</strong> to supply its <strong>COTS Nav-Sync Miniature Radar Altimeter (MRA)</strong>.</li><li>Deal expected to be worth <strong>at least US$170 million</strong> over the first five years, with the relationship expected to extend to <strong>at least 2035</strong>.</li><li>Roke has received an <strong>initial $16 million production order</strong> covering the first 12 months, with deliveries commencing in <strong>October 2026</strong>.</li><li>CEO <strong>Michael Ord</strong> said the agreement shows Roke progressing its international business despite \"continued near-term headwinds in its domestic defence market\".</li><li>The Nav-Sync MRA is described as the smallest, lowest-mass radar altimeter of its type for high-speed platforms and uncrewed air vehicles; the announcement states no group financial figures or guidance impact.</li></ul>",
+    "source_format": "html",
+    "headline": "Chemring's Roke subsidiary signs five-year strategic partnering deal with a major US prime contractor worth at least US$170m for its miniature radar altimeter.",
+    "priority": "high",
+    "priority_reason": "Major multi-year contract win worth at least US$170m, a material new revenue stream for the group's Sensors & Information arm.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/chemring-CHG/share-news/Chemring-Group-PLC-Contract-Award/99485871",
+    "related_news_url": "https://news.google.com/search?q=%22Chemring%20Group%20PLC%22",
+    "added_at": "2026-10-14T07:57:48.800022"
+  },
+  {
     "company": "discoverIE Group plc",
     "ticker": "DSCV",
     "publish_date": "14 October 2026",
