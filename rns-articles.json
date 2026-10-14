@@ -1,5 +1,31 @@
 [
   {
+    "company": "HSBC Holdings PLC",
+    "ticker": "HSBA",
+    "publish_date": "14 October 2026",
+    "date_iso": "2026-10-14",
+    "time_period": "Q3 2026",
+    "announcement_type": "Q3 2026 results",
+    "period_detail": "Q3 2026",
+    "type_workings": "Rule 'period line': period line gives quarter 'Q3 2026' [rns.json record]",
+    "body": "<ul><li><strong>Board committee meeting</strong> set for <strong>27 October 2026</strong> to approve the <strong>Q3 2026 earnings release</strong> and consider a <strong>third interim dividend</strong> for 2026.</li><li>Subject to approval, the dividend would be payable on <strong>17 December 2026</strong> to holders of record on <strong>6 November 2026</strong>.</li><li>Routine scheduling notice under Hong Kong Listing Rule 13.43 — <strong>no figures or guidance</strong> disclosed; details to follow in the results announcement.</li></ul>",
+    "source_format": "html",
+    "headline": "HSBC will hold a board committee meeting on **27 October 2026** to approve Q3 2026 results and consider a third interim dividend.",
+    "priority": "medium",
+    "priority_reason": "Advance notice of the Q3 2026 results date and third interim dividend consideration for a major bank, but no financial content yet.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/hsbc-holdings--hsba/overseas-regulatory-announcement-board-meeting/9822472",
+    "related_news_url": "https://news.google.com/search?q=%22HSBC%20Holdings%22",
+    "added_at": "2026-10-14T10:16:30.978855"
+  },
+  {
     "company": "Clarkson PLC",
     "ticker": "CKN",
     "publish_date": "14 October 2026",
