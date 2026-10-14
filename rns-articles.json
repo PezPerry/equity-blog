@@ -1,5 +1,31 @@
 [
   {
+    "company": "Franchise Brands PLC",
+    "ticker": "FRAN",
+    "publish_date": "14 October 2026",
+    "date_iso": "2026-10-14",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Neil Miller</strong>, director and Chief Financial Officer, bought <strong>7,000</strong> ordinary shares at <strong>155.2p</strong> per share on <strong>12 October 2026</strong>.</li><li>Following the purchase he holds <strong>50,000</strong> ordinary shares, equating to <strong>0.03%</strong> of issued share capital; transaction on the <strong>London Stock Exchange (XLON)</strong>.</li><li>Routine PDMR dealing disclosure under UK MAR — <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Franchise Brands CFO Neil Miller bought 7,000 ordinary shares at 155.2p, taking his holding to 50,000 shares (0.03%).",
+    "priority": "low",
+    "priority_reason": "Routine small PDMR share purchase by the CFO with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/franchise-brands--fran/director-s-dealing/9823040",
+    "related_news_url": "https://news.google.com/search?q=%22Franchise%20Brands%22",
+    "added_at": "2026-10-14T13:35:38.561276"
+  },
+  {
     "company": "Anglo American PLC",
     "ticker": "AAL",
     "publish_date": "14 October 2026",
