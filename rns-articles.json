@@ -1,5 +1,99 @@
 [
   {
+    "company": "Softcat plc",
+    "ticker": "SCT",
+    "publish_date": "14 October 2026",
+    "date_iso": "2026-10-14",
+    "time_period": "FY to 31 July 2026",
+    "announcement_type": "Annual results",
+    "period_detail": "FY to 31 July 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Softcat plc</strong> reported <strong>preliminary results for the year ended 31 July 2026</strong>, with strong growth in gross invoiced income, gross profit and underlying operating profit, plus excellent cash generation.</li><li>CEO <strong>Graham Charlton</strong> said growth in gross profit and underlying operating profit came in <strong>significantly ahead of expectations</strong> at the start of the year; note the announcement text does not print the actual headline financial figures.</li><li><strong>Customer numbers grew 3.4%</strong> across all segments, while <strong>gross profit per customer rose 20.6%</strong>; average headcount grew <strong>10.8%</strong> to <strong>2,925</strong>.</li><li>Post year-end, Softcat announced the acquisition of <strong>GDT</strong>, a US-based multi-vendor IT solutions provider, for <strong>$1,050m (£785m)</strong>, adding US capability and a global growth platform.</li><li>Guidance (excluding GDT): Board expects <strong>high single-digit underlying operating profit growth in FY2027</strong>, slightly ahead of gross profit growth.</li><li>Memory/storage supply constraints and geopolitical uncertainty persist, but demand remains strong in security, hybrid infrastructure, networking, cloud and AI enablement.</li></ul>",
+    "source_format": "html",
+    "headline": "Softcat reports another year of strong growth in gross profit and underlying operating profit for FY2026, ahead of start-of-year expectations.",
+    "priority": "high",
+    "priority_reason": "Full-year preliminary results with new FY2027 guidance and a material post-period US acquisition.",
+    "figures": [
+      {
+        "metric": "Customer numbers",
+        "current": "+3.4%",
+        "prior": "not stated",
+        "change": "+3.4%",
+        "basis": "year-on-year growth",
+        "note": "FY to 31 July 2026"
+      },
+      {
+        "metric": "Gross profit per customer",
+        "current": "+20.6%",
+        "prior": "not stated",
+        "change": "+20.6%",
+        "basis": "year-on-year growth",
+        "note": "FY to 31 July 2026"
+      },
+      {
+        "metric": "Average headcount",
+        "current": "2,925",
+        "prior": "not stated",
+        "change": "+10.8%",
+        "basis": "reported",
+        "note": "FY to 31 July 2026"
+      }
+    ],
+    "guidance": {
+      "status": "new",
+      "previous": "Not stated in this announcement",
+      "current": "Excluding GDT, the Board expects to deliver high single-digit underlying operating profit growth in FY2027, slightly ahead of gross profit growth",
+      "commentary": "New FY2027 outlook set following very strong two-year growth across FY2025 and FY2026. The guidance explicitly excludes any contribution from the newly acquired GDT business."
+    },
+    "explainer": "The scraped announcement text describes FY2026 as delivering strong growth in gross invoiced income, gross profit and underlying operating profit, with results coming in significantly ahead of the company's own expectations set at the start of the year. However, the scraped text does not actually print the headline numbers (revenue, profit, EPS or dividend) or their prior-year comparatives, so no like-for-like financial figures can be quoted here. The operational metrics that are stated — customer growth of 3.4% and a 20.6% rise in gross profit per customer — show Softcat is both winning new customers and, more importantly, selling more to existing ones.\n\nThe forward guidance is a new FY2027 outlook: high single-digit underlying operating profit growth, slightly ahead of gross profit growth. Crucially, this excludes the GDT acquisition, so it reflects the underlying UK and Ireland business only; actual reported figures will be higher once GDT is consolidated. The phrasing \"slightly ahead of gross profit growth\" implies modest operating leverage rather than a step-change in margin.\n\nThe standout corporate event is the post-period, $1,050m (£785m) acquisition of US-based GDT, a multi-vendor IT solutions provider. This marks Softcat's first significant move outside UK/Ireland and materially changes the group's scale and geographic mix going forward, though it contributes nothing to the FY2026 numbers being reported and is deliberately stripped out of the FY2027 guidance.",
+    "source_url": "https://uk.advfn.com/stock-market/london/softcat-SCT/share-news/Softcat-PLC-Preliminary-Results/99485926",
+    "related_news_url": "https://news.google.com/search?q=%22Softcat%20plc%22",
+    "added_at": "2026-10-14T08:00:54.770236"
+  },
+  {
+    "company": "Ferrexpo PLC",
+    "ticker": "FXPO",
+    "publish_date": "14 October 2026",
+    "date_iso": "2026-10-14",
+    "time_period": "Q3 2026 (three months to end September 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "Q3 2026 (three months to end September 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li>Total Q3 2026 production <strong>just shy of 800,000 tonnes</strong>, hit by a <strong>temporary suspension in August</strong> and a ramp-up to only <strong>one pellet line</strong> in September.</li><li>Shareholders approved a <strong>US$100m equity raise</strong>, completed oversubscribed; funds needed after <strong>Ukrainian tax authorities withheld VAT refunds</strong>, eroding the cash position.</li><li>Liquidity constraints had forced downscaling of production, deep cost-cutting and <strong>employee furloughs / reduced hours</strong>; the raise has allowed production to restart, albeit well below pre-invasion capacity.</li><li>Exports remain limited by <strong>severely restricted access to Ukrainian ports</strong>, capping any near-term production expansion.</li><li><strong>837 employees</strong> now serving in the Armed Forces of Ukraine (<strong>129 conscripted this year</strong>); a further <strong>two colleagues killed</strong> in Q3, taking deaths since the full-scale invasion to <strong>70</strong>.</li><li>Comment from <strong>Lucio Genovese</strong>, Interim Executive Chair; no financial results, profit or guidance figures provided in this production report.</li></ul>",
+    "source_format": "html",
+    "headline": "Ferrexpo produced just under 800,000 tonnes of iron ore in Q3 after an August production suspension, and completed a US$100m equity raise.",
+    "priority": "high",
+    "priority_reason": "Quarterly production report showing severely constrained output, a temporary production suspension and completion of a US$100m rescue equity raise.",
+    "figures": [
+      {
+        "metric": "Total production",
+        "current": "just under 800,000 tonnes",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "Q3 2026, three months to end September 2026"
+      },
+      {
+        "metric": "Equity raise",
+        "current": "US$100m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "oversubscribed",
+        "note": "Approved by shareholders in September 2026"
+      }
+    ],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "This is a quarterly production report rather than a full results statement, so it carries operational volumes and context but no revenue, profit or earnings figures. Q3 production of just under 800,000 tonnes reflects a business operating far below normal capacity: output was suspended entirely in August and only partially restored in September, when a single pellet line was ramped back up. No prior-period comparative is printed in the announcement, so the quarter-on-quarter or year-on-year change cannot be stated.\n\nThe backdrop is a liquidity crisis. Ferrexpo's cash position was eroded after Ukrainian tax authorities withheld VAT refunds, forcing the company to scale back production, cut costs and furlough staff. The US$100m equity raise, approved by shareholders in September and completed oversubscribed, was the rescue measure that allowed production to restart.\n\nNo earnings guidance is given or changed in this report. The company flags that production capacity is structurally capped for now by restricted access to Ukrainian ports, which limits exports, so investors should not read the September restart as a return to pre-invasion volumes.",
+    "source_url": "https://uk.advfn.com/stock-market/london/ferrexpo-FXPO/share-news/Ferrexpo-PLC-Production-Report-for-3Q-2026/99485904",
+    "related_news_url": "https://news.google.com/search?q=%22Ferrexpo%20plc%22",
+    "added_at": "2026-10-14T08:00:54.733551"
+  },
+  {
     "company": "Ashmore Group PLC",
     "ticker": "ASHM",
     "publish_date": "14 October 2026",
