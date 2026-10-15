@@ -1,5 +1,96 @@
 [
   {
+    "company": "Entain plc",
+    "ticker": "ENT",
+    "publish_date": "15 October 2026",
+    "date_iso": "2026-10-15",
+    "time_period": "Q3 2026 (1 July to 30 September 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "Q3 2026 (1 July to 30 September 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Q3 Group Net Gaming Revenue (NGR) +2%</strong> (constant currency, continuing operations excluding Entain CEE), with <strong>Online NGR +3%</strong> driven by <strong>gaming +8%</strong> partly offset by customer-friendly sports results and challenges in <strong>Brazil</strong>.</li><li><strong>FY26 guidance reiterated</strong>: Online NGR growth of <strong>4-6%</strong> (constant currency), with <strong>Underlying EBITDA (exc. Parent fees) at the lower end of the £910m-£960m range</strong>; excluding Brazil, Online NGR growth seen at top end of <strong>5-7%</strong>.</li><li><strong>UK & Ireland NGR +8%</strong>, ahead of expectations (<strong>Online +14%</strong>, Gaming +17%, Sports +3%; <strong>Retail +3% LFL</strong>), while CEO urged the <strong>UK Government</strong> to reconsider further gambling tax increases.</li><li><strong>International NGR -4%</strong> hit by <strong>Brazil NGR -36%</strong> ahead of the immediate online gambling ban announced on <strong>25 September 2026</strong>; excluding Brazil, International Online +1%.</li><li><strong>BetMGM</strong> (50/50 US JV) reconfirms FY26 <strong>Net Revenue of $2.9-3.1bn</strong> and <strong>Adjusted EBITDA of $300-350m</strong>, expecting to deliver towards the lower end of both.</li><li>Phased exit of <strong>Entain CEE</strong> on track: initial <strong>20% stake</strong> divestment to <strong>EMMA Capital</strong> expected to close in <strong>Q4 2026</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Entain reports Q3 Group NGR up +2% and Online NGR up +3% on a constant-currency basis, and reiterates FY26 guidance.",
+    "priority": "high",
+    "priority_reason": "Quarterly trading update with FY26 guidance reiterated for a FTSE-listed sports betting and gaming group.",
+    "figures": [
+      {
+        "metric": "Group NGR growth",
+        "current": "+2%",
+        "prior": "not stated",
+        "change": "+2%",
+        "basis": "constant currency, continuing ops exc. Entain CEE",
+        "note": "Q3 1 Jul-30 Sep 2026"
+      },
+      {
+        "metric": "Online NGR growth",
+        "current": "+3%",
+        "prior": "not stated",
+        "change": "+3%",
+        "basis": "constant currency; +5% excluding Brazil",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "Online Gaming growth",
+        "current": "+8%",
+        "prior": "not stated",
+        "change": "+8%",
+        "basis": "constant currency",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "Online Sports growth",
+        "current": "-3%",
+        "prior": "not stated",
+        "change": "-3%",
+        "basis": "adverse sports margins",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "UK & Ireland NGR growth",
+        "current": "+8%",
+        "prior": "not stated",
+        "change": "+8%",
+        "basis": "Online +14%, Retail +3% LFL",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "International NGR growth",
+        "current": "-4%",
+        "prior": "not stated",
+        "change": "-4%",
+        "basis": "Online -3%, Retail -12%",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "Brazil NGR growth",
+        "current": "-36%",
+        "prior": "not stated",
+        "change": "-36%",
+        "basis": "constant currency",
+        "note": "Q3 2026, ahead of online ban"
+      },
+      {
+        "metric": "Retail NGR growth",
+        "current": "-2%",
+        "prior": "not stated",
+        "change": "-2%",
+        "basis": "volumes +2%",
+        "note": "Q3 2026"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "FY26 Online NGR growth 4-6% (constant currency); Underlying EBITDA (exc. Parent fees) at lower end of £910m-£960m range (guidance set 28 September 2026)",
+      "current": "FY26 Online NGR growth 4-6% (constant currency), at top end of 5-7% excluding Brazil; Underlying EBITDA (exc. Parent fees) at lower end of £910m-£960m; Online Underlying EBITDA margin at lower end of 21-22%",
+      "commentary": "FY26 guidance is reiterated, unchanged from the 28 September 2026 update. It assumes Brazil's immediate online gambling ban is upheld for the remainder of 2026. BetMGM separately reconfirms FY26 Net Revenue of $2.9-3.1bn and Adjusted EBITDA of $300-350m, towards the lower ends."
+    },
+    "explainer": "All figures are on a constant-currency basis and cover continuing operations, which excludes the Central and Eastern Europe (CEE) business that Entain is in the process of exiting. Constant currency means both this year and last year are translated at 2026 exchange rates, stripping out movements in the pound. \"Volume\" growth strips out sports-result luck by assuming the same sports margin in both periods — useful because a quarter of customer-friendly football results (punters winning) depresses reported sports revenue even when underlying activity is healthy. That is what happened here: around a 1-2 percentage point sports-margin headwind knocked roughly 4% off Q3 online growth.\n\nThe standout weakness is Brazil, where NGR fell 36% ahead of an immediate online gambling ban announced on 25 September 2026. Excluding Brazil, group online growth looks materially stronger (+5% in the quarter, +8% year to date). The UK & Ireland was the bright spot, up 8% and ahead of expectations despite a heavier tax environment, with management publicly lobbying against further UK gambling tax rises.\n\nGuidance is unchanged rather than raised or cut: FY26 online NGR growth of 4-6% and Underlying EBITDA at the lower end of the £910m-£960m range, both reiterated from the 28 September update. The numbers already bake in Brazil's weak year and assume the Brazilian ban stays in force for the rest of 2026. The 50/50 US joint venture BetMGM separately stuck to its $2.9-3.1bn revenue and $300-350m EBITDA ranges, flagging the lower ends.",
+    "source_url": "https://uk.advfn.com/stock-market/london/entain-ENT/share-news/Entain-PLC-Q3-Trading-Update/99495099",
+    "related_news_url": "https://news.google.com/search?q=%22Entain%20plc%22",
+    "added_at": "2026-10-15T07:42:24.837786"
+  },
+  {
     "company": "THG PLC",
     "ticker": "THG",
     "publish_date": "15 October 2026",
