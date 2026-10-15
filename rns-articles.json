@@ -1,5 +1,96 @@
 [
   {
+    "company": "Kenmare Resources PLC",
+    "ticker": "KMR",
+    "publish_date": "15 October 2026",
+    "date_iso": "2026-10-15",
+    "time_period": "Q3 2026 (quarter ended 30 September 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "Q3 2026 (quarter ended 30 September 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Kenmare Resources plc</strong> lowered 2026 ilmenite production guidance to <strong>710,000-750,000 tonnes</strong>, down from <strong>~800,000 tonnes</strong> previously guided, due to ongoing commissioning challenges at <strong>WCP A</strong>.</li><li>2026 shipments — the key guidance metric — now expected at <strong>~1.05m tonnes</strong>, below prior guidance of <strong>over 1.1m tonnes</strong>, on late customer vessels and product-quality loading protocols.</li><li>Q3 2026 ilmenite production <strong>233,600t (+12% YoY)</strong>; HMC <strong>334,100t (+12%)</strong>; total shipments <strong>242,900t (+7%)</strong>; ilmenite production rose almost <strong>60%</strong> vs Q2.</li><li>Total cash operating costs expected towards the upper end of the <strong>$215m-$225m</strong> 2026 guidance range; primary zircon and rutile guidance unchanged.</li><li>Completed a Pre-Feasibility Study on monazite/rare earths (up to <strong>4,000 tpa</strong> for low capex) and is now starting a Definitive Feasibility Study with offtake discussions.</li><li>Possible cash offer from <strong>International Resources Holdings (IRH)</strong> ongoing; under Irish Takeover Rule 2.6(a), IRH must announce a firm intention or walk away by <strong>5pm GMT on 17 November 2026</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Kenmare cut 2026 ilmenite production guidance to 710,000-750,000 tonnes from ~800,000 tonnes on WCP A commissioning problems, with shipments also trimmed.",
+    "priority": "high",
+    "priority_reason": "Quarterly production update cutting full-year ilmenite and shipment guidance, set against a live possible cash takeover offer from IRH.",
+    "figures": [
+      {
+        "metric": "HMC production",
+        "current": "334,100t",
+        "prior": "not stated",
+        "change": "+12% YoY",
+        "basis": "",
+        "note": "Q3 2026; driven by 22% higher excavated ore volumes"
+      },
+      {
+        "metric": "Ilmenite production",
+        "current": "233,600t",
+        "prior": "not stated",
+        "change": "+12% YoY",
+        "basis": "",
+        "note": "Q3 2026; +~60% vs Q2 2026"
+      },
+      {
+        "metric": "Primary zircon production",
+        "current": "13,000t",
+        "prior": "not stated",
+        "change": "+6% YoY",
+        "basis": "",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "Rutile production",
+        "current": "2,200t",
+        "prior": "not stated",
+        "change": "+22% YoY",
+        "basis": "",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "Concentrates production",
+        "current": "44,500t",
+        "prior": "not stated",
+        "change": "+109% YoY",
+        "basis": "",
+        "note": "Q3 2026; driven by increased ZrTi now a commercial product"
+      },
+      {
+        "metric": "Total shipments",
+        "current": "242,900t",
+        "prior": "not stated",
+        "change": "+7% YoY",
+        "basis": "",
+        "note": "Q3 2026; 196,300t ilmenite, 46,400t concentrates, 200t primary zircon"
+      },
+      {
+        "metric": "Closing finished product stock",
+        "current": "284,200t",
+        "prior": "233,500t",
+        "change": "not stated",
+        "basis": "",
+        "note": "end Q3 2026 vs end Q2 2026; production exceeded shipments"
+      },
+      {
+        "metric": "Closing HMC stock",
+        "current": "35,100t",
+        "prior": "37,800t",
+        "change": "not stated",
+        "basis": "",
+        "note": "end Q3 2026 vs end Q2 2026"
+      }
+    ],
+    "guidance": {
+      "status": "lowered",
+      "previous": "2026 ilmenite production of approximately 800,000 tonnes; shipments of over 1.1 million tonnes",
+      "current": "2026 ilmenite production of 710,000 to 750,000 tonnes; shipments of approximately 1.05 million tonnes; total cash operating costs towards the upper end of the $215m-$225m range; primary zircon and rutile guidance unchanged",
+      "commentary": "Ilmenite production guidance was cut because of continuing commissioning problems at WCP A, Kenmare's largest mining plant. The shipment guidance cut reflects Q3 port delays elsewhere that caused customer vessels to arrive late at Moma, plus product-quality loading protocols; the company says it would have exceeded 1.1m tonnes without these constraints."
+    },
+    "explainer": "This is a quarterly production and trading update, not audited results, so the figures are operational tonnages rather than revenue or profit. The year-on-year comparisons are flattered in places: Q3 2025 benefited from reprocessing intermediate stockpiles, which masked much lower heavy mineral concentrate (HMC) processed in that period, so the underlying production improvement is stronger than the headline percentages alone suggest.\n\nThe key change is the downgrade to full-year guidance. Kenmare has cut expected 2026 ilmenite production to 710,000-750,000 tonnes from around 800,000 tonnes, blaming slow commissioning of WCP A, its biggest wet concentrator plant. Shipments — which the company stresses is its most important guidance metric — are now seen at about 1.05m tonnes versus the previous 'over 1.1m tonnes', largely for logistics reasons (late-arriving vessels and loading restrictions) rather than a lack of product.\n\nCosts are guided towards the top of the existing $215m-$225m range, so the update is modestly negative on both volume and cost. Market conditions remain weak: titanium feedstock prices are under pressure from oversupply, particularly cheap Chinese ilmenite, while the zircon market is tightening and prices are rising.\n\nContext matters here: the update lands while Kenmare is subject to a non-binding possible cash offer from IRH, which under the Irish Takeover Rules must declare a firm intention to bid or step away by 17 November 2026. A separate priority is renewing Moma's Implementation Agreement with the Mozambique government, under which Kenmare currently operates on legacy terms.",
+    "source_url": "https://uk.advfn.com/stock-market/london/kenmare-resources-KMR/share-news/Q3-2026-Production-Report/99495011",
+    "related_news_url": "https://news.google.com/search?q=%22Kenmare%20Resources%20plc%22",
+    "added_at": "2026-10-15T07:39:39.732569"
+  },
+  {
     "company": "The Rank Group Plc",
     "ticker": "RNK",
     "publish_date": "15 October 2026",
