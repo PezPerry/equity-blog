@@ -1,5 +1,48 @@
 [
   {
+    "company": "Mondi plc",
+    "ticker": "MNDI",
+    "publish_date": "15 October 2026",
+    "date_iso": "2026-10-15",
+    "time_period": "Q3 2026 (three months to 30 September 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "Q3 2026 (three months to 30 September 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Underlying EBITDA €196m</strong> in Q3 2026 (including nil forestry fair value gain), up from <strong>€167m</strong> in Q2 2026 (which included a <strong>€43m forestry fair value loss</strong>); excluding forestry fair value, EBITDA was lower sequentially, mainly reflecting <strong>planned maintenance shuts</strong>.</li><li>Good order books supported <strong>positive price momentum</strong>, with higher average selling prices offsetting input-cost inflation; further <strong>price increases for a number of paper grades</strong> were announced, with benefit expected late this year and into <strong>2027</strong>.</li><li>Input costs ran higher than expected on rising <strong>energy-related costs</strong> and anticipated higher <strong>wood costs in Central and Eastern Europe</strong>.</li><li>By segment: Corrugated Packaging saw positive Containerboard pricing offset higher costs while Corrugated Solutions margins stayed pressured; Uncoated Fine Paper saw seasonally weaker demand; Flexibles' Kraft Paper and Paper Bags gained pricing, Consumer Solutions performed well.</li><li>At end-September, Mondi <strong>sold one solid board converting plant and agreed the sale of a second</strong>, continuing network optimisation and the planned closure of converting plants later this year.</li><li><strong>Nil forestry fair value gain</strong> expected in Q4 if current energy prices, particularly South African diesel, prevail; energy prices remain highly volatile.</li><li>CEO <strong>Andrew King</strong>: higher packaging paper prices expected to support Q4, notwithstanding ongoing input-cost pressures.</li></ul>",
+    "source_format": "html",
+    "headline": "Mondi delivered Q3 2026 underlying EBITDA of **€196m**, up sequentially, as good order books drove price momentum against rising energy and wood costs.",
+    "priority": "high",
+    "priority_reason": "Quarterly trading update from a FTSE packaging group, with EBITDA, pricing and input-cost detail plus Q4 outlook.",
+    "figures": [
+      {
+        "metric": "Underlying EBITDA",
+        "current": "€196m",
+        "prior": "€167m",
+        "change": "not stated",
+        "basis": "sequential vs Q2 2026",
+        "note": "Q3 current includes nil forestry fair value gain; Q2 included €43m forestry fair value loss"
+      },
+      {
+        "metric": "Forestry fair value gain/(loss)",
+        "current": "nil",
+        "prior": "-€43m",
+        "change": "not stated",
+        "basis": "sequential vs Q2 2026",
+        "note": "Q4 2026 also expected nil if current prices prevail"
+      }
+    ],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": "No formal numeric full-year guidance figure stated; company flags higher packaging paper prices supporting Q4 and expects nil forestry fair value gain in Q4 if current energy and South African diesel prices prevail."
+    },
+    "explainer": "This is a quarterly trading update, not full results, so Mondi reports headline underlying EBITDA rather than a complete profit and loss. The €196m figure is compared sequentially with the prior quarter (€167m) rather than year-on-year. A large swing comes from \"forestry fair value\", a non-cash accounting adjustment to the value of Mondi's standing timber: Q3 included nil, whereas Q2 carried a €43m loss, which flatters the quarter-on-quarter comparison. Stripping that out, underlying EBITDA actually fell sequentially, chiefly because of planned maintenance shutdowns at mills.\n\nThe operational message is that strong order books let Mondi push through higher selling prices, but energy and East European wood costs rose faster than expected, squeezing the benefit. Freshly announced paper-grade price rises are only expected to feed through late in 2026 and into 2027, so the margin benefit lags the cost inflation.\n\nOn forestry, the guidance that Q4 will again show nil fair value gain is tied to volatile energy prices, especially South African diesel, which feed into the valuation of its plantations. The plant sales and planned converting-site closures are a continuing cost-optimisation effort rather than a one-off event.",
+    "source_url": "https://uk.advfn.com/stock-market/london/mondi-MNDI/share-news/Mondi-Plc-Q3-2026-Trading-Update/99495400",
+    "related_news_url": "https://news.google.com/search?q=%22Mondi%20plc%22",
+    "added_at": "2026-10-15T07:38:04.772395"
+  },
+  {
     "company": "Antofagasta PLC",
     "ticker": "ANTO",
     "publish_date": "15 October 2026",
