@@ -1,5 +1,91 @@
 [
   {
+    "company": "Travis Perkins PLC",
+    "ticker": "TPK",
+    "publish_date": "15 October 2026",
+    "date_iso": "2026-10-15",
+    "time_period": "Q3 to 30 September 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "Q3 to 30 September 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Group revenue fell 1.6%</strong> in the three months to <strong>30 September 2026</strong>, with overall performance continuing <strong>in line with the first half</strong>.</li><li><strong>UK construction output and volumes remain subdued</strong>, most notably in <strong>new build residential</strong>, as macroeconomic uncertainty persists.</li><li>Merchanting businesses are prioritising <strong>higher-margin trade</strong> and managing credit risk, helping to mitigate the profitability impact of volume headwinds whilst annualising <strong>deeper promotional activity</strong> from Q3 last year.</li><li><strong>Toolstation UK</strong> delivered solid revenue growth with further store openings planned for <strong>2027</strong>; <strong>Toolstation Benelux</strong> performance remains challenging and is subject to a <strong>strategic review</strong>.</li><li>CEO <strong>Gavin Slark</strong> cited ongoing cost discipline protecting profitability; further strategy and operational detail to come at <strong>Preliminary results in March 2027</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Travis Perkins reports Q3 revenue down 1.6% as subdued UK construction volumes persist, with performance in line with the first half.",
+    "priority": "high",
+    "priority_reason": "Quarterly trading update from a listed builders' merchant, with revenue decline and strategic review commentary.",
+    "figures": [
+      {
+        "metric": "Group revenue",
+        "current": "-1.6%",
+        "prior": "not stated",
+        "change": "-1.6%",
+        "basis": "reported, year-on-year",
+        "note": "Q3 three months to 30 September 2026"
+      }
+    ],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": "No explicit profit or guidance figures given; the update states performance continued in line with the first half."
+    },
+    "explainer": "Travis Perkins is one of the UK's largest builders' merchants, so its quarterly numbers are a useful read-across on the state of UK construction demand. The only headline figure here is group revenue down 1.6% in the quarter, which the company says keeps performance broadly in line with the first half of the year.\n\nThe revenue fall reflects weak construction volumes rather than pricing, with new-build housing singled out as the softest area. Management is deliberately steering its Merchanting arm towards higher-margin trade customers and away from riskier credit, which protects profit margins even as volumes shrink. The comparison is also flattered against a tougher Q3 last year, when the group ran deeper promotions.\n\nNo profit, margin or earnings figures are provided in this update, and the company has not issued or changed formal guidance — it simply points to first-half trends continuing. The next substantive detail, including strategy under the Toolstation Benelux review, is promised at the preliminary results in March 2027.",
+    "source_url": "https://uk.advfn.com/stock-market/london/travis-perkins-TPK/share-news/Travis-Perkins-PLC-Travis-Perkins-third-quarter-t/99495074",
+    "related_news_url": "https://news.google.com/search?q=%22Travis%20Perkins%20plc%22",
+    "added_at": "2026-10-15T07:40:17.698161"
+  },
+  {
+    "company": "Jupiter Fund Management plc",
+    "ticker": "JUP",
+    "publish_date": "15 October 2026",
+    "date_iso": "2026-10-15",
+    "time_period": "Q3 2026 (three months to 30 September 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "Q3 2026 (three months to 30 September 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Net positive flows of £0.7bn</strong> in the third quarter, taking year-to-date net inflows to <strong>£1.4bn</strong>.</li><li>AUM up <strong>3%</strong> over the quarter to a record <strong>£75.9bn</strong>; pre-existing Jupiter AUM also at a record <strong>£61.7bn</strong>.</li><li><strong>Retail, wholesale & investment trust</strong> channel generated <strong>£1.0bn</strong> of net inflows — its <strong>fifth consecutive</strong> positive quarter; Institutional returned to net inflows of <strong>£0.2bn</strong>.</li><li><strong>CCLA</strong> channel saw <strong>£0.5bn</strong> of net outflows after weaker performance, though early signs of improvement reported; integration update due at full year.</li><li><strong>Systematic equities</strong> contributed <strong>£1.7bn</strong> of net inflows; continental Europe <strong>£1.0bn</strong> and Latin America <strong>£0.3bn</strong> (region AUM +10%).</li><li><strong>Full year results</strong> for the year ending <strong>31 December 2026</strong> to be issued on <strong>25 February 2027</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Jupiter reports net inflows of £0.7bn in Q3 2026, lifting AUM 3% to a record £75.9bn.",
+    "priority": "high",
+    "priority_reason": "Quarterly trading update with AUM and net flow figures from a listed asset manager.",
+    "figures": [
+      {
+        "metric": "Net flows (Q3)",
+        "current": "£0.7bn net inflows",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "Three months to 30 September 2026"
+      },
+      {
+        "metric": "Net flows (YTD)",
+        "current": "£1.4bn net inflows",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "Year to date"
+      },
+      {
+        "metric": "AUM",
+        "current": "£75.9bn",
+        "prior": "not stated",
+        "change": "+3% over the quarter",
+        "basis": "",
+        "note": "Record; pre-existing Jupiter AUM £61.7bn"
+      }
+    ],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "This is a quarterly trading update covering the three months to 30 September 2026, reporting flows and assets under management (AUM) rather than profit. AUM is the total value of client money Jupiter manages, on which it earns fees; net flows are new client money in minus money withdrawn, and are the cleanest read on underlying demand because they strip out the effect of market moves.\n\nJupiter took in a net £0.7bn in the quarter (£1.4bn year to date). The headline figure masks divergence between channels: strong retail/wholesale and institutional inflows (£1.0bn and £0.2bn) were partly offset by £0.5bn of outflows at CCLA, the business whose weaker performance Jupiter says is now showing early signs of recovery. The 3% rise in AUM to a record £75.9bn reflects these flows plus positive investment performance and market returns.\n\nNo profit guidance is given in this update; Jupiter will report full-year results on 25 February 2027. The company notes nothing here should be read as a profit forecast.",
+    "source_url": "https://uk.advfn.com/stock-market/london/jupiter-fund-management-JUP/share-news/Jupiter-Fund-Management-PLC-Trading-Update-and-Not/99495075",
+    "related_news_url": "https://news.google.com/search?q=%22Jupiter%20Fund%20Management%20plc%22",
+    "added_at": "2026-10-15T07:40:17.684505"
+  },
+  {
     "company": "Kenmare Resources PLC",
     "ticker": "KMR",
     "publish_date": "15 October 2026",
