@@ -1,5 +1,31 @@
 [
   {
+    "company": "Lion Finance Group PLC",
+    "ticker": "BGEO",
+    "publish_date": "15 October 2026",
+    "date_iso": "2026-10-15",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>Bank of Georgia</strong>, subsidiary of <strong>Lion Finance Group PLC</strong>, named <strong>World's Best AI Bank</strong> at <strong>Global Finance's AI in Finance Awards 2026</strong>.</li><li>Bank won <strong>eleven awards</strong> in total across global and regional categories.</li><li>CEO <strong>Archil Gachechiladze</strong> cited <strong>99%</strong> of unsecured loans approved and disbursed in under <strong>15 seconds</strong>, and an AI assistant resolving over <strong>80%</strong> of customer queries at a <strong>91%</strong> satisfaction score.</li><li>Routine recognition / PR award with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Lion Finance subsidiary Bank of Georgia named World's Best AI Bank 2026 by Global Finance, winning eleven awards in total.",
+    "priority": "low",
+    "priority_reason": "A marketing award for its banking subsidiary with no financial or operational impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/lion-finance-group-plc--bgeo/bank-of-georgia-named-world-s-best-ai-bank-2026/9824883",
+    "related_news_url": "https://news.google.com/search?q=%22Lion%20Finance%20Group%20PLC%22",
+    "added_at": "2026-10-15T11:15:46.099819"
+  },
+  {
     "company": "XPS Pensions Group plc",
     "ticker": "XPS",
     "publish_date": "15 October 2026",
