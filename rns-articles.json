@@ -1,5 +1,80 @@
 [
   {
+    "company": "Antofagasta PLC",
+    "ticker": "ANTO",
+    "publish_date": "15 October 2026",
+    "date_iso": "2026-10-15",
+    "time_period": "Q3 2026 (three months to 30 September 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "Q3 2026 (three months to 30 September 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Q3 2026</strong> copper production of <strong>151,900 tonnes</strong>, up <strong>7%</strong> quarter-on-quarter, driven by higher output at <strong>Los Pelambres</strong> after July weather disruption and inventory drawdown; year-to-date production of <strong>436,900 tonnes</strong> was <strong>8% lower</strong>.</li><li><strong>FY2026</strong> group copper production guidance unchanged at <strong>625,000–655,000 tonnes</strong>; capital expenditure guidance unchanged at <strong>$3.4bn</strong>.</li><li><strong>FY2026 cash costs before by-product credits guidance raised to $2.60–2.70/lb</strong> (previously <strong>$2.40–2.60/lb</strong>), reflecting elevated diesel prices; net cash cost guidance unchanged at <strong>$1.15–1.35/lb</strong>.</li><li>New <strong>FY2027</strong> copper production guidance of <strong>630,000–690,000 tonnes</strong>, reflecting higher grades at Los Pelambres partly offset by lower grades at Centinela Concentrates.</li><li>Q3 net cash costs <strong>$1.38/lb</strong>, up <strong>1.5%</strong> QoQ; cash costs before by-product credits <strong>$2.73/lb</strong>, down <strong>7.1%</strong> QoQ.</li><li>Post-quarter, two unions at <strong>Centinela</strong> representing ~<strong>20%</strong> of the own-employee workforce declared a strike, with negotiations continuing.</li></ul>",
+    "source_format": "html",
+    "headline": "Antofagasta Q3 copper output rose **7%** to **151,900 tonnes**; FY2026 cash-cost guidance raised and FY2027 copper guidance set at 630,000–690,000 tonnes.",
+    "priority": "high",
+    "priority_reason": "Quarterly production report with raised FY2026 cash-cost guidance and new FY2027 production guidance.",
+    "figures": [
+      {
+        "metric": "Copper production",
+        "current": "151,900 t",
+        "prior": "142,000 t",
+        "change": "+7.0%",
+        "basis": "quarter-on-quarter (Q3 vs Q2 2026)",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "Copper production (YTD)",
+        "current": "436,900 t",
+        "prior": "476,600 t",
+        "change": "-8.3%",
+        "basis": "year-on-year",
+        "note": "nine months to 30 September"
+      },
+      {
+        "metric": "Gold production",
+        "current": "44,300 oz",
+        "prior": "46,300 oz",
+        "change": "-4.3%",
+        "basis": "quarter-on-quarter",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "Molybdenum production",
+        "current": "2,900 t",
+        "prior": "3,100 t",
+        "change": "-6.5%",
+        "basis": "quarter-on-quarter",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "Cash costs before by-product credits",
+        "current": "$2.73/lb",
+        "prior": "$2.94/lb",
+        "change": "-7.1%",
+        "basis": "quarter-on-quarter",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "Net cash costs",
+        "current": "$1.38/lb",
+        "prior": "$1.36/lb",
+        "change": "+1.5%",
+        "basis": "quarter-on-quarter",
+        "note": "Q3 2026"
+      }
+    ],
+    "guidance": {
+      "status": "raised",
+      "previous": "FY2026 cash costs before by-product credits of $2.40–2.60/lb; FY2026 copper production of 625,000–655,000 tonnes; net cash costs of $1.15–1.35/lb; capex of $3.4bn",
+      "current": "FY2026 cash costs before by-product credits raised to $2.60–2.70/lb; FY2026 copper production unchanged at 625,000–655,000 tonnes; net cash costs unchanged at $1.15–1.35/lb; capex unchanged at $3.4bn; new FY2027 copper production guidance of 630,000–690,000 tonnes",
+      "commentary": "FY2026 gross cash-cost guidance was raised by $0.20/lb at both ends on persistently elevated diesel prices, but net cash cost, production and capex guidance were all held. The company also introduced FY2027 copper production guidance of 630,000–690,000 tonnes."
+    },
+    "explainer": "Antofagasta is a Chilean copper miner, so its quarterly production reports track volumes (copper, plus by-products gold and molybdenum) and unit costs rather than profit. Comparisons are mostly quarter-on-quarter (Q3 versus Q2 2026) for the latest trend, and year-to-date versus the first nine months of 2025. The headline 7% rise in copper output is a sequential recovery at Los Pelambres after a July weather event, not year-on-year growth — nine-month production is actually 8% lower, reflecting lower grades at Centinela.\n\nUnit costs are quoted two ways. 'Cash costs before by-product credits' is the gross cost of producing a pound of copper; 'net cash costs' subtract the revenue earned from selling gold and molybdenum. Net costs are far lower ($1.38/lb versus $2.73/lb gross) because by-product sales offset much of the cost.\n\nThe key change is guidance. Full-year 2026 copper production, net cash-cost and capital-spending guidance are all unchanged, but the gross cash-cost range has been lifted from $2.40–2.60/lb to $2.60–2.70/lb because diesel prices have stayed high. Because net cash-cost guidance was held, the higher gross costs are expected to be offset by by-product credits. Separately, the company gave first-time 2027 copper production guidance of 630,000–690,000 tonnes, with 2027 cost and capex guidance to follow in January.",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/antofagasta--anto/q3-2026-production-report/9823600",
+    "related_news_url": "https://news.google.com/search?q=%22Antofagasta%22",
+    "added_at": "2026-10-15T07:37:17.474286"
+  },
+  {
     "company": "Sirius Real Estate Ltd",
     "ticker": "SRE",
     "publish_date": "15 October 2026",
