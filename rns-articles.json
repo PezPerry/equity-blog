@@ -1,5 +1,31 @@
 [
   {
+    "company": "Greatland Resources Ltd",
+    "ticker": "GRR",
+    "publish_date": "15 October 2026",
+    "date_iso": "2026-10-15",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>CFO Monique Connolly</strong> exercised <strong>78,395</strong> vested performance rights, converting into ordinary shares in <strong>Greatland Resources Limited</strong> (AIM:GGP, ASX:GGP).</li><li>Comprises <strong>36,931</strong> rights at an exercise price of <strong>A$0.04</strong> (expiry 17 October 2034) and <strong>41,464</strong> rights at <strong>A$0.04</strong> (expiry 26 April 2035); transaction dated <strong>21 September 2026</strong>.</li><li>Conversion satisfied from the company's <strong>employee share trust</strong> — <strong>no new ordinary shares</strong> issued, so no dilution.</li><li>Routine UK MAR PDMR disclosure with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "CFO Monique Connolly exercised 78,395 vested performance rights, converting into existing ordinary shares with no new shares issued.",
+    "priority": "low",
+    "priority_reason": "Routine PDMR dealing notification with no new shares issued and no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/greatland-gold--ggp/pdmr-exercise-of-performance-rights/9825239",
+    "related_news_url": "https://news.google.com/search?q=%22Greatland%20Gold%22",
+    "added_at": "2026-10-15T12:55:44.014995"
+  },
+  {
     "company": "Lion Finance Group PLC",
     "ticker": "BGEO",
     "publish_date": "15 October 2026",
