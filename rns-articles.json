@@ -1,5 +1,88 @@
 [
   {
+    "company": "Workspace Group PLC",
+    "ticker": "WKP",
+    "publish_date": "15 October 2026",
+    "date_iso": "2026-10-15",
+    "time_period": "Q2 FY26 (quarter ending 30 September 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "Q2 FY26 (quarter ending 30 September 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li>Q2 to <strong>30 September 2026</strong>: total portfolio occupancy down <strong>1.0pp to 79.2%</strong>; rent roll down <strong>1.1% (£1.4m) to £126.6m</strong> (down <strong>0.6%</strong> excluding disposals).</li><li>Customer activity subdued: <strong>227 lettings</strong> and <strong>96 renewals</strong> worth <strong>£7.9m</strong> of rental value, versus <strong>326 lettings</strong> and <strong>124 renewals</strong> worth <strong>£10.8m</strong> in Q2 25/26.</li><li>Stabilised Portfolio occupancy down <strong>0.5pp to 82.8%</strong>; rent up <strong>0.4% to £46.13psf</strong>; stabilised rent roll down <strong>0.5% (£0.6m) to £109.7m</strong>.</li><li>New all-inclusive <strong>Unfurnished</strong> pricing launched early September: <strong>18 lettings</strong> completed at <strong>£60.57psf</strong> (<strong>8% above ERV</strong>) and <strong>18 under offer</strong> at <strong>£59.71psf</strong> (<strong>14% above ERV</strong>).</li><li>Cumulative disposals of <strong>£138.3m</strong> since March 2025 towards a <strong>£200m</strong> target by <strong>March 2027</strong>; the additional <strong>£100m+</strong> previously under consideration now unlikely to be fully achieved by March 2027 as buyers seek bigger discounts.</li><li>Net debt up <strong>£14m to £754m</strong>; cash and undrawn facilities of <strong>£246m</strong>, proforma LTV <strong>36%</strong>. Half-year results due <strong>18 November 2026</strong>.</li><li>Source note: the text reports net debt of <strong>£740m</strong> as at <strong>30 June 2026</strong> (not 30 September) as the comparative, which appears to be a typo for the quarter-start position.</li></ul>",
+    "source_format": "html",
+    "headline": "Workspace reports a quieter Q2 with occupancy down 1.0pp to 79.2% and rent roll down 1.1% to £126.6m, and flags slower disposals.",
+    "priority": "high",
+    "priority_reason": "Quarterly trading update with occupancy, rent roll and disposal-target commentary ahead of half-year results.",
+    "figures": [
+      {
+        "metric": "Total portfolio occupancy",
+        "current": "79.2%",
+        "prior": "not stated",
+        "change": "-1.0pp",
+        "basis": "",
+        "note": "quarter to 30 September 2026"
+      },
+      {
+        "metric": "Total rent roll",
+        "current": "£126.6m",
+        "prior": "not stated",
+        "change": "-1.1% (£1.4m); -0.6% excluding disposals",
+        "basis": "",
+        "note": "quarter movement"
+      },
+      {
+        "metric": "Lettings / renewals rental value",
+        "current": "£7.9m (227 lettings, 96 renewals)",
+        "prior": "£10.8m (326 lettings, 124 renewals)",
+        "change": "not stated",
+        "basis": "",
+        "note": "Q2 FY26 vs Q2 25/26"
+      },
+      {
+        "metric": "Stabilised Portfolio occupancy",
+        "current": "82.8%",
+        "prior": "not stated",
+        "change": "-0.5pp",
+        "basis": "",
+        "note": "quarter movement"
+      },
+      {
+        "metric": "Stabilised Portfolio rent",
+        "current": "£46.13psf",
+        "prior": "not stated",
+        "change": "+0.4%",
+        "basis": "",
+        "note": "quarter movement"
+      },
+      {
+        "metric": "Net debt",
+        "current": "£754m",
+        "prior": "£740m",
+        "change": "+£14m",
+        "basis": "",
+        "note": "prior stated as at 30 June 2026"
+      },
+      {
+        "metric": "Cumulative disposals since March 2025",
+        "current": "£138.3m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "target £200m by March 2027"
+      }
+    ],
+    "guidance": {
+      "status": "lowered",
+      "previous": "£200m disposal target by year-end March 2027, plus an additional £100m+ of disposals announced as under consideration in June 2026",
+      "current": "£200m disposal target by March 2027 maintained (over £50m under offer and close to £200m in active discussions); the additional £100m+ 'is unlikely to be fully achieved by March 2027'",
+      "commentary": "The headline £200m disposal programme is reaffirmed, but the extra £100m+ of disposals flagged in June is now not expected to complete in full by March 2027. Higher interest rates and macro uncertainty mean buyers are demanding larger discounts (one Q1 tranche sold at a 28% discount to book) and deals are taking longer; management says it will stay disciplined on price rather than sell below value."
+    },
+    "explainer": "This is a quarterly business update, not a full set of results, so most figures are operating metrics rather than profit numbers. Occupancy, rent roll and letting activity all softened in a seasonally quiet quarter, with August described as subdued and only partial recovery in September. Part of the 1.0pp occupancy fall is self-inflicted — space was deliberately held back to fit out the new 'Furnished' product and refurbishment 'Case Studies', and new space at The Biscuit Factory came on stream only 16% let; excluding those, management says occupancy would have edged up 0.1pp.\n\nThe pricing data on the new all-inclusive Unfurnished model is the more encouraging signal: completed and under-offer lettings are being struck above estimated rental value (ERV), suggesting the repricing is landing well, though there is a lag between enquiry and signed letting so the full effect is not yet visible in the headline numbers.\n\nThe key change versus prior messaging is on disposals. The core £200m target by March 2027 stands, but the additional £100m+ mooted in June is now unlikely to complete in time because buyers are pushing for steeper discounts and transactions are dragging. With a Q1 tranche already sold at a 28% discount to March 2026 book value, management is signalling it would rather hold assets than crystallise value-destructive prices, especially with refinancings and its credit rating in focus against higher bond yields. Full half-year results follow on 18 November 2026.",
+    "source_url": "https://uk.advfn.com/stock-market/london/workspace-WKP/share-news/Workspace-Group-PLC-WORKSPACE-GROUP-PLC-SECOND-QUA/99495051",
+    "related_news_url": "https://news.google.com/search?q=%22Workspace%20Group%20PLC%22",
+    "added_at": "2026-10-15T07:38:41.868698"
+  },
+  {
     "company": "Mondi plc",
     "ticker": "MNDI",
     "publish_date": "15 October 2026",
