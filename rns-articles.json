@@ -1,5 +1,31 @@
 [
   {
+    "company": "Standard Life PLC",
+    "ticker": "SDLF",
+    "publish_date": "15 October 2026",
+    "date_iso": "2026-10-15",
+    "time_period": "",
+    "announcement_type": "Financing / refinancing",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Standard Life plc</strong> has published the pricing supplement for an issue of <strong>£300,000,000 Fixed Rate Reset Tier 2 Notes due 2056</strong> (the Notes).</li><li>Issued under the company's <strong>£5,000,000,000 Euro Medium Term Note Programme</strong>, with final terms to be read alongside the offering circular dated <strong>17 July 2026</strong> (supplemented 10 September 2026).</li><li>Application made to the <strong>London Stock Exchange</strong> for the Notes to be admitted to trading on its International Securities Market.</li><li>Routine publication of a listing document; targeted at professionals/ECPs only, with <strong>no impact</strong> on trading guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Standard Life publishes pricing supplement for £300m Fixed Rate Reset Tier 2 Notes due 2056 under its £5bn EMTN programme.",
+    "priority": "medium",
+    "priority_reason": "Publication of final terms for a £300m subordinated Tier 2 note issue is a financing event, though the document itself is administrative.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/standard-life-plc--sdlf/publication-of-pricing-supplement/9825707",
+    "related_news_url": "https://news.google.com/search?q=%22Standard%20Life%20plc%22",
+    "added_at": "2026-10-15T16:15:52.918845"
+  },
+  {
     "company": "The Gym Group PLC",
     "ticker": "GYM",
     "publish_date": "15 October 2026",
