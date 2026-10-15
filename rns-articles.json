@@ -1,5 +1,64 @@
 [
   {
+    "company": "XPS Pensions Group plc",
+    "ticker": "XPS",
+    "publish_date": "15 October 2026",
+    "date_iso": "2026-10-15",
+    "time_period": "H1 to 30 September 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "H1 to 30 September 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>XPS Pensions Group plc</strong> issued a post-close trading update for the <strong>six months ended 30 September 2026</strong>, ahead of half-year results on <strong>19 November 2026</strong>.</li><li>Board <strong>confident of full-year results slightly ahead of expectations</strong>, citing strong revenue growth, cost discipline and operating efficiencies.</li><li>Group revenue grew <strong>12%</strong>, of which <strong>11%</strong> was organic; Advisory <strong>+14%</strong> (12% organic), Administration <strong>+10%</strong>, SIP <strong>+7%</strong> year on year.</li><li>Strong demand from regulatory change, including schemes seeking advice on running-on for surplus extraction, plus high Risk Transfer activity and growth in Insurance Consulting.</li><li><strong>Austin Professional Resourcing LLP (APR)</strong>, acquired <strong>31 July 2026</strong>, integrating well and in line with expectations, enhancing insurance opportunities across the Group.</li><li><strong>Pensions Act 2025</strong> (Royal Assent April 2026) enables DB surplus release from <strong>6 April 2027</strong>, expected to lift demand for advice.</li></ul>",
+    "source_format": "html",
+    "headline": "XPS says H1 revenue rose 12% and the Board now expects full-year results slightly ahead of expectations, with APR integration on track.",
+    "priority": "high",
+    "priority_reason": "Post-close trading update guiding full-year results slightly ahead of expectations.",
+    "figures": [
+      {
+        "metric": "Group revenue growth",
+        "current": "+12%",
+        "prior": "not stated",
+        "change": "+12%",
+        "basis": "of which 11% organic",
+        "note": "H1 to 30 September 2026, year on year"
+      },
+      {
+        "metric": "Advisory revenue growth",
+        "current": "+14%",
+        "prior": "not stated",
+        "change": "+14%",
+        "basis": "of which 12% organic",
+        "note": "year on year"
+      },
+      {
+        "metric": "Administration revenue growth",
+        "current": "+10%",
+        "prior": "not stated",
+        "change": "+10%",
+        "basis": "reported",
+        "note": "year on year"
+      },
+      {
+        "metric": "SIP revenue growth",
+        "current": "+7%",
+        "prior": "not stated",
+        "change": "+7%",
+        "basis": "reported",
+        "note": "year on year"
+      }
+    ],
+    "guidance": {
+      "status": "raised",
+      "previous": "full year expectations (prior market expectations)",
+      "current": "full year results slightly ahead of its expectations",
+      "commentary": "The Board nudged its full-year outlook up to slightly ahead of expectations, driven by strong organic revenue growth plus cost discipline and operating efficiencies."
+    },
+    "explainer": "This is a pre-close (post-period) update covering the first half to 30 September 2026, with full interim results due on 19 November. Headline revenue grew 12%, but 11 of those percentage points were organic — that is, growth from the existing business rather than from the APR acquisition completed on 31 July. In other words, almost all the growth was generated internally, with only about a point coming from the newly bought business.\n\nThe divisional splits (Advisory +14%, Administration +10%, SIP +7%) are year-on-year comparisons; the company has not printed the underlying pound figures, so the absolute revenue numbers will only appear with the November results.\n\nOn guidance, XPS has moved its full-year expectation from in line to slightly ahead. The improvement is attributed to strong demand — fuelled by regulatory change, busy risk-transfer activity and a growing insurance consulting practice — combined with tight cost control. The Pensions Act 2025, which allows defined-benefit schemes to release surpluses from April 2027, is flagged as a longer-term demand driver rather than a factor in current trading.",
+    "source_url": "https://uk.advfn.com/stock-market/london/xps-pensions-XPS/share-news/XPS-Pensions-Group-PLC-Post-close-trading-update/99495123",
+    "related_news_url": "https://news.google.com/search?q=%22XPS%20Pensions%20Group%20plc%22",
+    "added_at": "2026-10-15T07:44:15.116995"
+  },
+  {
     "company": "The British Land Company PLC",
     "ticker": "BLND",
     "publish_date": "15 October 2026",
