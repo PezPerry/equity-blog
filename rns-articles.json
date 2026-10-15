@@ -1,5 +1,88 @@
 [
   {
+    "company": "Atalaya Mining Copper, S.A.",
+    "ticker": "ATYM",
+    "publish_date": "15 October 2026",
+    "date_iso": "2026-10-15",
+    "time_period": "Q3 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "Q3 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Copper production</strong> of <strong>13,967 tonnes</strong> in <strong>Q3 2026</strong> (Q3 2025: <strong>12,123 tonnes</strong>; Q2 2026: <strong>13,493 tonnes</strong>), helped by higher grade (<strong>0.40%</strong>) and much improved recovery (<strong>84.25%</strong> vs <strong>74.45%</strong> a year earlier).</li><li>Net cash position strengthened to <strong>EUR342.1m</strong> at 30 September 2026 (31 December 2025: <strong>EUR122.0m</strong>), with cash of <strong>EUR354.1m</strong> against borrowings of <strong>EUR11.9m</strong>.</li><li>Average realised copper price of <strong>US$6.44/lb</strong> in Q3 2026 (Q2 2026: <strong>US$6.14/lb</strong>); copper contained in concentrates sold rose to <strong>15,243 tonnes</strong> from <strong>12,493 tonnes</strong> in Q2.</li><li><strong>FY2026 guidance maintained</strong>: production still expected at the <strong>low end</strong> of the <strong>50,000–54,000 tonnes</strong> copper range, with Cash Costs (<strong>US$2.60–2.90/lb</strong>) and AISC (<strong>US$3.10–3.40/lb</strong>) kept within prior ranges despite higher consumable prices.</li><li><strong>Proyecto Touro</strong> designated a <strong>Strategic Project</strong> by the <strong>European Commission</strong> under the Critical Raw Materials Act on <strong>9 October 2026</strong>, supporting completion of environmental permitting.</li><li><strong>San Dionisio</strong> waste stripping of <strong>3.1 million tonnes</strong> was below plan due to delays in an electricity supplier's power-line relocation.</li></ul>",
+    "source_format": "html",
+    "headline": "Atalaya delivered record Q3 copper production of 13,967 tonnes and lifted net cash to EUR342.1m, but still expects FY2026 output at the low end of guidance.",
+    "priority": "high",
+    "priority_reason": "Quarterly operations and production update with cost/production guidance commentary and material balance-sheet strengthening.",
+    "figures": [
+      {
+        "metric": "Copper production",
+        "current": "13,967 tonnes",
+        "prior": "12,123 tonnes",
+        "change": "not stated",
+        "basis": "",
+        "note": "Q3 2026 vs Q3 2025; Q2 2026 was 13,493 tonnes"
+      },
+      {
+        "metric": "Copper grade",
+        "current": "0.40%",
+        "prior": "0.38%",
+        "change": "not stated",
+        "basis": "",
+        "note": "Q3 2026 vs Q3 2025"
+      },
+      {
+        "metric": "Copper recovery",
+        "current": "84.25%",
+        "prior": "74.45%",
+        "change": "not stated",
+        "basis": "",
+        "note": "Q3 2026 vs Q3 2025"
+      },
+      {
+        "metric": "Copper sold (contained in concentrate)",
+        "current": "15,243 tonnes",
+        "prior": "12,493 tonnes",
+        "change": "not stated",
+        "basis": "",
+        "note": "Q3 2026 vs Q2 2026"
+      },
+      {
+        "metric": "Average realised copper price",
+        "current": "US$6.44/lb",
+        "prior": "US$6.14/lb",
+        "change": "not stated",
+        "basis": "excluding QPs closed during the period",
+        "note": "Q3 2026 vs Q2 2026"
+      },
+      {
+        "metric": "Cash and cash equivalents",
+        "current": "EUR354.1m",
+        "prior": "EUR166.3m",
+        "change": "not stated",
+        "basis": "",
+        "note": "30 September 2026 vs 31 December 2025"
+      },
+      {
+        "metric": "Net cash position",
+        "current": "EUR342.1m",
+        "prior": "EUR122.0m",
+        "change": "not stated",
+        "basis": "",
+        "note": "30 September 2026 vs 31 December 2025; borrowings EUR11.9m"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "FY2026 production of 50,000–54,000 tonnes of copper and 0.9–1.1 million ounces of silver; Cash Costs US$2.60–2.90/lb and AISC US$3.10–3.40/lb of payable copper",
+      "current": "Production continues to be expected at the low end of the 50,000–54,000 tonnes copper and 0.9–1.1 million ounces silver ranges; Cash Costs and AISC still expected within US$2.60–2.90/lb and US$3.10–3.40/lb respectively",
+      "commentary": "Full-year guidance ranges are unchanged, with the company reiterating that output should land at the low end. Cost guidance is held despite geopolitical conflicts pushing up prices for diesel, explosives and Spanish electricity."
+    },
+    "explainer": "This is a quarterly operations update rather than full financial results, so the figures focus on physical production and the balance sheet. Copper production of 13,967 tonnes was a record quarter, driven by better ore grade (0.40%) and a sharp recovery improvement to 84.25% from 74.45% a year earlier, meaning more of the copper in the rock was actually extracted.\n\nThe balance sheet strengthened markedly: net cash (cash minus borrowings) rose to EUR342.1m from EUR122.0m at the end of 2025, reflecting strong copper prices, high volumes sold and the drawdown of concentrate inventory. The company flags that receivables increased during the period, which partly offsets the cash build.\n\nOn guidance, nothing has changed. Full-year production is still guided to the low end of the 50,000–54,000 tonnes copper range, and both Cash Costs and AISC (all-in sustaining costs per pound of payable copper) remain within their existing ranges. Management stresses that holding cost guidance is notable given that conflicts in the Middle East and Ukraine-Russia are raising prices for diesel, explosives and peak-summer Spanish electricity.",
+    "source_url": "https://uk.advfn.com/stock-market/london/atalaya-mining-copper-ATYM/share-news/Atalaya-Mining-Copper-S-A-Q3-2026-Operations-Upd/99495080",
+    "related_news_url": "https://news.google.com/search?q=%22Atalaya%20Mining%20Copper%2C%20S.A.%22",
+    "added_at": "2026-10-15T07:41:21.693865"
+  },
+  {
     "company": "Dunelm Group PLC",
     "ticker": "DNLM",
     "publish_date": "15 October 2026",
