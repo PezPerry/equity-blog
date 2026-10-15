@@ -1,5 +1,57 @@
 [
   {
+    "company": "Safestore Holdings PLC",
+    "ticker": "SAFE",
+    "publish_date": "15 October 2026",
+    "date_iso": "2026-10-15",
+    "time_period": "",
+    "announcement_type": "Trading update",
+    "period_detail": "",
+    "type_workings": "Rule 'trading update': 'trading update' named in opening bullets [rns.json record]",
+    "body": "<ul><li><strong>Safestore Holdings plc</strong> will today host an <strong>Investor and Analyst Event</strong> for institutional investors and sell-side analysts, including a strategy update and a tour of its recently opened <strong>Wembley</strong> store.</li><li><strong>No new disclosures</strong> on current trading; overall performance remains <strong>consistent with the guidance</strong> given in the <strong>Q3 trading update on 3 September 2026</strong>.</li><li>Presentation slides on the company website from <strong>08.30 BST</strong>; an audiocast will be available from <strong>FTI Consulting</strong> after the event.</li><li>Routine investor-relations event with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Safestore to host an investor and analyst event with a Wembley site tour, confirming no new disclosures and trading in line with prior guidance.",
+    "priority": "low",
+    "priority_reason": "Investor and analyst event with no new trading disclosures; performance stated as consistent with prior guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/safestore-holdings--safe/investor-and-analyst-event-/9823640",
+    "related_news_url": "https://news.google.com/search?q=%22Safestore%20Holdings%22",
+    "added_at": "2026-10-15T07:36:01.534144"
+  },
+  {
+    "company": "Balfour Beatty PLC",
+    "ticker": "BBY",
+    "publish_date": "15 October 2026",
+    "date_iso": "2026-10-15",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>Balfour Beatty</strong> is today hosting institutional investors and analysts for a <strong>UK power transmission and distribution</strong> event, including a site visit to the <strong>Bramford to Twinstead</strong> project being delivered for <strong>National Grid</strong> in Suffolk.</li><li>Presentation from Group Chief Executive <strong>Philip Hoare</strong> and senior UK Power leaders; materials to be posted on the investor site at <strong>10am</strong> and filmed for later release.</li><li>Routine investor event — <strong>no new material information or guidance</strong> will be disclosed; <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Balfour Beatty is hosting an investor and analyst event on its UK power transmission and distribution business, with no new material information or guidance to be disclosed.",
+    "priority": "low",
+    "priority_reason": "Investor site-visit event with no new material information or guidance disclosed.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/balfour-beatty--bby/balfour-beatty-uk-power-t-d-investor-event/9823636",
+    "related_news_url": "https://news.google.com/search?q=%22Balfour%20Beatty%22",
+    "added_at": "2026-10-15T07:36:01.520799"
+  },
+  {
     "company": "Harworth Group PLC",
     "ticker": "HWG",
     "publish_date": "15 October 2026",
