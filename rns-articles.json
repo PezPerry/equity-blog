@@ -1,5 +1,64 @@
 [
   {
+    "company": "Dunelm Group PLC",
+    "ticker": "DNLM",
+    "publish_date": "15 October 2026",
+    "date_iso": "2026-10-15",
+    "time_period": "Q1 FY27 (13 weeks to 26 September 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "Q1 FY27 (13 weeks to 26 September 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Total sales +1.1%</strong> year-on-year to <strong>£433m</strong> in Q1 (13 weeks to <strong>26 September 2026</strong>), against a strong prior-year comparative.</li><li>Trading strengthened through the quarter: sales <strong>down c.3%</strong> in the first six weeks amid exceptionally warm weather, then <strong>up c.4%</strong> in the final seven weeks.</li><li><strong>Made to Measure</strong> delivered double-digit growth; <strong>Cook and Dine</strong> also performed well, aided by recent range reviews.</li><li><strong>Gross margin +10bps</strong> year-on-year, helped by an <strong>FX tailwind</strong>.</li><li><strong>FY27 adjusted PBT</strong> expectations unchanged and broadly in line with <strong>FY26</strong>, but <strong>H1 adjusted PBT</strong> expected to be <strong>lower than the prior year</strong>, with benefits weighted to H2.</li><li>Progress on <strong>Winning Hearts & Homes</strong> strategy: two new store openings expected in H1, five store renewals completed, plus RFID and AI contact-centre rollouts. Q2 update due <strong>14 January 2027</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Dunelm Q1 total sales rose **1.1%** to **£433m**, with trading accelerating to c.4% growth late in the quarter after a warm-weather soft start.",
+    "priority": "high",
+    "priority_reason": "First-quarter trading statement from a FTSE retailer, including sales performance and FY27 profit guidance commentary.",
+    "figures": [
+      {
+        "metric": "Total sales",
+        "current": "£433m",
+        "prior": "not stated",
+        "change": "+1.1%",
+        "basis": "reported",
+        "note": "Q1, 13 weeks to 26 September 2026"
+      },
+      {
+        "metric": "Gross margin",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+10bps",
+        "basis": "aided by FX tailwind",
+        "note": "year-on-year, Q1"
+      },
+      {
+        "metric": "First six weeks sales",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "c.-3%",
+        "basis": "reported",
+        "note": "warm-weather period"
+      },
+      {
+        "metric": "Final seven weeks sales",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "c.+4%",
+        "basis": "reported",
+        "note": "end of quarter"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "FY27 adjusted PBT broadly in line with FY26",
+      "current": "FY27 adjusted PBT expectations unchanged and broadly in line with FY26; H1 adjusted PBT expected to be lower than the prior year, with benefits weighted to the second half",
+      "commentary": "Full-year profit guidance is unchanged, but Dunelm has flagged that first-half adjusted PBT will be lower year-on-year as the benefits of its strategic investments are weighted towards H2. Adjusted PBT here means 52-week statutory PBT excluding adjusting items."
+    },
+    "explainer": "Dunelm's headline measure is total sales, which rose 1.1% to £433m over the 13 weeks to 26 September 2026. The headline number masks a sharp swing within the quarter: an exceptionally warm start (homewares demand tends to soften in hot weather) left sales down about 3% in the first six weeks, before a return to roughly 4% growth in the final seven weeks as the weather cooled and autumn ranges landed.\n\nThe 10bps gross margin improvement was driven by a favourable foreign-exchange movement rather than underlying pricing or mix, so it should not be read as a structural margin gain. Growth was led by Made to Measure (double-digit) and Cook and Dine, reflecting range reviews rather than broad-based strength across all categories.\n\nOn profit, the key message is a timing effect. Full-year FY27 adjusted PBT guidance is unchanged and broadly in line with FY26, but management now expects first-half adjusted PBT to be below the prior year, with the benefits of its cost-removal and growth investments weighted to the second half. \"Adjusted PBT\" is defined as 52-week statutory profit before tax excluding adjusting items.\n\nIn plain terms: the full-year outlook has not moved, but investors should expect a weaker-looking H1 profit comparison followed by a stronger H2, rather than an even split across the year.",
+    "source_url": "https://uk.advfn.com/stock-market/london/dunelm-DNLM/share-news/Dunelm-Group-plc-First-Quarter-Trading-Statement/99495076",
+    "related_news_url": "https://news.google.com/search?q=%22Dunelm%20Group%20plc%22",
+    "added_at": "2026-10-15T07:40:44.276170"
+  },
+  {
     "company": "Travis Perkins PLC",
     "ticker": "TPK",
     "publish_date": "15 October 2026",
