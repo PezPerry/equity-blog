@@ -1,5 +1,31 @@
 [
   {
+    "company": "The Gym Group PLC",
+    "ticker": "GYM",
+    "publish_date": "15 October 2026",
+    "date_iso": "2026-10-15",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li>Launched <strong>2026 Save As You Earn Scheme</strong>, granting options over <strong>331,289 ordinary shares</strong> at an exercise price of <strong>£1.51</strong> per share.</li><li><strong>100 employees</strong> elected to participate, with options representing <strong>0.19%</strong> of issued share capital; options issued <strong>15 October 2026</strong> and normally exercisable from <strong>1 December 2029</strong> for six months.</li><li>Routine all-employee share-scheme disclosure with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "The Gym Group has granted SAYE options over 331,289 shares (0.19% of capital) to 100 employees at a £1.51 exercise price.",
+    "priority": "low",
+    "priority_reason": "Routine employee SAYE share-scheme grant with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/the-gym-group--gym/grant-of-2026-saye-options/9825670",
+    "related_news_url": "https://news.google.com/search?q=%22The%20Gym%20Group%22",
+    "added_at": "2026-10-15T15:56:06.253835"
+  },
+  {
     "company": "Bridgepoint Group PLC",
     "ticker": "BPT",
     "publish_date": "15 October 2026",
