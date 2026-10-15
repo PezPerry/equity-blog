@@ -1,5 +1,56 @@
 [
   {
+    "company": "THG PLC",
+    "ticker": "THG",
+    "publish_date": "15 October 2026",
+    "date_iso": "2026-10-15",
+    "time_period": "Q3 to 30 September 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "Q3 to 30 September 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li>FY26 <strong>Adjusted EBITDA</strong> expectation upgraded to <strong>£103m</strong>, ahead of market consensus of <strong>£101.7m</strong>, on strong profitability momentum.</li><li>On track for first year of positive <strong>free cash flow since IPO</strong>, guided at <strong>£25m to £35m</strong> in FY26 (consensus <strong>£31.1m</strong>).</li><li><strong>Myprotein</strong> omnichannel expansion with new partnerships including <strong>Five Guys</strong>, <strong>Krispy Kreme</strong>, <strong>Gold's Gym</strong>, <strong>Caffè Nero</strong> and <strong>Pladis UK</strong>.</li><li>THG Beauty investing in digital innovation (<strong>YouTube Shopping Affiliate Programme</strong>, <strong>AI Beauty Advisor</strong>); continued revenue growth and strong branded volumes.</li><li>Expects <strong>acceleration in Group revenue in Q4</strong>, its busiest and most cash-generative quarter; consensus FY revenue <strong>£1,802.2m</strong>.</li><li>All comparatives on a continuing constant-currency basis; Claremont Ingredients sale (completed 2 September 2025) excluded.</li></ul>",
+    "source_format": "html",
+    "headline": "THG upgrades FY26 Adjusted EBITDA expectation to **£103m**, ahead of consensus, after Q3 profitability beat its own expectations.",
+    "priority": "high",
+    "priority_reason": "Q3 trading update with an upgrade to full-year Adjusted EBITDA guidance ahead of consensus.",
+    "figures": [
+      {
+        "metric": "Adjusted EBITDA (FY26 guidance)",
+        "current": "£103m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "continuing, constant currency",
+        "note": "ahead of consensus £101.7m"
+      },
+      {
+        "metric": "Free cash flow (FY26 guidance)",
+        "current": "£25m to £35m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "first positive FCF since IPO",
+        "note": "consensus £31.1m"
+      },
+      {
+        "metric": "Revenue (FY26 consensus)",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "consensus only",
+        "note": "consensus £1,802.2m; no current revenue figure printed"
+      }
+    ],
+    "guidance": {
+      "status": "raised",
+      "previous": "Prior FY26 Adjusted EBITDA expectation not stated in the announcement; market consensus was £101.7m (and free cash flow consensus £31.1m).",
+      "current": "FY26 Adjusted EBITDA expectation upgraded to £103m, ahead of consensus; FY26 free cash flow guided at £25m to £35m, the first positive FCF year since IPO.",
+      "commentary": "THG lifted its full-year Adjusted EBITDA expectation to £103m, above the £101.7m consensus, after Q3 profitability exceeded expectations. It also framed FY26 as its first positive free-cash-flow year since IPO, guiding to £25m–£35m, and expects revenue to accelerate in Q4."
+    },
+    "explainer": "This is a Q3 trading update rather than full results, so THG prints few hard numbers. The headline change is to guidance: the group now expects full-year Adjusted EBITDA of £103m, which it says is ahead of the analyst consensus of £101.7m. Adjusted EBITDA strips out one-off and non-cash items, so it flatters the statutory picture, but the upgrade signals profitability running better than the market expected.\n\nAll comparatives are on a continuing, constant-currency basis. \"Continuing\" excludes discontinued categories and Claremont Ingredients, which was sold in September 2025, so year-on-year comparisons are made like-for-like against the retained business. Constant currency removes exchange-rate movements, isolating underlying trading.\n\nThe second notable point is cash. THG expects £25m–£35m of free cash flow in FY26 — what it describes as its first positive free-cash-flow year since listing. That sits around the £31.1m consensus, so it is less of an upgrade than the EBITDA move but is still a milestone for a business long criticised for cash burn.\n\nNo current-period revenue figure is given; the £1,802.2m revenue number is the analyst consensus, not a reported result. Management expects revenue growth to accelerate in Q4, traditionally its strongest quarter.",
+    "source_url": "https://uk.advfn.com/stock-market/london/thg-THG/share-news/THG-PLC-Q3-2026-Trading-Statement/99495082",
+    "related_news_url": "https://news.google.com/search?q=%22THG%20PLC%22",
+    "added_at": "2026-10-15T07:41:52.766635"
+  },
+  {
     "company": "Atalaya Mining Copper, S.A.",
     "ticker": "ATYM",
     "publish_date": "15 October 2026",
