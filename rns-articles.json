@@ -1,5 +1,31 @@
 [
   {
+    "company": "Sirius Real Estate Ltd",
+    "ticker": "SRE",
+    "publish_date": "15 October 2026",
+    "date_iso": "2026-10-15",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>Fitch Ratings</strong> reaffirmed Sirius' Long-Term Issuer Default Rating and senior unsecured rating at <strong>BBB</strong>, with a <strong>Stable Outlook</strong> — no change.</li><li>Fitch cited strong credit metrics: EBITDA net interest cover of around <strong>7x</strong> in FY26 and net debt to EBITDA around <strong>6x</strong> across the forecast period.</li><li>Rating rationale noted disciplined leverage during portfolio growth and like-for-like rental growth continuing to outpace inflation.</li><li>Fitch flagged Sirius' growing defence-related exposure in Germany, worth approximately <strong>€200m</strong> after the <strong>Kiel</strong> and <strong>Fulda</strong> acquisitions.</li><li>CFO <strong>Chris Bowman</strong> noted the June upsizing of two euro bonds to benchmark <strong>€500m</strong> size each; routine rating confirmation with no impact on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Fitch has reaffirmed Sirius Real Estate's BBB investment-grade credit rating and Stable Outlook, citing stable occupancy and moderate leverage.",
+    "priority": "low",
+    "priority_reason": "Fitch reaffirmed the existing BBB rating and Stable Outlook with no change, so it carries no new rating impact.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/sirius-real-estate-ltd---sre/fitch-reaffirms-sirius-bbb-credit-rating/9823633",
+    "related_news_url": "https://news.google.com/search?q=%22Sirius%20Real%20Estate%20Ltd.%22",
+    "added_at": "2026-10-15T07:36:42.752131"
+  },
+  {
     "company": "Safestore Holdings PLC",
     "ticker": "SAFE",
     "publish_date": "15 October 2026",
