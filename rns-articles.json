@@ -1,5 +1,80 @@
 [
   {
+    "company": "The British Land Company PLC",
+    "ticker": "BLND",
+    "publish_date": "15 October 2026",
+    "date_iso": "2026-10-15",
+    "time_period": "H1 FY27 (six months to 30 September 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "H1 FY27 (six months to 30 September 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Underlying Profit</strong> of <strong>£166m</strong> (HY26: £155m) and <strong>Underlying EPS</strong> of <strong>16.1p</strong> (HY26: 15.4p), driven by <strong>12% like-for-like net rental growth</strong>, development lease-up and cost efficiencies, partly offset by lower surrender premiums and higher interest rates.</li><li>Portfolio values <strong>+1.5%</strong> over six months (Campuses <strong>+1.6%</strong>, Retail & London Urban Logistics +1.2%, of which retail parks <strong>+2.4%</strong>); <strong>EPRA NTA per share 599p</strong> (FY26: 590p) and a <strong>TAR of 3.4%</strong>.</li><li><strong>1.4m sq ft</strong> of leasing completed, <strong>10.4% ahead of ERV</strong>, with a further <strong>1.1m sq ft under offer</strong>; campus deals struck 14.8% ahead of ERV and retail parks remain <strong>99% occupied</strong>.</li><li><strong>£247m</strong> of assets sold at a 4.7% net initial yield, broadly in line with book value; acquired <strong>Telford Bridge Retail Park</strong> for <strong>£30m</strong> (8.3% topped-up NIY) and completed the <strong>Life Science REIT</strong> acquisition on 20 April 2026.</li><li><strong>Loan to value c.39.6%</strong> (FY26: 39.2%) and <strong>Net Debt to EBITDA c.7.0x</strong> (FY26: 7.7x).</li><li>Reiterated guidance for <strong>FY27 Underlying EPS of at least 30.5p</strong>, 3-6% p.a. medium-term EPS growth and 3-5% p.a. portfolio ERV growth; HY27 results due <strong>18 November 2026</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "British Land reports a strong first half with underlying profit of £166m, 12% like-for-like net rental growth and reiterated FY27 EPS guidance of at least 30.5p.",
+    "priority": "high",
+    "priority_reason": "Half-year trading update with earnings, valuation and leasing metrics plus reiterated FY27 EPS guidance.",
+    "figures": [
+      {
+        "metric": "Underlying Profit",
+        "current": "£166m",
+        "prior": "£155m",
+        "change": "+7.1%",
+        "basis": "reported",
+        "note": "HY27 vs HY26, six months to 30 September 2026"
+      },
+      {
+        "metric": "Underlying EPS",
+        "current": "16.1p",
+        "prior": "15.4p",
+        "change": "+4.5%",
+        "basis": "reported",
+        "note": "HY27 vs HY26"
+      },
+      {
+        "metric": "EPRA Net Tangible Assets per share",
+        "current": "599p",
+        "prior": "590p",
+        "change": "+1.5%",
+        "basis": "reported",
+        "note": "vs FY26 (31 March 2026)"
+      },
+      {
+        "metric": "Like-for-like net rental growth",
+        "current": "12%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "like-for-like",
+        "note": "six months to 30 September 2026"
+      },
+      {
+        "metric": "Loan to value",
+        "current": "c.39.6%",
+        "prior": "39.2%",
+        "change": "+0.4pp",
+        "basis": "reported",
+        "note": "vs FY26"
+      },
+      {
+        "metric": "Net Debt to EBITDA",
+        "current": "c.7.0x",
+        "prior": "7.7x",
+        "change": "-0.7x",
+        "basis": "reported",
+        "note": "Group, vs FY26"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "FY27 Underlying EPS of at least 30.5p; 3-6% p.a. EPS growth over the medium term; 3-5% p.a. portfolio ERV growth",
+      "current": "FY27 Underlying EPS of at least 30.5p; 3-6% p.a. EPS growth over the medium term; 3-5% p.a. portfolio ERV growth",
+      "commentary": "Guidance was reiterated, not changed. British Land held its FY27 Underlying EPS target of at least 30.5p alongside medium-term EPS and ERV growth ranges."
+    },
+    "explainer": "This is an unaudited half-year trading update for the six months to 30 September 2026, ahead of full HY27 results on 18 November 2026. The key comparatives are against the equivalent half last year (HY26) for earnings, and against the March 2026 year-end (FY26) for balance-sheet measures such as net asset value, loan to value and leverage.\n\nUnderlying Profit of £166m (up from £155m) and Underlying EPS of 16.1p reflect British Land's recurring rental earnings. The company attributes the rise to 12% like-for-like net rental growth — meaning rental income from properties held throughout both periods, stripping out acquisitions and disposals — plus the lease-up of completed developments and cost savings. These more than offset two headwinds the company names: lower one-off surrender premiums (payments from tenants exiting leases early) and higher interest costs.\n\nValuation moved modestly higher, with the portfolio up 1.5% over the half and EPRA NTA per share rising to 599p from 590p. Leverage improved, with Net Debt to EBITDA falling to around 7.0x from 7.7x at year-end, helped by earnings growth and disposals of £247m.\n\nOn guidance, nothing changed: British Land reiterated its FY27 Underlying EPS target of at least 30.5p, its 3-6% per year medium-term EPS growth ambition and 3-5% per year ERV growth. A reiteration signals management remains comfortable with existing market expectations rather than raising or cutting them.",
+    "source_url": "https://uk.advfn.com/stock-market/london/british-land-BLND/share-news/British-Land-Co-PLC-Trading-Statement/99495071",
+    "related_news_url": "https://news.google.com/search?q=%22The%20British%20Land%20Company%20PLC%22",
+    "added_at": "2026-10-15T07:43:46.910737"
+  },
+  {
     "company": "Big Yellow Group PLC",
     "ticker": "BYG",
     "publish_date": "15 October 2026",
