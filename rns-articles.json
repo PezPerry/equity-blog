@@ -1,5 +1,64 @@
 [
   {
+    "company": "The Rank Group Plc",
+    "ticker": "RNK",
+    "publish_date": "15 October 2026",
+    "date_iso": "2026-10-15",
+    "time_period": "Q1 FY26/27 (quarter ended 30 September 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "Q1 FY26/27 (quarter ended 30 September 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li>Group <strong>like-for-like NGR up 5%</strong> to <strong>GBP216.1m</strong> for the quarter ended <strong>30 September 2026</strong>, with digital LFL NGR <strong>+6%</strong> and venues LFL NGR <strong>+5%</strong>.</li><li><strong>Grosvenor</strong> venues LFL NGR <strong>+6%</strong> (visits +1%, spend per visit +5%); gaming machines revenue grew <strong>14%</strong>, table gaming <strong>+3%</strong> and electronic gaming <strong>+5%</strong>.</li><li><strong>Mecca</strong> venues LFL NGR flat, with visits down <strong>3%</strong> (spend per visit +3%), hit by prolonged UK hot weather; <strong>Enracha</strong> LFL NGR <strong>+7%</strong>.</li><li>Digital LFL NGR <strong>+6%</strong>, led by <strong>6%</strong> UK growth (Mecca online <strong>+7%</strong>) despite the higher tax regime from April 2026; international digital NGR <strong>+4%</strong>.</li><li>Three venues closed during the quarter — <strong>Swansea, Reading Central and Sunderland</strong> — as no longer economically viable.</li><li>Group confident of delivering <strong>Group LFL operating profit in line with market expectations</strong> for the current year, based on the existing UK tax regime; interim results due <strong>28 January 2027</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Rank's Q1 FY26/27 like-for-like net gaming revenue grew 5% to GBP216.1m, with the group confident of full-year operating profit in line with market expectations.",
+    "priority": "high",
+    "priority_reason": "Quarterly trading update with group revenue growth and a profit outlook statement.",
+    "figures": [
+      {
+        "metric": "Group LFL NGR",
+        "current": "£216.1m",
+        "prior": "not stated",
+        "change": "+5%",
+        "basis": "like-for-like",
+        "note": "Q1 to 30 September 2026"
+      },
+      {
+        "metric": "Digital LFL NGR",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+6%",
+        "basis": "like-for-like",
+        "note": "UK +6%, international +4%"
+      },
+      {
+        "metric": "Venues LFL NGR",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+5%",
+        "basis": "like-for-like",
+        "note": "Grosvenor +6%, Mecca flat, Enracha +7%"
+      },
+      {
+        "metric": "Grosvenor gaming machines revenue",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+14%",
+        "basis": "like-for-like",
+        "note": "Q1"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Market expectations for current-year Group LFL operating profit",
+      "current": "Confident of delivering Group LFL operating profit in line with market expectations for the current year, based on the current industry tax regime in the UK",
+      "commentary": "Rank reaffirmed its full-year operating profit outlook after a strong Q1, but flagged that any increase in Machine Games Duty in the upcoming Budget would raise costs and threaten venue viability. The guidance is explicitly conditional on the UK tax regime remaining unchanged."
+    },
+    "explainer": "This is a first-quarter trading update covering the three months to 30 September 2026, the start of Rank's financial year. All the growth figures are stated on a like-for-like (LFL) basis, meaning they strip out the effect of venue openings and closures to show underlying trading at the comparable estate. Only the group revenue figure (GBP216.1m) is given in absolute terms; the percentages are year-on-year LFL movements against the same quarter a year earlier.\n\nThe standout operational detail is Grosvenor, where gaming machine revenue rose 14% as the company optimises its machine estate. Mecca's flat performance is attributed to an unusually hot UK summer keeping customers away from bingo venues, so the weakness is presented as weather-driven rather than structural. The digital business grew despite a higher gambling tax regime introduced in April 2026 and reduced marketing spend.\n\nOn guidance, Rank has maintained — not raised or lowered — its outlook, saying it is confident of full-year LFL operating profit in line with market expectations. Crucially, this is conditioned on the current UK tax regime. Management used the statement to lobby against any rise in Machine Games Duty in the forthcoming Budget, warning it would force venue closures and job losses. Investors should treat the outlook as dependent on no adverse Budget change.",
+    "source_url": "https://uk.advfn.com/stock-market/london/rank-RNK/share-news/Rank-Group-PLC-Q1-2026-27-trading-update/99495048",
+    "related_news_url": "https://news.google.com/search?q=%22The%20Rank%20Group%20Plc%22",
+    "added_at": "2026-10-15T07:39:08.392159"
+  },
+  {
     "company": "Workspace Group PLC",
     "ticker": "WKP",
     "publish_date": "15 October 2026",
