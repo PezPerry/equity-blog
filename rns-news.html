@@ -455,6 +455,13 @@
     .date-full { display: none; }
     .date-short { display: inline; }
   }
+  /* Signed-out lock panel (gate=1) */
+  .rns-locked { background: #1B2A4A; color: #F3ECDD; border-radius: 6px; padding: 1.25rem 1.4rem; margin: 0.25rem 0; }
+  .rns-locked h4 { font-family: 'Playfair Display', serif; font-size: 1.15rem; margin: 0 0 0.4rem; color: #F3ECDD; }
+  .rns-locked p { color: #B9C0CE; font-size: 0.9rem; line-height: 1.55; margin: 0; }
+  .rns-locked-actions { display: flex; gap: 0.6rem; flex-wrap: wrap; margin-top: 0.9rem; }
+  .rns-locked-actions a { background: #D4A853; color: #161009; border-radius: 4px; padding: 0.6rem 1.1rem; font-weight: 700; text-decoration: none; font-size: 0.88rem; }
+  .rns-locked-actions a.rns-locked-signin { background: transparent; color: #F3ECDD; border: 1px solid rgba(255,255,255,.3); }
 </style>
 </head>
 <body>
@@ -555,6 +562,29 @@ let watchFilterActive = false;
 /* Account mode: ?my=TICKER,TICKER (set by the My news page) filters by ticker and hides the device stars */
 const MY_TICKERS = (new URLSearchParams(location.search).get('my') || '').split(',').map(s => s.trim().toUpperCase()).filter(Boolean);
 const MY_MODE = MY_TICKERS.length > 0;
+/* Signed-out gate (14 Oct 2026): the Base44 /RNSNews page adds ?gate=1 when the visitor is not
+   signed in. Announcements from the last RNS_EMBARGO_DAYS days then show a sign-in panel in place
+   of the summary; older ones read normally. Display gate only - the data file stays public. */
+const RNS_EMBARGO_DAYS = 3;
+const GATE_MODE = !MY_MODE && new URLSearchParams(location.search).get('gate') === '1';
+const JOIN_URL = 'https://equityandmarketsinsight.com/Join';
+function isEmbargoed(a) {
+  if (!GATE_MODE) return false;
+  const cutoff = new Date();
+  cutoff.setDate(cutoff.getDate() - RNS_EMBARGO_DAYS);
+  const cutoffISO = cutoff.toISOString().split('T')[0];
+  const iso = toISO(a);
+  const added = (a.added_at && /^\d{4}-\d{2}-\d{2}/.test(a.added_at)) ? a.added_at.slice(0, 10) : '';
+  if (!iso && !added) return false;
+  return (iso && iso >= cutoffISO) || (added && added >= cutoffISO);
+}
+function renderLocked() {
+  return '<div class="rns-locked"><h4>Sign in to read this announcement</h4>'
+    + '<p>Summaries of announcements from the last ' + RNS_EMBARGO_DAYS + ' days are for account holders. '
+    + 'A free account is all you need, and older announcements stay open to everyone.</p>'
+    + '<div class="rns-locked-actions"><a href="' + JOIN_URL + '" target="_top" rel="noopener">Create a free account</a>'
+    + '<a class="rns-locked-signin" href="' + JOIN_URL + '" target="_top" rel="noopener">Sign in</a></div></div>';
+}
 if (MY_MODE) watchFilterActive = true;
 function isWatchedArticle(a) {
   return MY_MODE ? !!(a.ticker && MY_TICKERS.includes(String(a.ticker).toUpperCase())) : getWatchlist().includes(a.company);
@@ -967,7 +997,7 @@ function getFiltered() {
         a.company, a.ticker, a.time_period,
         a.announcement_type || '',
         a.headline || '', a.explainer || '',
-        a.body || '', (a.details || []).join(' '),
+        isEmbargoed(a) ? '' : (a.body || ''), isEmbargoed(a) ? '' : (a.details || []).join(' '),
         a.publish_date
       ].join(' ').toLowerCase();
       if (!haystack.includes(search)) return false;
@@ -998,7 +1028,7 @@ function renderRail(filtered) {
   });
 
   const item = ([a, i]) => {
-    const what = plain(a.headline) || a.announcement_type || getAnnouncementType(a);
+    const what = isEmbargoed(a) ? 'sign in to read' : (plain(a.headline) || a.announcement_type || getAnnouncementType(a));
     const p = effectivePriority(a);
     return `<div class="glance-item" onclick="jumpToCard(${i})">`
       + `<span class="prio-dot prio-dot-${p}"></span>`
@@ -1122,7 +1152,7 @@ function renderArticles() {
     const detail = (a.announcement_type && a.period_detail && a.period_detail !== announcementType)
       ? ` <span class="period-detail">&middot; ${esc(a.period_detail)}</span>` : '';
     const period = `<div class="card-period">${esc(announcementType)}${detail}</div>`;
-    const headline = a.headline ? `<div class="card-headline">${esc(plain(a.headline))}</div>` : '';
+    const headline = (a.headline && !isEmbargoed(a)) ? `<div class="card-headline">${esc(plain(a.headline))}</div>` : '';
     const signal = effectivePriority(a);
     const signalLabels = { high: 'High', medium: 'Medium', low: 'Low' };
     const signalShortLabels = { high: 'H', medium: 'M', low: 'L' };
@@ -1141,7 +1171,7 @@ function renderArticles() {
             ${chevronSVG}
           </div>
         </div>
-        <div class="card-body">${renderBody(a)}${renderNumbers(a)}${renderLinks(a)}${renderTimeline(a)}</div>
+        <div class="card-body">${isEmbargoed(a) ? renderLocked() : renderBody(a) + renderNumbers(a) + renderLinks(a) + renderTimeline(a)}</div>
       </div>`;
   }).join('');
 }
