@@ -1,5 +1,40 @@
 [
   {
+    "company": "Man Group PLC",
+    "ticker": "EMG",
+    "publish_date": "16 October 2026",
+    "date_iso": "2026-10-16",
+    "time_period": "Q3 2026 (quarter ended 30 September 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "Q3 2026 (quarter ended 30 September 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Man Group plc</strong> reports <strong>AUM of $270.9bn</strong> as at <strong>30 September 2026</strong>, up from <strong>$253.6bn</strong> at <strong>30 June 2026</strong> — a rise of roughly <strong>$17.3bn</strong> over the quarter.</li><li>Figure confirmed in the firm's corporate description as <strong>$270.922bn</strong> under management.</li><li>The scraped text gives the headline AUM movement only; detailed <strong>net flows, investment performance and FX breakdowns</strong> of the quarterly movement were not captured in the article text.</li><li><strong>Man Group</strong> is a FTSE 250 constituent listed on the LSE under ticker <strong>EMG.LN</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Man Group's assets under management rose to **$270.9bn** at 30 September 2026, up from **$253.6bn** three months earlier.",
+    "priority": "high",
+    "priority_reason": "Quarterly trading statement from a FTSE 250 asset manager, with a material rise in assets under management.",
+    "figures": [
+      {
+        "metric": "Assets under management (AUM)",
+        "current": "$270.9bn",
+        "prior": "$253.6bn",
+        "change": "+$17.3bn vs 30 June 2026",
+        "basis": "as reported",
+        "note": "As at 30 September 2026 vs 30 June 2026"
+      }
+    ],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "Man Group is an alternative asset manager, so its single most important number is assets under management (AUM) — the total pool of client money it manages and earns fees on. AUM rose from $253.6bn at the end of June to $270.9bn at the end of September 2026, a gain of about $17.3bn over the three months.\n\nThat quarterly movement normally breaks down into three parts: net flows (new client money in, less money withdrawn), investment performance (gains or losses on the funds), and currency/FX translation effects, since much of the book is priced in US dollars. The scraped text here reports only the opening and closing AUM and does not itemise how much of the increase came from flows, performance or FX, so the drivers of the rise cannot be stated from this text.\n\nNo earnings, management-fee, performance-fee or profit figures, and no forward guidance, are included in the captured text.",
+    "source_url": "https://uk.advfn.com/stock-market/london/man-EMG/share-news/Man-Group-plc-Trading-Statement-for-quarter-ended/99504946",
+    "related_news_url": "https://news.google.com/search?q=%22Man%20Group%20plc%22",
+    "added_at": "2026-10-16T08:36:39.397725"
+  },
+  {
     "company": "IP Group PLC",
     "ticker": "IPO",
     "publish_date": "16 October 2026",
