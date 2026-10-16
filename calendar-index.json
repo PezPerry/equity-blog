@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-15",
+  "generated": "2026-10-16",
   "by_ticker": {
     "AAL": {
       "date": "2026-10-20",
@@ -19,10 +19,6 @@
     },
     "AJB": {
       "date": "2026-10-22",
-      "event": "Trading statement"
-    },
-    "ANTO": {
-      "date": "2026-10-15",
       "event": "Trading statement"
     },
     "ASHM": {
@@ -70,12 +66,12 @@
       "event": "Q2 div payment"
     },
     "DGE": {
-      "date": "2026-10-15",
-      "event": "Q4 ex-div"
+      "date": "2026-11-05",
+      "event": "AGM (Conf)"
     },
     "DNLM": {
-      "date": "2026-10-15",
-      "event": "Trading statement"
+      "date": "2026-10-22",
+      "event": "Q4 ex-div"
     },
     "GFRD": {
       "date": "2026-11-05",
@@ -101,10 +97,6 @@
       "date": "2026-11-26",
       "event": "Q2 ex-div"
     },
-    "HMSO": {
-      "date": "2026-10-15",
-      "event": "Q2 div payment"
-    },
     "HOC": {
       "date": "2026-10-21",
       "event": "Trading statement"
@@ -114,8 +106,8 @@
       "event": "Trading statement"
     },
     "HWDN": {
-      "date": "2026-10-15",
-      "event": "Q2 ex-div"
+      "date": "2026-11-20",
+      "event": "Q2 div payment"
     },
     "HWG": {
       "date": "2026-11-03",
@@ -174,8 +166,8 @@
       "event": "AGM (Est)"
     },
     "PHP": {
-      "date": "2026-10-15",
-      "event": "Special ex-div"
+      "date": "2026-11-20",
+      "event": "Special div payment"
     },
     "PLUS": {
       "date": "2026-11-11",
@@ -190,8 +182,8 @@
       "event": "Q2 div payment"
     },
     "PSN": {
-      "date": "2026-10-15",
-      "event": "Q2 ex-div"
+      "date": "2026-11-06",
+      "event": "Q2 div payment"
     },
     "RAT": {
       "date": "2026-10-22",
@@ -230,8 +222,8 @@
       "event": "Q2 ex-div"
     },
     "TPK": {
-      "date": "2026-10-15",
-      "event": "Trading statement"
+      "date": "2026-11-06",
+      "event": "Q2 div payment"
     },
     "TW.": {
       "date": "2026-11-13",
@@ -248,10 +240,6 @@
     "WIKS": {
       "date": "2026-11-06",
       "event": "Q2 div payment"
-    },
-    "WKP": {
-      "date": "2026-10-15",
-      "event": "Trading statement"
     }
   }
 }
