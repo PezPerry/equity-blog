@@ -1,5 +1,31 @@
 [
   {
+    "company": "IP Group PLC",
+    "ticker": "IPO",
+    "publish_date": "16 October 2026",
+    "date_iso": "2026-10-16",
+    "time_period": "",
+    "announcement_type": "Fundraising (portfolio company)",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Microbiotica Ltd</strong>, an <strong>IP Group</strong> portfolio company, has closed a <strong>£36m</strong> Series C financing to advance <strong>MB310</strong> into <strong>Phase 2</strong> clinical development in ulcerative colitis.</li><li>The round was led by <strong>British Business Bank</strong>, with participation from existing investors <strong>Tencent</strong>, <strong>Cambridge Innovation Capital</strong>, <strong>Flerie Invest</strong> and <strong>Seventure Partners</strong>.</li><li><strong>IP Group</strong> invested <strong>£4m</strong> in the round.</li><li>Following second completion, IP Group will hold an undiluted beneficial stake of <strong>16.4%</strong> in Microbiotica, valued at <strong>£24.1m</strong>.</li><li>Funding follows positive <strong>COMPOSER-1</strong> Phase 1b data, which met primary and secondary endpoints with statistically significant improvement in clinical remission versus placebo.</li></ul>",
+    "source_format": "html",
+    "headline": "IP Group's portfolio company Microbiotica closes a £36m Series C financing to take lead drug MB310 into Phase 2 for ulcerative colitis.",
+    "priority": "medium",
+    "priority_reason": "Portfolio company fundraising in which IP Group invested further and re-stated its holding value, but not material to IP Group's own trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/ip-group--ipo/microbiotica-raises-36m-in-series-c-financing/9825996",
+    "related_news_url": "https://news.google.com/search?q=%22IP%20Group%22",
+    "added_at": "2026-10-16T07:46:50.081826"
+  },
+  {
     "company": "Vertu Motors PLC",
     "ticker": "VTU",
     "publish_date": "16 October 2026",
