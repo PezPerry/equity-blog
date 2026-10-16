@@ -1,5 +1,31 @@
 [
   {
+    "company": "Forterra PLC",
+    "ticker": "FORT",
+    "publish_date": "16 October 2026",
+    "date_iso": "2026-10-16",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>Forterra plc</strong>'s Employee Benefit Trust purchased <strong>75,000 ordinary shares</strong> at an average price of <strong>£1.537133</strong> on <strong>15 October 2026</strong>, per Trustee <strong>Apex Financial Services (Trust Company) Limited</strong>.</li><li>Purchase made under the standing programme announced <strong>13 October 2025</strong> of <strong>150,000 shares</strong> per month; shares held to satisfy awards under the Company's share schemes.</li><li>Trust now holds <strong>3,454.024</strong> ordinary shares, stated as <strong>1.71%</strong> of voting rights — the share count as printed appears garbled (it is inconsistent with the stated percentage).</li><li>Routine EBT disclosure with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Forterra's Employee Benefit Trust purchased 75,000 ordinary shares at an average price of £1.537133 on 15 October 2026.",
+    "priority": "low",
+    "priority_reason": "Routine Employee Benefit Trust share purchase under an existing programme, with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/forterra--fort/employee-benefit-trust-share-purchase/9827899",
+    "related_news_url": "https://news.google.com/search?q=%22Forterra%22",
+    "added_at": "2026-10-16T15:35:41.217395"
+  },
+  {
     "company": "Capricorn Energy PLC",
     "ticker": "CNE",
     "publish_date": "16 October 2026",
