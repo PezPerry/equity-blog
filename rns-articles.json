@@ -1,5 +1,31 @@
 [
   {
+    "company": "Vertu Motors PLC",
+    "ticker": "VTU",
+    "publish_date": "16 October 2026",
+    "date_iso": "2026-10-16",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Christopher Taylor</strong>, Operations Director, sold <strong>48,206 ordinary shares</strong> at <strong>83.0 pence</strong> each on <strong>15 October 2026</strong> (approximately <strong>GBP40,000</strong>).</li><li>Beneficial holding reduced from <strong>254,532</strong> to <strong>206,326 shares</strong>, or <strong>0.07%</strong> of issued share capital; trade conducted on the <strong>London Stock Exchange, AIM</strong>.</li><li>Routine PDMR dealing disclosure with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Vertu Motors Operations Director Christopher Taylor sold 48,206 ordinary shares at 83.0p, cutting his holding to 206,326 shares.",
+    "priority": "low",
+    "priority_reason": "Routine PDMR share sale of a small stake with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/vertu-motors--vtu/notification-of-pdmr-s-interests/9825971",
+    "related_news_url": "https://news.google.com/search?q=%22Vertu%20Motors%22",
+    "added_at": "2026-10-16T07:36:10.144058"
+  },
+  {
     "company": "Greatland Resources Ltd",
     "ticker": "GRR",
     "publish_date": "16 October 2026",
