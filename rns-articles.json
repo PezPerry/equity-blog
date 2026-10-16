@@ -26,6 +26,97 @@
     "added_at": "2026-10-16T07:16:10.061539"
   },
   {
+    "company": "Interactive Brokers Group Inc",
+    "ticker": "IBKR",
+    "publish_date": "15 October 2026",
+    "date_iso": "2026-10-15",
+    "time_period": "Q3 2026 (quarter ended 30 September 2026)",
+    "announcement_type": "Quarterly results",
+    "period_detail": "Q3 2026 (quarter ended 30 September 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Interactive Brokers Group</strong> reported <strong>GAAP diluted EPS of $0.69</strong> for Q3 2026, up from <strong>$0.59</strong> a year ago; <strong>adjusted EPS $0.67</strong> vs <strong>$0.57</strong>.</li><li><strong>GAAP net revenues $1.91bn</strong> vs <strong>$1.66bn</strong> year-ago; <strong>adjusted net revenues $1.87bn</strong> vs <strong>$1.61bn</strong>.</li><li><strong>GAAP income before income taxes $1.50bn</strong> vs <strong>$1.31bn</strong>; <strong>adjusted $1.45bn</strong> vs <strong>$1.27bn</strong>.</li><li>Board raised the <strong>quarterly cash dividend from $0.0875 to $0.15</strong> per share, payable <strong>14 December 2026</strong> to holders of record <strong>1 December 2026</strong>.</li><li>Other income fell <strong>18%</strong> to <strong>$70m</strong>; currency diversification strategy reduced comprehensive earnings by <strong>$4m</strong> as the GLOBAL basket fell ~0.08%.</li><li>No forward guidance provided; comparisons are to the year-ago quarter.</li></ul>",
+    "source_format": "html",
+    "headline": "Interactive Brokers posted Q3 2026 GAAP diluted EPS of $0.69 on net revenues of $1.91bn and raised its quarterly dividend to $0.15.",
+    "priority": "high",
+    "priority_reason": "Quarterly results with a near-doubling of the dividend; price-sensitive for the stock.",
+    "figures": [
+      {
+        "metric": "GAAP diluted EPS",
+        "current": "$0.69",
+        "prior": "$0.59",
+        "change": "not stated",
+        "basis": "GAAP",
+        "note": "Q3 2026 vs Q3 2025"
+      },
+      {
+        "metric": "Adjusted diluted EPS",
+        "current": "$0.67",
+        "prior": "$0.57",
+        "change": "not stated",
+        "basis": "non-GAAP",
+        "note": "Q3 2026 vs Q3 2025"
+      },
+      {
+        "metric": "GAAP net revenues",
+        "current": "$1.91bn",
+        "prior": "$1.66bn",
+        "change": "not stated",
+        "basis": "GAAP",
+        "note": "Q3 2026 vs Q3 2025"
+      },
+      {
+        "metric": "Adjusted net revenues",
+        "current": "$1.87bn",
+        "prior": "$1.61bn",
+        "change": "not stated",
+        "basis": "non-GAAP",
+        "note": "Q3 2026 vs Q3 2025"
+      },
+      {
+        "metric": "GAAP income before income taxes",
+        "current": "$1.50bn",
+        "prior": "$1.31bn",
+        "change": "not stated",
+        "basis": "GAAP",
+        "note": "Q3 2026 vs Q3 2025"
+      },
+      {
+        "metric": "Adjusted income before income taxes",
+        "current": "$1.45bn",
+        "prior": "$1.27bn",
+        "change": "not stated",
+        "basis": "non-GAAP",
+        "note": "Q3 2026 vs Q3 2025"
+      },
+      {
+        "metric": "Quarterly dividend per share",
+        "current": "$0.15",
+        "prior": "$0.0875",
+        "change": "not stated",
+        "basis": "declared",
+        "note": "payable 14 December 2026"
+      },
+      {
+        "metric": "Other income",
+        "current": "$70m",
+        "prior": "not stated",
+        "change": "-18%",
+        "basis": "GAAP",
+        "note": "year-on-year decline stated as 18%"
+      }
+    ],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "Interactive Brokers is a US-listed automated broker reporting in US dollars. All comparisons here are against the year-ago quarter (Q3 2025). Revenue and profit grew across the board, with GAAP net revenues up to $1.91bn from $1.66bn and GAAP diluted EPS reaching $0.69 from $0.59.\n\nThe company reports both GAAP and adjusted (non-GAAP) numbers. The adjusted figures strip out its currency diversification strategy and mark-to-market gains and losses on investments, which management views as not indicative of core performance. That is why adjusted net revenues ($1.87bn) sit slightly below GAAP net revenues ($1.91bn) this quarter.\n\nThe currency diversification strategy bases the firm's net worth in a basket of 10 major currencies (the GLOBAL). This quarter it cut comprehensive earnings by $4m as the dollar value of the GLOBAL fell about 0.08%, split between a $40m gain in Other Income and a $44m loss in Other Comprehensive Income.\n\nThe standout shareholder-return item is the dividend, lifted from $0.0875 to $0.15 per share. No forward profit or revenue guidance was issued with these results.",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/IBKR/share-news/Interactive-Brokers-Group-Announces-3Q2026-Results/99503011",
+    "related_news_url": "https://news.google.com/search?q=%22Interactive%20Brokers%20Group%2C%20Inc.%22",
+    "added_at": "2026-10-16T07:16:43.403710"
+  },
+  {
     "company": "Standard Life PLC",
     "ticker": "SDLF",
     "publish_date": "15 October 2026",
