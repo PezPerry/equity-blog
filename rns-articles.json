@@ -1,5 +1,57 @@
 [
   {
+    "company": "Yellow Cake PLC",
+    "ticker": "YCA",
+    "publish_date": "19 October 2026",
+    "date_iso": "2026-10-19",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Wendy Walker</strong> appointed as a non-executive director with effect from <strong>16 October 2026</strong>, following the resignation of <strong>Zoe Rizzuto</strong> as an independent non-executive director on the same date.</li><li>Walker is a <strong>Senior Client Director at Langham Hall Fund Management (Jersey) Limited</strong> and a qualified lawyer, previously a Senior Associate at <strong>Ogier LLP</strong>, with expertise in governance, compliance and the Jersey regulatory environment.</li><li>Walker will <strong>not be classified as independent</strong> under the UK Corporate Governance Code given Langham Hall provides administration services to the Group, and will not serve on the audit, remuneration or nomination committees.</li><li>Routine AIM Rule 17 / Schedule 2 disclosure — <strong>no impact</strong> on trading or guidance; Yellow Cake currently holds <strong>24.37 million lb of U3O8</strong> in storage in Canada and France.</li></ul>",
+    "source_format": "html",
+    "headline": "Yellow Cake appoints **Wendy Walker** as a non-executive director from **16 October 2026**, replacing **Zoe Rizzuto**, who has resigned.",
+    "priority": "medium",
+    "priority_reason": "Board change with a non-executive director appointment and a resignation, routine corporate governance news.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/yellow-cake-YCA/share-news/Yellow-Cake-PLC-Board-Change/99513439",
+    "related_news_url": "https://news.google.com/search?q=%22Yellow%20Cake%20plc%22",
+    "added_at": "2026-10-19T07:58:05.112669"
+  },
+  {
+    "company": "GSK plc",
+    "ticker": "GSK",
+    "publish_date": "19 October 2026",
+    "date_iso": "2026-10-19",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>GSK plc</strong> presented first global data for <strong>risvutatug rezetecan (Ris-Rez)</strong>, a <strong>B7-H3-targeted antibody-drug conjugate</strong>, in relapsed extensive-stage small cell lung cancer (ES-SCLC).</li><li>Phase Ib EMBOLD PanTumour-101 data showed a confirmed objective response rate of <strong>61%</strong> at the <strong>8 mg/kg</strong> dose (n=11/18) versus <strong>32%</strong> at 6 mg/kg (n=7/22).</li><li>Safety described as manageable; grade 3+ treatment-related adverse events in <strong>42%</strong> at 8 mg/kg and <strong>15%</strong> at 6 mg/kg, with interstitial lung disease low at <strong>2%</strong> (1/50).</li><li>Data supported selection of the <strong>8 mg/kg</strong> dose for the global phase III <strong>EMBOLD SCLC-301</strong> study; builds on positive phase III results from <strong>Hansoh</strong>'s Chinese ARTEMIS-008 trial.</li><li>Findings to be presented at the <strong>ESMO Congress 2026</strong> in Madrid; Ris-Rez holds US/Japan/EU orphan drug, US Breakthrough Therapy and EMA PRIME designations.</li><li>Investigational asset only — no revenue, earnings or guidance impact at this stage.</li></ul>",
+    "source_format": "html",
+    "headline": "GSK reports first global phase Ib data for ADC Ris-Rez showing a 61% confirmed response rate at 8 mg/kg in relapsed small cell lung cancer.",
+    "priority": "medium",
+    "priority_reason": "Positive but early-stage (phase Ib) oncology data for an investigational asset; pipeline-relevant news but not immediately earnings-moving for a large-cap.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/gsk-GSK/share-news/GSK-PLC-Ris-Rez-positive-early-data-in-lung-cancer/99513463",
+    "related_news_url": "https://news.google.com/search?q=%22GSK%20plc%22",
+    "added_at": "2026-10-19T07:58:05.099579"
+  },
+  {
     "company": "Primary Health Properties PLC",
     "ticker": "PHP",
     "publish_date": "19 October 2026",
