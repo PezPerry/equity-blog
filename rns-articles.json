@@ -1,5 +1,57 @@
 [
   {
+    "company": "Tesco PLC",
+    "ticker": "TSCO",
+    "publish_date": "19 October 2026",
+    "date_iso": "2026-10-19",
+    "time_period": "",
+    "announcement_type": "Buyback programme",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Tesco PLC</strong> is extending its existing share buyback <strong>Programme by up to a further £200m</strong>, raising the maximum aggregate value to <strong>up to £950m</strong>, as flagged on <strong>8 October 2026</strong>.</li><li>A <strong>third tranche</strong> of <strong>up to £200m</strong> has been arranged with <strong>Morgan Stanley</strong> on a riskless principal basis, purchasing shares on the London Stock Exchange, Cboe (BXE/CXE), Turquoise and Aquis.</li><li>The prior tranche completed on <strong>31 July 2026</strong>; between <strong>16 April and 31 July 2026</strong> Tesco repurchased <strong>120,057,841 ordinary shares</strong> for approximately <strong>£550m</strong>.</li><li>The Programme for the current year remains due to complete by <strong>April 2027</strong>; sole purpose is to reduce share capital.</li></ul>",
+    "source_format": "html",
+    "headline": "Tesco extends its share buyback programme by up to a further £200m, lifting the total to up to £950m, due for completion by April 2027.",
+    "priority": "medium",
+    "priority_reason": "Extension of an existing buyback programme, not a routine daily buyback transaction.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/tesco--tsco/continuation-of-share-buyback-programme/9828281",
+    "related_news_url": "https://news.google.com/search?q=%22Tesco%22",
+    "added_at": "2026-10-19T07:29:28.244007"
+  },
+  {
+    "company": "PPHE Hotel Group Ltd",
+    "ticker": "PPH",
+    "publish_date": "19 October 2026",
+    "date_iso": "2026-10-19",
+    "time_period": "Q3 ended 30 September 2026",
+    "announcement_type": "Notice of results",
+    "period_detail": "Q3 ended 30 September 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>PPHE Hotel Group</strong> will release its <strong>Q3 trading update</strong> for the quarter ended <strong>30 September 2026</strong> on <strong>Thursday 29 October 2026</strong>.</li><li>Scheduling notice only, with <strong>no financial figures</strong> disclosed; the Group carries a <strong>£2.4 billion</strong> portfolio of prime European hospitality real estate.</li></ul>",
+    "source_format": "html",
+    "headline": "PPHE Hotel Group will publish its Q3 trading update for the period ended 30 September 2026 on Thursday 29 October 2026.",
+    "priority": "low",
+    "priority_reason": "Scheduling notice only; the substantive Q3 trading update follows on 29 October 2026.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/pphe-hotel-group-ltd--pph/notice-of-trading-update/9828285",
+    "related_news_url": "https://news.google.com/search?q=%22PPHE%20Hotel%20Group%20Ltd%22",
+    "added_at": "2026-10-19T07:29:28.232742"
+  },
+  {
     "company": "Forterra PLC",
     "ticker": "FORT",
     "publish_date": "16 October 2026",
