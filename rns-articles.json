@@ -1,5 +1,80 @@
 [
   {
+    "company": "Londonmetric Property PLC",
+    "ticker": "LMP",
+    "publish_date": "19 October 2026",
+    "date_iso": "2026-10-19",
+    "time_period": "H1 to 30 September 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "H1 to 30 September 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Net rental income</strong> up more than <strong>8%</strong> to <strong>c.£240 million</strong> in the six months to <strong>30 September 2026</strong>, aided by the <strong>Urban Logistics REIT</strong> acquisition, high occupancy and strong rent reviews.</li><li>Says it is <strong>firmly on track to meet analysts' FY27 EPRA EPS consensus of 13.9 pence</strong> — representing an increase of almost <strong>40% over five years</strong>.</li><li><strong>Q1 dividend</strong> raised <strong>3.3%</strong> to <strong>3.15 pence</strong>, with the same expected for Q2; prospective FY27 yield of <strong>7.1%</strong> on consensus DPS of <strong>12.8 pence</strong>.</li><li>Portfolio flat in value despite a <strong>c.50 bps</strong> rise in five-year swap rates; <strong>NNN portfolio</strong> now <strong>£8 billion</strong>, with annual net contracted rent up to <strong>£452 million</strong> from <strong>£432 million</strong>.</li><li><strong>Disposals</strong> of <strong>£185 million</strong> across 36 assets at a blended <strong>6.6% NIY</strong>, in line with March 2026 book values; <strong>acquisitions</strong> of <strong>£424 million</strong> including <strong>£307 million</strong> via the <strong>Picton</strong> takeover.</li><li>Rent reviews averaged a <strong>17%</strong> uplift (logistics <strong>24%</strong>); rent collection <strong>99.3%</strong>, <strong>WAULT over 16 years</strong>, occupancy <strong>97.4%</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "LondonMetric's net rental income rose over 8% to c.£240m in H1, keeping it on track to meet FY27 EPS consensus.",
+    "priority": "high",
+    "priority_reason": "Pre-close trading update ahead of half-year results, with income, dividend and guidance read-across.",
+    "figures": [
+      {
+        "metric": "Net rental income",
+        "current": "c.£240m",
+        "prior": "not stated",
+        "change": "+8%",
+        "basis": "reported",
+        "note": "six months to 30 September 2026"
+      },
+      {
+        "metric": "Annual net contracted rent",
+        "current": "£452m",
+        "prior": "£432m",
+        "change": "+£20m",
+        "basis": "reported",
+        "note": "vs start of Period"
+      },
+      {
+        "metric": "Q1 dividend",
+        "current": "3.15p",
+        "prior": "not stated",
+        "change": "+3.3%",
+        "basis": "reported",
+        "note": "Q2 expected at same level"
+      },
+      {
+        "metric": "Like-for-like income growth",
+        "current": "5.8% annualised (2.9% six-month)",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "like-for-like",
+        "note": "Period"
+      },
+      {
+        "metric": "Disposals",
+        "current": "£185m across 36 assets",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "6.6% blended NIY",
+        "note": "in line with 31 March 2026 book values"
+      },
+      {
+        "metric": "Acquisitions",
+        "current": "£424m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "includes £307m via Picton",
+        "note": "Period"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Analysts' FY27 consensus of EPRA EPS 13.9 pence and DPS 12.8 pence",
+      "current": "Firmly on track to meet analysts' FY27 EPS consensus of 13.9 pence; DPS consensus of 12.8 pence underpins a fully covered 7.1% prospective yield",
+      "commentary": "LondonMetric reaffirmed rather than changed guidance, stating income growth keeps it on track to meet the existing FY27 EPRA EPS and DPS consensus figures, which would mark EPS growth of almost 40% over five years and a twelfth consecutive year of dividend progression."
+    },
+    "explainer": "This is a pre-close update ahead of half-year results due on 24 November 2026, covering the six months to 30 September 2026. LondonMetric is a triple net lease (NNN) REIT, so the key drivers are rental income, rent collection, lease length (WAULT) and the dividend, rather than trading profit in the conventional sense.\n\nThe headline is net rental income up more than 8% to around £240 million. Much of that uplift is acquisitive — it reflects a full period's contribution from the Urban Logistics REIT deal — but underlying growth is also strong, with like-for-like income up 5.8% on an annualised basis and rent reviews settling at an average 17% uplift. Valuations were flat despite swap rates rising about 50 bps, meaning income growth offset the drag from higher rates rather than capital values re-rating upwards.\n\nOn guidance, nothing has been formally changed. The company is reaffirming that it is on track to meet the market's existing FY27 consensus of 13.9 pence EPRA EPS and 12.8 pence dividend per share. The Q1 dividend was lifted 3.3% to 3.15 pence with Q2 expected to match, consistent with a fully covered payout and a prospective yield of 7.1%.\n\nNote the comparatives are stated only as percentage changes in several cases — the prior-year net rental income figure and the previous dividend level are not printed in the release, so those are marked as not stated rather than inferred.",
+    "source_url": "https://uk.advfn.com/stock-market/london/londonmetric-property-LMP/share-news/LondonMetric-Property-PLC-Trading-Update/99513393",
+    "related_news_url": "https://news.google.com/search?q=%22LondonMetric%20Property%20Plc%22",
+    "added_at": "2026-10-19T07:56:46.649489"
+  },
+  {
     "company": "Tesco PLC",
     "ticker": "TSCO",
     "publish_date": "19 October 2026",
