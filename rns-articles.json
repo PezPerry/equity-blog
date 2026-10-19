@@ -1,5 +1,31 @@
 [
   {
+    "company": "AstraZeneca PLC",
+    "ticker": "AZN",
+    "publish_date": "19 October 2026",
+    "date_iso": "2026-10-19",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>AstraZeneca</strong> to present overall survival data from <strong>four pivotal Phase III trials</strong> in Presidential Symposia at <strong>ESMO 2026</strong> (<strong>23-27 October 2026</strong>), with over <strong>100 abstracts</strong> featuring its medicines and pipeline.</li><li>Presidential Symposia highlights: <strong>CLARITY-Gastric01</strong> (Sone-Ve in CLDN18.2-positive gastric cancer), <strong>SAFFRON</strong> (savolitinib added to <strong>TAGRISSO</strong> in MET-driven 2nd-line EGFRm lung cancer), <strong>VOLGA</strong> (<strong>IMFINZI</strong> regimen in muscle-invasive bladder cancer) and <strong>DeLLphi-305</strong> (tarlatamab plus <strong>IMFINZI</strong> in extensive-stage small cell lung cancer).</li><li>Further Phase III data due from <strong>CAPItello-281</strong> (capivasertib in mHSPC), <strong>DUO-E</strong>, <strong>HIMALAYA</strong> (seven-year OS) and <strong>DESTINY-Breast09/11</strong>, spanning ADCs, precision medicine and immunotherapy combinations.</li><li>This is a conference preview only — <strong>no trial results, efficacy figures or survival numbers are disclosed</strong> in the announcement; readouts land at the congress on 23-27 October.</li><li><strong>No impact</strong> on current guidance; relevant as a catalyst calendar flag for upcoming data readouts.</li></ul>",
+    "source_format": "html",
+    "headline": "AstraZeneca will present overall survival data from four pivotal Phase III trials in Presidential Symposia at **ESMO 2026**, 23-27 October.",
+    "priority": "medium",
+    "priority_reason": "Pipeline catalyst flag — multiple Phase III overall-survival readouts imminent — but no trial data or numbers are disclosed in this preview.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/astrazeneca-AZN/share-news/AstraZeneca-to-present-overall-survival-data-from/99516742",
+    "related_news_url": "https://news.google.com/search?q=%22AstraZeneca%20PLC%22",
+    "added_at": "2026-10-19T12:56:23.803780"
+  },
+  {
     "company": "Glenveagh Properties PLC",
     "ticker": "GLV",
     "publish_date": "19 October 2026",
