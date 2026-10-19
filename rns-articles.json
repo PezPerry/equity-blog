@@ -1,5 +1,31 @@
 [
   {
+    "company": "Glenveagh Properties PLC",
+    "ticker": "GLV",
+    "publish_date": "19 October 2026",
+    "date_iso": "2026-10-19",
+    "time_period": "",
+    "announcement_type": "Delisting",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Glenveagh Properties plc</strong>, the Irish homebuilder, intends to delist its ordinary shares from the <strong>London Stock Exchange</strong> with effect from 8.00 a.m. on <strong>Monday 30 November 2026</strong>.</li><li>Last day of LSE trading will be <strong>Friday 27 November 2026</strong>; the company has asked the <strong>FCA</strong> to cancel its Official List listing and LSE main-market admission.</li><li>Primary listing remains on the regulated market of <strong>Euronext Dublin</strong>, with continued compliance under the <strong>Irish Corporate Governance Code 2024</strong>.</li><li>Review cited low <strong>LSE trading activity</strong> plus the extra cost and regulatory/administrative burden of the dual listing; at least 20 business days' notice given per FCA Listing Rule 21.2.17.</li><li>UK holders lose the ability to trade the shares on the LSE after 27 November 2026 but retain the Dublin-listed line.</li></ul>",
+    "source_format": "html",
+    "headline": "Glenveagh Properties plans to cancel its LSE listing from 30 November 2026, retaining its primary listing on Euronext Dublin.",
+    "priority": "medium",
+    "priority_reason": "Structural listing change that removes UK trading access, though the company keeps its primary Euronext Dublin listing.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/glenveagh-properties-cdi---glv/intention-to-delist-from-the-lse/9829875",
+    "related_news_url": "https://news.google.com/search?q=%22Glenveagh%20Properties%20(CDI)%22",
+    "added_at": "2026-10-19T12:15:48.446252"
+  },
+  {
     "company": "Zigup PLC",
     "ticker": "ZIG",
     "publish_date": "19 October 2026",
