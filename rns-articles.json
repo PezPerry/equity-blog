@@ -1,5 +1,31 @@
 [
   {
+    "company": "Zigup PLC",
+    "ticker": "ZIG",
+    "publish_date": "19 October 2026",
+    "date_iso": "2026-10-19",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>ZIGUP plc</strong> has appointed <strong>Peel Hunt LLP</strong> as joint corporate broker with immediate effect.</li><li><strong>Peel Hunt</strong> will work alongside existing broker <strong>Deutsche Bank AG, London Branch</strong>.</li><li>Routine adviser appointment with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "ZIGUP has appointed Peel Hunt as joint corporate broker, working alongside existing broker Deutsche Bank.",
+    "priority": "low",
+    "priority_reason": "Routine appointment of an additional corporate broker with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/zigup--zig/appointment-of-joint-corporate-broker-/9829282",
+    "related_news_url": "https://news.google.com/search?q=%22Zigup%22",
+    "added_at": "2026-10-19T09:15:35.747813"
+  },
+  {
     "company": "Whitbread PLC",
     "ticker": "WTB",
     "publish_date": "19 October 2026",
