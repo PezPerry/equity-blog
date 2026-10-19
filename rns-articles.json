@@ -1,5 +1,31 @@
 [
   {
+    "company": "Whitbread PLC",
+    "ticker": "WTB",
+    "publish_date": "19 October 2026",
+    "date_iso": "2026-10-19",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li>Whitbread has published an Investor Presentation ahead of a general meeting on <strong>9 November 2026</strong>, requisitioned by activist <strong>Corvex Management LP</strong>.</li><li>The Board <strong>unanimously recommends shareholders VOTE AGAINST</strong> Corvex's resolution to appoint its nominee, <strong>James Gemmel</strong>, to the Board.</li><li>Board cites three reasons: its Goldman Sachs / J.P. Morgan Cazenove / Morgan Stanley-advised <strong>Five-Year Plan</strong> for higher margins and returns, early progress evident in <strong>H1 FY27</strong>, and an already-strong Board.</li><li>Whitbread says <strong>Corvex</strong> has not set out a superior alternative or shown how its nominee would enhance the plan, and warns the appointment risks distraction during delivery.</li><li>Follows the Shareholder Circular published <strong>13 October 2026</strong>; routine corporate-governance / activist-defence disclosure with <strong>no impact</strong> on current trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Whitbread publishes investor presentation urging shareholders to **vote against** activist **Corvex**'s bid to appoint a director at the **9 November 2026** general meeting.",
+    "priority": "medium",
+    "priority_reason": "Defensive investor presentation in an activist contest with Corvex ahead of a requisitioned general meeting — materially relevant to sentiment, but contains no new financial or trading content.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/whitbread--wtb/publication-of-investor-presentation/9829105",
+    "related_news_url": "https://news.google.com/search?q=%22Whitbread%22",
+    "added_at": "2026-10-19T08:16:49.348990"
+  },
+  {
     "company": "Greatland Resources Ltd",
     "ticker": "GRR",
     "publish_date": "19 October 2026",
