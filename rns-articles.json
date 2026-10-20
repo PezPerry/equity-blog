@@ -1,5 +1,96 @@
 [
   {
+    "company": "Wickes Group",
+    "ticker": "WIX",
+    "publish_date": "20 October 2026",
+    "date_iso": "2026-10-20",
+    "time_period": "Q3 2026 (13 weeks to 26 September 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "Q3 2026 (13 weeks to 26 September 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Q3 2026</strong> group revenue up <strong>4.5%</strong> (LFL <strong>+4.0%</strong>) to <strong>£439m</strong>, driven by volume growth; <strong>YTD</strong> group revenue <strong>£1,304m</strong>, up <strong>2.9%</strong> (LFL <strong>+1.8%</strong>).</li><li><strong>Retail</strong> stepped up to <strong>6.0%</strong> revenue growth (LFL <strong>+5.6%</strong>), with market share gains in timber, flooring, roofing and garden; two-year Retail LFL <strong>+11.5%</strong>.</li><li><strong>TradePro</strong> sales <strong>+8%</strong> year-on-year, active members <strong>+8%</strong> to <strong>684,000</strong>; DIY sales in mid-single-digit growth.</li><li><strong>Design & Installation</strong> delivered sales broadly flat; <strong>Bespoke Kitchen</strong> customers more considered on larger purchases, so quarterly ordered sales by value fell year-on-year.</li><li>Acquired freehold of <strong>Perry Barr</strong> store for <strong>£6.3m</strong>; FY2026 plan is <strong>5 new stores</strong> and <strong>12 refits/refreshes</strong>. Q4 trading due late January 2027.</li><li>On track to meet consensus adjusted PBT of <strong>c. 10%</strong> growth for 2026 (mean <strong>£54.7m</strong>, range <strong>£52.8m-£56.0m</strong> as at <strong>7 October 2026</strong>).</li></ul>",
+    "source_format": "html",
+    "headline": "Wickes grew Q3 group revenue 4.5%, led by Retail, and remains on track to meet 2026 adjusted PBT consensus of c. 10% growth.",
+    "priority": "high",
+    "priority_reason": "Quarterly trading update with group revenue growth and confirmation of full-year adjusted PBT consensus.",
+    "figures": [
+      {
+        "metric": "Group revenue",
+        "current": "£439m",
+        "prior": "not stated",
+        "change": "+4.5%",
+        "basis": "reported",
+        "note": "Q3 2026, 13 weeks to 26 September 2026"
+      },
+      {
+        "metric": "Group LFL revenue growth",
+        "current": "+4.0%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "like-for-like",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "Retail revenue growth",
+        "current": "+6.0%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "Q3 2026; LFL +5.6%"
+      },
+      {
+        "metric": "Design & Installation revenue growth",
+        "current": "+0.3%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "Q3 2026; LFL (0.6)%"
+      },
+      {
+        "metric": "Group revenue YTD",
+        "current": "£1,304m",
+        "prior": "not stated",
+        "change": "+2.9%",
+        "basis": "reported",
+        "note": "39 weeks to 26 September 2026; LFL +1.8%"
+      },
+      {
+        "metric": "TradePro sales",
+        "current": "+8% YoY",
+        "prior": "not stated",
+        "change": "+8%",
+        "basis": "year-on-year",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "Active TradePro members",
+        "current": "684,000",
+        "prior": "not stated",
+        "change": "+8%",
+        "basis": "year-on-year",
+        "note": "shopped in last 12 months"
+      },
+      {
+        "metric": "Consensus 2026 adjusted PBT",
+        "current": "£54.7m mean",
+        "prior": "not stated",
+        "change": "c. +10% growth",
+        "basis": "consensus as at 7 October 2026",
+        "note": "range £52.8m-£56.0m"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Meeting market forecasts for 2026 adjusted PBT",
+      "current": "On track to meet consensus expectations which on average show growth in adjusted PBT of c. 10% for 2026 (mean £54.7m, range £52.8m-£56.0m)",
+      "commentary": "Guidance is unchanged: Wickes reaffirms it is on track to hit the market consensus for full-year adjusted PBT, underpinned by accelerating Retail growth and a productivity plan."
+    },
+    "explainer": "This is a third-quarter trading update covering the 13 weeks to 26 September 2026, not full results. The headline growth figures are versus the same quarter a year earlier, with like-for-like (LFL) growth stripping out the effect of new or closed stores so it reflects underlying trading from the existing estate. Retail's reported +6.0% and LFL +5.6% are close, indicating growth is coming from the core business rather than space expansion.\n\nThe quarter was volume-led, meaning more goods sold rather than higher prices, though Wickes notes 'mild price inflation' is now returning after a period of deflation (falling prices). The two-year Retail LFL figure of +11.5% is given to show the trend is not just a soft prior-year comparative.\n\nDesign & Installation is weaker: delivered sales (revenue recognised on completion) were broadly flat, and ordered sales (the value of orders placed in the quarter) fell year-on-year as customers hesitate over larger Bespoke Kitchen purchases. Because D&I revenue is booked on installation, softer ordering now can feed through to revenue later.\n\nOn guidance, nothing has changed: Wickes continues to expect to meet analyst consensus for 2026 adjusted (underlying) PBT, which averages £54.7m and implies roughly 10% profit growth. The company helpfully prints the consensus mean and range, so the target is explicit rather than vague.",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/wickes-group--wix/q3-trading-update/9830638",
+    "related_news_url": "https://news.google.com/search?q=%22Wickes%20Group%22",
+    "added_at": "2026-10-20T07:37:05.988459"
+  },
+  {
     "company": "Anglo American PLC",
     "ticker": "AAL",
     "publish_date": "20 October 2026",
