@@ -1,5 +1,104 @@
 [
   {
+    "company": "Anglo American PLC",
+    "ticker": "AAL",
+    "publish_date": "20 October 2026",
+    "date_iso": "2026-10-20",
+    "time_period": "Q3 2026 (quarter ended 30 September 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "Q3 2026 (quarter ended 30 September 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Copper</strong> production fell <strong>5%</strong> to <strong>174,900 tonnes</strong> in Q3, hit by extreme winter weather in Chile and lower-grade stockpile ore at <strong>Collahuasi</strong>; <strong>Quellaveco</strong> (Peru) rose quarter-on-quarter on improved grades.</li><li><strong>Copper Peru</strong> unit cost guidance improved to <strong>c.50 c/lb</strong> (previously <strong>c.65 c/lb</strong>) and total <strong>copper</strong> unit cost cut to <strong>c.139 c/lb</strong> (previously <strong>c.145 c/lb</strong>) on strong by-product credits and cost control.</li><li><strong>De Beers</strong> 2026 production guidance raised to <strong>25-28 Mct</strong> (previously <strong>21-26 Mct</strong>) with unit cost revised to <strong>c.$70/carat</strong> (previously <strong>c.$80/carat</strong>); Q3 rough diamond output down <strong>11%</strong> to <strong>6.8 Mct</strong>.</li><li><strong>Premium iron ore</strong> down <strong>4%</strong> to <strong>13.8 Mt</strong> on the planned <strong>UHDMS</strong> tie-in at <strong>Kumba</strong> (sales largely unaffected via stockpile drawdown); <strong>manganese</strong> +6%, <strong>steelmaking coal</strong> +53%, <strong>nickel</strong> +3%.</li><li>Sale of <strong>Steelmaking Coal</strong> to <strong>Dhilmar</strong> for up to <strong>$3.875bn</strong> on track to complete by Q1 2027; Nickel sale awaiting EU approval; <strong>De Beers</strong> transaction still being pursued in a challenging market.</li><li><strong>Teck</strong> merger integration planning at an advanced stage; <strong>China's</strong> anti-trust clearance is the final outstanding milestone, with completion timing by <strong>March 2027</strong> unchanged.</li></ul>",
+    "source_format": "html",
+    "headline": "Anglo American reports resilient Q3 output, cuts copper and De Beers unit-cost guidance and lifts De Beers production guidance, while reiterating 2026 targets.",
+    "priority": "high",
+    "priority_reason": "Quarterly production report with revised 2026 unit-cost and De Beers production guidance, plus updates on Teck merger and portfolio disposals.",
+    "figures": [
+      {
+        "metric": "Copper production",
+        "current": "174,900 t",
+        "prior": "183,500 t",
+        "change": "-5%",
+        "basis": "contained metal basis",
+        "note": "Q3 2026 vs Q3 2025"
+      },
+      {
+        "metric": "Premium iron ore production",
+        "current": "13.8 Mt",
+        "prior": "14.3 Mt",
+        "change": "-4%",
+        "basis": "wet basis",
+        "note": "Q3 2026 vs Q3 2025"
+      },
+      {
+        "metric": "Manganese ore production",
+        "current": "1,031 kt",
+        "prior": "973 kt",
+        "change": "+6%",
+        "basis": "not stated",
+        "note": "Q3 2026 vs Q3 2025"
+      },
+      {
+        "metric": "Rough diamond production",
+        "current": "6.8 Mct",
+        "prior": "7.7 Mct",
+        "change": "-11%",
+        "basis": "not stated",
+        "note": "Q3 2026 vs Q3 2025"
+      },
+      {
+        "metric": "Steelmaking coal production",
+        "current": "2.9 Mt",
+        "prior": "1.9 Mt",
+        "change": "+53%",
+        "basis": "not stated",
+        "note": "Q3 2026 vs Q3 2025"
+      },
+      {
+        "metric": "Nickel production",
+        "current": "10.4 kt",
+        "prior": "10.1 kt",
+        "change": "+3%",
+        "basis": "not stated",
+        "note": "Q3 2026 vs Q3 2025"
+      },
+      {
+        "metric": "Copper realised price (YTD)",
+        "current": "623 USc/lb",
+        "prior": "446 USc/lb",
+        "change": "+40%",
+        "basis": "weighted average Chile and Peru",
+        "note": "Q3 YTD 2026 vs Q3 YTD 2025"
+      },
+      {
+        "metric": "Diamonds realised price (YTD)",
+        "current": "$97/ct",
+        "prior": "$155/ct",
+        "change": "-37%",
+        "basis": "consolidated average realised price",
+        "note": "Q3 YTD 2026 vs Q3 YTD 2025"
+      },
+      {
+        "metric": "Premium iron ore FOB price (YTD)",
+        "current": "82",
+        "prior": "92",
+        "change": "-11%",
+        "basis": "weighted average Kumba and Minas-Rio",
+        "note": "Q3 YTD 2026 vs Q3 YTD 2025"
+      }
+    ],
+    "guidance": {
+      "status": "lowered",
+      "previous": "Copper unit cost c.145 c/lb; Copper Peru unit cost c.65 c/lb; De Beers production 21-26 Mct; De Beers unit cost c.$80/carat",
+      "current": "Copper unit cost c.139 c/lb; Copper Peru unit cost c.50 c/lb; De Beers production 25-28 Mct; De Beers unit cost c.$70/carat. All production and unit cost guidance otherwise unchanged (copper 700-760 kt; premium iron ore 55-59 Mt).",
+      "commentary": "Copper and De Beers unit-cost guidance has been lowered, driven by strong by-product realisations and tight controllable cost management (Peru), while De Beers production guidance has been raised. Volume guidance for copper and iron ore is reaffirmed, with both copper regions weighted to the second half."
+    },
+    "explainer": "This is a quarterly production (volume) report rather than a full earnings release, so the figures are output tonnages and realised prices, not profit. Most divisions saw lower Q3 output year on year, but for largely planned or weather-related reasons: Chile suffered record snowfall, Kumba deliberately took iron-ore capacity offline to tie in a new processing module (drawing down stockpiles so sales held up), and copper grades at some mines were planned to be lower before improving later in the year.\n\nThe key guidance change is on costs. Anglo has cut its full-year copper unit cost guidance, with Peru in particular falling sharply to about 50 cents per pound from 65 cents. Unit costs here are helped by by-product credits (notably molybdenum) and by movements in exchange rates and treatment/refining charges, so a lower number reflects both good cost control and favourable by-product pricing. Lower unit costs widen margins at current copper prices, which are up around 40% year on year.\n\nAt De Beers, the company has raised how many carats it expects to produce in 2026 and lowered the per-carat cost, even though diamond prices remain weak (realised prices down 37% year on year). This is a volume and cost improvement against a still-difficult diamond market in which Anglo is trying to exit the business.\n\nProduction volume guidance for copper and iron ore is unchanged, and the group reiterated it is on track to meet 2026 guidance. The report also confirms the Teck merger timetable (completion by March 2027, pending Chinese anti-trust clearance) and the $3.875bn steelmaking coal disposal to Dhilmar completing by Q1 2027.",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/anglo-american--aal/anglo-american-production-report-q3-2026/9830639",
+    "related_news_url": "https://news.google.com/search?q=%22Anglo%20American%22",
+    "added_at": "2026-10-20T07:36:33.551175"
+  },
+  {
     "company": "Galliford Try Holdings PLC",
     "ticker": "GFRD",
     "publish_date": "20 October 2026",
