@@ -1,5 +1,96 @@
 [
   {
+    "company": "BHP Group Ltd",
+    "ticker": "BHP",
+    "publish_date": "20 October 2026",
+    "date_iso": "2026-10-20",
+    "time_period": "Q1 FY27 (quarter to 30 September 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "Q1 FY27 (quarter to 30 September 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Total copper production</strong> down <strong>19%</strong> to <strong>401 kt</strong>, on lower planned feed grades, scheduled maintenance, severe weather in Chile, a safety-related suspension at <strong>Escondida</strong> and the <strong>Carrapateena</strong> conveyor failure.</li><li><strong>FY27 copper guidance maintained</strong> at <strong>1,650–1,800 kt</strong>; group-wide <strong>all FY27 production guidance left unchanged</strong>, including <strong>iron ore 253–264 Mt</strong> (286–298 Mt 100% basis).</li><li><strong>Iron ore (WAIO) production up 4%</strong> to <strong>66.5 Mt</strong>, with <strong>Q1 records</strong> at both mine and port despite major planned maintenance including the Car Dumper 4 rebuild.</li><li><strong>Stronger prices a tailwind for earnings</strong>, with <strong>copper prices around 50% higher</strong> than a year ago; management flags no change to production guidance.</li><li><strong>Two fatalities</strong> reported — at <strong>Escondida</strong> (23 September) and <strong>Peak Downs</strong> — triggering temporary operational suspensions; investigations underway.</li><li>Growth milestones: <strong>Jansen Stage 1 now 87% complete</strong>, first potash production on track for <strong>mid-CY27</strong>; <strong>US$0.8bn</strong> pre-commitment funding approved for the <strong>Escondida New Concentrator</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "BHP copper output fell 19% to 401kt in Q1 FY27 on planned grade declines and disruptions, but all FY27 production guidance is unchanged.",
+    "priority": "high",
+    "priority_reason": "Quarterly production report with output figures, price realisation commentary and reaffirmed full-year guidance for a major miner.",
+    "figures": [
+      {
+        "metric": "Total copper production",
+        "current": "401 kt",
+        "prior": "not stated",
+        "change": "-19%",
+        "basis": "",
+        "note": "Q1 FY27"
+      },
+      {
+        "metric": "Iron ore (WAIO) production",
+        "current": "66.5 Mt",
+        "prior": "not stated",
+        "change": "+4%",
+        "basis": "",
+        "note": "Q1 FY27"
+      },
+      {
+        "metric": "Antamina copper production",
+        "current": "40 kt",
+        "prior": "not stated",
+        "change": "+18%",
+        "basis": "",
+        "note": "Q1 FY27"
+      },
+      {
+        "metric": "Antamina zinc production",
+        "current": "11 kt",
+        "prior": "not stated",
+        "change": "-70%",
+        "basis": "",
+        "note": "Q1 FY27, planned lower feed grades"
+      },
+      {
+        "metric": "Samarco production",
+        "current": "2.2 Mt (4.3 Mt 100% basis)",
+        "prior": "not stated",
+        "change": "+4%",
+        "basis": "",
+        "note": "Q1 FY27"
+      },
+      {
+        "metric": "Escondida feed grade",
+        "current": "0.81%",
+        "prior": "0.94%",
+        "change": "not stated",
+        "basis": "",
+        "note": "Q1 FY27 vs Q1 FY26"
+      },
+      {
+        "metric": "Spence feed grade",
+        "current": "0.53%",
+        "prior": "0.65%",
+        "change": "not stated",
+        "basis": "",
+        "note": "Q1 FY27 vs Q1 FY26"
+      },
+      {
+        "metric": "Minerals exploration & evaluation expenditure",
+        "current": "US$87m",
+        "prior": "US$90m",
+        "change": "not stated",
+        "basis": "of which US$67m expensed (Q1 FY26: US$76m)",
+        "note": "Q1 FY27"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "FY27 copper 1,650–1,800 kt; iron ore 253–264 Mt (286–298 Mt 100% basis); Escondida 1,000–1,100 kt; Spence 210–230 kt; Copper SA 290–320 kt; Antamina copper 120–140 kt / zinc 35–55 kt; BMA steelmaking coal 18.5–20.5 Mt; NSW Energy Coal 14–16 Mt; Samarco 7.5–8 Mt.",
+      "current": "All of the above FY27 production guidance ranges remain unchanged; Escondida full-year concentrator feed grade guidance of ~0.70% also unchanged.",
+      "commentary": "Despite a weak copper quarter (-19%), BHP reaffirmed every FY27 production guidance range unchanged, with several divisions weighted to the second half. Lower Q1 copper reflects planned grade declines, maintenance, weather and one-off disruptions rather than a structural downgrade."
+    },
+    "explainer": "This is a quarterly production (operational) report, not a financial-results statement — the figures are tonnes of metal and ore produced, compared with the same quarter a year earlier (Q1 FY26). BHP's reporting year runs to 30 June, so Q1 FY27 covers July–September 2026.\n\nThe headline fall in copper (-19% to 401 kt) was largely planned or one-off: lower ore grades fed to the mills (Escondida at 0.81% versus 0.94% a year ago), scheduled maintenance, severe weather in Chile, a temporary mining suspension at Escondida after a fatality, and a conveyor belt failure at Carrapateena that has since been fixed. Against that, iron ore and coal volumes rose, and copper prices were running about 50% higher year-on-year, which supports earnings even with lower volumes.\n\nCrucially, BHP left all its full-year FY27 production guidance unchanged across every commodity, signalling the weak first quarter is expected to be made up later in the year — several divisions explicitly guide to second-half-weighted volumes. So this is a maintained-guidance update rather than a downgrade.\n\nThe report is overshadowed by two workplace fatalities (Escondida and Peak Downs), with investigations ongoing and some operations briefly suspended. Growth projects — Jansen potash (87% complete, first production mid-2027) and the Escondida New Concentrator (US$0.8bn early funding approved) — remain on track.",
+    "source_url": "https://uk.advfn.com/stock-market/london/bhp-BHP/share-news/BHP-Group-Limited-Quarterly-Activities-Report/99521322",
+    "related_news_url": "https://news.google.com/search?q=%22BHP%20Group%20Limited%22",
+    "added_at": "2026-10-20T07:57:47.645885"
+  },
+  {
     "company": "Kenmare Resources PLC",
     "ticker": "KMR",
     "publish_date": "20 October 2026",
