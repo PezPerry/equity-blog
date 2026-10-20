@@ -1,5 +1,31 @@
 [
   {
+    "company": "AstraZeneca PLC",
+    "ticker": "AZN",
+    "publish_date": "20 October 2026",
+    "date_iso": "2026-10-20",
+    "time_period": "",
+    "announcement_type": "Clinical trial results",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>AstraZeneca</strong> and <strong>Amgen</strong>'s <strong>TEZSPIRE</strong> (tezepelumab) met both co-primary endpoints in the Phase III <strong>CROSSING</strong> trial in eosinophilic esophagitis (EoE), data presented at <strong>United European Gastroenterology Week 2026</strong> in Barcelona.</li><li>Histologic remission achieved at week 24 in <strong>64.8%</strong> (210mg) and <strong>68.9%</strong> (420mg) of patients vs <strong>3.5%</strong> on placebo (<strong>p<0.001</strong>); dysphagia symptoms (DSQ) improved by <strong>18.8 points</strong> (210mg; p=0.049) and <strong>22.0 points</strong> (420mg; p<0.001) vs 14.7 on placebo.</li><li>Efficacy sustained through <strong>week 52</strong>: histologic remission in <strong>67.8%</strong>/<strong>63.3%</strong> vs 5.4% placebo; total endoscopic remission in <strong>34.4%</strong>/<strong>29.5%</strong> vs 4.1% placebo (<strong>p<0.001</strong>).</li><li>Safety profile consistent with approved indications; most common adverse events were upper respiratory infection, headache and diarrhoea.</li><li>AstraZeneca says it will share the data with regulators to support a potential new EoE indication; TEZSPIRE is already approved for severe asthma and CRSwNP, with COPD trials ongoing.</li></ul>",
+    "source_format": "html",
+    "headline": "AstraZeneca and Amgen's TEZSPIRE hit co-primary endpoints in the Phase III CROSSING trial in eosinophilic esophagitis, with benefits sustained to week 52.",
+    "priority": "medium",
+    "priority_reason": "Positive Phase III data supporting a label expansion for a key AstraZeneca drug, but no near-term financial or guidance impact.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/astrazeneca-AZN/share-news/TEZSPIRE-positive-results-from-Phase-III-CROSSING/99527102",
+    "related_news_url": "https://news.google.com/search?q=%22AstraZeneca%20PLC%22",
+    "added_at": "2026-10-20T14:56:11.280388"
+  },
+  {
     "company": "Standard Lithium Ltd.",
     "ticker": null,
     "publish_date": "20 October 2026",
