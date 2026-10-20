@@ -1,5 +1,31 @@
 [
   {
+    "company": "GSK plc",
+    "ticker": "GSK",
+    "publish_date": "20 October 2026",
+    "date_iso": "2026-10-20",
+    "time_period": "",
+    "announcement_type": "Regulatory approval",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>US FDA</strong> has granted <strong>accelerated approval</strong> for <strong>Jemperli (dostarlimab)</strong> as the first and only immunotherapy for adults with stage II/III <strong>MSI-H/dMMR locally advanced rectal cancer</strong>, a biomarker present in around <strong>5-10%</strong> of rectal cancers.</li><li>Approval based on phase II <strong>AZUR-1</strong> trial; investigator-assessed data showed <strong>68%</strong> of evaluable patients (98/144) achieved a sustained clinical complete response at 12 months, with <strong>76%</strong> showing no evidence of cancer one year or more after treatment.</li><li>Primary endpoint (cCR12 by independent central review) still maturing at <strong>47%</strong> (54/116); no disease recurrences reported among responders after median follow-up of over two years.</li><li>Safety consistent with Jemperli's established profile; serious adverse reactions in <strong>20%</strong> of patients, permanent discontinuation in <strong>3%</strong>.</li><li>Granted via Fast Track, Breakthrough Therapy, Priority Review and a National Priority Voucher, ahead of the PDUFA date; sBLA under <strong>Project Orbis</strong> with concurrent international reviews ongoing. Full data due at <strong>ESMO</strong> in October 2026.</li></ul>",
+    "source_format": "html",
+    "headline": "FDA grants accelerated approval for GSK's Jemperli as the first immunotherapy for MSI-H/dMMR locally advanced rectal cancer.",
+    "priority": "medium",
+    "priority_reason": "A first-in-class FDA approval expands Jemperli's addressable market but is not immediately earnings-moving for a company of GSK's scale.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/gsk-GSK/share-news/GSK-PLC-Jemperli-approved-in-MSI-H-dMMR-rectal-can/99519118",
+    "related_news_url": "https://news.google.com/search?q=%22GSK%20plc%22",
+    "added_at": "2026-10-20T07:16:25.245066"
+  },
+  {
     "company": "Sequoia Economic Infrastructure Income Fund Limited",
     "ticker": "SEQI",
     "publish_date": "19 October 2026",
