@@ -1,5 +1,72 @@
 [
   {
+    "company": "XP Power Limited",
+    "ticker": "XPP",
+    "publish_date": "20 October 2026",
+    "date_iso": "2026-10-20",
+    "time_period": "Q3 ended 30 September 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "Q3 ended 30 September 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Record Q3 order intake of £106.8m</strong>, up <strong>22%</strong> on the prior quarter and <strong>93%</strong> higher year-on-year in constant currency; <strong>book-to-bill of 1.67x</strong>, led by <strong>Semiconductor Manufacturing Equipment</strong> and <strong>Industrial Technology</strong>.</li><li>Q3 revenue <strong>£63.8m</strong>, in line with expectations and up <strong>10%</strong> year-on-year in constant currency; excluding a <strong>£3.7m</strong> one-off US tariff refund reduction, revenue was <strong>£67.5m</strong>, consistent with the <strong>£135m</strong> H2 guidance.</li><li>Order book at quarter-end of <strong>£216.9m</strong>; <strong>Vietnam</strong> shipments up <strong>70%</strong> on Q2 driving the sequential improvement.</li><li><strong>Net debt cut to £4.5m</strong> (30 June 2026: <strong>£47.7m</strong>), helped by <strong>£50.2m</strong> cash from release of the <strong>Comet</strong> litigation bond; leverage 0.1x and net cash expected in Q4.</li><li><strong>FY26 expectations unchanged</strong> with a significantly stronger H2 than H1; <strong>FY27 now expected slightly ahead of current market expectations</strong>.</li><li>Company notes some customers ordered earlier due to extending lead times, with underlying demand estimated similar to Q2; <strong>2026 full-year results due 2 March 2027</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "XP Power reports record Q3 order intake of **£106.8m** and lifts FY27 guidance to slightly ahead of market expectations, with FY26 unchanged.",
+    "priority": "high",
+    "priority_reason": "Quarterly trading update with record order intake and an upgraded FY27 outlook above market expectations.",
+    "figures": [
+      {
+        "metric": "Order intake",
+        "current": "£106.8m",
+        "prior": "not stated",
+        "change": "+93%",
+        "basis": "constant currency, vs comparative period (+22% vs Q2)",
+        "note": "Q3 to 30 September 2026"
+      },
+      {
+        "metric": "Revenue",
+        "current": "£63.8m",
+        "prior": "not stated",
+        "change": "+10%",
+        "basis": "constant currency, vs comparative period",
+        "note": "Q3 to 30 September 2026; £67.5m excluding £3.7m one-off US tariff refund"
+      },
+      {
+        "metric": "Net debt",
+        "current": "£4.5m",
+        "prior": "£47.7m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "at 30 September 2026 vs 30 June 2026; leverage 0.1x"
+      },
+      {
+        "metric": "Book-to-bill",
+        "current": "1.67x",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "Order book",
+        "current": "£216.9m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "at 30 September 2026"
+      }
+    ],
+    "guidance": {
+      "status": "raised",
+      "previous": "Company-compiled consensus (19 October 2026): FY26 Adjusted Operating Profit £26.4m (range £23.8m–£28.8m) and Adjusted EPS 48.5p (37.5p–56.7p); FY27 Adjusted Operating Profit £35.9m (£31.9m–£41.3m) and Adjusted EPS 75.4p (63.9p–92.7p).",
+      "current": "FY26 expectations unchanged, including a significantly stronger H2 than H1 (H2 revenue guidance £135m). FY27 expected to deliver a performance slightly ahead of current market expectations.",
+      "commentary": "FY26 is reiterated, not changed. The upgrade is for FY27, where improving revenue momentum and order-book visibility lead the Board to expect revenue growth and operational leverage to take performance slightly above consensus."
+    },
+    "explainer": "This is a Q3 trading update, so the figures are point-in-time indicators rather than full accounts. The standout is order intake of £106.8m, up 93% year-on-year in constant currency — meaning the comparison strips out exchange-rate movements to show underlying demand. A book-to-bill of 1.67x means the company took in orders worth 1.67 times what it shipped, so the order book is building. Management flags that some of this was customers ordering earlier than usual because lead times are lengthening, with true underlying demand closer to the Q2 level.\n\nReported Q3 revenue of £63.8m was depressed by a £3.7m one-off relating to a US tariff refund; stripping that out, the underlying £67.5m is consistent with the £135m guided for the second half. The sharp fall in net debt (from £47.7m to £4.5m) is largely a one-off too — £50.2m of cash came back when the Comet litigation bond was released, rather than from trading cash generation alone.\n\nOn guidance, FY26 is simply maintained: no change to the shape of the year beyond the already-expected stronger second half. The genuine upgrade is FY27, which the company now expects to come in slightly ahead of current market expectations (consensus of £35.9m adjusted operating profit and 75.4p adjusted EPS), driven by revenue growth converting through to profit via operational leverage.",
+    "source_url": "https://uk.advfn.com/stock-market/london/xp-power-XPP/share-news/XP-Power-Limited-Q3-Trading-Update/99521391",
+    "related_news_url": "https://news.google.com/search?q=%22XP%20Power%20Limited%22",
+    "added_at": "2026-10-20T08:00:14.390280"
+  },
+  {
     "company": "Genuit Group plc",
     "ticker": "GEN",
     "publish_date": "20 October 2026",
