@@ -1,5 +1,56 @@
 [
   {
+    "company": "Bunzl plc",
+    "ticker": "BNZL",
+    "publish_date": "20 October 2026",
+    "date_iso": "2026-10-20",
+    "time_period": "Q3 2026 (three months to 30 September 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "Q3 2026 (three months to 30 September 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Group revenue</strong> grew <strong>3.1%</strong> at constant exchange rates in the <strong>three months to 30 September 2026</strong>, and broadly the same at actual rates.</li><li><strong>Underlying revenue</strong> up <strong>3.7%</strong>, driven by inflation and volume growth, with a strong <strong>North America Distribution</strong> performance; acquisitions added <strong>0.4%</strong> while fewer trading days cut revenue by <strong>1.1%</strong>.</li><li><strong>Full-year 2026 guidance reiterated</strong>: modest underlying revenue growth, operating margin broadly flat versus the <strong>7.6%</strong> reported in 2025, net adjusted finance expense of <strong>£125m–£130m</strong> and an effective tax rate of around <strong>26.0%</strong>.</li><li>Completed the acquisition of UK care-home distributor <strong>Blueleaf Care</strong> in October, which generated <strong>£58m</strong> revenue in 2025.</li><li>Progressing the <strong>£500m share buyback</strong> announced at the half year, with approximately <strong>£225m</strong> now completed.</li><li>CEO <strong>Frank van Zanten</strong> said performance remains consistent with expectations and that 2026 is a foundation for future profit growth.</li></ul>",
+    "source_format": "html",
+    "headline": "Bunzl reports Q3 group revenue up 3.1% at constant currency and 3.7% underlying growth, and reiterates its upgraded 2026 guidance.",
+    "priority": "high",
+    "priority_reason": "Quarterly trading update with revenue growth detail, reiterated full-year guidance and an acquisition.",
+    "figures": [
+      {
+        "metric": "Group revenue growth",
+        "current": "+3.1% (constant FX)",
+        "prior": "not stated",
+        "change": "+3.1%",
+        "basis": "constant exchange rates",
+        "note": "Q3, three months to 30 September 2026; broadly same at actual rates"
+      },
+      {
+        "metric": "Underlying revenue growth",
+        "current": "+3.7%",
+        "prior": "not stated",
+        "change": "+3.7%",
+        "basis": "underlying (organic adjusted for trading days)",
+        "note": "Acquisitions +0.4%, trading days -1.1%"
+      },
+      {
+        "metric": "Operating margin (2025 comparative)",
+        "current": "not stated",
+        "prior": "7.6%",
+        "change": "guided broadly flat",
+        "basis": "reported, after excluding £8m share-based payment credit",
+        "note": "FY2026 margin guided broadly flat vs 2025"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Upgraded guidance provided at the half year (modest underlying revenue growth with a small benefit from acquisitions; operating margin broadly flat vs 7.6% in 2025; net adjusted finance expense £125m–£130m; effective tax rate around 26.0%)",
+      "current": "Full-year outlook reiterated: modest underlying revenue growth supported by some inflation plus a small acquisition benefit; group operating margin broadly flat year-on-year vs the 7.6% reported in 2025; net adjusted finance expense of £125m–£130m; effective tax rate around 26.0%",
+      "commentary": "Bunzl left its upgraded half-year guidance unchanged, saying the Q3 performance was in line with expectations. Full-year guidance excludes acquisitions announced since 1 September 2026, so the Blueleaf deal is not reflected."
+    },
+    "explainer": "This is a third-quarter trading statement rather than full results, so Bunzl reports revenue growth rates rather than absolute profit figures. \"Underlying\" revenue is its organic measure adjusted for the number of trading days and stripped of very high Turkish hyperinflation; it rose 3.7%, ahead of the 3.1% headline growth because acquisitions added 0.4 points while the quarter had fewer trading days, which knocked 1.1 points off. Growth came from a mix of product-cost inflation being passed through and genuine volume gains, led by the North America distribution arm.\n\nOn guidance, nothing has changed from the upgrade given at the half year: Bunzl still expects modest underlying revenue growth, an operating margin broadly flat against the 7.6% reported in 2025, finance costs of £125m–£130m and a roughly 26% tax rate. The 7.6% is a cleaned-up figure that excludes an £8m one-off share-based payment credit from reversing earlier charges.\n\nTwo capital-allocation points sit alongside the numbers. The newly completed Blueleaf Care acquisition (£58m of 2025 revenue) is a UK bolt-on but is deliberately excluded from the guidance, which only counts deals announced before 1 September. Separately, the £500m buyback is about 45% done at roughly £225m.",
+    "source_url": "https://uk.advfn.com/stock-market/london/bunzl-BNZL/share-news/Bunzl-PLC-Trading-Statement/99521392",
+    "related_news_url": "https://news.google.com/search?q=%22Bunzl%20plc%22",
+    "added_at": "2026-10-20T07:58:23.113078"
+  },
+  {
     "company": "BHP Group Ltd",
     "ticker": "BHP",
     "publish_date": "20 October 2026",
