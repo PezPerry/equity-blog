@@ -1,5 +1,80 @@
 [
   {
+    "company": "Genuit Group plc",
+    "ticker": "GEN",
+    "publish_date": "20 October 2026",
+    "date_iso": "2026-10-20",
+    "time_period": "9M to 30 September 2026 (FY to 31 December 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "9M to 30 September 2026 (FY to 31 December 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li>Guides <strong>FY 2026 underlying operating profit to approximately £84m</strong>, below its own compiled analyst consensus range of <strong>£91m–£96m</strong>, after conditions worsened since August interims.</li><li>9-month revenue of <strong>£464.5m</strong>, up <strong>3.5%</strong> reported but down <strong>4.3%</strong> like-for-like, with material volume headwinds from macro conditions and anticipated interest rate rises.</li><li><strong>Climate Division</strong> revenue <strong>£135.2m</strong> (+3.5% reported, -7.2% LFL): <strong>Adey</strong> heating hit by unseasonably warm weather delaying autumn channel stocking; <strong>Nu-Heat</strong> weak on RMI exposure.</li><li><strong>Water Division</strong> revenue <strong>£328.5m</strong> (+4.0% reported, -3.3% LFL), supported by residential growth and <strong>Manthorpe</strong>; <strong>AMP8</strong> orders growing with good 2027 visibility.</li><li>Balance sheet described as strong: cash conversion above <strong>90%</strong> year-to-date, leverage <strong>1.5x</strong> at end-September, no near-term maturities.</li><li><strong>Monodraught</strong> and <strong>Davidson Holdings</strong> integrations complete; simplification projects on track to deliver <strong>£4m</strong> of cost savings in 2027.</li></ul>",
+    "source_format": "html",
+    "headline": "Genuit now expects FY underlying operating profit of about £84m, below consensus, as unusually warm weather and rate-rise fears hit its Heating business.",
+    "priority": "high",
+    "priority_reason": "Trading update cutting full-year operating profit guidance to roughly £84m, well below analyst consensus of £91m–£96m — effectively a profit warning.",
+    "figures": [
+      {
+        "metric": "Revenue (Group)",
+        "current": "£464.5m",
+        "prior": "not stated",
+        "change": "+3.5% reported; -4.3% LFL",
+        "basis": "reported and like-for-like",
+        "note": "9M to 30 September 2026"
+      },
+      {
+        "metric": "Climate Division revenue",
+        "current": "£135.2m",
+        "prior": "not stated",
+        "change": "+3.5% reported; -7.2% LFL",
+        "basis": "reported and like-for-like",
+        "note": "9M to 30 September 2026"
+      },
+      {
+        "metric": "Water Division revenue",
+        "current": "£328.5m",
+        "prior": "not stated",
+        "change": "+4.0% reported; -3.3% LFL",
+        "basis": "reported and like-for-like",
+        "note": "9M to 30 September 2026"
+      },
+      {
+        "metric": "FY Underlying Operating Profit (guidance)",
+        "current": "approximately £84m",
+        "prior": "consensus £91m–£96m",
+        "change": "below consensus",
+        "basis": "company-compiled analyst consensus",
+        "note": "FY to 31 December 2026"
+      },
+      {
+        "metric": "Leverage",
+        "current": "1.5x",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "net debt / EBITDA",
+        "note": "end September 2026"
+      },
+      {
+        "metric": "Cash conversion",
+        "current": "above 90%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "year-to-date"
+      }
+    ],
+    "guidance": {
+      "status": "lowered",
+      "previous": "Genuit-compiled analyst consensus for 2026: revenue £608m–£657m and underlying operating profit £91m–£96m",
+      "current": "Full year underlying operating profit now expected to be approximately £84 million",
+      "commentary": "The implied ~£84m operating profit sits below the £91m–£96m consensus range the company publishes, an effective downgrade. Management attributes the shortfall to worsening conditions since August interims, chiefly unseasonably warm weather delaying Heating demand and interest-rate-sensitive RMI markets."
+    },
+    "explainer": "This is a nine-month trading update, not full results — Genuit will report audited FY 2026 figures in March 2027. Group revenue rose 3.5% as reported but fell 4.3% on a like-for-like basis, which strips out the effect of acquisitions (Monodraught, Davidson Holdings) and the Polydeck disposal. In other words, almost all the headline revenue growth comes from deals rather than underlying trading, which is actually shrinking as volumes soften.\n\nThe key number for traders is the new guidance: underlying operating profit of around £84m for the year. The company itself notes that compiled analyst consensus sits at £91m–£96m, so this guidance lands roughly £7m–£12m (around 8%–12%) below where the market was. That makes this a de facto profit warning, even though it is framed as resilience in a tough market.\n\nThe swing factor is the Heating business (Adey and Nu-Heat) within the Climate Division, where unusually warm autumn weather delayed the normal seasonal restocking and anticipated interest-rate rises hit renovation and repair (RMI) demand. Water held up better, helped by residential pricing and the AMP8 water-utility spending cycle, which should support 2027.\n\nMay's double-digit price increases — put through to offset polymer cost inflation linked to the Middle East conflict — are visible in improving like-for-like water revenue, but polymer cost direction remains uncertain. Cash generation and the balance sheet (1.5x leverage, 90%+ cash conversion) remain healthy, so this is an earnings/demand issue rather than a financial-strength one.",
+    "source_url": "https://uk.advfn.com/stock-market/london/genuit-GEN/share-news/Genuit-Group-PLC-Trading-Update/99521393",
+    "related_news_url": "https://news.google.com/search?q=%22Genuit%20Group%20plc%22",
+    "added_at": "2026-10-20T07:59:33.921539"
+  },
+  {
     "company": "GB Group plc",
     "ticker": "GBG",
     "publish_date": "20 October 2026",
