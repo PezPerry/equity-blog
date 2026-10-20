@@ -1,5 +1,31 @@
 [
   {
+    "company": "Standard Lithium Ltd.",
+    "ticker": null,
+    "publish_date": "20 October 2026",
+    "date_iso": "2026-10-20",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>Standard Lithium</strong> filed a positive Preliminary Economic Assessment for the <strong>Franklin Project</strong> in East Texas (Smackover Formation), its first defined project area with partner <strong>Equinor</strong>.</li><li>Economics: unlevered pre-tax <strong>NPV8 of $5.9bn</strong>, <strong>IRR of 25.7%</strong>, <strong>3-year payback</strong>, average cash operating cost <strong>$4,226/t</strong> and capital intensity <strong>$49,945/t</strong> (100% ownership basis).</li><li>PEA models annual capacity of up to <strong>70,000 tonnes</strong> of battery-quality lithium carbonate and <strong>1.29m tonnes</strong> over a <strong>20-year</strong> life, with initial production in the <strong>early 2030s</strong>.</li><li>Project area upsized <strong>37%</strong> to <strong>44,541 hectares</strong>; starting lithium concentration of <strong>562 mg/L</strong> (average 515 mg/L), among the highest lithium-in-brine grades in North America.</li><li>Standard Lithium holds a <strong>55%</strong> economic interest; recommendation is to advance to a Preliminary Feasibility Study, targeting completion in <strong>2027</strong>.</li><li>Note: this is a technical-report filing on <strong>SEDAR+</strong>; headline economics were first released on <strong>8 September 2026</strong>, so largely already in the market.</li></ul>",
+    "source_format": "html",
+    "headline": "Standard Lithium files a positive PEA for its high-grade Franklin lithium brine project in East Texas, showing a pre-tax NPV8 of US$5.9bn.",
+    "priority": "medium",
+    "priority_reason": "Material project economic study for a flagship lithium asset, though headline figures were first released on 8 September 2026.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/AMEX/SLI/share-news/Standard-Lithium-Files-Positive-Preliminary-Econom/99525886",
+    "related_news_url": "https://news.google.com/search?q=%22Standard%20Lithium%20Ltd.%22",
+    "added_at": "2026-10-20T12:56:13.560493"
+  },
+  {
     "company": "Costain Group PLC",
     "ticker": "COST",
     "publish_date": "20 October 2026",
