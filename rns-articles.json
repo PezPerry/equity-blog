@@ -1,5 +1,80 @@
 [
   {
+    "company": "GB Group plc",
+    "ticker": "GBG",
+    "publish_date": "20 October 2026",
+    "date_iso": "2026-10-20",
+    "time_period": "H1 to 30 September 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "H1 to 30 September 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>GB Group plc (GBG)</strong> expects to report H1 revenue of <strong>£139.5m</strong>, up <strong>1.4%</strong> on a constant currency basis, for the six months to <strong>30 September 2026</strong>.</li><li>Core <strong>Location and Identity</strong> segments, c.<strong>95%</strong> of Group revenue, grew <strong>4.5%</strong> constant currency, with <strong>Location +8.9%</strong> and <strong>Identity +2.4%</strong> (strong <strong>EMEA</strong>, weaker <strong>Americas Identity</strong> on customer attrition).</li><li>Non-core <strong>Global Fraud Solutions</strong> (c.5% of revenue) declined more than expected; the Group continues to assess strategic options for the business.</li><li>H1 adjusted operating profit expected at <strong>£27.0m</strong> (1H26: <strong>£29.5m</strong>), reflecting previously announced investment in <strong>GBG Go</strong>; about <strong>£4.5m</strong> of exceptional cost incurred on accelerated efficiency actions.</li><li>A <strong>non-cash goodwill impairment</strong> charge is expected on Americas Identity, treated as exceptional with <strong>no impact</strong> on adjusted operating profit or cash.</li><li><strong>FY27</strong> outlook in line with recently revised market expectations: revenue growth of <strong>1-3%</strong>; Interim results due <strong>Tuesday, 24 November 2026</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "GBG expects H1 revenue of £139.5m, up 1.4% constant currency; core segments up 4.5%, and reaffirms FY27 outlook in line with market expectations.",
+    "priority": "high",
+    "priority_reason": "Half-year trading update with revenue, profit and FY27 guidance detail, plus a flagged goodwill impairment.",
+    "figures": [
+      {
+        "metric": "Revenue",
+        "current": "£139.5m",
+        "prior": "not stated",
+        "change": "+1.4%",
+        "basis": "constant currency, excluding DataTools (organic +0.4%)",
+        "note": "H1 to 30 September 2026"
+      },
+      {
+        "metric": "Core segment revenue (Location + Identity)",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+4.5%",
+        "basis": "constant currency, excluding DataTools (organic +3.4%)",
+        "note": "c.95% of Group revenue"
+      },
+      {
+        "metric": "Location revenue growth",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+8.9%",
+        "basis": "constant currency (organic +5.5%)",
+        "note": ""
+      },
+      {
+        "metric": "Identity revenue growth",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+2.4%",
+        "basis": "constant currency",
+        "note": "double-digit growth outside Americas"
+      },
+      {
+        "metric": "Adjusted operating profit",
+        "current": "£27.0m",
+        "prior": "£29.5m",
+        "change": "not stated",
+        "basis": "",
+        "note": "reflects additional GBG Go investment"
+      },
+      {
+        "metric": "Exceptional cost",
+        "current": "approximately £4.5m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "accelerated cost efficiency actions in H1"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Recently revised market expectations following the 14 August 2026 trading update",
+      "current": "FY27 outlook in line with recently revised market expectations; FY27 revenue growth expected to be 1-3%, with adjusted operating profit in line with current market expectations",
+      "commentary": "GBG reaffirms rather than changes guidance. Company-compiled consensus from nine analysts since 14 August 2026 points to FY27 revenue of £288m-£292m and median adjusted operating profit of £61m; accelerated cost efficiency actions are said to underpin the profit outlook."
+    },
+    "explainer": "GBG's headline growth numbers are quoted on a constant currency basis and exclude the DataTools acquisition completed in October 2025. On a cleaner organic constant currency basis, Group revenue grew only 0.4%, the core Location and Identity segments grew 3.4%, and Location grew 5.5% — meaningfully lower than the acquisition-inclusive figures of 1.4%, 4.5% and 8.9% the company leads with.\n\nThe soft spot is Americas Identity, where the loss of a small number of material direct customers has dragged on growth and is also behind an expected non-cash goodwill impairment. The company stresses this impairment is exceptional and does not touch adjusted operating profit or cash; likewise the roughly £4.5m of exceptional efficiency costs sit below the adjusted line. Adjusted operating profit is nonetheless expected to fall to £27.0m from £29.5m a year earlier, mainly because of planned extra investment in GBG Go.\n\nOn guidance, nothing new has been set: GBG says FY27 will be in line with the market expectations that were already revised down after its 14 August update, with revenue growth of 1-3%. The reference consensus is FY27 revenue of £288m-£292m and median adjusted operating profit of £61m, so this update is best read as confirmation that the lowered bar still holds rather than any upgrade.",
+    "source_url": "https://uk.advfn.com/stock-market/london/gb-GBG/share-news/GB-Group-PLC-Trading-Statement/99521390",
+    "related_news_url": "https://news.google.com/search?q=%22GB%20Group%20plc%22",
+    "added_at": "2026-10-20T07:58:53.734917"
+  },
+  {
     "company": "Bunzl plc",
     "ticker": "BNZL",
     "publish_date": "20 October 2026",
