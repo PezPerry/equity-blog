@@ -1,5 +1,106 @@
 [
   {
+    "company": "Segro PLC",
+    "ticker": "SGRO",
+    "publish_date": "21 October 2026",
+    "date_iso": "2026-10-21",
+    "time_period": "9 months to 30 September 2026 (Q3 trading update)",
+    "announcement_type": "Trading update",
+    "period_detail": "9 months to 30 September 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>GBP70 million</strong> of new headline rent contracted year to date, <strong>32 per cent</strong> higher than the prior-year equivalent — <strong>GBP42m</strong> from the existing portfolio and <strong>GBP28m</strong> from development lettings.</li><li>Average <strong>43 per cent</strong> uplift on <strong>UK</strong> rent reviews, renewals and regears (Group: <strong>34 per cent</strong>; Continental Europe: <strong>5 per cent</strong>); occupancy up <strong>20bps</strong> to <strong>94.7 per cent</strong> since HY 2026 and customer retention at <strong>80 per cent</strong>.</li><li>Development pipeline under construction or in advanced negotiations grown to <strong>GBP103 million</strong> of potential rent, two-thirds pre-let; negotiations ongoing for first fully fitted data centre in <strong>West London</strong> via the <strong>Pure DC</strong> JV, with a hyperscaler pre-let expected in coming months.</li><li><strong>GBP223 million</strong> of disposals completed above book value year to date, a further <strong>GBP57m</strong> exchanged; discussions progressing on a new <strong>UK big box JV</strong> expected to generate c.<strong>GBP500 million</strong> of net proceeds.</li><li>Balance sheet strong with LTV of <strong>33 per cent</strong> and <strong>GBP1.2 billion</strong> of available liquidity.</li><li>Shareholders approved the Scheme of Arrangement for the <strong>Prologis</strong> Recommended Best and Final Share Offer at the <strong>28 September</strong> Court and General Meetings; completion still subject to conditions and regulatory processes, expected in <strong>H1 2027</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "SEGRO reports strong Q3 leasing with **GBP70m** of new headline rent contracted year to date, **32%** above the prior year, as the Prologis takeover progresses.",
+    "priority": "high",
+    "priority_reason": "Q3 trading update with strong leasing metrics, plus an update on the recommended Prologis takeover.",
+    "figures": [
+      {
+        "metric": "New headline rent contracted (YTD)",
+        "current": "GBP70m",
+        "prior": "not stated",
+        "change": "+32%",
+        "basis": "year to date vs prior-year equivalent",
+        "note": "GBP42m existing portfolio, GBP28m development lettings"
+      },
+      {
+        "metric": "Occupancy",
+        "current": "94.7%",
+        "prior": "not stated",
+        "change": "+20bps since HY 2026",
+        "basis": "as at 30 September 2026",
+        "note": ""
+      },
+      {
+        "metric": "Customer retention",
+        "current": "80%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "described as remaining high"
+      },
+      {
+        "metric": "UK rent review/renewal/regear uplift",
+        "current": "43%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "average uplift",
+        "note": "Group 34%, Continental Europe 5%"
+      },
+      {
+        "metric": "LTV",
+        "current": "33%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "GBP1.2bn available liquidity"
+      },
+      {
+        "metric": "Disposals completed (YTD)",
+        "current": "GBP223m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "above book value",
+        "note": "GBP57m further exchanged; GBP11m associated rental income"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "",
+      "current": "Expect to sign data centre pre-let with a major hyperscaler in the coming months, 'in line with our previous expectations'",
+      "commentary": "No numeric earnings guidance is given; management reiterates that the West London data centre pre-let remains on track in line with prior expectations, with no change to the outlook."
+    },
+    "explainer": "This is a third-quarter trading update covering the nine months to 30 September 2026, not a full set of results, so it focuses on leasing and capital-allocation activity rather than profit. Space figures are quoted at 100 per cent while financial figures reflect SEGRO's share of joint ventures, and euro amounts are converted at €1.17:£1.\n\nThe headline operational measure is new headline rent — the annualised rent SEGRO will receive once rent-free incentives expire. At GBP70m contracted year to date, 32 per cent ahead of the same point last year, the comparison is like-for-like against the prior-year equivalent period. The rent-review uplifts (43 per cent in the UK) reflect the gap between passing rents and current market rents being captured as leases reset, a key driver of income growth for an industrial REIT.\n\nOn capital, SEGRO is funding growth by selling mature assets above book value (GBP223m done, GBP57m more exchanged) and is in talks on a new UK big box joint venture that could raise around GBP500m, while keeping LTV at a conservative 33 per cent.\n\nThere is no change to formal guidance — SEGRO does not issue numeric earnings guidance here — but it reaffirms that the first fully fitted data centre pre-let remains on track in line with previous expectations. Separately, the recommended Prologis takeover cleared its shareholder votes on 28 September and is now working through regulatory conditions, with completion targeted for the first half of 2027.",
+    "source_url": "https://uk.advfn.com/stock-market/london/segro-SGRO/share-news/SEGRO-PLC-Trading-Update/99530923",
+    "related_news_url": "https://news.google.com/search?q=%22SEGRO%20plc%22",
+    "added_at": "2026-10-21T08:16:29.717199"
+  },
+  {
+    "company": "Big Yellow Group PLC",
+    "ticker": "BYG",
+    "publish_date": "21 October 2026",
+    "date_iso": "2026-10-21",
+    "time_period": "H1 to 30 September 2026",
+    "announcement_type": "Board / management change",
+    "period_detail": "H1 to 30 September 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Big Yellow Group PLC</strong> will announce <strong>half year results</strong> for the period ended <strong>30 September 2026</strong> at the close of market on <strong>Monday, 16 November 2026</strong>.</li><li>Analyst and investor presentation to follow at <strong>9am on Tuesday, 17 November 2026</strong>.</li><li>Routine results-date notification only — <strong>no impact</strong> on trading or guidance; figures to come on the day.</li></ul>",
+    "source_format": "html",
+    "headline": "Big Yellow Group will report half-year results for the six months to 30 September 2026 after market close on Monday 16 November 2026.",
+    "priority": "low",
+    "priority_reason": "Routine scheduling notice of a future results date, with no financial content.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/big-yellow-group--byg/notification-of-half-year-results/9833752",
+    "related_news_url": "https://news.google.com/search?q=%22Big%20Yellow%20Group%22",
+    "added_at": "2026-10-21T08:16:29.701913"
+  },
+  {
     "company": "Fresnillo plc",
     "ticker": "FRES",
     "publish_date": "21 October 2026",
