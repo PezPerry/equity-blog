@@ -1,5 +1,31 @@
 [
   {
+    "company": "Foxtons Group PLC",
+    "ticker": "FOXT",
+    "publish_date": "21 October 2026",
+    "date_iso": "2026-10-21",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>All resolutions passed</strong> on a poll at Foxtons' General Meeting on <strong>21 October 2026</strong>, approving the <strong>2026 Performance Share Plan</strong> and proposed awards to the CEO and CFO.</li><li>Approval votes were around <strong>82%</strong> in favour across the three resolutions, with roughly <strong>17.6% against</strong> — a notable dissent level on the PSP and executive awards.</li><li>Routine corporate governance outcome with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Foxtons shareholders passed all resolutions at today's General Meeting, approving the 2026 Performance Share Plan and related CEO and CFO awards.",
+    "priority": "low",
+    "priority_reason": "Routine general meeting results; all resolutions passed, no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/foxtons-group--foxt/general-meeting-results/9834735",
+    "related_news_url": "https://news.google.com/search?q=%22Foxtons%20Group%22",
+    "added_at": "2026-10-21T14:35:45.563362"
+  },
+  {
     "company": "Mobico Group PLC",
     "ticker": "MCG",
     "publish_date": "21 October 2026",
