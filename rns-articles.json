@@ -1,5 +1,104 @@
 [
   {
+    "company": "Aberdeen Group PLC",
+    "ticker": "ABDN",
+    "publish_date": "21 October 2026",
+    "date_iso": "2026-10-21",
+    "time_period": "Q3 FY26",
+    "announcement_type": "Trading update",
+    "period_detail": "Q3 FY26",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Group AUMA £578.9bn</strong>, up <strong>4%</strong> (31 December 2025: <strong>£556.0bn</strong>), reflecting positive markets and acquisitions.</li><li><strong>interactive investor</strong> Q3 net inflows of <strong>£2.5bn</strong>, up <strong>32%</strong> year-on-year; YTD net inflows <strong>£9.3bn</strong>, up <strong>58%</strong>; total customers up <strong>8%</strong> to <strong>533k</strong> and SIPP customers up <strong>34%</strong>.</li><li><strong>Adviser</strong> AUMA <strong>£84.5bn</strong>, up <strong>5%</strong>, but Q3 net outflows of <strong>£0.7bn</strong>, in line with Q2, as a return to net inflows takes longer than anticipated.</li><li><strong>Investments</strong> AUM <strong>£393.2bn</strong>; I&RW Q3 net inflows ex-liquidity of <strong>£1.0bn</strong> (Q3 2025: £0.2bn), led by fixed income, real assets and alternatives, offset by equities net outflows of <strong>£1.9bn</strong>.</li><li>Sold half its stake in <strong>Standard Life plc</strong> in early October (from c.10.3% to c.5.2%) for <strong>c.£430m</strong>; will redeem <strong>£210m</strong> of AT1 debt at its first call date in December 2026.</li><li>Confident in FY 2026 targets of <strong>adjusted operating profit of at least £300m</strong> and <strong>net capital generation of c.£300m</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Aberdeen's Q3 AUMA rose 4% to £578.9bn on strong interactive investor inflows, with FY 2026 targets of at least £300m adjusted operating profit reaffirmed.",
+    "priority": "high",
+    "priority_reason": "Quarterly AUMA and flows trading update with reaffirmed FY 2026 profit and capital targets.",
+    "figures": [
+      {
+        "metric": "Group AUMA",
+        "current": "£578.9bn",
+        "prior": "£556.0bn",
+        "change": "+4%",
+        "basis": "vs 31 December 2025",
+        "note": "Q3 FY26"
+      },
+      {
+        "metric": "interactive investor Q3 net inflows",
+        "current": "£2.5bn",
+        "prior": "£1.9bn",
+        "change": "+32%",
+        "basis": "year-on-year",
+        "note": "Q3 2025 comparative"
+      },
+      {
+        "metric": "interactive investor YTD net inflows",
+        "current": "£9.3bn",
+        "prior": "not stated",
+        "change": "+58%",
+        "basis": "year-on-year",
+        "note": "9 months to 30 September 2026"
+      },
+      {
+        "metric": "interactive investor AUMA",
+        "current": "£111.8bn",
+        "prior": "£93.9bn",
+        "change": "+19%",
+        "basis": "vs 31 December 2025",
+        "note": "prior excludes £3.6bn financial planning business"
+      },
+      {
+        "metric": "ii total customers",
+        "current": "533k",
+        "prior": "492k",
+        "change": "+8%",
+        "basis": "year-on-year",
+        "note": "Q3 2025 comparative"
+      },
+      {
+        "metric": "Adviser AUMA",
+        "current": "£84.5bn",
+        "prior": "£80.4bn",
+        "change": "+5%",
+        "basis": "vs 31 December 2025",
+        "note": "Q3 net outflows £0.7bn"
+      },
+      {
+        "metric": "Investments AUM",
+        "current": "£393.2bn",
+        "prior": "£390.4bn",
+        "change": "not stated",
+        "basis": "vs 31 December 2025",
+        "note": "driven by markets plus Herald and MFS acquisitions"
+      },
+      {
+        "metric": "I&RW net inflows ex-liquidity",
+        "current": "£1.0bn",
+        "prior": "£0.2bn",
+        "change": "not stated",
+        "basis": "year-on-year",
+        "note": "Q3 2025 comparative"
+      },
+      {
+        "metric": "Equities net outflows",
+        "current": "£1.9bn",
+        "prior": "£1.6bn",
+        "change": "not stated",
+        "basis": "year-on-year",
+        "note": "Q3 2025 net outflow"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "FY 2026 adjusted operating profit of at least £300m and net capital generation of c.£300m",
+      "current": "FY 2026 adjusted operating profit of at least £300m and net capital generation of c.£300m",
+      "commentary": "Full-year targets reaffirmed. Management cites positive momentum across the Group, driven by interactive investor growth, despite continued net outflows in the Adviser business."
+    },
+    "explainer": "This is a quarterly flows and assets-under-management-and-administration (AUMA) update, not a profit statement, so most figures compare the position at 30 September 2026 with the start-of-year position at 31 December 2025, while flow figures compare against the same quarter a year earlier (Q3 2025). Net inflows mean money coming in exceeds money withdrawn; net outflows mean the reverse.\n\nThe standout is interactive investor, the direct-to-consumer platform, where net inflows accelerated to £2.5bn in a seasonally quieter quarter and customer numbers keep climbing, particularly in higher-value SIPP (pension) accounts. By contrast, the Adviser platform is still losing money on a net basis (£0.7bn out), which management frankly concedes is taking longer to turn around than hoped. In Investments, strength in fixed income, real assets and alternatives is being partly cancelled out by persistent equity outflows and run-off of Standard Life's legacy insurance book.\n\nNote the £111.8bn ii AUMA figure is flattered by the prior-period base excluding a £3.6bn financial planning business that was sold in January 2026, so the 19% growth is not fully like-for-like. Acquisitions (Herald Investment Trust and MFS closed-end funds) also boost reported Investments AUM independently of underlying flows.\n\nOn guidance, nothing has changed: the group reaffirmed its full-year 2026 targets of at least £300m adjusted operating profit and around £300m net capital generation. The Standard Life stake sale raising c.£430m and the planned £210m AT1 debt redemption are capital-management actions consistent with its stated policy, not changes to earnings guidance.",
+    "source_url": "https://uk.advfn.com/stock-market/london/aberdeen-ABDN/share-news/Aberdeen-Group-PLC-Q3-2026-AUMA-Flows-Trading-Up/99530889",
+    "related_news_url": "https://news.google.com/search?q=%22Aberdeen%20Group%20PLC%22",
+    "added_at": "2026-10-21T07:40:33.365815"
+  },
+  {
     "company": "Domino's Pizza Group PLC",
     "ticker": "DOM",
     "publish_date": "21 October 2026",
