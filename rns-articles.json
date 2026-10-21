@@ -1,5 +1,64 @@
 [
   {
+    "company": "Domino's Pizza Group PLC",
+    "ticker": "DOM",
+    "publish_date": "21 October 2026",
+    "date_iso": "2026-10-21",
+    "time_period": "Q3 FY26 (quarter to 30 September 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "Q3 FY26 (quarter to 30 September 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Total system sales +3.5%</strong> in the quarter to <strong>30 September 2026</strong>, with <strong>like-for-like growth of 2.3%</strong>, continuing H1 momentum.</li><li><strong>Total orders +2.6%</strong>, <strong>like-for-like orders +1.4%</strong>; growth sustained in August and September after an early-period <strong>World Cup</strong> boost.</li><li>Growth driven by both Pizza and <strong>CHICK 'N' DIP</strong>, with strong sales from the <strong>Italianos</strong> pizza range; CHICK 'N' DIP performing in line with management expectations.</li><li>All major cost categories <strong>fixed for FY26 and into FY27</strong>, giving visibility on the cost base and confidence in FY27 earnings growth.</li><li>Board <strong>remains confident of achieving full-year earnings expectations, in line with market expectations</strong> — guidance maintained.</li><li>CEO <strong>Nicola Frampton</strong> cites organic growth strategy, innovation and franchisee partnerships.</li></ul>",
+    "source_format": "html",
+    "headline": "Domino's Pizza grew Q3 total system sales 3.5% with like-for-like up 2.3%, and maintained full-year earnings expectations in line with market.",
+    "priority": "high",
+    "priority_reason": "Quarterly trading update with like-for-like sales data and reaffirmed full-year guidance.",
+    "figures": [
+      {
+        "metric": "Total system sales growth",
+        "current": "+3.5%",
+        "prior": "not stated",
+        "change": "+3.5%",
+        "basis": "year-on-year",
+        "note": "Quarter to 30 September 2026"
+      },
+      {
+        "metric": "Like-for-like sales growth",
+        "current": "+2.3%",
+        "prior": "not stated",
+        "change": "+2.3%",
+        "basis": "like-for-like",
+        "note": "Quarter to 30 September 2026"
+      },
+      {
+        "metric": "Total orders growth",
+        "current": "+2.6%",
+        "prior": "not stated",
+        "change": "+2.6%",
+        "basis": "year-on-year",
+        "note": "Quarter to 30 September 2026"
+      },
+      {
+        "metric": "Like-for-like orders growth",
+        "current": "+1.4%",
+        "prior": "not stated",
+        "change": "+1.4%",
+        "basis": "like-for-like",
+        "note": "Quarter to 30 September 2026"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Full-year earnings expectations in line with market expectations",
+      "current": "Board remains confident of achieving full-year earnings expectations, in line with market expectations",
+      "commentary": "Guidance reaffirmed on the back of continued positive Q3 trading; the company also flags confidence in further earnings growth in FY27, helped by major cost categories being fixed for FY26 and FY27."
+    },
+    "explainer": "This is a Q3 trading update, not full results, so it reports sales growth rather than profit. 'Total system sales' is the value of all sales across the Domino's franchise system, while 'like-for-like' strips out newly opened stores to show underlying growth from existing outlets — hence like-for-like (+2.3%) running below total (+3.5%). The gap reflects the contribution of new store openings.\n\nOrder growth (total +2.6%, like-for-like +1.4%) sitting below sales growth implies a degree of price/mix benefit — customers spending a little more per order — rather than purely higher volumes. The early-period lift from the World Cup is a seasonal one-off the company flags, but it notes growth continued through August and September without it.\n\nOn guidance, nothing has changed: the Board reaffirms it expects to meet full-year earnings expectations in line with market consensus. The added colour is forward-looking — all major cost categories are now fixed through FY26 and into FY27, giving cost visibility and underpinning stated confidence in FY27 earnings growth.",
+    "source_url": "https://uk.advfn.com/stock-market/london/domino-s-pizza-DOM/share-news/Dominos-Pizza-Group-PLC-3rd-Quarter-Trading-Statem/99530887",
+    "related_news_url": "https://news.google.com/search?q=%22Domino's%20Pizza%20Group%20PLC%22",
+    "added_at": "2026-10-21T07:39:59.022816"
+  },
+  {
     "company": "Savills PLC",
     "ticker": "SVS",
     "publish_date": "21 October 2026",
