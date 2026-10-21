@@ -1,5 +1,56 @@
 [
   {
+    "company": "Fresnillo plc",
+    "ticker": "FRES",
+    "publish_date": "21 October 2026",
+    "date_iso": "2026-10-21",
+    "time_period": "Q3 FY26 (three months ended 30 September 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "Q3 FY26 (three months ended 30 September 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Fresnillo plc</strong> reports <strong>Q3 FY26</strong> (three months to <strong>30 September 2026</strong>) production <strong>in line with expectations</strong> and remains <strong>on track to meet full-year guidance</strong>, per CEO <strong>Octavio Alvídrez</strong>.</li><li><strong>2026 guidance maintained</strong>: attributable silver <strong>42.0–46.5 moz</strong>, gold <strong>500.0–550.0 koz</strong>, lead <strong>54.0–59.0 kt</strong>, zinc <strong>85.0–95.0 kt</strong>, and <strong>82–91 moz</strong> silver-equivalent (<strong>80:1</strong> Au:Ag).</li><li>Strong gold performance at the <strong>Fresnillo</strong> mine, where quarterly and YTD gold rose <strong>+74.9%</strong> and <strong>+56.5%</strong> vs 3Q25/YTD25 on higher ore grade and improved recovery; silver up <strong>+5.1%</strong> vs 3Q25.</li><li>Lower volumes elsewhere reflect reduced ore grades at <strong>Juanicipio</strong>, <strong>Saucito</strong> and <strong>San Julián</strong> and less ore processed at <strong>Herradura</strong> and <strong>Ciénega</strong>.</li><li>At <strong>Herradura</strong>, a previously reported ball-mill fissure cut Q3 gold <strong>-18.1%</strong> vs 2Q26; the affected mill shell is scheduled for replacement in <strong>4Q26</strong> and the impact is already in the forecast.</li><li><strong>Noche Buena</strong> recovered only <strong>2,033 oz</strong> of gold in Q3 (<strong>-41.1%</strong> vs 2Q26); preparatory work continues to resume operations there in <strong>2027</strong>. 2027 and 2028 production expectations unchanged.</li></ul>",
+    "source_format": "html",
+    "headline": "Fresnillo says Q3 gold and silver output was in line with expectations and reaffirms full-year 2026 production guidance across all metals.",
+    "priority": "high",
+    "priority_reason": "Quarterly production report with full-year guidance reaffirmed is price-sensitive operational news for a FTSE 100 miner.",
+    "figures": [
+      {
+        "metric": "Fresnillo mine gold production",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+74.9% vs 3Q25; +56.5% YTD vs YTD25",
+        "basis": "higher ore grade and improved recovery",
+        "note": "Q3 FY26"
+      },
+      {
+        "metric": "Herradura quarterly gold production",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "-18.1% vs 2Q26; -16.4% vs 3Q25",
+        "basis": "ball-mill maintenance and lower grade",
+        "note": "Q3 FY26"
+      },
+      {
+        "metric": "Noche Buena gold recovered",
+        "current": "2,033 oz (Q3); 8,354 oz YTD",
+        "prior": "not stated",
+        "change": "-41.1% vs 2Q26; -38.6% YTD vs YTD25",
+        "basis": "not stated",
+        "note": "Q3 FY26"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "2026 attributable: silver 42.0–46.5 moz, gold 500.0–550.0 koz, lead 54.0–59.0 kt, zinc 85.0–95.0 kt; 82–91 moz silver-equivalent",
+      "current": "2026 attributable: silver 42.0–46.5 moz, gold 500.0–550.0 koz, lead 54.0–59.0 kt, zinc 85.0–95.0 kt; 82–91 moz silver-equivalent",
+      "commentary": "Full-year 2026 outlook reaffirmed unchanged; 2027 and 2028 expectations also unchanged, with a detailed per-metal update for those years due in the Q4 production report."
+    },
+    "explainer": "This is a quarterly operational (production) report, not a financial results statement — it reports ounces and tonnes of metal mined, not revenue or profit. Fresnillo publishes it to confirm whether output is tracking its full-year targets, and the key message is that Q3 was in line with plan and the 2026 guidance ranges are unchanged.\n\nThe headline strength was at the flagship Fresnillo mine, where gold output jumped sharply year on year (+74.9% in the quarter) because the geological model reconciled positively and recovery rates improved — i.e. the ore was richer and more metal was extracted than a year earlier. Against that, several other mines produced less because ore grades are naturally declining at depth (Saucito, San Julián) or because less ore was processed (Herradura, Ciénega).\n\nMuch of the shortfall is operational rather than a surprise: at Herradura a cracked ball-mill shell means more maintenance stops, and that mill is due to be replaced in Q4 2026 with the hit already built into the forecast. Noche Buena is winding down ahead of a planned 2027 restart, so its lower output is expected.\n\nNo change to guidance means management still expects full-year 2026 attributable production of 42.0–46.5m ounces of silver and 500–550k ounces of gold (82–91m silver-equivalent ounces). Guidance for 2027 and 2028 is also held, with a more detailed breakdown promised in the Q4 report.",
+    "source_url": "https://uk.advfn.com/stock-market/london/fresnillo-FRES/share-news/Fresnillo-PLC-3Q26-Production-Report/99530953",
+    "related_news_url": "https://news.google.com/search?q=%22Fresnillo%20plc%22",
+    "added_at": "2026-10-21T07:43:00.342167"
+  },
+  {
     "company": "Quilter plc",
     "ticker": "QLT",
     "publish_date": "21 October 2026",
