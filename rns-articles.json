@@ -1,5 +1,57 @@
 [
   {
+    "company": "Great Portland Estates PLC",
+    "ticker": "GPE",
+    "publish_date": "21 October 2026",
+    "date_iso": "2026-10-21",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>Great Portland Estates</strong> has committed to redevelop its <strong>Soho Square Estate, W1</strong>, delivering a <strong>c.90,000 sq ft</strong> HQ building into a supply-starved West End office market.</li><li>Scheme comprises <strong>75,000 sq ft</strong> of Grade A offices and <strong>15,000 sq ft</strong> of prime retail fronting <strong>Oxford Street</strong>, with typical floorplates of <strong>~12,000 sq ft</strong>.</li><li>Located minutes from <strong>Tottenham Court Road</strong> station, building on GPE's <strong>Elizabeth line</strong> strategy alongside nearby 141 Wardour Street and 16 Dufour's Place.</li><li>Demolition to <strong>commence shortly</strong>, with completion targeted for <strong>summer 2030</strong>; management cites the market as <strong>c.50% undersupplied</strong> to 2030.</li><li>No development cost, capex or financial figures disclosed in the announcement.</li></ul>",
+    "source_format": "html",
+    "headline": "GPE commits to redeveloping its Soho Square Estate, W1, into a c.90,000 sq ft best-in-class West End HQ, completing summer 2030.",
+    "priority": "low",
+    "priority_reason": "Operational development commitment with no financials, guidance or near-term earnings impact; completion not until summer 2030.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/great-portland-estates--gpe/gpe-commits-to-redevelopment-of-soho-square-estate/9832876",
+    "related_news_url": "https://news.google.com/search?q=%22Great%20Portland%20Estates%22",
+    "added_at": "2026-10-21T07:34:17.180417"
+  },
+  {
+    "company": "Card Factory PLC",
+    "ticker": "CARD",
+    "publish_date": "21 October 2026",
+    "date_iso": "2026-10-21",
+    "time_period": "",
+    "announcement_type": "Buyback programme launch",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Card Factory plc</strong> has commenced an <strong>irrevocable, non-discretionary</strong> share repurchase programme, with shares bought placed into <strong>treasury</strong>.</li><li>Programme runs from <strong>21 October 2026</strong> up to and including <strong>31 January 2027</strong>.</li><li>Shares acquired are intended to satisfy awards under the Company's <strong>employee share plans</strong>, as flagged on <strong>28 September 2026</strong>.</li><li>Total issued share capital is <strong>330,899,254 Ordinary Shares</strong>; with <strong>3,857,571</strong> held in treasury, total voting rights stand at <strong>327,041,683</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Card Factory has begun an irrevocable, non-discretionary share buyback programme running to 31 January 2027, with purchased shares held in treasury to satisfy employee share plans.",
+    "priority": "medium",
+    "priority_reason": "Launch of a share repurchase programme, though modest and aimed only at satisfying employee share awards.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/card-factory--card/commencement-of-share-repurchase-programme/9832872",
+    "related_news_url": "https://news.google.com/search?q=%22Card%20Factory%22",
+    "added_at": "2026-10-21T07:34:17.154013"
+  },
+  {
     "company": "Me Group International PLC",
     "ticker": "MEGP",
     "publish_date": "21 October 2026",
