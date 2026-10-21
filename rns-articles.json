@@ -1,5 +1,31 @@
 [
   {
+    "company": "Savills PLC",
+    "ticker": "SVS",
+    "publish_date": "21 October 2026",
+    "date_iso": "2026-10-21",
+    "time_period": "",
+    "announcement_type": "Financing / refinancing",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Savills plc</strong> has agreed to issue <strong>US$350m</strong> of new unsecured fixed-rate <strong>US private placement notes</strong>, spanning <strong>three, five, seven and 10-year</strong> maturities, placed with <strong>six institutional investors</strong> including three new lenders.</li><li>Funds will be drawn on <strong>2 December 2026</strong> to repay the remaining <strong>US$350m</strong> of the <strong>US$800m bridge facility</strong> entered into in March 2026 to fund the <strong>Eastdil Secured</strong> acquisition and related costs.</li><li>Combined with a <strong>US$450m three-year term bank loan</strong>, the bridge is now fully refinanced at an all-in pricing of <strong>5.7%</strong>, within the Group's <strong>5.5%–6.0%</strong> expectation.</li><li><strong>NatWest</strong> and <strong>Lloyds</strong> acted as Joint Placement Agents; notes carry identical financial covenants to the Group's other unsecured debt.</li><li>CFO <strong>Nick Sanderson</strong> expects the <strong>net debt to EBITDA</strong> ratio to be <strong>c. 1.0 times</strong> at the end of 2027.</li></ul>",
+    "source_format": "html",
+    "headline": "Savills has agreed US$350m of new US private placement notes to repay the remaining bridge facility used to fund the Eastdil Secured acquisition.",
+    "priority": "medium",
+    "priority_reason": "Refinancing of the Eastdil Secured acquisition bridge facility, confirming funding cost and leverage outlook.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/savills--svs/refinancing-completed-/9832881",
+    "related_news_url": "https://news.google.com/search?q=%22Savills%22",
+    "added_at": "2026-10-21T07:37:31.925363"
+  },
+  {
     "company": "Great Portland Estates PLC",
     "ticker": "GPE",
     "publish_date": "21 October 2026",
