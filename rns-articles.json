@@ -1,5 +1,112 @@
 [
   {
+    "company": "Intuitive Surgical Inc",
+    "ticker": "ISRG",
+    "publish_date": "21 October 2026",
+    "date_iso": "2026-10-21",
+    "time_period": "Q3 2026 (to end September 2026)",
+    "announcement_type": "Quarterly results",
+    "period_detail": "Q3 2026 (to end September 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Q3 2026 revenue $3.05bn</strong>, up <strong>22%</strong> on <strong>$2.51bn</strong> a year earlier, driven by procedure volume, operating lease revenue and a larger installed base.</li><li>Instruments and accessories revenue up <strong>18%</strong> to <strong>$1.80bn</strong>, with <strong>da Vinci</strong> procedure volume up ~<strong>14%</strong> and <strong>Ion</strong> procedure volume up ~<strong>31%</strong>.</li><li>Systems revenue <strong>$769m</strong> (vs <strong>$590m</strong>); <strong>546</strong> da Vinci systems placed (incl. <strong>315</strong> da Vinci 5s), up from <strong>427</strong> (240 da Vinci 5s).</li><li>One-time <strong>$450m</strong> charge to SG&A for the proposed settlement of the <strong>da Vinci Surgical Robot Antitrust Litigation</strong> class action — <strong>$347m</strong> net of tax, or <strong>$0.99</strong> per diluted share; still subject to court approval.</li><li><strong>GAAP net income $523m</strong> (<strong>$1.49</strong> EPS) vs <strong>$704m</strong> (<strong>$1.95</strong>); <strong>non-GAAP net income $1.05bn</strong> (<strong>$3.00</strong> EPS) vs <strong>$867m</strong> (<strong>$2.40</strong>).</li><li>Ended the quarter with <strong>$6.80bn</strong> cash and investments, down <strong>$1.83bn</strong> in the quarter mainly on buybacks and capex.</li></ul>",
+    "source_format": "html",
+    "headline": "Intuitive Surgical posted Q3 2026 revenue up **22%** to **$3.05bn**, but GAAP net income fell to **$523m** after a **$450m** antitrust settlement charge.",
+    "priority": "high",
+    "priority_reason": "Quarterly results with revenue and procedure growth plus a material one-off antitrust settlement charge.",
+    "figures": [
+      {
+        "metric": "Revenue",
+        "current": "$3.05bn",
+        "prior": "$2.51bn",
+        "change": "+22%",
+        "basis": "GAAP",
+        "note": "Q3 2026 vs Q3 2025"
+      },
+      {
+        "metric": "Instruments & accessories revenue",
+        "current": "$1.80bn",
+        "prior": "$1.52bn",
+        "change": "+18%",
+        "basis": "",
+        "note": "Q3 2026 vs Q3 2025"
+      },
+      {
+        "metric": "Systems revenue",
+        "current": "$769m",
+        "prior": "$590m",
+        "change": "not stated",
+        "basis": "",
+        "note": "Q3 2026 vs Q3 2025"
+      },
+      {
+        "metric": "GAAP income from operations",
+        "current": "$593m",
+        "prior": "$760m",
+        "change": "not stated",
+        "basis": "GAAP; includes $450m antitrust charge",
+        "note": "Q3 2026 vs Q3 2025"
+      },
+      {
+        "metric": "Non-GAAP income from operations",
+        "current": "$1.27bn",
+        "prior": "$976m",
+        "change": "not stated",
+        "basis": "non-GAAP",
+        "note": "Q3 2026 vs Q3 2025"
+      },
+      {
+        "metric": "GAAP net income",
+        "current": "$523m",
+        "prior": "$704m",
+        "change": "not stated",
+        "basis": "GAAP",
+        "note": "attributable to Intuitive Surgical, Inc."
+      },
+      {
+        "metric": "GAAP diluted EPS",
+        "current": "$1.49",
+        "prior": "$1.95",
+        "change": "not stated",
+        "basis": "GAAP",
+        "note": "Q3 2026 vs Q3 2025"
+      },
+      {
+        "metric": "Non-GAAP net income",
+        "current": "$1.05bn",
+        "prior": "$867m",
+        "change": "not stated",
+        "basis": "non-GAAP",
+        "note": "attributable to Intuitive Surgical, Inc."
+      },
+      {
+        "metric": "Non-GAAP diluted EPS",
+        "current": "$3.00",
+        "prior": "$2.40",
+        "change": "not stated",
+        "basis": "non-GAAP",
+        "note": "Q3 2026 vs Q3 2025"
+      },
+      {
+        "metric": "Cash, equivalents and investments",
+        "current": "$6.80bn",
+        "prior": "not stated",
+        "change": "-$1.83bn in quarter",
+        "basis": "",
+        "note": "quarter-end"
+      }
+    ],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": "The release states Intuitive provided a full-year 2026 outlook (da Vinci procedure growth, non-GAAP gross profit margin and non-GAAP operating expense growth, including an estimated tariff impact), but the specific figures sit in a table that was not captured in the scraped text, so no numbers can be quoted."
+    },
+    "explainer": "This is a strong top-line quarter for Intuitive Surgical. Reported revenue rose 22% to $3.05bn, powered by the recurring 'razor-blade' side of the model — instruments and accessories used in each operation — as well as more systems being placed, increasingly on operating leases rather than outright sale. Procedure volumes grew about 14% for the core da Vinci robots and roughly 31% for the Ion lung-biopsy platform.\n\nThe gap between GAAP and non-GAAP numbers is unusually wide this quarter because of a one-off legal charge. Intuitive agreed, without admitting wrongdoing, to settle a long-running antitrust class action for a $450m one-time payment, booked as an SG&A charge. That knocked $347m off net income after tax, equal to $0.99 per diluted share, which is why GAAP net income fell to $523m ($1.49 EPS) even as the underlying business grew. The settlement still needs court approval.\n\nStripping out that charge and other items, non-GAAP net income rose to $1.05bn and non-GAAP EPS to $3.00 (from $2.40), and non-GAAP operating income climbed to $1.27bn — a better guide to the trading performance than the GAAP figures this period. Cash fell $1.83bn during the quarter, mainly because of share buybacks and capital spending.\n\nIntuitive did reiterate a full-year 2026 outlook covering procedure growth, non-GAAP gross margin (flagging tariff pressure) and operating-expense growth, but the actual guidance figures were in a table not captured in this scrape, so the status and numbers cannot be stated here with confidence.",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/ISRG/share-news/Intuitive-Announces-Third-Quarter-Earnings/99529548",
+    "related_news_url": "https://news.google.com/search?q=%22Intuitive%20Surgical%2C%20Inc.%22",
+    "added_at": "2026-10-21T07:16:52.779316"
+  },
+  {
     "company": "SLM Corporation",
     "ticker": "SLM",
     "publish_date": "20 October 2026",
