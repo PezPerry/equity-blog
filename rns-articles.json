@@ -1,5 +1,31 @@
 [
   {
+    "company": "SLM Corporation",
+    "ticker": "SLM",
+    "publish_date": "20 October 2026",
+    "date_iso": "2026-10-20",
+    "time_period": "Q4 2026",
+    "announcement_type": "Dividend declaration",
+    "period_detail": "Q4 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>SLM Corporation (Sallie Mae)</strong> declares a <strong>2026 fourth-quarter</strong> common stock dividend of <strong>$0.13 per share</strong>.</li><li>Also declares a Q4 2026 dividend on <strong>Preferred Stock Series B</strong> of <strong>$1.4939647 per share</strong>.</li><li>Both payable on <strong>15 December 2026</strong> to stockholders of record at close on <strong>4 December 2026</strong>.</li><li>Routine dividend declaration with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Sallie Mae declares a Q4 2026 common dividend of $0.13 per share and a Series B preferred dividend of $1.4939647 per share.",
+    "priority": "medium",
+    "priority_reason": "Routine quarterly dividend declaration on preferred and common stock with no change to policy.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/SLM/share-news/Sallie-Mae-Declares-Dividends-on-Preferred-Stock-S/99529881",
+    "related_news_url": "https://news.google.com/search?q=%22SLM%20Corporation%20(Sallie%20Mae)%22",
+    "added_at": "2026-10-21T07:16:14.266423"
+  },
+  {
     "company": "Experian PLC",
     "ticker": "EXPN",
     "publish_date": "20 October 2026",
