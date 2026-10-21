@@ -1,5 +1,106 @@
 [
   {
+    "company": "Mobico Group PLC",
+    "ticker": "MCG",
+    "publish_date": "21 October 2026",
+    "date_iso": "2026-10-21",
+    "time_period": "",
+    "announcement_type": "M&A / takeover approach",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Mobico Group PLC</strong> confirms a Rule 2.4 approach from <strong>Autobuses de Leon, S.L. (AdL)</strong> regarding a possible all-cash offer for the entire issued and to-be-issued share capital.</li><li>AdL has submitted a non-binding proposal of <strong>46 pence per share in cash</strong>.</li><li>The <strong>Mobico Independent Directors</strong> say the Proposal is at a value they are <strong>minded to recommend</strong>, subject to agreement of full terms, conditions and documentation; AdL has been granted access to confirmatory due diligence.</li><li>AdL is jointly held by <strong>CMC Group</strong> — Mobico's largest shareholder with a <strong>26%</strong> stake and a long-term investor since the 2005 sale of ALSA — and a fund managed by <strong>Asterion Industrial Partners</strong> (€8.3bn AUM, Madrid).</li><li>Under Rule 2.6(a), AdL must announce a firm intention to make an offer or walk away by <strong>5.00 p.m. on 18 November 2026</strong>; the Independent Directors exclude <strong>Jorge Cosmen</strong>.</li><li>No firm offer yet; there is no certainty an offer will be made, and shareholders are advised to <strong>take no action</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Mobico confirms a 46p-per-share non-binding cash approach from Autobuses de Leon, which the Independent Directors are minded to recommend.",
+    "priority": "high",
+    "priority_reason": "Possible cash takeover of the entire company at a value the independent directors are minded to recommend.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/mobico-group--mcg/statement-re-possible-offer/9833999",
+    "related_news_url": "https://news.google.com/search?q=%22Mobico%20Group%22",
+    "added_at": "2026-10-21T12:56:13.297706"
+  },
+  {
+    "company": "CME Group Inc",
+    "ticker": "CME",
+    "publish_date": "21 October 2026",
+    "date_iso": "2026-10-21",
+    "time_period": "Q3 2026 (three months to 30 September 2026)",
+    "announcement_type": "Quarterly results",
+    "period_detail": "Q3 2026 (three months to 30 September 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Revenue</strong> of <strong>$1.7bn</strong> and operating income of <strong>$1.1bn</strong> in <strong>Q3 2026</strong> — described as the second-highest quarter ever for revenue and adjusted net income.</li><li>Net income <strong>$1.0bn</strong>; diluted EPS <strong>$2.89</strong> (adjusted EPS <strong>$3.02</strong>); adjusted operating income <strong>$1.2bn</strong> and adjusted net income <strong>$1.1bn</strong>.</li><li>Average daily volume hit a third-quarter record of <strong>29.4m contracts</strong> with double-digit volume growth across all six asset classes; non-US ADV a Q3 high of <strong>9m contracts</strong>.</li><li>Clearing and transaction fees revenue <strong>$1.4bn</strong> at an average rate per contract of <strong>$0.679</strong>; market data revenue a record <strong>$243m</strong>, up <strong>20%</strong>.</li><li>Returned nearly <strong>$1bn</strong> to shareholders in the quarter — <strong>$465m</strong> in dividends and <strong>$524m</strong> in buybacks; held <strong>$2.4bn</strong> cash against <strong>$3.4bn</strong> debt at 30 September 2026.</li><li>CEO <strong>Terry Duffy</strong> cited intensifying uncertainty driving record client demand and a new high of <strong>$100bn</strong> in average daily capital efficiencies.</li></ul>",
+    "source_format": "html",
+    "headline": "CME Group posted record Q3 revenue of **$1.7bn** and diluted EPS of **$2.89** ($3.02 adjusted), driven by record third-quarter average daily volume of **29.4m contracts**.",
+    "priority": "high",
+    "priority_reason": "Quarterly results from the world's largest derivatives exchange, with record Q3 revenue and double-digit growth.",
+    "figures": [
+      {
+        "metric": "Revenue",
+        "current": "$1.7bn",
+        "prior": "not stated",
+        "change": "double-digit growth (not quantified)",
+        "basis": "GAAP",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "Net income",
+        "current": "$1.0bn",
+        "prior": "not stated",
+        "change": "double-digit growth (not quantified)",
+        "basis": "GAAP",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "Diluted EPS",
+        "current": "$2.89",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "GAAP",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "Adjusted diluted EPS",
+        "current": "$3.02",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "non-GAAP adjusted",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "Market data revenue",
+        "current": "$243m",
+        "prior": "not stated",
+        "change": "+20%",
+        "basis": "GAAP",
+        "note": "record for Q3 2026"
+      },
+      {
+        "metric": "Average daily volume",
+        "current": "29.4m contracts",
+        "prior": "not stated",
+        "change": "double-digit across all six asset classes",
+        "basis": "",
+        "note": "Q3 record"
+      }
+    ],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "CME Group runs the world's largest derivatives exchange, so its revenue tracks how actively clients trade futures and options. The headline fact is record third-quarter trading volumes — an average of 29.4 million contracts a day, with growth across all six asset classes (rates, equities, FX, crypto, energy, agriculture and metals). Exchanges tend to earn more when markets are volatile, and management attributes the strong quarter to heightened uncertainty pushing clients to hedge risk.\n\nThe company reports both GAAP (statutory) and 'adjusted' figures. Adjusted numbers strip out items such as amortisation of acquired intangibles, strategic transaction costs and investment gains/losses; this is why adjusted EPS ($3.02) is higher than reported EPS ($2.89). Neither set is inherently 'truer' — adjusted figures smooth out one-offs, but the add-backs are the company's own choices.\n\nThe announcement describes 'double-digit' revenue and net income growth but does not print the prior-year (Q3 2025) comparative figures in the scraped text, so the exact percentage changes cannot be stated here. The only explicit comparative given is market data revenue, up 20% to a record $243m. No profit guidance is given — exchanges typically do not guide on earnings, as volumes depend on market conditions.",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/CME/share-news/CME-Group-Inc-Reports-Highest-Q3-Revenue-on-Recor/99533278",
+    "related_news_url": "https://news.google.com/search?q=%22CME%20Group%20Inc.%22",
+    "added_at": "2026-10-21T12:56:13.279004"
+  },
+  {
     "company": "Prudential PLC",
     "ticker": "PRU",
     "publish_date": "21 October 2026",
