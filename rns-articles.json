@@ -1,5 +1,114 @@
 [
   {
+    "company": "Me Group International PLC",
+    "ticker": "MEGP",
+    "publish_date": "21 October 2026",
+    "date_iso": "2026-10-21",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li>CFO <strong>Stéphane Gibon</strong> has taken a <strong>temporary medical leave of absence</strong> from ME Group.</li><li><strong>Ludovic Liaut</strong>, Group Deputy Finance Director and a <strong>27-year</strong> ME Group veteran, appointed <strong>Interim Chief Financial Officer</strong> to cover his duties.</li><li>Company says <strong>robust temporary cover arrangements</strong> are in place to ensure continuity; a further update will follow in due course.</li><li>Routine management-cover disclosure with <strong>no impact</strong> stated on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "ME Group's CFO Stéphane Gibon has taken a temporary medical leave of absence, with Ludovic Liaut stepping in as Interim CFO.",
+    "priority": "medium",
+    "priority_reason": "A senior management change (CFO temporary absence) with interim cover put in place.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/me-group-international--megp/cfo-leave-of-absence/9832878",
+    "related_news_url": "https://news.google.com/search?q=%22Me%20Group%20International%22",
+    "added_at": "2026-10-21T07:33:44.620235"
+  },
+  {
+    "company": "Hochschild Mining PLC",
+    "ticker": "HOC",
+    "publish_date": "21 October 2026",
+    "date_iso": "2026-10-21",
+    "time_period": "Q3 and 9 months to 30 September 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "Q3 and 9 months to 30 September 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Q3 2026</strong> attributable production of <strong>74,004 gold equivalent ounces</strong> (Q3 2025: <strong>72,020 oz</strong>), bringing 9-month output to <strong>225,835 GEO</strong> (9M 2025: <strong>237,190 oz</strong>).</li><li>FY 2026 production guidance of <strong>300,000-328,000 GEO</strong> maintained, alongside revised all-in sustaining cost guidance of <strong>$2,380-$2,500 per GEO</strong>, despite Argentine cost inflation.</li><li><strong>Mara Rosa</strong> turnaround nearing completion: new mining contractor at full capacity, with <strong>September</strong> the strongest month at <strong>8,019 GEO oz</strong>; FY guidance of <strong>67,000-80,000 GEO</strong> maintained.</li><li><strong>Inmaculada</strong> in line with expectations (Q3: <strong>45,163 GEO oz</strong>); <strong>San Jose</strong> hit by extreme winter weather, with grades expected to recover in Q4.</li><li>Net cash of approximately <strong>$91m</strong> at 30 September 2026 (<strong>$51m</strong> at 30 June), with total cash and short-term investments of approximately <strong>$349m</strong>.</li><li>Final investment decision on the <strong>Monte Do Carmo</strong> project expected by <strong>December 2026</strong>; revised EIA for <strong>Royropata</strong> submitted in August.</li></ul>",
+    "source_format": "html",
+    "headline": "Hochschild produced 74,004 attributable gold-equivalent ounces in Q3, reaffirming FY 2026 guidance of 300,000-328,000 GEO as Mara Rosa's turnaround nears completion.",
+    "priority": "high",
+    "priority_reason": "Quarterly production report with reaffirmed full-year output and cost guidance for a listed gold/silver miner.",
+    "figures": [
+      {
+        "metric": "Attributable gold equivalent production",
+        "current": "74,004 oz",
+        "prior": "72,020 oz",
+        "change": "not stated",
+        "basis": "attributable",
+        "note": "Q3 2026 vs Q3 2025"
+      },
+      {
+        "metric": "Attributable gold equivalent production (9 months)",
+        "current": "225,835 oz",
+        "prior": "237,190 oz",
+        "change": "not stated",
+        "basis": "attributable",
+        "note": "9M 2026 vs 9M 2025"
+      },
+      {
+        "metric": "Total group gold equivalent production",
+        "current": "85.33 koz",
+        "prior": "87.76 koz",
+        "change": "not stated",
+        "basis": "100% of production",
+        "note": "Q3 2026 vs Q3 2025"
+      },
+      {
+        "metric": "Realised gold price",
+        "current": "$3,840/oz",
+        "prior": "$3,195/oz",
+        "change": "not stated",
+        "basis": "before commercial discounts",
+        "note": "Q3 2026 vs Q3 2025"
+      },
+      {
+        "metric": "Realised silver price",
+        "current": "$61.8/oz",
+        "prior": "$42.4/oz",
+        "change": "not stated",
+        "basis": "before commercial discounts",
+        "note": "Q3 2026 vs Q3 2025"
+      },
+      {
+        "metric": "Net cash",
+        "current": "approx. $91m",
+        "prior": "$51m",
+        "change": "not stated",
+        "basis": "as reported",
+        "note": "30 Sept 2026 vs 30 June 2026"
+      },
+      {
+        "metric": "Total cash & short-term investments",
+        "current": "approx. $349m",
+        "prior": "$309m",
+        "change": "not stated",
+        "basis": "as reported",
+        "note": "30 Sept 2026 vs 30 June 2026"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "FY 2026 production of 300,000-328,000 GEO; revised AISC of $2,380-$2,500 per GEO",
+      "current": "FY 2026 production of 300,000-328,000 GEO; AISC of $2,380-$2,500 per GEO",
+      "commentary": "Full-year production and cost guidance were both reaffirmed. The group says it remains on track despite continued cost pressures in Argentina driven by domestic inflation."
+    },
+    "explainer": "This is a production (operational) update rather than a financial-results statement, so most figures are in ounces mined rather than pounds or dollars. \"Attributable\" production counts 100% of output from the wholly-owned Inmaculada and Mara Rosa mines but only Hochschild's 51% share of the San Jose joint venture, so it is lower than \"total group\" production which includes the JV partner's share. \"Gold equivalent ounces\" (GEO) convert silver output into gold terms using a price ratio, giving a single headline production number.\n\nYear-on-year, attributable 9-month production fell to 225,835 GEO from 237,190, largely because the mature Inmaculada mine delivered lower grades and San Jose was hit by severe winter weather. That decline was partly offset by the newer Mara Rosa mine in Brazil, where production is ramping up after an operational turnaround; September was its best month so far at just over 8,000 ounces.\n\nOn guidance, nothing changed in this statement. The company reaffirmed its full-year production range of 300,000-328,000 GEO and its all-in sustaining cost range of $2,380-$2,500 per ounce. Note the cost figure is described as \"revised\" because it had been adjusted at an earlier point in the year; it was simply held at that revised level here, not moved again. Management flagged that Argentine inflation continues to push costs up, but says it remains on track within the stated ranges.",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/hochschild-mining--hoc/q3-and-9-month-production-report/9832838",
+    "related_news_url": "https://news.google.com/search?q=%22Hochschild%20Mining%22",
+    "added_at": "2026-10-21T07:33:44.562637"
+  },
+  {
     "company": "Sylvania Platinum Limited",
     "ticker": "SLP",
     "publish_date": "21 October 2026",
