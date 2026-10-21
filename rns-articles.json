@@ -1,5 +1,31 @@
 [
   {
+    "company": "Prudential PLC",
+    "ticker": "PRU",
+    "publish_date": "21 October 2026",
+    "date_iso": "2026-10-21",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>Prudential plc</strong> has applied to admit <strong>10,916 ordinary shares</strong> of 5p each to trading on the <strong>London Stock Exchange</strong> main market, with admission expected on <strong>22 October 2026</strong>.</li><li>Shares issued in connection with the <strong>scrip dividend alternative</strong> for the <strong>2026 first interim dividend</strong>; <strong>4,148</strong> relate to a UK share dealing facility for holders unable to hold on the Hong Kong line.</li><li>Routine technical admission — new shares rank <strong>pari passu</strong> with existing ordinary shares, with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Prudential to admit 10,916 new ordinary shares to the LSE main market on 22 October 2026, issued under its 2026 first interim scrip dividend alternative.",
+    "priority": "low",
+    "priority_reason": "Routine admission of a small number of shares issued under the scrip dividend alternative, with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/prudential--pru/admission-of-shares-to-trading/9834000",
+    "related_news_url": "https://news.google.com/search?q=%22Prudential%22",
+    "added_at": "2026-10-21T10:15:55.709578"
+  },
+  {
     "company": "Weir PLC",
     "ticker": "WEIR",
     "publish_date": "21 October 2026",
