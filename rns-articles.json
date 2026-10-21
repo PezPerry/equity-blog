@@ -1,5 +1,90 @@
 [
   {
+    "company": "Sylvania Platinum Limited",
+    "ticker": "SLP",
+    "publish_date": "21 October 2026",
+    "date_iso": "2026-10-21",
+    "time_period": "",
+    "announcement_type": "Share buyback",
+    "period_detail": "",
+    "type_workings": "Rule 'capital returns': opening bullets announce a share buyback [rns.json record]",
+    "body": "<ul><li>Routine buyback disclosure: <strong>157,500</strong> ordinary shares purchased <strong>14–19 October 2026</strong> through <strong>Panmure Liberum Limited</strong> (45,000 on 14 Oct at 94.23p; 42,500 on 15 Oct at 93.40p; 20,000 on 16 Oct at 92.35p; 50,000 on 19 Oct at 93.50p).</li><li>Issued share capital <strong>271,661,725</strong> shares; <strong>13,589,925</strong> now held in Treasury, leaving <strong>258,071,800</strong> shares with voting rights — <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Sylvania Platinum bought back **157,500** ordinary shares via **Panmure Liberum** between **14 and 19 October 2026** at prices of **92.35p–94.23p**.",
+    "priority": "low",
+    "priority_reason": "Routine daily share buyback transaction report, not a programme launch.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/sylvania-platinum-ltd-di---slp/share-buyback-update/9832844",
+    "related_news_url": "https://news.google.com/search?q=%22Sylvania%20Platinum%20Ltd%20(DI)%22",
+    "added_at": "2026-10-21T07:32:58.930116"
+  },
+  {
+    "company": "Halfords Group PLC",
+    "ticker": "HFD",
+    "publish_date": "21 October 2026",
+    "date_iso": "2026-10-21",
+    "time_period": "H1 FY27 (26 weeks to 2 October 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "H1 FY27 (26 weeks to 2 October 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Retail LfL sales grew 7.7%</strong> in the <strong>26 weeks to 2 October 2026</strong>, with <strong>Motoring LfL up 7.3%</strong> and <strong>Cycling LfL up 8.3%</strong>.</li><li><strong>Autocentres (ex-Avayler) LfL sales grew 6.1%</strong>.</li><li>Continues to expect <strong>FY27 underlying profit before tax of £55m-£65m</strong>, reiterating its <strong>previously upgraded</strong> guidance.</li><li>Strong H1 driven by business-wide momentum and <strong>strong summer demand for seasonal categories</strong>.</li><li>Underlying PBT to be <strong>weighted towards H1</strong>, with accelerated marketing and technology investment in H2.</li></ul>",
+    "source_format": "html",
+    "headline": "Halfords grew first-half retail like-for-like sales 7.7% and reiterated its previously upgraded FY27 underlying pre-tax profit guidance of £55m-£65m.",
+    "priority": "high",
+    "priority_reason": "Half-year trading update with strong like-for-like sales growth and reaffirmed FY27 profit guidance.",
+    "figures": [
+      {
+        "metric": "Retail LfL sales growth",
+        "current": "+7.7%",
+        "prior": "not stated",
+        "change": "+7.7%",
+        "basis": "like-for-like",
+        "note": "H1 FY27, 26 weeks to 2 October 2026"
+      },
+      {
+        "metric": "Motoring LfL sales growth",
+        "current": "+7.3%",
+        "prior": "not stated",
+        "change": "+7.3%",
+        "basis": "like-for-like",
+        "note": "H1 FY27"
+      },
+      {
+        "metric": "Cycling LfL sales growth",
+        "current": "+8.3%",
+        "prior": "not stated",
+        "change": "+8.3%",
+        "basis": "like-for-like",
+        "note": "H1 FY27"
+      },
+      {
+        "metric": "Autocentres LfL sales growth (ex-Avayler)",
+        "current": "+6.1%",
+        "prior": "not stated",
+        "change": "+6.1%",
+        "basis": "like-for-like",
+        "note": "H1 FY27"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "FY27 underlying profit before tax of £55m to £65m (previously upgraded in the August trading statement)",
+      "current": "FY27 underlying profit before tax of £55m to £65m",
+      "commentary": "Guidance is unchanged, with the strong H1 supporting the profit range already upgraded in August. Management flags that profit will be weighted towards H1, as it steps up marketing and technology spend in H2."
+    },
+    "explainer": "This is a half-year trading update covering the 26 weeks to 2 October 2026. Halfords reports like-for-like (LfL) sales, which strip out the effect of new or closed sites to show the underlying growth of the existing estate: Retail LfL of +7.7% means the shops and services open a year ago sold 7.7% more than in the same period last year. Motoring (parts, servicing and accessories) and Cycling both grew strongly, and the Autocentres garage business grew 6.1% once Avayler, its software arm, is excluded.\n\nOn profit, the key point is that nothing has changed: Halfords reaffirmed the FY27 underlying pre-tax profit range of £55m to £65m that it had already raised in its August statement. So this is a maintained, not a further upgraded, outlook despite the strong sales.\n\nThe company also cautions on phasing. Profit will be skewed to the first half because it plans to spend more on marketing and technology in the second half, so H2 profit will look weaker by comparison even though full-year guidance is intact. That is a timing effect, not a deterioration in the business.",
+    "source_url": "https://www.investegate.co.uk/announcement/eqs/halfords-group--hfd/halfords-group-plc-trading-update-for-the-26-/9833184",
+    "related_news_url": "https://news.google.com/search?q=%22Halfords%20Group%22",
+    "added_at": "2026-10-21T07:32:58.909386"
+  },
+  {
     "company": "GSK plc",
     "ticker": "GSK",
     "publish_date": "21 October 2026",
