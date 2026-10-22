@@ -1,5 +1,72 @@
 [
   {
+    "company": "Renishaw plc",
+    "ticker": "RSW",
+    "publish_date": "22 October 2026",
+    "date_iso": "2026-10-22",
+    "time_period": "Q1 FY2027 (three months ended 30 September 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "Q1 FY2027 (three months ended 30 September 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Q1 FY2027 revenue up 47%</strong> at actual exchange rates year-on-year (<strong>+48% at constant currency</strong>) against a weak prior-year comparator — a <strong>record quarter</strong>, <strong>3% above FY2026 Q4</strong>.</li><li><strong>Position Measurement</strong> delivered record quarterly revenue, <strong>+85% YoY</strong> at constant currency and <strong>+17% vs FY2026 Q4</strong>, led by strong demand for optical and laser encoders in <strong>semiconductor</strong> manufacturing equipment; capacity being expanded.</li><li><strong>Industrial Metrology +29% YoY</strong> at constant currency (<strong>+9% vs FY2026 Q4</strong>), with a growing order book for 5-axis CMMs and improving metrology-sensor demand in <strong>aerospace & defence, energy and consumer electronics</strong>.</li><li><strong>Specialised Technologies +50% YoY</strong> at constant currency, driven by additive manufacturing; Q1 was below an exceptionally strong FY2026 Q4 as expected, but the order book strengthened. Divestment of the neurological business continues.</li><li>Guidance maintained: the company <strong>continues to expect strong progress on revenue and operating margin for FY2027 as a whole</strong>, while noting the cyclical nature of demand.</li><li>No profit, EPS or absolute revenue figures were given in this update — only growth percentages.</li></ul>",
+    "source_format": "html",
+    "headline": "Renishaw reports record Q1 FY2027 revenue, up 48% year-on-year at constant currency, and reiterates expectations of strong full-year progress on revenue and margin.",
+    "priority": "high",
+    "priority_reason": "Quarterly trading update with record revenue, divisional detail and a reaffirmed full-year outlook.",
+    "figures": [
+      {
+        "metric": "Group revenue (actual FX)",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+47%",
+        "basis": "actual exchange rates, YoY",
+        "note": "Q1 FY2027; record quarter, +3% vs FY2026 Q4"
+      },
+      {
+        "metric": "Group revenue (constant FX)",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+48%",
+        "basis": "constant exchange rates, YoY",
+        "note": "Q1 FY2027"
+      },
+      {
+        "metric": "Industrial Metrology revenue",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+29%",
+        "basis": "constant exchange rates, YoY",
+        "note": "+9% vs FY2026 Q4"
+      },
+      {
+        "metric": "Position Measurement revenue",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+85%",
+        "basis": "constant exchange rates, YoY",
+        "note": "record quarter; +17% vs FY2026 Q4"
+      },
+      {
+        "metric": "Specialised Technologies revenue",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+50%",
+        "basis": "constant exchange rates, YoY",
+        "note": "below exceptionally strong FY2026 Q4"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "",
+      "current": "We continue to expect strong progress on revenue and operating margin for FY2027 as a whole.",
+      "commentary": "The outlook is reaffirmed rather than changed: management expects full-year growth in both revenue and operating margin, underpinned by strong semiconductor and aerospace & defence demand and broadening automation investment, while flagging the medium-term cyclicality of demand."
+    },
+    "explainer": "This is a first-quarter trading update covering the three months to 30 September 2026, the opening quarter of Renishaw's FY2027. It carries no audited numbers and, importantly, gives only percentage growth rates — no absolute revenue, profit, earnings or dividend figures are disclosed.\n\nThe headline growth looks very large (+47% at actual rates, +48% at constant currency) but the company is explicit that this is measured against a 'weak comparator' in the prior year, so the rate flatters the underlying trend. A more useful read is the sequential comparison: Q1 was 3% above the preceding quarter (FY2026 Q4), making it a record quarter. 'Constant exchange rates' strips out currency movements by restating this year's revenue at last year's rates (and excluding forward-contract gains and losses), isolating volume and price rather than FX swings.\n\nAll three divisions grew year-on-year at constant currency: Position Measurement was strongest (+85%, driven by semiconductor encoder demand), Industrial Metrology +29%, and Specialised Technologies +50% (led by additive manufacturing). Note that Specialised Technologies was below the prior quarter, as expected, because FY2026 Q4 was exceptionally strong — a reminder that quarter-on-quarter comparisons here are affected by lumpy order timing.\n\nOn guidance, nothing has changed: Renishaw reiterates that it expects strong progress on both revenue and operating margin for FY2027 as a whole, so this is a maintained outlook, not an upgrade or downgrade, tempered by a note on the cyclical nature of demand over the medium term.",
+    "source_url": "https://uk.advfn.com/stock-market/london/renishaw-RSW/share-news/Renishaw-PLC-Trading-Statement/99537637",
+    "related_news_url": "https://news.google.com/search?q=%22Renishaw%20plc%22",
+    "added_at": "2026-10-22T08:02:31.496571"
+  },
+  {
     "company": "InterContinental Hotels Group PLC",
     "ticker": "IHG",
     "publish_date": "22 October 2026",
