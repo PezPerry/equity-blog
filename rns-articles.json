@@ -1,5 +1,80 @@
 [
   {
+    "company": "InterContinental Hotels Group PLC",
+    "ticker": "IHG",
+    "publish_date": "22 October 2026",
+    "date_iso": "2026-10-22",
+    "time_period": "Q3 FY26 (and YTD to 30 September 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "Q3 FY26 (and YTD to 30 September 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Q3 global RevPAR +5.3%</strong> (YTD <strong>+4.6%</strong>), split <strong>Americas +6.8%</strong>, <strong>EMEAA +5.0%</strong> and <strong>Greater China -3.3%</strong>, with Q3 average daily rate <strong>+3.9%</strong> and occupancy <strong>+0.9%pts</strong>.</li><li>Development momentum: opened <strong>92 hotels (12.9k rooms)</strong> and signed <strong>164 hotels (21.1k rooms)</strong> in Q3, taking YTD to <strong>289 opened</strong> and <strong>516 signed</strong>; global pipeline <strong>353k rooms</strong>, up <strong>+3.2%</strong> YOY.</li><li>Gross system growth <strong>+6.3%</strong> YOY and net system growth <strong>+4.9%</strong> YOY; global system now <strong>1,060k rooms (7,186 hotels)</strong>.</li><li>Greater China Q3 RevPAR eased <strong>-3.3%</strong> on adverse weather and public-holiday timing changes; US Q3 RevPAR strong at <strong>+6.9%</strong>, Middle East broadly flat after a <strong>-19%</strong> Q2 decline.</li><li><strong>$707m</strong> of the <strong>$950m</strong> 2026 buyback completed (<strong>74%</strong>), cutting share count a further <strong>3.1%</strong>; total shareholder returns of <strong>over $1.2bn</strong> expected in 2026 including <strong>~$285m</strong> dividends.</li><li><strong>Confident of achieving FY26 consensus</strong>, including adjusted EPS around the top end of the <strong>+12-15%</strong> medium-to-long-term growth algorithm; year-end leverage expected within the <strong>2.5-3.0x</strong> net debt:EBITDA range.</li></ul>",
+    "source_format": "html",
+    "headline": "IHG's Q3 global RevPAR accelerated to **+5.3%** (YTD **+4.6%**), led by the Americas, and the group is confident of meeting FY26 consensus expectations.",
+    "priority": "high",
+    "priority_reason": "Q3 trading update with RevPAR acceleration, development and capital-return detail, and confirmation of full-year consensus guidance.",
+    "figures": [
+      {
+        "metric": "Global RevPAR growth",
+        "current": "+5.3%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "constant currency, YOY",
+        "note": "Q3 2026; YTD +4.6%"
+      },
+      {
+        "metric": "Americas RevPAR growth",
+        "current": "+6.8%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "constant currency, YOY",
+        "note": "Q3 2026; US +6.9%"
+      },
+      {
+        "metric": "EMEAA RevPAR growth",
+        "current": "+5.0%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "constant currency, YOY",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "Greater China RevPAR growth",
+        "current": "-3.3%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "constant currency, YOY",
+        "note": "Q3 2026; YTD +1.0%"
+      },
+      {
+        "metric": "Net system growth",
+        "current": "+4.9%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "YOY",
+        "note": "global rooms"
+      },
+      {
+        "metric": "2026 share buyback completed",
+        "current": "$707m",
+        "prior": "$950m programme",
+        "change": "74% complete",
+        "basis": "",
+        "note": "4.7m shares repurchased, voting rights down a further 3.1%"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "FY26 consensus expectations, with adjusted EPS around the top end of the +12-15% annual growth algorithm target",
+      "current": "Confident of achieving FY26 consensus expectations, including adjusted EPS around the top end of the +12-15% growth algorithm target; year-end leverage within the 2.5-3.0x net debt:adjusted EBITDA range; adjusted interest expense $230-240m for 2026",
+      "commentary": "Guidance is effectively reaffirmed rather than changed — IHG says strong trading and a positive demand outlook give it confidence in meeting 2026 consensus, which would be a third straight year of EPS growth at the top end of its algorithm. It also flagged a preliminary 2027 adjusted interest-expense increase of $40-60m."
+    },
+    "explainer": "This is a Q3 trading update rather than a full set of results, so the headline numbers are RevPAR (revenue per available room) growth rates on a comparable, constant-currency basis, not reported profit figures. Q3 global RevPAR rose 5.3% year-on-year, an acceleration from the 4.6% growth seen over the first nine months, driven by rate (+3.9%) and a modest occupancy gain. The Americas, and the US in particular, did the heavy lifting; Greater China went backwards (-3.3%) because of bad weather and shifted public holidays that pushed Chinese travellers abroad rather than domestically.\n\n\"System growth\" refers to how fast IHG's room count is expanding: gross growth (+6.3%) is new rooms added, while net growth (+4.9%) strips out hotels that left the system. Signings and openings feed the development pipeline, which is a forward indicator of future fee income. Around half of 2026 openings and 60% of signings are conversions — existing hotels rebranding to an IHG flag rather than new builds.\n\nOn capital returns, IHG is 74% of the way through a $950m buyback and, with dividends, expects to hand back over $1.2bn to shareholders this year — roughly 4.9% of its current market value. There was no change to financial guidance: the group simply reiterated confidence in hitting 2026 analyst consensus and keeping adjusted EPS growth around the top of its 12-15% medium-term range. The only genuinely new forward number is a preliminary 2027 interest-cost rise of $40-60m, reflecting recent euro bond issuance swapped into higher-rate US dollars.",
+    "source_url": "https://uk.advfn.com/stock-market/london/intercontinental-hotels-IHG/share-news/InterContinental-Hotels-Group-PLC-2026-Third-Quart/99537628",
+    "related_news_url": "https://news.google.com/search?q=%22InterContinental%20Hotels%20Group%20PLC%22",
+    "added_at": "2026-10-22T08:01:58.235264"
+  },
+  {
     "company": "Rathbones Group Plc",
     "ticker": "RAT",
     "publish_date": "22 October 2026",
