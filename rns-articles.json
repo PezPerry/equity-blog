@@ -1,5 +1,31 @@
 [
   {
+    "company": "Old Mutual Ltd",
+    "ticker": "OMU",
+    "publish_date": "22 October 2026",
+    "date_iso": "2026-10-22",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li>Routine disclosure of <strong>on-market purchases</strong> by the <strong>Old Mutual Limited Broad-Based Black Economic Empowerment Employee Trust</strong> and <strong>Old Mutual Limited Employee Trust</strong> to hedge ESOP and LTIP awards — <strong>no impact</strong> on trading or guidance.</li><li>BBBEE Employee Trust bought <strong>1,481,217</strong> shares on <strong>19 October</strong> (R20.1m), <strong>592,487</strong> on <strong>20 October</strong> (R8.2m) and <strong>1,081,210</strong> on <strong>21 October</strong> (R15.1m), at VWAPs of <strong>R13.5805</strong>, <strong>R13.7713</strong> and <strong>R14.0056</strong>.</li><li>Old Mutual Limited Employee Trust bought <strong>1,018,783</strong> shares on <strong>19 October</strong> (R13.8m), <strong>407,513</strong> on <strong>20 October</strong> (R5.6m) and <strong>743,657</strong> on <strong>21 October</strong> (R10.4m), at the same daily VWAPs.</li><li>All interests are indirect beneficial; dealing clearance was obtained under paragraph 6.83 of the JSE Listings Requirements.</li></ul>",
+    "source_format": "html",
+    "headline": "Old Mutual's employee share trusts bought ordinary shares on-market over 19-21 October 2026 to hedge Employee Share Ownership Plan and Long-term Incentive Plan awards.",
+    "priority": "low",
+    "priority_reason": "Routine on-market hedging purchases by employee share incentive trusts, with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/old-mutual-limited-npv-di---omu/dealings-in-securities-on-behalf-of-share-trusts/9837258",
+    "related_news_url": "https://news.google.com/search?q=%22Old%20Mutual%20Limited%20NPV%20(DI)%22",
+    "added_at": "2026-10-22T16:16:40.302422"
+  },
+  {
     "company": "Helical PLC",
     "ticker": "HLCL",
     "publish_date": "22 October 2026",
