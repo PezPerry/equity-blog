@@ -1,5 +1,31 @@
 [
   {
+    "company": "Meta Platforms Inc",
+    "ticker": "META",
+    "publish_date": "21 October 2026",
+    "date_iso": "2026-10-21",
+    "time_period": "Q3 2026 (quarter ended 30 September 2026)",
+    "announcement_type": "Quarterly results",
+    "period_detail": "Q3 2026 (quarter ended 30 September 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Meta Platforms</strong> reported Q3 2026 results for the quarter ended <strong>30 September 2026</strong>; CEO <strong>Mark Zuckerberg</strong> cited a strong core business and the launch of frontier models <strong>Muse</strong> and <strong>Muse Wonder</strong>.</li><li>Q3 costs include a <strong>$9.89bn</strong> charge for the <strong>August 2026</strong> settlement with <strong>52 US state attorneys general</strong> over teen mental health litigation, with total payments of up to <strong>$18.59bn</strong>.</li><li>Board approved a new publicly listed, <strong>non-voting Class C common stock</strong>, effective <strong>January 2027</strong>, with a one-time stock dividend of one Class C share per Class A/B share — producing the effect of a <strong>two-for-one stock split</strong>; voting power unchanged.</li><li>A <strong>Founder Alignment Agreement</strong> signed with <strong>Mr Zuckerberg</strong> governing sales of his Class C shares; <strong>Moelis & Company</strong> advised the Special Committee and <strong>Morgan Stanley</strong> advised Meta.</li><li>Guidance: Q4 2026 revenue of <strong>$73-76bn</strong>; FY2026 total expenses raised to <strong>$175-179bn</strong> to absorb the legal charge; capex narrowed to <strong>$135-145bn</strong>; Reality Labs losses now seen at <strong>$18-19bn</strong>, narrowing to around <strong>$15bn</strong> in 2027.</li><li>Note: the readable text does not print Q3 revenue, net income or EPS figures (income statement truncated in the source), so headline P&L figures are not captured here.</li></ul>",
+    "source_format": "html",
+    "headline": "Meta posts Q3 2026 results with a **$9.89bn** legal charge and approves a new non-voting **Class C** stock delivering an effective **two-for-one split**.",
+    "priority": "high",
+    "priority_reason": "Quarterly results for a mega-cap, plus a guidance revision and the creation of a new non-voting share class with an effective 2-for-1 split.",
+    "figures": [],
+    "guidance": {
+      "status": "raised",
+      "previous": "Prior capital expenditure outlook of $130-145 billion for 2026.",
+      "current": "Q4 2026 total revenue of $73-76 billion (FX ~1% headwind); FY2026 total expenses raised to $175-179 billion; 2026 capex narrowed to $135-145 billion; Reality Labs losses now expected at $18-19 billion (declining vs 2025), narrowing to around $15 billion in 2027; Q4 2026 tax rate 15-17%.",
+      "commentary": "Meta raised its full-year expense outlook specifically to incorporate the $9.9bn legal charge taken in Q3. Excluding that charge, it still expects 2026 operating income to exceed 2025. Capex guidance was narrowed (lifting the low end to $135bn), and Reality Labs losses are now guided lower. No full-year 2027 revenue outlook was given, though management expects strong revenue growth to continue."
+    },
+    "explainer": "The headline distortion this quarter is a $9.89bn charge booked within general and administrative expenses, relating to the August 2026 settlement with 52 US state attorneys general over teen mental health claims (total payments up to $18.59bn). Because this is a one-off legal cost, Meta points investors to underlying performance excluding the charge, and says that on that basis 2026 operating income should still be above 2025.\n\nThe guidance change is essentially mechanical: full-year total expenses were lifted to $175-179bn purely to absorb that charge, rather than reflecting any deterioration in the business. Capex guidance was narrowed to $135-145bn (raising the floor from $130bn), signalling confidence in the AI and data-centre build-out, while Reality Labs losses are now expected to fall to $18-19bn this year and roughly $15bn in 2027 as spend is redirected towards AI.\n\nSeparately, Meta is creating a new non-voting Class C share class, effective January 2027, and paying one Class C share for every existing Class A and B share. After payment this behaves like a two-for-one stock split, roughly halving the quoted Class A price while leaving each holder's economic stake and — importantly — voting power unchanged. A Founder Alignment Agreement with Mark Zuckerberg sets terms for his sales of the new stock.\n\nNote for readers: the scraped source truncates the income statement, so actual Q3 revenue, net income and EPS and their year-on-year comparatives are not available here. The figures above are confined to the charge and the forward guidance that the announcement states explicitly.",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/META/share-news/Meta-Reports-Third-Quarter-2026-Results/99536276",
+    "related_news_url": "https://news.google.com/search?q=%22Meta%20Platforms%2C%20Inc.%22",
+    "added_at": "2026-10-22T07:17:38.144839"
+  },
+  {
     "company": "United Rentals Inc",
     "ticker": "URI",
     "publish_date": "21 October 2026",
