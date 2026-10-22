@@ -1,5 +1,104 @@
 [
   {
+    "company": "Tractor Supply Company",
+    "ticker": null,
+    "publish_date": "22 October 2026",
+    "date_iso": "2026-10-22",
+    "time_period": "Q3 FY26 (quarter ended 26 September 2026)",
+    "announcement_type": "Quarterly results",
+    "period_detail": "Q3 FY26 (quarter ended 26 September 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Tractor Supply Company</strong> reported <strong>Q3 FY26</strong> (quarter ended <strong>26 September 2026</strong>) net sales up <strong>5.1%</strong> to <strong>$3.91bn</strong> from <strong>$3.72bn</strong>, driven by new stores, the <strong>VIP Petcare</strong> acquisition and comparable-sales growth.</li><li>Comparable store sales rose just <strong>0.4%</strong>, against <strong>+3.9%</strong> a year earlier, but improved sequentially from negative in July to positive in August and September.</li><li>Gross margin fell to <strong>36.4%</strong> from <strong>37.4%</strong> on higher transport and fuel costs and price-value investment; operating income dropped <strong>10.2%</strong> to <strong>$307.7m</strong>.</li><li>Net income fell <strong>13.3%</strong> to <strong>$224.7m</strong>; diluted EPS fell <strong>11.6%</strong> to <strong>$0.43</strong> from <strong>$0.49</strong>.</li><li><strong>FY2026 outlook reaffirmed</strong>; <strong>$213.4m</strong> returned to shareholders via <strong>$88.5m</strong> of buybacks and <strong>$124.9m</strong> of dividends in the quarter.</li><li>Opened <strong>23</strong> new Tractor Supply stores and closed <strong>74</strong> Petsense stores; note TSCO here is the US rural retailer, not Tesco.</li></ul>",
+    "source_format": "html",
+    "headline": "Tractor Supply Q3 net sales rose 5.1% to $3.91bn but net income fell 13.3% to $224.7m as margins compressed; FY2026 outlook reaffirmed.",
+    "priority": "high",
+    "priority_reason": "Quarterly results with full-year guidance reaffirmation for a major US retailer.",
+    "figures": [
+      {
+        "metric": "Net sales",
+        "current": "$3.91bn",
+        "prior": "$3.72bn",
+        "change": "+5.1%",
+        "basis": "reported",
+        "note": "Q3 ended 26 Sep 2026"
+      },
+      {
+        "metric": "Comparable store sales",
+        "current": "+0.4%",
+        "prior": "+3.9%",
+        "change": "not stated",
+        "basis": "like-for-like",
+        "note": "0.7% ticket increase, 0.3% transaction-count decline"
+      },
+      {
+        "metric": "Gross profit",
+        "current": "$1.42bn",
+        "prior": "$1.39bn",
+        "change": "+2.6%",
+        "basis": "reported",
+        "note": ""
+      },
+      {
+        "metric": "Gross margin",
+        "current": "36.4%",
+        "prior": "37.4%",
+        "change": "-100bps",
+        "basis": "reported",
+        "note": "higher transport/fuel and price investment"
+      },
+      {
+        "metric": "SG&A (incl. D&A)",
+        "current": "$1.12bn",
+        "prior": "$1.05bn",
+        "change": "+6.8%",
+        "basis": "reported",
+        "note": "28.6% of sales vs 28.1%"
+      },
+      {
+        "metric": "Operating income",
+        "current": "$307.7m",
+        "prior": "$342.7m",
+        "change": "-10.2%",
+        "basis": "reported",
+        "note": ""
+      },
+      {
+        "metric": "Net income",
+        "current": "$224.7m",
+        "prior": "$259.3m",
+        "change": "-13.3%",
+        "basis": "reported",
+        "note": ""
+      },
+      {
+        "metric": "Diluted EPS",
+        "current": "$0.43",
+        "prior": "$0.49",
+        "change": "-11.6%",
+        "basis": "reported",
+        "note": ""
+      },
+      {
+        "metric": "Effective tax rate",
+        "current": "22.1%",
+        "prior": "21.0%",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "lapping prior-year tax planning"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Fiscal year 2026 outlook (net sales, comparable store sales, operating margin, net income and diluted EPS; specific figures not restated in this release)",
+      "current": "Fiscal year 2026 outlook reaffirmed",
+      "commentary": "Management reaffirmed its full-year 2026 guidance, saying quarterly progress and actions underway give confidence in delivering within the existing outlook. No numerical targets are printed in this release."
+    },
+    "explainer": "Tractor Supply grew headline sales 5.1% in the quarter, but most of that came from new store openings and the VIP Petcare acquisition rather than existing stores: like-for-like (comparable) sales rose only 0.4%, well down on the 3.9% achieved a year earlier. The company notes this comp figure was driven by customers spending a little more per visit (ticket up 0.7%) while making slightly fewer visits (transactions down 0.3%). Encouragingly, comps strengthened as the quarter progressed, turning positive in August and September.\n\nProfitability went backwards despite higher sales. Gross margin fell a full percentage point to 36.4%, which the company attributes to higher transport and fuel costs plus deliberate price cuts to stay competitive on value. Combined with rising costs (SG&A up 6.8%, partly from a new distribution centre), this pushed operating income down 10.2% and net income down 13.3%, so earnings per share fell 11.6% to $0.43 even though revenue rose.\n\nOn guidance, nothing changed: the company reaffirmed (i.e. left unchanged) its full-year 2026 outlook. This release does not reprint the specific guidance numbers, so the reaffirmation is qualitative here.\n\nNote for traders: the ticker TSCO on NASDAQ refers to this US rural-lifestyle retailer, not to Tesco plc. The adjusted (non-GAAP) figures referenced exclude a Petsense impairment and VIP Petcare acquisition costs taken in Q2, so comparisons on a reported basis are as above.",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/TSCO/share-news/Tractor-Supply-Company-Reports-Third-Quarter-2026/99541226",
+    "related_news_url": "https://news.google.com/search?q=%22Tractor%20Supply%20Company%22",
+    "added_at": "2026-10-22T12:56:24.902870"
+  },
+  {
     "company": "FirstCash Inc",
     "ticker": "FCFS",
     "publish_date": "22 October 2026",
