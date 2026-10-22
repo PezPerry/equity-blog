@@ -1,5 +1,104 @@
 [
   {
+    "company": "Bloomsbury Publishing Plc",
+    "ticker": "BMY",
+    "publish_date": "22 October 2026",
+    "date_iso": "2026-10-22",
+    "time_period": "H1 to 31 August 2026 (FY ending 28 February 2027)",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 to 31 August 2026 (FY ending 28 February 2027)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li>H1 revenue <strong>£151.6m</strong> (H1 2025/26: <strong>£159.5m</strong>) with <strong>Adjusted Profit £16.8m</strong> (H1 2025/26: <strong>£24.0m</strong>); profit before tax <strong>£9.3m</strong> (H1 2025/26: <strong>£18.3m</strong>).</li><li>Adjusted diluted EPS <strong>16.67p</strong> (<strong>22.98p</strong>); diluted EPS <strong>8.58p</strong> (<strong>16.79p</strong>); growth is second-half weighted with major author releases, including <strong>Sarah J. Maas</strong> titles and a <strong>Harry Potter</strong> TV tie-in ahead of <strong>HBO</strong>'s Christmas Day launch.</li><li>Interim dividend up <strong>5%</strong> to <strong>4.28p</strong> (H1 2025/26: <strong>4.08p</strong>), extending an unbroken 31-year track record of dividend growth.</li><li><strong>Academic & Professional</strong> revenue up <strong>5.9%</strong> to <strong>£48.8m</strong>, but adjusted profit fell to <strong>£6.8m</strong> (from <strong>£11.0m</strong>) as AI licensing came in at a lower quantum, cutting margin to <strong>13.9%</strong> (from <strong>23.9%</strong>).</li><li>Net cash of <strong>£22.8m</strong> at 31 August 2026 (H1 2025/26: <strong>£2.4m</strong>), after repaying <strong>$10.0m</strong> of Rowman & Littlefield acquisition debt in H1.</li><li>Board reaffirms confidence in delivering <strong>record results</strong> for FY 2026/27, in line with Adjusted Profit expectations; cited consensus (pre-publication) of revenue <strong>£354.3m</strong> and Adjusted Profit <strong>£49.9m</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Bloomsbury posts H1 revenue of £151.6m and adjusted profit of £16.8m, both down year on year, but reaffirms confidence in record full-year results.",
+    "priority": "high",
+    "priority_reason": "Interim results with full detailed figures, dividend and reaffirmed full-year guidance.",
+    "figures": [
+      {
+        "metric": "Revenue",
+        "current": "£151.6m",
+        "prior": "£159.5m",
+        "change": "-5.0%",
+        "basis": "reported",
+        "note": "H1 to 31 August 2026"
+      },
+      {
+        "metric": "Adjusted Profit",
+        "current": "£16.8m",
+        "prior": "£24.0m",
+        "change": "-30.0%",
+        "basis": "adjusted",
+        "note": "margin 11.1%"
+      },
+      {
+        "metric": "Profit before tax",
+        "current": "£9.3m",
+        "prior": "£18.3m",
+        "change": "-49.2%",
+        "basis": "reported",
+        "note": ""
+      },
+      {
+        "metric": "Adjusted diluted EPS",
+        "current": "16.67p",
+        "prior": "22.98p",
+        "change": "-27.5%",
+        "basis": "adjusted",
+        "note": ""
+      },
+      {
+        "metric": "Diluted EPS",
+        "current": "8.58p",
+        "prior": "16.79p",
+        "change": "-48.9%",
+        "basis": "reported",
+        "note": ""
+      },
+      {
+        "metric": "Interim dividend",
+        "current": "4.28p",
+        "prior": "4.08p",
+        "change": "+5%",
+        "basis": "per share",
+        "note": "paid 27 November 2026, record date 30 October 2026"
+      },
+      {
+        "metric": "Net cash",
+        "current": "£22.8m",
+        "prior": "£2.4m",
+        "change": "not stated",
+        "basis": "at 31 August 2026",
+        "note": "cash £30.1m less term loan £7.3m"
+      },
+      {
+        "metric": "Consumer revenue",
+        "current": "£102.8m",
+        "prior": "£113.4m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "Adjusted Profit £9.8m (prior £13.4m), margin 9.5%"
+      },
+      {
+        "metric": "Academic & Professional revenue",
+        "current": "£48.8m",
+        "prior": "£46.1m",
+        "change": "+5.9%",
+        "basis": "reported",
+        "note": "Adjusted Profit £6.8m (prior £11.0m), margin 13.9%"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Consensus market expectation (before this publication) for the year ending 28 February 2027 of revenue £354.3m and Adjusted Profit £49.9m",
+      "current": "Board looks to the current year with confidence in delivering record results in 2026/27, in line with Adjusted Profit expectations",
+      "commentary": "Guidance is reaffirmed rather than changed: despite a weaker first half, Bloomsbury expects a strong, release-heavy second half to deliver record full-year results in line with market expectations."
+    },
+    "explainer": "Bloomsbury's first-half numbers look weaker year on year, but this is largely a matter of phasing and one-off comparatives rather than a deterioration in the underlying business. Revenue of £151.6m was down about 5% and adjusted profit fell to £16.8m from £24.0m. Management stresses that the business is heavily second-half weighted this year, with a run of big-name releases (Sarah J. Maas, Gillian Anderson, Stephen Graham) and Harry Potter tie-ins timed around HBO's Christmas Day series launch.\n\nTwo specific factors drag on the comparison. In the Academic & Professional division, the headline revenue actually grew 5.9%, but adjusted profit more than halved because last year benefited from a larger AI content-licensing deal; this year's licensing continued but at a smaller scale, so the high-margin AI revenue was lower, pulling divisional margin down from 23.9% to 13.9%. Reported (statutory) profit fell more sharply than adjusted profit because 'highlighted items' rose to £7.5m, including £3.2m of one-off integration and restructuring costs from the April 2026 reorganisation.\n\nThe balance sheet strengthened markedly: net cash rose to £22.8m from £2.4m a year earlier, after repaying a further $10.0m of the debt from the Rowman & Littlefield acquisition. The interim dividend was still raised 5% to 4.28p, reflecting confidence in the outlook.\n\nOn guidance, nothing has formally changed. The Board reaffirms it expects 'record results' for the full year to 28 February 2027, in line with Adjusted Profit expectations, and helpfully prints the pre-results consensus it is measuring against: revenue of £354.3m and Adjusted Profit of £49.9m. The key judgement for a reader is whether the second-half release schedule delivers, since the full-year target implies a strong H2 skew.",
+    "source_url": "https://uk.advfn.com/stock-market/london/bloomsbury-publishing-BMY/share-news/Bloomsbury-Publishing-PLC-Unaudited-Interim-Result/99537623",
+    "related_news_url": "https://news.google.com/search?q=%22Bloomsbury%20Publishing%20Plc%22",
+    "added_at": "2026-10-22T08:00:50.991997"
+  },
+  {
     "company": "Auction Technology Group PLC",
     "ticker": "ATG",
     "publish_date": "22 October 2026",
