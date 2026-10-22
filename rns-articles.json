@@ -1,5 +1,88 @@
 [
   {
+    "company": "Inchcape plc",
+    "ticker": "INCH",
+    "publish_date": "22 October 2026",
+    "date_iso": "2026-10-22",
+    "time_period": "Q3 2026 (1 July – 30 September 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "Q3 2026 (1 July – 30 September 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Inchcape plc</strong> cut its <strong>FY 2026</strong> Group operating margin guidance to <strong>c.5.5%</strong> (previously higher) after its key brand in <strong>Australia</strong> underperformed in a rapidly-evolving market; <strong>adjusted EPS growth</strong> is still expected at <strong>c.10%</strong>.</li><li>Group <strong>Q3</strong> volumes <strong>+3%</strong> against <strong>TIV +9%</strong>, <strong>organic revenue +1%</strong> and <strong>reported revenue +7% to £2.5bn</strong>, with growth driven by acquisitions and distribution contracts won in prior years.</li><li><strong>Americas</strong> volumes <strong>+10%</strong> (TIV <strong>+24%</strong>) on strong momentum including Chinese OEMs; one new contract — <strong>Lovol Tractors</strong> in <strong>Peru</strong>.</li><li><strong>APAC</strong> volumes <strong>down 37%</strong>, with <strong>Australia down 50%</strong> (TIV <strong>+1%</strong>) hit by fuel-related disruption, a shift to New Energy Vehicles and a weakening key OEM partner; mutually agreed exit of the <strong>Deepal</strong> contract.</li><li><strong>Europe & Africa</strong> volumes <strong>+21%</strong> (16% organic), aided by Chinese-OEM contracts and recent acquisitions in <strong>Iceland</strong> and <strong>Bulgaria</strong>.</li><li><strong>£250m</strong> share buyback progressing — approx <strong>£170m</strong> repurchased; <strong>18.5%</strong> of shares acquired since <strong>July 2024</strong>. Free cashflow conversion guidance unchanged at <strong>>100%</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Inchcape cuts FY 2026 operating margin guidance to c.5.5% as Australia underperforms, but holds adjusted EPS growth at c.10%.",
+    "priority": "high",
+    "priority_reason": "Q3 trading update carrying a cut to FY 2026 operating margin guidance on Australian underperformance.",
+    "figures": [
+      {
+        "metric": "Reported revenue",
+        "current": "£2.5bn",
+        "prior": "not stated",
+        "change": "+7%",
+        "basis": "reported (+1% organic)",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "Group volumes",
+        "current": "+3%",
+        "prior": "not stated",
+        "change": "+3% vs TIV +9%",
+        "basis": "includes acquisitions",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "Americas volumes",
+        "current": "+10%",
+        "prior": "not stated",
+        "change": "+10% vs TIV +24%",
+        "basis": "reported",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "APAC volumes",
+        "current": "-37%",
+        "prior": "not stated",
+        "change": "-37% vs TIV +5%",
+        "basis": "reported",
+        "note": "Australia -50% vs TIV +1%"
+      },
+      {
+        "metric": "Europe & Africa volumes",
+        "current": "+21%",
+        "prior": "not stated",
+        "change": "+21% vs TIV +2%",
+        "basis": "includes 16% organic",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "FY 2026 operating margin (guidance)",
+        "current": "c.5.5%",
+        "prior": "not stated",
+        "change": "lowered",
+        "basis": "adjusted",
+        "note": "FY 2026"
+      },
+      {
+        "metric": "FY 2026 adjusted EPS growth (guidance)",
+        "current": "c.10%",
+        "prior": "not stated",
+        "change": "maintained",
+        "basis": "adjusted",
+        "note": "FY 2026"
+      }
+    ],
+    "guidance": {
+      "status": "lowered",
+      "previous": "A higher Group operating margin than c.5.5% was previously implied; organic volume growth guidance range of 3%–5%; adjusted EPS growth and >100% free cashflow conversion.",
+      "current": "FY 2026 Group adjusted operating margin now c.5.5%; adjusted EPS growth c.10%; organic volume growth at the top end of the 3%–5% range; free cashflow conversion unchanged at >100%.",
+      "commentary": "The margin guidance has been cut because underperformance in Australia — where the key OEM partner is losing competitiveness amid a shift to New Energy Vehicles — is now expected to be margin dilutive for the full year. Despite this, EPS growth of c.10% is held, supported by momentum in the Americas and Europe & Africa, one-off tax benefits from a corporate re-organisation and translational currency tailwinds."
+    },
+    "explainer": "Inchcape distributes vehicles for manufacturers in markets around the world, so the key gauges are its own sales volumes versus Total Industry Volumes (TIV, the whole market). \"Organic\" strips out acquisitions and currency moves: group volumes rose 3% but organic revenue only 1%, meaning most of the 7% reported revenue growth to £2.5bn came from bought-in businesses and newly won distribution contracts rather than underlying demand. The company has not printed prior-year absolute figures, so the comparatives here are the stated percentage changes only.\n\nThe regional picture is sharply split. The Americas and Europe & Africa grew well, but Australia collapsed — Inchcape's volumes there fell 50% while the overall market edged up 1%, as a weakening key brand lost ground in a market rapidly moving to New Energy Vehicles. That dragged the whole APAC region down 37%.\n\nThe guidance change is the main news: full-year adjusted operating margin is now expected at about 5.5%, below what was previously signalled, because Australia has flipped from neutral to margin-dilutive. Importantly, adjusted earnings per share growth of about 10% is unchanged — the profit hit is being offset by a one-off reduction in the tax rate from an internal reorganisation and by favourable currency translation. Volume and cash-conversion targets are also held, so the downgrade is specifically to profitability in one region rather than a broad profit warning.",
+    "source_url": "https://uk.advfn.com/stock-market/london/inchcape-INCH/share-news/Inchcape-PLC-Q3-2026-Trading-Update/99537588",
+    "related_news_url": "https://news.google.com/search?q=%22Inchcape%20plc%22",
+    "added_at": "2026-10-22T07:59:40.230028"
+  },
+  {
     "company": "Essentra PLC",
     "ticker": "ESNT",
     "publish_date": "22 October 2026",
