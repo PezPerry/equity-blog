@@ -1,5 +1,56 @@
 [
   {
+    "company": "Auction Technology Group PLC",
+    "ticker": "ATG",
+    "publish_date": "22 October 2026",
+    "date_iso": "2026-10-22",
+    "time_period": "FY to 30 September 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "FY to 30 September 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>FY26 revenue and adjusted EBITDA</strong> expected <strong>slightly ahead</strong> of current market expectations, with revenue of <strong>c.$251m</strong> (vs consensus mid-point <strong>$249.9m</strong>).</li><li>Adjusted EBITDA margin expected <strong>just above 34.5%</strong>, within the guidance range set at the FY25 results.</li><li>Strong growth from <strong>Chairish</strong>, plus delivery of expected operational synergies and progress on <strong>LiveAuctioneers</strong> and the <strong>Proxibid</strong> replatforming.</li><li>Adjusted net debt to adjusted EBITDA expected at <strong>c.1.5x</strong>, in line with expectations; Board considering options for returning excess capital, with detail at FY26 results.</li><li><strong>FY27</strong> expected in line with current market expectations — described as a year of strong earnings growth.</li><li>FY26 results to be released on <strong>Tuesday 24 November 2026</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "ATG expects FY26 revenue of c.$251m with revenue and adjusted EBITDA slightly ahead of market expectations, and FY27 in line.",
+    "priority": "high",
+    "priority_reason": "Pre-close trading update with FY26 revenue and EBITDA slightly ahead of market expectations and FY27 outlook confirmed.",
+    "figures": [
+      {
+        "metric": "Revenue",
+        "current": "c.$251m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "vs consensus",
+        "note": "FY26 to 30 September 2026; company-compiled consensus range $247.8m–$252.1m, mid-point $249.9m"
+      },
+      {
+        "metric": "Adjusted EBITDA margin",
+        "current": "just above 34.5%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "within FY25 guidance range",
+        "note": "FY26; consensus adjusted EBITDA range $85.5m–$86.7m, mid-point $86.3m"
+      },
+      {
+        "metric": "Adjusted net debt / adjusted EBITDA",
+        "current": "c.1.5x",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "in line with expectations",
+        "note": "FY26 year-end"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "FY27 current market expectations: revenue range $258.2m–$274.6m (mid-point $262.7m); adjusted EBITDA range $93.6m–$100.8m (mid-point $95.9m)",
+      "current": "FY27 performance expected in line with current market expectations, a year of strong earnings growth",
+      "commentary": "FY26 is set to come in slightly ahead of expectations, while the FY27 outlook is confirmed in line with the market. The company flags actions taken over the summer to set up for investment-led growth through 2027 into 2028."
+    },
+    "explainer": "This is a pre-close update for the year ended 30 September 2026, ahead of full results on 24 November. ATG expects revenue of about $251m and adjusted EBITDA slightly ahead of what analysts had pencilled in. The comparatives quoted are company-compiled analyst expectations (consensus), not prior-year figures: FY26 revenue consensus ran $247.8m–$252.1m (mid $249.9m), so c.$251m sits towards the top of that range.\n\n\"Adjusted\" EBITDA and margin exclude one-off and non-cash items, so the headline 34.5%-plus margin is a cleaned-up measure; ATG notes it sits within the range guided at the FY25 results. Net debt of about 1.5x adjusted EBITDA points to continued cash generation and capital discipline, and the Board is weighing returns of excess capital — likely a buyback or special dividend — to be detailed with results.\n\nOn guidance, FY27 is simply confirmed as in line with current consensus (revenue mid-point $262.7m, adjusted EBITDA mid-point $95.9m), framed as a year of strong earnings growth. Management flags summer actions to enable investment for growth through 2027 into 2028, implying spend is being front-loaded to support later expansion.",
+    "source_url": "https://uk.advfn.com/stock-market/london/auction-technology-ATG/share-news/Auction-Technology-Group-PLC-Trading-Statement/99537612",
+    "related_news_url": "https://news.google.com/search?q=%22Auction%20Technology%20Group%20plc%22",
+    "added_at": "2026-10-22T08:00:15.505741"
+  },
+  {
     "company": "Inchcape plc",
     "ticker": "INCH",
     "publish_date": "22 October 2026",
