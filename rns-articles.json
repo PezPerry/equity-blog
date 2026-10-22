@@ -1,5 +1,80 @@
 [
   {
+    "company": "Pearson plc",
+    "ticker": "PSON",
+    "publish_date": "22 October 2026",
+    "date_iso": "2026-10-22",
+    "time_period": "Nine months and Q3 to 30 September 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "Nine months and Q3 to 30 September 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Underlying group revenue up 5%</strong> over the nine months, with growth accelerating to <strong>6% in Q3</strong>, in line with expectations; on track for 2026 guidance.</li><li>2026 adjusted operating profit range <strong>narrowed to GBP650m-GBP675m</strong> (previously <strong>GBP640m-GBP685m</strong>) at FX as at end-2025 (GBP:$ 1.35); mid-single-digit underlying revenue growth and <strong>90%-100%</strong> free cash flow conversion maintained.</li><li>Completed acquisition of <strong>ITS</strong> (assessment technology) and agreed to acquire <strong>Workera</strong> (AI-native enterprise skills verification), expected to complete before year end.</li><li>Re-segmenting into <strong>four customer-focused business units from 1 January 2027</strong>; one-off reorganisation costs of <strong>c.GBP50m</strong> across FY26-FY27 (c.half non-cash), excluded from adjusted operating profit.</li><li>Divisional nine-month growth: <strong>Virtual Learning +17%</strong>, <strong>Enterprise Learning & Skills +7%</strong>, <strong>Assessment & Qualifications +4%</strong> (Q3 +10%), <strong>Higher Education +2%</strong>, <strong>English Language Learning -4%</strong> on weak PTE.</li><li><strong>Tom ap Simon</strong>, President Higher Education and Virtual Learning, is leaving Pearson; next update is 2026 Preliminary Results on <strong>25 February 2027</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Pearson reports accelerated Q3 underlying revenue growth of 6%, narrows 2026 adjusted operating profit guidance to GBP650m-GBP675m and announces two assessment acquisitions.",
+    "priority": "high",
+    "priority_reason": "Nine-month trading update with narrowed profit guidance, two acquisitions and a group re-segmentation.",
+    "figures": [
+      {
+        "metric": "Underlying group revenue growth",
+        "current": "+5%",
+        "prior": "not stated",
+        "change": "+5%",
+        "basis": "underlying, excludes FX and portfolio changes",
+        "note": "nine months to 30 September 2026; Q3 +6%"
+      },
+      {
+        "metric": "Assessment & Qualifications revenue growth",
+        "current": "+4%",
+        "prior": "not stated",
+        "change": "+4%",
+        "basis": "underlying",
+        "note": "9M; Q3 +10%"
+      },
+      {
+        "metric": "Virtual Learning revenue growth",
+        "current": "+17%",
+        "prior": "not stated",
+        "change": "+17%",
+        "basis": "underlying",
+        "note": "9M; Q3 +13%; Fall enrolments +8%"
+      },
+      {
+        "metric": "Higher Education revenue growth",
+        "current": "+2%",
+        "prior": "not stated",
+        "change": "+2%",
+        "basis": "underlying",
+        "note": "9M and Q3; Inclusive Access +20%"
+      },
+      {
+        "metric": "English Language Learning revenue growth",
+        "current": "-4%",
+        "prior": "not stated",
+        "change": "-4%",
+        "basis": "underlying",
+        "note": "9M; Q3 -5% on weak PTE"
+      },
+      {
+        "metric": "Enterprise Learning & Skills revenue growth",
+        "current": "+7%",
+        "prior": "not stated",
+        "change": "+7%",
+        "basis": "underlying",
+        "note": "9M; Q3 +6%"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Adjusted operating profit of £640m-£685m; mid-single digit underlying revenue growth; free cash flow conversion 90%-100%.",
+      "current": "Adjusted operating profit narrowed to £650m-£675m at FX as at end-2025 (£:$ 1.35); mid-single digit underlying revenue growth; free cash flow conversion 90%-100%.",
+      "commentary": "Revenue and cash guidance are unchanged. The adjusted operating profit range has been narrowed — the floor raised and ceiling trimmed — leaving the midpoint broadly unchanged, reflecting greater confidence after accelerating Q3 growth. New c.£50m reorganisation costs and the 2025 product development impairment are excluded from adjusted operating profit."
+    },
+    "explainer": "All growth rates are underlying, meaning they strip out currency movements and acquisitions/disposals to show like-for-like performance versus the same period in 2025. Group revenue grew 5% over nine months, speeding up to 6% in Q3, which management frames as evidence they are on track for full-year guidance.\n\nThe headline guidance change is a narrowing of the adjusted operating profit range to £650m-£675m from £640m-£685m. This is not an upgrade in the usual sense: the midpoint is essentially unchanged (around £662.5m), but the band is tighter, signalling reduced uncertainty rather than a higher expected profit. Guidance is set at a fixed £:$ rate of 1.35, and Pearson flags that every 1 cent move in the rate is worth about £5m of adjusted operating profit.\n\nSeveral one-offs sit outside the adjusted figures. The group re-segmentation into four units from January 2027 will incur roughly £50m of reorganisation costs across FY26-FY27 (about half non-cash), weighted to FY26 and excluded from adjusted operating profit. Separately, a 2025 £87m non-cash impairment of legacy product-development assets lowers amortisation in 2026, modestly flattering reported profit.\n\nDivisional trends are mixed: Virtual Learning (+17%) and Enterprise Learning & Skills (+7%) are the standouts, Assessment & Qualifications accelerated to +10% in Q3 on demand for AI-skills verification, while English Language Learning fell 4% as the PTE migration-testing business faces tight migration policies and a tough prior-year comparator.",
+    "source_url": "https://uk.advfn.com/stock-market/london/pearson-PSON/share-news/Pearson-PLC-Pearson-2026-Nine-Month-Trading-Update/99537641",
+    "related_news_url": "https://news.google.com/search?q=%22Pearson%20plc%22",
+    "added_at": "2026-10-22T08:03:37.342318"
+  },
+  {
     "company": "AJ Bell PLC",
     "ticker": "AJB",
     "publish_date": "22 October 2026",
