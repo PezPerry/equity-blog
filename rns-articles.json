@@ -1,5 +1,96 @@
 [
   {
+    "company": "AJ Bell PLC",
+    "ticker": "AJB",
+    "publish_date": "22 October 2026",
+    "date_iso": "2026-10-22",
+    "time_period": "FY to 30 September 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "FY to 30 September 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>AJ Bell plc</strong> year-end trading update for <strong>FY to 30 September 2026</strong> reports record platform assets under administration of <strong>£126.0bn</strong>, up <strong>22%</strong> in the year.</li><li>Customer numbers rose <strong>152,000</strong> to <strong>796,000</strong>, up <strong>24%</strong>; D2C platform surpassed <strong>600,000</strong> customers with record net inflows of <strong>£7.8bn</strong>.</li><li>Advised platform delivered record gross inflows of <strong>£8.7bn</strong>; Q4 platform net inflows of <strong>£2.5bn</strong>, up <strong>47%</strong>, with net new platform customers of <strong>34,000</strong>, up <strong>42%</strong>.</li><li>Assets under management reached a record <strong>£12.1bn</strong>, up <strong>36%</strong> (FY25: £8.9bn), with record Investments net inflows of <strong>£1.9bn</strong>, up <strong>46%</strong> (FY25: £1.3bn).</li><li>Favourable market movements added <strong>£13.0bn</strong> (13% of opening AUA; FY25: £9.3bn); wind down of remaining third-party SIPP arrangement to complete in <strong>Q1 FY27</strong>.</li><li>Full-year results due <strong>3 December 2026</strong>; CEO <strong>Michael Summersgill</strong> cited continued investment in brand, marketing and platform propositions.</li></ul>",
+    "source_format": "html",
+    "headline": "AJ Bell reports record FY26 platform assets of £126.0bn, up 22%, with customer numbers up 24% to 796,000.",
+    "priority": "high",
+    "priority_reason": "Year-end trading update from a FTSE investment platform reporting record AUA, inflows and customer growth ahead of December results.",
+    "figures": [
+      {
+        "metric": "Platform AUA",
+        "current": "£126.0bn",
+        "prior": "not stated",
+        "change": "+22%",
+        "basis": "",
+        "note": "FY to 30 September 2026"
+      },
+      {
+        "metric": "Customer numbers",
+        "current": "796,000",
+        "prior": "644,000 (implied)",
+        "change": "+24% (+152,000)",
+        "basis": "",
+        "note": "closing, FY26"
+      },
+      {
+        "metric": "Assets under management (AUM)",
+        "current": "£12.1bn",
+        "prior": "£8.9bn",
+        "change": "+36%",
+        "basis": "",
+        "note": "FY25 comparative stated"
+      },
+      {
+        "metric": "Investments net inflows",
+        "current": "£1.9bn",
+        "prior": "£1.3bn",
+        "change": "+46%",
+        "basis": "",
+        "note": "FY25 comparative stated"
+      },
+      {
+        "metric": "Favourable market movements",
+        "current": "£13.0bn",
+        "prior": "£9.3bn",
+        "change": "not stated",
+        "basis": "13% of opening AUA",
+        "note": "FY25 comparative stated"
+      },
+      {
+        "metric": "D2C net inflows",
+        "current": "£7.8bn",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "record"
+      },
+      {
+        "metric": "Advised gross inflows",
+        "current": "£8.7bn",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "record"
+      },
+      {
+        "metric": "Q4 platform net inflows",
+        "current": "£2.5bn",
+        "prior": "not stated",
+        "change": "+47%",
+        "basis": "",
+        "note": "quarterly"
+      }
+    ],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": "No formal numerical guidance provided; update is a pre-results trading statement with full-year results due 3 December 2026."
+    },
+    "explainer": "This is AJ Bell's year-end trading update for its financial year to 30 September 2026, ahead of audited results on 3 December. It reports volume and flow metrics rather than profit or revenue figures, so there are no earnings or margin numbers here.\n\nThe key measures are assets under administration (AUA, total client money on the platform) at a record £126.0bn and assets under management (AUM, money in AJ Bell's own funds and managed portfolios) at £12.1bn. Growth comes from two sources: net inflows (new client money) and favourable market movements. The company flags that £13.0bn of the AUA increase, equal to 13% of opening assets, came from rising markets rather than new flows — a tailwind that can reverse if markets fall.\n\nComparatives are given against FY25 for AUM, Investments net inflows and market movements, all showing strong growth. Several headline figures (platform AUA growth, D2C and Advised inflows) are quoted as records or percentage increases without a full prior-year number printed.\n\nNo formal profit guidance is set in this update. The note also flags the wind-down of a legacy third-party (white-label) SIPP arrangement completing in Q1 FY27, with most associated customers and AUA migrating onto the AJ Bell D2C platform.",
+    "source_url": "https://uk.advfn.com/stock-market/london/aj-bell-AJB/share-news/AJ-Bell-PLC-Year-end-Trading-Update/99537640",
+    "related_news_url": "https://news.google.com/search?q=%22AJ%20Bell%20plc%22",
+    "added_at": "2026-10-22T08:02:59.502955"
+  },
+  {
     "company": "Renishaw plc",
     "ticker": "RSW",
     "publish_date": "22 October 2026",
