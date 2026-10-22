@@ -1,5 +1,130 @@
 [
   {
+    "company": "IP Group PLC",
+    "ticker": "IPO",
+    "publish_date": "22 October 2026",
+    "date_iso": "2026-10-22",
+    "time_period": "",
+    "announcement_type": "Fundraising",
+    "period_detail": "",
+    "type_workings": "Rule 'fundraising': opening bullets say 'raised £' [rns.json record]",
+    "body": "<ul><li><strong>IP Group plc</strong> flags a report by subsidiary <strong>Parkwalk</strong> and <strong>Beauhurst</strong> showing UK spinout investment reached <strong>£1.56bn</strong> in <strong>H1 2026</strong>, the second-highest half-year in a decade and up <strong>38.2%</strong> on H2 2025.</li><li>Rebound driven by a few large rounds: four deals raised <strong>£709m</strong>, led by <strong>Oxford Quantum Circuits'</strong> <strong>£260m</strong> round; <strong>Quantum Motion</strong> and <strong>Fractile</strong> also featured.</li><li>First-time equity investment fell <strong>68.3%</strong> year-on-year, from <strong>£148m</strong> to <strong>£47.0m</strong>, with first-time deals down to <strong>44</strong> — Parkwalk warns the future spinout pipeline is under strain and urges the Government to strengthen <strong>EIS</strong>.</li><li><strong>Parkwalk</strong> and <strong>IP Group</strong> remained the most active UK spinout investors with <strong>42 deals</strong> over the year to H1 2026 and <strong>98</strong> later-stage deals over the decade.</li><li>Routine market-report/PR note on the wider spinout ecosystem — <strong>no impact</strong> on IP Group's own trading or guidance; contains no company financials.</li></ul>",
+    "source_format": "html",
+    "headline": "IP Group notes a Parkwalk/Beauhurst report showing UK university spinout investment hit £1.56bn in H1 2026, but first-time funding collapsed 68%.",
+    "priority": "low",
+    "priority_reason": "Market commentary flagging a Parkwalk/Beauhurst report on the UK spinout sector, not IP Group's own results, trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/ip-group--ipo/uk-spinout-investment-surges-to-1-56bn/9835297",
+    "related_news_url": "https://news.google.com/search?q=%22IP%20Group%22",
+    "added_at": "2026-10-22T07:36:04.672940"
+  },
+  {
+    "company": "IG Group Holdings PLC",
+    "ticker": "IGG",
+    "publish_date": "22 October 2026",
+    "date_iso": "2026-10-22",
+    "time_period": "Q3 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "Q3 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>IG Group</strong> hosting a <strong>Capital Markets Event</strong> from <strong>14:00 UK time</strong> at <strong>UBS, 5 Broadgate, London</strong>, setting out priorities from the <strong>19 March 2026</strong> strategic review alongside maintained medium-term guidance and a refined capital allocation framework.</li><li><strong>Q3 2026</strong> Group total revenue <strong>£240.5m</strong>, down <strong>14%</strong> year-on-year and <strong>21%</strong> quarter-on-quarter; net trading revenue <strong>£212.3m</strong>, down <strong>15%</strong> YoY.</li><li><strong>2026 guidance unchanged</strong> from the <strong>2 October 2026</strong> trading update: total revenue growth in a <strong>mid-single-digit %</strong> range and Group EBITDA margin in the <strong>low-40s %</strong> range (excluding ~<strong>£30m</strong> non-recurring redomicile/restructuring costs and Underdog deal expenses).</li><li>Strategic review outcomes confirmed: proposed <strong>redomicile to Jersey</strong> effective late 2026/early 2027, a refreshed three-division model (<strong>IG Consumer, IG Securities, tastytrade</strong>), and the proposed acquisition of <strong>Underdog</strong> on track to complete late 2026/early 2027.</li><li><strong>OTC derivatives</strong> revenue <strong>£156.1m</strong>, down <strong>18%</strong> YoY; return to volume (RtV) of <strong>70%</strong> within modelled range, with OTC customer income up ~<strong>8%</strong>. Total assets under administration a record <strong>£22.4bn</strong>.</li><li>Capital allocation refined: commitment to investment grade rating, progressive ordinary dividend maintained, and <strong>share buybacks expected to resume in 2027</strong>, subject to share price and capital demands.</li></ul>",
+    "source_format": "html",
+    "headline": "IG hosts Capital Markets Event confirming unchanged 2026 and medium-term guidance, with Q3 total revenue down 14% year-on-year to £240.5m.",
+    "priority": "high",
+    "priority_reason": "Capital Markets Event sets out strategic review outcomes and reconfirms guidance, alongside detailed Q3 2026 divisional trading showing a 14% revenue decline.",
+    "figures": [
+      {
+        "metric": "Total revenue",
+        "current": "£240.5m",
+        "prior": "£280.1m",
+        "change": "-14%",
+        "basis": "year-on-year",
+        "note": "Q3 2026 vs Q3 2025; -21% QoQ vs £302.8m"
+      },
+      {
+        "metric": "Net trading revenue",
+        "current": "£212.3m",
+        "prior": "£249.5m",
+        "change": "-15%",
+        "basis": "year-on-year",
+        "note": "Q3 2026 vs Q3 2025; -23% QoQ"
+      },
+      {
+        "metric": "OTC derivatives revenue",
+        "current": "£156.1m",
+        "prior": "£189.9m",
+        "change": "-18%",
+        "basis": "year-on-year",
+        "note": "Q3 2026 vs Q3 2025"
+      },
+      {
+        "metric": "Exchange traded derivatives revenue",
+        "current": "£39.4m",
+        "prior": "£39.6m",
+        "change": "-1%",
+        "basis": "year-on-year",
+        "note": "Q3 2026 vs Q3 2025, driven by tastytrade"
+      },
+      {
+        "metric": "Stock trading & investments revenue",
+        "current": "£13.6m",
+        "prior": "£19.7m",
+        "change": "-31%",
+        "basis": "year-on-year",
+        "note": "Q3 2026 vs Q3 2025"
+      },
+      {
+        "metric": "Spot crypto revenue",
+        "current": "£3.2m",
+        "prior": "£0.3m",
+        "change": "not stated",
+        "basis": "year-on-year",
+        "note": "reflects Independent Reserve consolidation from 30 Jan 2026"
+      },
+      {
+        "metric": "Net interest income",
+        "current": "£28.2m",
+        "prior": "£30.5m",
+        "change": "-8%",
+        "basis": "year-on-year",
+        "note": "Q3 2026 vs Q3 2025"
+      },
+      {
+        "metric": "Monthly active customers",
+        "current": "864,700",
+        "prior": "741,500",
+        "change": "+17%",
+        "basis": "year-on-year",
+        "note": "organic +17% to 328,700"
+      },
+      {
+        "metric": "Assets under administration",
+        "current": "£22.4bn",
+        "prior": "£21.5bn",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "end-September 2026 vs 30 June 2026; new high"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "2026: mid-single-digit % total revenue growth; Group EBITDA margin in the low-40s % range (ex ~£30m non-recurring costs and Underdog expenses). Medium-term (ex Underdog): organic revenue growth of 10%+ CAGR from a 2025 base of ~£1,100m; EBITDA margin in the mid-40s % range.",
+      "current": "Unchanged from the Q3 trading update of 2 October 2026 — identical 2026 and medium-term targets reaffirmed.",
+      "commentary": "Guidance is explicitly unchanged across all horizons. On completion, Underdog is expected to lift combined Group medium-term revenue growth above IG's standalone organic rate, with the pro forma EBITDA margin initially below standalone and rising over the medium term as Underdog scales."
+    },
+    "explainer": "This is a strategy-day announcement bundled with IG's usual quarterly disclosure of revenue by product and division. The headline point for traders is that guidance has not moved: everything set out today matches the 2 October trading update, so there is no upgrade or downgrade.\n\nThe Q3 figures are weak on the face of it — total revenue down 14% year-on-year and down 21% on the prior quarter — but IG stresses the underlying picture. OTC net trading revenue fell 18% even though OTC customer income rose about 8%; the gap reflects 'return to volume' (RtV), the share of customer fees IG keeps as trading revenue, running at 70% in the quarter versus a modelled average nearer 80%. Management expects RtV to be structurally higher over time, so a low print here is partly a timing/market effect rather than lost business.\n\n'Organic' figures strip out acquired businesses (Freetrade, consolidated April 2025, and Independent Reserve, consolidated January 2026) plus disposals, giving a like-for-like view. Active customers (+17% YoY) and assets under administration (a record £22.4bn) are growing even as revenue falls, reflecting softer trading activity — notably in stock trading, where customers pulled back amid AI/tech valuation worries and caution ahead of possible UK capital gains tax changes in the Budget.\n\nOn capital: the dividend policy (progressive ordinary dividend) is unchanged, and share buybacks are flagged to resume in 2027 rather than now. The ~£30m of redomicile and restructuring costs, plus Underdog deal expenses, are excluded from the margin guidance as one-offs.",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/ig-group-holdings--igg/capital-markets-event/9835286",
+    "related_news_url": "https://news.google.com/search?q=%22IG%20Group%20Holdings%22",
+    "added_at": "2026-10-22T07:36:04.651413"
+  },
+  {
     "company": "Costain Group PLC",
     "ticker": "COST",
     "publish_date": "22 October 2026",
