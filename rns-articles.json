@@ -1,5 +1,88 @@
 [
   {
+    "company": "Rathbones Group Plc",
+    "ticker": "RAT",
+    "publish_date": "22 October 2026",
+    "date_iso": "2026-10-22",
+    "time_period": "Q3 and nine months to 30 September 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "Q3 and nine months to 30 September 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Total operating income</strong> of <strong>£243.6m</strong> in Q3, <strong>up 3.0%</strong> year on year, and <strong>£731.1m</strong> over nine months, <strong>up 6.7%</strong>.</li><li><strong>FUMA</strong> up <strong>7.2%</strong> YoY to <strong>£121.1bn</strong> at <strong>30 September 2026</strong> (30 June 2026: £120.7bn; 30 Sept 2025: £113.0bn), of which £112.9bn sits in Wealth Management.</li><li><strong>Wealth Management</strong> attracted <strong>net inflows of £24m</strong> in Q3 (Q3 2025: net outflows of £0.3bn), a second consecutive quarter of inflows despite the voluntary pause on Enhanced Due Diligence client inflows; nine-month net flows positive at £11m (vs £0.8bn outflows in 9M 2025).</li><li><strong>Asset Management</strong> saw <strong>net outflows of £425m</strong> in Q3 amid UK active equity retail pressure, taking <strong>Group net outflows to £401m</strong>.</li><li>Regulatory programme on track: expects to begin progressively lifting EDD client restrictions in <strong>Q4</strong>; estimated programme cost unchanged at <strong>~£60m</strong> net of insurance recoveries. Subsidiary <strong>Vision</strong> received an FCA <strong>section 166</strong> notice (~£2.5m cost) and run-rate pre-tax profit from Vision seen ~£4.0m lower from 2027.</li><li>Continues to expect to meet its <strong>underlying operating margin target of 28.7%</strong> in Q4; next trading update due <strong>14 January 2027</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Rathbones' nine-month operating income rose 6.7% and FUMA climbed 7.2% to £121.1bn, with Wealth Management posting a second straight quarter of net inflows.",
+    "priority": "high",
+    "priority_reason": "Quarterly trading update from a FTSE 250 wealth manager, with flows, income and margin guidance for the market.",
+    "figures": [
+      {
+        "metric": "Total operating income (Q3)",
+        "current": "£243.6m",
+        "prior": "not stated",
+        "change": "+3.0%",
+        "basis": "year on year",
+        "note": "three months to 30 September 2026"
+      },
+      {
+        "metric": "Total operating income (9 months)",
+        "current": "£731.1m",
+        "prior": "not stated",
+        "change": "+6.7%",
+        "basis": "year on year",
+        "note": "nine months to 30 September 2026"
+      },
+      {
+        "metric": "FUMA",
+        "current": "£121.1bn",
+        "prior": "£113.0bn",
+        "change": "+7.2%",
+        "basis": "year on year",
+        "note": "at 30 September 2026; 30 June 2026: £120.7bn"
+      },
+      {
+        "metric": "Wealth Management net flows (Q3)",
+        "current": "+£24m inflows",
+        "prior": "-£0.3bn outflows",
+        "change": "not stated",
+        "basis": "",
+        "note": "Q3 2026 vs Q3 2025"
+      },
+      {
+        "metric": "Wealth Management net flows (9 months)",
+        "current": "+£11m inflows",
+        "prior": "-£0.8bn outflows",
+        "change": "not stated",
+        "basis": "",
+        "note": "nine months 2026 vs 2025"
+      },
+      {
+        "metric": "Asset Management net flows (Q3)",
+        "current": "-£425m outflows",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "Group net flows (Q3)",
+        "current": "-£401m outflows",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "Q3 2026"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Underlying operating margin target of 28.7% in Q4, subject to conditions on FUMA growth, inflation and interest rates set out on 27 February",
+      "current": "Continues to expect to meet its underlying operating margin target of 28.7% in Q4, subject to the same conditions",
+      "commentary": "The 28.7% Q4 margin target is reaffirmed, supported by the planned Q4 Salesforce implementation and ongoing cost efficiencies. Separately, run-rate pre-tax profit from the Vision subsidiary is now expected to be around £4.0m lower from 2027, and a ~£2.5m provision has been taken for Vision's FCA section 166 review; the broader regulatory programme cost estimate is unchanged at ~£60m net of insurance recoveries."
+    },
+    "explainer": "This is a quarterly trading statement rather than full accounts, so it reports income, client assets and flows rather than profit. FUMA (funds under management and administration) is the total pool of client money Rathbones oversees; the 7.2% year-on-year rise to £121.1bn was driven mainly by positive markets and investment performance rather than new client money, since net flows were close to flat.\n\nNet flows are the balance of money coming in versus going out. The headline improvement is that Wealth Management swung to £24m of net inflows in Q3, against £0.3bn of outflows a year earlier, and is marginally positive over nine months versus £0.8bn of outflows in the same period of 2025. This matters because flows had been weak, and the figures come despite a self-imposed pause on taking money from Enhanced Due Diligence clients and caution ahead of the UK Autumn Budget. Asset Management, by contrast, is still losing money (£425m of Q3 outflows) reflecting weak demand for UK active equity funds, which dragged the group to net outflows overall.\n\nOn guidance, the 28.7% underlying operating margin target for Q4 is maintained, not changed, and remains conditional on FUMA growth, inflation and interest rates. The main new negatives are at the Vision financial-planning subsidiary: an FCA section 166 (skilled person) review carrying a ~£2.5m cost, and a ~£4.0m reduction in run-rate pre-tax profit from 2027 as adviser firms leave the network. The wider remediation programme cost estimate is unchanged at about £60m net of insurance recoveries, with further detail promised at the 2026 preliminary results in February.",
+    "source_url": "https://uk.advfn.com/stock-market/london/rathbones-RAT/share-news/Rathbones-Group-PLC-Third-quarter-trading-update/99537626",
+    "related_news_url": "https://news.google.com/search?q=%22Rathbones%20Group%20Plc%22",
+    "added_at": "2026-10-22T08:01:27.180414"
+  },
+  {
     "company": "Bloomsbury Publishing Plc",
     "ticker": "BMY",
     "publish_date": "22 October 2026",
