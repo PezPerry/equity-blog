@@ -1,5 +1,31 @@
 [
   {
+    "company": "Costain Group PLC",
+    "ticker": "COST",
+    "publish_date": "22 October 2026",
+    "date_iso": "2026-10-22",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Costain Group PLC</strong> has appointed <strong>Joh. Berenberg, Gossler & Co. KG, London Branch</strong> as <strong>Joint Corporate Broker</strong> with immediate effect.</li><li><strong>Berenberg</strong> will work alongside the Group's existing corporate broker, <strong>Investec Bank plc</strong>.</li><li>Routine advisory appointment with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Costain appoints Berenberg as joint corporate broker, working alongside existing broker Investec Bank.",
+    "priority": "low",
+    "priority_reason": "Routine appointment of an additional corporate broker with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/costain-group--cost/appointment-of-joint-corporate-broker/9835284",
+    "related_news_url": "https://news.google.com/search?q=%22Costain%20Group%22",
+    "added_at": "2026-10-22T07:18:54.375679"
+  },
+  {
     "company": "Rentokil Initial PLC",
     "ticker": "RTO",
     "publish_date": "22 October 2026",
