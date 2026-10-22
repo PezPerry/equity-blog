@@ -1,5 +1,64 @@
 [
   {
+    "company": "Essentra PLC",
+    "ticker": "ESNT",
+    "publish_date": "22 October 2026",
+    "date_iso": "2026-10-22",
+    "time_period": "Q3 FY26 (13 weeks to 26 September 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "Q3 FY26 (13 weeks to 26 September 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Q3 revenue up 14.6%</strong> at constant currency on a working-day-adjusted basis, comprising <strong>like-for-like growth of 10.8%</strong> and a <strong>3.8%</strong> contribution from the <strong>Device Technologies</strong> and <strong>Boteco</strong> acquisitions.</li><li>Board now expects <strong>FY26 adjusted operating profit towards the upper end</strong> of the company-compiled market range of <strong>£32.3m to £34.3m</strong> (as at 21 October 2026); full-year revenue growth now expected to exceed previous guidance.</li><li>Like-for-like growth broad-based: <strong>EMEA</strong> high single-digit, <strong>Americas</strong> low double-digit (with improving service levels at its Mexico facility), <strong>APAC</strong> low double-digit led by <strong>China</strong>.</li><li>Stronger revenue and underlying margin improvement are funding further investment in the Growth and Simplification programme plus a modest build-back of variable compensation, supporting a <strong>14% margin target in 2028</strong>.</li><li>Integration of Device Technologies and Boteco on track, with first Device Technologies products added to the range in Q4; bolt-on acquisition pipeline remains active.</li></ul>",
+    "source_format": "html",
+    "headline": "Essentra reports 14.6% constant-currency Q3 revenue growth and now expects FY26 adjusted operating profit towards the upper end of market expectations.",
+    "priority": "high",
+    "priority_reason": "Q3 trading update with a guidance upgrade — FY26 adjusted operating profit now seen towards the upper end of market expectations.",
+    "figures": [
+      {
+        "metric": "Revenue growth",
+        "current": "+14.6%",
+        "prior": "not stated",
+        "change": "+14.6%",
+        "basis": "constant currency, working-day adjusted",
+        "note": "Q3, 13 weeks to 26 September 2026"
+      },
+      {
+        "metric": "Like-for-like revenue growth",
+        "current": "+10.8%",
+        "prior": "not stated",
+        "change": "+10.8%",
+        "basis": "excludes acquisitions and FX",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "Acquisition contribution to revenue growth",
+        "current": "+3.8%",
+        "prior": "not stated",
+        "change": "+3.8%",
+        "basis": "Device Technologies and Boteco",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "FY26 adjusted operating profit (market range)",
+        "current": "£32.3m–£34.3m, towards upper end",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "company-compiled range as at 21 October 2026",
+        "note": "FY26 guidance"
+      }
+    ],
+    "guidance": {
+      "status": "raised",
+      "previous": "Prior full-year revenue growth guidance (figure not stated in this update); FY26 adjusted operating profit previously in line with a company-compiled market range of £32.3m to £34.3m.",
+      "current": "FY26 revenue growth now expected to exceed previous guidance; FY26 adjusted operating profit now expected towards the upper end of the £32.3m–£34.3m market range.",
+      "commentary": "Guidance has been upgraded on stronger-than-expected volume growth and disciplined pricing that is recovering elevated inflation costs. The profit point within the existing market range has moved up rather than the range itself being formally reset."
+    },
+    "explainer": "This is a Q3 trading statement covering the 13 weeks to 26 September 2026, not full results, so Essentra reports growth rates rather than absolute revenue and profit figures. The headline 14.6% revenue growth is measured at constant currency and adjusted for the number of working days, which strips out both exchange-rate swings and calendar effects to show the underlying trend. Of that, 10.8% is 'like-for-like' — the organic growth from the existing business — with the remaining 3.8% coming from the Device Technologies and Boteco acquisitions.\n\nThe key message for traders is the guidance upgrade. Essentra now expects full-year revenue growth to beat its previous guidance, and the Board expects FY26 adjusted operating profit to land towards the upper end of the company-compiled market expectations range of £32.3m to £34.3m. 'Adjusted' operating profit excludes one-off and non-underlying items, and the range is one Essentra itself collated from analysts as at 21 October 2026.\n\nManagement is choosing to reinvest part of the upside — into its Growth and Simplification programme and a phased rebuild of variable (bonus) pay — rather than drop it all to the bottom line. That reinvestment is framed as supporting the medium-term goal of a 14% operating margin by 2028, so near-term profit is being balanced against building out future margin delivery.",
+    "source_url": "https://uk.advfn.com/stock-market/london/essentra-ESNT/share-news/Essentra-plc-Q3-2026-Trading-Update/99537602",
+    "related_news_url": "https://news.google.com/search?q=%22Essentra%20plc%22",
+    "added_at": "2026-10-22T07:59:06.749875"
+  },
+  {
     "company": "IP Group PLC",
     "ticker": "IPO",
     "publish_date": "22 October 2026",
