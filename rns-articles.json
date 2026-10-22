@@ -1,5 +1,31 @@
 [
   {
+    "company": "United Rentals Inc",
+    "ticker": "URI",
+    "publish_date": "21 October 2026",
+    "date_iso": "2026-10-21",
+    "time_period": "Q3 2026 (three months to 30 September 2026) / FY2026",
+    "announcement_type": "Quarterly results",
+    "period_detail": "Q3 2026 (three months to 30 September 2026) / FY2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>United Rentals</strong> reported <strong>record Q3 2026</strong> financial results and raised its <strong>FY2026</strong> guidance.</li><li>The scraped text does <strong>not</strong> contain the headline figures — <strong>revenue, adjusted EBITDA, net income or adjusted EPS were not captured</strong> (results tables omitted); figures below cannot be stated.</li><li>Raised FY2026 <strong>net rental capital expenditure</strong> guidance given as <strong>$3.75bn–$4.05bn</strong> (after gross purchases of <strong>$5.2bn–$5.5bn</strong>), versus a prior range shown as <strong>$3.4bn–$3.8bn</strong> (gross <strong>$4.85bn–$5.25bn</strong>) — the source does not explicitly label which line is new versus prior, so direction is inferred.</li><li>CEO <strong>Matthew Flannery</strong> said raised guidance reflects customer confidence, backlogs and momentum on large projects.</li><li>Conference call scheduled for <strong>Thursday, 22 October 2026, 8:30am ET</strong>; webcast at unitedrentals.com.</li><li>Note: US issuer (<strong>NYSE: URI</strong>), not a UK RNS filing — reported in US dollars under US GAAP/non-GAAP measures.</li></ul>",
+    "source_format": "html",
+    "headline": "United Rentals reported record third-quarter 2026 results and raised its full-year 2026 guidance, citing momentum across general and specialty rentals.",
+    "priority": "high",
+    "priority_reason": "Record Q3 results accompanied by a raised full-year 2026 guidance, both market-moving events.",
+    "figures": [],
+    "guidance": {
+      "status": "raised",
+      "previous": "Net rental capex of $3.4bn–$3.8bn (after gross purchases of $4.85bn–$5.25bn), per the prior-outlook line shown",
+      "current": "Net rental capex of $3.75bn–$4.05bn (after gross purchases of $5.2bn–$5.5bn)",
+      "commentary": "Management states it has raised its 2026 outlook on the back of record Q3 performance. The only quantified elements captured in the scraped text are the net rental capex and gross purchase ranges; raised revenue and adjusted EBITDA targets are referenced but their specific figures were not captured. The source does not explicitly label which capex range is the new guidance versus the prior one."
+    },
+    "explainer": "United Rentals is the world's largest equipment-rental company, listed in New York (NYSE: URI), so these are US-dollar figures reported under US GAAP with supplementary non-GAAP measures such as adjusted EBITDA, adjusted EPS and free cash flow. \"Record\" here refers to the strongest third quarter in the company's history, with growth across both its general rental and specialty divisions.\n\nThe company says it has raised its full-year 2026 guidance, pointing to customer backlogs and large-project momentum. However, the scraped page did not include the results tables, so the key headline numbers — revenue, adjusted EBITDA, net income and adjusted EPS, together with the raised revenue and EBITDA targets — are not present in the text and have not been reproduced here.\n\nThe only quantified guidance captured is capital expenditure: net rental capex (gross equipment purchases less proceeds from used-equipment sales) and the underlying gross purchase ranges. Higher capex guidance typically signals management investing into stronger demand. The two ranges shown are not clearly labelled as new versus prior in the scraped text, so the raised direction is inferred rather than explicitly stated.",
+    "source_url": "https://uk.advfn.com/stock-market/NYSE/URI/share-news/United-Rentals-Announces-Record-Third-Quarter-Resu/99536497",
+    "related_news_url": "https://news.google.com/search?q=%22United%20Rentals%2C%20Inc.%22",
+    "added_at": "2026-10-22T07:16:34.044110"
+  },
+  {
     "company": "Tractor Supply Company",
     "ticker": null,
     "publish_date": "21 October 2026",
