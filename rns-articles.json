@@ -1,5 +1,31 @@
 [
   {
+    "company": "Helical PLC",
+    "ticker": "HLCL",
+    "publish_date": "22 October 2026",
+    "date_iso": "2026-10-22",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>Helical plc</strong> has exchanged an Agreement for Lease with <strong>FGS Global</strong> for the sixth, eighth and ninth floors at <strong>Brettenham House, London WC2</strong> — <strong>23,887 sq ft</strong> of prime office space plus a private Thames-facing terrace.</li><li><strong>FGS Global</strong>, the strategic leadership advisory firm, takes occupation in <strong>January 2027</strong> on a <strong>10-year term</strong>.</li><li>This is the initial letting at the <strong>128,000 sq ft</strong> 1930s Art Deco building, with practical completion of the refurbishment due at the <strong>end of October 2026</strong> and strong interest reported in the remaining space.</li><li>Helical is delivering the project for owner <strong>Thames Brettenham Limited</strong> under a development management agreement, earning a development management fee plus a profit share linked to rental performance payable once the building is successfully let.</li></ul>",
+    "source_format": "html",
+    "headline": "Helical exchanges an Agreement for Lease with FGS Global for 23,887 sq ft over three floors at the refurbished Brettenham House on a 10-year term.",
+    "priority": "medium",
+    "priority_reason": "A material initial letting that triggers Helical's development management fee and rental-linked profit share, but not a results or guidance event.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/helical-HLCL/share-news/Helical-PLC-Major-letting-agreed-at-Brettenham-Hou/99543209",
+    "related_news_url": "https://news.google.com/search?q=%22Helical%20plc%22",
+    "added_at": "2026-10-22T14:56:27.396332"
+  },
+  {
     "company": "Tractor Supply Company",
     "ticker": null,
     "publish_date": "22 October 2026",
