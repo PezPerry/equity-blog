@@ -1,5 +1,88 @@
 [
   {
+    "company": "FirstCash Inc",
+    "ticker": "FCFS",
+    "publish_date": "22 October 2026",
+    "date_iso": "2026-10-22",
+    "time_period": "Q3 2026 (quarter ended 30 September 2026)",
+    "announcement_type": "Quarterly results",
+    "period_detail": "Q3 2026 (quarter ended 30 September 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Record Q3</strong> operating results: <strong>pawn revenue up 28%</strong>, with record <strong>$908m</strong> in pawn receivables and double-digit same-store pawn receivable and fee growth across all geographies.</li><li>Quarterly cash dividend raised <strong>10% to $0.46 per share</strong>, payable in <strong>November</strong>; prior per-share rate not stated in the release.</li><li><strong>Trailing-twelve-month</strong> figures: revenue <strong>$4.3bn</strong>, net income <strong>$406m</strong>, adjusted EBITDA <strong>$835m</strong> (no prior-year comparatives given).</li><li>Returned cash to shareholders via <strong>$123m</strong> of buybacks in Q3 (<strong>$250m</strong> year-to-date); added <strong>14</strong> pawn stores in the quarter, <strong>42</strong> year-to-date across four countries.</li><li>Revolving unsecured credit facility expanded from <strong>$700m to over $1bn</strong>, committed through <strong>August 2031</strong>; primary focus on completing the UK <strong>Ramsdens</strong> acquisition, with FirstPawn system now rolled out across all <strong>H&T</strong> stores.</li><li>Source gives growth rates (e.g. <strong>+28%</strong>) and record levels but does not print paired absolute current/prior figures for most pawn metrics.</li></ul>",
+    "source_format": "html",
+    "headline": "FirstCash posts record third-quarter results with pawn revenue up 28% and lifts its quarterly dividend 10% to $0.46 per share.",
+    "priority": "high",
+    "priority_reason": "Record Q3 earnings with 28% pawn revenue growth, a 10% dividend rise and ongoing UK M&A (Ramsdens) — material results news.",
+    "figures": [
+      {
+        "metric": "Pawn segment revenue",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+28%",
+        "basis": "as reported",
+        "note": "Q3 2026 pawn revenue growth"
+      },
+      {
+        "metric": "Quarterly dividend",
+        "current": "$0.46 per share",
+        "prior": "not stated",
+        "change": "+10%",
+        "basis": "",
+        "note": "payable November 2026"
+      },
+      {
+        "metric": "Pawn receivables",
+        "current": "$908m (record)",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "quarter-end"
+      },
+      {
+        "metric": "Revenue (TTM)",
+        "current": "$4.3bn",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "trailing twelve months"
+      },
+      {
+        "metric": "Net income (TTM)",
+        "current": "$406m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "trailing twelve months"
+      },
+      {
+        "metric": "Adjusted EBITDA (TTM)",
+        "current": "$835m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "non-GAAP",
+        "note": "trailing twelve months"
+      },
+      {
+        "metric": "Share repurchases",
+        "current": "$123m (Q3); $250m YTD",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": ""
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Highly positive 2026 outlook with double-digit pawn revenue growth and operating margin expansion",
+      "current": "Outlook for the remainder of 2026 continues to be highly positive, with continued double-digit revenue growth and operating margin expansion expected from pawn operations in Q4; combined US, Latin America and UK pawn segments expected to be ~90% of total net revenue and segment pre-tax income for 2026. Estimates exclude any potential Q4 acquisitions.",
+      "commentary": "Guidance is reaffirmed rather than changed — management repeats confidence in double-digit pawn growth and margin expansion into Q4 and 2027, with the Ramsdens deal and other acquisitions treated as upside not yet in the numbers."
+    },
+    "explainer": "This is a US-listed pawn and retail-finance operator reporting a record third quarter. The standout figure — pawn revenue up 28% — is a growth rate; the release does not print the underlying current and prior-year dollar amounts side by side, so the exact revenue base behind that percentage is not given here. Several growth rates are also flagged as being measured on a constant (local) currency basis, stripping out the effect of the Mexican peso, which moved favourably by 8% in the quarter and 11% over nine months versus the prior year.\n\nThe $4.3bn revenue, $406m net income and $835m adjusted EBITDA are trailing-twelve-month figures, not quarterly, and no comparatives are shown, so they describe scale rather than growth. Adjusted EBITDA is a non-GAAP measure that excludes certain non-operating and non-cash items.\n\nOn guidance, nothing has been raised or cut: management simply reaffirms a positive 2026 outlook, expecting continued double-digit revenue growth and margin expansion from pawn in Q4, and notes these estimates exclude any further Q4 acquisitions. For UK readers the relevant angles are the pending Ramsdens acquisition (subject to anti-trust approval) and the completed rollout of the FirstPawn system across the H&T estate.\n\nThe 10% dividend increase to $0.46 per share and the $123m of quarterly buybacks signal confidence in cash generation, though the release does not state the previous per-share dividend rate.",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/FCFS/share-news/FirstCash-Reports-Record-Third-Quarter-Operating-R/99540071",
+    "related_news_url": "https://news.google.com/search?q=%22FirstCash%20Holdings%2C%20Inc.%22",
+    "added_at": "2026-10-22T11:56:27.555688"
+  },
+  {
     "company": "BT Group PLC",
     "ticker": "BT.A",
     "publish_date": "22 October 2026",
