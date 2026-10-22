@@ -1,5 +1,82 @@
 [
   {
+    "company": "London Stock Exchange Group plc",
+    "ticker": "LSEG",
+    "publish_date": "22 October 2026",
+    "date_iso": "2026-10-22",
+    "time_period": "",
+    "announcement_type": "Acquisition / deal",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>LSEG</strong> has agreed to acquire <strong>Octus</strong>, a provider of credit intelligence, data and workflows, for <strong>$3.535bn</strong> cash from funds advised by <strong>Permira</strong> and Octus' management, including founder <strong>Kent Collier</strong>.</li><li>Octus is expected to generate <strong>over $300m</strong> revenue in 2026 with <strong>strong double-digit growth</strong> and an adjusted EBITDA margin of <strong>around 40%</strong>; it has <strong>900+ employees</strong>, <strong>750 customers</strong> and <strong>40,000+ users</strong>.</li><li>Deal is <strong>immediately accretive</strong> to Data & Analytics organic revenue growth and <strong>additive</strong> to Group organic subscription revenue growth guidance of <strong>around 7%</strong> in 2027; <strong>neutral to Adjusted EPS</strong> in the first full year, accretive thereafter.</li><li>No change to medium-term guidance for underlying EBITDA margin to rise by a cumulative <strong>c.150bps over 2027-2029</strong> from the 2026 baseline; acquisition financed by <strong>external debt</strong>.</li><li>Leverage expected to be around the <strong>upper end</strong> of the <strong>1.5-2.5x</strong> target range at end-2027 (after the <strong>£3bn buyback</strong>, Octus and Trumid completions and a further <strong>£1-1.5bn</strong> buyback capacity), returning to mid-range by end-2028.</li><li>Transaction expected to close in <strong>H1 2027</strong>, subject to regulatory approval; announced alongside LSEG's <strong>Q3 2026</strong> trading update.</li></ul>",
+    "source_format": "html",
+    "headline": "LSEG to acquire credit-intelligence provider Octus for $3.535bn cash from Permira funds and management, closing H1 2027.",
+    "priority": "high",
+    "priority_reason": "A $3.535bn cash acquisition that materially expands LSEG's credit and private-markets data franchise, with guidance and leverage implications.",
+    "figures": [
+      {
+        "metric": "Consideration",
+        "current": "$3.535bn cash",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "From Permira funds and Octus management"
+      },
+      {
+        "metric": "Octus 2026 revenue (expected)",
+        "current": "over $300m",
+        "prior": "not stated",
+        "change": "strong double-digit growth",
+        "basis": "",
+        "note": "Double-digit compound growth since 2022"
+      },
+      {
+        "metric": "Octus adjusted EBITDA margin",
+        "current": "around 40%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": ""
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Group organic subscription revenue growth of around 7% in 2027; underlying EBITDA margin to increase by a cumulative c.150bps 2027-2029 from the 2026 baseline",
+      "current": "Deal additive to the around 7% 2027 organic subscription revenue growth guidance; no change to the c.150bps cumulative EBITDA margin guidance 2027-2029",
+      "commentary": "LSEG says the acquisition is additive to its existing organic subscription revenue growth target and leaves the medium-term margin guidance unchanged given Octus' strong margins; the deal is EPS-neutral in year one and accretive thereafter."
+    },
+    "explainer": "This is an acquisition announcement rather than a results statement, but it carries guidance read-across. Octus is a New York-headquartered specialist in illiquid and private credit data — sourcing hard-to-access documentation such as covenants and deal terms and turning it into structured, searchable data — complementing LSEG's existing liquid-credit offering (IFR, Yield Book, LPC). The stated $300m-plus 2026 revenue and ~40% EBITDA margin are LSEG's expectations for Octus as a standalone business, not combined figures.\n\nOn guidance, LSEG is not changing its numbers. It says the deal is \"additive\" to — i.e. supportive of, not an upgrade to — its existing target of around 7% Group organic subscription revenue growth in 2027, and leaves the medium-term target for underlying EBITDA margin (a cumulative c.150bps rise over 2027-2029 from the 2026 base) unchanged, because Octus' high margins offset the dilution typical of acquisitions.\n\nThe deal is debt-funded and EPS-neutral in the first full year after completion, turning accretive afterwards. Combined with the Trumid acquisition and the ongoing £3bn buyback, LSEG expects leverage to sit at the top of its 1.5-2.5x target range by end-2027 before normalising to the middle by end-2028, while still signalling capacity for a further £1-1.5bn of buybacks.",
+    "source_url": "https://uk.advfn.com/stock-market/london/london-stock-exchange-LSEG/share-news/London-Stock-Exchange-Group-PLC-LSEG-to-acquire-Oc/99537646",
+    "related_news_url": "https://news.google.com/search?q=%22London%20Stock%20Exchange%20Group%20plc%22",
+    "added_at": "2026-10-22T08:06:59.669998"
+  },
+  {
+    "company": "AstraZeneca PLC",
+    "ticker": "AZN",
+    "publish_date": "22 October 2026",
+    "date_iso": "2026-10-22",
+    "time_period": "",
+    "announcement_type": "Regulatory approval",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Ultomiris</strong> (ravulizumab), from <strong>Alexion, AstraZeneca Rare Disease</strong>, received <strong>US accelerated approval</strong> as the first and only C5 complement inhibitor to reduce proteinuria in adults with primary <strong>IgA nephropathy (IgAN)</strong> at risk of progression.</li><li>Approval based on a prespecified interim analysis of the <strong>I CAN Phase III</strong> trial, showing a <strong>43.4% placebo-adjusted reduction in proteinuria at 34 weeks</strong> (p<0.0001).</li><li>Marks the <strong>fifth indication</strong> for Ultomiris, which is already approved across PNH, aHUS, gMG and NMOSD.</li><li>Continued approval may depend on verification of clinical benefit; the trial's primary eGFR endpoint reads out at week 106, with data intended to support full FDA approval.</li><li>Late-breaking I CAN results to be presented at the <strong>American Society of Nephrology's Kidney Week on 23 October 2026</strong>; regulatory submissions also under review in <strong>Japan</strong> and other countries.</li><li>No financial figures or guidance provided in the announcement.</li></ul>",
+    "source_format": "html",
+    "headline": "AstraZeneca's Ultomiris wins US accelerated approval to reduce proteinuria in adults with primary IgA nephropathy, its fifth indication.",
+    "priority": "medium",
+    "priority_reason": "US accelerated approval of a new indication for an established rare-disease drug — materially positive product news but not a results, guidance or M&A event.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/astrazeneca-AZN/share-news/AstraZeneca-PLC-Ultomiris-approved-in-US-in-IgAN/99537683",
+    "related_news_url": "https://news.google.com/search?q=%22AstraZeneca%20PLC%22",
+    "added_at": "2026-10-22T08:06:40.701733"
+  },
+  {
     "company": "Pearson plc",
     "ticker": "PSON",
     "publish_date": "22 October 2026",
