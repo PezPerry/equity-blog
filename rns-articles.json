@@ -1,5 +1,56 @@
 [
   {
+    "company": "J Sainsbury plc",
+    "ticker": "SBRY",
+    "publish_date": "22 October 2026",
+    "date_iso": "2026-10-22",
+    "time_period": "H1 FY2026/27 (28 weeks ended 12 September 2026)",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 FY2026/27 (28 weeks ended 12 September 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>J Sainsbury plc</strong> reported <strong>interim results</strong> for the <strong>28 weeks ended 12 September 2026</strong>, citing volume growth, market share gains and <strong>underlying operating profit growth of 3.6%</strong> on continuing operations.</li><li>Guidance <strong>raised</strong>: previous range of <strong>£975m–£1,075m</strong> (equivalent to <strong>£965m–£1,065m</strong> on a continuing basis after removing Argos) lifted at the lower end to <strong>£1,025m–£1,065m</strong> underlying operating profit from continuing operations.</li><li><strong>Free cash flow of more than £500m</strong> for the year still expected; H1 free cash flow was <strong>£333m</strong>.</li><li><strong>Argos</strong> classified as a discontinued operation following the agreed sale to <strong>Swift Partners</strong>, expected to complete in <strong>February 2027</strong>; comparatives restated accordingly.</li><li>On track to deliver the <strong>£1bn</strong> cost-saving target (<strong>£2.3bn</strong> total over six years); <strong>Taste the Difference</strong> sales grew more than <strong>6%</strong>.</li><li>Q3 FY2026/27 trading statement due <strong>8 January 2027</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Sainsbury's raised the lower end of its profit guidance to £1,025m–£1,065m underlying operating profit from continuing operations after first-half volume and profit growth.",
+    "priority": "high",
+    "priority_reason": "Half-year results from a FTSE 100 grocer with a profit guidance upgrade.",
+    "figures": [
+      {
+        "metric": "Underlying operating profit",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+3.6%",
+        "basis": "continuing operations",
+        "note": "H1 to 12 September 2026"
+      },
+      {
+        "metric": "Free cash flow",
+        "current": "£333m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "H1 to 12 September 2026"
+      },
+      {
+        "metric": "Taste the Difference sales",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+6% (more than)",
+        "basis": "",
+        "note": "H1"
+      }
+    ],
+    "guidance": {
+      "status": "raised",
+      "previous": "Previous guidance of £975 million to £1,075 million (equivalent to £965 million to £1,065 million on a continuing operations basis, removing Argos's contribution)",
+      "current": "Underlying operating profit from continuing operations of between £1,025 million and £1,065 million; free cash flow still expected to be more than £500 million",
+      "commentary": "Sainsbury's lifted the lower end of its profit range by £60m versus the restated continuing-operations base, reflecting first-half volume and profit growth. The reclassification of Argos as a discontinued operation reduces the headline figure by about £10m, so the comparison must be made on the continuing basis rather than against the original £975m–£1,075m number."
+    },
+    "explainer": "These results cover the first 28 weeks of Sainsbury's financial year, to 12 September 2026. The key change is accounting: Argos, which Sainsbury's has agreed to sell to Swift Partners (completion expected February 2027), is now treated as a 'discontinued operation'. That means Argos's trading is stripped out of the headline numbers and prior-year comparatives have been restated, so the continuing business shown here is essentially the food business.\n\nBecause of that reclassification, the old profit guidance of £975m–£1,075m is not directly comparable. On a like-for-like continuing basis it equates to £965m–£1,065m. The new guidance of £1,025m–£1,065m therefore raises the floor of the range by £60m while leaving the top unchanged — an upgrade driven by first-half momentum rather than a one-off.\n\nUnderlying operating profit from continuing operations grew 3.6%, with the company emphasising volume growth and market-share gains despite heavy price investment (Nectar Prices and Aldi Price Match). Free cash flow of £333m in the half supports the full-year target of more than £500m.\n\nNote that figures here are 'underlying' (an adjusted measure the directors use alongside statutory IFRS numbers) and relate to continuing operations only. The announcement text quotes growth rates rather than printing both current and prior cash figures for most metrics, so several absolute comparatives are not stated in the extract provided.",
+    "source_url": "https://uk.advfn.com/stock-market/london/sainsbury-j-SBRY/share-news/SainsburyJ-PLC-Half-year-Financial-Report/99537642",
+    "related_news_url": "https://news.google.com/search?q=%22J%20Sainsbury%20plc%22",
+    "added_at": "2026-10-22T08:08:23.353917"
+  },
+  {
     "company": "London Stock Exchange Group plc",
     "ticker": "LSEG",
     "publish_date": "22 October 2026",
