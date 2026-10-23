@@ -1,5 +1,57 @@
 [
   {
+    "company": "Computacenter plc",
+    "ticker": "CCC",
+    "publish_date": "23 October 2026",
+    "date_iso": "2026-10-23",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Kelly Kuhn</strong>, Independent Non-Executive Director, appointed <strong>Interim Chair of the Remuneration Committee</strong> with effect from <strong>23 October 2026</strong>.</li><li>She replaces <strong>René Carayol</strong>, who is <strong>currently absent for personal reasons</strong>, on an interim basis pending his return.</li><li>Kuhn joined the Computacenter board in <strong>September 2024</strong> and is also a NED and Remuneration Committee Chair of <strong>ISS A/S</strong>.</li><li>Routine governance/board disclosure with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Computacenter appoints Kelly Kuhn as Interim Chair of the Remuneration Committee, replacing René Carayol who is absent for personal reasons.",
+    "priority": "low",
+    "priority_reason": "Interim committee-chair appointment covering a temporary absence; no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/computacenter-CCC/share-news/Computacenter-PLC-Appointment-Interim-Remuneration/99547492",
+    "related_news_url": "https://news.google.com/search?q=%22Computacenter%20plc%22",
+    "added_at": "2026-10-23T09:55:54.864631"
+  },
+  {
+    "company": "Barclays PLC",
+    "ticker": "BARC",
+    "publish_date": "23 October 2026",
+    "date_iso": "2026-10-23",
+    "time_period": "",
+    "announcement_type": "Buyback programme launch",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Barclays PLC</strong> to commence a new share buy-back of up to <strong>£500m</strong>, as flagged in its <strong>22 October 2026</strong> announcement.</li><li>Buy-back begins the business day after completion of the existing <strong>£1,000m</strong> programme started on <strong>29 July 2026</strong>, ending no later than <strong>16 April 2027</strong>.</li><li>Purchased <strong>Ordinary Shares</strong> will be cancelled to reduce share capital; <strong>J.P. Morgan Securities plc</strong> to conduct on-market purchases as riskless principal.</li><li>Operates under the <strong>2026 Authority</strong> (max 1,378,798,169 shares) granted at the <strong>7 May 2026</strong> AGM, less shares bought under the ongoing £1,000m programme.</li><li>No repurchases in the US or in respect of American Depositary Receipts.</li></ul>",
+    "source_format": "html",
+    "headline": "Barclays will start a new £500m share buy-back once its existing £1,000m programme completes, with shares cancelled to reduce capital.",
+    "priority": "medium",
+    "priority_reason": "Launch of a new £500m buy-back programme, a capital-return event rather than a routine daily dealing disclosure.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/barclays--barc/future-commencement-of-buy-back-programme/9838417",
+    "related_news_url": "https://news.google.com/search?q=%22Barclays%22",
+    "added_at": "2026-10-23T09:55:54.810498"
+  },
+  {
     "company": "UNITE Group PLC",
     "ticker": "UTG",
     "publish_date": "23 October 2026",
