@@ -1,5 +1,31 @@
 [
   {
+    "company": "Dorchester Minerals LP",
+    "ticker": "DMLP",
+    "publish_date": "23 October 2026",
+    "date_iso": "2026-10-23",
+    "time_period": "Q3 2026",
+    "announcement_type": "Dividend declaration",
+    "period_detail": "Q3 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Dorchester Minerals, L.P.</strong> announced its <strong>third quarter 2026</strong> cash distribution, a routine quarterly payout for the Dallas-based oil & gas mineral and royalty partnership (NASDAQ: <strong>DMLP</strong>).</li><li>Q3 cash receipts from <strong>Royalty Properties</strong> totalled approximately <strong>$37.0m</strong>, of which about <strong>80%</strong> reflects oil sales (<strong>June–August 2026</strong>) and gas sales (<strong>May–July 2026</strong>), and about <strong>20%</strong> from prior periods.</li><li><strong>Net Profits Interest</strong> receipts totalled approximately <strong>$3.0m</strong>, split roughly <strong>50/50</strong> between current-period (<strong>May–July 2026</strong>) and prior sales.</li><li><strong>Lease bonus and other income</strong> contributed approximately <strong>$6.3m</strong>; contributed cash from the <strong>acquisition that closed 31 July 2026</strong> totalled approximately <strong>$4.4m</strong>.</li><li>The per-unit distribution amount is not stated in the text provided; release also serves as qualified US tax-withholding notice for non-US investors.</li></ul>",
+    "source_format": "html",
+    "headline": "Dorchester Minerals declared its Q3 2026 distribution, with royalty cash receipts of approximately **$37.0m** and net profits interest receipts of approximately **$3.0m**.",
+    "priority": "medium",
+    "priority_reason": "Routine quarterly distribution declaration with underlying cash-receipt detail but no new guidance or strategic change.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/DMLP/share-news/Dorchester-Minerals-L-P-Announces-Its-Third-Quar/99545363",
+    "related_news_url": "https://news.google.com/search?q=%22Dorchester%20Minerals%2C%20L.P.%22",
+    "added_at": "2026-10-23T07:17:42.502494"
+  },
+  {
     "company": "Trustpilot Group PLC",
     "ticker": "TRST",
     "publish_date": "23 October 2026",
@@ -24,6 +50,32 @@
     "source_url": "https://uk.advfn.com/stock-market/london/trustpilot-TRST/share-news/Trustpilot-Group-PLC-Board-Committee-Membership-Ch/99544205",
     "related_news_url": "https://news.google.com/search?q=%22Trustpilot%20Group%20plc%22",
     "added_at": "2026-10-23T07:17:14.462189"
+  },
+  {
+    "company": "SLM Corporation",
+    "ticker": "SLM",
+    "publish_date": "22 October 2026",
+    "date_iso": "2026-10-22",
+    "time_period": "Q3 2026",
+    "announcement_type": "Quarterly results",
+    "period_detail": "Q3 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>SLM Corporation (Sallie Mae)</strong> published <strong>Q3 2026</strong> results on <strong>22 October 2026</strong>, hosting a <strong>5:30pm ET</strong> earnings call the same day.</li><li>The scraped announcement is a <strong>pointer release only</strong> — it carries <strong>no revenue, profit, EPS or dividend figures</strong>; full materials are at SallieMae.com/investors and on SEC.gov.</li><li>No figures, guidance or comparatives can be summarised from this text; the detailed results and presentation slides sit on the investor website.</li></ul>",
+    "source_format": "html",
+    "headline": "**Sallie Mae** released its **third quarter 2026** financial results, with full details hosted on its investor site rather than in this release.",
+    "priority": "high",
+    "priority_reason": "Quarterly financial results from a major private student lender, though the scraped text carries no figures.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/SLM/share-news/Sallie-Mae-Reports-Third-Quarter-2026-Financial-Re/99545537",
+    "related_news_url": "https://news.google.com/search?q=%22SLM%20Corporation%20(Sallie%20Mae)%22",
+    "added_at": "2026-10-23T07:17:42.475859"
   },
   {
     "company": "Old Mutual Ltd",
