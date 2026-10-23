@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-22",
+  "generated": "2026-10-23",
   "by_ticker": {
     "AAPL": {
       "date": "2026-10-31",
@@ -13,33 +13,21 @@
       "date": "2026-11-04",
       "event": "Annual report (Est)"
     },
-    "AJB": {
-      "date": "2026-10-22",
-      "event": "Trading statement"
-    },
     "ASHM": {
       "date": "2026-11-04",
       "event": "AGM (Conf)"
     },
-    "ATG": {
-      "date": "2026-10-22",
-      "event": "Trading statement"
-    },
     "BAG": {
       "date": "2026-11-06",
       "event": "Q2 div payment"
-    },
-    "BARC": {
-      "date": "2026-10-22",
-      "event": "Trading statement"
     },
     "BBY": {
       "date": "2026-10-29",
       "event": "Q2 ex-div"
     },
     "BPT": {
-      "date": "2026-10-22",
-      "event": "Special ex-div"
+      "date": "2026-10-26",
+      "event": "Q2 div payment"
     },
     "BTRW": {
       "date": "2026-11-04",
@@ -62,8 +50,8 @@
       "event": "AGM (Conf)"
     },
     "DNLM": {
-      "date": "2026-10-22",
-      "event": "Q4 ex-div"
+      "date": "2026-11-17",
+      "event": "Q4 div payment"
     },
     "GFRD": {
       "date": "2026-11-05",
@@ -97,21 +85,13 @@
       "date": "2026-11-03",
       "event": "Q2 div payment"
     },
-    "IGG": {
-      "date": "2026-10-22",
-      "event": "Trading statement"
-    },
-    "IHG": {
-      "date": "2026-10-22",
-      "event": "Trading statement"
-    },
     "JD.": {
       "date": "2026-10-29",
       "event": "Q2 ex-div"
     },
     "JDW": {
-      "date": "2026-10-22",
-      "event": "Special ex-div"
+      "date": "2026-11-19",
+      "event": "AGM (Conf)"
     },
     "JSG": {
       "date": "2026-11-06",
@@ -129,13 +109,9 @@
       "date": "2026-10-31",
       "event": "Year end"
     },
-    "MGNS": {
-      "date": "2026-10-22",
-      "event": "Q2 div payment"
-    },
     "MOON": {
-      "date": "2026-10-22",
-      "event": "Q4 ex-div"
+      "date": "2026-11-19",
+      "event": "Q4 div payment"
     },
     "MSFT": {
       "date": "2026-11-19",
@@ -153,21 +129,9 @@
       "date": "2026-11-11",
       "event": "Q2 div payment"
     },
-    "PRU": {
-      "date": "2026-10-22",
-      "event": "Q2 div payment"
-    },
     "PSN": {
       "date": "2026-11-06",
       "event": "Q2 div payment"
-    },
-    "RAT": {
-      "date": "2026-10-22",
-      "event": "Trading statement"
-    },
-    "RTO": {
-      "date": "2026-10-22",
-      "event": "Trading statement"
     },
     "SAF": {
       "date": "2026-10-31",
@@ -190,8 +154,8 @@
       "event": "Special ex-div"
     },
     "TBCG": {
-      "date": "2026-10-22",
-      "event": "Q2 ex-div"
+      "date": "2026-11-20",
+      "event": "Q2 div payment"
     },
     "TPK": {
       "date": "2026-11-06",
