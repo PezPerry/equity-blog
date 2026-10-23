@@ -1,5 +1,146 @@
 [
   {
+    "company": "James Halstead PLC",
+    "ticker": "JHD",
+    "publish_date": "23 October 2026",
+    "date_iso": "2026-10-23",
+    "time_period": "FY to 30 June 2026",
+    "announcement_type": "AGM / shareholder documentation",
+    "period_detail": "FY to 30 June 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>James Halstead plc</strong> (AIM: JHD) has distributed its <strong>Annual Report & Accounts</strong> for the year ended <strong>30 June 2026</strong> and the <strong>notice of 2026 AGM</strong> to shareholders, both available on its website.</li><li>AGM to be held on <strong>4 December 2026 at 12.00pm</strong> at the Lion of Vienna Suite, Toughsheet Community Stadium, <strong>Bolton</strong>.</li><li>Routine administrative disclosure with <strong>no impact</strong> on trading or guidance; no new financial figures provided.</li></ul>",
+    "source_format": "html",
+    "headline": "James Halstead has posted its Annual Report & Accounts for the year to 30 June 2026 and notice of its 2026 AGM to shareholders.",
+    "priority": "low",
+    "priority_reason": "Routine posting of annual report and AGM notice with no new financial or trading information.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/james-halstead--jhd/posting-of-annual-report-and-notice-of-agm/9837629",
+    "related_news_url": "https://news.google.com/search?q=%22James%20Halstead%22",
+    "added_at": "2026-10-23T07:38:21.872200"
+  },
+  {
+    "company": "Boohoo Group",
+    "ticker": "DEBS",
+    "publish_date": "23 October 2026",
+    "date_iso": "2026-10-23",
+    "time_period": "H1 FY27 (six months ended 31 August 2026)",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 FY27 (six months ended 31 August 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Boohoo Group plc</strong>, now operating as <strong>Debenhams Group</strong>, reported <strong>statutory profit before tax of £28.3m</strong> for <strong>H1 FY27</strong> (six months to <strong>31 August 2026</strong>), a <strong>£46.2m</strong> swing from an <strong>£17.9m loss</strong> a year earlier — the first positive PBT since <strong>August 2021</strong>.</li><li><strong>Reported EBITDA £19.7m</strong> (H1 FY26: £3.5m loss), a <strong>£23.2m</strong> improvement and up <strong>over 600%</strong>, as exceptional costs fell <strong>82.4%</strong> to <strong>£4.3m</strong>; <strong>adjusted EBITDA</strong> rose <strong>14.6%</strong> to <strong>£24.0m</strong>.</li><li><strong>GMV (pre returns) grew 1.8% to £863.8m</strong>, accelerating from 0.5% in Q1 to 2.9% in Q2; the <strong>Debenhams brand grew 14.1%</strong> (c.42% of Group GMV) while <strong>revenue fell 3.0% to £409.6m</strong> as marketplace mix (commission-only) rose to a record <strong>38.9%</strong>.</li><li><strong>Net debt reduced to £98.5m</strong> (H1 FY26: £111.1m) and is <strong>expected to be negligible at year-end</strong> following the <strong>£90m Sheffield</strong> disposal and <strong>$16m (£11.9m) Nasty Gal</strong> sale — described as significantly ahead of original guidance.</li><li>Note: both periods include large <strong>non-cash lease credits</strong> (c.£40m this year on the US distribution centre sublease; £34.3m last year); excluding them, the loss before tax narrowed from c.£52m to c.£12m.</li><li>Full-year <strong>adjusted EBITDA guidance of no less than £59m</strong> reiterated; medium-term ambition of <strong>£100m+ profit before tax</strong> and a multi-billion GMV business.</li></ul>",
+    "source_format": "html",
+    "headline": "Boohoo Group (Debenhams Group) swung to a £28.3m H1 pre-tax profit, its first positive PBT since August 2021, with reported EBITDA up over 600%.",
+    "priority": "high",
+    "priority_reason": "Interim results showing a swing to positive profit before tax for the first time since 2021, with an improved net-debt outlook.",
+    "figures": [
+      {
+        "metric": "GMV (pre returns)",
+        "current": "£863.8m",
+        "prior": "£848.6m",
+        "change": "+1.8%",
+        "basis": "reported",
+        "note": "H1 FY27 vs H1 FY26"
+      },
+      {
+        "metric": "Revenue",
+        "current": "£409.6m",
+        "prior": "£422.4m",
+        "change": "-3.0%",
+        "basis": "reported",
+        "note": "marketplace commission-only recognition drags reported revenue"
+      },
+      {
+        "metric": "Gross margin",
+        "current": "54.1%",
+        "prior": "51.9%",
+        "change": "+220bps",
+        "basis": "reported",
+        "note": "H1 FY27 vs H1 FY26"
+      },
+      {
+        "metric": "Adjusted EBITDA",
+        "current": "£24.0m",
+        "prior": "£21.0m",
+        "change": "+14.6%",
+        "basis": "adjusted (non-IFRS)",
+        "note": "margin 5.9% vs 5.0%"
+      },
+      {
+        "metric": "Reported EBITDA",
+        "current": "£19.7m",
+        "prior": "-£3.5m",
+        "change": "+£23.2m (over 600%)",
+        "basis": "reported",
+        "note": "exceptionals down 82.4% to £4.3m"
+      },
+      {
+        "metric": "Statutory profit/(loss) before tax",
+        "current": "£28.3m",
+        "prior": "-£17.9m",
+        "change": "+£46.2m",
+        "basis": "statutory",
+        "note": "includes c.£40m non-cash lease credit (prior £34.3m)"
+      },
+      {
+        "metric": "Statutory profit/(loss) after tax",
+        "current": "£25.8m",
+        "prior": "-£14.7m",
+        "change": "not stated",
+        "basis": "statutory",
+        "note": "H1 FY27 vs H1 FY26"
+      },
+      {
+        "metric": "Adjusted diluted loss per share",
+        "current": "(0.13p)",
+        "prior": "(1.04p)",
+        "change": "+0.91p",
+        "basis": "adjusted",
+        "note": "H1 FY27 vs H1 FY26"
+      },
+      {
+        "metric": "Free cash flow",
+        "current": "£5.6m inflow",
+        "prior": "-£22.1m outflow",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "capex down 27% to £5.5m"
+      },
+      {
+        "metric": "Net debt",
+        "current": "£98.5m",
+        "prior": "£111.1m",
+        "change": "-11.4%",
+        "basis": "excludes lease liabilities",
+        "note": "expected negligible at year-end post disposals"
+      },
+      {
+        "metric": "Marketplace mix",
+        "current": "38.9%",
+        "prior": "32.7%",
+        "change": "+6.2pp",
+        "basis": "GMV pre returns",
+        "note": "record; ambition well over 50%"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Full-year adjusted EBITDA of no less than £59m (double-digit year-on-year growth); original net-debt guidance at start of year",
+      "current": "Full-year adjusted EBITDA of no less than £59m 'as previously guided', with GMV growth, continued improvement in reported EBITDA, positive PBT, free cash flow generation and negligible net debt at year-end",
+      "commentary": "The £59m adjusted EBITDA target is reiterated, so the headline profit guidance is unchanged. However, the net-debt outlook has improved materially — management now expects negligible net debt at year-end, which it says is significantly ahead of the original guidance given at the start of the year, driven by the Sheffield and Nasty Gal disposals."
+    },
+    "explainer": "The reported numbers flatter and distort the picture in opposite directions, so read them carefully. Revenue fell 3.0% even though GMV (the total value of goods sold) grew 1.8%, because an increasing share of sales — a record 38.9% — now goes through the marketplace, where the Group only books a commission as revenue rather than the full sale price. That same shift is why gross margin jumped 220 basis points to 54.1%.\n\nThe swing to a £28.3m statutory pre-tax profit is real progress but is significantly inflated by a one-off, non-cash accounting credit of roughly £40m relating to the sublease of the US distribution centre. The prior year contained a similar £34.3m credit. Strip these out and the underlying loss before tax narrowed from about £52m to about £12m — still a large improvement, but not yet profitable on an underlying basis. The 'first positive PBT since August 2021' claim rests on the statutory figure that includes the lease credit.\n\nOn guidance, the headline full-year adjusted EBITDA target of 'no less than £59m' is simply maintained. The genuinely new positive is the balance sheet: net debt of £98.5m is now expected to fall to negligible levels by year-end, helped by the completed £90m Sheffield automation disposal and the $16m sale of Nasty Gal. Management frames this as well ahead of its original year-start guidance.\n\nAdjusted figures (EBITDA, EPS) are company-defined measures that exclude exceptional and non-cash items; the Group still reported a small adjusted diluted loss per share of 0.13p, so the turnaround remains in progress rather than complete.",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/boohoo-group--debs/results-for-the-six-months-ended-31-august-2026/9837610",
+    "related_news_url": "https://news.google.com/search?q=%22Boohoo%20Group%22",
+    "added_at": "2026-10-23T07:38:21.860072"
+  },
+  {
     "company": "Supermarket Income Reit PLC",
     "ticker": "SUPR",
     "publish_date": "23 October 2026",
