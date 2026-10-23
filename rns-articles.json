@@ -1,5 +1,31 @@
 [
   {
+    "company": "Rio Tinto PLC",
+    "ticker": "RIO",
+    "publish_date": "23 October 2026",
+    "date_iso": "2026-10-23",
+    "time_period": "",
+    "announcement_type": "Acquisition / deal",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Rio Tinto</strong> to invest <strong>US$1.9bn</strong> to develop the <strong>Kangwinan</strong> bauxite project on Western Cape York Peninsula, Queensland, sustaining its <strong>Weipa Operations</strong>.</li><li>Brownfield project adds <strong>20 million tonnes</strong> of annual bauxite capacity, lifting Weipa to about <strong>44Mtpa</strong> from around <strong>38Mtpa</strong>; first output targeted <strong>2029</strong>, full production by <strong>2032</strong>.</li><li>Replaces the ageing <strong>Andoom</strong> mine and helps offset the planned end of the <strong>Gove</strong> mine (Northern Territory) in 2029; capital sits within Rio Tinto's <strong>mid-term capital guidance</strong>.</li><li>Expected internal rate of return of approximately <strong>22%</strong>, based on third-party market forecasts as at Q4 2026; total estimate includes <strong>US$150m</strong> of pre-approved 2025 early works.</li><li>Construction ramps up in <strong>2027</strong>, supporting over <strong>1,300</strong> construction jobs; complements last month's agreed acquisition of the adjacent <strong>Aurukun Bauxite Project</strong> from <strong>Glencore</strong> (70%) and <strong>Mitsubishi</strong> (30%).</li><li><strong>Jérôme Pécresse</strong> (CEO, Aluminium & Lithium) called it the most significant new mining investment in Queensland in recent years.</li></ul>",
+    "source_format": "html",
+    "headline": "Rio Tinto will invest US$1.9bn to develop the Kangwinan bauxite project in Queensland, adding 20Mtpa of capacity and sustaining Weipa Operations.",
+    "priority": "medium",
+    "priority_reason": "A major $1.9bn growth capex commitment, but explicitly funded within existing mid-term capital guidance so not immediately earnings-moving.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/rio-tinto--rio/investing-1-9b-in-kangwinan-bauxite-project/9837645",
+    "related_news_url": "https://news.google.com/search?q=%22Rio%20Tinto%22",
+    "added_at": "2026-10-23T07:36:52.496321"
+  },
+  {
     "company": "Dorchester Minerals LP",
     "ticker": "DMLP",
     "publish_date": "23 October 2026",
@@ -50,6 +76,32 @@
     "source_url": "https://uk.advfn.com/stock-market/london/trustpilot-TRST/share-news/Trustpilot-Group-PLC-Board-Committee-Membership-Ch/99544205",
     "related_news_url": "https://news.google.com/search?q=%22Trustpilot%20Group%20plc%22",
     "added_at": "2026-10-23T07:17:14.462189"
+  },
+  {
+    "company": "Rio Tinto PLC",
+    "ticker": "RIO",
+    "publish_date": "22 October 2026",
+    "date_iso": "2026-10-22",
+    "time_period": "",
+    "announcement_type": "Acquisition / deal",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Rio Tinto plc</strong> will invest <strong>$1.9bn</strong> (USD) to develop the <strong>Kangwinan</strong> bauxite project on Western Cape York Peninsula, <strong>Queensland</strong>, sustaining its <strong>Weipa Operations</strong>.</li><li>Adds <strong>20 million tonnes</strong> of annual bauxite capacity, with first output targeted in <strong>2029</strong> and full production by <strong>2032</strong>, lifting Weipa capacity to about <strong>44Mt</strong> from roughly <strong>38Mt</strong>.</li><li>Replaces output from the ageing <strong>Andoom</strong> mine and helps offset the planned <strong>2029</strong> end of production at the <strong>Gove</strong> mine in the Northern Territory.</li><li>Capital estimate includes <strong>$150m</strong> of pre-approved early works; project expected to deliver an internal rate of return of about <strong>22%</strong> on third-party forecasts; spend sits within mid-term capital guidance.</li><li>Complements last month's agreed acquisition of the adjacent <strong>Aurukun Bauxite Project</strong> from <strong>Glencore</strong> (70%) and <strong>Mitsubishi</strong> (30%), subject to government approvals.</li><li>Construction ramps up in <strong>2027</strong>, supporting more than <strong>1,300</strong> construction jobs; a 15km conveyor will feed an expanded <strong>Amrun</strong> wharf for larger capesize vessels.</li></ul>",
+    "source_format": "html",
+    "headline": "Rio Tinto approves a $1.9bn investment to develop the Kangwinan bauxite project in Queensland, adding 20Mt of annual capacity from 2029.",
+    "priority": "high",
+    "priority_reason": "A $1.9bn capital investment decision materially shaping Rio Tinto's long-term bauxite supply and aluminium value chain.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/rio-tinto-RIO/share-news/Rio-Tinto-to-invest-1-9-billion-to-develop-the-Ka/99545918",
+    "related_news_url": "https://news.google.com/search?q=%22Rio%20Tinto%20plc%22",
+    "added_at": "2026-10-23T07:36:52.483961"
   },
   {
     "company": "SLM Corporation",
