@@ -1,5 +1,57 @@
 [
   {
+    "company": "Supermarket Income Reit PLC",
+    "ticker": "SUPR",
+    "publish_date": "23 October 2026",
+    "date_iso": "2026-10-23",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Supermarket Income REIT plc</strong> (LSE: SUPR) will hold its <strong>AGM on Wednesday, 25 November 2026 at 11.00 a.m.</strong> at the offices of <strong>Macfarlanes LLP</strong>, 20 Cursitor Street, London EC4A 1LT.</li><li>Notice of AGM to be sent to shareholders and posted to the Investor Centre; proxy voting deadline <strong>11.00 a.m. on Monday, 23 November 2026</strong>.</li><li>Routine administrative notice with <strong>no impact</strong> on trading or guidance; portfolio valued at <strong>£2.0 billion</strong> as at 30 June 2026.</li></ul>",
+    "source_format": "html",
+    "headline": "Supermarket Income REIT will hold its AGM on 25 November 2026 at Macfarlanes LLP in London.",
+    "priority": "low",
+    "priority_reason": "Routine administrative notice of AGM date and venue with no trading or guidance content.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/supermarket-income-reit--supr/notice-of-annual-general-meeting/9837635",
+    "related_news_url": "https://news.google.com/search?q=%22Supermarket%20Income%20Reit%22",
+    "added_at": "2026-10-23T07:37:24.940109"
+  },
+  {
+    "company": "Sainsbury (J) PLC",
+    "ticker": "SBRY",
+    "publish_date": "23 October 2026",
+    "date_iso": "2026-10-23",
+    "time_period": "",
+    "announcement_type": "Buyback programme launch",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>J Sainsbury plc</strong> has commenced the <strong>second tranche</strong> of its 2026 share buyback programme, for a maximum aggregate value of <strong>£100 million</strong>, to run from <strong>23 October 2026</strong> until on or before <strong>27 February 2027</strong>.</li><li>Forms part of the wider <strong>£300 million</strong> 2026 Programme announced on <strong>23 April 2026</strong>, with the first <strong>£200 million</strong> tranche completed on <strong>27 July 2026</strong> (<strong>62,949,419</strong> shares purchased for cancellation).</li><li>Sole purpose is to reduce share capital; repurchased ordinary shares will be <strong>cancelled</strong>.</li><li><strong>Shore Capital Stockbrokers Limited</strong> will conduct the programme on a non-discretionary basis, making trading decisions independently, within the AGM authority (max <strong>227,518,400</strong> shares).</li></ul>",
+    "source_format": "html",
+    "headline": "Sainsbury's begins the second tranche of its 2026 buyback, repurchasing up to £100m of shares for cancellation by 27 February 2027.",
+    "priority": "medium",
+    "priority_reason": "Launch of a new £100m tranche within an existing buyback programme, not a routine daily dealing disclosure.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/sainsbury-j---sbry/commencement-of-second-tranche-of-share-buyback/9837631",
+    "related_news_url": "https://news.google.com/search?q=%22Sainsbury%20(J)%22",
+    "added_at": "2026-10-23T07:37:24.926768"
+  },
+  {
     "company": "Rio Tinto PLC",
     "ticker": "RIO",
     "publish_date": "23 October 2026",
