@@ -1,5 +1,31 @@
 [
   {
+    "company": "Prudential PLC",
+    "ticker": "PRU",
+    "publish_date": "23 October 2026",
+    "date_iso": "2026-10-23",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>Prudential Funding (Asia) plc</strong> admitted <strong>CNY 1,000,000,000 2.80% Subordinated Notes due 23 October 2036</strong> to trading on the LSE main market on <strong>23 October 2026</strong>.</li><li>Issued under the group's <strong>$10bn Medium Term Note Programme</strong>; routine debt-listing disclosure with <strong>no impact</strong> on equity trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Prudential's financing vehicle lists **CNY 1bn 2.80% subordinated notes due 2036** on the London Stock Exchange's main market.",
+    "priority": "low",
+    "priority_reason": "Routine admission to trading of subordinated notes under an existing MTN programme, with no impact on equity trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/prudential--pru/admission-to-trading/9839023",
+    "related_news_url": "https://news.google.com/search?q=%22Prudential%22",
+    "added_at": "2026-10-23T11:36:37.576575"
+  },
+  {
     "company": "Watches Of Switzerland Group PLC",
     "ticker": "WOSG",
     "publish_date": "23 October 2026",
