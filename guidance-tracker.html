@@ -282,6 +282,16 @@
     .change-arrow { transform: rotate(90deg); padding: 0.1rem 0; }
     .disclaimer { padding: 1rem 0.6rem; }
   }
+
+  /* Signed-out lock (mirrors rns-news.html) */
+  .card.s-locked { border-left-color: var(--navy); }
+  .status-badge.s-locked { background: var(--navy); }
+  .rns-locked { background: #1B2A4A; color: #F3ECDD; border-radius: 6px; padding: 1.25rem 1.4rem; margin: 0.75rem 0 0.25rem; }
+  .rns-locked h4 { font-family: 'Playfair Display', Georgia, serif; font-size: 1.15rem; margin: 0 0 0.4rem; color: #F3ECDD; }
+  .rns-locked p { color: #B9C0CE; font-size: 0.9rem; line-height: 1.55; margin: 0; }
+  .rns-locked-actions { display: flex; gap: 0.6rem; flex-wrap: wrap; margin-top: 0.9rem; }
+  .rns-locked-actions a { background: #D4A853; color: #161009; border-radius: 4px; padding: 0.6rem 1.1rem; font-weight: 700; text-decoration: none; font-size: 0.88rem; }
+  .rns-locked-actions a.rns-locked-signin { background: transparent; color: #F3ECDD; border: 1px solid rgba(255,255,255,.3); }
 </style>
 </head>
 <body>
@@ -310,6 +320,52 @@ let allGuidance = [];                 // relevant records only (newest first)
 const STATUS_ORDER = ['raised', 'lowered', 'maintained', 'new', 'withdrawn'];
 const STATUS_LABELS = { raised: 'Raised', lowered: 'Lowered', maintained: 'Maintained', 'new': 'New', withdrawn: 'Withdrawn' };
 let activeStatuses = new Set(STATUS_ORDER);
+
+/* ── Signed-out gate (24 Oct 2026; mirrors rns-news.html) ──
+   Guidance from the last RNS_EMBARGO_DAYS days is locked by default. The only thing that unlocks
+   it is a load that comes from the site shell without ?gate=1 (a signed-in visitor), or an
+   in-frame navigation in a tab that remembers such a load - which is how the RNS feed's state
+   carries over its Guidance Tracker tab and back again. Display gate only - the data file stays
+   public. */
+const RNS_EMBARGO_DAYS = 3;
+const GATE_KEY = 'emi_rns_gate';
+const JOIN_URL = 'https://equityandmarketsinsight.com/Join';
+function resolveGate() {
+  const params = new URLSearchParams(location.search);
+  const framed = window.parent !== window;
+  const ref = document.referrer || '';
+  const fromShell = framed && ref.indexOf(location.origin) !== 0;
+  let stored = null;
+  try { stored = sessionStorage.getItem(GATE_KEY); } catch (e) {}
+  let gated;
+  if (params.get('gate') === '1') gated = true;            // the shell says: signed out
+  else if (fromShell) gated = false;                       // the shell says: signed in
+  else if (!framed) gated = true;                          // raw URL in its own tab
+  else gated = stored !== '0';                             // in-frame navigation keeps the tab's state
+  if (params.get('gate') === '1' || fromShell) {
+    try { sessionStorage.setItem(GATE_KEY, gated ? '1' : '0'); } catch (e) {}
+  }
+  return gated;
+}
+const GATE_MODE = resolveGate();
+function isEmbargoed(a) {
+  if (!GATE_MODE) return false;
+  const cutoff = new Date();
+  cutoff.setDate(cutoff.getDate() - RNS_EMBARGO_DAYS);
+  const cutoffISO = cutoff.toISOString().split('T')[0];
+  const d = recDate(a);
+  const iso = d ? d.toISOString().split('T')[0] : '';
+  const added = (a.added_at && /^\d{4}-\d{2}-\d{2}/.test(a.added_at)) ? a.added_at.slice(0, 10) : '';
+  if (!iso && !added) return false;
+  return (iso && iso >= cutoffISO) || (added && added >= cutoffISO);
+}
+function renderLocked() {
+  return '<div class="rns-locked"><h4>Sign in to read this guidance update</h4>'
+    + '<p>Guidance changes from the last ' + RNS_EMBARGO_DAYS + ' days are for account holders. '
+    + 'A free account is all you need, and older changes stay open to everyone.</p>'
+    + '<div class="rns-locked-actions"><a href="' + JOIN_URL + '" target="_top" rel="noopener">Create a free account</a>'
+    + '<a class="rns-locked-signin" href="' + JOIN_URL + '" target="_top" rel="noopener">Sign in</a></div></div>';
+}
 
 /* ── Escape helper (matches rns-news.html) ── */
 function esc(s) {
@@ -382,6 +438,14 @@ function filterCardHtml() {
 /* ── One guidance card ── */
 function cardHtml(a) {
   const s = statusOf(a);
+  if (isEmbargoed(a)) {
+    return '<div class="card s-locked"><div class="card-inner">'
+      + '<div class="card-top"><span class="status-badge s-locked">Guidance update</span>'
+      + '<span class="card-date">' + esc(formatDate(a)) + '</span></div>'
+      + (a.announcement_type ? '<div class="card-type">' + esc(a.announcement_type) + '</div>' : '')
+      + renderLocked()
+      + '</div></div>';
+  }
   const g = a.guidance || {};
   const badge = '<span class="status-badge s-' + s + '">' + esc(STATUS_LABELS[s] || s) + '</span>';
   const date = '<span class="card-date">' + esc(formatDate(a)) + '</span>';
@@ -440,7 +504,8 @@ function renderResults() {
   const company = document.getElementById('companyFilter').value;
   const filtered = allGuidance.filter(a => {
     if (company && a.company !== company) return false;
-    if (!activeStatuses.has(statusOf(a))) return false;
+    if (isEmbargoed(a)) { if (activeStatuses.size < STATUS_ORDER.length) return false; } // locked entries show only in the unfiltered view
+    else if (!activeStatuses.has(statusOf(a))) return false;
     return true;
   });
 

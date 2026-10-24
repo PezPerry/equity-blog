@@ -562,11 +562,35 @@ let watchFilterActive = false;
 /* Account mode: ?my=TICKER,TICKER (set by the My news page) filters by ticker and hides the device stars */
 const MY_TICKERS = (new URLSearchParams(location.search).get('my') || '').split(',').map(s => s.trim().toUpperCase()).filter(Boolean);
 const MY_MODE = MY_TICKERS.length > 0;
-/* Signed-out gate (14 Oct 2026): the Base44 /RNSNews page adds ?gate=1 when the visitor is not
-   signed in. Announcements from the last RNS_EMBARGO_DAYS days then show a sign-in panel in place
-   of the summary; older ones read normally. Display gate only - the data file stays public. */
+/* Signed-out gate (14 Oct 2026; locked by default since 24 Oct 2026). The Base44 /RNSNews page
+   iframes this file with ?gate=1 when the visitor is not signed in and with no flag when they are.
+   That signal is read only on a load that comes from the shell - a framed load whose referrer is
+   not this origin - and the answer is remembered for the tab, so in-frame navigation (the Guidance
+   Tracker tab, its back link, #item= links) keeps the same state. Any other load, such as the raw
+   URL opened in its own tab or a feed-reader link, is locked. Announcements from the last
+   RNS_EMBARGO_DAYS days then show a sign-in panel in place of the headline and summary; older ones
+   read normally. Display gate only - the data file stays public. */
 const RNS_EMBARGO_DAYS = 3;
-const GATE_MODE = !MY_MODE && new URLSearchParams(location.search).get('gate') === '1';
+const GATE_KEY = 'emi_rns_gate';
+function resolveGate() {
+  const params = new URLSearchParams(location.search);
+  const framed = window.parent !== window;
+  const ref = document.referrer || '';
+  const fromShell = framed && ref.indexOf(location.origin) !== 0;
+  let stored = null;
+  try { stored = sessionStorage.getItem(GATE_KEY); } catch (e) {}
+  let gated;
+  if (params.get('gate') === '1') gated = !MY_MODE;       // the shell says: signed out
+  else if (fromShell) gated = false;                       // the shell says: signed in
+  else if (MY_MODE) gated = false;
+  else if (!framed) gated = true;                          // raw URL in its own tab
+  else gated = stored !== '0';                             // in-frame navigation keeps the tab's state
+  if (params.get('gate') === '1' || fromShell) {
+    try { sessionStorage.setItem(GATE_KEY, gated ? '1' : '0'); } catch (e) {}
+  }
+  return gated;
+}
+const GATE_MODE = resolveGate();
 const JOIN_URL = 'https://equityandmarketsinsight.com/Join';
 function isEmbargoed(a) {
   if (!GATE_MODE) return false;
@@ -996,7 +1020,7 @@ function getFiltered() {
       const haystack = [
         a.company, a.ticker, a.time_period,
         a.announcement_type || '',
-        a.headline || '', a.explainer || '',
+        isEmbargoed(a) ? '' : (a.headline || ''), isEmbargoed(a) ? '' : (a.explainer || ''),
         isEmbargoed(a) ? '' : (a.body || ''), isEmbargoed(a) ? '' : (a.details || []).join(' '),
         a.publish_date
       ].join(' ').toLowerCase();
@@ -1156,7 +1180,7 @@ function renderArticles() {
     const signal = effectivePriority(a);
     const signalLabels = { high: 'High', medium: 'Medium', low: 'Low' };
     const signalShortLabels = { high: 'H', medium: 'M', low: 'L' };
-    const signalBadge = `<span class="signal-badge signal-${signal}" title="${a.priority_reason ? esc(a.priority_reason) : ''}">${signalLabels[signal]}</span><span class="signal-short signal-short-${signal}">${signalShortLabels[signal]}</span>`;
+    const signalBadge = `<span class="signal-badge signal-${signal}" title="${(a.priority_reason && !isEmbargoed(a)) ? esc(a.priority_reason) : ''}">${signalLabels[signal]}</span><span class="signal-short signal-short-${signal}">${signalShortLabels[signal]}</span>`;
     return `
       <div class="card" id="card-${i}">
         <div class="card-header" onclick="toggleCard(${i})">
