@@ -1,5 +1,80 @@
 [
   {
+    "company": "Molten Ventures plc",
+    "ticker": "GROW",
+    "publish_date": "26 October 2026",
+    "date_iso": "2026-10-26",
+    "time_period": "H1 FY27 (six months to 30 September 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "H1 FY27 (six months to 30 September 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>NAV per share</strong> expected <strong>up 14%</strong> and <strong>Gross Portfolio Value up 11%</strong> for <strong>HY27</strong> (six months to <strong>30 September 2026</strong>), building on FY26.</li><li><strong>£44 million</strong> deployed into venture and growth investments during the period under disciplined capital allocation.</li><li>Realisations of <strong>over £100 million</strong> in the half, taking total realisations to <strong>circa £900 million</strong> since inception.</li><li>First close of the <strong>Molten Ventures Growth Fund</strong> (Series B+) at <strong>£175 million</strong>, with the <strong>British Business Bank</strong> as cornerstone investor, as it scales third-party capital.</li><li>Group now manages <strong>over £2 billion</strong> of assets; full half-year results due <strong>24 November 2026</strong>.</li><li>CEO <strong>Ben Wilkinson</strong> cites continued growth, strong realisations and ongoing momentum.</li></ul>",
+    "source_format": "html",
+    "headline": "Molten Ventures expects NAV per share up 14% and gross portfolio value up 11% for the six months to 30 September 2026.",
+    "priority": "high",
+    "priority_reason": "Half-year trading update from a listed VC with NAV and realisation figures ahead of interim results.",
+    "figures": [
+      {
+        "metric": "NAV per share",
+        "current": "up 11% and 14% respectively (GPV +11%, NAV per share +14%)",
+        "prior": "not stated",
+        "change": "+14%",
+        "basis": "unaudited",
+        "note": "HY27, six months to 30 September 2026"
+      },
+      {
+        "metric": "Gross Portfolio Value",
+        "current": "up 11%",
+        "prior": "not stated",
+        "change": "+11%",
+        "basis": "unaudited",
+        "note": "HY27, six months to 30 September 2026"
+      },
+      {
+        "metric": "Capital deployed",
+        "current": "£44m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "venture and growth investments in the period"
+      },
+      {
+        "metric": "Realisations",
+        "current": "over £100m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "in the half; circa £900m since inception"
+      },
+      {
+        "metric": "Growth Fund first close",
+        "current": "£175m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "British Business Bank as cornerstone investor"
+      },
+      {
+        "metric": "Assets under management",
+        "current": "over £2bn",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "Group-wide"
+      }
+    ],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "This is an unaudited trading update ahead of Molten's full half-year results on 24 November 2026. The headline numbers measure growth over the six months to 30 September 2026: Net Asset Value (NAV) per share, the per-share value of the portfolio, is expected up 14%, while Gross Portfolio Value (the total value of its holdings before costs and liabilities) is up 11%. As a listed venture capital firm, Molten's share price typically tracks NAV, so NAV growth is the key gauge of performance.\n\nThe update also flags £44m of new investment, over £100m of realisations (cash returned from selling or exiting holdings, taking lifetime proceeds to around £900m), and a first close of its new Growth Fund at £175m with the British Business Bank anchoring it. The Growth Fund matters because it lets Molten manage outside investors' money for fees, diversifying beyond its own balance sheet.\n\nNo formal profit or EPS figures are given, and the company does not state the prior-period comparatives behind the percentage moves, so the increases are stated as growth rates rather than absolute values. No guidance is issued.",
+    "source_url": "https://uk.advfn.com/stock-market/london/molten-ventures-GROW/share-news/Half-Year-Trading-Update/99552649",
+    "related_news_url": "https://news.google.com/search?q=%22Molten%20Ventures%20plc%22",
+    "added_at": "2026-10-26T07:57:41.158512"
+  },
+  {
     "company": "Auction Technology Group PLC",
     "ticker": "ATG",
     "publish_date": "26 October 2026",
