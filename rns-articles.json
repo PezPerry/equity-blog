@@ -1,5 +1,57 @@
 [
   {
+    "company": "Whitbread PLC",
+    "ticker": "WTB",
+    "publish_date": "26 October 2026",
+    "date_iso": "2026-10-26",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>ISS</strong> and <strong>PIRC</strong> have recommended shareholders vote <strong>against</strong> <strong>Corvex</strong>'s proposal to appoint a director to the <strong>Whitbread</strong> Board.</li><li>Board says the proposal is <strong>unnecessary</strong> and risks disrupting its <strong>Five-Year Plan</strong>, which it says is already delivering early results per recent half-year numbers.</li><li><strong>Glass Lewis</strong> recommended <strong>in favour</strong> of Corvex's proposal, though Whitbread notes it agreed with most of the Company's key arguments.</li><li>Whitbread says it continues to engage with shareholders and is encouraged by the support received; <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Whitbread says proxy advisers **ISS** and **PIRC** back the Board in urging shareholders to vote against activist **Corvex**'s proposal to appoint a director.",
+    "priority": "medium",
+    "priority_reason": "Activist campaign over a contested board seat, but a proxy-adviser update rather than a vote outcome or financial event.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/whitbread--wtb/statement-re-corvex/9841294",
+    "related_news_url": "https://news.google.com/search?q=%22Whitbread%22",
+    "added_at": "2026-10-26T10:56:07.852241"
+  },
+  {
+    "company": "W.A.G payment solutions plc",
+    "ticker": "EWG",
+    "publish_date": "26 October 2026",
+    "date_iso": "2026-10-26",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Morgan Seigler</strong> has resigned as a non-executive director with effect from <strong>23 October 2026</strong>.</li><li>Seigler sat on the Board as the designated representative of <strong>TA Associates</strong>, which has now <strong>disposed of its entire shareholding</strong> in the Company.</li><li>He had served since the <strong>2021 IPO</strong>; the Board thanked him for his contribution.</li><li>Routine directorate change, but note the signal of a founding-era investor (<strong>TA Associates</strong>) exiting the register.</li></ul>",
+    "source_format": "html",
+    "headline": "Non-executive director Morgan Seigler has resigned following TA Associates' disposal of its entire shareholding in Eurowag on 23 October 2026.",
+    "priority": "medium",
+    "priority_reason": "Board resignation tied to a major shareholder, TA Associates, fully exiting its stake — a change in the register that may interest traders.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/wag-payment-solutions-EWG/share-news/Eurowag-Directorate-change/99554692",
+    "related_news_url": "https://news.google.com/search?q=%22W.A.G%20payment%20solutions%20plc%22",
+    "added_at": "2026-10-26T10:56:07.216191"
+  },
+  {
     "company": "Wizz Air Holdings PLC",
     "ticker": "WIZZ",
     "publish_date": "26 October 2026",
