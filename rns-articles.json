@@ -1,5 +1,104 @@
 [
   {
+    "company": "Plus500 Ltd",
+    "ticker": "PLUS",
+    "publish_date": "26 October 2026",
+    "date_iso": "2026-10-26",
+    "time_period": "Q3 / 9M to 30 September 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "Q3 / 9M to 30 September 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>FY 2026 revenue and EBITDA</strong> now expected to be <strong>ahead of current market expectations</strong>, the Board said.</li><li><strong>Q3 2026 revenue</strong> up <strong>11% YoY</strong> to <strong>$203.2m</strong> (Q3 2025: $182.7m); 9M revenue up <strong>11%</strong> to <strong>$666.1m</strong> (9M 2025: $597.8m).</li><li><strong>Q3 EBITDA</strong> up <strong>7% YoY</strong> to <strong>$88.4m</strong> at a <strong>44% margin</strong>; 9M EBITDA up <strong>3%</strong> to <strong>$275.9m</strong>.</li><li><strong>New Customers</strong> up <strong>27% YoY</strong> in Q3 to <strong>28,747</strong> (9M: 94,470, +20%), with <strong>AUAC down 14% YoY</strong> — cheaper acquisition alongside faster growth.</li><li>Announced conditional acquisitions of two broker-dealers, <strong>Hedge</strong> (US) and <strong>Guru</strong> (Brazil), funded from existing cash, supporting a planned US multi-asset 'super-app' launch in <strong>Q1 2027</strong>.</li><li>Debt-free balance sheet with cash <strong>over $775m</strong> at 30 September, after a <strong>$87.4m</strong> dividend and <strong>c.$63.5m</strong> of Q3 buybacks.</li></ul>",
+    "source_format": "html",
+    "headline": "Plus500 expects FY 2026 revenue and EBITDA ahead of market expectations after Q3 revenue rose 11% to $203.2m, with two bolt-on broker-dealer deals in the US and Brazil.",
+    "priority": "high",
+    "priority_reason": "Q3 trading update with an upgrade: FY 2026 revenue and EBITDA now expected ahead of market expectations.",
+    "figures": [
+      {
+        "metric": "Revenue (Q3)",
+        "current": "$203.2m",
+        "prior": "$182.7m",
+        "change": "+11%",
+        "basis": "reported",
+        "note": "Q3 to 30 September 2026 vs Q3 2025"
+      },
+      {
+        "metric": "Revenue (9M)",
+        "current": "$666.1m",
+        "prior": "$597.8m",
+        "change": "+11%",
+        "basis": "reported",
+        "note": "9M to 30 September 2026; trading income $634.0m, interest income $32.1m"
+      },
+      {
+        "metric": "EBITDA (Q3)",
+        "current": "$88.4m",
+        "prior": "$82.7m",
+        "change": "+7%",
+        "basis": "reported",
+        "note": "44% EBITDA margin"
+      },
+      {
+        "metric": "EBITDA (9M)",
+        "current": "$275.9m",
+        "prior": "$267.8m",
+        "change": "+3%",
+        "basis": "reported",
+        "note": "9M to 30 September 2026"
+      },
+      {
+        "metric": "Customer Income (9M)",
+        "current": "$641.1m",
+        "prior": "$536.7m",
+        "change": "+19%",
+        "basis": "reported",
+        "note": "Q3 2026: $180.3m (+9% YoY)"
+      },
+      {
+        "metric": "New Customers (Q3)",
+        "current": "28,747",
+        "prior": "22,644",
+        "change": "+27%",
+        "basis": "reported",
+        "note": "9M: 94,470 vs 78,809 (+20%)"
+      },
+      {
+        "metric": "Active Customers (9M)",
+        "current": "230,287",
+        "prior": "209,842",
+        "change": "+10%",
+        "basis": "reported",
+        "note": "Q3 2026: 119,528 vs 115,327"
+      },
+      {
+        "metric": "Total customer deposits (Q3)",
+        "current": "$1.9bn",
+        "prior": "$1.7bn",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "quarterly record; avg deposit per Active Customer c.$15,800 vs c.$14,700"
+      },
+      {
+        "metric": "Cash balances",
+        "current": "over $775m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "debt-free, at 30 September 2026"
+      }
+    ],
+    "guidance": {
+      "status": "raised",
+      "previous": "Prior market expectations for FY 2026 revenue and EBITDA (figures not quoted in the announcement).",
+      "current": "FY 2026 revenue and EBITDA expected to be ahead of current market expectations.",
+      "commentary": "The Board upgraded its implicit FY outlook, saying both revenue and EBITDA will come in above current market expectations, driven by strong customer growth, lower acquisition costs and momentum in the non-OTC US business."
+    },
+    "explainer": "This is a quarterly trading update, not audited results, so the figures are the group's own and limited to headline metrics. Revenue is reported in US dollars. The 11% rise in both Q3 and nine-month revenue was powered by trading income ($634.0m over nine months, up from $547.1m), which more than offset a fall in interest income ($32.1m vs $50.7m) as global interest rates declined — so the underlying customer-driven business grew faster than the headline suggests.\n\nCustomer Income, which the company flags as its best gauge of underlying performance, rose 19% over nine months to $641.1m, stripping out the volatile effect of customer trading wins and losses. EBITDA grew more slowly (3% over nine months) than revenue because Plus500 is deliberately spending on marketing technology and scaling costs to acquire higher-value customers; even so, the Q3 margin held at 44%.\n\nThe key message for the market is the guidance change: the Board now expects full-year revenue and EBITDA to beat current market expectations — an upgrade — though it does not quote the specific consensus numbers being beaten.\n\nSeparately, the two announced acquisitions (Hedge in the US, Guru in Brazil) are bolt-on deals funded from cash. They are about market access — SEC-regulated US securities and a first local presence in Brazil — rather than near-term earnings, and underpin the planned Q1 2027 US 'super-app'.",
+    "source_url": "https://uk.advfn.com/stock-market/london/plus500-PLUS/share-news/Plus500-Limited-Q3-2026-Trading-Update/99552327",
+    "related_news_url": "https://news.google.com/search?q=%22Plus500%20Ltd%22",
+    "added_at": "2026-10-26T08:00:10.314606"
+  },
+  {
     "company": "Computacenter plc",
     "ticker": "CCC",
     "publish_date": "26 October 2026",
