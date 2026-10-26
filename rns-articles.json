@@ -1,5 +1,48 @@
 [
   {
+    "company": "Computacenter plc",
+    "ticker": "CCC",
+    "publish_date": "26 October 2026",
+    "date_iso": "2026-10-26",
+    "time_period": "Q3 to 30 September 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "Q3 to 30 September 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Computacenter plc</strong> reported an <strong>excellent Q3</strong> (to <strong>30 September 2026</strong>) <strong>ahead of expectations</strong>, following a very strong first half.</li><li>Now expects <strong>FY 2026 adjusted profit before tax of no less than £425m</strong>, upgrading guidance after a <strong>strong start to Q4</strong>.</li><li>Record <strong>committed product order backlog of £12.6bn</strong>, up from <strong>£9.3bn</strong> at end-June, with a strong pipeline in <strong>North America</strong> and the <strong>UK</strong>.</li><li><strong>Technology Sourcing</strong> grew strongly, led by <strong>hyperscale and neocloud</strong> customers; <strong>North America</strong> saw record project completions and <strong>Germany</strong> delivered a robust underlying performance despite ongoing efficiency actions.</li><li><strong>Capital Markets Event</strong> to be held in <strong>Hatfield</strong> on <strong>24 November</strong>; next trading update (pre-close) on <strong>28 January 2027</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Computacenter delivered Q3 ahead of expectations and now expects FY 2026 adjusted pre-tax profit of no less than £425m, with a record £12.6bn order backlog.",
+    "priority": "high",
+    "priority_reason": "Q3 trading update with an upgraded FY 2026 adjusted profit guidance and a record order backlog.",
+    "figures": [
+      {
+        "metric": "Committed product order backlog",
+        "current": "£12.6bn",
+        "prior": "£9.3bn",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "end-Q3 (30 Sep 2026) vs end-June 2026"
+      },
+      {
+        "metric": "FY 2026 adjusted profit before tax (guidance)",
+        "current": "no less than £425m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "adjusted",
+        "note": "upgraded FY 2026 expectation"
+      }
+    ],
+    "guidance": {
+      "status": "raised",
+      "previous": "Not quantified in this announcement (prior expectations referenced only as being exceeded)",
+      "current": "Adjusted profit before tax for FY 2026 to be no less than £425m",
+      "commentary": "Following an excellent Q3 ahead of expectations and a strong start to Q4, the group raised its FY 2026 adjusted pre-tax profit guidance to at least £425m. The prior figure was not restated in the text, so the size of the upgrade cannot be quantified from this announcement."
+    },
+    "explainer": "This is an in-quarter upgrade rather than a full set of results. Computacenter's Q3 (the three months to 30 September 2026) ran ahead of its own expectations, prompting it to set a fresh floor of at least £425m for full-year 2026 adjusted profit before tax. 'Adjusted' means before certain one-off or non-trading items, so the statutory figure could differ.\n\nThe headline growth is being driven by Technology Sourcing — essentially reselling hardware and infrastructure — to very large 'hyperscale and neocloud' customers in North America and the UK. The committed product order backlog of £12.6bn (up from £9.3bn at end-June) is work already ordered but not yet delivered, so it points to continued near-term revenue rather than current period sales.\n\nOn guidance specifically: the company did not print its previous profit target in this release, so while the direction is clearly upward, the exact scale of the upgrade cannot be verified from the text alone. Germany remains the weaker region, with management still taking cost action there.",
+    "source_url": "https://uk.advfn.com/stock-market/london/computacenter-CCC/share-news/Computacenter-PLC-Q3-Trading-Update-26-October/99552323",
+    "related_news_url": "https://news.google.com/search?q=%22Computacenter%20plc%22",
+    "added_at": "2026-10-26T07:59:34.664313"
+  },
+  {
     "company": "RTW Biotech Opportunities Ltd",
     "ticker": "RTW",
     "publish_date": "26 October 2026",
