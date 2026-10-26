@@ -1,5 +1,31 @@
 [
   {
+    "company": "Meta Platforms Inc",
+    "ticker": "META",
+    "publish_date": "26 October 2026",
+    "date_iso": "2026-10-26",
+    "time_period": "",
+    "announcement_type": "Fundraising / securities offering",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Meta Platforms</strong> has launched two concurrent underwritten offerings: <strong>250,000,000</strong> Series A depositary shares (each a <strong>1/20th</strong> interest in Series A Mandatory Convertible Preferred Stock) and <strong>$22.5bn</strong> of Class A common stock sold via forward sale agreements.</li><li>Over-allotment options cover up to an additional <strong>37,500,000</strong> depositary shares and <strong>$3.375bn</strong> of Class A stock; preferred liquidation preference is <strong>$1,000</strong> per share, with dividend and conversion terms set at pricing.</li><li>Preferred stock automatically converts into Class A (or new Class C) common stock for settlement <strong>on or about 15 August 2029</strong>; forward sales settle on or before <strong>19 November 2027</strong>. Proceeds earmarked for general corporate purposes, backing <strong>AI infrastructure</strong> and \"personal superintelligence\".</li><li>Cornerstone investors <strong>NVIDIA</strong>, <strong>Advanced Micro Devices</strong> and <strong>Broadcom</strong> have each indicated non-binding interest in buying up to an aggregate <strong>$5.0bn</strong> of Class A stock on the same terms.</li><li>Meta also plans a newly established <strong>ATM programme</strong> of up to <strong>$60bn</strong> of Class C common stock, expected to start in Q1 2027. <strong>Morgan Stanley</strong> and <strong>Goldman Sachs</strong> are lead joint bookrunners and act as forward purchasers.</li><li>US (Nasdaq: META) announcement carried on the ADVFN RNS feed; terms remain subject to pricing and SEC registration.</li></ul>",
+    "source_format": "html",
+    "headline": "Meta launches a **$22.5bn** Class A common stock offering plus **250m** mandatory convertible preferred depositary shares to fund AI infrastructure spending.",
+    "priority": "high",
+    "priority_reason": "A multi-billion-dollar equity and convertible preferred fundraising that materially expands Meta's share count to fund AI capex.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/META/share-news/Meta-Announces-Launch-of-Offering-of-Depositary-Sh/99555841",
+    "related_news_url": "https://news.google.com/search?q=%22Meta%20Platforms%2C%20Inc.%22",
+    "added_at": "2026-10-26T11:56:16.158727"
+  },
+  {
     "company": "Grainger PLC",
     "ticker": "GRI",
     "publish_date": "26 October 2026",
