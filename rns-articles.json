@@ -1,5 +1,57 @@
 [
   {
+    "company": "Johnson Service Group PLC",
+    "ticker": "JSG",
+    "publish_date": "26 October 2026",
+    "date_iso": "2026-10-26",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Nicola Keach</strong>, Non-Executive Director and Senior Independent Director of <strong>Johnson Service Group PLC</strong>, appointed a Non-Executive Director of <strong>Restore plc</strong>, an AIM-quoted business services provider, with effect from <strong>26 October 2026</strong>.</li><li>Routine disclosure made under <strong>UK Listing Rule 6.4.9R(2)</strong> — <strong>no impact</strong> on JSG's trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "JSG Senior Independent Director Nicola Keach appointed a Non-Executive Director of AIM-quoted Restore plc, effective 26 October 2026.",
+    "priority": "low",
+    "priority_reason": "Routine UK Listing Rule 6.4.9R disclosure of an external non-executive appointment, with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/johnson-service-group--jsg/director-declaration/9840852",
+    "related_news_url": "https://news.google.com/search?q=%22Johnson%20Service%20Group%22",
+    "added_at": "2026-10-26T08:01:36.028783"
+  },
+  {
+    "company": "GSK plc",
+    "ticker": "GSK",
+    "publish_date": "26 October 2026",
+    "date_iso": "2026-10-26",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>GSK plc</strong> presented updated Phase Ib <strong>BEHOLD-1</strong> data for <strong>mocertatug rezetecan (Mo-Rez)</strong>, a B7-H4-targeted antibody-drug conjugate, in <strong>platinum-resistant ovarian cancer</strong>.</li><li>Confirmed objective response rate of <strong>62%</strong> (n=28/45) at the selected Phase III dose of <strong>5.8 mg/kg</strong>, with median duration of response of <strong>12.2 months</strong> and median progression-free survival of <strong>11.1 months</strong>, at <strong>>13 months</strong> follow-up.</li><li>Grade ≥3 treatment-related adverse events in <strong>71%</strong> of patients (predominantly haematologic); treatment discontinuation in <strong>2%</strong> and ILD/pneumonitis in <strong>2%</strong> at the selected dose.</li><li>GSK has <strong>accelerated the Phase III programme</strong> across gynaecological cancers, with <strong>five pivotal studies</strong> now underway in ovarian and endometrial cancer.</li><li>Mo-Rez is licensed from <strong>Hansoh Pharma</strong> (worldwide rights ex. mainland China, Hong Kong, Macau and Taiwan); data presented in a late-breaking oral session at <strong>ESMO 2026</strong> in Madrid.</li><li>Investigational asset — <strong>no impact</strong> on current revenue or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "GSK reported durable Phase Ib data for its B7-H4 antibody-drug conjugate Mo-Rez in platinum-resistant ovarian cancer, with a 62% confirmed response rate.",
+    "priority": "medium",
+    "priority_reason": "Positive but early-stage (Phase Ib) pipeline data for an investigational oncology asset; supportive of the phase III programme but not a near-term revenue or guidance event.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/gsk-GSK/share-news/GSK-PLC-Positive-Mo-Rez-Phase-Ib-data-in-ovarian-c/99552369",
+    "related_news_url": "https://news.google.com/search?q=%22GSK%20plc%22",
+    "added_at": "2026-10-26T08:01:36.006667"
+  },
+  {
     "company": "Plus500 Ltd",
     "ticker": "PLUS",
     "publish_date": "26 October 2026",
