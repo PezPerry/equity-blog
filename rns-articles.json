@@ -1,5 +1,31 @@
 [
   {
+    "company": "AstraZeneca PLC",
+    "ticker": "AZN",
+    "publish_date": "26 October 2026",
+    "date_iso": "2026-10-26",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li>Positive <strong>VOLGA Phase III</strong> data: perioperative <strong>IMFINZI (durvalumab)</strong> plus neoadjuvant <strong>enfortumab vedotin</strong> met primary endpoint of event-free survival and key secondary endpoint of overall survival in <strong>muscle-invasive bladder cancer (MIBC)</strong> versus standard of care.</li><li>Interim analysis showed a <strong>49%</strong> reduction in risk of progression, recurrence, not undergoing surgery or death (EFS HR <strong>0.51</strong>; p<0.0001); <strong>64%</strong> event-free at two years vs <strong>45%</strong> for comparator.</li><li>Overall survival risk of death cut by <strong>42%</strong> (OS HR <strong>0.58</strong>; p=0.0027); <strong>78%</strong> alive at two years vs <strong>69%</strong> for comparator; median OS not yet reached in either arm.</li><li>Trial enrolled patients ineligible for or refusing cisplatin-based chemotherapy; safety consistent with known profiles, with Grade 3/4 adverse events in <strong>64%</strong> of combination patients vs <strong>44%</strong> of comparator.</li><li>Data presented at <strong>ESMO Congress 2026</strong> in Madrid and published in the <strong>New England Journal of Medicine</strong>; FDA granted the regimen <strong>Priority Review</strong> in September 2026.</li></ul>",
+    "source_format": "html",
+    "headline": "AstraZeneca's VOLGA Phase III trial of perioperative IMFINZI plus neoadjuvant enfortumab vedotin cut recurrence risk 49% and death risk 42% in muscle-invasive bladder cancer.",
+    "priority": "high",
+    "priority_reason": "Positive, potentially practice-changing Phase III data for a key AstraZeneca oncology franchise, supporting an FDA Priority Review.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/astrazeneca-AZN/share-news/Perioperative-IMFINZI-durvalumab-plus-neoadjuvant/99551595",
+    "related_news_url": "https://news.google.com/search?q=%22AstraZeneca%20PLC%22",
+    "added_at": "2026-10-26T07:17:21.838056"
+  },
+  {
     "company": "Frasers Group PLC",
     "ticker": "FRAS",
     "publish_date": "26 October 2026",
@@ -24,6 +50,32 @@
     "source_url": "https://uk.advfn.com/stock-market/london/frasers-FRAS/share-news/Frasers-Group-PLC-Update-on-investment-in-HUGO-BOS/99550298",
     "related_news_url": "https://news.google.com/search?q=%22Frasers%20Group%20plc%22",
     "added_at": "2026-10-26T07:16:28.605100"
+  },
+  {
+    "company": "AstraZeneca PLC",
+    "ticker": "AZN",
+    "publish_date": "25 October 2026",
+    "date_iso": "2026-10-25",
+    "time_period": "",
+    "announcement_type": "Clinical trial results",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>SAFFRON</strong> Phase III trial: <strong>TAGRISSO (osimertinib) plus savolitinib</strong> met both primary and key secondary endpoints versus platinum-based chemotherapy in <strong>EGFR-mutated NSCLC</strong> with high MET overexpression/amplification after progression on TAGRISSO.</li><li>Overall survival: risk of death cut <strong>32%</strong> (HR <strong>0.68</strong>; p=0.010), with median OS extended to <strong>17.8 months</strong> versus <strong>12.9 months</strong> for chemotherapy (+<strong>4.9 months</strong>); <strong>70%</strong> alive at one year versus <strong>53%</strong>.</li><li>Progression-free survival: risk of progression or death cut <strong>45%</strong> (HR <strong>0.55</strong>; p<0.001), median PFS <strong>7.6 months</strong> versus <strong>5.4 months</strong>; <strong>36%</strong> progression-free at one year versus <strong>10%</strong>.</li><li>A <strong>New Drug Application</strong> has been submitted to the <strong>US FDA</strong>; the combination is already approved in <strong>China</strong> and granted temporary authorisation in <strong>Switzerland</strong>; savolitinib co-developed with <strong>HUTCHMED</strong>.</li><li>Safety manageable with no new concerns; Grade 3+ adverse events <strong>64%</strong> versus <strong>63%</strong> for chemotherapy. Results presented at <strong>ESMO Congress 2026</strong> and published in <strong>The New England Journal of Medicine</strong>.</li><li>First global Phase III to show significant PFS and OS benefit in this setting, positioned to establish a new standard of care; no financial figures or guidance provided.</li></ul>",
+    "source_format": "html",
+    "headline": "AstraZeneca's SAFFRON Phase III trial showed TAGRISSO plus savolitinib cut risk of death by 32% and extended median overall survival by 4.9 months in MET-driven EGFR-mutated lung cancer.",
+    "priority": "high",
+    "priority_reason": "Positive Phase III overall-survival data plus a US regulatory filing for a key oncology franchise are materially relevant to AstraZeneca's pipeline value.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/astrazeneca-AZN/share-news/TAGRISSO-osimertinib-plus-savolitinib-reduced-the/99551870",
+    "related_news_url": "https://news.google.com/search?q=%22AstraZeneca%20PLC%22",
+    "added_at": "2026-10-26T07:17:21.691892"
   },
   {
     "company": "Compass Group PLC",
