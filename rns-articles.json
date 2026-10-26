@@ -1,5 +1,31 @@
 [
   {
+    "company": "Grainger PLC",
+    "ticker": "GRI",
+    "publish_date": "26 October 2026",
+    "date_iso": "2026-10-26",
+    "time_period": "",
+    "announcement_type": "Annual results",
+    "period_detail": "",
+    "type_workings": "Rule 'results headline': opening bullets say 'fy26 results' [rns.json record]",
+    "body": "<ul><li><strong>Grainger plc</strong> will hold a live <strong>FY26 results</strong> presentation via <strong>Investor Meet Company</strong> on <strong>25 November 2026</strong> at <strong>16:00 GMT</strong>.</li><li>Presenting will be <strong>Helen Gordon (CEO)</strong> and <strong>Robert Hudson (CFO)</strong>; open to all existing and potential shareholders.</li><li>Questions can be submitted up to <strong>24 November 2026, 09:00 GMT</strong> or live; routine investor-relations notice with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Grainger's CEO and CFO will present FY26 results via Investor Meet Company on 25 November 2026 at 16:00 GMT.",
+    "priority": "low",
+    "priority_reason": "Routine notice of an investor presentation, with no trading or financial content.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/grainger--gri/investor-presentation-via-investor-meet-company/9841447",
+    "related_news_url": "https://news.google.com/search?q=%22Grainger%22",
+    "added_at": "2026-10-26T10:56:40.266217"
+  },
+  {
     "company": "Whitbread PLC",
     "ticker": "WTB",
     "publish_date": "26 October 2026",
