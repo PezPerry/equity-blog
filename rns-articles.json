@@ -1,5 +1,31 @@
 [
   {
+    "company": "Frasers Group PLC",
+    "ticker": "FRAS",
+    "publish_date": "26 October 2026",
+    "date_iso": "2026-10-26",
+    "time_period": "",
+    "announcement_type": "Acquisition / deal",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li>Frasers bought <strong>198,666</strong> HUGO BOSS shares on <strong>23 October 2026</strong> for <strong>EUR7,630,761</strong>, lifting its holding to <strong>34,468,065</strong> shares, or <strong>50.08%</strong> of HUGO BOSS' share capital.</li><li>The purchase crosses the <strong>50% threshold</strong>, so <strong>HUGO BOSS AG</strong> will now be consolidated as a subsidiary of Frasers; the deal was funded from existing cash and needs no shareholder approval.</li><li>Frasers also holds interests in up to <strong>15,050,100</strong> further shares (<strong>21.87%</strong>) under sold put options; the net consideration if all were exercised would be up to <strong>EUR501.1m</strong> (<strong>GBP427.5m</strong>).</li><li>For H1 to <strong>30 June 2026</strong>, HUGO BOSS reported revenue of <strong>EUR1,810.0m</strong> and EBITDA of <strong>EUR272.0m</strong>, with gross assets of <strong>EUR3,532.0m</strong> and net assets of <strong>EUR1,634.0m</strong> (IFRS, unaudited).</li><li>Pro forma combined EBITDA for the 52 weeks to <strong>26 April 2026</strong> is given as <strong>EUR1,874.3m</strong> (<strong>GBP1,598.9m</strong>); acquisition goodwill of <strong>EUR981.2m</strong> (<strong>GBP837.1m</strong>) would arise, with an equity non-controlling interest covering the remaining <strong>49.92%</strong>.</li><li>Follows Frasers' August 2026 takeover offer; a significant minority remains and, under German law, day-to-day control sits with HUGO BOSS' Management Board, limiting Frasers' influence.</li></ul>",
+    "source_format": "html",
+    "headline": "Frasers Group has acquired further shares to take its HUGO BOSS stake to **50.08%**, making the German fashion group a consolidated subsidiary.",
+    "priority": "high",
+    "priority_reason": "Frasers has crossed the 50% ownership threshold in HUGO BOSS, which becomes a consolidated subsidiary — a significant transaction under the UK Listing Rules.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/frasers-FRAS/share-news/Frasers-Group-PLC-Update-on-investment-in-HUGO-BOS/99550298",
+    "related_news_url": "https://news.google.com/search?q=%22Frasers%20Group%20plc%22",
+    "added_at": "2026-10-26T07:16:28.605100"
+  },
+  {
     "company": "Compass Group PLC",
     "ticker": "CPG",
     "publish_date": "23 October 2026",
