@@ -1,5 +1,31 @@
 [
   {
+    "company": "Wetherspoon (J.D.)",
+    "ticker": "JDW",
+    "publish_date": "26 October 2026",
+    "date_iso": "2026-10-26",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>J D Wetherspoon</strong> rejects a <strong>Daily Mail</strong> (26 October) headline claiming it <strong>\"BANS veterans from entering if wearing a poppy\"</strong>, stating no such ban exists.</li><li>A demonstration near the <strong>Star pub in Gosport</strong> on Sunday led to <strong>extra security</strong>; some poppy wearers and other members of the public were refused entry.</li><li><strong>On police advice the pub was closed</strong> for the rest of the day; it has since re-opened and Wetherspoon has apologised to customers.</li><li>The company notes it supports the <strong>Royal British Legion Poppy Appeal</strong>, with pubs raising <strong>£55,687</strong> last year. Routine reputational statement with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Wetherspoon corrects a Daily Mail headline, saying it has not banned veterans wearing poppies, after a Gosport pub closed on police advice following a demonstration.",
+    "priority": "low",
+    "priority_reason": "A PR correction rebutting a newspaper headline, with no bearing on trading, earnings or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/wetherspoon-j-d---jdw/wearing-poppies-in-wetherspoon-pubs-correction/9841682",
+    "related_news_url": "https://news.google.com/search?q=%22Wetherspoon%20(J.D.)%22",
+    "added_at": "2026-10-26T12:16:02.970872"
+  },
+  {
     "company": "Meta Platforms Inc",
     "ticker": "META",
     "publish_date": "26 October 2026",
