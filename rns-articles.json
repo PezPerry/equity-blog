@@ -1,5 +1,88 @@
 [
   {
+    "company": "Greatland Resources Ltd",
+    "ticker": "GRR",
+    "publish_date": "26 October 2026",
+    "date_iso": "2026-10-26",
+    "time_period": "Q1 FY27 (3 months to 30 September 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "Q1 FY27 (3 months to 30 September 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li>Q1 FY27 (quarter to <strong>30 September 2026</strong>) gold production of <strong>70,131oz</strong> and copper of <strong>2,927t</strong> at an AISC of <strong>$2,925/oz</strong>, with both metrics <strong>better than plan</strong> on strong processing throughput.</li><li>On track for FY27 guidance of <strong>260,000–300,000oz Au</strong> at AISC of <strong>$2,900–$3,330/oz</strong>; production expected <strong>modestly H2-weighted</strong> due to open-pit scheduling and a completed 15-day plant maintenance shut.</li><li>Net sales revenue of <strong>$485m</strong> from sales of <strong>71,901oz Au</strong> and <strong>2,714t Cu</strong> at realised prices of <strong>$5,980/oz</strong> and <strong>$16,653/t</strong>; operating cash flow <strong>$289m</strong>.</li><li>Closing cash of <strong>$1,314m</strong> with <strong>no drawn debt</strong> and total available liquidity of <strong>$1,789m</strong>; cash build of <strong>$25m</strong> despite growth capex and <strong>$100m</strong> of tax paid.</li><li>Construction stage commenced at the <strong>Havieron</strong> gold-copper development; <strong>$96.7m</strong> spent on growth and capitalised exploration in the quarter.</li><li>FY27 D&A guided to <strong>$280–320m</strong> (H2-weighted), up from <strong>$144m</strong> in FY26; a FY26 catch-up tax payment of <strong>~$155m</strong> anticipated in December 2026.</li></ul>",
+    "source_format": "html",
+    "headline": "Greatland produced 70,131oz of gold at AISC of $2,925/oz in Q1 FY27, ahead of plan, and reaffirmed full-year guidance.",
+    "priority": "high",
+    "priority_reason": "Quarterly production and cost update with cash position and reaffirmed full-year guidance for an AIM/ASX-listed gold-copper producer.",
+    "figures": [
+      {
+        "metric": "Gold production",
+        "current": "70,131oz",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "Q1 FY27 quarter to 30 September 2026; stated as better than plan"
+      },
+      {
+        "metric": "AISC",
+        "current": "$2,925/oz Au",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "Q1 FY27; better than plan"
+      },
+      {
+        "metric": "Net sales revenue",
+        "current": "$485m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "Q1 FY27"
+      },
+      {
+        "metric": "Operating cash flow",
+        "current": "$289m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "Q1 FY27"
+      },
+      {
+        "metric": "Closing cash",
+        "current": "$1,314m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "net cash, no drawn debt",
+        "note": "at 30 September 2026"
+      },
+      {
+        "metric": "D&A",
+        "current": "$280–320m (FY27 guided)",
+        "prior": "$144m (FY26)",
+        "change": "not stated",
+        "basis": "",
+        "note": "FY27 D&A expected H2-weighted on higher capital base at Telfer"
+      },
+      {
+        "metric": "TRIFR",
+        "current": "3.7",
+        "prior": "4.5",
+        "change": "not stated",
+        "basis": "",
+        "note": "at quarter end vs 30 June 2026"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "FY27 production of 260,000–300,000oz Au at AISC of $2,900–$3,330/oz Au",
+      "current": "FY27 production of 260,000–300,000oz Au at AISC of $2,900–$3,330/oz Au; remains on track",
+      "commentary": "Full-year guidance is unchanged, with the company stating it remains on track after a first quarter ahead of plan. Production is expected to be modestly weighted to the second half owing to open-pit scheduling and the completed 15-day plant maintenance shutdown in Q1."
+    },
+    "explainer": "This is a quarterly operations update rather than audited accounts, covering the three months to 30 September 2026 — the first quarter of Greatland's FY27. All figures are in US dollars and several cost measures (AISC, net cash, free cash flow, sustaining and growth capital) are non-IFRS, so they are not directly comparable with equivalently named measures at other companies. AISC — all-in sustaining cost — captures the cost of producing an ounce of gold including sustaining capital, and at $2,925/oz it came in below the $2,900–$3,330/oz guidance range.\n\nThe company reaffirmed, rather than changed, its full-year targets: 260,000–300,000oz of gold at AISC of $2,900–$3,330/oz. Management flags that output will be weighted to the second half because of open-pit mine scheduling and because a planned 15-day plant maintenance shutdown fell in the first quarter, so first-quarter run-rate should not simply be annualised.\n\nThe balance sheet remains strong: $1,314m of net cash with no drawn debt, and $1,789m of total liquidity once an undrawn $475m revolving facility is included. Cash still built by $25m despite heavy investment in the Telfer mine and the newly started Havieron development, plus $100m of tax paid in the quarter. Investors should note a further FY26 catch-up tax payment of about $155m is expected in December 2026.\n\nThe rise in depreciation and amortisation guidance (to $280–320m for FY27 from $144m in FY26) is non-cash and reflects the larger capital base built at Telfer since acquisition — underground development, Stage 7 waste stripping and tailings construction — rather than any deterioration in operations.",
+    "source_url": "https://uk.advfn.com/stock-market/london/greatland-resources-GGP/share-news/Greatland-Resources-Limited-September-2026-Quarter/99552308",
+    "related_news_url": "https://news.google.com/search?q=%22Greatland%20Resources%20Limited%22",
+    "added_at": "2026-10-26T07:58:20.391723"
+  },
+  {
     "company": "Molten Ventures plc",
     "ticker": "GROW",
     "publish_date": "26 October 2026",
