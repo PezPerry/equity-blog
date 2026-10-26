@@ -1,5 +1,31 @@
 [
   {
+    "company": "CLS Holdings PLC",
+    "ticker": "CLI",
+    "publish_date": "26 October 2026",
+    "date_iso": "2026-10-26",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>CLS Holdings plc</strong> expects to leave the UK <strong>REIT regime</strong> effective <strong>31 December 2026</strong>, having ceased to meet the \"close company\" condition following recent share-ownership changes outside the Company's control.</li><li>From <strong>1 January 2027</strong> the Group will no longer be exempt from UK <strong>corporation tax</strong> on rental profits or property sales; these will be taxed at the standard rate.</li><li>Future dividends will generally be paid as <strong>ordinary dividends</strong>, except the <strong>final 2026 dividend</strong>, expected to be paid wholly or partly as a <strong>Property Income Distribution (PID)</strong> to meet pre-exit REIT conditions.</li><li>Change relates strictly to tax status; the <strong>property management and investment strategy are unaffected</strong>, per CEO <strong>Fredrik Widlund</strong>.</li><li>Shareholders advised to consult their own tax advisers on the implications for their individual positions.</li></ul>",
+    "source_format": "html",
+    "headline": "CLS Holdings expects to exit the UK REIT regime from **31 December 2026** after share-ownership changes left it failing the non-\"close company\" condition.",
+    "priority": "medium",
+    "priority_reason": "Loss of REIT status removes the corporation-tax exemption on rental profits and property sales and changes future dividend treatment, materially affecting the investment case.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/cls-holdings--cli/cls-announces-expected-exit-from-uk-reit-regime/9840178",
+    "related_news_url": "https://news.google.com/search?q=%22CLS%20Holdings%22",
+    "added_at": "2026-10-26T07:36:15.424588"
+  },
+  {
     "company": "AstraZeneca PLC",
     "ticker": "AZN",
     "publish_date": "26 October 2026",
