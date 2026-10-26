@@ -1,5 +1,57 @@
 [
   {
+    "company": "Unilever PLC",
+    "ticker": "ULVR",
+    "publish_date": "26 October 2026",
+    "date_iso": "2026-10-26",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Ruby Lu</strong> resigned from the Board of <strong>Unilever PLC</strong> with effect from <strong>24 October 2026</strong>.</li><li>Chair <strong>Ian Meakins</strong> thanked her for <strong>five years</strong> of service; no reason for the departure or successor was stated.</li><li>Routine board change with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Unilever non-executive director Ruby Lu has resigned from the Board with effect from 24 October 2026 after five years' service.",
+    "priority": "medium",
+    "priority_reason": "A single non-executive director has resigned from the Board, a routine governance change with no financial impact.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/unilever--ulvr/directorate-change/9840029",
+    "related_news_url": "https://news.google.com/search?q=%22Unilever%22",
+    "added_at": "2026-10-26T07:36:42.875621"
+  },
+  {
+    "company": "Man Group PLC",
+    "ticker": "EMG",
+    "publish_date": "26 October 2026",
+    "date_iso": "2026-10-26",
+    "time_period": "",
+    "announcement_type": "Acquisition / deal",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Man Group plc</strong> expands its strategic partnership with Japan's <strong>Meiji Yasuda Life Insurance Company</strong>, building on a tie-up first announced in <strong>February 2025</strong>.</li><li><strong>Meiji Yasuda</strong> intends to raise its capital commitment to Man Group's investment strategies to <strong>JPY 200bn (approximately $1.25bn)</strong> over the next three years, focused on <strong>private credit</strong>.</li><li><strong>Meiji Yasuda</strong> will consider acquiring an equity stake of <strong>approximately 5%</strong> in Man Group via open-market purchases, with <strong>no new shares issued</strong>.</li><li>Any stake would be subject to a <strong>three-year lock-up</strong>, a <strong>19.99%</strong> standstill cap and orderly-market arrangements on future disposals.</li><li>Firms to <strong>co-develop products</strong> for the Japanese market; Man Group becomes a preferred asset-management partner and provides access to the <strong>Oxford-Man Institute</strong>.</li><li><strong>Financial terms of the transaction are not disclosed.</strong></li></ul>",
+    "source_format": "html",
+    "headline": "Man Group expands partnership with Meiji Yasuda, which will lift its capital commitment to JPY 200bn (~$1.25bn) and may acquire a ~5% equity stake.",
+    "priority": "high",
+    "priority_reason": "Expanded strategic partnership with a potential ~5% equity stake acquisition and a $1.25bn capital commitment — a material corporate and shareholder-register development.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/man-group--emg/expanded-strategic-partnership-with-meiji-yasuda/9840041",
+    "related_news_url": "https://news.google.com/search?q=%22Man%20Group%22",
+    "added_at": "2026-10-26T07:36:42.862111"
+  },
+  {
     "company": "CLS Holdings PLC",
     "ticker": "CLI",
     "publish_date": "26 October 2026",
