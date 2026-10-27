@@ -1,5 +1,66 @@
 [
   {
+    "company": "Informa PLC",
+    "ticker": "INF",
+    "publish_date": "27 October 2026",
+    "date_iso": "2026-10-27",
+    "time_period": "Nine months to 30 September 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "Nine months to 30 September 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Informa PLC</strong> reports <strong>nine-month underlying revenue growth of 6.5%</strong>, or <strong>5.4%</strong> if non-recurring data contracts are included in the 9m 2025 comparison.</li><li>Full-year guidance for <strong>double-digit underlying earnings growth</strong> reconfirmed, measured on underlying adjusted diluted EPS at constant FX (adjusted for biennials and non-recurring data contracts) against a <strong>2025 base of 49p</strong>.</li><li>Group CEO <strong>Stephen A. Carter</strong> cites strong underlying demand for B2B Live Events, with international breadth limiting the impact of in-market disruptions.</li><li>Recent <strong>KSA escalation</strong> has forced rescheduling: the 2026 <strong>Global Health Exhibition (Riyadh)</strong> moves to virtual (physical event to October 2027) and 2026 <strong>Cityscape Global (Riyadh)</strong> moves to January 2027.</li><li>No new financial guidance figures provided beyond the reconfirmed growth outlook.</li></ul>",
+    "source_format": "html",
+    "headline": "Informa reports nine-month underlying revenue growth of 6.5% and reconfirms full-year guidance for double-digit underlying earnings growth.",
+    "priority": "high",
+    "priority_reason": "Nine-month trading update reaffirming full-year earnings guidance, which moves the share.",
+    "figures": [
+      {
+        "metric": "Underlying revenue growth",
+        "current": "6.5%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "underlying, nine months",
+        "note": "5.4% if non-recurring data contracts included in 9m 2025 comparison"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Full year double-digit underlying earnings growth",
+      "current": "Full year double-digit underlying earnings growth",
+      "commentary": "Full-year guidance for double-digit underlying earnings growth reconfirmed, measured as underlying adjusted diluted EPS at constant FX, adjusted for biennials and non-recurring data contracts, from a 2025 base of 49p."
+    },
+    "explainer": "Underlying revenue growth strips out the effects of acquisitions, disposals and currency movements, so the 6.5% figure reflects organic momentum in Informa's core B2B events and brands. The company notes growth is 5.4% on a like-for-like basis if non-recurring data contracts that boosted the 2025 comparative period are included, so the headline 6.5% flatters the year-on-year picture slightly by excluding those one-off prior-year contracts.\n\nThe earnings guidance is defined carefully: double-digit growth in underlying adjusted diluted EPS, measured at constant exchange rates and adjusted for biennials (events that run only every other year, which distort year-on-year comparisons) and the non-recurring data contracts, against a stated 2025 base of 49p. This is a reaffirmation rather than a change — the outlook is unchanged from prior guidance.\n\nThe update flags disruption in the Kingdom of Saudi Arabia, where two 2026 Riyadh events are being rescheduled or moved to virtual format. Informa frames its international breadth as cushioning the impact of such localised disruptions, consistent with holding guidance despite the reshuffle.",
+    "source_url": "https://uk.advfn.com/stock-market/london/informa-INF/share-news/Informa-PLC-Nine-Month-Trading-Update/99562069",
+    "related_news_url": "https://news.google.com/search?q=%22Informa%20PLC%22",
+    "added_at": "2026-10-27T10:35:57.578161"
+  },
+  {
+    "company": "Currys PLC",
+    "ticker": "CURY",
+    "publish_date": "27 October 2026",
+    "date_iso": "2026-10-27",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Magdalena Gerger</strong>, independent non-executive director, will step down from the <strong>Currys plc</strong> Board on <strong>19 January 2027</strong> to devote more time to her other business commitments.</li><li>She will also cease to be a member of the <strong>Remuneration and Nominations Committees</strong> on the same date; the Nominations Committee has begun a search for a new non-executive director.</li><li>Gerger joined the Board in <strong>May 2023</strong>; Chair <strong>Ian Dyson</strong> credited her insight on sustainability and the Nordics markets.</li><li>Routine UKLR 6.4.6R(2) disclosure with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Currys independent non-executive director Magdalena Gerger to step down on 19 January 2027 to focus on other business commitments.",
+    "priority": "medium",
+    "priority_reason": "Board/management change: a non-executive director is stepping down, with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/currys--cury/directorate-change/9843571",
+    "related_news_url": "https://news.google.com/search?q=%22Currys%22",
+    "added_at": "2026-10-27T10:35:57.538391"
+  },
+  {
     "company": "RTW Biotech Opportunities Ltd",
     "ticker": "RTW",
     "publish_date": "27 October 2026",
