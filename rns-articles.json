@@ -1,5 +1,31 @@
 [
   {
+    "company": "HSBC Holdings PLC",
+    "ticker": "HSBA",
+    "publish_date": "27 October 2026",
+    "date_iso": "2026-10-27",
+    "time_period": "Q3 FY26",
+    "announcement_type": "Q3 FY26 results",
+    "period_detail": "Q3 FY26",
+    "type_workings": "Rule 'period line': period line gives quarter 'Q3 FY26' [rns.json record]",
+    "body": "<ul><li><strong>HSBC Holdings plc</strong> is hosting an investor and analyst <strong>Zoom meeting</strong> today on its <strong>3Q 2026 earnings release</strong>, with a presentation attached.</li><li>Speaker is <strong>Pam Kaur</strong>, Group Chief Financial Officer; call starts <strong>7.45am London</strong> (3.45pm Hong Kong, 3.45am New York).</li><li>Routine results-logistics notice — <strong>no financial figures or guidance</strong> disclosed in this announcement; replay available from <strong>28 October 2026</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "HSBC is holding a Zoom meeting today for investors and analysts on its 3Q 2026 earnings, hosted by Group CFO Pam Kaur.",
+    "priority": "low",
+    "priority_reason": "Logistics notice for an investor/analyst Zoom call with a presentation attached; no financial figures or news content in the announcement itself.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/hsbc-holdings--hsba/hsbc-holdings-plc-3q26-earnings-zoom-meeting/9842390",
+    "related_news_url": "https://news.google.com/search?q=%22HSBC%20Holdings%22",
+    "added_at": "2026-10-27T07:35:45.822149"
+  },
+  {
     "company": "Kier Group PLC",
     "ticker": "KIE",
     "publish_date": "27 October 2026",
