@@ -1,5 +1,57 @@
 [
   {
+    "company": "Primary Health Properties PLC",
+    "ticker": "PHP",
+    "publish_date": "27 October 2026",
+    "date_iso": "2026-10-27",
+    "time_period": "",
+    "announcement_type": "Acquisition / deal",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Primary Health Properties PLC</strong> and <strong>Universities Superannuation Scheme (USS)</strong> have increased the target size of their existing <strong>20:80</strong> primary care JV to <strong>£400m</strong> (from <strong>£250m</strong>), with potential to grow to <strong>£800m</strong> over time subject to further approval.</li><li>JV has exchanged contracts to take on <strong>c.£67m</strong> of assets — <strong>nine primary care assets</strong> disposed by PHP at <strong>gross £67m</strong>, in line with book value — taking the vehicle above <strong>£250m</strong>, with a further pipeline identified.</li><li>PHP holds a <strong>20%</strong> equity interest; <strong>net proceeds will be used to reduce net debt</strong>.</li><li>JV targets assets let directly to <strong>NHS or GP tenants</strong> with inflation-linked or fixed-uplift rents, funding <strong>Neighbourhood Health Centres</strong> under the NHS 10-year plan.</li><li><strong>Fitch Ratings</strong> reaffirmed <strong>Assura Limited</strong> at <strong>BBB+</strong> and revised the outlook to <strong>Stable</strong> (previously <strong>Negative</strong>).</li><li>CEO <strong>Mark Davies</strong> said USS is committing additional equity, expressing confidence in primary care.</li></ul>",
+    "source_format": "html",
+    "headline": "PHP and USS raise the target size of their primary care joint venture to **£400m** from **£250m**, with potential to reach **£800m** over time.",
+    "priority": "medium",
+    "priority_reason": "Material JV expansion, £67m asset disposal and improved credit outlook, but no change to results or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/primary-health-properties--php/increased-target-size-of-existing-jv-with-uss/9842376",
+    "related_news_url": "https://news.google.com/search?q=%22Primary%20Health%20Properties%22",
+    "added_at": "2026-10-27T07:57:04.766175"
+  },
+  {
+    "company": "AstraZeneca PLC",
+    "ticker": "AZN",
+    "publish_date": "27 October 2026",
+    "date_iso": "2026-10-27",
+    "time_period": "",
+    "announcement_type": "Regulatory approval",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>European Commission</strong> has approved <strong>Enhertu (trastuzumab deruxtecan)</strong> as adjuvant monotherapy for resected <strong>HER2-positive early breast cancer</strong> patients with residual invasive disease after neoadjuvant treatment — the <strong>first EU approval</strong> of Enhertu in the curative-intent early setting.</li><li>Based on the <strong>DESTINY-Breast05</strong> Phase III trial, which showed Enhertu cut the risk of invasive disease recurrence or death by <strong>53%</strong> (HR 0.47) versus T-DM1.</li><li>Three-year invasive disease-free survival of <strong>92.4%</strong> for Enhertu vs <strong>83.7%</strong> for T-DM1; safety profile consistent with the known profile.</li><li>A <strong>$75m</strong> milestone payment is now due from <strong>AstraZeneca</strong> to <strong>Daiichi Sankyo</strong>; sales in most EU territories are recognised by Daiichi Sankyo.</li><li>Enhertu is a jointly developed HER2-directed antibody drug conjugate, now approved in <strong>35+ countries</strong> for this adjuvant indication.</li></ul>",
+    "source_format": "html",
+    "headline": "AstraZeneca and Daiichi Sankyo's Enhertu wins EU approval as adjuvant treatment for HER2-positive early breast cancer with residual disease.",
+    "priority": "medium",
+    "priority_reason": "Positive but incremental regulatory approval expanding Enhertu into a new early-breast-cancer setting; not a results, guidance or deal event.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/astrazeneca-AZN/share-news/AstraZeneca-PLC-Enhertu-approved-in-EU-for-HER2-po/99563006",
+    "related_news_url": "https://news.google.com/search?q=%22AstraZeneca%20PLC%22",
+    "added_at": "2026-10-27T07:57:04.747601"
+  },
+  {
     "company": "Vistry Group PLC",
     "ticker": "VTY",
     "publish_date": "27 October 2026",
