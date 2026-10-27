@@ -1,5 +1,98 @@
 [
   {
+    "company": "Yellow Cake PLC",
+    "ticker": "YCA",
+    "publish_date": "27 October 2026",
+    "date_iso": "2026-10-27",
+    "time_period": "Quarter ended 30 September 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "Quarter ended 30 September 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Estimated NAV per share</strong> rose <strong>5.0%</strong> to <strong>£6.66</strong> (30 Jun 2026: <strong>£6.34</strong>); latest NAV on <strong>26 October 2026</strong> was <strong>£6.65</strong> per share, or <strong>US$2,231.8m</strong>.</li><li><strong>Uranium spot price</strong> ended the quarter at <strong>US$89.50/lb</strong>, up <strong>5.5%</strong> from <strong>US$84.85/lb</strong> at 30 June; longer-term indicators also rose (3-yr forward <strong>US$104/lb</strong>, 5-yr <strong>US$111/lb</strong>, long-term <strong>US$96/lb</strong>).</li><li>Physical holdings increased to <strong>24,374,996 lb</strong> of U₃O₈ (from <strong>23,214,230 lb</strong>) after delivery on <strong>11 August 2026</strong> of <strong>1,160,766 lb</strong> from <strong>Kazatomprom</strong> at <strong>US$86.15/lb</strong>, total <strong>US$100.0m</strong>, under the 2026 purchase option.</li><li>Value of uranium holdings up <strong>10.8%</strong> to <strong>US$2,181.6m</strong> (30 Jun 2026: <strong>US$1,969.7m</strong>).</li><li>Share buyback <strong>Programme</strong> completed on <strong>10 July 2026</strong>: <strong>1,363,976</strong> shares bought at a VWAP of <strong>544.41p</strong> for ~<strong>US$10m</strong>; <strong>251,295,208</strong> shares now carry voting rights.</li><li>CEO <strong>Andre Liebenberg</strong> flagged the Board is actively evaluating capital allocation options, including further buybacks, to address the share price-to-NAV disparity, provided they do not disrupt the uranium spot market.</li></ul>",
+    "source_format": "html",
+    "headline": "Yellow Cake's estimated NAV per share rose **5.0%** to **£6.66** over the quarter to 30 September 2026, driven by a **5.5%** rise in the uranium spot price.",
+    "priority": "high",
+    "priority_reason": "Quarterly operating update with NAV, uranium holdings and spot-price movements material to the trading case.",
+    "figures": [
+      {
+        "metric": "Estimated NAV per share",
+        "current": "£6.66",
+        "prior": "£6.34",
+        "change": "+5.0%",
+        "basis": "",
+        "note": "At 30 Sep 2026 vs 30 Jun 2026"
+      },
+      {
+        "metric": "Value of uranium holdings",
+        "current": "US$2,181.6m",
+        "prior": "US$1,969.7m",
+        "change": "+10.8%",
+        "basis": "",
+        "note": "At 30 Sep 2026 vs 30 Jun 2026"
+      },
+      {
+        "metric": "U₃O₈ holdings",
+        "current": "24,374,996 lb",
+        "prior": "23,214,230 lb",
+        "change": "+1,160,766 lb",
+        "basis": "",
+        "note": "In storage in Canada and France"
+      },
+      {
+        "metric": "Uranium spot price",
+        "current": "US$89.50/lb",
+        "prior": "US$84.85/lb",
+        "change": "+5.5%",
+        "basis": "",
+        "note": "Quarter-end spot"
+      },
+      {
+        "metric": "Spot transaction volume (9M to 30 Sep)",
+        "current": "~39.5m lb",
+        "prior": "41.7m lb",
+        "change": "-5%",
+        "basis": "",
+        "note": "Nine months vs comparable 2025 period"
+      }
+    ],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "Yellow Cake is not an operating company but a holding vehicle: it buys and stores physical uranium (U₃O₈), so its value tracks the uranium price and its pound-per-share NAV rather than earnings. The quarter's headline moves are therefore a function of two things — the spot uranium price (up 5.5% to US$89.50/lb) and the extra 1.16m lb of uranium delivered under its 2026 Kazatomprom purchase option.\n\nThe value of the uranium pile rose 10.8%, a larger jump than the 5.5% spot-price move because it also captures the newly delivered volume. NAV per share rose a smaller 5.0% to £6.66, mainly reflecting the higher uranium price plus a modest lift from the completed buyback, partly offset by adverse sterling/dollar foreign-exchange movements (the uranium is valued in US dollars, the NAV is reported in pounds).\n\nNo formal profit or earnings guidance applies to a passive holding company of this kind. The notable forward-looking point is capital allocation: management says it is actively weighing further buybacks to narrow the gap between the share price and NAV, conditional on not disturbing the thinly traded uranium spot market.",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/yellow-cake--yca/quarterly-operating-update/9842339",
+    "related_news_url": "https://news.google.com/search?q=%22Yellow%20Cake%22",
+    "added_at": "2026-10-27T07:36:17.023652"
+  },
+  {
+    "company": "Rentokil Initial PLC",
+    "ticker": "RTO",
+    "publish_date": "27 October 2026",
+    "date_iso": "2026-10-27",
+    "time_period": "",
+    "announcement_type": "Buyback programme launch",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Rentokil Initial plc</strong> will commence a share buyback programme of up to <strong>USD 200 million</strong>, following its Q3 trading update on <strong>22 October 2026</strong> (period 1 July to 30 September 2026).</li><li>Programme executed by <strong>Goldman Sachs International</strong> acting as principal; purchases begin <strong>immediately</strong> and end no later than <strong>24 February 2027</strong>.</li><li>Purpose is to reduce issued share capital and meet employee share scheme obligations; shares will be cancelled or held in treasury.</li><li>Conducted under the <strong>2026 Authority</strong> (granted at the 7 May 2026 AGM), with a maximum of <strong>252,000,000</strong> shares authorised for repurchase.</li></ul>",
+    "source_format": "html",
+    "headline": "Rentokil Initial to commence a share buyback programme of up to USD 200m, running until no later than 24 February 2027.",
+    "priority": "medium",
+    "priority_reason": "Launch of a new share buyback programme, which is a capital-return event rather than a routine daily dealing disclosure.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/rentokil-initial--rto/commencement-of-share-buyback-programme/9842380",
+    "related_news_url": "https://news.google.com/search?q=%22Rentokil%20Initial%22",
+    "added_at": "2026-10-27T07:36:17.001999"
+  },
+  {
     "company": "HSBC Holdings PLC",
     "ticker": "HSBA",
     "publish_date": "27 October 2026",
