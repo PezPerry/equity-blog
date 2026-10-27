@@ -1,5 +1,88 @@
 [
   {
+    "company": "Reckitt Benckiser Group plc",
+    "ticker": "RKT",
+    "publish_date": "27 October 2026",
+    "date_iso": "2026-10-27",
+    "time_period": "Q3 2026 (quarter and nine months to end-September 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "Q3 2026 (quarter and nine months to end-September 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Core Reckitt</strong> Q3 like-for-like net revenue grew <strong>+3.3%</strong> (<strong>+3.9%</strong> excluding Russia Hygiene), described as a good underlying performance in a challenging consumer environment.</li><li>FY Core Reckitt LFL net revenue guidance adjusted to <strong>+3.5% to +4.5%</strong>, reflecting <strong>Lysol</strong> manufacturing disruption and a <strong>China VMS</strong> category slowdown in Q3, partly offset by positive demand for seasonal cold & flu brands in early Q4.</li><li><strong>Emerging Markets</strong> (44% of Core Q3 revenue) grew <strong>+8.0%</strong> LFL to <strong>£1,174m</strong> (+9.8% ex-Russia Hygiene); <strong>China</strong> mid-single-digit, <strong>India</strong> double-digit.</li><li><strong>Europe</strong> (32%) returned to growth at <strong>+0.8%</strong> LFL to <strong>£867m</strong>, led by Gaviscon, Vanish and Veet, though volumes fell -3.2%.</li><li><strong>North America</strong> (24%) declined <strong>-1.3%</strong> LFL to <strong>£649m</strong> as <strong>Lysol</strong> supply constraints and order phasing hit the quarter; a rebound is expected in Q4, backed by the previously announced up-to-<strong>$600m</strong> investment.</li><li><strong>Mead Johnson Nutrition</strong> (16% of Group Q3 revenue) delivered low-single-digit LFL growth, in line with its long-term profile.</li></ul>",
+    "source_format": "html",
+    "headline": "Reckitt delivered **+3.3%** Q3 like-for-like net revenue growth across Core Reckitt and adjusted its full-year Core guidance to **+3.5% to +4.5%**.",
+    "priority": "high",
+    "priority_reason": "Q3 net-revenue update accompanied by a change to full-year Core Reckitt guidance.",
+    "figures": [
+      {
+        "metric": "Core Reckitt LFL net revenue growth",
+        "current": "+3.3%",
+        "prior": "not stated",
+        "change": "+3.3% LFL",
+        "basis": "like-for-like, constant currency",
+        "note": "Q3 2026; +3.9% excluding Russia Hygiene"
+      },
+      {
+        "metric": "Emerging Markets net revenue",
+        "current": "£1,174m",
+        "prior": "not stated",
+        "change": "+8.0% LFL",
+        "basis": "like-for-like",
+        "note": "Q3 2026; +2.3% volume, +5.7% price/mix; +9.8% ex-Russia Hygiene"
+      },
+      {
+        "metric": "Europe net revenue",
+        "current": "£867m",
+        "prior": "not stated",
+        "change": "+0.8% LFL",
+        "basis": "like-for-like",
+        "note": "Q3 2026; -3.2% volume, +4.0% price/mix"
+      },
+      {
+        "metric": "North America net revenue",
+        "current": "£649m",
+        "prior": "not stated",
+        "change": "-1.3% LFL",
+        "basis": "like-for-like",
+        "note": "Q3 2026; +0.7% volume, -2.0% price/mix"
+      },
+      {
+        "metric": "YTD Emerging Markets net revenue",
+        "current": "£3,405m",
+        "prior": "not stated",
+        "change": "+8.4% LFL",
+        "basis": "like-for-like",
+        "note": "nine months to end-Sep 2026"
+      },
+      {
+        "metric": "YTD Europe net revenue",
+        "current": "£2,539m",
+        "prior": "not stated",
+        "change": "-1.7% LFL",
+        "basis": "like-for-like",
+        "note": "nine months to end-Sep 2026"
+      },
+      {
+        "metric": "YTD North America net revenue",
+        "current": "£1,856m",
+        "prior": "not stated",
+        "change": "+0.1% LFL",
+        "basis": "like-for-like",
+        "note": "nine months to end-Sep 2026"
+      }
+    ],
+    "guidance": {
+      "status": "lowered",
+      "previous": "not stated in this announcement",
+      "current": "Core Reckitt full-year like-for-like net revenue growth of +3.5% to +4.5%",
+      "commentary": "Reckitt says it has 'adjusted' its FY Core Reckitt LFL guidance to +3.5% to +4.5%, citing the Lysol manufacturing disruption and a China VMS category slowdown in Q3, partly offset by positive early-Q4 demand for seasonal cold & flu brands. The announcement does not print the previous guidance figure, so the exact direction and scale of the change cannot be confirmed from this text alone; the disruption-led framing points to a trim rather than an upgrade."
+    },
+    "explainer": "These are quarterly net-revenue figures, not profit. Reckitt reports growth mainly on a 'like-for-like' (LFL) basis, which strips out currency moves, acquisitions and disposals, and markets with over-100% inflation, so it reflects underlying volume plus price/mix rather than reported sterling revenue. The group splits into Core Reckitt (about 80% of Group revenue) and Mead Johnson Nutrition (about 16%); the headline +3.3% refers to Core only.\n\nThe regional detail shows a mixed quarter. Emerging Markets did the heavy lifting at +8.0% LFL, with China only mid-single-digit as its vitamins/minerals/supplements (VMS) category slowed. Europe just returned to growth (+0.8%) but on falling volumes (-3.2%), meaning growth came from price and mix rather than selling more units. North America fell -1.3% as temporary Lysol factory constraints capped supply despite strong consumer demand, compounded by retailers phasing orders into Q4.\n\nOn guidance, Reckitt has moved its full-year Core LFL target to a +3.5% to +4.5% range. The release attributes this to the Lysol supply issue and the China VMS slowdown, partly cushioned by stronger early-season cold & flu demand. Because the prior guidance figure is not restated in this announcement, readers cannot see from the text exactly how far guidance has moved — only that it has been reset to this range and that the drivers are predominantly the Q3 setbacks, with management expecting a Q4 recovery in North America.",
+    "source_url": "https://uk.advfn.com/stock-market/london/reckitt-benckiser-RKT/share-news/Reckitt-Benckiser-Group-PLC-Q3-RESULTS-2026/99562077",
+    "related_news_url": "https://news.google.com/search?q=%22Reckitt%20Benckiser%20Group%20plc%22",
+    "added_at": "2026-10-27T07:59:58.235608"
+  },
+  {
     "company": "Severn Trent Plc",
     "ticker": "SVT",
     "publish_date": "27 October 2026",
