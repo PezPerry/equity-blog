@@ -1,5 +1,31 @@
 [
   {
+    "company": "PayPal Holdings Inc",
+    "ticker": "PYPL",
+    "publish_date": "27 October 2026",
+    "date_iso": "2026-10-27",
+    "time_period": "Q3 2026 (quarter ended 30 September 2026)",
+    "announcement_type": "Quarterly results",
+    "period_detail": "Q3 2026 (quarter ended 30 September 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>PayPal Holdings, Inc.</strong> (NASDAQ: PYPL) reported <strong>third quarter 2026</strong> results for the period ended <strong>30 September 2026</strong>.</li><li>This RNS notice is a <strong>release-and-webcast announcement only</strong> — the earnings release and related materials are on PayPal's investor relations site, and <strong>no revenue, profit, EPS or guidance figures are printed</strong> in the text provided.</li><li>Conference call and live webcast scheduled for <strong>5:00 a.m. Pacific / 8:00 a.m. Eastern</strong> on the day; archive available for <strong>90 days</strong>.</li><li>Figures could not be summarised as the source text does not contain them.</li></ul>",
+    "source_format": "html",
+    "headline": "**PayPal** released its **Q3 2026** results for the quarter ended **30 September 2026**, directing investors to its IR website; this notice contains no figures.",
+    "priority": "high",
+    "priority_reason": "Quarterly results from a major payments group, though this notice carries no financial detail itself.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/PYPL/share-news/PayPal-Reports-Third-Quarter-2026-Results/99566074",
+    "related_news_url": "https://news.google.com/search?q=%22PayPal%20Holdings%2C%20Inc.%22",
+    "added_at": "2026-10-27T11:56:11.380933"
+  },
+  {
     "company": "Informa PLC",
     "ticker": "INF",
     "publish_date": "27 October 2026",
