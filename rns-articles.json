@@ -1,5 +1,80 @@
 [
   {
+    "company": "Oakley Capital Investments Limited",
+    "ticker": "OCI",
+    "publish_date": "28 October 2026",
+    "date_iso": "2026-10-28",
+    "time_period": "Q3 2026 (three months ended 30 September 2026)",
+    "announcement_type": "Disposal / Trading update",
+    "period_detail": "Q3 2026 (three months ended 30 September 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>OCI</strong> has agreed to sell part of its interests in <strong>Oakley Capital Funds IV, V and VI, Origin and Origin II</strong> to <strong>Carlyle AlpInvest</strong> (with <strong>Anchor Capital</strong>) for <strong>€295m (£257m)</strong> — a <strong>5.75%</strong> discount to the <strong>€313m (£272m)</strong> carrying value at 31 March 2026, versus the <strong>38%</strong> discount at which OCI shares traded on the same date.</li><li>Consideration paid in instalments: <strong>~50% (~£138m)</strong> on completion, the remaining 50% deferred and paid over three years; purchasers also assume <strong>~£244m</strong> of outstanding fund commitments. Completion expected <strong>November 2026</strong>.</li><li>Q3 unaudited <strong>NAV of £1,294m</strong>, or <strong>791p per share</strong>, up <strong>+1.2% (+9p)</strong> since 30 June 2026 and <strong>+6.7% (+50p)</strong> year on year; figures exclude the transaction.</li><li>Across 41 Flagship and Origin companies, <strong>16 were marked up, 10 down</strong>; largest movers <strong>North Sails (+9p)</strong>, <strong>Phenna (+7p)</strong>, <strong>Cusp AI and Numa (+7p)</strong>, with <strong>IU Group (-6p)</strong> the main detractor.</li><li>Board has approved a further <strong>£20m buyback for 2027</strong>, doubling the programme to <strong>£40m</strong>; <strong>3.3m shares</strong> bought back and cancelled for <strong>£17m</strong> in the nine months to 30 September 2026.</li><li>Deal is a related party transaction (Oakley is OCI's adviser); <strong>Peter Dubens</strong> and alternate <strong>David Till</strong> recused, and <strong>Deutsche Numis</strong> as sponsor advised the independent directors the terms are fair and reasonable.</li></ul>",
+    "source_format": "html",
+    "headline": "Oakley Capital Investments to sell part of its Oakley fund interests for **€295m (£257m)**, a **5.75%** discount to 31 March carrying value, alongside a robust Q3 NAV update.",
+    "priority": "high",
+    "priority_reason": "Material secondary sale of fund interests at a narrow discount plus a Q3 NAV update and an enlarged buyback programme.",
+    "figures": [
+      {
+        "metric": "Asset sale consideration",
+        "current": "€295m (£257m)",
+        "prior": "€313m (£272m) carrying value at 31 March 2026",
+        "change": "-5.75% discount to Reference Valuation",
+        "basis": "constant FX £1:€1.1497",
+        "note": "~£275m after capital calls/distributions since Reference Date; completes November 2026"
+      },
+      {
+        "metric": "Net Asset Value",
+        "current": "£1,294m",
+        "prior": "not stated",
+        "change": "+1.2% vs 30 June 2026",
+        "basis": "unaudited, full portfolio revaluation",
+        "note": "as at 30 September 2026"
+      },
+      {
+        "metric": "NAV per share",
+        "current": "791p",
+        "prior": "not stated",
+        "change": "+6.7% (+50p) YoY; +1.2% (+9p) vs 30 June 2026",
+        "basis": "unaudited",
+        "note": "as at 30 September 2026"
+      },
+      {
+        "metric": "Total liquidity",
+        "current": "£189m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "£89m cash plus £100m undrawn facilities",
+        "note": "as at 30 September 2026; pro forma for deal c.£327m"
+      },
+      {
+        "metric": "Commitment cover",
+        "current": "0.48x (pro forma)",
+        "prior": "0.21x",
+        "change": "increase",
+        "basis": "ratio of total liquidity to outstanding commitments",
+        "note": "pro forma adjusting 30 September position for the transaction"
+      },
+      {
+        "metric": "2026 buyback completed to date",
+        "current": "£17m (3.3m shares)",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "acquired and cancelled",
+        "note": "nine months to 30 September 2026; +5.1p NAV per share gain"
+      }
+    ],
+    "guidance": {
+      "status": "new",
+      "previous": "2027 buyback programme minimum of £20 million",
+      "current": "2027 buyback programme increased to £40 million",
+      "commentary": "Following the transaction the Board approved an additional £20m of buyback capacity for 2027, taking the programme to £40m, with deployment starting this year after the imminent completion of the 2026 £20m programme. The Board signals scope for further buybacks as realisations and deferred proceeds come through."
+    },
+    "explainer": "This announcement combines two things: a partial sale of OCI's stakes in several Oakley private-equity funds, and its Q3 trading update. OCI is a listed fund that invests in unlisted Oakley funds, so its shares typically trade at a discount to the stated net asset value (NAV). The key point of the sale is validation: a third party (Carlyle AlpInvest) agreed to buy a representative slice of the portfolio at just a 5.75% discount to the 31 March carrying value, far narrower than the 38% discount the shares themselves traded at — the Board's argument that the market price is too cheap.\n\nThe sterling figures for the deal are illustrative, translated at a fixed rate of £1:€1.1497 (the rate in the 31 March NAV); the actual sterling received depends on exchange rates when payments land. Only about half the money (~£138m) comes on completion in November 2026; the rest is deferred over three years and carried as a fair-valued receivable. The buyers also take on ~£244m of future commitments OCI would otherwise have had to fund.\n\nThe NAV figures are unaudited and reflect a full revaluation of portfolio companies at 30 September 2026. NAV per share of 791p is up 1.2% in the quarter and 6.7% over the year; these numbers do not yet reflect the sale. Pro forma for the deal, liquidity rises to about £327m and commitment cover improves from 0.21x to 0.48x, giving the Board more headroom for debt repayment and buybacks.\n\nOn capital returns, the 2027 buyback has been doubled from a £20m minimum to £40m, with the enlarged capacity starting this year once the 2026 £20m programme completes. The Board flags potential further buybacks as portfolio exits and deferred sale proceeds come in, though it cautions the timing of individual realisations cannot be predicted.",
+    "source_url": "https://uk.advfn.com/stock-market/london/oakley-capital-investments-OCI/share-news/Oakley-Capital-Investments-Limited-Partial-Asset-S/99575070",
+    "related_news_url": "https://news.google.com/search?q=%22Oakley%20Capital%20Investments%20Limited%22",
+    "added_at": "2026-10-28T11:56:28.921542"
+  },
+  {
     "company": "HSBC Holdings PLC",
     "ticker": "HSBA",
     "publish_date": "28 October 2026",
