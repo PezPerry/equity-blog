@@ -1,5 +1,120 @@
 [
   {
+    "company": "Materialise NV",
+    "ticker": "MTLS",
+    "publish_date": "28 October 2026",
+    "date_iso": "2026-10-28",
+    "time_period": "Q3 2026 (quarter ended 30 September 2026)",
+    "announcement_type": "Quarterly results",
+    "period_detail": "Q3 2026 (quarter ended 30 September 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li>Q3 2026 total revenue <strong>EUR67.7m</strong> (<strong>67,670 kEUR</strong>) vs <strong>66,259 kEUR</strong>, up <strong>2.1%</strong> reported and <strong>4.9%</strong> excluding prior-year divestitures.</li><li><strong>Materialise Medical</strong> revenue up <strong>9.7%</strong> to <strong>36,542 kEUR</strong>; <strong>Software</strong> <strong>9,864 kEUR</strong> (down from 10,286 kEUR); <strong>Manufacturing</strong> <strong>21,266 kEUR</strong>, up <strong>1.5%</strong> adjusted for divestments.</li><li><strong>Adjusted EBIT 2,485 kEUR</strong> (margin <strong>3.7%</strong>) vs <strong>2,918 kEUR</strong> (4.4%); <strong>Adjusted EBITDA 8,046 kEUR</strong> vs 8,428 kEUR.</li><li><strong>Net profit 1,383 kEUR</strong> vs <strong>1,848 kEUR</strong>, after non-recurring charges of <strong>184 kEUR</strong> on Eyewear inventory impairment and higher R&D spend (up <strong>11.9%</strong>).</li><li>Net cash position up <strong>11,668 kEUR</strong> to <strong>82,473 kEUR</strong>; <strong>1,426,784</strong> shares bought back for <strong>7,482 kEUR</strong> under the repurchase programme.</li><li>Full-year <strong>2026 revenue guidance of 273,000–283,000 kEUR reconfirmed</strong> and <strong>Adjusted EBIT guidance of 12,000–14,000 kEUR reaffirmed</strong> (raised in August).</li></ul>",
+    "source_format": "html",
+    "headline": "Materialise posts Q3 2026 revenue of EUR67.7m, up 2.1%, stays profitable and reconfirms full-year revenue and raised Adjusted EBIT guidance.",
+    "priority": "high",
+    "priority_reason": "Third-quarter results with full-year guidance reconfirmed.",
+    "figures": [
+      {
+        "metric": "Total revenue",
+        "current": "67,670 kEUR",
+        "prior": "66,259 kEUR",
+        "change": "+2.1%",
+        "basis": "reported; +4.9% excluding prior-year divestitures",
+        "note": "Q3 ended 30 September 2026"
+      },
+      {
+        "metric": "Materialise Medical revenue",
+        "current": "36,542 kEUR",
+        "prior": "33,296 kEUR",
+        "change": "+9.7%",
+        "basis": "",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "Materialise Software revenue",
+        "current": "9,864 kEUR",
+        "prior": "10,286 kEUR",
+        "change": "not stated",
+        "basis": "",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "Materialise Manufacturing revenue",
+        "current": "21,266 kEUR",
+        "prior": "22,677 kEUR",
+        "change": "+1.5% adjusted for divestments",
+        "basis": "",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "Gross profit",
+        "current": "39,035 kEUR",
+        "prior": "37,651 kEUR",
+        "change": "+3.7%",
+        "basis": "margin 57.7% vs 56.8%",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "Adjusted EBIT",
+        "current": "2,485 kEUR",
+        "prior": "2,918 kEUR",
+        "change": "not stated",
+        "basis": "margin 3.7% vs 4.4%",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "Adjusted EBITDA",
+        "current": "8,046 kEUR",
+        "prior": "8,428 kEUR",
+        "change": "not stated",
+        "basis": "",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "Operating profit",
+        "current": "1,343 kEUR",
+        "prior": "2,522 kEUR",
+        "change": "not stated",
+        "basis": "",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "Net profit",
+        "current": "1,383 kEUR",
+        "prior": "1,848 kEUR",
+        "change": "not stated",
+        "basis": "",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "Cash and cash equivalents",
+        "current": "153,529 kEUR",
+        "prior": "133,918 kEUR",
+        "change": "not stated",
+        "basis": "",
+        "note": "at 30 Sep 2026 vs 31 Dec 2025"
+      },
+      {
+        "metric": "Net cash position",
+        "current": "82,473 kEUR",
+        "prior": "70,805 kEUR",
+        "change": "+11,668 kEUR",
+        "basis": "",
+        "note": "at 30 Sep 2026 vs 31 Dec 2025"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "FY2026 revenue 273,000–283,000 kEUR; Adjusted EBIT 12,000–14,000 kEUR (raised in August 2026)",
+      "current": "FY2026 revenue 273,000–283,000 kEUR reconfirmed; Adjusted EBIT 12,000–14,000 kEUR reaffirmed",
+      "commentary": "Full-year revenue guidance is reconfirmed, fully absorbing the revenue impact of the RapidFit and Eyewear divestitures. The Adjusted EBIT range, which was raised in August, is reaffirmed on continued cost discipline despite intensified R&D investment."
+    },
+    "explainer": "Materialise reports in thousands of euros (kEUR); 67,670 kEUR equals roughly EUR67.7m. Reported Q3 revenue rose 2.1%, but on an underlying basis — stripping out last year's divested RapidFit and Eyewear activities in the Manufacturing segment — growth was 4.9%. The gap matters because the divestitures lowered the prior-year comparative base, flattering the organic rate relative to the headline.\n\nProfitability slipped slightly: Adjusted EBIT fell to 2,485 kEUR from 2,918 kEUR and net profit to 1,383 kEUR from 1,848 kEUR. The company attributes this to an 11.9% increase in R&D spend in the Medical segment plus 184 kEUR of non-recurring charges from impairing Eyewear inventory, rather than weaker trading. Adjusted EBIT and Adjusted EBITDA are non-IFRS measures that add back items such as share-based pay and divestiture/restructuring costs, so they flatter the IFRS operating profit of 1,343 kEUR.\n\nThe balance sheet strengthened: cash rose to 153,529 kEUR and the net cash position improved by 11,668 kEUR to 82,473 kEUR on strong operating cash flow, even while funding share buybacks.\n\nOn guidance, nothing changed this quarter. Full-year revenue guidance of 273,000–283,000 kEUR is reconfirmed, and the Adjusted EBIT range of 12,000–14,000 kEUR — which had already been lifted in August — is reaffirmed. So the EBIT outlook remains at the higher level set earlier in the year, not newly raised here.",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/MTLS/share-news/Materialise-Reports-Third-Quarter-2026-Results/99571583",
+    "related_news_url": "https://news.google.com/search?q=%22Materialise%20NV%22",
+    "added_at": "2026-10-28T07:50:38.438097"
+  },
+  {
     "company": "Vesuvius plc",
     "ticker": "VSVS",
     "publish_date": "27 October 2026",
