@@ -1,5 +1,90 @@
 [
   {
+    "company": "Unilever PLC",
+    "ticker": "ULVR",
+    "publish_date": "28 October 2026",
+    "date_iso": "2026-10-28",
+    "time_period": "Q3 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "Q3 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Underlying sales growth of 5.2%</strong> in Q3 2026 — <strong>2.9%</strong> volume and <strong>2.3%</strong> price, with price stepped up to offset higher commodity costs.</li><li><strong>Upgraded 2026 outlook</strong>: now expects <strong>at least 3%</strong> underlying volume growth and second-half USG of <strong>around 5%</strong>; full-year USG kept within the <strong>4%–6%</strong> multi-year range, with modest margin improvement versus <strong>20.0%</strong> in 2025.</li><li><strong>Turnover of €13.3bn, up 6.7%</strong> — 5.2% underlying growth, <strong>0.8%</strong> net M&A and <strong>0.6%</strong> currency.</li><li>Power Brands led with <strong>5.8% USG</strong>; Home Care <strong>+9.1%</strong>, Personal Care <strong>+6.3%</strong>, Beauty & Wellbeing <strong>+5.7%</strong>, while <strong>Foods was flat at 0.1%</strong> on soft developed-market retail and US condiments weakness.</li><li>Emerging markets <strong>+9.5% USG</strong> (6.0% volume) versus developed markets <strong>(0.9)%</strong>, led by <strong>India</strong>, <strong>Latin America</strong> and <strong>South East Asia</strong>.</li><li><strong>Foods combination with McCormick</strong> on track for timely closing; Q3 interim dividend of <strong>€0.4664</strong>, up <strong>3.0%</strong> vs Q3 2025.</li></ul>",
+    "source_format": "html",
+    "headline": "Unilever posted Q3 underlying sales growth of 5.2% and upgraded its full-year outlook, now expecting at least 3% underlying volume growth for 2026.",
+    "priority": "high",
+    "priority_reason": "Quarterly trading statement with an upgraded full-year outlook for a FTSE 100 heavyweight.",
+    "figures": [
+      {
+        "metric": "Underlying sales growth (USG)",
+        "current": "5.2%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "underlying; 2.9% volume, 2.3% price",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "Turnover",
+        "current": "€13.3bn",
+        "prior": "not stated",
+        "change": "+6.7%",
+        "basis": "reported; incl. 0.8% net M&A and 0.6% currency",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "Quarterly interim dividend",
+        "current": "€0.4664",
+        "prior": "not stated",
+        "change": "+3.0% vs Q3 2025",
+        "basis": "in line with Q2 2026",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "Underlying operating margin (reference)",
+        "current": "not stated",
+        "prior": "20.0%",
+        "change": "modest improvement expected FY2026",
+        "basis": "underlying",
+        "note": "FY2025 base"
+      }
+    ],
+    "guidance": {
+      "status": "raised",
+      "previous": "Multi-year USG guidance range of 4% to 6%; modest improvement in underlying operating margin versus 20.0% in 2025.",
+      "current": "Full-year 2026 USG still within the 4%–6% range and modest margin improvement, but now expects at least 3% underlying volume growth for full-year 2026 and second-half USG of around 5%.",
+      "commentary": "Following strong nine-month performance, Unilever upgraded its outlook by setting a specific full-year underlying volume growth target of at least 3%. The headline sales-growth and margin ranges are unchanged, so the upgrade is specifically about volume delivery and the pace of H2 growth."
+    },
+    "explainer": "Underlying sales growth (USG) strips out the effects of acquisitions, disposals and currency movements, splitting the remainder into volume (how much more product was sold) and price. Unilever's 5.2% USG was made up of 2.9% volume and 2.3% price — the company is selling more while also raising prices to cover higher commodity costs, which it frames as healthy, volume-led growth rather than growth bought purely through price rises.\n\nReported turnover of €13.3bn rose 6.7%, more than the 5.2% underlying figure, because net acquisitions added 0.8% and favourable currency added 0.6%. The gap between reported and underlying growth is therefore mostly deal and exchange-rate effects rather than extra trading momentum.\n\nThe key change is the guidance. Unilever has kept its medium-term 4%–6% sales-growth range and its expectation of a modest margin improvement on 2025's 20.0% underlying operating margin. What is new is a firmer commitment to at least 3% underlying volume growth for the full year and second-half sales growth of around 5% — effectively an upgrade centred on volumes, signalling confidence that demand, not just pricing, is driving the business.\n\nFoods remains the soft spot, roughly flat as emerging-market and food-solutions growth was cancelled out by weak US retail and condiments, and this business is being combined with McCormick in a deal management says is progressing to a timely close.",
+    "source_url": "https://uk.advfn.com/stock-market/london/unilever-ULVR/share-news/Unilever-PLC-Q3-2026-Trading-Statement/99571801",
+    "related_news_url": "https://news.google.com/search?q=%22Unilever%20PLC%22",
+    "added_at": "2026-10-28T08:21:16.203485"
+  },
+  {
+    "company": "British American Tobacco p.l.c.",
+    "ticker": "BATS",
+    "publish_date": "28 October 2026",
+    "date_iso": "2026-10-28",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Bruce Sewell</strong> joins the Board as an independent Non-Executive Director from <strong>1 January 2027</strong>, and will sit on the <strong>Audit and Nominations Committees</strong>.</li><li>Sewell was <strong>Senior Vice President, General Counsel and Secretary of Apple Inc.</strong> from <strong>2009 to 2018</strong>, and spent 14 years at <strong>Intel Corporation</strong>; he is currently Lead Independent Director of <strong>Vail Resorts</strong> and a director of <strong>C3.ai</strong>.</li><li>Committee reshuffle from <strong>30 November 2026</strong>: <strong>Véronique Laury</strong> moves from Audit to the Remuneration Committee, and <strong>Serpil Timuray</strong> moves from Remuneration to the Audit Committee.</li><li>Chair <strong>Luc Jobin</strong> cited Sewell's technology-sector and regulatory experience as support for the <strong>Horizon 2030</strong> ambitions and the \"Smokeless World\" strategy.</li><li>Routine governance disclosure with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "BAT appoints former Apple general counsel Bruce Sewell as independent Non-Executive Director from 1 January 2027, alongside audit and remuneration committee changes.",
+    "priority": "medium",
+    "priority_reason": "Non-executive board appointment and committee reshuffle with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/british-american-tobacco-BATS/share-news/British-American-Tobacco-PLC-Board-and-Committee-C/99571824",
+    "related_news_url": "https://news.google.com/search?q=%22British%20American%20Tobacco%20p.l.c.%22",
+    "added_at": "2026-10-28T08:21:16.190529"
+  },
+  {
     "company": "Standard Chartered PLC",
     "ticker": "STAN",
     "publish_date": "28 October 2026",
