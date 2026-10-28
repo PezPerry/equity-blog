@@ -1,5 +1,138 @@
 [
   {
+    "company": "Vodafone Group PLC",
+    "ticker": "VOD",
+    "publish_date": "28 October 2026",
+    "date_iso": "2026-10-28",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Joakim Reiter</strong>, Vodafone's external affairs director, will leave the group on <strong>31 December 2026</strong> to become <strong>Secretary General of the European Roundtable for Industry</strong>.</li><li>Departure follows a <strong>nine-year tenure</strong> covering government, policy and regulatory affairs across Europe and Africa.</li><li>CEO <strong>Margherita Della Valle</strong> thanked Reiter for his contribution; a successor will be announced <strong>in due course</strong>.</li><li>Routine senior-management change with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Vodafone external affairs chief Joakim Reiter to leave on 31 December 2026 after a nine-year tenure to join the European Roundtable for Industry.",
+    "priority": "medium",
+    "priority_reason": "Senior executive departure is a management change, but the role is external affairs rather than CEO/CFO and has no direct trading impact.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/vodafone-VOD/share-news/Vodafone-Group-Plc-Executive-Committee-change/99571782",
+    "related_news_url": "https://news.google.com/search?q=%22Vodafone%20Group%20Plc%22",
+    "added_at": "2026-10-28T08:19:48.854898"
+  },
+  {
+    "company": "GSK plc",
+    "ticker": "GSK",
+    "publish_date": "28 October 2026",
+    "date_iso": "2026-10-28",
+    "time_period": "Q3 2026",
+    "announcement_type": "Interim results",
+    "period_detail": "Q3 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Total Q3 sales £8.9bn</strong>, up <strong>+4% AER / +5% CER</strong>, led by <strong>Specialty Medicines £3.9bn (+15%)</strong>: HIV <strong>£2.1bn (+10%)</strong>, Respiratory/Immunology/Inflammation <strong>£1.1bn (+21%)</strong>, Oncology <strong>£0.6bn (+23%)</strong>.</li><li><strong>Vaccines £2.6bn (-2%)</strong> — <strong>Shingrix £0.8bn (-5%)</strong>, <strong>Arexvy £0.2bn (-24%)</strong>, Meningitis <strong>£0.6bn (+12%)</strong>; <strong>General Medicines £2.4bn</strong> stable, <strong>Trelegy £0.8bn (+8%)</strong>.</li><li><strong>Core operating profit +5%</strong> and <strong>Core EPS +1%</strong>; but <strong>Total operating profit -16%</strong> and <strong>Total EPS -21%</strong>, hit by <strong>£328m</strong> major restructuring charges from the Accelerate Growth programme and lower other net operating income.</li><li>Cash generated from operations <strong>£3.1bn</strong>, free cash flow <strong>£2.1bn</strong>; <strong>£2bn</strong> buyback (announced FY 2024) completed in Q2 2026.</li><li><strong>Full-year 2026 guidance reaffirmed</strong> at CER: turnover <strong>+3% to 5%</strong>, Core operating profit <strong>+7% to 9%</strong>, Core EPS <strong>+7% to 9%</strong>; on track for 2031 sales of more than <strong>£40bn</strong>.</li><li><strong>Q3 dividend of 17p</strong> declared, with <strong>70p</strong> expected for full-year 2026; three new US specialty approvals (Hibsago, Jideytro, Jemperli).</li></ul>",
+    "source_format": "html",
+    "headline": "GSK posted Q3 total sales of **£8.9bn** (+5% CER), driven by Specialty Medicines, and reaffirmed full-year 2026 guidance.",
+    "priority": "high",
+    "priority_reason": "Quarterly results from a FTSE 100 pharma major, with guidance reaffirmed and dividend declared.",
+    "figures": [
+      {
+        "metric": "Total sales",
+        "current": "£8.9bn",
+        "prior": "not stated",
+        "change": "+4% AER / +5% CER",
+        "basis": "AER and CER",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "Specialty Medicines sales",
+        "current": "£3.9bn",
+        "prior": "not stated",
+        "change": "+15%",
+        "basis": "CER",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "Vaccines sales",
+        "current": "£2.6bn",
+        "prior": "not stated",
+        "change": "-2%",
+        "basis": "CER",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "General Medicines sales",
+        "current": "£2.4bn",
+        "prior": "not stated",
+        "change": "stable",
+        "basis": "CER",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "Core operating profit",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+5%",
+        "basis": "CER",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "Core EPS",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+1%",
+        "basis": "CER",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "Total operating profit",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "-16%",
+        "basis": "not stated",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "Total EPS",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "-21%",
+        "basis": "not stated",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "Free cash flow",
+        "current": "£2.1bn",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "not stated",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "Dividend per share",
+        "current": "17p",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "not stated",
+        "note": "Q3 2026; 70p expected for full year"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "FY 2026 at CER: turnover +3% to 5%; Core operating profit +7% to 9%; Core EPS +7% to 9%",
+      "current": "FY 2026 reaffirmed at CER: turnover +3% to 5% (upper half of range); Core operating profit +7% to 9% (upper half); Core EPS +7% to 9% (lower half); royalty income around £900m; tax rate around 17.5%; interest charges around £700-750m",
+      "commentary": "Guidance was reaffirmed, not changed, though GSK now specifies where in each range it expects to land: turnover and Core operating profit at the upper half, but Core EPS at the lower half, reflecting higher interest charges (including the Nuvalent acquisition) and a higher tax rate, partly offset by the buyback. Guidance is inclusive of the US Government pricing/GENEROUS Model agreements."
+    },
+    "explainer": "GSK reports on two bases: 'Total' (statutory IFRS) and 'Core' (its preferred non-IFRS measure that strips out items such as restructuring charges, amortisation and legal costs). The big divergence this quarter — Core operating profit up 5% but Total operating profit down 16% — is mostly the £328m of restructuring charges tied to its 'Accelerate Growth' programme, plus lower other net operating income. The Core numbers are the better read of underlying trading.\n\nGrowth is quoted at CER (constant exchange rates), which removes currency moves. On an AER (actual/reported) basis sales rose only 4% versus 5% at CER, because a stronger pound against the US dollar reduced the sterling value of overseas sales. If late-September rates held for the rest of 2026, GSK estimates a roughly -1% drag on reported turnover growth and -3% on reported Core operating profit growth.\n\nOn guidance, nothing in the ranges changed — they were reaffirmed. What GSK added is colour on positioning within those ranges: turnover and Core operating profit are expected at the upper half, but Core EPS at the lower half. The EPS softness is driven by higher interest costs of around £700-750m (including financing the Nuvalent deal) and a tax rate rising to about 17.5%, only partly cushioned by the completed £2bn share buyback.\n\nFor dividends, GSK declared 17p for Q3 and still expects 70p for the full year, with the payout policy unchanged.",
+    "source_url": "https://uk.advfn.com/stock-market/london/gsk-GSK/share-news/GSK-PLC-3rd-Quarter-Results/99571778",
+    "related_news_url": "https://news.google.com/search?q=%22GSK%20plc%22",
+    "added_at": "2026-10-28T08:19:48.842399"
+  },
+  {
     "company": "Hunting PLC",
     "ticker": "HTG",
     "publish_date": "28 October 2026",
