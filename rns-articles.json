@@ -1,5 +1,57 @@
 [
   {
+    "company": "Vesuvius plc",
+    "ticker": "VSVS",
+    "publish_date": "27 October 2026",
+    "date_iso": "2026-10-27",
+    "time_period": "",
+    "announcement_type": "Acquisition / deal",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Vesuvius</strong> has secured Takeover Panel consent to extend the PUSU deadline for <strong>RHI Magnesita N.V. (RHIM)</strong> to <strong>5.00pm on 24 November 2026</strong>, from the prior deadline of <strong>27 October 2026</strong>.</li><li>Follows confirmation on <strong>29 September 2026</strong> that Vesuvius received a series of unsolicited non-binding indicative proposals from RHIM, the latest dated <strong>27 August 2026</strong>.</li><li>Headline agreement reached on a <strong>disposal revenue threshold</strong> for potential anti-trust remedies, plus a related <strong>reverse break fee</strong>, but material further work on execution risks and financial terms remains.</li><li>By the new deadline RHIM must either announce a firm offer under Rule 2.7 or walk away under Rule 2.8; the deadline may be further extended with Panel consent.</li><li><strong>No certainty</strong> that any formal offer will be made.</li><li>Vesuvius advised by <strong>J.P. Morgan Cazenove</strong>, <strong>Rothschild & Co</strong>, <strong>Perella Weinberg</strong> and <strong>Jefferies</strong>; <strong>Linklaters</strong> acting as legal adviser.</li></ul>",
+    "source_format": "html",
+    "headline": "Vesuvius extends RHI Magnesita's 'put up or shut up' deadline to 24 November 2026 after progress on anti-trust remedies and a reverse break fee.",
+    "priority": "high",
+    "priority_reason": "Live takeover situation — the PUSU deadline for RHI Magnesita's possible offer has been extended, keeping Vesuvius in play.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/vesuvius-VSVS/share-news/Vesuvius-plc-PUSU-Extension-Announcement/99568983",
+    "related_news_url": "https://news.google.com/search?q=%22Vesuvius%20plc%22",
+    "added_at": "2026-10-28T07:49:40.392494"
+  },
+  {
+    "company": "RHI Magnesita NV",
+    "ticker": "RHIM",
+    "publish_date": "27 October 2026",
+    "date_iso": "2026-10-27",
+    "time_period": "",
+    "announcement_type": "Acquisition / deal",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>PUSU deadline</strong> for <strong>RHI Magnesita</strong> to announce a firm offer for <strong>Vesuvius plc</strong> — or walk away — extended to <strong>5pm on 24 November 2026</strong>.</li><li>Headline agreement reached on a <strong>disposal revenue threshold</strong> for anti-trust remedies, plus a related <strong>reverse break fee</strong>.</li><li>Vesuvius' largest shareholder <strong>Cevian Capital</strong> has extended its <strong>irrevocable undertaking</strong> in support of an RHIM offer to align with the new deadline.</li><li>RHIM says it remains committed to agreeing terms of a <strong>recommended transaction</strong> with the Vesuvius board; no certainty any firm offer will be made.</li><li>Rule 2.4 statement — <strong>not</strong> a firm intention to offer under Rule 2.7.</li></ul>",
+    "source_format": "html",
+    "headline": "RHI Magnesita's PUSU deadline for a possible offer for Vesuvius plc extended to 5pm on 24 November 2026 amid substantial progress on terms.",
+    "priority": "high",
+    "priority_reason": "Live Rule 2.4 takeover situation for Vesuvius plc, with PUSU deadline extended and anti-trust remedy terms progressing.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/rhi-magnesita-nv-RHIM/share-news/RHI-Magnesita-N-V-Further-Statement-re-Possible-O/99569396",
+    "related_news_url": "https://news.google.com/search?q=%22RHI%20Magnesita%20N.V.%22",
+    "added_at": "2026-10-28T07:49:40.365706"
+  },
+  {
     "company": "PayPal Holdings Inc",
     "ticker": "PYPL",
     "publish_date": "27 October 2026",
