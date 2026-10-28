@@ -1,5 +1,112 @@
 [
   {
+    "company": "Standard Chartered PLC",
+    "ticker": "STAN",
+    "publish_date": "28 October 2026",
+    "date_iso": "2026-10-28",
+    "time_period": "Q3 ended 30 September 2026",
+    "announcement_type": "Interim results",
+    "period_detail": "Q3 ended 30 September 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Standard Chartered</strong> lifted <strong>2026 income guidance</strong> above the prior <strong>5-7 per cent</strong> growth range and now expects a return on tangible equity of <strong>around 14 per cent</strong> for 2026.</li><li>Q3 profit before tax of <strong>$2.3bn</strong>, <strong>up 29 per cent</strong> year-on-year; basic EPS up <strong>55 per cent</strong> to <strong>68.9 cents</strong>.</li><li>Operating income of <strong>$5.8bn</strong>, <strong>up 14 per cent</strong> (excluding notables), with net interest income up <strong>9 per cent</strong> to <strong>$3.0bn</strong> and non-interest income up <strong>19 per cent</strong> to <strong>$2.8bn</strong>.</li><li><strong>Wealth Solutions</strong> delivered a third consecutive record quarter, income up <strong>26 per cent</strong>; <strong>Global Markets</strong> up <strong>21 per cent</strong>. Credit impairment halved to <strong>$90m</strong>.</li><li><strong>RoTE</strong> of <strong>15.7 per cent</strong>, up <strong>520bps</strong>; <strong>CET1</strong> ratio of <strong>13.8 per cent</strong>, down 31bps quarter-on-quarter; TNAV per share of <strong>$17.26</strong>.</li><li>Ordinary share buyback launched on <strong>29 July 2026</strong> continues, funded by profit accretion.</li></ul>",
+    "source_format": "html",
+    "headline": "Standard Chartered raised 2026 income guidance after Q3 pre-tax profit rose 29% to $2.3bn, with RoTE of 15.7% and EPS up 55%.",
+    "priority": "high",
+    "priority_reason": "Quarterly results with strong profit growth and an upgrade to 2026 income and RoTE guidance.",
+    "figures": [
+      {
+        "metric": "Operating income",
+        "current": "$5.8bn",
+        "prior": "not stated",
+        "change": "+14%",
+        "basis": "constant currency, excluding notables",
+        "note": "Q3 vs Q3'25"
+      },
+      {
+        "metric": "Net interest income",
+        "current": "$3.0bn",
+        "prior": "not stated",
+        "change": "+9%",
+        "basis": "constant currency, adjusted",
+        "note": "Q3 vs Q3'25"
+      },
+      {
+        "metric": "Non-interest income",
+        "current": "$2.8bn",
+        "prior": "not stated",
+        "change": "+19%",
+        "basis": "constant currency, adjusted",
+        "note": "Q3 vs Q3'25"
+      },
+      {
+        "metric": "Operating expenses",
+        "current": "$3.4bn",
+        "prior": "not stated",
+        "change": "+9%",
+        "basis": "excluding notables",
+        "note": "Q3 vs Q3'25"
+      },
+      {
+        "metric": "Credit impairment charge",
+        "current": "$90m",
+        "prior": "$188m",
+        "change": "down $98m",
+        "basis": "reported",
+        "note": "Q3 vs Q3'25; 9bps annualised loan-loss rate"
+      },
+      {
+        "metric": "Profit before tax",
+        "current": "$2.3bn",
+        "prior": "not stated",
+        "change": "+29%",
+        "basis": "reported",
+        "note": "Q3 vs Q3'25"
+      },
+      {
+        "metric": "Basic EPS",
+        "current": "68.9 cents",
+        "prior": "not stated",
+        "change": "+55%",
+        "basis": "reported",
+        "note": "Q3 vs Q3'25"
+      },
+      {
+        "metric": "RoTE",
+        "current": "15.7%",
+        "prior": "not stated",
+        "change": "+520bps",
+        "basis": "reported",
+        "note": "Q3"
+      },
+      {
+        "metric": "CET1 ratio",
+        "current": "13.8%",
+        "prior": "not stated",
+        "change": "-31bps",
+        "basis": "quarter-on-quarter",
+        "note": "vs 30.6.26"
+      },
+      {
+        "metric": "Tangible net asset value per share",
+        "current": "$17.26",
+        "prior": "not stated",
+        "change": "+2%",
+        "basis": "reported",
+        "note": ""
+      }
+    ],
+    "guidance": {
+      "status": "raised",
+      "previous": "Operating income growth of 5-7 per cent year-on-year at constant currency, excluding notable items",
+      "current": "Operating income growth to be above the 5-7 per cent range at constant currency, excluding notables, with NII up around 4 per cent; cost-to-income ratio around 60 per cent; RoTE of around 14 per cent in 2026",
+      "commentary": "Standard Chartered upgraded its 2026 income outlook to above the previously guided 5-7 per cent range and now targets a full-year RoTE of around 14 per cent, citing broad-based growth and disciplined execution."
+    },
+    "explainer": "Standard Chartered reports in US dollars, and its headline comparisons are made against the third quarter of 2025 on a constant-currency basis — meaning currency moves are stripped out so the underlying trading momentum is clearer. Figures are also often quoted \"excluding notables\", which removes one-off items so the trend in the core business is visible.\n\nThe quarter was strong across the board: operating income rose 14 per cent, helped by a record performance in Wealth Solutions and strong Global Markets activity. Pre-tax profit climbed 29 per cent to $2.3bn, and because the share count has fallen on successive buybacks, earnings per share jumped 55 per cent — a larger rise than profit alone. The credit impairment charge halved to $90m, reflecting releases in corporate banking, which also flattered the profit figure.\n\nThe key news is the guidance upgrade. The bank previously guided to 2026 income growth of 5-7 per cent at constant currency; it now expects to come in above that range, and has set a full-year RoTE target of around 14 per cent. This signals management confidence that the momentum in wealth and markets income will be sustained through year-end.",
+    "source_url": "https://uk.advfn.com/stock-market/london/standard-chartered-STAN/share-news/Standard-Chartered-PLC-3rd-Quarter-Results/99571812",
+    "related_news_url": "https://news.google.com/search?q=%22Standard%20Chartered%20PLC%22",
+    "added_at": "2026-10-28T08:20:32.345866"
+  },
+  {
     "company": "Vodafone Group PLC",
     "ticker": "VOD",
     "publish_date": "28 October 2026",
