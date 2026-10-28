@@ -1,5 +1,40 @@
 [
   {
+    "company": "Entain plc",
+    "ticker": "ENT",
+    "publish_date": "28 October 2026",
+    "date_iso": "2026-10-28",
+    "time_period": "FY26",
+    "announcement_type": "Trading update",
+    "period_detail": "FY26",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Entain plc</strong> responds to the <strong>UK Budget</strong> decision to further increase UK gambling taxes, which it says is <strong>disappointing</strong> and will hit the wider industry, high streets and jobs.</li><li>Estimates an <strong>annualised additional cost of approximately £25m</strong> to its <strong>UK&I Retail</strong> business from changes to <strong>UK Machine Gaming Duty</strong>, before any mitigating measures.</li><li><strong>FY26 guidance</strong> and the expectation of generating <strong>£500m annual adjusted cashflow in 2028</strong> both remain <strong>unchanged</strong>.</li><li>Expects to <strong>fully mitigate</strong> the latest increase by <strong>end of 2028</strong> via estate rationalisation, group-wide optimisation and potential market share gains.</li><li>Anticipates an opportunity for <strong>customer recapture</strong> as peers re-evaluate their UK market presence; warns additional tax may push more people into the <strong>illegal market</strong>.</li><li>Follows the <strong>disproportionate tax increases announced in November 2025</strong> that the group says have already damaged the sector.</li></ul>",
+    "source_format": "html",
+    "headline": "Entain estimates c.£25m annualised additional cost to UK&I Retail from UK Machine Gaming Duty rise but keeps FY26 guidance unchanged.",
+    "priority": "high",
+    "priority_reason": "Flags a material new cost from UK tax changes while reaffirming FY26 and 2028 guidance.",
+    "figures": [
+      {
+        "metric": "Annualised additional cost to UK&I Retail",
+        "current": "approximately £25m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "from UK Machine Gaming Duty change, before mitigation",
+        "note": "annualised estimate"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "FY26 guidance and expectation of £500m annual adjusted cashflow in 2028",
+      "current": "FY26 guidance and expectation of £500m annual adjusted cashflow in 2028, both remain unchanged",
+      "commentary": "Despite the c.£25m annualised Retail cost headwind from higher Machine Gaming Duty, Entain has left both its FY26 guidance and its 2028 £500m adjusted cashflow target intact, saying it expects to fully offset the tax rise by the end of 2028 through estate rationalisation, optimisation and market share gains."
+    },
+    "explainer": "This is a reaction statement to the UK Budget, which raised gambling taxes again — including Machine Gaming Duty, the levy on gaming machines found in betting shops. Entain quantifies the direct hit to its UK retail arm at roughly £25m a year once the change is fully in force, measured before any action the company takes to soften it. That figure is an estimate of extra tax cost, not a change in profit guidance.\n\nCrucially, Entain has not altered its forecasts: both its FY26 guidance and its longer-term target of £500m of annual adjusted cashflow by 2028 are unchanged. The company argues it can absorb the £25m by closing or reshaping underperforming shops, running group-wide efficiency programmes, and winning customers from rivals who may retreat from the UK high street.\n\nThe statement also frames this as the second blow in a year, following tax increases announced in November 2025, and repeats the industry warning that higher duties can drive customers towards the unregulated 'illegal' market.",
+    "source_url": "https://uk.advfn.com/stock-market/london/entain-ENT/share-news/Entain-PLC-Statement-Regarding-UK-Gambling-Tax-Inc/99578184",
+    "related_news_url": "https://news.google.com/search?q=%22Entain%20plc%22",
+    "added_at": "2026-10-28T14:56:07.519523"
+  },
+  {
     "company": "Gaming and Leisure Properties Inc",
     "ticker": "GLPI",
     "publish_date": "28 October 2026",
