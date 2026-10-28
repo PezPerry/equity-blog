@@ -1,5 +1,80 @@
 [
   {
+    "company": "Hunting PLC",
+    "ticker": "HTG",
+    "publish_date": "28 October 2026",
+    "date_iso": "2026-10-28",
+    "time_period": "Q3 2026 / FY 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "Q3 2026 / FY 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>FY 2026 EBITDA guidance lowered</strong> to <strong>$128-$133m</strong>, blamed on the deepening <strong>Middle East</strong> conflict, slowing <strong>Hunting Titan</strong> deliveries, a Q4 <strong>OCTG</strong> slowdown in North America and third-party supply-chain issues at <strong>Electronics and Dearborn</strong>.</li><li>Year-to-date EBITDA was <strong>c.$89m</strong> at a <strong>c.12%</strong> margin; <strong>Hunting Titan</strong> was marginally behind plan in Q3 with deliveries to the Middle East and North America slowing into year-end.</li><li><strong>Subsea Technologies</strong> profitability remains robust; <strong>EMEA</strong> returned to Q3 profit after the <strong>Fordoun, Aberdeen</strong> site closure in September but is likely to post a small full-year EBITDA loss.</li><li>Net borrowings improved to <strong>c.$(11)m</strong> at <strong>30 September 2026</strong> from <strong>$(19)m</strong> at 30 June; net assets <strong>c.$876m</strong>; year-end net cash now seen at <strong>$40-$45m</strong>.</li><li><strong>2026 interim dividend of 7.0 cents</strong> to be paid <strong>30 October 2026</strong> (c.$10m); full-year capex c.$35-$45m and the share buyback c.$42m.</li><li><strong>Kuwait Oil Company</strong> re-tender published <strong>12 October 2026</strong> with a decision expected before year-end; CEO succession search progressing with interviews planned in Q4 2026.</li></ul>",
+    "source_format": "html",
+    "headline": "Hunting cuts FY 2026 EBITDA guidance to **$128-$133m** as the Middle East conflict and North American slowdown hit Q3 and Q4 trading.",
+    "priority": "high",
+    "priority_reason": "Profit warning: FY 2026 EBITDA guidance cut on Middle East conflict and weaker North American activity.",
+    "figures": [
+      {
+        "metric": "FY 2026 EBITDA guidance",
+        "current": "$128-$133m",
+        "prior": "not stated",
+        "change": "lowered",
+        "basis": "",
+        "note": "previous guidance figure not quoted in announcement"
+      },
+      {
+        "metric": "Year-to-date EBITDA",
+        "current": "c.$89m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "c.12% EBITDA margin",
+        "note": "YTD 2026"
+      },
+      {
+        "metric": "Net cash / (borrowings)",
+        "current": "c.$(11)m",
+        "prior": "$(19)m",
+        "change": "improved",
+        "basis": "",
+        "note": "30 September 2026 vs 30 June 2026"
+      },
+      {
+        "metric": "Net assets",
+        "current": "c.$876m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "30 September 2026"
+      },
+      {
+        "metric": "Interim dividend",
+        "current": "7.0 cents per share",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "payable 30 October 2026, c.$10m"
+      },
+      {
+        "metric": "Year-end net cash / (borrowings) guidance",
+        "current": "$40-$45m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "FY 2026 outlook"
+      }
+    ],
+    "guidance": {
+      "status": "lowered",
+      "previous": "Not quoted in the announcement (prior FY 2026 EBITDA guidance figure not stated)",
+      "current": "FY 2026 EBITDA now likely to be in the range of $128-$133m; year-end net cash / (borrowings) of $40-$45m",
+      "commentary": "Hunting has reduced its full-year EBITDA guidance, citing the protracted Middle East conflict hitting OCTG tender activity and Hunting Titan deliveries, a cautious Q4 outlook in North America, and slower-than-planned improvement at Electronics and Dearborn due to supply-chain issues."
+    },
+    "explainer": "This is a trading update rather than audited results, so the numbers are indicative (hence the \"c.\" approximations). Hunting reports in US dollars. The key point is a downgrade: full-year EBITDA (earnings before interest, tax, depreciation and amortisation — a proxy for underlying operating cash profit) is now guided to $128-$133m. The announcement does not print the previous guidance figure, so the exact size of the cut cannot be verified from this text alone.\n\nThe drivers are largely external and geographic. The Middle East conflict is disrupting shipping and OCTG (oil country tubular goods) tendering, which feeds the Asia Pacific and Hunting Titan segments, while Saudi rig activity and the Jafurah development have slowed. North America improved year-to-date but faces a seasonal Q4 softening, and the Advanced Manufacturing units (Electronics and Dearborn) have been held back by third-party supply-chain delays. Subsea remains the bright spot.\n\nThe balance sheet is comparatively healthy: net borrowings narrowed to around $11m at 30 September from $19m three months earlier on good cash conversion, and year-end net cash is guided to $40-$45m. The 7.0 cents interim dividend, roughly $35-45m of capex and a c.$42m buyback are all still funded.",
+    "source_url": "https://uk.advfn.com/stock-market/london/hunting-HTG/share-news/Hunting-PLC-Q3-2026-Trading-Update/99571776",
+    "related_news_url": "https://news.google.com/search?q=%22Hunting%20PLC%22",
+    "added_at": "2026-10-28T08:19:10.133165"
+  },
+  {
     "company": "Intertek Group plc",
     "ticker": "ITRK",
     "publish_date": "28 October 2026",
