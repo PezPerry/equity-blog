@@ -1,5 +1,48 @@
 [
   {
+    "company": "Elementis plc",
+    "ticker": "ELM",
+    "publish_date": "28 October 2026",
+    "date_iso": "2026-10-28",
+    "time_period": "Q3 / nine months to 30 September 2026 (FY26)",
+    "announcement_type": "Trading update",
+    "period_detail": "Q3 / nine months to 30 September 2026 (FY26)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>FY26 adjusted operating profit</strong> now expected at <strong>$133-135m</strong>, <strong>slightly above previous guidance</strong> and in line with the latest market expectations.</li><li><strong>Revenue up 7%</strong> for the <strong>nine months to 30 September 2026</strong> on an <strong>organic constant currency</strong> basis, to <strong>$479m</strong>.</li><li>Growth led by <strong>Personal Care</strong> (accelerating across all regions, aided by favourable September order phasing), continued momentum in <strong>Asia</strong> and improved performance in the <strong>Americas</strong>.</li><li><strong>Energy</strong> business within Coatings performed strongly on operational gains at the <strong>St. Louis (US)</strong> plant; Coatings Americas improved after a weak H1.</li><li><strong>Q4 revenue expected lower than Q3</strong>, reflecting typical seasonality and Q3 benefitting from earlier-than-anticipated customer order fulfilment; growth to moderate against a strong prior-year Asia comparator.</li><li><strong>CEO Luc van Ravenstein</strong> cites progress on the <strong>'Elevate Elementis'</strong> strategy; an <strong>Innovation Day</strong> is scheduled for next week.</li></ul>",
+    "source_format": "html",
+    "headline": "Elementis raises FY26 adjusted operating profit guidance slightly to $133-135m with nine-month revenue up 7% on an organic constant-currency basis.",
+    "priority": "high",
+    "priority_reason": "Scheduled Q3 trading update that nudges FY26 adjusted operating profit guidance slightly higher.",
+    "figures": [
+      {
+        "metric": "Revenue",
+        "current": "$479m",
+        "prior": "not stated",
+        "change": "+7%",
+        "basis": "organic constant currency",
+        "note": "nine months to 30 September 2026"
+      },
+      {
+        "metric": "FY26 adjusted operating profit (guidance)",
+        "current": "$133-135m",
+        "prior": "not stated",
+        "change": "slightly above previous guidance",
+        "basis": "not stated",
+        "note": "full-year FY26 outlook"
+      }
+    ],
+    "guidance": {
+      "status": "raised",
+      "previous": "Previous FY26 adjusted operating profit guidance (figure not stated in announcement)",
+      "current": "FY26 adjusted operating profit of $133-135 million, slightly above previous guidance and in line with the latest market expectations",
+      "commentary": "Elementis has nudged its FY26 adjusted operating profit guidance slightly higher to $133-135m, reflecting continued trading progress despite mixed end-market conditions. The new range is said to be in line with the latest market expectations, so the upgrade is modest rather than a material beat."
+    },
+    "explainer": "The 7% revenue growth is quoted on an organic constant-currency basis, meaning it strips out the effects of currency movements and any acquisitions or disposals. It therefore reflects underlying demand rather than exchange-rate swings; the reported figure in dollars could differ once currency is taken into account, but Elementis does not give a reported comparative here.\n\nThe guidance change is a small upgrade. Elementis now expects FY26 adjusted operating profit of $133-135m, described as slightly above its previous guidance. Crucially, the company says this is in line with the latest market expectations, so it is not an upgrade relative to consensus — the market had already moved to roughly this level.\n\nTwo seasonality and timing points temper the strong Q3. Third-quarter revenue was flattered by customers ordering earlier than expected, and management expects Q4 revenue to be lower than Q3 in line with normal seasonality. Growth in Asia is also expected to moderate in Q4 against a strong prior-year comparator.",
+    "source_url": "https://uk.advfn.com/stock-market/london/elementis-ELM/share-news/Elementis-PLC-Third-Quarter-Trading-Update/99571797",
+    "related_news_url": "https://news.google.com/search?q=%22Elementis%20plc%22",
+    "added_at": "2026-10-28T08:18:08.193007"
+  },
+  {
     "company": "Aston Martin Lagonda Global Holdings PLC",
     "ticker": "AML",
     "publish_date": "28 October 2026",
