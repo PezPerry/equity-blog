@@ -1,5 +1,31 @@
 [
   {
+    "company": "HSBC Holdings PLC",
+    "ticker": "HSBA",
+    "publish_date": "28 October 2026",
+    "date_iso": "2026-10-28",
+    "time_period": "",
+    "announcement_type": "Buyback programme launch",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>HSBC Holdings plc</strong> to commence a share buy-back for a maximum consideration of <strong>US$1,000,000,000</strong>, to reduce its outstanding ordinary shares.</li><li>Non-discretionary agreement with <strong>Goldman Sachs International</strong>, acting as principal, over the period <strong>29 October 2026</strong> to no later than <strong>19 February 2027</strong>.</li><li>Purchases to be made on UK venues (LSE, Aquis, Cboe BXE/CXE, Turquoise) and/or the <strong>Hong Kong Stock Exchange</strong>; repurchased shares will be <strong>cancelled</strong>.</li><li>Maximum <strong>1,669,697,533</strong> ordinary shares may be repurchased, the balance available under the 2026 AGM authority granted on <strong>8 May 2026</strong>.</li><li>Follows HSBC's related announcement on <strong>27 October 2026</strong>; routine capital-return activity with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "HSBC to commence a share buy-back of up to US$1bn, running from 29 October 2026 to no later than 19 February 2027, with shares to be cancelled.",
+    "priority": "medium",
+    "priority_reason": "Launch of a new share buy-back programme, not a routine daily buyback transaction.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/hsbc-holdings--hsba/hsbc-holdings-plc-share-buy-back/9846062",
+    "related_news_url": "https://news.google.com/search?q=%22HSBC%20Holdings%22",
+    "added_at": "2026-10-28T11:15:35.376901"
+  },
+  {
     "company": "Unilever PLC",
     "ticker": "ULVR",
     "publish_date": "28 October 2026",
