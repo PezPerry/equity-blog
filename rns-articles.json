@@ -1,5 +1,160 @@
 [
   {
+    "company": "Aston Martin Lagonda Global Holdings PLC",
+    "ticker": "AML",
+    "publish_date": "28 October 2026",
+    "date_iso": "2026-10-28",
+    "time_period": "Q3 and 9 months to 30 September 2026",
+    "announcement_type": "Interim results",
+    "period_detail": "Q3 and 9 months to 30 September 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>YTD 2026 revenue up 38% to £1,017m</strong> (YTD 2025: £740m), driven by <strong>c. 350 Valhalla Coupe</strong> deliveries within Specials; total ASP up <strong>25%</strong>.</li><li><strong>Gross margin improved to 35%</strong> (YTD 2025: 28%) and <strong>adjusted EBITDA rose to £133m</strong> (YTD 2025: £8m) as transformation benefits and Specials volumes lifted profitability.</li><li><strong>Adjusted loss before tax widened to £283m</strong> (YTD 2025: £237m loss), largely due to higher net finance costs including a non-cash US dollar debt revaluation; reported loss before tax <strong>narrowed to £231m</strong> (YTD 2025: £253m loss).</li><li><strong>Free cash outflow almost halved to £225m</strong> (YTD 2025: £415m outflow); <strong>net debt £1,572m</strong> (31 Dec 2025: £1,380m), leverage down to <strong>6.7x</strong> from 12.8x; <strong>liquidity c. £322m</strong> after July 2026 £550m debt financing.</li><li><strong>FY 2026 guidance unchanged</strong>: gross margin into high-30s%, adjusted EBIT margin towards breakeven, wholesale volumes similar to FY 2025 including c. 500 Valhalla Coupes.</li><li>New <strong>Valhalla Spider</strong> unveiled (deliveries from Q3 2027) and <strong>Valen</strong> launched as the world's most powerful front-engined production car; <strong>DBX GT</strong> added to SUV range.</li></ul>",
+    "source_format": "html",
+    "headline": "Aston Martin posts 38% YTD revenue rise to £1,017m with gross margin up to 35%, driven by Valhalla deliveries, and keeps FY 2026 guidance unchanged.",
+    "priority": "high",
+    "priority_reason": "Quarterly and nine-month results with detailed financials and reaffirmed full-year guidance for a widely-watched UK listed carmaker.",
+    "figures": [
+      {
+        "metric": "Revenue",
+        "current": "£1,017m",
+        "prior": "£740m",
+        "change": "+38%",
+        "basis": "reported",
+        "note": "YTD to 30 Sept 2026"
+      },
+      {
+        "metric": "Total ASP",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+25%",
+        "basis": "reported",
+        "note": "YTD 2026"
+      },
+      {
+        "metric": "Gross profit",
+        "current": "£358m",
+        "prior": "£209m",
+        "change": "+71%",
+        "basis": "reported",
+        "note": "YTD 2026"
+      },
+      {
+        "metric": "Gross margin",
+        "current": "35%",
+        "prior": "28%",
+        "change": "+7ppt",
+        "basis": "reported",
+        "note": "YTD 2026"
+      },
+      {
+        "metric": "Adjusted EBITDA",
+        "current": "£133m",
+        "prior": "£8m",
+        "change": "not stated",
+        "basis": "adjusted",
+        "note": "YTD 2026; EBITDA margin 13% vs 1%"
+      },
+      {
+        "metric": "Adjusted EBIT",
+        "current": "£(134)m",
+        "prior": "£(172)m",
+        "change": "+22%",
+        "basis": "adjusted",
+        "note": "YTD 2026"
+      },
+      {
+        "metric": "Adjusted loss before tax",
+        "current": "£(283)m",
+        "prior": "£(237)m",
+        "change": "not stated",
+        "basis": "adjusted",
+        "note": "YTD 2026; wider loss"
+      },
+      {
+        "metric": "Reported loss before tax",
+        "current": "£(231)m",
+        "prior": "£(253)m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "YTD 2026; narrower loss"
+      },
+      {
+        "metric": "Reported operating loss",
+        "current": "£(83)m",
+        "prior": "£(191)m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "YTD 2026"
+      },
+      {
+        "metric": "Free cash outflow",
+        "current": "£225m",
+        "prior": "£415m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "YTD 2026; outflow nearly halved"
+      },
+      {
+        "metric": "Net debt",
+        "current": "£1,572m",
+        "prior": "£1,380m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "vs 31 Dec 2025"
+      },
+      {
+        "metric": "Gross debt",
+        "current": "£1,895m",
+        "prior": "£1,632m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "vs 31 Dec 2025"
+      },
+      {
+        "metric": "Adjusted net leverage",
+        "current": "6.7x",
+        "prior": "12.8x",
+        "change": "not stated",
+        "basis": "adjusted",
+        "note": "vs 31 Dec 2025"
+      },
+      {
+        "metric": "Liquidity",
+        "current": "£322m",
+        "prior": "£248m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "30 Sept 2026 vs 30 Sept 2025"
+      },
+      {
+        "metric": "Capital expenditure",
+        "current": "£194m",
+        "prior": "£254m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "YTD 2026"
+      },
+      {
+        "metric": "Total wholesale volumes",
+        "current": "not stated",
+        "prior": "3,352",
+        "change": "+12%",
+        "basis": "reported",
+        "note": "YTD 2026 vs YTD 2025"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "FY 2026 guidance: total wholesale volumes similar to FY 2025 (5,448) including c. 500 Valhalla Coupe deliveries; gross margin into high-30s% (FY 2025: 29%); adjusted opex (ex-D&A) below £300m; adjusted D&A £375m-£400m; adjusted EBIT margin towards breakeven (FY 2025: -15.0%); net cash interest c. £160m; capital investment c. £300m; free cash outflow to materially improve on FY 2025 (£410m outflow).",
+      "current": "FY 2026 operational guidance unchanged on all metrics as above.",
+      "commentary": "Guidance is reaffirmed in full, with management noting Q3 operating performance in line with expectations and momentum expected to continue into Q4, while flagging macroeconomic and geopolitical risks including potential US tariffs and China luxury-car taxes."
+    },
+    "explainer": "Aston Martin's nine-month figures are flattered by its ultra-expensive Specials: deliveries of around 350 Valhalla Coupes lifted reported revenue 38% and pushed total average selling price up 25%, even though underlying (core) model volumes were deliberately held back. Core wholesale volumes actually fell 9% in Q3 as the company matched production to demand, so the headline growth is Valhalla-led rather than broad-based.\n\nThe margin story is genuine: gross margin rose to 35% from 28%, helped by the high-value Specials plus cost savings from the transformation programme, and adjusted EBITDA jumped to £133m from just £8m. However, the company is still loss-making. The reported pre-tax loss narrowed to £231m (helped by a one-off gain on selling the F1 naming rights), but the adjusted pre-tax loss actually widened to £283m, mainly because of higher interest costs and an £11m non-cash FX hit on US dollar debt following July's £550m refinancing.\n\nOn cash, the key positive is that free cash outflow nearly halved to £225m, and net leverage fell sharply to 6.7x from 12.8x as trailing EBITDA improved — though absolute net debt still rose to £1,572m because of the new borrowing.\n\nGuidance is unchanged across every metric, meaning no upgrade or downgrade: the market reaction will hinge on whether 'in line with expectations' and the reaffirmed path towards EBIT breakeven and positive cash generation are judged credible against the tariff and demand risks management flags.",
+    "source_url": "https://uk.advfn.com/stock-market/london/aston-martin-lagonda-glo-AML/share-news/Aston-Martin-Lagonda-Glob-Hldgs-PLC-Results-for-Q3/99571793",
+    "related_news_url": "https://news.google.com/search?q=%22Aston%20Martin%20Lagonda%20Global%20Holdings%20plc%22",
+    "added_at": "2026-10-28T08:17:34.943952"
+  },
+  {
     "company": "Metro Bank Holdings PLC",
     "ticker": "MTRO",
     "publish_date": "28 October 2026",
