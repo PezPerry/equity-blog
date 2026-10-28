@@ -1,5 +1,57 @@
 [
   {
+    "company": "Sylvania Platinum Limited",
+    "ticker": "SLP",
+    "publish_date": "28 October 2026",
+    "date_iso": "2026-10-28",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>Sylvania Platinum</strong> (AIM: SLP) purchased <strong>200,000 Ordinary Shares</strong> through <strong>Panmure Liberum Limited</strong> over <strong>21-27 October 2026</strong>.</li><li>Daily lots: <strong>50,000</strong> at <strong>93.00p</strong> (21 Oct), <strong>25,000</strong> at <strong>90.63p</strong> (26 Oct) and <strong>125,000</strong> at a weighted average <strong>91.23p</strong> (27 Oct).</li><li>Issued share capital is <strong>271,661,725</strong> shares; <strong>13,789,925</strong> now held in Treasury, leaving <strong>257,871,800</strong> shares with voting rights.</li><li>Routine buyback transaction disclosure with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Sylvania Platinum bought back 200,000 ordinary shares between 21 and 27 October 2026 via Panmure Liberum.",
+    "priority": "low",
+    "priority_reason": "Routine daily share buyback transaction report, not a new programme launch.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/sylvania-platinum-ltd-di---slp/share-buyback-update/9844593",
+    "related_news_url": "https://news.google.com/search?q=%22Sylvania%20Platinum%20Ltd%20(DI)%22",
+    "added_at": "2026-10-28T07:51:03.522898"
+  },
+  {
+    "company": "Renew Holdings PLC",
+    "ticker": "RNWH",
+    "publish_date": "28 October 2026",
+    "date_iso": "2026-10-28",
+    "time_period": "",
+    "announcement_type": "Acquisition / deal",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Renew Holdings plc</strong> subsidiary <strong>Excalon Holdings Limited</strong> has acquired <strong>Porter Brothers Holdings Limited</strong>, parent of <strong>PBU (UK) Ltd</strong>, for total consideration of up to <strong>£50m</strong> on a cash and debt free basis.</li><li>Initial cash consideration of <strong>£31.1m</strong> funded from existing banking facilities; further <strong>up to £18.9m</strong> contingent on vendors meeting profit targets over <strong>three years</strong>.</li><li>Deal based on sustainable <strong>EBIT of £3.9m</strong> and <strong>EBITDA of £5.5m</strong>; PBU provides extra high voltage cabling and directional drilling services to the energy distribution market.</li><li>Stated to be <strong>immediately earnings enhancing</strong>; Group says it retains a strong balance sheet and continues to evaluate further earnings-accretive acquisitions.</li><li>Strengthens Renew's position to access the committed <strong>c.£50bn-£60bn</strong> of investment across the <strong>RIIO-ED2</strong> and <strong>ET3</strong> control periods, alongside recent Emerald Power, EDES and PWR-X acquisitions.</li><li>CEO <strong>Paul Scott</strong> called it an excellent strategic fit, adding complementary capabilities in the regulated energy market.</li></ul>",
+    "source_format": "html",
+    "headline": "Renew's subsidiary Excalon has acquired Porter Brothers Holdings (PBU) for up to £50m, deepening its electricity transmission and distribution capabilities.",
+    "priority": "high",
+    "priority_reason": "M&A: a bolt-on acquisition worth up to £50m, stated to be immediately earnings enhancing.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/renew-holdings--rnwh/acquisition-of-porter-brothers-holdings-limited-/9844595",
+    "related_news_url": "https://news.google.com/search?q=%22Renew%20Holdings%22",
+    "added_at": "2026-10-28T07:51:03.503222"
+  },
+  {
     "company": "Materialise NV",
     "ticker": "MTLS",
     "publish_date": "28 October 2026",
