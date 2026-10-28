@@ -1,5 +1,31 @@
 [
   {
+    "company": "BP PLC",
+    "ticker": "BP.",
+    "publish_date": "28 October 2026",
+    "date_iso": "2026-10-28",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Ian Tyler</strong>, appointed <strong>BP</strong> chair on <strong>2 September 2026</strong>, is scaling back external roles following a review of his board commitments.</li><li>Per <strong>Grafton Group plc</strong> (<strong>8 October 2026</strong>), Tyler intends to step down as its chair.</li><li>Per <strong>Anglo American plc</strong> (<strong>22 October 2026</strong>), Tyler has stepped down as senior independent director but stays as independent non-executive and remuneration committee chair.</li><li>Routine disclosure tied to ensuring the chair can devote appropriate time to BP — <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "BP confirms chair Ian Tyler is reducing external board commitments, stepping down at Grafton Group and as senior independent director at Anglo American.",
+    "priority": "low",
+    "priority_reason": "Routine disclosure on the chair's external directorships with no impact on BP trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/bp--bp./update-on-chair-external-appointments/9846625",
+    "related_news_url": "https://news.google.com/search?q=%22BP%22",
+    "added_at": "2026-10-28T16:15:39.670963"
+  },
+  {
     "company": "Vertu Motors PLC",
     "ticker": "VTU",
     "publish_date": "28 October 2026",
