@@ -1,5 +1,88 @@
 [
   {
+    "company": "Intertek Group plc",
+    "ticker": "ITRK",
+    "publish_date": "28 October 2026",
+    "date_iso": "2026-10-28",
+    "time_period": "Q3 and YTD to end September 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "Q3 and YTD to end September 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>YTD revenue</strong> of <strong>£2.7bn</strong>, up <strong>6.4%</strong>, with <strong>LFL growth of 5.4%</strong> and <strong>1.0% from M&A</strong>; <strong>Q3 revenue growth of 7.0%</strong> (<strong>6.4% LFL</strong>).</li><li>Q3 LFL growth by division: <strong>Consumer Products +9.8%</strong>, <strong>Corporate Assurance +4.3%</strong>, <strong>Health and Safety +7.5%</strong>, <strong>Industry and Infrastructure +9.2%</strong>, <strong>World of Energy (0.6%)</strong>.</li><li>CEO <strong>André Lacroix</strong> cites strong margin progression, strong free cash flow and an excellent year-on-year increase in ROIC.</li><li><strong>2026 guidance maintained</strong>: mid-single digit LFL revenue growth at constant currency, continuous margin progression, strong earnings growth and strong free cash flow.</li><li>Proposed <strong>acquisition by EQT</strong> approved by shareholders and on track to complete in <strong>Q4 2026 or Q1 2027</strong>, subject to outstanding regulatory approvals.</li></ul>",
+    "source_format": "html",
+    "headline": "Intertek posts 7.0% Q3 revenue growth and 6.4% YTD growth to £2.7bn, reaffirming expectations for a strong 2026 as the EQT takeover heads for completion.",
+    "priority": "high",
+    "priority_reason": "Q3 trading statement with revenue growth, reaffirmed full-year guidance and update on the EQT takeover.",
+    "figures": [
+      {
+        "metric": "Revenue (YTD)",
+        "current": "£2.7bn",
+        "prior": "not stated",
+        "change": "+6.4%",
+        "basis": "reported; LFL +5.4%, +1.0% M&A",
+        "note": "YTD to end September 2026"
+      },
+      {
+        "metric": "Revenue growth (Q3)",
+        "current": "+7.0%",
+        "prior": "not stated",
+        "change": "+7.0%",
+        "basis": "reported; LFL +6.4%",
+        "note": "three months to end September 2026"
+      },
+      {
+        "metric": "Consumer Products LFL revenue (Q3)",
+        "current": "£277.8m",
+        "prior": "not stated",
+        "change": "+9.8%",
+        "basis": "constant currency",
+        "note": "Q3; YTD £781.7m, +6.9%"
+      },
+      {
+        "metric": "Corporate Assurance LFL revenue (Q3)",
+        "current": "£135.8m",
+        "prior": "not stated",
+        "change": "+4.3%",
+        "basis": "constant currency",
+        "note": "Q3; YTD £412.2m, +8.0% cc"
+      },
+      {
+        "metric": "Health and Safety LFL revenue (Q3)",
+        "current": "£96.6m",
+        "prior": "not stated",
+        "change": "+7.5%",
+        "basis": "constant currency",
+        "note": "Q3; YTD £273.7m, +6.7% cc"
+      },
+      {
+        "metric": "Industry and Infrastructure LFL revenue (Q3)",
+        "current": "£235.3m",
+        "prior": "not stated",
+        "change": "+9.2%",
+        "basis": "constant currency",
+        "note": "Q3; YTD £668.7m, +6.1% cc"
+      },
+      {
+        "metric": "World of Energy LFL revenue (Q3)",
+        "current": "£184.2m",
+        "prior": "not stated",
+        "change": "(0.6%)",
+        "basis": "constant currency",
+        "note": "Q3; YTD £543.1m, flat cc"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Strong 2026: mid-single digit LFL revenue growth at constant currency, margin progression, strong earnings growth and strong free cash flow",
+      "current": "Strong financial performance expected in 2026, with mid-single digit LFL revenue growth at constant currency, continuous margin progression, strong earnings growth and strong free cash flow",
+      "commentary": "Group full-year guidance is reaffirmed. Divisional guidance is largely unchanged, though Health and Safety is now guided to mid-single digit LFL growth; medium-term targets (margin 18.5%+ over time, superior ROIC) are retained."
+    },
+    "explainer": "This is a third-quarter trading update rather than full results, so Intertek gives revenue and growth rates but not profit figures. \"LFL\" (like-for-like) strips out the effect of acquisitions and disposals to show underlying organic growth; the gap between reported growth (6.4% YTD) and LFL growth (5.4%) reflects the 1.0% added by recent M&A. Most divisional growth is quoted at constant currency, which removes the distortion of exchange-rate movements when translating overseas revenue back into sterling.\n\nTrading was broad-based, with four of the five divisions growing and only World of Energy slightly down (-0.6% in Q3), reflecting softer oil-related testing. Consumer Products and Industry and Infrastructure were the strongest performers in the quarter.\n\nOn guidance, the group has held its full-year 2026 expectations unchanged: mid-single digit LFL revenue growth at constant currency, continued margin progression and strong cash generation. The one nuance is Health and Safety, now explicitly guided to mid-single digit LFL growth. Note the proposed takeover by private equity group EQT remains the dominant corporate event, with shareholder approval secured and completion expected in Q4 2026 or Q1 2027 pending regulatory clearances.",
+    "source_url": "https://uk.advfn.com/stock-market/london/intertek-ITRK/share-news/Intertek-Group-PLC-Trading-Statement/99571773",
+    "related_news_url": "https://news.google.com/search?q=%22Intertek%20Group%20plc%22",
+    "added_at": "2026-10-28T08:18:41.272645"
+  },
+  {
     "company": "Elementis plc",
     "ticker": "ELM",
     "publish_date": "28 October 2026",
