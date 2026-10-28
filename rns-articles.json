@@ -1,5 +1,31 @@
 [
   {
+    "company": "Vertu Motors PLC",
+    "ticker": "VTU",
+    "publish_date": "28 October 2026",
+    "date_iso": "2026-10-28",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Stephen Gould</strong>, Operations Director, sold <strong>11,948 ordinary shares</strong> at <strong>87.3p</strong> each on <strong>27 October 2026</strong>, a disposal of roughly <strong>£10,430</strong>.</li><li>Holding cut from <strong>30,130</strong> to <strong>18,182 shares</strong>, remaining at <strong>0.01%</strong> of issued share capital; transaction on <strong>LSE AIM</strong>.</li><li>Routine PDMR dealing disclosure with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Vertu Motors operations director Stephen Gould sold 11,948 ordinary shares at 87.3p on 27 October 2026, cutting his holding to 18,182 shares.",
+    "priority": "low",
+    "priority_reason": "Small routine PDMR share sale by a director with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/vertu-motors--vtu/notification-of-pdmr-s-interests/9846526",
+    "related_news_url": "https://news.google.com/search?q=%22Vertu%20Motors%22",
+    "added_at": "2026-10-28T15:15:45.772058"
+  },
+  {
     "company": "Entain plc",
     "ticker": "ENT",
     "publish_date": "28 October 2026",
