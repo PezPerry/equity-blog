@@ -1,5 +1,80 @@
 [
   {
+    "company": "WPP plc",
+    "ticker": "WPP",
+    "publish_date": "29 October 2026",
+    "date_iso": "2026-10-29",
+    "time_period": "Q3 2026 (three months to 30 September 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "Q3 2026 (three months to 30 September 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Q3 revenue £3,274m</strong>, up <strong>0.5%</strong> reported and like-for-like vs <strong>£3,259m</strong> in Q3 2025; <strong>revenue less pass-through costs £2,411m</strong>, down <strong>2.0%</strong> reported and <strong>2.1%</strong> LFL vs <strong>£2,459m</strong>.</li><li>YTD revenue <strong>£9,647m</strong> down <strong>2.8%</strong> reported (<strong>-1.9% LFL</strong>); YTD revenue less pass-through costs <strong>£7,156m</strong> down <strong>4.4%</strong> reported (<strong>-3.9% LFL</strong>).</li><li><strong>FY 2026 guidance reiterated</strong>: LFL revenue less pass-through costs to decline low to mid-single digits in H2 (<strong>Q4 towards the better end</strong>), with <strong>headline operating margin of 12%–13%</strong>.</li><li>Global Integrated Agencies LFL down <strong>2.1%</strong> (sequential improvement on Q2's -2.8%): <strong>WPP Media</strong> returned to growth at <strong>+0.3%</strong>, <strong>WPP Production +2.5%</strong>, offset by <strong>WPP Creative -5.1%</strong>; all regions declined.</li><li>Major retentions/wins in the quarter including <strong>The Coca-Cola Company</strong> global media (ex North America, Japan, South Korea), <strong>DoorDash</strong>, <strong>Nestlé</strong>, <strong>Uber</strong> and <strong>Waymo</strong>; CEO <strong>Cindy Rose</strong> cites \"sequential improvement\" on track for Elevate28 phase one.</li><li><strong>Adjusted net debt £3.0bn</strong> at 30 September 2026 vs <strong>£3.6bn</strong> a year earlier; adjusted operating cash flow before working capital still expected at <strong>£800m–£900m</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "WPP posts Q3 revenue of £3,274m, up 0.5% like-for-like, reiterates full-year guidance with headline operating margin of 12%–13%.",
+    "priority": "high",
+    "priority_reason": "Q3 trading update from a FTSE 100 constituent with full-year guidance reiterated.",
+    "figures": [
+      {
+        "metric": "Q3 revenue",
+        "current": "£3,274m",
+        "prior": "£3,259m",
+        "change": "+0.5%",
+        "basis": "reported and LFL",
+        "note": "Q3 2026 vs Q3 2025"
+      },
+      {
+        "metric": "Q3 revenue less pass-through costs",
+        "current": "£2,411m",
+        "prior": "£2,459m",
+        "change": "-2.0% reported, -2.1% LFL",
+        "basis": "reported and LFL",
+        "note": "Q3 2026 vs Q3 2025"
+      },
+      {
+        "metric": "YTD revenue",
+        "current": "£9,647m",
+        "prior": "not stated",
+        "change": "-2.8% reported, -1.9% LFL",
+        "basis": "reported and LFL",
+        "note": "9 months to 30 September 2026"
+      },
+      {
+        "metric": "YTD revenue less pass-through costs",
+        "current": "£7,156m",
+        "prior": "not stated",
+        "change": "-4.4% reported, -3.9% LFL",
+        "basis": "reported and LFL",
+        "note": "9 months to 30 September 2026"
+      },
+      {
+        "metric": "Adjusted net debt",
+        "current": "£3.0bn",
+        "prior": "£3.6bn",
+        "change": "not stated",
+        "basis": "excludes lease liabilities",
+        "note": "at 30 September 2026 vs 30 September 2025"
+      },
+      {
+        "metric": "Average adjusted net debt (12-month rolling)",
+        "current": "£3.2bn",
+        "prior": "£3.4bn",
+        "change": "not stated",
+        "basis": "excludes lease liabilities",
+        "note": "at 30 September 2026 vs 30 September 2025"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "LFL revenue less pass-through costs to decline low to mid-single digits in H2 2026; FY headline operating margin 12%–13%; adjusted operating cash flow before working capital £800m–£900m",
+      "current": "LFL revenue less pass-through costs to decline low to mid-single digits in H2 2026 (Q4 towards the better end); FY headline operating margin 12%–13%; adjusted operating cash flow before working capital £800m–£900m",
+      "commentary": "Full-year guidance is reiterated, with Q4 expected towards the better end of the H2 range. H2 margins are expected to fall by up to c.200bps year-on-year, reflecting the phasing of growth investment, the ramp-up of new business and the rebuilding of incentives."
+    },
+    "explainer": "This is a Q3 trading update rather than full results, so WPP reports revenue growth rather than profit. The key figure the market watches is \"revenue less pass-through costs\" (formerly net sales) — revenue stripped of costs WPP simply passes on to clients, such as media buying — because it better reflects the group's own fee income. On that basis Q3 fell 2.1% like-for-like, but that is a sequential improvement on Q2's -2.8% and a much smaller decline than the -5.9% a year earlier.\n\n\"Like-for-like\" (LFL) strips out currency moves and the effect of acquisitions and disposals, so it shows underlying organic performance. Headline revenue actually edged up 0.5% in Q3, flattered partly by easier prior-year comparisons and some timing benefits; management flags that WPP Media's return to growth and WPP Production's gains were partly offset by a worsening 5.1% decline at WPP Creative.\n\nOn guidance, nothing has changed: WPP maintains its expectation of a low-to-mid-single-digit LFL decline in H2 and a full-year headline operating margin of 12%–13%. It cautions that second-half margins could fall by up to around 200 basis points year-on-year as it invests in growth initiatives, onboards new business wins and rebuilds staff incentives. Adjusted net debt has improved to £3.0bn from £3.6bn a year ago, helped in part by a £214m accounting benefit from adopting IFRS 9 amendments.",
+    "source_url": "https://uk.advfn.com/stock-market/london/wpp-WPP/share-news/WPP-PLC-Third-Quarter-2026-Trading-Update/99581716",
+    "related_news_url": "https://news.google.com/search?q=%22WPP%20plc%22",
+    "added_at": "2026-10-29T08:02:02.297186"
+  },
+  {
     "company": "Haleon plc",
     "ticker": "HLN",
     "publish_date": "29 October 2026",
