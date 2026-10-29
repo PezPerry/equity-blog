@@ -1,5 +1,104 @@
 [
   {
+    "company": "Donegal Group Inc",
+    "ticker": "DGICA",
+    "publish_date": "29 October 2026",
+    "date_iso": "2026-10-29",
+    "time_period": "Q3 and nine months to 30 September 2026",
+    "announcement_type": "Quarterly results",
+    "period_detail": "Q3 and nine months to 30 September 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Q3 2026</strong> diluted earnings per Class A share of <strong>$0.49</strong> and an annualised return on equity of <strong>10.9%</strong>, with CEO <strong>Kevin G. Burke</strong> citing continued soft market conditions across operating regions.</li><li>Net premiums written fell <strong>4.5%</strong> (down <strong>$9.9m</strong>) year on year — commercial lines <strong>-3.7%</strong>, personal lines <strong>-5.6%</strong> — attributed to higher attrition from pricing discipline amid rate competition.</li><li>Loss ratio improved slightly to <strong>61.5%</strong> from <strong>62.1%</strong>; expense ratio rose to <strong>34.8%</strong> from <strong>33.5%</strong> on a lower base of net premiums earned.</li><li>Weather-related losses of <strong>$19.1m</strong> (8.6pts) vs <strong>$14.3m</strong> (6.2pts) a year earlier, but below the five-year Q3 average of <strong>$20.4m</strong>.</li><li>Net investment income up <strong>5.4%</strong> to <strong>$14.7m</strong> from <strong>$13.9m</strong>; book value per share <strong>$17.70</strong> at 30 September 2026 vs <strong>$17.33</strong> at year-end 2025.</li><li>Declared regular quarterly dividend of <strong>$0.1925</strong> per Class A share (<strong>$0.175</strong> Class B), payable <strong>16 November 2026</strong> to holders of record on <strong>2 November 2026</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Donegal Group posted Q3 2026 diluted Class A EPS of **$0.49** and a **10.9%** annualised ROE as net premiums written fell **4.5%** amid soft market conditions.",
+    "priority": "high",
+    "priority_reason": "Quarterly and nine-month results from a listed insurer, including earnings, premiums and underwriting metrics.",
+    "figures": [
+      {
+        "metric": "Diluted EPS (Class A)",
+        "current": "$0.49",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "GAAP",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "Net premiums written",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "-4.5% (-$9.9m)",
+        "basis": "non-GAAP",
+        "note": "Q3 2026 vs Q3 2025"
+      },
+      {
+        "metric": "Loss ratio",
+        "current": "61.5%",
+        "prior": "62.1%",
+        "change": "-0.6pts",
+        "basis": "GAAP",
+        "note": "Q3 2026 vs Q3 2025"
+      },
+      {
+        "metric": "Expense ratio",
+        "current": "34.8%",
+        "prior": "33.5%",
+        "change": "+1.3pts",
+        "basis": "GAAP",
+        "note": "Q3 2026 vs Q3 2025"
+      },
+      {
+        "metric": "Net investment income",
+        "current": "$14.7m",
+        "prior": "$13.9m",
+        "change": "+5.4%",
+        "basis": "GAAP",
+        "note": "Q3 2026 vs Q3 2025"
+      },
+      {
+        "metric": "Weather-related losses",
+        "current": "$19.1m (8.6pts)",
+        "prior": "$14.3m (6.2pts)",
+        "change": "higher",
+        "basis": "",
+        "note": "Q3 2026 vs Q3 2025"
+      },
+      {
+        "metric": "Book value per share",
+        "current": "$17.70",
+        "prior": "$17.33",
+        "change": "+$0.37",
+        "basis": "",
+        "note": "30 Sep 2026 vs 31 Dec 2025"
+      },
+      {
+        "metric": "Annualised return on equity",
+        "current": "10.9%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "Large fire losses",
+        "current": "$5.8m (2.6pts)",
+        "prior": "$10.0m (4.4pts)",
+        "change": "lower",
+        "basis": "",
+        "note": "Q3 2026 vs Q3 2025"
+      }
+    ],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": "No formal numeric guidance issued; management flagged continued soft market conditions and a goal of modest, profitable premium growth as it finalises its 2027 plan."
+    },
+    "explainer": "Donegal is a US property & casualty insurer; figures are in US dollars and reported under US GAAP, with some non-GAAP measures (net premiums written, operating income, statutory combined ratio). Net premiums written is the full-term premium booked on policies effective in the period less amounts ceded to reinsurers, so it differs from premiums earned, which are recognised over the life of policies.\n\nThe 4.5% fall in net premiums written reflects the insurer walking away from business rather than cutting prices to match competitors — a deliberate trade-off of volume for pricing discipline. The reintroduction of 12-month (rather than six-month) auto policy terms flatters new-business premiums written because a full year of premium is booked at once, so this inflates the headline less favourably than underlying demand.\n\nOn underwriting, a loss ratio below 100% combined with the expense ratio indicates profitability. The slight improvement in the loss ratio masks mixed trends: the commercial core loss ratio worsened (57.2% vs 54.0%) on heavier workers' compensation and casualty claims, while personal lines improved (42.2% vs 46.6%) on better homeowners results. Favourable prior-year reserve development of $3.5m helped the quarter, versus unfavourable development a year earlier.\n\nNo explicit financial guidance was given. Management signalled only that it expects modest, profitable premium growth given the competitive environment as it builds its 2027 plan, so this is a maintained strategic stance rather than a formal forecast change.",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/DGICA/share-news/Donegal-Group-Inc-Announces-Third-Quarter-and-Fir/99584822",
+    "related_news_url": "https://news.google.com/search?q=%22Donegal%20Group%20Inc.%22",
+    "added_at": "2026-10-29T10:56:21.958829"
+  },
+  {
     "company": "Shaftesbury Capital PLC",
     "ticker": "SHC",
     "publish_date": "29 October 2026",
