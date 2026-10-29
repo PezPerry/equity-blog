@@ -1,5 +1,57 @@
 [
   {
+    "company": "Shaftesbury Capital PLC",
+    "ticker": "SHC",
+    "publish_date": "29 October 2026",
+    "date_iso": "2026-10-29",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Ian Hawksworth</strong>, Chief Executive of <strong>Shaftesbury Capital PLC</strong>, appointed non-executive Chairman of <strong>Hongkong Land Holdings Limited</strong> with effect from <strong>20 November 2026</strong>.</li><li>Disclosed under <strong>UKLR 6.4.9R(2)</strong>; a routine external-directorship notification with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "CEO Ian Hawksworth appointed non-executive Chairman of Hongkong Land Holdings from 20 November 2026, a routine external-appointment disclosure.",
+    "priority": "low",
+    "priority_reason": "Routine Listing Rule 6.4.9 disclosure of a non-executive directorship taken on elsewhere by the CEO, with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/shaftesbury-capital--shc/director-declaration/9848185",
+    "related_news_url": "https://news.google.com/search?q=%22Shaftesbury%20Capital%22",
+    "added_at": "2026-10-29T09:56:03.300727"
+  },
+  {
+    "company": "Jubilee Metals Group PLC",
+    "ticker": "JLP",
+    "publish_date": "29 October 2026",
+    "date_iso": "2026-10-29",
+    "time_period": "",
+    "announcement_type": "Operational / exploration update",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Phase 2 drilling</strong> at the <strong>Molefe Mine</strong> in <strong>Zambia</strong> confirmed continuity and increased mineralised strike length by <strong>~380m</strong> eastward, from <strong>930m to ~1,310m</strong>.</li><li>Peak intercepts: <strong>MNKDD021</strong> at <strong>2.97% TCu over 3.10m</strong>, <strong>MNKDD029</strong> at <strong>1.51% TCu over 12.5m</strong> and <strong>MNKDD027</strong> at <strong>1.24% TCu over 10.5m</strong> — noted as shallow depth.</li><li>Updated in-house mine schedule targets an oxide copper reef of <strong>~1 million tonnes</strong> at <strong>at least 1.30% TCu</strong>, including <strong>~240,000 tonnes at 1.45% TCu</strong> in immediately targeted pits 2 and 3; explicitly <strong>not a resource estimate</strong> under any standard.</li><li>Drilling by partner <strong>Galileo Resources plc</strong> under the <strong>28 November 2025</strong> co-operation agreement; eastern continuation excluded from the in-house estimate, with an <strong>updated resource calculation targeted for end-CY2026</strong>.</li><li>Current programme covers only <strong>~400 hectares</strong> versus <strong>>12,200 hectares</strong> of exploration ground to the east (<strong><5%</strong>), which the company frames as its wider opportunity.</li><li>No financial figures, guidance or JORC/formal resource statement provided; CEO <strong>Leon Coetzer</strong> calls results 'encouraging' and confirming expansion potential.</li></ul>",
+    "source_format": "html",
+    "headline": "Jubilee's Phase 2 drilling at its Molefe copper mine in Zambia extended the mineralised strike by ~380m to ~1,310m, with high-grade intercepts.",
+    "priority": "medium",
+    "priority_reason": "Inside-information drilling update extending the Molefe copper orebody, but no financials, guidance or resource estimate attached.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/jubilee-metals-JLP/share-news/Jubilee-Metals-Group-PLC-Molefe-Mine-Update/99583154",
+    "related_news_url": "https://news.google.com/search?q=%22Jubilee%20Metals%20Group%20PLC%22",
+    "added_at": "2026-10-29T09:56:03.288218"
+  },
+  {
     "company": "Hammerson PLC",
     "ticker": "HMSO",
     "publish_date": "29 October 2026",
