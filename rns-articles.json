@@ -1,5 +1,57 @@
 [
   {
+    "company": "Shell PLC",
+    "ticker": "SHEL",
+    "publish_date": "29 October 2026",
+    "date_iso": "2026-10-29",
+    "time_period": "2027 quarterly interim dividends (Q4 2026 to Q3 2027)",
+    "announcement_type": "Dividend declaration",
+    "period_detail": "2027 quarterly interim dividends",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Shell plc</strong> has set out the intended <strong>2027 interim dividend timetable</strong> covering the <strong>4th quarter 2026</strong> through the <strong>3rd quarter 2027</strong> payments.</li><li>Announcement dates run <strong>4 February 2027</strong>, <strong>29 April 2027</strong>, <strong>29 July 2027</strong> and <strong>28 October 2027</strong>; corresponding payment dates are <strong>30 March</strong>, <strong>21 June</strong>, <strong>20 September</strong> and <strong>20 December 2027</strong>.</li><li>Routine scheduling disclosure only — <strong>no dividend amounts</strong> stated and <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Shell has published the intended **timetable** for its **2027 quarterly interim dividends**, covering announcement, ex-dividend, record and payment dates.",
+    "priority": "low",
+    "priority_reason": "Routine administrative timetable for 2027 interim dividends with no dividend amounts or financial content.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/gnw/shell--shel/shell-plc-2027-interim-dividend-timetable/9847175",
+    "related_news_url": "https://news.google.com/search?q=%22Shell%22",
+    "added_at": "2026-10-29T07:35:36.731286"
+  },
+  {
+    "company": "PPHE Hotel Group Ltd",
+    "ticker": "PPH",
+    "publish_date": "29 October 2026",
+    "date_iso": "2026-10-29",
+    "time_period": "Q3 and nine months to 30 September 2026",
+    "announcement_type": "Q3 results",
+    "period_detail": "Q3 and nine months to 30 September 2026",
+    "type_workings": "Rule 'period line': period line gives quarter 'Q3' [rns.json record]",
+    "body": "<ul><li><strong>Arena Hospitality Group</strong>, in which <strong>PPHE</strong> holds a controlling stake, has published unaudited results for the three and nine months ended <strong>30 September 2026</strong> on its own website.</li><li>No financial figures are disclosed in the PPHE announcement itself; results are available via the Arena investor relations page.</li><li>Routine publication notice with <strong>no impact</strong> on PPHE trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "**PPHE Hotel Group** notes that Zagreb-listed subsidiary **Arena Hospitality Group** has published its unaudited **Q3 and nine-month results to 30 September 2026**.",
+    "priority": "low",
+    "priority_reason": "Routine notice that a majority-owned subsidiary has published results elsewhere, with no figures in the PPHE announcement itself.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/pphe-hotel-group-ltd--pph/publication-of-arena-q3-interim-financial-report-/9847176",
+    "related_news_url": "https://news.google.com/search?q=%22PPHE%20Hotel%20Group%20Ltd%22",
+    "added_at": "2026-10-29T07:35:36.718108"
+  },
+  {
     "company": "MYR Group Inc",
     "ticker": "MYRG",
     "publish_date": "29 October 2026",
