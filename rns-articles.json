@@ -2,6 +2,32 @@
   {
     "company": "BP PLC",
     "ticker": "BP.",
+    "publish_date": "29 October 2026",
+    "date_iso": "2026-10-29",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Ian Tyler</strong>, appointed <strong>BP</strong> chair on <strong>2 September 2026</strong>, is trimming external roles ahead of taking up the position.</li><li>He intends to step down as chair of <strong>Grafton Group plc</strong> (announced <strong>8 October 2026</strong>) and has stepped down as senior independent director of <strong>Anglo American plc</strong> (announced <strong>22 October 2026</strong>).</li><li>Tyler remains an independent non-executive director and remuneration committee chair at <strong>Anglo American plc</strong>.</li><li>Routine governance disclosure forming part of his board-commitment review — <strong>no impact</strong> on BP trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "BP confirms incoming chair Ian Tyler is reducing external board commitments, stepping down at Grafton Group and from the Anglo American SID role.",
+    "priority": "low",
+    "priority_reason": "Routine update on the incoming chair's external directorships with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/bp-BP./share-news/BP-PLC-Update-on-Chair-external-appointments/99578685",
+    "related_news_url": "https://news.google.com/search?q=%22BP%20p.l.c.%22",
+    "added_at": "2026-10-29T07:16:03.369968"
+  },
+  {
+    "company": "BP PLC",
+    "ticker": "BP.",
     "publish_date": "28 October 2026",
     "date_iso": "2026-10-28",
     "time_period": "",
