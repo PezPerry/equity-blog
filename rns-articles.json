@@ -1,5 +1,31 @@
 [
   {
+    "company": "Hammerson PLC",
+    "ticker": "HMSO",
+    "publish_date": "29 October 2026",
+    "date_iso": "2026-10-29",
+    "time_period": "",
+    "announcement_type": "Dividend declaration",
+    "period_detail": "",
+    "type_workings": "Rule 'dividend': body declares a dividend with payment details [rns.json record]",
+    "body": "<ul><li><strong>Results of the Dividend Reinvestment Plan (DRIP)</strong> for the interim cash dividend (period ending <strong>31 December 2026</strong>), declared <strong>30 July 2026</strong>.</li><li>UK-register holders of <strong>15,095,708 shares (2.58%)</strong> elected for the DRIP, resulting in <strong>337,438 shares</strong> bought in the market at <strong>£3.402471</strong> each.</li><li>SA branch-register holders of <strong>1,395,165 shares (0.24%)</strong> elected in, resulting in <strong>30,651 shares</strong> bought at <strong>R74.90798</strong> each.</li><li>Shares were purchased in the market, not newly issued — total issued share capital unchanged at <strong>585,217,753 shares</strong> (6,333 in treasury). Routine disclosure with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Hammerson reports take-up of its Dividend Reinvestment Plan for the interim dividend, satisfied by market purchases with no new shares issued.",
+    "priority": "low",
+    "priority_reason": "Routine DRIP take-up results; shares bought in the market, no new issuance and no change to share capital or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/hammerson--hmso/results-of-dividend-reinvestment-plan/9848064",
+    "related_news_url": "https://news.google.com/search?q=%22Hammerson%22",
+    "added_at": "2026-10-29T09:15:48.139812"
+  },
+  {
     "company": "Glencore PLC",
     "ticker": "GLEN",
     "publish_date": "29 October 2026",
