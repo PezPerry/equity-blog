@@ -26,6 +26,41 @@
     "added_at": "2026-10-29T07:16:03.369968"
   },
   {
+    "company": "eBay Inc",
+    "ticker": "EBAY",
+    "publish_date": "28 October 2026",
+    "date_iso": "2026-10-28",
+    "time_period": "Q3 2026 (quarter ended 30 September 2026)",
+    "announcement_type": "Quarterly results",
+    "period_detail": "Q3 2026 (quarter ended 30 September 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>eBay Inc.</strong> reported <strong>Q3 2026</strong> results for the quarter ended <strong>30 September 2026</strong>, with management citing \"strong GMV growth and meaningful earnings expansion\" — but the <strong>revenue, profit, EPS and GMV figures were not captured</strong> in the scraped text (financial tables returned headers only).</li><li>Declared a <strong>Q4 2026</strong> cash dividend of <strong>$0.31</strong> per share, payable <strong>18 December 2026</strong> to holders of record on <strong>4 December 2026</strong>.</li><li>Completed the <strong>$1.4bn</strong> cash acquisition of <strong>Depop</strong>, a C2C fashion marketplace, from <strong>Etsy, Inc.</strong> on <strong>30 July 2026</strong>; guidance includes Depop's expected impact.</li><li>Company provided guidance for <strong>Q4 and full-year 2026</strong> continuing operations, but the specific guidance figures did not capture in the scraped text.</li><li>Non-GAAP effective tax rate assumption raised to <strong>17.5%</strong> for 2026, up from <strong>16.5%</strong> in 2025.</li><li>CEO <strong>Jamie Iannone</strong> cited momentum in Focus Categories, C2C and recommerce; CFO <strong>Peggy Alford</strong> flagged disciplined investment for durable, profitable growth.</li></ul>",
+    "source_format": "html",
+    "headline": "eBay reports Q3 2026 results citing strong GMV growth and earnings expansion, declares **$0.31** quarterly dividend, but key figures did not capture in the scraped text.",
+    "priority": "high",
+    "priority_reason": "Quarterly results with full-year and Q4 guidance from a major global marketplace.",
+    "figures": [
+      {
+        "metric": "Non-GAAP effective tax rate (assumption)",
+        "current": "17.5%",
+        "prior": "16.5%",
+        "change": "+1.0pp",
+        "basis": "non-GAAP",
+        "note": "2026 vs 2025 assumption, not an actual result"
+      }
+    ],
+    "guidance": {
+      "status": "new",
+      "previous": "not stated",
+      "current": "not stated",
+      "commentary": "eBay issued Q4 and full-year 2026 guidance for continuing operations including the expected impact of Depop, but the actual guidance figures (GMV, revenue, EPS) did not capture in the scraped text, so the direction of any change cannot be verified here."
+    },
+    "explainer": "This is eBay's third-quarter 2026 earnings release. The qualitative narrative is positive — management points to strong gross merchandise volume (GMV) growth and expanding earnings — but the scraped page returned only the headings of the financial tables, not the numbers, so the headline revenue, profit, EPS and GMV figures are not available and should not be inferred.\n\nTwo concrete items did come through. First, a regular quarterly dividend of $0.31 per share. Second, confirmation of the $1.4bn cash purchase of Depop from Etsy, completed on 30 July 2026, which strengthens eBay's position in circular/recommerce fashion and is now folded into its forward guidance.\n\nOn guidance, eBay gave an outlook for both Q4 and full-year 2026 on a continuing-operations basis, inclusive of Depop. Because the actual guidance numbers did not scrape, it is not possible to say whether this represents a raise, cut or hold versus prior outlook. The full release and reconciliations are on eBay's investor relations site.\n\nTwo accounting points for comparability: eBay adopted a new software-cost standard (ASU 2025-06) from 1 January 2026 using full retrospective restatement of prior periods, and it uses a higher assumed non-GAAP effective tax rate of 17.5% (versus 16.5% in 2025), which modestly lowers non-GAAP earnings relative to the prior-year basis.",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/EBAY/share-news/eBay-Inc-Reports-Third-Quarter-2026-Results/99579956",
+    "related_news_url": "https://news.google.com/search?q=%22eBay%20Inc.%22",
+    "added_at": "2026-10-29T07:16:37.578388"
+  },
+  {
     "company": "BP PLC",
     "ticker": "BP.",
     "publish_date": "28 October 2026",
