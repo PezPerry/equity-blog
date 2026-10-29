@@ -1,5 +1,72 @@
 [
   {
+    "company": "St. James's Place plc",
+    "ticker": "STJ",
+    "publish_date": "29 October 2026",
+    "date_iso": "2026-10-29",
+    "time_period": "Q3 to 30 September 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "Q3 to 30 September 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Funds under management</strong> reached a record <strong>£242.4bn</strong>, helped by another quarter of net inflows and positive investment returns for clients.</li><li><strong>Gross inflows</strong> of <strong>£5.2bn</strong> in Q3, taking year-to-date gross inflows to <strong>£15.6bn</strong> — lower than the exceptionally strong comparative period last year, which benefited from activity around the new charging structure.</li><li>Net inflows were lower year-on-year against that strong comparative; outflows broadly stable relative to FUM, with <strong>client retention at 95.1%</strong> year to date.</li><li>CEO <strong>Mark FitzPatrick</strong> noted advisers supported clients through market volatility and ahead of the Autumn Budget.</li><li>European Embedded Value net asset value of approximately <strong>£22.85 per share</strong> at 30 September 2026.</li><li>More detail on <strong>Amplify</strong>, the next phase of strategy, to be provided at full-year results in <strong>February</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "St. James's Place reports record funds under management of **£242.4bn** on continued net inflows, though Q3 gross inflows of **£5.2bn** fell below a strong prior-year comparative.",
+    "priority": "high",
+    "priority_reason": "Quarterly trading statement from a FTSE 100 wealth manager reporting flows and funds under management.",
+    "figures": [
+      {
+        "metric": "Gross inflows (Q3)",
+        "current": "£5.2bn",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "Three months to 30 September 2026; described as lower than strong prior-year comparative"
+      },
+      {
+        "metric": "Gross inflows (YTD)",
+        "current": "£15.6bn",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "Nine months to 30 September 2026"
+      },
+      {
+        "metric": "Funds under management",
+        "current": "£242.4bn (record)",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "At 30 September 2026"
+      },
+      {
+        "metric": "Client retention rate (YTD, annualised)",
+        "current": "95.1%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "Excludes regular income withdrawals and maturities",
+        "note": "Year to date"
+      },
+      {
+        "metric": "EEV net asset value per share",
+        "current": "£22.85",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "European Embedded Value basis",
+        "note": "At 30 September 2026"
+      }
+    ],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "This is a quarterly flows and assets update rather than a full profit statement, so the key numbers are gross inflows (new money invested), net inflows (new money after client withdrawals and surrenders), and funds under management (FUM) — the total pool SJP earns fees on. FUM hitting a record £242.4bn reflects both continued net inflows and rising markets lifting the value of existing investments.\n\nThe softer flow comparison is important context. Q3 gross inflows of £5.2bn and £15.6bn year to date are described as lower than last year, but SJP attributes this to an unusually strong prior-year period driven by activity around the introduction of its new charging structure — in other words, the comparative base was inflated by one-off behaviour, not evidence of a structural slowdown. The announcement does not print the prior-year flow figures, so the exact decline cannot be stated here.\n\nClient retention of 95.1% year to date is a measure of how much money stays invested; a high retention rate means outflows remain contained relative to the size of FUM. SJP gives no new financial-year guidance in this statement, pointing instead to February's full-year results for detail on its 'Amplify' strategy.",
+    "source_url": "https://uk.advfn.com/stock-market/london/st-james-s-place-STJ/share-news/St-Jamess-Place-PLC-Trading-Statement/99581713",
+    "related_news_url": "https://news.google.com/search?q=%22St.%20James's%20Place%20plc%22",
+    "added_at": "2026-10-29T07:59:43.659266"
+  },
+  {
     "company": "The Rank Group Plc",
     "ticker": "RNK",
     "publish_date": "29 October 2026",
