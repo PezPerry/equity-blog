@@ -1,5 +1,80 @@
 [
   {
+    "company": "IMI plc",
+    "ticker": "IMI",
+    "publish_date": "29 October 2026",
+    "date_iso": "2026-10-29",
+    "time_period": "Q3 (1 July to 30 September 2026); FY to 31 December 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "Q3 (1 July to 30 September 2026); FY to 31 December 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Full-year adjusted EPS guidance raised to 137p–143p</strong> (previously <strong>136p–142p</strong>), principally reflecting the additional contribution from <strong>Truflo Marine</strong> ahead of its disposal, plus stronger growth in Transport.</li><li><strong>Q3 organic revenue +2%</strong>, against a tough <strong>+12%</strong> comparator in Q3 2025; <strong>+4%</strong> year to date. Statutory Q3 revenue <strong>+3%</strong>, helped by FX.</li><li><strong>Life Technology organic revenue +11%</strong> in Q3 (+7% YTD) on double-digit growth in Climate Control; <strong>Automation -3%</strong> in Q3 (+2% YTD) but with strong order intake in Process Automation.</li><li>On track for a <strong>sixth consecutive year of mid-single-digit organic revenue growth</strong>.</li><li><strong>Truflo Marine</strong> disposal now expected to complete in <strong>Q4 2026</strong> (previously Q3); recent agreed bolt-on acquisition of <strong>iSMA CONTROLLI</strong> strengthens the smart-connected buildings offering.</li><li>Full-year assumptions: net interest charge <strong>£20m</strong>, adjusted effective tax rate <strong>~26.3%</strong>, weighted average shares <strong>239m</strong> after the <strong>£500m buyback</strong>. FY results due <strong>9 March 2027</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "IMI raises full-year adjusted EPS guidance to **137p–143p** after a solid Q3 against a strong prior-year comparator.",
+    "priority": "high",
+    "priority_reason": "Q3 trading update with an increase to full-year adjusted EPS guidance.",
+    "figures": [
+      {
+        "metric": "Organic revenue growth (Q3)",
+        "current": "+2%",
+        "prior": "+12%",
+        "change": "not stated",
+        "basis": "constant currency, ex disposals/acquisitions",
+        "note": "Q3 2026 vs Q3 2025 growth comparator"
+      },
+      {
+        "metric": "Organic revenue growth (YTD)",
+        "current": "+4%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "constant currency, ex disposals/acquisitions",
+        "note": "year to date to 30 September 2026"
+      },
+      {
+        "metric": "Statutory revenue growth (Q3)",
+        "current": "+3%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "reported, includes FX",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "Automation organic revenue (Q3)",
+        "current": "-3%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "constant currency; +2% YTD",
+        "note": "65% of 2025 sales"
+      },
+      {
+        "metric": "Life Technology organic revenue (Q3)",
+        "current": "+11%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "constant currency; +7% YTD",
+        "note": "35% of 2025 sales"
+      },
+      {
+        "metric": "Full-year adjusted EPS guidance",
+        "current": "137p–143p",
+        "prior": "136p–142p",
+        "change": "+1p at both ends",
+        "basis": "adjusted basic EPS",
+        "note": "FY to 31 December 2026"
+      }
+    ],
+    "guidance": {
+      "status": "raised",
+      "previous": "Full year adjusted basic earnings per share between 136p and 142p",
+      "current": "Full year adjusted basic earnings per share between 137p and 143p",
+      "commentary": "Guidance lifted by 1p at each end, principally reflecting the extra contribution from Truflo Marine now that its disposal is expected to slip to Q4 2026 (from Q3), plus stronger growth in Transport. IMI also reaffirmed its sixth consecutive year of mid-single-digit organic revenue growth."
+    },
+    "explainer": "This is a quarterly trading statement rather than full results, so IMI gives growth rates rather than absolute revenue and profit figures. 'Organic' growth strips out currency moves and the effect of buying or selling businesses, so it shows underlying demand. The Q3 organic figure of +2% looks modest only because it is lapping a very strong +12% in the same quarter last year; year to date organic growth is +4%.\n\nThe divisional split matters: Life Technology (which includes Climate Control) grew organic revenue 11% in the quarter, while Automation fell 3% — though IMI flags strong order intake in Process Automation, which tends to feed later revenue. Statutory revenue rose 3% as a weaker reporting-currency mix added to the underlying number.\n\nOn guidance, the key change is a 1p increase at both ends of the full-year adjusted EPS range, to 137p–143p. The uplift is not a trading upgrade in the usual sense: it mainly reflects timing. The disposal of Truflo Marine is now expected to complete in Q4 rather than Q3, so IMI keeps that unit's earnings for longer this year, with some additional help from Transport. Adjusted EPS also benefits from the shrinking share count following the £500m buyback (weighted average 239m shares this year, falling to around 231m in 2027). Full 2027 guidance comes with results on 9 March 2027.",
+    "source_url": "https://uk.advfn.com/stock-market/london/imi-IMI/share-news/IMI-PLC-Trading-Update/99581708",
+    "related_news_url": "https://news.google.com/search?q=%22IMI%20plc%22",
+    "added_at": "2026-10-29T07:58:45.120746"
+  },
+  {
     "company": "Bunzl plc",
     "ticker": "BNZL",
     "publish_date": "29 October 2026",
