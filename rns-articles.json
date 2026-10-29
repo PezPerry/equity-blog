@@ -1,5 +1,31 @@
 [
   {
+    "company": "HSBC Holdings PLC",
+    "ticker": "HSBA",
+    "publish_date": "29 October 2026",
+    "date_iso": "2026-10-29",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>HSBC Holdings plc</strong> has elected to redeem in whole its <strong>US$2,250,000,000 7.390% Fixed Rate/Floating Rate Senior Unsecured Notes due 2028</strong>, of which <strong>US$1,276,632,000</strong> principal amount remains outstanding (ISIN US404280DR76).</li><li>Redemption date is <strong>9 November 2026</strong> at a make-whole redemption price (greater of 100% of principal or present value discounted at the Reference Treasury Rate plus <strong>50 basis points</strong>), plus accrued interest.</li><li>Routine liability-management/debt redemption notice with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "HSBC will redeem in whole its outstanding **US$1,276,632,000** of 7.390% fixed/floating rate senior unsecured notes due 2028 on **9 November 2026**.",
+    "priority": "low",
+    "priority_reason": "Routine make-whole redemption of a senior unsecured bond, no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/hsbc-holdings--hsba/notice-of-redemption/9848720",
+    "related_news_url": "https://news.google.com/search?q=%22HSBC%20Holdings%22",
+    "added_at": "2026-10-29T13:15:36.989498"
+  },
+  {
     "company": "Donegal Group Inc",
     "ticker": "DGICA",
     "publish_date": "29 October 2026",
