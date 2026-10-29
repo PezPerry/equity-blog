@@ -1,5 +1,136 @@
 [
   {
+    "company": "Lloyds Banking Group PLC",
+    "ticker": "LLOY",
+    "publish_date": "29 October 2026",
+    "date_iso": "2026-10-29",
+    "time_period": "9M to 30 September 2026 (Q3 2026)",
+    "announcement_type": "Interim results",
+    "period_detail": "9M to 30 September 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Statutory profit before tax</strong> of <strong>£6.6bn</strong> for the nine months to <strong>30 September 2026</strong>, up <strong>42%</strong> from <strong>£4.7bn</strong> a year earlier, driven by higher income and a lower remediation charge; <strong>return on tangible equity</strong> of <strong>17.9%</strong> (11.9% prior year).</li><li><strong>Underlying net interest income</strong> of <strong>£11.1bn</strong>, up <strong>10%</strong>, with banking net interest margin rising <strong>17bp</strong> to <strong>3.21%</strong> on stronger structural hedge income and 4% asset growth; underlying other income also up <strong>10%</strong> to <strong>£5.0bn</strong>.</li><li><strong>Underlying impairment charge</strong> of <strong>£930m</strong> (prior year £618m), giving an asset quality ratio of <strong>25bp</strong>; credit described as strong and stable with arrears low.</li><li><strong>CET1 ratio</strong> of <strong>13.3%</strong> after the interim dividend, July <strong>share buyback</strong> and the completed acquisition of <strong>Curve</strong>; capital generation of <strong>153bp</strong>. Tangible net assets per share <strong>55.4p</strong>, down 1.6p year-to-date.</li><li>On track to meet all <strong>2026 guidance</strong>: NII >£14.9bn, cost:income <50%, asset quality ratio c.25bp, RoTE >16%, capital generation >200bp and paying down to CET1 of c.13.0%.</li><li>CEO <strong>Charlie Nunn</strong> flagged the end of the current strategic cycle and the start of the new <strong>Accelerate 2030</strong> strategy.</li></ul>",
+    "source_format": "html",
+    "headline": "Lloyds reports nine-month statutory pre-tax profit of **£6.6bn**, up 42% year-on-year, and stays on track to meet its 2026 full-year guidance.",
+    "priority": "high",
+    "priority_reason": "Q3 interim management statement from a FTSE 100 bank with profit, margin, capital and guidance detail.",
+    "figures": [
+      {
+        "metric": "Statutory profit before tax",
+        "current": "£6,625m",
+        "prior": "£4,678m",
+        "change": "+42%",
+        "basis": "statutory",
+        "note": "9M to 30 Sep 2026 vs 9M to 30 Sep 2025"
+      },
+      {
+        "metric": "Underlying profit",
+        "current": "£6,582m",
+        "prior": "£4,851m",
+        "change": "+36%",
+        "basis": "underlying",
+        "note": "9M to 30 Sep 2026"
+      },
+      {
+        "metric": "Underlying net interest income",
+        "current": "£11,084m",
+        "prior": "£10,106m",
+        "change": "+10%",
+        "basis": "underlying",
+        "note": "9M to 30 Sep 2026"
+      },
+      {
+        "metric": "Underlying other income",
+        "current": "£4,996m",
+        "prior": "£4,526m",
+        "change": "+10%",
+        "basis": "underlying",
+        "note": "9M to 30 Sep 2026"
+      },
+      {
+        "metric": "Underlying impairment charge",
+        "current": "£930m",
+        "prior": "£618m",
+        "change": "+50%",
+        "basis": "underlying",
+        "note": "9M to 30 Sep 2026"
+      },
+      {
+        "metric": "Earnings per share",
+        "current": "7.6p",
+        "prior": "4.8p",
+        "change": "+2.8p",
+        "basis": "statutory",
+        "note": "9M to 30 Sep 2026"
+      },
+      {
+        "metric": "Banking net interest margin",
+        "current": "3.21%",
+        "prior": "3.04%",
+        "change": "+17bp",
+        "basis": "underlying",
+        "note": "9M to 30 Sep 2026"
+      },
+      {
+        "metric": "Return on tangible equity",
+        "current": "17.9%",
+        "prior": "11.9%",
+        "change": "+6.0pp",
+        "basis": "underlying",
+        "note": "9M to 30 Sep 2026"
+      },
+      {
+        "metric": "Cost:income ratio",
+        "current": "49.3%",
+        "prior": "59.7%",
+        "change": "-10.4pp",
+        "basis": "underlying",
+        "note": "9M to 30 Sep 2026"
+      },
+      {
+        "metric": "CET1 ratio",
+        "current": "13.3%",
+        "prior": "14.0%",
+        "change": "-0.7pp",
+        "basis": "statutory",
+        "note": "30 Sep 2026 vs 31 Dec 2025"
+      },
+      {
+        "metric": "Tangible net assets per share",
+        "current": "55.4p",
+        "prior": "57.0p",
+        "change": "-1.6p",
+        "basis": "statutory",
+        "note": "30 Sep 2026 vs 31 Dec 2025"
+      },
+      {
+        "metric": "Underlying loans and advances to customers",
+        "current": "£495.5bn",
+        "prior": "£481.1bn",
+        "change": "+3%",
+        "basis": "underlying",
+        "note": "30 Sep 2026 vs 31 Dec 2025"
+      },
+      {
+        "metric": "Customer deposits",
+        "current": "£502.8bn",
+        "prior": "£496.5bn",
+        "change": "+1%",
+        "basis": "statutory",
+        "note": "30 Sep 2026 vs 31 Dec 2025"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "2026 full-year guidance: underlying NII >£14.9bn; cost:income ratio <50% (operating costs <£9.9bn); asset quality ratio c.25bp; RoTE >16%; capital generation >200bp (ex capital distributions); pay down to CET1 c.13.0%.",
+      "current": "Remains on track to deliver the same 2026 full-year guidance: underlying NII >£14.9bn; cost:income ratio <50% (operating costs <£9.9bn); asset quality ratio c.25bp; RoTE >16%; capital generation >200bp; pay down to CET1 c.13.0%.",
+      "commentary": "Guidance is reiterated unchanged, with the Group stating it is on track on the back of sustained income growth, improving operating leverage and stable credit."
+    },
+    "explainer": "These are nine-month figures to 30 September 2026, so they cover the first three quarters rather than a single quarter. Lloyds reports both a statutory result and an 'underlying' result that strips out one-offs such as restructuring and remediation; the large jump in statutory profit to £6.6bn is flattered by a much lower remediation charge than last year (£61m versus £912m), when the bank was setting aside money for issues such as motor finance.\n\nThe core engine is net interest income — what Lloyds earns on loans minus what it pays on deposits. This rose 10% as the banking margin widened to 3.21%, helped by the structural hedge (a portfolio that locks in returns on deposits as rates reset higher) and modest lending growth. Impairments rose to £930m, but off a very low base; the asset quality ratio of 25bp signals credit conditions the bank regards as benign.\n\nOn capital, the CET1 ratio fell to 13.3% from 14.0% at the year end — this is deliberate, reflecting dividends, the July share buyback and the Curve acquisition rather than any weakness, and the bank still intends to pay down to roughly 13.0%. Tangible net assets per share edged down 1.6p, largely due to distributions and hedge-reserve moves as longer-term rates rose.\n\nGuidance is unchanged: every 2026 target has been reaffirmed, with management saying it is on track. The notable forward item is strategic rather than financial — the current plan is ending and a new 'Accelerate 2030' strategy is about to begin, so investors will be watching for fresh medium-term targets.",
+    "source_url": "https://www.investegate.co.uk/announcement/eqs/lloyds-banking-group--lloy/eqs-news-2026-q3-interim-management-statemen-/9847166",
+    "related_news_url": "https://news.google.com/search?q=%22Lloyds%20Banking%20Group%22",
+    "added_at": "2026-10-29T07:37:06.786162"
+  },
+  {
     "company": "Shell PLC",
     "ticker": "SHEL",
     "publish_date": "29 October 2026",
