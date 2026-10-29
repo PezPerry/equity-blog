@@ -1,5 +1,96 @@
 [
   {
+    "company": "Glencore PLC",
+    "ticker": "GLEN",
+    "publish_date": "29 October 2026",
+    "date_iso": "2026-10-29",
+    "time_period": "Q3 2026 (YTD to 30 September 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "Q3 2026 (YTD to 30 September 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Glencore plc</strong> reported a strong <strong>Q3 2026</strong> production performance, with key assets largely in line with expectations and prior guidance.</li><li>Full-year <strong>2026</strong> production guidance <strong>maintained</strong>: <strong>zinc</strong> and <strong>energy coal</strong> towards the upper end of ranges, <strong>copper</strong> and <strong>steelmaking coal</strong> towards the lower end, <strong>nickel</strong> around the middle.</li><li>Own-sourced <strong>copper</strong> production of <strong>598,600 tonnes</strong> was <strong>3%</strong> above the comparable 2025 period, or <strong>12%</strong> higher adjusting for the <strong>Mount Isa</strong> closure and <strong>Kidd</strong> disposal.</li><li>Own-sourced <strong>zinc</strong> of <strong>547,200 tonnes</strong> fell <strong>23%</strong> on Lady Loretta mine-end and planned lower Antamina grades; <strong>steelmaking coal</strong> of <strong>21.5Mt</strong> down <strong>13%</strong> on lower EVR throughput; <strong>cobalt</strong> of <strong>13,700 tonnes</strong> down <strong>52%</strong> amid the DRC export quota regime.</li><li>Progressive restart of <strong>ferrochrome</strong> smelting (Boshoek in September, Wonderkop in October) lifted attributable ferrochrome output <strong>29%</strong> quarter on quarter.</li><li>Following the <strong>2 October</strong> Marketing guidance update, the group expects <strong>2026</strong> full-year Marketing Adjusted EBIT to exceed <strong>$5bn</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Glencore reports a strong Q3 2026 production performance, maintains full-year guidance across key commodities and expects Marketing Adjusted EBIT to exceed $5bn.",
+    "priority": "high",
+    "priority_reason": "Quarterly production report with reiterated full-year guidance and a Marketing EBIT steer above $5bn.",
+    "figures": [
+      {
+        "metric": "Copper (own sourced)",
+        "current": "598,600 tonnes",
+        "prior": "not stated",
+        "change": "+3% (+15,100t); +12% adjusting for Mount Isa & Kidd",
+        "basis": "100% basis, controlled industrial assets and JVs",
+        "note": "YTD vs comparable 2025 period"
+      },
+      {
+        "metric": "Cobalt (own sourced)",
+        "current": "13,700 tonnes",
+        "prior": "not stated",
+        "change": "-52% (-14,800t)",
+        "basis": "",
+        "note": "YTD vs comparable 2025 period; reflects DRC export quota regime"
+      },
+      {
+        "metric": "Zinc (own sourced)",
+        "current": "547,200 tonnes",
+        "prior": "not stated",
+        "change": "-23% (-162,200t); -13% adjusting for Lady Loretta & Kidd",
+        "basis": "",
+        "note": "YTD vs comparable 2025 period"
+      },
+      {
+        "metric": "Nickel (own sourced)",
+        "current": "54,600 tonnes",
+        "prior": "not stated",
+        "change": "+4%",
+        "basis": "",
+        "note": "YTD vs comparable 2025 period"
+      },
+      {
+        "metric": "Chrome ore (attributable)",
+        "current": "2,553,000 tonnes",
+        "prior": "not stated",
+        "change": "-7% (-201,000t)",
+        "basis": "",
+        "note": "YTD vs comparable 2025 period"
+      },
+      {
+        "metric": "Steelmaking coal",
+        "current": "21.5 million tonnes",
+        "prior": "not stated",
+        "change": "-13% (-3.2Mt)",
+        "basis": "",
+        "note": "YTD vs comparable 2025 period; lower EVR plant throughput/yields"
+      },
+      {
+        "metric": "Energy coal",
+        "current": "73.9 million tonnes",
+        "prior": "not stated",
+        "change": "broadly in line",
+        "basis": "",
+        "note": "YTD vs comparable 2025 period"
+      },
+      {
+        "metric": "Marketing Adjusted EBIT",
+        "current": "expected to exceed $5bn",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "FY2026 steer, per 2 October methodology update"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Original 2026 copper and zinc guidance ranges provided in December 2025; not adjusted for the Kidd mine sale.",
+      "current": "Full-year 2026 production guidance maintained: zinc and energy coal towards upper end, copper and steelmaking coal towards lower end, nickel around the middle. FY2026 Marketing Adjusted EBIT expected to exceed $5bn.",
+      "commentary": "Production guidance is unchanged. Copper and steelmaking coal imply an uptick in Q4 (higher Collahuasi grades/recoveries; pit sequencing and plant upgrades), while the retained Kidd volumes mean a strong like-for-like zinc outcome and support copper towards the lower end of its range."
+    },
+    "explainer": "This is a production report, not a full results statement, so it reports tonnes mined rather than revenue or profit. Comparisons are year-to-date against the same period of 2025 on a 100% basis for controlled assets and joint ventures. Several headline falls are distorted by portfolio changes: copper looks only 3% higher as reported, but strips to 12% once the closed Mount Isa mine and the disposed Kidd mine are excluded.\n\nThe weaker lines are largely planned or structural rather than operational misses. Zinc is down chiefly because Lady Loretta reached the end of its life in late 2025 and Antamina is sequencing for higher copper and lower zinc grades. Cobalt's 52% drop reflects the DRC export quota regime, with cobalt held in solution for later sale rather than lost. Steelmaking coal fell on lower throughput and yields at EVR.\n\nOn guidance, nothing has been changed: full-year production ranges are reaffirmed, with the group indicating where within each range it expects to land. Notably, the December 2025 copper and zinc ranges were never cut for the Kidd sale, so delivering them implies a strong underlying performance. Separately, the group reiterated that 2026 Marketing Adjusted EBIT — the profit from its trading arm — should exceed $5bn, consistent with its 2 October methodology update.",
+    "source_url": "https://uk.advfn.com/stock-market/london/glencore-GLEN/share-news/Glencore-PLC-Third-Quarter-2026-Production-Report/99581687",
+    "related_news_url": "https://news.google.com/search?q=%22Glencore%20plc%22",
+    "added_at": "2026-10-29T08:02:37.631187"
+  },
+  {
     "company": "WPP plc",
     "ticker": "WPP",
     "publish_date": "29 October 2026",
