@@ -252,6 +252,12 @@ def add_article(path, date):
 
     slug = os.path.splitext(os.path.basename(path))[0]
 
+    # Special-coverage articles (tile-kind "budget") have their own hand-maintained
+    # block on the front page, so they never take a tile or the hero.
+    if meta("tile-kind") == "budget":
+        print("  registry: '%s' is Budget coverage - it lives in the BUDGET-2026 block, not the tiles." % slug)
+        return
+
     # A hand-curated entry always wins: if the slug is already registered, leave it
     # alone. Only genuinely new articles get a tile derived from their meta tags.
     data, _, tiles = load_registry()

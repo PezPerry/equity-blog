@@ -188,6 +188,10 @@ jobs:
         run: |
           NEW_FILES=$(git diff --name-only --diff-filter=A "$RANGE" -- '*.html' ':!longreads/' ':!trading-log/' | grep -vE '^(rns-news|guidance-tracker|tv-swipe|financial-calendar[^/]*|front-page|index)\.html$' || true)
 
+          # Budget coverage (tile-kind=budget) has its own hand-maintained front-page block,
+          # so it never rotates into the tiles - drop it here or the check below fails.
+          NEW_FILES=$(echo "$NEW_FILES" | while IFS= read -r F; do [ -n "$F" ] && ! grep -q '<meta name="tile-kind" content="budget"' "$F" && echo "$F"; done || true)
+
           if [ -z "$NEW_FILES" ]; then
             echo "No new articles. Front page unchanged."
             exit 0
