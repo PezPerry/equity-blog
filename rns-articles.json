@@ -1,5 +1,48 @@
 [
   {
+    "company": "Whitbread PLC",
+    "ticker": "WTB",
+    "publish_date": "29 October 2026",
+    "date_iso": "2026-10-29",
+    "time_period": "FY28-FY29",
+    "announcement_type": "Trading update",
+    "period_detail": "FY28-FY29",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Whitbread PLC</strong> welcomes the <strong>2026 UK Budget</strong> measure freezing <strong>business rates</strong> for the <strong>hospitality sector</strong> in England for <strong>two years</strong>, with no property facing an above-inflation increase.</li><li>Preliminary estimate: total business rate payments now expected to rise only <strong>£7.5m-£12.5m</strong> in <strong>FY28</strong>, versus previous consensus increase of <strong>c.£35m</strong>, with a similar benefit in <strong>FY29</strong>.</li><li>By <strong>FY29</strong>, business rates payments are expected to be <strong>£45m-£60m lower</strong> than previously expected.</li><li>Full FY28 UK cost inflation guidance, including the Budget impact, to be given at the <strong>Q3 FY27 trading update in January 2027</strong>.</li><li>CEO <strong>Dominic Paul</strong> said the measures, alongside a more reasonable living/minimum wage increase, will make a significant difference and add momentum to the Five-Year Plan.</li><li>Figures are preliminary and the Group is still awaiting full detail of the measures.</li></ul>",
+    "source_format": "html",
+    "headline": "Whitbread expects a material cost benefit after the 2026 UK Budget froze hospitality business rates, cutting its expected FY28 rates rise to £7.5m-£12.5m from c.£35m.",
+    "priority": "high",
+    "priority_reason": "Budget business-rates relief materially lowers Whitbread's forward cost base, a positive signal for margins and earnings.",
+    "figures": [
+      {
+        "metric": "Business rates increase",
+        "current": "£7.5m-£12.5m",
+        "prior": "c.£35m",
+        "change": "not stated",
+        "basis": "preliminary estimate vs previous consensus",
+        "note": "FY28"
+      },
+      {
+        "metric": "Business rates payments vs prior expectation",
+        "current": "£45m-£60m lower",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "preliminary estimate",
+        "note": "by FY29"
+      }
+    ],
+    "guidance": {
+      "status": "none",
+      "previous": "Previous consensus business rates increase of c.£35m in FY28",
+      "current": "Preliminary estimate of a £7.5m-£12.5m FY28 increase; full FY28 UK cost inflation guidance to follow at Q3 FY27 update in January 2027",
+      "commentary": "Formal cost-inflation guidance is deferred to January 2027, but Whitbread flags a significant positive impact on financial performance from the business-rates freeze."
+    },
+    "explainer": "Business rates are a property tax paid by UK commercial occupiers, and for a large hotel and restaurant operator like Whitbread they are a major fixed cost. The Budget's two-year freeze caps how much that cost can rise, limiting any increase to inflation rather than the steeper rise the sector had feared.\n\nThe key comparison is against the 'previous consensus' — what analysts had collectively assumed Whitbread's rates bill would rise by. That assumed increase of about £35m in FY28 now shrinks to a £7.5m-£12.5m rise, and by FY29 the Group expects its total rates payments to be £45m-£60m lower than previously pencilled in. These are preliminary company estimates, not audited figures, and Whitbread stresses it is still awaiting full detail.\n\nFormally, guidance has not yet changed: Whitbread will set out its FY28 UK cost inflation guidance, including the Budget effect, at its Q3 FY27 trading update in January 2027. For now this is a directional signal that forward costs will be lower than expected, which is supportive of margins and cashflow.",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/whitbread--wtb/response-to-uk-budget/9846895",
+    "related_news_url": "https://news.google.com/search?q=%22Whitbread%22",
+    "added_at": "2026-10-29T07:38:46.365878"
+  },
+  {
     "company": "Touchstone Exploration Inc",
     "ticker": "TXP",
     "publish_date": "29 October 2026",
