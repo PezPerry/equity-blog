@@ -1,5 +1,56 @@
 [
   {
+    "company": "The Rank Group Plc",
+    "ticker": "RNK",
+    "publish_date": "29 October 2026",
+    "date_iso": "2026-10-29",
+    "time_period": "FY to 30 June 2027",
+    "announcement_type": "Trading update",
+    "period_detail": "FY to 30 June 2027",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Machine Games Duty</strong> rises from <strong>20% to 25%</strong>, effective <strong>1 April 2027</strong>, per the UK <strong>Autumn Budget 2026</strong>.</li><li>Anticipated annualised impact of <strong>c. GBP9m</strong> additional cost, before mitigating actions; current year (to <strong>30 June 2027</strong>) duty costs up <strong>c. GBP2m</strong>.</li><li>Group remains confident of delivering <strong>Group LFL operating profit in line with expectations</strong> for the current year.</li><li>Fuller update on Budget impact and mitigations to come with <strong>interim results</strong> for the six months to <strong>31 December 2026</strong>, due <strong>28 January 2027</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Rank flags c.GBP9m annualised cost from the Machine Games Duty rise to 25% but reaffirms FY27 LFL operating profit in line with expectations.",
+    "priority": "medium",
+    "priority_reason": "Flags a material gaming-tax cost headwind but reaffirms full-year operating profit in line with expectations.",
+    "figures": [
+      {
+        "metric": "Machine Games Duty rate",
+        "current": "25%",
+        "prior": "20%",
+        "change": "+5pp",
+        "basis": "",
+        "note": "effective 1 April 2027"
+      },
+      {
+        "metric": "Annualised additional duty cost",
+        "current": "c. GBP9m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "before mitigating actions",
+        "note": "annualised"
+      },
+      {
+        "metric": "Current-year additional duty cost",
+        "current": "c. GBP2m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "FY to 30 June 2027"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Group LFL operating profit in line with expectations for the current year",
+      "current": "Group LFL operating profit in line with expectations for the current year",
+      "commentary": "Despite the c. GBP2m in-year cost from the higher Machine Games Duty, Rank reaffirms current-year LFL operating profit guidance unchanged, implying it expects to absorb the near-term hit."
+    },
+    "explainer": "Machine Games Duty is the tax levied on the profits from gaming machines, which are a significant part of Rank's casino and bingo (Grosvenor and Mecca) operations. The Budget raises the rate by five percentage points, from 20% to 25%, from 1 April 2027.\n\nRank quantifies the hit two ways: a full-year annualised cost of about GBP9m once the rate is in force, and a smaller c. GBP2m impact on the current financial year (to 30 June 2027) because the higher rate only applies for the final quarter of that year. The GBP9m figure is stated before any mitigating actions, so the net impact could ultimately be smaller.\n\nCrucially, guidance is unchanged: Rank still expects like-for-like operating profit for the current year to be in line with expectations, indicating the c. GBP2m near-term cost is manageable within existing forecasts. A fuller assessment of the Budget and planned mitigations will come with interim results on 28 January 2027.",
+    "source_url": "https://uk.advfn.com/stock-market/london/rank-RNK/share-news/Rank-Group-PLC-Autumn-Budget-Impact/99581711",
+    "related_news_url": "https://news.google.com/search?q=%22The%20Rank%20Group%20Plc%22",
+    "added_at": "2026-10-29T07:59:14.383594"
+  },
+  {
     "company": "IMI plc",
     "ticker": "IMI",
     "publish_date": "29 October 2026",
