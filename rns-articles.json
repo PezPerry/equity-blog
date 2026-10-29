@@ -1,5 +1,31 @@
 [
   {
+    "company": "Haleon plc",
+    "ticker": "HLN",
+    "publish_date": "29 October 2026",
+    "date_iso": "2026-10-29",
+    "time_period": "Q3 FY26 (year ending 31 December 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "Q3 FY26 (year ending 31 December 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Haleon plc</strong> has released its <strong>Q3 trading statement</strong> for the year ending <strong>31 December 2026</strong>.</li><li>This RNS is a <strong>pointer notice only</strong> — the full statement is published separately as a <strong>PDF</strong> on the London Stock Exchange and at haleon.com/investors; <strong>no financial figures, revenue, profit or guidance are contained in this text</strong>.</li><li>Presentation and Q&A hosted by CEO <strong>Brian McNamara</strong> and CFO <strong>Dawn Allen</strong> at <strong>9:00am GMT</strong> on <strong>29 October 2026</strong>.</li><li>Trading detail and any guidance commentary require the linked PDF, which is not available in the scraped text — figures cannot be reported here without inventing them.</li></ul>",
+    "source_format": "html",
+    "headline": "**Haleon** has published its **Q3 2026** trading statement, with an analyst and shareholder Q&A call hosted at **9:00am GMT** on **29 October 2026**.",
+    "priority": "high",
+    "priority_reason": "Q3 trading statement from a FTSE 100 consumer-health major, though the figures sit in a linked PDF not included in this RNS text.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": "No guidance is stated in the scraped RNS text; any guidance update would be in the linked Q3 PDF, which is not included here."
+    },
+    "explainer": "This announcement is the London Stock Exchange's cover notice telling the market that Haleon's third-quarter trading statement for the 2026 financial year is now available. The notice itself carries no numbers — revenue growth, organic performance, category trends and any full-year guidance are all set out in the separate PDF hosted on the LSE and Haleon's investor website, which was not captured in this scrape.\n\nAs a result, no comparative figures or guidance movement can be reported from this text. To summarise the actual Q3 performance — including organic revenue growth by category (Oral Health, VMS, Pain Relief, etc.) and any change to full-year guidance — the linked statement would need to be read directly.",
+    "source_url": "https://uk.advfn.com/stock-market/london/haleon-HLN/share-news/Haleon-PLC-Haleon-2026-Q3-Trading-Statement/99581714",
+    "related_news_url": "https://news.google.com/search?q=%22Haleon%20plc%22",
+    "added_at": "2026-10-29T08:00:09.109329"
+  },
+  {
     "company": "St. James's Place plc",
     "ticker": "STJ",
     "publish_date": "29 October 2026",
