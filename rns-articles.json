@@ -1,5 +1,104 @@
 [
   {
+    "company": "MYR Group Inc",
+    "ticker": "MYRG",
+    "publish_date": "29 October 2026",
+    "date_iso": "2026-10-29",
+    "time_period": "Q3 and nine months to 30 September 2026",
+    "announcement_type": "Quarterly results",
+    "period_detail": "Q3 and nine months to 30 September 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Record Q3 2026 revenue of $1.26bn</strong>, up <strong>$308.6m</strong> on Q3 2025, with record C&I segment revenue of <strong>$704.5m</strong> and T&D revenue of <strong>$554.5m</strong>.</li><li>Q3 net income <strong>$60.0m</strong> (<strong>$3.82</strong> diluted EPS) vs <strong>$32.1m</strong> (<strong>$2.05</strong>) a year earlier; Q3 EBITDA <strong>$110.0m</strong> vs <strong>$62.7m</strong>.</li><li>Nine-month revenue <strong>$3.34bn</strong> (up <strong>$656.8m</strong>); nine-month net income <strong>$156.7m</strong> (<strong>$9.97</strong> EPS) vs <strong>$81.9m</strong> (<strong>$5.20</strong>).</li><li>Gross margin rose to <strong>13.6%</strong> in Q3 (from <strong>11.8%</strong>), aided by better productivity and favourable job close-outs, plus contribution from the <strong>Valley Electric</strong> and <strong>Comet Electric</strong> acquisition.</li><li>Backlog <strong>$3.68bn</strong> at <strong>30 September 2026</strong>, up <strong>38.2%</strong> year on year (C&I <strong>$2.39bn</strong>, T&D <strong>$1.29bn</strong>).</li><li>Board approved a new <strong>$100.0m</strong> share repurchase programme, effective <strong>4 November 2026</strong> and expiring <strong>3 November 2027</strong>, funded from cash and the revolving credit facility.</li></ul>",
+    "source_format": "html",
+    "headline": "MYR Group posts record Q3 revenue of **$1.26bn** with net income near-doubling to **$60.0m**, and launches a **$100m** share buyback.",
+    "priority": "high",
+    "priority_reason": "Quarterly and nine-month results with record revenue and a new $100m buyback — a share-price-sensitive event.",
+    "figures": [
+      {
+        "metric": "Revenue",
+        "current": "$1.26bn",
+        "prior": "not stated",
+        "change": "+$308.6m",
+        "basis": "",
+        "note": "Q3 2026 vs Q3 2025"
+      },
+      {
+        "metric": "Net income",
+        "current": "$60.0m",
+        "prior": "$32.1m",
+        "change": "not stated",
+        "basis": "",
+        "note": "Q3 2026 vs Q3 2025"
+      },
+      {
+        "metric": "Diluted EPS",
+        "current": "$3.82",
+        "prior": "$2.05",
+        "change": "not stated",
+        "basis": "",
+        "note": "Q3 2026 vs Q3 2025"
+      },
+      {
+        "metric": "EBITDA",
+        "current": "$110.0m",
+        "prior": "$62.7m",
+        "change": "not stated",
+        "basis": "non-GAAP",
+        "note": "Q3 2026 vs Q3 2025"
+      },
+      {
+        "metric": "Gross margin",
+        "current": "13.6%",
+        "prior": "11.8%",
+        "change": "+1.8pp",
+        "basis": "",
+        "note": "Q3 2026 vs Q3 2025"
+      },
+      {
+        "metric": "Revenue (9M)",
+        "current": "$3.34bn",
+        "prior": "not stated",
+        "change": "+$656.8m",
+        "basis": "",
+        "note": "9M 2026 vs 9M 2025"
+      },
+      {
+        "metric": "Net income (9M)",
+        "current": "$156.7m",
+        "prior": "$81.9m",
+        "change": "not stated",
+        "basis": "",
+        "note": "9M 2026 vs 9M 2025"
+      },
+      {
+        "metric": "Diluted EPS (9M)",
+        "current": "$9.97",
+        "prior": "$5.20",
+        "change": "not stated",
+        "basis": "",
+        "note": "9M 2026 vs 9M 2025"
+      },
+      {
+        "metric": "Backlog",
+        "current": "$3.68bn",
+        "prior": "$2.66bn",
+        "change": "+38.2%",
+        "basis": "",
+        "note": "as at 30 September"
+      }
+    ],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "MYR Group is a US and Canadian specialty electrical contractor split into Transmission & Distribution (T&D) and Commercial & Industrial (C&I). The comparatives here are reported (GAAP) figures versus the same periods of 2025, except EBITDA, which is a non-GAAP measure the company uses alongside its statutory accounts. There is no currency-basis adjustment to consider, as results are reported in US dollars.\n\nThe revenue jump is partly organic — higher activity on fixed-price, T&E and unit-price contracts across both segments — and partly acquired, following the purchase of Valley Electric and Comet Electric, which also lifted SG&A, intangible amortisation and interest costs. The margin improvement reflects better-than-anticipated project productivity and favourable job close-outs rather than a one-off gain.\n\nThe company issued no formal forward revenue or profit guidance in this release, so there is no change to flag. The forward-looking statement is a standard legal disclaimer, not a numerical outlook. The record $3.68bn backlog is the clearest signal on future demand.\n\nSeparately, the board authorised a new $100m buyback, running from 4 November 2026 to 3 November 2027, to be funded from cash and the revolving credit facility; it is discretionary and not an obligation to repurchase a set amount.",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/MYRG/share-news/MYR-Group-Inc-Announces-Third-Quarter-and-First-N/99580007",
+    "related_news_url": "https://news.google.com/search?q=%22MYR%20Group%20Inc.%22",
+    "added_at": "2026-10-29T07:17:05.369788"
+  },
+  {
     "company": "BP PLC",
     "ticker": "BP.",
     "publish_date": "29 October 2026",
