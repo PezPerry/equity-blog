@@ -1,5 +1,40 @@
 [
   {
+    "company": "Touchstone Exploration Inc",
+    "ticker": "TXP",
+    "publish_date": "29 October 2026",
+    "date_iso": "2026-10-29",
+    "time_period": "Q3 2026 / October 2026 operations",
+    "announcement_type": "Trading update",
+    "period_detail": "Q3 2026 / October 2026 operations",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>CR-3</strong> Karamat completion recorded gross average natural gas test rates of approximately <strong>5.0 MMcf/d</strong> and <strong>6.8 MMcf/d</strong> at different choke settings during extended testing from <strong>19 October 2026</strong>; CEO <strong>Paul R. Baay</strong> says results may indicate an <strong>additional gas opportunity</strong> to use spare Central block processing capacity.</li><li>First <strong>WD-4</strong> campaign well <strong>PS-623</strong> reached total depth on <strong>4 October 2026</strong> with approximately <strong>450 feet</strong> of potential net hydrocarbon pay, and came onstream at an initial flush rate of approximately <strong>387 bbls/d</strong> of oil; rig has moved to the second well, whose turnkey drilling costs are covered by the contractor.</li><li><strong>Cascadura</strong> booster compressor uptime improved to approximately <strong>98%</strong> in September, supporting gross gas output of <strong>9.7 MMcf/d</strong> (July), <strong>12.5 MMcf/d</strong> (August) and <strong>13.0 MMcf/d</strong> (September); three optimisation workovers planned before year-end.</li><li><strong>Q3 2026</strong> sales volumes averaged <strong>4,485 boe/d</strong>, comprising approximately <strong>19.4 MMcf/d</strong> of gas and <strong>1,259 bbls/d</strong> of crude and liquids; a <strong>Baraka-1</strong> workover is also planned.</li><li>Company stresses early test and flush rates are <strong>not indicative of stabilised production</strong>; further flow and pressure build-up testing continues.</li></ul>",
+    "source_format": "html",
+    "headline": "Touchstone's CR-3 well tested gas at approximately 5.0-6.8 MMcf/d from its first Karamat target, flagging a possible additional Central block gas opportunity.",
+    "priority": "high",
+    "priority_reason": "Operational update with new well test results flagging a potential additional gas play, plus fresh drilling and production data material to an AIM E&P.",
+    "figures": [
+      {
+        "metric": "Cascadura gross gas production",
+        "current": "13.0 MMcf/d (September)",
+        "prior": "9.7 MMcf/d (July)",
+        "change": "not stated",
+        "basis": "gross, monthly average",
+        "note": "August was 12.5 MMcf/d"
+      }
+    ],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "This is an operational update rather than a full set of results, so most numbers are physical production and test rates rather than revenue or profit. The headline figures from CR-3 and PS-623 are early-stage test and 'flush' rates taken during the first days of production, when flow is typically elevated; the company repeatedly cautions these are not stabilised rates and are expected to decline, so they should not be read as steady-state output.\n\nThe CR-3 well is significant because it is Touchstone's first well targeting the Karamat reservoir on the Central block. The roughly 5.0-6.8 MMcf/d gas test rates, and management's comment that this could be an 'additional gas opportunity', suggest a possible new development layer alongside the existing Herrera programme — but the company is clear this does not establish comparable quality at other locations until further evaluation.\n\nThe Cascadura gas figures (9.7, 12.5 then 13.0 MMcf/d across July to September) are gross monthly averages showing a rising trend as compressor reliability improved to about 98% uptime. These are gross field volumes; Touchstone holds an 80% working interest there, so its net share is lower.\n\nNo earnings, cash or guidance figures are provided, and the company did not issue or change formal production guidance in this update.",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/touchstone-exploration-inc-npv-di---txp/operational-update-/9846896",
+    "related_news_url": "https://news.google.com/search?q=%22Touchstone%20Exploration%20Inc%20NPV%20(DI)%22",
+    "added_at": "2026-10-29T07:38:18.289214"
+  },
+  {
     "company": "Sylvania Platinum Limited",
     "ticker": "SLP",
     "publish_date": "29 October 2026",
