@@ -1,5 +1,106 @@
 [
   {
+    "company": "Savannah Energy PLC",
+    "ticker": "SAVE",
+    "publish_date": "30 October 2026",
+    "date_iso": "2026-10-30",
+    "time_period": "9M to 30 September 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "9M to 30 September 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>9M 2026 revenue</strong> rose <strong>32%</strong> year-on-year to <strong>US$242.1m</strong> (9M 2025: <strong>US$184.0m</strong>); cash collections up <strong>16%</strong> to <strong>US$281.0m</strong>.</li><li><strong>FY 2026 gross daily production</strong> guided to <strong>18-20 Kboepd</strong>; group output was <strong>17.0 Kboepd</strong> for 9M 2026 (FY 2025: 18.8 Kboepd), expected to average ~<strong>20 Kboepd</strong> for the rest of the year with <strong>Uquo 13</strong> on stream.</li><li><strong>Uquo South</strong> exploration well found gas in most targeted reservoirs; testing and evaluation due to complete <strong>November 2026</strong>; <strong>Stubb Creek</strong> 9M production up <strong>34%</strong> to <strong>3.9 Kbopd</strong>.</li><li>As at <strong>30 September 2026</strong> cash was <strong>US$73.1m</strong> (up from US$42.7m) and <strong>net debt US$700.8m</strong> (up from US$658.8m); only <strong>7%</strong> of gross debt is recourse to the Company.</li><li>Shares <strong>remain suspended on AIM</strong> pending delayed <strong>audited FY 2025 accounts</strong> and <strong>H1 2026 results</strong>, both now expected in <strong>November 2026</strong>; the AIM quotation review remains ongoing.</li><li><strong>Chad arbitration</strong> proceedings (claims in excess of <strong>US$775m</strong> plus interest) expected to conclude in <strong>Q4 2026</strong>; JDA signed with <strong>Cameroon</strong> for the 95 MW Bini a Warak project.</li></ul>",
+    "source_format": "html",
+    "headline": "Savannah reports 9M 2026 revenue up 32% to US$242.1m and sets FY 2026 gross production guidance of 18-20 Kboepd, with shares remaining suspended on AIM pending delayed accounts.",
+    "priority": "high",
+    "priority_reason": "Nine-month trading update with revenue growth, production guidance, a gas discovery and AIM listing/suspension developments.",
+    "figures": [
+      {
+        "metric": "Revenue",
+        "current": "US$242.1m",
+        "prior": "US$184.0m",
+        "change": "+32%",
+        "basis": "unaudited, year-on-year",
+        "note": "9M to 30 September 2026"
+      },
+      {
+        "metric": "Cash collections",
+        "current": "US$281.0m",
+        "prior": "US$241.6m",
+        "change": "+16%",
+        "basis": "year-on-year",
+        "note": "9M to 30 September 2026"
+      },
+      {
+        "metric": "Group average gross daily production",
+        "current": "17.0 Kboepd",
+        "prior": "18.8 Kboepd",
+        "change": "not stated",
+        "basis": "9M 2026 vs FY 2025",
+        "note": "76% gas in 9M 2026"
+      },
+      {
+        "metric": "Cash balances",
+        "current": "US$73.1m",
+        "prior": "US$42.7m",
+        "change": "not stated",
+        "basis": "as at 30 September 2026 vs 31 December 2025",
+        "note": ""
+      },
+      {
+        "metric": "Net debt",
+        "current": "US$700.8m",
+        "prior": "US$658.8m",
+        "change": "not stated",
+        "basis": "as at 30 September 2026 vs 31 December 2025",
+        "note": "gross debt US$773.9m, 7% recourse"
+      },
+      {
+        "metric": "Trade receivables",
+        "current": "US$442.8m",
+        "prior": "US$508.5m",
+        "change": "-13%",
+        "basis": "as at 30 September 2026 vs 31 December 2025",
+        "note": "mainly Nigerian gas sales"
+      }
+    ],
+    "guidance": {
+      "status": "new",
+      "previous": "Not previously stated in this announcement",
+      "current": "FY 2026 average gross daily production anticipated in the range of 18-20 Kboepd, subject to customer demand, with potential upside from the Uquo South well; production expected to average approximately 20 Kboepd for the remainder of the year",
+      "commentary": "The announcement sets a FY 2026 gross production range of 18-20 Kboepd. With Uquo 13 on stream since August 2026, output is expected to run at around 20 Kboepd for the rest of the year, and the Uquo South gas discovery could add further upside once testing completes in November."
+    },
+    "explainer": "This is a nine-month trading update to 30 September 2026, and all the figures are unaudited. Revenue of US$242.1m is 32% higher than the same period last year, while cash collections — the cash actually received, which lags revenue because of Nigerian gas payment timing — rose 16% to US$281.0m. The gap between the two, and the still-large trade receivables balance of US$442.8m, reflects amounts owed under gas sales agreements in Nigeria; collecting that cash remains a stated priority.\n\nProduction is measured on a gross basis. Group output averaged 17.0 Kboepd over nine months, below the 18.8 Kboepd full-year 2025 average, but is expected to rebound to around 20 Kboepd for the remainder of 2026 as the Uquo 13 well contributes. The FY 2026 guidance range of 18-20 Kboepd is framed as new guidance here and depends on customer gas nomination levels, with possible upside from the Uquo South discovery still being evaluated.\n\nNet debt rose to US$700.8m from US$658.8m at year-end, though the company stresses that only 7% of gross debt is recourse to the parent, with the rest held non-recourse within subsidiaries. Cash balances improved to US$73.1m.\n\nTwo non-financial points matter for traders: the shares remain suspended on AIM because the audited FY 2025 accounts and H1 2026 results are both delayed to November 2026, and the board's review of Savannah's AIM listing is still open. There is also ongoing Chad arbitration, with claims in excess of US$775m plus interest expected to conclude in Q4 2026.",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/savannah-energy--save/operational-and-financial-update/9849343",
+    "related_news_url": "https://news.google.com/search?q=%22Savannah%20Energy%22",
+    "added_at": "2026-10-30T07:36:54.871200"
+  },
+  {
+    "company": "Mobico Group PLC",
+    "ticker": "MCG",
+    "publish_date": "30 October 2026",
+    "date_iso": "2026-10-30",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>Mobico Group PLC</strong> is changing its accounting reference date and financial year end from <strong>31 March</strong> back to <strong>31 December</strong>, effective immediately.</li><li>The year end had been temporarily extended from 31 December to 31 March, as announced on <strong>26 November 2025</strong> following the appointment of new auditors; the group is now returning to its usual reporting periods.</li><li>Next reporting events: unaudited interim results for the <strong>6 months ending 30 September 2026</strong> (by <strong>31 December 2026</strong>), and audited statutory accounts for the <strong>9 months ending 31 December 2026</strong> (by <strong>30 April 2027</strong>).</li><li>Routine reporting-timetable change with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Mobico confirms its financial year end reverts from 31 March to 31 December with immediate effect, as previously set out.",
+    "priority": "low",
+    "priority_reason": "Administrative change of accounting reference date previously flagged; affects reporting-period timing only, not trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/mobico-group--mcg/new-accounting-ref-date/9849262",
+    "related_news_url": "https://news.google.com/search?q=%22Mobico%20Group%22",
+    "added_at": "2026-10-30T07:36:54.816374"
+  },
+  {
     "company": "Sylvania Platinum Limited",
     "ticker": "SLP",
     "publish_date": "30 October 2026",
