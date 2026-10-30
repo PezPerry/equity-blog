@@ -1,5 +1,128 @@
 [
   {
+    "company": "Starbucks Corp",
+    "ticker": "SBUX",
+    "publish_date": "30 October 2026",
+    "date_iso": "2026-10-30",
+    "time_period": "Q4 and FY to 27 September 2026",
+    "announcement_type": "Annual results",
+    "period_detail": "Q4 and FY to 27 September 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>'Back to Starbucks'</strong> turnaround plan delivered a return to comp growth, margin expansion and stronger earnings in <strong>FY2026 (52 weeks to 27 September 2026)</strong>, with global <strong>Q4 comparable coffeehouse sales up 7.2%</strong>.</li><li><strong>Q4 consolidated net revenues down 4% to $9.1bn</strong>, reflecting the <strong>Starbucks China</strong> transaction (conversion of China retail to a licensed JV model in Q3 FY26).</li><li><strong>Q4 GAAP operating margin 10.8%, up 790bps</strong>; <strong>non-GAAP operating margin 14.0%, up 450bps</strong>, driven by lower restructuring costs and sales leverage.</li><li><strong>Q4 GAAP EPS $0.59 (+392%)</strong> and <strong>non-GAAP EPS $0.80 (+54%)</strong>.</li><li><strong>North America</strong> net revenues <strong>up 6% to $7.3bn</strong> on <strong>+7.9% comps</strong>; operating income jumped to <strong>$898.4m</strong> from <strong>$308.5m</strong>, margin <strong>12.3%</strong> vs <strong>4.5%</strong>.</li><li>Company introduced <strong>FY2027 guidance</strong> (a 53-week year), recently increased the dividend and plans to <strong>resume share repurchases in fiscal 2027</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Starbucks posts 7.2% global Q4 comparable sales growth and sharply higher margins as its 'Back to Starbucks' plan drives FY2026 recovery.",
+    "priority": "high",
+    "priority_reason": "Full-year and Q4 results with margin expansion, strong comps and new FY2027 guidance.",
+    "figures": [
+      {
+        "metric": "Consolidated net revenues",
+        "current": "$9.1bn",
+        "prior": "not stated",
+        "change": "-4%",
+        "basis": "reported",
+        "note": "Q4 FY26, reflects China transaction"
+      },
+      {
+        "metric": "Global comparable coffeehouse sales",
+        "current": "+7.2%",
+        "prior": "not stated",
+        "change": "+7.2%",
+        "basis": "ex-FX, ex-Siren Retail",
+        "note": "Q4 FY26"
+      },
+      {
+        "metric": "GAAP operating margin",
+        "current": "10.8%",
+        "prior": "not stated",
+        "change": "+790bps",
+        "basis": "GAAP",
+        "note": "Q4 FY26"
+      },
+      {
+        "metric": "Non-GAAP operating margin",
+        "current": "14.0%",
+        "prior": "not stated",
+        "change": "+450bps",
+        "basis": "non-GAAP",
+        "note": "Q4 FY26"
+      },
+      {
+        "metric": "GAAP EPS",
+        "current": "$0.59",
+        "prior": "not stated",
+        "change": "+392%",
+        "basis": "GAAP",
+        "note": "Q4 FY26"
+      },
+      {
+        "metric": "Non-GAAP EPS",
+        "current": "$0.80",
+        "prior": "not stated",
+        "change": "+54%",
+        "basis": "non-GAAP",
+        "note": "Q4 FY26"
+      },
+      {
+        "metric": "North America net revenues",
+        "current": "$7.3bn",
+        "prior": "not stated",
+        "change": "+6%",
+        "basis": "reported",
+        "note": "Q4 FY26; comps +7.9%"
+      },
+      {
+        "metric": "North America operating income",
+        "current": "$898.4m",
+        "prior": "$308.5m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "Q4 FY26; margin 12.3% vs 4.5%"
+      },
+      {
+        "metric": "International net revenues",
+        "current": "$1.3bn",
+        "prior": "not stated",
+        "change": "-37%",
+        "basis": "reported",
+        "note": "Q4 FY26; China JV conversion"
+      },
+      {
+        "metric": "International operating income",
+        "current": "$256.9m",
+        "prior": "$223.2m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "Q4 FY26; margin 19.7% vs 10.8%"
+      },
+      {
+        "metric": "Channel Development net revenues",
+        "current": "$494.4m",
+        "prior": "not stated",
+        "change": "-9%",
+        "basis": "reported",
+        "note": "Q4 FY26"
+      },
+      {
+        "metric": "Channel Development operating income",
+        "current": "$264.3m",
+        "prior": "$265.2m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "Q4 FY26; margin 53.5% vs 48.9%"
+      }
+    ],
+    "guidance": {
+      "status": "new",
+      "previous": "",
+      "current": "Full-year FY2027 guidance introduced on a 53-week basis (except comparable sales growth metrics, which are relative to the 52-week FY2026); specific numeric targets not printed in this release.",
+      "commentary": "Starbucks introduced its first FY2027 outlook alongside these results but the release does not print the numeric guidance figures. Management flagged FY2027 is a 53-week year, with the extra week landing in Q4, and that year-over-year comparisons reflect China retail as company-operated for H1 FY26."
+    },
+    "explainer": "These are Starbucks' fourth-quarter and full-year results for the fiscal year ended 27 September 2026. The headline fall in revenue — consolidated net revenues down 4% to $9.1bn — is not a sign of weakening demand; it is almost entirely a consequence of the China transaction. In Q3 FY26 Starbucks converted its company-operated China stores into a licensed joint-venture model, so roughly 8,000 coffeehouses no longer book their full retail sales through Starbucks' own revenue line. Underlying trading was in fact strong: global comparable coffeehouse sales, which strip out currency moves and new/closed stores, rose 7.2%.\n\nThe profitability picture improved sharply. GAAP operating margin rose 790 basis points to 10.8% and non-GAAP (adjusted) margin rose 450 basis points to 14.0%. Much of the GAAP jump reflects far lower restructuring charges than the prior year, when the 'Back to Starbucks' plan drove heavy store-closure costs; the adjusted figure, which smooths out those one-offs, is the cleaner read on genuine operating improvement. GAAP EPS of $0.59 was up 392% partly for the same reason — the prior-year base was depressed by charges — whereas the 54% rise in non-GAAP EPS to $0.80 better reflects recurring earnings growth.\n\nOn guidance, Starbucks has introduced a FY2027 outlook for the first time, but this release does not print the actual numeric targets — those will come on the earnings call. Two technical points matter for comparability: FY2027 is a 53-week year (the extra week falls in Q4), and the year-on-year comparisons within guidance treat China retail as a company-operated business for the first half of FY2026, which affects how revenue growth will look. Alongside the outlook, management confirmed a recently increased dividend and plans to resume share buybacks in FY2027.",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/SBUX/share-news/Starbucks-Reports-Q4-and-Full-Fiscal-Year-2026-Res/99590762",
+    "related_news_url": "https://news.google.com/search?q=%22Starbucks%20Corporation%22",
+    "added_at": "2026-10-30T07:19:03.637191"
+  },
+  {
     "company": "Gaming and Leisure Properties Inc",
     "ticker": "GLPI",
     "publish_date": "30 October 2026",
