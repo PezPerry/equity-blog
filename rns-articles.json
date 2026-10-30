@@ -1,5 +1,31 @@
 [
   {
+    "company": "Experian PLC",
+    "ticker": "EXPN",
+    "publish_date": "30 October 2026",
+    "date_iso": "2026-10-30",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Kathleen DeRose</strong>, Independent Non-Executive Director and Chair of Experian's Remuneration Committee, has been appointed an independent Non-Executive Director of <strong>Jenkins Topco plc</strong> (to be renamed <strong>IG Group Holdings plc</strong>).</li><li>Appointment takes effect on the date the <strong>IG Group scheme of arrangement</strong> becomes effective.</li><li>Routine disclosure under <strong>UKLR 6.4.9R(2)</strong>, with <strong>no impact</strong> on Experian's trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Experian non-executive director Kathleen DeRose appointed to the board of Jenkins Topco plc (to be renamed IG Group Holdings plc), effective when IG's scheme of arrangement completes.",
+    "priority": "low",
+    "priority_reason": "Routine UKLR 6.4.9R external-directorship disclosure with no impact on Experian's trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/experian--expn/director-declaration/9850428",
+    "related_news_url": "https://news.google.com/search?q=%22Experian%22",
+    "added_at": "2026-10-30T09:35:36.003084"
+  },
+  {
     "company": "IG Group Holdings PLC",
     "ticker": "IGG",
     "publish_date": "30 October 2026",
