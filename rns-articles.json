@@ -1,5 +1,136 @@
 [
   {
+    "company": "NatWest Group PLC",
+    "ticker": "NWG",
+    "publish_date": "30 October 2026",
+    "date_iso": "2026-10-30",
+    "time_period": "Q3 2026 (quarter to 30 September 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "Q3 2026 (quarter to 30 September 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Q3 2026</strong> attributable profit of <strong>£1.5bn</strong> and Return on Tangible Equity of <strong>21.6%</strong> (Q3 2025: <strong>22.3%</strong>); EPS <strong>19.3p</strong> (Q3 2025: <strong>19.8p</strong>).</li><li>Total income <strong>£4,640m</strong>, up <strong>7.1%</strong> on Q3 2025 and <strong>3.0%</strong> on Q2 2026; net interest margin up <strong>1bp</strong> to <strong>2.50%</strong>.</li><li>Operating profit before tax <strong>£2,225m</strong> (Q3 2025: <strong>£2,183m</strong>, +1.9%); impairment losses rose to <strong>£277m</strong> from <strong>£153m</strong>, loan impairment rate <strong>21bps</strong> year to date.</li><li><strong>CET1 ratio</strong> up <strong>30bps</strong> to <strong>13.5%</strong>; <strong>£1.8bn</strong> of RWA management actions drove capital generation of <strong>71bps</strong> pre-distributions; customer assets and liabilities <strong>£1,002.6bn</strong>, up <strong>1.6%</strong> in the quarter.</li><li>Outlook reaffirmed from <strong>H1 2026</strong> results, with the refinement that <strong>RWAs</strong> are now expected to be around <strong>£210bn</strong> on <strong>1 January 2027</strong> including Basel 3.1.</li><li>Chief Executive <strong>Paul Thwaite</strong> cited broad-based growth across lending, deposits and assets under management; nine-month RoTE <strong>20.2%</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "NatWest posted Q3 2026 attributable profit of £1.5bn and a 21.6% return on tangible equity, reaffirming its H1 outlook.",
+    "priority": "high",
+    "priority_reason": "Quarterly results from a major UK bank, including profit, returns, capital and a reaffirmed/refined outlook.",
+    "figures": [
+      {
+        "metric": "Total income",
+        "current": "£4,640m",
+        "prior": "£4,332m",
+        "change": "+7.1%",
+        "basis": "reported",
+        "note": "Q3 2026 vs Q3 2025"
+      },
+      {
+        "metric": "Operating profit before tax",
+        "current": "£2,225m",
+        "prior": "£2,183m",
+        "change": "+1.9%",
+        "basis": "reported",
+        "note": "Q3 2026 vs Q3 2025"
+      },
+      {
+        "metric": "Profit attributable to ordinary shareholders",
+        "current": "£1,532m",
+        "prior": "£1,598m",
+        "change": "-4.1%",
+        "basis": "reported",
+        "note": "Q3 2026 vs Q3 2025"
+      },
+      {
+        "metric": "EPS (basic)",
+        "current": "19.3p",
+        "prior": "19.8p",
+        "change": "-0.5p",
+        "basis": "reported",
+        "note": "Q3 2026 vs Q3 2025"
+      },
+      {
+        "metric": "Return on Tangible Equity",
+        "current": "21.6%",
+        "prior": "22.3%",
+        "change": "-0.7pp",
+        "basis": "quarter",
+        "note": "Q3 2026 vs Q3 2025"
+      },
+      {
+        "metric": "Net interest margin",
+        "current": "2.50%",
+        "prior": "2.37%",
+        "change": "+13bps",
+        "basis": "quarter",
+        "note": "Q3 2026 vs Q3 2025"
+      },
+      {
+        "metric": "Impairment losses",
+        "current": "£277m",
+        "prior": "£153m",
+        "change": "+81.0%",
+        "basis": "reported",
+        "note": "Q3 2026 vs Q3 2025"
+      },
+      {
+        "metric": "CET1 ratio",
+        "current": "13.5%",
+        "prior": "13.2%",
+        "change": "+30bps",
+        "basis": "reported",
+        "note": "30 Sep 2026 vs 30 Jun 2026"
+      },
+      {
+        "metric": "Customer assets and liabilities (CAL)",
+        "current": "£1,002.6bn",
+        "prior": "£986.9bn",
+        "change": "+1.6%",
+        "basis": "reported",
+        "note": "30 Sep 2026 vs 30 Jun 2026; includes Evelyn Partners"
+      },
+      {
+        "metric": "Total income (9 months)",
+        "current": "£13,502m",
+        "prior": "£12,317m",
+        "change": "+9.6%",
+        "basis": "reported",
+        "note": "9M to 30 Sep 2026 vs 2025"
+      },
+      {
+        "metric": "Operating profit before tax (9 months)",
+        "current": "£6,543m",
+        "prior": "£5,768m",
+        "change": "+13.4%",
+        "basis": "reported",
+        "note": "9M to 30 Sep 2026 vs 2025"
+      },
+      {
+        "metric": "EPS basic (9 months)",
+        "current": "57.4p",
+        "prior": "50.7p",
+        "change": "+6.7p",
+        "basis": "reported",
+        "note": "9M to 30 Sep 2026 vs 2025"
+      },
+      {
+        "metric": "RoTE (9 months)",
+        "current": "20.2%",
+        "prior": "19.5%",
+        "change": "+0.7pp",
+        "basis": "year to date",
+        "note": "9M to 30 Sep 2026 vs 2025"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Outlook provided in the H1 2026 results",
+      "current": "Reaffirmed H1 2026 outlook, with the enhancement that RWAs are now expected to be around £210 billion on 1 January 2027 including the impact of Basel 3.1",
+      "commentary": "NatWest reaffirmed its existing full-year targets and outlook, adding only a refined expectation for risk-weighted assets of around £210bn at 1 January 2027 once Basel 3.1 takes effect. It now also assumes the Bank of England base rate rises 25bps to 4% in Q4 2026."
+    },
+    "explainer": "This is a third-quarter trading statement rather than a full set of accounts. The main comparatives are the same quarter a year earlier (Q3 2025) and the prior quarter (Q2 2026). Income and returns remain strong: quarterly income rose 7.1% year on year, helped by the acquisition of Evelyn Partners, deposit margin expansion and an extra calendar day in the quarter. Net interest margin, the gap between what the bank earns on lending and pays on deposits, edged up to 2.50%.\n\nHeadline attributable profit of £1.5bn was slightly lower than both Q3 2025 and Q2 2026, mainly because impairment charges (money set aside for loans that may go bad) jumped to £277m from £153m a year earlier. The loan impairment rate of 21bps year to date still points to a resilient book rather than stress; the quarterly rise partly reflects timing within provisions.\n\nOn capital, the CET1 ratio — a measure of balance-sheet strength — rose 30bps to 13.5%, aided by £1.8bn of risk-weighted-asset management actions that free up capacity for growth and shareholder distributions. Customer assets and liabilities passed £1 trillion, boosted by the inclusion of Evelyn Partners' assets under management.\n\nGuidance is essentially unchanged: NatWest reaffirmed the targets set at its H1 2026 results. The only new detail is a sharper estimate that risk-weighted assets will be around £210bn at the start of 2027 once the Basel 3.1 capital rules apply, and an assumption that UK base rates rise to 4% in Q4.",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/natwest-group--nwg/natwest-group-q3-2026-interim-management-statement/9849208",
+    "related_news_url": "https://news.google.com/search?q=%22NATWEST%20GROUP%22",
+    "added_at": "2026-10-30T07:38:13.253718"
+  },
+  {
     "company": "Savannah Energy PLC",
     "ticker": "SAVE",
     "publish_date": "30 October 2026",
