@@ -422,6 +422,57 @@
     "added_at": "2026-10-30T07:17:38.488386"
   },
   {
+    "company": "Amazon.com Inc",
+    "ticker": "AMZN",
+    "publish_date": "29 October 2026",
+    "date_iso": "2026-10-29",
+    "time_period": "Q3 2026 (quarter ended 30 September 2026)",
+    "announcement_type": "Quarterly results",
+    "period_detail": "Q3 2026 (quarter ended 30 September 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Operating income</strong> of <strong>$28.1bn</strong> and <strong>operating margin</strong> of <strong>13.9%</strong> — described as <strong>Amazon's highest operating margin ever</strong>.</li><li><strong>AWS</strong> net sales up <strong>39.3%</strong> year-on-year — its fastest growth in nearly five years — reaching a <strong>$184bn</strong> annualised revenue run rate.</li><li>CEO <strong>Andy Jassy</strong> flagged projected <strong>AWS</strong> revenue growth of <strong>over 40%</strong> in both <strong>2027</strong> and <strong>2028</strong>, citing returns on functionality and infrastructure investment.</li><li>Newer businesses — <strong>Grocery</strong>, <strong>Pharmacy</strong>, <strong>Amazon Leo</strong> and <strong>Zoox</strong> — said to be progressing; Jassy suggested Amazon could have two trillion-dollar revenue businesses within 5–10 years.</li><li>Company-specific Q4 revenue/operating income guidance figures are <strong>not reproduced</strong> in the scraped text, which carries only the forward-looking risk-factor language.</li></ul>",
+    "source_format": "html",
+    "headline": "Amazon posts record operating income of **$28.1bn** (margin **13.9%**) in Q3 2026 as **AWS** net sales accelerate **39.3%** to a **$184bn** annualised run rate.",
+    "priority": "high",
+    "priority_reason": "Quarterly results from a mega-cap with a record operating margin and sharply accelerating AWS growth.",
+    "figures": [
+      {
+        "metric": "AWS net sales",
+        "current": "$184bn annualised run rate",
+        "prior": "not stated",
+        "change": "+39.3% Y/Y",
+        "basis": "not stated",
+        "note": "Q3 2026; fastest growth in nearly five years"
+      },
+      {
+        "metric": "Operating income",
+        "current": "$28.1bn",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "not stated",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "Operating margin",
+        "current": "13.9%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "not stated",
+        "note": "stated as highest ever"
+      }
+    ],
+    "guidance": {
+      "status": "new",
+      "previous": "not stated in text",
+      "current": "CEO projects AWS revenue growth of over 40% in both 2027 and 2028",
+      "commentary": "No formal company-wide Q4 revenue or operating-income guidance figures appear in the scraped text — only the standard forward-looking risk-factor language. The only forward quantification is the CEO's projection of AWS growth above 40% in 2027 and 2028."
+    },
+    "explainer": "Amazon's Q3 2026 headline is operational quality rather than a single revenue number: a 13.9% operating margin is the highest the group has reported, meaning more of each dollar of sales is dropping through to profit. The announcement does not print the prior-year comparatives for operating income or margin, so the exact year-on-year improvement cannot be stated from this text.\n\nThe standout is AWS. A 39.3% year-on-year increase takes the cloud division to a $184bn annualised revenue run rate (i.e. the latest quarter's sales multiplied up to a full-year pace, not an actual twelve-month figure). This is framed as the fastest AWS growth in almost five years, and is attributed to demand for its infrastructure and functionality — largely AI-related compute.\n\nOn guidance, the scraped text contains the 'Financial Guidance' heading but only the accompanying risk-factor caveats, not the quantified Q4 outlook that normally sits there. The sole forward number is qualitative management commentary: CEO Andy Jassy expects AWS revenue to grow more than 40% in both 2027 and 2028. Treat that as directional guidance on the cloud unit rather than formal group guidance.",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/AMZN/share-news/Amazon-com-Announces-Third-Quarter-Results/99590560",
+    "related_news_url": "https://news.google.com/search?q=%22Amazon.com%2C%20Inc.%22",
+    "added_at": "2026-10-30T07:20:51.536337"
+  },
+  {
     "company": "Universal Logistics Holdings Inc",
     "ticker": "ULH",
     "publish_date": "29 October 2026",
