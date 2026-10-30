@@ -1,5 +1,72 @@
 [
   {
+    "company": "AstraZeneca PLC",
+    "ticker": "AZN",
+    "publish_date": "30 October 2026",
+    "date_iso": "2026-10-30",
+    "time_period": "Q3 and 9M 2026",
+    "announcement_type": "Interim results",
+    "period_detail": "Q3 and 9M 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Total revenue up 7%</strong> and <strong>Core EPS up 14%</strong> (constant currency) in the nine months, with Oncology, R&I and Rare Disease offsetting <strong>Farxiga</strong> and <strong>Brilinta</strong> loss of exclusivity and China volume-based procurement.</li><li><strong>Core Operating profit up 14%</strong>; <strong>Core R&D</strong> ran at 22% of total revenue in Q3 (23% for 9M) and <strong>Core SG&A</strong> at 24% (25% for 9M).</li><li>FY 2026 guidance <strong>reconfirmed</strong> at CER: total revenue up a <strong>mid-to-high single-digit</strong> percentage, Core EPS up a <strong>low double-digit</strong> percentage, Core tax rate <strong>18-22%</strong>.</li><li>Completed a <strong>$2bn</strong> equity investment in <strong>Summit Therapeutics</strong> (~12.0% of shares) alongside a clinical collaboration on sonesitatug vedotin plus Summit's ivonescimab.</li><li>Launched the <strong>Reshaping for Sustainable Growth (RSG)</strong> programme: up to <strong>$2.0bn</strong> one-time restructuring costs for <strong>$1.5bn</strong> annualised pre-tax run-rate benefits by end-2029, reinvested into the pipeline.</li><li><strong>12 positive Phase III</strong> readouts year-to-date and <strong>four new medicine</strong> first approvals; signed an AI drug-discovery deal with <strong>insitro</strong> ($40m upfront, up to ~$1.46bn in milestones).</li></ul>",
+    "source_format": "html",
+    "headline": "AstraZeneca reports Q3 total revenue up 7% and Core EPS up 14% at constant currency, and reconfirms its FY 2026 guidance.",
+    "priority": "high",
+    "priority_reason": "Q3 results from a FTSE 100 heavyweight with full-year guidance reconfirmed, a $2bn Summit investment and a new restructuring programme.",
+    "figures": [
+      {
+        "metric": "Total Revenue",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+7%",
+        "basis": "constant exchange rates",
+        "note": "9M 2026"
+      },
+      {
+        "metric": "Core EPS",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+14%",
+        "basis": "constant exchange rates",
+        "note": "9M 2026"
+      },
+      {
+        "metric": "Core Operating profit",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+14%",
+        "basis": "constant exchange rates",
+        "note": "9M 2026"
+      },
+      {
+        "metric": "Enhertu combined sales (AZ + Daiichi Sankyo)",
+        "current": "$4,675m",
+        "prior": "$3,575m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "9M 2026 vs 9M 2025"
+      },
+      {
+        "metric": "Tezspire combined sales (AZ + Amgen)",
+        "current": "$1,876m",
+        "prior": "$1,321m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "9M 2026 vs 9M 2025"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Total Revenue to increase by a mid-to-high single-digit percentage; Core EPS to increase by a low double-digit percentage; Core Tax rate 18-22% (all at CER, FY 2026)",
+      "current": "Total Revenue to increase by a mid-to-high single-digit percentage; Core EPS to increase by a low double-digit percentage; Core Tax rate 18-22% (all at CER, FY 2026)",
+      "commentary": "AstraZeneca reconfirmed its FY 2026 guidance unchanged. On September 2026 average FX rates, total revenue would see a low single-digit positive currency benefit and Core EPS growth would be broadly similar to the CER figure."
+    },
+    "explainer": "AstraZeneca reports growth at constant exchange rates (CER), which strips out currency movements to show the underlying trading performance. On that basis nine-month total revenue rose 7% and Core EPS rose 14%, with growth in Oncology, Respiratory & Immunology and Rare Disease more than offsetting the loss of US patent protection on Farxiga and Brilinta and China's volume-based procurement scheme, which forces price cuts.\n\n'Core' figures exclude certain items such as intangible amortisation and restructuring, and are the numbers AstraZeneca guides against. The guidance is unchanged: mid-to-high single-digit revenue growth and low double-digit Core EPS growth for the full year. Management also noted that if current (September 2026) exchange rates held, reported revenue would get a small currency tailwind, but the CER growth outlook is reaffirmed.\n\nTwo items sit outside the ordinary results. The newly launched RSG programme will incur up to $2.0bn of one-off restructuring charges to generate $1.5bn of annual savings by end-2029, which will be reinvested in the pipeline rather than dropping to profit. Separately, the $2bn Summit Therapeutics stake and collaboration are strategic R&D commitments, not part of the trading result.",
+    "source_url": "https://uk.advfn.com/stock-market/london/astrazeneca-AZN/share-news/AstraZeneca-PLC-3rd-Quarter-Results/99592721",
+    "related_news_url": "https://news.google.com/search?q=%22AstraZeneca%20PLC%22",
+    "added_at": "2026-10-30T08:01:20.556497"
+  },
+  {
     "company": "BP PLC",
     "ticker": "BP.",
     "publish_date": "30 October 2026",
