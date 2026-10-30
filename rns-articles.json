@@ -1,5 +1,57 @@
 [
   {
+    "company": "Vodafone Group PLC",
+    "ticker": "VOD",
+    "publish_date": "30 October 2026",
+    "date_iso": "2026-10-30",
+    "time_period": "",
+    "announcement_type": "Acquisition / deal",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Societe Generale S.A.</strong> has completed the acquisition of a <strong>50%</strong> shareholding in Vodafone's German fibre joint venture <strong>OXG Glasfaser Beteiligungs-GmbH</strong> from <strong>Geodesia Holding S.à r.l.</strong></li><li>Deal secures a <strong>committed funding partner</strong> for OXG, enabling continued expansion of the fibre network in Germany while preserving strategic flexibility for Vodafone.</li><li>Follows up the earlier announcement of <strong>1 September 2026</strong>; the text states <strong>no transaction value or financial terms</strong>.</li><li>Routine completion notice — <strong>no stated impact</strong> on Vodafone trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Societe Generale has completed the acquisition of a 50% stake in Vodafone's German fibre joint venture OXG, securing a committed funding partner.",
+    "priority": "medium",
+    "priority_reason": "Completion of a 50% stake sale in Vodafone's German fibre JV secures a committed funding partner, a financing/disposal event but not materially group-moving.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/vodafone-VOD/share-news/Vodafone-Group-Plc-OXG-secures-new-shareholder-and/99592658",
+    "related_news_url": "https://news.google.com/search?q=%22Vodafone%20Group%20Plc%22",
+    "added_at": "2026-10-30T07:57:55.003699"
+  },
+  {
+    "company": "Kenmare Resources PLC",
+    "ticker": "KMR",
+    "publish_date": "30 October 2026",
+    "date_iso": "2026-10-30",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>Government of Mozambique's Council of Ministers</strong> has approved renewal of Kenmare's key rights and concessions under Moma's Implementation Agreement (IA) to <strong>2044</strong>, with changes to the economic, investment and commercial terms.</li><li>Approval, by internal resolution adopted <strong>13 October 2026</strong>, extends the authorisation period for subsidiary <strong>KMPL's</strong> mineral processing and export activities for a further <strong>20 years</strong>; official notification received <strong>29 October 2026</strong>.</li><li>Resolution also grants KMPL the right to a <strong>further 20-year extension in 2044</strong> under the legal framework in force at that time, and updates/replaces the July 2025 internal resolution disclosed on 9 March 2026.</li><li>Changes agreed to the <strong>fiscal regime</strong> plus additional commitments; terms described as striking a balance between Kenmare's interests and an increased contribution to Mozambique — specific figures not stated in the announcement.</li><li>Next steps: signing of an <strong>addendum to the IA</strong> by the Government and Kenmare, then submission to the <strong>Administrative Court of Mozambique</strong> to complete administrative procedures.</li><li><strong>Tom Hickey, Managing Director</strong>: extension provides certainty to continue investing in Moma, which has Mineral Resources to support production for over 100 years; analyst/investor webinar at <strong>9:00am UK time, 30 October 2026</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Mozambique's Council of Ministers has approved extending Kenmare's Moma processing and export rights to **2044**, with revised fiscal and commercial terms.",
+    "priority": "high",
+    "priority_reason": "Inside information confirming renewal of the core operating asset's key rights and concessions to 2044, providing long-term operating certainty for Moma.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/kenmare-resources-KMR/share-news/Update-on-Implementation-Agreement/99592612",
+    "related_news_url": "https://news.google.com/search?q=%22Kenmare%20Resources%20plc%22",
+    "added_at": "2026-10-30T07:57:54.925897"
+  },
+  {
     "company": "Tesco PLC",
     "ticker": "TSCO",
     "publish_date": "30 October 2026",
