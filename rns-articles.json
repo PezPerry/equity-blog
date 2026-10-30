@@ -1,5 +1,112 @@
 [
   {
+    "company": "Credit Acceptance Corp",
+    "ticker": "CACC",
+    "publish_date": "30 October 2026",
+    "date_iso": "2026-10-30",
+    "time_period": "Q3 2026 (three months to 30 September 2026)",
+    "announcement_type": "Quarterly results",
+    "period_detail": "Q3 2026 (three months to 30 September 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Consumer Loan unit volume +37.7%</strong> and <strong>dollar volume +51.0%</strong> in <strong>Q3 2026</strong>, with <strong>active dealers +18.8%</strong> to an all-time high and average unit volume per active dealer <strong>+15.2%</strong>.</li><li>CEO <strong>Vinayak Hegde</strong> said both <strong>economic profit</strong> and <strong>adjusted net income</strong> achieved double-digit growth, but <strong>GAAP net income fell</strong> year-on-year.</li><li>The company <strong>adjusted its methodology</strong> for forecasting future net cash flows, reducing forecasted collection rates on loans assigned <strong>2022–2026</strong> to levels now expected over their life; underperformance was most pronounced in lower scorecard bands.</li><li>Forecasted collection rates <strong>declined for loans assigned 2023–2026</strong>; spreads across the last 10 years range <strong>11.8% to 24.2%</strong> on an annual basis.</li><li><strong>2026 dealer-loan spread 20.0%</strong> (2025: <strong>19.9%</strong>); <strong>2026 purchased-loan spread 18.3%</strong> (2025: <strong>19.6%</strong>).</li><li>Net dealer loans receivable was <strong>70.0%</strong> of total net loans receivable at 30 September 2026, down from <strong>72.1%</strong> at 31 December 2025.</li><li>Note: the scraped text is partly truncated and omits headline GAAP revenue, net income and EPS figures — absolute results not available in this capture.</li></ul>",
+    "source_format": "html",
+    "headline": "Credit Acceptance posts Q3 2026 Consumer Loan unit volume up 37.7% and dollar volume up 51%, but GAAP net income fell after a forecast adjustment.",
+    "priority": "high",
+    "priority_reason": "Quarterly results with a material forecasting-methodology change that cut forecasted collection rates and reduced GAAP net income.",
+    "figures": [
+      {
+        "metric": "Consumer Loan unit volume",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+37.7%",
+        "basis": "year-on-year",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "Consumer Loan dollar volume",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+51.0%",
+        "basis": "year-on-year",
+        "note": "Q3 2026; driven by higher average advance paid"
+      },
+      {
+        "metric": "Active dealers",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+18.8%",
+        "basis": "year-on-year",
+        "note": "all-time high"
+      },
+      {
+        "metric": "Average unit volume per active dealer",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+15.2%",
+        "basis": "year-on-year",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "Dealer-loan spread (year of assignment)",
+        "current": "20.0%",
+        "prior": "19.9%",
+        "change": "not stated",
+        "basis": "annual, as % of initial balance",
+        "note": "2026 vs 2025 dealer loans at 30 Sep 2026"
+      },
+      {
+        "metric": "Purchased-loan spread (year of assignment)",
+        "current": "18.3%",
+        "prior": "19.6%",
+        "change": "not stated",
+        "basis": "annual, as % of initial balance",
+        "note": "2026 vs 2025 purchased loans at 30 Sep 2026"
+      },
+      {
+        "metric": "Net dealer loans receivable as % of total net loans receivable",
+        "current": "70.0%",
+        "prior": "72.1%",
+        "change": "not stated",
+        "basis": "GAAP",
+        "note": "30 Sep 2026 vs 31 Dec 2025"
+      },
+      {
+        "metric": "GAAP net income",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "decreased",
+        "basis": "GAAP",
+        "note": "fell year-on-year; absolute figures not printed in captured text"
+      },
+      {
+        "metric": "Adjusted net income (non-GAAP)",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "double-digit growth",
+        "basis": "non-GAAP",
+        "note": "per CEO commentary"
+      },
+      {
+        "metric": "Economic profit (non-GAAP)",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "double-digit growth",
+        "basis": "non-GAAP",
+        "note": "per CEO commentary"
+      }
+    ],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": "No formal forward guidance is issued; however, the company revised its forecasting methodology, cutting forecasted collection rates on 2022–2026 loans to levels now expected for their life, which reduced forecasted future net cash flows and GAAP net income."
+    },
+    "explainer": "Credit Acceptance buys subprime US car-loan contracts from dealers and forecasts how much cash each 'Consumer Loan' will ultimately collect. The reported numbers mix strong new-business growth with a negative revaluation of the existing book. Unit volume rose 37.7% and dollar volume 51% as more dealers signed up and average advances grew — genuine momentum in originations.\n\nThe offsetting negative is accounting-driven. The company had been seeing small but persistent quarterly underperformance on loans written between 2022 and 2026, especially weaker-credit borrowers. Rather than trimming forecasts gradually, it changed its methodology this quarter and marked those collection rates down in one step to the levels it now expects for the life of the loans. Lower forecasted collections feed straight through to lower reported earnings, which is why GAAP net income fell even as volumes surged.\n\nManagement highlights non-GAAP measures — economic profit and adjusted net income — as showing double-digit growth, because those exclude much of the forecast adjustment's timing effect. The 'spread' (forecasted collection rate minus advance rate) is the core profitability gauge: 2026 dealer-loan spreads edged up to 20.0% from 19.9%, but purchased-loan spreads fell to 18.3% from 19.6% on a higher initial advance rate.\n\nImportant caveat for traders: the scraped text is truncated and does not print the headline GAAP revenue, net income or EPS figures, so the quantitative detail here is limited to what the narrative states. Treat the absolute results as unavailable in this capture.",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/CACC/share-news/Credit-Acceptance-Announces-Third-Quarter-2026-Res/99590611",
+    "related_news_url": "https://news.google.com/search?q=%22Credit%20Acceptance%20Corporation%22",
+    "added_at": "2026-10-30T07:19:46.185569"
+  },
+  {
     "company": "Starbucks Corp",
     "ticker": "SBUX",
     "publish_date": "30 October 2026",
