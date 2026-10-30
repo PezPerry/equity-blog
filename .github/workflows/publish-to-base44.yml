@@ -168,7 +168,7 @@ jobs:
 
             HTTP_CODE=$(curl -s -o /tmp/base44_response.json -w "%{http_code}" \
               -X POST \
-              -H "api_key: ${BASE44_API_KEY}" \
+              -H "Authorization: Bearer ${BASE44_API_KEY}" \
               -H "Content-Type: application/json" \
               -d @/tmp/base44_payload.json \
               "https://perky-equity-insight-hub.base44.app/api/entities/BlogPost")
