@@ -1,5 +1,72 @@
 [
   {
+    "company": "Gaming and Leisure Properties Inc",
+    "ticker": "GLPI",
+    "publish_date": "30 October 2026",
+    "date_iso": "2026-10-30",
+    "time_period": "Q3 2026 (quarter to 30 September 2026)",
+    "announcement_type": "Quarterly results",
+    "period_detail": "Q3 2026 (quarter to 30 September 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Gaming and Leisure Properties</strong> reported record third-quarter total revenue of <strong>$435.4m</strong>, up <strong>9.5%</strong> year-on-year.</li><li>AFFO rose <strong>10.5%</strong> to <strong>$311.7m</strong>; <strong>AFFO per share</strong> up <strong>7.2%</strong> to <strong>$1.04</strong>.</li><li>Adjusted EBITDA increased <strong>13.0%</strong> to <strong>$413.9m</strong>.</li><li>Full-year 2026 AFFO guidance nudged up at the low end to <strong>$1.222bn-$1.225bn</strong> (<strong>$4.11-$4.12</strong> per diluted share), from <strong>$1.219bn-$1.225bn</strong> (<strong>$4.10-$4.12</strong>).</li><li>Q3 dividend of <strong>$0.82</strong> per share paid <strong>25 September 2026</strong>; portfolio of <strong>71</strong> gaming facilities across <strong>21</strong> states, let to tenants including <strong>PENN</strong>, <strong>Caesars</strong>, <strong>Boyd</strong> and <strong>Bally's</strong>.</li><li>CEO <strong>Peter Carlino</strong> flagged a yield of over <strong>8.5%</strong> on the current dividend, calling the share price 'significantly dislocated from its fundamentals'.</li></ul>",
+    "source_format": "html",
+    "headline": "GLPI posts record Q3 with total revenue up 9.5% to $435.4m and lifts the low end of its full-year 2026 AFFO guidance.",
+    "priority": "high",
+    "priority_reason": "Record quarterly results with an update to full-year 2026 AFFO guidance.",
+    "figures": [
+      {
+        "metric": "Total revenue",
+        "current": "$435.4m",
+        "prior": "not stated",
+        "change": "+9.5%",
+        "basis": "year-on-year",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "AFFO",
+        "current": "$311.7m",
+        "prior": "not stated",
+        "change": "+10.5%",
+        "basis": "non-GAAP",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "AFFO per share",
+        "current": "$1.04",
+        "prior": "not stated",
+        "change": "+7.2%",
+        "basis": "per diluted share and OP/LTIP units",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "Adjusted EBITDA",
+        "current": "$413.9m",
+        "prior": "not stated",
+        "change": "+13.0%",
+        "basis": "non-GAAP",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "Quarterly dividend",
+        "current": "$0.82",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "per common share",
+        "note": "paid 25 September 2026"
+      }
+    ],
+    "guidance": {
+      "status": "raised",
+      "previous": "AFFO for the year ending 31 December 2026 of between $1.219 billion and $1.225 billion, or between $4.10 and $4.12 per diluted share and OP/LTIP units",
+      "current": "AFFO for the year ending 31 December 2026 of between $1.222 billion and $1.225 billion, or between $4.11 and $4.12 per diluted share and OP/LTIP units",
+      "commentary": "The low end of the range has been lifted (by $3m, and by $0.01 of per-share AFFO) while the top end is unchanged, effectively narrowing the range upward. Management attributed the update to the current operating and competitive environment."
+    },
+    "explainer": "GLPI is a US REIT that owns casino and gaming property and leases it back to operators on long triple-net leases, so its earnings are measured mainly in REIT cash-flow terms rather than standard profit. AFFO (adjusted funds from operations) strips out property depreciation and various non-cash items to show the recurring cash the rent portfolio throws off; it is the figure the dividend is paid from and the metric management guides on. The 9.5%, 10.5% and 13.0% gains are all reported year-on-year increases on the comparable 2026 third quarter.\n\nThe guidance change is modest and technical rather than a signal of accelerating growth. Full-year 2026 AFFO guidance was already $1.219bn-$1.225bn; the company has raised only the bottom of that range to $1.222bn, lifting per-share AFFO guidance from a $4.10-$4.12 band to $4.11-$4.12. In practice this narrows uncertainty and tilts the likely outcome slightly higher, but the ceiling is unchanged.\n\nAll figures are in US dollars and based on the quarter and nine months to 30 September 2026. GLPI does not reconcile its forward AFFO guidance to GAAP net income, citing the unpredictability of items such as credit-loss provisions under US accounting rules, so the guidance should be read as a non-GAAP cash-flow estimate only.",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/GLPI/share-news/Gaming-and-Leisure-Properties-Reports-Record-Third/99591002",
+    "related_news_url": "https://news.google.com/search?q=%22Gaming%20and%20Leisure%20Properties%2C%20Inc.%22",
+    "added_at": "2026-10-30T07:18:26.297135"
+  },
+  {
     "company": "Mohawk Industries Inc",
     "ticker": "MHK",
     "publish_date": "30 October 2026",
