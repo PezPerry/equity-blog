@@ -1,5 +1,57 @@
 [
   {
+    "company": "Hiscox Ltd",
+    "ticker": "HSX",
+    "publish_date": "30 October 2026",
+    "date_iso": "2026-10-30",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>HSBC Bank plc</strong>, as Stabilising Manager, confirms <strong>no stabilisation was undertaken</strong> in relation to <strong>Hiscox Ltd</strong>'s bond offer.</li><li>Securities: <strong>GBP300,000,000 5.875% notes due 1 October 2031</strong>, issued at an offer price of <strong>99.684</strong>.</li><li>Routine post-stabilisation disclosure with <strong>no impact</strong> on trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "HSBC confirms no stabilisation was undertaken in relation to Hiscox Ltd's GBP300m 5.875% notes due 1 October 2031.",
+    "priority": "low",
+    "priority_reason": "Routine post-stabilisation notice confirming no stabilisation was undertaken; no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/hiscox-limited-di---hsx/post-stabilisation-notice/9850039",
+    "related_news_url": "https://news.google.com/search?q=%22Hiscox%20Limited%20(DI)%22",
+    "added_at": "2026-10-30T08:15:41.940388"
+  },
+  {
+    "company": "Bodycote plc",
+    "ticker": "BOY",
+    "publish_date": "30 October 2026",
+    "date_iso": "2026-10-30",
+    "time_period": "",
+    "announcement_type": "Acquisition / deal",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Veritas Capital</strong>'s Bidco has updated the financing arrangements for its recommended cash acquisition of <strong>Bodycote</strong>, following shareholder approval of the scheme at the Court and General Meetings on <strong>21 October 2026</strong>.</li><li>Equity commitment from The Veritas Capital Fund IX reduced from <strong>$1,511,097,145.51</strong> to <strong>$1,293,976,000.00</strong>, after Bidco entered a transaction-contingent FX hedge on the cash consideration.</li><li><strong>Barclays Bank PLC</strong> and <strong>HSBC Bank plc</strong> have joined as mandated lead arrangers and interim lenders alongside the original lenders (<strong>Bank of America</strong>, <strong>Deutsche Bank</strong>, <strong>UBS</strong> and <strong>Citi</strong>).</li><li>Deal structured as a Court-sanctioned scheme of arrangement under Part 26 of the Companies Act 2006; terms of the acquisition are unchanged.</li></ul>",
+    "source_format": "html",
+    "headline": "Bidco amends financing for Veritas's recommended cash acquisition of Bodycote, cutting the equity commitment and adding Barclays and HSBC as lenders.",
+    "priority": "medium",
+    "priority_reason": "Financing update on the agreed Veritas cash takeover of Bodycote; no change to deal terms or timetable.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/bodycote-BOY/share-news/Veritas-Capital-Fund-Management-Update-on-Bidcos-F/99592724",
+    "related_news_url": "https://news.google.com/search?q=%22Bodycote%20plc%22",
+    "added_at": "2026-10-30T08:15:41.907539"
+  },
+  {
     "company": "AstraZeneca PLC",
     "ticker": "AZN",
     "publish_date": "30 October 2026",
