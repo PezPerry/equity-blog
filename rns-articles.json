@@ -1,5 +1,104 @@
 [
   {
+    "company": "Mohawk Industries Inc",
+    "ticker": "MHK",
+    "publish_date": "30 October 2026",
+    "date_iso": "2026-10-30",
+    "time_period": "Q3 2026 (three months ended 3 October 2026)",
+    "announcement_type": "Quarterly results",
+    "period_detail": "Q3 2026 (three months ended 3 October 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Q3 2026 net sales $2.8bn</strong>, up approximately <strong>1%</strong> (approximately flat on an adjusted basis), with an extra shipping day adding ~1%; adjusted volumes fell ~4% on soft demand, offset by ~4% from price and mix.</li><li><strong>Net earnings $163m</strong> (5.9% of sales); <strong>adjusted EBITDA ~$353m</strong> at a <strong>12.7% margin</strong>; operating income $188m, adjusted operating income $200m (down ~$5m on lower volume and higher inflation).</li><li><strong>Diluted EPS $2.72, up ~55%</strong>; <strong>adjusted EPS $2.72, up ~2%</strong>, in line with the company's guidance assumptions.</li><li>By segment: <strong>Global Ceramic</strong> sales $1.1bn (+2%), <strong>Flooring North America</strong> $950m (+1%), <strong>Flooring Rest of the World</strong> $707m (-1%, adjusted volumes down ~10%).</li><li>Repurchased <strong>2.0m shares for $261m</strong> in the quarter; board authorised a <strong>new $500m buyback</strong> after completing the prior programme; <strong>net debt/adjusted EBITDA 0.7x</strong>; FY capex guided down to ~$445m from ~$460m.</li><li><strong>Q4 2026 adjusted EPS guided to $1.35-$1.45</strong>; management expects low single-digit adjusted net sales growth despite four fewer shipping days versus the prior year, with inflation offset by price, mix and productivity.</li></ul>",
+    "source_format": "html",
+    "headline": "Mohawk posted Q3 2026 net sales of $2.8bn, up ~1%, with diluted EPS of $2.72 and a new $500m share buyback authorised.",
+    "priority": "high",
+    "priority_reason": "Quarterly results with Q4 EPS guidance, a new $500m buyback authorisation and segment detail — all market-moving for the shares.",
+    "figures": [
+      {
+        "metric": "Net sales",
+        "current": "$2.8bn",
+        "prior": "not stated",
+        "change": "+1% (approx flat adjusted)",
+        "basis": "reported; +1% from extra shipping day",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "Net earnings",
+        "current": "$163m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "5.9% of net sales",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "Adjusted EBITDA",
+        "current": "~$353m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "12.7% margin",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "Operating income",
+        "current": "$188m",
+        "prior": "not stated",
+        "change": "+~$51m",
+        "basis": "reported",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "Adjusted operating income",
+        "current": "$200m",
+        "prior": "not stated",
+        "change": "-~$5m",
+        "basis": "adjusted",
+        "note": "Q3 2026; lower volume, higher inflation"
+      },
+      {
+        "metric": "Diluted EPS",
+        "current": "$2.72",
+        "prior": "not stated",
+        "change": "+~55%",
+        "basis": "reported",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "Adjusted EPS",
+        "current": "$2.72",
+        "prior": "not stated",
+        "change": "+~2%",
+        "basis": "adjusted",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "Free cash flow",
+        "current": "$390m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "cash from ops $471m less capex $81m",
+        "note": "Q3 2026; $626m for nine months"
+      },
+      {
+        "metric": "Net debt / adjusted EBITDA",
+        "current": "0.7x",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "leverage",
+        "note": "end Q3 2026"
+      }
+    ],
+    "guidance": {
+      "status": "new",
+      "previous": "FY capex expectation of approximately $460m",
+      "current": "Q4 2026 adjusted EPS of $1.35 to $1.45; low single-digit growth in adjusted net sales versus prior year; FY capex now ~$445m",
+      "commentary": "The company issued fresh Q4 2026 adjusted EPS guidance of $1.35-$1.45 and trimmed full-year capex guidance to ~$445m from ~$460m. Q4 faces four fewer shipping days than a year ago, with softer flooring markets expected, though inflation should be fully offset by pricing, mix and productivity; a similar dynamic is flagged for Q1 2027."
+    },
+    "explainer": "Mohawk reports both US GAAP (\"reported\") and adjusted figures. The adjusted sales measure strips out currency moves, the number of shipping days in the period and acquisitions, so it better reflects underlying demand. On that basis Q3 sales were roughly flat: an extra shipping day and price/mix gains offset a ~4% fall in volumes caused by soft end markets. Reported sales rose ~1%.\n\nThe large ~55% jump in reported diluted EPS to $2.72 flatters the picture — it reflects one-off tax benefits (a US legal-entity restructuring, Brazilian tax credits and a US tax election) plus a lower share count after buybacks. Adjusted EPS, which excludes such items, was up only ~2%, giving a truer read of operating performance.\n\nGuidance here is new rather than changed: the company set Q4 2026 adjusted EPS at $1.35-$1.45 and now expects full-year capex of ~$445m, down from ~$460m. Q4 has four fewer shipping days than the prior-year quarter, which mechanically weighs on reported sales, but management still expects low single-digit growth in adjusted net sales and to fully offset cost inflation through pricing, mix and productivity.\n\nThe separate $500m buyback authorisation replaces a now-completed programme; alongside 0.7x net leverage, it signals continued capital returns rather than a change to the earnings outlook.",
+    "source_url": "https://uk.advfn.com/stock-market/NYSE/MHK/share-news/Mohawk-Industries-Reports-Q3-2026-Results/99591021",
+    "related_news_url": "https://news.google.com/search?q=%22Mohawk%20Industries%2C%20Inc.%22",
+    "added_at": "2026-10-30T07:17:38.488386"
+  },
+  {
     "company": "Universal Logistics Holdings Inc",
     "ticker": "ULH",
     "publish_date": "29 October 2026",
