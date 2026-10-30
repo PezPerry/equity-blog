@@ -1,5 +1,31 @@
 [
   {
+    "company": "Intel Corp",
+    "ticker": "INTC",
+    "publish_date": "30 October 2026",
+    "date_iso": "2026-10-30",
+    "time_period": "Q3 2026 (quarter ended 26 September 2026)",
+    "announcement_type": "Quarterly results",
+    "period_detail": "Q3 2026 (quarter ended 26 September 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Intel Corporation</strong> reported <strong>Q3 2026</strong> results (quarter ended <strong>26 September 2026</strong>), with CFO <strong>David Zinsner</strong> stating revenue, gross margin and earnings per share all <strong>exceeded guidance</strong>.</li><li>Management flagged its <strong>strongest data-centre revenue growth in 15 years</strong>, driven by demand for its <strong>Xeon</strong> server CPU family; CEO <strong>Lip-Bu Tan</strong> said the priority is unlocking additional supply.</li><li>Company generated <strong>$5.1 billion</strong> in cash from operations during the quarter.</li><li>Guidance: Intel sees the <strong>PC slowdown continuing at least through the first half of next year (H1 2027)</strong>, while remaining optimistic on the broader portfolio and continuing to invest in capacity.</li><li>Caveat: the scraped text contains narrative and table labels only — actual headline figures for revenue, gross margin, EPS and the Q4 2026 guidance ranges were <strong>not captured</strong> in the article body, so specific numbers cannot be reported here.</li><li>Note: <strong>Altera</strong> was deconsolidated following the sale of 51% of its stock on <strong>12 September 2025</strong>, affecting year-on-year comparatives.</li></ul>",
+    "source_format": "html",
+    "headline": "Intel says Q3 2026 revenue, gross margin and EPS all exceeded guidance, with its strongest data-centre revenue growth in 15 years.",
+    "priority": "high",
+    "priority_reason": "Quarterly results from a major semiconductor company, including forward guidance for Q4 2026.",
+    "figures": [],
+    "guidance": {
+      "status": "new",
+      "previous": "not stated in captured text",
+      "current": "Q4 2026 GAAP and non-GAAP estimates provided (gross margin and EPS outlooks based on midpoint of revenue range) — specific numeric ranges not present in the captured article text; PC slowdown expected to continue at least through H1 of next year",
+      "commentary": "Intel issued routine Q4 2026 quarterly guidance alongside results, but the numeric revenue, margin and EPS ranges were not included in the scraped text. The key qualitative steer is that the PC market weakness is expected to persist through at least the first half of 2027, offset by strength in data centre / Xeon demand."
+    },
+    "explainer": "Intel reported its third-quarter 2026 results, covering the three months to 26 September 2026. Management's commentary is positive: the CFO states that revenue, gross margin and earnings per share all came in ahead of the company's own prior guidance, and that data-centre revenue grew at its fastest rate in 15 years, helped by demand for Xeon server processors. The company also generated $5.1 billion of operating cash flow in the quarter.\n\nImportantly, the scraped announcement text contains the earnings narrative and the headings of the financial tables (statements of operations, balance sheet and cash flows), but the actual reported numbers for revenue, profit, gross margin and EPS were not captured in the body supplied. For that reason no specific current-versus-prior figures can be quoted or compared here without risk of inventing them.\n\nOn comparability, note two items that distort year-on-year figures: Altera was deconsolidated after Intel sold 51% of it on 12 September 2025 (its results now sit in 'All Other'), and diluted EPS is affected by mark-to-market adjustments on CHIPS Act 'Escrowed Shares' (a $120m gain this quarter versus a $2m loss a year earlier). Intel reports both GAAP and non-GAAP measures, with non-GAAP stripping out acquisition-related amortisation, share-based compensation and restructuring charges.\n\nOn guidance: Intel provided a Q4 2026 outlook, but the numeric ranges are not in the captured text. The clearest forward steer is management's warning that the PC slowdown will continue at least through the first half of 2027, partly offset by strength in the data-centre business.",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/INTC/share-news/Intel-Reports-Third-Quarter-2026-Financial-Results/99590569",
+    "related_news_url": "https://news.google.com/search?q=%22Intel%20Corporation%22",
+    "added_at": "2026-10-30T07:20:18.795301"
+  },
+  {
     "company": "Credit Acceptance Corp",
     "ticker": "CACC",
     "publish_date": "30 October 2026",
