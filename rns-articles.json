@@ -1,5 +1,31 @@
 [
   {
+    "company": "Prudential PLC",
+    "ticker": "PRU",
+    "publish_date": "30 October 2026",
+    "date_iso": "2026-10-30",
+    "time_period": "",
+    "announcement_type": "Debt issuance",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Prudential Funding (Asia) plc</strong> has published final terms for an issue of <strong>USD 850,000,000 6.875%</strong> subordinated notes due <strong>3 November 2036</strong>.</li><li>Issued under the issuer's existing <strong>$10bn Medium Term Note Programme</strong>; to be submitted to the National Storage Mechanism.</li><li>Routine debt capital markets disclosure with <strong>no impact</strong> on trading or guidance; notes are not offered or sold in the United States.</li></ul>",
+    "source_format": "html",
+    "headline": "Prudential's subsidiary Prudential Funding (Asia) plc publishes final terms for USD 850m 6.875% subordinated notes due 3 November 2036.",
+    "priority": "low",
+    "priority_reason": "Routine publication of final terms for a bond issue under an existing medium-term note programme, with no trading or guidance impact.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/prudential--pru/final-terms-usd-850-000-000-subordinated-notes/9850963",
+    "related_news_url": "https://news.google.com/search?q=%22Prudential%22",
+    "added_at": "2026-10-30T12:35:38.897253"
+  },
+  {
     "company": "London Stock Exchange Group plc",
     "ticker": "LSEG",
     "publish_date": "30 October 2026",
