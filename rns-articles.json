@@ -1,5 +1,146 @@
 [
   {
+    "company": "Tribal Group PLC",
+    "ticker": "TRB",
+    "publish_date": "30 October 2026",
+    "date_iso": "2026-10-30",
+    "time_period": "",
+    "announcement_type": "Acquisition / deal",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>NSIA Condition</strong> satisfied, meaning all conditions to the <strong>Proposed Sale</strong> are now met; completion anticipated <strong>during November 2026</strong>.</li><li>Follows <strong>Shareholder approval</strong> at the General Meeting on <strong>26 October 2026</strong>.</li><li>Company intends to proceed swiftly to <strong>Cancellation</strong> (delisting) after completion.</li><li><strong>Net Cash Proceeds</strong> to be returned to shareholders as soon as reasonably practicable via a <strong>members' voluntary (solvent) liquidation</strong>.</li><li>Further announcements to follow upon completion.</li></ul>",
+    "source_format": "html",
+    "headline": "Tribal confirms the NSIA condition for its proposed sale is satisfied, with completion now expected during November 2026.",
+    "priority": "medium",
+    "priority_reason": "Final regulatory condition for the already-approved disposal is satisfied, clearing the path to completion, cancellation and return of cash to shareholders.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/tribal-TRB/share-news/Tribal-Group-PLC-NSIA-Condition-Satisfied-and-Upda/99592701",
+    "related_news_url": "https://news.google.com/search?q=%22Tribal%20Group%20PLC%22",
+    "added_at": "2026-10-30T07:59:15.519837"
+  },
+  {
+    "company": "Airtel Africa PLC",
+    "ticker": "AAF",
+    "publish_date": "30 October 2026",
+    "date_iso": "2026-10-30",
+    "time_period": "H1 FY27 (half year ended 30 September 2026)",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 FY27 (half year ended 30 September 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Profit after tax</strong> rose to <strong>$452m</strong> for the half year to <strong>30 September 2026</strong>, from <strong>$376m</strong> a year earlier; <strong>profit before tax</strong> was <strong>$814m</strong> versus <strong>$656m</strong>.</li><li><strong>Operating profit</strong> in reported currency up <strong>34.2%</strong> to <strong>$1,286m</strong>, driven by <strong>underlying EBITDA</strong> growth of <strong>32.8%</strong>; a record underlying EBITDA margin of <strong>50.4%</strong> in <strong>Q2'27</strong>.</li><li><strong>Basic EPS</strong> of <strong>10.2 cents</strong> (prior <strong>8.3 cents</strong>); EPS before exceptional items <strong>11.7 cents</strong> versus <strong>8.3 cents</strong>. Interim dividend declared at <strong>3.1 cents</strong>, payable <strong>11 December 2026</strong>.</li><li><strong>Net cash from operations</strong> of <strong>$1,759m</strong>, up <strong>26.7%</strong>; capex stepped up to <strong>$657m</strong> (from <strong>$318m</strong>) as the Group accelerates network investment. Leverage improved to <strong>1.6x</strong> from <strong>2.1x</strong>.</li><li><strong>Airtel Money</strong> listed on the <strong>London Stock Exchange</strong> on <strong>14 October 2026</strong> (post balance-sheet); Airtel Africa sold no shares and retained <strong>77.85%</strong>. First buyback tranche returned <strong>$108.7m</strong> via <strong>24.5 million</strong> shares.</li><li>Total customer growth <strong>11.6%</strong>; smartphones on network now over <strong>100 million</strong>. Chair succession completed with <strong>Gopal Vittal</strong> replacing <strong>Sunil Bharti Mittal</strong> at the July AGM.</li></ul>",
+    "source_format": "html",
+    "headline": "Airtel Africa posts H1 profit after tax of **$452m** (up from **$376m**), lifts the interim dividend to **3.1 cents** and retains a **77.85%** stake in newly-listed Airtel Money.",
+    "priority": "high",
+    "priority_reason": "Half-year results from a FTSE-listed telco, with profit growth, a dividend and major corporate activity including the Airtel Money IPO.",
+    "figures": [
+      {
+        "metric": "Operating profit (reported)",
+        "current": "$1,286m",
+        "prior": "not stated",
+        "change": "+34.2%",
+        "basis": "reported currency",
+        "note": "H1 to 30 September 2026"
+      },
+      {
+        "metric": "Underlying EBITDA growth",
+        "current": "+32.8%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "reported currency",
+        "note": "margin 50.4% in Q2'27"
+      },
+      {
+        "metric": "Profit before tax",
+        "current": "$814m",
+        "prior": "$656m",
+        "change": "not stated",
+        "basis": "",
+        "note": "H1 to 30 September 2026"
+      },
+      {
+        "metric": "Profit after tax",
+        "current": "$452m",
+        "prior": "$376m",
+        "change": "not stated",
+        "basis": "",
+        "note": "H1 to 30 September 2026"
+      },
+      {
+        "metric": "Basic EPS",
+        "current": "10.2 cents",
+        "prior": "8.3 cents",
+        "change": "not stated",
+        "basis": "",
+        "note": ""
+      },
+      {
+        "metric": "EPS before exceptional items",
+        "current": "11.7 cents",
+        "prior": "8.3 cents",
+        "change": "not stated",
+        "basis": "",
+        "note": ""
+      },
+      {
+        "metric": "Net cash from operating activities",
+        "current": "$1,759m",
+        "prior": "$1,388m",
+        "change": "+26.7%",
+        "basis": "",
+        "note": ""
+      },
+      {
+        "metric": "Operating free cash flow",
+        "current": "$1,264m",
+        "prior": "not stated",
+        "change": "+12.0%",
+        "basis": "",
+        "note": ""
+      },
+      {
+        "metric": "Capital expenditure",
+        "current": "$657m",
+        "prior": "$318m",
+        "change": "not stated",
+        "basis": "",
+        "note": "accelerated network deployment"
+      },
+      {
+        "metric": "Leverage (net debt to underlying EBITDA)",
+        "current": "1.6x",
+        "prior": "2.1x",
+        "change": "not stated",
+        "basis": "lease-adjusted 0.5x from 0.8x",
+        "note": ""
+      },
+      {
+        "metric": "Interim dividend",
+        "current": "3.1 cents",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "payable 11 December 2026"
+      }
+    ],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": "No formal numeric guidance issued; management flagged that margins will remain influenced by the macroeconomic environment and fuel costs, and that it is deliberately accelerating network capex."
+    },
+    "explainer": "Airtel Africa reports in US dollars, so the headline growth rates come in two flavours. Figures described as 'reported currency' (operating profit +34.2%, underlying EBITDA +32.8%) include the translation effect of African currencies into dollars; because several of the Group's currencies have been volatile, reported numbers can swing more than the underlying local-currency trading. The company stresses constant-currency and underlying measures elsewhere in its pack, but the key profit lines quoted here are reported.\n\nThe profit picture is flattered and complicated by exceptional and non-operating items. Finance costs rose to $477m from $304m, partly due to a $37m exceptional charge for an in-principle legal settlement and a sharp drop in foreign-exchange/derivative gains ($2m this period versus $90m last year). That is why the Group gives an 'EPS before exceptional items and FX gains' of 11.8 cents, which strips out these one-offs and gives a cleaner read on underlying earnings power.\n\nTwo big corporate events sit alongside the results. Airtel Money was floated on the London Stock Exchange on 14 October 2026 — after the 30 September balance-sheet date — so its effects are treated as a post balance-sheet event; Airtel Africa kept 77.85% and sold no shares. Separately, capex has roughly doubled to $657m as the Group deliberately accelerates network investment, which will weigh on free cash flow in the near term but is pitched as capturing future growth.\n\nThere is no formal numeric forward guidance in this statement. Management's forward commentary is qualitative: margins will continue to depend on the macro backdrop, particularly fuel-driven inflation, and investment is being stepped up by choice. The 3.1 cents interim dividend and the completed first buyback tranche ($108.7m) signal continued shareholder returns funded by strong cash generation and lower leverage.",
+    "source_url": "https://uk.advfn.com/stock-market/london/airtel-africa-AAF/share-news/Airtel-Africa-PLC-Half-year-Report/99592709",
+    "related_news_url": "https://news.google.com/search?q=%22Airtel%20Africa%20PLC%22",
+    "added_at": "2026-10-30T07:59:15.506265"
+  },
+  {
     "company": "Vodafone Group PLC",
     "ticker": "VOD",
     "publish_date": "30 October 2026",
