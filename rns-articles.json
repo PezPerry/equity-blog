@@ -1,5 +1,104 @@
 [
   {
+    "company": "BP PLC",
+    "ticker": "BP.",
+    "publish_date": "30 October 2026",
+    "date_iso": "2026-10-30",
+    "time_period": "Q3 FY26 (three months to 30 September 2026)",
+    "announcement_type": "Quarterly results",
+    "period_detail": "Q3 FY26 (three months to 30 September 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Underlying RC profit</strong> of <strong>$8.5bn</strong> in Q3 2026, up from <strong>$5.7bn</strong> in Q2 2026 and <strong>$2.2bn</strong> in Q3 2025, driven by significantly higher realised refining margins and a stronger gas and marketing trading result.</li><li><strong>Reported profit</strong> attributable to shareholders of <strong>$4.7bn</strong> (Q2 2026: <strong>$3.9bn</strong>; Q3 2025: <strong>$1.2bn</strong>); nine-month reported profit <strong>$12.4bn</strong> vs <strong>$3.5bn</strong>.</li><li><strong>Operating cash flow</strong> of <strong>$14.8bn</strong>, around <strong>$4.0bn</strong> higher than the prior quarter, including a <strong>$0.5bn</strong> adjusted working capital release.</li><li><strong>Net debt</strong> cut by <strong>$8.4bn</strong> to <strong>$13.9bn</strong> (Q2 2026: <strong>$22.3bn</strong>); management says it remains \"too leveraged\" and balance-sheet strengthening is its \"number one job\".</li><li>Took <strong>$4.0bn</strong> of post-tax impairments, largely on transition businesses in gas & low carbon energy; completed Gelsenkirchen refinery sale and expects imminent closure of the <strong>Castrol</strong> divestment unlocking <strong>$6bn</strong>.</li><li>Strategy and capital-frame update set for <strong>15 December</strong>; dividend per share figure not stated in the supplied text.</li></ul>",
+    "source_format": "html",
+    "headline": "BP posts Q3 2026 underlying RC profit of $8.5bn, up from $5.7bn in the prior quarter, and cuts net debt by $8.4bn to $13.9bn.",
+    "priority": "high",
+    "priority_reason": "Quarterly results from a FTSE 100 oil major, with a sharp earnings jump and a major net-debt reduction.",
+    "figures": [
+      {
+        "metric": "Underlying RC profit",
+        "current": "$8.5bn",
+        "prior": "$5.7bn",
+        "change": "+$2.7bn",
+        "basis": "vs prior quarter (Q2 2026)",
+        "note": "Q3 2026; Q3 2025 was $2.2bn"
+      },
+      {
+        "metric": "Reported profit attributable to shareholders",
+        "current": "$4.7bn",
+        "prior": "$3.9bn",
+        "change": "not stated",
+        "basis": "vs Q2 2026",
+        "note": "Q3 2025 was $1.2bn; 9M 2026 $12.4bn vs $3.5bn"
+      },
+      {
+        "metric": "Operating cash flow",
+        "current": "$14.8bn",
+        "prior": "not stated",
+        "change": "+$4.0bn",
+        "basis": "vs prior quarter",
+        "note": "9M 2026 $28.5bn"
+      },
+      {
+        "metric": "Net debt",
+        "current": "$13.9bn",
+        "prior": "$22.3bn",
+        "change": "-$8.4bn",
+        "basis": "vs end Q2 2026",
+        "note": "end Q3 2026"
+      },
+      {
+        "metric": "Underlying RC profit (9 months)",
+        "current": "$17.4bn",
+        "prior": "$5.9bn",
+        "change": "not stated",
+        "basis": "vs 9M 2025",
+        "note": "nine months to 30 September"
+      },
+      {
+        "metric": "Upstream reported production",
+        "current": "2.2mmboe/d",
+        "prior": "2.2mmboe/d",
+        "change": "flat",
+        "basis": "vs Q2 2026",
+        "note": ""
+      },
+      {
+        "metric": "Refining availability",
+        "current": "96.5%",
+        "prior": "94.7%",
+        "change": "+1.8pts",
+        "basis": "vs Q2 2026",
+        "note": ""
+      },
+      {
+        "metric": "Underlying effective tax rate",
+        "current": "28%",
+        "prior": "34%",
+        "change": "-6pts",
+        "basis": "vs Q2 2026",
+        "note": "geographical mix of profits"
+      },
+      {
+        "metric": "Dividend per ordinary share",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "line item present but figure not printed in supplied text"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Four primary financial targets set for 2027, including net debt and structural cost reduction targets",
+      "current": "Net debt and structural cost reduction targets now delivered; \"line of sight\" on the remaining two of the four 2027 targets",
+      "commentary": "BP says it has met two of its four 2027 financial targets and has visibility on the other two. Longer-term plans, a new capital frame and fresh metrics/targets will be set out at a strategy update on 15 December."
+    },
+    "explainer": "BP reports two profit numbers. \"Reported profit\" of $4.7bn is the statutory figure under IFRS. \"Underlying replacement cost (RC) profit\" of $8.5bn is BP's preferred measure: it strips out inventory holding gains (here a $1.6bn net-of-tax gain, as the value of oil in storage rose with prices) and one-off adjusting items (a $5.4bn net-of-tax charge this quarter, mostly $4.0bn of post-tax impairments on transition/low-carbon assets). The large gap between the two numbers this quarter is almost entirely those impairments.\n\nThe quarter-on-quarter jump in underlying profit (from $5.7bn to $8.5bn) was driven by much stronger refining margins and a stronger gas and oil trading result, helped by a higher-price, higher-margin environment. A lower underlying tax rate (28% vs 34%), reflecting where profits were earned, also flattered the result.\n\nThe headline balance-sheet item is net debt falling $8.4bn to $13.9bn. BP chose to direct surplus cash to debt reduction rather than extra shareholder returns, and management stresses it is still \"too leveraged\". Including hybrids, leases and Gulf of America (Deepwater Horizon) settlement liabilities, the broader debt measure fell $9.3bn in the quarter.\n\nOn guidance, there is no formal upgrade or downgrade here. BP reaffirmed its four 2027 financial targets, saying two (net debt and structural cost) are now met with \"line of sight\" on the rest. The substantive strategy and capital-allocation detail — and any change to medium-term targets — is deferred to a dedicated update on 15 December.",
+    "source_url": "https://uk.advfn.com/stock-market/london/bp-BP./share-news/BP-PLC-3Q26-BP-PLC-Part-1-of-1/99592703",
+    "related_news_url": "https://news.google.com/search?q=%22BP%20p.l.c.%22",
+    "added_at": "2026-10-30T07:59:54.096820"
+  },
+  {
     "company": "Tribal Group PLC",
     "ticker": "TRB",
     "publish_date": "30 October 2026",
