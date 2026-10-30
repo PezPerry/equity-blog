@@ -1,5 +1,96 @@
 [
   {
+    "company": "Sylvania Platinum Limited",
+    "ticker": "SLP",
+    "publish_date": "30 October 2026",
+    "date_iso": "2026-10-30",
+    "time_period": "Q1 FY2027 (three months to 30 September 2026)",
+    "announcement_type": "Quarterly results",
+    "period_detail": "Q1 FY2027 (three months to 30 September 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li>Record combined PGM production of <strong>25,971 4E ounces</strong> (31,825 6E) at the SDO and Thaba JV, up <strong>9%</strong> on Q4 FY2026's 23,868 4E ounces.</li><li>Chrome production jumped <strong>67%</strong> to <strong>29,799 tons</strong> (Q4 FY2026: 17,889 tons), aided by third-party ore, improved plant stability and higher throughput at the <strong>Thaba JV</strong>.</li><li>Net revenue up <strong>30%</strong> to <strong>$62.9m</strong>, driven by higher PGM output and a <strong>6%</strong> rise in the 4E gross basket price to <strong>$2,432/oz</strong>.</li><li>Adjusted Group EBITDA up <strong>47%</strong> to <strong>$24.7m</strong>; adjusted net profit up <strong>42%</strong> to <strong>$18.4m</strong>; cash balance up <strong>19%</strong> to <strong>$79.7m</strong>.</li><li>FY2027 guidance maintained at <strong>85,000–95,000 4E PGM ounces</strong> and <strong>110,000–140,000 tons</strong> of attributable Chrome concentrate.</li><li>Operations remained <strong>LTI-free</strong>; a share buyback programme was commenced on-market and has now completed. Thaba JV unit costs rose sharply on higher mining costs and low PGM feed grades.</li></ul>",
+    "source_format": "html",
+    "headline": "Sylvania posted record quarterly PGM output of **25,971 4E ounces** and a 30% rise in net revenue to **$62.9m** in Q1 FY2027.",
+    "priority": "high",
+    "priority_reason": "Quarterly operational and financial results from an AIM-listed producer, with record production and sharply higher revenue and earnings.",
+    "figures": [
+      {
+        "metric": "Total 4E PGM production",
+        "current": "25,971 oz",
+        "prior": "23,868 oz",
+        "change": "+9%",
+        "basis": "",
+        "note": "SDO + Thaba JV, Q1 FY2027 vs Q4 FY2026"
+      },
+      {
+        "metric": "Chrome production",
+        "current": "29,799 t",
+        "prior": "17,889 t",
+        "change": "+67%",
+        "basis": "",
+        "note": "quarter-on-quarter"
+      },
+      {
+        "metric": "Net revenue",
+        "current": "$62.9m",
+        "prior": "$48.5m",
+        "change": "+30%",
+        "basis": "USD",
+        "note": "Q1 FY2027 vs Q4 FY2026"
+      },
+      {
+        "metric": "Adjusted Group EBITDA",
+        "current": "$24.7m",
+        "prior": "$16.9m",
+        "change": "+47%",
+        "basis": "USD",
+        "note": "quarter-on-quarter"
+      },
+      {
+        "metric": "Adjusted net profit",
+        "current": "$18.4m",
+        "prior": "$12.9m",
+        "change": "+42%",
+        "basis": "USD",
+        "note": "quarter-on-quarter"
+      },
+      {
+        "metric": "Cash balance",
+        "current": "$79.7m",
+        "prior": "$67.2m",
+        "change": "+19%",
+        "basis": "excludes $1.1m restricted cash",
+        "note": "quarter-on-quarter"
+      },
+      {
+        "metric": "Average 4E gross basket price",
+        "current": "$2,432/oz",
+        "prior": "$2,299/oz",
+        "change": "+6%",
+        "basis": "USD; +4% in Rand",
+        "note": "September 2026 basket"
+      },
+      {
+        "metric": "All-in Sustaining Cost (4E)",
+        "current": "$1,378/oz",
+        "prior": "$1,278/oz",
+        "change": "+8%",
+        "basis": "USD",
+        "note": "quarter-on-quarter"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "85,000 to 95,000 4E PGM ounces and 110,000 to 140,000 tons of attributable Chrome concentrate for FY2027",
+      "current": "85,000 to 95,000 4E PGM ounces and 110,000 to 140,000 tons of attributable Chrome concentrate for FY2027",
+      "commentary": "Full-year FY2027 targets for PGM and Chrome output are unchanged after the first quarter, with the Group stating it is 'still targeting' the same ranges."
+    },
+    "explainer": "This is Sylvania's first-quarter operations report for FY2027, covering the three months to 30 September 2026. The group mines and processes platinum-group metals (PGMs) and chrome from tailings and run-of-mine ore in South Africa. It reports in US dollars because the parent is in Bermuda, but its operating subsidiaries work in South African rand, so the figures carry a currency translation effect; here the rand was broadly stable against the dollar (average rate R16.29/$ versus R16.50/$).\n\nThe quarter-on-quarter comparisons are against the preceding quarter (Q4 FY2026) rather than the same quarter a year earlier. Output set a group record, helped by stronger feed grades, higher throughput and the release of 2,360 4E ounces from work-in-progress. Revenue and earnings rose faster than volumes because the 4E basket price also improved by 6% in dollar terms.\n\nThe Thaba joint venture drove the chrome surge, but its PGM unit costs rose steeply (4E cash cost up 99%) because of higher-than-planned mining costs and low feed grades while the host mine underperforms; the group is in talks with JV partner LMC over supply terms. Note that chrome revenue actually fell 29% to $3.6m despite higher production, as chrome is recognised when product is shipped and the contract selling price dropped 14%.\n\nGuidance is unchanged: the group still expects 85,000–95,000 4E PGM ounces and 110,000–140,000 tons of attributable chrome concentrate for the full year. A share buyback was started and completed during the period.",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/sylvania-platinum-ltd-di---slp/quarterly-report-30-september-2026-/9849492",
+    "related_news_url": "https://news.google.com/search?q=%22Sylvania%20Platinum%20Ltd%20(DI)%22",
+    "added_at": "2026-10-30T07:36:13.962325"
+  },
+  {
     "company": "Intel Corp",
     "ticker": "INTC",
     "publish_date": "30 October 2026",
