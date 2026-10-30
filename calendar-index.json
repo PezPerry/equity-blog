@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-29",
+  "generated": "2026-10-30",
   "by_ticker": {
     "AAPL": {
       "date": "2026-10-31",
@@ -20,10 +20,6 @@
     "BAG": {
       "date": "2026-11-06",
       "event": "Q2 div payment"
-    },
-    "BBY": {
-      "date": "2026-10-29",
-      "event": "Q2 ex-div"
     },
     "BPT": {
       "date": "2026-11-12",
@@ -53,17 +49,13 @@
       "date": "2026-11-05",
       "event": "Q4 ex-div"
     },
-    "GLEN": {
-      "date": "2026-10-29",
-      "event": "Trading statement"
-    },
     "GRI": {
       "date": "2026-11-20",
       "event": "Annual report (Est)"
     },
     "HFG": {
-      "date": "2026-10-29",
-      "event": "Q2 ex-div"
+      "date": "2026-11-27",
+      "event": "Q2 div payment"
     },
     "HILS": {
       "date": "2026-11-26",
@@ -82,8 +74,8 @@
       "event": "Q2 div payment"
     },
     "JD.": {
-      "date": "2026-10-29",
-      "event": "Q2 ex-div"
+      "date": "2026-11-27",
+      "event": "Q2 div payment"
     },
     "JDW": {
       "date": "2026-11-19",
@@ -98,8 +90,8 @@
       "event": "Q2 div payment"
     },
     "KIE": {
-      "date": "2026-10-29",
-      "event": "Q4 ex-div"
+      "date": "2026-11-12",
+      "event": "AGM (Conf)"
     },
     "MEGP": {
       "date": "2026-10-31",
@@ -137,17 +129,9 @@
       "date": "2026-11-13",
       "event": "Special ex-div"
     },
-    "SDLF": {
-      "date": "2026-10-29",
-      "event": "Q2 div payment"
-    },
-    "STJ": {
-      "date": "2026-10-29",
-      "event": "Trading statement"
-    },
     "SUPR": {
-      "date": "2026-10-29",
-      "event": "Special ex-div"
+      "date": "2026-11-25",
+      "event": "AGM (Conf)"
     },
     "TBCG": {
       "date": "2026-11-20",

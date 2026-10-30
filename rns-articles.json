@@ -1,5 +1,96 @@
 [
   {
+    "company": "Universal Logistics Holdings Inc",
+    "ticker": "ULH",
+    "publish_date": "29 October 2026",
+    "date_iso": "2026-10-29",
+    "time_period": "Q3 2026 (quarter ended 3 October 2026)",
+    "announcement_type": "Quarterly results",
+    "period_detail": "Q3 2026 (quarter ended 3 October 2026)",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Q3 2026</strong> operating revenues of <strong>$394.0m</strong>, broadly flat versus <strong>$396.8m</strong> a year earlier; income from operations of <strong>$32.8m</strong> against a prior-year operating loss of <strong>$117.4m</strong>.</li><li>Net income of <strong>$18.1m</strong> (<strong>$0.69</strong> basic and diluted EPS) versus a net loss of <strong>$117.9m</strong> (<strong>-$4.48</strong> EPS) last year, which included <strong>$124.4m</strong> of non-cash impairment charges; adjusted operating income a year ago was <strong>$7.0m</strong>.</li><li>Adjusted EBITDA rose to <strong>$64.7m</strong> from <strong>$43.3m</strong>; operating margin <strong>8.3%</strong> versus <strong>(29.6)%</strong> (adjusted <strong>1.8%</strong> prior year).</li><li><strong>Contract Logistics</strong> revenue up <strong>2.8%</strong> to <strong>$271.9m</strong> (operating income <strong>$22.9m</strong> vs <strong>$13.7m</strong>); <strong>Intermodal</strong> returned to profit with operating income of <strong>$2.7m</strong> vs a <strong>$135.1m</strong> loss; <strong>Trucking</strong> revenue <strong>$69.0m</strong>.</li><li><strong>Debt – net</strong> cut by <strong>$119.5m</strong> from year-end to <strong>$678.1m</strong>; credit agreement leverage <strong>1.98x</strong> against a <strong>3.50x</strong> covenant; revolver extended to <strong>September 2029</strong> but reduced to <strong>$350.0m</strong>.</li><li>Board declared a quarterly cash dividend of <strong>$0.105</strong> per share, payable <strong>6 January 2027</strong> to holders of record on <strong>1 December 2026</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Universal Logistics swung to **Q3 net income of $18.1m** (EPS **$0.69**) from a year-earlier loss driven by impairments, and declared a **$0.105** dividend.",
+    "priority": "high",
+    "priority_reason": "Quarterly results with a swing back to profit and a declared dividend.",
+    "figures": [
+      {
+        "metric": "Operating revenues",
+        "current": "$394.0m",
+        "prior": "$396.8m",
+        "change": "-0.7%",
+        "basis": "reported",
+        "note": "Q3 2026 vs Q3 2025"
+      },
+      {
+        "metric": "Income from operations",
+        "current": "$32.8m",
+        "prior": "-$117.4m (operating loss)",
+        "change": "not stated",
+        "basis": "reported; prior year included $124.4m impairment",
+        "note": "Q3 2026 vs Q3 2025"
+      },
+      {
+        "metric": "Net income",
+        "current": "$18.1m",
+        "prior": "-$117.9m (net loss)",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "Q3 2026 vs Q3 2025"
+      },
+      {
+        "metric": "EPS (basic & diluted)",
+        "current": "$0.69",
+        "prior": "-$4.48",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "Q3 2026 vs Q3 2025"
+      },
+      {
+        "metric": "Operating margin",
+        "current": "8.3%",
+        "prior": "(29.6)%",
+        "change": "not stated",
+        "basis": "reported; prior-year adjusted 1.8%",
+        "note": "Q3 2026 vs Q3 2025"
+      },
+      {
+        "metric": "Adjusted EBITDA",
+        "current": "$64.7m",
+        "prior": "$43.3m",
+        "change": "+49.4%",
+        "basis": "non-GAAP",
+        "note": "Q3 2026 vs Q3 2025"
+      },
+      {
+        "metric": "Debt - net",
+        "current": "$678.1m",
+        "prior": "not stated",
+        "change": "-$119.5m from year-end",
+        "basis": "reported",
+        "note": "at 3 October 2026"
+      },
+      {
+        "metric": "Quarterly dividend",
+        "current": "$0.105 per share",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "payable 6 January 2027"
+      }
+    ],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "The headline year-on-year swing from a large loss to profit is mostly an artefact of the comparative period. In Q3 2025 Universal booked $124.4m of non-cash impairment charges, which produced the reported operating and net losses. Stripping those out, the company's adjusted operating income a year ago was only $7.0m, so the more meaningful comparison is this quarter's $32.8m of operating income against that modest adjusted base — a genuine improvement, but less dramatic than the reported figures suggest.\n\nRevenue was essentially flat ($394.0m vs $396.8m). The profit improvement came from mix and cost control: Contract Logistics (about 69% of revenue) grew and expanded margin on lower personnel and depreciation costs, while the Intermodal segment returned to a small operating profit after heavy losses. Intermodal revenue still fell 17.9% year on year as load volumes dropped 45.7%, offset by a 40.4% rise in revenue per load — the business is being run for price and profitability rather than volume.\n\nThe balance sheet is the other theme: net debt was cut by $119.5m since year-end to $678.1m, and the revolving credit facility was extended to September 2029, though headline revolver commitments were reduced from $500m to $350m. Leverage under the credit agreement is comfortable at 1.98x against a 3.50x covenant limit.\n\nNo forward financial guidance figures were given; the release contains only qualitative forward-looking statements, so there is nothing to compare against prior targets.",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/ULH/share-news/Universal-Logistics-Holdings-Inc-Reports-Third-Q/99591197",
+    "related_news_url": "https://news.google.com/search?q=%22Universal%20Logistics%20Holdings%2C%20Inc.%22",
+    "added_at": "2026-10-30T07:17:08.658368"
+  },
+  {
     "company": "Land Securities Group PLC",
     "ticker": "LAND",
     "publish_date": "29 October 2026",
