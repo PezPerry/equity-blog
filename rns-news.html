@@ -592,7 +592,30 @@ function resolveGate() {
 }
 const GATE_MODE = resolveGate();
 const JOIN_URL = 'https://equityandmarketsinsight.com/Join';
+/* Server-side lock (Paywall Phase 2, 2 Nov 2026). The public rns-articles.json now carries
+   records from the last RNS_EMBARGO_DAYS days as STUBS ("locked": true - no headline or
+   summary). A stub always renders the sign-in panel, whatever GATE_MODE says. When this page
+   sits inside the site shell, it asks the shell for the full records; the shell answers only
+   for a signed-in visitor (Base44 function rnsFeed), and the full records then replace the
+   stubs. GATE_MODE above is kept as a fallback only. */
+const SHELL_ORIGINS = ['https://equityandmarketsinsight.com', 'https://www.equityandmarketsinsight.com',
+  'https://perky-equity-insight-hub.base44.app'];
+let shellUnlocked = false;   // true once the shell has sent full records (= signed in)
+function shellTargets() {
+  // The parent's origin where the browser says (Chrome, Safari, Edge); otherwise every known
+  // shell origin - the browser drops the ones that do not match.
+  try {
+    const ao = location.ancestorOrigins;
+    if (ao && ao.length) return SHELL_ORIGINS.indexOf(ao[0]) === -1 ? [] : [ao[0]];
+  } catch (e) {}
+  return SHELL_ORIGINS;
+}
+function rnsKey(a) {
+  return [a.added_at || '', a.date_iso || '', a.ticker || '', a.company || ''].join('|');
+}
 function isEmbargoed(a) {
+  if (a && a.locked) return true;
+  if (shellUnlocked) return false;
   if (!GATE_MODE) return false;
   const cutoff = new Date();
   cutoff.setDate(cutoff.getDate() - RNS_EMBARGO_DAYS);
@@ -1252,6 +1275,44 @@ function handleDeepLink() {
   setTimeout(land, 900);
 }
 
+/* ── Full records for signed-in visitors (Paywall Phase 2) ── */
+let rawArticles = null;     // the file as loaded, stubs included
+let pendingRecent = null;   // a shell reply that arrived before the file did
+function buildArticles() {
+  allArticles = rawArticles.filter(a => {
+    if (a.locked) return !a.empty;   // stub: listed with the sign-in panel
+    const hasBody = a.body && a.body.trim().length > 0 && !/cannot summarise/i.test(a.body);
+    const hasDetails = a.details && Array.isArray(a.details) && a.details.length > 0;
+    return hasBody || hasDetails;
+  });
+  companyHistory = new Map();
+  allArticles.forEach((a, i) => {
+    a._idx = i;
+    if (!companyHistory.has(a.company)) companyHistory.set(a.company, []);
+    companyHistory.get(a.company).push(a);
+  });
+}
+function mergeRecent(records) {
+  const byKey = new Map();
+  records.forEach(r => { if (r && typeof r === 'object' && !r.locked) byKey.set(rnsKey(r), r); });
+  rawArticles = rawArticles.map(a => (a.locked && byKey.has(rnsKey(a))) ? byKey.get(rnsKey(a)) : a);
+}
+window.addEventListener('message', e => {
+  if (SHELL_ORIGINS.indexOf(e.origin) === -1 || e.source !== window.parent) return;
+  const d = e.data;
+  if (!d || d.type !== 'emi-rns-recent' || !Array.isArray(d.records)) return;
+  shellUnlocked = true;
+  if (!rawArticles) { pendingRecent = d.records; return; }
+  mergeRecent(d.records);
+  buildArticles();
+  renderArticles();
+  if (location.hash.indexOf('#item=') === 0) handleDeepLink();
+});
+if (window.parent !== window) {
+  // Nothing sensitive in the request; one post per known shell origin (others are dropped).
+  shellTargets().forEach(o => { try { window.parent.postMessage({ type: 'emi-rns-request' }, o); } catch (e) {} });
+}
+
 Promise.all([
   fetch('rns-articles.json?' + Date.now()).then(r => {
     if (!r.ok) throw new Error('HTTP ' + r.status);
@@ -1266,16 +1327,9 @@ Promise.all([
     registry = reg || {};
     analysisIndex = analysis || {};
     calendarIndex = (cal && cal.by_ticker) || {};
-    allArticles = data.filter(a => {
-      const hasBody = a.body && a.body.trim().length > 0 && !/cannot summarise/i.test(a.body);
-      const hasDetails = a.details && Array.isArray(a.details) && a.details.length > 0;
-      return hasBody || hasDetails;
-    });
-    allArticles.forEach((a, i) => {
-      a._idx = i;
-      if (!companyHistory.has(a.company)) companyHistory.set(a.company, []);
-      companyHistory.get(a.company).push(a);
-    });
+    rawArticles = Array.isArray(data) ? data : [];
+    if (pendingRecent) { mergeRecent(pendingRecent); pendingRecent = null; }
+    buildArticles();
     populateCompanyFilter();
     populateSectorFilter();
     renderArticles();

@@ -348,7 +348,30 @@ function resolveGate() {
   return gated;
 }
 const GATE_MODE = resolveGate();
+/* Server-side lock (Paywall Phase 2, 2 Nov 2026; mirrors rns-news.html). Records from the last
+   RNS_EMBARGO_DAYS days arrive in the public file as STUBS ("locked": true; "guidance_locked"
+   marks one that carries a guidance change, without saying which). A stub always shows the
+   sign-in panel. Inside the site shell the page asks for the full records, which the shell
+   sends only to a signed-in visitor; they then replace the stubs. GATE_MODE is a fallback. */
+const SHELL_ORIGINS = ['https://equityandmarketsinsight.com', 'https://www.equityandmarketsinsight.com',
+  'https://perky-equity-insight-hub.base44.app'];
+let shellUnlocked = false;
+let rawRows = null, pendingRecent = null;
+function shellTargets() {
+  // The parent's origin where the browser says (Chrome, Safari, Edge); otherwise every known
+  // shell origin - the browser drops the ones that do not match.
+  try {
+    const ao = location.ancestorOrigins;
+    if (ao && ao.length) return SHELL_ORIGINS.indexOf(ao[0]) === -1 ? [] : [ao[0]];
+  } catch (e) {}
+  return SHELL_ORIGINS;
+}
+function rnsKey(a) {
+  return [a.added_at || '', a.date_iso || '', a.ticker || '', a.company || ''].join('|');
+}
 function isEmbargoed(a) {
+  if (a && a.locked) return true;
+  if (shellUnlocked) return false;
   if (!GATE_MODE) return false;
   const cutoff = new Date();
   cutoff.setDate(cutoff.getDate() - RNS_EMBARGO_DAYS);
@@ -379,6 +402,7 @@ function statusOf(a) {
   return (a && a.guidance && typeof a.guidance === 'object') ? a.guidance.status : null;
 }
 function isRelevant(a) {
+  if (a && a.locked) return !!a.guidance_locked && !a.empty;
   return STATUS_ORDER.indexOf(statusOf(a)) !== -1;
 }
 
@@ -579,10 +603,31 @@ function renderWithData() {
 }
 
 function boot(data) {
-  const rows = Array.isArray(data) ? data : [];
-  allGuidance = rows.filter(isRelevant).sort((a, b) => recTime(b) - recTime(a));
+  rawRows = Array.isArray(data) ? data : [];
+  if (pendingRecent) { mergeRecent(pendingRecent); pendingRecent = null; }
+  allGuidance = rawRows.filter(isRelevant).sort((a, b) => recTime(b) - recTime(a));
   if (!allGuidance.length) { renderEmptyState(); return; }
   renderWithData();
+}
+
+/* ── Full records for signed-in visitors (Paywall Phase 2) ── */
+function mergeRecent(records) {
+  const byKey = new Map();
+  records.forEach(r => { if (r && typeof r === 'object' && !r.locked) byKey.set(rnsKey(r), r); });
+  rawRows = rawRows.map(a => (a.locked && byKey.has(rnsKey(a))) ? byKey.get(rnsKey(a)) : a);
+}
+window.addEventListener('message', e => {
+  if (SHELL_ORIGINS.indexOf(e.origin) === -1 || e.source !== window.parent) return;
+  const d = e.data;
+  if (!d || d.type !== 'emi-rns-recent' || !Array.isArray(d.records)) return;
+  shellUnlocked = true;
+  if (!rawRows) { pendingRecent = d.records; return; }
+  mergeRecent(d.records);
+  activeStatuses = new Set(STATUS_ORDER);   // renderWithData redraws the chips all-on
+  boot(rawRows);
+});
+if (window.parent !== window) {
+  shellTargets().forEach(o => { try { window.parent.postMessage({ type: 'emi-rns-request' }, o); } catch (e) {} });
 }
 
 fetch('rns-articles.json?' + Date.now())
