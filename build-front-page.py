@@ -95,10 +95,37 @@ def select(tiles, slots):
     return hero, chosen, dropped
 
 
+SITE = "https://equityandmarketsinsight.com"
+
+
+def branded_href(tile):
+    """The branded-site route a tile opens, never the raw Pages file.
+
+    The front page is iframed as the branded site's Home, so a relative link to
+    the article file would open the full article inside that frame and skip the
+    signed-out article meter (fixed 2 Nov 2026). Every tile therefore opens the
+    metered route at top level:
+      longreads/<stem>.html -> /LongReads/<stem>  (LongReadArticle, metered)
+      <stem>.html           -> /blog/<stem>       (BlogPost, metered)
+    The BlogPost/LongRead slug is the filename stem for every registered tile.
+    A tile whose record has a different slug (or lives on another route, e.g.
+    /TradeDetail?slug=...) can carry an explicit "href" in the registry.
+    """
+    if tile.get("href"):
+        href = tile["href"]
+        return href if href.startswith("http") else SITE + "/" + href.lstrip("/")
+    url = tile["url"]
+    stem = os.path.splitext(os.path.basename(url))[0]
+    if url.startswith("longreads/"):
+        return "%s/LongReads/%s" % (SITE, stem)
+    return "%s/blog/%s" % (SITE, stem)
+
+
 def link_target(tile):
-    """Long reads are standalone pages with their own site header, so their tiles
-    break out of the branded site's frame instead of stacking a second header inside it."""
-    return ' target="_top"' if tile["url"].startswith("longreads/") else ""
+    """Every tile breaks out of the Home iframe so the reader lands on the branded,
+    metered route with the address bar showing it."""
+    del tile
+    return ' target="_top"'
 
 
 def render_hero(tile):
@@ -125,7 +152,7 @@ def render_hero(tile):
       </div>
     </a>""".format(
         slug=esc(tile["slug"]),
-        url=esc(tile["url"]),
+        url=esc(branded_href(tile)),
         target=link_target(tile),
         cover=esc(tile["cover"]),
         alt=esc(tile["alt"]),
@@ -170,7 +197,7 @@ def render_block(tile, slot):
       </div>
     </a>""".format(
         slug=esc(tile["slug"]),
-        url=esc(tile["url"]),
+        url=esc(branded_href(tile)),
         target=link_target(tile),
         alt=esc(tile["alt"]),
         cover=esc(tile["cover"]),
