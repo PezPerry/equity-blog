@@ -9,13 +9,45 @@
       "date": "2026-11-04",
       "event": "Annual report (Est)"
     },
+    "ADBE": {
+      "date": "2026-11-30",
+      "event": "Year end"
+    },
+    "AJB": {
+      "date": "2026-12-04",
+      "event": "Annual report (Est)"
+    },
+    "ASC": {
+      "date": "2026-11-21",
+      "event": "Annual report (Est)"
+    },
     "ASHM": {
       "date": "2026-11-04",
       "event": "AGM (Conf)"
     },
+    "ATG": {
+      "date": "2026-11-26",
+      "event": "Annual report (Est)"
+    },
     "BAG": {
       "date": "2026-11-06",
       "event": "Q2 div payment"
+    },
+    "BBOX": {
+      "date": "2026-11-05",
+      "event": "Special ex-div"
+    },
+    "BBY": {
+      "date": "2026-12-04",
+      "event": "Q2 div payment"
+    },
+    "BOWL": {
+      "date": "2026-12-16",
+      "event": "Annual report (Est)"
+    },
+    "BP.": {
+      "date": "2026-11-12",
+      "event": "Q3 ex-div"
     },
     "BPT": {
       "date": "2026-11-12",
@@ -33,6 +65,10 @@
       "date": "2026-11-19",
       "event": "AGM (Conf)"
     },
+    "CPG": {
+      "date": "2026-11-25",
+      "event": "Annual report (Est)"
+    },
     "DGE": {
       "date": "2026-11-05",
       "event": "AGM (Conf)"
@@ -40,6 +76,10 @@
     "DNLM": {
       "date": "2026-11-17",
       "event": "Q4 div payment"
+    },
+    "EZJ": {
+      "date": "2026-11-25",
+      "event": "Annual report (Est)"
     },
     "GFRD": {
       "date": "2026-11-05",
@@ -65,6 +105,10 @@
       "date": "2026-11-03",
       "event": "Q2 div payment"
     },
+    "IHP": {
+      "date": "2026-12-17",
+      "event": "Annual report (Est)"
+    },
     "JD.": {
       "date": "2026-11-27",
       "event": "Q2 div payment"
@@ -85,6 +129,10 @@
       "date": "2026-11-12",
       "event": "AGM (Conf)"
     },
+    "MAB": {
+      "date": "2026-11-28",
+      "event": "Annual report (Est)"
+    },
     "MEGP": {
       "date": "2026-11-05",
       "event": "Q2 ex-div"
@@ -95,11 +143,23 @@
     },
     "MSFT": {
       "date": "2026-11-19",
-      "event": "Special ex-div"
+      "event": "Q1 ex-div"
+    },
+    "NXT": {
+      "date": "2026-12-03",
+      "event": "Q2 ex-div"
+    },
+    "OCDO": {
+      "date": "2026-11-30",
+      "event": "Year end"
     },
     "PAF": {
       "date": "2026-11-20",
       "event": "AGM (Est)"
+    },
+    "PAG": {
+      "date": "2026-12-03",
+      "event": "Annual report (Est)"
     },
     "PHP": {
       "date": "2026-11-20",
@@ -113,9 +173,21 @@
       "date": "2026-11-06",
       "event": "Q2 div payment"
     },
+    "SBRY": {
+      "date": "2026-11-12",
+      "event": "Q2 ex-div"
+    },
     "SBUX": {
       "date": "2026-11-13",
       "event": "Special ex-div"
+    },
+    "SHEL": {
+      "date": "2026-11-12",
+      "event": "Q3 ex-div"
+    },
+    "SSPG": {
+      "date": "2026-12-04",
+      "event": "Annual report (Est)"
     },
     "SUPR": {
       "date": "2026-11-25",
@@ -125,16 +197,36 @@
       "date": "2026-11-20",
       "event": "Q2 div payment"
     },
+    "THRL": {
+      "date": "2026-12-04",
+      "event": "AGM (Est)"
+    },
     "TPK": {
       "date": "2026-11-06",
+      "event": "Q2 div payment"
+    },
+    "TSCO": {
+      "date": "2026-11-20",
       "event": "Q2 div payment"
     },
     "TW.": {
       "date": "2026-11-13",
       "event": "Q2 div payment"
     },
+    "ULVR": {
+      "date": "2026-11-12",
+      "event": "Special ex-div"
+    },
+    "VCT": {
+      "date": "2026-12-02",
+      "event": "Annual report (Est)"
+    },
     "WIKS": {
       "date": "2026-11-06",
+      "event": "Q2 div payment"
+    },
+    "WTB": {
+      "date": "2026-12-04",
       "event": "Q2 div payment"
     }
   }
