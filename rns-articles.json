@@ -1,5 +1,57 @@
 [
   {
+    "company": "Grainger PLC",
+    "ticker": "GRI",
+    "publish_date": "02 November 2026",
+    "date_iso": "2026-11-02",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>Grainger plc</strong> has topped out <strong>Alloy Apartments</strong>, the second phase of <strong>The Mint</strong> at <strong>Guildford Station</strong>, a <strong>c.£75m</strong> development of <strong>179</strong> Build to Rent homes.</li><li>On track for practical completion in <strong>early 2028</strong>, with homes launching in <strong>mid-2028</strong>; forms part of Grainger's committed pipeline.</li><li>Combined with first phase <strong>Assay Apartments</strong>, the two schemes provide <strong>277 homes</strong> and over <strong>£116m</strong> of investment in Guildford; Assay ended <strong>FY26</strong> fully occupied with <strong>3.6%</strong> rental growth.</li><li>Alloy is one of three schemes in the committed pipeline expected to support the targeted <strong>35% earnings growth by FY29</strong>; delivered with partners <strong>Solum</strong>, <strong>Platform4</strong> and <strong>Kier Property</strong>.</li><li>Routine operational milestone with <strong>no impact</strong> on current trading or guidance.</li></ul>",
+    "source_format": "html",
+    "headline": "Grainger tops out Alloy Apartments, the second phase of The Mint in Guildford, delivering 179 rental homes on track for completion in early 2028.",
+    "priority": "low",
+    "priority_reason": "Routine construction milestone (topping out) on a committed pipeline scheme, with no change to financials or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/grainger-GRI/share-news/Grainger-PLC-Topping-out-of-second-Guildford-BTR-s/99603048",
+    "related_news_url": "https://news.google.com/search?q=%22Grainger%20plc%22",
+    "added_at": "2026-11-02T07:57:31.865585"
+  },
+  {
+    "company": "Endeavour Mining plc",
+    "ticker": "EDV",
+    "publish_date": "02 November 2026",
+    "date_iso": "2026-11-02",
+    "time_period": "FY 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "FY 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li>On <strong>28 October</strong> the access ramp to the depleted <strong>Wona open pit</strong> partially subsided at the <strong>Mana mine</strong> in <strong>Burkina Faso</strong>, restricting access to the <strong>Dangouna</strong> and <strong>Aviera</strong> underground portals.</li><li>Underground mining at all three active portals has been <strong>suspended</strong> pending geotechnical analysis and ramp remediation; <strong>no one was harmed</strong> and underground workers were evacuated.</li><li>Endeavour says it <strong>remains on track</strong> to achieve its <strong>FY-2026 Group production and AISC guidance</strong>.</li><li>Mitigation options under review include restart and acceleration of mining in the still-accessible <strong>Wona portal</strong> and other near-mine open pits.</li><li>Further detail on the geotechnical analysis and remediation plan to be given with <strong>Q3-2026 results on 12 November 2026</strong>.</li></ul>",
+    "source_format": "html",
+    "headline": "Endeavour suspends all underground mining at its Mana mine in Burkina Faso after an access ramp partially subsided, but maintains FY-2026 guidance.",
+    "priority": "high",
+    "priority_reason": "Operational incident has suspended all underground mining at a key West African mine, though full-year guidance is reaffirmed.",
+    "figures": [],
+    "guidance": {
+      "status": "maintained",
+      "previous": "FY-2026 Group production and AISC guidance",
+      "current": "On track to achieve FY-2026 Group production and AISC guidance",
+      "commentary": "Despite suspending all underground mining at Mana, Endeavour has reaffirmed its full-year Group production and all-in sustaining cost (AISC) guidance, indicating it does not yet expect the incident to move Group-level outcomes. No specific guidance figures were disclosed."
+    },
+    "explainer": "Endeavour is a senior gold producer with operations in Senegal, Cote d'Ivoire and Burkina Faso. The subsidence has halted underground production at Mana, one of its mines, while engineers assess the damage to the access ramp.\n\nThe key point for traders is that the company has not changed its full-year targets: it still expects to hit its 2026 Group gold production and AISC (all-in sustaining cost, the broad per-ounce cost measure) guidance. That suggests either that Mana is a small enough part of the Group, or that lost underground output can be offset by bringing forward mining at the accessible Wona portal and other open pits.\n\nNo production or cost figures were put on the incident. A fuller read on the operational and financial impact will only come with Q3-2026 results on 12 November 2026, so the quantified effect remains open until then.",
+    "source_url": "https://uk.advfn.com/stock-market/london/endeavour-mining-EDV/share-news/Endeavour-Reports-Access-Ramp-Subsidence-at-the-Ma/99602685",
+    "related_news_url": "https://news.google.com/search?q=%22Endeavour%20Mining%20plc%22",
+    "added_at": "2026-11-02T07:57:31.850046"
+  },
+  {
     "company": "Londonmetric Property PLC",
     "ticker": "LMP",
     "publish_date": "02 November 2026",
