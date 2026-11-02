@@ -1,5 +1,98 @@
 [
   {
+    "company": "Ibstock PLC",
+    "ticker": "IBST",
+    "publish_date": "02 November 2026",
+    "date_iso": "2026-11-02",
+    "time_period": "Q3 FY to 31 December 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "Q3 FY to 31 December 2026",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Profit warning</strong>: the Board now expects <strong>second-half performance materially below</strong> previous expectations, with <strong>full-year adjusted EBITDA in the mid-£40 million range</strong>.</li><li><strong>Clay division brick sales</strong> in <strong>Q3</strong> were <strong>22% below expectations</strong> as weak conditions continued through <strong>September and October</strong>; UK brick market volumes fell <strong>~17% year on year</strong> across <strong>July and August</strong>.</li><li>Production cut <strong>~20%</strong> versus half-year plans to curb inventory build; lower fixed-cost absorption expected to reduce <strong>adjusted EBITDA by ~£6m</strong>, on top of the hit from lower volumes.</li><li>Domestic brick market share held broadly flat year on year and average selling prices remained broadly in line with expectations.</li><li>Delay of the government's <strong>Your First Home</strong> support scheme to <strong>April 2027</strong> is flagged as adding near-term demand pressure, despite supporting the medium-term outlook.</li><li>Group prioritising cash generation and net debt reduction; <strong>Nostell</strong> ceramic façades factory commissioning on track to complete by year-end.</li></ul>",
+    "source_format": "html",
+    "headline": "Ibstock warns full-year adjusted EBITDA will be in the mid-£40 million range as UK brick demand slumped and Q3 clay sales came in 22% below plan.",
+    "priority": "high",
+    "priority_reason": "Profit warning: the Board now expects full-year adjusted EBITDA materially below previous expectations.",
+    "figures": [
+      {
+        "metric": "UK brick market volumes",
+        "current": "down ~17%",
+        "prior": "not stated",
+        "change": "-17%",
+        "basis": "year on year",
+        "note": "July and August, industry data"
+      },
+      {
+        "metric": "Clay division brick sales",
+        "current": "22% below expectations",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "vs internal expectations",
+        "note": "Q3"
+      },
+      {
+        "metric": "Production volumes",
+        "current": "reduced ~20%",
+        "prior": "not stated",
+        "change": "-20%",
+        "basis": "vs half-year plans",
+        "note": "Q3"
+      },
+      {
+        "metric": "Adjusted EBITDA impact (fixed-cost absorption)",
+        "current": "~£6m reduction",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "lower fixed-cost absorption",
+        "note": "in addition to lower sales volumes"
+      },
+      {
+        "metric": "Full-year adjusted EBITDA",
+        "current": "mid-£40 million range",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "FY to 31 December 2026, now expected"
+      }
+    ],
+    "guidance": {
+      "status": "lowered",
+      "previous": "Prior expectations for second-half and full-year performance (not quantified in this announcement)",
+      "current": "Second-half performance materially below previous expectations; full-year adjusted EBITDA expected in the mid-£40 million range",
+      "commentary": "Guidance has been cut after UK brick demand deteriorated sharply, with Q3 clay sales 22% below plan. The combination of lower sales and an additional ~£6m fixed-cost absorption hit from a ~20% production cut, only partly offset by cost savings, drives full-year adjusted EBITDA down to the mid-£40 million range."
+    },
+    "explainer": "This is effectively a profit warning. Ibstock makes bricks and concrete building products, so its sales track UK housebuilding activity. Industry data showed UK brick market volumes fell about 17% year on year over July and August, and conditions worsened further through September and October. As a result, the company's own clay (brick) sales in the third quarter landed 22% below what it had expected.\n\nTwo things hit profit. First, lower sales directly reduce revenue and margin. Second, to avoid building up unsold stock, Ibstock cut production by around 20% versus the plan it set out at the half year. Running factories below capacity means fixed costs are spread over fewer units — \"lower fixed-cost absorption\" — and this alone is expected to knock about £6m off adjusted EBITDA, on top of the volume shortfall. Cost and cash savings only partly offset this.\n\nOn guidance: the Board now expects second-half performance to be materially below its previous expectations, and full-year adjusted EBITDA to be in the mid-£40 million range. The announcement does not restate the prior guidance figure, so the exact size of the downgrade is not quantified here.\n\nManagement points to the government's Your First Home scheme as a positive for medium-term demand, but notes its delay until April 2027 is likely to weigh on activity in the meantime. The focus near term is on cash generation, cutting net debt, and completing the Nostell ceramic façades factory by year-end.",
+    "source_url": "https://uk.advfn.com/stock-market/london/ibstock-IBST/share-news/Ibstock-PLC-Q3-Trading-Update/99602859",
+    "related_news_url": "https://news.google.com/search?q=%22Ibstock%20plc%22",
+    "added_at": "2026-11-02T07:58:04.413856"
+  },
+  {
+    "company": "Alfa Financial Software Holdings PLC",
+    "ticker": "ALFA",
+    "publish_date": "02 November 2026",
+    "date_iso": "2026-11-02",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Matthew White</strong> to step down as <strong>Chief Operating Officer</strong> and from the <strong>Board</strong> with effect from <strong>25 March 2027</strong>, to take a planned break from executive roles.</li><li>White has been with Alfa for <strong>27 years</strong>, serving as <strong>COO since 2019</strong> and overseeing the company's transition to a <strong>SaaS</strong> business.</li><li>He will support the transition and help plan for 2027 before departing; no successor named in the announcement.</li><li>Made under <strong>UK Listing Rule 6.4.6R</strong>; no impact on current trading or guidance stated.</li></ul>",
+    "source_format": "html",
+    "headline": "Alfa COO Matthew White to step down from the role and the Board on 25 March 2027 to take a planned break from executive roles.",
+    "priority": "medium",
+    "priority_reason": "Departure of a long-serving COO and board director is a senior management change, though with a long notice period.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/alfa-financial-software-ALFA/share-news/Alfa-Financial-Software-Hldgs-PLC-Leadership-Team/99602898",
+    "related_news_url": "https://news.google.com/search?q=%22Alfa%20Financial%20Software%20Holdings%20PLC%22",
+    "added_at": "2026-11-02T07:58:04.403826"
+  },
+  {
     "company": "Grainger PLC",
     "ticker": "GRI",
     "publish_date": "02 November 2026",
