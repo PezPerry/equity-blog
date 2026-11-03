@@ -1,5 +1,32 @@
 [
   {
+    "company": "Supermarket Income Reit PLC",
+    "ticker": "SUPR",
+    "publish_date": "03 November 2026",
+    "date_iso": "2026-11-03",
+    "time_period": "",
+    "announcement_type": "Fundraising / placing",
+    "period_detail": "",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-03T08:00:09.318728",
+    "locked": true
+  },
+  {
+    "company": "Associated British Foods PLC",
+    "ticker": "ABF",
+    "publish_date": "03 November 2026",
+    "date_iso": "2026-11-03",
+    "time_period": "FY to 12 September 2026 (52 weeks)",
+    "announcement_type": "Annual results",
+    "period_detail": "FY to 12 September 2026 (52 weeks)",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-03T08:00:09.307002",
+    "locked": true,
+    "guidance_locked": true
+  },
+  {
     "company": "TP ICAP Group plc",
     "ticker": "TCAP",
     "publish_date": "03 November 2026",
