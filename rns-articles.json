@@ -1,5 +1,33 @@
 [
   {
+    "company": "Hiscox Ltd",
+    "ticker": "HSX",
+    "publish_date": "03 November 2026",
+    "date_iso": "2026-11-03",
+    "time_period": "9M to 30 September 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "9M to 30 September 2026",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-03T08:02:08.322481",
+    "locked": true,
+    "guidance_locked": true
+  },
+  {
+    "company": "Coca-Cola Europacific Partners plc",
+    "ticker": "CCEP",
+    "publish_date": "03 November 2026",
+    "date_iso": "2026-11-03",
+    "time_period": "Q3 ended 2 October 2026 (and YTD 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "Q3 ended 2 October 2026 (and YTD 2026)",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-03T08:02:08.310174",
+    "locked": true,
+    "guidance_locked": true
+  },
+  {
     "company": "International Workplace Group PLC",
     "ticker": "IWG",
     "publish_date": "03 November 2026",
