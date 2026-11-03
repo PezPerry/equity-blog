@@ -1,5 +1,31 @@
 [
   {
+    "company": "Intuitive Surgical Inc",
+    "ticker": "ISRG",
+    "publish_date": "03 November 2026",
+    "date_iso": "2026-11-03",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "priority": "medium",
+    "source_format": "html",
+    "added_at": "2026-11-03T07:17:07.489253",
+    "locked": true
+  },
+  {
+    "company": "Apple Inc",
+    "ticker": "AAPL",
+    "publish_date": "02 November 2026",
+    "date_iso": "2026-11-02",
+    "time_period": "Q4 FY26 (quarter ended 26 September 2026)",
+    "announcement_type": "Quarterly results",
+    "period_detail": "Q4 FY26 (quarter ended 26 September 2026)",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-03T07:17:07.467952",
+    "locked": true
+  },
+  {
     "company": "Interactive Brokers Group Inc",
     "ticker": "IBKR",
     "publish_date": "02 November 2026",
