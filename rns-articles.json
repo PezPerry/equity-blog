@@ -1,5 +1,18 @@
 [
   {
+    "company": "Interactive Brokers Group Inc",
+    "ticker": "IBKR",
+    "publish_date": "02 November 2026",
+    "date_iso": "2026-11-02",
+    "time_period": "October 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "October 2026",
+    "priority": "low",
+    "source_format": "html",
+    "added_at": "2026-11-03T07:16:28.062756",
+    "locked": true
+  },
+  {
     "company": "Kier Group PLC",
     "ticker": "KIE",
     "publish_date": "02 November 2026",
@@ -126,10 +139,23 @@
     "time_period": "",
     "announcement_type": "Debt issuance",
     "period_detail": "",
-    "priority": "low",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Prudential Funding (Asia) plc</strong> has published final terms for an issue of <strong>USD 850,000,000 6.875%</strong> subordinated notes due <strong>3 November 2036</strong>.</li><li>Issued under the issuer's existing <strong>$10bn Medium Term Note Programme</strong>; to be submitted to the National Storage Mechanism.</li><li>Routine debt capital markets disclosure with <strong>no impact</strong> on trading or guidance; notes are not offered or sold in the United States.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-10-30T12:35:38.897253",
-    "locked": true
+    "headline": "Prudential's subsidiary Prudential Funding (Asia) plc publishes final terms for USD 850m 6.875% subordinated notes due 3 November 2036.",
+    "priority": "low",
+    "priority_reason": "Routine publication of final terms for a bond issue under an existing medium-term note programme, with no trading or guidance impact.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/prudential--pru/final-terms-usd-850-000-000-subordinated-notes/9850963",
+    "related_news_url": "https://news.google.com/search?q=%22Prudential%22",
+    "added_at": "2026-10-30T12:35:38.897253"
   },
   {
     "company": "London Stock Exchange Group plc",
@@ -139,10 +165,23 @@
     "time_period": "",
     "announcement_type": "Board / management change",
     "period_detail": "",
-    "priority": "low",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Kathleen DeRose</strong>, a Non-Executive Director of <strong>London Stock Exchange Group plc</strong>, will join the board of <strong>Jenkins Topco plc</strong> (to be renamed <strong>IG Group Holdings plc</strong>) as a Non-Executive Director, effective when the <strong>IG Group Holdings plc</strong> scheme of arrangement becomes effective.</li><li>Routine disclosure under <strong>Listing Rule 6.4.9R(2)</strong> of an external directorship — <strong>no impact</strong> on LSEG trading or guidance.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-10-30T09:56:32.004139",
-    "locked": true
+    "headline": "LSEG non-executive director **Kathleen DeRose** to join the board of **Jenkins Topco plc** (to be renamed **IG Group Holdings plc**) as a non-executive director.",
+    "priority": "low",
+    "priority_reason": "Routine Listing Rule 6.4.9 disclosure of a NED taking an external directorship, with no impact on LSEG trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/london-stock-exchange-LSEG/share-news/London-Stock-Exchange-Group-PLC-Director-Declarati/99593950",
+    "related_news_url": "https://news.google.com/search?q=%22London%20Stock%20Exchange%20Group%20plc%22",
+    "added_at": "2026-10-30T09:56:32.004139"
   },
   {
     "company": "Halfords Group PLC",
@@ -152,10 +191,23 @@
     "time_period": "",
     "announcement_type": "Board / management change",
     "period_detail": "",
-    "priority": "medium",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Keith Down</strong> appointed independent Non-Executive Director with effect from <strong>1 November 2026</strong>, joining the Audit, Nomination, Remuneration and ESG Committees.</li><li>Down will succeed <strong>Tom Singer</strong> as <strong>Chair of the Audit Committee</strong> after a handover; Singer steps down from the Board on <strong>31 December 2026</strong>.</li><li>Down is a chartered accountant, currently a NED of <strong>Matalan Retail Limited</strong>, and former CFO of <strong>Dunelm Group plc</strong>, <strong>Go-Ahead Group plc</strong> and <strong>JD Wetherspoon plc</strong>.</li><li>Routine board change — <strong>no impact</strong> on trading or guidance; no further UKLR 6.4.6R / 6.4.8R disclosures required.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-10-30T09:56:31.966686",
-    "locked": true
+    "headline": "Halfords appoints Keith Down as independent Non-Executive Director from 1 November 2026, to succeed Tom Singer as Audit Committee Chair.",
+    "priority": "medium",
+    "priority_reason": "Board appointment and Audit Committee chair succession — a governance change with no trading or guidance impact.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/halfords-HFD/share-news/Halfords-Group-PLC-Directorate-change/99593966",
+    "related_news_url": "https://news.google.com/search?q=%22Halfords%20Group%20plc%22",
+    "added_at": "2026-10-30T09:56:31.966686"
   },
   {
     "company": "Experian PLC",
@@ -165,10 +217,23 @@
     "time_period": "",
     "announcement_type": "Board / management change",
     "period_detail": "",
-    "priority": "low",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Kathleen DeRose</strong>, Independent Non-Executive Director and Chair of Experian's Remuneration Committee, has been appointed an independent Non-Executive Director of <strong>Jenkins Topco plc</strong> (to be renamed <strong>IG Group Holdings plc</strong>).</li><li>Appointment takes effect on the date the <strong>IG Group scheme of arrangement</strong> becomes effective.</li><li>Routine disclosure under <strong>UKLR 6.4.9R(2)</strong>, with <strong>no impact</strong> on Experian's trading or guidance.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-10-30T09:35:36.003084",
-    "locked": true
+    "headline": "Experian non-executive director Kathleen DeRose appointed to the board of Jenkins Topco plc (to be renamed IG Group Holdings plc), effective when IG's scheme of arrangement completes.",
+    "priority": "low",
+    "priority_reason": "Routine UKLR 6.4.9R external-directorship disclosure with no impact on Experian's trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/experian--expn/director-declaration/9850428",
+    "related_news_url": "https://news.google.com/search?q=%22Experian%22",
+    "added_at": "2026-10-30T09:35:36.003084"
   },
   {
     "company": "IG Group Holdings PLC",
@@ -178,10 +243,23 @@
     "time_period": "",
     "announcement_type": "Board / management change",
     "period_detail": "",
-    "priority": "medium",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>IG Group Holdings plc</strong> appoints <strong>Kathleen DeRose</strong> as an independent <strong>Non-Executive Director</strong>, taking effect when the Jersey redomicile <strong>scheme of arrangement</strong> becomes effective; she will also join the <strong>Group Risk Committee</strong>.</li><li>The appointment relates to <strong>Jenkins Topco plc</strong> (to be renamed IG Group Holdings plc), the new <strong>Jersey-incorporated</strong> holding company set to become the Group's ultimate parent; approved by the IG Jersey board on <strong>29 October 2026</strong>.</li><li>DeRose brings over <strong>25 years</strong> in international asset management (Credit Suisse, Deutsche Asset Management, Scudder, Stevens & Clark) and currently chairs the Risk Committee at <strong>London Stock Exchange Group plc</strong>; she also holds roles at <strong>Voya Financial Inc.</strong> and <strong>Experian plc</strong>.</li><li>Routine UKLR 6.4.8R directorship disclosure with <strong>no impact</strong> on trading or guidance.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-10-30T09:15:40.351842",
-    "locked": true
+    "headline": "IG Group appoints Kathleen DeRose as an independent Non-Executive Director, effective once its Jersey holding company scheme of arrangement completes.",
+    "priority": "medium",
+    "priority_reason": "Non-executive board appointment — a management change with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/ig-group-holdings--igg/directorate-change/9850330",
+    "related_news_url": "https://news.google.com/search?q=%22IG%20Group%20Holdings%22",
+    "added_at": "2026-10-30T09:15:40.351842"
   },
   {
     "company": "Ithaca Energy plc",
@@ -191,10 +269,23 @@
     "time_period": "",
     "announcement_type": "Board / management change",
     "period_detail": "",
-    "priority": "low",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Deborah Gudgeon</strong>, an independent non-executive director of <strong>Ithaca Energy plc</strong>, is a director of <strong>Abenójar Tungsten, S.A.</strong>, which <strong>today</strong> completed its IPO and admission to the <strong>Main Market of the London Stock Exchange</strong>.</li><li>She has held the Abenójar directorship since <strong>29 September 2026</strong>, prior to admission.</li><li>Routine disclosure made under <strong>UK Listing Rule 6.4.9(R)</strong>, with <strong>no impact</strong> on Ithaca's trading or guidance.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-10-30T08:35:52.135034",
-    "locked": true
+    "headline": "Ithaca discloses that non-executive director Deborah Gudgeon is a director of Abenójar Tungsten, which today completed its London IPO.",
+    "priority": "low",
+    "priority_reason": "Routine UK Listing Rule 6.4.9 disclosure of a director's external directorship, with no impact on Ithaca's trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/ithaca-energy-ITH/share-news/Ithaca-Energy-PLC-Board-Declaration/99593639",
+    "related_news_url": "https://news.google.com/search?q=%22Ithaca%20Energy%20plc%22",
+    "added_at": "2026-10-30T08:35:52.135034"
   },
   {
     "company": "Hiscox Ltd",
@@ -204,10 +295,23 @@
     "time_period": "",
     "announcement_type": "Corporate update",
     "period_detail": "",
-    "priority": "low",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>HSBC Bank plc</strong>, as Stabilising Manager, confirms <strong>no stabilisation was undertaken</strong> in relation to <strong>Hiscox Ltd</strong>'s bond offer.</li><li>Securities: <strong>GBP300,000,000 5.875% notes due 1 October 2031</strong>, issued at an offer price of <strong>99.684</strong>.</li><li>Routine post-stabilisation disclosure with <strong>no impact</strong> on trading or guidance.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-10-30T08:15:41.940388",
-    "locked": true
+    "headline": "HSBC confirms no stabilisation was undertaken in relation to Hiscox Ltd's GBP300m 5.875% notes due 1 October 2031.",
+    "priority": "low",
+    "priority_reason": "Routine post-stabilisation notice confirming no stabilisation was undertaken; no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/hiscox-limited-di---hsx/post-stabilisation-notice/9850039",
+    "related_news_url": "https://news.google.com/search?q=%22Hiscox%20Limited%20(DI)%22",
+    "added_at": "2026-10-30T08:15:41.940388"
   },
   {
     "company": "Bodycote plc",
@@ -217,10 +321,23 @@
     "time_period": "",
     "announcement_type": "Acquisition / deal",
     "period_detail": "",
-    "priority": "medium",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Veritas Capital</strong>'s Bidco has updated the financing arrangements for its recommended cash acquisition of <strong>Bodycote</strong>, following shareholder approval of the scheme at the Court and General Meetings on <strong>21 October 2026</strong>.</li><li>Equity commitment from The Veritas Capital Fund IX reduced from <strong>$1,511,097,145.51</strong> to <strong>$1,293,976,000.00</strong>, after Bidco entered a transaction-contingent FX hedge on the cash consideration.</li><li><strong>Barclays Bank PLC</strong> and <strong>HSBC Bank plc</strong> have joined as mandated lead arrangers and interim lenders alongside the original lenders (<strong>Bank of America</strong>, <strong>Deutsche Bank</strong>, <strong>UBS</strong> and <strong>Citi</strong>).</li><li>Deal structured as a Court-sanctioned scheme of arrangement under Part 26 of the Companies Act 2006; terms of the acquisition are unchanged.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-10-30T08:15:41.907539",
-    "locked": true
+    "headline": "Bidco amends financing for Veritas's recommended cash acquisition of Bodycote, cutting the equity commitment and adding Barclays and HSBC as lenders.",
+    "priority": "medium",
+    "priority_reason": "Financing update on the agreed Veritas cash takeover of Bodycote; no change to deal terms or timetable.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/bodycote-BOY/share-news/Veritas-Capital-Fund-Management-Update-on-Bidcos-F/99592724",
+    "related_news_url": "https://news.google.com/search?q=%22Bodycote%20plc%22",
+    "added_at": "2026-10-30T08:15:41.907539"
   },
   {
     "company": "AstraZeneca PLC",
@@ -230,11 +347,64 @@
     "time_period": "Q3 and 9M 2026",
     "announcement_type": "Interim results",
     "period_detail": "Q3 and 9M 2026",
-    "priority": "high",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Total revenue up 7%</strong> and <strong>Core EPS up 14%</strong> (constant currency) in the nine months, with Oncology, R&I and Rare Disease offsetting <strong>Farxiga</strong> and <strong>Brilinta</strong> loss of exclusivity and China volume-based procurement.</li><li><strong>Core Operating profit up 14%</strong>; <strong>Core R&D</strong> ran at 22% of total revenue in Q3 (23% for 9M) and <strong>Core SG&A</strong> at 24% (25% for 9M).</li><li>FY 2026 guidance <strong>reconfirmed</strong> at CER: total revenue up a <strong>mid-to-high single-digit</strong> percentage, Core EPS up a <strong>low double-digit</strong> percentage, Core tax rate <strong>18-22%</strong>.</li><li>Completed a <strong>$2bn</strong> equity investment in <strong>Summit Therapeutics</strong> (~12.0% of shares) alongside a clinical collaboration on sonesitatug vedotin plus Summit's ivonescimab.</li><li>Launched the <strong>Reshaping for Sustainable Growth (RSG)</strong> programme: up to <strong>$2.0bn</strong> one-time restructuring costs for <strong>$1.5bn</strong> annualised pre-tax run-rate benefits by end-2029, reinvested into the pipeline.</li><li><strong>12 positive Phase III</strong> readouts year-to-date and <strong>four new medicine</strong> first approvals; signed an AI drug-discovery deal with <strong>insitro</strong> ($40m upfront, up to ~$1.46bn in milestones).</li></ul>",
     "source_format": "html",
-    "added_at": "2026-10-30T08:01:20.556497",
-    "locked": true,
-    "guidance_locked": true
+    "headline": "AstraZeneca reports Q3 total revenue up 7% and Core EPS up 14% at constant currency, and reconfirms its FY 2026 guidance.",
+    "priority": "high",
+    "priority_reason": "Q3 results from a FTSE 100 heavyweight with full-year guidance reconfirmed, a $2bn Summit investment and a new restructuring programme.",
+    "figures": [
+      {
+        "metric": "Total Revenue",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+7%",
+        "basis": "constant exchange rates",
+        "note": "9M 2026"
+      },
+      {
+        "metric": "Core EPS",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+14%",
+        "basis": "constant exchange rates",
+        "note": "9M 2026"
+      },
+      {
+        "metric": "Core Operating profit",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+14%",
+        "basis": "constant exchange rates",
+        "note": "9M 2026"
+      },
+      {
+        "metric": "Enhertu combined sales (AZ + Daiichi Sankyo)",
+        "current": "$4,675m",
+        "prior": "$3,575m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "9M 2026 vs 9M 2025"
+      },
+      {
+        "metric": "Tezspire combined sales (AZ + Amgen)",
+        "current": "$1,876m",
+        "prior": "$1,321m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "9M 2026 vs 9M 2025"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Total Revenue to increase by a mid-to-high single-digit percentage; Core EPS to increase by a low double-digit percentage; Core Tax rate 18-22% (all at CER, FY 2026)",
+      "current": "Total Revenue to increase by a mid-to-high single-digit percentage; Core EPS to increase by a low double-digit percentage; Core Tax rate 18-22% (all at CER, FY 2026)",
+      "commentary": "AstraZeneca reconfirmed its FY 2026 guidance unchanged. On September 2026 average FX rates, total revenue would see a low single-digit positive currency benefit and Core EPS growth would be broadly similar to the CER figure."
+    },
+    "explainer": "AstraZeneca reports growth at constant exchange rates (CER), which strips out currency movements to show the underlying trading performance. On that basis nine-month total revenue rose 7% and Core EPS rose 14%, with growth in Oncology, Respiratory & Immunology and Rare Disease more than offsetting the loss of US patent protection on Farxiga and Brilinta and China's volume-based procurement scheme, which forces price cuts.\n\n'Core' figures exclude certain items such as intangible amortisation and restructuring, and are the numbers AstraZeneca guides against. The guidance is unchanged: mid-to-high single-digit revenue growth and low double-digit Core EPS growth for the full year. Management also noted that if current (September 2026) exchange rates held, reported revenue would get a small currency tailwind, but the CER growth outlook is reaffirmed.\n\nTwo items sit outside the ordinary results. The newly launched RSG programme will incur up to $2.0bn of one-off restructuring charges to generate $1.5bn of annual savings by end-2029, which will be reinvested in the pipeline rather than dropping to profit. Separately, the $2bn Summit Therapeutics stake and collaboration are strategic R&D commitments, not part of the trading result.",
+    "source_url": "https://uk.advfn.com/stock-market/london/astrazeneca-AZN/share-news/AstraZeneca-PLC-3rd-Quarter-Results/99592721",
+    "related_news_url": "https://news.google.com/search?q=%22AstraZeneca%20PLC%22",
+    "added_at": "2026-10-30T08:01:20.556497"
   },
   {
     "company": "BP PLC",
@@ -244,11 +414,96 @@
     "time_period": "Q3 FY26 (three months to 30 September 2026)",
     "announcement_type": "Quarterly results",
     "period_detail": "Q3 FY26 (three months to 30 September 2026)",
-    "priority": "high",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Underlying RC profit</strong> of <strong>$8.5bn</strong> in Q3 2026, up from <strong>$5.7bn</strong> in Q2 2026 and <strong>$2.2bn</strong> in Q3 2025, driven by significantly higher realised refining margins and a stronger gas and marketing trading result.</li><li><strong>Reported profit</strong> attributable to shareholders of <strong>$4.7bn</strong> (Q2 2026: <strong>$3.9bn</strong>; Q3 2025: <strong>$1.2bn</strong>); nine-month reported profit <strong>$12.4bn</strong> vs <strong>$3.5bn</strong>.</li><li><strong>Operating cash flow</strong> of <strong>$14.8bn</strong>, around <strong>$4.0bn</strong> higher than the prior quarter, including a <strong>$0.5bn</strong> adjusted working capital release.</li><li><strong>Net debt</strong> cut by <strong>$8.4bn</strong> to <strong>$13.9bn</strong> (Q2 2026: <strong>$22.3bn</strong>); management says it remains \"too leveraged\" and balance-sheet strengthening is its \"number one job\".</li><li>Took <strong>$4.0bn</strong> of post-tax impairments, largely on transition businesses in gas & low carbon energy; completed Gelsenkirchen refinery sale and expects imminent closure of the <strong>Castrol</strong> divestment unlocking <strong>$6bn</strong>.</li><li>Strategy and capital-frame update set for <strong>15 December</strong>; dividend per share figure not stated in the supplied text.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-10-30T07:59:54.096820",
-    "locked": true,
-    "guidance_locked": true
+    "headline": "BP posts Q3 2026 underlying RC profit of $8.5bn, up from $5.7bn in the prior quarter, and cuts net debt by $8.4bn to $13.9bn.",
+    "priority": "high",
+    "priority_reason": "Quarterly results from a FTSE 100 oil major, with a sharp earnings jump and a major net-debt reduction.",
+    "figures": [
+      {
+        "metric": "Underlying RC profit",
+        "current": "$8.5bn",
+        "prior": "$5.7bn",
+        "change": "+$2.7bn",
+        "basis": "vs prior quarter (Q2 2026)",
+        "note": "Q3 2026; Q3 2025 was $2.2bn"
+      },
+      {
+        "metric": "Reported profit attributable to shareholders",
+        "current": "$4.7bn",
+        "prior": "$3.9bn",
+        "change": "not stated",
+        "basis": "vs Q2 2026",
+        "note": "Q3 2025 was $1.2bn; 9M 2026 $12.4bn vs $3.5bn"
+      },
+      {
+        "metric": "Operating cash flow",
+        "current": "$14.8bn",
+        "prior": "not stated",
+        "change": "+$4.0bn",
+        "basis": "vs prior quarter",
+        "note": "9M 2026 $28.5bn"
+      },
+      {
+        "metric": "Net debt",
+        "current": "$13.9bn",
+        "prior": "$22.3bn",
+        "change": "-$8.4bn",
+        "basis": "vs end Q2 2026",
+        "note": "end Q3 2026"
+      },
+      {
+        "metric": "Underlying RC profit (9 months)",
+        "current": "$17.4bn",
+        "prior": "$5.9bn",
+        "change": "not stated",
+        "basis": "vs 9M 2025",
+        "note": "nine months to 30 September"
+      },
+      {
+        "metric": "Upstream reported production",
+        "current": "2.2mmboe/d",
+        "prior": "2.2mmboe/d",
+        "change": "flat",
+        "basis": "vs Q2 2026",
+        "note": ""
+      },
+      {
+        "metric": "Refining availability",
+        "current": "96.5%",
+        "prior": "94.7%",
+        "change": "+1.8pts",
+        "basis": "vs Q2 2026",
+        "note": ""
+      },
+      {
+        "metric": "Underlying effective tax rate",
+        "current": "28%",
+        "prior": "34%",
+        "change": "-6pts",
+        "basis": "vs Q2 2026",
+        "note": "geographical mix of profits"
+      },
+      {
+        "metric": "Dividend per ordinary share",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "line item present but figure not printed in supplied text"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Four primary financial targets set for 2027, including net debt and structural cost reduction targets",
+      "current": "Net debt and structural cost reduction targets now delivered; \"line of sight\" on the remaining two of the four 2027 targets",
+      "commentary": "BP says it has met two of its four 2027 financial targets and has visibility on the other two. Longer-term plans, a new capital frame and fresh metrics/targets will be set out at a strategy update on 15 December."
+    },
+    "explainer": "BP reports two profit numbers. \"Reported profit\" of $4.7bn is the statutory figure under IFRS. \"Underlying replacement cost (RC) profit\" of $8.5bn is BP's preferred measure: it strips out inventory holding gains (here a $1.6bn net-of-tax gain, as the value of oil in storage rose with prices) and one-off adjusting items (a $5.4bn net-of-tax charge this quarter, mostly $4.0bn of post-tax impairments on transition/low-carbon assets). The large gap between the two numbers this quarter is almost entirely those impairments.\n\nThe quarter-on-quarter jump in underlying profit (from $5.7bn to $8.5bn) was driven by much stronger refining margins and a stronger gas and oil trading result, helped by a higher-price, higher-margin environment. A lower underlying tax rate (28% vs 34%), reflecting where profits were earned, also flattered the result.\n\nThe headline balance-sheet item is net debt falling $8.4bn to $13.9bn. BP chose to direct surplus cash to debt reduction rather than extra shareholder returns, and management stresses it is still \"too leveraged\". Including hybrids, leases and Gulf of America (Deepwater Horizon) settlement liabilities, the broader debt measure fell $9.3bn in the quarter.\n\nOn guidance, there is no formal upgrade or downgrade here. BP reaffirmed its four 2027 financial targets, saying two (net debt and structural cost) are now met with \"line of sight\" on the rest. The substantive strategy and capital-allocation detail — and any change to medium-term targets — is deferred to a dedicated update on 15 December.",
+    "source_url": "https://uk.advfn.com/stock-market/london/bp-BP./share-news/BP-PLC-3Q26-BP-PLC-Part-1-of-1/99592703",
+    "related_news_url": "https://news.google.com/search?q=%22BP%20p.l.c.%22",
+    "added_at": "2026-10-30T07:59:54.096820"
   },
   {
     "company": "Tribal Group PLC",
@@ -258,10 +513,23 @@
     "time_period": "",
     "announcement_type": "Acquisition / deal",
     "period_detail": "",
-    "priority": "medium",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>NSIA Condition</strong> satisfied, meaning all conditions to the <strong>Proposed Sale</strong> are now met; completion anticipated <strong>during November 2026</strong>.</li><li>Follows <strong>Shareholder approval</strong> at the General Meeting on <strong>26 October 2026</strong>.</li><li>Company intends to proceed swiftly to <strong>Cancellation</strong> (delisting) after completion.</li><li><strong>Net Cash Proceeds</strong> to be returned to shareholders as soon as reasonably practicable via a <strong>members' voluntary (solvent) liquidation</strong>.</li><li>Further announcements to follow upon completion.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-10-30T07:59:15.519837",
-    "locked": true
+    "headline": "Tribal confirms the NSIA condition for its proposed sale is satisfied, with completion now expected during November 2026.",
+    "priority": "medium",
+    "priority_reason": "Final regulatory condition for the already-approved disposal is satisfied, clearing the path to completion, cancellation and return of cash to shareholders.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/tribal-TRB/share-news/Tribal-Group-PLC-NSIA-Condition-Satisfied-and-Upda/99592701",
+    "related_news_url": "https://news.google.com/search?q=%22Tribal%20Group%20PLC%22",
+    "added_at": "2026-10-30T07:59:15.519837"
   },
   {
     "company": "Airtel Africa PLC",
@@ -271,10 +539,112 @@
     "time_period": "H1 FY27 (half year ended 30 September 2026)",
     "announcement_type": "Interim results",
     "period_detail": "H1 FY27 (half year ended 30 September 2026)",
-    "priority": "high",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Profit after tax</strong> rose to <strong>$452m</strong> for the half year to <strong>30 September 2026</strong>, from <strong>$376m</strong> a year earlier; <strong>profit before tax</strong> was <strong>$814m</strong> versus <strong>$656m</strong>.</li><li><strong>Operating profit</strong> in reported currency up <strong>34.2%</strong> to <strong>$1,286m</strong>, driven by <strong>underlying EBITDA</strong> growth of <strong>32.8%</strong>; a record underlying EBITDA margin of <strong>50.4%</strong> in <strong>Q2'27</strong>.</li><li><strong>Basic EPS</strong> of <strong>10.2 cents</strong> (prior <strong>8.3 cents</strong>); EPS before exceptional items <strong>11.7 cents</strong> versus <strong>8.3 cents</strong>. Interim dividend declared at <strong>3.1 cents</strong>, payable <strong>11 December 2026</strong>.</li><li><strong>Net cash from operations</strong> of <strong>$1,759m</strong>, up <strong>26.7%</strong>; capex stepped up to <strong>$657m</strong> (from <strong>$318m</strong>) as the Group accelerates network investment. Leverage improved to <strong>1.6x</strong> from <strong>2.1x</strong>.</li><li><strong>Airtel Money</strong> listed on the <strong>London Stock Exchange</strong> on <strong>14 October 2026</strong> (post balance-sheet); Airtel Africa sold no shares and retained <strong>77.85%</strong>. First buyback tranche returned <strong>$108.7m</strong> via <strong>24.5 million</strong> shares.</li><li>Total customer growth <strong>11.6%</strong>; smartphones on network now over <strong>100 million</strong>. Chair succession completed with <strong>Gopal Vittal</strong> replacing <strong>Sunil Bharti Mittal</strong> at the July AGM.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-10-30T07:59:15.506265",
-    "locked": true
+    "headline": "Airtel Africa posts H1 profit after tax of **$452m** (up from **$376m**), lifts the interim dividend to **3.1 cents** and retains a **77.85%** stake in newly-listed Airtel Money.",
+    "priority": "high",
+    "priority_reason": "Half-year results from a FTSE-listed telco, with profit growth, a dividend and major corporate activity including the Airtel Money IPO.",
+    "figures": [
+      {
+        "metric": "Operating profit (reported)",
+        "current": "$1,286m",
+        "prior": "not stated",
+        "change": "+34.2%",
+        "basis": "reported currency",
+        "note": "H1 to 30 September 2026"
+      },
+      {
+        "metric": "Underlying EBITDA growth",
+        "current": "+32.8%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "reported currency",
+        "note": "margin 50.4% in Q2'27"
+      },
+      {
+        "metric": "Profit before tax",
+        "current": "$814m",
+        "prior": "$656m",
+        "change": "not stated",
+        "basis": "",
+        "note": "H1 to 30 September 2026"
+      },
+      {
+        "metric": "Profit after tax",
+        "current": "$452m",
+        "prior": "$376m",
+        "change": "not stated",
+        "basis": "",
+        "note": "H1 to 30 September 2026"
+      },
+      {
+        "metric": "Basic EPS",
+        "current": "10.2 cents",
+        "prior": "8.3 cents",
+        "change": "not stated",
+        "basis": "",
+        "note": ""
+      },
+      {
+        "metric": "EPS before exceptional items",
+        "current": "11.7 cents",
+        "prior": "8.3 cents",
+        "change": "not stated",
+        "basis": "",
+        "note": ""
+      },
+      {
+        "metric": "Net cash from operating activities",
+        "current": "$1,759m",
+        "prior": "$1,388m",
+        "change": "+26.7%",
+        "basis": "",
+        "note": ""
+      },
+      {
+        "metric": "Operating free cash flow",
+        "current": "$1,264m",
+        "prior": "not stated",
+        "change": "+12.0%",
+        "basis": "",
+        "note": ""
+      },
+      {
+        "metric": "Capital expenditure",
+        "current": "$657m",
+        "prior": "$318m",
+        "change": "not stated",
+        "basis": "",
+        "note": "accelerated network deployment"
+      },
+      {
+        "metric": "Leverage (net debt to underlying EBITDA)",
+        "current": "1.6x",
+        "prior": "2.1x",
+        "change": "not stated",
+        "basis": "lease-adjusted 0.5x from 0.8x",
+        "note": ""
+      },
+      {
+        "metric": "Interim dividend",
+        "current": "3.1 cents",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "payable 11 December 2026"
+      }
+    ],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": "No formal numeric guidance issued; management flagged that margins will remain influenced by the macroeconomic environment and fuel costs, and that it is deliberately accelerating network capex."
+    },
+    "explainer": "Airtel Africa reports in US dollars, so the headline growth rates come in two flavours. Figures described as 'reported currency' (operating profit +34.2%, underlying EBITDA +32.8%) include the translation effect of African currencies into dollars; because several of the Group's currencies have been volatile, reported numbers can swing more than the underlying local-currency trading. The company stresses constant-currency and underlying measures elsewhere in its pack, but the key profit lines quoted here are reported.\n\nThe profit picture is flattered and complicated by exceptional and non-operating items. Finance costs rose to $477m from $304m, partly due to a $37m exceptional charge for an in-principle legal settlement and a sharp drop in foreign-exchange/derivative gains ($2m this period versus $90m last year). That is why the Group gives an 'EPS before exceptional items and FX gains' of 11.8 cents, which strips out these one-offs and gives a cleaner read on underlying earnings power.\n\nTwo big corporate events sit alongside the results. Airtel Money was floated on the London Stock Exchange on 14 October 2026 — after the 30 September balance-sheet date — so its effects are treated as a post balance-sheet event; Airtel Africa kept 77.85% and sold no shares. Separately, capex has roughly doubled to $657m as the Group deliberately accelerates network investment, which will weigh on free cash flow in the near term but is pitched as capturing future growth.\n\nThere is no formal numeric forward guidance in this statement. Management's forward commentary is qualitative: margins will continue to depend on the macro backdrop, particularly fuel-driven inflation, and investment is being stepped up by choice. The 3.1 cents interim dividend and the completed first buyback tranche ($108.7m) signal continued shareholder returns funded by strong cash generation and lower leverage.",
+    "source_url": "https://uk.advfn.com/stock-market/london/airtel-africa-AAF/share-news/Airtel-Africa-PLC-Half-year-Report/99592709",
+    "related_news_url": "https://news.google.com/search?q=%22Airtel%20Africa%20PLC%22",
+    "added_at": "2026-10-30T07:59:15.506265"
   },
   {
     "company": "Vodafone Group PLC",
@@ -284,10 +654,23 @@
     "time_period": "",
     "announcement_type": "Acquisition / deal",
     "period_detail": "",
-    "priority": "medium",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Societe Generale S.A.</strong> has completed the acquisition of a <strong>50%</strong> shareholding in Vodafone's German fibre joint venture <strong>OXG Glasfaser Beteiligungs-GmbH</strong> from <strong>Geodesia Holding S.à r.l.</strong></li><li>Deal secures a <strong>committed funding partner</strong> for OXG, enabling continued expansion of the fibre network in Germany while preserving strategic flexibility for Vodafone.</li><li>Follows up the earlier announcement of <strong>1 September 2026</strong>; the text states <strong>no transaction value or financial terms</strong>.</li><li>Routine completion notice — <strong>no stated impact</strong> on Vodafone trading or guidance.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-10-30T07:57:55.003699",
-    "locked": true
+    "headline": "Societe Generale has completed the acquisition of a 50% stake in Vodafone's German fibre joint venture OXG, securing a committed funding partner.",
+    "priority": "medium",
+    "priority_reason": "Completion of a 50% stake sale in Vodafone's German fibre JV secures a committed funding partner, a financing/disposal event but not materially group-moving.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/vodafone-VOD/share-news/Vodafone-Group-Plc-OXG-secures-new-shareholder-and/99592658",
+    "related_news_url": "https://news.google.com/search?q=%22Vodafone%20Group%20Plc%22",
+    "added_at": "2026-10-30T07:57:55.003699"
   },
   {
     "company": "Kenmare Resources PLC",
@@ -297,10 +680,23 @@
     "time_period": "",
     "announcement_type": "Corporate update",
     "period_detail": "",
-    "priority": "high",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>Government of Mozambique's Council of Ministers</strong> has approved renewal of Kenmare's key rights and concessions under Moma's Implementation Agreement (IA) to <strong>2044</strong>, with changes to the economic, investment and commercial terms.</li><li>Approval, by internal resolution adopted <strong>13 October 2026</strong>, extends the authorisation period for subsidiary <strong>KMPL's</strong> mineral processing and export activities for a further <strong>20 years</strong>; official notification received <strong>29 October 2026</strong>.</li><li>Resolution also grants KMPL the right to a <strong>further 20-year extension in 2044</strong> under the legal framework in force at that time, and updates/replaces the July 2025 internal resolution disclosed on 9 March 2026.</li><li>Changes agreed to the <strong>fiscal regime</strong> plus additional commitments; terms described as striking a balance between Kenmare's interests and an increased contribution to Mozambique — specific figures not stated in the announcement.</li><li>Next steps: signing of an <strong>addendum to the IA</strong> by the Government and Kenmare, then submission to the <strong>Administrative Court of Mozambique</strong> to complete administrative procedures.</li><li><strong>Tom Hickey, Managing Director</strong>: extension provides certainty to continue investing in Moma, which has Mineral Resources to support production for over 100 years; analyst/investor webinar at <strong>9:00am UK time, 30 October 2026</strong>.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-10-30T07:57:54.925897",
-    "locked": true
+    "headline": "Mozambique's Council of Ministers has approved extending Kenmare's Moma processing and export rights to **2044**, with revised fiscal and commercial terms.",
+    "priority": "high",
+    "priority_reason": "Inside information confirming renewal of the core operating asset's key rights and concessions to 2044, providing long-term operating certainty for Moma.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/kenmare-resources-KMR/share-news/Update-on-Implementation-Agreement/99592612",
+    "related_news_url": "https://news.google.com/search?q=%22Kenmare%20Resources%20plc%22",
+    "added_at": "2026-10-30T07:57:54.925897"
   },
   {
     "company": "Tesco PLC",
@@ -310,10 +706,23 @@
     "time_period": "",
     "announcement_type": "Disposal",
     "period_detail": "",
-    "priority": "high",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Tesco</strong> to sell its <strong>Czech Republic and Slovakia</strong> businesses to <strong>Ahold Delhaize</strong> for a total enterprise value of <strong>€1.7bn (£1.5bn)</strong> on a cash- and debt-free basis, equal to <strong>€1.2bn (£1.0bn)</strong> pre-IFRS 16.</li><li>The two markets generated combined sales of <strong>£2.9bn</strong> and the majority of the <strong>£115m</strong> adjusted operating profit reported for the Central European region in the prior-year 52-week period.</li><li>Deal covers all stores and offices in both countries plus distribution centres in <strong>Kralupy</strong>, <strong>Presov</strong> and <strong>Beckov</strong>.</li><li>CEO <strong>Ken Murphy</strong> says the transaction simplifies the group, sharpens focus on core <strong>UK and Irish</strong> businesses and supports a <strong>further return of capital to shareholders</strong>.</li><li><strong>Hungary</strong> is excluded and remains owned and operated by Tesco, which continues to review all options for that business.</li><li><strong>Goldman Sachs</strong> and <strong>Citi</strong> are joint financial advisers; <strong>A&O Shearman</strong> is legal adviser. Completion timing not stated in the text.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-10-30T07:57:20.819791",
-    "locked": true
+    "headline": "Tesco agrees to sell its Czech Republic and Slovakia businesses to Ahold Delhaize for an enterprise value of €1.7bn (£1.5bn).",
+    "priority": "high",
+    "priority_reason": "A £1.5bn disposal of Tesco's Czech and Slovak businesses, simplifying the group and enabling a further return of capital to shareholders.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/tesco-TSCO/share-news/Tesco-PLC-Tesco-to-sell-Czech-Republic-Slovakia/99593547",
+    "related_news_url": "https://news.google.com/search?q=%22Tesco%20PLC%22",
+    "added_at": "2026-10-30T07:57:20.819791"
   },
   {
     "company": "NatWest Group PLC",
@@ -323,11 +732,128 @@
     "time_period": "Q3 2026 (quarter to 30 September 2026)",
     "announcement_type": "Trading update",
     "period_detail": "Q3 2026 (quarter to 30 September 2026)",
-    "priority": "high",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Q3 2026</strong> attributable profit of <strong>£1.5bn</strong> and Return on Tangible Equity of <strong>21.6%</strong> (Q3 2025: <strong>22.3%</strong>); EPS <strong>19.3p</strong> (Q3 2025: <strong>19.8p</strong>).</li><li>Total income <strong>£4,640m</strong>, up <strong>7.1%</strong> on Q3 2025 and <strong>3.0%</strong> on Q2 2026; net interest margin up <strong>1bp</strong> to <strong>2.50%</strong>.</li><li>Operating profit before tax <strong>£2,225m</strong> (Q3 2025: <strong>£2,183m</strong>, +1.9%); impairment losses rose to <strong>£277m</strong> from <strong>£153m</strong>, loan impairment rate <strong>21bps</strong> year to date.</li><li><strong>CET1 ratio</strong> up <strong>30bps</strong> to <strong>13.5%</strong>; <strong>£1.8bn</strong> of RWA management actions drove capital generation of <strong>71bps</strong> pre-distributions; customer assets and liabilities <strong>£1,002.6bn</strong>, up <strong>1.6%</strong> in the quarter.</li><li>Outlook reaffirmed from <strong>H1 2026</strong> results, with the refinement that <strong>RWAs</strong> are now expected to be around <strong>£210bn</strong> on <strong>1 January 2027</strong> including Basel 3.1.</li><li>Chief Executive <strong>Paul Thwaite</strong> cited broad-based growth across lending, deposits and assets under management; nine-month RoTE <strong>20.2%</strong>.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-10-30T07:38:13.253718",
-    "locked": true,
-    "guidance_locked": true
+    "headline": "NatWest posted Q3 2026 attributable profit of £1.5bn and a 21.6% return on tangible equity, reaffirming its H1 outlook.",
+    "priority": "high",
+    "priority_reason": "Quarterly results from a major UK bank, including profit, returns, capital and a reaffirmed/refined outlook.",
+    "figures": [
+      {
+        "metric": "Total income",
+        "current": "£4,640m",
+        "prior": "£4,332m",
+        "change": "+7.1%",
+        "basis": "reported",
+        "note": "Q3 2026 vs Q3 2025"
+      },
+      {
+        "metric": "Operating profit before tax",
+        "current": "£2,225m",
+        "prior": "£2,183m",
+        "change": "+1.9%",
+        "basis": "reported",
+        "note": "Q3 2026 vs Q3 2025"
+      },
+      {
+        "metric": "Profit attributable to ordinary shareholders",
+        "current": "£1,532m",
+        "prior": "£1,598m",
+        "change": "-4.1%",
+        "basis": "reported",
+        "note": "Q3 2026 vs Q3 2025"
+      },
+      {
+        "metric": "EPS (basic)",
+        "current": "19.3p",
+        "prior": "19.8p",
+        "change": "-0.5p",
+        "basis": "reported",
+        "note": "Q3 2026 vs Q3 2025"
+      },
+      {
+        "metric": "Return on Tangible Equity",
+        "current": "21.6%",
+        "prior": "22.3%",
+        "change": "-0.7pp",
+        "basis": "quarter",
+        "note": "Q3 2026 vs Q3 2025"
+      },
+      {
+        "metric": "Net interest margin",
+        "current": "2.50%",
+        "prior": "2.37%",
+        "change": "+13bps",
+        "basis": "quarter",
+        "note": "Q3 2026 vs Q3 2025"
+      },
+      {
+        "metric": "Impairment losses",
+        "current": "£277m",
+        "prior": "£153m",
+        "change": "+81.0%",
+        "basis": "reported",
+        "note": "Q3 2026 vs Q3 2025"
+      },
+      {
+        "metric": "CET1 ratio",
+        "current": "13.5%",
+        "prior": "13.2%",
+        "change": "+30bps",
+        "basis": "reported",
+        "note": "30 Sep 2026 vs 30 Jun 2026"
+      },
+      {
+        "metric": "Customer assets and liabilities (CAL)",
+        "current": "£1,002.6bn",
+        "prior": "£986.9bn",
+        "change": "+1.6%",
+        "basis": "reported",
+        "note": "30 Sep 2026 vs 30 Jun 2026; includes Evelyn Partners"
+      },
+      {
+        "metric": "Total income (9 months)",
+        "current": "£13,502m",
+        "prior": "£12,317m",
+        "change": "+9.6%",
+        "basis": "reported",
+        "note": "9M to 30 Sep 2026 vs 2025"
+      },
+      {
+        "metric": "Operating profit before tax (9 months)",
+        "current": "£6,543m",
+        "prior": "£5,768m",
+        "change": "+13.4%",
+        "basis": "reported",
+        "note": "9M to 30 Sep 2026 vs 2025"
+      },
+      {
+        "metric": "EPS basic (9 months)",
+        "current": "57.4p",
+        "prior": "50.7p",
+        "change": "+6.7p",
+        "basis": "reported",
+        "note": "9M to 30 Sep 2026 vs 2025"
+      },
+      {
+        "metric": "RoTE (9 months)",
+        "current": "20.2%",
+        "prior": "19.5%",
+        "change": "+0.7pp",
+        "basis": "year to date",
+        "note": "9M to 30 Sep 2026 vs 2025"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Outlook provided in the H1 2026 results",
+      "current": "Reaffirmed H1 2026 outlook, with the enhancement that RWAs are now expected to be around £210 billion on 1 January 2027 including the impact of Basel 3.1",
+      "commentary": "NatWest reaffirmed its existing full-year targets and outlook, adding only a refined expectation for risk-weighted assets of around £210bn at 1 January 2027 once Basel 3.1 takes effect. It now also assumes the Bank of England base rate rises 25bps to 4% in Q4 2026."
+    },
+    "explainer": "This is a third-quarter trading statement rather than a full set of accounts. The main comparatives are the same quarter a year earlier (Q3 2025) and the prior quarter (Q2 2026). Income and returns remain strong: quarterly income rose 7.1% year on year, helped by the acquisition of Evelyn Partners, deposit margin expansion and an extra calendar day in the quarter. Net interest margin, the gap between what the bank earns on lending and pays on deposits, edged up to 2.50%.\n\nHeadline attributable profit of £1.5bn was slightly lower than both Q3 2025 and Q2 2026, mainly because impairment charges (money set aside for loans that may go bad) jumped to £277m from £153m a year earlier. The loan impairment rate of 21bps year to date still points to a resilient book rather than stress; the quarterly rise partly reflects timing within provisions.\n\nOn capital, the CET1 ratio — a measure of balance-sheet strength — rose 30bps to 13.5%, aided by £1.8bn of risk-weighted-asset management actions that free up capacity for growth and shareholder distributions. Customer assets and liabilities passed £1 trillion, boosted by the inclusion of Evelyn Partners' assets under management.\n\nGuidance is essentially unchanged: NatWest reaffirmed the targets set at its H1 2026 results. The only new detail is a sharper estimate that risk-weighted assets will be around £210bn at the start of 2027 once the Basel 3.1 capital rules apply, and an assumption that UK base rates rise to 4% in Q4.",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/natwest-group--nwg/natwest-group-q3-2026-interim-management-statement/9849208",
+    "related_news_url": "https://news.google.com/search?q=%22NATWEST%20GROUP%22",
+    "added_at": "2026-10-30T07:38:13.253718"
   },
   {
     "company": "Savannah Energy PLC",
@@ -337,11 +863,72 @@
     "time_period": "9M to 30 September 2026",
     "announcement_type": "Trading update",
     "period_detail": "9M to 30 September 2026",
-    "priority": "high",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>9M 2026 revenue</strong> rose <strong>32%</strong> year-on-year to <strong>US$242.1m</strong> (9M 2025: <strong>US$184.0m</strong>); cash collections up <strong>16%</strong> to <strong>US$281.0m</strong>.</li><li><strong>FY 2026 gross daily production</strong> guided to <strong>18-20 Kboepd</strong>; group output was <strong>17.0 Kboepd</strong> for 9M 2026 (FY 2025: 18.8 Kboepd), expected to average ~<strong>20 Kboepd</strong> for the rest of the year with <strong>Uquo 13</strong> on stream.</li><li><strong>Uquo South</strong> exploration well found gas in most targeted reservoirs; testing and evaluation due to complete <strong>November 2026</strong>; <strong>Stubb Creek</strong> 9M production up <strong>34%</strong> to <strong>3.9 Kbopd</strong>.</li><li>As at <strong>30 September 2026</strong> cash was <strong>US$73.1m</strong> (up from US$42.7m) and <strong>net debt US$700.8m</strong> (up from US$658.8m); only <strong>7%</strong> of gross debt is recourse to the Company.</li><li>Shares <strong>remain suspended on AIM</strong> pending delayed <strong>audited FY 2025 accounts</strong> and <strong>H1 2026 results</strong>, both now expected in <strong>November 2026</strong>; the AIM quotation review remains ongoing.</li><li><strong>Chad arbitration</strong> proceedings (claims in excess of <strong>US$775m</strong> plus interest) expected to conclude in <strong>Q4 2026</strong>; JDA signed with <strong>Cameroon</strong> for the 95 MW Bini a Warak project.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-10-30T07:36:54.871200",
-    "locked": true,
-    "guidance_locked": true
+    "headline": "Savannah reports 9M 2026 revenue up 32% to US$242.1m and sets FY 2026 gross production guidance of 18-20 Kboepd, with shares remaining suspended on AIM pending delayed accounts.",
+    "priority": "high",
+    "priority_reason": "Nine-month trading update with revenue growth, production guidance, a gas discovery and AIM listing/suspension developments.",
+    "figures": [
+      {
+        "metric": "Revenue",
+        "current": "US$242.1m",
+        "prior": "US$184.0m",
+        "change": "+32%",
+        "basis": "unaudited, year-on-year",
+        "note": "9M to 30 September 2026"
+      },
+      {
+        "metric": "Cash collections",
+        "current": "US$281.0m",
+        "prior": "US$241.6m",
+        "change": "+16%",
+        "basis": "year-on-year",
+        "note": "9M to 30 September 2026"
+      },
+      {
+        "metric": "Group average gross daily production",
+        "current": "17.0 Kboepd",
+        "prior": "18.8 Kboepd",
+        "change": "not stated",
+        "basis": "9M 2026 vs FY 2025",
+        "note": "76% gas in 9M 2026"
+      },
+      {
+        "metric": "Cash balances",
+        "current": "US$73.1m",
+        "prior": "US$42.7m",
+        "change": "not stated",
+        "basis": "as at 30 September 2026 vs 31 December 2025",
+        "note": ""
+      },
+      {
+        "metric": "Net debt",
+        "current": "US$700.8m",
+        "prior": "US$658.8m",
+        "change": "not stated",
+        "basis": "as at 30 September 2026 vs 31 December 2025",
+        "note": "gross debt US$773.9m, 7% recourse"
+      },
+      {
+        "metric": "Trade receivables",
+        "current": "US$442.8m",
+        "prior": "US$508.5m",
+        "change": "-13%",
+        "basis": "as at 30 September 2026 vs 31 December 2025",
+        "note": "mainly Nigerian gas sales"
+      }
+    ],
+    "guidance": {
+      "status": "new",
+      "previous": "Not previously stated in this announcement",
+      "current": "FY 2026 average gross daily production anticipated in the range of 18-20 Kboepd, subject to customer demand, with potential upside from the Uquo South well; production expected to average approximately 20 Kboepd for the remainder of the year",
+      "commentary": "The announcement sets a FY 2026 gross production range of 18-20 Kboepd. With Uquo 13 on stream since August 2026, output is expected to run at around 20 Kboepd for the rest of the year, and the Uquo South gas discovery could add further upside once testing completes in November."
+    },
+    "explainer": "This is a nine-month trading update to 30 September 2026, and all the figures are unaudited. Revenue of US$242.1m is 32% higher than the same period last year, while cash collections — the cash actually received, which lags revenue because of Nigerian gas payment timing — rose 16% to US$281.0m. The gap between the two, and the still-large trade receivables balance of US$442.8m, reflects amounts owed under gas sales agreements in Nigeria; collecting that cash remains a stated priority.\n\nProduction is measured on a gross basis. Group output averaged 17.0 Kboepd over nine months, below the 18.8 Kboepd full-year 2025 average, but is expected to rebound to around 20 Kboepd for the remainder of 2026 as the Uquo 13 well contributes. The FY 2026 guidance range of 18-20 Kboepd is framed as new guidance here and depends on customer gas nomination levels, with possible upside from the Uquo South discovery still being evaluated.\n\nNet debt rose to US$700.8m from US$658.8m at year-end, though the company stresses that only 7% of gross debt is recourse to the parent, with the rest held non-recourse within subsidiaries. Cash balances improved to US$73.1m.\n\nTwo non-financial points matter for traders: the shares remain suspended on AIM because the audited FY 2025 accounts and H1 2026 results are both delayed to November 2026, and the board's review of Savannah's AIM listing is still open. There is also ongoing Chad arbitration, with claims in excess of US$775m plus interest expected to conclude in Q4 2026.",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/savannah-energy--save/operational-and-financial-update/9849343",
+    "related_news_url": "https://news.google.com/search?q=%22Savannah%20Energy%22",
+    "added_at": "2026-10-30T07:36:54.871200"
   },
   {
     "company": "Mobico Group PLC",
@@ -351,10 +938,23 @@
     "time_period": "",
     "announcement_type": "Corporate update",
     "period_detail": "",
-    "priority": "low",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>Mobico Group PLC</strong> is changing its accounting reference date and financial year end from <strong>31 March</strong> back to <strong>31 December</strong>, effective immediately.</li><li>The year end had been temporarily extended from 31 December to 31 March, as announced on <strong>26 November 2025</strong> following the appointment of new auditors; the group is now returning to its usual reporting periods.</li><li>Next reporting events: unaudited interim results for the <strong>6 months ending 30 September 2026</strong> (by <strong>31 December 2026</strong>), and audited statutory accounts for the <strong>9 months ending 31 December 2026</strong> (by <strong>30 April 2027</strong>).</li><li>Routine reporting-timetable change with <strong>no impact</strong> on trading or guidance.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-10-30T07:36:54.816374",
-    "locked": true
+    "headline": "Mobico confirms its financial year end reverts from 31 March to 31 December with immediate effect, as previously set out.",
+    "priority": "low",
+    "priority_reason": "Administrative change of accounting reference date previously flagged; affects reporting-period timing only, not trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/mobico-group--mcg/new-accounting-ref-date/9849262",
+    "related_news_url": "https://news.google.com/search?q=%22Mobico%20Group%22",
+    "added_at": "2026-10-30T07:36:54.816374"
   },
   {
     "company": "Sylvania Platinum Limited",
@@ -364,11 +964,88 @@
     "time_period": "Q1 FY2027 (three months to 30 September 2026)",
     "announcement_type": "Quarterly results",
     "period_detail": "Q1 FY2027 (three months to 30 September 2026)",
-    "priority": "high",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li>Record combined PGM production of <strong>25,971 4E ounces</strong> (31,825 6E) at the SDO and Thaba JV, up <strong>9%</strong> on Q4 FY2026's 23,868 4E ounces.</li><li>Chrome production jumped <strong>67%</strong> to <strong>29,799 tons</strong> (Q4 FY2026: 17,889 tons), aided by third-party ore, improved plant stability and higher throughput at the <strong>Thaba JV</strong>.</li><li>Net revenue up <strong>30%</strong> to <strong>$62.9m</strong>, driven by higher PGM output and a <strong>6%</strong> rise in the 4E gross basket price to <strong>$2,432/oz</strong>.</li><li>Adjusted Group EBITDA up <strong>47%</strong> to <strong>$24.7m</strong>; adjusted net profit up <strong>42%</strong> to <strong>$18.4m</strong>; cash balance up <strong>19%</strong> to <strong>$79.7m</strong>.</li><li>FY2027 guidance maintained at <strong>85,000–95,000 4E PGM ounces</strong> and <strong>110,000–140,000 tons</strong> of attributable Chrome concentrate.</li><li>Operations remained <strong>LTI-free</strong>; a share buyback programme was commenced on-market and has now completed. Thaba JV unit costs rose sharply on higher mining costs and low PGM feed grades.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-10-30T07:36:13.962325",
-    "locked": true,
-    "guidance_locked": true
+    "headline": "Sylvania posted record quarterly PGM output of **25,971 4E ounces** and a 30% rise in net revenue to **$62.9m** in Q1 FY2027.",
+    "priority": "high",
+    "priority_reason": "Quarterly operational and financial results from an AIM-listed producer, with record production and sharply higher revenue and earnings.",
+    "figures": [
+      {
+        "metric": "Total 4E PGM production",
+        "current": "25,971 oz",
+        "prior": "23,868 oz",
+        "change": "+9%",
+        "basis": "",
+        "note": "SDO + Thaba JV, Q1 FY2027 vs Q4 FY2026"
+      },
+      {
+        "metric": "Chrome production",
+        "current": "29,799 t",
+        "prior": "17,889 t",
+        "change": "+67%",
+        "basis": "",
+        "note": "quarter-on-quarter"
+      },
+      {
+        "metric": "Net revenue",
+        "current": "$62.9m",
+        "prior": "$48.5m",
+        "change": "+30%",
+        "basis": "USD",
+        "note": "Q1 FY2027 vs Q4 FY2026"
+      },
+      {
+        "metric": "Adjusted Group EBITDA",
+        "current": "$24.7m",
+        "prior": "$16.9m",
+        "change": "+47%",
+        "basis": "USD",
+        "note": "quarter-on-quarter"
+      },
+      {
+        "metric": "Adjusted net profit",
+        "current": "$18.4m",
+        "prior": "$12.9m",
+        "change": "+42%",
+        "basis": "USD",
+        "note": "quarter-on-quarter"
+      },
+      {
+        "metric": "Cash balance",
+        "current": "$79.7m",
+        "prior": "$67.2m",
+        "change": "+19%",
+        "basis": "excludes $1.1m restricted cash",
+        "note": "quarter-on-quarter"
+      },
+      {
+        "metric": "Average 4E gross basket price",
+        "current": "$2,432/oz",
+        "prior": "$2,299/oz",
+        "change": "+6%",
+        "basis": "USD; +4% in Rand",
+        "note": "September 2026 basket"
+      },
+      {
+        "metric": "All-in Sustaining Cost (4E)",
+        "current": "$1,378/oz",
+        "prior": "$1,278/oz",
+        "change": "+8%",
+        "basis": "USD",
+        "note": "quarter-on-quarter"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "85,000 to 95,000 4E PGM ounces and 110,000 to 140,000 tons of attributable Chrome concentrate for FY2027",
+      "current": "85,000 to 95,000 4E PGM ounces and 110,000 to 140,000 tons of attributable Chrome concentrate for FY2027",
+      "commentary": "Full-year FY2027 targets for PGM and Chrome output are unchanged after the first quarter, with the Group stating it is 'still targeting' the same ranges."
+    },
+    "explainer": "This is Sylvania's first-quarter operations report for FY2027, covering the three months to 30 September 2026. The group mines and processes platinum-group metals (PGMs) and chrome from tailings and run-of-mine ore in South Africa. It reports in US dollars because the parent is in Bermuda, but its operating subsidiaries work in South African rand, so the figures carry a currency translation effect; here the rand was broadly stable against the dollar (average rate R16.29/$ versus R16.50/$).\n\nThe quarter-on-quarter comparisons are against the preceding quarter (Q4 FY2026) rather than the same quarter a year earlier. Output set a group record, helped by stronger feed grades, higher throughput and the release of 2,360 4E ounces from work-in-progress. Revenue and earnings rose faster than volumes because the 4E basket price also improved by 6% in dollar terms.\n\nThe Thaba joint venture drove the chrome surge, but its PGM unit costs rose steeply (4E cash cost up 99%) because of higher-than-planned mining costs and low feed grades while the host mine underperforms; the group is in talks with JV partner LMC over supply terms. Note that chrome revenue actually fell 29% to $3.6m despite higher production, as chrome is recognised when product is shipped and the contract selling price dropped 14%.\n\nGuidance is unchanged: the group still expects 85,000–95,000 4E PGM ounces and 110,000–140,000 tons of attributable chrome concentrate for the full year. A share buyback was started and completed during the period.",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/sylvania-platinum-ltd-di---slp/quarterly-report-30-september-2026-/9849492",
+    "related_news_url": "https://news.google.com/search?q=%22Sylvania%20Platinum%20Ltd%20(DI)%22",
+    "added_at": "2026-10-30T07:36:13.962325"
   },
   {
     "company": "Intel Corp",
@@ -378,11 +1055,23 @@
     "time_period": "Q3 2026 (quarter ended 26 September 2026)",
     "announcement_type": "Quarterly results",
     "period_detail": "Q3 2026 (quarter ended 26 September 2026)",
-    "priority": "high",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Intel Corporation</strong> reported <strong>Q3 2026</strong> results (quarter ended <strong>26 September 2026</strong>), with CFO <strong>David Zinsner</strong> stating revenue, gross margin and earnings per share all <strong>exceeded guidance</strong>.</li><li>Management flagged its <strong>strongest data-centre revenue growth in 15 years</strong>, driven by demand for its <strong>Xeon</strong> server CPU family; CEO <strong>Lip-Bu Tan</strong> said the priority is unlocking additional supply.</li><li>Company generated <strong>$5.1 billion</strong> in cash from operations during the quarter.</li><li>Guidance: Intel sees the <strong>PC slowdown continuing at least through the first half of next year (H1 2027)</strong>, while remaining optimistic on the broader portfolio and continuing to invest in capacity.</li><li>Caveat: the scraped text contains narrative and table labels only — actual headline figures for revenue, gross margin, EPS and the Q4 2026 guidance ranges were <strong>not captured</strong> in the article body, so specific numbers cannot be reported here.</li><li>Note: <strong>Altera</strong> was deconsolidated following the sale of 51% of its stock on <strong>12 September 2025</strong>, affecting year-on-year comparatives.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-10-30T07:20:18.795301",
-    "locked": true,
-    "guidance_locked": true
+    "headline": "Intel says Q3 2026 revenue, gross margin and EPS all exceeded guidance, with its strongest data-centre revenue growth in 15 years.",
+    "priority": "high",
+    "priority_reason": "Quarterly results from a major semiconductor company, including forward guidance for Q4 2026.",
+    "figures": [],
+    "guidance": {
+      "status": "new",
+      "previous": "not stated in captured text",
+      "current": "Q4 2026 GAAP and non-GAAP estimates provided (gross margin and EPS outlooks based on midpoint of revenue range) — specific numeric ranges not present in the captured article text; PC slowdown expected to continue at least through H1 of next year",
+      "commentary": "Intel issued routine Q4 2026 quarterly guidance alongside results, but the numeric revenue, margin and EPS ranges were not included in the scraped text. The key qualitative steer is that the PC market weakness is expected to persist through at least the first half of 2027, offset by strength in data centre / Xeon demand."
+    },
+    "explainer": "Intel reported its third-quarter 2026 results, covering the three months to 26 September 2026. Management's commentary is positive: the CFO states that revenue, gross margin and earnings per share all came in ahead of the company's own prior guidance, and that data-centre revenue grew at its fastest rate in 15 years, helped by demand for Xeon server processors. The company also generated $5.1 billion of operating cash flow in the quarter.\n\nImportantly, the scraped announcement text contains the earnings narrative and the headings of the financial tables (statements of operations, balance sheet and cash flows), but the actual reported numbers for revenue, profit, gross margin and EPS were not captured in the body supplied. For that reason no specific current-versus-prior figures can be quoted or compared here without risk of inventing them.\n\nOn comparability, note two items that distort year-on-year figures: Altera was deconsolidated after Intel sold 51% of it on 12 September 2025 (its results now sit in 'All Other'), and diluted EPS is affected by mark-to-market adjustments on CHIPS Act 'Escrowed Shares' (a $120m gain this quarter versus a $2m loss a year earlier). Intel reports both GAAP and non-GAAP measures, with non-GAAP stripping out acquisition-related amortisation, share-based compensation and restructuring charges.\n\nOn guidance: Intel provided a Q4 2026 outlook, but the numeric ranges are not in the captured text. The clearest forward steer is management's warning that the PC slowdown will continue at least through the first half of 2027, partly offset by strength in the data-centre business.",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/INTC/share-news/Intel-Reports-Third-Quarter-2026-Financial-Results/99590569",
+    "related_news_url": "https://news.google.com/search?q=%22Intel%20Corporation%22",
+    "added_at": "2026-10-30T07:20:18.795301"
   },
   {
     "company": "Credit Acceptance Corp",
@@ -392,10 +1081,104 @@
     "time_period": "Q3 2026 (three months to 30 September 2026)",
     "announcement_type": "Quarterly results",
     "period_detail": "Q3 2026 (three months to 30 September 2026)",
-    "priority": "high",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Consumer Loan unit volume +37.7%</strong> and <strong>dollar volume +51.0%</strong> in <strong>Q3 2026</strong>, with <strong>active dealers +18.8%</strong> to an all-time high and average unit volume per active dealer <strong>+15.2%</strong>.</li><li>CEO <strong>Vinayak Hegde</strong> said both <strong>economic profit</strong> and <strong>adjusted net income</strong> achieved double-digit growth, but <strong>GAAP net income fell</strong> year-on-year.</li><li>The company <strong>adjusted its methodology</strong> for forecasting future net cash flows, reducing forecasted collection rates on loans assigned <strong>2022–2026</strong> to levels now expected over their life; underperformance was most pronounced in lower scorecard bands.</li><li>Forecasted collection rates <strong>declined for loans assigned 2023–2026</strong>; spreads across the last 10 years range <strong>11.8% to 24.2%</strong> on an annual basis.</li><li><strong>2026 dealer-loan spread 20.0%</strong> (2025: <strong>19.9%</strong>); <strong>2026 purchased-loan spread 18.3%</strong> (2025: <strong>19.6%</strong>).</li><li>Net dealer loans receivable was <strong>70.0%</strong> of total net loans receivable at 30 September 2026, down from <strong>72.1%</strong> at 31 December 2025.</li><li>Note: the scraped text is partly truncated and omits headline GAAP revenue, net income and EPS figures — absolute results not available in this capture.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-10-30T07:19:46.185569",
-    "locked": true
+    "headline": "Credit Acceptance posts Q3 2026 Consumer Loan unit volume up 37.7% and dollar volume up 51%, but GAAP net income fell after a forecast adjustment.",
+    "priority": "high",
+    "priority_reason": "Quarterly results with a material forecasting-methodology change that cut forecasted collection rates and reduced GAAP net income.",
+    "figures": [
+      {
+        "metric": "Consumer Loan unit volume",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+37.7%",
+        "basis": "year-on-year",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "Consumer Loan dollar volume",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+51.0%",
+        "basis": "year-on-year",
+        "note": "Q3 2026; driven by higher average advance paid"
+      },
+      {
+        "metric": "Active dealers",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+18.8%",
+        "basis": "year-on-year",
+        "note": "all-time high"
+      },
+      {
+        "metric": "Average unit volume per active dealer",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+15.2%",
+        "basis": "year-on-year",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "Dealer-loan spread (year of assignment)",
+        "current": "20.0%",
+        "prior": "19.9%",
+        "change": "not stated",
+        "basis": "annual, as % of initial balance",
+        "note": "2026 vs 2025 dealer loans at 30 Sep 2026"
+      },
+      {
+        "metric": "Purchased-loan spread (year of assignment)",
+        "current": "18.3%",
+        "prior": "19.6%",
+        "change": "not stated",
+        "basis": "annual, as % of initial balance",
+        "note": "2026 vs 2025 purchased loans at 30 Sep 2026"
+      },
+      {
+        "metric": "Net dealer loans receivable as % of total net loans receivable",
+        "current": "70.0%",
+        "prior": "72.1%",
+        "change": "not stated",
+        "basis": "GAAP",
+        "note": "30 Sep 2026 vs 31 Dec 2025"
+      },
+      {
+        "metric": "GAAP net income",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "decreased",
+        "basis": "GAAP",
+        "note": "fell year-on-year; absolute figures not printed in captured text"
+      },
+      {
+        "metric": "Adjusted net income (non-GAAP)",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "double-digit growth",
+        "basis": "non-GAAP",
+        "note": "per CEO commentary"
+      },
+      {
+        "metric": "Economic profit (non-GAAP)",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "double-digit growth",
+        "basis": "non-GAAP",
+        "note": "per CEO commentary"
+      }
+    ],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": "No formal forward guidance is issued; however, the company revised its forecasting methodology, cutting forecasted collection rates on 2022–2026 loans to levels now expected for their life, which reduced forecasted future net cash flows and GAAP net income."
+    },
+    "explainer": "Credit Acceptance buys subprime US car-loan contracts from dealers and forecasts how much cash each 'Consumer Loan' will ultimately collect. The reported numbers mix strong new-business growth with a negative revaluation of the existing book. Unit volume rose 37.7% and dollar volume 51% as more dealers signed up and average advances grew — genuine momentum in originations.\n\nThe offsetting negative is accounting-driven. The company had been seeing small but persistent quarterly underperformance on loans written between 2022 and 2026, especially weaker-credit borrowers. Rather than trimming forecasts gradually, it changed its methodology this quarter and marked those collection rates down in one step to the levels it now expects for the life of the loans. Lower forecasted collections feed straight through to lower reported earnings, which is why GAAP net income fell even as volumes surged.\n\nManagement highlights non-GAAP measures — economic profit and adjusted net income — as showing double-digit growth, because those exclude much of the forecast adjustment's timing effect. The 'spread' (forecasted collection rate minus advance rate) is the core profitability gauge: 2026 dealer-loan spreads edged up to 20.0% from 19.9%, but purchased-loan spreads fell to 18.3% from 19.6% on a higher initial advance rate.\n\nImportant caveat for traders: the scraped text is truncated and does not print the headline GAAP revenue, net income or EPS figures, so the quantitative detail here is limited to what the narrative states. Treat the absolute results as unavailable in this capture.",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/CACC/share-news/Credit-Acceptance-Announces-Third-Quarter-2026-Res/99590611",
+    "related_news_url": "https://news.google.com/search?q=%22Credit%20Acceptance%20Corporation%22",
+    "added_at": "2026-10-30T07:19:46.185569"
   },
   {
     "company": "Starbucks Corp",
@@ -405,11 +1188,120 @@
     "time_period": "Q4 and FY to 27 September 2026",
     "announcement_type": "Annual results",
     "period_detail": "Q4 and FY to 27 September 2026",
-    "priority": "high",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>'Back to Starbucks'</strong> turnaround plan delivered a return to comp growth, margin expansion and stronger earnings in <strong>FY2026 (52 weeks to 27 September 2026)</strong>, with global <strong>Q4 comparable coffeehouse sales up 7.2%</strong>.</li><li><strong>Q4 consolidated net revenues down 4% to $9.1bn</strong>, reflecting the <strong>Starbucks China</strong> transaction (conversion of China retail to a licensed JV model in Q3 FY26).</li><li><strong>Q4 GAAP operating margin 10.8%, up 790bps</strong>; <strong>non-GAAP operating margin 14.0%, up 450bps</strong>, driven by lower restructuring costs and sales leverage.</li><li><strong>Q4 GAAP EPS $0.59 (+392%)</strong> and <strong>non-GAAP EPS $0.80 (+54%)</strong>.</li><li><strong>North America</strong> net revenues <strong>up 6% to $7.3bn</strong> on <strong>+7.9% comps</strong>; operating income jumped to <strong>$898.4m</strong> from <strong>$308.5m</strong>, margin <strong>12.3%</strong> vs <strong>4.5%</strong>.</li><li>Company introduced <strong>FY2027 guidance</strong> (a 53-week year), recently increased the dividend and plans to <strong>resume share repurchases in fiscal 2027</strong>.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-10-30T07:19:03.637191",
-    "locked": true,
-    "guidance_locked": true
+    "headline": "Starbucks posts 7.2% global Q4 comparable sales growth and sharply higher margins as its 'Back to Starbucks' plan drives FY2026 recovery.",
+    "priority": "high",
+    "priority_reason": "Full-year and Q4 results with margin expansion, strong comps and new FY2027 guidance.",
+    "figures": [
+      {
+        "metric": "Consolidated net revenues",
+        "current": "$9.1bn",
+        "prior": "not stated",
+        "change": "-4%",
+        "basis": "reported",
+        "note": "Q4 FY26, reflects China transaction"
+      },
+      {
+        "metric": "Global comparable coffeehouse sales",
+        "current": "+7.2%",
+        "prior": "not stated",
+        "change": "+7.2%",
+        "basis": "ex-FX, ex-Siren Retail",
+        "note": "Q4 FY26"
+      },
+      {
+        "metric": "GAAP operating margin",
+        "current": "10.8%",
+        "prior": "not stated",
+        "change": "+790bps",
+        "basis": "GAAP",
+        "note": "Q4 FY26"
+      },
+      {
+        "metric": "Non-GAAP operating margin",
+        "current": "14.0%",
+        "prior": "not stated",
+        "change": "+450bps",
+        "basis": "non-GAAP",
+        "note": "Q4 FY26"
+      },
+      {
+        "metric": "GAAP EPS",
+        "current": "$0.59",
+        "prior": "not stated",
+        "change": "+392%",
+        "basis": "GAAP",
+        "note": "Q4 FY26"
+      },
+      {
+        "metric": "Non-GAAP EPS",
+        "current": "$0.80",
+        "prior": "not stated",
+        "change": "+54%",
+        "basis": "non-GAAP",
+        "note": "Q4 FY26"
+      },
+      {
+        "metric": "North America net revenues",
+        "current": "$7.3bn",
+        "prior": "not stated",
+        "change": "+6%",
+        "basis": "reported",
+        "note": "Q4 FY26; comps +7.9%"
+      },
+      {
+        "metric": "North America operating income",
+        "current": "$898.4m",
+        "prior": "$308.5m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "Q4 FY26; margin 12.3% vs 4.5%"
+      },
+      {
+        "metric": "International net revenues",
+        "current": "$1.3bn",
+        "prior": "not stated",
+        "change": "-37%",
+        "basis": "reported",
+        "note": "Q4 FY26; China JV conversion"
+      },
+      {
+        "metric": "International operating income",
+        "current": "$256.9m",
+        "prior": "$223.2m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "Q4 FY26; margin 19.7% vs 10.8%"
+      },
+      {
+        "metric": "Channel Development net revenues",
+        "current": "$494.4m",
+        "prior": "not stated",
+        "change": "-9%",
+        "basis": "reported",
+        "note": "Q4 FY26"
+      },
+      {
+        "metric": "Channel Development operating income",
+        "current": "$264.3m",
+        "prior": "$265.2m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "Q4 FY26; margin 53.5% vs 48.9%"
+      }
+    ],
+    "guidance": {
+      "status": "new",
+      "previous": "",
+      "current": "Full-year FY2027 guidance introduced on a 53-week basis (except comparable sales growth metrics, which are relative to the 52-week FY2026); specific numeric targets not printed in this release.",
+      "commentary": "Starbucks introduced its first FY2027 outlook alongside these results but the release does not print the numeric guidance figures. Management flagged FY2027 is a 53-week year, with the extra week landing in Q4, and that year-over-year comparisons reflect China retail as company-operated for H1 FY26."
+    },
+    "explainer": "These are Starbucks' fourth-quarter and full-year results for the fiscal year ended 27 September 2026. The headline fall in revenue — consolidated net revenues down 4% to $9.1bn — is not a sign of weakening demand; it is almost entirely a consequence of the China transaction. In Q3 FY26 Starbucks converted its company-operated China stores into a licensed joint-venture model, so roughly 8,000 coffeehouses no longer book their full retail sales through Starbucks' own revenue line. Underlying trading was in fact strong: global comparable coffeehouse sales, which strip out currency moves and new/closed stores, rose 7.2%.\n\nThe profitability picture improved sharply. GAAP operating margin rose 790 basis points to 10.8% and non-GAAP (adjusted) margin rose 450 basis points to 14.0%. Much of the GAAP jump reflects far lower restructuring charges than the prior year, when the 'Back to Starbucks' plan drove heavy store-closure costs; the adjusted figure, which smooths out those one-offs, is the cleaner read on genuine operating improvement. GAAP EPS of $0.59 was up 392% partly for the same reason — the prior-year base was depressed by charges — whereas the 54% rise in non-GAAP EPS to $0.80 better reflects recurring earnings growth.\n\nOn guidance, Starbucks has introduced a FY2027 outlook for the first time, but this release does not print the actual numeric targets — those will come on the earnings call. Two technical points matter for comparability: FY2027 is a 53-week year (the extra week falls in Q4), and the year-on-year comparisons within guidance treat China retail as a company-operated business for the first half of FY2026, which affects how revenue growth will look. Alongside the outlook, management confirmed a recently increased dividend and plans to resume share buybacks in FY2027.",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/SBUX/share-news/Starbucks-Reports-Q4-and-Full-Fiscal-Year-2026-Res/99590762",
+    "related_news_url": "https://news.google.com/search?q=%22Starbucks%20Corporation%22",
+    "added_at": "2026-10-30T07:19:03.637191"
   },
   {
     "company": "Gaming and Leisure Properties Inc",
@@ -419,11 +1311,64 @@
     "time_period": "Q3 2026 (quarter to 30 September 2026)",
     "announcement_type": "Quarterly results",
     "period_detail": "Q3 2026 (quarter to 30 September 2026)",
-    "priority": "high",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Gaming and Leisure Properties</strong> reported record third-quarter total revenue of <strong>$435.4m</strong>, up <strong>9.5%</strong> year-on-year.</li><li>AFFO rose <strong>10.5%</strong> to <strong>$311.7m</strong>; <strong>AFFO per share</strong> up <strong>7.2%</strong> to <strong>$1.04</strong>.</li><li>Adjusted EBITDA increased <strong>13.0%</strong> to <strong>$413.9m</strong>.</li><li>Full-year 2026 AFFO guidance nudged up at the low end to <strong>$1.222bn-$1.225bn</strong> (<strong>$4.11-$4.12</strong> per diluted share), from <strong>$1.219bn-$1.225bn</strong> (<strong>$4.10-$4.12</strong>).</li><li>Q3 dividend of <strong>$0.82</strong> per share paid <strong>25 September 2026</strong>; portfolio of <strong>71</strong> gaming facilities across <strong>21</strong> states, let to tenants including <strong>PENN</strong>, <strong>Caesars</strong>, <strong>Boyd</strong> and <strong>Bally's</strong>.</li><li>CEO <strong>Peter Carlino</strong> flagged a yield of over <strong>8.5%</strong> on the current dividend, calling the share price 'significantly dislocated from its fundamentals'.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-10-30T07:18:26.297135",
-    "locked": true,
-    "guidance_locked": true
+    "headline": "GLPI posts record Q3 with total revenue up 9.5% to $435.4m and lifts the low end of its full-year 2026 AFFO guidance.",
+    "priority": "high",
+    "priority_reason": "Record quarterly results with an update to full-year 2026 AFFO guidance.",
+    "figures": [
+      {
+        "metric": "Total revenue",
+        "current": "$435.4m",
+        "prior": "not stated",
+        "change": "+9.5%",
+        "basis": "year-on-year",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "AFFO",
+        "current": "$311.7m",
+        "prior": "not stated",
+        "change": "+10.5%",
+        "basis": "non-GAAP",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "AFFO per share",
+        "current": "$1.04",
+        "prior": "not stated",
+        "change": "+7.2%",
+        "basis": "per diluted share and OP/LTIP units",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "Adjusted EBITDA",
+        "current": "$413.9m",
+        "prior": "not stated",
+        "change": "+13.0%",
+        "basis": "non-GAAP",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "Quarterly dividend",
+        "current": "$0.82",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "per common share",
+        "note": "paid 25 September 2026"
+      }
+    ],
+    "guidance": {
+      "status": "raised",
+      "previous": "AFFO for the year ending 31 December 2026 of between $1.219 billion and $1.225 billion, or between $4.10 and $4.12 per diluted share and OP/LTIP units",
+      "current": "AFFO for the year ending 31 December 2026 of between $1.222 billion and $1.225 billion, or between $4.11 and $4.12 per diluted share and OP/LTIP units",
+      "commentary": "The low end of the range has been lifted (by $3m, and by $0.01 of per-share AFFO) while the top end is unchanged, effectively narrowing the range upward. Management attributed the update to the current operating and competitive environment."
+    },
+    "explainer": "GLPI is a US REIT that owns casino and gaming property and leases it back to operators on long triple-net leases, so its earnings are measured mainly in REIT cash-flow terms rather than standard profit. AFFO (adjusted funds from operations) strips out property depreciation and various non-cash items to show the recurring cash the rent portfolio throws off; it is the figure the dividend is paid from and the metric management guides on. The 9.5%, 10.5% and 13.0% gains are all reported year-on-year increases on the comparable 2026 third quarter.\n\nThe guidance change is modest and technical rather than a signal of accelerating growth. Full-year 2026 AFFO guidance was already $1.219bn-$1.225bn; the company has raised only the bottom of that range to $1.222bn, lifting per-share AFFO guidance from a $4.10-$4.12 band to $4.11-$4.12. In practice this narrows uncertainty and tilts the likely outcome slightly higher, but the ceiling is unchanged.\n\nAll figures are in US dollars and based on the quarter and nine months to 30 September 2026. GLPI does not reconcile its forward AFFO guidance to GAAP net income, citing the unpredictability of items such as credit-loss provisions under US accounting rules, so the guidance should be read as a non-GAAP cash-flow estimate only.",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/GLPI/share-news/Gaming-and-Leisure-Properties-Reports-Record-Third/99591002",
+    "related_news_url": "https://news.google.com/search?q=%22Gaming%20and%20Leisure%20Properties%2C%20Inc.%22",
+    "added_at": "2026-10-30T07:18:26.297135"
   },
   {
     "company": "Mohawk Industries Inc",
@@ -433,11 +1378,96 @@
     "time_period": "Q3 2026 (three months ended 3 October 2026)",
     "announcement_type": "Quarterly results",
     "period_detail": "Q3 2026 (three months ended 3 October 2026)",
-    "priority": "high",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Q3 2026 net sales $2.8bn</strong>, up approximately <strong>1%</strong> (approximately flat on an adjusted basis), with an extra shipping day adding ~1%; adjusted volumes fell ~4% on soft demand, offset by ~4% from price and mix.</li><li><strong>Net earnings $163m</strong> (5.9% of sales); <strong>adjusted EBITDA ~$353m</strong> at a <strong>12.7% margin</strong>; operating income $188m, adjusted operating income $200m (down ~$5m on lower volume and higher inflation).</li><li><strong>Diluted EPS $2.72, up ~55%</strong>; <strong>adjusted EPS $2.72, up ~2%</strong>, in line with the company's guidance assumptions.</li><li>By segment: <strong>Global Ceramic</strong> sales $1.1bn (+2%), <strong>Flooring North America</strong> $950m (+1%), <strong>Flooring Rest of the World</strong> $707m (-1%, adjusted volumes down ~10%).</li><li>Repurchased <strong>2.0m shares for $261m</strong> in the quarter; board authorised a <strong>new $500m buyback</strong> after completing the prior programme; <strong>net debt/adjusted EBITDA 0.7x</strong>; FY capex guided down to ~$445m from ~$460m.</li><li><strong>Q4 2026 adjusted EPS guided to $1.35-$1.45</strong>; management expects low single-digit adjusted net sales growth despite four fewer shipping days versus the prior year, with inflation offset by price, mix and productivity.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-10-30T07:17:38.488386",
-    "locked": true,
-    "guidance_locked": true
+    "headline": "Mohawk posted Q3 2026 net sales of $2.8bn, up ~1%, with diluted EPS of $2.72 and a new $500m share buyback authorised.",
+    "priority": "high",
+    "priority_reason": "Quarterly results with Q4 EPS guidance, a new $500m buyback authorisation and segment detail — all market-moving for the shares.",
+    "figures": [
+      {
+        "metric": "Net sales",
+        "current": "$2.8bn",
+        "prior": "not stated",
+        "change": "+1% (approx flat adjusted)",
+        "basis": "reported; +1% from extra shipping day",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "Net earnings",
+        "current": "$163m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "5.9% of net sales",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "Adjusted EBITDA",
+        "current": "~$353m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "12.7% margin",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "Operating income",
+        "current": "$188m",
+        "prior": "not stated",
+        "change": "+~$51m",
+        "basis": "reported",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "Adjusted operating income",
+        "current": "$200m",
+        "prior": "not stated",
+        "change": "-~$5m",
+        "basis": "adjusted",
+        "note": "Q3 2026; lower volume, higher inflation"
+      },
+      {
+        "metric": "Diluted EPS",
+        "current": "$2.72",
+        "prior": "not stated",
+        "change": "+~55%",
+        "basis": "reported",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "Adjusted EPS",
+        "current": "$2.72",
+        "prior": "not stated",
+        "change": "+~2%",
+        "basis": "adjusted",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "Free cash flow",
+        "current": "$390m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "cash from ops $471m less capex $81m",
+        "note": "Q3 2026; $626m for nine months"
+      },
+      {
+        "metric": "Net debt / adjusted EBITDA",
+        "current": "0.7x",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "leverage",
+        "note": "end Q3 2026"
+      }
+    ],
+    "guidance": {
+      "status": "new",
+      "previous": "FY capex expectation of approximately $460m",
+      "current": "Q4 2026 adjusted EPS of $1.35 to $1.45; low single-digit growth in adjusted net sales versus prior year; FY capex now ~$445m",
+      "commentary": "The company issued fresh Q4 2026 adjusted EPS guidance of $1.35-$1.45 and trimmed full-year capex guidance to ~$445m from ~$460m. Q4 faces four fewer shipping days than a year ago, with softer flooring markets expected, though inflation should be fully offset by pricing, mix and productivity; a similar dynamic is flagged for Q1 2027."
+    },
+    "explainer": "Mohawk reports both US GAAP (\"reported\") and adjusted figures. The adjusted sales measure strips out currency moves, the number of shipping days in the period and acquisitions, so it better reflects underlying demand. On that basis Q3 sales were roughly flat: an extra shipping day and price/mix gains offset a ~4% fall in volumes caused by soft end markets. Reported sales rose ~1%.\n\nThe large ~55% jump in reported diluted EPS to $2.72 flatters the picture — it reflects one-off tax benefits (a US legal-entity restructuring, Brazilian tax credits and a US tax election) plus a lower share count after buybacks. Adjusted EPS, which excludes such items, was up only ~2%, giving a truer read of operating performance.\n\nGuidance here is new rather than changed: the company set Q4 2026 adjusted EPS at $1.35-$1.45 and now expects full-year capex of ~$445m, down from ~$460m. Q4 has four fewer shipping days than the prior-year quarter, which mechanically weighs on reported sales, but management still expects low single-digit growth in adjusted net sales and to fully offset cost inflation through pricing, mix and productivity.\n\nThe separate $500m buyback authorisation replaces a now-completed programme; alongside 0.7x net leverage, it signals continued capital returns rather than a change to the earnings outlook.",
+    "source_url": "https://uk.advfn.com/stock-market/NYSE/MHK/share-news/Mohawk-Industries-Reports-Q3-2026-Results/99591021",
+    "related_news_url": "https://news.google.com/search?q=%22Mohawk%20Industries%2C%20Inc.%22",
+    "added_at": "2026-10-30T07:17:38.488386"
   },
   {
     "company": "Mobico Group PLC",
@@ -447,10 +1477,23 @@
     "time_period": "",
     "announcement_type": "Acquisition / deal",
     "period_detail": "",
-    "priority": "high",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Mobico Group PLC</strong> has agreed a recommended all-cash acquisition by <strong>Leita Mobility Limited</strong> at <strong>46 pence per share</strong>, valuing equity at approximately <strong>£308 million</strong> and implying an enterprise value of around <strong>£2,323 million</strong>.</li><li>Offer represents a <strong>55.1%</strong> premium to the <strong>29.7p</strong> close on <strong>20 October 2026</strong> and a <strong>93.3%</strong> premium to the <strong>23.8p</strong> close on <strong>3 August 2026</strong>, the day before the first approach; implied EV multiple of <strong>11.7x</strong> FY2025 adjusted EBIT of <strong>£198m</strong>.</li><li>Bidco is an indirect subsidiary of <strong>Autobuses de León, S.L. (AdL)</strong>, owned <strong>50.1%</strong> by the <strong>CMC Group</strong> (the <strong>Cosmen family</strong> office, Mobico's largest shareholder at ~<strong>26%</strong>) and <strong>49.9%</strong> by <strong>Asterion Industrial Infra Fund III</strong>.</li><li>Mobico's Independent Directors, advised by <strong>BofA Securities</strong>, intend to recommend unanimously; <strong>Jorge Cosmen Menéndez-Castañedo</strong> is treated as non-independent and excluded.</li><li>Irrevocable undertakings received over <strong>161,923,237 shares</strong> (~<strong>26.4%</strong>), largely from non-voting scheme shareholders (the Cosmen vehicles); to be effected by a <strong>Part 26 scheme of arrangement</strong>.</li><li>AdL cites Mobico's debt burden and intends to support it via a sustainable capital structure and combination with AdL's Malta and Cyprus bus concessions.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-10-30T07:37:34.270834",
-    "locked": true
+    "headline": "Mobico agrees recommended 46p-per-share cash takeover by Leita Mobility, valuing equity at about £308m and backed by the Cosmen family and Asterion.",
+    "priority": "high",
+    "priority_reason": "Recommended cash takeover of the entire company at a large premium, board-recommended with a scheme of arrangement.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://www.investegate.co.uk/announcement/rns/mobico-group--mcg/recommended-cash-acquisition-for-mobico-group-plc/9849217",
+    "related_news_url": "https://news.google.com/search?q=%22Mobico%20Group%22",
+    "added_at": "2026-10-30T07:37:34.270834"
   },
   {
     "company": "Amazon.com Inc",
@@ -460,11 +1503,48 @@
     "time_period": "Q3 2026 (quarter ended 30 September 2026)",
     "announcement_type": "Quarterly results",
     "period_detail": "Q3 2026 (quarter ended 30 September 2026)",
-    "priority": "high",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Operating income</strong> of <strong>$28.1bn</strong> and <strong>operating margin</strong> of <strong>13.9%</strong> — described as <strong>Amazon's highest operating margin ever</strong>.</li><li><strong>AWS</strong> net sales up <strong>39.3%</strong> year-on-year — its fastest growth in nearly five years — reaching a <strong>$184bn</strong> annualised revenue run rate.</li><li>CEO <strong>Andy Jassy</strong> flagged projected <strong>AWS</strong> revenue growth of <strong>over 40%</strong> in both <strong>2027</strong> and <strong>2028</strong>, citing returns on functionality and infrastructure investment.</li><li>Newer businesses — <strong>Grocery</strong>, <strong>Pharmacy</strong>, <strong>Amazon Leo</strong> and <strong>Zoox</strong> — said to be progressing; Jassy suggested Amazon could have two trillion-dollar revenue businesses within 5–10 years.</li><li>Company-specific Q4 revenue/operating income guidance figures are <strong>not reproduced</strong> in the scraped text, which carries only the forward-looking risk-factor language.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-10-30T07:20:51.536337",
-    "locked": true,
-    "guidance_locked": true
+    "headline": "Amazon posts record operating income of **$28.1bn** (margin **13.9%**) in Q3 2026 as **AWS** net sales accelerate **39.3%** to a **$184bn** annualised run rate.",
+    "priority": "high",
+    "priority_reason": "Quarterly results from a mega-cap with a record operating margin and sharply accelerating AWS growth.",
+    "figures": [
+      {
+        "metric": "AWS net sales",
+        "current": "$184bn annualised run rate",
+        "prior": "not stated",
+        "change": "+39.3% Y/Y",
+        "basis": "not stated",
+        "note": "Q3 2026; fastest growth in nearly five years"
+      },
+      {
+        "metric": "Operating income",
+        "current": "$28.1bn",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "not stated",
+        "note": "Q3 2026"
+      },
+      {
+        "metric": "Operating margin",
+        "current": "13.9%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "not stated",
+        "note": "stated as highest ever"
+      }
+    ],
+    "guidance": {
+      "status": "new",
+      "previous": "not stated in text",
+      "current": "CEO projects AWS revenue growth of over 40% in both 2027 and 2028",
+      "commentary": "No formal company-wide Q4 revenue or operating-income guidance figures appear in the scraped text — only the standard forward-looking risk-factor language. The only forward quantification is the CEO's projection of AWS growth above 40% in 2027 and 2028."
+    },
+    "explainer": "Amazon's Q3 2026 headline is operational quality rather than a single revenue number: a 13.9% operating margin is the highest the group has reported, meaning more of each dollar of sales is dropping through to profit. The announcement does not print the prior-year comparatives for operating income or margin, so the exact year-on-year improvement cannot be stated from this text.\n\nThe standout is AWS. A 39.3% year-on-year increase takes the cloud division to a $184bn annualised revenue run rate (i.e. the latest quarter's sales multiplied up to a full-year pace, not an actual twelve-month figure). This is framed as the fastest AWS growth in almost five years, and is attributed to demand for its infrastructure and functionality — largely AI-related compute.\n\nOn guidance, the scraped text contains the 'Financial Guidance' heading but only the accompanying risk-factor caveats, not the quantified Q4 outlook that normally sits there. The sole forward number is qualitative management commentary: CEO Andy Jassy expects AWS revenue to grow more than 40% in both 2027 and 2028. Treat that as directional guidance on the cloud unit rather than formal group guidance.",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/AMZN/share-news/Amazon-com-Announces-Third-Quarter-Results/99590560",
+    "related_news_url": "https://news.google.com/search?q=%22Amazon.com%2C%20Inc.%22",
+    "added_at": "2026-10-30T07:20:51.536337"
   },
   {
     "company": "Universal Logistics Holdings Inc",
@@ -474,10 +1554,88 @@
     "time_period": "Q3 2026 (quarter ended 3 October 2026)",
     "announcement_type": "Quarterly results",
     "period_detail": "Q3 2026 (quarter ended 3 October 2026)",
-    "priority": "high",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Q3 2026</strong> operating revenues of <strong>$394.0m</strong>, broadly flat versus <strong>$396.8m</strong> a year earlier; income from operations of <strong>$32.8m</strong> against a prior-year operating loss of <strong>$117.4m</strong>.</li><li>Net income of <strong>$18.1m</strong> (<strong>$0.69</strong> basic and diluted EPS) versus a net loss of <strong>$117.9m</strong> (<strong>-$4.48</strong> EPS) last year, which included <strong>$124.4m</strong> of non-cash impairment charges; adjusted operating income a year ago was <strong>$7.0m</strong>.</li><li>Adjusted EBITDA rose to <strong>$64.7m</strong> from <strong>$43.3m</strong>; operating margin <strong>8.3%</strong> versus <strong>(29.6)%</strong> (adjusted <strong>1.8%</strong> prior year).</li><li><strong>Contract Logistics</strong> revenue up <strong>2.8%</strong> to <strong>$271.9m</strong> (operating income <strong>$22.9m</strong> vs <strong>$13.7m</strong>); <strong>Intermodal</strong> returned to profit with operating income of <strong>$2.7m</strong> vs a <strong>$135.1m</strong> loss; <strong>Trucking</strong> revenue <strong>$69.0m</strong>.</li><li><strong>Debt – net</strong> cut by <strong>$119.5m</strong> from year-end to <strong>$678.1m</strong>; credit agreement leverage <strong>1.98x</strong> against a <strong>3.50x</strong> covenant; revolver extended to <strong>September 2029</strong> but reduced to <strong>$350.0m</strong>.</li><li>Board declared a quarterly cash dividend of <strong>$0.105</strong> per share, payable <strong>6 January 2027</strong> to holders of record on <strong>1 December 2026</strong>.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-10-30T07:17:08.658368",
-    "locked": true
+    "headline": "Universal Logistics swung to **Q3 net income of $18.1m** (EPS **$0.69**) from a year-earlier loss driven by impairments, and declared a **$0.105** dividend.",
+    "priority": "high",
+    "priority_reason": "Quarterly results with a swing back to profit and a declared dividend.",
+    "figures": [
+      {
+        "metric": "Operating revenues",
+        "current": "$394.0m",
+        "prior": "$396.8m",
+        "change": "-0.7%",
+        "basis": "reported",
+        "note": "Q3 2026 vs Q3 2025"
+      },
+      {
+        "metric": "Income from operations",
+        "current": "$32.8m",
+        "prior": "-$117.4m (operating loss)",
+        "change": "not stated",
+        "basis": "reported; prior year included $124.4m impairment",
+        "note": "Q3 2026 vs Q3 2025"
+      },
+      {
+        "metric": "Net income",
+        "current": "$18.1m",
+        "prior": "-$117.9m (net loss)",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "Q3 2026 vs Q3 2025"
+      },
+      {
+        "metric": "EPS (basic & diluted)",
+        "current": "$0.69",
+        "prior": "-$4.48",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "Q3 2026 vs Q3 2025"
+      },
+      {
+        "metric": "Operating margin",
+        "current": "8.3%",
+        "prior": "(29.6)%",
+        "change": "not stated",
+        "basis": "reported; prior-year adjusted 1.8%",
+        "note": "Q3 2026 vs Q3 2025"
+      },
+      {
+        "metric": "Adjusted EBITDA",
+        "current": "$64.7m",
+        "prior": "$43.3m",
+        "change": "+49.4%",
+        "basis": "non-GAAP",
+        "note": "Q3 2026 vs Q3 2025"
+      },
+      {
+        "metric": "Debt - net",
+        "current": "$678.1m",
+        "prior": "not stated",
+        "change": "-$119.5m from year-end",
+        "basis": "reported",
+        "note": "at 3 October 2026"
+      },
+      {
+        "metric": "Quarterly dividend",
+        "current": "$0.105 per share",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "payable 6 January 2027"
+      }
+    ],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "The headline year-on-year swing from a large loss to profit is mostly an artefact of the comparative period. In Q3 2025 Universal booked $124.4m of non-cash impairment charges, which produced the reported operating and net losses. Stripping those out, the company's adjusted operating income a year ago was only $7.0m, so the more meaningful comparison is this quarter's $32.8m of operating income against that modest adjusted base — a genuine improvement, but less dramatic than the reported figures suggest.\n\nRevenue was essentially flat ($394.0m vs $396.8m). The profit improvement came from mix and cost control: Contract Logistics (about 69% of revenue) grew and expanded margin on lower personnel and depreciation costs, while the Intermodal segment returned to a small operating profit after heavy losses. Intermodal revenue still fell 17.9% year on year as load volumes dropped 45.7%, offset by a 40.4% rise in revenue per load — the business is being run for price and profitability rather than volume.\n\nThe balance sheet is the other theme: net debt was cut by $119.5m since year-end to $678.1m, and the revolving credit facility was extended to September 2029, though headline revolver commitments were reduced from $500m to $350m. Leverage under the credit agreement is comfortable at 1.98x against a 3.50x covenant limit.\n\nNo forward financial guidance figures were given; the release contains only qualitative forward-looking statements, so there is nothing to compare against prior targets.",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/ULH/share-news/Universal-Logistics-Holdings-Inc-Reports-Third-Q/99591197",
+    "related_news_url": "https://news.google.com/search?q=%22Universal%20Logistics%20Holdings%2C%20Inc.%22",
+    "added_at": "2026-10-30T07:17:08.658368"
   },
   {
     "company": "Land Securities Group PLC",
