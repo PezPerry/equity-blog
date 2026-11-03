@@ -1,5 +1,45 @@
 [
   {
+    "company": "Wizz Air Holdings PLC",
+    "ticker": "WIZZ",
+    "publish_date": "03 November 2026",
+    "date_iso": "2026-11-03",
+    "time_period": "October 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "October 2026",
+    "priority": "medium",
+    "source_format": "html",
+    "added_at": "2026-11-03T07:58:08.744948",
+    "locked": true
+  },
+  {
+    "company": "Franchise Brands PLC",
+    "ticker": "FRAN",
+    "publish_date": "03 November 2026",
+    "date_iso": "2026-11-03",
+    "time_period": "Q3 2026 (three months to 30 September 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "Q3 2026 (three months to 30 September 2026)",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-03T07:58:08.734543",
+    "locked": true,
+    "guidance_locked": true
+  },
+  {
+    "company": "Convatec Group PLC",
+    "ticker": "CTEC",
+    "publish_date": "03 November 2026",
+    "date_iso": "2026-11-03",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "priority": "medium",
+    "source_format": "html",
+    "added_at": "2026-11-03T07:58:08.724663",
+    "locked": true
+  },
+  {
     "company": "Drax Group PLC",
     "ticker": "DRX",
     "publish_date": "03 November 2026",
