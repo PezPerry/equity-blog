@@ -13,6 +13,33 @@
     "locked": true
   },
   {
+    "company": "trivago NV",
+    "ticker": "TRVG",
+    "publish_date": "03 November 2026",
+    "date_iso": "2026-11-03",
+    "time_period": "Q3 2026 (quarter ended 30 September 2026)",
+    "announcement_type": "Quarterly results",
+    "period_detail": "Q3 2026 (quarter ended 30 September 2026)",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-04T07:17:01.728022",
+    "locked": true,
+    "guidance_locked": true
+  },
+  {
+    "company": "HSBC Holdings PLC",
+    "ticker": "HSBA",
+    "publish_date": "03 November 2026",
+    "date_iso": "2026-11-03",
+    "time_period": "",
+    "announcement_type": "Financing / refinancing",
+    "period_detail": "",
+    "priority": "medium",
+    "source_format": "html",
+    "added_at": "2026-11-04T07:17:01.659916",
+    "locked": true
+  },
+  {
     "company": "Metro Bank Holdings PLC",
     "ticker": "MTRO",
     "publish_date": "03 November 2026",
