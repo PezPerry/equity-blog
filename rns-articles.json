@@ -1,5 +1,33 @@
 [
   {
+    "company": "Weir PLC",
+    "ticker": "WEIR",
+    "publish_date": "04 November 2026",
+    "date_iso": "2026-11-04",
+    "time_period": "Q3 to 30 September 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "Q3 to 30 September 2026",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-04T07:48:53.047616",
+    "locked": true,
+    "guidance_locked": true
+  },
+  {
+    "company": "Metro Bank Holdings PLC",
+    "ticker": "MTRO",
+    "publish_date": "04 November 2026",
+    "date_iso": "2026-11-04",
+    "time_period": "Q3 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "Q3 2026",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-04T07:48:53.008531",
+    "locked": true,
+    "guidance_locked": true
+  },
+  {
     "company": "Lancashire Holdings Ltd",
     "ticker": "LRE",
     "publish_date": "04 November 2026",
