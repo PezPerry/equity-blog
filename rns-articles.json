@@ -1,5 +1,32 @@
 [
   {
+    "company": "Trainline PLC",
+    "ticker": "TRN",
+    "publish_date": "04 November 2026",
+    "date_iso": "2026-11-04",
+    "time_period": "H1 to 31 August 2026",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 to 31 August 2026",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-04T07:51:38.262435",
+    "locked": true,
+    "guidance_locked": true
+  },
+  {
+    "company": "Funding Circle Holdings plc",
+    "ticker": "FCH",
+    "publish_date": "04 November 2026",
+    "date_iso": "2026-11-04",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "priority": "medium",
+    "source_format": "html",
+    "added_at": "2026-11-04T07:51:38.251208",
+    "locked": true
+  },
+  {
     "company": "Smith & Nephew plc",
     "ticker": null,
     "publish_date": "04 November 2026",
