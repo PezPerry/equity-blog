@@ -1,5 +1,31 @@
 [
   {
+    "company": "Marks and Spencer Group plc",
+    "ticker": "MKS",
+    "publish_date": "04 November 2026",
+    "date_iso": "2026-11-04",
+    "time_period": "H1 to 26 September 2026 (26 weeks)",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 to 26 September 2026 (26 weeks)",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-04T07:52:40.700451",
+    "locked": true
+  },
+  {
+    "company": "Lion Finance Group PLC",
+    "ticker": "BGEO",
+    "publish_date": "04 November 2026",
+    "date_iso": "2026-11-04",
+    "time_period": "Q3 2026",
+    "announcement_type": "Dividend declaration",
+    "period_detail": "Q3 2026",
+    "priority": "medium",
+    "source_format": "html",
+    "added_at": "2026-11-04T07:52:40.660567",
+    "locked": true
+  },
+  {
     "company": "Trainline PLC",
     "ticker": "TRN",
     "publish_date": "04 November 2026",
