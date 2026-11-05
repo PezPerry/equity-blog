@@ -1,5 +1,32 @@
 [
   {
+    "company": "National Grid plc",
+    "ticker": null,
+    "publish_date": "05 November 2026",
+    "date_iso": "2026-11-05",
+    "time_period": "H1 FY2026/27 (six months to 30 September 2026)",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 FY2026/27 (six months to 30 September 2026)",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-05T08:10:09.510137",
+    "locked": true,
+    "guidance_locked": true
+  },
+  {
+    "company": "BT Group PLC",
+    "ticker": "BT.A",
+    "publish_date": "05 November 2026",
+    "date_iso": "2026-11-05",
+    "time_period": "",
+    "announcement_type": "Special dividend",
+    "period_detail": "",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-05T08:10:09.475348",
+    "locked": true
+  },
+  {
     "company": "Diageo PLC",
     "ticker": "DGE",
     "publish_date": "05 November 2026",
