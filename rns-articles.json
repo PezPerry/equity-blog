@@ -1,5 +1,32 @@
 [
   {
+    "company": "Reckitt Benckiser Group plc",
+    "ticker": "RKT",
+    "publish_date": "05 November 2026",
+    "date_iso": "2026-11-05",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "priority": "low",
+    "source_format": "html",
+    "added_at": "2026-11-05T08:02:14.186493",
+    "locked": true
+  },
+  {
+    "company": "Howden Joinery Group PLC",
+    "ticker": "HWDN",
+    "publish_date": "05 November 2026",
+    "date_iso": "2026-11-05",
+    "time_period": "Periods 7 to 11 (14 June to 31 October 2026); FY2026 outlook",
+    "announcement_type": "Trading update",
+    "period_detail": "Periods 7 to 11 (14 June to 31 October 2026); FY2026 outlook",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-05T08:02:14.146032",
+    "locked": true,
+    "guidance_locked": true
+  },
+  {
     "company": "M&G PLC",
     "ticker": "MNG",
     "publish_date": "05 November 2026",
