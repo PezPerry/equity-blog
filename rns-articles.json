@@ -1,5 +1,31 @@
 [
   {
+    "company": "UNITE Group PLC",
+    "ticker": "UTG",
+    "publish_date": "05 November 2026",
+    "date_iso": "2026-11-05",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "priority": "medium",
+    "source_format": "html",
+    "added_at": "2026-11-05T08:11:49.919414",
+    "locked": true
+  },
+  {
+    "company": "Next PLC",
+    "ticker": "NXT",
+    "publish_date": "05 November 2026",
+    "date_iso": "2026-11-05",
+    "time_period": "Q3 to 31 October 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "Q3 to 31 October 2026",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-05T08:11:49.863130",
+    "locked": true
+  },
+  {
     "company": "Foxtons Group PLC",
     "ticker": "FOXT",
     "publish_date": "05 November 2026",
