@@ -1,5 +1,31 @@
 [
   {
+    "company": "Rio Tinto PLC",
+    "ticker": "RIO",
+    "publish_date": "05 November 2026",
+    "date_iso": "2026-11-05",
+    "time_period": "",
+    "announcement_type": "Capital investment / project update",
+    "period_detail": "",
+    "priority": "medium",
+    "source_format": "html",
+    "added_at": "2026-11-05T14:56:17.429446",
+    "locked": true
+  },
+  {
+    "company": "DropBox Inc",
+    "ticker": "DBX",
+    "publish_date": "05 November 2026",
+    "date_iso": "2026-11-05",
+    "time_period": "",
+    "announcement_type": "Acquisition / deal",
+    "period_detail": "",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-05T14:56:17.418664",
+    "locked": true
+  },
+  {
     "company": "Construction Partners Inc",
     "ticker": "ROAD",
     "publish_date": "05 November 2026",
