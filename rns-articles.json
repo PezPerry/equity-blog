@@ -1,5 +1,18 @@
 [
   {
+    "company": "CME Group Inc",
+    "ticker": "CME",
+    "publish_date": "05 November 2026",
+    "date_iso": "2026-11-05",
+    "time_period": "Q4 2026",
+    "announcement_type": "Dividend declaration",
+    "period_detail": "Q4 2026",
+    "priority": "medium",
+    "source_format": "html",
+    "added_at": "2026-11-05T15:56:06.159332",
+    "locked": true
+  },
+  {
     "company": "Rio Tinto PLC",
     "ticker": "RIO",
     "publish_date": "05 November 2026",
