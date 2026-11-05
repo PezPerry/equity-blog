@@ -1,5 +1,18 @@
 [
   {
+    "company": "Molten Ventures Plc",
+    "ticker": "GROW",
+    "publish_date": "05 November 2026",
+    "date_iso": "2026-11-05",
+    "time_period": "FY to 31 March 2027",
+    "announcement_type": "Disposal",
+    "period_detail": "FY to 31 March 2027",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-05T07:59:28.282472",
+    "locked": true
+  },
+  {
     "company": "METLEN Energy & Metals PLC",
     "ticker": "MTLN",
     "publish_date": "05 November 2026",
@@ -50,6 +63,19 @@
     "priority": "high",
     "source_format": "html",
     "added_at": "2026-11-05T07:16:51.851727",
+    "locked": true
+  },
+  {
+    "company": "Experian PLC",
+    "ticker": "EXPN",
+    "publish_date": "04 November 2026",
+    "date_iso": "2026-11-04",
+    "time_period": "",
+    "announcement_type": "Contract / commercial win",
+    "period_detail": "",
+    "priority": "low",
+    "source_format": "html",
+    "added_at": "2026-11-05T07:59:28.243567",
     "locked": true
   },
   {
