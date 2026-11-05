@@ -1,5 +1,31 @@
 [
   {
+    "company": "LGI Homes, Inc.",
+    "ticker": "LGIH",
+    "publish_date": "05 November 2026",
+    "date_iso": "2026-11-05",
+    "time_period": "October 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "October 2026",
+    "priority": "low",
+    "source_format": "html",
+    "added_at": "2026-11-05T07:16:51.863324",
+    "locked": true
+  },
+  {
+    "company": "Legacy Housing Corp",
+    "ticker": "LEGH",
+    "publish_date": "05 November 2026",
+    "date_iso": "2026-11-05",
+    "time_period": "Q3 2026",
+    "announcement_type": "Quarterly results",
+    "period_detail": "Q3 2026",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-05T07:16:51.851727",
+    "locked": true
+  },
+  {
     "company": "Construction Partners Inc",
     "ticker": "ROAD",
     "publish_date": "04 November 2026",
