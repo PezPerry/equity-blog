@@ -1,5 +1,32 @@
 [
   {
+    "company": "Caledonia Mining Corporation Plc",
+    "ticker": "CMCL",
+    "publish_date": "05 November 2026",
+    "date_iso": "2026-11-05",
+    "time_period": "",
+    "announcement_type": "Financing / refinancing",
+    "period_detail": "",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-05T08:06:29.865374",
+    "locked": true
+  },
+  {
+    "company": "BP PLC",
+    "ticker": "BP.",
+    "publish_date": "05 November 2026",
+    "date_iso": "2026-11-05",
+    "time_period": "FY 2026",
+    "announcement_type": "Disposal",
+    "period_detail": "FY 2026",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-05T08:06:29.855404",
+    "locked": true,
+    "guidance_locked": true
+  },
+  {
     "company": "ASOS PLC",
     "ticker": "ASC",
     "publish_date": "05 November 2026",
