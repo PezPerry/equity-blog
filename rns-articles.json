@@ -1,5 +1,19 @@
 [
   {
+    "company": "Diageo PLC",
+    "ticker": "DGE",
+    "publish_date": "05 November 2026",
+    "date_iso": "2026-11-05",
+    "time_period": "Q1 FY27 (three months to 30 September 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "Q1 FY27 (three months to 30 September 2026)",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-05T08:09:12.900058",
+    "locked": true,
+    "guidance_locked": true
+  },
+  {
     "company": "Harbour Energy PLC",
     "ticker": "HBR",
     "publish_date": "05 November 2026",
@@ -286,6 +300,20 @@
     "source_format": "html",
     "added_at": "2026-11-05T07:16:51.851727",
     "locked": true
+  },
+  {
+    "company": "BT Group PLC",
+    "ticker": "BT.A",
+    "publish_date": "04 November 2026",
+    "date_iso": "2026-11-04",
+    "time_period": "H1 to 30 September 2026 (H1 FY27)",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 to 30 September 2026",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-05T08:09:12.883391",
+    "locked": true,
+    "guidance_locked": true
   },
   {
     "company": "Tate & Lyle PLC",
