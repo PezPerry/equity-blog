@@ -1,5 +1,33 @@
 [
   {
+    "company": "RS Group plc",
+    "ticker": "RS1",
+    "publish_date": "05 November 2026",
+    "date_iso": "2026-11-05",
+    "time_period": "H1 to 30 September 2026 (HY 2026/27)",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 to 30 September 2026 (HY 2026/27)",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-05T08:00:45.555080",
+    "locked": true,
+    "guidance_locked": true
+  },
+  {
+    "company": "OSB Group PLC",
+    "ticker": "OSB",
+    "publish_date": "05 November 2026",
+    "date_iso": "2026-11-05",
+    "time_period": "Nine months to 30 September 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "Nine months to 30 September 2026",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-05T08:00:45.520318",
+    "locked": true,
+    "guidance_locked": true
+  },
+  {
     "company": "Molten Ventures Plc",
     "ticker": "GROW",
     "publish_date": "05 November 2026",
