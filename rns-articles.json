@@ -1,5 +1,32 @@
 [
   {
+    "company": "METLEN Energy & Metals PLC",
+    "ticker": "MTLN",
+    "publish_date": "05 November 2026",
+    "date_iso": "2026-11-05",
+    "time_period": "9M to 30 September 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "9M to 30 September 2026",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-05T07:58:50.154542",
+    "locked": true,
+    "guidance_locked": true
+  },
+  {
+    "company": "CLS Holdings PLC",
+    "ticker": "CLI",
+    "publish_date": "05 November 2026",
+    "date_iso": "2026-11-05",
+    "time_period": "",
+    "announcement_type": "Letting / property deal",
+    "period_detail": "",
+    "priority": "low",
+    "source_format": "html",
+    "added_at": "2026-11-05T07:58:50.110206",
+    "locked": true
+  },
+  {
     "company": "LGI Homes, Inc.",
     "ticker": "LGIH",
     "publish_date": "05 November 2026",
