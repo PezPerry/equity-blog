@@ -1,5 +1,32 @@
 [
   {
+    "company": "Naked Wines PLC",
+    "ticker": "WINE",
+    "publish_date": "06 November 2026",
+    "date_iso": "2026-11-06",
+    "time_period": "HY27 (26 weeks to 28 September 2026)",
+    "announcement_type": "Tender offer / trading update",
+    "period_detail": "HY27 (26 weeks to 28 September 2026)",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-06T07:59:07.028131",
+    "locked": true,
+    "guidance_locked": true
+  },
+  {
+    "company": "Chesnara PLC",
+    "ticker": "CSN",
+    "publish_date": "06 November 2026",
+    "date_iso": "2026-11-06",
+    "time_period": "",
+    "announcement_type": "Acquisition / deal",
+    "period_detail": "",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-06T07:59:07.010598",
+    "locked": true
+  },
+  {
     "company": "MJ Gleeson PLC",
     "ticker": "GLE",
     "publish_date": "06 November 2026",
