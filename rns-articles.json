@@ -1,5 +1,18 @@
 [
   {
+    "company": "Man Group PLC",
+    "ticker": "EMG",
+    "publish_date": "06 November 2026",
+    "date_iso": "2026-11-06",
+    "time_period": "",
+    "announcement_type": "Litigation update",
+    "period_detail": "",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-06T07:16:57.075364",
+    "locked": true
+  },
+  {
     "company": "International Consolidated Airlines Group, S.A.",
     "ticker": "IAG",
     "publish_date": "06 November 2026",
@@ -10,6 +23,19 @@
     "priority": "medium",
     "source_format": "html",
     "added_at": "2026-11-06T07:16:22.580452",
+    "locked": true
+  },
+  {
+    "company": "Coca-Cola HBC AG",
+    "ticker": "CCH",
+    "publish_date": "05 November 2026",
+    "date_iso": "2026-11-05",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "priority": "medium",
+    "source_format": "html",
+    "added_at": "2026-11-06T07:16:57.057641",
     "locked": true
   },
   {
