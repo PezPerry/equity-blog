@@ -1,5 +1,31 @@
 [
   {
+    "company": "TBC Bank Group PLC",
+    "ticker": "TBCG",
+    "publish_date": "06 November 2026",
+    "date_iso": "2026-11-06",
+    "time_period": "3Q 2026",
+    "announcement_type": "Dividend declaration",
+    "period_detail": "3Q 2026",
+    "priority": "medium",
+    "source_format": "html",
+    "added_at": "2026-11-06T11:55:52.003736",
+    "locked": true
+  },
+  {
+    "company": "Coca-Cola Europacific Partners plc",
+    "ticker": "CCEP",
+    "publish_date": "06 November 2026",
+    "date_iso": "2026-11-06",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "priority": "medium",
+    "source_format": "html",
+    "added_at": "2026-11-06T11:55:51.993678",
+    "locked": true
+  },
+  {
     "company": "Naked Wines PLC",
     "ticker": "WINE",
     "publish_date": "06 November 2026",
