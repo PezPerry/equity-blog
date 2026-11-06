@@ -1,5 +1,18 @@
 [
   {
+    "company": "International Consolidated Airlines Group, S.A.",
+    "ticker": "IAG",
+    "publish_date": "06 November 2026",
+    "date_iso": "2026-11-06",
+    "time_period": "FY 2026",
+    "announcement_type": "Dividend declaration",
+    "period_detail": "FY 2026",
+    "priority": "medium",
+    "source_format": "html",
+    "added_at": "2026-11-06T07:16:22.580452",
+    "locked": true
+  },
+  {
     "company": "CME Group Inc",
     "ticker": "CME",
     "publish_date": "05 November 2026",
@@ -982,10 +995,23 @@
     "time_period": "",
     "announcement_type": "Major contract win",
     "period_detail": "",
-    "priority": "high",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>KierBAM joint venture (KBJV)</strong> appointed by <strong>Babcock International Group</strong> — on behalf of the <strong>MoD's Defence Nuclear Enterprise</strong> — on a <strong>c.£600m</strong> programme of works at <strong>Devonport Royal Dockyard's 10 Dock</strong> in <strong>Plymouth</strong>.</li><li>Scope covers major civils infrastructure including a water-retaining boundary structure and nuclear-licensed components, plus buttresses, subways, rock anchors, reinforcement and a multi-tonne caisson.</li><li>Part of <strong>Babcock's Major Nuclear Capital Programme</strong> and wider decade-long investment at Devonport to support maintenance and availability of current and future submarine fleets.</li><li>No contribution split for Kier within the JV, phasing or margin stated in the announcement.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-11-02T15:35:53.832530",
-    "locked": true
+    "headline": "Kier's KierBAM joint venture wins a c.£600m contract to upgrade 10 Dock at Devonport Royal Dockyard, supporting the UK submarine fleet.",
+    "priority": "high",
+    "priority_reason": "A c.£600m defence contract win is a material order-book event for Kier.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/kier-KIE/share-news/Kier-Group-PLC-KierBAM-secures-c-600m-Devonport-d/99608686",
+    "related_news_url": "https://news.google.com/search?q=%22Kier%20Group%20plc%22",
+    "added_at": "2026-11-02T15:35:53.832530"
   },
   {
     "company": "Dorchester Minerals LP",
@@ -995,10 +1021,23 @@
     "time_period": "",
     "announcement_type": "Acquisition / deal",
     "period_detail": "",
-    "priority": "high",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Dorchester Minerals, L.P.</strong> has acquired producing and non-producing oil and gas mineral and royalty interests via a <strong>non-taxable contribution and exchange</strong>.</li><li>The contributing entity conveyed its interests in exchange for <strong>1,250,000 common units</strong> of the Partnership; no cash consideration or dollar value is stated.</li><li>Acquisition detail is limited — the announcement gives <strong>no valuation, reserves, production or income figures</strong>, so the deal's financial impact cannot be assessed from the text.</li><li>Dorchester is a Dallas-based owner of oil and natural gas mineral, royalty, overriding royalty and net profits interests across <strong>28 US states</strong>; units trade on NASDAQ under <strong>DMLP</strong>.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-11-02T11:55:58.835364",
-    "locked": true
+    "headline": "Dorchester Minerals acquires oil and gas mineral and royalty interests, issuing 1,250,000 new common units to the contributing entity in a non-taxable exchange.",
+    "priority": "high",
+    "priority_reason": "Acquisition of mineral and royalty interests funded by a unit issuance qualifies as M&A.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/DMLP/share-news/Dorchester-Minerals-L-P-Announces-Acquisition-of/99606335",
+    "related_news_url": "https://news.google.com/search?q=%22Dorchester%20Minerals%2C%20L.P.%22",
+    "added_at": "2026-11-02T11:55:58.835364"
   },
   {
     "company": "Ibstock PLC",
@@ -1008,11 +1047,64 @@
     "time_period": "Q3 FY to 31 December 2026",
     "announcement_type": "Trading update",
     "period_detail": "Q3 FY to 31 December 2026",
-    "priority": "high",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Profit warning</strong>: the Board now expects <strong>second-half performance materially below</strong> previous expectations, with <strong>full-year adjusted EBITDA in the mid-£40 million range</strong>.</li><li><strong>Clay division brick sales</strong> in <strong>Q3</strong> were <strong>22% below expectations</strong> as weak conditions continued through <strong>September and October</strong>; UK brick market volumes fell <strong>~17% year on year</strong> across <strong>July and August</strong>.</li><li>Production cut <strong>~20%</strong> versus half-year plans to curb inventory build; lower fixed-cost absorption expected to reduce <strong>adjusted EBITDA by ~£6m</strong>, on top of the hit from lower volumes.</li><li>Domestic brick market share held broadly flat year on year and average selling prices remained broadly in line with expectations.</li><li>Delay of the government's <strong>Your First Home</strong> support scheme to <strong>April 2027</strong> is flagged as adding near-term demand pressure, despite supporting the medium-term outlook.</li><li>Group prioritising cash generation and net debt reduction; <strong>Nostell</strong> ceramic façades factory commissioning on track to complete by year-end.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-11-02T07:58:04.413856",
-    "locked": true,
-    "guidance_locked": true
+    "headline": "Ibstock warns full-year adjusted EBITDA will be in the mid-£40 million range as UK brick demand slumped and Q3 clay sales came in 22% below plan.",
+    "priority": "high",
+    "priority_reason": "Profit warning: the Board now expects full-year adjusted EBITDA materially below previous expectations.",
+    "figures": [
+      {
+        "metric": "UK brick market volumes",
+        "current": "down ~17%",
+        "prior": "not stated",
+        "change": "-17%",
+        "basis": "year on year",
+        "note": "July and August, industry data"
+      },
+      {
+        "metric": "Clay division brick sales",
+        "current": "22% below expectations",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "vs internal expectations",
+        "note": "Q3"
+      },
+      {
+        "metric": "Production volumes",
+        "current": "reduced ~20%",
+        "prior": "not stated",
+        "change": "-20%",
+        "basis": "vs half-year plans",
+        "note": "Q3"
+      },
+      {
+        "metric": "Adjusted EBITDA impact (fixed-cost absorption)",
+        "current": "~£6m reduction",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "lower fixed-cost absorption",
+        "note": "in addition to lower sales volumes"
+      },
+      {
+        "metric": "Full-year adjusted EBITDA",
+        "current": "mid-£40 million range",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "FY to 31 December 2026, now expected"
+      }
+    ],
+    "guidance": {
+      "status": "lowered",
+      "previous": "Prior expectations for second-half and full-year performance (not quantified in this announcement)",
+      "current": "Second-half performance materially below previous expectations; full-year adjusted EBITDA expected in the mid-£40 million range",
+      "commentary": "Guidance has been cut after UK brick demand deteriorated sharply, with Q3 clay sales 22% below plan. The combination of lower sales and an additional ~£6m fixed-cost absorption hit from a ~20% production cut, only partly offset by cost savings, drives full-year adjusted EBITDA down to the mid-£40 million range."
+    },
+    "explainer": "This is effectively a profit warning. Ibstock makes bricks and concrete building products, so its sales track UK housebuilding activity. Industry data showed UK brick market volumes fell about 17% year on year over July and August, and conditions worsened further through September and October. As a result, the company's own clay (brick) sales in the third quarter landed 22% below what it had expected.\n\nTwo things hit profit. First, lower sales directly reduce revenue and margin. Second, to avoid building up unsold stock, Ibstock cut production by around 20% versus the plan it set out at the half year. Running factories below capacity means fixed costs are spread over fewer units — \"lower fixed-cost absorption\" — and this alone is expected to knock about £6m off adjusted EBITDA, on top of the volume shortfall. Cost and cash savings only partly offset this.\n\nOn guidance: the Board now expects second-half performance to be materially below its previous expectations, and full-year adjusted EBITDA to be in the mid-£40 million range. The announcement does not restate the prior guidance figure, so the exact size of the downgrade is not quantified here.\n\nManagement points to the government's Your First Home scheme as a positive for medium-term demand, but notes its delay until April 2027 is likely to weigh on activity in the meantime. The focus near term is on cash generation, cutting net debt, and completing the Nostell ceramic façades factory by year-end.",
+    "source_url": "https://uk.advfn.com/stock-market/london/ibstock-IBST/share-news/Ibstock-PLC-Q3-Trading-Update/99602859",
+    "related_news_url": "https://news.google.com/search?q=%22Ibstock%20plc%22",
+    "added_at": "2026-11-02T07:58:04.413856"
   },
   {
     "company": "Alfa Financial Software Holdings PLC",
@@ -1022,10 +1114,23 @@
     "time_period": "",
     "announcement_type": "Board / management change",
     "period_detail": "",
-    "priority": "medium",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Matthew White</strong> to step down as <strong>Chief Operating Officer</strong> and from the <strong>Board</strong> with effect from <strong>25 March 2027</strong>, to take a planned break from executive roles.</li><li>White has been with Alfa for <strong>27 years</strong>, serving as <strong>COO since 2019</strong> and overseeing the company's transition to a <strong>SaaS</strong> business.</li><li>He will support the transition and help plan for 2027 before departing; no successor named in the announcement.</li><li>Made under <strong>UK Listing Rule 6.4.6R</strong>; no impact on current trading or guidance stated.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-11-02T07:58:04.403826",
-    "locked": true
+    "headline": "Alfa COO Matthew White to step down from the role and the Board on 25 March 2027 to take a planned break from executive roles.",
+    "priority": "medium",
+    "priority_reason": "Departure of a long-serving COO and board director is a senior management change, though with a long notice period.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/alfa-financial-software-ALFA/share-news/Alfa-Financial-Software-Hldgs-PLC-Leadership-Team/99602898",
+    "related_news_url": "https://news.google.com/search?q=%22Alfa%20Financial%20Software%20Holdings%20PLC%22",
+    "added_at": "2026-11-02T07:58:04.403826"
   },
   {
     "company": "Grainger PLC",
@@ -1035,10 +1140,23 @@
     "time_period": "",
     "announcement_type": "Corporate update",
     "period_detail": "",
-    "priority": "low",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>Grainger plc</strong> has topped out <strong>Alloy Apartments</strong>, the second phase of <strong>The Mint</strong> at <strong>Guildford Station</strong>, a <strong>c.£75m</strong> development of <strong>179</strong> Build to Rent homes.</li><li>On track for practical completion in <strong>early 2028</strong>, with homes launching in <strong>mid-2028</strong>; forms part of Grainger's committed pipeline.</li><li>Combined with first phase <strong>Assay Apartments</strong>, the two schemes provide <strong>277 homes</strong> and over <strong>£116m</strong> of investment in Guildford; Assay ended <strong>FY26</strong> fully occupied with <strong>3.6%</strong> rental growth.</li><li>Alloy is one of three schemes in the committed pipeline expected to support the targeted <strong>35% earnings growth by FY29</strong>; delivered with partners <strong>Solum</strong>, <strong>Platform4</strong> and <strong>Kier Property</strong>.</li><li>Routine operational milestone with <strong>no impact</strong> on current trading or guidance.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-11-02T07:57:31.865585",
-    "locked": true
+    "headline": "Grainger tops out Alloy Apartments, the second phase of The Mint in Guildford, delivering 179 rental homes on track for completion in early 2028.",
+    "priority": "low",
+    "priority_reason": "Routine construction milestone (topping out) on a committed pipeline scheme, with no change to financials or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/grainger-GRI/share-news/Grainger-PLC-Topping-out-of-second-Guildford-BTR-s/99603048",
+    "related_news_url": "https://news.google.com/search?q=%22Grainger%20plc%22",
+    "added_at": "2026-11-02T07:57:31.865585"
   },
   {
     "company": "Endeavour Mining plc",
@@ -1048,11 +1166,23 @@
     "time_period": "FY 2026",
     "announcement_type": "Trading update",
     "period_detail": "FY 2026",
-    "priority": "high",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li>On <strong>28 October</strong> the access ramp to the depleted <strong>Wona open pit</strong> partially subsided at the <strong>Mana mine</strong> in <strong>Burkina Faso</strong>, restricting access to the <strong>Dangouna</strong> and <strong>Aviera</strong> underground portals.</li><li>Underground mining at all three active portals has been <strong>suspended</strong> pending geotechnical analysis and ramp remediation; <strong>no one was harmed</strong> and underground workers were evacuated.</li><li>Endeavour says it <strong>remains on track</strong> to achieve its <strong>FY-2026 Group production and AISC guidance</strong>.</li><li>Mitigation options under review include restart and acceleration of mining in the still-accessible <strong>Wona portal</strong> and other near-mine open pits.</li><li>Further detail on the geotechnical analysis and remediation plan to be given with <strong>Q3-2026 results on 12 November 2026</strong>.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-11-02T07:57:31.850046",
-    "locked": true,
-    "guidance_locked": true
+    "headline": "Endeavour suspends all underground mining at its Mana mine in Burkina Faso after an access ramp partially subsided, but maintains FY-2026 guidance.",
+    "priority": "high",
+    "priority_reason": "Operational incident has suspended all underground mining at a key West African mine, though full-year guidance is reaffirmed.",
+    "figures": [],
+    "guidance": {
+      "status": "maintained",
+      "previous": "FY-2026 Group production and AISC guidance",
+      "current": "On track to achieve FY-2026 Group production and AISC guidance",
+      "commentary": "Despite suspending all underground mining at Mana, Endeavour has reaffirmed its full-year Group production and all-in sustaining cost (AISC) guidance, indicating it does not yet expect the incident to move Group-level outcomes. No specific guidance figures were disclosed."
+    },
+    "explainer": "Endeavour is a senior gold producer with operations in Senegal, Cote d'Ivoire and Burkina Faso. The subsidence has halted underground production at Mana, one of its mines, while engineers assess the damage to the access ramp.\n\nThe key point for traders is that the company has not changed its full-year targets: it still expects to hit its 2026 Group gold production and AISC (all-in sustaining cost, the broad per-ounce cost measure) guidance. That suggests either that Mana is a small enough part of the Group, or that lost underground output can be offset by bringing forward mining at the accessible Wona portal and other open pits.\n\nNo production or cost figures were put on the incident. A fuller read on the operational and financial impact will only come with Q3-2026 results on 12 November 2026, so the quantified effect remains open until then.",
+    "source_url": "https://uk.advfn.com/stock-market/london/endeavour-mining-EDV/share-news/Endeavour-Reports-Access-Ramp-Subsidence-at-the-Ma/99602685",
+    "related_news_url": "https://news.google.com/search?q=%22Endeavour%20Mining%20plc%22",
+    "added_at": "2026-11-02T07:57:31.850046"
   },
   {
     "company": "Londonmetric Property PLC",
@@ -1062,10 +1192,23 @@
     "time_period": "",
     "announcement_type": "Board / management change",
     "period_detail": "",
-    "priority": "medium",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Martin McGann</strong>, Chief Financial Officer, has notified the Company of his decision to retire, leaving in <strong>summer 2027</strong> after the full-year results.</li><li>McGann has been with <strong>LondonMetric</strong> since its formation in <strong>January 2013</strong>, having previously been CFO at <strong>London & Stamford Property Plc</strong> and <strong>Pillar Property Plc</strong> alongside CEO <strong>Andrew Jones</strong>.</li><li>Succession plans are <strong>well underway</strong>, with an announcement on a replacement to be made in due course.</li><li>Long notice period and orderly handover; <strong>no impact</strong> on current trading or guidance.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-11-02T07:56:53.137245",
-    "locked": true
+    "headline": "LondonMetric CFO Martin McGann to retire in summer 2027 after full-year results, with a successor search already underway.",
+    "priority": "medium",
+    "priority_reason": "Departure of a long-serving CFO is a material management change, though with a long lead time and succession underway.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/londonmetric-property-LMP/share-news/LondonMetric-Property-PLC-RETIREMENT-OF-MARTIN-MCG/99603014",
+    "related_news_url": "https://news.google.com/search?q=%22LondonMetric%20Property%20Plc%22",
+    "added_at": "2026-11-02T07:56:53.137245"
   },
   {
     "company": "IP Group PLC",
@@ -1075,10 +1218,23 @@
     "time_period": "",
     "announcement_type": "Acquisition / deal",
     "period_detail": "",
-    "priority": "medium",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Aberdeen Investments</strong> has appointed <strong>IP Group</strong> to manage a UK venture growth portfolio within the <strong>CG Scottish Widows Growth LTAF</strong>, connecting workplace pension savings to high-growth UK companies.</li><li>Among the first UK DC workplace pension propositions to make an active allocation to UK venture growth; IP Group manages the UK venture sleeve of the fund's broader global private markets remit.</li><li>Mandate launches with initial investments across <strong>quantum computing</strong>, <strong>advanced battery technology</strong> and <strong>AI-enabled healthcare</strong>.</li><li>Initial holdings expected to include <strong>Oxford Quantum Circuits</strong>, <strong>Quantum Motion</strong>, <strong>Nyobolt</strong> and <strong>Genomics Limited</strong>.</li><li>CEO <strong>Greg Smith</strong> describes it as \"only the beginning of a much larger opportunity\"; <strong>no mandate size, committed capital or fee terms are disclosed</strong>.</li><li>Source states this as a model that \"can be expanded over time\" — no quantified financial impact on IP Group is given in the announcement.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-11-02T07:56:53.127513",
-    "locked": true
+    "headline": "IP Group appointed by Aberdeen Investments to manage a UK venture growth portfolio within the CG Scottish Widows Growth LTAF, backing British science and tech.",
+    "priority": "medium",
+    "priority_reason": "A new fund-management mandate win, but no mandate size, assets or fee figures are disclosed, limiting the immediate financial read.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/ip-IPO/share-news/IP-Group-PLC-IP-Group-appointed-to-manage-UK-growt/99603038",
+    "related_news_url": "https://news.google.com/search?q=%22IP%20Group%20plc%22",
+    "added_at": "2026-11-02T07:56:53.127513"
   },
   {
     "company": "METLEN Energy & Metals Plc",
@@ -1088,10 +1244,23 @@
     "time_period": "",
     "announcement_type": "Supply agreement",
     "period_detail": "",
-    "priority": "high",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>METLEN</strong> and <strong>Shell Global LNG Limited</strong> have signed a <strong>binding long-term LNG supply agreement</strong>, firming up the <strong>Memorandum of Understanding</strong> struck in <strong>February 2026</strong>.</li><li>Shell will supply <strong>six LNG cargoes per year</strong>, approximately <strong>0.6 bcma</strong>, over <strong>five years commencing in 2027</strong>.</li><li>Cargoes will be <strong>primarily sourced from Shell's US LNG portfolio</strong> and delivered for supply to <strong>Greece or other European gas markets</strong>.</li><li>Reinforces METLEN's strategy of long-term supply arrangements, portfolio diversification and its growing role in Southeast European and European gas markets.</li><li><strong>No contract value or financial terms</strong> disclosed, and the announcement states <strong>no impact</strong> on near-term guidance.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-11-02T07:56:24.278072",
-    "locked": true
+    "headline": "METLEN signs a binding five-year LNG supply deal with Shell for six cargoes a year, starting 2027.",
+    "priority": "high",
+    "priority_reason": "A binding long-term LNG supply contract with Shell is a material commercial agreement for a FTSE 100 energy group.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/metlen-energy-and-metals-MTLN/share-news/Metlen-Energy-Metals-PLC-METLEN-and-Shell-Sign-L/99603772",
+    "related_news_url": "https://news.google.com/search?q=%22METLEN%20Energy%20%26%20Metals%20Plc%22",
+    "added_at": "2026-11-02T07:56:24.278072"
   },
   {
     "company": "Prudential PLC",
