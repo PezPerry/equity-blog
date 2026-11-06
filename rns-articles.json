@@ -1,5 +1,31 @@
 [
   {
+    "company": "Dorchester Minerals LP",
+    "ticker": "DMLP",
+    "publish_date": "06 November 2026",
+    "date_iso": "2026-11-06",
+    "time_period": "Q3 to 30 September 2026",
+    "announcement_type": "Quarterly results",
+    "period_detail": "Q3 to 30 September 2026",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-06T07:17:49.364794",
+    "locked": true
+  },
+  {
+    "company": "DropBox Inc",
+    "ticker": "DBX",
+    "publish_date": "06 November 2026",
+    "date_iso": "2026-11-06",
+    "time_period": "Q3 FY26 (quarter ended 30 September 2026)",
+    "announcement_type": "Quarterly results",
+    "period_detail": "Q3 FY26 (quarter ended 30 September 2026)",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-06T07:17:49.329534",
+    "locked": true
+  },
+  {
     "company": "Man Group PLC",
     "ticker": "EMG",
     "publish_date": "06 November 2026",
