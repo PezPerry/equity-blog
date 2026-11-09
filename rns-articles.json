@@ -1,5 +1,45 @@
 [
   {
+    "company": "Kainos Group plc",
+    "ticker": "KNOS",
+    "publish_date": "09 November 2026",
+    "date_iso": "2026-11-09",
+    "time_period": "H1 FY27 (six months to 30 September 2026)",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 FY27 (six months to 30 September 2026)",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-09T07:57:23.119370",
+    "locked": true,
+    "guidance_locked": true
+  },
+  {
+    "company": "Hikma Pharmaceuticals PLC",
+    "ticker": "HIK",
+    "publish_date": "09 November 2026",
+    "date_iso": "2026-11-09",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "priority": "medium",
+    "source_format": "html",
+    "added_at": "2026-11-09T07:57:23.005839",
+    "locked": true
+  },
+  {
+    "company": "Capricorn Energy PLC",
+    "ticker": "CNE",
+    "publish_date": "09 November 2026",
+    "date_iso": "2026-11-09",
+    "time_period": "",
+    "announcement_type": "Acquisition / deal",
+    "period_detail": "",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-09T07:57:22.900318",
+    "locked": true
+  },
+  {
     "company": "Custodian Property Income REIT plc",
     "ticker": "CREI",
     "publish_date": "09 November 2026",
