@@ -1,5 +1,18 @@
 [
   {
+    "company": "Steel Dynamics Inc",
+    "ticker": "STLD",
+    "publish_date": "09 November 2026",
+    "date_iso": "2026-11-09",
+    "time_period": "",
+    "announcement_type": "Buyback programme launch / Dividend declaration",
+    "period_detail": "",
+    "priority": "medium",
+    "source_format": "html",
+    "added_at": "2026-11-10T07:16:47.060017",
+    "locked": true
+  },
+  {
     "company": "Adobe Inc",
     "ticker": "ADBE",
     "publish_date": "09 November 2026",
@@ -151,10 +164,23 @@
     "time_period": "",
     "announcement_type": "Board / management change",
     "period_detail": "",
-    "priority": "medium",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Timothy Powell</strong>, who joined as Chief Financial Officer on <strong>16 October 2026</strong>, was appointed to the Board as an Executive Director on <strong>30 October 2026</strong>, the date <strong>Richard Boult</strong> stepped down from the Board.</li><li>Granted LTIP awards over <strong>94,398 ordinary shares</strong> (nominal exercise price £0.0025), valued at <strong>£578k</strong> using a 90-day average share price of <strong>£6.1206</strong>.</li><li>Vesting subject to continued employment and performance conditions over the three financial years ending <strong>31 December 2028</strong>, expected to vest <strong>14 April 2029</strong>, with a two-year post-vesting holding period.</li><li>Routine Board change and remuneration disclosure with <strong>no impact</strong> on trading or guidance.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-11-06T15:55:57.911477",
-    "locked": true
+    "headline": "Raspberry Pi confirms Timothy Powell appointed to the board as Executive Director and CFO on 30 October 2026, replacing Richard Boult, with an LTIP grant.",
+    "priority": "medium",
+    "priority_reason": "Board change confirming a new CFO appointment, plus a routine PDMR LTIP grant with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/raspberry-pi-RPI/share-news/Raspberry-Pi-Holdings-PLC-Confirmation-of-Director/99653306",
+    "related_news_url": "https://news.google.com/search?q=%22Raspberry%20Pi%20Holdings%20PLC%22",
+    "added_at": "2026-11-06T15:55:57.911477"
   },
   {
     "company": "TBC Bank Group PLC",
@@ -164,10 +190,23 @@
     "time_period": "3Q 2026",
     "announcement_type": "Dividend declaration",
     "period_detail": "3Q 2026",
-    "priority": "medium",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>TBC Bank Group PLC</strong> has declared a <strong>3Q 2026 quarterly dividend of GEL 1.75 per share</strong>, payable in Pounds Sterling.</li><li>Record date <strong>8 January 2027</strong>; currency conversion date <strong>15 January 2027</strong>, using the National Bank of Georgia average GEL/GBP rate over <strong>11–15 January 2027</strong> (5-day average).</li><li>Routine quarterly dividend declaration with <strong>no impact</strong> on trading or guidance; <strong>FTSE 250</strong> constituent serving 7.6m digital users across Georgia and Uzbekistan.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-11-06T11:55:52.003736",
-    "locked": true
+    "headline": "TBC Bank has declared a 3Q 2026 quarterly dividend of GEL 1.75 per share, payable in sterling.",
+    "priority": "medium",
+    "priority_reason": "Routine quarterly dividend declaration with no change to trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/tbc-bank-TBCG/share-news/TBC-Bank-Group-PLC-Declaration-of-3Q-2026-Quarterl/99648332",
+    "related_news_url": "https://news.google.com/search?q=%22TBC%20Bank%20Group%20PLC%22",
+    "added_at": "2026-11-06T11:55:52.003736"
   },
   {
     "company": "Coca-Cola Europacific Partners plc",
@@ -177,10 +216,23 @@
     "time_period": "",
     "announcement_type": "Board / management change",
     "period_detail": "",
-    "priority": "medium",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Coca-Cola Europacific Partners plc</strong> has appointed <strong>Sean Summers</strong> as an Independent Non-executive Director, effective <strong>1 December 2026</strong>.</li><li>Summers is currently EVP, Retail Media and Chief Marketing Officer of <strong>Mercado Libre</strong>, Latin America's leading e-commerce, fintech and digital advertising group, where he has held senior roles since <strong>2012</strong>.</li><li>Earlier career includes Marketing Director UK & Ireland for <strong>Twinings</strong> at <strong>Associated British Foods</strong>, and marketing roles at <strong>PepsiCo</strong> (1996-2010); he also sits on the board of <strong>World Rugby</strong>.</li><li>Routine Board succession appointment with <strong>no impact</strong> on trading or guidance; no further disclosures under UK Listing Rule 6.4.8R.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-11-06T11:55:51.993678",
-    "locked": true
+    "headline": "CCEP appoints Sean Summers as an Independent Non-executive Director, effective 1 December 2026, following a Nomination Committee succession process.",
+    "priority": "medium",
+    "priority_reason": "Board appointment of a non-executive director; no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/cocacola-europacific-par-CCEP/share-news/Coca-Cola-Europacific-Partners-plc-Directorate-cha/99651612",
+    "related_news_url": "https://news.google.com/search?q=%22Coca-Cola%20Europacific%20Partners%20plc%22",
+    "added_at": "2026-11-06T11:55:51.993678"
   },
   {
     "company": "Naked Wines PLC",
@@ -190,11 +242,72 @@
     "time_period": "HY27 (26 weeks to 28 September 2026)",
     "announcement_type": "Tender offer / trading update",
     "period_detail": "HY27 (26 weeks to 28 September 2026)",
-    "priority": "high",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Naked Wines plc</strong> to repurchase ordinary shares for between <strong>£2.0m and £5.7m</strong> via a tender offer at a fixed <strong>80p</strong> per share — a premium of approximately <strong>27%</strong> to the <strong>63p</strong> closing price on the latest practicable date.</li><li>Maximum <strong>7,100,000 shares</strong> (c.<strong>10.72%</strong> of shares in issue) may be bought back; final quantum confirmed at the General Meeting on <strong>8 December 2026</strong> and completion expected <strong>16 December 2026</strong>. Top-end <strong>£5.7m</strong> payable if trading is at or above the midpoint of FY27 net cash guidance, c.<strong>£4m</strong> if in the lower half.</li><li>Post-close HY27 trading <strong>in line with FY27 guidance</strong> (reiterated); half-year results for the 26 weeks to <strong>28 September 2026</strong> due <strong>11 December 2026</strong>.</li><li>Member retention improved to <strong>79%</strong> (HY26: 76%) and gross margin rose c.<strong>220bps to 21.7%</strong> (HY26: 19.5%) after price increases; net cash ended HY27 higher at <strong>£34.0m</strong> (FY26: £33.4m).</li><li>Acquisition break-even for HY27 cohorts tracking in line with the <strong>24-month target</strong> (HY26: 44 months; FY26: 42 months), with customer acquisition volumes still low but of higher quality.</li><li>Concert party (<strong>Chapters Group AG</strong>, <strong>Dr Mathias Saggau</strong>, <strong>Monega</strong> funds) holds c.<strong>28.09%</strong>; irrevocable undertakings keep its holding below <strong>30%</strong>, so no Rule 9 waiver is required. <strong>Jan-Hendrik Mohr</strong> (NED, Chapters Group CEO) excluded from Board decisions on quantum and price.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-11-06T07:59:07.028131",
-    "locked": true,
-    "guidance_locked": true
+    "headline": "Naked Wines launches tender offer to buy back up to **£5.7m** of shares at **80p** (a **27%** premium), alongside an in-line HY27 trading update.",
+    "priority": "high",
+    "priority_reason": "Combines a capital-return tender offer of up to £5.7m with a post-close trading update and notice of half-year results.",
+    "figures": [
+      {
+        "metric": "Net cash (excluding lease liabilities)",
+        "current": "£34.0m",
+        "prior": "£33.4m",
+        "change": "+£0.6m",
+        "basis": "before the proposed tender offer",
+        "note": "HY27 vs FY26"
+      },
+      {
+        "metric": "Gross margin",
+        "current": "21.7%",
+        "prior": "19.5%",
+        "change": "+c.220bps",
+        "basis": "following price increases",
+        "note": "HY27 vs HY26"
+      },
+      {
+        "metric": "Member retention rate",
+        "current": "79%",
+        "prior": "76%",
+        "change": "+3pp",
+        "basis": "12 months to period end",
+        "note": "HY27 vs HY26"
+      },
+      {
+        "metric": "Acquisition break-even",
+        "current": "in line with 24-month target",
+        "prior": "HY26: 44 months; FY26: 42 months",
+        "change": "improved",
+        "basis": "cohorts acquired Apr–end Jul 2026",
+        "note": "not stated"
+      },
+      {
+        "metric": "Revenue",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "expected reduction",
+        "basis": "not stated",
+        "note": "guidance indicates continued decline"
+      },
+      {
+        "metric": "Adjusted EBITDAeilac",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "progressive growth",
+        "basis": "not stated",
+        "note": "per FY27 guidance"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "FY27 guidance as communicated within the FY26 Results published on 23 July 2026, indicating progressive growth in Adjusted EBITDAeilac and continued cash generation despite an expected reduction in revenue; c.$14m of inventory liquidation costs spread FY27–FY30 (constant FX of 1 GBP = 1.30 USD and 1.90 AUD).",
+      "current": "FY27 guidance reiterated unchanged; financial year to date trading in line with that guidance.",
+      "commentary": "Guidance is unchanged. FY27 net cash guidance is stated before the proposed tender offer and will be adjusted for it once completed; the Board has structured the tender to confirm the final amount after the peak pre-Christmas trading period."
+    },
+    "explainer": "This is a post-close update ahead of half-year results, not the results themselves, so Naked Wines prints selected operating metrics rather than full financials. Revenue is expected to keep falling by design, as the company deliberately shrinks low-quality customer acquisition in favour of more profitable members — the point of the strategy is higher margins and cash generation, not top-line growth.\n\nThe quality signals are the numbers to watch: gross margin up about 2.2 percentage points to 21.7% (helped by price rises), member retention up to 79% from 76%, and acquisition break-even for new cohorts now tracking the 24-month target versus 44 months a year ago. Net cash rose to £34.0m from £33.4m at the FY26 year-end, despite the normal inventory build before Christmas — though this figure is stated before any cash paid out under the tender offer.\n\nOn guidance, nothing has changed: FY27 targets first set at the July 2026 full-year results are reiterated, and trading is in line with them. The guidance is set at fixed FX rates (1 GBP = 1.30 USD and 1.90 AUD), so reported outcomes will differ if currencies move.\n\nThe tender offer is a return of surplus capital, not a change to the business outlook. Shareholders can sell some or all of their shares back at a fixed 80p — above the 63p market price — with the total return (between roughly £4m and £5.7m) deliberately left to depend on how the crucial Christmas trading period goes before being finalised on 8 December.",
+    "source_url": "https://uk.advfn.com/stock-market/london/naked-wines-WINE/share-news/Naked-Wines-PLC-Tender-Offer-Trading-Update-Noti/99648318",
+    "related_news_url": "https://news.google.com/search?q=%22Naked%20Wines%20plc%22",
+    "added_at": "2026-11-06T07:59:07.028131"
   },
   {
     "company": "Chesnara PLC",
@@ -204,10 +317,23 @@
     "time_period": "",
     "announcement_type": "Acquisition / deal",
     "period_detail": "",
-    "priority": "high",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Chesnara</strong> has agreed to acquire 100% of <strong>MetLife UK Limited (MLUK)</strong>, the closed-book UK life insurance business of <strong>MetLife, Inc.</strong>; MetLife's ongoing UK protection business is excluded.</li><li>Transaction expected to generate total lifetime cashflows of approximately <strong>GBP90m</strong>, around half emerging in the first five years post completion.</li><li>Expected to increase Own Funds and CSM by approximately <strong>GBP45m</strong> at completion, with a <strong>broadly neutral</strong> impact on the Solvency II ratio (final impacts to be confirmed at completion).</li><li>MLUK closed to new business in <strong>2017</strong> and manages unit-linked and variable annuity policies for approximately <strong>18,000 customers</strong>, with <strong>GBP1.7bn</strong> of assets under administration as at 31 December 2025.</li><li>Policies already administered by <strong>SS&C</strong>, Chesnara's existing UK outsourcing partner, aiding a smooth transition; an external AA-rated European reinsurance arrangement covering guarantee risk remains in place.</li><li>Expected to complete in <strong>H1 2027</strong>, subject to customary regulatory approvals; described by CEO <strong>Steve Murray</strong> as Chesnara's 4th acquisition in two years.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-11-06T07:59:07.010598",
-    "locked": true
+    "headline": "Chesnara agrees to acquire MetLife's closed-book UK life insurer MetLife UK Limited, adding an estimated GBP90m of lifetime cashflows.",
+    "priority": "high",
+    "priority_reason": "M&A: Chesnara has agreed to acquire a closed-book UK life insurer, its fourth acquisition in two years.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/chesnara-CSN/share-news/Chesnara-PLC-Acquisition/99648321",
+    "related_news_url": "https://news.google.com/search?q=%22Chesnara%20plc%22",
+    "added_at": "2026-11-06T07:59:07.010598"
   },
   {
     "company": "MJ Gleeson PLC",
@@ -217,11 +343,40 @@
     "time_period": "FY2027",
     "announcement_type": "Trading update",
     "period_detail": "FY2027",
-    "priority": "high",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>MJ Gleeson plc</strong> says sales rates have improved from a weak summer but <strong>remain subdued</strong>; the Board expects <strong>profits significantly weighted to the second half</strong> of <strong>FY2027</strong>.</li><li>Open market net reservation rates for the <strong>8 weeks to 1 November 2026</strong> were <strong>0.53 per site per week</strong> (<strong>0.88 including bulk</strong>), versus <strong>0.52</strong> (<strong>0.93 including bulk</strong>) in the comparable period last year.</li><li>Delivery of <strong>market consensus for FY2027</strong> is stated to be <strong>reliant on further improvement in buyer confidence</strong>.</li><li>The Government's new <strong>Your First Home (YFH)</strong> scheme, launching around five months out, is expected to <strong>postpone demand and increase cancellations</strong> in the interim, weighing on the first half.</li><li>The <strong>delayed large land sale</strong> is progressing with the majority of issues resolved; option exercise and completion expected over the next few months. Planning secured on <strong>three sites</strong>, though adverse committee decisions after local elections are pushing more sites to appeal.</li><li>H1 trading update due <strong>15 January 2027</strong>; interim results on <strong>23 February 2027</strong>.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-11-06T07:58:08.469455",
-    "locked": true,
-    "guidance_locked": true
+    "headline": "Gleeson warns of a weaker first half and says FY2027 consensus delivery depends on further improvement in buyer confidence, with profits H2-weighted.",
+    "priority": "high",
+    "priority_reason": "AGM trading update flagging a weaker first half and making FY2027 consensus conditional on improved buyer confidence.",
+    "figures": [
+      {
+        "metric": "Open market net reservation rate (excl. bulk)",
+        "current": "0.53 per site per week",
+        "prior": "0.52 per site per week",
+        "change": "not stated",
+        "basis": "8 weeks to 1 November 2026 vs comparable period last year",
+        "note": "Gleeson Homes"
+      },
+      {
+        "metric": "Net reservation rate (incl. bulk)",
+        "current": "0.88 per site per week",
+        "prior": "0.93 per site per week",
+        "change": "not stated",
+        "basis": "8 weeks to 1 November 2026 vs comparable period last year",
+        "note": "Gleeson Homes"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Analyst consensus for FY2027 (published on the company's website)",
+      "current": "Delivery of market consensus for FY2027 reliant on further improvement in buyer confidence; profits significantly weighted to the second half",
+      "commentary": "The Board has not changed its numerical stance but has attached a clear caveat: hitting FY2027 consensus now depends on buyer confidence improving, with the delayed launch of the Your First Home scheme expected to depress first-half demand and lift cancellations. This is effectively a conditional, H2-weighted outlook rather than an unqualified reaffirmation."
+    },
+    "explainer": "Gleeson's reservation rate measures how many homes each site sells per week. Excluding bulk (institutional) deals the rate ticked up slightly year on year to 0.53 from 0.52, but including bulk sales it slipped to 0.88 from 0.93 — so headline demand is broadly flat to marginally weaker, and the company itself describes trading as still subdued after a weak summer.\n\nThe key swing factor is the Government's new Your First Home scheme, aimed squarely at Gleeson's first-time-buyer customers. Because it was announced roughly five months before launch, buyers are expected to wait for it, postponing purchases and raising cancellations in the meantime. That is why the Board expects a weaker first half and profits skewed to the second half.\n\nOn guidance, the company has not restated or changed any profit number. Instead it has flagged that meeting published FY2027 analyst consensus is now conditional on buyer confidence improving, and that land-sale timing in the Gleeson Land division remains uncertain. Traders should read this as a cautious, back-end-loaded outlook with clear downside risk if the recovery or the YFH scheme is delayed.",
+    "source_url": "https://uk.advfn.com/stock-market/london/mj-gleeson-GLE/share-news/MJ-Gleeson-PLC-AGM-Trading-Update/99648292",
+    "related_news_url": "https://news.google.com/search?q=%22MJ%20Gleeson%20plc%22",
+    "added_at": "2026-11-06T07:58:08.469455"
   },
   {
     "company": "Rightmove plc",
@@ -231,11 +386,40 @@
     "time_period": "Four months to 31 October 2026",
     "announcement_type": "Trading update",
     "period_detail": "Four months to 31 October 2026",
-    "priority": "high",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Rightmove</strong> is <strong>upgrading its earnings per share guidance</strong> and expects revenue and profit growth within previous full-year guidance, despite a challenging macro backdrop.</li><li>Continues to expect to return <strong>over £400m to shareholders</strong> between <strong>31 July 2026 and 31 July 2027</strong>.</li><li>Since <strong>31 July 2026</strong>, <strong>c.£125m</strong> already returned — <strong>£30m</strong> interim dividend and <strong>£95m</strong> buybacks — part-funded by the recently agreed revolving credit facility.</li><li>Expects a further <strong>£80m</strong> of share buybacks by year-end.</li><li>Core membership stable with strong partner retention; strategic progress on consumer engagement and <strong>Rightmove IQ</strong> AI-powered partner tools.</li><li><strong>David Thomas's</strong> appointment as independent Non-Executive Director brought forward to today (<strong>6 November 2026</strong>); <strong>Amanda James</strong> joins the Remuneration Committee — routine board detail with <strong>no impact</strong> on trading or guidance.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-11-06T07:56:47.247655",
-    "locked": true,
-    "guidance_locked": true
+    "headline": "Rightmove upgrades EPS guidance and lifts shareholder returns to over £400m, with revenue and profit growth tracking within previous full-year guidance.",
+    "priority": "high",
+    "priority_reason": "Trading update with an EPS guidance upgrade and increased shareholder returns.",
+    "figures": [
+      {
+        "metric": "Total shareholder returns (31 Jul 2026–31 Jul 2027)",
+        "current": "over £400m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "Guidance maintained"
+      },
+      {
+        "metric": "Returns since 31 July 2026",
+        "current": "c.£125m (£30m dividend + £95m buybacks)",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "Plus a further £80m of buybacks expected by year-end"
+      }
+    ],
+    "guidance": {
+      "status": "raised",
+      "previous": "Full-year revenue and profit growth guidance, with prior EPS guidance; shareholder returns of over £400m between 31 July 2026 and 31 July 2027",
+      "current": "Revenue and profit growth reaffirmed within previous full-year guidance; EPS guidance upgraded; shareholder returns reaffirmed at over £400m",
+      "commentary": "Rightmove has upgraded its EPS guidance while holding revenue and profit growth within the previously issued range. Business resilience and the new debt facility agreed at the interim results have allowed it to increase shareholder distributions."
+    },
+    "explainer": "This is a four-month trading update covering 1 July to 31 October 2026, compared with the same period a year earlier. Rightmove is keeping its revenue and profit growth guidance unchanged but raising its EPS guidance — the higher per-share figure reflects the effect of share buybacks reducing the share count as much as any change in the underlying profit outlook, so investors should read it as a capital-allocation benefit on top of a stable operating picture rather than a profit upgrade.\n\nThe company frames the backdrop as tough: interest and mortgage-rate expectations and weak consumer and partner confidence are all cited as headwinds. Against that, management stresses that its core agent membership is stable with strong retention, which underpins the resilience behind the EPS upgrade.\n\nOn cash returns, Rightmove is reaffirming a plan to hand back over £400m to shareholders across the year to 31 July 2027, funded partly by a new revolving credit facility — in effect borrowing to accelerate buybacks. About £125m has already gone out (a £30m interim dividend and £95m of buybacks), with a further £80m of buybacks flagged by year-end.\n\nThe announcement gives no hard revenue, profit or EPS figures and no comparatives, so no specific numbers can be quoted here; the detail is qualitative plus the shareholder-return amounts.",
+    "source_url": "https://uk.advfn.com/stock-market/london/rightmove-RMV/share-news/Rightmove-Plc-Trading-Statement/99648631",
+    "related_news_url": "https://news.google.com/search?q=%22Rightmove%20plc%22",
+    "added_at": "2026-11-06T07:56:47.247655"
   },
   {
     "company": "Dorchester Minerals LP",
@@ -245,10 +429,23 @@
     "time_period": "Q3 to 30 September 2026",
     "announcement_type": "Quarterly results",
     "period_detail": "Q3 to 30 September 2026",
-    "priority": "high",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Dorchester Minerals, L.P.</strong> (NASDAQ: DMLP) reported results for the quarter ended <strong>30 September 2026</strong>, with a year-on-year comparison against Q3 2025.</li><li>Third-quarter distribution of <strong>$0.882297</strong> per common unit, payable <strong>12 November 2026</strong> to unitholders of record as of <strong>2 November 2026</strong>.</li><li>The comparative consolidated results table referenced in the announcement was <strong>not captured in the scraped text</strong> — revenue, net earnings and other figures are unavailable from this source.</li><li>Dallas-based owner of oil and natural gas mineral, royalty, overriding royalty, net profits and leasehold interests across <strong>28 states</strong>.</li><li>Note: this is a US-listed partnership (NASDAQ), not a UK RNS issuer.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-11-06T07:17:49.364794",
-    "locked": true
+    "headline": "Dorchester Minerals reports Q3 2026 results, having previously declared a third-quarter distribution of **$0.882297** per common unit.",
+    "priority": "high",
+    "priority_reason": "Quarterly results announcement, though the scraped text omits the actual results table.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "Dorchester Minerals is a US oil and gas royalty partnership, so its payouts are called distributions rather than dividends. The announcement flags that cash distributions are not comparable to reported net earnings, chiefly because of timing differences and depletion — a non-cash accounting charge that reduces reported profit without reducing the cash available to pay unitholders.\n\nThe scraped page references a side-by-side comparison of consolidated results for the quarters ended 30 September 2026 and 2025, but the actual figures (revenue, net income and per-unit amounts) did not come through in the captured text, so no like-for-like comparison can be given here. Only the previously declared distribution of $0.882297 per common unit is stated, with no prior-period figure printed for comparison.",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/DMLP/share-news/Dorchester-Minerals-L-P-Announces-Third-Quarter/99645756",
+    "related_news_url": "https://news.google.com/search?q=%22Dorchester%20Minerals%2C%20L.P.%22",
+    "added_at": "2026-11-06T07:17:49.364794"
   },
   {
     "company": "DropBox Inc",
@@ -258,10 +455,72 @@
     "time_period": "Q3 FY26 (quarter ended 30 September 2026)",
     "announcement_type": "Quarterly results",
     "period_detail": "Q3 FY26 (quarter ended 30 September 2026)",
-    "priority": "high",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Dropbox, Inc.</strong> (NASDAQ: DBX) reported Q3 FY26 revenue of <strong>$637.3m</strong>, up <strong>0.5%</strong> year-on-year (<strong>+1.0%</strong> excluding FormSwift) — a fifth consecutive quarter of growth ex-FormSwift.</li><li>GAAP operating margin <strong>27.5%</strong>; non-GAAP operating margin <strong>42.2%</strong>.</li><li>Net cash from operating activities <strong>$259.2m</strong>; unlevered free cash flow <strong>$303.9m</strong>.</li><li>Announced a planned <strong>$350.0m</strong> acquisition of <strong>Tigris Data</strong>, a globally distributed object-storage platform built for AI, still subject to customary closing conditions.</li><li>Co-CEO <strong>Ashraf Alkarmi</strong> called it a \"beat-and-raise quarter\", with revenue growth ex-FormSwift and non-GAAP operating margin both ahead of guidance.</li><li>Diluted weighted-average shares fell to <strong>225.1m</strong> (from <strong>265.1m</strong> a year earlier), reflecting buyback activity; forward guidance to be given on the earnings call, not in this release.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-11-06T07:17:49.329534",
-    "locked": true
+    "headline": "Dropbox posts Q3 revenue of **$637.3m**, up 0.5% year-on-year, and unveils a planned **$350m** acquisition of AI storage platform Tigris Data.",
+    "priority": "high",
+    "priority_reason": "Quarterly results plus a $350m acquisition announcement for a major US tech name.",
+    "figures": [
+      {
+        "metric": "Revenue",
+        "current": "$637.3m",
+        "prior": "not stated",
+        "change": "+0.5%",
+        "basis": "reported year-on-year; +1.0% excluding FormSwift",
+        "note": "Q3 ended 30 September 2026"
+      },
+      {
+        "metric": "GAAP operating margin",
+        "current": "27.5%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "GAAP",
+        "note": "Q3 FY26"
+      },
+      {
+        "metric": "Non-GAAP operating margin",
+        "current": "42.2%",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "non-GAAP",
+        "note": "Q3 FY26"
+      },
+      {
+        "metric": "Net cash from operating activities",
+        "current": "$259.2m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "GAAP",
+        "note": "Q3 FY26"
+      },
+      {
+        "metric": "Unlevered free cash flow",
+        "current": "$303.9m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "non-GAAP",
+        "note": "Q3 FY26"
+      },
+      {
+        "metric": "Diluted weighted-average shares",
+        "current": "225.1m",
+        "prior": "265.1m",
+        "change": "not stated",
+        "basis": "GAAP and non-GAAP",
+        "note": "three months ended 30 September 2026 vs 2025"
+      }
+    ],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": "No numerical guidance is given in the release; Dropbox said it would provide forward-looking guidance on its earnings call. Management described the quarter as \"beat-and-raise\", with revenue growth ex-FormSwift and non-GAAP operating margin both ahead of its prior guidance."
+    },
+    "explainer": "Dropbox's headline growth looks flat at +0.5% year-on-year, but the company steers readers to a \"excluding FormSwift\" figure of +1.0%. FormSwift was an acquired product whose revenue is being wound down or de-emphasised, so stripping it out gives what Dropbox regards as the cleaner underlying trend — this is the fifth straight quarter of growth on that basis.\n\nThe two margin figures measure the same quarter on different rules. The GAAP margin of 27.5% is the statutory number; the non-GAAP margin of 42.2% strips out stock-based compensation, amortisation of acquired intangibles, and restructuring (workforce-reduction) costs. The large gap between the two is typical of software firms that pay staff heavily in shares.\n\nUnlevered free cash flow of $303.9m is a cash measure that adds back after-tax interest on debt, so it shows cash generation before the cost of Dropbox's borrowings. The sharp fall in diluted share count, from 265.1m to 225.1m, reflects sustained buybacks and flatters per-share metrics.\n\nThe standout strategic item is the planned $350m acquisition of Tigris Data, an object-storage platform aimed at AI workloads — Dropbox is positioning its infrastructure as a \"content foundation for the AI era\". The deal is not yet closed and remains subject to customary conditions. Note the full numerical guidance was reserved for the conference call and is not contained in this release.",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/DBX/share-news/Dropbox-Announces-Third-Quarter-2026-Results/99645629",
+    "related_news_url": "https://news.google.com/search?q=%22Dropbox%2C%20Inc.%22",
+    "added_at": "2026-11-06T07:17:49.329534"
   },
   {
     "company": "Man Group PLC",
@@ -271,10 +530,23 @@
     "time_period": "",
     "announcement_type": "Litigation update",
     "period_detail": "",
-    "priority": "high",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>High Court</strong> today ruled on the claim brought by Kuwait's <strong>Public Institution for Social Security (PIFSS)</strong>, holding two <strong>Man Group</strong> subsidiaries vicariously liable for two former sales employees who knew intermediary <strong>Mohamad El Ghazzi</strong> was making improper payments to late former PIFSS Director General <strong>Fahad Al Rajaan</strong>.</li><li>Judgment indicates PIFSS is entitled to recover approximately <strong>$155m</strong> from Al Rajaan's estate, El Ghazzi, a former Man Group employee and two Man Group subsidiaries; PIFSS had originally sought <strong>$156m</strong> plus interest over allegations spanning <strong>1993-2013</strong>.</li><li>Man Group <strong>disagrees</strong> with the judgment on both liability and quantum and is evaluating its full range of options.</li><li>Figures are <strong>not final</strong>; a hearing in <strong>mid-November</strong> will determine Man Group's exact financial liability, including possible deductions for co-defendant settlements, interest and costs.</li><li>Court found <strong>no</strong> other current or former employee knew of the improper payments and made no wider negative findings against Man Group; company frames it as a legacy matter involving employees who left over 13 and 18 years ago.</li><li>Any charge arising will continue to be treated as a <strong>non-core item</strong> in the Consolidated Income Statement.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-11-06T07:16:57.075364",
-    "locked": true
+    "headline": "High Court finds two Man Group subsidiaries vicariously liable in PIFSS bribery claim, indicating PIFSS may recover approximately **$155m** from defendants including Man Group.",
+    "priority": "high",
+    "priority_reason": "Contains inside information; a High Court judgment holds Man Group subsidiaries vicariously liable for roughly $155m, a material and share-price-sensitive legal event.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/man-EMG/share-news/Man-Group-plc-Update-on-High-Court-Proceedings-bro/99644469",
+    "related_news_url": "https://news.google.com/search?q=%22Man%20Group%20plc%22",
+    "added_at": "2026-11-06T07:16:57.075364"
   },
   {
     "company": "International Consolidated Airlines Group, S.A.",
@@ -284,10 +556,23 @@
     "time_period": "FY 2026",
     "announcement_type": "Dividend declaration",
     "period_detail": "FY 2026",
-    "priority": "medium",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>International Consolidated Airlines Group, S.A.</strong> has approved a gross cash interim dividend of <strong>EUR0.053 per share</strong> against the <strong>2026</strong> financial results.</li><li>IAG reiterated its policy to grow the total dividend annually, broadly reflecting inflation over the longer term, split roughly <strong>half interim and half final</strong>.</li><li>The per-share increase partly reflects the reduced share count from IAG's ongoing <strong>share buyback programme</strong>.</li><li>Payment will be made across both the <strong>Spanish and UK markets</strong>, with <strong>Banco Santander, S.A.</strong> acting as paying agent; detailed timetable dates were not reproduced in the scraped text.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-11-06T07:16:22.580452",
-    "locked": true
+    "headline": "IAG declares a gross interim dividend of **EUR0.053 per share** against its 2026 financial results, payable in cash via Banco Santander.",
+    "priority": "medium",
+    "priority_reason": "Routine interim dividend declaration with a defined per-share amount but no earnings or guidance content.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/international-consolidat-IAG/share-news/International-Cons-Airlines-Group-Interim-Dividend/99644531",
+    "related_news_url": "https://news.google.com/search?q=%22International%20Consolidated%20Airlines%20Group%2C%20S.A.%22",
+    "added_at": "2026-11-06T07:16:22.580452"
   },
   {
     "company": "HSBC Holdings PLC",
@@ -297,10 +582,23 @@
     "time_period": "",
     "announcement_type": "Debt issuance / capital",
     "period_detail": "",
-    "priority": "medium",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li>HSBC Holdings intends to issue <strong>US$1,500,000,000</strong> of <strong>7.625%</strong> Perpetual Subordinated Contingent Convertible Securities on <strong>13 November 2026</strong>, issued at 100% of principal.</li><li>Fixed 7.625% coupon runs to the first reset on <strong>13 May 2032</strong>, thereafter resetting every five years at the 5-year US Treasury rate plus <strong>3.004%</strong>; interest paid semi-annually from 13 May 2027.</li><li>Perpetual AT1 instrument: interest is fully discretionary and cancellable, with no investor put; callable by HSBC in a six-month window before each reset date and on a tax or capital-disqualification event.</li><li>Securities to be admitted to Euronext Dublin's Global Exchange Market; <strong>HSBC Securities (USA) Inc.</strong> is sole structuring adviser and bookrunner. Routine regulatory capital raise with <strong>no impact</strong> on trading or guidance.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-11-06T07:58:08.446450",
-    "locked": true
+    "headline": "HSBC to issue US$1.5bn of 7.625% perpetual subordinated contingent convertible (AT1) securities on 13 November 2026.",
+    "priority": "medium",
+    "priority_reason": "US$1.5bn AT1 capital issuance is routine balance-sheet management for a bank HSBC's size, with no impact on earnings or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/hsbc-HSBA/share-news/HSBC-Holdings-PLC-Issuance-of-contingent-convertib/99648249",
+    "related_news_url": "https://news.google.com/search?q=%22HSBC%20Holdings%20plc%22",
+    "added_at": "2026-11-06T07:58:08.446450"
   },
   {
     "company": "Wynn Resorts Ltd",
@@ -310,10 +608,88 @@
     "time_period": "Q3 to 30 September 2026",
     "announcement_type": "Quarterly results",
     "period_detail": "Q3 to 30 September 2026",
-    "priority": "high",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li>Operating revenue <strong>$1.69bn</strong>, down <strong>$144.7m</strong> from <strong>$1.83bn</strong> a year earlier, with declines at <strong>Wynn Palace (-$51.7m)</strong>, <strong>Las Vegas (-$45.8m)</strong>, <strong>Wynn Macau (-$30.1m)</strong> and <strong>Encore Boston Harbor (-$17.1m)</strong>.</li><li>Net income attributable to Wynn fell to <strong>$17.3m</strong> (<strong>$0.17</strong> diluted EPS) from <strong>$88.3m</strong> (<strong>$0.85</strong>); adjusted net income <strong>$33.9m</strong>, or <strong>$0.33</strong> per share, versus <strong>$88.7m</strong> / <strong>$0.86</strong>.</li><li>Adjusted Property EBITDAR <strong>$464.2m</strong>, down <strong>$105.9m</strong> from <strong>$570.1m</strong>; Las Vegas hit by a table-games win rate of <strong>18.9%</strong>, below its expected <strong>22%-26%</strong> range.</li><li>CEO <strong>Craig Billings</strong> cited slower market conditions, an unfavourable Las Vegas hold rate and a strike at Encore Boston Harbor that began in early September.</li><li>Board declared a cash dividend of <strong>$0.25</strong> per share, payable <strong>30 November 2026</strong>; <strong>627,475</strong> shares repurchased in the quarter at an average <strong>$92.61</strong>, leaving <strong>$268.0m</strong> of buyback authority.</li><li>Total debt <strong>$10.73bn</strong>; cash <strong>$1.64bn</strong>; a further <strong>$62.2m</strong> contributed to the 40%-owned <strong>Wynn Al Marjan Island</strong> UAE project, now targeted to open <strong>September 2027</strong>.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-11-06T07:18:20.792692",
-    "locked": true
+    "headline": "Wynn Resorts Q3 revenue fell to **$1.69bn** and net income slumped to **$17.3m** as Macau, Las Vegas and Boston all weakened.",
+    "priority": "high",
+    "priority_reason": "Quarterly results showing sharp profit and EBITDAR declines across all properties.",
+    "figures": [
+      {
+        "metric": "Operating revenue",
+        "current": "$1.69bn",
+        "prior": "$1.83bn",
+        "change": "-$144.7m",
+        "basis": "reported",
+        "note": "Q3 to 30 September 2026 vs Q3 2025"
+      },
+      {
+        "metric": "Net income attributable to Wynn",
+        "current": "$17.3m",
+        "prior": "$88.3m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "Q3 2026 vs Q3 2025"
+      },
+      {
+        "metric": "Diluted EPS",
+        "current": "$0.17",
+        "prior": "$0.85",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "Q3 2026 vs Q3 2025"
+      },
+      {
+        "metric": "Adjusted net income",
+        "current": "$33.9m ($0.33/share)",
+        "prior": "$88.7m ($0.86/share)",
+        "change": "not stated",
+        "basis": "non-GAAP",
+        "note": "Q3 2026 vs Q3 2025"
+      },
+      {
+        "metric": "Adjusted Property EBITDAR",
+        "current": "$464.2m",
+        "prior": "$570.1m",
+        "change": "-$105.9m",
+        "basis": "non-GAAP",
+        "note": "Q3 2026 vs Q3 2025"
+      },
+      {
+        "metric": "Dividend per share",
+        "current": "$0.25",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "quarterly cash dividend",
+        "note": "payable 30 November 2026"
+      },
+      {
+        "metric": "Total debt",
+        "current": "$10.73bn",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "at 30 September 2026"
+      },
+      {
+        "metric": "Cash and cash equivalents",
+        "current": "$1.64bn",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "excludes $150.2m WML short-term investments",
+        "note": "at 30 September 2026"
+      }
+    ],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "Wynn had a soft quarter across its entire estate. Every major property — Wynn Palace and Wynn Macau in Macau, Las Vegas, and Encore Boston Harbor — saw revenue and underlying profit (Adjusted Property EBITDAR) fall against the same quarter last year. The comparatives here are reported, year-on-year figures (Q3 2026 vs Q3 2025), not organic or currency-adjusted.\n\nMuch of the Las Vegas shortfall is explained by \"hold\" — the share of money wagered that the casino keeps. The Las Vegas table-games win rate of 18.9% came in below the property's normal 22%-26% range, meaning players ran luckier than usual; this is largely a timing/variance effect rather than a sign of weaker demand. Boston was hit by a staff strike that began in early September.\n\nAdjusted Property EBITDAR and adjusted net income are non-GAAP measures that strip out items such as pre-opening costs, property charges, depreciation and financing items; management uses them to compare operating performance. Statutory net income fell much harder (to $17.3m from $88.3m) than the adjusted figure, so headline EPS looks weaker than the underlying operating trend.\n\nThe company issued no forward guidance. It continues to fund the Wynn Al Marjan Island development in the UAE (a 40%-owned joint venture, opening targeted for September 2027), maintained its $0.25 quarterly dividend and kept buying back stock.",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/WYNN/share-news/Wynn-Resorts-Limited-Reports-Third-Quarter-2026-R/99645544",
+    "related_news_url": "https://news.google.com/search?q=%22Wynn%20Resorts%2C%20Limited%22",
+    "added_at": "2026-11-06T07:18:20.792692"
   },
   {
     "company": "Coca-Cola HBC AG",
@@ -323,10 +699,23 @@
     "time_period": "",
     "announcement_type": "Corporate update",
     "period_detail": "",
-    "priority": "medium",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>Coca-Cola HBC AG</strong> notes recent <strong>press speculation</strong> regarding its operations in <strong>Russia</strong>.</li><li>The Group has received <strong>no notification from the Russian government</strong> of any changes to those operations.</li><li>Russian operations have run <strong>locally on a self-standing basis since 2022</strong>.</li><li>The Group states it <strong>does not rely on income or capital</strong> from Russia to fund operations outside Russia or to service its indebtedness.</li><li><strong>Coca-Cola HBC</strong> will provide further updates as appropriate; no financial figures or guidance impact disclosed.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-11-06T07:16:57.057641",
-    "locked": true
+    "headline": "Coca-Cola HBC responds to press speculation on Russia, confirming it has received no notification of any changes to its locally run Russian operations.",
+    "priority": "medium",
+    "priority_reason": "Material clarification on Russia exposure following press speculation, though no financial impact or guidance change is disclosed.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/coca-cola-hbc-CCH/share-news/Coca-Cola-HBC-AG-Response-to-press-speculation/99644900",
+    "related_news_url": "https://news.google.com/search?q=%22Coca-Cola%20HBC%20AG%22",
+    "added_at": "2026-11-06T07:16:57.057641"
   },
   {
     "company": "CME Group Inc",
