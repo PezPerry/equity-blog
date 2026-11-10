@@ -1,5 +1,33 @@
 [
   {
+    "company": "Vodafone Group PLC",
+    "ticker": "VOD",
+    "publish_date": "10 November 2026",
+    "date_iso": "2026-11-10",
+    "time_period": "H1 FY27 (six months to 30 September 2026)",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 FY27 (six months to 30 September 2026)",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-10T08:00:53.606553",
+    "locked": true,
+    "guidance_locked": true
+  },
+  {
+    "company": "Playtech PLC",
+    "ticker": "PTEC",
+    "publish_date": "10 November 2026",
+    "date_iso": "2026-11-10",
+    "time_period": "FY to 31 December 2026 (trading 1 July–31 October 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "FY to 31 December 2026 (trading 1 July–31 October 2026)",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-10T08:00:53.594503",
+    "locked": true,
+    "guidance_locked": true
+  },
+  {
     "company": "Oxford Instruments plc",
     "ticker": "OXIG",
     "publish_date": "10 November 2026",
