@@ -1,5 +1,31 @@
 [
   {
+    "company": "Tribal Group PLC",
+    "ticker": "TRB",
+    "publish_date": "10 November 2026",
+    "date_iso": "2026-11-10",
+    "time_period": "",
+    "announcement_type": "Acquisition / deal",
+    "period_detail": "",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-10T15:56:08.835645",
+    "locked": true
+  },
+  {
+    "company": "Primary Health Properties PLC",
+    "ticker": "PHP",
+    "publish_date": "10 November 2026",
+    "date_iso": "2026-11-10",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "priority": "low",
+    "source_format": "html",
+    "added_at": "2026-11-10T15:56:08.824057",
+    "locked": true
+  },
+  {
     "company": "Safestore Holdings PLC",
     "ticker": "SAF",
     "publish_date": "10 November 2026",
