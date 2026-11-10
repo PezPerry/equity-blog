@@ -1,5 +1,31 @@
 [
   {
+    "company": "Ferrexpo PLC",
+    "ticker": "FXPO",
+    "publish_date": "10 November 2026",
+    "date_iso": "2026-11-10",
+    "time_period": "",
+    "announcement_type": "Trading update",
+    "period_detail": "",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-10T07:57:46.606071",
+    "locked": true
+  },
+  {
+    "company": "DCC Energy plc",
+    "ticker": "DCC",
+    "publish_date": "10 November 2026",
+    "date_iso": "2026-11-10",
+    "time_period": "H1 FY27 (six months to 30 September 2026)",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 FY27 (six months to 30 September 2026)",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-10T07:57:46.596114",
+    "locked": true
+  },
+  {
     "company": "METLEN Energy & Metals Plc",
     "ticker": "MTLN",
     "publish_date": "10 November 2026",
