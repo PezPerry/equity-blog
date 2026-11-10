@@ -1,5 +1,33 @@
 [
   {
+    "company": "Watches Of Switzerland Group PLC",
+    "ticker": "WOSG",
+    "publish_date": "10 November 2026",
+    "date_iso": "2026-11-10",
+    "time_period": "H1 FY27 (26 weeks to 1 November 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "H1 FY27 (26 weeks to 1 November 2026)",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-10T07:58:36.601218",
+    "locked": true,
+    "guidance_locked": true
+  },
+  {
+    "company": "4imprint Group plc",
+    "ticker": "FOUR",
+    "publish_date": "10 November 2026",
+    "date_iso": "2026-11-10",
+    "time_period": "10 months to end October 2026 / FY 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "10 months to end October 2026 / FY 2026",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-10T07:58:36.586913",
+    "locked": true,
+    "guidance_locked": true
+  },
+  {
     "company": "Ferrexpo PLC",
     "ticker": "FXPO",
     "publish_date": "10 November 2026",
