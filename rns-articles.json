@@ -1,5 +1,32 @@
 [
   {
+    "company": "Safestore Holdings PLC",
+    "ticker": "SAF",
+    "publish_date": "10 November 2026",
+    "date_iso": "2026-11-10",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "priority": "low",
+    "source_format": "html",
+    "added_at": "2026-11-10T11:55:51.939358",
+    "locked": true
+  },
+  {
+    "company": "Funding Circle Holdings PLC",
+    "ticker": "FCH",
+    "publish_date": "10 November 2026",
+    "date_iso": "2026-11-10",
+    "time_period": "FY26",
+    "announcement_type": "Trading update",
+    "period_detail": "FY26",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-10T11:55:51.927504",
+    "locked": true,
+    "guidance_locked": true
+  },
+  {
     "company": "Avon Technologies plc",
     "ticker": "AVON",
     "publish_date": "10 November 2026",
