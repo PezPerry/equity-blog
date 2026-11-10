@@ -1,5 +1,19 @@
 [
   {
+    "company": "Goosehead Insurance Inc",
+    "ticker": "GSHD",
+    "publish_date": "10 November 2026",
+    "date_iso": "2026-11-10",
+    "time_period": "Q3 2026 (three months to 30 September 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "Q3 2026 (three months to 30 September 2026)",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-10T07:17:19.864471",
+    "locked": true,
+    "guidance_locked": true
+  },
+  {
     "company": "Steel Dynamics Inc",
     "ticker": "STLD",
     "publish_date": "09 November 2026",
