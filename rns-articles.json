@@ -1,5 +1,33 @@
 [
   {
+    "company": "ITV plc",
+    "ticker": "ITV",
+    "publish_date": "11 November 2026",
+    "date_iso": "2026-11-11",
+    "time_period": "9 months to 30 September 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "9 months to 30 September 2026",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-11T07:59:13.919710",
+    "locked": true,
+    "guidance_locked": true
+  },
+  {
+    "company": "Forterra PLC",
+    "ticker": "FORT",
+    "publish_date": "11 November 2026",
+    "date_iso": "2026-11-11",
+    "time_period": "Ten months ended 31 October 2026; FY2026 guidance",
+    "announcement_type": "Trading update",
+    "period_detail": "Ten months ended 31 October 2026; FY2026 guidance",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-11T07:59:13.887250",
+    "locked": true,
+    "guidance_locked": true
+  },
+  {
     "company": "Intermediate Capital Group plc",
     "ticker": "ICG",
     "publish_date": "11 November 2026",
