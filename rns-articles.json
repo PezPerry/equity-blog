@@ -1,6 +1,19 @@
 [
   {
     "company": "Intermediate Capital Group plc",
+    "ticker": "ICG",
+    "publish_date": "11 November 2026",
+    "date_iso": "2026-11-11",
+    "time_period": "H1 FY27 (six months to 30 September 2026)",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 FY27 (six months to 30 September 2026)",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-11T07:58:06.446628",
+    "locked": true
+  },
+  {
+    "company": "Intermediate Capital Group plc",
     "ticker": "ICP",
     "publish_date": "11 November 2026",
     "date_iso": "2026-11-11",
