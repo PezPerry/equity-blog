@@ -2,6 +2,23 @@
   "_comment": "Trading Log registry. Newest first. Rebuild the index and the front-page teaser with: python build-trading-log.py. Register a new entry page (root HTML tagged tile-variant=trading-log) with: python build-trading-log.py --add <file.html>. 'url' is the branded address the row links to; 'source' is the Pages copy (null for entries stored only in Base44). 'time' is the UK time the note went live.",
   "entries": [
     {
+      "slug": "nasdaq-weak-but-may-turn-quickly",
+      "date": "2026-11-10",
+      "time": "18:34",
+      "tag": "Market view",
+      "tickers": [
+        "NASDAQ",
+        "US RATES"
+      ],
+      "companies": "Nasdaq 100, Federal Reserve",
+      "title": "The Nasdaq is weak, but it may turn quickly",
+      "why": "US prices rose 0.4% in October against 0.3% expected, and Governor Waller has floated a half-point rise for December. The Nasdaq 100 is -11.2% below its October record, but the energy cost behind this rests on Iran, and sentiment can change quickly.",
+      "url": "https://equityandmarketsinsight.com/TradeDetail?slug=nasdaq-weak-but-may-turn-quickly",
+      "source": "nasdaq-weak-but-may-turn-quickly.html",
+      "readMinutes": 2,
+      "related": null
+    },
+    {
       "slug": "housebuilders-your-first-home-rally",
       "date": "2026-09-28",
       "time": "18:19",
