@@ -1,5 +1,32 @@
 [
   {
+    "company": "Workspace Group PLC",
+    "ticker": "WKP",
+    "publish_date": "11 November 2026",
+    "date_iso": "2026-11-11",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "priority": "medium",
+    "source_format": "html",
+    "added_at": "2026-11-11T08:00:47.766006",
+    "locked": true
+  },
+  {
+    "company": "Spirax Group PLC",
+    "ticker": "SPX",
+    "publish_date": "11 November 2026",
+    "date_iso": "2026-11-11",
+    "time_period": "Ten months ended 31 October 2026 (four-month update)",
+    "announcement_type": "Trading update",
+    "period_detail": "Ten months ended 31 October 2026 (four-month update)",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-11T08:00:47.754093",
+    "locked": true,
+    "guidance_locked": true
+  },
+  {
     "company": "Taylor Wimpey PLC",
     "ticker": "TW.",
     "publish_date": "11 November 2026",
