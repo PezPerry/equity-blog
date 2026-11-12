@@ -1,5 +1,45 @@
 [
   {
+    "company": "Vesuvius plc",
+    "ticker": "VSVS",
+    "publish_date": "12 November 2026",
+    "date_iso": "2026-11-12",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "priority": "medium",
+    "source_format": "html",
+    "added_at": "2026-11-12T07:59:34.684161",
+    "locked": true
+  },
+  {
+    "company": "WH Smith PLC",
+    "ticker": "SMWH",
+    "publish_date": "12 November 2026",
+    "date_iso": "2026-11-12",
+    "time_period": "FY to 31 August 2026",
+    "announcement_type": "Annual results",
+    "period_detail": "FY to 31 August 2026",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-12T07:59:34.643854",
+    "locked": true,
+    "guidance_locked": true
+  },
+  {
+    "company": "Metro Bank Holdings PLC",
+    "ticker": "MTRO",
+    "publish_date": "12 November 2026",
+    "date_iso": "2026-11-12",
+    "time_period": "",
+    "announcement_type": "Acquisition / deal",
+    "period_detail": "",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-12T07:59:34.629200",
+    "locked": true
+  },
+  {
     "company": "Victrex PLC",
     "ticker": "VCT",
     "publish_date": "12 November 2026",
