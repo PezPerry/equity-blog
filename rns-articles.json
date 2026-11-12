@@ -1,5 +1,19 @@
 [
   {
+    "company": "Softcat plc",
+    "ticker": "SCT",
+    "publish_date": "12 November 2026",
+    "date_iso": "2026-11-12",
+    "time_period": "Q1 FY27 (quarter ended 31 October 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "Q1 FY27 (quarter ended 31 October 2026)",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-12T08:07:31.889204",
+    "locked": true,
+    "guidance_locked": true
+  },
+  {
     "company": "United Utilities Group PLC",
     "ticker": "UU.",
     "publish_date": "12 November 2026",
@@ -258,6 +272,19 @@
     "priority": "low",
     "source_format": "html",
     "added_at": "2026-11-12T07:58:29.356628",
+    "locked": true
+  },
+  {
+    "company": "Burberry Group PLC",
+    "ticker": "BRBY",
+    "publish_date": "11 November 2026",
+    "date_iso": "2026-11-11",
+    "time_period": "H1 FY26 (26 weeks to 26 September 2026)",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 FY26 (26 weeks to 26 September 2026)",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-12T08:07:31.849981",
     "locked": true
   },
   {
