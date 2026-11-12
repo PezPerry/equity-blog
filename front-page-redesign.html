@@ -682,7 +682,7 @@ const verdicts=[
   ['SVS','Avoid','savills-SVS-blog-page.html'],
   ['TW.','Fair Value','taylor-wimpey-TW-blog-page.html'],
   ['TPK','Sell','travis-perkins-TPK-blog-page.html'],
-  ['WOSG','Hold','watches-of-switzerland-WOSG-blog-page.html'],
+  ['WOSG','Buy','watches-of-switzerland-group-plc-wosg-buy-running-well-priced-for-it.html'],
   ['WTB','Sell','whitbread-WTB-blog-page.html'],
   ['ZIG','No Action','zigup-ZIG-blog-page.html']
 ];
@@ -717,8 +717,8 @@ const brandedHref=f=>/^https?:/.test(f)?f:
   var LABEL={ftse:'FTSE 100',nasdaq:'Nasdaq 100',vix:'VIX',brent:'Brent crude',gas:'US natural gas',gold:'Gold',pound:'Pound strength',dollar:'US Dollar Index'};
   var FULL={ftse:'FTSE 100 cash index',nasdaq:'Nasdaq 100 cash index',vix:'VIX, market anxiety',brent:'Brent crude futures',gas:'US Henry Hub natural gas futures',gold:'COMEX gold futures',pound:'Pound strength, six-currency basket',dollar:'ICE US Dollar Index'};
   var FMT={ftse:['',1],nasdaq:['',1],vix:['',2],brent:['$',2],gas:['$',3],gold:['$',1],pound:['',2],dollar:['',2]};
-  /* Symbols supplied so far. FTSE 100, US natural gas, Pound strength and US Dollar Index have none yet and show without one. */
-  var SYMBOL={nasdaq:'market-nasdaq-256.webp',vix:'market-vix-256.webp',brent:'market-brent-crude-256.webp',gold:'market-gold-256.webp'};
+  /* One symbol per market (the last four were added on 12 November 2026). A market with no entry shows without one. */
+  var SYMBOL={ftse:'market-ftse-100-256.webp',nasdaq:'market-nasdaq-256.webp',vix:'market-vix-256.webp',brent:'market-brent-crude-256.webp',gas:'market-us-natural-gas-256.webp',gold:'market-gold-256.webp',pound:'market-pound-strength-256.webp',dollar:'market-us-dollar-index-256.webp'};
   var STATES={
     storm:{file:'storm',name:'storm',dark:true,bg:'#a32118',fg:'#ffffff'},
     rain:{file:'rain',name:'rain',dark:true,bg:'#cc5f52',fg:'#080d16'},
