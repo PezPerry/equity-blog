@@ -1,5 +1,33 @@
 [
   {
+    "company": "Keller Group PLC",
+    "ticker": "KLR",
+    "publish_date": "12 November 2026",
+    "date_iso": "2026-11-12",
+    "time_period": "FY to 31 December 2026 (period ended 31 October 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "FY to 31 December 2026 (period ended 31 October 2026)",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-12T08:05:57.098561",
+    "locked": true,
+    "guidance_locked": true
+  },
+  {
+    "company": "Galliford Try Holdings PLC",
+    "ticker": "GFRD",
+    "publish_date": "12 November 2026",
+    "date_iso": "2026-11-12",
+    "time_period": "Current financial year to date (FY27, year to 30 June 2027)",
+    "announcement_type": "Trading update",
+    "period_detail": "Current financial year to date",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-12T08:05:57.034710",
+    "locked": true,
+    "guidance_locked": true
+  },
+  {
     "company": "Caledonia Mining Corporation Plc",
     "ticker": "CMCL",
     "publish_date": "12 November 2026",
