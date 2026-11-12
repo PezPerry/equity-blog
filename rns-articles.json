@@ -1,5 +1,32 @@
 [
   {
+    "company": "Endeavour Mining plc",
+    "ticker": "EDV",
+    "publish_date": "12 November 2026",
+    "date_iso": "2026-11-12",
+    "time_period": "Q3 and YTD to 30 September 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "Q3 and YTD to 30 September 2026",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-12T08:00:12.031436",
+    "locked": true,
+    "guidance_locked": true
+  },
+  {
+    "company": "BHP Group Ltd",
+    "ticker": "BHP",
+    "publish_date": "12 November 2026",
+    "date_iso": "2026-11-12",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "priority": "medium",
+    "source_format": "html",
+    "added_at": "2026-11-12T08:00:11.903574",
+    "locked": true
+  },
+  {
     "company": "Vesuvius plc",
     "ticker": "VSVS",
     "publish_date": "12 November 2026",
