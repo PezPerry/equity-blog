@@ -50,7 +50,9 @@ Each quiz has exactly eight questions:
   the same position more than three times.
 - `prompt`: 20 to 240 characters. `explanation`: 40 to 420 characters, two or three short
   sentences: the right answer, then why it matters to someone judging whether the business
-  makes money. The explanation is shown straight after the reader answers.
+  makes money. The explanation is shown straight after the reader answers, under a line that
+  already says "Correct" or "Not quite. The answer is ...", so do not open it by repeating the
+  answer.
 - `source_quote`: one sentence or clause copied **word for word** from the assessment that
   proves the right answer. The checker searches the published article for it and rejects the
   quiz if it is not there. It is never shown to the reader. Quote running prose, not table

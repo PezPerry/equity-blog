@@ -53,7 +53,7 @@
       "prompt": "A profit margin is profit as a percentage of revenue. In the full year of 2026 the margin was 8.5%. Was the margin in this half higher or lower than that?",
       "options": ["Higher", "Lower"],
       "answer": 0,
-      "explanation": "Higher. The margin for the half is around 8.9% to 9.1%, so the company is keeping roughly 9p of profit from every £1 of sales, against 8.5p across 2026.",
+      "explanation": "The margin for the half is around 8.9% to 9.1%, so the company is keeping roughly 9p of profit from every £1 of sales, against 8.5p across 2026.",
       "source_quote": "This half takes back 80 to 100 basis points of it, to around 8.9% to 9.1% against 8.1% in the first half of 2026, which the company describes as operating leverage."
     },
     {
@@ -103,7 +103,7 @@
       "prompt": "Net debt is borrowings less cash. A year earlier it stood at £112m. Was net debt at 1 November 2026 higher or lower than that?",
       "options": ["Higher", "Lower"],
       "answer": 1,
-      "explanation": "Lower. Net debt was £24m, down from £112m, because the cash the business generated went towards paying borrowings down. This figure leaves out showroom leases; including them the total is far larger.",
+      "explanation": "Net debt was £24m, down from £112m, because the cash the business generated went towards paying borrowings down. This figure leaves out showroom leases; including them the total is far larger.",
       "source_quote": "Net debt was £24m at 1 November, down from £112m a year earlier and £57m at the year end in May."
     }
   ]
