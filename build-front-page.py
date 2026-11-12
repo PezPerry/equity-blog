@@ -475,7 +475,44 @@ def verdict_json_text(page):
     return None if summary is None else json.dumps(summary, indent=1) + "\n"
 
 
+VERDICT_ENTRY = re.compile(r"\['([^']+)','([^']+)','([^']+)'\]")
+
+
+def refresh_verdicts(page, tiles):
+    """Keep the Verdict Board on each company's newest assessment.
+
+    The board's list lives in the page (`const verdicts=[...]`). For every
+    company in the article registry whose newest assessment carries a call, its
+    line is replaced, or added if the company was not on the board. Companies
+    with no assessment in the registry keep the line they have. Decided by
+    Mickey on 12 November 2026: the newest article replaces the old verdict.
+    """
+    start = page.find("const verdicts=[")
+    end = page.find("];", start)
+    if start == -1 or end == -1:
+        return page
+    key = lambda ticker: ticker.upper().rstrip(".")
+    board = {key(t): [t, call, href] for t, call, href in VERDICT_ENTRY.findall(page[start:end])}
+    newest = {}
+    for tile in tiles:
+        info = assessment(tile)
+        if not info or not info.get("ticker") or not info.get("verdict"):
+            continue
+        k = key(info["ticker"])
+        if k not in newest or tile["date"] > newest[k][0]:
+            newest[k] = (tile["date"], info["ticker"], info["verdict"], tile["url"])
+    for k, (_, ticker, call, url) in newest.items():
+        shown = board[k][0] if k in board else ticker
+        board[k] = [shown, call, url]
+    for entry in board.values():
+        if any("'" in part or "\\" in part for part in entry):
+            raise SystemExit("ERROR: Verdict Board entry cannot be written safely: %r" % entry)
+    lines = ",\n".join("  ['%s','%s','%s']" % tuple(board[k]) for k in sorted(board))
+    return page[:start] + "const verdicts=[\n" + lines + "\n" + page[end:]
+
+
 def build_redesign(page, tiles):
+    page = refresh_verdicts(page, tiles)
     body, picked = render_assessments(tiles)
     page = splice(page, ASSESS_START, ASSESS_END, body)
     body, reads = render_longreads(tiles)
