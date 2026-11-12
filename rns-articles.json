@@ -1,5 +1,32 @@
 [
   {
+    "company": "Premier Foods PLC",
+    "ticker": "PFD",
+    "publish_date": "12 November 2026",
+    "date_iso": "2026-11-12",
+    "time_period": "H1 FY26/27 (26 weeks ended 26 September 2026)",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 FY26/27 (26 weeks ended 26 September 2026)",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-12T08:00:55.002263",
+    "locked": true,
+    "guidance_locked": true
+  },
+  {
+    "company": "Drax Group plc",
+    "ticker": "DRX",
+    "publish_date": "12 November 2026",
+    "date_iso": "2026-11-12",
+    "time_period": "",
+    "announcement_type": "Financing / refinancing",
+    "period_detail": "",
+    "priority": "medium",
+    "source_format": "html",
+    "added_at": "2026-11-12T08:00:54.991082",
+    "locked": true
+  },
+  {
     "company": "Endeavour Mining plc",
     "ticker": "EDV",
     "publish_date": "12 November 2026",
