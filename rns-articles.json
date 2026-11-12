@@ -1,5 +1,33 @@
 [
   {
+    "company": "BAE Systems plc",
+    "ticker": null,
+    "publish_date": "12 November 2026",
+    "date_iso": "2026-11-12",
+    "time_period": "FY to 31 December 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "FY to 31 December 2026",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-12T08:02:51.871749",
+    "locked": true,
+    "guidance_locked": true
+  },
+  {
+    "company": "Kier Group PLC",
+    "ticker": "KIE",
+    "publish_date": "12 November 2026",
+    "date_iso": "2026-11-12",
+    "time_period": "FY27 (from 1 July 2026 to date)",
+    "announcement_type": "Trading update",
+    "period_detail": "FY27 (from 1 July 2026 to date)",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-12T08:02:51.809214",
+    "locked": true,
+    "guidance_locked": true
+  },
+  {
     "company": "Chemring Group PLC",
     "ticker": "CHG",
     "publish_date": "12 November 2026",
