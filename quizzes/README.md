@@ -130,7 +130,8 @@ Work in the publishing clone of `PezPerry/equity-blog` that the other pipelines 
    `QUIZ CHECK FAILED`, fix the quizzes it names and run it again. Never edit `index.json` by
    hand and never publish while the check fails.
 4. `python build-front-page.py` refreshes the quizzes section of the front page.
-5. Commit only `quizzes/` and `front-page.html`, then push. No approval is needed: Mickey has
+5. Commit only `quizzes/`, `front-page.html` and `verdict-board.json` (the front-page build
+   rewrites it; it normally comes out unchanged), then push. No approval is needed: Mickey has
    said the quiz writer publishes on its own.
 6. Leave a short run note: which quizzes were written or replaced, which have ticker covers,
    and anything in an assessment that made a fair question hard to write.

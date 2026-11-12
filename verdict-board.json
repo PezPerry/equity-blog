@@ -1,0 +1,49 @@
+{
+ "groups": [
+  {
+   "key": "buy",
+   "label": "Buy",
+   "tickers": [
+    "CRST",
+    "EZJ",
+    "IAG",
+    "JET2"
+   ]
+  },
+  {
+   "key": "hold",
+   "label": "Hold",
+   "tickers": [
+    "GOOGL",
+    "AMZN",
+    "CNA",
+    "HFD",
+    "JD.",
+    "MAB1",
+    "META",
+    "TW.",
+    "WOSG",
+    "ZIG"
+   ]
+  },
+  {
+   "key": "sell",
+   "label": "Sell or avoid",
+   "tickers": [
+    "AO.",
+    "AAPL",
+    "DEBS",
+    "BP.",
+    "AVGO",
+    "CCC",
+    "FXPO",
+    "JHD",
+    "MSFT",
+    "NG.",
+    "SVS",
+    "TPK",
+    "WTB"
+   ]
+  }
+ ]
+}

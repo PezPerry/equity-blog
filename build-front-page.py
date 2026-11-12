@@ -440,6 +440,41 @@ def render_quizzes():
         '</section>').format(site=SITE, cards="\n".join(cards))
 
 
+VERDICT_JSON = os.path.join(HERE, "verdict-board.json")
+VERDICT_ROW = re.compile(r"^\s*\['([^']+)','([^']+)','[^']+'\],?\s*$", re.M)
+VERDICT_BUY = {"Buy", "Strong Buy"}
+VERDICT_SELL = {"Sell", "Short", "Avoid", "Overvalued", "Reduce"}
+
+
+def verdict_summary(page):
+    """Group the page's own Verdict Board list the way the board groups it.
+
+    The list stays where it is maintained (the `const verdicts=[...]` block in
+    the page); this only publishes the counts and tickers so the Investor Tools
+    card can show them without downloading the front page.
+    """
+    start = page.find("const verdicts=[")
+    end = page.find("];", start)
+    if start == -1 or end == -1:
+        return None
+    groups = {"buy": [], "hold": [], "sell": []}
+    for ticker, call in VERDICT_ROW.findall(page[start:end]):
+        key = "buy" if call in VERDICT_BUY else "sell" if call in VERDICT_SELL else "hold"
+        groups[key].append(ticker)
+    if not any(groups.values()):
+        return None
+    return {"groups": [
+        {"key": "buy", "label": "Buy", "tickers": groups["buy"]},
+        {"key": "hold", "label": "Hold", "tickers": groups["hold"]},
+        {"key": "sell", "label": "Sell or avoid", "tickers": groups["sell"]},
+    ]}
+
+
+def verdict_json_text(page):
+    summary = verdict_summary(page)
+    return None if summary is None else json.dumps(summary, indent=1) + "\n"
+
+
 def build_redesign(page, tiles):
     body, picked = render_assessments(tiles)
     page = splice(page, ASSESS_START, ASSESS_END, body)
@@ -609,6 +644,10 @@ def main():
 
     with open(FRONT_PAGE, "w", encoding="utf-8", newline="\n") as fh:
         fh.write(page)
+    verdicts = verdict_json_text(page)
+    if verdicts is not None:
+        with open(VERDICT_JSON, "w", encoding="utf-8", newline="\n") as fh:
+            fh.write(verdicts)
     print("%s rebuilt:" % os.path.basename(FRONT_PAGE))
     report(hero, chosen, dropped, slots)
     return 0
