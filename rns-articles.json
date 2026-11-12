@@ -1,5 +1,33 @@
 [
   {
+    "company": "United Utilities Group PLC",
+    "ticker": "UU.",
+    "publish_date": "12 November 2026",
+    "date_iso": "2026-11-12",
+    "time_period": "H1 FY27 (six months to 30 September 2026)",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 FY27 (six months to 30 September 2026)",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-12T08:06:55.119538",
+    "locked": true,
+    "guidance_locked": true
+  },
+  {
+    "company": "Rolls-Royce Group PLC",
+    "ticker": "RR.",
+    "publish_date": "12 November 2026",
+    "date_iso": "2026-11-12",
+    "time_period": "FY 2026 (H2 2026 update)",
+    "announcement_type": "Trading update",
+    "period_detail": "FY 2026",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-12T08:06:55.108926",
+    "locked": true,
+    "guidance_locked": true
+  },
+  {
     "company": "Keller Group PLC",
     "ticker": "KLR",
     "publish_date": "12 November 2026",
