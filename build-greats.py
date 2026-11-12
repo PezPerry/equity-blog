@@ -29,6 +29,10 @@ OUT = os.path.join(HERE, "greats")
 SITE = "https://equityandmarketsinsight.com"
 PAGES = "https://pezperry.github.io/equity-blog"
 REGISTRY = os.path.join(OUT, "greats.json")
+# Every card and page header uses a drawn portrait (Mickey, 12 November 2026). Where a
+# profile's first image in the vault is a photograph, the drawn portrait from the original
+# commission is used for the card and header instead; the photograph stays in the article.
+DRAWN_PORTRAITS = r"C:\Master Control\output\2026-09-29-the-greats\images"
 LEGAL = ("© 2026 Equity and Markets Insight. This site is for information and education only and is not "
          "financial advice. I am not a financial adviser. Investing involves risk, including loss of capital. "
          "The author may hold positions in companies mentioned. Do your own research and consider seeking "
@@ -313,7 +317,7 @@ def main():
             if meta.get("series") == "The Greats" and meta.get("investor"):
                 notes.setdefault(meta["investor"], (meta, text, os.path.join(folder, name)))
 
-    problems, pages, copies = [], {}, set()
+    problems, pages, copies, drawings = [], {}, set(), {}
     for number, person in enumerate(registry["people"], start=1):
         name = person["name"]
         if name not in notes:
@@ -331,15 +335,24 @@ def main():
             problems.append("%s: unconverted markup %s" % (name, sorted(set(leftovers))))
         slug = slugify(name)
         portrait = images.get(expected[0], {})
+        stem, alt = expected[0], portrait.get("alt", name)
+        if portrait.get("kind") == "photograph":
+            drawn = [f for f in sorted(os.listdir(DRAWN_PORTRAITS))
+                     if f.startswith("%02d-" % number) and f.endswith("-cover.png")]
+            if len(drawn) != 1:
+                problems.append("%s: no drawn portrait in %s" % (name, DRAWN_PORTRAITS))
+            else:
+                stem, alt = "%02d-portrait" % number, "Graphite-style illustrated portrait of %s." % name
+                drawings[stem] = os.path.join(DRAWN_PORTRAITS, drawn[0])
         facts = "".join("<li>%s</li>" % esc(x) for x in (meta.get("years"), meta.get("firm"), meta.get("focus")) if x)
         pages[slug] = PAGE.format(
             title=esc(title), desc=esc(standfirst), site=SITE, pages=PAGES, slug=slug, stand=inline(standfirst),
-            facts=facts, portrait=expected[0], portrait_alt=esc(portrait.get("alt", name)), body=body, legal=esc(LEGAL))
+            facts=facts, portrait=stem, portrait_alt=esc(alt), body=body, legal=esc(LEGAL))
         copies.update(used)
         person.update({
             "slug": slug, "title": title, "focus": meta.get("focus", ""),
-            "portrait": "greats/images/%s-800.webp" % expected[0],
-            "portrait_kind": "photograph" if portrait.get("kind") == "photograph" else "illustration",
+            "portrait": "greats/images/%s-800.webp" % stem,
+            "portrait_kind": "illustration",
             "href": "Greats/" + slug,
         })
         print("  %-22s %6d words  images %s  <- %s" % (slug, len(re.sub(r"<[^>]+>", " ", body).split()),
@@ -362,6 +375,13 @@ def main():
         for suffix in (".webp", "-800.webp"):
             shutil.copyfile(os.path.join(args.source, "Images", "web", ident + suffix),
                             os.path.join(OUT, "images", ident + suffix))
+    if drawings:
+        from PIL import Image
+        for stem, source in sorted(drawings.items()):
+            image = Image.open(source).convert("RGB")
+            image.save(os.path.join(OUT, "images", stem + ".webp"), "WEBP", quality=86, method=6)
+            image.resize((800, 800), Image.LANCZOS).save(
+                os.path.join(OUT, "images", stem + "-800.webp"), "WEBP", quality=86, method=6)
     with open(REGISTRY, "w", encoding="utf-8", newline="\n") as fh:
         json.dump(registry, fh, ensure_ascii=False, indent=2)
         fh.write("\n")
