@@ -232,7 +232,7 @@ def render_index(entries):
 
 # --------------------------------------------------------------------------- front-page teaser
 
-def render_teaser(entries):
+def render_teaser_classic(entries):
     rows = []
     for e in entries[:3]:
         rows.append('      <a class="tl-row" target="_top" href="%s"><span class="tl-date">%s</span>%s<span class="tl-title">%s</span></a>'
@@ -247,6 +247,46 @@ def render_teaser(entries):
 %s
     </div>
   </section>""" % (LOG_URL, "\n".join(rows))
+
+
+TEASER_V2 = "<!-- TRADING-LOG:START v2"
+TEASER_V2_ROWS = 4
+CHEVRON = ('<svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" '
+           'stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 15l6-6 6 6"></path></svg>')
+
+
+def render_teaser_v2(entries):
+    """The redesigned front page's Trading Log section (Nov 2026): the four newest
+    entries as a dated list on desktop and a swipeable row of cards on phones."""
+    rows = []
+    for e in entries[:TEASER_V2_ROWS]:
+        tickers = " · ".join(e.get("tickers") or []) or (e.get("companies") or "")
+        when = nice_date(e["date"]) + ((" · " + esc(e["time"])) if e.get("time") else "")
+        rows.append('        <a class="tl-row" target="_top" href="%s" data-slug="%s"><span class="tl-date">%s</span>%s'
+                    '<span class="tl-title">%s</span><span class="tl-cos">%s</span></a>'
+                    % (esc(e["url"]), esc(e["slug"]), when, pill(e["tag"], "tl-pill"), esc(e["title"]), esc(tickers)))
+    return """<section class="sec white" id="tradinglog" aria-labelledby="tl-h">
+  <div class="wrap">
+    <div class="tl-wrap">
+      <div class="t">
+        <div class="kick">Section 04</div>
+        <h2 class="h" id="tl-h"><a target="_top" href="%(log)s">Trading Log</a></h2>
+        <p class="lede">What I bought, sold, held and passed on, with the reasoning written down the same day. Every entry is dated and timed.</p>
+        <div class="tools">
+          <a class="all" target="_top" href="%(log)s">Open the full log <span aria-hidden="true">→</span></a>
+          <button type="button" class="tog" aria-expanded="true" aria-label="Collapse or expand Trading Log">%(chev)s</button>
+        </div>
+      </div>
+      <div class="tl-list hrow body-x">
+%(rows)s
+      </div>
+    </div>
+  </div>
+</section>""" % {"log": LOG_URL, "chev": CHEVRON, "rows": "\n".join(rows)}
+
+
+def render_teaser(entries, page=""):
+    return render_teaser_v2(entries) if TEASER_V2 in page else render_teaser_classic(entries)
 
 
 def splice(source, start_marker, end_marker, body):
@@ -264,7 +304,7 @@ def build():
     index = render_index(entries)
     with open(FRONT_PAGE, encoding="utf-8") as fh:
         page = fh.read()
-    page = splice(page, TEASER_START, TEASER_END, render_teaser(entries))
+    page = splice(page, TEASER_START, TEASER_END, render_teaser(entries, page))
     return index, page
 
 
@@ -317,7 +357,13 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--add", metavar="ENTRY.html")
     parser.add_argument("--check", action="store_true")
+    parser.add_argument("--page", metavar="FILE.html",
+                        help="splice the teaser into this page instead of front-page.html (redesign preview)")
     args = parser.parse_args()
+
+    if args.page:
+        global FRONT_PAGE
+        FRONT_PAGE = os.path.join(HERE, args.page)
 
     if args.add:
         add_entry(args.add)

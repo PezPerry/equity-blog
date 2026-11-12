@@ -1,0 +1,17 @@
+{
+  "_comment": "The Greats, in front-page order. 'line' is the caption under the name. 'portrait' is a repo-relative image path; leave it empty until the pencil portrait is in the repo and the card shows initials. 'href' is the profile's route on the branded site; leave it empty until the profile is published and the card is drawn without a link. build-front-page.py reads this file.",
+  "people": [
+    {"name": "Warren Buffett", "line": "1930 – · Berkshire Hathaway", "portrait": "", "href": ""},
+    {"name": "Charlie Munger", "line": "1924 – 2023 · Berkshire Hathaway", "portrait": "", "href": ""},
+    {"name": "Peter Lynch", "line": "Fidelity Magellan", "portrait": "", "href": ""},
+    {"name": "John Templeton", "line": "Templeton Growth", "portrait": "", "href": ""},
+    {"name": "Walter Schloss", "line": "Walter J. Schloss Associates", "portrait": "", "href": ""},
+    {"name": "John Neff", "line": "Vanguard Windsor", "portrait": "", "href": ""},
+    {"name": "Bill Ruane", "line": "Sequoia Fund", "portrait": "", "href": ""},
+    {"name": "Seth Klarman", "line": "Baupost Group", "portrait": "", "href": ""},
+    {"name": "Joel Greenblatt", "line": "Gotham Capital", "portrait": "", "href": ""},
+    {"name": "Anthony Bolton", "line": "Fidelity Special Situations", "portrait": "", "href": ""},
+    {"name": "Jean-Marie Eveillard", "line": "First Eagle Funds", "portrait": "", "href": ""},
+    {"name": "Bill Miller", "line": "Legg Mason Value Trust", "portrait": "", "href": ""}
+  ]
+}

@@ -207,6 +207,197 @@ def render_block(tile, slot):
     )
 
 
+# --------------------------------------------------------------------------- redesign (Nov 2026)
+# The redesigned front page has no hero or bento grid. It carries three generated
+# blocks instead - ASSESSMENTS, LONGREADS and GREATS - and build() fills whichever
+# markers the target page contains, so the same script serves both layouts.
+
+ASSESS_START, ASSESS_END = "<!-- ASSESSMENTS:START", "<!-- ASSESSMENTS:END -->"
+LONG_START, LONG_END = "<!-- LONGREADS:START", "<!-- LONGREADS:END -->"
+GREATS_START, GREATS_END = "<!-- GREATS:START", "<!-- GREATS:END -->"
+GREATS_REGISTRY = os.path.join(HERE, "greats", "greats.json")
+
+VERDICT_PILLS = {"buy", "hold", "sell", "noact", "oval"}
+HEADLINE_RE = re.compile(
+    r"^(?P<company>.+?)\s*\((?P<ticker>[A-Z0-9.]{1,6})\)\s*[—–-]\s*"
+    r"(?P<verdict>[A-Za-z ]{2,20}?):\s*(?P<title>.+)$")
+BUY_WORDS = {"buy", "strong buy"}
+SELL_WORDS = {"sell", "short", "avoid", "overvalued", "reduce"}
+HOLD_WORDS = {"hold", "fair value", "no action", "pass"}
+
+
+def assessment(tile):
+    """Return the tile's verdict details if it is a company assessment, else None.
+
+    Newer articles carry everything in the headline - "Company (TICK) - Verdict:
+    Title". Older ones carry the verdict in the pill and the ticker in its own
+    field or in the filename (bp-BP-blog-page.html).
+    """
+    if tile.get("kind", "analysis") != "analysis" or tile["url"].startswith("longreads/"):
+        return None
+    match = HEADLINE_RE.match(tile["headline"])
+    if match:
+        return {"ticker": match.group("ticker"), "verdict": match.group("verdict").strip(),
+                "title": match.group("title").strip()}
+    in_name = re.search(r"-([A-Z0-9]{2,5})-", tile["url"])
+    has_verdict = tile.get("pill") in VERDICT_PILLS
+    if has_verdict or (in_name and tile["url"].endswith("blog-page.html")):
+        return {"ticker": tile.get("ticker") or (in_name.group(1) if in_name else ""),
+                "verdict": tile.get("pill_label") if has_verdict else "",
+                "title": tile["headline"]}
+    return None
+
+
+def verdict_class(verdict):
+    word = (verdict or "").lower()
+    if word in BUY_WORDS:
+        return "buy"
+    if word in SELL_WORDS:
+        return "sell"
+    if word in HOLD_WORDS:
+        return "hold"
+    return ""
+
+
+def article_description(tile):
+    """The article's own meta description, for the featured card. Never invented."""
+    path = os.path.join(HERE, tile["url"])
+    try:
+        with open(path, encoding="utf-8") as fh:
+            head = fh.read(6000)
+    except OSError:
+        return ""
+    match = re.search(r'<meta\s+name="description"\s+content="([^"]*)"', head)
+    text = html.unescape(match.group(1)).strip() if match else ""
+    if len(text) > 230:
+        text = text[:230].rsplit(" ", 1)[0].rstrip(",;:") + "…"
+    return text
+
+
+ASSESSMENT_COUNT = 6   # one featured, four in the grid, a sixth for the phone row
+
+
+def render_assessments(tiles):
+    ordered = sorted(tiles, key=lambda t: t["date"], reverse=True)
+    picked = [(t, assessment(t)) for t in ordered]
+    picked = [(t, a) for t, a in picked if a][:ASSESSMENT_COUNT]
+    if len(picked) < 5:
+        raise SystemExit("ERROR: fewer than five company assessments in the registry.")
+    cards = []
+    for index, (tile, info) in enumerate(picked):
+        classes = "ca tile" + (" feat" if index == 0 else "") + (" m-only" if index >= 5 else "")
+        if info["verdict"]:
+            tag = '<span class="vtag %s">%s</span>' % (verdict_class(info["verdict"]), esc(info["verdict"]))
+        else:
+            tag = '<span class="vtag">Analysis</span>'
+        ticker = '<span class="tk">%s</span>' % esc(info["ticker"]) if info["ticker"] else ""
+        extract = article_description(tile) if index == 0 else ""
+        cards.append(
+            '      <a class="{cls}" data-slug="{slug}" href="{url}" target="_top">\n'
+            '        <div class="img"><img src="{cover}" alt="{alt}" loading="lazy">'
+            '<span class="ribbon">Latest</span></div>\n'
+            '        <div class="body"><div class="line">{tag}{ticker}</div><h3>{title}</h3>'
+            '{extract}<span class="dt">{date}</span></div>\n'
+            '      </a>'.format(
+                cls=classes, slug=esc(tile["slug"]), url=esc(branded_href(tile)), cover=esc(tile["cover"]),
+                alt=esc(tile["alt"]), tag=tag, ticker=ticker, title=esc(info["title"]),
+                extract=('<p class="ex">%s</p>' % esc(extract)) if extract else "",
+                date=esc(nice_date(tile["date"]))))
+    return "\n".join(cards), [t for t, _ in picked]
+
+
+LONGREAD_COUNT = 5
+
+
+def longread_files():
+    """Long reads that live in longreads/ but were never registered as tiles."""
+    folder = os.path.join(HERE, "longreads")
+    found = []
+    if not os.path.isdir(folder):
+        return found
+    for name in sorted(os.listdir(folder)):
+        match = re.match(r"(\d{4})-(\d{2})-.+\.html$", name)
+        if not match:
+            continue
+        with open(os.path.join(folder, name), encoding="utf-8") as fh:
+            head = fh.read(8000)
+        title = re.search(r"<title>([^<]+)", head)
+        heading = html.unescape(title.group(1)).strip() if title else name
+        heading = re.split(r"\s+[—–|]\s+", heading)[0].strip()
+        image = re.search(r'<meta\s+property="og:image"\s+content="[^"]*?/(longreads/images/[^"]+)"', head)
+        cover = image.group(1) if image and os.path.exists(os.path.join(HERE, image.group(1))) else ""
+        cat = re.search(r'<meta\s+name="tile-cat"\s+content="([^"]*)"', head)
+        found.append({
+            "slug": name[:-5], "url": "longreads/" + name, "date": "%s-%s-01" % match.group(1, 2),
+            "month_only": True, "headline": heading, "cover": cover,
+            "cat": html.unescape(cat.group(1)) if cat else "Long Read",
+        })
+    return found
+
+
+def render_longreads(tiles):
+    items = [t for t in tiles if t.get("kind", "analysis") == "analysis" and not assessment(t)]
+    known = {t["url"] for t in items}
+    items += [f for f in longread_files() if f["url"] not in known]
+    items = sorted(items, key=lambda t: t["date"], reverse=True)[:LONGREAD_COUNT]
+    cards = []
+    for item in items:
+        topic = item["cat"].split("·")[0].strip()
+        if item.get("month_only"):
+            day = datetime.date.fromisoformat(item["date"])
+            when = "%s %d" % (MONTHS[day.month - 1], day.year)
+        else:
+            when = nice_date(item["date"])
+        if item.get("cover"):
+            disc = '<img src="%s" alt="" loading="lazy">' % esc(item["cover"])
+        else:
+            disc = esc(topic.split(" ")[0])
+        cards.append(
+            '      <a class="lr" data-slug="{slug}" href="{url}" target="_top">'
+            '<span class="disc">{disc}</span><span class="meta">{topic} · {when}</span>'
+            '<span class="ttl">{title}</span></a>'.format(
+                slug=esc(item["slug"]), url=esc(branded_href(item)), disc=disc,
+                topic=esc(topic), when=esc(when), title=esc(item["headline"])))
+    return "\n".join(cards), items
+
+
+def render_greats():
+    """The Greats: names and funds from greats/greats.json. A profile with no page yet
+    is drawn without a link, and a missing portrait as initials - nothing is invented."""
+    if not os.path.exists(GREATS_REGISTRY):
+        return "", []
+    with open(GREATS_REGISTRY, encoding="utf-8") as fh:
+        people = json.load(fh)["people"]
+    cards = []
+    for person in people:
+        portrait = person.get("portrait") or ""
+        if portrait and os.path.exists(os.path.join(HERE, portrait)):
+            disc = '<img src="%s" alt="%s, pencil portrait" loading="lazy">' % (esc(portrait), esc(person["name"]))
+        else:
+            disc = esc("".join(part[0] for part in person["name"].replace("-", " ").split()[:2]))
+        inner = ('<span class="disc">%s</span><span class="nm">%s</span><span class="fd">%s</span>'
+                 % (disc, esc(person["name"]), esc(person.get("line", ""))))
+        if person.get("href"):
+            href = person["href"]
+            if not href.startswith("http"):
+                href = SITE + "/" + href.lstrip("/")
+            cards.append('      <a class="gr" href="%s" target="_top">%s</a>' % (esc(href), inner))
+        else:
+            cards.append('      <div class="gr">%s</div>' % inner)
+    return "\n".join(cards), people
+
+
+def build_redesign(page, tiles):
+    body, picked = render_assessments(tiles)
+    page = splice(page, ASSESS_START, ASSESS_END, body)
+    body, reads = render_longreads(tiles)
+    page = splice(page, LONG_START, LONG_END, body)
+    if GREATS_START in page:
+        body, _ = render_greats()
+        page = splice(page, GREATS_START, GREATS_END, body)
+    return page, picked, reads
+
+
 def splice(source, start_marker, end_marker, body):
     start = source.find(start_marker)
     end = source.find(end_marker)
@@ -221,11 +412,16 @@ def splice(source, start_marker, end_marker, body):
 
 def build():
     _, slots, tiles = load_registry()
-    hero, chosen, dropped = select(tiles, slots)
 
     with open(FRONT_PAGE, encoding="utf-8") as fh:
         page = fh.read()
 
+    if ASSESS_START in page:
+        # Redesigned layout: no hero and no slots, so nothing "drops off".
+        page, picked, reads = build_redesign(page, tiles)
+        return page, picked[0], picked[1:] + reads, []
+
+    hero, chosen, dropped = select(tiles, slots)
     page = splice(page, HERO_START, HERO_END, render_hero(hero))
     blocks = "\n\n".join(render_block(t, s) for t, s in zip(chosen, slots))
     page = splice(page, TILES_START, TILES_END, "\n" + blocks + "\n")
@@ -235,7 +431,7 @@ def build():
 
 def report(hero, chosen, dropped, slots):
     print("  hero  <- %s  (%s)" % (hero["slug"], hero["date"]))
-    for tile, slot in zip(chosen, slots):
+    for tile, slot in zip(chosen, list(slots) + ["-"] * len(chosen)):
         print("  %-5s <- %s  (%s)" % (slot, tile["slug"], tile["date"]))
     for tile in dropped:
         print("  DROPPED off the front page: %s  (%s)" % (tile["slug"], tile["date"]))
@@ -331,7 +527,13 @@ def main():
     parser.add_argument("--add", metavar="ARTICLE.html")
     parser.add_argument("--date", metavar="YYYY-MM-DD")
     parser.add_argument("--check", action="store_true")
+    parser.add_argument("--page", metavar="FILE.html",
+                        help="build this page instead of front-page.html (used for the redesign preview)")
     args = parser.parse_args()
+
+    if args.page:
+        global FRONT_PAGE
+        FRONT_PAGE = os.path.join(HERE, args.page)
 
     if args.add:
         if not args.date:
@@ -345,14 +547,14 @@ def main():
         with open(FRONT_PAGE, encoding="utf-8") as fh:
             current = fh.read()
         if current != page:
-            print("front-page.html is OUT OF DATE. Run: python build-front-page.py")
+            print("%s is OUT OF DATE. Run: python build-front-page.py" % os.path.basename(FRONT_PAGE))
             return 1
-        print("front-page.html is up to date.")
+        print("%s is up to date." % os.path.basename(FRONT_PAGE))
         return 0
 
     with open(FRONT_PAGE, "w", encoding="utf-8", newline="\n") as fh:
         fh.write(page)
-    print("front-page.html rebuilt:")
+    print("%s rebuilt:" % os.path.basename(FRONT_PAGE))
     report(hero, chosen, dropped, slots)
     return 0
 
