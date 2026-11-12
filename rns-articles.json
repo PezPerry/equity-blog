@@ -1,5 +1,19 @@
 [
   {
+    "company": "Persimmon PLC",
+    "ticker": "PSN",
+    "publish_date": "12 November 2026",
+    "date_iso": "2026-11-12",
+    "time_period": "Q3 FY2026 (trading from 1 July to 1 November 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "Q3 FY2026 (trading from 1 July to 1 November 2026)",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-12T08:03:40.425041",
+    "locked": true,
+    "guidance_locked": true
+  },
+  {
     "company": "BAE Systems plc",
     "ticker": null,
     "publish_date": "12 November 2026",
