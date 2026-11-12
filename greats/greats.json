@@ -1,17 +1,125 @@
 {
   "_comment": "The Greats, in front-page order. 'line' is the caption under the name. 'portrait' is a repo-relative image path; leave it empty until the pencil portrait is in the repo and the card shows initials. 'href' is the profile's route on the branded site; leave it empty until the profile is published and the card is drawn without a link. build-front-page.py reads this file.",
   "people": [
-    {"name": "Warren Buffett", "line": "1930 – · Berkshire Hathaway", "portrait": "", "href": ""},
-    {"name": "Charlie Munger", "line": "1924 – 2023 · Berkshire Hathaway", "portrait": "", "href": ""},
-    {"name": "Peter Lynch", "line": "Fidelity Magellan", "portrait": "", "href": ""},
-    {"name": "John Templeton", "line": "Templeton Growth", "portrait": "", "href": ""},
-    {"name": "Walter Schloss", "line": "Walter J. Schloss Associates", "portrait": "", "href": ""},
-    {"name": "John Neff", "line": "Vanguard Windsor", "portrait": "", "href": ""},
-    {"name": "Bill Ruane", "line": "Sequoia Fund", "portrait": "", "href": ""},
-    {"name": "Seth Klarman", "line": "Baupost Group", "portrait": "", "href": ""},
-    {"name": "Joel Greenblatt", "line": "Gotham Capital", "portrait": "", "href": ""},
-    {"name": "Anthony Bolton", "line": "Fidelity Special Situations", "portrait": "", "href": ""},
-    {"name": "Jean-Marie Eveillard", "line": "First Eagle Funds", "portrait": "", "href": ""},
-    {"name": "Bill Miller", "line": "Legg Mason Value Trust", "portrait": "", "href": ""}
+    {
+      "name": "Warren Buffett",
+      "line": "1930 – · Berkshire Hathaway",
+      "portrait": "greats/images/01-01-800.webp",
+      "href": "Greats/warren-buffett",
+      "slug": "warren-buffett",
+      "title": "Warren Buffett: the owner",
+      "focus": "Business ownership, intrinsic value and capital allocation",
+      "portrait_kind": "photograph"
+    },
+    {
+      "name": "Charlie Munger",
+      "line": "1924 – 2023 · Berkshire Hathaway",
+      "portrait": "greats/images/02-01-800.webp",
+      "href": "Greats/charlie-munger",
+      "slug": "charlie-munger",
+      "title": "Charlie Munger: the architect",
+      "focus": "Business quality and paying a fair price",
+      "portrait_kind": "photograph"
+    },
+    {
+      "name": "Peter Lynch",
+      "line": "Fidelity Magellan",
+      "portrait": "greats/images/03-01-800.webp",
+      "href": "Greats/peter-lynch",
+      "slug": "peter-lynch",
+      "title": "Peter Lynch: the stock-picker",
+      "focus": "Company research and growth at a reasonable price",
+      "portrait_kind": "illustration"
+    },
+    {
+      "name": "John Templeton",
+      "line": "Templeton Growth",
+      "portrait": "greats/images/04-01-800.webp",
+      "href": "Greats/john-templeton",
+      "slug": "john-templeton",
+      "title": "John Templeton: the global investor",
+      "focus": "Global bargains and contrarian investing",
+      "portrait_kind": "illustration"
+    },
+    {
+      "name": "Walter Schloss",
+      "line": "Walter J. Schloss Associates",
+      "portrait": "greats/images/05-01-800.webp",
+      "href": "Greats/walter-schloss",
+      "slug": "walter-schloss",
+      "title": "Walter Schloss: the bargain hunter",
+      "focus": "Asset values, balance sheets and purchase discipline",
+      "portrait_kind": "illustration"
+    },
+    {
+      "name": "John Neff",
+      "line": "Vanguard Windsor",
+      "portrait": "greats/images/06-01-800.webp",
+      "href": "Greats/john-neff",
+      "slug": "john-neff",
+      "title": "John Neff: the low P/E investor",
+      "focus": "Low price-to-earnings investing",
+      "portrait_kind": "illustration"
+    },
+    {
+      "name": "Bill Ruane",
+      "line": "Sequoia Fund",
+      "portrait": "greats/images/07-01-800.webp",
+      "href": "Greats/bill-ruane",
+      "slug": "bill-ruane",
+      "title": "Bill Ruane: the steward",
+      "focus": "Intensive research and concentrated ownership",
+      "portrait_kind": "illustration"
+    },
+    {
+      "name": "Seth Klarman",
+      "line": "Baupost Group",
+      "portrait": "greats/images/08-01-800.webp",
+      "href": "Greats/seth-klarman",
+      "slug": "seth-klarman",
+      "title": "Seth Klarman: the cautious one",
+      "focus": "Margin of safety and holding cash",
+      "portrait_kind": "photograph"
+    },
+    {
+      "name": "Joel Greenblatt",
+      "line": "Gotham Capital",
+      "portrait": "greats/images/09-01-800.webp",
+      "href": "Greats/joel-greenblatt",
+      "slug": "joel-greenblatt",
+      "title": "Joel Greenblatt: the teacher",
+      "focus": "Special situations and the magic formula",
+      "portrait_kind": "illustration"
+    },
+    {
+      "name": "Anthony Bolton",
+      "line": "Fidelity Special Situations",
+      "portrait": "greats/images/10-01-800.webp",
+      "href": "Greats/anthony-bolton",
+      "slug": "anthony-bolton",
+      "title": "Anthony Bolton: the contrarian",
+      "focus": "Contrarian company research",
+      "portrait_kind": "illustration"
+    },
+    {
+      "name": "Jean-Marie Eveillard",
+      "line": "First Eagle Funds",
+      "portrait": "greats/images/11-01-800.webp",
+      "href": "Greats/jean-marie-eveillard",
+      "slug": "jean-marie-eveillard",
+      "title": "Jean-Marie Eveillard: the holdout",
+      "focus": "Global value and capital preservation",
+      "portrait_kind": "illustration"
+    },
+    {
+      "name": "Bill Miller",
+      "line": "Legg Mason Value Trust",
+      "portrait": "greats/images/12-01-800.webp",
+      "href": "Greats/bill-miller",
+      "slug": "bill-miller",
+      "title": "Bill Miller: the philosopher",
+      "focus": "Cash-flow valuation across growth and value",
+      "portrait_kind": "illustration"
+    }
   ]
 }

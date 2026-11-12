@@ -372,7 +372,8 @@ def render_greats():
     for person in people:
         portrait = person.get("portrait") or ""
         if portrait and os.path.exists(os.path.join(HERE, portrait)):
-            disc = '<img src="%s" alt="%s, pencil portrait" loading="lazy">' % (esc(portrait), esc(person["name"]))
+            what = "photograph" if person.get("portrait_kind") == "photograph" else "illustrated portrait"
+            disc = '<img src="%s" alt="%s, %s" loading="lazy">' % (esc(portrait), esc(person["name"]), what)
         else:
             disc = esc("".join(part[0] for part in person["name"].replace("-", " ").split()[:2]))
         inner = ('<span class="disc">%s</span><span class="nm">%s</span><span class="fd">%s</span>'
@@ -387,6 +388,58 @@ def render_greats():
     return "\n".join(cards), people
 
 
+QUIZ_START, QUIZ_END = "<!-- QUIZZES:START", "<!-- QUIZZES:END -->"
+QUIZ_INDEX = os.path.join(HERE, "quizzes", "index.json")
+QUIZ_COUNT = 8
+
+
+def render_quizzes():
+    """Company data quizzes: the newest from quizzes/index.json (written by
+    quizzes/build-quizzes.py). The whole section is generated, so with no quiz
+    published there is no section at all rather than an empty one."""
+    if not os.path.exists(QUIZ_INDEX):
+        return ""
+    with open(QUIZ_INDEX, encoding="utf-8") as fh:
+        quizzes = json.load(fh).get("quizzes", [])[:QUIZ_COUNT]
+    if not quizzes:
+        return ""
+    cards = []
+    for quiz in quizzes:
+        if quiz.get("cover"):
+            image = '<img src="%s" alt="" loading="lazy">' % esc(quiz["cover"])
+        else:
+            image = '<span class="qz-tk">%s</span>' % esc(quiz["ticker"])
+        cards.append(
+            '      <a class="ca qz tile" data-slug="{slug}" href="{site}/Quizzes/{slug}" target="_top">\n'
+            '        <div class="img">{image}</div>\n'
+            '        <div class="body"><div class="line"><span class="tk">{company} · {ticker}</span></div>'
+            '<h3>{title}</h3><span class="dt">{count} questions</span></div>\n'
+            '      </a>'.format(slug=esc(quiz["slug"]), site=SITE, image=image, company=esc(quiz["company"]),
+                              ticker=esc(quiz["ticker"]), title=esc(quiz["title"]), count=int(quiz["questions"])))
+    return (
+        '<section class="sec white" id="quizzes" aria-labelledby="qz-h">\n'
+        '  <div class="wrap">\n'
+        '    <div class="sec-head">\n'
+        '      <div class="t">\n'
+        '        <div class="kick">Investor tools</div>\n'
+        '        <h2 class="h" id="qz-h"><a href="{site}/Quizzes" target="_top">Company data quizzes</a></h2>\n'
+        '        <p class="lede">How well do you know the numbers? Eight questions on a company, built from its '
+        'assessment. Every answer shows the working.</p>\n'
+        '      </div>\n'
+        '      <div class="tools">\n'
+        '        <a class="all" href="{site}/Quizzes" target="_top">All<span class="vh"> quizzes</span> '
+        '<span aria-hidden="true">→</span></a>\n'
+        '        <button type="button" class="tog" aria-expanded="true" aria-label="Collapse or expand Company data '
+        'quizzes"><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" '
+        'stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">'
+        '<path d="M6 15l6-6 6 6"></path></svg></button>\n'
+        '      </div>\n'
+        '    </div>\n'
+        '    <div class="ca-grid hrow body-x">\n{cards}\n    </div>\n'
+        '  </div>\n'
+        '</section>').format(site=SITE, cards="\n".join(cards))
+
+
 def build_redesign(page, tiles):
     body, picked = render_assessments(tiles)
     page = splice(page, ASSESS_START, ASSESS_END, body)
@@ -395,6 +448,8 @@ def build_redesign(page, tiles):
     if GREATS_START in page:
         body, _ = render_greats()
         page = splice(page, GREATS_START, GREATS_END, body)
+    if QUIZ_START in page:
+        page = splice(page, QUIZ_START, QUIZ_END, render_quizzes())
     return page, picked, reads
 
 

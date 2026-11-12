@@ -1,0 +1,110 @@
+{
+  "slug": "watches-of-switzerland-wosg",
+  "company": "Watches of Switzerland",
+  "ticker": "WOSG",
+  "sector": "Consumer Discretionary",
+  "title": "Watches of Switzerland: how well do you know the numbers?",
+  "blurb": "Eight questions on how the luxury watch retailer makes its money, from sales and margins to cash and debt.",
+  "cover": "quizzes/covers/watches-of-switzerland-wosg.webp",
+  "assessment": "watches-of-switzerland-group-plc-wosg-buy-running-well-priced-for-it",
+  "assessment_title": "Running Well, Priced For It",
+  "assessment_date": "2026-11-10",
+  "published": "2026-11-12",
+  "questions": [
+    {
+      "id": 1,
+      "type": "choice",
+      "topic": "business",
+      "prompt": "How does Watches of Switzerland make its money?",
+      "options": [
+        "It designs and manufactures its own watches",
+        "It buys watches and jewellery from the brand owners and retails them in its showrooms and online",
+        "It lends money to people purchasing luxury goods",
+        "It rents out watches by the month"
+      ],
+      "answer": 1,
+      "explanation": "It is an authorised retailer, not a brand owner. It purchases stock from brands such as Rolex and earns the difference between what it pays and what the customer pays. The brands decide the price and how much stock it gets.",
+      "source_quote": "It buys from the brand owners and sells through its own showrooms and websites."
+    },
+    {
+      "id": 2,
+      "type": "choice",
+      "topic": "sales",
+      "prompt": "Revenue is the money taken in from customers before any costs. How much did group revenue grow in the first half?",
+      "options": ["5%", "9%", "15%", "28%"],
+      "answer": 2,
+      "explanation": "Group revenue rose 15% to £974m in the 26 weeks to 1 November 2026. The United States grew faster than the United Kingdom, but both were up.",
+      "source_quote": "Group revenue increased by 15% to £974m despite the macroeconomic environment"
+    },
+    {
+      "id": 3,
+      "type": "choice",
+      "topic": "profit",
+      "prompt": "Adjusted EBIT is profit before interest and tax, with one-off items left out. What does the company expect it to be for the half?",
+      "options": ["£24m to £26m", "£57m to £59m", "£87m to £89m", "£154m to £156m"],
+      "answer": 2,
+      "explanation": "The company expects £87m to £89m, around 28% more than the £68.5m of a year earlier. Profit grew faster than revenue, which means it kept more of each pound of sales.",
+      "source_quote": "The company is expecting to deliver around 28% adjusted earnings before interest and tax growth in the first half, a figure of £87m to £89m, with 80 to 100 basis points of margin expansion."
+    },
+    {
+      "id": 4,
+      "type": "higher_lower",
+      "topic": "margins",
+      "prompt": "A profit margin is profit as a percentage of revenue. In the full year of 2026 the margin was 8.5%. Was the margin in this half higher or lower than that?",
+      "options": ["Higher", "Lower"],
+      "answer": 0,
+      "explanation": "Higher. The margin for the half is around 8.9% to 9.1%, so the company is keeping roughly 9p of profit from every £1 of sales, against 8.5p across 2026.",
+      "source_quote": "This half takes back 80 to 100 basis points of it, to around 8.9% to 9.1% against 8.1% in the first half of 2026, which the company describes as operating leverage."
+    },
+    {
+      "id": 5,
+      "type": "choice",
+      "topic": "margins",
+      "prompt": "Which country earned the better profit margin in the full year of 2026?",
+      "options": [
+        "The United States",
+        "The United Kingdom",
+        "Both earned exactly the same margin",
+        "Neither country made a profit"
+      ],
+      "answer": 0,
+      "explanation": "The United States, at 10.4% against 7.3% for the United Kingdom and Europe. It also became the larger half of the group by revenue in 2026, so the more profitable side of the business is now the bigger one.",
+      "source_quote": "The United States became the larger half of the group in 2026, at £927m of revenue against £901m in the United Kingdom, and it earns the better margin."
+    },
+    {
+      "id": 6,
+      "type": "choice",
+      "topic": "margins",
+      "prompt": "The margin fell in the full year of 2026. What did the company say was behind it?",
+      "options": [
+        "It cut its own prices to clear unsold stock",
+        "The watch brands lowered the margin they give retailers",
+        "Rents on its showrooms doubled",
+        "It stopped trading in the United States"
+      ],
+      "answer": 1,
+      "explanation": "The brands lowered the margin they give retailers after the United States tariffs and the rise in the gold price. Because the brands set the terms, the retailer cannot control how much it keeps on each watch.",
+      "source_quote": "which the company put down to the brands lowering the margin they give retailers after the United States tariffs and the rise in the gold price, and to product mix."
+    },
+    {
+      "id": 7,
+      "type": "choice",
+      "topic": "cash",
+      "prompt": "Free cash flow is the cash left after running the business and paying for new showrooms. How much did the company generate in the full year of 2026?",
+      "options": ["£24m", "£65.9m", "£112m", "£161.7m"],
+      "answer": 3,
+      "explanation": "It generated £161.7m, which was 80% of its adjusted profit. That matters because profit on paper only helps shareholders once it turns into cash the company can use to pay down debt or return to them.",
+      "source_quote": "Net debt — borrowings less cash — of £24m is down £88m in twelve months, after £161.7m of free cash flow in the full year of 2026, a conversion of 80%."
+    },
+    {
+      "id": 8,
+      "type": "higher_lower",
+      "topic": "debt",
+      "prompt": "Net debt is borrowings less cash. A year earlier it stood at £112m. Was net debt at 1 November 2026 higher or lower than that?",
+      "options": ["Higher", "Lower"],
+      "answer": 1,
+      "explanation": "Lower. Net debt was £24m, down from £112m, because the cash the business generated went towards paying borrowings down. This figure leaves out showroom leases; including them the total is far larger.",
+      "source_quote": "Net debt was £24m at 1 November, down from £112m a year earlier and £57m at the year end in May."
+    }
+  ]
+}
