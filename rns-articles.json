@@ -1,5 +1,18 @@
 [
   {
+    "company": "Whitbread PLC",
+    "ticker": "WTB",
+    "publish_date": "13 November 2026",
+    "date_iso": "2026-11-13",
+    "time_period": "",
+    "announcement_type": "Financing / refinancing",
+    "period_detail": "",
+    "priority": "medium",
+    "source_format": "html",
+    "added_at": "2026-11-13T07:16:04.807865",
+    "locked": true
+  },
+  {
     "company": "NVIDIA Corp",
     "ticker": "NVDA",
     "publish_date": "12 November 2026",
@@ -873,10 +886,23 @@
     "time_period": "",
     "announcement_type": "Strategic alliance / partnership",
     "period_detail": "",
-    "priority": "medium",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Adobe</strong> and <strong>The Walt Disney Company</strong> have announced a <strong>multi-year strategic alliance</strong>, with Adobe named an <strong>Official AI Innovation Partner</strong> of Disney, unveiled at <strong>Adobe MAX</strong>.</li><li>Adobe will give Disney early access to <strong>Adobe Firefly</strong>, <strong>Firefly Foundry</strong>, <strong>Premiere</strong> and <strong>Photoshop</strong>, plus dedicated engineering and research resources, to support Disney's production pipeline.</li><li><strong>Walt Disney Imagineering R&D</strong> is already using <strong>Firefly Foundry</strong> for sketch-to-image and franchise-accurate asset generation in the theme-park development pipeline.</li><li>Alliance spans <strong>Walt Disney World</strong>, <strong>Disneyland</strong>, <strong>Disney Cruise Line</strong>, <strong>ESPN Edge</strong> and <strong>StudioLAB</strong>, with co-innovation projects already underway and more activations over the term.</li><li><strong>No financial terms, revenue figures or guidance impact</strong> were disclosed; the release is a partnership/marketing announcement.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-11-09T14:56:09.362515",
-    "locked": true
+    "headline": "Adobe and The Walt Disney Company sign a multi-year strategic alliance making Adobe an Official AI Innovation Partner across Disney's creative, parks and media pipelines.",
+    "priority": "medium",
+    "priority_reason": "Multi-year commercial AI alliance with a major counterparty, but no financial terms or revenue impact disclosed.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/ADBE/share-news/Adobe-and-The-Walt-Disney-Company-Announce-Multi-Y/99663562",
+    "related_news_url": "https://news.google.com/search?q=%22Adobe%20Inc.%22",
+    "added_at": "2026-11-09T14:56:09.362515"
   },
   {
     "company": "Warner Music Group Corp",
@@ -886,10 +912,23 @@
     "time_period": "",
     "announcement_type": "Dividend declaration",
     "period_detail": "",
-    "priority": "medium",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Warner Music Group</strong> declared a regular quarterly cash dividend of <strong>$0.20 per share</strong> on its Class A and Class B common stock.</li><li>Payable <strong>1 December 2026</strong> to stockholders of record as of close of business on <strong>20 November 2026</strong>.</li><li>Routine dividend declaration — rate unchanged, <strong>no impact</strong> on trading or guidance.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-11-09T13:56:01.730586",
-    "locked": true
+    "headline": "Warner Music Group declares a regular quarterly cash dividend of $0.20 per share, payable 1 December 2026.",
+    "priority": "medium",
+    "priority_reason": "Routine quarterly dividend declaration with no change to rate or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/WMG/share-news/Warner-Music-Group-Corp-Announces-Quarterly-Cash/99663165",
+    "related_news_url": "https://news.google.com/search?q=%22Warner%20Music%20Group%20Corp.%22",
+    "added_at": "2026-11-09T13:56:01.730586"
   },
   {
     "company": "DropBox Inc",
@@ -899,10 +938,23 @@
     "time_period": "",
     "announcement_type": "Fundraising / debt issuance",
     "period_detail": "",
-    "priority": "high",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Dropbox, Inc.</strong> (NASDAQ: <strong>DBX</strong>) intends to offer <strong>$1.0bn</strong> of <strong>convertible senior notes due 2031</strong> in a private placement to qualified institutional buyers under Rule 144A.</li><li>Initial purchasers granted a 13-day option for up to <strong>$150.0m</strong> of additional notes; interest rate, conversion rate and other terms to be set at pricing.</li><li>Proceeds earmarked to repay at least <strong>$750.0m</strong> of outstanding term loan borrowings and to repurchase approximately <strong>$175.0m</strong> of <strong>Class A common stock</strong> concurrently with pricing.</li><li>Dropbox plans convertible note hedge and warrant transactions to offset potential dilution; option counterparties' hedging may affect the share and note price around pricing.</li><li>Notes are senior unsecured obligations with interest payable semi-annually; on conversion Dropbox pays cash up to principal, with the excess settled in cash, Class A shares or a combination at its election.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-11-09T12:56:00.365584",
-    "locked": true
+    "headline": "Dropbox launches a $1.0bn convertible senior notes offering due 2031, using proceeds to repay term loan debt and buy back stock.",
+    "priority": "high",
+    "priority_reason": "A $1bn convertible notes offering is a major capital-raising with share buyback, hedge/warrant and debt-repayment implications.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/DBX/share-news/Dropbox-Inc-Announces-1-0-Billion-Convertible-N/99662169",
+    "related_news_url": "https://news.google.com/search?q=%22Dropbox%2C%20Inc.%22",
+    "added_at": "2026-11-09T12:56:00.365584"
   },
   {
     "company": "London Stock Exchange Group plc",
@@ -912,10 +964,23 @@
     "time_period": "",
     "announcement_type": "Fundraising / debt issue",
     "period_detail": "",
-    "priority": "medium",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>London Stock Exchange Group plc</strong> has mandated <strong>Barclays</strong>, <strong>HSBC</strong>, <strong>Lloyds</strong>, <strong>NatWest</strong> and <strong>RBC Capital Markets</strong> as Joint Lead Managers for a <strong>benchmark-size £ fixed-rate 3-year</strong> Plain Vanilla Listed Bond.</li><li>LSEG is rated <strong>A (stable) by S&P</strong> and <strong>A3 (positive) by Moody's</strong>; <strong>Lloyds</strong> is PVLB Co-ordinator.</li><li>Notes are retail-distributable via <strong>Winterflood</strong> (a division of Marex Financial) and <strong>Retail Book Limited</strong>; not for sale to EEA retail investors.</li><li>Follows LSEG's <strong>16 April 2026</strong> consent exercise covering roughly <strong>£1.4bn</strong> of three outstanding Sterling bonds; pricing to be set via bookbuild.</li><li>Routine debt-financing advertisement — <strong>no impact</strong> on current trading or guidance.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-11-09T09:56:03.549494",
-    "locked": true
+    "headline": "LSEG has mandated banks for a benchmark-size 3-year fixed-rate Sterling bond, retail-eligible via Winterflood and RetailBook.",
+    "priority": "medium",
+    "priority_reason": "A new benchmark Sterling bond mandate is a financing event, not results or M&A, but material to LSEG's debt profile.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/london-stock-exchange-LSEG/share-news/London-Stock-Exchange-Group-PLC-London-Stock-Excha/99658343",
+    "related_news_url": "https://news.google.com/search?q=%22London%20Stock%20Exchange%20Group%20plc%22",
+    "added_at": "2026-11-09T09:56:03.549494"
   },
   {
     "company": "RTW Biotech Opportunities Ltd",
@@ -925,10 +990,23 @@
     "time_period": "",
     "announcement_type": "Buyback / capital return",
     "period_detail": "",
-    "priority": "medium",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>RTW Biotech Opportunities Ltd</strong> is expanding its Capital Allocation Plan, committing a <strong>further $42.8m</strong> (equivalent to <strong>4.9% of NAV</strong> as at 30 September 2026) to a liquidity pool earmarked for <strong>NAV-accretive share buybacks</strong>.</li><li>Board formalises a policy of allocating <strong>up to 20%</strong> of realised gains from portfolio M&A transactions to a liquidity pool for capital returns.</li><li>The previously targeted <strong>$45m</strong> return is almost complete: <strong>$42.3m</strong> returned via buybacks as at 5 November 2026, with a residual <strong>$2.7m</strong> outstanding; <strong>7.2m shares</strong> repurchased in the year to 5 November 2026.</li><li>Total liquidity pool now stands at <strong>$45.5m</strong> (<strong>5.3% of NAV</strong> as at 30 September 2026).</li><li>Expansion follows a run of portfolio exits, including <strong>Novartis</strong>'s <strong>$12bn</strong> acquisition of <strong>Avidity</strong>, <strong>AbbVie</strong>'s <strong>$10.9bn</strong> acquisition of <strong>Apogee</strong> and <strong>Boston Scientific</strong>'s <strong>$14.5bn</strong> acquisition of <strong>Penumbra</strong>.</li><li>Chair <strong>William Simpson</strong> cited a \"generational moment for biotech\", with 2026 expected to be one of the best years on record for biotech M&A volumes.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-11-09T07:58:04.473628",
-    "locked": true
+    "headline": "RTW Biotech to allocate a further $42.8m to a liquidity pool for NAV-accretive share buybacks and formalises returning up to 20% of M&A gains.",
+    "priority": "medium",
+    "priority_reason": "Expansion of a capital allocation plan committing a further sum to NAV-accretive share buybacks, not a daily buyback transaction.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/rtw-biotech-opportunities-RTW/share-news/RTW-Biotech-Opportunities-Ltd-Expansion-of-Capital/99657229",
+    "related_news_url": "https://news.google.com/search?q=%22RTW%20Biotech%20Opportunities%20Ltd%22",
+    "added_at": "2026-11-09T07:58:04.473628"
   },
   {
     "company": "IMI plc",
@@ -938,10 +1016,23 @@
     "time_period": "",
     "announcement_type": "Disposal",
     "period_detail": "",
-    "priority": "medium",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>IMI plc</strong> has completed the sale of its <strong>Truflo Marine</strong> business to <strong>Fairbanks Morse Defense</strong> for an enterprise value of <strong>£225m</strong>.</li><li>Deal first announced on <strong>24 November 2025</strong>; completed on <strong>6 November 2026</strong>.</li><li>The <strong>£225m</strong> enterprise value includes <strong>£5m</strong> of lease liabilities treated as debt under IFRS; equivalent value under US GAAP is <strong>£220m</strong>.</li><li>CEO <strong>Roy Twite</strong> said the disposal further aligns IMI to its Energy, Automation and Healthcare megatrends.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-11-09T07:58:04.418135",
-    "locked": true
+    "headline": "IMI has completed the sale of its Truflo Marine business to Fairbanks Morse Defense for an enterprise value of £225m.",
+    "priority": "medium",
+    "priority_reason": "Completion of a previously announced non-core disposal; a corporate portfolio event but not a results or guidance change.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/imi-IMI/share-news/IMI-PLC-IMI-completes-sale-of-Truflo-Marine/99657226",
+    "related_news_url": "https://news.google.com/search?q=%22IMI%20plc%22",
+    "added_at": "2026-11-09T07:58:04.418135"
   },
   {
     "company": "Kainos Group plc",
@@ -951,11 +1042,88 @@
     "time_period": "H1 FY27 (six months to 30 September 2026)",
     "announcement_type": "Interim results",
     "period_detail": "H1 FY27 (six months to 30 September 2026)",
-    "priority": "high",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Revenue +37%</strong> (36% organic, 37% ccy) to <strong>£268.8m</strong> (H1 26: £196.1m), with <strong>adjusted pre-tax profit +30%</strong> to <strong>£41.7m</strong> and margin broadly flat at <strong>16%</strong>.</li><li><strong>Digital Services</strong> had an excellent half, revenue <strong>+57% to £162.5m</strong>, led by healthcare (+85%) and public sector (+55%); <strong>Kainos among the top UK Government digital contract winners</strong>, with awards up to <strong>£150m with Defra</strong> signed and <strong>£111m (Home Office)</strong> and <strong>£84m (FCDO)</strong> due in H2.</li><li><strong>Workday Products ARR +24% to £96.0m</strong>, on track to pass the <strong>£100m target by end 2026</strong> and reach <strong>£200m by 2030</strong>; <strong>Workday Services</strong> revenue +9% to £58.3m, driven by North America.</li><li><strong>Bookings +27% to £402.3m</strong> and <strong>contracted backlog of £853.0m</strong> (31 March 2026: £716.6m), though bookings/backlog methodology revised to reflect full Digital Services contract values; <strong>period-end cash £86.5m</strong>.</li><li>Outlook: expects <strong>further growth in revenue and adjusted PBT in H2 FY27, in line with current market expectations</strong>; Digital Services growth rate to moderate against a stronger comparative. Note <strong>Digital Services gross margin fell 3.9% to 31.9%</strong> on contractor use, expected to normalise.</li><li><strong>CEO Brendan Mooney</strong>: \"an excellent six months for Kainos, building on our strong performance last year\"; NPS <strong>61</strong> (H1 26: 70).</li></ul>",
     "source_format": "html",
-    "added_at": "2026-11-09T07:57:23.119370",
-    "locked": true,
-    "guidance_locked": true
+    "headline": "Kainos H1 FY27 revenue rose 37% to £268.8m and adjusted pre-tax profit 30% to £41.7m, with full-year expectations unchanged.",
+    "priority": "high",
+    "priority_reason": "Half-year results from an LSE-listed IT group, with revenue, profit, bookings and guidance commentary.",
+    "figures": [
+      {
+        "metric": "Revenue",
+        "current": "£268.8m",
+        "prior": "£196.1m",
+        "change": "+37%",
+        "basis": "36% organic, 37% ccy",
+        "note": "H1 to 30 September 2026"
+      },
+      {
+        "metric": "Adjusted pre-tax profit",
+        "current": "£41.7m",
+        "prior": "not stated",
+        "change": "+30%",
+        "basis": "30% ccy",
+        "note": "adjusted profit margin broadly unchanged at 16%"
+      },
+      {
+        "metric": "Period-end cash",
+        "current": "£86.5m",
+        "prior": "£89.1m (31 March 2026)",
+        "change": "not stated",
+        "basis": "cash conversion 62% (H1 26: 48%)",
+        "note": "at 30 September 2026"
+      },
+      {
+        "metric": "Bookings",
+        "current": "£402.3m",
+        "prior": "£317.0m",
+        "change": "+27%",
+        "basis": "revised methodology for Digital Services",
+        "note": "H1 FY27"
+      },
+      {
+        "metric": "Contracted backlog",
+        "current": "£853.0m",
+        "prior": "£716.6m (31 March 2026); £679.3m (30 September 2025)",
+        "change": "not stated",
+        "basis": "revised methodology",
+        "note": "at 30 September 2026"
+      },
+      {
+        "metric": "Digital Services revenue",
+        "current": "£162.5m",
+        "prior": "£103.5m",
+        "change": "+57%",
+        "basis": "57% ccy, 54% organic",
+        "note": "H1 FY27"
+      },
+      {
+        "metric": "Workday Products ARR",
+        "current": "£96.0m",
+        "prior": "£77.5m",
+        "change": "+24%",
+        "basis": "23% ccy",
+        "note": "at 30 September 2026"
+      },
+      {
+        "metric": "Workday Services revenue",
+        "current": "£58.3m",
+        "prior": "£53.4m",
+        "change": "+9%",
+        "basis": "9% ccy",
+        "note": "H1 FY27"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Current market expectations for FY27",
+      "current": "Expects further growth in revenue and adjusted profit before tax in the second half of FY27, in line with current market expectations",
+      "commentary": "Guidance is reiterated rather than changed: Kainos expects H2 FY27 growth in revenue and adjusted PBT in line with market expectations, while flagging that Digital Services' exceptional first-half growth rate will moderate against a tougher comparative. Workday Products will surpass its £100m ARR target this quarter."
+    },
+    "explainer": "These are half-year (H1 FY27) results covering the six months to 30 September 2026. Headline revenue grew 37%, and almost all of that was organic (36%) rather than bought-in through acquisitions — the only notable acquisition contribution was a full period of Davis Pier in North America. Constant-currency figures are virtually identical to reported, so foreign-exchange moves had little effect on the numbers.\n\nThe standout was Digital Services, where revenue jumped 57%, driven by large UK Government contract wins in public sector and healthcare. A caveat: the gross margin in this division fell by 3.9 points to 31.9% because Kainos leaned on contractors and supply partners to deliver rapid growth. Management frames this as a short-term staffing choice and expects margins to recover as it replaces third parties with employed staff. Kainos now counts the full value of Digital Services contracts. On this revised basis, year-on-year bookings growth was 27%, down from 34% under the previous method, while backlog growth was 26%, up from 19%. The change did not affect Workday figures.\n\nOn guidance, nothing was raised or cut: Kainos reaffirmed that it expects further H2 growth in revenue and adjusted profit \"in line with current market expectations.\" It explicitly warned that Digital Services' growth rate will slow in the second half against a stronger prior-year comparative, so the exceptional first-half pace is not expected to continue. Workday Products' recurring revenue (ARR) reached £96.0m and is set to pass the long-standing £100m target this quarter, with a £200m goal by 2030.",
+    "source_url": "https://uk.advfn.com/stock-market/london/kainos-KNOS/share-news/Kainos-Group-plc-Interim-results/99657061",
+    "related_news_url": "https://news.google.com/search?q=%22Kainos%20Group%20plc%22",
+    "added_at": "2026-11-09T07:57:23.119370"
   },
   {
     "company": "Hikma Pharmaceuticals PLC",
@@ -965,10 +1133,23 @@
     "time_period": "",
     "announcement_type": "Board / management change",
     "period_detail": "",
-    "priority": "medium",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Hikma Pharmaceuticals PLC</strong> appoints <strong>Umang Vohra</strong> as an independent Non-Executive Director, effective <strong>1 December 2026</strong>.</li><li>He also joins the <strong>Audit Committee</strong> and the <strong>Nomination and Governance Committee</strong> from the same date.</li><li>Vohra is currently Chair and CEO of India-listed CDMO <strong>Cohance Lifesciences</strong>, and previously served as CEO of <strong>Cipla</strong>; earlier roles include CFO and Head of North America at <strong>Dr. Reddy's Laboratories</strong>.</li><li>Routine Listing Rule 6.4.6 board disclosure with <strong>no impact</strong> on trading or guidance.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-11-09T07:57:23.005839",
-    "locked": true
+    "headline": "Hikma appoints Umang Vohra as an independent Non-Executive Director with effect from 1 December 2026.",
+    "priority": "medium",
+    "priority_reason": "Appointment of a new independent Non-Executive Director — a board change with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/hikma-pharmaceuticals-HIK/share-news/Hikma-Pharmaceuticals-Plc-Hikma-appoints-Umang-Voh/99657085",
+    "related_news_url": "https://news.google.com/search?q=%22Hikma%20Pharmaceuticals%20PLC%22",
+    "added_at": "2026-11-09T07:57:23.005839"
   },
   {
     "company": "Capricorn Energy PLC",
@@ -978,10 +1159,23 @@
     "time_period": "",
     "announcement_type": "Acquisition / deal",
     "period_detail": "",
-    "priority": "high",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>DNO ASA</strong> and bid vehicle <strong>DNO Bidco AS</strong> confirm their cash offer for <strong>Capricorn Energy plc</strong>, to be effected by scheme of arrangement, has <strong>lapsed</strong> with immediate effect.</li><li>Bidco invoked the <strong>Mini Long Stop Date</strong> condition after scheme conditions <strong>2.1(b)</strong> and <strong>2.2(b)</strong> were not satisfied by <strong>7 November 2026</strong>.</li><li>The lapsed deal was the <strong>revised Rule 2.7 cash offer</strong> announced on <strong>17 September 2026</strong>, with the Scheme Document published <strong>21 September 2026</strong>.</li><li><strong>Lambert Energy Advisory</strong> acted as financial adviser, with <strong>Freshfields LLP</strong> and <strong>Advokatfirmaet Thommessen AS</strong> as legal advisers to DNO and Bidco.</li><li>Announcement references a prior statement dated <strong>28 September 2026</strong>; original expected Court and General Meeting date was <strong>16 October 2026</strong>.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-11-09T07:57:22.900318",
-    "locked": true
+    "headline": "DNO ASA's revised all-cash offer for Capricorn Energy has lapsed after scheme conditions went unsatisfied by the long-stop date.",
+    "priority": "high",
+    "priority_reason": "A live takeover of Capricorn has collapsed, materially changing the shares' M&A premium and outlook.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/capricorn-energy-CNE/share-news/DNO-ASA-Lapse-of-offer-for-Capricorn-Energy/99656997",
+    "related_news_url": "https://news.google.com/search?q=%22Capricorn%20Energy%20plc%22",
+    "added_at": "2026-11-09T07:57:22.900318"
   },
   {
     "company": "Custodian Property Income REIT plc",
@@ -991,10 +1185,23 @@
     "time_period": "",
     "announcement_type": "Acquisition / deal",
     "period_detail": "",
-    "priority": "medium",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Custodian Property Income REIT</strong> has purchased an <strong>£11.0m</strong> portfolio of <strong>eight</strong> retail and industrial properties from eight syndicated vehicles managed by <strong>Lincoln Property Syndicates</strong>, on an adjusted NAV-for-NAV basis.</li><li>Consideration paid on <strong>5 November 2026</strong>: <strong>£0.4m</strong> cash plus <strong>10.6m</strong> new ordinary shares (10,553,474), representing c.<strong>2.2%</strong> of current issued share capital.</li><li>Portfolio is <strong>100% occupied</strong>, primarily in the <strong>East Midlands</strong>, average lot-size <strong>£1.4m</strong>, passing rent <strong>£0.8m</strong> p.a., net initial yield c.<strong>6.7%</strong> and reversionary yield <strong>7.2%</strong>; WAULT of <strong>six years</strong>.</li><li>As the portfolio is ungeared, the deal cuts net gearing by c.<strong>0.2%</strong>, keeping it near the Board's <strong>25%</strong> target; management says it will grow EPS and improve dividend cover as reversion is captured.</li><li>Admission of the Consideration Shares expected before <strong>30 November 2026</strong>, taking issued share capital (ex-treasury) to <strong>498,620,553</strong> shares / total voting rights.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-11-09T07:56:31.825829",
-    "locked": true
+    "headline": "Custodian Property Income REIT buys an £11.0m portfolio of eight regional retail and industrial properties from Lincoln Property Syndicates, paid mostly in new shares.",
+    "priority": "medium",
+    "priority_reason": "A small share-based bolt-on acquisition with only c.2.2% dilution and negligible gearing impact — a deal, but modest in scale.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/custodian-property-incom-CREI/share-news/Custodian-Property-Income-REIT-plc-Further-moment/99657191",
+    "related_news_url": "https://news.google.com/search?q=%22Custodian%20Property%20Income%20REIT%20plc%22",
+    "added_at": "2026-11-09T07:56:31.825829"
   },
   {
     "company": "NVIDIA Corp",
@@ -1004,10 +1211,23 @@
     "time_period": "",
     "announcement_type": "Board / management change",
     "period_detail": "",
-    "priority": "high",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>NVIDIA</strong> board is initiating an independent investigation following reports that founder and CEO <strong>Jensen Huang</strong> has been the target of a <strong>foreign intelligence effort</strong>.</li><li>A committee of <strong>independent directors</strong>, assisted by <strong>outside independent counsel</strong>, will oversee the inquiry.</li><li>Board says it has <strong>no reason to believe</strong> national security or NVIDIA secrets were compromised, but will examine all available information.</li><li><strong>Jensen Huang</strong> fully supports the review and has committed to cooperating; the board reaffirms confidence in his leadership.</li><li>Further updates to be provided as appropriate — <strong>no financial or guidance impact</strong> stated.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-11-09T07:16:01.261339",
-    "locked": true
+    "headline": "NVIDIA's board has launched an independent investigation after reports that CEO Jensen Huang was targeted by a foreign intelligence effort.",
+    "priority": "high",
+    "priority_reason": "Board-level independent investigation touching CEO Jensen Huang and national security is potentially market-moving for a mega-cap stock.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/NVDA/share-news/Statement-from-NVIDIA-Board-of-Directors/99656578",
+    "related_news_url": "https://news.google.com/search?q=%22NVIDIA%20Corporation%22",
+    "added_at": "2026-11-09T07:16:01.261339"
   },
   {
     "company": "Raspberry Pi Holdings PLC",
