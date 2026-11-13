@@ -1,5 +1,32 @@
 [
   {
+    "company": "Standard Lithium Ltd.",
+    "ticker": null,
+    "publish_date": "13 November 2026",
+    "date_iso": "2026-11-13",
+    "time_period": "Q3 2026 (three months ended 30 September 2026)",
+    "announcement_type": "Quarterly results",
+    "period_detail": "Q3 2026 (three months ended 30 September 2026)",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-13T07:17:06.927599",
+    "locked": true,
+    "guidance_locked": true
+  },
+  {
+    "company": "Frasers Group PLC",
+    "ticker": "FRAS",
+    "publish_date": "13 November 2026",
+    "date_iso": "2026-11-13",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "priority": "medium",
+    "source_format": "html",
+    "added_at": "2026-11-13T07:17:06.873352",
+    "locked": true
+  },
+  {
     "company": "Whitbread PLC",
     "ticker": "WTB",
     "publish_date": "13 November 2026",
