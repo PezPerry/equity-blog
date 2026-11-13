@@ -1,7 +1,7 @@
 {
  "snapshot_version": 1,
  "generated_at_utc": "2026-11-13T07:00:11.356276+00:00",
- "synced_at_utc": "2026-11-13T20:10:02+00:00",
+ "synced_at_utc": "2026-11-13T21:10:02+00:00",
  "note": "Latest prices, checked about once an hour and possibly delayed, compared with the last completed close.",
  "instruments": [
   {
@@ -43,10 +43,10 @@
    "status": "Latest completed session",
    "roll_warning": null,
    "live": {
-    "price": 27939.395,
-    "change": -0.012364951413846859,
-    "score": -0.4149833112113839,
-    "as_at_utc": "2026-11-13T20:10:10+00:00",
+    "price": 27943.736,
+    "change": -0.012211500569764056,
+    "score": -0.4098333080084314,
+    "as_at_utc": "2026-11-13T21:10:10+00:00",
     "session_date": "2026-11-13",
     "direction": "Down",
     "description": "Falling"
@@ -67,13 +67,13 @@
    "status": "Latest completed session",
    "roll_warning": null,
    "live": {
-    "price": 19.14,
-    "change": 0.02352937000583233,
-    "score": -0.09980181039199695,
-    "as_at_utc": "2026-11-13T19:55:01+00:00",
+    "price": 18.82,
+    "change": 0.006417071238754568,
+    "score": -0.027218549705469077,
+    "as_at_utc": "2026-11-13T20:55:01+00:00",
     "session_date": "2026-11-13",
     "direction": "Up",
-    "description": "Anxiety rising slightly"
+    "description": "Little changed"
    }
   },
   {
@@ -91,13 +91,13 @@
    "status": "Latest completed session",
    "roll_warning": "Rolling front-contract series: expiry/roll can cause artificial daily jumps. Yahoo does not supply a verified daily contract mapping here, so no roll adjustment is claimed. Closes are not guaranteed official settlements.",
    "live": {
-    "price": 95.99,
-    "change": 0.0017741630736507474,
-    "score": 0.03000959275769573,
-    "as_at_utc": "2026-11-13T20:00:02+00:00",
+    "price": 96.13,
+    "change": 0.0032352359232215022,
+    "score": 0.054723330663829,
+    "as_at_utc": "2026-11-13T20:59:09+00:00",
     "session_date": "2026-11-13",
     "direction": "Up",
-    "description": "Little changed"
+    "description": "Rising slightly"
    }
   },
   {
@@ -118,7 +118,7 @@
     "price": 3.239,
     "change": -0.030239496037361757,
     "score": -0.5212391830301698,
-    "as_at_utc": "2026-11-13T20:00:00+00:00",
+    "as_at_utc": "2026-11-13T21:00:11+00:00",
     "session_date": "2026-11-13",
     "direction": "Down",
     "description": "Falling"
@@ -139,13 +139,13 @@
    "status": "Latest completed session",
    "roll_warning": "Rolling front-contract series: expiry/roll can cause artificial daily jumps. Yahoo does not supply a verified daily contract mapping here, so no roll adjustment is claimed. Closes are not guaranteed official settlements.",
    "live": {
-    "price": 3876.8,
-    "change": -0.00218774579087877,
-    "score": -0.07956023172655015,
-    "as_at_utc": "2026-11-13T20:00:10+00:00",
+    "price": 3880.3,
+    "change": -0.001286914463564548,
+    "score": -0.046800324498541344,
+    "as_at_utc": "2026-11-13T21:00:11+00:00",
     "session_date": "2026-11-13",
     "direction": "Down",
-    "description": "Falling slightly"
+    "description": "Little changed"
    }
   },
   {
@@ -163,10 +163,10 @@
    "status": "Latest completed session",
    "roll_warning": null,
    "live": {
-    "price": 102.0557489223915,
-    "change": -0.0006990097420671582,
-    "score": -0.17326362181953336,
-    "as_at_utc": "2026-11-13T20:09:30+00:00",
+    "price": 102.09480927113871,
+    "change": -0.0003165418694087707,
+    "score": -0.07846126806344289,
+    "as_at_utc": "2026-11-13T21:09:31+00:00",
     "session_date": "2026-11-13",
     "direction": "Down",
     "description": "Weakening slightly"
@@ -187,10 +187,10 @@
    "status": "Latest completed session",
    "roll_warning": null,
    "live": {
-    "price": 103.411,
-    "change": 0.0023359681625663153,
-    "score": 0.3517511878831157,
-    "as_at_utc": "2026-11-13T20:00:09+00:00",
+    "price": 103.413,
+    "change": 0.0023553536431857314,
+    "score": 0.35467026269964635,
+    "as_at_utc": "2026-11-13T21:00:10+00:00",
     "session_date": "2026-11-13",
     "direction": "Up",
     "description": "Strengthening"
