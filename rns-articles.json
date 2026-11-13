@@ -1,5 +1,31 @@
 [
   {
+    "company": "Rentokil Initial PLC",
+    "ticker": "RTO",
+    "publish_date": "13 November 2026",
+    "date_iso": "2026-11-13",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "priority": "medium",
+    "source_format": "html",
+    "added_at": "2026-11-13T07:58:38.108862",
+    "locked": true
+  },
+  {
+    "company": "GSK plc",
+    "ticker": "GSK",
+    "publish_date": "13 November 2026",
+    "date_iso": "2026-11-13",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "priority": "low",
+    "source_format": "html",
+    "added_at": "2026-11-13T07:58:38.098683",
+    "locked": true
+  },
+  {
     "company": "DFS Furniture PLC",
     "ticker": "DFS",
     "publish_date": "13 November 2026",
