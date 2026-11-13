@@ -146,6 +146,12 @@ h2.h .sub{font-weight:400;font-style:italic;color:var(--slate)}
 .tl-title{font-family:var(--serif);font-size:25px;line-height:1.3;font-weight:600}
 .tl-cos{font-size:13px;color:var(--slate);justify-self:end;text-align:right}
 
+/* RNS News: the newest one-line summaries from rns-feed.xml, on the Trading Log row pattern */
+.rns-row{grid-template-columns:150px 90px minmax(0,1fr)}
+.rns-co{display:block;font-family:var(--serif);font-size:21px;font-weight:600;line-height:1.3}
+.rns-hl{display:block;margin-top:4px;font-size:15px;line-height:1.55;color:var(--slate)}
+.rns-note{margin:0;padding:18px 0;font-size:15px;line-height:1.55;color:var(--slate)}
+
 .vb-counts{display:flex;gap:10px;flex-wrap:wrap}
 .vb-counts span{display:inline-flex;align-items:center;gap:8px;padding:6px 12px;border-radius:999px;border:1px solid var(--rule);font-size:13px}
 .vb-counts b{font-variant-numeric:tabular-nums}
@@ -279,6 +285,9 @@ h2.h .sub{font-weight:400;font-style:italic;color:var(--slate)}
   .tl-title{font-size:18px}
   .tl-pill{font-size:9px;padding:3px 7px}
   .tl-cos{justify-self:start;text-align:left;font-size:12px}
+  .rns-co{font-size:18px}
+  .rns-hl{margin-top:6px;font-size:14px;line-height:1.5}
+  .rns-note{padding:8px 0 12px}
   .vb-col{width:300px;padding:14px}
   .chipv{height:36px;padding:0 11px}
   .ft{width:236px;min-height:200px;padding:18px 16px}
@@ -417,6 +426,26 @@ h2.h .sub{font-weight:400;font-style:italic;color:var(--slate)}
         <div class="body"><div class="line"><span class="vtag sell">Sell</span><span class="tk">CARD</span></div><h3>Standing Still in a Weak Consumer Market</h3><span class="dt">29 Sep 2026</span></div>
       </a>
 <!-- ASSESSMENTS:END -->
+    </div>
+  </div>
+</section>
+
+<!-- RNS News: filled in the browser from rns-feed.xml, the headline-only feed the RNS pipeline publishes. One-line summaries only; no announcement text is written into this file. -->
+<section class="sec white" id="rns" aria-labelledby="rns-h">
+  <div class="wrap">
+    <div class="tl-wrap">
+      <div class="t">
+        <div class="kick">Regulatory news</div>
+        <h2 class="h" id="rns-h"><a target="_top" href="https://equityandmarketsinsight.com/RNSNews">RNS News</a></h2>
+        <p class="lede">The latest company announcements, each cut to a single line. Open one for the full summary in the RNS section.</p>
+        <div class="tools">
+          <a class="all" target="_top" href="https://equityandmarketsinsight.com/RNSNews">All<span class="vh"> RNS news</span> <span aria-hidden="true">→</span></a>
+          <button type="button" class="tog" aria-expanded="true" aria-label="Collapse or expand RNS News"><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 15l6-6 6 6"></path></svg></button>
+        </div>
+      </div>
+      <div class="tl-list hrow body-x" id="rnsList" aria-live="polite">
+        <p class="rns-note">Loading the latest announcements.</p>
+      </div>
     </div>
   </div>
 </section>
@@ -863,6 +892,34 @@ const brandedHref=f=>/^https?:/.test(f)?f:
   }
   fetch('market-temperature.json?t='+Math.floor(Date.now()/6e5),{cache:'no-store'}).then(function(r){if(!r.ok)throw new Error(r.status);return r.json();}).then(function(d){
     if(!d||!Array.isArray(d.instruments)||!d.generated_at_utc)throw new Error('shape');render(d);
+  }).catch(failed);
+})();
+
+/* RNS News: the six newest one-line summaries from rns-feed.xml (headlines only), each linking to that item in the RNS section.
+   High and medium priority first choice; low-priority items only fill the row if there are too few. */
+(function(){
+  var list=document.getElementById('rnsList');if(!list)return;
+  var MAX=6,MON=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+  function esc(s){return String(s).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];});}
+  function txt(n,tag){var e=n.getElementsByTagName(tag)[0];return e?(e.textContent||'').trim():'';}
+  function when(id){var m=/^(\d{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2})/.exec(id);return m?(+m[3])+' '+MON[+m[2]-1]+' '+m[1]+' · '+m[4]+':'+m[5]:'';}
+  function failed(){list.innerHTML='<p class="rns-note">The latest announcements could not be loaded just now. <a target="_top" href="'+SITE+'/RNSNews">Open RNS News</a>.</p>';}
+  fetch('rns-feed.xml?t='+Math.floor(Date.now()/6e5),{cache:'no-store'}).then(function(r){if(!r.ok)throw new Error(r.status);return r.text();}).then(function(x){
+    var doc=new DOMParser().parseFromString(x,'application/xml');
+    var items=Array.prototype.map.call(doc.getElementsByTagName('item'),function(n){
+      var t=txt(n,'title'),cut=t.indexOf(' — '),id=txt(n,'guid'),p=/^\[([A-Z]+)\]/.exec(txt(n,'description'));
+      return {co:cut>0?t.slice(0,cut):t,hl:cut>0?t.slice(cut+3):'',id:id,pr:p?p[1]:''};
+    }).filter(function(i){return i.co&&i.id;});
+    if(!items.length)throw new Error('empty');
+    var pick=items.filter(function(i){return i.pr!=='LOW';}).slice(0,MAX);
+    if(pick.length<MAX){pick=items.slice(0,MAX);}
+    list.innerHTML=pick.map(function(i){
+      var pr=i.pr?i.pr.charAt(0)+i.pr.slice(1).toLowerCase():'';
+      return '<a class="tl-row rns-row" target="_top" href="'+SITE+'/RNSNews#item='+encodeURIComponent(i.id)+'">'
+        +'<span class="tl-date">'+esc(when(i.id))+'</span>'
+        +'<span class="tl-pill">'+esc(pr||'RNS')+'</span>'
+        +'<span><span class="rns-co">'+esc(i.co)+'</span>'+(i.hl?'<span class="rns-hl">'+esc(i.hl)+'</span>':'')+'</span></a>';
+    }).join('');
   }).catch(failed);
 })();
 
