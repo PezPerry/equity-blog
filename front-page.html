@@ -84,6 +84,7 @@ h2.h .sub{font-weight:400;font-style:italic;color:var(--slate)}
 .wxp{display:inline-block;border-radius:20px;font-size:11px;font-weight:700;line-height:1.25;padding:4px 7px;margin-top:6px;font-variant-numeric:tabular-nums}
 .wx-na .wxf{font-size:16px;letter-spacing:0;background:none;color:var(--slate)}
 .wx-st{position:absolute;z-index:1;top:10px;right:8px;font-size:9px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:2px 5px;border-radius:3px;background:#c07c12;color:#080d16}
+.wx-st.wx-lc{background:#F8F5EF;color:#112238}
 @container (max-width:179px){.wxs{top:27px;width:32px;height:32px}}
 .wx-key{display:flex;flex-wrap:wrap;align-items:center;gap:8px 22px;font-size:13px;color:var(--slate)}
 .wx-key b{font-weight:600;letter-spacing:.08em;text-transform:uppercase;font-size:11px}
@@ -257,6 +258,7 @@ h2.h .sub{font-weight:400;font-style:italic;color:var(--slate)}
   .wx-head{flex-wrap:nowrap;align-items:center}
   .wx-note{font-size:12px;font-style:normal;text-align:right}
   .wx-note .long{display:none}.wx-note .short{display:inline}
+  .wx-st{top:36px;left:8px;right:auto;letter-spacing:.02em;padding:2px 4px}
   .wx-grid .wxv{width:112px}
   .wxc{padding:11px 8px}
   .wxl{font-size:9px;letter-spacing:.025em}
@@ -359,7 +361,7 @@ h2.h .sub{font-weight:400;font-style:italic;color:var(--slate)}
         <span class="wx-sum" id="wxSum" hidden><i aria-hidden="true"></i><span></span></span>
       </div>
       <div class="tools">
-        <span class="wx-note" id="wxNote">Loading the latest completed session.</span>
+        <span class="wx-note" id="wxNote">Loading the latest readings.</span>
         <button type="button" class="tog" aria-expanded="true" aria-label="Collapse or expand Today's Weather"><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 15l6-6 6 6"></path></svg></button>
       </div>
     </div>
@@ -377,8 +379,8 @@ h2.h .sub{font-weight:400;font-style:italic;color:var(--slate)}
       </div>
       <details class="wx-detail" id="all-markets">
         <summary>All eight readings, the method and its limits</summary>
-        <div class="wx-scroll"><table class="wx-table"><thead><tr><th>Market</th><th>Session</th><th>Close</th><th>Change</th><th>Weather</th><th>Reading</th><th>Status</th></tr></thead><tbody id="wxRows"></tbody></table></div>
-        <p>These are completed daily closes, refreshed once a day at about 07:00 London time. They are not live prices. The change compares the latest two completed sessions. Each market's score is that change divided by twice its own volatility over up to 60 earlier sessions, limited to between −1 and +1, and the score sets the weather. The VIX score is reversed, so easing anxiety brightens the sky.</p>
+        <div class="wx-scroll"><table class="wx-table"><thead><tr><th>Market</th><th>Last close</th><th>Latest price</th><th>As at</th><th>Change</th><th>Weather</th><th>Reading</th><th>Status</th></tr></thead><tbody id="wxRows"></tbody></table></div>
+        <p>Each tile shows the latest price I have for that market, checked about once an hour between 07:10 and 21:10 London time. The prices come from a free feed and can run several minutes behind the market, so they are not real-time. The change compares the latest price with the last completed daily close. A market that has not traded yet today shows its last completed session instead, marked "Last close", and its change compares the latest two completed sessions. Each market's score is its change divided by twice its own volatility over up to 60 earlier sessions, limited to between −1 and +1, and the score sets the weather. The VIX score is reversed, so easing anxiety brightens the sky.</p>
         <p>The data comes from a free feed that can be late, corrected or missing. Futures prices can jump when the front contract rolls, daily closes are not guaranteed official settlements, and holiday handling for futures and currencies is approximate. Pound strength is an equal-weight basket of sterling against the dollar, euro, yen, Swiss franc, Canadian dollar and Australian dollar; it is not an official sterling index. Nothing here is investment advice.</p>
         <p id="wxTimes"></p>
       </details>
@@ -754,7 +756,9 @@ const brandedHref=f=>/^https?:/.test(f)?f:
 
 /* Today's Weather ------------------------------------------------------------
    Reads market-temperature.json (published by the tracker bridge). Scores come
-   from the tracker; this page only maps a score to one of five skies.
+   from the bridge; this page only maps a score to one of five skies.
+   Since 13 Nov 2026 a market may carry a "live" reading (latest price against the
+   last completed close, checked hourly); without one the tile shows the last close.
    -1.0 to -0.5 storm; -0.5 to -0.1 rain; -0.1 to +0.1 overcast;
    +0.1 to +0.5 sun breaking through; above +0.5 bright sun (confirmed 12 Nov 2026).
    A missing score shows "unavailable", never a zero. */
@@ -787,7 +791,18 @@ const brandedHref=f=>/^https?:/.test(f)?f:
   function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
   function day(iso,long){try{var d=new Date(iso+'T12:00:00Z');return d.toLocaleDateString('en-GB',long?{weekday:'long',day:'numeric',month:'long',timeZone:'UTC'}:{weekday:'short',day:'numeric',month:'short',timeZone:'UTC'});}catch(e){return iso;}}
   function london(iso){try{var d=new Date(iso);return d.toLocaleString('en-GB',{day:'numeric',month:'short',year:'numeric',hour:'2-digit',minute:'2-digit',timeZone:'Europe/London'})+' London';}catch(e){return iso;}}
-
+  function clock(iso){try{return new Date(iso).toLocaleTimeString('en-GB',{hour:'2-digit',minute:'2-digit',timeZone:'Europe/London'});}catch(e){return '';}}
+  function fin(v){return typeof v==='number'&&isFinite(v);}
+  /* What a tile shows: the live reading when there is a sound one, otherwise the last completed close. */
+  function view(it){
+    var L=it.live,v={};for(var k in it){v[k]=it[k];}
+    v.closeValue=it.latest;v.closeDate=it.observation_date;v.isLive=false;
+    if(L&&fin(L.price)&&L.price>0&&fin(L.change)&&fin(L.score)&&L.as_at_utc&&isFinite(new Date(L.as_at_utc).getTime())){
+      v.isLive=true;v.latest=L.price;v.change=L.change;v.score=L.score;v.asAt=L.as_at_utc;
+      v.direction=L.direction||'';v.description=L.description||'';
+    }
+    return v;
+  }
   var grid=document.getElementById('wxGrid'),note=document.getElementById('wxNote'),warn=document.getElementById('wxWarn');
   var reduced=window.matchMedia('(prefers-reduced-motion: reduce)');
   var phone=window.matchMedia('(max-width: 699px)');
@@ -802,11 +817,11 @@ const brandedHref=f=>/^https?:/.test(f)?f:
     }
     var S=STATES[st],up=it.change>0,flat=it.change===0;
     var aria=LABEL[id]+', '+num(it.latest,id)+', '+(flat?'unchanged':(up?'up ':'down ')+Math.abs(it.change*100).toFixed(2)+'%')+', '+S.name+
-      (id==='vix'?'; rising anxiety worsens the weather':'')+(id==='pound'?'; basket of six currencies':'')+(stale?'; '+it.status:'')+'; session of '+day(it.observation_date,true);
+      (id==='vix'?'; rising anxiety worsens the weather':'')+(id==='pound'?'; basket of six currencies':'')+(stale?'; '+it.status:'')+(it.isLive?'; latest price as at '+clock(it.asAt)+' London, against the last close':'; last close, session of '+day(it.observation_date,true));
     return '<a class="wxv'+(S.dark?' wx-dark':'')+'" href="#all-markets" data-id="'+esc(id)+'" data-sky="'+S.file+'" data-i="'+i+'" aria-label="'+esc(aria)+'">'+
       '<video muted loop playsinline preload="none" poster="assets/weather/weather-'+S.file+'-'+res+'.jpg" aria-hidden="true"></video>'+
       (SYMBOL[id]?'<img class="wxs" src="assets/weather/symbols/'+SYMBOL[id]+'" width="256" height="256" alt="" aria-hidden="true" decoding="async">':'')+
-      (stale?'<span class="wx-st">'+(/unavail/i.test(it.status)?'Unavailable':'Not updated')+'</span>':'')+
+      (stale?'<span class="wx-st">'+(/unavail/i.test(it.status)?'Unavailable':'Not updated')+'</span>':(it.tagClose?'<span class="wx-st wx-lc">Last close</span>':''))+
       '<div class="wxc"><span class="wxl">'+esc(LABEL[id])+'</span><span class="wxf">'+num(it.latest,id)+'</span>'+
       '<span class="wxp" style="background:'+S.bg+';color:'+S.fg+'">'+pct(it.change)+'</span></div></a>';
   }
@@ -853,7 +868,11 @@ const brandedHref=f=>/^https?:/.test(f)?f:
 
   function render(data){
     var by={};(data.instruments||[]).forEach(function(it){by[it.id]=it;});
-    var items=ORDER.map(function(id){return by[id]||{id:id,score:null,latest:null,status:'Unavailable'};});
+    var items=ORDER.map(function(id){return view(by[id]||{id:id,score:null,latest:null,status:'Unavailable'});});
+    var lives=items.filter(function(it){return it.isLive;});
+    var anyLive=lives.length>0;
+    var newest=lives.map(function(it){return it.asAt;}).sort(function(a,b){return new Date(a)-new Date(b);}).pop();
+    items.forEach(function(it){it.tagClose=anyLive&&!it.isLive;});
     grid.innerHTML=items.map(tile).join('');
 
     var counts={up:0,flat:0,down:0,na:0},dates={};
@@ -866,33 +885,49 @@ const brandedHref=f=>/^https?:/.test(f)?f:
 
     var ds=Object.keys(dates).sort(),latest=ds[ds.length-1];
     var hm='';try{hm=new Date(data.generated_at_utc).toLocaleTimeString('en-GB',{hour:'2-digit',minute:'2-digit',timeZone:'Europe/London'});}catch(e){}
-    note.innerHTML='<span class="long">'+esc((latest?'Latest completed session: '+day(latest,true)+' · ':'')+'daily closes, not live prices · data assembled '+london(data.generated_at_utc))+'</span>'+
-      '<span class="short">'+esc((latest?'Session: '+day(latest)+' · ':'')+'closes, not live · '+hm)+'</span>';
+    if(anyLive){
+      note.innerHTML='<span class="long">'+esc('Latest prices as at '+london(newest)+' · checked hourly, may be delayed · change is against the last close')+'</span>'+
+        '<span class="short">'+esc('Prices at '+clock(newest)+' · may be delayed')+'</span>';
+    }else{
+      note.innerHTML='<span class="long">'+esc((latest?'Latest completed session: '+day(latest,true)+' · ':'')+'daily closes · data assembled '+london(data.generated_at_utc))+'</span>'+
+        '<span class="short">'+esc((latest?'Session: '+day(latest)+' · ':'')+'closes · '+hm)+'</span>';
+    }
 
     var msgs=[];
     var age=(Date.now()-new Date(data.generated_at_utc).getTime())/36e5;
     if(isFinite(age)&&age>OVERDUE_HOURS){msgs.push('The website has not received a new reading since '+london(data.generated_at_utc)+'. The figures below are the last ones received and may be out of date.');}
     var stale=items.filter(function(it){return it.status&&it.status!==CURRENT;});
     if(stale.length){msgs.push('The source did not supply a fresh close for '+stale.map(function(it){return LABEL[it.id];}).join(', ')+'. Each shows its last valid reading or is marked unavailable.');}
-    if(ds.length>1){msgs.push('The markets do not all share the same latest session; each row in the table below gives its own date.');}
+    if(ds.length>1&&!anyLive){msgs.push('The markets do not all share the same latest session; each row in the table below gives its own date.');}
     warn.hidden=!msgs.length;warn.textContent=msgs.join(' ');
 
     document.getElementById('wxRows').innerHTML=items.map(function(it){
       var s=stateFor(it.score),ok=s&&typeof it.latest==='number';
-      return '<tr><td>'+esc(FULL[it.id])+'</td><td>'+(it.observation_date?esc(day(it.observation_date)):'—')+'</td><td class="tnum">'+(ok?num(it.latest,it.id):'Unavailable')+'</td><td class="tnum">'+(ok?pct(it.change):'—')+
-        '</td><td>'+(ok?esc(STATES[s].name.charAt(0).toUpperCase()+STATES[s].name.slice(1)):'Unavailable')+'</td><td>'+esc(it.direction||'')+(it.description?' · '+esc(it.description):'')+(it.roll_warning?' · '+esc(it.roll_warning):'')+'</td><td>'+esc(it.status||'Unavailable')+'</td></tr>';
+      var shut=fin(it.closeValue);
+      return '<tr><td>'+esc(FULL[it.id])+'</td><td class="tnum">'+(shut?num(it.closeValue,it.id)+(it.closeDate?' · '+esc(day(it.closeDate)):''):'Unavailable')+'</td><td class="tnum">'+(it.isLive&&ok?num(it.latest,it.id):'—')+'</td><td class="tnum">'+(it.isLive&&ok?esc(clock(it.asAt)):'—')+'</td><td class="tnum">'+(ok?pct(it.change):'—')+
+        '</td><td>'+(ok?esc(STATES[s].name.charAt(0).toUpperCase()+STATES[s].name.slice(1)):'Unavailable')+'</td><td>'+esc(it.direction||'')+(it.description?' · '+esc(it.description):'')+(it.roll_warning?' · '+esc(it.roll_warning):'')+'</td><td>'+esc(it.isLive?'Latest price':(it.status||'Unavailable'))+'</td></tr>';
     }).join('');
-    document.getElementById('wxTimes').textContent='Data assembled '+london(data.generated_at_utc)+(data.synced_at_utc?'; received by the website '+london(data.synced_at_utc):'')+'.';
+    document.getElementById('wxTimes').textContent='Daily closes assembled '+london(data.generated_at_utc)+(anyLive?'; latest prices as at '+london(newest):'')+(data.synced_at_utc?'; received by the website '+london(data.synced_at_utc):'')+'.';
     watch();sync();
   }
+  var shown=null;
   function failed(){
+    if(shown)return; /* keep what is on screen if a later re-check fails */
     grid.innerHTML=ORDER.map(function(id){return tile({id:id,score:null,latest:null});}).join('');
-    note.textContent='Daily closes, not live prices.';
+    note.textContent='';
     warn.hidden=false;warn.textContent='The market readings could not be loaded just now. Nothing is shown rather than a guess.';
   }
-  fetch('market-temperature.json?t='+Math.floor(Date.now()/6e5),{cache:'no-store'}).then(function(r){if(!r.ok)throw new Error(r.status);return r.json();}).then(function(d){
-    if(!d||!Array.isArray(d.instruments)||!d.generated_at_utc)throw new Error('shape');render(d);
-  }).catch(failed);
+  function load(){
+    fetch('market-temperature.json?t='+Math.floor(Date.now()/6e5),{cache:'no-store'}).then(function(r){if(!r.ok)throw new Error(r.status);return r.json();}).then(function(d){
+      if(!d||!Array.isArray(d.instruments)||!d.generated_at_utc)throw new Error('shape');
+      var sig=JSON.stringify(d.instruments)+d.generated_at_utc;
+      if(sig===shown)return;
+      shown=sig;render(d);
+    }).catch(failed);
+  }
+  load();
+  /* The bridge checks prices hourly; a page left open looks again every 15 minutes while it is in view. */
+  setInterval(function(){if(!document.hidden)load();},9e5);
 })();
 
 /* RNS News: the six newest one-line summaries from rns-feed.xml (headlines only), each linking to that item in the RNS section.
