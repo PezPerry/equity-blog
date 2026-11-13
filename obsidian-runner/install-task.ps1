@@ -19,7 +19,10 @@ if (-not (Test-Path (Join-Path $here "config.json"))) {
 
 $action   = New-ScheduledTaskAction -Execute $python -Argument "`"$script`" --once" -WorkingDirectory $here
 $trigger  = New-ScheduledTaskTrigger -Once -At (Get-Date) -RepetitionInterval (New-TimeSpan -Minutes $Minutes)
+# Windows defaults a new task to "don't start on battery" and "stop if the PC
+# switches to battery", which silently skips runs on a laptop; turn both off.
 $settings = New-ScheduledTaskSettingsSet -StartWhenAvailable -MultipleInstances IgnoreNew `
+            -AllowStartIfOnBatteries -DontStopIfGoingOnBatteries `
             -ExecutionTimeLimit (New-TimeSpan -Hours 2)
 
 Register-ScheduledTask -TaskName "Obsidian Website Runner" -Action $action -Trigger $trigger `
