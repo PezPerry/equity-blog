@@ -1,7 +1,7 @@
 {
  "snapshot_version": 1,
  "generated_at_utc": "2026-11-15T07:00:09.360142+00:00",
- "synced_at_utc": "2026-11-15T20:10:04+00:00",
+ "synced_at_utc": "2026-11-15T21:10:03+00:00",
  "note": "Latest prices, checked about once an hour and possibly delayed, compared with the last completed close.",
  "instruments": [
   {
@@ -115,9 +115,9 @@
    "status": "Market closed",
    "roll_warning": null,
    "live": {
-    "price": 102.09764887074421,
-    "change": 0.0005492963243063365,
-    "score": 0.1390269617342279,
+    "price": 102.09304692978857,
+    "change": 0.0005041976483248778,
+    "score": 0.1276124817486638,
     "as_at_utc": "2026-11-15T18:24:55+00:00",
     "session_date": "2026-11-15",
     "direction": "Up",
