@@ -1,7 +1,7 @@
 {
  "snapshot_version": 1,
  "generated_at_utc": "2026-11-15T07:00:09.360142+00:00",
- "synced_at_utc": "2026-11-15T07:10:02+00:00",
+ "synced_at_utc": "2026-11-15T19:10:03+00:00",
  "note": "Latest prices, checked about once an hour and possibly delayed, compared with the last completed close.",
  "instruments": [
   {
@@ -114,7 +114,15 @@
    "description": "Weakening slightly",
    "status": "Market closed",
    "roll_warning": null,
-   "live": null
+   "live": {
+    "price": 101.95773797288263,
+    "change": -0.0008218199741770738,
+    "score": -0.20800272830265903,
+    "as_at_utc": "2026-11-15T18:24:55+00:00",
+    "session_date": "2026-11-15",
+    "direction": "Down",
+    "description": "Weakening slightly"
+   }
   },
   {
    "id": "dollar",
