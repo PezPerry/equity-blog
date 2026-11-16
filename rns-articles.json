@@ -1,5 +1,31 @@
 [
   {
+    "company": "Shell PLC",
+    "ticker": "SHEL",
+    "publish_date": "16 November 2026",
+    "date_iso": "2026-11-16",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "priority": "low",
+    "source_format": "html",
+    "added_at": "2026-11-16T13:56:07.659171",
+    "locked": true
+  },
+  {
+    "company": "Old Mutual Ltd",
+    "ticker": "OMU",
+    "publish_date": "16 November 2026",
+    "date_iso": "2026-11-16",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "priority": "medium",
+    "source_format": "html",
+    "added_at": "2026-11-16T13:56:07.646100",
+    "locked": true
+  },
+  {
     "company": "Saga plc",
     "ticker": "SAGA",
     "publish_date": "16 November 2026",
