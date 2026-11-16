@@ -1,5 +1,31 @@
 [
   {
+    "company": "Saga plc",
+    "ticker": "SAGA",
+    "publish_date": "16 November 2026",
+    "date_iso": "2026-11-16",
+    "time_period": "",
+    "announcement_type": "Financing / refinancing",
+    "period_detail": "",
+    "priority": "medium",
+    "source_format": "html",
+    "added_at": "2026-11-16T08:56:00.820025",
+    "locked": true
+  },
+  {
+    "company": "Coca-Cola Europacific Partners plc",
+    "ticker": "CCEP",
+    "publish_date": "16 November 2026",
+    "date_iso": "2026-11-16",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "priority": "low",
+    "source_format": "html",
+    "added_at": "2026-11-16T08:56:00.767661",
+    "locked": true
+  },
+  {
     "company": "IG Group Holdings PLC",
     "ticker": "IGG",
     "publish_date": "16 November 2026",
