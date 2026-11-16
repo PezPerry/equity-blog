@@ -1,5 +1,32 @@
 [
   {
+    "company": "IG Group Holdings PLC",
+    "ticker": "IGG",
+    "publish_date": "16 November 2026",
+    "date_iso": "2026-11-16",
+    "time_period": "",
+    "announcement_type": "Scheme of Arrangement / redomiciliation",
+    "period_detail": "",
+    "priority": "medium",
+    "source_format": "html",
+    "added_at": "2026-11-16T08:03:00.752206",
+    "locked": true
+  },
+  {
+    "company": "Ceres Power Holdings plc",
+    "ticker": "CWR",
+    "publish_date": "16 November 2026",
+    "date_iso": "2026-11-16",
+    "time_period": "FY26",
+    "announcement_type": "Acquisition / deal",
+    "period_detail": "FY26",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-16T08:03:00.738866",
+    "locked": true,
+    "guidance_locked": true
+  },
+  {
     "company": "Dar Global PLC",
     "ticker": "DAR",
     "publish_date": "16 November 2026",
