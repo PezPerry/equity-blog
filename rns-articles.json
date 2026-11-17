@@ -1,5 +1,19 @@
 [
   {
+    "company": "Big Yellow Group PLC",
+    "ticker": "BYG",
+    "publish_date": "17 November 2026",
+    "date_iso": "2026-11-17",
+    "time_period": "H1 FY27 (six months to 30 September 2026)",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 FY27 (six months to 30 September 2026)",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-17T07:11:52.345996",
+    "locked": true,
+    "guidance_locked": true
+  },
+  {
     "company": "Shell PLC",
     "ticker": "SHEL",
     "publish_date": "16 November 2026",
@@ -233,10 +247,23 @@
     "time_period": "",
     "announcement_type": "Debt issuance",
     "period_detail": "",
-    "priority": "low",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>HSBC Holdings plc</strong> issued <strong>US$1,500,000,000 7.625%</strong> Perpetual Subordinated Contingent Convertible Securities on <strong>13 November 2026</strong> (ISIN US404280FV60).</li><li>AT1 capital instrument; application made for admission to the Official List and trading on the <strong>Global Exchange Market of Euronext Dublin</strong>.</li><li>Routine capital-raising/refinancing; not offered to UK or EEA retail investors. <strong>No impact</strong> on trading or earnings guidance.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-11-13T16:15:54.101981",
-    "locked": true
+    "headline": "HSBC has issued US$1.5bn of 7.625% perpetual subordinated contingent convertible (AT1) securities, listing on Euronext Dublin.",
+    "priority": "low",
+    "priority_reason": "Routine AT1 capital issuance that does not affect equity trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/hsbc-HSBA/share-news/HSBC-Holdings-PLC-Issuance-of-contingent-convertib/99704144",
+    "related_news_url": "https://news.google.com/search?q=%22HSBC%20Holdings%20plc%22",
+    "added_at": "2026-11-13T16:15:54.101981"
   },
   {
     "company": "OSB Group PLC",
@@ -246,10 +273,23 @@
     "time_period": "2026–2029 (projected impact)",
     "announcement_type": "Liability management (tender offer)",
     "period_detail": "2026–2029 (projected impact)",
-    "priority": "high",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>OSB Group</strong> has accepted all <strong>GBP634,434,000</strong> of validly tendered <strong>Senior Holdco securities</strong>, exceeding the <strong>GBP500m</strong> cap, after the Bank of England moved its preferred resolution strategy to <strong>Transfer</strong> from <strong>1 January 2026</strong>, meaning the securities are no longer needed to meet MREL.</li><li>Buys <strong>GBP279,585,000</strong> of the <strong>2028 9.5%</strong> notes at <strong>103.369%</strong> and <strong>GBP354,849,000</strong> of the <strong>2030 8.875%</strong> notes at <strong>106.083%</strong>; settlement expected <strong>16 November 2026</strong>.</li><li>Expected to cut <strong>2026 profit before tax by c.GBP42m</strong> via a one-off charge from partial derecognition (<strong>c.GBP33m</strong> on repurchase plus transaction costs, and <strong>c.GBP9m</strong> of hedge accounting adjustments as at 31 October 2026).</li><li>Pro-forma day-one impact estimated to reduce the <strong>H1 2026 CET1 ratio by c.20bps</strong> and <strong>RoTE by c.1.5%</strong>; the one-off charge is outside NII so does not affect NIM.</li><li>Assuming replacement with central bank funding at <strong>SONIA +c.20bps</strong>, total income is expected to rise by <strong>c.GBP4m</strong> in 2026 and <strong>c.GBP28m</strong> in 2027, with further coupon-saving benefits into 2028 and 2029.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-11-13T12:56:19.494141",
-    "locked": true
+    "headline": "OSB will buy back **GBP634m** of senior Holdco securities via tender offer, taking a c.**GBP42m** one-off charge to 2026 pre-tax profit but cutting future funding costs.",
+    "priority": "high",
+    "priority_reason": "Liability management exercise with a material c.£42m one-off charge to 2026 pre-tax profit and quantified capital/returns impact.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "This is a liability management exercise rather than a trading update. OSB has bought back most of two tranches of its senior Holdco debt (the 9.5% 2028s and 8.875% 2030s) because a change in the Bank of England's resolution approach means these bonds are no longer needed to satisfy the group's MREL (loss-absorbing capacity) requirement. The high coupons made them expensive to keep, so OSB tendered for them at a premium to par.\n\nThe headline negative is a c.GBP42m one-off charge against 2026 pre-tax profit, made up of roughly GBP33m on the repurchase itself (including costs) and c.GBP9m from unwinding related hedge accounting. This is a non-cash accounting hit on derecognition, not a change to underlying lending economics — it sits outside net interest income, so net interest margin is unaffected. On a pro-forma basis it would have clipped the H1 2026 CET1 ratio by about 20bps and return on tangible equity by about 1.5%.\n\nThe offset is lower future funding costs. Replacing the expensive securities with cheaper central bank funding (assumed at SONIA +c.20bps) is projected to add c.GBP4m of income in 2026, c.GBP28m in 2027, and continuing benefits into 2028–2029. So the trade front-loads a one-off cost in 2026 in exchange for recurring interest savings thereafter.\n\nNote OSB has not issued or changed formal profit guidance here; these are the company's own illustrative projections of the incremental effect, based on stated assumptions about replacement funding and bonds being redeemed at their first call dates.",
+    "source_url": "https://uk.advfn.com/stock-market/london/osb-OSB/share-news/OSB-GROUP-PLC-Tender-offer-results-projected-incr/99702885",
+    "related_news_url": "https://news.google.com/search?q=%22OSB%20GROUP%20PLC%22",
+    "added_at": "2026-11-13T12:56:19.494141"
   },
   {
     "company": "Hiscox Ltd",
@@ -259,10 +299,23 @@
     "time_period": "2024 and 2025 underwriting years of account",
     "announcement_type": "Trading update",
     "period_detail": "2024 and 2025 underwriting years of account",
-    "priority": "low",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Hiscox Ltd</strong> announces current estimates for <strong>Syndicate 33</strong> and <strong>Syndicate 6104</strong> for the <strong>2024 and 2025</strong> accounts, expressed as a percentage of capacity.</li><li>The estimate figures themselves were <strong>not included</strong> in the scraped text (the percentage-of-capacity table was not captured), so no numbers can be reported here.</li><li>Estimates are stated after standard personal expenses, Managing Agent fees, profit commission and Lloyd's charges, but before Members' Agents' charges — a <strong>routine</strong> Lloyd's disclosure with no stated impact on group guidance.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-11-13T10:55:56.889690",
-    "locked": true
+    "headline": "Hiscox publishes current estimates for Lloyd's Syndicates 33 and 6104 on their 2024 and 2025 years of account, expressed as a percentage of capacity.",
+    "priority": "low",
+    "priority_reason": "Routine Lloyd's syndicate capacity-estimate disclosure; the actual forecast figures were not captured in the scraped text and it has no clear group-level trading impact.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/hiscox-HSX/share-news/Hiscox-Ltd-Syndicates-33-and-6104-results-and-e/99700178",
+    "related_news_url": "https://news.google.com/search?q=%22Hiscox%20Ltd%22",
+    "added_at": "2026-11-13T10:55:56.889690"
   },
   {
     "company": "Legal & General Group PLC",
@@ -272,10 +325,23 @@
     "time_period": "",
     "announcement_type": "Board / management change",
     "period_detail": "",
-    "priority": "medium",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Carolyn Johnson</strong> has decided to retire from the Board and will stand down as a <strong>Non-Executive Director</strong> with effect from <strong>1 January 2027</strong>.</li><li>Routine Listing Rules disclosure (UKLR 6.4.6(2)R and 6.4.6(3)R) with <strong>no impact</strong> on trading or guidance.</li><li>L&G reports <strong>£1.2 trillion</strong> total assets under management as at HY26, of which c. 44% (c. £0.5 trillion) is international; market capitalisation of <strong>£16.8 billion</strong> as at 12 November 2026.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-11-13T09:56:10.690651",
-    "locked": true
+    "headline": "Non-Executive Director Carolyn Johnson to retire from the L&G Board, standing down with effect from 1 January 2027.",
+    "priority": "medium",
+    "priority_reason": "Board change: a non-executive director is retiring, with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/legal-and-general-LGEN/share-news/Legal-General-Group-Plc-Directorate-change/99699852",
+    "related_news_url": "https://news.google.com/search?q=%22Legal%20%26%20General%20Group%20Plc%22",
+    "added_at": "2026-11-13T09:56:10.690651"
   },
   {
     "company": "Rentokil Initial PLC",
@@ -285,10 +351,23 @@
     "time_period": "",
     "announcement_type": "Board / management change",
     "period_detail": "",
-    "priority": "medium",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Duncan Palmer</strong> appointed <strong>Non-executive Director</strong> of <strong>Rentokil Initial plc</strong> with <strong>immediate effect</strong>, also joining the Audit and Nomination Committees.</li><li>Palmer is a former CFO of <strong>Cushman & Wakefield</strong>, <strong>RELX plc</strong> and <strong>Owens Corning</strong>, with current NED roles at <strong>Oshkosh Corporation</strong> (Audit Committee Chair), <strong>Aleanna</strong> and <strong>Verde Clean Fuels</strong>.</li><li><strong>David Frear</strong> to step down from the Board effective <strong>30 November 2026</strong> after four years' service.</li><li>The company cites Palmer's finance and transformation experience as support for its strategic plans, <strong>particularly in North America</strong>.</li><li>Routine directorate disclosure with <strong>no impact</strong> on trading or guidance; no further details disclosable under UK Listing Rule 6.4.8.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-11-13T07:58:38.108862",
-    "locked": true
+    "headline": "Rentokil Initial appoints former CFO Duncan Palmer as non-executive director with immediate effect, as David Frear prepares to step down from the board.",
+    "priority": "medium",
+    "priority_reason": "Routine board change: a new non-executive director appointed and a long-standing NED stepping down, with no trading or guidance impact.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/rentokil-initial-RTO/share-news/Rentokil-Initial-PLC-Directorate-change-NED-chan/99699044",
+    "related_news_url": "https://news.google.com/search?q=%22Rentokil%20Initial%20plc%22",
+    "added_at": "2026-11-13T07:58:38.108862"
   },
   {
     "company": "GSK plc",
@@ -298,10 +377,23 @@
     "time_period": "",
     "announcement_type": "Corporate update",
     "period_detail": "",
-    "priority": "low",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>GSK plc</strong> received a positive <strong>CHMP</strong> opinion recommending the <strong>Bexsero</strong> label be updated to include a <strong>single booster dose</strong> for individuals aged <strong>10 and older</strong> vaccinated at least two years earlier.</li><li>Recommendation is based on the Phase IIIb <strong>Men-B-096</strong> study (<strong>312 participants</strong> across Finland, Italy, Spain and the UK), which met its primary endpoint on immune response.</li><li>Bexsero is registered in <strong>61 countries</strong>; around <strong>140 million doses</strong> distributed globally since <strong>2015</strong>, supporting adolescent booster programmes in markets with established infant MenB vaccination.</li><li>Routine regulatory/pipeline milestone — <strong>no impact</strong> on current trading or guidance.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-11-13T07:58:38.098683",
-    "locked": true
+    "headline": "GSK's Bexsero MenB vaccine wins positive CHMP opinion for a single booster dose in people aged 10 and over previously vaccinated.",
+    "priority": "low",
+    "priority_reason": "A CHMP positive opinion on a label extension for an established vaccine is routine pipeline news with no material near-term impact on GSK's revenue or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/gsk-GSK/share-news/GSK-PLC-Bexsero-booster-receives-positive-CHMP-opi/99699065",
+    "related_news_url": "https://news.google.com/search?q=%22GSK%20plc%22",
+    "added_at": "2026-11-13T07:58:38.098683"
   },
   {
     "company": "DFS Furniture PLC",
@@ -311,11 +403,32 @@
     "time_period": "19 weeks ended 8 November 2026 (FY27)",
     "announcement_type": "Trading update",
     "period_detail": "19 weeks ended 8 November 2026",
-    "priority": "high",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>DFS Furniture plc</strong> AGM trading update for the <strong>19 weeks ended 8 November 2026</strong> flags that <strong>full-year profit expectations now carry a wider range of potential outcomes</strong> after demand softened further.</li><li>Group order intake was <strong>-2.5% year on year</strong> over the first 12 weeks of FY27 (in line with expectations), but upholstery market demand <strong>softened further</strong> over the subsequent seven weeks amid weak consumer confidence.</li><li>Proprietary <strong>Lloyds banking data</strong> indicates core brands <strong>DFS</strong> and <strong>Sofology</strong> continued to <strong>outperform the wider sector</strong>.</li><li>Group investing in <strong>targeted commercial initiatives</strong> to drive conversion into <strong>Black Friday</strong> and the <strong>Winter Sale</strong>, while holding tight cost discipline to protect cash margins.</li><li>Fifth mezzanine launched at <strong>DFS Leeds Birstall</strong> in October trading in line with expectations, validating low-risk non-upholstery Home expansion.</li><li>Next update at the <strong>half-year trading statement on 21 January 2027</strong>.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-11-13T07:58:05.845606",
-    "locked": true,
-    "guidance_locked": true
+    "headline": "DFS warns full-year profit now carries a wider range of outcomes as upholstery demand softened further through the autumn, though core brands outperform.",
+    "priority": "high",
+    "priority_reason": "AGM trading update flagging softer demand and a wider range of full-year profit outcomes is a cautious signal material to the shares.",
+    "figures": [
+      {
+        "metric": "Group order intake",
+        "current": "-2.5%",
+        "prior": "not stated",
+        "change": "-2.5% year on year",
+        "basis": "year on year",
+        "note": "First 12 weeks of FY27; in line with expectations"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Not stated as a figure; order intake over first 12 weeks of FY27 was -2.5% year on year, in line with expectations",
+      "current": "Full-year profit expectations 'naturally carry a wider range of potential outcomes'",
+      "commentary": "DFS did not cut a printed profit figure, but after demand softened further it is explicitly flagging greater uncertainty and a wider spread of full-year outcomes — a cautious signal rather than a formal reaffirmation. A fuller update is due at the 21 January 2027 half-year statement."
+    },
+    "explainer": "This is DFS's AGM trading update, covering the first 19 weeks of its financial year (FY27). At its 24 September preliminary results it had reported order intake down 2.5% year on year over the opening 12 weeks, which it said was in line with expectations given the weak consumer backdrop. In the seven weeks since, it says upholstery market demand has weakened further.\n\nThe key phrase for traders is that full-year profit expectations now 'carry a wider range of potential outcomes'. DFS has not formally lowered a profit number, so this is not an outright profit warning, but it is clearly signalling more downside risk and uncertainty than before — language the market typically reads cautiously. The firm is leaning on Black Friday and its Winter Sale, plus cost control, to defend cash margins.\n\nThe outperformance claim rests on proprietary Lloyds banking data covering 14 specialist upholstery retailers, suggesting DFS and Sofology are losing less ground than the wider sector rather than growing. The next concrete read comes at the half-year trading statement on 21 January 2027.",
+    "source_url": "https://uk.advfn.com/stock-market/london/dfs-furniture-DFS/share-news/DFS-Furniture-PLC-AGM-Trading-Statement/99699018",
+    "related_news_url": "https://news.google.com/search?q=%22DFS%20Furniture%20plc%22",
+    "added_at": "2026-11-13T07:58:05.845606"
   },
   {
     "company": "Land Securities Group PLC",
@@ -325,11 +438,104 @@
     "time_period": "H1 to 30 September 2026",
     "announcement_type": "Interim results",
     "period_detail": "H1 to 30 September 2026",
-    "priority": "high",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Land Securities Group PLC</strong> H1 to <strong>30 September 2026</strong>: <strong>EPRA EPS of 25.9p</strong> (HY25: 25.8p), with <strong>EPRA earnings stable at £192m</strong>, as <strong>6.2% LFL income growth</strong> and a <strong>9% cut in overheads</strong> offset a <strong>£10m</strong> QAM-disposal impact.</li><li>Interim dividend up <strong>2.1% to 19.4 pence</strong> (HY25: 19.0p).</li><li><strong>IFRS profit before tax up to £243m</strong> (HY25: £98m) on an <strong>£88m valuation surplus</strong>; basic IFRS EPS <strong>33.0p</strong> (HY25: 13.0p); <strong>EPRA NTA per share 893p</strong> (FY26: 882p), or 863p pro-forma for the equity issue.</li><li>Post period-end raised <strong>£500m new equity</strong> to fund <strong>£611m acquisitions</strong> of <strong>Metrocentre</strong> and a further stake in <strong>Bluewater</strong> at a 7.9% net rental income yield.</li><li>Balance sheet strengthened: <strong>ND/EBITDA down to 7.7x</strong> (FY26: 8.4x) and <strong>LTV down to 37.1%</strong> (FY26: 38.7%) pro-forma; IFRS net debt <strong>£4,361m</strong>.</li><li>Reaffirms potential for <strong>c.5% CAGR in EPRA EPS to FY30</strong> (c.62p); FY27 EPS stable, FY28 now expected to grow by an improved high-single-digit percentage.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-11-13T07:57:18.232146",
-    "locked": true,
-    "guidance_locked": true
+    "headline": "Landsec reports stable EPRA EPS of 25.9p and raises its interim dividend 2.1% as like-for-like net rental income grows 6.2%.",
+    "priority": "high",
+    "priority_reason": "Half-year results from a FTSE 100 REIT, with earnings, dividend, NAV and multi-year EPS guidance.",
+    "figures": [
+      {
+        "metric": "EPRA EPS",
+        "current": "25.9p",
+        "prior": "25.8p",
+        "change": "+0.4%",
+        "basis": "EPRA",
+        "note": "H1 to 30 Sep 2026 vs HY25"
+      },
+      {
+        "metric": "EPRA earnings",
+        "current": "£192m",
+        "prior": "£192m",
+        "change": "flat",
+        "basis": "EPRA",
+        "note": "H1 to 30 Sep 2026 vs HY25"
+      },
+      {
+        "metric": "Interim dividend",
+        "current": "19.4p",
+        "prior": "19.0p",
+        "change": "+2.1%",
+        "basis": "not stated",
+        "note": "per share"
+      },
+      {
+        "metric": "IFRS profit before tax",
+        "current": "£243m",
+        "prior": "£98m",
+        "change": "+148%",
+        "basis": "IFRS",
+        "note": "driven by £88m valuation surplus"
+      },
+      {
+        "metric": "Basic IFRS EPS",
+        "current": "33.0p",
+        "prior": "13.0p",
+        "change": "+154%",
+        "basis": "IFRS",
+        "note": "H1 to 30 Sep 2026 vs HY25"
+      },
+      {
+        "metric": "LFL net rental income growth",
+        "current": "6.2%",
+        "prior": "4.6%",
+        "change": "+1.6ppt",
+        "basis": "like-for-like",
+        "note": "vs FY26"
+      },
+      {
+        "metric": "EPRA NTA per share",
+        "current": "893p",
+        "prior": "882p",
+        "change": "+1.2%",
+        "basis": "EPRA",
+        "note": "FY26 comparative; 863p pro-forma for equity issue"
+      },
+      {
+        "metric": "IFRS net debt",
+        "current": "£4,361m",
+        "prior": "£4,234m",
+        "change": "+3.0%",
+        "basis": "IFRS",
+        "note": "vs FY26"
+      },
+      {
+        "metric": "ND/EBITDA",
+        "current": "7.7x",
+        "prior": "8.4x",
+        "change": "-0.7x",
+        "basis": "pro-forma for post-period transactions",
+        "note": "vs FY26"
+      },
+      {
+        "metric": "LTV",
+        "current": "37.1%",
+        "prior": "38.7%",
+        "change": "-1.6ppt",
+        "basis": "pro-forma for post-period transactions",
+        "note": "vs FY26"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "c. 5% CAGR in EPRA EPS to FY30; FY27 EPRA EPS stable vs FY26; LFL net rental income growth c. 3-5%",
+      "current": "FY27 EPRA EPS expected stable vs FY26 (in line with previous guidance); FY28 EPRA EPS expected to grow by an improved high-single-digit percentage; FY30 EPRA EPS potential of c. 62 pence, implying c. 5% CAGR over FY27-FY30; full-year LFL net rental income growth now expected at the upper end of the c. 3-5% range",
+      "commentary": "The headline c.5% EPS CAGR to FY30 is maintained, but visibility has improved — c.90% of it is now said to be driven by the existing portfolio and platform (FY26: c.80%). Near-term outlook is firmer: FY28 growth is upgraded to an improved high-single-digit percentage on the recent retail acquisitions, and full-year LFL income growth is now guided to the top of the 3-5% range."
+    },
+    "explainer": "These are half-year numbers for the six months to 30 September 2026. Headline 'EPRA' earnings and EPS are the property sector's preferred measures: they strip out the swings from revaluing buildings and focus on recurring rental profit. On that basis earnings were flat year-on-year at £192m because strong 6.2% like-for-like rental growth and a 9% cut in overheads were cancelled out by the loss of income from selling the QAM asset in the prior year. The much larger IFRS profit (£243m vs £98m) mainly reflects an £88m paper gain from marking the portfolio up in value, rather than extra cash earnings.\n\n'Like-for-like' means comparing only properties owned throughout both periods, so it shows underlying rental momentum rather than the effect of buying and selling assets. At 6.2% it ran ahead of the company's own 3-5% guidance, helped by re-letting space at rents around 16% above previous levels.\n\nAfter the period end Landsec raised £500m of new shares and spent £611m buying the Metrocentre and more of Bluewater. Issuing new equity dilutes NTA per share (hence 893p falling to 863p pro-forma), but management say the deals are earnings-accretive in year one and cut leverage, with pro-forma net debt/EBITDA down to 7.7x.\n\nOn guidance, the medium-term target of roughly 5% annual EPS growth to FY30 (about 62p) is unchanged, but the company says it now has better visibility on it and has nudged up the nearer-term picture: FY28 growth is upgraded to a high-single-digit percentage and full-year like-for-like income is expected at the top of its range.",
+    "source_url": "https://uk.advfn.com/stock-market/london/land-securities-LAND/share-news/Land-Securities-Group-PLC-Half-year-Financial-Repo/99699039",
+    "related_news_url": "https://news.google.com/search?q=%22Land%20Securities%20Group%20PLC%22",
+    "added_at": "2026-11-13T07:57:18.232146"
   },
   {
     "company": "Touchstone Exploration Inc",
@@ -339,10 +545,80 @@
     "time_period": "Q3 and nine months to 30 September 2026",
     "announcement_type": "Interim results",
     "period_detail": "Q3 and nine months to 30 September 2026",
-    "priority": "high",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Touchstone Exploration Inc.</strong> (<strong>TSX, AIM: TXP</strong>) reports <strong>Q3 2026</strong> results with the interim accounts carrying a note on a <strong>material uncertainty that may cast significant doubt on the Company's ability to continue as a going concern</strong>.</li><li>Q3 sales: crude oil <strong>$5.73m</strong> (<strong>837 bbls/d</strong> at <strong>$74.33/bbl</strong>), NGLs <strong>$1.80m</strong> (<strong>422 bbls/d</strong> at <strong>$46.35/bbl</strong>) and natural gas <strong>$8.94m</strong> (<strong>19.4 MMcf/d</strong>, 3,226 boe/d, at <strong>$5.02/Mcf</strong>).</li><li>Working-capital deficit of <strong>$20.1m</strong> at 30 September 2026 (<strong>$28.7m</strong> at 30 June), including the <strong>$11.1m</strong> convertible debenture; adjusted deficit <strong>$9.0m</strong>. Cash <strong>$8.1m</strong>; long-term bank debt principal <strong>$35.8m</strong> with the revolving facility <strong>fully drawn</strong>.</li><li>Scheduled bank debt repayments of about <strong>$12.7m</strong> over the next 12 months; roughly <strong>$12.0m</strong> of <strong>VAT receivables</strong> outstanding and about <strong>$11.2m</strong> of Ortoire/Balata East work commitments the Company is <strong>seeking to defer</strong>.</li><li>Central block gas sold under the <strong>Atlantic LNG Train 2/3</strong> supply contract at an estimated <strong>$7.81/Mcf</strong> in July 2026 during Train 4 downtime, versus <strong>$2.58/Mcf</strong> for Ortoire fixed-price gas.</li><li>All figures in <strong>US dollars</strong>; the announcement states current-period figures but prints no prior-year comparatives, only sequential (30 June 2026) balances.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-11-13T07:56:42.384568",
-    "locked": true
+    "headline": "Touchstone's Q3 2026 results flag a material uncertainty over going concern amid a fully drawn credit facility, bank debt repayments and unrecovered VAT.",
+    "priority": "high",
+    "priority_reason": "Quarterly results carrying a material-uncertainty going-concern note alongside a fully drawn credit facility and near-term debt repayments.",
+    "figures": [
+      {
+        "metric": "Working capital deficit",
+        "current": "$20.1m",
+        "prior": "$28.7m",
+        "change": "not stated",
+        "basis": "sequential vs 30 June 2026",
+        "note": "as at 30 September 2026"
+      },
+      {
+        "metric": "Adjusted working capital deficit (ex-convertible)",
+        "current": "$9.0m",
+        "prior": "$18.4m",
+        "change": "not stated",
+        "basis": "sequential vs 30 June 2026",
+        "note": "as at 30 September 2026"
+      },
+      {
+        "metric": "Cash",
+        "current": "$8.1m",
+        "prior": "$9.2m",
+        "change": "not stated",
+        "basis": "sequential vs 30 June 2026",
+        "note": "as at 30 September 2026"
+      },
+      {
+        "metric": "Long-term bank debt principal",
+        "current": "$35.8m",
+        "prior": "$37.9m",
+        "change": "not stated",
+        "basis": "sequential vs 30 June 2026",
+        "note": "revolving facility fully drawn"
+      },
+      {
+        "metric": "Crude oil sales",
+        "current": "$5.73m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "Q3 2026, 837 bbls/d at $74.33/bbl"
+      },
+      {
+        "metric": "NGL sales",
+        "current": "$1.80m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "Q3 2026, 422 bbls/d at $46.35/bbl"
+      },
+      {
+        "metric": "Natural gas sales",
+        "current": "$8.94m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "",
+        "note": "Q3 2026, 19.4 MMcf/d at $5.02/Mcf"
+      }
+    ],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "Touchstone is a Calgary-based, AIM- and TSX-listed oil and gas producer operating onshore in Trinidad and Tobago. All its figures are reported in US dollars, and the quarterly sales numbers here are gross sales by product line rather than profit, so they describe revenue rather than the bottom line. The announcement prints current-period figures but, for the most part, does not provide prior-year comparatives — the only comparatives given are against the previous quarter (30 June 2026), making this a sequential picture of a tightening balance sheet rather than a year-on-year one.\n\nThe central point for a trader is the balance-sheet stress. The working-capital deficit improved sequentially to $20.1m from $28.7m, helped by settling an $8.4m debenture in shares, but the revolving credit facility is fully drawn, cash is just $8.1m, and roughly $12.7m of bank debt falls due over the next twelve months. On top of that the company is chasing about $12.0m of unrecovered VAT and is trying to defer around $11.2m of exploration and development work commitments.\n\nBecause the company's cash-flow projections depend on commodity prices, field performance, VAT recovery and the timing of capital spend, the auditors/directors have included a note flagging a material uncertainty that may cast significant doubt on the company's ability to continue as a going concern. This is not a statement that the company will fail, but it is a formal warning that its ability to meet obligations depends on factors that could move against it.\n\nNo formal earnings or production guidance figures are issued or changed in this statement, so guidance status is recorded as none.",
+    "source_url": "https://uk.advfn.com/stock-market/london/touchstone-exploration-TXP/share-news/Touchstone-Exploration-Inc-THIRD-QUARTER-2026-RES/99699184",
+    "related_news_url": "https://news.google.com/search?q=%22Touchstone%20Exploration%20Inc.%22",
+    "added_at": "2026-11-13T07:56:42.384568"
   },
   {
     "company": "Standard Lithium Ltd.",
@@ -352,11 +628,32 @@
     "time_period": "Q3 2026 (three months ended 30 September 2026)",
     "announcement_type": "Quarterly results",
     "period_detail": "Q3 2026 (three months ended 30 September 2026)",
-    "priority": "high",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Final investment decision (FID)</strong> on the flagship <strong>SWA Project</strong> in Arkansas now expected <strong>by the end of Q1 2027</strong>, with the company conceding the Export Credit Agency financing process has <strong>taken longer than initially anticipated</strong>; construction to begin shortly thereafter.</li><li>Three of four primary pre-FID deliverables now complete: <strong>EPCC/EPCM construction vendor contracts</strong> executed, <strong>NEPA federal environmental approval</strong> received, and the <strong>customer offtake process concluded</strong>; project financing is the sole remaining milestone.</li><li><strong>Smackover Lithium</strong> now targeting <strong>over $1.2bn</strong> in total senior secured project debt, exceeding its initial expectation of <strong>up to $1.1bn</strong>; ECA due diligence (EXIM, EDC, Eksfin) substantially complete without material concerns.</li><li>Long-term commercial offtake agreements secured with <strong>LG Energy Solution</strong> and commodity trader <strong>Trafigura</strong> during the period.</li><li>Released a <strong>Preliminary Economic Assessment</strong> for the <strong>Franklin Project</strong> (East Texas), described as one of the largest, highest-grade lithium brine resources in North America.</li><li>No revenue, profit or EPS figures were disclosed in this release; it is a development-stage milestone and financing update. Results to be discussed at a <strong>webcast on 16 November 2026</strong>.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-11-13T07:17:06.927599",
-    "locked": true,
-    "guidance_locked": true
+    "headline": "Standard Lithium now expects to take the SWA Project final investment decision by the end of Q1 2027, later than previously anticipated, with construction to follow shortly after.",
+    "priority": "high",
+    "priority_reason": "Quarterly results carrying a material slippage in the SWA Project final investment decision and a raised project-debt target.",
+    "figures": [
+      {
+        "metric": "Total senior secured project debt target (SWA Project)",
+        "current": "over $1.2bn",
+        "prior": "up to $1.1bn (initial expectation)",
+        "change": "not stated",
+        "basis": "US dollars",
+        "note": "Smackover Lithium project financing target"
+      }
+    ],
+    "guidance": {
+      "status": "lowered",
+      "previous": "FID expected earlier than now stated; ECA financing process had been anticipated to conclude sooner (no prior explicit date printed in this release)",
+      "current": "FID now expected by the end of Q1 2027, with construction beginning shortly thereafter; total senior secured project debt target raised to over $1.2bn from up to $1.1bn",
+      "commentary": "The headline change is a slippage in the SWA Project FID timeline, which the company attributes to the ECA financing process taking longer than initially anticipated. The debt target has also been raised, implying a larger funding package than first planned."
+    },
+    "explainer": "Standard Lithium is a pre-revenue lithium developer, so this 'results' release carries no revenue, profit or earnings figures in the extracted text — the market-moving content is progress toward a final investment decision (FID) on its SWA Project in Arkansas, the point at which the company commits to building the mine and processing plant.\n\nThe key change is timing. Having previously expected to reach FID sooner, the company now guides to the end of Q1 2027, blaming a slower-than-expected financing process with the Export Credit Agencies (US EXIM, Export Development Canada and Export Finance Norway). It stresses the due-diligence review is 'substantially complete without any material concerns', so this reads as a delay rather than a failure — but a delayed FID pushes back first production and keeps the company dependent on completing its debt package.\n\nAlongside the delay, the targeted senior secured project debt has risen to over $1.2bn, above the earlier 'up to $1.1bn'. A larger debt target can reflect a bigger overall funding requirement; the final sources-and-uses are still being finalised. The signed offtake agreements with LG Energy Solution and Trafigura, plus completed construction contracts and NEPA approval, reduce execution risk, leaving project financing as the last gate before FID.\n\nNote: Standard Lithium trades on the TSX Venture Exchange and NYSE American (symbol SLI), reports in US dollars, and is a North American resource developer rather than a UK-listed operating company — relevant context for how its milestones map to a UK equity trader's screens.",
+    "source_url": "https://uk.advfn.com/stock-market/AMEX/SLI/share-news/Standard-Lithium-Reports-Third-Quarter-2026-Result/99697028",
+    "related_news_url": "https://news.google.com/search?q=%22Standard%20Lithium%20Ltd.%22",
+    "added_at": "2026-11-13T07:17:06.927599"
   },
   {
     "company": "Frasers Group PLC",
@@ -366,10 +663,23 @@
     "time_period": "",
     "announcement_type": "Board / management change",
     "period_detail": "",
-    "priority": "medium",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>David Epstein</strong>, Chief Brand Partnerships Officer, will step down from <strong>Frasers Group plc</strong> having been appointed Chief Executive Officer of <strong>HUGO BOSS AG</strong>, effective <strong>1 January 2027</strong>.</li><li>Epstein spent over <strong>10 years</strong> at Frasers, helping deliver its Elevation Strategy, latterly leading brand partnerships and previously as MD of the Premium and Luxury division.</li><li><strong>Alastair Dick</strong>, currently Head of Commercial for the Premium and Luxury division, is promoted to <strong>Chief Commercial Officer</strong>, responsible for group commercial buying and brand relationships; he has been with the Group over <strong>20 years</strong>.</li><li>Changes take effect from <strong>1 January 2027</strong>; routine senior management disclosure with <strong>no impact</strong> on trading or guidance.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-11-13T07:17:06.873352",
-    "locked": true
+    "headline": "Frasers Group's Chief Brand Partnerships Officer David Epstein to step down to become CEO of HUGO BOSS, with Alastair Dick appointed Chief Commercial Officer.",
+    "priority": "medium",
+    "priority_reason": "Senior management reshuffle with no impact on trading or guidance, but a notable executive departure.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/frasers-FRAS/share-news/Frasers-Group-PLC-Senior-Management-Changes/99695233",
+    "related_news_url": "https://news.google.com/search?q=%22Frasers%20Group%20plc%22",
+    "added_at": "2026-11-13T07:17:06.873352"
   },
   {
     "company": "Whitbread PLC",
@@ -379,10 +689,23 @@
     "time_period": "",
     "announcement_type": "Financing / refinancing",
     "period_detail": "",
-    "priority": "medium",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li>Whitbread Group PLC has launched and priced a <strong>£300m</strong> bond with a <strong>7-year</strong> maturity, at a spread of <strong>173 basis points</strong> over the reference gilt, subject to final legal documentation.</li><li>Entered <strong>£100m</strong> of interest rate swaps converting the fixed coupon to floating at <strong>SONIA plus a margin</strong>.</li><li>Weighted average cost of debt will be approximately <strong>3.80%</strong> after the issue, rising to approximately <strong>4.50%</strong> after maturity of the <strong>£300m 2031 green bond</strong>.</li><li>Notes are unsecured, have no financial covenants and are expected to be rated <strong>BBB-</strong> by <strong>Fitch</strong>, in line with the current rating.</li><li>Proceeds for general corporate purposes including refinancing of existing debt; admission to the LSE Main Market expected on or about <strong>19 November 2026</strong>.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-11-13T07:16:04.807865",
-    "locked": true
+    "headline": "Whitbread has priced a £300m 7-year bond at 173bp over gilts to fund general corporate purposes and refinance existing debt.",
+    "priority": "medium",
+    "priority_reason": "Debt financing event affecting cost of debt but not trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/whitbread-WTB/share-news/Whitbread-PLC-Bond-Issue/99694656",
+    "related_news_url": "https://news.google.com/search?q=%22Whitbread%20PLC%22",
+    "added_at": "2026-11-13T07:16:04.807865"
   },
   {
     "company": "NVIDIA Corp",
