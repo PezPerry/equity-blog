@@ -1,5 +1,18 @@
 [
   {
+    "company": "Princes Group plc",
+    "ticker": "PRN",
+    "publish_date": "17 November 2026",
+    "date_iso": "2026-11-17",
+    "time_period": "",
+    "announcement_type": "Acquisition / deal",
+    "period_detail": "",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-17T07:58:54.498979",
+    "locked": true
+  },
+  {
     "company": "Kenmare Resources PLC",
     "ticker": "KMR",
     "publish_date": "17 November 2026",
@@ -76,6 +89,20 @@
     "priority": "high",
     "source_format": "html",
     "added_at": "2026-11-17T07:11:52.345996",
+    "locked": true,
+    "guidance_locked": true
+  },
+  {
+    "company": "Diploma PLC",
+    "ticker": "DPLM",
+    "publish_date": "16 November 2026",
+    "date_iso": "2026-11-16",
+    "time_period": "FY to 30 September 2026",
+    "announcement_type": "Annual results",
+    "period_detail": "FY to 30 September 2026",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-17T07:58:54.464962",
     "locked": true,
     "guidance_locked": true
   },
