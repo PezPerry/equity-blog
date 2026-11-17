@@ -1,5 +1,44 @@
 [
   {
+    "company": "Kenmare Resources PLC",
+    "ticker": "KMR",
+    "publish_date": "17 November 2026",
+    "date_iso": "2026-11-17",
+    "time_period": "",
+    "announcement_type": "Acquisition / deal",
+    "period_detail": "",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-17T07:57:54.496716",
+    "locked": true
+  },
+  {
+    "company": "Ibstock PLC",
+    "ticker": "IBST",
+    "publish_date": "17 November 2026",
+    "date_iso": "2026-11-17",
+    "time_period": "",
+    "announcement_type": "Disposal",
+    "period_detail": "",
+    "priority": "medium",
+    "source_format": "html",
+    "added_at": "2026-11-17T07:57:54.483942",
+    "locked": true
+  },
+  {
+    "company": "BP PLC",
+    "ticker": "BP.",
+    "publish_date": "17 November 2026",
+    "date_iso": "2026-11-17",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "priority": "medium",
+    "source_format": "html",
+    "added_at": "2026-11-17T07:57:54.473179",
+    "locked": true
+  },
+  {
     "company": "Custodian Property Income REIT plc",
     "ticker": "CREI",
     "publish_date": "17 November 2026",
