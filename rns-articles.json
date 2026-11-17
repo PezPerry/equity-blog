@@ -1,5 +1,31 @@
 [
   {
+    "company": "NVIDIA Corp",
+    "ticker": "NVDA",
+    "publish_date": "17 November 2026",
+    "date_iso": "2026-11-17",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "priority": "low",
+    "source_format": "html",
+    "added_at": "2026-11-17T10:56:19.371550",
+    "locked": true
+  },
+  {
+    "company": "JD.com Inc",
+    "ticker": "JD",
+    "publish_date": "17 November 2026",
+    "date_iso": "2026-11-17",
+    "time_period": "Q3 2026 (three months to 30 September 2026)",
+    "announcement_type": "Quarterly results",
+    "period_detail": "Q3 2026 (three months to 30 September 2026)",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-17T10:56:19.332114",
+    "locked": true
+  },
+  {
     "company": "Oxford Biomedica plc",
     "ticker": "OXB",
     "publish_date": "17 November 2026",
