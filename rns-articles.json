@@ -1,5 +1,31 @@
 [
   {
+    "company": "Mitie Group plc",
+    "ticker": "MTO",
+    "publish_date": "17 November 2026",
+    "date_iso": "2026-11-17",
+    "time_period": "",
+    "announcement_type": "Acquisition / deal",
+    "period_detail": "",
+    "priority": "medium",
+    "source_format": "html",
+    "added_at": "2026-11-17T12:55:51.532395",
+    "locked": true
+  },
+  {
+    "company": "Halfords Group PLC",
+    "ticker": "HFD",
+    "publish_date": "17 November 2026",
+    "date_iso": "2026-11-17",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "priority": "low",
+    "source_format": "html",
+    "added_at": "2026-11-17T12:55:51.492689",
+    "locked": true
+  },
+  {
     "company": "Anglo American PLC",
     "ticker": "AAL",
     "publish_date": "17 November 2026",
