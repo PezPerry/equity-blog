@@ -1,5 +1,19 @@
 [
   {
+    "company": "SSE plc",
+    "ticker": "SSE",
+    "publish_date": "18 November 2026",
+    "date_iso": "2026-11-18",
+    "time_period": "H1 to 30 September 2026",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 to 30 September 2026",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-18T07:58:28.976165",
+    "locked": true,
+    "guidance_locked": true
+  },
+  {
     "company": "GSK plc",
     "ticker": "GSK",
     "publish_date": "18 November 2026",
