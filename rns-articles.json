@@ -1,5 +1,19 @@
 [
   {
+    "company": "Experian PLC",
+    "ticker": "EXPN",
+    "publish_date": "18 November 2026",
+    "date_iso": "2026-11-18",
+    "time_period": "H1 FY27 (six months to 30 September 2026)",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 FY27 (six months to 30 September 2026)",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-18T07:59:29.483147",
+    "locked": true,
+    "guidance_locked": true
+  },
+  {
     "company": "Marshalls PLC",
     "ticker": "MSLH",
     "publish_date": "18 November 2026",
