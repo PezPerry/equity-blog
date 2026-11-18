@@ -1,5 +1,31 @@
 [
   {
+    "company": "GSK plc",
+    "ticker": "GSK",
+    "publish_date": "18 November 2026",
+    "date_iso": "2026-11-18",
+    "time_period": "",
+    "announcement_type": "Regulatory / product approval",
+    "period_detail": "",
+    "priority": "medium",
+    "source_format": "html",
+    "added_at": "2026-11-18T07:57:56.500792",
+    "locked": true
+  },
+  {
+    "company": "Essentra PLC",
+    "ticker": "ESNT",
+    "publish_date": "18 November 2026",
+    "date_iso": "2026-11-18",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "priority": "low",
+    "source_format": "html",
+    "added_at": "2026-11-18T07:57:56.462774",
+    "locked": true
+  },
+  {
     "company": "NVIDIA Corp",
     "ticker": "NVDA",
     "publish_date": "18 November 2026",
