@@ -1,5 +1,19 @@
 [
   {
+    "company": "NVIDIA Corp",
+    "ticker": "NVDA",
+    "publish_date": "18 November 2026",
+    "date_iso": "2026-11-18",
+    "time_period": "Q3 FY2027",
+    "announcement_type": "Quarterly results",
+    "period_detail": "Q3 FY2027",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-18T07:16:24.566514",
+    "locked": true,
+    "guidance_locked": true
+  },
+  {
     "company": "Investec PLC",
     "ticker": "INVP",
     "publish_date": "17 November 2026",
