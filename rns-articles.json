@@ -1,5 +1,32 @@
 [
   {
+    "company": "Smiths Group plc",
+    "ticker": "SMIN",
+    "publish_date": "18 November 2026",
+    "date_iso": "2026-11-18",
+    "time_period": "Q1 FY2027 (quarter to 31 October 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "Q1 FY2027 (quarter to 31 October 2026)",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-18T08:02:24.821241",
+    "locked": true,
+    "guidance_locked": true
+  },
+  {
+    "company": "Games Workshop Group PLC",
+    "ticker": "GAW",
+    "publish_date": "18 November 2026",
+    "date_iso": "2026-11-18",
+    "time_period": "FY2026/27",
+    "announcement_type": "Dividend declaration",
+    "period_detail": "FY2026/27",
+    "priority": "medium",
+    "source_format": "html",
+    "added_at": "2026-11-18T08:02:24.760267",
+    "locked": true
+  },
+  {
     "company": "Severn Trent Plc",
     "ticker": "SVT",
     "publish_date": "18 November 2026",
