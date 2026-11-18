@@ -1,5 +1,33 @@
 [
   {
+    "company": "Severn Trent Plc",
+    "ticker": "SVT",
+    "publish_date": "18 November 2026",
+    "date_iso": "2026-11-18",
+    "time_period": "H1 to 30 September 2026 (FY27)",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 to 30 September 2026 (FY27)",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-18T08:01:47.569930",
+    "locked": true,
+    "guidance_locked": true
+  },
+  {
+    "company": "Rotork plc",
+    "ticker": "ROR",
+    "publish_date": "18 November 2026",
+    "date_iso": "2026-11-18",
+    "time_period": "Four months to 31 October 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "Four months to 31 October 2026",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-18T08:01:47.529241",
+    "locked": true,
+    "guidance_locked": true
+  },
+  {
     "company": "CLS Holdings PLC",
     "ticker": "CLI",
     "publish_date": "18 November 2026",
