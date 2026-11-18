@@ -1,5 +1,32 @@
 [
   {
+    "company": "S & U PLC",
+    "ticker": "SUS",
+    "publish_date": "18 November 2026",
+    "date_iso": "2026-11-18",
+    "time_period": "Q3 FY2026/27",
+    "announcement_type": "Trading update",
+    "period_detail": "Q3 FY2026/27",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-18T08:07:31.356687",
+    "locked": true,
+    "guidance_locked": true
+  },
+  {
+    "company": "Hill & Smith Holdings PLC",
+    "ticker": "HILS",
+    "publish_date": "18 November 2026",
+    "date_iso": "2026-11-18",
+    "time_period": "",
+    "announcement_type": "Acquisition / deal",
+    "period_detail": "",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-18T08:07:31.344473",
+    "locked": true
+  },
+  {
     "company": "Convatec Group PLC",
     "ticker": "CTEC",
     "publish_date": "18 November 2026",
