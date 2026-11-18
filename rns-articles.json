@@ -1,5 +1,33 @@
 [
   {
+    "company": "Melrose Industries PLC",
+    "ticker": "MRO",
+    "publish_date": "18 November 2026",
+    "date_iso": "2026-11-18",
+    "time_period": "Four months to 31 October 2026 (FY 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "Four months to 31 October 2026 (FY 2026)",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-18T08:05:52.386811",
+    "locked": true,
+    "guidance_locked": true
+  },
+  {
+    "company": "Hays plc",
+    "ticker": "HAS",
+    "publish_date": "18 November 2026",
+    "date_iso": "2026-11-18",
+    "time_period": "H1 FY27 (six months to 31 December 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "H1 FY27 (six months to 31 December 2026)",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-18T08:05:52.369530",
+    "locked": true,
+    "guidance_locked": true
+  },
+  {
     "company": "Workspace Group PLC",
     "ticker": "WKP",
     "publish_date": "18 November 2026",
