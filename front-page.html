@@ -369,22 +369,6 @@ h2.h .sub{font-weight:400;font-style:italic;color:var(--slate)}
     <div class="body-x" style="display:flex;flex-direction:column;gap:14px">
       <p class="wx-warn" id="wxWarn" role="status" hidden></p>
       <div class="wx-grid hrow" id="wxGrid" aria-label="Market weather tiles"></div>
-      <div class="wx-key">
-        <b>Key</b>
-        <span><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#a32118" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M7 14a4 4 0 0 1-.6-7.9A5.5 5.5 0 0 1 17 7.5a3.3 3.3 0 0 1 0 6.5H7z"></path><path d="M13 14l-2 4h3l-2 4"></path></svg>Storm · sharply down for this market</span>
-        <span><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#cc5f52" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M7 14a4 4 0 0 1-.6-7.9A5.5 5.5 0 0 1 17 7.5a3.3 3.3 0 0 1 0 6.5H7z"></path><path d="M8 17l-1 3M12 17l-1 3M16 17l-1 3"></path></svg>Rain · down</span>
-        <span><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#c07c12" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17a4 4 0 0 1-.6-7.9A5.5 5.5 0 0 1 17 10.5a3.3 3.3 0 0 1 0 6.5H7z"></path></svg>Overcast · little changed</span>
-        <span><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#2f8a55" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="15.5" cy="7.5" r="2.8"></circle><path d="M15.5 2v1.5M21 7.5h-1.5M19.4 3.6l-1 1M11.6 3.6l1 1"></path><path d="M6 20a3.5 3.5 0 0 1-.5-7 5 5 0 0 1 9.6 1.3A3 3 0 0 1 15 20H6z"></path></svg>Sun breaking through · up</span>
-        <span><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#14713a" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"></circle><path d="M12 3v2M12 19v2M3 12h2M19 12h2M5.6 5.6l1.4 1.4M17 17l1.4 1.4M5.6 18.4L7 17M17 7l1.4-1.4"></path></svg>Bright sun · sharply up for this market</span>
-        <em>Each market is graded against its own recent volatility, not a fixed percentage. VIX is inverted: rising anxiety brings darker skies. Pound strength is my own basket of six currencies.</em>
-      </div>
-      <details class="wx-detail" id="all-markets">
-        <summary>All eight readings, the method and its limits</summary>
-        <div class="wx-scroll"><table class="wx-table"><thead><tr><th>Market</th><th>Last close</th><th>Latest price</th><th>As at</th><th>Change</th><th>Weather</th><th>Reading</th><th>Status</th></tr></thead><tbody id="wxRows"></tbody></table></div>
-        <p>Each tile shows the latest price I have for that market, checked about once an hour between 07:10 and 21:10 London time. The prices come from a free feed and can run several minutes behind the market, so they are not real-time. The change compares the latest price with the last completed daily close. A market that has not traded yet today shows its last completed session instead, marked "Last close", and its change compares the latest two completed sessions. Each market's score is its change divided by twice its own volatility over up to 60 earlier sessions, limited to between −1 and +1, and the score sets the weather. The VIX score is reversed, so easing anxiety brightens the sky.</p>
-        <p>The data comes from a free feed that can be late, corrected or missing. Futures prices can jump when the front contract rolls, daily closes are not guaranteed official settlements, and holiday handling for futures and currencies is approximate. Pound strength is an equal-weight basket of sterling against the dollar, euro, yen, Swiss franc, Canadian dollar and Australian dollar; it is not an official sterling index. Nothing here is investment advice.</p>
-        <p id="wxTimes"></p>
-      </details>
     </div>
   </div>
 </section>
@@ -393,7 +377,6 @@ h2.h .sub{font-weight:400;font-style:italic;color:var(--slate)}
   <div class="wrap">
     <div class="sec-head">
       <div class="t">
-        <div class="kick">Section 01</div>
         <h2 class="h" id="ca-h"><a href="https://equityandmarketsinsight.com/Blog" target="_top">Company Assessments</a></h2>
         <p class="lede">The latest MAEP valuations: what the business earns, what the market is paying for it, and the gap between the two.</p>
       </div>
@@ -440,7 +423,7 @@ h2.h .sub{font-weight:400;font-style:italic;color:var(--slate)}
       <div class="t">
         <div class="kick">Regulatory news</div>
         <h2 class="h" id="rns-h"><a target="_top" href="https://equityandmarketsinsight.com/RNSNews">RNS News</a></h2>
-        <p class="lede">The latest company announcements, each cut to a single line. Open one for the full summary in the RNS section.</p>
+        <p class="lede">Find our summaries updated throughout the day of the Regulatory News Service</p>
         <div class="tools">
           <a class="all" target="_top" href="https://equityandmarketsinsight.com/RNSNews">All<span class="vh"> RNS news</span> <span aria-hidden="true">→</span></a>
           <button type="button" class="tog" aria-expanded="true" aria-label="Collapse or expand RNS News"><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 15l6-6 6 6"></path></svg></button>
@@ -457,9 +440,8 @@ h2.h .sub{font-weight:400;font-style:italic;color:var(--slate)}
   <div class="wrap">
     <div class="sec-head">
       <div class="t">
-        <div class="kick">Section 02</div>
         <h2 class="h" id="lr-h"><a href="https://equityandmarketsinsight.com/LongReads" target="_top">Understanding the Markets</a> <span class="sub">— Long Reads</span></h2>
-        <p class="lede">What moves what, explained from the data: inflation and base rates, consumer confidence, gold, oil, bonds.</p>
+        <p class="lede">What is moving equities and markets, data based opinions on what is happening in the UK and across the Globe</p>
       </div>
       <div class="tools">
         <a class="all" href="https://equityandmarketsinsight.com/LongReads" target="_top">All<span class="vh"> long reads</span> <span aria-hidden="true">→</span></a>
@@ -482,7 +464,6 @@ h2.h .sub{font-weight:400;font-style:italic;color:var(--slate)}
   <div class="wrap">
     <div class="sec-head">
       <div class="t">
-        <div class="kick">Section 03</div>
         <h2 class="h" id="gr-h">The Greats</h2>
         <p class="lede">Twelve investors, each profiled as a life in dates: where they started, how their thinking formed, and what it earned.</p>
       </div>
@@ -493,8 +474,8 @@ h2.h .sub{font-weight:400;font-style:italic;color:var(--slate)}
     </div>
     <div class="gr-grid hrow body-x">
 <!-- GREATS:START — generated from greats/greats.json by build-front-page.py. Do not hand-edit. -->
-      <a class="gr" href="https://equityandmarketsinsight.com/Greats/warren-buffett" target="_top"><span class="disc"><img src="greats/images/01-portrait-800.webp" alt="Warren Buffett, illustrated portrait" loading="lazy"></span><span class="nm">Warren Buffett</span><span class="fd">1930 – · Berkshire Hathaway</span></a>
-      <a class="gr" href="https://equityandmarketsinsight.com/Greats/charlie-munger" target="_top"><span class="disc"><img src="greats/images/02-portrait-800.webp" alt="Charlie Munger, illustrated portrait" loading="lazy"></span><span class="nm">Charlie Munger</span><span class="fd">1924 – 2023 · Berkshire Hathaway</span></a>
+      <a class="gr" href="https://equityandmarketsinsight.com/Greats/warren-buffett" target="_top"><span class="disc"><img src="greats/images/01-portrait-800.webp" alt="Warren Buffett, illustrated portrait" loading="lazy"></span><span class="nm">Warren Buffett</span><span class="fd">Berkshire Hathaway</span></a>
+      <a class="gr" href="https://equityandmarketsinsight.com/Greats/charlie-munger" target="_top"><span class="disc"><img src="greats/images/02-portrait-800.webp" alt="Charlie Munger, illustrated portrait" loading="lazy"></span><span class="nm">Charlie Munger</span><span class="fd">Berkshire Hathaway</span></a>
       <a class="gr" href="https://equityandmarketsinsight.com/Greats/peter-lynch" target="_top"><span class="disc"><img src="greats/images/03-01-800.webp" alt="Peter Lynch, illustrated portrait" loading="lazy"></span><span class="nm">Peter Lynch</span><span class="fd">Fidelity Magellan</span></a>
       <a class="gr" href="https://equityandmarketsinsight.com/Greats/john-templeton" target="_top"><span class="disc"><img src="greats/images/04-01-800.webp" alt="John Templeton, illustrated portrait" loading="lazy"></span><span class="nm">John Templeton</span><span class="fd">Templeton Growth</span></a>
       <a class="gr" href="https://equityandmarketsinsight.com/Greats/walter-schloss" target="_top"><span class="disc"><img src="greats/images/05-01-800.webp" alt="Walter Schloss, illustrated portrait" loading="lazy"></span><span class="nm">Walter Schloss</span><span class="fd">Walter J. Schloss Associates</span></a>
@@ -515,9 +496,8 @@ h2.h .sub{font-weight:400;font-style:italic;color:var(--slate)}
   <div class="wrap">
     <div class="tl-wrap">
       <div class="t">
-        <div class="kick">Section 04</div>
         <h2 class="h" id="tl-h"><a target="_top" href="https://equityandmarketsinsight.com/TradingLog">Trading Log</a></h2>
-        <p class="lede">What I bought, sold, held and passed on, with the reasoning written down the same day. Every entry is dated and timed.</p>
+        <p class="lede">Short opinion articles produced throughout the day by the team about positions, market commentary &amp; company updates</p>
         <div class="tools">
           <a class="all" target="_top" href="https://equityandmarketsinsight.com/TradingLog">Open the full log <span aria-hidden="true">→</span></a>
           <button type="button" class="tog" aria-expanded="true" aria-label="Collapse or expand Trading Log"><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 15l6-6 6 6"></path></svg></button>
@@ -540,7 +520,7 @@ h2.h .sub{font-weight:400;font-style:italic;color:var(--slate)}
       <div class="t">
         <div class="kick">Investor tools</div>
         <h2 class="h" id="vb-h">The Verdict Board</h2>
-        <p class="lede">Every open call on one board. Click a ticker for the latest assessment.</p>
+        <p class="lede">Every share valuation direction based on in-depth research and analysis</p>
       </div>
       <div class="tools">
         <div class="vb-counts" id="vbCounts"></div>
@@ -815,13 +795,13 @@ const brandedHref=f=>/^https?:/.test(f)?f:
     var id=it.id,st=stateFor(it.score),have=(typeof it.latest==='number'&&isFinite(it.latest));
     var stale=it.status&&it.status!==CURRENT;
     if(!st||!have){
-      return '<a class="wxv wx-na" href="#all-markets" data-id="'+esc(id)+'" aria-label="'+esc(LABEL[id])+', unavailable">'+
+      return '<a class="wxv wx-na" href="#weather" data-id="'+esc(id)+'" aria-label="'+esc(LABEL[id])+', unavailable">'+
         '<div class="wxc"><span class="wxl">'+esc(LABEL[id])+'</span><span class="wxf">Unavailable</span></div></a>';
     }
     var S=STATES[st],up=it.change>0,flat=it.change===0;
     var aria=LABEL[id]+', '+num(it.latest,id)+', '+(flat?'unchanged':(up?'up ':'down ')+Math.abs(it.change*100).toFixed(2)+'%')+', '+S.name+
       (id==='vix'?'; rising anxiety worsens the weather':'')+(id==='pound'?'; basket of six currencies':'')+(stale?'; '+it.status:'')+(it.isLive?'; latest price as at '+clock(it.asAt)+' London, against the last close':'; last close, session of '+day(it.observation_date,true));
-    return '<a class="wxv'+(S.dark?' wx-dark':'')+'" href="#all-markets" data-id="'+esc(id)+'" data-sky="'+S.file+'" data-i="'+i+'" aria-label="'+esc(aria)+'">'+
+    return '<a class="wxv'+(S.dark?' wx-dark':'')+'" href="#weather" data-id="'+esc(id)+'" data-sky="'+S.file+'" data-i="'+i+'" aria-label="'+esc(aria)+'">'+
       '<video muted loop playsinline preload="none" poster="assets/weather/weather-'+S.file+'-'+res+'.jpg" aria-hidden="true"></video>'+
       (SYMBOL[id]?'<img class="wxs" src="assets/weather/symbols/'+SYMBOL[id]+'" width="256" height="256" alt="" aria-hidden="true" decoding="async">':'')+
       (stale?'<span class="wx-st">'+(/unavail/i.test(it.status)?'Unavailable':'Not updated')+'</span>':(it.tagClose?'<span class="wx-st wx-lc">Last close</span>':''))+
@@ -901,16 +881,16 @@ const brandedHref=f=>/^https?:/.test(f)?f:
     if(isFinite(age)&&age>OVERDUE_HOURS){msgs.push('The website has not received a new reading since '+london(data.generated_at_utc)+'. The figures below are the last ones received and may be out of date.');}
     var stale=items.filter(function(it){return it.status&&it.status!==CURRENT;});
     if(stale.length){msgs.push('The source did not supply a fresh close for '+stale.map(function(it){return LABEL[it.id];}).join(', ')+'. Each shows its last valid reading or is marked unavailable.');}
-    if(ds.length>1&&!anyLive){msgs.push('The markets do not all share the same latest session; each row in the table below gives its own date.');}
+    if(ds.length>1&&!anyLive){msgs.push('The markets do not all share the same latest session.');}
     warn.hidden=!msgs.length;warn.textContent=msgs.join(' ');
 
-    document.getElementById('wxRows').innerHTML=items.map(function(it){
+    var rowsEl=document.getElementById('wxRows');if(rowsEl)rowsEl.innerHTML=items.map(function(it){
       var s=stateFor(it.score),ok=s&&typeof it.latest==='number';
       var shut=fin(it.closeValue);
       return '<tr><td>'+esc(FULL[it.id])+'</td><td class="tnum">'+(shut?num(it.closeValue,it.id)+(it.closeDate?' · '+esc(day(it.closeDate)):''):'Unavailable')+'</td><td class="tnum">'+(it.isLive&&ok?num(it.latest,it.id):'—')+'</td><td class="tnum">'+(it.isLive&&ok?esc(clock(it.asAt)):'—')+'</td><td class="tnum">'+(ok?pct(it.change):'—')+
         '</td><td>'+(ok?esc(STATES[s].name.charAt(0).toUpperCase()+STATES[s].name.slice(1)):'Unavailable')+'</td><td>'+esc(it.direction||'')+(it.description?' · '+esc(it.description):'')+(it.roll_warning?' · '+esc(it.roll_warning):'')+'</td><td>'+esc(it.isLive?'Latest price':(it.status||'Unavailable'))+'</td></tr>';
     }).join('');
-    document.getElementById('wxTimes').textContent='Daily closes assembled '+london(data.generated_at_utc)+(anyLive?'; latest prices as at '+london(newest):'')+(data.synced_at_utc?'; received by the website '+london(data.synced_at_utc):'')+'.';
+    var timesEl=document.getElementById('wxTimes');if(timesEl)timesEl.textContent='Daily closes assembled '+london(data.generated_at_utc)+(anyLive?'; latest prices as at '+london(newest):'')+(data.synced_at_utc?'; received by the website '+london(data.synced_at_utc):'')+'.';
     watch();sync();
   }
   var shown=null;

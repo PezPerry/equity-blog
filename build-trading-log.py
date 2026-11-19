@@ -269,9 +269,8 @@ def render_teaser_v2(entries):
   <div class="wrap">
     <div class="tl-wrap">
       <div class="t">
-        <div class="kick">Section 04</div>
         <h2 class="h" id="tl-h"><a target="_top" href="%(log)s">Trading Log</a></h2>
-        <p class="lede">What I bought, sold, held and passed on, with the reasoning written down the same day. Every entry is dated and timed.</p>
+        <p class="lede">Short opinion articles produced throughout the day by the team about positions, market commentary &amp; company updates</p>
         <div class="tools">
           <a class="all" target="_top" href="%(log)s">Open the full log <span aria-hidden="true">→</span></a>
           <button type="button" class="tog" aria-expanded="true" aria-label="Collapse or expand Trading Log">%(chev)s</button>
