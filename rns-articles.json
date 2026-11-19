@@ -1,5 +1,33 @@
 [
   {
+    "company": "The Sage Group plc",
+    "ticker": "SGE",
+    "publish_date": "19 November 2026",
+    "date_iso": "2026-11-19",
+    "time_period": "FY to 30 September 2026",
+    "announcement_type": "Annual results",
+    "period_detail": "FY to 30 September 2026",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-19T08:00:54.214489",
+    "locked": true,
+    "guidance_locked": true
+  },
+  {
+    "company": "Grainger PLC",
+    "ticker": "GRI",
+    "publish_date": "19 November 2026",
+    "date_iso": "2026-11-19",
+    "time_period": "FY to 30 September 2026",
+    "announcement_type": "Annual results",
+    "period_detail": "FY to 30 September 2026",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-19T08:00:54.177116",
+    "locked": true,
+    "guidance_locked": true
+  },
+  {
     "company": "XPS Pensions Group PLC",
     "ticker": "XPS",
     "publish_date": "19 November 2026",
