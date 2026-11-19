@@ -1,5 +1,33 @@
 [
   {
+    "company": "XPS Pensions Group PLC",
+    "ticker": "XPS",
+    "publish_date": "19 November 2026",
+    "date_iso": "2026-11-19",
+    "time_period": "H1 FY27 (six months ended 30 September 2026)",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 FY27 (six months ended 30 September 2026)",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-19T07:59:54.775567",
+    "locked": true,
+    "guidance_locked": true
+  },
+  {
+    "company": "JD Sports Fashion PLC",
+    "ticker": "JD.",
+    "publish_date": "19 November 2026",
+    "date_iso": "2026-11-19",
+    "time_period": "Q3 FY27 (nine months to end-October 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "Q3 FY27 (nine months to end-October 2026)",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-19T07:59:54.729985",
+    "locked": true,
+    "guidance_locked": true
+  },
+  {
     "company": "Mitie Group plc",
     "ticker": "MTO",
     "publish_date": "19 November 2026",
