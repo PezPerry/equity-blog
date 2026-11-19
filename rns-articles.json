@@ -1,5 +1,32 @@
 [
   {
+    "company": "Construction Partners Inc",
+    "ticker": "ROAD",
+    "publish_date": "19 November 2026",
+    "date_iso": "2026-11-19",
+    "time_period": "FY to 30 September 2026",
+    "announcement_type": "Annual results",
+    "period_detail": "FY to 30 September 2026",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-19T12:57:26.416210",
+    "locked": true,
+    "guidance_locked": true
+  },
+  {
+    "company": "AstraZeneca PLC",
+    "ticker": "AZN",
+    "publish_date": "19 November 2026",
+    "date_iso": "2026-11-19",
+    "time_period": "",
+    "announcement_type": "Regulatory / pipeline update",
+    "period_detail": "",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-19T12:57:26.378280",
+    "locked": true
+  },
+  {
     "company": "Warner Music Group Corp",
     "ticker": "WMG",
     "publish_date": "19 November 2026",
