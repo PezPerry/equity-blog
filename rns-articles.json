@@ -1,5 +1,19 @@
 [
   {
+    "company": "Great Portland Estates PLC",
+    "ticker": "GPE",
+    "publish_date": "19 November 2026",
+    "date_iso": "2026-11-19",
+    "time_period": "H1 to 30 September 2026 (HY27)",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 to 30 September 2026 (HY27)",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-19T08:04:07.032285",
+    "locked": true,
+    "guidance_locked": true
+  },
+  {
     "company": "Mountview Estates PLC",
     "ticker": "MTVW",
     "publish_date": "19 November 2026",
@@ -163,6 +177,19 @@
     "priority": "medium",
     "source_format": "html",
     "added_at": "2026-11-19T07:16:03.364740",
+    "locked": true
+  },
+  {
+    "company": "Halma plc",
+    "ticker": "HLMA",
+    "publish_date": "18 November 2026",
+    "date_iso": "2026-11-18",
+    "time_period": "H1 FY2026/27 (6 months to 30 September 2026)",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 FY2026/27 (6 months to 30 September 2026)",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-19T08:04:07.009211",
     "locked": true
   },
   {
