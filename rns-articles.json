@@ -1,5 +1,19 @@
 [
   {
+    "company": "Johnson Matthey PLC",
+    "ticker": "JMAT",
+    "publish_date": "19 November 2026",
+    "date_iso": "2026-11-19",
+    "time_period": "H1 FY27 (six months to 30 September 2026)",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 FY27 (six months to 30 September 2026)",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-19T08:04:48.014113",
+    "locked": true,
+    "guidance_locked": true
+  },
+  {
     "company": "Great Portland Estates PLC",
     "ticker": "GPE",
     "publish_date": "19 November 2026",
