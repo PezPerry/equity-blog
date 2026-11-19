@@ -1,5 +1,32 @@
 [
   {
+    "company": "Mountview Estates PLC",
+    "ticker": "MTVW",
+    "publish_date": "19 November 2026",
+    "date_iso": "2026-11-19",
+    "time_period": "H1 to 30 September 2026",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 to 30 September 2026",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-19T08:03:06.339339",
+    "locked": true
+  },
+  {
+    "company": "Investec PLC",
+    "ticker": "INVP",
+    "publish_date": "19 November 2026",
+    "date_iso": "2026-11-19",
+    "time_period": "H1 FY27 (six months to 30 September 2026)",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 FY27 (six months to 30 September 2026)",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-19T08:03:05.133536",
+    "locked": true,
+    "guidance_locked": true
+  },
+  {
     "company": "Close Brothers Group PLC",
     "ticker": "CBG",
     "publish_date": "19 November 2026",
