@@ -1,5 +1,44 @@
 [
   {
+    "company": "Gaming and Leisure Properties Inc",
+    "ticker": "GLPI",
+    "publish_date": "20 November 2026",
+    "date_iso": "2026-11-20",
+    "time_period": "",
+    "announcement_type": "Financing / refinancing",
+    "period_detail": "",
+    "priority": "medium",
+    "source_format": "html",
+    "added_at": "2026-11-20T07:16:45.876465",
+    "locked": true
+  },
+  {
+    "company": "Severn Trent Plc",
+    "ticker": "SVT",
+    "publish_date": "19 November 2026",
+    "date_iso": "2026-11-19",
+    "time_period": "FY to 31 March 2027",
+    "announcement_type": "Dividend declaration",
+    "period_detail": "FY to 31 March 2027",
+    "priority": "medium",
+    "source_format": "html",
+    "added_at": "2026-11-20T07:16:45.839740",
+    "locked": true
+  },
+  {
+    "company": "Capricorn Energy PLC",
+    "ticker": "CNE",
+    "publish_date": "19 November 2026",
+    "date_iso": "2026-11-19",
+    "time_period": "",
+    "announcement_type": "Acquisition / deal",
+    "period_detail": "",
+    "priority": "medium",
+    "source_format": "html",
+    "added_at": "2026-11-20T07:16:45.799846",
+    "locked": true
+  },
+  {
     "company": "J Sainsbury plc",
     "ticker": "SBRY",
     "publish_date": "19 November 2026",
@@ -914,10 +953,23 @@
     "time_period": "",
     "announcement_type": "Board / management change",
     "period_detail": "",
-    "priority": "low",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Dick Boer</strong>, <strong>Shell plc</strong>'s Deputy Chair and Senior Independent Director, has been nominated for appointment to the Supervisory Board of <strong>Koninklijke Philips N.V.</strong></li><li>Appointment is subject to shareholder approval at the <strong>Philips AGM in May 2027</strong> and would take effect from that date.</li><li>Routine <strong>UKLR 6.4.9</strong> external-directorship disclosure with <strong>no impact</strong> on Shell's trading or guidance.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-11-16T13:56:07.659171",
-    "locked": true
+    "headline": "Shell's Deputy Chair and Senior Independent Director Dick Boer nominated for the Supervisory Board of Philips, subject to shareholder approval in May 2027.",
+    "priority": "low",
+    "priority_reason": "Routine UKLR 6.4.9 external-directorship disclosure with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/shell-SHEL/share-news/Director-Declaration/99715689",
+    "related_news_url": "https://news.google.com/search?q=%22Shell%20plc%22",
+    "added_at": "2026-11-16T13:56:07.659171"
   },
   {
     "company": "Old Mutual Ltd",
@@ -927,10 +979,23 @@
     "time_period": "",
     "announcement_type": "Board / management change",
     "period_detail": "",
-    "priority": "medium",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Old Mutual Limited</strong> has appointed <strong>Nopasika Lila</strong> as a <strong>non-executive director</strong> and member of its <strong>Audit Committee</strong> and <strong>Risk Committee</strong>, with effect from <strong>10 November 2026</strong>.</li><li>Lila is a <strong>Chartered Accountant (SA)</strong> with over <strong>30 years</strong> of experience; she was previously <strong>Group Finance Director of Barloworld Limited</strong> and CEO of the Barloworld Corporate Office, and earlier CEO and CFO of the Eskom Pension and Provident Fund.</li><li>Chairman <strong>Roger Jardine</strong> said the appointment reflects the board's \"structured and phased renewal\" as Old Mutual focuses on disciplined execution and improving competitiveness.</li><li>Routine JSE-compliant governance disclosure — <strong>no impact</strong> on trading or guidance.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-11-16T13:56:07.646100",
-    "locked": true
+    "headline": "Old Mutual appoints Nopasika Lila as a non-executive director and member of its Audit and Risk Committees, effective 10 November 2026.",
+    "priority": "medium",
+    "priority_reason": "Non-executive board appointment — a routine governance change with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/old-mutual-OMU/share-news/Old-Mutual-Limited-Appointment-of-Nopasika-Lila-as/99715413",
+    "related_news_url": "https://news.google.com/search?q=%22Old%20Mutual%20Limited%22",
+    "added_at": "2026-11-16T13:56:07.646100"
   },
   {
     "company": "Saga plc",
@@ -940,10 +1005,23 @@
     "time_period": "",
     "announcement_type": "Financing / refinancing",
     "period_detail": "",
-    "priority": "medium",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Saga plc</strong> has launched an offering of up to <strong>£300.0m</strong> of <strong>Senior Secured Notes due 2031</strong>, issued by Saga and guaranteed on a senior secured basis by certain subsidiaries.</li><li>Proceeds, together with <strong>cash on balance sheet</strong>, are intended to repay the Group's existing <strong>£335.0m term loan</strong> plus associated fees and expenses.</li><li>Private placement under <strong>Regulation S</strong>; Notes not registered under the US Securities Act. Saga warns there is <strong>no assurance the offering will be completed</strong>.</li><li>Refinancing with <strong>no impact</strong> on current trading or guidance; terms (coupon, final size) not yet set.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-11-16T08:56:00.820025",
-    "locked": true
+    "headline": "Saga launches offering of up to £300m senior secured notes due 2031 to refinance its existing £335m term loan.",
+    "priority": "medium",
+    "priority_reason": "Debt refinancing via a new senior secured bond to repay the existing term loan, not an equity raise or earnings event.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/saga-SAGA/share-news/SAGA-PLC-Saga-announces-proposed-bond-offering/99709872",
+    "related_news_url": "https://news.google.com/search?q=%22Saga%20plc%22",
+    "added_at": "2026-11-16T08:56:00.820025"
   },
   {
     "company": "Coca-Cola Europacific Partners plc",
@@ -953,10 +1031,23 @@
     "time_period": "",
     "announcement_type": "Board / management change",
     "period_detail": "",
-    "priority": "low",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Laurence Debroux</strong>, Independent Non-executive Director, has been nominated for appointment to the Supervisory Board of <strong>Royal Philips N.V.</strong> at the <strong>Philips 2027 AGM</strong>.</li><li>Subject to shareholder approval, she will become <strong>Chair of Philips' Audit Committee</strong> from the close of that AGM.</li><li>Routine Listing Rule <strong>6.4.9R</strong> disclosure of an external directorship, with <strong>no impact</strong> on CCEP's trading or guidance.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-11-16T08:56:00.767661",
-    "locked": true
+    "headline": "Independent NED Laurence Debroux nominated to join Royal Philips' Supervisory Board and chair its Audit Committee from the Philips 2027 AGM.",
+    "priority": "low",
+    "priority_reason": "Routine Listing Rule 6.4.9R disclosure of an external directorship with no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/cocacola-europacific-par-CCEP/share-news/Coca-Cola-Europacific-Partners-plc-Director-Declar/99709697",
+    "related_news_url": "https://news.google.com/search?q=%22Coca-Cola%20Europacific%20Partners%20plc%22",
+    "added_at": "2026-11-16T08:56:00.767661"
   },
   {
     "company": "IG Group Holdings PLC",
@@ -966,10 +1057,23 @@
     "time_period": "",
     "announcement_type": "Scheme of Arrangement / redomiciliation",
     "period_detail": "",
-    "priority": "medium",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Scheme of arrangement</strong> under Part 26 of the Companies Act 2006 became effective at <strong>8 p.m. UK time on 13 November 2026</strong>, moving the group's parent company to a new Jersey holding company, <strong>Jenkins Topco plc (renamed IG Group Holdings plc) (\"IG Jersey\")</strong>.</li><li>Dealings in the existing <strong>IG Group Holdings Shares</strong> were suspended at the close on <strong>13 November 2026</strong>; cancellation of their listing and main-market trading takes effect at <strong>8 a.m. UK time today</strong>.</li><li><strong>IG Jersey Shares</strong> issued 1-for-1 to shareholders under the Scheme are admitted to the Official List and to main-market trading, with dealings expected to commence at <strong>8 a.m. UK time today</strong>.</li><li>Routine redomiciliation of the <strong>FTSE 100</strong> fintech; <strong>no impact</strong> on trading, operations or guidance — a change of corporate domicile only.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-11-16T08:03:00.752206",
-    "locked": true
+    "headline": "IG Group's scheme of arrangement to redomicile its parent from England and Wales to Jersey became effective at 8 p.m. on 13 November 2026.",
+    "priority": "medium",
+    "priority_reason": "Corporate reorganisation with no economic effect for shareholders, but it cancels the existing listing and admits new shares, which traders must note for ticker and settlement continuity.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/ig-IGG/share-news/IG-Group-Holdings-plc-Scheme-of-Arrangement/99708677",
+    "related_news_url": "https://news.google.com/search?q=%22IG%20Group%20Holdings%20plc%22",
+    "added_at": "2026-11-16T08:03:00.752206"
   },
   {
     "company": "Ceres Power Holdings plc",
@@ -979,11 +1083,32 @@
     "time_period": "FY26",
     "announcement_type": "Acquisition / deal",
     "period_detail": "FY26",
-    "priority": "high",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Ceres Power Holdings plc</strong> has signed a new manufacturing licence with an undisclosed <strong>privately-owned European energy technology company</strong> to produce its <strong>Ceres Endura</strong> solid oxide fuel cell (SOFC) technology in the <strong>EMEA</strong> region.</li><li>Licence is <strong>non-exclusive</strong> for EMEA, with a <strong>right to expand to a global licence if exercised by 2035</strong>; partner plans a dedicated facility targeting <strong>c.200MW</strong> capacity.</li><li>Financial terms follow the usual Ceres model: <strong>upfront licence fees</strong> plus <strong>recurring royalties</strong> once commercial production starts.</li><li>Ceres expects to recognise contract revenue in-year, guiding <strong>full-year FY26 revenue to c.£60m</strong>.</li><li>Partner's identity withheld at its request; <strong>further details to follow in due course</strong>.</li><li>CEO <strong>Phil Caldwell</strong> flagged a strong pipeline and optimism on <strong>signing additional manufacturing partners</strong> in the months ahead.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-11-16T08:03:00.738866",
-    "locked": true,
-    "guidance_locked": true
+    "headline": "Ceres signs a new non-exclusive licence with an undisclosed European energy technology company to manufacture its Ceres Endura SOFC technology for the EMEA market.",
+    "priority": "high",
+    "priority_reason": "A new SOFC manufacturing licence plus FY26 revenue guidance of c.£60m is a material contract and guidance event.",
+    "figures": [
+      {
+        "metric": "FY26 revenue (guidance)",
+        "current": "c.£60m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "includes revenue from this contract",
+        "note": "full year FY26"
+      }
+    ],
+    "guidance": {
+      "status": "new",
+      "previous": "",
+      "current": "Full year FY26 revenue of c.£60m",
+      "commentary": "Ceres now guides to c.£60m of FY26 revenue, reflecting recognition of revenue from this new EMEA licence in the year. The announcement does not state a prior guidance figure for comparison."
+    },
+    "explainer": "Ceres operates an asset-light, licensing model: rather than building fuel cells itself, it licenses its Ceres Endura SOFC technology to manufacturers in exchange for upfront fees and ongoing royalties once those partners start commercial production. This deal adds an unnamed European partner to an ecosystem that already includes Doosan, Delta, Denso, Shell, Weichai and Thermax.\n\nThe headline commercial point is the FY26 revenue guidance of c.£60m, which Ceres says reflects revenue it expects to recognise from this contract within the current year — typically the upfront licence fee element, as royalties only begin once the partner's planned c.200MW facility is producing at scale. The announcement does not print a previous revenue figure, so the degree of upgrade versus prior expectations cannot be quantified from the text alone.\n\nThe licence is non-exclusive and limited to EMEA, but carries an option for the partner to expand to a global licence if exercised by 2035, leaving scope for larger future royalties. The partner's identity has been withheld at its request, with further detail promised later.",
+    "source_url": "https://uk.advfn.com/stock-market/london/ceres-power-CWR/share-news/Ceres-Power-Holdings-plc-Ceres-signs-European-SOFC/99708786",
+    "related_news_url": "https://news.google.com/search?q=%22Ceres%20Power%20Holdings%20plc%22",
+    "added_at": "2026-11-16T08:03:00.738866"
   },
   {
     "company": "Dar Global PLC",
@@ -993,10 +1118,23 @@
     "time_period": "",
     "announcement_type": "Acquisition / deal",
     "period_detail": "",
-    "priority": "medium",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Dar Global PLC</strong> plans a new mixed-use development in <strong>Jeddah</strong>, Saudi Arabia, with an estimated gross development value of <strong>SAR 1 billion (USD 267m)</strong>.</li><li>Land acquired for a consideration of approximately <strong>USD 56m</strong>.</li><li>Forms part of a programme to expand the Saudi portfolio by up to <strong>SAR 4 billion</strong>, with <strong>further land acquisitions to be announced shortly</strong>.</li><li>On completion of the programme, global development pipeline is expected to reach approximately <strong>USD 24 billion</strong>.</li><li>Project introduces a new international luxury brand to Jeddah via an exclusive co-branded residential concept; follows existing Jeddah developments <strong>Trump Plaza</strong> and <strong>Padel Living</strong>.</li><li>Architectural concept, residential offering and launch date to be unveiled in due course.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-11-16T08:02:17.002835",
-    "locked": true
+    "headline": "Dar Global acquires Jeddah land for USD 56m to build a SAR 1 billion (USD 267m) mixed-use luxury development.",
+    "priority": "medium",
+    "priority_reason": "A single new land acquisition and development plan adds to the pipeline but is modest relative to Dar Global's ~USD 24bn global portfolio.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/dar-global-DAR/share-news/Dar-Global-PLC-Saudi-portfolio-expanded-by-US-267m/99708785",
+    "related_news_url": "https://news.google.com/search?q=%22Dar%20Global%20PLC%22",
+    "added_at": "2026-11-16T08:02:17.002835"
   },
   {
     "company": "Applied Nutrition plc",
@@ -1006,11 +1144,48 @@
     "time_period": "FY to 31 July 2026",
     "announcement_type": "Annual results",
     "period_detail": "FY to 31 July 2026",
-    "priority": "high",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>FY26 revenue up 50.9%</strong> to <strong>£161.6m</strong> (FY25: <strong>£107.1m</strong>), driven by product launches, partnerships and deeper market penetration.</li><li><strong>Adjusted EBITDA up 40.1%</strong> to <strong>£43.3m</strong> (FY25: <strong>£30.9m</strong>), in line with upgraded management guidance given in <strong>August 2026</strong>.</li><li>Ended FY26 in a <strong>net cash position of £15.9m</strong> despite higher stock investment and the US acquisition.</li><li>In <strong>June</strong> completed the asset acquisition of <strong>Nutrablend</strong>, a US sports-nutrition manufacturer, expanding the North American footprint; began building a UK production extension and new global distribution facility/head office to support c.£300m of annual revenue capacity.</li><li><strong>Very strong momentum</strong> continued into <strong>Q1 FY27</strong>, but the Board prudently <strong>maintains current market expectations for FY27</strong> given the early stage of the year.</li><li>Signed collaborations with <strong>SLUSH PUPPiE</strong>, <strong>SOUR PATCH KIDS</strong> and <strong>SWEDISH FISH</strong> to broaden consumer and geographic appeal.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-11-16T08:02:16.987958",
-    "locked": true,
-    "guidance_locked": true
+    "headline": "Applied Nutrition's FY26 revenue rose 50.9% to £161.6m with Adjusted EBITDA up 40.1% to £43.3m, in line with upgraded guidance.",
+    "priority": "high",
+    "priority_reason": "Full-year preliminary results with revenue up 50.9% and a comment on FY27 guidance — core trading news.",
+    "figures": [
+      {
+        "metric": "Revenue",
+        "current": "£161.6m",
+        "prior": "£107.1m",
+        "change": "+50.9%",
+        "basis": "reported",
+        "note": "FY to 31 July 2026"
+      },
+      {
+        "metric": "Adjusted EBITDA",
+        "current": "£43.3m",
+        "prior": "£30.9m",
+        "change": "+40.1%",
+        "basis": "non-IFRS",
+        "note": "FY26; in line with upgraded guidance"
+      },
+      {
+        "metric": "Net cash",
+        "current": "£15.9m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "end FY26"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Current market expectations for FY27",
+      "current": "Current market expectations for FY27 maintained",
+      "commentary": "Despite a strong start to Q1 FY27, the Board considers it prudent to maintain current market expectations given it is early in the financial year. FY26 results themselves met upgraded guidance provided in August 2026, following two upgrades during the year."
+    },
+    "explainer": "These are unaudited preliminary (full-year) results for the 12 months to 31 July 2026. The headline growth figures are reported numbers — a 50.9% rise in revenue and a 40.1% rise in Adjusted EBITDA — not adjusted for currency or acquisitions. The year included the June acquisition of US manufacturer Nutrablend, so part of the growth reflects the expanded footprint, though the company frames the gains as broadly organic market-share wins across channels and geographies.\n\nAdjusted EBITDA is a non-IFRS measure (operating profit before interest, tax, depreciation and amortisation, stripping out exceptional and non-underlying items), so it will differ from statutory profit. The result landing 'in line with upgraded management guidance' matters because the company raised expectations twice during the year, so meeting the higher bar is a positive signal rather than a reset.\n\nOn FY27, guidance is effectively held rather than raised. Trading in Q1 FY27 is described as very strong, but because the financial year has only just begun the Board has chosen to leave current market expectations unchanged — a cautious stance that leaves room for upgrades later if momentum persists.\n\nThe £15.9m net cash position is struck after funding both the US acquisition and increased stock to support growth, and ahead of capital spending on the new UK facility designed to lift capacity towards c.£300m of annual revenue.",
+    "source_url": "https://uk.advfn.com/stock-market/london/applied-nutrition-APN/share-news/Applied-Nutrition-PLC-Preliminary-Results/99708780",
+    "related_news_url": "https://news.google.com/search?q=%22Applied%20Nutrition%20plc%22",
+    "added_at": "2026-11-16T08:02:16.987958"
   },
   {
     "company": "Ninety One PLC",
@@ -1020,10 +1195,104 @@
     "time_period": "H1 to 30 September 2026",
     "announcement_type": "Interim results",
     "period_detail": "H1 to 30 September 2026",
-    "priority": "high",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Ninety One plc</strong> H1 (to <strong>30 September 2026</strong>): adjusted operating profit up <strong>19%</strong> to <strong>£117.8m</strong> (H1 2026: £98.8m), margin improved to <strong>32.5%</strong> (32.1%).</li><li>Closing AUM up <strong>19%</strong> year-on-year and <strong>6%</strong> since 31 March to <strong>£181.4bn</strong>; average AUM up <strong>29%</strong> to <strong>£179.6bn</strong>.</li><li>Swung to net outflows of <strong>£4.2bn</strong> (H1 2026: net inflows of <strong>£4.3bn</strong>) — inflows to Asian/EM equities offset by outflows from global, South African and multi-asset strategies.</li><li>Adjusted EPS up <strong>5%</strong> to <strong>8.8p</strong> and DPS up <strong>5%</strong>, but basic EPS down <strong>8%</strong>; profit before tax up <strong>9%</strong> to <strong>£111.9m</strong>.</li><li>Management fees up <strong>21%</strong> to <strong>£351.0m</strong>; average fee rate fell to <strong>39.0bps</strong> (41.5bps) on the <strong>Sanlam</strong> take-on mix; performance fees down to <strong>£12.1m</strong>.</li><li>Integration of <strong>Sanlam Investment Management</strong> completed on schedule; one-year outperformance weakened to <strong>43%</strong> (56%), five/ten-year held at 64%/76%.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-11-16T08:01:39.128719",
-    "locked": true
+    "headline": "Ninety One grew H1 adjusted operating profit 19% to £117.8m and AUM to £181.4bn, but swung to £4.2bn of net outflows.",
+    "priority": "high",
+    "priority_reason": "Half-year results from a listed asset manager, including profit, AUM and net-flow data.",
+    "figures": [
+      {
+        "metric": "Adjusted operating profit",
+        "current": "£117.8m",
+        "prior": "£98.8m",
+        "change": "+19%",
+        "basis": "adjusted",
+        "note": "H1 to 30 September 2026"
+      },
+      {
+        "metric": "Adjusted operating profit margin",
+        "current": "32.5%",
+        "prior": "32.1%",
+        "change": "+0.4pp",
+        "basis": "adjusted",
+        "note": "H1 to 30 September 2026"
+      },
+      {
+        "metric": "Profit before tax",
+        "current": "£111.9m",
+        "prior": "£102.2m",
+        "change": "+9%",
+        "basis": "IFRS",
+        "note": "H1 to 30 September 2026"
+      },
+      {
+        "metric": "Adjusted EPS",
+        "current": "8.8p",
+        "prior": "not stated",
+        "change": "+5%",
+        "basis": "adjusted",
+        "note": "basic EPS declined 8%"
+      },
+      {
+        "metric": "Closing AUM",
+        "current": "£181.4bn",
+        "prior": "£171.8bn",
+        "change": "+6%",
+        "basis": "vs 31 March 2026",
+        "note": "+19% over last 12 months"
+      },
+      {
+        "metric": "Average AUM",
+        "current": "£179.6bn",
+        "prior": "£139.7bn",
+        "change": "+29%",
+        "basis": "period average",
+        "note": "H1 to 30 September 2026"
+      },
+      {
+        "metric": "Net flows",
+        "current": "-£4.2bn",
+        "prior": "+£4.3bn",
+        "change": "not stated",
+        "basis": "net",
+        "note": "swing from net inflows; prior included £1.9bn Sanlam UK take-on"
+      },
+      {
+        "metric": "Management fees",
+        "current": "£351.0m",
+        "prior": "£290.7m",
+        "change": "+21%",
+        "basis": "reported",
+        "note": "average fee rate 39.0bps vs 41.5bps"
+      },
+      {
+        "metric": "Performance fees",
+        "current": "£12.1m",
+        "prior": "£14.0m",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "H1 to 30 September 2026"
+      },
+      {
+        "metric": "Average management fee rate",
+        "current": "39.0bps",
+        "prior": "41.5bps",
+        "change": "not stated",
+        "basis": "blended",
+        "note": "H2 2026: 40.0bps; Sanlam fixed-income mix dilution"
+      }
+    ],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "Ninety One is an active asset manager whose earnings are driven mainly by management fees charged as a percentage of assets under management (AUM). Because average AUM over the half rose 29% (helped by markets and the Sanlam take-on), fee income and adjusted profit grew strongly even though the closing AUM figure only rose 6% since March. 'Adjusted' operating profit strips out items management regards as non-operating; the basic (IFRS) earnings per share actually fell 8%, largely because of a higher tax charge and non-deductible amortisation tied to the Sanlam acquisition, so the headline 5% rise in adjusted EPS flatters the statutory position.",
+    "source_url": "https://uk.advfn.com/stock-market/london/ninety-one-N91/share-news/Ninety-One-PLC-Half-year-Financial-Report/99708727",
+    "related_news_url": "https://news.google.com/search?q=%22Ninety%20One%20plc%22",
+    "added_at": "2026-11-16T08:01:39.128719"
   },
   {
     "company": "Sirius Real Estate Ltd",
@@ -1033,11 +1302,144 @@
     "time_period": "H1 to 30 September 2026",
     "announcement_type": "Interim results",
     "period_detail": "H1 to 30 September 2026",
-    "priority": "high",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Interim results</strong> for the six months to <strong>30 September 2026</strong>: revenue up <strong>17.9%</strong> to <strong>€191.4m</strong> (prior: €162.3m) on organic and acquisitive growth.</li><li>Funds from operations (FFO) up <strong>11.9%</strong> to <strong>€72.4m</strong>, with FFO per share up <strong>6.5%</strong> to <strong>4.58c</strong>; absent the higher average cost of debt (2.5% to 3.1%), FFO would have risen ~18%.</li><li>Interim dividend up <strong>5.3%</strong> to <strong>3.35c</strong>, the Group's <strong>26th consecutive</strong> increase, <strong>1.37x</strong> covered by FFO.</li><li>Profit before tax excluding revaluations up <strong>39.2%</strong> to <strong>€60.0m</strong>, but <strong>profit after tax fell 60.8%</strong> to <strong>€34.1m</strong> on a <strong>€24.0m</strong> valuation deficit, higher finance costs and a prior-year deferred tax release; basic EPS down 62.7% to <strong>2.15c</strong>.</li><li>Portfolio value up 5.1% to <strong>€3,120.8m</strong>; <strong>net LTV 39.0%</strong> (up from 36.1%) after €136.6m of acquisitions; adjusted NAV per share broadly flat at <strong>124.29c</strong> (-0.4%). <strong>€400.0m</strong> bond repaid on maturity in June 2026.</li><li>On track for medium-term ambition of <strong>€175m</strong> annual FFO; trading in line with management expectations, with UK opportunities to be considered in H2.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-11-16T07:59:54.168540",
-    "locked": true,
-    "guidance_locked": true
+    "headline": "Sirius Real Estate lifts H1 revenue 17.9% to €191.4m and FFO 11.9% to €72.4m, declaring a 26th consecutive dividend increase.",
+    "priority": "high",
+    "priority_reason": "Half-year results from an LSE-listed property company, with revenue, FFO, dividend and NAV figures and an outlook statement.",
+    "figures": [
+      {
+        "metric": "Revenue",
+        "current": "€191.4m",
+        "prior": "€162.3m",
+        "change": "+17.9%",
+        "basis": "reported",
+        "note": "H1 to 30 Sept 2026"
+      },
+      {
+        "metric": "FFO",
+        "current": "€72.4m",
+        "prior": "€64.7m",
+        "change": "+11.9%",
+        "basis": "reported",
+        "note": "funds from operations"
+      },
+      {
+        "metric": "FFO per share",
+        "current": "4.58c",
+        "prior": "4.30c",
+        "change": "+6.5%",
+        "basis": "reported",
+        "note": ""
+      },
+      {
+        "metric": "Profit before tax (excl. revaluation)",
+        "current": "€60.0m",
+        "prior": "€43.1m",
+        "change": "+39.2%",
+        "basis": "excluding property valuation movements",
+        "note": ""
+      },
+      {
+        "metric": "Profit before tax (reported)",
+        "current": "€36.0m",
+        "prior": "€57.5m",
+        "change": "-37.4%",
+        "basis": "including revaluations",
+        "note": ""
+      },
+      {
+        "metric": "Profit after tax",
+        "current": "€34.1m",
+        "prior": "€87.0m",
+        "change": "-60.8%",
+        "basis": "reported",
+        "note": "reflects €24.0m valuation deficit and prior-year €29.5m deferred tax release"
+      },
+      {
+        "metric": "Basic EPS",
+        "current": "2.15c",
+        "prior": "5.77c",
+        "change": "-62.7%",
+        "basis": "reported",
+        "note": ""
+      },
+      {
+        "metric": "EPRA EPS",
+        "current": "3.67c",
+        "prior": "2.84c",
+        "change": "+29.2%",
+        "basis": "excludes valuations",
+        "note": ""
+      },
+      {
+        "metric": "Headline EPS",
+        "current": "3.74c",
+        "prior": "2.84c",
+        "change": "+31.7%",
+        "basis": "excludes valuations",
+        "note": ""
+      },
+      {
+        "metric": "Interim dividend per share",
+        "current": "3.35c",
+        "prior": "3.18c",
+        "change": "+5.3%",
+        "basis": "1.37x FFO covered",
+        "note": "26th consecutive increase"
+      },
+      {
+        "metric": "Adjusted NAV per share",
+        "current": "124.29c",
+        "prior": "124.78c",
+        "change": "-0.4%",
+        "basis": "vs 31 March 2026",
+        "note": ""
+      },
+      {
+        "metric": "EPRA NTA per share",
+        "current": "121.96c",
+        "prior": "122.71c",
+        "change": "-0.6%",
+        "basis": "vs 31 March 2026",
+        "note": ""
+      },
+      {
+        "metric": "Investment property value",
+        "current": "€3,120.8m",
+        "prior": "€2,969.4m",
+        "change": "+5.1%",
+        "basis": "vs 31 March 2026",
+        "note": ""
+      },
+      {
+        "metric": "Total rent roll",
+        "current": "€272.2m",
+        "prior": "€244.5m",
+        "change": "+11.3%",
+        "basis": "reported",
+        "note": "like-for-like rent roll +5.1% to €255.3m"
+      },
+      {
+        "metric": "Net LTV",
+        "current": "39.0%",
+        "prior": "36.1%",
+        "change": "not stated",
+        "basis": "vs 31 March 2026",
+        "note": "within 40% Board cap"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Medium-term ambition of annual FFO of €175m through organic and acquisitive growth",
+      "current": "On track towards achieving its medium-term ambition of annual FFO of €175m; business trading in line with management expectations",
+      "commentary": "Sirius reaffirmed its medium-term €175m annual FFO target and said H1 started well and is trading in line with expectations. It flagged a likely return to UK investment in H2 and expects valuations to return to a surplus above capex as first-half investment is realised."
+    },
+    "explainer": "Sirius reports in euros at a fixed GBP:EUR rate of 1.1701, and the headline revenue and FFO growth blends organic rent-roll gains (like-for-like rent roll up 5.1%) with the contribution from roughly €500m of acquisitions made over the past 18 months, including two defence-related German assets bought this period for €136.6m. Occupancy and rents both rose, so the top-line growth is not purely acquisition-driven.\n\nThe striking contrast is between the operating measures, which are strongly up, and the statutory bottom line, which fell sharply. FFO (the cash-like earnings property investors watch) rose 11.9%, and profit before tax excluding valuation movements rose 39.2%. But reported profit after tax dropped 60.8% because the portfolio recorded a €24.0m valuation deficit this half (versus a gain last year), finance costs rose as the average cost of debt climbed from 2.5% to 3.1% after the €400m bond repayment, and the prior-year figure was flattered by a one-off €29.5m deferred tax release from lower German tax rates. The EPRA and headline EPS figures, which strip out valuation movements, are the better guide to underlying performance and both rose around 30%.\n\nThe dividend rose 5.3% to 3.35c, the 26th consecutive increase, and remains comfortably covered by FFO at 1.37x. NAV per share was essentially flat as the small valuation deficit offset earnings and currency effects.\n\nOn guidance, nothing changed: the company reaffirmed its medium-term goal of €175m annual FFO and said trading is in line with expectations. Net LTV rose to 39.0% (toward the 40% Board cap) because cash was deployed into property, but management expects asset recycling and the RCF to fund further investment, and flagged a possible return to UK acquisitions in the second half.",
+    "source_url": "https://uk.advfn.com/stock-market/london/sirius-real-estate-SRE/share-news/Sirius-Real-Estate-Limited-Interim-results-for-six/99708756",
+    "related_news_url": "https://news.google.com/search?q=%22Sirius%20Real%20Estate%20Limited%22",
+    "added_at": "2026-11-16T07:59:54.168540"
   },
   {
     "company": "Victrex PLC",
@@ -1047,10 +1449,23 @@
     "time_period": "",
     "announcement_type": "Board / management change",
     "period_detail": "",
-    "priority": "medium",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Victrex plc</strong> has appointed <strong>Adam Butcher</strong> as <strong>Chief Financial Officer</strong> and Executive Director, effective <strong>15 February 2027</strong>, following an internal and external search.</li><li>Butcher joins from <strong>Honeywell Technologies</strong>, where he was VP Finance, Catalyst Technologies, and led integration of the acquired <strong>Johnson Matthey Catalyst Technologies</strong> business; prior roles at <strong>Rolls-Royce</strong>, <strong>General Electric</strong>, <strong>Baker Hughes</strong> and <strong>Wood Group</strong>.</li><li><strong>Chris Gilbert</strong> continues as Interim CFO until Butcher joins, supporting an orderly handover.</li><li>CEO <strong>Dr James Routh</strong> said the appointment completes the refresh of the executive leadership team; starting salary set at <strong>£400,000</strong>.</li><li>Routine board disclosure with <strong>no impact</strong> on current trading or guidance; no matters requiring disclosure under UKLR 6.4.8R.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-11-16T07:59:07.153319",
-    "locked": true
+    "headline": "Victrex appoints Adam Butcher as Chief Financial Officer and Executive Director, effective 15 February 2027, completing its executive leadership refresh.",
+    "priority": "medium",
+    "priority_reason": "CFO appointment completing the executive leadership refresh, but no impact on current trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/victrex-VCT/share-news/Victrex-PLC-Appointment-of-Chief-Financial-Officer/99708768",
+    "related_news_url": "https://news.google.com/search?q=%22Victrex%20plc%22",
+    "added_at": "2026-11-16T07:59:07.153319"
   },
   {
     "company": "RTW Biotech Opportunities Ltd",
@@ -1060,10 +1475,23 @@
     "time_period": "",
     "announcement_type": "Corporate update",
     "period_detail": "",
-    "priority": "medium",
+    "type_workings": "Rule 'fallback': no specific pattern matched; generic corporate announcement [rns.json record]",
+    "body": "<ul><li><strong>RTW Biotech Opportunities Ltd</strong> notes that private portfolio company <strong>Windward Bio Group AG</strong> priced its Nasdaq IPO, selling <strong>10 million shares at $17</strong> for gross proceeds of approximately <strong>$175m</strong>, with <strong>Sanofi</strong> investing a further <strong>$50m</strong> in a concurrent private placement to take total proceeds to <strong>$225m</strong>.</li><li>Windward began trading under ticker <strong>\"WWB\"</strong> on <strong>13 November 2026</strong> and closed up <strong>68% at $28.50</strong> on day one, a <strong>180% step-up</strong> from RTW Bio's prior holding value and <strong>196%</strong> from cost.</li><li>RTW Bio had invested <strong>$7.0m</strong> in total (<strong>$5.3m</strong> Series A in January 2025 plus <strong>$1.7m</strong> in the Series B crossover); Windward represented <strong>0.8%</strong> of NAV valued at <strong>$7.4m</strong> as at 31 October 2026, before the uplift.</li><li>This is described as RTW Bio's <strong>fifth IPO</strong> and <strong>17th liquidity event</strong> year-to-date; Windward's lead programme <strong>WIN378</strong> is a long-acting antibody in Phase 2/3 for asthma and Phase 2 for COPD.</li><li>Note: the announcement is internally inconsistent on the IPO count, also calling Windward the <strong>\"tenth go-public event\"</strong> of 2026.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-11-16T07:59:07.106821",
-    "locked": true
+    "headline": "RTW Bio portfolio company Windward Bio priced a $175m Nasdaq IPO and closed up 68% on debut, a 180% step-up from RTW's prior holding value.",
+    "priority": "medium",
+    "priority_reason": "Material NAV value uplift from a portfolio company IPO, but Windward was only 0.8% of NAV, so the impact on RTW's overall valuation is modest.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/rtw-biotech-opportunities-RTW/share-news/RTW-Biotech-Opportunities-Ltd-Windward-Bio-prices/99708774",
+    "related_news_url": "https://news.google.com/search?q=%22RTW%20Biotech%20Opportunities%20Ltd%22",
+    "added_at": "2026-11-16T07:59:07.106821"
   },
   {
     "company": "Me Group International PLC",
@@ -1073,11 +1501,64 @@
     "time_period": "FY to 31 October 2026",
     "announcement_type": "Trading update",
     "period_detail": "FY to 31 October 2026",
-    "priority": "high",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>ME Group International plc</strong> expects <strong>FY2026 total revenue</strong> of <strong>not less than approximately £309 million</strong> and <strong>adjusted profit before tax</strong> of <strong>not less than approximately £66 million</strong> for the <strong>12 months ended 31 October 2026</strong>.</li><li><strong>Wash.ME</strong> revenue expected <strong>up c.14%</strong> on FY2025 (<strong>+c.12% at constant currency</strong>); <strong>1,224 net new laundry machines</strong> installed, a <strong>c.16%</strong> year-on-year increase, despite softer drying demand from an abnormally hot, dry European summer.</li><li>Agreed a <strong>strategic partnership with ASDA</strong> targeting up to <strong>700 Wash.ME machines</strong> across UK sites.</li><li><strong>Photo.ME</strong> revenue expected <strong>down c.4%</strong> (down c.4% at constant currency), hit by travel uncertainty, the Middle East conflict, and photo-ID regulatory changes in <strong>Japan</strong> and <strong>Germany</strong>.</li><li>Returned <strong>£37 million</strong> to shareholders via dividends and share buybacks in the period on strong cash conversion.</li><li><strong>Annual Results</strong> for FY ended 31 October 2026 due <strong>end of February 2027</strong>.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-11-16T07:58:36.558293",
-    "locked": true,
-    "guidance_locked": true
+    "headline": "ME Group expects FY2026 revenue of not less than ~£309m and adjusted pre-tax profit of not less than ~£66m, with Wash.ME revenue up c.14%.",
+    "priority": "high",
+    "priority_reason": "Year-end trading update setting FY2026 revenue and profit expectations ahead of annual results.",
+    "figures": [
+      {
+        "metric": "Total revenue",
+        "current": "not less than ~£309m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "FY to 31 October 2026"
+      },
+      {
+        "metric": "Adjusted profit before tax",
+        "current": "not less than ~£66m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "reported PBT less impairment adjustments",
+        "note": "FY to 31 October 2026"
+      },
+      {
+        "metric": "Wash.ME revenue",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "+c.14% (+c.12% constant currency)",
+        "basis": "vs FY2025",
+        "note": "1,224 net new laundry machines, +c.16% units"
+      },
+      {
+        "metric": "Photo.ME revenue",
+        "current": "not stated",
+        "prior": "not stated",
+        "change": "-c.4% (-c.4% constant currency)",
+        "basis": "vs FY2025",
+        "note": "Japan and Germany photo-ID regulation drag"
+      },
+      {
+        "metric": "Shareholder returns",
+        "current": "£37m",
+        "prior": "not stated",
+        "change": "not stated",
+        "basis": "dividends and share buybacks",
+        "note": "FY2026"
+      }
+    ],
+    "guidance": {
+      "status": "new",
+      "previous": "",
+      "current": "Total revenue not less than approximately £309 million; adjusted profit before tax not less than approximately £66 million for FY2026.",
+      "commentary": "The update sets floor expectations for FY2026 revenue and adjusted profit ahead of annual results in late February 2027. Growth is led by Wash.ME laundry expansion, partly offset by a c.4% decline in Photo.ME revenue from regulatory and travel headwinds."
+    },
+    "explainer": "This is a pre-close trading update, giving the market a steer on FY2026 (year to 31 October 2026) figures before audited results land at the end of February 2027. The headline numbers — revenue of 'not less than' approximately £309m and adjusted pre-tax profit of 'not less than' approximately £66m — are floors, so the final figures should be at or above these levels.\n\n'Adjusted' profit before tax strips out any impairment charges, so it flatters the reported bottom line if write-downs arise. The divisional growth rates are stated both as reported and at constant currency, which removes the distortion from exchange-rate moves — notably an 8.34% fall in the yen against sterling over the year. Wash.ME's reported +c.14% becomes +c.12% once currency is excluded, while Photo.ME is -c.4% on both measures.\n\nNote the company does not print absolute prior-year revenue or profit figures, so the divisional percentages lack a stated monetary base. The weather comment matters: an unusually hot, dry European summer dampened demand for laundry drying, a seasonal rather than structural drag.\n\nThere is no prior formal guidance quoted to compare against, so this is treated as fresh guidance rather than an upgrade or downgrade.",
+    "source_url": "https://uk.advfn.com/stock-market/london/me-MEGP/share-news/ME-Group-International-PLC-Year-end-Trading-Update/99708721",
+    "related_news_url": "https://news.google.com/search?q=%22ME%20Group%20International%20plc%22",
+    "added_at": "2026-11-16T07:58:36.558293"
   },
   {
     "company": "Great Portland Estates PLC",
@@ -1087,10 +1568,23 @@
     "time_period": "",
     "announcement_type": "Acquisition / deal",
     "period_detail": "",
-    "priority": "medium",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Great Portland Estates plc</strong> has completed the sale of <strong>2 Aldermanbury Square</strong> to <strong>Rothesay Life Plc</strong> at a headline price of <strong>£422.3m</strong>, a net initial yield of <strong>5.25%</strong>, equating to a net price after rent-free adjustments of <strong>£368.7m</strong>.</li><li>Net sale price is around <strong>3% ahead of March 2026 book value</strong> and <strong>in line with September 2026</strong>.</li><li>Proceeds will initially repay the <strong>RCF facility</strong> and be reinvested into the <strong>development pipeline</strong>.</li><li>The redeveloped <strong>13-storey, 324,700 sq ft</strong> City HQ building is <strong>100% let to Clifford Chance until 2046</strong>, with the retail unit let to <strong>Watchhouse</strong>.</li><li>Held leasehold from the <strong>City of London Corporation</strong> for 180 years from August 2022, with ground rent geared to 5.25% of rents received.</li><li>CEO <strong>Toby Courtauld</strong> said the sale concludes a significant development delivered on time and on budget and pre-let in full.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-11-16T07:58:36.543849",
-    "locked": true
+    "headline": "GPE has completed the sale of 2 Aldermanbury Square in the City to Rothesay for a net sale price of £368.7m.",
+    "priority": "medium",
+    "priority_reason": "A sizeable asset disposal that recycles capital into the development pipeline, but not a results or guidance event.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/great-portland-estates-GPE/share-news/Great-Portland-Estates-plc-GPE-sells-2-Aldermanbur/99708718",
+    "related_news_url": "https://news.google.com/search?q=%22Great%20Portland%20Estates%20plc%22",
+    "added_at": "2026-11-16T07:58:36.543849"
   },
   {
     "company": "Legal & General Group PLC",
@@ -1100,11 +1594,96 @@
     "time_period": "Q3 and nine months to 30 September 2026",
     "announcement_type": "Trading update",
     "period_detail": "Q3 and nine months to 30 September 2026",
-    "priority": "high",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Legal & General</strong> says Q3 momentum continued and it remains on track to <strong>meet or exceed all strategic targets</strong> set in 2024, with <strong>FY26 core operating EPS growth expected above the top-end of the 6-9%</strong> range.</li><li><strong>Solvency II ratio 213%</strong> at 30 September (<strong>H1 2026: 201%; FY 2025: 203%</strong>), above the 160-190% target range; a c.<strong>1-2ppt</strong> negative Q4 hit expected from US dollar FX hedging changes.</li><li><strong>Institutional Retirement: £6.7bn</strong> written or exclusive year-to-date as at 13 November (<strong>Q3 2025: £3.7bn</strong>), including £6.2bn UK PRT; PRT completed <strong>£5.8bn</strong> in nine months vs <strong>£5.9bn</strong> a year earlier.</li><li><strong>Retail</strong> strong across lines: <strong>Workplace net flows £8.0bn</strong> (+57% YoY), annuity sales <strong>£1.5bn</strong> (+25%), protection sales <strong>£248m</strong> APE (+21%); <strong>Asset Management AUM £1,230bn</strong> with <strong>ANNR of £25m</strong> (Q3 2025: £2m).</li><li>Cost programme continues with c.<strong>1,000 fewer roles by mid-2027</strong>; on track to exceed <strong>£400m of asset optimisation</strong> in 2026 (£288m at H1).</li><li><strong>Full Year 2026 results</strong> scheduled for <strong>Monday 8 March 2027</strong>.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-11-16T07:57:54.364085",
-    "locked": true,
-    "guidance_locked": true
+    "headline": "L&G reports positive Q3 momentum, a 213% Solvency II ratio and expects FY26 core operating EPS growth above the top of its 6-9% range.",
+    "priority": "high",
+    "priority_reason": "Q3 trading update from a FTSE 100 insurer with reaffirmed above-range EPS guidance and capital metrics.",
+    "figures": [
+      {
+        "metric": "Institutional Retirement written/exclusive",
+        "current": "£6.7bn",
+        "prior": "£3.7bn",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "YTD as at 13 November vs Q3 2025"
+      },
+      {
+        "metric": "PRT completed",
+        "current": "£5.8bn",
+        "prior": "£5.9bn",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "first nine months vs same period last year"
+      },
+      {
+        "metric": "Asset Management ANNR",
+        "current": "£25m",
+        "prior": "£2m",
+        "change": "not stated",
+        "basis": "annualised net new revenue",
+        "note": "vs Q3 2025; £23m at 30 June 2026"
+      },
+      {
+        "metric": "Asset Management AUM",
+        "current": "£1,230bn",
+        "prior": "not stated",
+        "change": "+4%",
+        "basis": "year on year",
+        "note": "down £12bn in Q3; at 30 September 2026"
+      },
+      {
+        "metric": "Workplace net flows",
+        "current": "£8.0bn",
+        "prior": "not stated",
+        "change": "+57%",
+        "basis": "year on year",
+        "note": "£4.5bn in Q3 vs £1.0bn in Q3 2025"
+      },
+      {
+        "metric": "Workplace AUA",
+        "current": "£133.3bn",
+        "prior": "not stated",
+        "change": "+23%",
+        "basis": "year on year",
+        "note": ""
+      },
+      {
+        "metric": "Retail annuity sales",
+        "current": "£1.5bn",
+        "prior": "not stated",
+        "change": "+25%",
+        "basis": "year on year",
+        "note": "first nine months; IFRS margin 5.5% vs 4.5%"
+      },
+      {
+        "metric": "Protection sales (APE)",
+        "current": "£248m",
+        "prior": "not stated",
+        "change": "+21%",
+        "basis": "APE",
+        "note": "IFRS margin 8.9% vs 7.8%"
+      },
+      {
+        "metric": "Solvency II coverage ratio",
+        "current": "213%",
+        "prior": "201%",
+        "change": "not stated",
+        "basis": "reported",
+        "note": "30 Sep vs H1 2026; FY 2025: 203%"
+      }
+    ],
+    "guidance": {
+      "status": "maintained",
+      "previous": "Core operating EPS growth target range of 6-9% for 2026; on track to meet or exceed all 2024 strategic targets",
+      "current": "Core operating EPS growth expected to be above the top-end of the 6-9% target range for 2026; on track to meet or exceed all 2024 targets",
+      "commentary": "L&G reaffirms its 2024 targets and expects FY26 core operating EPS growth to land above the top of the 6-9% range. It also flags a c.1-2 percentage point Solvency II drag in Q4 from changes to US dollar FX hedging."
+    },
+    "explainer": "This is a Q3 trading statement rather than full results, so it gives volume and capital metrics rather than headline profit. Figures cover the nine months to 30 September 2026, with year-on-year comparisons against the same point in 2025 and some quarter-on-quarter comparisons against H1 2026 (30 June).\n\nThe bulk annuity (PRT) number is the one to watch: £6.7bn written or exclusive by 13 November is well ahead of the £3.7bn at the same stage last year, though completed deals of £5.8bn are broadly flat on last year's £5.9bn — the gap reflects deals agreed but not yet completed. Asset Management's £1,230bn AUM is up 4% year on year but fell £12bn in Q3 on negative markets, while net outflows slowed; ANNR (annualised net new revenue, the recurring fee uplift from new business) stayed positive for an eighth quarter.\n\nOn guidance, L&G has not changed its formal 6-9% core operating EPS growth target but now expects 2026 to come in above the top of that range, a mild positive. The 213% Solvency II ratio sits well above the 160-190% operating range, giving ample capital headroom, though management flags a c.1-2 percentage point reduction in Q4 from reworking its US dollar FX hedges — a technical, one-off move rather than a deterioration in trading.",
+    "source_url": "https://uk.advfn.com/stock-market/london/legal-and-general-LGEN/share-news/Legal-General-Group-Plc-Q3-Trading-Update-2026/99708716",
+    "related_news_url": "https://news.google.com/search?q=%22Legal%20%26%20General%20Group%20Plc%22",
+    "added_at": "2026-11-16T07:57:54.364085"
   },
   {
     "company": "Coca-Cola HBC AG",
@@ -1114,10 +1693,23 @@
     "time_period": "",
     "announcement_type": "Acquisition / deal",
     "period_detail": "",
-    "priority": "high",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>JSE</strong> has approved a fast-track inward secondary listing of existing shares, with trading on the Johannesburg Main Board starting <strong>Monday, 23 November 2026</strong>; the LSE and Euronext Athens listings are unchanged.</li><li>Completion of the <strong>Coca-Cola Beverages Africa (CCBA)</strong> acquisition is expected on <strong>Friday, 27 November 2026</strong>, conditional on the secondary listing becoming effective.</li><li>Post-completion, Coca-Cola HBC becomes the <strong>second-largest Coca-Cola bottler globally</strong> by volume, serving approximately <strong>1.2 billion</strong> consumers.</li><li><strong>21,027,676</strong> new ordinary shares will be issued to <strong>Gutsche Family Investments (GFI)</strong> at completion, representing <strong>5.45%</strong> of enlarged share capital; admission to trading expected <strong>30 November 2026</strong>.</li><li>Merger control approvals obtained in <strong>five of six</strong> jurisdictions; the deal will not be implemented in <strong>Tanzania</strong> until Fair Competition Commission approval is received, but completion proceeds otherwise.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-11-16T07:57:17.859354",
-    "locked": true
+    "headline": "Coca-Cola HBC secures JSE secondary listing from 23 November and expects to complete its Coca-Cola Beverages Africa acquisition on 27 November.",
+    "priority": "high",
+    "priority_reason": "Confirms timetable for completion of the CCBA acquisition and a new JSE secondary listing, a transformational deal for the group.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/coca-cola-hbc-CCH/share-news/Coca-Cola-HBC-AG-JSE-secondary-listing-and-CCBA-co/99708998",
+    "related_news_url": "https://news.google.com/search?q=%22Coca-Cola%20HBC%20AG%22",
+    "added_at": "2026-11-16T07:57:17.859354"
   },
   {
     "company": "AstraZeneca PLC",
@@ -1127,10 +1719,23 @@
     "time_period": "",
     "announcement_type": "Regulatory / product approval",
     "period_detail": "",
-    "priority": "medium",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>US FDA</strong> has approved <strong>AstraZeneca's IMFINZI® (durvalumab)</strong> in combination with <strong>enfortumab vedotin-ejfv</strong> as neoadjuvant treatment, then IMFINZI monotherapy after radical cystectomy, for <strong>muscle-invasive bladder cancer (MIBC)</strong> patients ineligible for or refusing cisplatin-based chemotherapy.</li><li>Approval based on the <strong>VOLGA Phase III</strong> trial, which showed a <strong>49% reduction in risk of recurrence</strong> (EFS HR 0.51) and a <strong>42% reduction in risk of death</strong> (OS HR 0.58, p=0.0027).</li><li>An estimated <strong>64%</strong> of patients on the IMFINZI combination remained alive and event-free at two years versus <strong>45%</strong> for the comparator arm; <strong>78%</strong> were alive at two years versus <strong>69%</strong>.</li><li>AstraZeneca's <strong>third bladder cancer indication in two years</strong>, reinforcing IMFINZI as an immunotherapy backbone across muscle-invasive and non-muscle-invasive disease; around <strong>16,000</strong> US patients are treated for MIBC annually.</li><li>Grade 3/4 adverse events occurred in <strong>64%</strong> of IMFINZI-combination patients versus <strong>44%</strong> in the comparator arm, with no new safety signals.</li><li>Regulatory applications are under review in the <strong>EU, Japan</strong> and several other countries based on VOLGA data.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-11-16T07:16:09.444403",
-    "locked": true
+    "headline": "FDA approves AstraZeneca's IMFINZI in a novel perioperative regimen with enfortumab vedotin for muscle-invasive bladder cancer patients ineligible for cisplatin chemotherapy.",
+    "priority": "medium",
+    "priority_reason": "A new US regulatory approval expands IMFINZI into a further bladder cancer setting, but is an incremental indication rather than a results, guidance or M&A event for a company of AstraZeneca's scale.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/astrazeneca-AZN/share-news/Perioperative-IMFINZI-durvalumab-approved-in-the/99707381",
+    "related_news_url": "https://news.google.com/search?q=%22AstraZeneca%20PLC%22",
+    "added_at": "2026-11-16T07:16:09.444403"
   },
   {
     "company": "HSBC Holdings PLC",

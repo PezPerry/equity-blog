@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-19",
+  "generated": "2026-11-20",
   "by_ticker": {
     "ABDN": {
       "date": "2026-12-07",
@@ -49,10 +49,6 @@
       "date": "2026-11-26",
       "event": "AGM (Conf)"
     },
-    "CBG": {
-      "date": "2026-11-19",
-      "event": "AGM (Conf)"
-    },
     "CPG": {
       "date": "2026-11-25",
       "event": "Annual report (Est)"
@@ -60,10 +56,6 @@
     "DGE": {
       "date": "2026-12-03",
       "event": "Q4 div payment"
-    },
-    "DNLM": {
-      "date": "2026-11-19",
-      "event": "AGM (Est)"
     },
     "EZJ": {
       "date": "2026-11-25",
@@ -98,8 +90,8 @@
       "event": "Q2 div payment"
     },
     "JDW": {
-      "date": "2026-11-19",
-      "event": "AGM (Conf)"
+      "date": "2026-11-26",
+      "event": "Q4 div payment"
     },
     "KIE": {
       "date": "2026-12-04",
@@ -113,13 +105,9 @@
       "date": "2026-11-27",
       "event": "Q2 div payment"
     },
-    "MOON": {
-      "date": "2026-11-19",
-      "event": "Q4 div payment"
-    },
     "MSFT": {
-      "date": "2026-11-19",
-      "event": "Q1 ex-div"
+      "date": "2026-12-08",
+      "event": "AGM (Conf)"
     },
     "NXT": {
       "date": "2026-12-03",
