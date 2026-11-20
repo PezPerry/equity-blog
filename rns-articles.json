@@ -1,5 +1,31 @@
 [
   {
+    "company": "SSE plc",
+    "ticker": "SSE",
+    "publish_date": "20 November 2026",
+    "date_iso": "2026-11-20",
+    "time_period": "ED3 price control 2028-2033",
+    "announcement_type": "Regulatory business plan submission",
+    "period_detail": "ED3 price control 2028-2033",
+    "priority": "medium",
+    "source_format": "html",
+    "added_at": "2026-11-20T08:36:51.117001",
+    "locked": true
+  },
+  {
+    "company": "Drax Group PLC",
+    "ticker": "DRX",
+    "publish_date": "20 November 2026",
+    "date_iso": "2026-11-20",
+    "time_period": "",
+    "announcement_type": "Acquisition / deal",
+    "period_detail": "",
+    "priority": "medium",
+    "source_format": "html",
+    "added_at": "2026-11-20T08:36:50.936239",
+    "locked": true
+  },
+  {
     "company": "On The Beach Group PLC",
     "ticker": "OTB",
     "publish_date": "20 November 2026",
