@@ -1,7 +1,7 @@
 {
  "snapshot_version": 1,
- "generated_at_utc": "2026-11-22T07:00:16.098206+00:00",
- "synced_at_utc": "2026-11-22T07:10:03+00:00",
+ "generated_at_utc": "2026-11-23T07:00:30.548389+00:00",
+ "synced_at_utc": "2026-11-23T07:10:18+00:00",
  "note": "Latest prices, checked about once an hour and possibly delayed, compared with the last completed close.",
  "instruments": [
   {
@@ -16,7 +16,7 @@
    "previous_date": "2026-11-19",
    "direction": "Down",
    "description": "Falling",
-   "status": "Market closed",
+   "status": "Latest completed session",
    "roll_warning": null,
    "live": null
   },
@@ -32,7 +32,7 @@
    "previous_date": "2026-11-19",
    "direction": "Down",
    "description": "Falling strongly",
-   "status": "Market closed",
+   "status": "Latest completed session",
    "roll_warning": null,
    "live": null
   },
@@ -48,7 +48,7 @@
    "previous_date": "2026-11-19",
    "direction": "Up",
    "description": "Anxiety rising sharply",
-   "status": "Market closed",
+   "status": "Latest completed session",
    "roll_warning": null,
    "live": null
   },
@@ -56,33 +56,49 @@
    "id": "brent",
    "name": "Brent crude futures",
    "units": "USD per barrel",
-   "latest": 89.94999694824219,
+   "latest": 92.56999969482422,
    "previous": 91.9800033569336,
-   "change": -0.022070084090058728,
-   "score": -0.3742813929257564,
+   "change": 0.006414397872993138,
+   "score": 0.1087802729199974,
    "observation_date": "2026-11-20",
    "previous_date": "2026-11-19",
-   "direction": "Down",
-   "description": "Falling",
-   "status": "Market closed",
+   "direction": "Up",
+   "description": "Rising slightly",
+   "status": "Latest completed session",
    "roll_warning": "Rolling front-contract series: expiry/roll can cause artificial daily jumps. Yahoo does not supply a verified daily contract mapping here, so no roll adjustment is claimed. Closes are not guaranteed official settlements.",
-   "live": null
+   "live": {
+    "price": 89.65,
+    "change": -0.03154369346927277,
+    "score": -0.5349421180964373,
+    "as_at_utc": "2026-11-23T07:00:21+00:00",
+    "session_date": "2026-11-23",
+    "direction": "Down",
+    "description": "Falling"
+   }
   },
   {
    "id": "gas",
    "name": "US natural gas futures",
    "units": "USD per million Btu",
-   "latest": 3.747999906539917,
+   "latest": 3.4110000133514404,
    "previous": 3.2679998874664307,
-   "change": 0.1468788358636126,
-   "score": 1.0,
+   "change": 0.04375768996610119,
+   "score": 0.7116211132246671,
    "observation_date": "2026-11-20",
    "previous_date": "2026-11-19",
    "direction": "Up",
-   "description": "Rising strongly",
-   "status": "Market closed",
+   "description": "Rising",
+   "status": "Latest completed session",
    "roll_warning": "Rolling front-contract series: expiry/roll can cause artificial daily jumps. Yahoo does not supply a verified daily contract mapping here, so no roll adjustment is claimed. Closes are not guaranteed official settlements.",
-   "live": null
+   "live": {
+    "price": 3.564,
+    "change": 0.0448548771766879,
+    "score": 0.7294644131067782,
+    "as_at_utc": "2026-11-23T07:00:40+00:00",
+    "session_date": "2026-11-23",
+    "direction": "Up",
+    "description": "Rising"
+   }
   },
   {
    "id": "gold",
@@ -96,9 +112,17 @@
    "previous_date": "2026-11-19",
    "direction": "Down",
    "description": "Falling strongly",
-   "status": "Market closed",
+   "status": "Latest completed session",
    "roll_warning": "Rolling front-contract series: expiry/roll can cause artificial daily jumps. Yahoo does not supply a verified daily contract mapping here, so no roll adjustment is claimed. Closes are not guaranteed official settlements.",
-   "live": null
+   "live": {
+    "price": 3624.6,
+    "change": 0.031063350028383674,
+    "score": 1.0,
+    "as_at_utc": "2026-11-23T07:00:43+00:00",
+    "session_date": "2026-11-23",
+    "direction": "Up",
+    "description": "Rising strongly"
+   }
   },
   {
    "id": "pound",
@@ -112,9 +136,17 @@
    "previous_date": "2026-11-19",
    "direction": "Down",
    "description": "Weakening",
-   "status": "Market closed",
+   "status": "Latest completed session",
    "roll_warning": null,
-   "live": null
+   "live": {
+    "price": 101.74740560965702,
+    "change": 0.000769874150603922,
+    "score": 0.19849150469514948,
+    "as_at_utc": "2026-11-23T07:09:43+00:00",
+    "session_date": "2026-11-23",
+    "direction": "Up",
+    "description": "Strengthening slightly"
+   }
   },
   {
    "id": "dollar",
@@ -128,9 +160,17 @@
    "previous_date": "2026-11-19",
    "direction": "Down",
    "description": "Weakening slightly",
-   "status": "Market closed",
+   "status": "Latest completed session",
    "roll_warning": null,
-   "live": null
+   "live": {
+    "price": 103.629,
+    "change": -0.001743546506602911,
+    "score": -0.27852584584506923,
+    "as_at_utc": "2026-11-23T07:00:42+00:00",
+    "session_date": "2026-11-23",
+    "direction": "Down",
+    "description": "Weakening"
+   }
   }
  ]
 }
