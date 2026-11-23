@@ -1,6 +1,10 @@
 {
-  "generated": "2026-11-20",
+  "generated": "2026-11-23",
   "by_ticker": {
+    "AAL": {
+      "date": "2026-12-31",
+      "event": "Year end"
+    },
     "ABDN": {
       "date": "2026-12-07",
       "event": "AGM (Conf)"
@@ -13,13 +17,21 @@
       "date": "2026-11-30",
       "event": "Year end"
     },
+    "ADM": {
+      "date": "2026-12-31",
+      "event": "Year end"
+    },
     "AJB": {
       "date": "2026-12-04",
       "event": "Annual report (Est)"
     },
-    "ASC": {
-      "date": "2026-11-21",
-      "event": "Annual report (Est)"
+    "AMZN": {
+      "date": "2026-12-31",
+      "event": "Year end"
+    },
+    "ANTO": {
+      "date": "2026-12-31",
+      "event": "Year end"
     },
     "ASHM": {
       "date": "2026-12-07",
@@ -29,6 +41,14 @@
       "date": "2026-11-26",
       "event": "Annual report (Est)"
     },
+    "BAB": {
+      "date": "2026-11-26",
+      "event": "Q2 ex-div"
+    },
+    "BARC": {
+      "date": "2026-12-31",
+      "event": "Year end"
+    },
     "BBOX": {
       "date": "2026-11-27",
       "event": "Special div payment"
@@ -36,6 +56,14 @@
     "BBY": {
       "date": "2026-12-04",
       "event": "Q2 div payment"
+    },
+    "BGEO": {
+      "date": "2026-12-03",
+      "event": "Q3 ex-div"
+    },
+    "BLND": {
+      "date": "2026-12-03",
+      "event": "Q2 ex-div"
     },
     "BOWL": {
       "date": "2026-12-16",
@@ -45,29 +73,93 @@
       "date": "2026-12-18",
       "event": "Q3 div payment"
     },
+    "BPT": {
+      "date": "2026-12-31",
+      "event": "Year end"
+    },
+    "BT.A": {
+      "date": "2026-12-24",
+      "event": "Q2 ex-div"
+    },
     "BWY": {
       "date": "2026-11-26",
       "event": "AGM (Conf)"
+    },
+    "BYG": {
+      "date": "2026-12-31",
+      "event": "Q2 ex-div"
+    },
+    "CKN": {
+      "date": "2026-12-31",
+      "event": "Year end"
+    },
+    "COST": {
+      "date": "2026-12-31",
+      "event": "Year end"
     },
     "CPG": {
       "date": "2026-11-25",
       "event": "Annual report (Est)"
     },
+    "CRDA": {
+      "date": "2026-12-31",
+      "event": "Year end"
+    },
+    "CSN": {
+      "date": "2026-12-31",
+      "event": "Year end"
+    },
     "DGE": {
       "date": "2026-12-03",
       "event": "Q4 div payment"
+    },
+    "DLN": {
+      "date": "2026-12-31",
+      "event": "Year end"
+    },
+    "DOM": {
+      "date": "2026-12-31",
+      "event": "Year end"
+    },
+    "EMG": {
+      "date": "2026-12-31",
+      "event": "Year end"
+    },
+    "EXPN": {
+      "date": "2027-01-07",
+      "event": "Q2 ex-div"
     },
     "EZJ": {
       "date": "2026-11-25",
       "event": "Annual report (Est)"
     },
+    "FGP": {
+      "date": "2026-11-26",
+      "event": "Q2 ex-div"
+    },
     "GFRD": {
       "date": "2026-12-04",
       "event": "Q4 div payment"
     },
-    "GRI": {
-      "date": "2026-11-20",
-      "event": "Annual report (Est)"
+    "GLEN": {
+      "date": "2026-12-31",
+      "event": "Year end"
+    },
+    "GOOGL": {
+      "date": "2026-12-07",
+      "event": "Q3 ex-div"
+    },
+    "GPE": {
+      "date": "2026-11-26",
+      "event": "Q2 ex-div"
+    },
+    "GRG": {
+      "date": "2026-12-31",
+      "event": "Year end"
+    },
+    "HBR": {
+      "date": "2026-12-31",
+      "event": "Year end"
     },
     "HFG": {
       "date": "2026-11-27",
@@ -77,13 +169,69 @@
       "date": "2026-11-26",
       "event": "Q2 ex-div"
     },
+    "HMSO": {
+      "date": "2026-12-31",
+      "event": "Year end"
+    },
+    "HOC": {
+      "date": "2026-12-31",
+      "event": "Year end"
+    },
+    "HSBA": {
+      "date": "2026-12-17",
+      "event": "Q3 div payment"
+    },
+    "HSX": {
+      "date": "2026-12-31",
+      "event": "Year end"
+    },
+    "HTG": {
+      "date": "2026-12-31",
+      "event": "Year end"
+    },
     "HWDN": {
-      "date": "2026-11-20",
-      "event": "Q2 div payment"
+      "date": "2026-12-31",
+      "event": "Year end"
+    },
+    "IAG": {
+      "date": "2026-12-03",
+      "event": "Q2 ex-div"
+    },
+    "ICG": {
+      "date": "2026-12-03",
+      "event": "Q2 ex-div"
+    },
+    "IGG": {
+      "date": "2026-12-31",
+      "event": "Year end"
+    },
+    "IHG": {
+      "date": "2026-12-31",
+      "event": "Year end"
     },
     "IHP": {
       "date": "2026-12-17",
       "event": "Annual report (Est)"
+    },
+    "INTC": {
+      "date": "2026-12-31",
+      "event": "Year end"
+    },
+    "INVP": {
+      "date": "2026-12-10",
+      "event": "Q2 ex-div"
+    },
+    "IPO": {
+      "date": "2026-12-31",
+      "event": "Year end"
+    },
+    "ISRG": {
+      "date": "2026-12-31",
+      "event": "Year end"
+    },
+    "IWG": {
+      "date": "2026-12-31",
+      "event": "Year end"
     },
     "JD.": {
       "date": "2026-11-27",
@@ -93,9 +241,37 @@
       "date": "2026-11-26",
       "event": "Q4 div payment"
     },
+    "JMAT": {
+      "date": "2026-11-26",
+      "event": "Q2 ex-div"
+    },
+    "JSG": {
+      "date": "2026-12-31",
+      "event": "Year end"
+    },
     "KIE": {
       "date": "2026-12-04",
       "event": "Q4 div payment"
+    },
+    "KLR": {
+      "date": "2026-12-31",
+      "event": "Year end"
+    },
+    "LAND": {
+      "date": "2026-11-26",
+      "event": "Q3 ex-div"
+    },
+    "LGEN": {
+      "date": "2026-12-31",
+      "event": "Year end"
+    },
+    "LLOY": {
+      "date": "2026-12-31",
+      "event": "Year end"
+    },
+    "LRE": {
+      "date": "2026-12-31",
+      "event": "Year end"
     },
     "MAB": {
       "date": "2026-11-28",
@@ -105,9 +281,49 @@
       "date": "2026-11-27",
       "event": "Q2 div payment"
     },
+    "META": {
+      "date": "2026-12-31",
+      "event": "Year end"
+    },
+    "MGNS": {
+      "date": "2026-12-31",
+      "event": "Year end"
+    },
+    "MKS": {
+      "date": "2026-11-26",
+      "event": "Q2 ex-div"
+    },
+    "MNG": {
+      "date": "2026-12-31",
+      "event": "Year end"
+    },
+    "MONY": {
+      "date": "2026-12-31",
+      "event": "Year end"
+    },
+    "MRO": {
+      "date": "2026-12-31",
+      "event": "Year end"
+    },
     "MSFT": {
       "date": "2026-12-08",
       "event": "AGM (Conf)"
+    },
+    "N91": {
+      "date": "2026-12-03",
+      "event": "Q2 ex-div"
+    },
+    "NFLX": {
+      "date": "2026-12-31",
+      "event": "Year end"
+    },
+    "NVDA": {
+      "date": "2026-12-02",
+      "event": "Special ex-div"
+    },
+    "NWG": {
+      "date": "2026-12-31",
+      "event": "Year end"
     },
     "NXT": {
       "date": "2026-12-03",
@@ -117,17 +333,69 @@
       "date": "2026-11-30",
       "event": "Year end"
     },
+    "OSB": {
+      "date": "2026-12-31",
+      "event": "Year end"
+    },
     "PAF": {
-      "date": "2026-11-20",
-      "event": "AGM (Est)"
+      "date": "2026-12-03",
+      "event": "Q4 ex-div"
     },
     "PAG": {
       "date": "2026-12-03",
       "event": "Annual report (Est)"
     },
+    "PFD": {
+      "date": "2026-12-18",
+      "event": "Q2 div payment"
+    },
     "PHP": {
-      "date": "2026-11-20",
-      "event": "Special div payment"
+      "date": "2026-12-31",
+      "event": "Year end"
+    },
+    "PLUS": {
+      "date": "2026-12-31",
+      "event": "Year end"
+    },
+    "PPH": {
+      "date": "2026-12-31",
+      "event": "Year end"
+    },
+    "PRU": {
+      "date": "2026-12-31",
+      "event": "Year end"
+    },
+    "PSN": {
+      "date": "2026-12-31",
+      "event": "Year end"
+    },
+    "PTEC": {
+      "date": "2026-12-31",
+      "event": "Year end"
+    },
+    "PYPL": {
+      "date": "2026-12-04",
+      "event": "Q3 ex-div"
+    },
+    "RAT": {
+      "date": "2026-12-31",
+      "event": "Year end"
+    },
+    "RHIM": {
+      "date": "2026-12-31",
+      "event": "Year end"
+    },
+    "RIO": {
+      "date": "2026-12-31",
+      "event": "Year end"
+    },
+    "RR.": {
+      "date": "2026-12-31",
+      "event": "Year end"
+    },
+    "RTO": {
+      "date": "2026-12-31",
+      "event": "Year end"
     },
     "SBRY": {
       "date": "2026-12-18",
@@ -135,35 +403,103 @@
     },
     "SBUX": {
       "date": "2026-11-27",
-      "event": "Special div payment"
+      "event": "Q4 div payment"
+    },
+    "SDLF": {
+      "date": "2026-12-31",
+      "event": "Year end"
+    },
+    "SGRO": {
+      "date": "2026-12-31",
+      "event": "Year end"
+    },
+    "SHC": {
+      "date": "2026-12-31",
+      "event": "Year end"
+    },
+    "SHEL": {
+      "date": "2026-12-21",
+      "event": "Q3 div payment"
+    },
+    "SRE": {
+      "date": "2026-12-10",
+      "event": "Q2 ex-div"
+    },
+    "SRP": {
+      "date": "2026-12-31",
+      "event": "Year end"
     },
     "SSPG": {
       "date": "2026-12-04",
       "event": "Annual report (Est)"
     },
+    "STAN": {
+      "date": "2026-12-31",
+      "event": "Year end"
+    },
+    "STJ": {
+      "date": "2026-12-31",
+      "event": "Year end"
+    },
     "SUPR": {
       "date": "2026-11-25",
       "event": "AGM (Conf)"
     },
-    "TBCG": {
-      "date": "2026-11-20",
+    "SVS": {
+      "date": "2026-12-31",
+      "event": "Year end"
+    },
+    "TATE": {
+      "date": "2027-01-05",
       "event": "Q2 div payment"
+    },
+    "TBCG": {
+      "date": "2026-12-31",
+      "event": "Year end"
+    },
+    "THG": {
+      "date": "2026-12-31",
+      "event": "Year end"
     },
     "THRL": {
-      "date": "2026-12-04",
-      "event": "AGM (Est)"
+      "date": "2026-11-27",
+      "event": "Special div payment"
     },
-    "TSCO": {
-      "date": "2026-11-20",
-      "event": "Q2 div payment"
+    "TPK": {
+      "date": "2026-12-31",
+      "event": "Year end"
+    },
+    "TRST": {
+      "date": "2026-12-31",
+      "event": "Year end"
+    },
+    "TW.": {
+      "date": "2026-12-31",
+      "event": "Year end"
     },
     "ULVR": {
       "date": "2026-12-18",
       "event": "Special div payment"
     },
+    "UTG": {
+      "date": "2026-12-31",
+      "event": "Year end"
+    },
+    "UU.": {
+      "date": "2026-12-17",
+      "event": "Q2 ex-div"
+    },
     "VCT": {
       "date": "2026-12-02",
       "event": "Annual report (Est)"
+    },
+    "VTY": {
+      "date": "2026-12-31",
+      "event": "Year end"
+    },
+    "WIKS": {
+      "date": "2026-12-31",
+      "event": "Year end"
     },
     "WTB": {
       "date": "2026-12-04",
