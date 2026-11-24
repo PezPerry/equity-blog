@@ -1,5 +1,33 @@
 [
   {
+    "company": "Kingfisher PLC",
+    "ticker": "KGF",
+    "publish_date": "24 November 2026",
+    "date_iso": "2026-11-24",
+    "time_period": "Q3 FY26/27 to 31 October 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "Q3 FY26/27 to 31 October 2026",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-24T08:00:53.648986",
+    "locked": true,
+    "guidance_locked": true
+  },
+  {
+    "company": "Coats Group plc",
+    "ticker": "COA",
+    "publish_date": "24 November 2026",
+    "date_iso": "2026-11-24",
+    "time_period": "4 months to 31 October 2026 (FY to 31 December 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "4 months to 31 October 2026 (FY to 31 December 2026)",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-24T08:00:53.638873",
+    "locked": true,
+    "guidance_locked": true
+  },
+  {
     "company": "Shaftesbury Capital PLC",
     "ticker": "SHC",
     "publish_date": "24 November 2026",
