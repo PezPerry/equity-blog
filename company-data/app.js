@@ -117,11 +117,59 @@ function valuation(c, inputs) {
 // === Selection ===
 // Accepts a company object (preferred) or a key from companyKey(); a bare name is
 // still honoured for older callers but resolves to the first line of that name.
+//
+// Free-tier gate (24 Nov 2026): opening a company is a "look-up". selectCompany()
+// asks the site for permission first (gate.js); applySelection() does the work.
+// The company shown on load is the sample and is not a look-up, and a company
+// already opened in this visit opens again without asking.
+const openedThisVisit = new Set();
+let gateRequestNo = 0;
+
+function showGateNotice(html) {
+  const el = $('gateNotice');
+  if (!el) return;
+  if (!html) { el.hidden = true; el.innerHTML = ''; return; }
+  el.innerHTML = html;
+  el.hidden = false;
+}
+
+function gateRefusalHtml(reason) {
+  const gate = window.EMI_COMPANY_GATE;
+  const url = gate ? gate.pageUrl : 'https://equityandmarketsinsight.com/company-data';
+  if (reason === 'limit') {
+    return '<strong>You have used today\'s free company look-ups.</strong> '
+      + 'The companies you have already opened stay open. Premium gives you unlimited use: '
+      + 'see the panel at the top of the page.';
+  }
+  if (reason === 'no-answer') {
+    return '<strong>I could not check your access just now.</strong> Please try again in a moment.';
+  }
+  return '<strong>The company data system opens inside Equity and Markets Insight.</strong> '
+    + '<a href="' + url + '" target="_top" rel="noopener">Open it on the site</a> to look up a company.';
+}
+
 function selectCompany(ref) {
   const c = (ref && typeof ref === 'object')
     ? ref
     : COMPANIES.find((x) => companyKey(x) === ref) || COMPANIES.find((x) => x.name === ref);
   if (!c) return;
+  const key = companyKey(c);
+  if (openedThisVisit.has(key)) { showGateNotice(''); applySelection(c); return; }
+
+  const gate = window.EMI_COMPANY_GATE;
+  const requestNo = ++gateRequestNo;
+  showGateNotice('Opening ' + (c.tidm || 'the company') + '…');
+  const ask = gate ? gate.request(key) : Promise.resolve({ allowed: false, reason: 'outside' });
+  ask.then((verdict) => {
+    if (verdict.allowed) openedThisVisit.add(key);
+    if (requestNo !== gateRequestNo) return;   // a later click has taken over
+    if (verdict.allowed) { showGateNotice(''); applySelection(c); }
+    else showGateNotice(gateRefusalHtml(verdict.reason));
+  });
+}
+
+function applySelection(c) {
+  openedThisVisit.add(companyKey(c));
   state.selected = c;
 
   // Reset inputs to defaults for this company
@@ -1553,7 +1601,8 @@ function init() {
   renderCompanyList();
   bindEvents();
   // Auto-select first for instant visual feedback
-  if (COMPANIES.length) selectCompany(COMPANIES[0]);
+  // This sample company is not a look-up, so it does not go through the gate.
+  if (COMPANIES.length) applySelection(COMPANIES[0]);
 }
 
 init();

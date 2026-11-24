@@ -1022,3 +1022,16 @@ body {
   .kpi-row { grid-template-columns: repeat(2, 1fr); }
   .dashboard > .panel { grid-column: span 12; }
 }
+
+/* Free-tier gate notice (24 Nov 2026): sits under the search box, above the list. */
+.gate-notice {
+  margin: 0 16px 10px;
+  padding: 10px 12px;
+  border-left: 3px solid var(--gold);
+  background: rgba(212, 168, 83, 0.12);
+  color: var(--text);
+  font-size: 13px;
+  line-height: 1.45;
+}
+.gate-notice[hidden] { display: none; }
+.gate-notice a { color: inherit; font-weight: 600; text-decoration: underline; text-underline-offset: 3px; }
