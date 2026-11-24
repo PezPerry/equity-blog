@@ -1,5 +1,33 @@
 [
   {
+    "company": "Cranswick plc",
+    "ticker": "CWK",
+    "publish_date": "24 November 2026",
+    "date_iso": "2026-11-24",
+    "time_period": "H1 FY27 (26 weeks ended 26 September 2026)",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 FY27 (26 weeks ended 26 September 2026)",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-24T08:04:05.481043",
+    "locked": true,
+    "guidance_locked": true
+  },
+  {
+    "company": "Balfour Beatty PLC",
+    "ticker": "BBY",
+    "publish_date": "24 November 2026",
+    "date_iso": "2026-11-24",
+    "time_period": "FY to December 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "FY to December 2026",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-24T08:04:05.440518",
+    "locked": true,
+    "guidance_locked": true
+  },
+  {
     "company": "Corilis Digital Infrastructure Limited (formerly Cordiant Digital Infrastructure Limited)",
     "ticker": "CORD",
     "publish_date": "24 November 2026",
