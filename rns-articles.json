@@ -1,5 +1,31 @@
 [
   {
+    "company": "Victrex PLC",
+    "ticker": "VCT",
+    "publish_date": "24 November 2026",
+    "date_iso": "2026-11-24",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "priority": "medium",
+    "source_format": "html",
+    "added_at": "2026-11-24T09:55:50.333553",
+    "locked": true
+  },
+  {
+    "company": "Molten Ventures plc",
+    "ticker": "GROW",
+    "publish_date": "24 November 2026",
+    "date_iso": "2026-11-24",
+    "time_period": "H1 FY27 (six months to 30 September 2026)",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 FY27 (six months to 30 September 2026)",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-24T09:55:50.320652",
+    "locked": true
+  },
+  {
     "company": "Londonmetric Property PLC",
     "ticker": "LMP",
     "publish_date": "24 November 2026",
