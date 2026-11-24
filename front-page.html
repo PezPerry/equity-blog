@@ -307,6 +307,33 @@ h2.h .sub{font-weight:400;font-style:italic;color:var(--slate)}
   .trial form button{height:46px;padding:0 14px;font-size:14px;white-space:nowrap}
   .trial .x{position:absolute;top:8px;right:12px;width:40px;height:40px}
 }
+/* Investor Tools block (Option D, Nov 2026). Tool covers live in assets/tools/ (1200x800 web copies of the
+   1536x1024 originals). */
+.tt-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
+.tt{display:flex;flex-direction:column;border-radius:8px;border:1px solid var(--rule);background:#fff;overflow:hidden}
+.tt .img{position:relative;aspect-ratio:3/2;background:var(--navy);display:flex;align-items:center;justify-content:center;border-bottom:1px solid var(--rule)}
+.tt .img img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.tt .img svg{width:72px;height:72px;color:var(--gold)}
+.tt .badge{position:absolute;top:14px;left:14px;z-index:1;padding:5px 11px;border-radius:999px;background:var(--navy);color:var(--ivory);font-size:11px;font-weight:600;letter-spacing:.12em;box-shadow:0 0 0 1px rgba(248,245,239,.25)}
+.tt .bd{display:flex;flex-direction:column;gap:8px;padding:22px 24px 24px;flex:1}
+.tt .hd{display:flex;align-items:baseline;gap:12px}
+.tt .no{font-family:var(--serif);font-style:italic;font-size:20px;color:var(--gold-d)}
+.tt .n{font-family:var(--serif);font-size:27px;font-weight:600;line-height:1.1}
+.tt .d{font-size:14px;line-height:1.55;color:var(--slate)}
+.tt .go{margin-top:auto;padding-top:10px;font-size:13px;font-weight:600}
+.tt-sf{margin:0;max-width:680px;font-family:var(--serif);font-style:italic;font-size:21px;line-height:1.4;color:var(--slate)}
+.tt-strip{display:flex;flex-wrap:wrap;align-items:center;gap:28px 40px;padding:32px 36px;border-radius:8px;background:var(--navy);color:var(--ivory)}
+.tt-strip .l{flex:1 1 200px;display:flex;flex-direction:column;gap:6px}
+.tt-strip .l .kick{color:var(--gold)}
+.tt-strip .l .h{font-family:var(--serif);font-size:30px;font-weight:600;line-height:1.1}
+.tt-strip .l .s{font-size:13px;line-height:1.5;color:var(--light)}
+.tt-strip ul{flex:2 1 380px;margin:0;padding:0;list-style:none;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px 24px;font-size:14px;line-height:1.4;color:var(--light)}
+.tt-strip li{display:flex;gap:10px}
+.tt-strip li svg{flex:none;color:var(--gold)}
+.tt-strip .r{flex:1 1 220px;display:flex;flex-direction:column;align-items:flex-start;gap:12px}
+.tt-strip .p{display:flex;align-items:baseline;gap:8px}.tt-strip .p b{font-size:30px;font-weight:600;letter-spacing:-.02em}.tt-strip .p span{font-size:13px;color:var(--light)}
+@media (max-width:1000px){.tt-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:699px){.tt-grid>.tt{width:78vw}.tt-strip{padding:24px 20px}.tt-strip ul{grid-template-columns:1fr}.tt-sf{font-size:18px}}
 @media (prefers-reduced-motion:reduce){.tile,.tog svg{transition:none}.tile:hover{transform:none}}
 </style>
 </head>
@@ -417,6 +444,36 @@ h2.h .sub{font-weight:400;font-style:italic;color:var(--slate)}
 </section>
 
 <!-- RNS News: filled in the browser from rns-feed.xml, the headline-only feed the RNS pipeline publishes. One-line summaries only; no announcement text is written into this file. -->
+<section class="sec" id="investor-tools" aria-labelledby="tt-h">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="t">
+        <div class="kick">M&amp;E Premium</div>
+        <h2 class="h" id="tt-h">Investor Tools</h2>
+        <p class="tt-sf">Six Premium tools for following a company from the announcement to the valuation. Free readers can try each one up to a monthly limit.</p>
+      </div>
+      <a class="all" href="https://equityandmarketsinsight.com/InvestorTools" target="_top">All tools →</a>
+    </div>
+    <div class="tt-grid hrow">
+      <a class="tt tile" href="https://equityandmarketsinsight.com/RNSNews" target="_top"><span class="img"><span class="badge">PREMIUM</span><img src="assets/tools/rns-summaries.jpg" width="1200" height="800" loading="lazy" decoding="async" alt=""></span><span class="bd"><span class="hd"><span class="no">01</span><span class="n">RNS Summaries</span></span><span class="d">Regulatory news with the noise taken out, and a summary of each announcement the moment it lands.</span><span class="go">See the overview →</span></span></a>
+      <a class="tt tile" href="https://equityandmarketsinsight.com/company-data" target="_top"><span class="img"><span class="badge">PREMIUM</span><img src="assets/tools/valuation-system.jpg" width="1200" height="800" loading="lazy" decoding="async" alt=""></span><span class="bd"><span class="hd"><span class="no">02</span><span class="n">Company Valuation System</span></span><span class="d">The figures behind every assessment, company by company.</span><span class="go">See the overview →</span></span></a>
+      <a class="tt tile" href="https://equityandmarketsinsight.com/financial-calendar" target="_top"><span class="img"><span class="badge">PREMIUM</span><img src="assets/tools/financial-calendar.jpg" width="1200" height="800" loading="lazy" decoding="async" alt=""></span><span class="bd"><span class="hd"><span class="no">03</span><span class="n">Financial Calendar</span></span><span class="d">Results days, trading updates, AGMs and ex-dividend dates, plus the data releases that move the whole market.</span><span class="go">See the overview →</span></span></a>
+      <a class="tt tile" href="https://equityandmarketsinsight.com/Quizzes" target="_top"><span class="img"><span class="badge">PREMIUM</span><img src="assets/tools/company-data-quiz.jpg" width="1200" height="800" loading="lazy" decoding="async" alt=""></span><span class="bd"><span class="hd"><span class="no">04</span><span class="n">Company Data Quiz</span></span><span class="d">Questions on a company’s numbers, built from its assessment. The answer explains the working.</span><span class="go">See the overview →</span></span></a>
+      <a class="tt tile" href="https://equityandmarketsinsight.com/GuidanceTracker" target="_top"><span class="img"><span class="badge">PREMIUM</span><img src="assets/tools/guidance-tracker.jpg" width="1200" height="800" loading="lazy" decoding="async" alt=""></span><span class="bd"><span class="hd"><span class="no">05</span><span class="n">Guidance Tracker</span></span><span class="d">What each company told the market to expect, in its own words, and what it then reported.</span><span class="go">See the overview →</span></span></a>
+      <a class="tt tile" href="#verdicts"><span class="img"><span class="badge">PREMIUM</span><img src="assets/tools/verdict-board.jpg" width="1200" height="800" loading="lazy" decoding="async" alt=""></span><span class="bd"><span class="hd"><span class="no">06</span><span class="n">The Verdict Board</span></span><span class="d">Every share valuation direction, based on in-depth research and analysis.</span><span class="go">See the overview →</span></span></a>
+    </div>
+    <div class="tt-strip">
+      <div class="l"><span class="kick">Unlimited with Premium</span><span class="h">No monthly limits</span><span class="s">Free readers get a set allowance each month. Premium takes the limits away.</span></div>
+      <ul>
+        <li><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"></path></svg>Unlimited articles</li>
+        <li><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"></path></svg>Unlimited Trading Log articles</li>
+        <li><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"></path></svg>Unlimited valuation assessments</li>
+        <li><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"></path></svg>Unlimited RNS Summaries</li>
+      </ul>
+      <div class="r"><span class="p"><b>£9.99</b><span>a month · £101.90 a year</span></span><a class="b-gold" href="https://equityandmarketsinsight.com/Premium" target="_top">Start your free month</a></div>
+    </div>
+  </div>
+</section>
 <section class="sec white" id="rns" aria-labelledby="rns-h">
   <div class="wrap">
     <div class="tl-wrap">
@@ -531,16 +588,6 @@ h2.h .sub{font-weight:400;font-style:italic;color:var(--slate)}
   </div>
 </section>
 
-<section class="sec white" aria-label="Explore the site">
-  <div class="wrap">
-    <div class="four hrow">
-      <a class="ft tile" href="https://equityandmarketsinsight.com/Infographics" target="_top"><span class="n">Images &amp; Infographics</span><span class="d">Animated, interactive graphics built one per topic: scroll, hover, adjust the controls and see the numbers move.</span><span class="go">Browse the gallery →</span></a>
-      <a class="ft tile" href="https://equityandmarketsinsight.com/Quizzes" target="_top"><span class="n">Company data quizzes</span><span class="d">Test what you know about a company. Short quizzes built from the assessments and the company data, with a score and the working.</span><span class="go">Take a quiz →</span></a>
-      <a class="ft tile" href="https://equityandmarketsinsight.com/InvestorTools" target="_top"><span class="n">Investor Tools</span><span class="d">The financial calendar, RNS feed, guidance tracker, store maps and every calculator on the site in one place.</span><span class="go">Open the tools →</span></a>
-      <a class="ft tile pr" href="https://equityandmarketsinsight.com/Premium" target="_top"><span class="n">Premium</span><span class="d">The full RNS list live, with a summary of each announcement as it lands, articles on the news every working day, unlimited reading and unlimited use of the company data system. £9.99 a month, or £101.90 a year.</span><span class="go">See what's included →</span></a>
-    </div>
-  </div>
-</section>
 
 <!-- QUIZZES:START — generated from quizzes/index.json by build-front-page.py. Do not hand-edit. -->
 <section class="sec white" id="quizzes" aria-labelledby="qz-h">
