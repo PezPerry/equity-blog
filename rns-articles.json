@@ -1,5 +1,33 @@
 [
   {
+    "company": "JPMorgan European Growth & Income plc",
+    "ticker": "JEGI",
+    "publish_date": "24 November 2026",
+    "date_iso": "2026-11-24",
+    "time_period": "H1 to 30 September 2026 (FY ending 31 March 2027)",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 to 30 September 2026 (FY ending 31 March 2027)",
+    "priority": "medium",
+    "source_format": "html",
+    "added_at": "2026-11-24T08:02:00.043464",
+    "locked": true,
+    "guidance_locked": true
+  },
+  {
+    "company": "Compass Group PLC",
+    "ticker": "CPG",
+    "publish_date": "24 November 2026",
+    "date_iso": "2026-11-24",
+    "time_period": "FY to 30 September 2026",
+    "announcement_type": "Annual results",
+    "period_detail": "FY to 30 September 2026",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-24T08:01:59.982570",
+    "locked": true,
+    "guidance_locked": true
+  },
+  {
     "company": "Kingfisher PLC",
     "ticker": "KGF",
     "publish_date": "24 November 2026",
