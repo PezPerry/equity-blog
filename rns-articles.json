@@ -1,5 +1,31 @@
 [
   {
+    "company": "Shaftesbury Capital PLC",
+    "ticker": "SHC",
+    "publish_date": "24 November 2026",
+    "date_iso": "2026-11-24",
+    "time_period": "1 July to 31 October 2026 (H2 FY26 to date)",
+    "announcement_type": "Trading update",
+    "period_detail": "1 July to 31 October 2026",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-24T07:59:54.177417",
+    "locked": true
+  },
+  {
+    "company": "GB Group plc",
+    "ticker": "GBG",
+    "publish_date": "24 November 2026",
+    "date_iso": "2026-11-24",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "priority": "medium",
+    "source_format": "html",
+    "added_at": "2026-11-24T07:59:54.165969",
+    "locked": true
+  },
+  {
     "company": "Renew Holdings PLC",
     "ticker": "RNWH",
     "publish_date": "24 November 2026",
