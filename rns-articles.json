@@ -1,5 +1,19 @@
 [
   {
+    "company": "Tullow Oil plc",
+    "ticker": "TLW",
+    "publish_date": "23 November 2026",
+    "date_iso": "2026-11-23",
+    "time_period": "FY 2026",
+    "announcement_type": "Guidance change",
+    "period_detail": "FY 2026",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-24T07:35:55.293859",
+    "locked": true,
+    "guidance_locked": true
+  },
+  {
     "company": "Spire Healthcare Group plc",
     "ticker": "SPI",
     "publish_date": "20 November 2026",
@@ -33,10 +47,23 @@
     "time_period": "",
     "announcement_type": "Board / management change",
     "period_detail": "",
-    "priority": "low",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Coriseo González-Izquierdo</strong>, an independent non-executive director of <strong>Atalaya Mining Copper, S.A.</strong>, appointed a non-executive director of <strong>Atrys Health S.A.</strong> with effect from <strong>19 November 2026</strong>.</li><li>Routine disclosure made under <strong>Listing Rule 6.4.9(2)</strong>, with <strong>no impact</strong> on Atalaya's trading or guidance.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-11-20T12:56:31.181488",
-    "locked": true
+    "headline": "Independent non-executive director Coriseo González-Izquierdo has been appointed a non-executive director of Atrys Health S.A. from 19 November 2026.",
+    "priority": "low",
+    "priority_reason": "Routine Listing Rule 6.4.9 disclosure of a non-exec's outside directorship, with no bearing on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/atalaya-mining-copper-ATYM/share-news/Atalaya-Mining-Copper-S-A-Director-Declaration/99756312",
+    "related_news_url": "https://news.google.com/search?q=%22Atalaya%20Mining%20Copper%2C%20S.A.%22",
+    "added_at": "2026-11-20T12:56:31.181488"
   },
   {
     "company": "Applied Nutrition plc",
@@ -46,10 +73,23 @@
     "time_period": "",
     "announcement_type": "Board / management change",
     "period_detail": "",
-    "priority": "low",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Peter Cowgill</strong>, a Non-Executive Director of <strong>Applied Nutrition plc</strong>, has been appointed a Non-Executive Director of <strong>Victoria plc</strong> with effect from <strong>17 November 2026</strong>.</li><li>Routine disclosure made under <strong>UK Listing Rule 6.4.9(2)</strong>, with <strong>no impact</strong> on Applied Nutrition's trading or guidance.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-11-20T10:36:36.592144",
-    "locked": true
+    "headline": "Applied Nutrition non-executive director Peter Cowgill appointed a non-executive director of Victoria plc with effect from 17 November 2026.",
+    "priority": "low",
+    "priority_reason": "Routine Listing Rule 6.4.9 disclosure of a non-executive director taking an external board seat; no impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/applied-nutrition-APN/share-news/Applied-Nutrition-PLC-Director-Declaration/99754023",
+    "related_news_url": "https://news.google.com/search?q=%22Applied%20Nutrition%20plc%22",
+    "added_at": "2026-11-20T10:36:36.592144"
   },
   {
     "company": "SSE plc",
@@ -59,10 +99,23 @@
     "time_period": "ED3 price control 2028-2033",
     "announcement_type": "Regulatory business plan submission",
     "period_detail": "ED3 price control 2028-2033",
-    "priority": "medium",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>SSEN Distribution</strong>, <strong>SSE plc's</strong> electricity distribution business, has submitted its <strong>ED3</strong> business plan to <strong>Ofgem</strong> for the <strong>2028-2033</strong> price-control period, setting out <strong>£8.7bn</strong> of baseline investment plus around <strong>£1.5bn</strong> of regulatory Uncertainty Mechanisms.</li><li>Seeking approval for an <strong>NPV-neutral framework</strong> that keeps the distribution element of household bills flat in real terms through to <strong>2030</strong>, deferring revenue from the early years of ED3 into later years — subject to Ofgem approval and <strong>UK Government</strong> agreement.</li><li>Plan titled 'Electrified. Resilient. Affordable.' is intended to build network capacity, harness flexibility and smart technology and support electrification, economic growth and energy security.</li><li>Ofgem assessment timetable: draft determination expected <strong>summer 2027</strong>, final decision <strong>end of 2027</strong>, with the new price control commencing <strong>1 April 2028</strong>.</li><li><strong>Chris Burchell</strong>, Managing Director of SSEN Distribution, said the plan was shaped by more than <strong>25,000 contributions</strong> and would support growth and strengthen resilience.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-11-20T08:36:51.117001",
-    "locked": true
+    "headline": "SSEN Distribution submits ED3 business plan to Ofgem proposing **£8.7bn** of baseline investment for the 2028-2033 price-control period, plus around **£1.5bn** of Uncertainty Mechanisms.",
+    "priority": "medium",
+    "priority_reason": "Material regulatory capex plan for SSE's distribution arm, but with no Ofgem determination until 2027 and no near-term earnings impact.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/sse-SSE/share-news/SSE-PLC-SSEN-Distribution-publishes-ED3-business-p/99752741",
+    "related_news_url": "https://news.google.com/search?q=%22SSE%20plc%22",
+    "added_at": "2026-11-20T08:36:51.117001"
   },
   {
     "company": "Drax Group PLC",
@@ -72,10 +125,23 @@
     "time_period": "",
     "announcement_type": "Acquisition / deal",
     "period_detail": "",
-    "priority": "medium",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Drax Group PLC</strong> has agreed to acquire <strong>Bluefield Services Limited</strong> and certain subsidiaries for <strong>£9.15 million</strong>, subject to customary closing adjustments.</li><li>Bluefield Services provides asset management, operations and maintenance, construction management and pipeline development services to <strong>Bluefield Solar Income Fund</strong> (BSIF), which Drax acquired on <strong>31 July 2026</strong>.</li><li>The deal delivers on a post-offer intention statement under the Takeover Code to engage with <strong>Bluefield Partners LLP</strong> within three months of the BSIF scheme becoming effective.</li><li>Completion expected <strong>by the end of the year</strong>, subject to National Security and Investment Act clearance and a pre-sale reorganisation.</li><li>Announcement required under Rule 19.6(b) of the Takeover Code.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-11-20T08:36:50.936239",
-    "locked": true
+    "headline": "Drax has agreed to acquire Bluefield Services Limited for £9.15 million, expanding its solar and onshore wind operations and maintenance expertise.",
+    "priority": "medium",
+    "priority_reason": "Small bolt-on acquisition (£9.15m) following the larger BSIF deal, immaterial to Drax's finances and with no guidance impact.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/drax-DRX/share-news/Drax-Group-PLC-Acquisition-of-Bluefield-Services-L/99751730",
+    "related_news_url": "https://news.google.com/search?q=%22Drax%20Group%20PLC%22",
+    "added_at": "2026-11-20T08:36:50.936239"
   },
   {
     "company": "On The Beach Group PLC",
@@ -85,10 +151,23 @@
     "time_period": "",
     "announcement_type": "Board / management change",
     "period_detail": "",
-    "priority": "medium",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Simon Cooper</strong>, Founder and former CEO of <strong>On the Beach Group plc</strong>, will step down from his non-executive Founder Director role and leave the Board on <strong>1 December 2026</strong>, on release of the Group's full-year results.</li><li>Cooper founded the business in <strong>2004</strong> and was <strong>Chief Executive until 2023</strong>, when he moved to his current non-executive role; he remains a <strong>significant shareholder</strong> and says he continues to support the Board and strategy.</li><li><strong>Elaine O'Donnell</strong>, Senior Independent Director and Audit Committee Chair, will serve beyond the ninth anniversary of her July 2027 appointment, standing for re-election at the <strong>2027 AGM</strong> and stepping down on or before the <strong>2028 AGM</strong> to ensure an orderly handover ahead of the 2028 audit tender.</li><li>Routine UKLR 6.4.6R disclosure — <strong>no impact</strong> on current trading or guidance.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-11-20T07:56:38.457902",
-    "locked": true
+    "headline": "On the Beach founder Simon Cooper to step down as non-executive Founder Director and leave the Board on 1 December 2026 at the full-year results.",
+    "priority": "medium",
+    "priority_reason": "Founder and former CEO leaves the Board, plus a tenure extension for the Senior Independent Director — a board change with no trading or guidance impact.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/on-the-beach-OTB/share-news/On-the-Beach-Group-PLC-Board-Change/99751751",
+    "related_news_url": "https://news.google.com/search?q=%22On%20the%20Beach%20Group%20plc%22",
+    "added_at": "2026-11-20T07:56:38.457902"
   },
   {
     "company": "Gaming and Leisure Properties Inc",
@@ -98,10 +177,23 @@
     "time_period": "",
     "announcement_type": "Financing / refinancing",
     "period_detail": "",
-    "priority": "medium",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Gaming and Leisure Properties, Inc.</strong> (NASDAQ: <strong>GLPI</strong>) has priced <strong>$600,000,000</strong> of <strong>6.250% senior notes due 2031</strong>.</li><li>Offering expected to close on <strong>1 December 2026</strong>, subject to customary closing conditions.</li><li>Net proceeds earmarked for <strong>working capital and general corporate purposes</strong>, potentially including funding of existing and new development commitments, acquisitions, project expansion, repayment of indebtedness and capital expenditure.</li><li>Issued under an effective SEC shelf registration; <strong>Wells Fargo Securities</strong>, <strong>BofA Securities</strong>, <strong>J.P. Morgan</strong>, <strong>Goldman Sachs</strong>, <strong>Morgan Stanley</strong>, <strong>Citigroup</strong> and others are joint book-running managers.</li><li>Routine REIT debt financing — <strong>no impact</strong> on trading or guidance stated.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-11-20T07:16:45.876465",
-    "locked": true
+    "headline": "Gaming and Leisure Properties has priced **$600m of 6.250% senior notes due 2031**, expected to close **1 December 2026**.",
+    "priority": "medium",
+    "priority_reason": "A $600m senior notes bond pricing is a material financing event but routine for a REIT funding development commitments and general corporate purposes.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/GLPI/share-news/Gaming-and-Leisure-Properties-Announces-Pricing-of/99751091",
+    "related_news_url": "https://news.google.com/search?q=%22Gaming%20and%20Leisure%20Properties%2C%20Inc.%22",
+    "added_at": "2026-11-20T07:16:45.876465"
   },
   {
     "company": "Severn Trent Plc",
@@ -111,10 +203,23 @@
     "time_period": "FY to 31 March 2027",
     "announcement_type": "Dividend declaration",
     "period_detail": "FY to 31 March 2027",
-    "priority": "medium",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>Severn Trent Plc</strong> has declared an <strong>interim ordinary dividend of 52.20 pence per share</strong> for the financial year ending <strong>31 March 2027</strong>.</li><li>Dividend was set out in the <strong>Half Yearly Financial Report published on 18 November 2026</strong>.</li><li>Routine dividend declaration with <strong>no impact</strong> on trading or guidance; no other new information disclosed.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-11-20T07:16:45.839740",
-    "locked": true
+    "headline": "Severn Trent declares an interim ordinary dividend of 52.20 pence per share for the year ending 31 March 2027.",
+    "priority": "medium",
+    "priority_reason": "Routine interim dividend declaration following the half-yearly results, with no new trading or guidance content.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/severn-trent-SVT/share-news/Severn-Trent-PLC-Dividend-Declaration/99748505",
+    "related_news_url": "https://news.google.com/search?q=%22Severn%20Trent%20Plc%22",
+    "added_at": "2026-11-20T07:16:45.839740"
   },
   {
     "company": "Capricorn Energy PLC",
@@ -124,10 +229,23 @@
     "time_period": "",
     "announcement_type": "Acquisition / deal",
     "period_detail": "",
-    "priority": "medium",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li>All regulatory Conditions for the <strong>Genel Energy plc</strong> recommended cash acquisition of <strong>Capricorn</strong> (via <strong>Bidco</strong>) have now been satisfied, under a Scottish scheme of arrangement.</li><li>Scheme remains subject to remaining Conditions including Court sanction; <strong>Sanction Hearing</strong> set for <strong>10 December 2026</strong> at the Court of Session, Edinburgh.</li><li>Scheme expected to become <strong>Effective on 14 December 2026</strong>; <strong>Currency Election</strong> return time <strong>1.00 p.m. on 11 December 2026</strong>.</li><li>Last day of dealings in Capricorn shares expected <strong>11 December 2026</strong>; dealings suspended from <strong>7.30 a.m. on 14 December 2026</strong> and listing cancelled from <strong>8.00 a.m. on 15 December 2026</strong>.</li><li>Genel's <strong>Step-up Transfer</strong> to the Equity Shares (Commercial Companies) Category of the Official List to take effect at the same time as the Scheme becomes Effective.</li><li>Terms stem from the increased recommended cash offer agreed on <strong>25 September 2026</strong>; dates are indicative and subject to change.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-11-20T07:16:45.799846",
-    "locked": true
+    "headline": "Capricorn confirms all regulatory conditions for Genel's recommended cash offer are satisfied, with the scheme expected to become effective on 14 December 2026.",
+    "priority": "medium",
+    "priority_reason": "Procedural update on an already-agreed takeover: all regulatory conditions now satisfied and a firm completion timetable set.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/capricorn-energy-CNE/share-news/Capricorn-Energy-PLC-Statement-re-Satisfaction-of/99748291",
+    "related_news_url": "https://news.google.com/search?q=%22Capricorn%20Energy%20PLC%22",
+    "added_at": "2026-11-20T07:16:45.799846"
   },
   {
     "company": "J Sainsbury plc",
