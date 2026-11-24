@@ -1,5 +1,33 @@
 [
   {
+    "company": "Telecom Plus PLC",
+    "ticker": "TEP",
+    "publish_date": "24 November 2026",
+    "date_iso": "2026-11-24",
+    "time_period": "H1 FY27 (six months to 30 September 2026)",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 FY27 (six months to 30 September 2026)",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-24T08:05:17.075272",
+    "locked": true,
+    "guidance_locked": true
+  },
+  {
+    "company": "AO World PLC",
+    "ticker": "AO.",
+    "publish_date": "24 November 2026",
+    "date_iso": "2026-11-24",
+    "time_period": "H1 FY27 (6 months to 30 September 2026)",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 FY27 (6 months to 30 September 2026)",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-24T08:05:17.035537",
+    "locked": true,
+    "guidance_locked": true
+  },
+  {
     "company": "Cranswick plc",
     "ticker": "CWK",
     "publish_date": "24 November 2026",
