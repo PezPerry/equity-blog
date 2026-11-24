@@ -1,5 +1,45 @@
 [
   {
+    "company": "Renew Holdings PLC",
+    "ticker": "RNWH",
+    "publish_date": "24 November 2026",
+    "date_iso": "2026-11-24",
+    "time_period": "FY to 30 September 2026",
+    "announcement_type": "Annual results",
+    "period_detail": "FY to 30 September 2026",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-24T07:58:30.495444",
+    "locked": true,
+    "guidance_locked": true
+  },
+  {
+    "company": "CLS Holdings PLC",
+    "ticker": "CLI",
+    "publish_date": "24 November 2026",
+    "date_iso": "2026-11-24",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "priority": "medium",
+    "source_format": "html",
+    "added_at": "2026-11-24T07:58:30.485699",
+    "locked": true
+  },
+  {
+    "company": "The British Land Company PLC",
+    "ticker": "BLND",
+    "publish_date": "24 November 2026",
+    "date_iso": "2026-11-24",
+    "time_period": "",
+    "announcement_type": "Fundraising",
+    "period_detail": "",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-24T07:58:30.475061",
+    "locked": true
+  },
+  {
     "company": "Vesuvius plc",
     "ticker": "VSVS",
     "publish_date": "24 November 2026",
