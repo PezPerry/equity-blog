@@ -1,5 +1,44 @@
 [
   {
+    "company": "Vertu Motors PLC",
+    "ticker": "VTU",
+    "publish_date": "25 November 2026",
+    "date_iso": "2026-11-25",
+    "time_period": "",
+    "announcement_type": "Acquisition / deal",
+    "period_detail": "",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-25T08:03:05.828924",
+    "locked": true
+  },
+  {
+    "company": "RTW Biotech Opportunities Ltd",
+    "ticker": "RTW",
+    "publish_date": "25 November 2026",
+    "date_iso": "2026-11-25",
+    "time_period": "",
+    "announcement_type": "Portfolio company acquisition",
+    "period_detail": "",
+    "priority": "medium",
+    "source_format": "html",
+    "added_at": "2026-11-25T08:03:05.818343",
+    "locked": true
+  },
+  {
+    "company": "GSK plc",
+    "ticker": "GSK",
+    "publish_date": "25 November 2026",
+    "date_iso": "2026-11-25",
+    "time_period": "",
+    "announcement_type": "Clinical trial results",
+    "period_detail": "",
+    "priority": "medium",
+    "source_format": "html",
+    "added_at": "2026-11-25T08:03:05.773376",
+    "locked": true
+  },
+  {
     "company": "CVS Group plc",
     "ticker": "CVSG",
     "publish_date": "25 November 2026",
