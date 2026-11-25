@@ -1,5 +1,44 @@
 [
   {
+    "company": "METLEN Energy & Metals Plc",
+    "ticker": "MTLN",
+    "publish_date": "25 November 2026",
+    "date_iso": "2026-11-25",
+    "time_period": "",
+    "announcement_type": "Acquisition / deal",
+    "period_detail": "",
+    "priority": "medium",
+    "source_format": "html",
+    "added_at": "2026-11-25T07:57:00.839559",
+    "locked": true
+  },
+  {
+    "company": "Credit Acceptance Corp",
+    "ticker": "CACC",
+    "publish_date": "25 November 2026",
+    "date_iso": "2026-11-25",
+    "time_period": "",
+    "announcement_type": "Financing / refinancing",
+    "period_detail": "",
+    "priority": "medium",
+    "source_format": "html",
+    "added_at": "2026-11-25T07:57:00.803709",
+    "locked": true
+  },
+  {
+    "company": "The British Land Company PLC",
+    "ticker": "BLND",
+    "publish_date": "25 November 2026",
+    "date_iso": "2026-11-25",
+    "time_period": "",
+    "announcement_type": "Fundraising / convertible bond issue",
+    "period_detail": "",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-25T07:57:00.769936",
+    "locked": true
+  },
+  {
     "company": "NatWest Group PLC",
     "ticker": "NWG",
     "publish_date": "25 November 2026",
