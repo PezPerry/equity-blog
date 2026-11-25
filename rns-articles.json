@@ -1,5 +1,32 @@
 [
   {
+    "company": "Sequoia Economic Infrastructure Income Fund Limited",
+    "ticker": "SEQI",
+    "publish_date": "25 November 2026",
+    "date_iso": "2026-11-25",
+    "time_period": "H1 to 30 September 2026",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 to 30 September 2026",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-25T08:00:59.093302",
+    "locked": true,
+    "guidance_locked": true
+  },
+  {
+    "company": "Helical PLC",
+    "ticker": "HLCL",
+    "publish_date": "25 November 2026",
+    "date_iso": "2026-11-25",
+    "time_period": "H1 to 30 September 2026",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 to 30 September 2026",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-25T08:00:59.057688",
+    "locked": true
+  },
+  {
     "company": "Mobico Group PLC",
     "ticker": "MCG",
     "publish_date": "25 November 2026",
