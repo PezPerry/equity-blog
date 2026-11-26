@@ -1,5 +1,32 @@
 [
   {
+    "company": "Pantheon Infrastructure PLC",
+    "ticker": "PINT",
+    "publish_date": "26 November 2026",
+    "date_iso": "2026-11-26",
+    "time_period": "",
+    "announcement_type": "Acquisition / deal",
+    "period_detail": "",
+    "priority": "medium",
+    "source_format": "html",
+    "added_at": "2026-11-26T07:58:01.827229",
+    "locked": true
+  },
+  {
+    "company": "Halfords Group PLC",
+    "ticker": "HFD",
+    "publish_date": "26 November 2026",
+    "date_iso": "2026-11-26",
+    "time_period": "HY27 (26 weeks to 2 October 2026)",
+    "announcement_type": "Interim results",
+    "period_detail": "HY27 (26 weeks to 2 October 2026)",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-26T07:58:01.790332",
+    "locked": true,
+    "guidance_locked": true
+  },
+  {
     "company": "METLEN Energy & Metals PLC",
     "ticker": "MTLN",
     "publish_date": "26 November 2026",
