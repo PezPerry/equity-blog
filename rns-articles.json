@@ -1,5 +1,31 @@
 [
   {
+    "company": "JD Sports Fashion PLC",
+    "ticker": "JD.",
+    "publish_date": "26 November 2026",
+    "date_iso": "2026-11-26",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "priority": "medium",
+    "source_format": "html",
+    "added_at": "2026-11-26T13:56:07.178724",
+    "locked": true
+  },
+  {
+    "company": "Imperial Brands PLC",
+    "ticker": "IMB",
+    "publish_date": "26 November 2026",
+    "date_iso": "2026-11-26",
+    "time_period": "",
+    "announcement_type": "Acquisition / deal",
+    "period_detail": "",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-26T13:56:07.166586",
+    "locked": true
+  },
+  {
     "company": "GSK plc",
     "ticker": "GSK",
     "publish_date": "26 November 2026",
