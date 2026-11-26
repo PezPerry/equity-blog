@@ -1,5 +1,19 @@
 [
   {
+    "company": "Mitchells & Butlers PLC",
+    "ticker": "MAB",
+    "publish_date": "26 November 2026",
+    "date_iso": "2026-11-26",
+    "time_period": "FY to 26 September 2026 (52 weeks)",
+    "announcement_type": "Annual results",
+    "period_detail": "FY to 26 September 2026 (52 weeks)",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-26T08:01:14.156861",
+    "locked": true,
+    "guidance_locked": true
+  },
+  {
     "company": "Hill & Smith Holdings PLC",
     "ticker": "HILS",
     "publish_date": "26 November 2026",
