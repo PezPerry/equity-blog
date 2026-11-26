@@ -1,5 +1,44 @@
 [
   {
+    "company": "Raspberry Pi Holdings plc",
+    "ticker": "RPI",
+    "publish_date": "26 November 2026",
+    "date_iso": "2026-11-26",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "priority": "medium",
+    "source_format": "html",
+    "added_at": "2026-11-26T07:59:23.307914",
+    "locked": true
+  },
+  {
+    "company": "Babcock International Group PLC",
+    "ticker": "BAB",
+    "publish_date": "26 November 2026",
+    "date_iso": "2026-11-26",
+    "time_period": "",
+    "announcement_type": "Major contract win",
+    "period_detail": "",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-26T07:59:23.274029",
+    "locked": true
+  },
+  {
+    "company": "Aberdeen Group PLC",
+    "ticker": "ABDN",
+    "publish_date": "26 November 2026",
+    "date_iso": "2026-11-26",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "priority": "medium",
+    "source_format": "html",
+    "added_at": "2026-11-26T07:59:23.262885",
+    "locked": true
+  },
+  {
     "company": "RTW Biotech Opportunities Ltd",
     "ticker": "RTW",
     "publish_date": "26 November 2026",
