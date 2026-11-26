@@ -1,5 +1,33 @@
 [
   {
+    "company": "Safestore Holdings PLC",
+    "ticker": "SAF",
+    "publish_date": "26 November 2026",
+    "date_iso": "2026-11-26",
+    "time_period": "Q4 FY26 (1 August to 31 October 2026) and FY to 31 October 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "Q4 FY26 (1 August to 31 October 2026) and FY to 31 October 2026",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-26T08:02:06.928946",
+    "locked": true,
+    "guidance_locked": true
+  },
+  {
+    "company": "Foresight Group Holdings Limited",
+    "ticker": "FSG",
+    "publish_date": "26 November 2026",
+    "date_iso": "2026-11-26",
+    "time_period": "H1 FY27 (six months to 30 September 2026)",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 FY27 (six months to 30 September 2026)",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-26T08:02:06.916985",
+    "locked": true,
+    "guidance_locked": true
+  },
+  {
     "company": "Mitchells & Butlers PLC",
     "ticker": "MAB",
     "publish_date": "26 November 2026",
