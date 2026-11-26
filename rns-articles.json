@@ -1,5 +1,33 @@
 [
   {
+    "company": "Hill & Smith Holdings PLC",
+    "ticker": "HILS",
+    "publish_date": "26 November 2026",
+    "date_iso": "2026-11-26",
+    "time_period": "Four months to 31 October 2026 (FY to 31 December 2026)",
+    "announcement_type": "Trading update",
+    "period_detail": "Four months to 31 October 2026 (FY to 31 December 2026)",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-26T08:00:26.216702",
+    "locked": true,
+    "guidance_locked": true
+  },
+  {
+    "company": "CMC Markets PLC",
+    "ticker": "CMCX",
+    "publish_date": "26 November 2026",
+    "date_iso": "2026-11-26",
+    "time_period": "H1 FY2027 (six months to 30 September 2026)",
+    "announcement_type": "Interim results",
+    "period_detail": "H1 FY2027 (six months to 30 September 2026)",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-26T08:00:26.188282",
+    "locked": true,
+    "guidance_locked": true
+  },
+  {
     "company": "Raspberry Pi Holdings plc",
     "ticker": "RPI",
     "publish_date": "26 November 2026",
