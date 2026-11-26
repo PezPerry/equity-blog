@@ -1,5 +1,44 @@
 [
   {
+    "company": "RTW Biotech Opportunities Ltd",
+    "ticker": "RTW",
+    "publish_date": "26 November 2026",
+    "date_iso": "2026-11-26",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-26T07:58:40.567077",
+    "locked": true
+  },
+  {
+    "company": "Oxford Biomedica PLC",
+    "ticker": "OXB",
+    "publish_date": "26 November 2026",
+    "date_iso": "2026-11-26",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "priority": "medium",
+    "source_format": "html",
+    "added_at": "2026-11-26T07:58:40.508271",
+    "locked": true
+  },
+  {
+    "company": "Gore Street Energy Storage Fund PLC",
+    "ticker": "GSF",
+    "publish_date": "26 November 2026",
+    "date_iso": "2026-11-26",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "priority": "medium",
+    "source_format": "html",
+    "added_at": "2026-11-26T07:58:40.466447",
+    "locked": true
+  },
+  {
     "company": "Pantheon Infrastructure PLC",
     "ticker": "PINT",
     "publish_date": "26 November 2026",
