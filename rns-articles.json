@@ -1,5 +1,45 @@
 [
   {
+    "company": "Tullow Oil plc",
+    "ticker": "TLW",
+    "publish_date": "26 November 2026",
+    "date_iso": "2026-11-26",
+    "time_period": "FY 2026",
+    "announcement_type": "Trading update",
+    "period_detail": "FY 2026",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-26T09:56:59.415713",
+    "locked": true,
+    "guidance_locked": true
+  },
+  {
+    "company": "Galliford Try Holdings PLC",
+    "ticker": "GFRD",
+    "publish_date": "26 November 2026",
+    "date_iso": "2026-11-26",
+    "time_period": "",
+    "announcement_type": "Acquisition / deal",
+    "period_detail": "",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-26T09:56:59.403845",
+    "locked": true
+  },
+  {
+    "company": "Croda International PLC",
+    "ticker": "CRDA",
+    "publish_date": "26 November 2026",
+    "date_iso": "2026-11-26",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "priority": "low",
+    "source_format": "html",
+    "added_at": "2026-11-26T09:56:59.389643",
+    "locked": true
+  },
+  {
     "company": "Safestore Holdings PLC",
     "ticker": "SAF",
     "publish_date": "26 November 2026",
