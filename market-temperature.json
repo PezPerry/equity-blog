@@ -1,32 +1,24 @@
 {
  "snapshot_version": 1,
- "generated_at_utc": "2026-11-26T07:00:10.152121+00:00",
- "synced_at_utc": "2026-11-26T21:10:03+00:00",
+ "generated_at_utc": "2026-11-27T07:00:09.220432+00:00",
+ "synced_at_utc": "2026-11-27T07:10:04+00:00",
  "note": "Latest prices, checked about once an hour and possibly delayed, compared with the last completed close.",
  "instruments": [
   {
    "id": "ftse",
    "name": "FTSE 100",
    "units": "Index points",
-   "latest": 10426.900390625,
-   "previous": 10467.099609375,
-   "change": -0.0038405308299536145,
-   "score": -0.2523697336678282,
-   "observation_date": "2026-11-25",
-   "previous_date": "2026-11-24",
-   "direction": "Down",
-   "description": "Falling",
+   "latest": 10609.2998046875,
+   "previous": 10426.900390625,
+   "change": 0.017493157815768434,
+   "score": 1.0,
+   "observation_date": "2026-11-26",
+   "previous_date": "2026-11-25",
+   "direction": "Up",
+   "description": "Rising strongly",
    "status": "Latest completed session",
    "roll_warning": null,
-   "live": {
-    "price": 10609.3,
-    "change": 0.017493176547365596,
-    "score": 1.0,
-    "as_at_utc": "2026-11-26T16:35:29+00:00",
-    "session_date": "2026-11-26",
-    "direction": "Up",
-    "description": "Rising strongly"
-   }
+   "live": null
   },
   {
    "id": "nasdaq",
@@ -48,25 +40,17 @@
    "id": "vix",
    "name": "VIX / market anxiety",
    "units": "Index points",
-   "latest": 28.290000915527344,
-   "previous": 26.360000610351562,
-   "change": 0.07321700532957776,
-   "score": -0.28108559187078225,
-   "observation_date": "2026-11-25",
-   "previous_date": "2026-11-24",
-   "direction": "Up",
-   "description": "Anxiety rising",
+   "latest": 26.799999237060547,
+   "previous": 28.290000915527344,
+   "change": -0.052668845183705515,
+   "score": 0.20262580206024045,
+   "observation_date": "2026-11-26",
+   "previous_date": "2026-11-25",
+   "direction": "Down",
+   "description": "Anxiety easing slightly",
    "status": "Latest completed session",
    "roll_warning": null,
-   "live": {
-    "price": 26.8,
-    "change": -0.05266881821518554,
-    "score": 0.20219955561566044,
-    "as_at_utc": "2026-11-26T16:30:00+00:00",
-    "session_date": "2026-11-26",
-    "direction": "Down",
-    "description": "Anxiety easing slightly"
-   }
+   "live": null
   },
   {
    "id": "brent",
@@ -80,14 +64,14 @@
    "previous_date": "2026-11-24",
    "direction": "Up",
    "description": "Rising",
-   "status": "Latest completed session",
+   "status": "Awaiting daily data",
    "roll_warning": "Rolling front-contract series: expiry/roll can cause artificial daily jumps. Yahoo does not supply a verified daily contract mapping here, so no roll adjustment is claimed. Closes are not guaranteed official settlements.",
    "live": {
-    "price": 91.73,
-    "change": -0.030440763045893604,
-    "score": -0.5104250941123145,
-    "as_at_utc": "2026-11-26T19:29:29+00:00",
-    "session_date": "2026-11-26",
+    "price": 92.38,
+    "change": -0.023570453397794178,
+    "score": -0.3952250104802142,
+    "as_at_utc": "2026-11-27T07:00:03+00:00",
+    "session_date": "2026-11-27",
     "direction": "Down",
     "description": "Falling"
    }
@@ -104,14 +88,14 @@
    "previous_date": "2026-11-24",
    "direction": "Down",
    "description": "Falling slightly",
-   "status": "Latest completed session",
+   "status": "Awaiting daily data",
    "roll_warning": "Rolling front-contract series: expiry/roll can cause artificial daily jumps. Yahoo does not supply a verified daily contract mapping here, so no roll adjustment is claimed. Closes are not guaranteed official settlements.",
    "live": {
-    "price": 3.599,
-    "change": 0.10094828424687008,
+    "price": 3.592,
+    "change": 0.09880695665872663,
     "score": 1.0,
-    "as_at_utc": "2026-11-26T19:29:57+00:00",
-    "session_date": "2026-11-26",
+    "as_at_utc": "2026-11-27T07:00:22+00:00",
+    "session_date": "2026-11-27",
     "direction": "Up",
     "description": "Rising strongly"
    }
@@ -128,40 +112,40 @@
    "previous_date": "2026-11-24",
    "direction": "Down",
    "description": "Falling slightly",
-   "status": "Latest completed session",
+   "status": "Awaiting daily data",
    "roll_warning": "Rolling front-contract series: expiry/roll can cause artificial daily jumps. Yahoo does not supply a verified daily contract mapping here, so no roll adjustment is claimed. Closes are not guaranteed official settlements.",
    "live": {
-    "price": 3593.4,
-    "change": 0.016290500134747532,
-    "score": 0.5211782887045937,
-    "as_at_utc": "2026-11-26T19:29:59+00:00",
-    "session_date": "2026-11-26",
+    "price": 3683.5,
+    "change": 0.04177271031511731,
+    "score": 1.0,
+    "as_at_utc": "2026-11-27T07:00:21+00:00",
+    "session_date": "2026-11-27",
     "direction": "Up",
-    "description": "Rising"
+    "description": "Rising strongly"
    }
   },
   {
    "id": "pound",
    "name": "Pound strength",
    "units": "Own index; first common stored date = 100",
-   "latest": 101.63566241507746,
-   "previous": 101.32879355736497,
-   "change": 0.003028446771536464,
-   "score": 0.7590570501157761,
-   "observation_date": "2026-11-25",
-   "previous_date": "2026-11-24",
-   "direction": "Up",
-   "description": "Strengthening strongly",
+   "latest": 101.48255613893038,
+   "previous": 101.63566241507746,
+   "change": -0.0015064227704032485,
+   "score": -0.3702963390178625,
+   "observation_date": "2026-11-26",
+   "previous_date": "2026-11-25",
+   "direction": "Down",
+   "description": "Weakening",
    "status": "Latest completed session",
    "roll_warning": null,
    "live": {
-    "price": 101.52752639703061,
-    "change": -0.0010639574286949172,
-    "score": -0.26667280233034996,
-    "as_at_utc": "2026-11-26T21:09:45+00:00",
-    "session_date": "2026-11-26",
-    "direction": "Down",
-    "description": "Weakening"
+    "price": 101.5316628627198,
+    "change": 0.0004838932488278047,
+    "score": 0.11894662111913686,
+    "as_at_utc": "2026-11-27T07:09:47+00:00",
+    "session_date": "2026-11-27",
+    "direction": "Up",
+    "description": "Strengthening slightly"
    }
   },
   {
@@ -176,16 +160,16 @@
    "previous_date": "2026-11-24",
    "direction": "Down",
    "description": "Weakening slightly",
-   "status": "Latest completed session",
+   "status": "Awaiting daily data",
    "roll_warning": null,
    "live": {
-    "price": 103.781,
-    "change": 0.0010707228032722504,
-    "score": 0.1685797334518453,
-    "as_at_utc": "2026-11-26T21:00:20+00:00",
-    "session_date": "2026-11-26",
+    "price": 103.702,
+    "change": 0.00030868941468042976,
+    "score": 0.048601541955767234,
+    "as_at_utc": "2026-11-27T07:00:23+00:00",
+    "session_date": "2026-11-27",
     "direction": "Up",
-    "description": "Strengthening slightly"
+    "description": "Little changed"
    }
   }
  ]
