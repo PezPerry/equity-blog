@@ -1,7 +1,7 @@
 {
  "snapshot_version": 1,
  "generated_at_utc": "2026-11-27T07:00:09.220432+00:00",
- "synced_at_utc": "2026-11-27T20:10:03+00:00",
+ "synced_at_utc": "2026-11-27T21:10:04+00:00",
  "note": "Latest prices, checked about once an hour and possibly delayed, compared with the last completed close.",
  "instruments": [
   {
@@ -163,10 +163,10 @@
    "status": "Latest completed session",
    "roll_warning": null,
    "live": {
-    "price": 101.51180907656058,
-    "change": 0.00028825582191838173,
-    "score": 0.07085665302867723,
-    "as_at_utc": "2026-11-27T20:09:44+00:00",
+    "price": 101.51092092467263,
+    "change": 0.00027950405292731517,
+    "score": 0.06870536583294898,
+    "as_at_utc": "2026-11-27T21:09:45+00:00",
     "session_date": "2026-11-27",
     "direction": "Up",
     "description": "Strengthening slightly"
@@ -187,10 +187,10 @@
    "status": "Awaiting daily data",
    "roll_warning": null,
    "live": {
-    "price": 104.032,
-    "change": 0.003491866860697135,
-    "score": 0.5497762659267638,
-    "as_at_utc": "2026-11-27T20:00:22+00:00",
+    "price": 104.04,
+    "change": 0.0035690347987826776,
+    "score": 0.561925956204894,
+    "as_at_utc": "2026-11-27T21:00:22+00:00",
     "session_date": "2026-11-27",
     "direction": "Up",
     "description": "Strengthening"
