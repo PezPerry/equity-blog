@@ -8,8 +8,9 @@ has not handled before it:
 
   1. pulls the latest equity-blog main,
   2. hands the note to Claude Code headless (`claude -p`) inside the repo, which
-     makes the change or writes the article and commits it,
-  3. pushes the commit(s), which fires the existing Publish-to-Base44 workflow,
+     makes the change or writes the article,
+  3. commits whatever Claude changed and pushes it, which fires the existing
+     Publish-to-Base44 workflow,
   4. writes the outcome back into the note's frontmatter, so it shows in Obsidian.
 
 Notes are keyed by their path in the vault. A note is handled once; to run it
@@ -55,13 +56,22 @@ DEFAULTS = {
     "claude_args": [
         "--permission-mode", "acceptEdits",
         "--allowedTools", "Read", "Edit", "Write", "Glob", "Grep",
-        "Bash(git add:*)", "Bash(git commit:*)", "Bash(git status:*)",
-        "Bash(git diff:*)", "Bash(git log:*)", "Bash(python:*)", "Bash(python3:*)",
+        "Bash(git status:*)", "Bash(git diff:*)", "Bash(git log:*)",
+        "Bash(python:*)", "Bash(python3:*)",
     ],
-    "claude_timeout_seconds": 1800,
+    # A full article (page, cover, tiles) can run past half an hour.
+    "claude_timeout_seconds": 3600,
     "state_file": os.path.join(HERE, "state.json"),
     "log_file": os.path.join(HERE, "runner.log"),
     "lock_file": os.path.join(HERE, "runner.lock"),
+    # Present only while Claude is working on a note. If a run is killed mid-job
+    # the marker survives, telling the next run that the dirty checkout is its
+    # own leftover and safe to discard.
+    "job_marker": os.path.join(HERE, "runner.job"),
+    # Written to the vault root after every scan so a stalled runner, a missing
+    # folder or a failed note shows up in Obsidian, not just in runner.log.
+    # Set to "" to turn it off.
+    "status_note": "Website Runner Status.md",
 }
 
 PROMPT = """You are running unattended from the Obsidian website-notes runner.
@@ -80,10 +90,10 @@ Read the note below and action it in this repository:
   cover image only if the note supplies one.
 - Leave anything the note does not ask for alone.
 
-Commit your work with a clear message that names the note. Do NOT push; the
-runner pushes. Do not ask questions: nobody is watching. If the note cannot be
-actioned safely (unclear, needs information you do not have, needs credentials,
-or is not about this website), make no commit.
+Do NOT commit or push: leave your changes in the working tree and the runner
+commits and pushes them. Do not ask questions: nobody is watching. If the note
+cannot be actioned safely (unclear, needs information you do not have, needs
+credentials, or is not about this website), change no files.
 
 Finish your reply with exactly one line starting "RUNNER-SUMMARY:" that says in
 one sentence what you did, or why you did nothing.
@@ -123,7 +133,7 @@ def load_config(path):
             cfg.update(json.load(fh))
     if not cfg["vault_path"]:
         sys.exit("vault_path is not set. Copy config.example.json to config.json and fill it in.")
-    for key in ("vault_path", "repo_path", "state_file", "log_file", "lock_file"):
+    for key in ("vault_path", "repo_path", "state_file", "log_file", "lock_file", "job_marker"):
         cfg[key] = os.path.abspath(os.path.expanduser(os.path.expandvars(cfg[key])))
     return cfg
 
@@ -143,11 +153,15 @@ def save_state(path, state):
     os.replace(tmp, path)
 
 
-def acquire_lock(path, log):
-    """Stop a Task Scheduler run from overlapping a long Claude job."""
+def acquire_lock(path, log, max_age):
+    """Stop a Task Scheduler run from overlapping a long Claude job.
+
+    A run killed mid-job (reboot, sleep, the task's time limit) leaves its lock
+    behind, so a lock older than the longest a run can take is treated as stale.
+    """
     if os.path.exists(path):
         age = time.time() - os.path.getmtime(path)
-        if age < 4 * 3600:
+        if age < max_age:
             log("Another run holds %s (%.0f min old); exiting." % (path, age / 60))
             return False
         log("Removing stale lock (%.1f h old)." % (age / 3600))
@@ -256,9 +270,17 @@ def git(cfg, *args, check=True):
     return res.stdout.strip()
 
 
-def prepare_repo(cfg):
+def discard_changes(cfg):
+    git(cfg, "reset", "--hard", "HEAD")
+    git(cfg, "clean", "-fd")
+
+
+def prepare_repo(cfg, log):
     if git(cfg, "status", "--porcelain"):
-        raise RuntimeError("repo has uncommitted changes; the runner will not work on a dirty checkout")
+        if not os.path.exists(cfg["job_marker"]):
+            raise RuntimeError("repo has uncommitted changes; the runner will not work on a dirty checkout")
+        log("  discarding edits left by an interrupted run")
+        discard_changes(cfg)
     git(cfg, "checkout", cfg["branch"])
     git(cfg, "pull", "--rebase", "origin", cfg["branch"])
     return git(cfg, "rev-parse", "HEAD")
@@ -297,14 +319,28 @@ def run_claude(cfg, folder, name, body):
 
 
 def process_note(cfg, log, folder, path, rel, body):
-    before = prepare_repo(cfg)
-    summary = run_claude(cfg, folder, os.path.basename(path), body)
+    before = prepare_repo(cfg, log)
+    name = os.path.basename(path)
+    with open(cfg["job_marker"], "w", encoding="utf-8") as fh:
+        fh.write(rel)
+    try:
+        summary = run_claude(cfg, folder, name, body)
+        if git(cfg, "status", "--porcelain"):
+            # The runner owns the commit: headless Claude's own `git commit` calls
+            # can be refused by the tool allowlist, and work left uncommitted used
+            # to be thrown away and the note filed as "no-change".
+            git(cfg, "add", "-A")
+            title = os.path.splitext(name)[0]
+            git(cfg, "commit", "-m", "Obsidian note: %s" % title, "-m", summary or "Actioned by the website-notes runner.")
+    except BaseException:
+        # A timeout or crash mid-job must not leave a dirty checkout, or every
+        # later note fails the dirty-checkout check in prepare_repo.
+        discard_changes(cfg)
+        raise
+    finally:
+        if not git(cfg, "status", "--porcelain"):
+            os.remove(cfg["job_marker"])
     after = git(cfg, "rev-parse", "HEAD")
-    if git(cfg, "status", "--porcelain"):
-        # Claude left edits uncommitted; don't let them leak into the next note.
-        git(cfg, "reset", "--hard", after)
-        git(cfg, "clean", "-fd")
-        log("  discarded uncommitted edits Claude left behind")
     if after == before:
         return "no-change", [], summary
     commits = git(cfg, "rev-list", "--reverse", "%s..%s" % (before, after)).split()
@@ -372,6 +408,31 @@ def scan(cfg, log, dry_run=False, mark_existing=False):
             log("  could not update note frontmatter: %s" % exc)
 
     save_state(cfg["state_file"], state)
+    if not (dry_run or mark_existing):
+        write_status_note(cfg, log, folders, notes)
+
+
+def write_status_note(cfg, log, folders, notes):
+    if not cfg.get("status_note"):
+        return
+    missing = [n for n in cfg["watch_folders"] if n not in folders]
+    recent = sorted(notes.items(), key=lambda kv: kv[1].get("at", ""), reverse=True)[:15]
+    lines = ["# Website runner status", "",
+             "Last scan: %s" % now_iso(),
+             "Watching: %s" % (", ".join(sorted(folders)) or "nothing"), ""]
+    if missing:
+        lines += ["**Watched folders not found in the vault:** %s" % ", ".join(missing), ""]
+    lines += ["| Note | Status | When | Summary |", "|---|---|---|---|"]
+    for rel, e in recent:
+        if e.get("status") == "baseline":
+            continue
+        lines.append("| %s | %s | %s | %s |" % (rel, e.get("status", ""), e.get("at", ""),
+                                               (e.get("summary") or "").replace("|", "/").replace("\n", " ")))
+    try:
+        with open(os.path.join(cfg["vault_path"], cfg["status_note"]), "w", encoding="utf-8") as fh:
+            fh.write("\n".join(lines) + "\n")
+    except OSError as exc:
+        log("Could not write status note: %s" % exc)
 
 
 def main():
@@ -391,7 +452,7 @@ def main():
     if args.dry_run or args.mark_existing:
         scan(cfg, log, dry_run=args.dry_run, mark_existing=args.mark_existing)
         return
-    if not acquire_lock(cfg["lock_file"], log):
+    if not acquire_lock(cfg["lock_file"], log, cfg["claude_timeout_seconds"] + 1800):
         return
     try:
         while True:

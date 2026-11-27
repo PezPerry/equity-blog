@@ -2,8 +2,8 @@
 
 Watches the Obsidian folders **General Website Updates**, **Website Updates** and
 **Equity and Markets Insight**. When a new note shows up, the runner passes it to
-Claude Code inside this repo. Claude makes the site change or writes the article
-and commits it. The runner then pushes to `main`, and the existing
+Claude Code inside this repo. Claude makes the site change or writes the article,
+and the runner commits it and pushes to `main`, and the existing
 *Publish Article to Base44* workflow publishes any new article and rotates the
 front page.
 
@@ -47,6 +47,19 @@ shows up in Obsidian:
 Notes are left alone until they have gone unchanged for `settle_seconds`
 (2 minutes by default), so a note still being typed or synced isn't picked up
 half-finished.
+
+## Is it running?
+
+After every scan the runner rewrites **Website Runner Status.md** at the vault
+root. It shows the time of the last scan, any watched folder it couldn't find,
+and the latest notes with their outcomes. If the last-scan time is stale, the
+scheduled task isn't running. Re-run `install-task.ps1` after pulling this
+version, because it now lets the task run on battery. Set `status_note` to `""`
+in `config.json` to turn the status note off.
+
+If a run is killed mid-note (reboot, sleep, the task's 2-hour limit), the next
+run discards that run's half-finished edits and carries on. It won't touch
+edits it didn't make.
 
 ## Logs and state
 
