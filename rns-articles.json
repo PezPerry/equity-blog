@@ -1,5 +1,44 @@
 [
   {
+    "company": "Gamma Communications plc",
+    "ticker": "GAMA",
+    "publish_date": "27 November 2026",
+    "date_iso": "2026-11-27",
+    "time_period": "",
+    "announcement_type": "Acquisition / deal",
+    "period_detail": "",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-27T10:55:54.879868",
+    "locked": true
+  },
+  {
+    "company": "Entain plc",
+    "ticker": "ENT",
+    "publish_date": "27 November 2026",
+    "date_iso": "2026-11-27",
+    "time_period": "",
+    "announcement_type": "Corporate update",
+    "period_detail": "",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-27T10:55:54.843851",
+    "locked": true
+  },
+  {
+    "company": "Diploma PLC",
+    "ticker": "DPLM",
+    "publish_date": "27 November 2026",
+    "date_iso": "2026-11-27",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "priority": "medium",
+    "source_format": "html",
+    "added_at": "2026-11-27T10:55:54.805096",
+    "locked": true
+  },
+  {
     "company": "Coca-Cola HBC AG",
     "ticker": "CCH",
     "publish_date": "27 November 2026",
