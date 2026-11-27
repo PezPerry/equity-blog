@@ -1,5 +1,31 @@
 [
   {
+    "company": "Imperial Brands plc",
+    "ticker": "IMB",
+    "publish_date": "27 November 2026",
+    "date_iso": "2026-11-27",
+    "time_period": "",
+    "announcement_type": "M&A / takeover approach",
+    "period_detail": "",
+    "priority": "high",
+    "source_format": "html",
+    "added_at": "2026-11-27T07:07:58.946811",
+    "locked": true
+  },
+  {
+    "company": "Crest Nicholson Holdings Ltd",
+    "ticker": "CRST",
+    "publish_date": "27 November 2026",
+    "date_iso": "2026-11-27",
+    "time_period": "",
+    "announcement_type": "Board / management change",
+    "period_detail": "",
+    "priority": "medium",
+    "source_format": "html",
+    "added_at": "2026-11-27T07:07:58.917337",
+    "locked": true
+  },
+  {
     "company": "Shawbrook Group PLC",
     "ticker": "SHAW",
     "publish_date": "26 November 2026",
@@ -813,10 +839,23 @@
     "time_period": "",
     "announcement_type": "Acquisition / deal",
     "period_detail": "",
-    "priority": "high",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>FCA regulatory condition</strong> to the recommended cash acquisition of <strong>Spire Healthcare</strong> by <strong>Bidco</strong> (a consortium of <strong>Toscafund Asset Management</strong>, <strong>THCP Advisory</strong> and <strong>Ares Management</strong>) was satisfied on <strong>19 November 2026</strong>.</li><li><strong>Court Hearing</strong> to sanction the scheme is scheduled for <strong>3 December 2026</strong>, with the <strong>Effective Date</strong> expected on <strong>7 December 2026</strong>.</li><li>Last day of dealings in Spire shares expected <strong>4 December 2026</strong>; listing and admission to trading to be cancelled by <strong>8.00 a.m. on 8 December 2026</strong>.</li><li>Scheme already approved by shareholders at the Court Meeting and General Meeting held on <strong>30 October 2026</strong>; financial terms of the cash and alternative offers are <strong>final</strong>.</li><li>Election and KYC deadlines for the <strong>Alternative Offer</strong> set at <strong>1.00 p.m. on 2 December</strong> and <strong>1.00 p.m. on 30 November 2026</strong> respectively.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-11-23T15:36:23.280822",
-    "locked": true
+    "headline": "Spire's recommended cash takeover by the Toscafund-led consortium clears its FCA condition, with completion expected 7 December and delisting by 8 December 2026.",
+    "priority": "high",
+    "priority_reason": "Recommended takeover nearing completion — final FCA condition satisfied and a firm timetable to delisting now set.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/london/spire-healthcare-SPI/share-news/Spire-Healthcare-Group-PLC-Recommended-Final-Acqu/99756264",
+    "related_news_url": "https://news.google.com/search?q=%22Spire%20Healthcare%20Group%20plc%22",
+    "added_at": "2026-11-23T15:36:23.280822"
   },
   {
     "company": "PayPal Holdings Inc",
@@ -826,10 +865,23 @@
     "time_period": "",
     "announcement_type": "Board / management change",
     "period_detail": "",
-    "priority": "medium",
+    "type_workings": "Type stated explicitly in the source document. [rns.json record]",
+    "body": "<ul><li><strong>PayPal Holdings</strong> has appointed <strong>Brian J. Lee</strong> to its <strong>Board of Directors</strong>, effective <strong>30 November 2026</strong>.</li><li>Lee spent three decades at <strong>Goldman Sachs</strong>, serving as <strong>Chief Risk Officer (2019–January 2025)</strong> and Chairman of its Risk Council (2025–October 2026); he also sits on the board of <strong>KKR & Co.</strong></li><li>Chair David Dorman and CEO Enrique Lores framed the appointment around risk, governance and PayPal's three-year strategy as the group sharpens its focus on financial services.</li><li>Routine board appointment with <strong>no impact</strong> on trading or guidance.</li></ul>",
     "source_format": "html",
-    "added_at": "2026-11-23T15:36:22.933753",
-    "locked": true
+    "headline": "PayPal appoints former Goldman Sachs Chief Risk Officer Brian J. Lee to its Board of Directors, effective 30 November 2026.",
+    "priority": "medium",
+    "priority_reason": "Board appointment of a new non-executive director — a governance change with no immediate impact on trading or guidance.",
+    "figures": [],
+    "guidance": {
+      "status": "none",
+      "previous": "",
+      "current": "",
+      "commentary": ""
+    },
+    "explainer": "",
+    "source_url": "https://uk.advfn.com/stock-market/NASDAQ/PYPL/share-news/Brian-J-Lee-to-Join-PayPals-Board-of-Directors/99756308",
+    "related_news_url": "https://news.google.com/search?q=%22PayPal%20Holdings%2C%20Inc.%22",
+    "added_at": "2026-11-23T15:36:22.933753"
   },
   {
     "company": "Atalaya Mining Copper, S.A.",
